@@ -52,6 +52,13 @@ example
 - [search.carrot2.org/stable/search](http://search.carrot2.org/stable/search)
 - [Shodan](https://www.shodan.io/)
 
+# Jurnals 
+
+- [sciencedirect](https://www.sciencedirect.com/)
+- [Scopus](https://www.scopus.com/)
+- [Sinta](https://sinta.kemdikbud.go.id/)
+- [ieeexplore](https://ieeexplore.ieee.org)
+
 # Crack Jurnals 
 
 - [SCI HUB](https://sci-hub.hkvisa.net/)
