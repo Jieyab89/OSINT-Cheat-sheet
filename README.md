@@ -117,7 +117,7 @@ This domain will always change
 
 # Social Networks 
 
-- [Facebook](www.facebook.com/livemap)
+- [Facebook](https://facebook.com/livemap)
 - [Sherlock]()
 
 # Google Queries for Facebook 
