@@ -135,27 +135,27 @@ This domain will always change
 
 - [Findmyfbid](http://www.findmyfbid.com/)
 
-> Photos By - https://www.facebook.com/search/<ID>/photos-by
+> Photos By - https://www.facebook.com/search/taget_id/photos-by
 >  
-> Photos Liked - https://www.facebook.com/search/<ID>/photos-liked
+> Photos Liked - https://www.facebook.com/search/taget_id/photos-liked
 >  
-> Photos Of - https://www.facebook.com/search/<ID>/photos-of
+> Photos Of - https://www.facebook.com/search/taget_id/photos-of
 >  
-> Comments - https://www.facebook.com/search/<ID>/photos-commented
+> Comments - https://www.facebook.com/search/taget_id/photos-commented
 >  
-> Friends - https://www.facebook.com/search/<ID>/friends
+> Friends - https://www.facebook.com/search/taget_id/friends
 >  
-> Videos Tagged - https://www.facebook.com/search/<ID>/videos
+> Videos Tagged - https://www.facebook.com/search/taget_id/videos
 >  
-> Videos By - https://www.facebook.com/search/<ID>/videos-by
+> Videos By - https://www.facebook.com/search/taget_id/videos-by
 >  
-> Videos Liked - https://www.facebook.com/search/<ID>/videos-liked
+> Videos Liked - https://www.facebook.com/search/taget_id/videos-liked
 >  
-> Videos Commented - https://www.facebook.com/search/<ID>/videos-commented
+> Videos Commented - https://www.facebook.com/search/taget_id/videos-commented
 >  
-> Events Attended - https://www.facebook.com/search/<ID>/events-joined
+> Events Attended - https://www.facebook.com/search/taget_id/events-joined
 >  
-> Relatives - https://www.facebook.com/search/<ID>/relatives
+> Relatives - https://www.facebook.com/search/taget_id/relatives
 >  
 
 # The Ultimate Facebook Investigation Tool 
