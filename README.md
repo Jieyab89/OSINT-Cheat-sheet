@@ -116,25 +116,40 @@ This domain will always change
 # Google Queries for Facebook 
 
 > Group Search: site:facebook.com inurl:group
+> 
 > Group Wall Posts Search: site:facebook.com inurl:wall 
+> 
 > Pages Search: site:facebook.com inurl:pages
+> 
 > Public Profiles: allinurl: people ‘‘name’’ site:facebook.com
+> 
 
 # Facebook Query Language (FQL) 
 
 - [Findmyfbid](http://www.findmyfbid.com/)
 
 > Photos By - https://www.facebook.com/search/<ID>/photos-by
+>  
 > Photos Liked - https://www.facebook.com/search/<ID>/photos-liked
+>  
 > Photos Of - https://www.facebook.com/search/<ID>/photos-of
+>  
 > Comments - https://www.facebook.com/search/<ID>/photos-commented
+>  
 > Friends - https://www.facebook.com/search/<ID>/friends
+>  
 > Videos Tagged - https://www.facebook.com/search/<ID>/videos
+>  
 > Videos By - https://www.facebook.com/search/<ID>/videos-by
+>  
 > Videos Liked - https://www.facebook.com/search/<ID>/videos-liked
+>  
 > Videos Commented - https://www.facebook.com/search/<ID>/videos-commented
+>  
 > Events Attended - https://www.facebook.com/search/<ID>/events-joined
+>  
 > Relatives - https://www.facebook.com/search/<ID>/relatives
+>  
 
 # The Ultimate Facebook Investigation Tool 
 
@@ -159,20 +174,30 @@ This domain will always change
 
 Google queries for LinkedIn
 > Public Profiles: site:linkedin.com inurl:pub
+>  
 > Updated Profiles: site:linkedin.com inurl:updates
+>  
 > Company Profiles: site:linkedin.com inurl:companies
+>  
 
 # MySpace
 
 Google queries for MySpace
 
 > Profiles: site: myspace.com inurl:profile
-> Blogs: site:myspace.com inurl:blogs 
+>  
+> Blogs: site:myspace.com inurl:blogs
+>  
 > Videos: site:myspace.com inurl:vids
-> Jobs: site:myspace.com inurl:jobs 
+>  
+> Jobs: site:myspace.com inurl:jobs
+>  
 > Videos: site:myspace.com ‘‘TARGET NAME’’ ‘‘videos’’
+>  
 > Comments: site:myspace.com ‘‘TARGET NAME’’ ‘‘comments’’
+>  
 > Friends: site:myspace.com ‘‘TARGET NAME’’ ‘‘friends’’
+>  
 
 # Social Network Search Engines
 
@@ -231,7 +256,9 @@ Google queries for MySpace
 # Shodan Query Options
 
 > https://pen-testing.sans.org/blog/2015/12/08/effective-shodan-searches
+>  
 > https://danielmiessler.com/study/shodan/#gs.VBVsyo0
+>  
 
 # Capturing Information
 
