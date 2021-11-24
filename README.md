@@ -4,6 +4,16 @@
 
 OSINT RESOURCES DATASET 
 
+# Forums 
+
+- [Bellingcat Discord](https://discord.com/invite/nTaNPmz)
+- [Independent OSINT](https://discord.com/invite/2DGJ2EC)
+- [OSINT.Team](https://osint.team)
+- [Seccodeid](https://forum.seccodeid.com)
+- [/r/OSINT](https://www.reddit.com/r/OSINT)
+- [TraceLabs Slack](https://tracelabs.slack.com)
+
+
 # General Search 
 
 - [ASK](http://www.ask.com)
