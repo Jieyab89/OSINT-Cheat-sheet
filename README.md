@@ -4,6 +4,109 @@
 
 OSINT RESOURCES DATASET 
 
+# General Search 
+
+- [ASK](http://www.ask.com)
+- [Baidu](http://www.baidu.com)
+- [DuckDuckGo](https://duckduckgo.com)
+- [Yandex](https://www.yandex.com)
+- [Infospace](http://www.infospace.com)
+
+# Meta Search 
+
+- [100SearchEngines](https://www.100searchengines.com)
+- [Bing vs. Google](http://bvsg.org)
+- [DADgogo](http://dadgogo.com)
+- [Etools](http://www.etools.ch)
+- [WebCrawler](http://www.webcrawler.com)
+
+# Code Search 
+
+- [Chromium Code Search](https://source.chromium.org/chromium)
+- [Android Code Search](https://cs.android.com)
+- [Code Finder](http://codefinder.org)
+- [CodeSeek](https://www.codeseek.co)
+- [Debian Code Search](http://codesearch.debian.net)
+- [Scala](https://www.programcreek.com/scala)
+- [SearchCode](https://searchcode.com)
+- [SourceCodeOnline](http://www.sourcecodeonline.com)
+- [Woboq](https://code.woboq.org)
+
+# Competitive Programming 
+
+- [Hackerrank](https://www.hackerrank.com/)
+- [Code chef](https://www.codechef.com/)
+- [Code war](https://www.codewars.com/)
+
+# File & FTP 
+
+- [Archie](http://archie.icm.edu.pl/archie_eng.html)
+- [4shared](https://www.4shared.com)
+- [FileSearching](http://www.filesearching.com)
+- [File chef](https://www.filechef.com)
+- [Global File Search](Global File Search)
+- [Search Shared](https://www.searchshared.info)
+
+# Social Media Search and Monitoring
+
+- [AIDR](http://aidr.qcri.org)
+- [Awario](https://awario.com)
+- [Brand24](https://brand24.com)
+- [Mention](https://mention.com)
+- [Samdesk](https://www.samdesk.io)
+- [Social Links](https://www.mtg-bi.com)
+
+# Social Media Management and Content Discovery
+
+- [Agora pulse](https://www.agorapulse.com)
+- [Buffer](https://buffer.com)
+- [Coosto](https://www.coosto.com)
+- [Falcon](https://www.falcon.io)
+- [tailwind](https://www.tailwindapp.com)
+- [Revive Social](https://revive.social)
+
+# Web Intelligence 
+
+- [Better Whois](http://www.betterwhois.com)
+- [DNS History](http://dnshistory.org)
+- [DNS Spy](https://dnsspy.io)
+- [DNS Checker](https://dnschecker.org)
+- [HackerTarget](https://hackertarget.com/ip-tools)
+- [Shodan](https://www.shodan.io)
+
+# Analysing URLs 
+
+- [unfurl](https://github.com/obsidianforensics/unfurl)
+
+# Researching Cyber Threats 
+
+- [Apility.io](https://apility.io)
+- [Alien Vault](https://otx.alienvault.com)
+- [AutoShun](https://www.autoshun.org)
+- [Blacklist Check Tool](http://www.blchecktool.com)
+- [Censys](https://censys.io)
+- [CVE Details](https://www.cvedetails.com)
+- [IBM X-Force Exchange](https://exchange.xforce.ibmcloud.com)
+- [JoeSandbox Cloud](https://www.joesandbox.com)
+- [Is It Hacked?](http://www.isithacked.com)
+- [Is It Phishing](https://isitphishing.org)
+- [Kaspersky Threat](https://opentip.kaspersky.com)
+- [Malware Domain List](http://www.malwaredomainlist.com/mdl.php)
+- [Malware URL Website](https://www.malwareurl.com/listing-urls.php)
+- [Quttera](https://quttera.com)
+- [Virus total](https://www.virustotal.com/gui/home/upload)
+- [Virus Share](https://virusshare.com)
+- [Web Cookies Scanner](https://webcookies.org)
+
+# IoT Search Engines
+
+- [LeakIX](https://leakix.net)
+- [Binary Edge](https://www.binaryedge.io)
+- [Purplepee.com](https://purplepee.co)
+- [Shodan](https://www.shodan.io)
+- [Shodan Filters](https://github.com/T43cr0wl3r/shodan-filters)
+- [Shodan Scripts](https://github.com/random-robbie/My-Shodan-Scripts)
+
 # IP Addresses 
 - [Whats my ip](https://whatismyipaddress.com/)
 This tools can show your ip address isp provider 
