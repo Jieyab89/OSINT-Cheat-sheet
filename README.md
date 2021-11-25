@@ -4,6 +4,19 @@
 
 OSINT RESOURCES DATASET 
 
+# SOCMINT  
+
+- [Instagram](https://github.com/Datalux/Osintgram) 
+Be carefull using this tool
+
+- [SOCMINT tool](https://osint.support/chrome-extensions/2019/09/29/osint-socmint-tooling.html)
+- [Graph Search](http://socmint.tools/graph.htm)
+
+# Collection Dataset 
+
+- [Kaggle](https://www.kaggle.com/)
+
+
 # Forums 
 
 - [Bellingcat Discord](https://discord.com/invite/nTaNPmz)
