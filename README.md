@@ -4,6 +4,33 @@
 
 OSINT RESOURCES DATASET 
 
+# EXIF TOOL COMMAND 
+
+#Write metadata 
+
+- exiftool -tagname="string" file 
+>
+>example : exiftool -Author="Bayu" test.txt 
+>
+
+you can add multiple tag and multiple file 
+
+#Delete metadata 
+
+- exiftool -tagname="" file 
+>
+>example : exiftool -Author="" test.txt 
+>
+
+#Delete mass metadata 
+
+- exiftool -all="" file 
+>
+>example : exiftool -all="" file 
+>
+
+#Usage : man exiftool or read documentation exiftool.org 
+
 # SOCMINT  
 
 - [Instagram](https://github.com/Datalux/Osintgram) 
