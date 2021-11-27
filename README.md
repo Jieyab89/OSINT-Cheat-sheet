@@ -31,6 +31,16 @@ you can add multiple tag and multiple file
 
 #Usage : man exiftool or read documentation exiftool.org 
 
+> Not there are tag no writetable, make sure tagname can write 
+>
+
+#!Note 
+
+> Use fresh file, if your file has been compressed or edit metadata you got a default metadata
+> You can use xmp format for edit, write and delete metadata 
+> Check the documentation 
+
+
 # SOCMINT  
 
 - [Instagram](https://github.com/Datalux/Osintgram) 
