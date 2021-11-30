@@ -4,6 +4,9 @@
 
 OSINT RESOURCES DATASET 
 
+- [Join Telegram channel](https://t.me/seccodeid)
+- [OSINT beginner](https://t.me/seccodeid/38)
+
 # EXIF TOOL COMMAND 
 
 #Write metadata 
