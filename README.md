@@ -461,6 +461,15 @@ Firefox plugin that will assist in downloading all media from a website
 - [instaloctrack](https://github.com/bernsteining/instaloctrack)
 - [SpyScrap](https://github.com/RuthGnz/SpyScrap)
 - [osintteye](https://github.com/rlyonheart/osinteye)
+- [metagofil](https://github.com/kurobeats/metagoofil)
+- [recon-ng](https://github.com/lanmaster53/recon-ng)
+- [Harvester](https://github.com/laramies/theHarvester)
+- [Geo creepy](http://www.geocreepy.com/)
+- [trape](https://github.com/jofpin/trape)
+- [ReconDog](https://github.com/s0md3v/ReconDog)
+- [iKy](https://github.com/kennbroorg/iKy)
+- [Ghunt](https://github.com/mxrch/GHunt)
+- [Moriarty-Project](https://github.com/AzizKpln/Moriarty-Project)
 
 # OSINT Online Tool  
 
@@ -474,3 +483,4 @@ Firefox plugin that will assist in downloading all media from a website
 - [Hash tracking](https://www.hashtracking.com/)
 - [Bellingcat](https://www.bellingcat.com/)
 - [Socmint tool](http://socmint.tools/)
+- [Spyse](https://spyse.com/)
