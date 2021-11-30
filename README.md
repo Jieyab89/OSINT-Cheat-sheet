@@ -451,3 +451,36 @@ Firefox plugin that will assist in downloading all media from a website
 - [Recon-Ng](https://github.com/lanmaster53/recon-ng)
 - [Metagoofil](https://www.kali.org/tools/metagoofil/)
 - [More](https://forum.seccodeid.com/?q=osint)
+
+# OSINT Github Tool  
+
+- [tinfoleak](https://github.com/vaguileradiaz/tinfoleak)
+- [migret](https://github.com/soxoj/maigret)
+- [mosint](https://github.com/alpkeskin/mosint)
+- [osint_stuff_tool_collection](https://github.com/cipher387/osint_stuff_tool_collection)
+- [instaloctrack](https://github.com/bernsteining/instaloctrack)
+- [SpyScrap](https://github.com/RuthGnz/SpyScrap)
+- [osintteye](https://github.com/rlyonheart/osinteye)
+- [metagofil](https://github.com/kurobeats/metagoofil)
+- [recon-ng](https://github.com/lanmaster53/recon-ng)
+- [Harvester](https://github.com/laramies/theHarvester)
+- [Geo creepy](http://www.geocreepy.com/)
+- [trape](https://github.com/jofpin/trape)
+- [ReconDog](https://github.com/s0md3v/ReconDog)
+- [iKy](https://github.com/kennbroorg/iKy)
+- [Ghunt](https://github.com/mxrch/GHunt)
+- [Moriarty-Project](https://github.com/AzizKpln/Moriarty-Project)
+
+# OSINT Online Tool  
+
+- [Echosec](https://www.echosec.net/)
+- [Foller](https://foller.me/)
+- [Tweet Deck](https://tweetdeck.twitter.com/)
+- [Tweet Trips](https://www.tweetedtrips.com/)
+- [Tweet Tonomy](http://www.twitonomy.com/)
+- [Twinangulate](https://www.twiangulate.com/search/)
+- [Geosocial](http://geosocialfootprint.com/)
+- [Hash tracking](https://www.hashtracking.com/)
+- [Bellingcat](https://www.bellingcat.com/)
+- [Socmint tool](http://socmint.tools/)
+- [Spyse](https://spyse.com/)
