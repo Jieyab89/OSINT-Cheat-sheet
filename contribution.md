@@ -6,7 +6,7 @@ Thank you very much for those of you who contributed. You can contribute with me
 
 - Use heading for title or poin 
 - Use list and url 
-- Use englsih 
+- Use english  
 
 example : 
 
