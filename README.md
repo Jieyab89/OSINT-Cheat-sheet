@@ -337,8 +337,12 @@ This domain will always change
 or you can use dork for spesific example 
 
 > id <this id facebook> site:facebook.com 
-> page site: facebook.com 
+>  
+> page site: facebook.com
+>
 > id <this id facebook> site:facebook.com * 
+>
+> page site: facebook.com * 
 >
   
 # The Ultimate Facebook Investigation Tool 
