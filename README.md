@@ -172,12 +172,14 @@ Be carefull using this tool
 - [Shodan Scripts](https://github.com/random-robbie/My-Shodan-Scripts)
 
 # IP Addresses 
+
 - [Whats my ip](https://whatismyipaddress.com/)
 This tools can show your ip address isp provider 
 - [Ip 2 location](https://www.ip2location.com/)
 This tools can show your ip address isp provider and geo location  
 
 # Wireless Network 
+
 - [Wigle](https://www.wigle.net/)
 Maps and database of 802.11 wireless networks, with statistics, submitted by wardrivers, netstumblers, and 
 net huggers
@@ -188,6 +190,7 @@ net huggers
 - [Exploit db](https://www.exploit-db.com/)
 
 # Dorking 
+
 Dorking is a wonderful thing, you can use this technique to search for anything such as index of a website, looking for live online camera server and other specifics, as for dorking commands that you can do for example 
 
 1. intitle: Search for specific titles 
@@ -334,12 +337,106 @@ This domain will always change
 # The Ultimate Facebook Investigation Tool 
 
 - [Intel Technique](https://inteltechniques.com/osint/facebook.html)
+- [Agora Pulse](http://barometer.agorapulse.com)
+- [Commun.it](http://commun.it)
+- [DumpItBlue](http://le-tools.com/DumpItBlue.html)
+- [Fanpage Karma](http://www.fanpagekarma.com)
+- [Facebook Search](http://search.fb.com/)
+- [Facebook Search Tool](http://netbootcamp.org/facebook.html)
+- [Fb-sleep-stats](https://github.com/sqren/fb-sleep-stats)
+- [Find my Facebook ID](https://findmyfbid.in)
+- [Lookup-ID.com](https://lookup-id.com)
+- [SearchIsBack](https://searchisback.com)
+- [Wolfram Alpha Facebook Report](http://www.wolframalpha.com/input/?i=facebook+report)
+
+# Instagram 
+
+- [Hashtagify](http://hashtagify.me)
+- [Iconosquare](http://iconosquare.com)
+- [Picodash](https://www.picodash.com)
+- [SnapMap](https://snapmap.knightlab.com/)
+- [Social Rank](https://www.socialrank.com)
+- [Toutatis](https://github.com/megadose/toutatis)
+- [Worldcam](http://worldc.am)
+- [SearchMyBio](https://www.searchmy.bio/)
+
+# Pinterest 
+
+- [Pingroupie](http://pingroupie.com)
 
 # Twitter 
 
 - [search.twitter.com](https://twitter.com/search-home)
 - [twitter advanced](https://www.twitter.com/search-advanced)
 - [twitter who_to_follow](https://www.twitter.com/who_to_follow)
+- [Alldaytrends](https://alldaytrends.com) A website where you can find trending hashtags.
+- [Backtweets](http://backtweets.com) BackTweets is a Twitter analytics tool that allows users to search through a Tweet archive.
+- [Blue Nod](http://bluenod.com)
+- [burrrd.](https://burrrd.com)
+- [doesfollow](https://doesfollow.com)
+- [Fake Follower Check](https://fakers.statuspeople.com)
+- [First Tweet](http://ctrlq.org/first)
+- [Foller.me](http://foller.me)
+- [FollowCheck](http://followcheck.com)
+- [Followerwonk](http://followerwonk.com)
+- [Geochirp](http://www.geochirp.com)
+- [GeoSocial Footprint](http://geosocialfootprint.com)
+- [GetTwitterID](http://gettwitterid.com)
+- [Gigatweeter](http://gigatweeter.com)
+- [Ground Signal](https://www.groundsignal.com)
+- [HappyGrumpy](https://www.happygrumpy.com)
+- [Harvard TweetMap](http://worldmap.harvard.edu/tweetmap)
+- [Hashtagify](http://hashtagify.me)
+- [Hashtags.org](http://www.hashtags.org)
+- [ManageFlitter](http://manageflitter.com)
+- [Mentionmapp](http://mentionmapp.com)
+- [MyTweetAlerts](https://www.mytweetalerts.com/) A tool to create custom email alerts based on Twitter search.
+- [Nations24](https://nations24.com)
+- [OneMillionTweetMap](http://onemilliontweetmap.com)
+- [Queryfeed](https://queryfeed.net)
+- [Rank Speed](http://www.rankspeed.com)
+- [Riffle](http://crowdriff.com/riffle/)
+- [RiteTag](https://ritetag.com)
+- [Sentiment140](http://www.twittersentiment.appspot.com)
+- [SnapBird](http://snapbird.org)
+- [Sleeping Time](http://sleepingtime.org)
+- [Social Bearing](http://www.socialbearing.com)
+- [Social Rank First Follower](http://socialrank.com/firstfollower)
+- [Spoonbill](http://spoonbill.io)
+- [Tagdef](https://tagdef.com)
+- [TeachingPrivacy](http://app.teachingprivacy.com)
+- [Tinfoleak](https://tinfoleak.com)
+- [Trends24](http://trends24.in)
+- [TrendsMap](http://trendsmap.com)
+- [Ttrends](https://ttrends.co)
+- [twbirthday](http://twbirthday.com)
+- [TwChat](http://twchat.com)
+- [tweepsect](http://tweepsect.com)
+- [TweetArchivist](http://www.tweetarchivist.com)
+- [TweetDeck](https://www.tweetdeck.com)
+- [Tweeten](http://tweeten.xyz)
+- [TweetMap](http://mapd.csail.mit.edu/tweetmap)
+- [TweetMap](http://worldmap.harvard.edu/tweetmap)
+- [TweetPsych](http://tweetpsych.com)
+- [Tweetreach](http://tweetreach.com)
+- [TweetStats](http://www.tweetstats.com)
+- [TweetTunnel](http://tweettunnel.com)
+- [Twellow](http://www.twellow.com)
+- [Tweriod](http://www.tweriod.com)
+- [Twiangulate](http://www.twiangulate.com)
+- [Twicsy](http://twicsy.com)
+- [Twilert](http://www.twilert.com)
+- [Twipho](http://www.twipho.net)
+- [Twitonomy](http://www.twitonomy.com)
+- [TwitRSS](https://twitrss.me)
+- [Twitter Advanced Search](https://twitter.com/search-advanced?lang=en)
+- [Twitter Audit](https://www.twitteraudit.com)
+- [Twitter Chat Schedule](http://tweetreports.com/twitter-chat-schedule)
+- [Twitter Counter](http://twittercounter.com)
+- [Twitterfall](http://twitterfall.com)
+- [Twitter Search](http://search.twitter.com)
+- [TWUBS Twitter Chat](http://twubs.com/twitter-chats)
+- [Schedule Warble](https://warble.co)
 
 # Twitter Search Engines 
 
