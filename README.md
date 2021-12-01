@@ -334,6 +334,13 @@ This domain will always change
 > Relatives - https://www.facebook.com/search/taget_id/relatives
 >  
 
+or you can use dork for spesific example 
+
+> id <this id facebook> site:facebook.com 
+> page site: facebook.com 
+> id <this id facebook> site:facebook.com * 
+>
+  
 # The Ultimate Facebook Investigation Tool 
 
 - [Intel Technique](https://inteltechniques.com/osint/facebook.html)
