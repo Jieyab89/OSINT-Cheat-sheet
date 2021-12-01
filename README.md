@@ -608,7 +608,8 @@ Extension find email, people on profile Linkedin
 - [DownloadHealper](http://www.downloadhelper.net)
 - [Earthcam](http://www.earthcam.com)
 - [Insecam](http://insecam.org/)
-- [Frame by Frame](https://chrome.google.com/webstore/detail/frame-by-frame/cclnaabdfgnehogonpeddbgejclcjneh/) Browser plugin that allows you to watch YouTube videos frame by frame.
+- [Frame by Frame](https://chrome.google.com/webstore/detail/frame-by-frame/cclnaabdfgnehogonpeddbgejclcjneh/) 
+Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Geosearch](http://www.geosearchtool.com)
 - [Internet Archive: Open Source Videos](https://archive.org/details/opensource_movies)
 - [LiveLeak](http://www.liveleak.com)
@@ -714,7 +715,8 @@ Extension find email, people on profile Linkedin
 - [Fact Check](http://www.factcheck.org)
 - [Full Fact](https://fullfact.org)
 - [MediaBugs](http://mediabugs.org)
-- [Snopes](http://www.snopes.com) - The definitive Internet reference source for urban legends, folklore, myths, rumors, and misinformation.
+- [Snopes](http://www.snopes.com) 
+The definitive Internet reference source for urban legends, folklore, myths, rumors, and misinformation.
 - [Verification Handbook](http://verificationhandbook.com)
 - [Verification Junkie](http://verificationjunkie.com)
 - [Verily](https://veri.ly)
