@@ -202,9 +202,17 @@ Dorking is a wonderful thing, you can use this technique to search for anything 
 6. Wildcard or symbol * (star) Find all web pages, for example: seccodeid* 
 7. Define:term Search for all things with specified terms, example define:seccodeid 
 8. cache page Take a snapshot of an indexed page. Google uses this to find the right page for the query you're looking for. Website or target specifically
+9. allintext: Searches for specific text contained on a web page
+10. allinurl: Find various keywords in a URL
+11. allintitle: Restricts results to those containing all terms specified in a title
+12. link: List of web pages that have links to the specified URL
+13. | This is a logical operator, | "tips" will show all the sites which contain either, or both words
+14. + Used to concatenate words, useful to detect pages that use more than one specific key
+15. - Minus operator avoids showing results that contain certain words, e.g. security -trails will show pages that use "security" in their text, but not those that have the word "trails"
 
 example 
-> intext:"hacking" site:seccodeid.com 
+> intext:"hacking" site:seccodeid.com
+> site:www.github.com ext:doc | ext:docx | ext:odt | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv  
 
 # Google Advanced Search Tools
 
