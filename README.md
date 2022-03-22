@@ -206,9 +206,9 @@ Dorking is a wonderful thing, you can use this technique to search for anything 
 10. allinurl: Find various keywords in a URL
 11. allintitle: Restricts results to those containing all terms specified in a title
 12. link: List of web pages that have links to the specified URL
-13. | This is a logical operator, | "tips" will show all the sites which contain either, or both words
-14. + Used to concatenate words, useful to detect pages that use more than one specific key
-15. - Minus operator avoids showing results that contain certain words, e.g. security -trails will show pages that use "security" in their text, but not those that have the word "trails"
+13. (|) Pipe. This is a logical operator, | "tips" will show all the sites which contain either, or both words
+14. (+) Used to concatenate words, useful to detect pages that use more than one specific key
+15. (-) Minus operator avoids showing results that contain certain words, e.g. security -trails will show pages that use "security" in their text, but not those that have the word "trails"
 
 example 
 > intext:"hacking" site:seccodeid.com
