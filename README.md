@@ -9,6 +9,55 @@ OSINT RESOURCES DATASET
 
 # EXIF TOOL COMMAND 
 
+#Exif tag name and data type
+
+> Author                                        string/
+> 
+> Caption                                       string/
+> 
+> Categories                                    string/
+> 
+> Collections                                   string/
+> 
+> DateTime                                      date/
+> 
+> DPP                                           lang-alt/
+> 
+> EditStatus                                    string/
+> 
+> FixtureIdentifier                             string/
+> 
+> Keywords                                      string/+
+> 
+> Notes                                         string/
+> 
+> ObjectCycle                                   string/
+> 
+> OriginatingProgram                            string/
+> 
+> Rating                                        real/
+> 
+> Rawrppused                                    boolean/
+> 
+> ReleaseDate                                   string/
+> 
+> ReleaseTime                                   string/
+> 
+> RPP                                           lang-alt/
+> 
+> Snapshots                                     string/+
+> 
+> Tagged                                        boolean/
+
+More : man exiftool 
+
+Site : 
+
+- [Exiftool](https://exiftool.org/)
+- [List tagname](https://exiftool.org/TagNames/)
+- [List tagnme 2](https://metacpan.org/dist/Image-ExifTool/view/lib/Image/ExifTool/TagNames.pod)
+- [List tagname 3](https://manpages.org/imageexiftooltagnames/3)
+
 #Write metadata 
 
 - exiftool -tagname="string" file 
