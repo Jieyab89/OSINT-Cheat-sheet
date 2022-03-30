@@ -6,6 +6,7 @@ OSINT RESOURCES DATASET
 
 - [Join Telegram channel](https://t.me/seccodeid)
 - [OSINT beginner](https://t.me/seccodeid/38)
+- [OSINT handbook 2022 OSINT information gathering and threat intel](https://t.me/seccodeid/87)
 
 # EXIF TOOL COMMAND 
 
