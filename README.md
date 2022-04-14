@@ -646,7 +646,10 @@ Firefox plugin that will assist in downloading all media from a website
 - [iKy](https://github.com/kennbroorg/iKy)
 - [Ghunt](https://github.com/mxrch/GHunt)
 - [Moriarty-Project](https://github.com/AzizKpln/Moriarty-Project)
-
+- [Mr.Holmes](https://github.com/Lucksi/Mr.Holmes)
+- [octosuite Advanced Github OSINT Framework](https://github.com/rly0nheart/octosuite.git)  
+- [Toutatis](https://github.com/megadose/toutatis)  
+  
 # OSINT Online Tool  
 
 - [Echosec](https://www.echosec.net/)
