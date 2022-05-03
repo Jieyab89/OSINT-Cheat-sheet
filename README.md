@@ -2,7 +2,7 @@
 
 [![Github Badge](https://img.shields.io/badge/-Jieyab89-black?style=flat&logo=github&logoColor=white&link=https://github.com/Jieyab89/)](https://github.com/Jieyab89)
 
-OSINT RESOURCES DATASET 
+OSINT RESOURCES DATASET e.g E-book, Telegram
 
 - [Join Telegram channel](https://t.me/seccodeid)
 - [OSINT beginner](https://t.me/seccodeid/38)
