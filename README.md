@@ -12,45 +12,45 @@ OSINT RESOURCES DATASET
 
 #Exif tag name and data type
 
-> Author                                        string/
+> Author                                        string
 > 
-> Caption                                       string/
+> Caption                                       string
 > 
-> Categories                                    string/
+> Categories                                    string
 > 
-> Collections                                   string/
+> Collections                                   string
 > 
-> DateTime                                      date/
+> DateTime                                      date
 > 
-> DPP                                           lang-alt/
+> DPP                                           lang-alt
 > 
-> EditStatus                                    string/
+> EditStatus                                    string
 > 
-> FixtureIdentifier                             string/
+> FixtureIdentifier                             string
 > 
-> Keywords                                      string/+
+> Keywords                                      string
 > 
-> Notes                                         string/
+> Notes                                         string
 > 
-> ObjectCycle                                   string/
+> ObjectCycle                                   string
 > 
-> OriginatingProgram                            string/
+> OriginatingProgram                            string
 > 
-> Rating                                        real/
+> Rating                                        real
 > 
-> Rawrppused                                    boolean/
+> Rawrppused                                    boolean
 > 
-> ReleaseDate                                   string/
+> ReleaseDate                                   string
 > 
-> ReleaseTime                                   string/
+> ReleaseTime                                   string
 > 
-> RPP                                           lang-alt/
+> RPP                                           lang-alt
 > 
-> Snapshots                                     string/+
+> Snapshots                                     string
 > 
-> Tagged                                        boolean/
+> Tagged                                        boolean
 
-More : man exiftool 
+More : man exiftool (Run on your terminal)
 
 Site : 
 
@@ -649,6 +649,17 @@ Firefox plugin that will assist in downloading all media from a website
 - [Mr.Holmes](https://github.com/Lucksi/Mr.Holmes)
 - [octosuite Advanced Github OSINT Framework](https://github.com/rly0nheart/octosuite.git)  
 - [Toutatis](https://github.com/megadose/toutatis)  
+- [A tool for OSINT based threat hunting](https://github.com/ninoseki/mihari)
+- [K𝚊𝚛𝚖𝚊 𝚟𝟸 is a Passive Open Source Intelligence](https://github.com/Dheerajmadhukar/karma_v2)  
+- [Secure ELF parsing/loading library for forensics reconstruction of malware, and robust reverse engineering tools](https://github.com/elfmaster/libelfmaster)  
+- [OSINT tool that allows you to find a person's accounts and emails + breached email](https://github.com/Greyjedix/Profil3r)  
+- [A tool to search Aviation-related intelligence from public sources](https://github.com/n0skill/AVOSINT)
+- [PoC OSINT Discord user and guild information harvester](https://github.com/V3ntus/darvester)  
+- [Automate downloading archived deleted Tweets](https://github.com/Mennaruuk/twayback)
+- [Discover the location of nearby Telegram users](https://github.com/tejado/telegram-nearby-map)
+- [OSINT Tool on Twitter and Instagram](https://github.com/xadhrit/terra)  
+- [The World's simplest facial recognition api for python and the command line](https://github.com/ageitgey/face_recognition)
+- [Automation and automation of digital forensic tools](https://github.com/google/turbinia)  
   
 # OSINT Online Tool  
 
