@@ -1,6 +1,6 @@
 ## Anonymous chat
 
-You can chat me anonymous, import my keys on this path
+You can chat me anonymous and encrypted, import my keys on this path
 
 ## Note
 
