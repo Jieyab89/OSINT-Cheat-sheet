@@ -8,106 +8,106 @@ OSINT RESOURCES DATASET e.g E-book, Telegram
 - [OSINT beginner](https://t.me/seccodeid/38)
 - [OSINT handbook 2022 OSINT information gathering and threat intel](https://t.me/seccodeid/87)
 
-# EXIF TOOL COMMAND 
+# EXIF TOOL COMMAND
 
 #Exif tag name and data type
 
 > Author                                        string
-> 
+>
 > Caption                                       string
-> 
+>
 > Categories                                    string
-> 
+>
 > Collections                                   string
-> 
+>
 > DateTime                                      date
-> 
+>
 > DPP                                           lang-alt
-> 
+>
 > EditStatus                                    string
-> 
+>
 > FixtureIdentifier                             string
-> 
+>
 > Keywords                                      string
-> 
+>
 > Notes                                         string
-> 
+>
 > ObjectCycle                                   string
-> 
+>
 > OriginatingProgram                            string
-> 
+>
 > Rating                                        real
-> 
+>
 > Rawrppused                                    boolean
-> 
+>
 > ReleaseDate                                   string
-> 
+>
 > ReleaseTime                                   string
-> 
+>
 > RPP                                           lang-alt
-> 
+>
 > Snapshots                                     string
-> 
+>
 > Tagged                                        boolean
 
 More : man exiftool (Run on your terminal)
 
-Site : 
+Site :
 
 - [Exiftool](https://exiftool.org/)
 - [List tagname](https://exiftool.org/TagNames/)
 - [List tagnme 2](https://metacpan.org/dist/Image-ExifTool/view/lib/Image/ExifTool/TagNames.pod)
 - [List tagname 3](https://manpages.org/imageexiftooltagnames/3)
 
-#Write metadata 
+#Write metadata
 
-- exiftool -tagname="string" file 
+- exiftool -tagname="string" file
 >
->example : exiftool -Author="Bayu" test.txt 
->
-
-you can add multiple tag and multiple file 
-
-#Delete metadata 
-
-- exiftool -tagname="" file 
->
->example : exiftool -Author="" test.txt 
+>example : exiftool -Author="Bayu" test.txt
 >
 
-#Delete mass metadata 
+you can add multiple tag and multiple file
 
-- exiftool -all="" file 
+#Delete metadata
+
+- exiftool -tagname="" file
 >
->example : exiftool -all="" file 
->
-
-#Usage : man exiftool or read documentation exiftool.org 
-
-> Not there are tag no writetable, make sure tagname can write 
+>example : exiftool -Author="" test.txt
 >
 
-#!Note 
+#Delete mass metadata
+
+- exiftool -all="" file
+>
+>example : exiftool -all="" file
+>
+
+#Usage : man exiftool or read documentation exiftool.org
+
+> Not there are tag no writetable, make sure tagname can write
+>
+
+#!Note
 
 > Use fresh file, if your file has been compressed or edit metadata you got a default metadata
-> You can use xmp format for edit, write and delete metadata 
-> Check the documentation 
+> You can use xmp format for edit, write and delete metadata
+> Check the documentation
 
 
 # SOCMINT  
 
-- [Instagram](https://github.com/Datalux/Osintgram) 
+- [Instagram](https://github.com/Datalux/Osintgram)
 Be carefull using this tool
 
 - [SOCMINT tool](https://osint.support/chrome-extensions/2019/09/29/osint-socmint-tooling.html)
 - [Graph Search](http://socmint.tools/graph.htm)
 
-# Collection Dataset 
+# Collection Dataset
 
 - [Kaggle](https://www.kaggle.com/)
 
 
-# Forums 
+# Forums
 
 - [Bellingcat Discord](https://discord.com/invite/nTaNPmz)
 - [Independent OSINT](https://discord.com/invite/2DGJ2EC)
@@ -117,7 +117,7 @@ Be carefull using this tool
 - [TraceLabs Slack](https://tracelabs.slack.com)
 
 
-# General Search 
+# General Search
 
 - [ASK](http://www.ask.com)
 - [Baidu](http://www.baidu.com)
@@ -125,7 +125,7 @@ Be carefull using this tool
 - [Yandex](https://www.yandex.com)
 - [Infospace](http://www.infospace.com)
 
-# Meta Search 
+# Meta Search
 
 - [100SearchEngines](https://www.100searchengines.com)
 - [Bing vs. Google](http://bvsg.org)
@@ -133,7 +133,7 @@ Be carefull using this tool
 - [Etools](http://www.etools.ch)
 - [WebCrawler](http://www.webcrawler.com)
 
-# Code Search 
+# Code Search
 
 - [Chromium Code Search](https://source.chromium.org/chromium)
 - [Android Code Search](https://cs.android.com)
@@ -145,13 +145,13 @@ Be carefull using this tool
 - [SourceCodeOnline](http://www.sourcecodeonline.com)
 - [Woboq](https://code.woboq.org)
 
-# Competitive Programming 
+# Competitive Programming
 
 - [Hackerrank](https://www.hackerrank.com/)
 - [Code chef](https://www.codechef.com/)
 - [Code war](https://www.codewars.com/)
 
-# File & FTP 
+# File & FTP
 
 - [Archie](http://archie.icm.edu.pl/archie_eng.html)
 - [4shared](https://www.4shared.com)
@@ -179,7 +179,7 @@ Be carefull using this tool
 - [tailwind](https://www.tailwindapp.com)
 - [Revive Social](https://revive.social)
 
-# Web Intelligence 
+# Web Intelligence
 
 - [Better Whois](http://www.betterwhois.com)
 - [DNS History](http://dnshistory.org)
@@ -188,11 +188,11 @@ Be carefull using this tool
 - [HackerTarget](https://hackertarget.com/ip-tools)
 - [Shodan](https://www.shodan.io)
 
-# Analysing URLs 
+# Analysing URLs
 
 - [unfurl](https://github.com/obsidianforensics/unfurl)
 
-# Researching Cyber Threats 
+# Researching Cyber Threats
 
 - [Apility.io](https://apility.io)
 - [Alien Vault](https://otx.alienvault.com)
@@ -221,36 +221,36 @@ Be carefull using this tool
 - [Shodan Filters](https://github.com/T43cr0wl3r/shodan-filters)
 - [Shodan Scripts](https://github.com/random-robbie/My-Shodan-Scripts)
 
-# IP Addresses 
+# IP Addresses
 
 - [Whats my ip](https://whatismyipaddress.com/)
-This tools can show your ip address isp provider 
+This tools can show your ip address isp provider
 - [Ip 2 location](https://www.ip2location.com/)
 This tools can show your ip address isp provider and geo location  
 
-# Wireless Network 
+# Wireless Network
 
 - [Wigle](https://www.wigle.net/)
-Maps and database of 802.11 wireless networks, with statistics, submitted by wardrivers, netstumblers, and 
+Maps and database of 802.11 wireless networks, with statistics, submitted by wardrivers, netstumblers, and
 net huggers
 
-# SOC or Threat Hunting 
+# SOC or Threat Hunting
 
 - [Alien Vault](https://otx.alienvault.com/)
 - [Exploit db](https://www.exploit-db.com/)
 - [AT&T](https://cybersecurity.att.com/resource-center#content_analyst-reports)
 
-# Dorking 
+# Dorking
 
-Dorking is a wonderful thing, you can use this technique to search for anything such as index of a website, looking for live online camera server and other specifics, as for dorking commands that you can do for example 
+Dorking is a wonderful thing, you can use this technique to search for anything such as index of a website, looking for live online camera server and other specifics, as for dorking commands that you can do for example
 
-1. intitle: Search for specific titles 
-2. inurl: Search for specific urls or paths 
-3. intext: Search for specific words or contects 
-4. filetype: Search for files 
-5. site: Search from a specified target 
-6. Wildcard or symbol * (star) Find all web pages, for example: seccodeid* 
-7. Define:term Search for all things with specified terms, example define:seccodeid 
+1. intitle: Search for specific titles
+2. inurl: Search for specific urls or paths
+3. intext: Search for specific words or contects
+4. filetype: Search for files
+5. site: Search from a specified target
+6. Wildcard or symbol * (star) Find all web pages, for example: seccodeid*
+7. Define:term Search for all things with specified terms, example define:seccodeid
 8. cache page Take a snapshot of an indexed page. Google uses this to find the right page for the query you're looking for. Website or target specifically
 9. allintext: Searches for specific text contained on a web page
 10. allinurl: Find various keywords in a URL
@@ -260,7 +260,7 @@ Dorking is a wonderful thing, you can use this technique to search for anything 
 14. (+) Used to concatenate words, useful to detect pages that use more than one specific key
 15. (-) Minus operator avoids showing results that contain certain words, e.g. security -trails will show pages that use "security" in their text, but not those that have the word "trails"
 
-example 
+example
 > intext:"hacking" site:seccodeid.com
 > site:www.github.com ext:doc | ext:docx | ext:odt | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv  
 
@@ -271,7 +271,7 @@ example
 - [Google Alerts](https://www.google.com/alerts)
 - [Google Search History](https://myactivity.google.com/myactivity)
 
-# Other Search Engines 
+# Other Search Engines
 
 - [us.searchboth.net](http://us.searchboth.net)
 - [Archive.org](http://www.arhive.org)
@@ -281,19 +281,19 @@ example
 - [search.carrot2.org/stable/search](http://search.carrot2.org/stable/search)
 - [Shodan](https://www.shodan.io/)
 
-# Jurnals 
+# Jurnals
 
 - [sciencedirect](https://www.sciencedirect.com/)
 - [Scopus](https://www.scopus.com/)
 - [Sinta](https://sinta.kemdikbud.go.id/)
 - [ieeexplore](https://ieeexplore.ieee.org)
 
-# Crack Jurnals 
+# Crack Jurnals
 
 - [SCI HUB](https://sci-hub.hkvisa.net/)
 This domain will always change
 
-# Blogs Search Engine 
+# Blogs Search Engine
 
 - [Google Blog](www.google.com/blogsearch)
 - [technorati](www.technorati.com)
@@ -306,17 +306,17 @@ This domain will always change
 - [MEMEX]()
 - [onion](https://onion.cab)
 
-# Tracking Website Changes 
+# Tracking Website Changes
 
 - [Changedetection](http://www.changedetection.com)
 - [Followthatpage](http://www.followthatpage.com)
 
-# Company Reconnaissance Sites (Passive) 
+# Company Reconnaissance Sites (Passive)
 
 - [whois](http://www.whois.net)
 - [Netcraft](http://www.netcraft.com)
 
-# People Searching 
+# People Searching
 
 - [spokeo](http://www.spokeo.com)
 - [123people](http://www.123people.com)
@@ -326,7 +326,7 @@ This domain will always change
 - [PDDIKTI](https://pddikti.kemdikbud.go.id/)
 - [SINTA](https://sinta.kemdikbud.go.id/)
 
-# Phone Numbers 
+# Phone Numbers
 
 - [argali](http://www.argali.com)
 - [ciddb](http://www.ciddb.com/index.php)
@@ -339,35 +339,35 @@ This domain will always change
 - [National cell](https://www.nationalcellulardirectory.com/)
 - [Getcontact](https://www.getcontact.com/id/)
 
-# Public Records 
+# Public Records
 
 - [Public Record](http://publicrecords.searchsystems.net)
 - [Fam Watchdog](http://Familywatchdog.us)
 - [Crime Reports](http://www.crimereports.com)
 
-# Finding Usernames 
+# Finding Usernames
 
 - [Namechk](http://www.namechk.com)
 - [Knowem](http://www.knowem.com)
 
-# Social Networks 
+# Social Networks
 
 - [Facebook](https://facebook.com/livemap)
 - [Facebook lookup id](https://lookup-id.com/#)
 - [Sherlock](https://github.com/sherlock-project/sherlock)
 
-# Google Queries for Facebook 
+# Google Queries for Facebook
 
 > Group Search: site:facebook.com inurl:group
-> 
-> Group Wall Posts Search: site:facebook.com inurl:wall 
-> 
+>
+> Group Wall Posts Search: site:facebook.com inurl:wall
+>
 > Pages Search: site:facebook.com inurl:pages
-> 
+>
 > Public Profiles: allinurl: people ‘‘name’’ site:facebook.com
-> 
+>
 
-# Facebook Query Language (FQL) 
+# Facebook Query Language (FQL)
 
 - [Findmyfbid](http://www.findmyfbid.com/)
 
@@ -394,18 +394,18 @@ This domain will always change
 > Relatives - https://www.facebook.com/search/taget_id/relatives
 >  
 
-or you can use dork for spesific example 
+or you can use dork for spesific example
 
-> id <this id facebook> site:facebook.com 
+> id <this id facebook> site:facebook.com
 >  
 > page site: facebook.com
 >
-> id <this id facebook> site:facebook.com * 
+> id <this id facebook> site:facebook.com *
 >
-> page site: facebook.com * 
+> page site: facebook.com *
 >
-  
-# The Ultimate Facebook Investigation Tool 
+
+# The Ultimate Facebook Investigation Tool
 
 - [Intel Technique](https://inteltechniques.com/osint/facebook.html)
 - [Agora Pulse](http://barometer.agorapulse.com)
@@ -420,7 +420,7 @@ or you can use dork for spesific example
 - [SearchIsBack](https://searchisback.com)
 - [Wolfram Alpha Facebook Report](http://www.wolframalpha.com/input/?i=facebook+report)
 
-# Instagram 
+# Instagram
 
 - [Hashtagify](http://hashtagify.me)
 - [Iconosquare](http://iconosquare.com)
@@ -431,11 +431,11 @@ or you can use dork for spesific example
 - [Worldcam](http://worldc.am)
 - [SearchMyBio](https://www.searchmy.bio/)
 
-# Pinterest 
+# Pinterest
 
 - [Pingroupie](http://pingroupie.com)
 
-# Twitter 
+# Twitter
 
 - [search.twitter.com](https://twitter.com/search-home)
 - [twitter advanced](https://www.twitter.com/search-advanced)
@@ -509,7 +509,7 @@ or you can use dork for spesific example
 - [TWUBS Twitter Chat](http://twubs.com/twitter-chats)
 - [Schedule Warble](https://warble.co)
 
-# Twitter Search Engines 
+# Twitter Search Engines
 
 - [tweetpaths](http://www.tweetpaths.com)
 - [allmytweets](http://www.allmytweets.com)
@@ -518,7 +518,7 @@ or you can use dork for spesific example
 - [Twimemachine](https://www.twimemachine.com)
 - [inteltechniques](http://inteltechniques.com/osint/twitter.html)
 
-# LinkedIn 
+# LinkedIn
 
 Google queries for LinkedIn
 > Public Profiles: site:linkedin.com inurl:pub
@@ -556,13 +556,13 @@ Google queries for MySpace
 - [social mention](http://www.mention.com)
 - [whostalkin](http://www.whostalkin.com)
 
-# Monitoring & Alerting 
+# Monitoring & Alerting
 
 - [Pastebin Alerts](http://pastebin.com/u/alerts)
 - [HaveIBeenPwned](http://www.haveIbeenpwned.com)
 - [breachorclear](http://breachorclear.jesterscourt.cc)
 
-# Images Search Engine 
+# Images Search Engine
 
 - [Images google](https://images.google.com)
 - [Facesaerch](http://facesaerch.com/)
@@ -572,7 +572,7 @@ Google queries for MySpace
 - [Worldc](http://www.worldc.am)
 - [Yandex](https://yandex.com/images/)
 
-# EXIF Analysis 
+# EXIF Analysis
 
 - [regex](http://regex.info/exif.cgi)
 - [FindExif](http://www.findexif.com)
@@ -582,22 +582,22 @@ Google queries for MySpace
 - [jimpl](https://jimpl.com/)
 - [pic2map](https://www.pic2map.com/)
 
-# Documents 
+# Documents
 
 - [Metashield Analyzer](https://metashieldanalyzer.elevenpaths.com/)
 - [forensicswiki](http://www.forensicswiki.org/wiki/Document_Metadata_Extraction)
 - [foca](https://www.elevenpaths.com/labstools/foca/index.html)
 
-# Email Tracing 
+# Email Tracing
 
 - [ip-adress](http://www.ip-adress.com/trace_email/)
 - [whatismyipaddress](http://www.whatismyipaddress.com/trace-email)
 
-# Tracking People 
+# Tracking People
 
 - [getnotify](http://www.getnotify.com)
 
-# IoT – Internet of Things 
+# IoT – Internet of Things
 
 - [Insecam](http://Insecam.org)
 - [Shodan](https://Shodan.io)
@@ -616,9 +616,9 @@ Firefox plugin that will assist in downloading all media from a website
 - [Exif Viewer](https://addons.mozilla.org/en-US/firefox/addon/exif-viewer/)
 - [HTTrack](https://www.httrack.com/)
 
-# OSINT TOOLS 
+# OSINT TOOLS
 
-- [Shrelock]()
+- [Shrelock](https://github.com/sherlock-project/sherlock)
 - [Maltego](https://www.maltego.com/)
 - [OSINT Framework](https://osintframework.com/)
 - [Creepy](https://www.geocreepy.com/)
@@ -660,7 +660,8 @@ Firefox plugin that will assist in downloading all media from a website
 - [OSINT Tool on Twitter and Instagram](https://github.com/xadhrit/terra)  
 - [The World's simplest facial recognition api for python and the command line](https://github.com/ageitgey/face_recognition)
 - [Automation and automation of digital forensic tools](https://github.com/google/turbinia)  
-  
+- [E4GL30S1NT](https://github.com/C0MPL3XDEV/E4GL30S1NT)
+
 # OSINT Online Tool  
 
 - [Echosec](https://www.echosec.net/)
@@ -674,20 +675,26 @@ Firefox plugin that will assist in downloading all media from a website
 - [Bellingcat](https://www.bellingcat.com/)
 - [Socmint tool](http://socmint.tools/)
 - [Spyse](https://spyse.com/)
+- [OSINT Combine](https://www.osintcombine.com/tools)
+- [Cell Id Lookup](https://www.reskrim.com/cek.php)
+- [Device Info](https://www.deviceinfo.me/)
+- [Cell Finder](https://cellidfinder.com/)
+- [GRABIFY IP](https://grabify.link/)
+- [Cek Rekening](https://cekrekening.id/home)
 
 # Telegram Tool  
 
-Search channel, username anymore 
+Search channel, username anymore
 
 - [Telegago](https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg#gsc.tab=0)
 
-# Linkedin 
+# Linkedin
 
-Extension find email, people on profile Linkedin 
+Extension find email, people on profile Linkedin
 
 - [Find that lead](https://chrome.google.com/webstore/detail/findthatlead/lkpekgkhmldknbcgjicjkomphkhhdkjj?hl=en-GB)
 
-# Document and Slides Search 
+# Document and Slides Search
 
 - [Authorstream](http://www.authorstream.com)
 - [Find-pdf-doc](http://www.findpdfdoc.com)
@@ -716,7 +723,7 @@ Extension find email, people on profile Linkedin
 - [Mail.Ru Social Network Search](https://go.mail.ru/search_social)
 - [WATools](https://watools.io/)
 - [Profil3r](https://github.com/Rog3rSm1th/Profil3r)
-- [Oblivion](https://github.com/loseys/Oblivion) 
+- [Oblivion](https://github.com/loseys/Oblivion)
 
 # Image Search
 
@@ -756,7 +763,7 @@ Extension find email, people on profile Linkedin
 - [DiffChecker](https://www.diffchecker.com/image-diff/)
 - [ImgOps](https://imgops.com/)
 
-# Stock Images 
+# Stock Images
 
 - [AlltheFreeStock](http://allthefreestock.com)
 - [Death to Stock](http://deathtothestockphoto.com)
@@ -790,7 +797,7 @@ Extension find email, people on profile Linkedin
 - [DownloadHealper](http://www.downloadhelper.net)
 - [Earthcam](http://www.earthcam.com)
 - [Insecam](http://insecam.org/)
-- [Frame by Frame](https://chrome.google.com/webstore/detail/frame-by-frame/cclnaabdfgnehogonpeddbgejclcjneh/) 
+- [Frame by Frame](https://chrome.google.com/webstore/detail/frame-by-frame/cclnaabdfgnehogonpeddbgejclcjneh/)
 Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Geosearch](http://www.geosearchtool.com)
 - [Internet Archive: Open Source Videos](https://archive.org/details/opensource_movies)
@@ -897,8 +904,12 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Fact Check](http://www.factcheck.org)
 - [Full Fact](https://fullfact.org)
 - [MediaBugs](http://mediabugs.org)
-- [Snopes](http://www.snopes.com) 
+- [Snopes](http://www.snopes.com)
 The definitive Internet reference source for urban legends, folklore, myths, rumors, and misinformation.
 - [Verification Handbook](http://verificationhandbook.com)
 - [Verification Junkie](http://verificationjunkie.com)
 - [Verily](https://veri.ly)
+
+# Zero day
+
+Coming soon ....
