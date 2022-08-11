@@ -2,11 +2,24 @@
 
 [![Github Badge](https://img.shields.io/badge/-Jieyab89-black?style=flat&logo=github&logoColor=white&link=https://github.com/Jieyab89/)](https://github.com/Jieyab89)
 
-OSINT RESOURCES DATASET e.g E-book, Telegram
+OSINT RESOURCES DATASET e.g E-BOOK, TELEGRAM, ARTICLE 
 
 - [Join Telegram channel](https://t.me/seccodeid)
 - [OSINT beginner](https://t.me/seccodeid/38)
 - [OSINT handbook 2022 OSINT information gathering and threat intel](https://t.me/seccodeid/87)
+- [Introducing social media intelligence (SOCMINT)](https://www.researchgate.net/publication/262869934_Introducing_social_media_intelligence_SOCMINT)
+
+# Indonesian article 
+
+- [Open Source Intelligence - Open Source Threat Intelligence](https://blog.seccodeid.com/2022/01/open-source-intelligence-open-source.html)
+- [Metode pelacakan osint dan keaslian sumber](https://blog.seccodeid.com/2021/05/metode-pelacakan-osint-dan-keaslian.html)
+- [Panduan Untuk Social Media Intelligence Gathering (SOCMINT)](https://blog.seccodeid.com/2020/08/panduan-untuk-social-media-intelligence.html) 
+- [OSINT tips and trick technique hunt your target](https://blog.seccodeid.com/2021/11/httpsblog.seccodeid.com202111osint-tips-and-trick-technique-hunt-id.html.html)
+
+# English article 
+
+- [os2int](https://os2int.com/toolbox/)
+- [Types of Threat Intelligence Gathering](https://socradar.io/types-of-threat-intelligence-gathering/)
 
 # EXIF TOOL COMMAND
 
@@ -98,7 +111,7 @@ you can add multiple tag and multiple file
 
 - [Instagram](https://github.com/Datalux/Osintgram)
 Be carefull using this tool
-
+- [Tinfoleak](https://github.com/vaguileradiaz/tinfoleak)
 - [SOCMINT tool](https://osint.support/chrome-extensions/2019/09/29/osint-socmint-tooling.html)
 - [Graph Search](http://socmint.tools/graph.htm)
 
@@ -910,6 +923,6 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [Verification Junkie](http://verificationjunkie.com)
 - [Verily](https://veri.ly)
 
-# Zero day
+# Zero Day
 
-Coming soon ....
+- [0day](https://0day.today/)
