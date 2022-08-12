@@ -18,13 +18,16 @@ OSINT RESOURCES DATASET e.g E-BOOK, TELEGRAM, ARTICLE
 
 # English article 
 
-- [os2int](https://os2int.com/toolbox/)
+- [Os2int](https://os2int.com/toolbox/)
 - [Types of Threat Intelligence Gathering](https://socradar.io/types-of-threat-intelligence-gathering/)
+- [Learn transform Maltego](https://www.maltego.com/transform-hub/) 
 
 # EXIF TOOL COMMAND
 
 #Exif tag name and data type
 
+> Artist                                        string
+>
 > Author                                        string
 >
 > Caption                                       string
@@ -694,6 +697,7 @@ Firefox plugin that will assist in downloading all media from a website
 - [Cell Finder](https://cellidfinder.com/)
 - [GRABIFY IP](https://grabify.link/)
 - [Cek Rekening](https://cekrekening.id/home)
+- [Thatsthem](https://thatsthem.com/)
 
 # Telegram Tool  
 
