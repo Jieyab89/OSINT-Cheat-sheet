@@ -21,6 +21,8 @@ OSINT RESOURCES DATASET e.g E-BOOK, TELEGRAM, ARTICLE
 - [Os2int](https://os2int.com/toolbox/)
 - [Types of Threat Intelligence Gathering](https://socradar.io/types-of-threat-intelligence-gathering/)
 - [Learn transform Maltego](https://www.maltego.com/transform-hub/) 
+- [Investigation phone Maltego](https://www.maltego.com/blog/investigating-phone-numbers-with-opencnam-and-ipqualityscore/)
+- [Maltego transform phone search](https://docs.maltego.com/support/solutions/articles/15000033679-phonesearch)
 
 # EXIF TOOL COMMAND
 
@@ -926,6 +928,17 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [Verification Handbook](http://verificationhandbook.com)
 - [Verification Junkie](http://verificationjunkie.com)
 - [Verily](https://veri.ly)
+
+# Phone number OSINT 
+
+- [Moriarty-Project](https://github.com/AzizKpln/Moriarty-Project)
+- [Get contact](https://www.getcontact.com/en/)
+- [True Caller](https://www.truecaller.com/)
+- [Phone Infoga](https://github.com/sundowndev/phoneinfoga)
+- [Cell Id Lookup](https://www.reskrim.com/cek.php)
+- [Device Info](https://www.deviceinfo.me/)
+- [Cell Finder](https://cellidfinder.com/)
+- [Maltego Transform](https://docs.maltego.com/support/solutions/articles/15000033679-phonesearch)
 
 # Zero Day
 
