@@ -187,14 +187,13 @@ Be carefull using this tool
 - [Mention](https://mention.com)
 - [Samdesk](https://www.samdesk.io)
 - [Social Links](https://www.mtg-bi.com)
+- [Social Searcher](https://www.social-searcher.com/)
 
 # Social Media Management and Content Discovery
 
 - [Agora pulse](https://www.agorapulse.com)
 - [Buffer](https://buffer.com)
 - [Coosto](https://www.coosto.com)
-- [Falcon](https://www.falcon.io)
-- [tailwind](https://www.tailwindapp.com)
 - [Revive Social](https://revive.social)
 
 # Web Intelligence
@@ -343,6 +342,7 @@ This domain will always change
 - [reversegeni](http://www.reversegenie.com/plate.php)
 - [PDDIKTI](https://pddikti.kemdikbud.go.id/)
 - [SINTA](https://sinta.kemdikbud.go.id/)
+- [Social Searcher](https://www.social-searcher.com/)
 
 # Phone Numbers
 
@@ -929,7 +929,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [Verification Junkie](http://verificationjunkie.com)
 - [Verily](https://veri.ly)
 
-# Phone number OSINT 
+# Phone Number OSINT 
 
 - [Moriarty-Project](https://github.com/AzizKpln/Moriarty-Project)
 - [Get Contact](https://www.getcontact.com/en/)
@@ -939,6 +939,8 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [Device Info](https://www.deviceinfo.me/)
 - [Cell Finder](https://cellidfinder.com/)
 - [Maltego Transform](https://docs.maltego.com/support/solutions/articles/15000033679-phonesearch)
+- [Unkownphone](https://www.unknownphone.com/)
+- [Whocallsme](https://whocallsme.com/)
 
 # CTF analysis 
 
