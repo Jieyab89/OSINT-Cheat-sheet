@@ -932,13 +932,17 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 # Phone number OSINT 
 
 - [Moriarty-Project](https://github.com/AzizKpln/Moriarty-Project)
-- [Get contact](https://www.getcontact.com/en/)
+- [Get Contact](https://www.getcontact.com/en/)
 - [True Caller](https://www.truecaller.com/)
 - [Phone Infoga](https://github.com/sundowndev/phoneinfoga)
 - [Cell Id Lookup](https://www.reskrim.com/cek.php)
 - [Device Info](https://www.deviceinfo.me/)
 - [Cell Finder](https://cellidfinder.com/)
 - [Maltego Transform](https://docs.maltego.com/support/solutions/articles/15000033679-phonesearch)
+
+# CTF analysis 
+
+- [Cybercheff](https://gchq.github.io/CyberChef/)
 
 # Zero Day
 
