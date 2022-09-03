@@ -351,6 +351,15 @@ This domain will always change
 - [Sync](https://sync.me/)
 - [National cell](https://www.nationalcellulardirectory.com/)
 - [Getcontact](https://www.getcontact.com/id/)
+- [Moriarty-Project](https://github.com/AzizKpln/Moriarty-Project)
+- [Get Contact](https://www.getcontact.com/en/)
+- [True Caller](https://www.truecaller.com/)
+- [Cell Id Lookup](https://www.reskrim.com/cek.php)
+- [Device Info](https://www.deviceinfo.me/)
+- [Cell Finder](https://cellidfinder.com/)
+- [Maltego Transform](https://docs.maltego.com/support/solutions/articles/15000033679-phonesearch)
+- [Unkownphone](https://www.unknownphone.com/)
+- [Whocallsme](https://whocallsme.com/)
 
 # Public Records
 
@@ -927,19 +936,6 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [Verification Handbook](http://verificationhandbook.com)
 - [Verification Junkie](http://verificationjunkie.com)
 - [Verily](https://veri.ly)
-
-# Phone Number OSINT
-
-- [Moriarty-Project](https://github.com/AzizKpln/Moriarty-Project)
-- [Get Contact](https://www.getcontact.com/en/)
-- [True Caller](https://www.truecaller.com/)
-- [Phone Infoga](https://github.com/sundowndev/phoneinfoga)
-- [Cell Id Lookup](https://www.reskrim.com/cek.php)
-- [Device Info](https://www.deviceinfo.me/)
-- [Cell Finder](https://cellidfinder.com/)
-- [Maltego Transform](https://docs.maltego.com/support/solutions/articles/15000033679-phonesearch)
-- [Unkownphone](https://www.unknownphone.com/)
-- [Whocallsme](https://whocallsme.com/)
 
 # Server Information Gathering
 
