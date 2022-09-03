@@ -276,17 +276,31 @@ example
 - [search.carrot2.org/stable/search](http://search.carrot2.org/stable/search)
 - [Shodan](https://www.shodan.io/)
 
-# Jurnals
+# Internet Archive
 
-- [sciencedirect](https://www.sciencedirect.com/)
-- [Scopus](https://www.scopus.com/)
-- [Sinta](https://sinta.kemdikbud.go.id/)
-- [ieeexplore](https://ieeexplore.ieee.org)
+- [Wayback Machine](https://web.archive.org/)
+- [Intelligence X](https://intelx.io/)
+
+# Data Breached OSINT
+
+- [Dehashed](https://www.dehashed.com/)
+- [Haveibeenpwned](https://haveibeenpwned.com/)
+- [Intelligence X](https://intelx.io/)
+- [Wiki Leaks](https://wikileaks.org/)
+- [DDO Secrets](https://ddosecrets.com/wiki/Distributed_Denial_of_Secrets)
 
 # Crack Jurnals
 
 - [SCI HUB](https://sci-hub.hkvisa.net/)
 This domain will always change
+
+# Search Jurnals
+
+- [Libgen](https://libgen.is/)
+- [Ieee](https://ieeexplore.ieee.org/Xplore/home.jsp)
+- [Sciencedirect](https://www.sciencedirect.com/)
+- [Sinta](https://sinta.kemdikbud.go.id/)
+- [Scopus](https://www.scopus.com/)
 
 # Blogs Search Engine
 
@@ -294,12 +308,13 @@ This domain will always change
 - [technorati](www.technorati.com)
 - [omgili.com](http://omgili.com/)
 
-# DeepWeb Search Engines
+# Darkweb Search Engines
 
-- [thehiddenwiki](http://thehiddenwiki.org)
-- [onion link](http://www.onion.link)
-- [MEMEX]()
-- [onion](https://onion.cab)
+- [Thehiddenwiki](http://thehiddenwiki.org)
+- [Onion Link](http://www.onion.link)
+- [MEMEX](https://memex.garden/)
+- [Onion](https://onion.cab)
+- [Onion city](https://onion.city/)
 
 # Tracking Website Changes
 
@@ -746,10 +761,11 @@ Extension find email, people on profile Linkedin
 - [Yandex Images](https://www.yandex.com/images)
 - [Betaface](https://www.betaface.com/demo.html)
 - [Search4faces](https://search4faces.com/)
+- [Pimeyes](https://pimeyes.com/en)
 
 # Image Analysis
 
-- [ExifTool](http://www.sno.phy.queensu.ca/~phil/exiftool)
+- [ExifTool](https://exiftool.org/)
 - [Exif Search](http://www.exif-search.com)
 - [FotoForensics](http://www.fotoforensics.com)
 - [Gbimg.org](http://gbimg.org)
@@ -922,6 +938,11 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [Unkownphone](https://www.unknownphone.com/)
 - [Whocallsme](https://whocallsme.com/)
 
+# Server Information Gathering
+
+- [Testssl](https://testssl.sh/)
+- [Nesus](https://www.tenable.com/products/nessus)
+
 # CTF analysis
 
 - [Cybercheff](https://gchq.github.io/CyberChef/)
@@ -929,3 +950,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 # Zero Day
 
 - [0day](https://0day.today/)
+
+# Cryptocurrency Investigation
+
+Soon, ASAP
