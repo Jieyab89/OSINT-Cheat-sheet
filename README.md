@@ -1,28 +1,6 @@
-# OSINT CHEAT SHEET
+# OSINT CHEAT SHEET - List OSINT Tools
 
 [![Github Badge](https://img.shields.io/badge/-Jieyab89-black?style=flat&logo=github&logoColor=white&link=https://github.com/Jieyab89/)](https://github.com/Jieyab89)
-
-OSINT RESOURCES DATASET e.g E-BOOK, TELEGRAM, ARTICLE 
-
-- [Join Telegram channel](https://t.me/seccodeid)
-- [OSINT beginner](https://t.me/seccodeid/38)
-- [OSINT handbook 2022 OSINT information gathering and threat intel](https://t.me/seccodeid/87)
-- [Introducing social media intelligence (SOCMINT)](https://www.researchgate.net/publication/262869934_Introducing_social_media_intelligence_SOCMINT)
-
-# Indonesian article 
-
-- [Open Source Intelligence - Open Source Threat Intelligence](https://blog.seccodeid.com/2022/01/open-source-intelligence-open-source.html)
-- [Metode pelacakan osint dan keaslian sumber](https://blog.seccodeid.com/2021/05/metode-pelacakan-osint-dan-keaslian.html)
-- [Panduan Untuk Social Media Intelligence Gathering (SOCMINT)](https://blog.seccodeid.com/2020/08/panduan-untuk-social-media-intelligence.html) 
-- [OSINT tips and trick technique hunt your target](https://blog.seccodeid.com/2021/11/httpsblog.seccodeid.com202111osint-tips-and-trick-technique-hunt-id.html.html)
-
-# English article 
-
-- [Os2int](https://os2int.com/toolbox/)
-- [Types of Threat Intelligence Gathering](https://socradar.io/types-of-threat-intelligence-gathering/)
-- [Learn transform Maltego](https://www.maltego.com/transform-hub/) 
-- [Investigation phone Maltego](https://www.maltego.com/blog/investigating-phone-numbers-with-opencnam-and-ipqualityscore/)
-- [Maltego transform phone search](https://docs.maltego.com/support/solutions/articles/15000033679-phonesearch)
 
 # EXIF TOOL COMMAND
 
@@ -343,6 +321,7 @@ This domain will always change
 - [PDDIKTI](https://pddikti.kemdikbud.go.id/)
 - [SINTA](https://sinta.kemdikbud.go.id/)
 - [Social Searcher](https://www.social-searcher.com/)
+- [Pimeyes](https://pimeyes.com/en)
 
 # Phone Numbers
 
@@ -700,6 +679,7 @@ Firefox plugin that will assist in downloading all media from a website
 - [GRABIFY IP](https://grabify.link/)
 - [Cek Rekening](https://cekrekening.id/home)
 - [Thatsthem](https://thatsthem.com/)
+- [IntelligenceX](https://intelx.io/tools)
 
 # Telegram Tool  
 
@@ -929,7 +909,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [Verification Junkie](http://verificationjunkie.com)
 - [Verily](https://veri.ly)
 
-# Phone Number OSINT 
+# Phone Number OSINT
 
 - [Moriarty-Project](https://github.com/AzizKpln/Moriarty-Project)
 - [Get Contact](https://www.getcontact.com/en/)
@@ -942,7 +922,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [Unkownphone](https://www.unknownphone.com/)
 - [Whocallsme](https://whocallsme.com/)
 
-# CTF analysis 
+# CTF analysis
 
 - [Cybercheff](https://gchq.github.io/CyberChef/)
 
