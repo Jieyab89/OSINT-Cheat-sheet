@@ -952,4 +952,11 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 
 # Cryptocurrency Investigation
 
-Soon, ASAP
+- [Blockchain](https://www.blockchain.com/)
+- [Flashpoint](https://flashpoint.io/resources/research/flashpoint-and-chainalysis-investigate-hydra-where-cryptocurrency-cybercrime-goes-dark/)
+- [Intel471](https://intel471.com/)
+- [Tatum](https://tatum.io/)
+- [Ciphertrace](https://ciphertrace.com/)
+- [Bitcoin Abuse](https://www.bitcoinabuse.com/)
+- [Blockchain-Info](https://www.maltego.com/transform-hub/blockchain-info/)
+- [GraphSense](https://github.com/INTERPOL-Innovation-Centre/GraphSense-Maltego-transform)
