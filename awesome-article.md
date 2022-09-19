@@ -9,6 +9,8 @@
 
 # Indonesian article
 
+- [OSINT Open Source Intelligence Fundamental](https://blog.seccodeid.com/2022/09/osint-open-source-intelligence.html)
+- [OSINT Tutorial Maltego -Open Source Intelligence Free Handbook](https://blog.tegalsec.org/osint-tutorial-maltego-open-source-intelligence-free-handbook/)
 - [Open Source Intelligence - Open Source Threat Intelligence](https://blog.seccodeid.com/2022/01/open-source-intelligence-open-source.html)
 - [Metode pelacakan osint dan keaslian sumber](https://blog.seccodeid.com/2021/05/metode-pelacakan-osint-dan-keaslian.html)
 - [Panduan Untuk Social Media Intelligence Gathering (SOCMINT)](https://blog.seccodeid.com/2020/08/panduan-untuk-social-media-intelligence.html)
@@ -16,6 +18,8 @@
 
 # English article
 
+- [OSINT Tools & Software for Passive & Active Recon & Security!](https://www.pcwdld.com/osint-tools-and-software#wbounce-modal)
+- [OSINT Open Source Intelligence Fundamental](https://en-blog.seccodeid.com/2022/09/osint-open-source-intelligence.html)
 - [Os2int](https://os2int.com/toolbox/)
 - [Types of Threat Intelligence Gathering](https://socradar.io/types-of-threat-intelligence-gathering/)
 - [Learn transform Maltego](https://www.maltego.com/transform-hub/)
