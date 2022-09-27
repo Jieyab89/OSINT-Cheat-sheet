@@ -228,6 +228,9 @@ This tools can show your ip address isp provider and geo location
 - [Wigle](https://www.wigle.net/)
 Maps and database of 802.11 wireless networks, with statistics, submitted by wardrivers, netstumblers, and
 net huggers
+- [Fing Net Scan](https://www.fing.com/)
+- [Wifianalyzer](https://www.wifianalyzer.info/)
+- [Signalmonitoring](https://signalmonitoring.com/)
 
 # SOC or Threat Hunting
 
@@ -360,6 +363,13 @@ This domain will always change
 - [Maltego Transform](https://docs.maltego.com/support/solutions/articles/15000033679-phonesearch)
 - [Unkownphone](https://www.unknownphone.com/)
 - [Whocallsme](https://whocallsme.com/)
+- [elenchitelefonici](https://www.elenchitelefonici.it/)
+- [nationalcellulardirectory](https://www.nationalcellulardirectory.com/)
+- [phonebooks](https://www.phonebooks.com/)
+- [International Phone Directories](https://www.thisnumber.com/)
+- [PhoneInfoga](https://demo.phoneinfoga.crvx.fr/#/)
+- [Spy Dialer](https://spydialer.com/)
+- [Phone Validator](https://www.phonevalidator.com/)
 
 # Public Records
 
@@ -711,6 +721,15 @@ Firefox plugin that will assist in downloading all media from a website
 Search channel, username anymore
 
 - [Telegago](https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg#gsc.tab=0)
+- [TelegramDB](http://www.telegramdb.org/)
+- [Telegram Search Engine](https://xtea.io/)
+- [Telegram Database: channels, groups and users](https://t.me/s/privatelinks)
+- [Telegram channels and groups catalog](https://tgstat.com/)
+- [Telegago](https://cse.google.com/)
+- [Social Finder](https://socialfinder.app/list/Telegram)
+- [Lyzem Search](https://lyzem.com/)
+- [Discover The Best Telegram Channels](https://telegramchannels.me/)
+- [Tele Channel Overiview](https://telemetr.io/)
 
 # Linkedin
 
@@ -960,3 +979,43 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [Bitcoin Abuse](https://www.bitcoinabuse.com/)
 - [Blockchain-Info](https://www.maltego.com/transform-hub/blockchain-info/)
 - [GraphSense](https://github.com/INTERPOL-Innovation-Centre/GraphSense-Maltego-transform)
+
+# Cell Investigation
+
+- [Opencellid](https://opencellid.org/)
+- [Location API](unwiredlabs)
+- [Cell Mapping](https://www.cellmapper.net/)
+- [Global Internet Infrastructure Map](https://www.infrapedia.com/)
+- [Spy Dialer](https://spydialer.com/)
+- [Phone Validator](https://www.phonevalidator.com/)
+- [Free Operator Search](https://freecarrierlookup.com/)
+
+# IMEI Investigation
+
+- [SNDeepinfo](https://sndeep.info/)
+- [Imei Numbers](http://imei-number.com/)
+- [Nobbi](http://www.nobbi.com/)
+- [IMEI Info](https://www.imei.info/)
+- [International Numberingplans](https://www.numberingplans.com/)
+- [IPhone IMEI](https://iunlocker.com/en/check_imei.php)
+
+# Chat Apps Investigation
+
+WhatsApp
+
+- [Analyze your WhatsApp Chat](https://whatsanalyze-80665.web.app/)
+- [Chat Visualizer](https://chatvisualizer.com/)
+- [WhatsApp Group Links](https://whatsgrouplink.com/)
+- [Download WhatsApp Profile Picture](https://watools.io/download-profile-picture)
+
+Telegram
+
+- [TelegramDB](http://www.telegramdb.org/)
+- [Telegram Search Engine](https://xtea.io/)
+- [Telegram Database: channels, groups and users](https://t.me/s/privatelinks)
+- [Telegram channels and groups catalog](https://tgstat.com/)
+- [Telegago](https://cse.google.com/)
+- [Social Finder](https://socialfinder.app/list/Telegram)
+- [Lyzem Search](https://lyzem.com/)
+- [Discover The Best Telegram Channels](https://telegramchannels.me/)
+- [Tele Channel Overiview](https://telemetr.io/)
