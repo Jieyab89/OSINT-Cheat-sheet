@@ -231,6 +231,8 @@ net huggers
 - [Fing Net Scan](https://www.fing.com/)
 - [Wifianalyzer](https://www.wifianalyzer.info/)
 - [Signalmonitoring](https://signalmonitoring.com/)
+- [Angry Ip](https://angryip.org/)
+- [Advanced ip scanner](https://www.advanced-ip-scanner.com/)
 
 # SOC or Threat Hunting
 
@@ -968,6 +970,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 # Zero Day
 
 - [0day](https://0day.today/)
+- [Zerodium](https://zerodium.com/)
 
 # Cryptocurrency Investigation
 
