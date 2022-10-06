@@ -182,6 +182,15 @@ Be carefull using this tool
 - [DNS Checker](https://dnschecker.org)
 - [HackerTarget](https://hackertarget.com/ip-tools)
 - [Shodan](https://www.shodan.io)
+- [Wappalyzer](https://www.wappalyzer.com/)
+- [Sudomy](https://github.com/screetsec/Sudomy)
+- [Testssl](https://testssl.sh/)
+- [Nmap](https://nmap.org/)
+- [builtwith](https://builtwith.com/)
+- [VirusTotal](https://www.virustotal.com/gui/)
+- [Shodan](https://www.shodan.io/)
+- [Nessus](https://www.tenable.com/products/nessus)
+- [Nikto](https://cirt.net/Nikto2)
 
 # Analysing URLs
 
@@ -206,6 +215,7 @@ Be carefull using this tool
 - [Virus total](https://www.virustotal.com/gui/home/upload)
 - [Virus Share](https://virusshare.com)
 - [Web Cookies Scanner](https://webcookies.org)
+- [Yara](https://yara.readthedocs.io/en/stable/)
 
 # IoT Search Engines
 
@@ -239,6 +249,7 @@ net huggers
 - [Alien Vault](https://otx.alienvault.com/)
 - [Exploit db](https://www.exploit-db.com/)
 - [AT&T](https://cybersecurity.att.com/resource-center#content_analyst-reports)
+- [Yara](https://yara.readthedocs.io/en/stable/)
 
 # Dorking
 
@@ -1035,6 +1046,8 @@ Launches brute-force dictionary attacks on JPG image
 Hide data in various kind of images
 - [Stegsolve](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install)
 Apply various steganography techniques to images
+- [SearchSploit](https://www.exploit-db.com/searchsploit)
+Command line search tool for Exploit-DB
 
 # Zero Day
 
@@ -1105,6 +1118,9 @@ Telegram
 - [Temp Mail](https://mail.tm/en/)
 - [Temp Mail](https://temp-mail.org/en/)
 - [Temp Mail](https://tempmailo.com/)
+- [Cryptocurrency Payment Monero](https://www.getmonero.org/)
+- [Cryptocurrency Payment Bitcoin](https://bitcoin.org/en/)
+- [Openpgp](https://www.openpgp.org/)
 
 Social Network and blogging
 
