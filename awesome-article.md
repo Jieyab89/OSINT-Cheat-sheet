@@ -18,6 +18,7 @@
 
 # English article
 
+- [Creating an Effective Sock Puppet for OSINT Investigations – Introduction](https://web.archive.org/web/20210125191016/https://jakecreps.com/2018/11/02/sock-puppets/)
 - [OSINT Tools & Software for Passive & Active Recon & Security!](https://www.pcwdld.com/osint-tools-and-software#wbounce-modal)
 - [OSINT Open Source Intelligence Fundamental](https://en-blog.seccodeid.com/2022/09/osint-open-source-intelligence.html)
 - [Os2int](https://os2int.com/toolbox/)

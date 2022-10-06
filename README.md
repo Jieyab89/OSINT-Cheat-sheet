@@ -464,6 +464,8 @@ or you can use dork for spesific example
 - [Toutatis](https://github.com/megadose/toutatis)
 - [Worldcam](http://worldc.am)
 - [SearchMyBio](https://www.searchmy.bio/)
+- [Dumpor](https://dumpor.com/)
+- [Hookgram](https://hookgram.com/)
 
 # Pinterest
 
@@ -542,6 +544,7 @@ or you can use dork for spesific example
 - [Twitter Search](http://search.twitter.com)
 - [TWUBS Twitter Chat](http://twubs.com/twitter-chats)
 - [Schedule Warble](https://warble.co)
+- [Twint](https://github.com/twintproject/twint)
 
 # Twitter Search Engines
 
@@ -866,44 +869,44 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 
 # Geospatial Research and Mapping Tools
 
-* [Atlasify](http://www.atlasify.com)
-* [Batchgeo](http://batchgeo.com)
-* [Bing Maps](http://www.bing.com/maps)
-* [CartoDB](https://cartodb.com)
-* [Colorbrewer](http://colorbrewer2.org)
-* [CrowdMap](https://crowdmap.com)
-* [CTLRQ Address Lookup](https://ctrlq.org/maps/address)
-* [Dominoc925](https://dominoc925-pages.appspot.com/mapplets/cs_mgrs.html)
-* [DualMaps](https://www.mapchannels.com/dualmaps7/map.htm)
-* [GeoGig](http://geogig.org)
-* [GeoNames](http://www.geonames.org)
-* [Esri](http://www.esri.com)
-* [Flash Earth](http://www.flashearth.com)
-* [Google Earth](http://www.google.com/earth)
-* [Google Earth Pro](https://www.google.com/intl/en/earth/versions/#earth-pro)
-* [Google Maps](https://www.google.com/maps)
-* [Google Maps Streetview Player](http://brianfolts.com/driver)
-* [Google My Maps](https://www.google.com/maps/about/mymaps)
-* [GPSVisualizer](http://www.gpsvisualizer.com)
-* [GrassGIS](http://grass.osgeo.org)
-* [Here](http://here.com)
-* [Hyperlapse](https://github.com/TeehanLax/Hyperlapse.js)
-* [Inspire Geoportal](http://inspire-geoportal.ec.europa.eu)
-* [InstantAtlas](http://www.instantatlas.com)
-* [Instant Google Street View](http://www.instantstreetview.com)
-* [Kartograph](http://kartograph.org)
-* [Leaflet](http://leafletjs.com)
-* [MapAList](http://mapalist.com)
-* [MapBox](https://www.mapbox.com)
-* [Mapbuildr](https://mapbuildr.com)
-* [Mapchart.net](https://mapchart.net)
-* [Maperitive](http://maperitive.net)
-* [MapHub](https://maphub.net)
-* [MapJam](http://mapjam.com)
-* [Mapline](https://mapline.com)
-* [Map Maker](https://maps.co)
-* [Mapquest](https://www.mapquest.com)
-* [Modest Maps](http://modestmaps.com)
+- [Atlasify](http://www.atlasify.com)
+- [Batchgeo](http://batchgeo.com)
+- [Bing Maps](http://www.bing.com/maps)
+- [CartoDB](https://cartodb.com)
+- [Colorbrewer](http://colorbrewer2.org)
+- [CrowdMap](https://crowdmap.com)
+- [CTLRQ Address Lookup](https://ctrlq.org/maps/address)
+- [Dominoc925](https://dominoc925-pages.appspot.com/mapplets/cs_mgrs.html)
+- [DualMaps](https://www.mapchannels.com/dualmaps7/map.htm)
+- [GeoGig](http://geogig.org)
+- [GeoNames](http://www.geonames.org)
+- [Esri](http://www.esri.com)
+- [Flash Earth](http://www.flashearth.com)
+- [Google Earth](http://www.google.com/earth)
+- [Google Earth Pro](https://www.google.com/intl/en/earth/versions/#earth-pro)
+- [Google Maps](https://www.google.com/maps)
+- [Google Maps Streetview Player](http://brianfolts.com/driver)
+- [Google My Maps](https://www.google.com/maps/about/mymaps)
+- [GPSVisualizer](http://www.gpsvisualizer.com)
+- [GrassGIS](http://grass.osgeo.org)
+- [Here](http://here.com)
+- [Hyperlapse](https://github.com/TeehanLax/Hyperlapse.js)
+- [Inspire Geoportal](http://inspire-geoportal.ec.europa.eu)
+- [InstantAtlas](http://www.instantatlas.com)
+- [Instant Google Street View](http://www.instantstreetview.com)
+- [Kartograph](http://kartograph.org)
+- [Leaflet](http://leafletjs.com)
+- [MapAList](http://mapalist.com)
+- [MapBox](https://www.mapbox.com)
+- [Mapbuildr](https://mapbuildr.com)
+- [Mapchart.net](https://mapchart.net)
+- [Maperitive](http://maperitive.net)
+- [MapHub](https://maphub.net)
+- [MapJam](http://mapjam.com)
+- [Mapline](https://mapline.com)
+- [Map Maker](https://maps.co)
+- [Mapquest](https://www.mapquest.com)
+- [Modest Maps](http://modestmaps.com)
 - [NGA GEOINT](https://github.com/ngageoint)
 - [OpenLayers](http://openlayers.org)
 - [Polymaps](http://polymaps.org)
@@ -963,9 +966,71 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [Testssl](https://testssl.sh/)
 - [Nesus](https://www.tenable.com/products/nessus)
 
-# CTF analysis
+# CTF Analysis
 
 - [Cybercheff](https://gchq.github.io/CyberChef/)
+- [Bettercap](https://github.com/bettercap/bettercap)
+Framework to perform MITM (Man in the Middle) attacks.
+- [Yersinia](https://github.com/tomac/yersinia)
+A framework for layer 2 attacks
+- [FeatherDuster](https://github.com/nccgroup/featherduster)
+An automated, modular cryptanalysis tool
+- [Hash Extender](https://github.com/iagox86/hash_extender)
+A utility tool for performing hash length extension attacks
+- [Hashcat](https://hashcat.net/hashcat/)
+Password cracking
+- [DLLInjector ](https://github.com/OpenSecurityResearch/dllinjector)
+Inject dlls in processes
+- [Metasploit](https://www.metasploit.com/)
+Penetration testing software and exploit
+- [Pwntools](https://github.com/Gallopsled/pwntools)
+CTF framework and exploit development library
+- [ROPgadget](https://github.com/JonathanSalwan/ROPgadget)
+Framework for ROP exploitation
+- [Exiftool](https://exiftool.org/)
+Read, write and edit file metadata
+- [Malzilla](https://malzilla.sourceforge.net/downloads.html)
+Malware hunting tool
+- [Zmap](https://zmap.io/)
+An open-source network scanner.
+- [Nmap](https://nmap.org/)
+Net mapping and port scanner
+- [Wireshark](https://www.wireshark.org/)
+Analyze the network dumps
+- [Apktool](https://ibotpeaches.github.io/Apktool/)
+Android Decompiler
+- [Ninja Binary](https://binary.ninja/)
+Binary analysis framework
+- [Binwalk](https://github.com/ReFirmLabs/binwalk)
+Analyze, reverse engineer, and extract firmware images
+- [GDB](https://www.sourceware.org/gdb/)
+The GNU project debugger
+- [GEF](https://github.com/hugsy/gef)
+Advanced debugging capabilities for exploit devs & reverse engineers on Linux
+- [IDA](https://www.hex-rays.com/ida-pro/)
+Most used Reversing software
+- [PEDA](https://github.com/longld/peda)
+Python Exploit Development Assistance for GDB
+- [Radare2](https://github.com/radareorg/radare2)
+UNIX-like reverse engineering framework and command-line toolset
+- [Windbg](http://www.windbg.org/)
+Windows debugger distributed by Microsoft
+- [Boomerang](https://github.com/BoomerangDecompiler/boomerang)
+Decompile x86 binaries to C
+- [Detox](http://relentless-coding.org/projects/jsdetox/install)
+A Javascript malware analysis tool
+- [SmartDeblur](https://github.com/Y-Vladimir/SmartDeblur)
+Restoration of defocused and blurred photos/images
+- [ImageMagick](http://www.imagemagick.org/script/index.php)
+Tool for manipulating images
+- [Exiv2](https://exiv2.org/manpage.html)
+Image metadata manipulation tool
+- [Stegbreak](https://linux.die.net/man/1/stegbreak)
+Launches brute-force dictionary attacks on JPG image
+- [Steghide](https://steghide.sourceforge.net/)
+Hide data in various kind of images
+- [Stegsolve](https://github.com/zardus/ctf-tools/blob/master/stegsolve/install)
+Apply various steganography techniques to images
 
 # Zero Day
 
@@ -1022,3 +1087,22 @@ Telegram
 - [Lyzem Search](https://lyzem.com/)
 - [Discover The Best Telegram Channels](https://telegramchannels.me/)
 - [Tele Channel Overiview](https://telemetr.io/)
+
+# Sockpuppet Accounts
+
+- [Thispersondoesnotexist](https://www.thispersondoesnotexist.com/)
+- [Protonmail](https://protonmail.com/)
+- [Nordvpn](https://nordvpn.com/)
+- [NOX](https://www.bignox.com/)
+- [Browser Extension](https://nordvpn.com/blog/use-these-browser-extensions-for-your-privacy/)
+- [Burner Phone Number](https://www.mintmobile.com/)
+- [Hushed](https://hushed.com/)
+- [Temp Phone Number](https://temporary-phone-number.com/)
+
+Social Network and blogging
+
+- Wordpress
+- Blogger
+- Medium  
+- Facebook
+- Instagram
