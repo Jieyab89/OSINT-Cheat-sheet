@@ -343,6 +343,7 @@ This domain will always change
 - [SINTA](https://sinta.kemdikbud.go.id/)
 - [Social Searcher](https://www.social-searcher.com/)
 - [Pimeyes](https://pimeyes.com/en)
+- [Rocketreach](https://rocketreach.co/)
 
 # Phone Numbers
 
@@ -629,6 +630,9 @@ Google queries for MySpace
 
 - [ip-adress](http://www.ip-adress.com/trace_email/)
 - [whatismyipaddress](http://www.whatismyipaddress.com/trace-email)
+- [hunter](https://hunter.io/)
+- [email-checker](https://email-checker.net/)
+- [verifyemailaddress](https://www.verifyemailaddress.org/)
 
 # Tracking People
 
@@ -1088,7 +1092,7 @@ Telegram
 - [Discover The Best Telegram Channels](https://telegramchannels.me/)
 - [Tele Channel Overiview](https://telemetr.io/)
 
-# Sockpuppet Accounts
+# Build Sockpuppet Accounts
 
 - [Thispersondoesnotexist](https://www.thispersondoesnotexist.com/)
 - [Protonmail](https://protonmail.com/)
@@ -1098,6 +1102,9 @@ Telegram
 - [Burner Phone Number](https://www.mintmobile.com/)
 - [Hushed](https://hushed.com/)
 - [Temp Phone Number](https://temporary-phone-number.com/)
+- [Temp Mail](https://mail.tm/en/)
+- [Temp Mail](https://temp-mail.org/en/)
+- [Temp Mail](https://tempmailo.com/)
 
 Social Network and blogging
 
