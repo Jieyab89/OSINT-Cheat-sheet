@@ -1107,6 +1107,8 @@ Telegram
 
 # Build Sockpuppet Accounts
 
+Build your sockpuppet account and proctect your privacy
+
 - [Thispersondoesnotexist](https://www.thispersondoesnotexist.com/)
 - [Protonmail](https://protonmail.com/)
 - [Nordvpn](https://nordvpn.com/)
@@ -1129,3 +1131,17 @@ Social Network and blogging
 - Medium  
 - Facebook
 - Instagram
+
+# Enhance Image Quality
+
+- [Letsenhance](https://letsenhance.io/)
+- [Cutout](https://www.cutout.pro/photo-enhancer-sharpener-upscaler)
+- [Upscale](https://upscalepics.com/)
+- [Canva](https://www.canva.com/features/image-enhancer/)
+- [Adobe](https://www.adobe.com/express/feature/image/enhance)
+- [Picwish](https://picwish.com/unblur-image-portrait)
+- [Fotor](https://www.fotor.com/features/unblur-image/)
+- [SIUN](https://github.com/minyuanye/SIUN)
+- [DPED](https://github.com/aiff22/DPED)
+- [neural-enhance](https://dockship.io/model/neural-enhance/5de4333901afe15d4ec10393)
+- [neural-enhance](https://github.com/alexjc/neural-enhance)
