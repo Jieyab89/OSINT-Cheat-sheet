@@ -246,12 +246,24 @@ net huggers
 - [Angry Ip](https://angryip.org/)
 - [Advanced ip scanner](https://www.advanced-ip-scanner.com/)
 
-# SOC or Threat Hunting
+# SOC & Threat Hunting
 
 - [Alien Vault](https://otx.alienvault.com/)
 - [Exploit db](https://www.exploit-db.com/)
 - [AT&T](https://cybersecurity.att.com/resource-center#content_analyst-reports)
 - [Yara](https://yara.readthedocs.io/en/stable/)
+- [Virustotal](https://www.virustotal.com/gui/home/upload)
+- [Joesandbox](https://www.joesandbox.com/#windows)
+- [Spiderfoot](https://www.spiderfoot.net/)
+- [Open CTI](https://github.com/OpenCTI-Platform/opencti)
+- [Solarwinds](https://www.solarwinds.com/)
+- [VMware Carbon Black Endpoint](https://www.vmware.com/products/carbon-black-cloud-endpoint.html)
+- [Insightidr](https://www.rapid7.com/products/insightidr/)
+- [MISP](https://www.misp-project.org/)
+
+Tips
+
+You can find the file hash or other threat indicator
 
 # Dorking
 
@@ -672,6 +684,8 @@ Google queries for MySpace
 
 # IoT – Internet of Things
 
+- [Cameraftp](https://www.cameraftp.com/cameraftp/publish/publishedcameras.aspx)
+- [Earthcam](https://www.earthcam.com/)
 - [Insecam](http://Insecam.org)
 - [Shodan](https://Shodan.io)
 
