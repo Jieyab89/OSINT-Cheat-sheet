@@ -188,13 +188,14 @@ Be carefull using this tool
 - [Nmap](https://nmap.org/)
 - [builtwith](https://builtwith.com/)
 - [VirusTotal](https://www.virustotal.com/gui/)
-- [Shodan](https://www.shodan.io/)
 - [Nessus](https://www.tenable.com/products/nessus)
 - [Nikto](https://cirt.net/Nikto2)
+- [Webshag](https://github.com/wereallfeds/webshag)
 
 # Analysing URLs
 
-- [unfurl](https://github.com/obsidianforensics/unfurl)
+- [Unfurl](https://github.com/obsidianforensics/unfurl)
+- [VirusTotal](https://www.virustotal.com/gui/home/upload)
 
 # Researching Cyber Threats
 
@@ -216,6 +217,7 @@ Be carefull using this tool
 - [Virus Share](https://virusshare.com)
 - [Web Cookies Scanner](https://webcookies.org)
 - [Yara](https://yara.readthedocs.io/en/stable/)
+- [Spiderfoot](https://www.spiderfoot.net/)
 
 # IoT Search Engines
 
@@ -291,11 +293,18 @@ example
 - [Topix.com](http://www.topix.com)
 - [search.carrot2.org/stable/search](http://search.carrot2.org/stable/search)
 - [Shodan](https://www.shodan.io/)
+- [Piratebays](https://thepiratebays.com/)
+- [Onesearch](https://www.onesearch.com/)
+- [Searchencrypt](https://www.searchencrypt.com/home)
+- [Duckgo](https://duckduckgo.com/)
 
 # Internet Archive
 
 - [Wayback Machine](https://web.archive.org/)
 - [Intelligence X](https://intelx.io/)
+- [Openlibrary](https://openlibrary.org/)
+- [Archive Fo](https://archive.fo/)
+- [UKWA](https://www.webarchive.org.uk/ukwa/)
 
 # Data Breached OSINT
 
@@ -318,6 +327,7 @@ This domain will always change
 - [Sciencedirect](https://www.sciencedirect.com/)
 - [Sinta](https://sinta.kemdikbud.go.id/)
 - [Scopus](https://www.scopus.com/)
+- [Onesearch ID](https://onesearch.id/)
 
 # Blogs Search Engine
 
@@ -332,6 +342,7 @@ This domain will always change
 - [MEMEX](https://memex.garden/)
 - [Onion](https://onion.cab)
 - [Onion city](https://onion.city/)
+- [Ahmia](https://ahmia.fi/)
 
 # Tracking Website Changes
 
@@ -342,6 +353,7 @@ This domain will always change
 
 - [whois](http://www.whois.net)
 - [Netcraft](http://www.netcraft.com)
+- [Hunter](https://hunter.io/)
 
 # People Searching
 
@@ -395,12 +407,21 @@ This domain will always change
 
 - [Namechk](http://www.namechk.com)
 - [Knowem](http://www.knowem.com)
+- [Nexfil](https://github.com/thewhiteh4t/nexfil)
+- [Sherlock](https://github.com/sherlock-project/sherlock)
+- [Instantusername](https://instantusername.com/#/)
+- [Snitch](http://snitch.name/)
+- [Checkusernames](https://checkusernames.com/)
 
 # Social Networks
 
 - [Facebook](https://facebook.com/livemap)
 - [Facebook lookup id](https://lookup-id.com/#)
 - [Sherlock](https://github.com/sherlock-project/sherlock)
+- [Socialsearcher Users](https://www.social-searcher.com/)
+- [Sherlock](https://github.com/sherlock-project/sherlock)
+- [Nexfil](https://github.com/thewhiteh4t/nexfil)
+- [Googlesocialsearch](https://www.social-searcher.com/google-social-search/)
 
 # Google Queries for Facebook
 
@@ -678,10 +699,6 @@ Firefox plugin that will assist in downloading all media from a website
 - [Telegram OSINT](https://forum.seccodeid.com/d/telegram-nearby-map)
 - [Recon-Ng](https://github.com/lanmaster53/recon-ng)
 - [Metagoofil](https://www.kali.org/tools/metagoofil/)
-- [More](https://forum.seccodeid.com/?q=osint)
-
-# OSINT Github Tool  
-
 - [tinfoleak](https://github.com/vaguileradiaz/tinfoleak)
 - [migret](https://github.com/soxoj/maigret)
 - [mosint](https://github.com/alpkeskin/mosint)
@@ -713,6 +730,7 @@ Firefox plugin that will assist in downloading all media from a website
 - [The World's simplest facial recognition api for python and the command line](https://github.com/ageitgey/face_recognition)
 - [Automation and automation of digital forensic tools](https://github.com/google/turbinia)  
 - [E4GL30S1NT](https://github.com/C0MPL3XDEV/E4GL30S1NT)
+- [More](https://forum.seccodeid.com/?q=osint)
 
 # OSINT Online Tool  
 
@@ -1123,6 +1141,7 @@ Build your sockpuppet account and proctect your privacy
 - [Cryptocurrency Payment Monero](https://www.getmonero.org/)
 - [Cryptocurrency Payment Bitcoin](https://bitcoin.org/en/)
 - [Openpgp](https://www.openpgp.org/)
+- [Operating System](https://tails.boum.org/)
 
 Social Network and blogging
 
