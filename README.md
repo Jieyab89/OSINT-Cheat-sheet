@@ -166,6 +166,7 @@ Be carefull using this tool
 - [Samdesk](https://www.samdesk.io)
 - [Social Links](https://www.mtg-bi.com)
 - [Social Searcher](https://www.social-searcher.com/)
+- [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
 
 # Social Media Management and Content Discovery
 
@@ -173,6 +174,7 @@ Be carefull using this tool
 - [Buffer](https://buffer.com)
 - [Coosto](https://www.coosto.com)
 - [Revive Social](https://revive.social)
+- [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
 
 # Web Intelligence
 
@@ -317,6 +319,7 @@ example
 - [Openlibrary](https://openlibrary.org/)
 - [Archive Fo](https://archive.fo/)
 - [UKWA](https://www.webarchive.org.uk/ukwa/)
+- [Archive today](https://archive.vn/)
 
 # Data Breached OSINT
 
@@ -326,6 +329,7 @@ example
 - [Wiki Leaks](https://wikileaks.org/)
 - [DDO Secrets](https://ddosecrets.com/wiki/Distributed_Denial_of_Secrets)
 - [Breached](https://breached.to/) Availabe on Darkweb
+- [Dark Tracer](https://darktracer.com/)
 
 # Crack Jurnals
 
@@ -408,6 +412,10 @@ This domain will always change
 - [PhoneInfoga](https://demo.phoneinfoga.crvx.fr/#/)
 - [Spy Dialer](https://spydialer.com/)
 - [Phone Validator](https://www.phonevalidator.com/)
+- [Fone finder](https://www.fonefinder.net/)
+- [411 reverse phone](https://www.411.com/reverse-phone)
+- [Number guru](https://www.numberguru.com/)
+- [Zaba reverse phone](https://www.zabasearch.com/reverse-phone-lookup/)
 
 # Public Records
 
@@ -669,6 +677,8 @@ Google queries for MySpace
 - [Metashield Analyzer](https://metashieldanalyzer.elevenpaths.com/)
 - [forensicswiki](http://www.forensicswiki.org/wiki/Document_Metadata_Extraction)
 - [foca](https://www.elevenpaths.com/labstools/foca/index.html)
+- [Psbdmp](https://psbdmp.ws/)
+- [Find PDF Doc](http://www.findpdfdoc.com/)
 
 # Email Tracing
 
@@ -803,6 +813,9 @@ Extension find email, people on profile Linkedin
 - [File Search Engine](https://www.filesearch.link/)
 - [FilePursuit](https://filepursuit.com/)
 - [NAPALM FTP Indexer](https://www.searchftps.net/)
+- [Cryptome](https://cryptome.org/)
+- [Finda PDF](https://www.findapdf.com/)
+- [Find PDF Doc](http://www.findpdfdoc.com/)
 
 # Real-Time Search, Social Media Search, and General Social Media Tools
 
@@ -819,6 +832,7 @@ Extension find email, people on profile Linkedin
 - [WATools](https://watools.io/)
 - [Profil3r](https://github.com/Rog3rSm1th/Profil3r)
 - [Oblivion](https://github.com/loseys/Oblivion)
+- [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
 
 # Image Search
 
@@ -843,7 +857,15 @@ Extension find email, people on profile Linkedin
 - [Betaface](https://www.betaface.com/demo.html)
 - [Search4faces](https://search4faces.com/)
 - [Pimeyes](https://pimeyes.com/en)
-
+- [Reminiai](https://remini.ai/)
+- [Search4face](https://search4faces.com/en/)
+- [Vkfacewatch](https://vk.watch/)
+- [Facecheck](https://facecheck.id/)
+- [Findmyclone](https://www.findmyclone.com/)
+- [Face++](https://www.faceplusplus.com/) 
+- [AWS-Recon](https://aws.amazon.com/rekognition/) 
+- [Azure vidio indexer](https://vi.microsoft.com/en-us)
+  
 # Image Analysis
 
 - [ExifTool](https://exiftool.org/)
@@ -859,7 +881,14 @@ Extension find email, people on profile Linkedin
 - [DiffChecker](https://www.diffchecker.com/image-diff/)
 - [ImgOps](https://imgops.com/)
 - [Pimeyes](https://pimeyes.com/en)
-
+- [Reminiai](https://remini.ai/)
+- [Search4face](https://search4faces.com/en/)
+- [Vkfacewatch](https://vk.watch/)
+- [Facecheck](https://facecheck.id/)
+- [Findmyclone](https://www.findmyclone.com/)
+- [Face++](https://www.faceplusplus.com/) 
+- [AWS-Recon](https://aws.amazon.com/rekognition/) 
+  
 # Stock Images
 
 - [AlltheFreeStock](http://allthefreestock.com)
@@ -913,7 +942,8 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [YouTube Metadata](https://mattw.io/youtube-metadata/)
 - [YouTube Geofind](https://mattw.io/youtube-geofind/)
 - [Video Stabilization Methods](https://github.com/yaochih/awesome-video-stabilization)
-
+- [Azure vidio indexer](https://vi.microsoft.com/en-us)
+  
 # Geospatial Research and Mapping Tools
 
 - [Atlasify](http://www.atlasify.com)
@@ -1178,3 +1208,28 @@ Social Network and blogging
 - [DPED](https://github.com/aiff22/DPED)
 - [neural-enhance](https://dockship.io/model/neural-enhance/5de4333901afe15d4ec10393)
 - [neural-enhance](https://github.com/alexjc/neural-enhance)
+- [Reminiai](https://remini.ai/)
+- [Search4face](https://search4faces.com/en/)
+- [Vkfacewatch](https://vk.watch/)
+- [Facecheck](https://facecheck.id/)
+- [Findmyclone](https://www.findmyclone.com/)
+- [Face++](https://www.faceplusplus.com/) 
+- [AWS-Recon](https://aws.amazon.com/rekognition/) 
+- [Azure vidio indexer](https://vi.microsoft.com/en-us) 
+  
+# Locations Data Mapping 
+
+- [Google maps](https://www.google.co.id/maps) 
+- [Social geo lens](https://www.osintcombine.com/social-geo-lens)
+- [Open street map](https://www.openstreetmap.org/)
+
+# Discord Server Search  
+
+- [Discord servers](https://discordservers.com/)
+- [Discover servers](https://disboard.org/)
+- [Discord history tracker](https://www.dht.chylex.com/)  
+  
+# Darkweb Intelligence
+
+- [Dark Tracer](https://darktracer.com/)
+- [Darkweb bookmarks](https://www.osintcombine.com/dw-osint-bookmarks)
