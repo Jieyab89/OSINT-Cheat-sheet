@@ -2,6 +2,8 @@
 
 [![Github Badge](https://img.shields.io/badge/-Jieyab89-black?style=flat&logo=github&logoColor=white&link=https://github.com/Jieyab89/)](https://github.com/Jieyab89)
 
+Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and others. There are free and paid tools you can use and owner is not responsible, only for knowledge or educational purposes. Sorry if some of the resources have closed the service or error owner doesn't always check what's going on with the resources here, thank you
+
 # EXIF TOOL COMMAND
 
 #Exif tag name and data type
@@ -1115,6 +1117,7 @@ Command line search tool for Exploit-DB
 
 - [0day](https://0day.today/)
 - [Zerodium](https://zerodium.com/)
+- [0day fans](https://0dayfans.com/)
 
 # Cryptocurrency Investigation
 
@@ -1233,3 +1236,7 @@ Social Network and blogging
 
 - [Dark Tracer](https://darktracer.com/)
 - [Darkweb bookmarks](https://www.osintcombine.com/dw-osint-bookmarks)
+- [Maltego digital shadows transform](https://www.maltego.com/transform-hub/digital-shadows/)
+- [Maltego cybersixgill transform](https://www.maltego.com/transform-hub/cybersixgill/)
+- [Doge Darknet Osint Graph Explorer](https://github.com/pielco11/DOGE)
+- [Maltego social links professional transform](https://www.maltego.com/transform-hub/social-links-pro/)
