@@ -1212,13 +1212,8 @@ Social Network and blogging
 - [neural-enhance](https://dockship.io/model/neural-enhance/5de4333901afe15d4ec10393)
 - [neural-enhance](https://github.com/alexjc/neural-enhance)
 - [Reminiai](https://remini.ai/)
-- [Search4face](https://search4faces.com/en/)
-- [Vkfacewatch](https://vk.watch/)
-- [Facecheck](https://facecheck.id/)
-- [Findmyclone](https://www.findmyclone.com/)
-- [Face++](https://www.faceplusplus.com/) 
-- [AWS-Recon](https://aws.amazon.com/rekognition/) 
-- [Azure vidio indexer](https://vi.microsoft.com/en-us) 
+- [Depix](https://github.com/beurtschipper/Depix)
+- [Realesrgan](https://replicate.com/xinntao/realesrgan)  
   
 # Locations Data Mapping 
 
