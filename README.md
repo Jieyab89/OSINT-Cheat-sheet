@@ -222,6 +222,9 @@ Be carefull using this tool
 - [Web Cookies Scanner](https://webcookies.org)
 - [Yara](https://yara.readthedocs.io/en/stable/)
 - [Spiderfoot](https://www.spiderfoot.net/)
+- [NVD](https://nvd.nist.gov/search)
+- [Seclist](https://seclists.org/fulldisclosure/)
+- [CVE Mitre](https://cve.mitre.org/cve/search_cve_list.html) 
 
 # IoT Search Engines
 
@@ -264,6 +267,9 @@ net huggers
 - [VMware Carbon Black Endpoint](https://www.vmware.com/products/carbon-black-cloud-endpoint.html)
 - [Insightidr](https://www.rapid7.com/products/insightidr/)
 - [MISP](https://www.misp-project.org/)
+- [NVD](https://nvd.nist.gov/search)
+- [Seclist](https://seclists.org/fulldisclosure/)
+- [CVE Mitre](https://cve.mitre.org/cve/search_cve_list.html)
 
 Tips
 
