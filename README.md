@@ -224,7 +224,19 @@ Be carefull using this tool
 - [Spiderfoot](https://www.spiderfoot.net/)
 - [NVD](https://nvd.nist.gov/search)
 - [Seclist](https://seclists.org/fulldisclosure/)
-- [CVE Mitre](https://cve.mitre.org/cve/search_cve_list.html) 
+- [CVE Mitre](https://cve.mitre.org/cve/search_cve_list.html)
+- [Malicious Check](https://forum.seccodeid.com/d/phishing-email-analysis-tools)
+- [Email Header Analysis](https://mxtoolbox.com/EmailHeaders.aspx)
+- [Url Scan]( https://urlscan.io/ )
+- [AnyRun](https://any.run/)
+- [Hybrid Analysis](https://www.hybrid-analysis.com/)
+- [VMRay Sandbox](https://www.vmray.com/)
+- [Browser Sandbox](https://www.browserling.com/)
+- [Fillter Bypass](https://www.filterbypass.me/id)
+- [Abuse IP DB](https://www.abuseipdb.com/)
+- [Talos CTI](https://www.talosintelligence.com/)
+- [Phishing Analysis Tool](https://www.phishtool.com/)
+- [Phish Verification System](https://phishtank.org/)
 
 # IoT Search Engines
 
@@ -270,6 +282,9 @@ net huggers
 - [NVD](https://nvd.nist.gov/search)
 - [Seclist](https://seclists.org/fulldisclosure/)
 - [CVE Mitre](https://cve.mitre.org/cve/search_cve_list.html)
+- [Whois Record](https://centralops.net/co/)
+- [Abuse IP DB](https://www.abuseipdb.com/)
+- [Talos CTI](https://www.talosintelligence.com/)
 
 Tips
 
@@ -319,6 +334,7 @@ example
 - [Onesearch](https://www.onesearch.com/)
 - [Searchencrypt](https://www.searchencrypt.com/home)
 - [Duckgo](https://duckduckgo.com/)
+- [Waymore](https://forum.seccodeid.com/d/waymore-find-way-more-from-the-wayback-machine)
 
 # Internet Archive
 
@@ -328,6 +344,7 @@ example
 - [Archive Fo](https://archive.fo/)
 - [UKWA](https://www.webarchive.org.uk/ukwa/)
 - [Archive today](https://archive.vn/)
+- [Waymore](https://forum.seccodeid.com/d/waymore-find-way-more-from-the-wayback-machine)
 
 # Data Breached OSINT
 
@@ -367,6 +384,7 @@ This domain will always change
 - [Onion](https://onion.cab)
 - [Onion city](https://onion.city/)
 - [Ahmia](https://ahmia.fi/)
+- [TorBot](https://github.com/DedSecInside/TorBot)
 
 # Tracking Website Changes
 
@@ -870,10 +888,10 @@ Extension find email, people on profile Linkedin
 - [Vkfacewatch](https://vk.watch/)
 - [Facecheck](https://facecheck.id/)
 - [Findmyclone](https://www.findmyclone.com/)
-- [Face++](https://www.faceplusplus.com/) 
-- [AWS-Recon](https://aws.amazon.com/rekognition/) 
+- [Face++](https://www.faceplusplus.com/)
+- [AWS-Recon](https://aws.amazon.com/rekognition/)
 - [Azure vidio indexer](https://vi.microsoft.com/en-us)
-  
+
 # Image Analysis
 
 - [ExifTool](https://exiftool.org/)
@@ -894,9 +912,9 @@ Extension find email, people on profile Linkedin
 - [Vkfacewatch](https://vk.watch/)
 - [Facecheck](https://facecheck.id/)
 - [Findmyclone](https://www.findmyclone.com/)
-- [Face++](https://www.faceplusplus.com/) 
-- [AWS-Recon](https://aws.amazon.com/rekognition/) 
-  
+- [Face++](https://www.faceplusplus.com/)
+- [AWS-Recon](https://aws.amazon.com/rekognition/)
+
 # Stock Images
 
 - [AlltheFreeStock](http://allthefreestock.com)
@@ -951,7 +969,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [YouTube Geofind](https://mattw.io/youtube-geofind/)
 - [Video Stabilization Methods](https://github.com/yaochih/awesome-video-stabilization)
 - [Azure vidio indexer](https://vi.microsoft.com/en-us)
-  
+
 # Geospatial Research and Mapping Tools
 
 - [Atlasify](http://www.atlasify.com)
@@ -1220,10 +1238,10 @@ Social Network and blogging
 - [Reminiai](https://remini.ai/)
 - [Depix](https://github.com/beurtschipper/Depix)
 - [Realesrgan](https://replicate.com/xinntao/realesrgan)  
-  
-# Locations Data Mapping 
 
-- [Google maps](https://www.google.co.id/maps) 
+# Locations Data Mapping
+
+- [Google maps](https://www.google.co.id/maps)
 - [Social geo lens](https://www.osintcombine.com/social-geo-lens)
 - [Open street map](https://www.openstreetmap.org/)
 
@@ -1232,7 +1250,7 @@ Social Network and blogging
 - [Discord servers](https://discordservers.com/)
 - [Discover servers](https://disboard.org/)
 - [Discord history tracker](https://www.dht.chylex.com/)  
-  
+
 # Darkweb Intelligence
 
 - [Dark Tracer](https://darktracer.com/)
@@ -1241,3 +1259,4 @@ Social Network and blogging
 - [Maltego cybersixgill transform](https://www.maltego.com/transform-hub/cybersixgill/)
 - [Doge Darknet Osint Graph Explorer](https://github.com/pielco11/DOGE)
 - [Maltego social links professional transform](https://www.maltego.com/transform-hub/social-links-pro/)
+- [TorBot](https://github.com/DedSecInside/TorBot)
