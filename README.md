@@ -741,6 +741,7 @@ Firefox plugin that will assist in downloading all media from a website
 
 # OSINT TOOLS
 
+- [Meta OSINT](https://metaosint.github.io/)
 - [Shrelock](https://github.com/sherlock-project/sherlock)
 - [Maltego](https://www.maltego.com/)
 - [OSINT Framework](https://osintframework.com/)
