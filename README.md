@@ -161,10 +161,8 @@ Be carefull using this tool
 
 # Social Media Search and Monitoring
 
-- [AIDR](http://aidr.qcri.org)
 - [Awario](https://awario.com)
 - [Brand24](https://brand24.com)
-- [Mention](https://mention.com)
 - [Samdesk](https://www.samdesk.io)
 - [Social Links](https://www.mtg-bi.com)
 - [Social Searcher](https://www.social-searcher.com/)
@@ -172,7 +170,6 @@ Be carefull using this tool
 
 # Social Media Management and Content Discovery
 
-- [Agora pulse](https://www.agorapulse.com)
 - [Buffer](https://buffer.com)
 - [Coosto](https://www.coosto.com)
 - [Revive Social](https://revive.social)
@@ -242,7 +239,6 @@ Be carefull using this tool
 
 - [LeakIX](https://leakix.net)
 - [Binary Edge](https://www.binaryedge.io)
-- [Purplepee.com](https://purplepee.co)
 - [Shodan](https://www.shodan.io)
 - [Shodan Filters](https://github.com/T43cr0wl3r/shodan-filters)
 - [Shodan Scripts](https://github.com/random-robbie/My-Shodan-Scripts)
@@ -401,7 +397,6 @@ This domain will always change
 
 - [spokeo](http://www.spokeo.com)
 - [123people](http://www.123people.com)
-- [zoominfo](http://www.zoominfo.com)
 - [peepdb](http://www.peepdb.com)
 - [reversegeni](http://www.reversegenie.com/plate.php)
 - [PDDIKTI](https://pddikti.kemdikbud.go.id/)
@@ -521,14 +516,10 @@ or you can use dork for spesific example
 # The Ultimate Facebook Investigation Tool
 
 - [Intel Technique](https://inteltechniques.com/osint/facebook.html)
-- [Agora Pulse](http://barometer.agorapulse.com)
-- [Commun.it](http://commun.it)
 - [DumpItBlue](http://le-tools.com/DumpItBlue.html)
 - [Fanpage Karma](http://www.fanpagekarma.com)
 - [Facebook Search](http://search.fb.com/)
-- [Facebook Search Tool](http://netbootcamp.org/facebook.html)
 - [Fb-sleep-stats](https://github.com/sqren/fb-sleep-stats)
-- [Find my Facebook ID](https://findmyfbid.in)
 - [Lookup-ID.com](https://lookup-id.com)
 - [SearchIsBack](https://searchisback.com)
 - [Wolfram Alpha Facebook Report](http://www.wolframalpha.com/input/?i=facebook+report)
@@ -538,10 +529,7 @@ or you can use dork for spesific example
 - [Hashtagify](http://hashtagify.me)
 - [Iconosquare](http://iconosquare.com)
 - [Picodash](https://www.picodash.com)
-- [SnapMap](https://snapmap.knightlab.com/)
-- [Social Rank](https://www.socialrank.com)
 - [Toutatis](https://github.com/megadose/toutatis)
-- [Worldcam](http://worldc.am)
 - [SearchMyBio](https://www.searchmy.bio/)
 - [Dumpor](https://dumpor.com/)
 - [Hookgram](https://hookgram.com/)
@@ -555,37 +543,18 @@ or you can use dork for spesific example
 - [search.twitter.com](https://twitter.com/search-home)
 - [twitter advanced](https://www.twitter.com/search-advanced)
 - [twitter who_to_follow](https://www.twitter.com/who_to_follow)
-- [Alldaytrends](https://alldaytrends.com) A website where you can find trending hashtags.
 - [Backtweets](http://backtweets.com) BackTweets is a Twitter analytics tool that allows users to search through a Tweet archive.
-- [Blue Nod](http://bluenod.com)
-- [burrrd.](https://burrrd.com)
-- [doesfollow](https://doesfollow.com)
-- [Fake Follower Check](https://fakers.statuspeople.com)
 - [First Tweet](http://ctrlq.org/first)
 - [Foller.me](http://foller.me)
-- [FollowCheck](http://followcheck.com)
 - [Followerwonk](http://followerwonk.com)
-- [Geochirp](http://www.geochirp.com)
 - [GeoSocial Footprint](http://geosocialfootprint.com)
-- [GetTwitterID](http://gettwitterid.com)
 - [Gigatweeter](http://gigatweeter.com)
-- [Ground Signal](https://www.groundsignal.com)
-- [HappyGrumpy](https://www.happygrumpy.com)
 - [Harvard TweetMap](http://worldmap.harvard.edu/tweetmap)
 - [Hashtagify](http://hashtagify.me)
 - [Hashtags.org](http://www.hashtags.org)
-- [ManageFlitter](http://manageflitter.com)
-- [Mentionmapp](http://mentionmapp.com)
 - [MyTweetAlerts](https://www.mytweetalerts.com/) A tool to create custom email alerts based on Twitter search.
-- [Nations24](https://nations24.com)
 - [OneMillionTweetMap](http://onemilliontweetmap.com)
-- [Queryfeed](https://queryfeed.net)
-- [Rank Speed](http://www.rankspeed.com)
-- [Riffle](http://crowdriff.com/riffle/)
-- [RiteTag](https://ritetag.com)
-- [Sentiment140](http://www.twittersentiment.appspot.com)
 - [SnapBird](http://snapbird.org)
-- [Sleeping Time](http://sleepingtime.org)
 - [Social Bearing](http://www.socialbearing.com)
 - [Social Rank First Follower](http://socialrank.com/firstfollower)
 - [Spoonbill](http://spoonbill.io)
@@ -610,7 +579,6 @@ or you can use dork for spesific example
 - [Twellow](http://www.twellow.com)
 - [Tweriod](http://www.tweriod.com)
 - [Twiangulate](http://www.twiangulate.com)
-- [Twicsy](http://twicsy.com)
 - [Twilert](http://www.twilert.com)
 - [Twipho](http://www.twipho.net)
 - [Twitonomy](http://www.twitonomy.com)
@@ -629,8 +597,6 @@ or you can use dork for spesific example
 
 - [tweetpaths](http://www.tweetpaths.com)
 - [allmytweets](http://www.allmytweets.com)
-- [Sleepingtime](http://www.sleepingtime.org)
-- [twicsy](http://www.twicsy.com)
 - [Twimemachine](https://www.twimemachine.com)
 - [inteltechniques](http://inteltechniques.com/osint/twitter.html)
 
@@ -665,12 +631,7 @@ Google queries for MySpace
 
 # Social Network Search Engines
 
-- [kurrently](http://www.kurrently.com)
 - [socialmention](http://www.socialmention.com)
-- [whostalkin](http://www.whostalkin.com)
-- [twoogel](http://www.twoogel.com)
-- [social mention](http://www.mention.com)
-- [whostalkin](http://www.whostalkin.com)
 
 # Monitoring & Alerting
 
@@ -681,11 +642,9 @@ Google queries for MySpace
 # Images Search Engine
 
 - [Images google](https://images.google.com)
-- [Facesaerch](http://facesaerch.com/)
 - [Tineye](http://www.tineye.com)
 - [Flickr](http://Flickr.com/map)
 - [7photos](http://www.7photos.net)
-- [Worldc](http://www.worldc.am)
 - [Yandex](https://yandex.com/images/)
 
 # EXIF Analysis
@@ -701,7 +660,6 @@ Google queries for MySpace
 # Documents
 
 - [Metashield Analyzer](https://metashieldanalyzer.elevenpaths.com/)
-- [forensicswiki](http://www.forensicswiki.org/wiki/Document_Metadata_Extraction)
 - [foca](https://www.elevenpaths.com/labstools/foca/index.html)
 - [Psbdmp](https://psbdmp.ws/)
 - [Find PDF Doc](http://www.findpdfdoc.com/)
@@ -846,10 +804,7 @@ Extension find email, people on profile Linkedin
 
 # Real-Time Search, Social Media Search, and General Social Media Tools
 
-- [Audiense](https://www.audiense.com)
-- [Bottlenose](http://bottlenose.com)
 - [Buffer](https://buffer.com)
-- [Hootsuite](http://hootsuite.com)
 - [Hashtatit](http://www.hashatit.com)
 - [Rival IQ](https://www.rivaliq.com)
 - [SocialBakers](http://www.socialbakers.com)
@@ -877,7 +832,6 @@ Extension find email, people on profile Linkedin
 - [PicTriev](http://www.pictriev.com)
 - [StolenCameraFinder](http://www.stolencamerafinder.co.uk)
 - [TinEye](https://tineye.com) - Reverse image search engine.
-- [Websta](http://websta.me)
 - [Worldcam](http://www.worldc.am)
 - [Yahoo Image Search](https://images.search.yahoo.com)
 - [Yandex Images](https://www.yandex.com/images)
@@ -979,7 +933,6 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [CartoDB](https://cartodb.com)
 - [Colorbrewer](http://colorbrewer2.org)
 - [CrowdMap](https://crowdmap.com)
-- [CTLRQ Address Lookup](https://ctrlq.org/maps/address)
 - [Dominoc925](https://dominoc925-pages.appspot.com/mapplets/cs_mgrs.html)
 - [DualMaps](https://www.mapchannels.com/dualmaps7/map.htm)
 - [GeoGig](http://geogig.org)
@@ -1018,7 +971,6 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Open Street Map](http://www.openstreetmap.org)
 - [QGIS](http://qgis.org)
 - [QuickMaps](https://chrome.google.com/webstore/detail/quick-maps/bgbojmobaekecckmomemopckmeipecij)
-- [StoryMaps](http://storymaps.arcgis.com/en)
 - [Scribble Maps](http://scribblemaps.com)
 - [Terrapattern](http://www.terrapattern.com)
 - [Tableau](http://www.tableausoftware.com)
