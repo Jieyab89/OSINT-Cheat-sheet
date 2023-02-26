@@ -234,6 +234,9 @@ Be carefull using this tool
 - [Talos CTI](https://www.talosintelligence.com/)
 - [Phishing Analysis Tool](https://www.phishtool.com/)
 - [Phish Verification System](https://phishtank.org/)
+- [PolySwarm](https://www.maltego.com/transform-hub/polyswarm/)
+- [ThreatCrowd](https://www.maltego.com/transform-hub/threatcrowd/)
+- [HYAS Insight](https://www.maltego.com/transform-hub/hyas-insight/)
 
 # IoT Search Engines
 
@@ -437,6 +440,7 @@ This domain will always change
 - [411 reverse phone](https://www.411.com/reverse-phone)
 - [Number guru](https://www.numberguru.com/)
 - [Zaba reverse phone](https://www.zabasearch.com/reverse-phone-lookup/)
+- [FullContact](https://www.maltego.com/transform-hub/full-contact/)
 
 # Public Records
 
@@ -463,6 +467,8 @@ This domain will always change
 - [Sherlock](https://github.com/sherlock-project/sherlock)
 - [Nexfil](https://github.com/thewhiteh4t/nexfil)
 - [Googlesocialsearch](https://www.social-searcher.com/google-social-search/)
+- [Google Social Network Transforms](https://www.maltego.com/transform-hub/google-programmable-search-engine-transforms/)
+- [FullContact](https://www.maltego.com/transform-hub/full-contact/)
 
 # Google Queries for Facebook
 
@@ -869,6 +875,7 @@ Extension find email, people on profile Linkedin
 - [Findmyclone](https://www.findmyclone.com/)
 - [Face++](https://www.faceplusplus.com/)
 - [AWS-Recon](https://aws.amazon.com/rekognition/)
+- [Image Analyzer](https://www.maltego.com/transform-hub/image-analyzer/)
 
 # Stock Images
 
@@ -1159,9 +1166,9 @@ Build your sockpuppet account and proctect your privacy
 - [Burner Phone Number](https://www.mintmobile.com/)
 - [Hushed](https://hushed.com/)
 - [Temp Phone Number](https://temporary-phone-number.com/)
-- [Temp Mail](https://mail.tm/en/)
-- [Temp Mail](https://temp-mail.org/en/)
-- [Temp Mail](https://tempmailo.com/)
+- [Temp Mail 1](https://mail.tm/en/)
+- [Temp Mail 2](https://temp-mail.org/en/)
+- [Temp Mail 3](https://tempmailo.com/)
 - [Cryptocurrency Payment Monero](https://www.getmonero.org/)
 - [Cryptocurrency Payment Bitcoin](https://bitcoin.org/en/)
 - [Openpgp](https://www.openpgp.org/)
@@ -1197,6 +1204,7 @@ Social Network and blogging
 - [Google maps](https://www.google.co.id/maps)
 - [Social geo lens](https://www.osintcombine.com/social-geo-lens)
 - [Open street map](https://www.openstreetmap.org/)
+- [Google Maps Geocoding](https://www.maltego.com/transform-hub/google-maps-geocoding-transforms/)
 
 # Discord Server Search  
 
@@ -1234,3 +1242,4 @@ Social Network and blogging
 - [Sleuthkit](https://www.sleuthkit.org/sleuthkit/)
 - [SIFT SANS](https://www.sans.org/tools/sift-workstation/)
 - [SIFT CLI](https://github.com/teamdfir/sift-cli/releases/tag/v1.8.5)
+- [HYAS Insight](https://www.maltego.com/transform-hub/hyas-insight/)
