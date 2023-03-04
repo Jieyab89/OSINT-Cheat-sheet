@@ -457,6 +457,7 @@ This domain will always change
 - [Instantusername](https://instantusername.com/#/)
 - [Snitch](http://snitch.name/)
 - [Checkusernames](https://checkusernames.com/)
+- [Maigret](https://github.com/soxoj/maigret)
 
 # Social Networks
 
@@ -469,6 +470,7 @@ This domain will always change
 - [Googlesocialsearch](https://www.social-searcher.com/google-social-search/)
 - [Google Social Network Transforms](https://www.maltego.com/transform-hub/google-programmable-search-engine-transforms/)
 - [FullContact](https://www.maltego.com/transform-hub/full-contact/)
+- [maigret](https://github.com/soxoj/maigret)
 
 # Google Queries for Facebook
 
@@ -715,7 +717,7 @@ Firefox plugin that will assist in downloading all media from a website
 - [Recon-Ng](https://github.com/lanmaster53/recon-ng)
 - [Metagoofil](https://www.kali.org/tools/metagoofil/)
 - [tinfoleak](https://github.com/vaguileradiaz/tinfoleak)
-- [migret](https://github.com/soxoj/maigret)
+- [maigret](https://github.com/soxoj/maigret)
 - [mosint](https://github.com/alpkeskin/mosint)
 - [osint_stuff_tool_collection](https://github.com/cipher387/osint_stuff_tool_collection)
 - [instaloctrack](https://github.com/bernsteining/instaloctrack)
@@ -745,6 +747,9 @@ Firefox plugin that will assist in downloading all media from a website
 - [The World's simplest facial recognition api for python and the command line](https://github.com/ageitgey/face_recognition)
 - [Automation and automation of digital forensic tools](https://github.com/google/turbinia)  
 - [E4GL30S1NT](https://github.com/C0MPL3XDEV/E4GL30S1NT)
+- [Commit stream finding Github repositories by extracting commit](https://github.com/x1sec/commit-stream)
+- [SingleFile copy of an entire web page in a single HTML file](https://github.com/gildas-lormeau/SingleFile)
+- [Photon Incredibly fast crawler designed for OSINT](https://github.com/s0md3v/Photon)
 - [More](https://forum.seccodeid.com/?q=osint)
 
 # OSINT Online Tool  
