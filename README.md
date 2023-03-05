@@ -441,6 +441,8 @@ This domain will always change
 - [Number guru](https://www.numberguru.com/)
 - [Zaba reverse phone](https://www.zabasearch.com/reverse-phone-lookup/)
 - [FullContact](https://www.maltego.com/transform-hub/full-contact/)
+- [HLR Lookup](https://www.hlrlookup.com/)
+- [HLR Lookup](https://ceebydith.com/cek-hlr-lokasi-hp.html)
 
 # Public Records
 
@@ -1128,6 +1130,8 @@ Command line search tool for Exploit-DB
 - [Spy Dialer](https://spydialer.com/)
 - [Phone Validator](https://www.phonevalidator.com/)
 - [Free Operator Search](https://freecarrierlookup.com/)
+- [HLR Lookup](https://www.hlrlookup.com/)
+- [HLR Lookup](https://ceebydith.com/cek-hlr-lokasi-hp.html)
 
 # IMEI Investigation
 
