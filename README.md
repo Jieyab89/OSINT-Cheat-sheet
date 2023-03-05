@@ -426,7 +426,6 @@ This domain will always change
 - [Cell Id Lookup](https://www.reskrim.com/cek.php)
 - [Device Info](https://www.deviceinfo.me/)
 - [Cell Finder](https://cellidfinder.com/)
-- [Maltego Transform](https://docs.maltego.com/support/solutions/articles/15000033679-phonesearch)
 - [Unkownphone](https://www.unknownphone.com/)
 - [Whocallsme](https://whocallsme.com/)
 - [elenchitelefonici](https://www.elenchitelefonici.it/)
@@ -442,7 +441,10 @@ This domain will always change
 - [Zaba reverse phone](https://www.zabasearch.com/reverse-phone-lookup/)
 - [FullContact](https://www.maltego.com/transform-hub/full-contact/)
 - [HLR Lookup](https://www.hlrlookup.com/)
-- [HLR Lookup](https://ceebydith.com/cek-hlr-lokasi-hp.html)
+- [Ceebydith HLR Lookup](https://ceebydith.com/cek-hlr-lokasi-hp.html)
+- [Free HLR](https://www.free-hlr.com/)
+- [HLR Lookup API](https://www.hlr-lookups.com/)
+- [Maltego Phone Search](https://www.maltego.com/transform-hub/phonesearch/)
 
 # Public Records
 
@@ -1131,7 +1133,10 @@ Command line search tool for Exploit-DB
 - [Phone Validator](https://www.phonevalidator.com/)
 - [Free Operator Search](https://freecarrierlookup.com/)
 - [HLR Lookup](https://www.hlrlookup.com/)
-- [HLR Lookup](https://ceebydith.com/cek-hlr-lokasi-hp.html)
+- [Ceebydith HLR Lookup](https://ceebydith.com/cek-hlr-lokasi-hp.html)
+- [Free HLR](https://www.free-hlr.com/)
+- [HLR Lookup API](https://www.hlr-lookups.com/)
+- [Maltego Phone Search](https://www.maltego.com/transform-hub/phonesearch/)
 
 # IMEI Investigation
 
