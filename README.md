@@ -395,6 +395,7 @@ This domain will always change
 - [whois](http://www.whois.net)
 - [Netcraft](http://www.netcraft.com)
 - [Hunter](https://hunter.io/)
+- [SignalHire](https://www.signalhire.com/)
 
 # People Searching
 
@@ -407,6 +408,7 @@ This domain will always change
 - [Social Searcher](https://www.social-searcher.com/)
 - [Pimeyes](https://pimeyes.com/en)
 - [Rocketreach](https://rocketreach.co/)
+- [SignalHire](https://www.signalhire.com/)
 
 # Phone Numbers
 
@@ -445,6 +447,7 @@ This domain will always change
 - [Free HLR](https://www.free-hlr.com/)
 - [HLR Lookup API](https://www.hlr-lookups.com/)
 - [Maltego Phone Search](https://www.maltego.com/transform-hub/phonesearch/)
+- [SignalHire](https://www.signalhire.com/)
 
 # Public Records
 
@@ -683,6 +686,7 @@ Google queries for MySpace
 - [hunter](https://hunter.io/)
 - [email-checker](https://email-checker.net/)
 - [verifyemailaddress](https://www.verifyemailaddress.org/)
+- [SignalHire](https://www.signalhire.com/)
 
 # Tracking People
 
