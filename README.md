@@ -110,10 +110,9 @@ Be carefull using this tool
 - [Bellingcat Discord](https://discord.com/invite/nTaNPmz)
 - [Independent OSINT](https://discord.com/invite/2DGJ2EC)
 - [OSINT.Team](https://osint.team)
-- [Seccodeid](https://forum.seccodeid.com)
+- [Seccodeid](https://forum.seccodeid.com/category/osint)
 - [/r/OSINT](https://www.reddit.com/r/OSINT)
-- [TraceLabs Slack](https://tracelabs.slack.com)
-
+- [TraceLabs Slack](https://discord.gg/tracelabs)
 
 # General Search
 
