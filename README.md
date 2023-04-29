@@ -191,6 +191,9 @@ Be carefull using this tool
 - [Nessus](https://www.tenable.com/products/nessus)
 - [Nikto](https://cirt.net/Nikto2)
 - [Webshag](https://github.com/wereallfeds/webshag)
+- [wayback machine](https://archive.org/web/)
+- [Farsight DNSDB Transforms for Maltego](https://www.maltego.com/transform-hub/farsight-dnsdb/)
+- [Web Screnshhot Maltego Transforms](https://github.com/TURROKS/Maltego_Web2Screenshot)
 
 # Analysing URLs
 
@@ -643,6 +646,10 @@ Google queries for MySpace
 > Friends: site:myspace.com ‘‘TARGET NAME’’ ‘‘friends’’
 >  
 
+# Tiktok
+
+[tiktok-hashtag-analysis](https://github.com/bellingcat/tiktok-hashtag-analysis)
+
 # Social Network Search Engines
 
 - [socialmention](http://www.socialmention.com)
@@ -674,7 +681,7 @@ Google queries for MySpace
 # Documents
 
 - [Metashield Analyzer](https://metashieldanalyzer.elevenpaths.com/)
-- [foca](https://www.elevenpaths.com/labstools/foca/index.html)
+- [foca](https://github.com/ElevenPaths/FOCA)
 - [Psbdmp](https://psbdmp.ws/)
 - [Find PDF Doc](http://www.findpdfdoc.com/)
 
@@ -757,6 +764,7 @@ Firefox plugin that will assist in downloading all media from a website
 - [Commit stream finding Github repositories by extracting commit](https://github.com/x1sec/commit-stream)
 - [SingleFile copy of an entire web page in a single HTML file](https://github.com/gildas-lormeau/SingleFile)
 - [Photon Incredibly fast crawler designed for OSINT](https://github.com/s0md3v/Photon)
+- [infoooze](https://github.com/devXprite/infoooze)
 - [More](https://forum.seccodeid.com/?q=osint)
 
 # OSINT Online Tool  
@@ -795,12 +803,13 @@ Search channel, username anymore
 - [Lyzem Search](https://lyzem.com/)
 - [Discover The Best Telegram Channels](https://telegramchannels.me/)
 - [Tele Channel Overiview](https://telemetr.io/)
+- [telegram-phone-number-checker](https://github.com/bellingcat/telegram-phone-number-checker)
 
 # Linkedin
 
 Extension find email, people on profile Linkedin
 
-- [Find that lead](https://chrome.google.com/webstore/detail/findthatlead/lkpekgkhmldknbcgjicjkomphkhhdkjj?hl=en-GB)
+- [LinkedInDumper](https://github.com/l4rm4nd/LinkedInDumper)
 
 # Document and Slides Search
 
@@ -1260,3 +1269,8 @@ Social Network and blogging
 - [SIFT SANS](https://www.sans.org/tools/sift-workstation/)
 - [SIFT CLI](https://github.com/teamdfir/sift-cli/releases/tag/v1.8.5)
 - [HYAS Insight](https://www.maltego.com/transform-hub/hyas-insight/)
+
+# Write Your Investigation
+
+- [Yoga](https://github.com/WebBreacher/yoga)
+- [Malteo CaseFile](https://docs.maltego.com/support/solutions/articles/15000018948-what-is-maltego-casefile-)
