@@ -627,6 +627,8 @@ Google queries for LinkedIn
 > Company Profiles: site:linkedin.com inurl:companies
 >  
 
+- [LinkedInDumper](https://github.com/l4rm4nd/LinkedInDumper)
+
 # MySpace
 
 Google queries for MySpace
@@ -648,7 +650,7 @@ Google queries for MySpace
 
 # Tiktok
 
-[tiktok-hashtag-analysis](https://github.com/bellingcat/tiktok-hashtag-analysis)
+- [tiktok-hashtag-analysis](https://github.com/bellingcat/tiktok-hashtag-analysis)
 
 # Social Network Search Engines
 
@@ -659,14 +661,6 @@ Google queries for MySpace
 - [Pastebin Alerts](http://pastebin.com/u/alerts)
 - [HaveIBeenPwned](http://www.haveIbeenpwned.com)
 - [breachorclear](http://breachorclear.jesterscourt.cc)
-
-# Images Search Engine
-
-- [Images google](https://images.google.com)
-- [Tineye](http://www.tineye.com)
-- [Flickr](http://Flickr.com/map)
-- [7photos](http://www.7photos.net)
-- [Yandex](https://yandex.com/images/)
 
 # EXIF Analysis
 
@@ -718,6 +712,7 @@ Google queries for MySpace
 Firefox plugin that will assist in downloading all media from a website
 - [Exif Viewer](https://addons.mozilla.org/en-US/firefox/addon/exif-viewer/)
 - [HTTrack](https://www.httrack.com/)
+- [Wayback Machine](https://archive.org/web/)
 
 # OSINT TOOLS
 
@@ -804,12 +799,6 @@ Search channel, username anymore
 - [Discover The Best Telegram Channels](https://telegramchannels.me/)
 - [Tele Channel Overiview](https://telemetr.io/)
 - [telegram-phone-number-checker](https://github.com/bellingcat/telegram-phone-number-checker)
-
-# Linkedin
-
-Extension find email, people on profile Linkedin
-
-- [LinkedInDumper](https://github.com/l4rm4nd/LinkedInDumper)
 
 # Document and Slides Search
 
@@ -1231,6 +1220,7 @@ Social Network and blogging
 - [Social geo lens](https://www.osintcombine.com/social-geo-lens)
 - [Open street map](https://www.openstreetmap.org/)
 - [Google Maps Geocoding](https://www.maltego.com/transform-hub/google-maps-geocoding-transforms/)
+- [Googleearthengine](https://earthengine.google.com/#intro)
 
 # Discord Server Search  
 
