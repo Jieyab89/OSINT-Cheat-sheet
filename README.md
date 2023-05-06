@@ -239,6 +239,7 @@ Be carefull using this tool
 - [PolySwarm](https://www.maltego.com/transform-hub/polyswarm/)
 - [ThreatCrowd](https://www.maltego.com/transform-hub/threatcrowd/)
 - [HYAS Insight](https://www.maltego.com/transform-hub/hyas-insight/)
+- [Phishstats](https://phishstats.info/)
 
 # IoT Search Engines
 
