@@ -202,6 +202,16 @@ Be carefull using this tool
 
 - [Unfurl](https://github.com/obsidianforensics/unfurl)
 - [VirusTotal](https://www.virustotal.com/gui/home/upload)
+- [Archive Org](https://archive.org/web/)
+- [Iplocation](https://iplocation.io/website-link-analyzer)
+- [Smallseotools](https://smallseotools.com/website-link-analyzer-tool/)
+- [Abuse IP](https://www.abuseipdb.com/)
+- [Check Phish](https://checkphish.ai/)
+- [Radar By Cloudflare](https://radar.cloudflare.com/)
+- [Is it Phishing](https://isitphishing.org/)
+- [Kaspersky](https://opentip.kaspersky.com/)
+- [PolySwarm](https://polyswarm.network/)
+- [Threat Miner](https://www.threatminer.org/)
 
 # Researching Cyber Threats
 
@@ -245,6 +255,8 @@ Be carefull using this tool
 - [Phishstats](https://phishstats.info/)
 - [GitGuardian](https://www.gitguardian.com/monitor-public-github-for-secrets)
 - [Rescure](https://rescure.me/feeds.html)
+- [Kaspersky](https://opentip.kaspersky.com/)
+- [PolySwarm](https://polyswarm.network/)
 
 # IoT Search Engines
 
