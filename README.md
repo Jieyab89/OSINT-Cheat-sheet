@@ -456,6 +456,7 @@ This domain will always change
 - [HLR Lookup API](https://www.hlr-lookups.com/)
 - [Maltego Phone Search](https://www.maltego.com/transform-hub/phonesearch/)
 - [SignalHire](https://www.signalhire.com/)
+- [Emobiletracker](https://www.emobiletracker.com/)
 
 # Public Records
 
@@ -1146,6 +1147,10 @@ Command line search tool for Exploit-DB
 - [Free HLR](https://www.free-hlr.com/)
 - [HLR Lookup API](https://www.hlr-lookups.com/)
 - [Maltego Phone Search](https://www.maltego.com/transform-hub/phonesearch/)
+- [Emobiletracker](https://www.emobiletracker.com/)
+- [Phone Validator](https://www.phonevalidator.com/index.aspx)
+- [Reverse Phone](https://www.reversephonecheck.com/)
+- [Reverse Phone Lookup](https://www.reversephonelookup.com/)
 
 # IMEI Investigation
 
