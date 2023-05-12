@@ -103,7 +103,9 @@ Be carefull using this tool
 # Collection Dataset
 
 - [Kaggle](https://www.kaggle.com/)
-
+- [AWS open data](https://registry.opendata.aws/)
+- [Open Network](http://www.opendatanetwork.com/)
+- [WHO Data](https://www.who.int/data/gho/)
 
 # Forums
 
@@ -194,6 +196,7 @@ Be carefull using this tool
 - [wayback machine](https://archive.org/web/)
 - [Farsight DNSDB Transforms for Maltego](https://www.maltego.com/transform-hub/farsight-dnsdb/)
 - [Web Screnshhot Maltego Transforms](https://github.com/TURROKS/Maltego_Web2Screenshot)
+- [Nuclei](https://github.com/projectdiscovery/nuclei)
 
 # Analysing URLs
 
@@ -1017,6 +1020,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Windy](https://www.windy.com/)
 - [SOAR](https://soar.earth/)
 - [digiKam](https://www.digikam.org/)
+- [geoq](https://github.com/ngageoint/geoq)
 
 # Fact Checking
 
