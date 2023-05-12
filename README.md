@@ -243,6 +243,8 @@ Be carefull using this tool
 - [ThreatCrowd](https://www.maltego.com/transform-hub/threatcrowd/)
 - [HYAS Insight](https://www.maltego.com/transform-hub/hyas-insight/)
 - [Phishstats](https://phishstats.info/)
+- [GitGuardian](https://www.gitguardian.com/monitor-public-github-for-secrets)
+- [Rescure](https://rescure.me/feeds.html)
 
 # IoT Search Engines
 
