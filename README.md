@@ -890,6 +890,7 @@ Search channel, username anymore
 - [Face++](https://www.faceplusplus.com/)
 - [AWS-Recon](https://aws.amazon.com/rekognition/)
 - [Image Analyzer](https://www.maltego.com/transform-hub/image-analyzer/)
+- [Pelock](https://www.pelock.com/products/steganography-online-codec)
 
 # Stock Images
 
@@ -1193,6 +1194,10 @@ Build your sockpuppet account and proctect your privacy
 - [Cryptocurrency Payment Bitcoin](https://bitcoin.org/en/)
 - [Openpgp](https://www.openpgp.org/)
 - [Operating System](https://tails.boum.org/)
+- [Zmail](https://zmail.sourceforge.net/)
+- [Open DNS](https://www.opendns.com/home-internet-security/)
+- [I2P](https://geti2p.net/en/)
+- [TOR](https://www.torproject.org/download/)
 
 Social Network and blogging
 
@@ -1269,3 +1274,17 @@ Social Network and blogging
 
 - [Yoga](https://github.com/WebBreacher/yoga)
 - [Malteo CaseFile](https://docs.maltego.com/support/solutions/articles/15000018948-what-is-maltego-casefile-)
+
+# Securing Your Privacy
+
+- [Eraser](https://eraser.heidi.ie/)
+- [Thunderbird](https://www.thunderbird.net/en-US/)
+- [Ublock origin](https://github.com/gorhill/uBlock)
+- [Zmail](https://zmail.sourceforge.net/)
+- [Open DNS](https://www.opendns.com/home-internet-security/)
+- [I2P](https://geti2p.net/en/)
+- [Gnupg](https://gnupg.org/)
+- [HTTPS Everywhere](https://www.eff.org/https-everywhere/)
+- [Pelock](https://www.pelock.com/products/steganography-online-codec)
+- [Tails OS](https://tails.boum.org/)
+- [WOT](https://www.mywot.com/)
