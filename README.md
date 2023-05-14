@@ -257,6 +257,7 @@ Be carefull using this tool
 - [Rescure](https://rescure.me/feeds.html)
 - [Kaspersky](https://opentip.kaspersky.com/)
 - [PolySwarm](https://polyswarm.network/)
+- [Darkfeed](https://darkfeed.io/)
 
 # IoT Search Engines
 
@@ -304,6 +305,7 @@ net huggers
 - [Whois Record](https://centralops.net/co/)
 - [Abuse IP DB](https://www.abuseipdb.com/)
 - [Talos CTI](https://www.talosintelligence.com/)
+- [Darkfeed](https://darkfeed.io/)
 
 Tips
 
@@ -404,6 +406,7 @@ This domain will always change
 - [Onion city](https://onion.city/)
 - [Ahmia](https://ahmia.fi/)
 - [TorBot](https://github.com/DedSecInside/TorBot)
+- [Darkfeed](https://darkfeed.io/)
 
 # Tracking Website Changes
 
@@ -1266,6 +1269,7 @@ Social Network and blogging
 - [Doge Darknet Osint Graph Explorer](https://github.com/pielco11/DOGE)
 - [Maltego social links professional transform](https://www.maltego.com/transform-hub/social-links-pro/)
 - [TorBot](https://github.com/DedSecInside/TorBot)
+- [Darkfeed](https://darkfeed.io/)
 
 # Digital Forensics
 
