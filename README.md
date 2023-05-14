@@ -1209,6 +1209,7 @@ Build your sockpuppet account and proctect your privacy
 - [NOX](https://www.bignox.com/)
 - [Browser Extension](https://nordvpn.com/blog/use-these-browser-extensions-for-your-privacy/)
 - [Burner Phone Number](https://www.mintmobile.com/)
+- [Phone Burner](https://www.phoneburner.com/)
 - [Hushed](https://hushed.com/)
 - [Temp Phone Number](https://temporary-phone-number.com/)
 - [Temp Mail 1](https://mail.tm/en/)
@@ -1313,6 +1314,16 @@ Social Network and blogging
 - [Pelock](https://www.pelock.com/products/steganography-online-codec)
 - [Tails OS](https://tails.boum.org/)
 - [WOT](https://www.mywot.com/)
+- [Temp Mail 1](https://mail.tm/en/)
+- [Temp Mail 2](https://temp-mail.org/en/)
+- [Temp Mail 3](https://tempmailo.com/)
+- [Phone Burner](https://www.phoneburner.com/)
+- [Hushed](https://hushed.com/)
+
+Payment
+
+- [Bitcoin](https://bitcoin.org/id/)
+- [Monero](https://www.getmonero.org/)
 
 # Fraud Checker
 
