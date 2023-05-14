@@ -472,6 +472,7 @@ This domain will always change
 - [Maltego Phone Search](https://www.maltego.com/transform-hub/phonesearch/)
 - [SignalHire](https://www.signalhire.com/)
 - [Emobiletracker](https://www.emobiletracker.com/)
+- [OpenCNAM](https://docs.maltego.com/support/solutions/articles/15000045282-maltego-opencnam-transforms)
 
 # Public Records
 
@@ -1166,6 +1167,7 @@ Command line search tool for Exploit-DB
 - [Phone Validator](https://www.phonevalidator.com/index.aspx)
 - [Reverse Phone](https://www.reversephonecheck.com/)
 - [Reverse Phone Lookup](https://www.reversephonelookup.com/)
+- [OpenCNAM](https://docs.maltego.com/support/solutions/articles/15000045282-maltego-opencnam-transforms)
 
 # IMEI Investigation
 
@@ -1311,3 +1313,12 @@ Social Network and blogging
 - [Pelock](https://www.pelock.com/products/steganography-online-codec)
 - [Tails OS](https://tails.boum.org/)
 - [WOT](https://www.mywot.com/)
+
+# Fraud Checker
+
+- [Cek Rekening](https://cekrekening.id/home) - Indonesian By Kominfo
+- [Kredibel](https://www.kredibel.com/) - Indonesian
+- [Verihub](https://verihubs.com/) - Indonesian
+- [Scamadviser](https://www.maltego.com/transform-hub/scamadviser/)
+- [Ipqualityscore](https://docs.maltego.com/support/solutions/articles/15000041408-maltego-ipqualityscore-transforms#overview-0-0)
+- [OpenCNAM](https://docs.maltego.com/support/solutions/articles/15000045282-maltego-opencnam-transforms)
