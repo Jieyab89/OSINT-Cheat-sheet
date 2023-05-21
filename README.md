@@ -284,6 +284,9 @@ net huggers
 - [Signalmonitoring](https://signalmonitoring.com/)
 - [Angry Ip](https://angryip.org/)
 - [Advanced ip scanner](https://www.advanced-ip-scanner.com/)
+- [Wifimap](https://www.wifimap.io/)
+- [Fon](https://fon.com/maps/)
+- [SolarWInds](https://www.solarwinds.com/network-performance-monitor/use-cases/wifi-monitor)
 
 # SOC & Threat Hunting
 
@@ -1168,6 +1171,10 @@ Command line search tool for Exploit-DB
 - [Reverse Phone](https://www.reversephonecheck.com/)
 - [Reverse Phone Lookup](https://www.reversephonelookup.com/)
 - [OpenCNAM](https://docs.maltego.com/support/solutions/articles/15000045282-maltego-opencnam-transforms)
+- [Search Country Operator (IMSI)](https://www.heicard.com/en/operator.html)
+- [Analysis of IMSI numbers](https://www.numberingplans.com/?page=analysis&sub=imsinr)
+- [World MCC & MNC Code](https://en.wikipedia.org/wiki/Mobile_country_code)
+- [World Mobile Network Code](https://en.wikipedia.org/wiki/Mobile_network_codes_in_ITU_region_5xx_(Oceania))
 
 # IMEI Investigation
 
