@@ -15,6 +15,9 @@
 - [Metode pelacakan osint dan keaslian sumber](https://blog.seccodeid.com/2021/05/metode-pelacakan-osint-dan-keaslian.html)
 - [Panduan Untuk Social Media Intelligence Gathering (SOCMINT)](https://blog.seccodeid.com/2020/08/panduan-untuk-social-media-intelligence.html)
 - [OSINT tips and trick technique hunt your target](https://blog.seccodeid.com/2021/11/httpsblog.seccodeid.com202111osint-tips-and-trick-technique-hunt-id.html.html)
+- [Melacak Posisi Berdasarkan LAC dan Cell ID pada Simcard No.Handphone](https://1sit.blog.amikom.me/2015/05/29/melacak-posisi-berdasarkan-lac-dan-cell-id-pada-simcard-no-handphone/)
+- [Identitas BTS](http://karionotelco.blogspot.com/p/blog-page_6191.html)
+- [Bagaimana Lokasi Kita Ditemukan Dengan Triangulasi](https://medium.com/@adya/bagaimana-lokasi-kita-ditemukan-dengan-triangulasi-3b87796c1dd)
 
 # English article
 
@@ -30,3 +33,4 @@
 - [Investigation phone Maltego](https://www.maltego.com/blog/investigating-phone-numbers-with-opencnam-and-ipqualityscore/)
 - [Maltego transform phone search](https://docs.maltego.com/support/solutions/articles/15000033679-phonesearch)
 - [OSINT WIFI Tutorial: Track People using WiFi via Wigle](https://www.ehacking.net/2021/04/osint-wifi-tutorial-track-people-using-wifi-via-wigle.html)
+- [Finding location using MCC, MNC, LAC, and Cell ID](https://stackoverflow.com/questions/18686888/finding-location-using-mcc-mnc-lac-and-cell-id)
