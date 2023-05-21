@@ -34,3 +34,4 @@
 - [Maltego transform phone search](https://docs.maltego.com/support/solutions/articles/15000033679-phonesearch)
 - [OSINT WIFI Tutorial: Track People using WiFi via Wigle](https://www.ehacking.net/2021/04/osint-wifi-tutorial-track-people-using-wifi-via-wigle.html)
 - [Finding location using MCC, MNC, LAC, and Cell ID](https://stackoverflow.com/questions/18686888/finding-location-using-mcc-mnc-lac-and-cell-id)
+- [Cell Tower Triangulation – How it Works](https://wrongfulconvictionsblog.org/2012/06/01/cell-tower-triangulation-how-it-works/)
