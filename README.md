@@ -1155,6 +1155,8 @@ Command line search tool for Exploit-DB
 # Cell Investigation
 
 - [Opencellid](https://opencellid.org/)
+- [CellTower Locator - Cell2gps](http://www.cell2gps.com/)
+- [Cell-id Query](https://www.cell-id.info/?lang=en)
 - [Location API](unwiredlabs)
 - [Cell Mapping](https://www.cellmapper.net/)
 - [Global Internet Infrastructure Map](https://www.infrapedia.com/)
@@ -1175,6 +1177,7 @@ Command line search tool for Exploit-DB
 - [Analysis of IMSI numbers](https://www.numberingplans.com/?page=analysis&sub=imsinr)
 - [World MCC & MNC Code](https://en.wikipedia.org/wiki/Mobile_country_code)
 - [World Mobile Network Code](https://en.wikipedia.org/wiki/Mobile_network_codes_in_ITU_region_5xx_(Oceania))
+- [World Network Coverage](https://www.nperf.com/en/map/ID/-/-/signal/?ll=-2.5678942164342513&lg=118.01999999999998&zoom=5)
 
 # IMEI Investigation
 
