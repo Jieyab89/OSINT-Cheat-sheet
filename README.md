@@ -714,9 +714,10 @@ Google queries for MySpace
 - [email-checker](https://email-checker.net/)
 - [verifyemailaddress](https://www.verifyemailaddress.org/)
 - [SignalHire](https://www.signalhire.com/)
-
-# Tracking People
-
+- [Holehe](https://github.com/megadose/holehe)
+- [Holehe Maltego Transforms](https://github.com/megadose/holehe-maltego)
+- [Spokeo](https://www.spokeo.com/email-search)
+- [Mx Toolbox - Header Email](https://mxtoolbox.com/EmailHeaders.aspx)
 - [getnotify](http://www.getnotify.com)
 
 # IoT – Internet of Things
@@ -811,7 +812,7 @@ Firefox plugin that will assist in downloading all media from a website
 - [Thatsthem](https://thatsthem.com/)
 - [IntelligenceX](https://intelx.io/tools)
 
-# Telegram Tool  
+# Telegram Tool
 
 Search channel, username anymore
 
@@ -826,6 +827,7 @@ Search channel, username anymore
 - [Discover The Best Telegram Channels](https://telegramchannels.me/)
 - [Tele Channel Overiview](https://telemetr.io/)
 - [telegram-phone-number-checker](https://github.com/bellingcat/telegram-phone-number-checker)
+- [Telepathy](https://github.com/proseltd/Telepathy)
 
 # Document and Slides Search
 
@@ -1046,7 +1048,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [SOAR](https://soar.earth/)
 - [digiKam](https://www.digikam.org/)
 - [geoq](https://github.com/ngageoint/geoq)
-- [Geoguessr](https://www.geoguessr.com/)
+- [gvision](https://github.com/GONZOsint/gvision)
 
 # Fact Checking
 
