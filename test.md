@@ -92,7 +92,7 @@ you can add multiple tag and multiple file
 > Check the documentation
 
 
-# SOCMINT  
+# SOCMINT
 
 - [Instagram](https://github.com/Datalux/Osintgram)
 Be carefull using this tool
@@ -272,7 +272,7 @@ Be carefull using this tool
 - [Whats my ip](https://whatismyipaddress.com/)
 This tools can show your ip address isp provider
 - [Ip 2 location](https://www.ip2location.com/)
-This tools can show your ip address isp provider and geo location  
+This tools can show your ip address isp provider and geo location
 
 # Wireless Network
 
@@ -336,7 +336,7 @@ Dorking is a wonderful thing, you can use this technique to search for anything 
 
 example
 > intext:"hacking" site:seccodeid.com
-> site:www.github.com ext:doc | ext:docx | ext:odt | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv  
+> site:www.github.com ext:doc | ext:docx | ext:odt | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv
 
 # Google Advanced Search Tools
 
@@ -476,7 +476,6 @@ This domain will always change
 - [SignalHire](https://www.signalhire.com/)
 - [Emobiletracker](https://www.emobiletracker.com/)
 - [OpenCNAM](https://docs.maltego.com/support/solutions/articles/15000045282-maltego-opencnam-transforms)
-- [Fullcontact](https://www.fullcontact.com/)
 
 # Public Records
 
@@ -524,32 +523,32 @@ This domain will always change
 - [Findmyfbid](http://www.findmyfbid.com/)
 
 > Photos By - https://www.facebook.com/search/taget_id/photos-by
->  
+>
 > Photos Liked - https://www.facebook.com/search/taget_id/photos-liked
->  
+>
 > Photos Of - https://www.facebook.com/search/taget_id/photos-of
->  
+>
 > Comments - https://www.facebook.com/search/taget_id/photos-commented
->  
+>
 > Friends - https://www.facebook.com/search/taget_id/friends
->  
+>
 > Videos Tagged - https://www.facebook.com/search/taget_id/videos
->  
+>
 > Videos By - https://www.facebook.com/search/taget_id/videos-by
->  
+>
 > Videos Liked - https://www.facebook.com/search/taget_id/videos-liked
->  
+>
 > Videos Commented - https://www.facebook.com/search/taget_id/videos-commented
->  
+>
 > Events Attended - https://www.facebook.com/search/taget_id/events-joined
->  
+>
 > Relatives - https://www.facebook.com/search/taget_id/relatives
->  
+>
 
 or you can use dork for spesific example
 
 > id <this id facebook> site:facebook.com
->  
+>
 > page site: facebook.com
 >
 > id <this id facebook> site:facebook.com *
@@ -648,11 +647,11 @@ or you can use dork for spesific example
 
 Google queries for LinkedIn
 > Public Profiles: site:linkedin.com inurl:pub
->  
+>
 > Updated Profiles: site:linkedin.com inurl:updates
->  
+>
 > Company Profiles: site:linkedin.com inurl:companies
->  
+>
 
 - [LinkedInDumper](https://github.com/l4rm4nd/LinkedInDumper)
 
@@ -661,19 +660,19 @@ Google queries for LinkedIn
 Google queries for MySpace
 
 > Profiles: site: myspace.com inurl:profile
->  
+>
 > Blogs: site:myspace.com inurl:blogs
->  
+>
 > Videos: site:myspace.com inurl:vids
->  
+>
 > Jobs: site:myspace.com inurl:jobs
->  
+>
 > Videos: site:myspace.com ‘‘TARGET NAME’’ ‘‘videos’’
->  
+>
 > Comments: site:myspace.com ‘‘TARGET NAME’’ ‘‘comments’’
->  
+>
 > Friends: site:myspace.com ‘‘TARGET NAME’’ ‘‘friends’’
->  
+>
 
 # Tiktok
 
@@ -730,9 +729,9 @@ Google queries for MySpace
 # Shodan Query Options
 
 > https://pen-testing.sans.org/blog/2015/12/08/effective-shodan-searches
->  
+>
 > https://danielmiessler.com/study/shodan/#gs.VBVsyo0
->  
+>
 
 # Capturing Information
 
@@ -770,19 +769,19 @@ Firefox plugin that will assist in downloading all media from a website
 - [Ghunt](https://github.com/mxrch/GHunt)
 - [Moriarty-Project](https://github.com/AzizKpln/Moriarty-Project)
 - [Mr.Holmes](https://github.com/Lucksi/Mr.Holmes)
-- [octosuite Advanced Github OSINT Framework](https://github.com/rly0nheart/octosuite.git)  
-- [Toutatis](https://github.com/megadose/toutatis)  
+- [octosuite Advanced Github OSINT Framework](https://github.com/rly0nheart/octosuite.git)
+- [Toutatis](https://github.com/megadose/toutatis)
 - [A tool for OSINT based threat hunting](https://github.com/ninoseki/mihari)
-- [K𝚊𝚛𝚖𝚊 𝚟𝟸 is a Passive Open Source Intelligence](https://github.com/Dheerajmadhukar/karma_v2)  
-- [Secure ELF parsing/loading library for forensics reconstruction of malware, and robust reverse engineering tools](https://github.com/elfmaster/libelfmaster)  
-- [OSINT tool that allows you to find a person's accounts and emails + breached email](https://github.com/Greyjedix/Profil3r)  
+- [K𝚊𝚛𝚖𝚊 𝚟𝟸 is a Passive Open Source Intelligence](https://github.com/Dheerajmadhukar/karma_v2)
+- [Secure ELF parsing/loading library for forensics reconstruction of malware, and robust reverse engineering tools](https://github.com/elfmaster/libelfmaster)
+- [OSINT tool that allows you to find a person's accounts and emails + breached email](https://github.com/Greyjedix/Profil3r)
 - [A tool to search Aviation-related intelligence from public sources](https://github.com/n0skill/AVOSINT)
-- [PoC OSINT Discord user and guild information harvester](https://github.com/V3ntus/darvester)  
+- [PoC OSINT Discord user and guild information harvester](https://github.com/V3ntus/darvester)
 - [Automate downloading archived deleted Tweets](https://github.com/Mennaruuk/twayback)
 - [Discover the location of nearby Telegram users](https://github.com/tejado/telegram-nearby-map)
-- [OSINT Tool on Twitter and Instagram](https://github.com/xadhrit/terra)  
+- [OSINT Tool on Twitter and Instagram](https://github.com/xadhrit/terra)
 - [The World's simplest facial recognition api for python and the command line](https://github.com/ageitgey/face_recognition)
-- [Automation and automation of digital forensic tools](https://github.com/google/turbinia)  
+- [Automation and automation of digital forensic tools](https://github.com/google/turbinia)
 - [E4GL30S1NT](https://github.com/C0MPL3XDEV/E4GL30S1NT)
 - [Commit stream finding Github repositories by extracting commit](https://github.com/x1sec/commit-stream)
 - [SingleFile copy of an entire web page in a single HTML file](https://github.com/gildas-lormeau/SingleFile)
@@ -790,7 +789,7 @@ Firefox plugin that will assist in downloading all media from a website
 - [infoooze](https://github.com/devXprite/infoooze)
 - [More](https://forum.seccodeid.com/?q=osint)
 
-# OSINT Online Tool  
+# OSINT Online Tool
 
 - [Echosec](https://www.echosec.net/)
 - [Foller](https://foller.me/)
@@ -1244,7 +1243,7 @@ Social Network and blogging
 
 - Wordpress
 - Blogger
-- Medium  
+- Medium
 - Facebook
 - Instagram
 
@@ -1263,7 +1262,7 @@ Social Network and blogging
 - [neural-enhance](https://github.com/alexjc/neural-enhance)
 - [Reminiai](https://remini.ai/)
 - [Depix](https://github.com/beurtschipper/Depix)
-- [Realesrgan](https://replicate.com/xinntao/realesrgan)  
+- [Realesrgan](https://replicate.com/xinntao/realesrgan)
 
 # Locations Data Mapping
 
@@ -1273,11 +1272,11 @@ Social Network and blogging
 - [Google Maps Geocoding](https://www.maltego.com/transform-hub/google-maps-geocoding-transforms/)
 - [Googleearthengine](https://earthengine.google.com/#intro)
 
-# Discord Server Search  
+# Discord Server Search
 
 - [Discord servers](https://discordservers.com/)
 - [Discover servers](https://disboard.org/)
-- [Discord history tracker](https://www.dht.chylex.com/)  
+- [Discord history tracker](https://www.dht.chylex.com/)
 
 # Darkweb Intelligence
 
@@ -1349,4 +1348,3 @@ Payment
 - [Scamadviser](https://www.maltego.com/transform-hub/scamadviser/)
 - [Ipqualityscore](https://docs.maltego.com/support/solutions/articles/15000041408-maltego-ipqualityscore-transforms#overview-0-0)
 - [OpenCNAM](https://docs.maltego.com/support/solutions/articles/15000045282-maltego-opencnam-transforms)
-- [Fullcontact](https://www.fullcontact.com/)
