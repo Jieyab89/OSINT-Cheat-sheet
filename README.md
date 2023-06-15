@@ -1146,6 +1146,10 @@ Windows exploiting
 Linux exploiting
 - [Hacktricks](https://book.hacktricks.xyz/welcome/readme)
 List exploit and vuln cheat sheet walkthrough
+- [Payload all the things](https://github.com/swisskyrepo/PayloadsAllTheThings)
+Example and payload injection
+- [All about bug bounty](https://github.com/daffainfo/AllAboutBugBounty)
+Bypasses, payloads, Reconnaissance and etc
 
 # Zero Day
 
@@ -1358,3 +1362,24 @@ Payment
 - [Ipqualityscore](https://docs.maltego.com/support/solutions/articles/15000041408-maltego-ipqualityscore-transforms#overview-0-0)
 - [OpenCNAM](https://docs.maltego.com/support/solutions/articles/15000045282-maltego-opencnam-transforms)
 - [Fullcontact](https://www.fullcontact.com/)
+
+# Content Removal & Strict Media content
+
+Strict, removing and minimize your data on the internet
+
+- [Google image removal](https://support.google.com/websearch/answer/4628134)
+Remove your image from Google
+- [Stopncii](https://stopncii.org)
+Free tool designed to support victims of Non-Consensual Intimate Image (NCII) abuse
+- [Bing content removal](www.bing.com/webmasters/tools/contentremoval)
+Chech the detail on [here](https://www.bing.com/webmasters/help/bing-content-removal-tool-cb6c294d)
+- [Google content removal](https://search.google.com/search-console/remove-outdated-content)
+Check the detail on [here](https://support.google.com/websearch/troubleshooter/3111061?hl=id)
+- [Web archiver remover](https://help.archive.org/help/how-do-i-request-to-remove-something-from-archive-org/)
+Check the detail [here](https://help.archive.org/help/removing-your-item-pages-from-archive-org/) and [here](https://www.joshualowcock.com/guide/how-to-delete-your-site-from-the-internet-archive-wayback-machine-archive-org/) view detail on [Help web archive](https://help.archive.org/)
+- [Facebook Privacy](https://www.facebook.com/help/124518907626945)
+Strict and disable bot crawl search engine index account
+- [Instagram Privacy](https://help.instagram.com/147542625391305)
+Strict and disable bot crawl search engine index account
+
+*NB : Its taking to long, you need to patiently
