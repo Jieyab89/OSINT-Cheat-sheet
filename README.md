@@ -1071,7 +1071,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [Testssl](https://testssl.sh/)
 - [Nesus](https://www.tenable.com/products/nessus)
 
-# CTF Analysis
+# CTF Analysis & Exploit
 
 - [Cybercheff](https://gchq.github.io/CyberChef/)
 - [Bettercap](https://github.com/bettercap/bettercap)
@@ -1139,6 +1139,13 @@ Apply various steganography techniques to images
 - [SearchSploit](https://www.exploit-db.com/searchsploit)
 Command line search tool for Exploit-DB
 - [Exploitalert](https://www.exploitalert.com/browse-exploit.html)
+List exploiting and vuln
+- [Lollabs](https://lolbas-project.github.io/)
+Windows exploiting
+- [GtfoBins](https://gtfobins.github.io/)
+Linux exploiting
+- [Hacktricks](https://book.hacktricks.xyz/welcome/readme)
+List exploit and vuln cheat sheet walkthrough
 
 # Zero Day
 
