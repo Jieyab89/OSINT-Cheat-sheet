@@ -477,6 +477,7 @@ This domain will always change
 - [Emobiletracker](https://www.emobiletracker.com/)
 - [OpenCNAM](https://docs.maltego.com/support/solutions/articles/15000045282-maltego-opencnam-transforms)
 - [Fullcontact](https://www.fullcontact.com/)
+- [seon](https://seon.io/resources/the-ultimate-guide-to-free-email-lookup-and-reverse-email-lookup-tools/)
 
 # Public Records
 
@@ -719,6 +720,8 @@ Google queries for MySpace
 - [Spokeo](https://www.spokeo.com/email-search)
 - [Mx Toolbox - Header Email](https://mxtoolbox.com/EmailHeaders.aspx)
 - [getnotify](http://www.getnotify.com)
+- [epieos](https://epieos.com/)
+- [seon](https://seon.io/resources/the-ultimate-guide-to-free-email-lookup-and-reverse-email-lookup-tools/)
 
 # IoT – Internet of Things
 
