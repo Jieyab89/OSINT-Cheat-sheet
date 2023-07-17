@@ -747,6 +747,7 @@ Firefox plugin that will assist in downloading all media from a website
 
 # OSINT TOOLS
 
+- [bbot](https://github.com/blacklanternsecurity/bbot)
 - [Meta OSINT](https://metaosint.github.io/)
 - [Shrelock](https://github.com/sherlock-project/sherlock)
 - [Maltego](https://www.maltego.com/)
@@ -1153,6 +1154,8 @@ List exploit and vuln cheat sheet walkthrough
 Example and payload injection
 - [All about bug bounty](https://github.com/daffainfo/AllAboutBugBounty)
 Bypasses, payloads, Reconnaissance and etc
+- [Searchsploit](https://www.exploit-db.com/searchsploit)
+Search more exploit from edb
 
 # Zero Day
 
@@ -1307,6 +1310,7 @@ Social Network and blogging
 
 # Digital Forensics
 
+- [Yggdrasil](https://github.com/Jarl-Bjoern/Yggdrasil/)
 - [MISP](https://www.misp-project.org/)
 - [Maltego](https://www.maltego.com/)
 - [Filesec](https://filesec.io/)
