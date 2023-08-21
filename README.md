@@ -379,7 +379,6 @@ example
 - [DDO Secrets](https://ddosecrets.com/wiki/Distributed_Denial_of_Secrets)
 - [Breached](https://breached.to/) Availabe on Darkweb
 - [Dark Tracer](https://darktracer.com/)
-- [Doxbin](https://doxbin.com/)
 
 # Crack Jurnals
 
@@ -436,7 +435,6 @@ This domain will always change
 - [Pimeyes](https://pimeyes.com/en)
 - [Rocketreach](https://rocketreach.co/)
 - [SignalHire](https://www.signalhire.com/)
-- [Doxbin](https://doxbin.com/)
 
 # Phone Numbers
 
@@ -1132,6 +1130,8 @@ Decompile x86 binaries to C
 A Javascript malware analysis tool
 - [SmartDeblur](https://github.com/Y-Vladimir/SmartDeblur)
 Restoration of defocused and blurred photos/images
+- [HitPaw](https://online.hitpaw.com/online-photo-enhancer.html?linksource=header)
+Enhance image, video and media quality with AI is free and paid
 - [ImageMagick](http://www.imagemagick.org/script/index.php)
 Tool for manipulating images
 - [Exiv2](https://exiv2.org/manpage.html)
@@ -1222,6 +1222,7 @@ WhatsApp
 - [Chat Visualizer](https://chatvisualizer.com/)
 - [WhatsApp Group Links](https://whatsgrouplink.com/)
 - [Download WhatsApp Profile Picture](https://watools.io/download-profile-picture)
+- [WhatsApp Group Links 2](https://whatsappgroup.info/)
 
 Telegram
 
@@ -1284,6 +1285,7 @@ Social Network and blogging
 - [Reminiai](https://remini.ai/)
 - [Depix](https://github.com/beurtschipper/Depix)
 - [Realesrgan](https://replicate.com/xinntao/realesrgan)  
+- [HitPaw](https://online.hitpaw.com/online-photo-enhancer.html?linksource=header)
 
 # Locations Data Mapping
 
