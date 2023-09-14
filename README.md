@@ -183,6 +183,7 @@ Be carefull using this tool
 - [DNS Spy](https://dnsspy.io)
 - [DNS Checker](https://dnschecker.org)
 - [HackerTarget](https://hackertarget.com/ip-tools)
+- [RedHunt Labs Attack Surface Recon API](https://devportal.redhuntlabs.com/home)
 - [Shodan](https://www.shodan.io)
 - [Wappalyzer](https://www.wappalyzer.com/)
 - [Sudomy](https://github.com/screetsec/Sudomy)
