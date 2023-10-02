@@ -381,6 +381,8 @@ example
 - [Breached](https://breached.to/) Availabe on Darkweb
 - [Dark Tracer](https://darktracer.com/)
 - [Doxbin](https://doxbin.com/)
+- [Search0t](https://search.0t.rocks/)
+- [Search0t MAP](https://search.0t.rocks/map)
 
 # Crack Jurnals
 
