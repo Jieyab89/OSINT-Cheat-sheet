@@ -159,6 +159,7 @@ Be carefull using this tool
 - [Global File Search](http://globalfilesearch.com)
 - [Search Shared](https://www.searchshared.info)
 - [MMNT](http://www.mmnt.ru)
+- [Pdf analyzer](http://pdf-analyser.edpsciences.org/)
 
 # Social Media Search and Monitoring
 
@@ -710,6 +711,7 @@ Google queries for MySpace
 - [foca](https://github.com/ElevenPaths/FOCA)
 - [Psbdmp](https://psbdmp.ws/)
 - [Find PDF Doc](http://www.findpdfdoc.com/)
+- [Pdf analyzer](http://pdf-analyser.edpsciences.org/)
 
 # Email Tracing
 
@@ -854,6 +856,7 @@ Search channel, username anymore
 - [Cryptome](https://cryptome.org/)
 - [Finda PDF](https://www.findapdf.com/)
 - [Find PDF Doc](http://www.findpdfdoc.com/)
+- [Pdf analyzer](http://pdf-analyser.edpsciences.org/)
 
 # Real-Time Search, Social Media Search, and General Social Media Tools
 
