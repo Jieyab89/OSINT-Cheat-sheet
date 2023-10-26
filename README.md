@@ -441,6 +441,8 @@ This domain will always change
 - [Pimeyes](https://pimeyes.com/en)
 - [Rocketreach](https://rocketreach.co/)
 - [SignalHire](https://www.signalhire.com/)
+- [Thatsthem](https://thatsthem.com/)
+- [Freepeoplesearch](https://freepeoplesearch.com/)
 
 # Phone Numbers
 
@@ -484,6 +486,8 @@ This domain will always change
 - [OpenCNAM](https://docs.maltego.com/support/solutions/articles/15000045282-maltego-opencnam-transforms)
 - [Fullcontact](https://www.fullcontact.com/)
 - [seon](https://seon.io/resources/the-ultimate-guide-to-free-email-lookup-and-reverse-email-lookup-tools/)
+- [Thatsthem](https://thatsthem.com/)
+- [Freepeoplesearch](https://freepeoplesearch.com/)
 
 # Public Records
 
@@ -731,6 +735,8 @@ Google queries for MySpace
 - [epieos](https://epieos.com/)
 - [seon](https://seon.io/resources/the-ultimate-guide-to-free-email-lookup-and-reverse-email-lookup-tools/)
 - [Eye](https://github.com/N0rz3/Eyes)
+- [Thatsthem](https://thatsthem.com/)
+- [Freepeoplesearch](https://freepeoplesearch.com/)
 
 # IoT – Internet of Things
 
@@ -801,6 +807,7 @@ Firefox plugin that will assist in downloading all media from a website
 - [SingleFile copy of an entire web page in a single HTML file](https://github.com/gildas-lormeau/SingleFile)
 - [Photon Incredibly fast crawler designed for OSINT](https://github.com/s0md3v/Photon)
 - [infoooze](https://github.com/devXprite/infoooze)
+- [Eye](https://github.com/N0rz3/Eyes)
 - [More](https://forum.seccodeid.com/?q=osint)
 
 # OSINT Online Tool  
@@ -1215,6 +1222,8 @@ Search more exploit from edb
 - [World Mobile Network Code](https://en.wikipedia.org/wiki/Mobile_network_codes_in_ITU_region_5xx_(Oceania))
 - [World Network Coverage](https://www.nperf.com/en/map/ID/-/-/signal/?ll=-2.5678942164342513&lg=118.01999999999998&zoom=5)
 - [Profone GSM Tracker](https://cellphonetrackers.org/gsm/gsm-tracker.php)
+- [Thatsthem](https://thatsthem.com/)
+- [Freepeoplesearch](https://freepeoplesearch.com/)
 
 # IMEI Investigation
 
@@ -1405,3 +1414,11 @@ Strict and disable bot crawl search engine index account
 Strict and disable bot crawl search engine index account
 
 *NB : Its taking to long, you need to patiently
+
+# Secure Your Data 
+
+Password Manager 
+
+- [Keepas](https://keepass.info/)
+- [Dashlane](https://www.dashlane.com/)
+- [Nordpass](https://nordpass.com/)
