@@ -200,6 +200,7 @@ Be carefull using this tool
 - [Farsight DNSDB Transforms for Maltego](https://www.maltego.com/transform-hub/farsight-dnsdb/)
 - [Web Screnshhot Maltego Transforms](https://github.com/TURROKS/Maltego_Web2Screenshot)
 - [Nuclei](https://github.com/projectdiscovery/nuclei)
+- [Netcraft](https://www.netcraft.com/tools/)
 
 # Analysing URLs
 
@@ -215,6 +216,7 @@ Be carefull using this tool
 - [Kaspersky](https://opentip.kaspersky.com/)
 - [PolySwarm](https://polyswarm.network/)
 - [Threat Miner](https://www.threatminer.org/)
+- [Netcraft](https://www.netcraft.com/tools/)
 
 # Researching Cyber Threats
 
