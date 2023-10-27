@@ -1424,7 +1424,7 @@ Strict and disable bot crawl search engine index account
 - [Takeit Down](https://takeitdown.ncmec.org/) Help remove online nude, partially nude
 - [Inhope](https://www.inhope.org/EN#hotlineReferral) Report suspected child sexual abuse images or videos
 - [ReportIWF Indonesia](https://report.iwf.org.uk/id) Proctect and remove sexualy, nudes on internet 
-- [ReportIWF](https://www.iwf.org.uk/our-technology/report-remove/)
+- [ReportIWF](https://www.iwf.org.uk/our-technology/report-remove/) Proctect and remove sexualy, nudes on internet 
 
 *NB : Its taking to long, you need to patiently
 
