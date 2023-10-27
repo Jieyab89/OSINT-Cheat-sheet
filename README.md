@@ -855,6 +855,7 @@ Search channel, username anymore
 - [Tele Channel Overiview](https://telemetr.io/)
 - [telegram-phone-number-checker](https://github.com/bellingcat/telegram-phone-number-checker)
 - [Telepathy](https://github.com/proseltd/Telepathy)
+- [Telemetr](https://telemetr.io/)
 
 # Document and Slides Search
 
