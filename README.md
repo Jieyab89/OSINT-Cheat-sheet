@@ -507,6 +507,7 @@ This domain will always change
 - [Snitch](http://snitch.name/)
 - [Checkusernames](https://checkusernames.com/)
 - [Maigret](https://github.com/soxoj/maigret)
+- [Picuki](https://www.picuki.com/)
 
 # Social Networks
 
@@ -590,6 +591,8 @@ or you can use dork for spesific example
 - [SearchMyBio](https://www.searchmy.bio/)
 - [Dumpor](https://dumpor.com/)
 - [Hookgram](https://hookgram.com/)
+- [Picuki](https://www.picuki.com/)
+- [Inflact](https://inflact.com/)
 
 # Pinterest
 
