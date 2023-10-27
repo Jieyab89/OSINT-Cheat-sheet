@@ -1420,6 +1420,11 @@ Check the detail [here](https://help.archive.org/help/removing-your-item-pages-f
 Strict and disable bot crawl search engine index account
 - [Instagram Privacy](https://help.instagram.com/147542625391305)
 Strict and disable bot crawl search engine index account
+- [Missing Kids](https://www.missingkids.org/gethelpnow/isyourexplicitcontentoutthere) Remove nudes or sexually-exploitive images or videos taken when you were a child out there on the internet
+- [Takeit Down](https://takeitdown.ncmec.org/) Help remove online nude, partially nude
+- [Inhope](https://www.inhope.org/EN#hotlineReferral) Report suspected child sexual abuse images or videos
+- [ReportIWF Indonesia](https://report.iwf.org.uk/id) Proctect and remove sexualy, nudes on internet 
+- [ReportIWF](https://www.iwf.org.uk/our-technology/report-remove/)
 
 *NB : Its taking to long, you need to patiently
 
