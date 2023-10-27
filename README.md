@@ -593,6 +593,8 @@ or you can use dork for spesific example
 - [Hookgram](https://hookgram.com/)
 - [Picuki](https://www.picuki.com/)
 - [Inflact](https://inflact.com/)
+- [Greatfon](https://greatfon.com/)
+- [Save Free](https://www.save-free.com/)
 
 # Pinterest
 
