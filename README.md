@@ -364,6 +364,8 @@ example
 - [Searchencrypt](https://www.searchencrypt.com/home)
 - [Duckgo](https://duckduckgo.com/)
 - [Waymore](https://forum.seccodeid.com/d/waymore-find-way-more-from-the-wayback-machine)
+- [StartPage](https://www.startpage.com/)
+- [Searx](https://searx.space/)
 
 # Internet Archive
 
