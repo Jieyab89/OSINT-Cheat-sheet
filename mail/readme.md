@@ -23,6 +23,6 @@ I have limited resources. Please before sending a message, here are the rules
 
 3. If you need help, such as cases regarding OSINT information resources, data breaches & do not contain the elements in number 1 go ahead
 
-4. If you send media such as documents and texts containing personal information or personal data, please use gpg or pgp, import my public key
+4. If you send media such as documents and texts containing personal information or personal data, please use gpg or pgp, import my public key and compress to .zip or .rar then add the password (for secure)
 
 Thanks
