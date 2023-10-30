@@ -113,8 +113,8 @@ Be carefull using this tool
 - [Independent OSINT](https://discord.com/invite/2DGJ2EC)
 - [OSINT.Team](https://osint.team)
 - [Seccodeid](https://forum.seccodeid.com/category/osint)
-- [/r/OSINT](https://www.reddit.com/r/OSINT)
-- [TraceLabs Slack](https://discord.gg/tracelabs)
+- [Reddit OSINT](https://www.reddit.com/r/OSINT)
+- [TraceLabs Discord](https://discord.gg/tracelabs)
 
 # General Search
 
