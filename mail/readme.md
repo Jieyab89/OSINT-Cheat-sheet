@@ -25,7 +25,9 @@ I have limited resources. Please before sending a message, here are the rules
 
 4. If you send media such as documents and texts containing personal information or personal data, please use gpg or pgp, import my public key and compress to .zip or .rar then add the password (for secure)
 
-5. I don't charge any fees!, it's not a business or anything else, my vision is to help and share information. If you don't get a reply, you can join in my forum "Seccodeid Forum"
+5. I don't charge any fees!, it's not a business or anything else, my vision is to help and share information. If you don't get a reply, you can join in my forum "Seccodeid Forum" You can create posts to create discussions
+
+6. I protect your privacy regarding email, message content, media attachments and other things, I will not duplicate your messages, your files on any archive site, I will delete them periodically when the conversation is finished. I only keep your public key
 
 Download gpg
 
