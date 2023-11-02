@@ -698,6 +698,8 @@ Google queries for MySpace
 # Tiktok
 
 - [tiktok-hashtag-analysis](https://github.com/bellingcat/tiktok-hashtag-analysis)
+- [tiktok-downloader](https://github.com/Gimenz/tiktok-downloader)
+
 
 # Social Network Search Engines
 
