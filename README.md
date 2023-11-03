@@ -390,6 +390,7 @@ example
 - [Doxbin](https://doxbin.com/)
 - [Search0t](https://search.0t.rocks/)
 - [Search0t MAP](https://search.0t.rocks/map)
+- [What Breach](https://github.com/Ekultek/WhatBreach)
 
 # Crack Jurnals
 
@@ -677,6 +678,8 @@ Google queries for LinkedIn
 >  
 
 - [LinkedInDumper](https://github.com/l4rm4nd/LinkedInDumper)
+- [Weakestlink](https://github.com/shellfarmer/WeakestLink)
+- [GatherContacts](https://github.com/clr2of8/GatherContacts)
 
 # MySpace
 
@@ -751,6 +754,7 @@ Google queries for MySpace
 - [Thatsthem](https://thatsthem.com/)
 - [Freepeoplesearch](https://freepeoplesearch.com/)
 - [Headmail](https://github.com/umair9747/headmail)
+- [Poastal](https://github.com/jakecreps/poastal)
 
 # IoT – Internet of Things
 
