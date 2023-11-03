@@ -263,6 +263,7 @@ Be carefull using this tool
 - [Kaspersky](https://opentip.kaspersky.com/)
 - [PolySwarm](https://polyswarm.network/)
 - [Darkfeed](https://darkfeed.io/)
+- [Header Email](https://github.com/umair9747/headmail)
 
 # IoT Search Engines
 
@@ -656,6 +657,7 @@ or you can use dork for spesific example
 - [TWUBS Twitter Chat](http://twubs.com/twitter-chats)
 - [Schedule Warble](https://warble.co)
 - [Twint](https://github.com/twintproject/twint)
+- [Twitwork](https://github.com/atmoner/TwitWork)
 
 # Twitter Search Engines
 
@@ -748,6 +750,7 @@ Google queries for MySpace
 - [Eye](https://github.com/N0rz3/Eyes)
 - [Thatsthem](https://thatsthem.com/)
 - [Freepeoplesearch](https://freepeoplesearch.com/)
+- [Headmail](https://github.com/umair9747/headmail)
 
 # IoT – Internet of Things
 
