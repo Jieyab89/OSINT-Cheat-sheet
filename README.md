@@ -6,7 +6,7 @@ Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and othe
 
 # EXIF TOOL COMMAND
 
-#Exif tag name and data type
+## Exif tag name and data type
 
 > Artist                                        string
 >
@@ -57,7 +57,7 @@ Site :
 - [List tagnme 2](https://metacpan.org/dist/Image-ExifTool/view/lib/Image/ExifTool/TagNames.pod)
 - [List tagname 3](https://manpages.org/imageexiftooltagnames/3)
 
-#Write metadata
+## Write metadata
 
 - exiftool -tagname="string" file
 >
@@ -66,14 +66,14 @@ Site :
 
 you can add multiple tag and multiple file
 
-#Delete metadata
+## Delete metadata
 
 - exiftool -tagname="" file
 >
 >example : exiftool -Author="" test.txt
 >
 
-#Delete mass metadata
+## Delete mass metadata
 
 - exiftool -all="" file
 >
@@ -85,7 +85,7 @@ you can add multiple tag and multiple file
 > Not there are tag no writetable, make sure tagname can write
 >
 
-#!Note
+## !Note
 
 > Use fresh file, if your file has been compressed or edit metadata you got a default metadata
 > You can use xmp format for edit, write and delete metadata
