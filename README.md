@@ -203,6 +203,7 @@ Be carefull using this tool
 - [Nuclei](https://github.com/projectdiscovery/nuclei)
 - [Netcraft](https://www.netcraft.com/tools/)
 - [DNSX](https://github.com/projectdiscovery/dnsx)
+- [cachedview](https://cachedview.com/)
 
 # Analysing URLs
 
@@ -421,6 +422,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Archive today](https://archive.vn/)
 - [Waymore](https://forum.seccodeid.com/d/waymore-find-way-more-from-the-wayback-machine)
 - [Cached Pages](http://www.cachedpages.com/)
+- [cachedview](https://cachedview.com/)
 
 # Data Breached OSINT
 
@@ -830,6 +832,7 @@ Firefox plugin that will assist in downloading all media from a website
 - [Exif Viewer](https://addons.mozilla.org/en-US/firefox/addon/exif-viewer/)
 - [HTTrack](https://www.httrack.com/)
 - [Wayback Machine](https://archive.org/web/)
+- [cachedview](https://cachedview.com/)
 
 # OSINT TOOLS
 
