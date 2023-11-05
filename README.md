@@ -346,9 +346,9 @@ example
 > intext:"hacking" site:seccodeid.com
 > site:www.github.com ext:doc | ext:docx | ext:odt | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv  
 
-# Bash dorking script 
+# Bash Dorking Script 
 
-TIPS! 
+PRO TIPS! 
 
 You can add other headers, regex and search engine endpoints for refinement and to encode queries
 
