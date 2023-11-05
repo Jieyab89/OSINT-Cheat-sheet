@@ -197,6 +197,7 @@ Be carefull using this tool
 - [Nikto](https://cirt.net/Nikto2)
 - [Webshag](https://github.com/wereallfeds/webshag)
 - [wayback machine](https://archive.org/web/)
+- [Whoxy](https://www.whoxy.com/)
 - [Farsight DNSDB Transforms for Maltego](https://www.maltego.com/transform-hub/farsight-dnsdb/)
 - [Web Screnshhot Maltego Transforms](https://github.com/TURROKS/Maltego_Web2Screenshot)
 - [Nuclei](https://github.com/projectdiscovery/nuclei)
