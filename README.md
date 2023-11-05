@@ -202,6 +202,7 @@ Be carefull using this tool
 - [Web Screnshhot Maltego Transforms](https://github.com/TURROKS/Maltego_Web2Screenshot)
 - [Nuclei](https://github.com/projectdiscovery/nuclei)
 - [Netcraft](https://www.netcraft.com/tools/)
+- [DNSX](https://github.com/projectdiscovery/dnsx)
 
 # Analysing URLs
 
@@ -419,6 +420,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [UKWA](https://www.webarchive.org.uk/ukwa/)
 - [Archive today](https://archive.vn/)
 - [Waymore](https://forum.seccodeid.com/d/waymore-find-way-more-from-the-wayback-machine)
+- [Cached Pages](http://www.cachedpages.com/)
 
 # Data Breached OSINT
 
