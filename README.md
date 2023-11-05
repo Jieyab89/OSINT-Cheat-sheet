@@ -114,7 +114,7 @@ Be carefull using this tool
 - [OSINT.Team](https://osint.team)
 - [Seccodeid](https://forum.seccodeid.com/category/osint)
 - [Reddit OSINT](https://www.reddit.com/r/OSINT)
-- [TraceLabs Discord](https://discord.gg/tracelabs)
+- [TraceLabs Discord](https://discord.com/invite/Rn8z2QNAD9)
 
 # General Search
 
@@ -299,6 +299,10 @@ net huggers
 
 # SOC & Threat Hunting
 
+Tips
+
+You can find the file hash or other threat indicator
+
 - [Alien Vault](https://otx.alienvault.com/)
 - [Exploit db](https://www.exploit-db.com/)
 - [AT&T](https://cybersecurity.att.com/resource-center#content_analyst-reports)
@@ -318,10 +322,6 @@ net huggers
 - [Abuse IP DB](https://www.abuseipdb.com/)
 - [Talos CTI](https://www.talosintelligence.com/)
 - [Darkfeed](https://darkfeed.io/)
-
-Tips
-
-You can find the file hash or other threat indicator
 
 # Dorking
 
@@ -493,6 +493,9 @@ This domain will always change
 - [SignalHire](https://www.signalhire.com/)
 - [Thatsthem](https://thatsthem.com/)
 - [Freepeoplesearch](https://freepeoplesearch.com/)
+- [Epios](https://epieos.com/)
+- [anymailfinder](https://anymailfinder.com/)
+- [getprospect](https://getprospect.com/)
 
 # Phone Numbers
 
@@ -538,6 +541,9 @@ This domain will always change
 - [seon](https://seon.io/resources/the-ultimate-guide-to-free-email-lookup-and-reverse-email-lookup-tools/)
 - [Thatsthem](https://thatsthem.com/)
 - [Freepeoplesearch](https://freepeoplesearch.com/)
+- [Epios](https://epieos.com/)
+- [anymailfinder](https://anymailfinder.com/)
+- [getprospect](https://getprospect.com/)
 
 # Public Records
 
@@ -799,6 +805,9 @@ Google queries for MySpace
 - [Freepeoplesearch](https://freepeoplesearch.com/)
 - [Headmail](https://github.com/umair9747/headmail)
 - [Poastal](https://github.com/jakecreps/poastal)
+- [Epios](https://epieos.com/)
+- [anymailfinder](https://anymailfinder.com/)
+- [getprospect](https://getprospect.com/)
 
 # IoT – Internet of Things
 
@@ -1135,6 +1144,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [digiKam](https://www.digikam.org/)
 - [geoq](https://github.com/ngageoint/geoq)
 - [gvision](https://github.com/GONZOsint/gvision)
+- [OSM Bellingcat](https://osm-search.bellingcat.com/)
 
 # Fact Checking
 
@@ -1379,6 +1389,7 @@ Social Network and blogging
 - [Open street map](https://www.openstreetmap.org/)
 - [Google Maps Geocoding](https://www.maltego.com/transform-hub/google-maps-geocoding-transforms/)
 - [Googleearthengine](https://earthengine.google.com/#intro)
+- [OSM Bellingcat](https://osm-search.bellingcat.com/)
 
 # Discord Server Search  
 
@@ -1492,6 +1503,7 @@ Password Manager
 - [Keepas](https://keepass.info/)
 - [Dashlane](https://www.dashlane.com/)
 - [Nordpass](https://nordpass.com/)
+- [Securing your email](https://cybernews.com/secure-email-providers/find-all-accounts-linked-to-email-address/)
 
 # Aircraft Tracking 
 
