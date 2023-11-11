@@ -349,41 +349,41 @@ example
 > intext:"hacking" site:seccodeid.com
 > site:www.github.com ext:doc | ext:docx | ext:odt | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv  
 
-# Bash Dorking Script 
+# Bash Dorking Script
 
-PRO TIPS! 
+PRO TIPS!
 
 You can add other headers, regex and search engine endpoints for refinement and to encode queries
 
-- BING SEARCH 
+- BING SEARCH
 
-WEB 
+WEB
 
 ```WEB
 for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:68.0) Gecko/20100101 Firefox/68.0" "https://www.bing.com/search?pglt=2081&q=.php?id=" | grep -Eo 'href="[^\"]+"' | grep -Po "(http|https)://[a-zA-Z0-9./?=_%:-]*" | grep ".php?id" | sort -u ;done
 ```
 
-Hunt Username 
+Hunt Username
 
 ```USERNAME
 for ((i=1;1<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0;Accept: */*;Accept-Language: id,en-US;q-0.7,en;q-0.3;Accept-Encoding: gzip, deflate, br;Referer: https: //www.bing.com/;DNT: 1;Connection: keep-alive;Cookie: 1P_JAR=2023-11-05-19;Sec-Fetch-Dest:empty;Sec-Fetch-Mode:cors;Sec-Fetch-Site: same-origin;TE: trailers" "https://www.bing.com/search?pglt=2081&q=Jieyab89" | grep -Eo 'href="[^\"]+"' | grep -Po "(http|https)://[a-zA-Z0-9./?=_%:-]*" | grep -E "Jieyab89|github" | sort -u ;done
 ```
 
-Hunt Username 
+Hunt Username
 
 ```USERNAME
 for ((i=1;1<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0;Accept: */*;Accept-Language: id,en-US;q-0.7,en;q-0.3;Accept-Encoding: gzip, deflate, br;Referer: https: //www.bing.com/;DNT: 1;Connection: keep-alive;Cookie: 1P_JAR=2023-11-05-19;Sec-Fetch-Dest:empty;Sec-Fetch-Mode:cors;Sec-Fetch-Site: same-origin;TE: trailers" "Your Bing Request URL Header" | grep -Eo 'href="[^\"]+"' | grep -Po "(http|https)://[a-zA-Z0-9./?=_%:-]*" | grep -E "Jieyab89|github" | sort -u ;done
 ```
 
-- GOOGLE SEARCH 
+- GOOGLE SEARCH
 
-Hunt Username 
+Hunt Username
 
 ```USERNAME
 for ((i=1;1<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0;Accept: */*;Accept-Language: id,en-US;q-0.7,en;q-0.3;Accept-Encoding: gzip, deflate, br;Referer: https: //www.google.com/;DNT: 1;Connection: keep-alive;Cookie: 1P_JAR=2023-11-05-19;Sec-Fetch-Dest:empty;Sec-Fetch-Mode:cors;Sec-Fetch-Site: same-origin;TE: trailers" "https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&start=${i}0&q=Jieyab89" | grep -Eo 'href="[^\"]+"' | grep -Po "(http|https)://[a-zA-Z0-9./?=_%:-]*" | grep -E "Jieyab89|github" | sort -u ;done
 ```
 
-WEB 
+WEB
 
 ```WEB
 for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:68.0) Gecko/20100101 Firefox/68.0" "https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&start=${i}0&q=.php?id=" | grep -Eo 'href="[^\"]+"' | grep -Po "(http|https)://[a-zA-Z0-9./?=_%:-]*" | grep ".php?id" | sort -u ;done
@@ -469,6 +469,7 @@ This domain will always change
 - [Ahmia](https://ahmia.fi/)
 - [TorBot](https://github.com/DedSecInside/TorBot)
 - [Darkfeed](https://darkfeed.io/)
+- [Torch](xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega?P=)
 
 # Tracking Website Changes
 
@@ -1495,21 +1496,21 @@ Strict and disable bot crawl search engine index account
 - [Missing Kids](https://www.missingkids.org/gethelpnow/isyourexplicitcontentoutthere) Remove nudes or sexually-exploitive images or videos taken when you were a child out there on the internet
 - [Takeit Down](https://takeitdown.ncmec.org/) Help remove online nude, partially nude
 - [Inhope](https://www.inhope.org/EN#hotlineReferral) Report suspected child sexual abuse images or videos
-- [ReportIWF Indonesia](https://report.iwf.org.uk/id) Proctect and remove sexualy, nudes on internet 
-- [ReportIWF](https://www.iwf.org.uk/our-technology/report-remove/) Proctect and remove sexualy, nudes on internet 
+- [ReportIWF Indonesia](https://report.iwf.org.uk/id) Proctect and remove sexualy, nudes on internet
+- [ReportIWF](https://www.iwf.org.uk/our-technology/report-remove/) Proctect and remove sexualy, nudes on internet
 
 *NB : Its taking to long, you need to patiently
 
-# Secure Your Data 
+# Secure Your Data
 
-Password Manager 
+Password Manager
 
 - [Keepas](https://keepass.info/)
 - [Dashlane](https://www.dashlane.com/)
 - [Nordpass](https://nordpass.com/)
 - [Securing your email](https://cybernews.com/secure-email-providers/find-all-accounts-linked-to-email-address/)
 
-# Aircraft Tracking 
+# Aircraft Tracking
 
 - [flightradar24](https://www.flightradar24.com/)
 - [flightaware](https://www.flightaware.com/)
@@ -1518,7 +1519,7 @@ Password Manager
 - [radarbox](https://www.radarbox.com/)
 - [adsbexchange](https://globe.adsbexchange.com/)
 
-# Ship Tracking 
+# Ship Tracking
 
 - [shiptracker](https://shiptracker.live/)
 - [marinetraffic](https://www.marinetraffic.com/)
