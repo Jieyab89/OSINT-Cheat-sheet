@@ -438,6 +438,8 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Search0t](https://search.0t.rocks/)
 - [Search0t MAP](https://search.0t.rocks/map)
 - [What Breach](https://github.com/Ekultek/WhatBreach)
+- [Breach Directory](https://breachdirectory.org/)
+- [Snusbase](https://snusbase.com/)
 
 # Crack Jurnals
 
@@ -1255,6 +1257,8 @@ Example and payload injection
 Bypasses, payloads, Reconnaissance and etc
 - [Searchsploit](https://www.exploit-db.com/searchsploit)
 Search more exploit from edb
+- [DnsSpy](https://github.com/dnSpy/dnSpy)
+Desktop NET debugger and assembly editor
 
 # Zero Day
 
@@ -1475,7 +1479,7 @@ Payment
 - [OpenCNAM](https://docs.maltego.com/support/solutions/articles/15000045282-maltego-opencnam-transforms)
 - [Fullcontact](https://www.fullcontact.com/)
 
-# Content Removal & Strict Media content
+# Content Removal & Strict Media Content
 
 Strict, removing and minimize your data on the internet
 
