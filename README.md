@@ -205,6 +205,8 @@ Be carefull using this tool
 - [DNSX](https://github.com/projectdiscovery/dnsx)
 - [cachedview](https://cachedview.com/)
 - [Zoomeye](http://zoomeye.org/)
+- [securitytrails](https://securitytrails.com/)
+- [hakrawler](https://github.com/hakluke/hakrawler)
 
 # Analysing URLs
 
@@ -1174,6 +1176,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 
 - [Testssl](https://testssl.sh/)
 - [Nesus](https://www.tenable.com/products/nessus)
+- [securitytrails](https://securitytrails.com/)
 
 # CTF Analysis & Exploit
 
