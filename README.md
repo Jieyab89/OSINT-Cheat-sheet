@@ -784,6 +784,7 @@ Google queries for MySpace
 - [metapicz](http://metapicz.com)
 - [jimpl](https://jimpl.com/)
 - [pic2map](https://www.pic2map.com/)
+- [labs.tib.eu](https://labs.tib.eu/geoestimation/)
 
 # Documents
 
@@ -1021,6 +1022,7 @@ Search channel, username anymore
 - [Image Analyzer](https://www.maltego.com/transform-hub/image-analyzer/)
 - [Pelock](https://www.pelock.com/products/steganography-online-codec)
 - [OCR Image](https://www.newocr.com/)
+- [labs.tib.eu](https://labs.tib.eu/geoestimation/)
 
 # Stock Images
 
@@ -1155,6 +1157,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [geoq](https://github.com/ngageoint/geoq)
 - [gvision](https://github.com/GONZOsint/gvision)
 - [OSM Bellingcat](https://osm-search.bellingcat.com/)
+- [labs.tib.eu](https://labs.tib.eu/geoestimation/)
 
 # Fact Checking
 
