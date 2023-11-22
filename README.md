@@ -1007,6 +1007,8 @@ or you can use dork for spesific example
 - [Schedule Warble](https://warble.co)
 - [Twint](https://github.com/twintproject/twint)
 - [Twitwork](https://github.com/atmoner/TwitWork)
+- [Twitter Account Profiler](https://www.sotwe.com/)
+- [Twitter Account Profiler](https://twstalker.com/)
 
 # Twitter Search Engines
 
