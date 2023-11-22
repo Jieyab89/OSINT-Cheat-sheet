@@ -633,9 +633,13 @@ AWS SECRET
 ```
 
 > intext:"hacking" site:seccodeid.com
+> 
 > inurl:login site:seccodeid.com
+>
 > intext:username filetype:log
+>
 > site:www.github.com ext:doc | ext:docx | ext:odt | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv  
+>
 
 # Bash Dorking Script
 
