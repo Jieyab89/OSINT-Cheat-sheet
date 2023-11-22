@@ -722,7 +722,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Wiki Leaks](https://wikileaks.org/)
 - [DDO Secrets](https://ddosecrets.com/wiki/Distributed_Denial_of_Secrets)
 - [Breached](https://breached.to/) Availabe on Darkweb
-- [Dark Tracer](https://darktracer.com/)
+- [Stealthmole](https://www.stealthmole.com/products/darkweb-tracker)
 - [Doxbin](https://doxbin.com/)
 - [Search0t](https://search.0t.rocks/)
 - [Search0t MAP](https://search.0t.rocks/map)
@@ -1703,7 +1703,7 @@ Social Network and blogging
 
 # Darkweb Intelligence
 
-- [Dark Tracer](https://darktracer.com/)
+- [Stealthmole](https://www.stealthmole.com/products/darkweb-tracker)
 - [Darkweb bookmarks](https://www.osintcombine.com/dw-osint-bookmarks)
 - [Maltego digital shadows transform](https://www.maltego.com/transform-hub/digital-shadows/)
 - [Maltego cybersixgill transform](https://www.maltego.com/transform-hub/cybersixgill/)
