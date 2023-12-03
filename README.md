@@ -784,6 +784,10 @@ This domain will always change
 - [Linkedin](https://www.linkedin.com/)
 - [Indeed](https://www.indeed.com/companies?from=gnav-title-webapp)
 - [ZoomInfo](https://www.zoominfo.com/)
+- [Crunchbase](https://www.crunchbase.com/)
+- [Apolo](https://www.apollo.io/)
+- [Lusha](https://www.lusha.com/)
+- [Jobstreet](https://www.jobstreet.com.ph/)
 
 # People Searching
 
@@ -803,6 +807,7 @@ This domain will always change
 - [anymailfinder](https://anymailfinder.com/)
 - [getprospect](https://getprospect.com/)
 - [ZoomInfo](https://www.zoominfo.com/)
+- [Apolo](https://www.apollo.io/)
 
 # Phone Numbers
 
