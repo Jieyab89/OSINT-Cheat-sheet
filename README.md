@@ -780,6 +780,10 @@ This domain will always change
 - [Spiderfoot](https://www.spiderfoot.net/) 
 - [Spiderfoot HX](https://www.spiderfoot.net/open-source-vs-hx/) You must have account
 - [Rocket Reach](https://rocketreach.co/)
+- [Glasdoor](https://www.glassdoor.com/)
+- [Linkedin](https://www.linkedin.com/)
+- [Indeed](https://www.indeed.com/companies?from=gnav-title-webapp)
+- [ZoomInfo](https://www.zoominfo.com/)
 
 # People Searching
 
@@ -798,6 +802,7 @@ This domain will always change
 - [Epios](https://epieos.com/)
 - [anymailfinder](https://anymailfinder.com/)
 - [getprospect](https://getprospect.com/)
+- [ZoomInfo](https://www.zoominfo.com/)
 
 # Phone Numbers
 
@@ -846,6 +851,7 @@ This domain will always change
 - [Epios](https://epieos.com/)
 - [anymailfinder](https://anymailfinder.com/)
 - [getprospect](https://getprospect.com/)
+- [ZoomInfo](https://www.zoominfo.com/)
 
 # Public Records
 
@@ -864,6 +870,7 @@ This domain will always change
 - [Checkusernames](https://checkusernames.com/)
 - [Maigret](https://github.com/soxoj/maigret)
 - [Picuki](https://www.picuki.com/)
+- [ZoomInfo](https://www.zoominfo.com/)
 
 # Social Networks
 
