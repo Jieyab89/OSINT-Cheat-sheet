@@ -273,6 +273,7 @@ Be carefull using this tool
 - [Badan Pemeriksa APK](https://apk.ibnux.com/?s=0)
 - [SPAMHAUS](https://www.spamhaus.org/)
 - [Spiderfoot HX](https://www.spiderfoot.net/open-source-vs-hx/) You must have account 
+- [Flare](https://flare.io/)
 
 # IoT Search Engines
 
@@ -328,6 +329,7 @@ You can find the file hash or other threat indicator
 - [Abuse IP DB](https://www.abuseipdb.com/)
 - [Talos CTI](https://www.talosintelligence.com/)
 - [Darkfeed](https://darkfeed.io/)
+- [Flare](https://flare.io/)
 
 # Dorking
 
@@ -733,6 +735,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [What Breach](https://github.com/Ekultek/WhatBreach)
 - [Breach Directory](https://breachdirectory.org/)
 - [Snusbase](https://snusbase.com/)
+- [Flare](https://flare.io/)
 
 # Crack Jurnals
 
@@ -1729,6 +1732,7 @@ Social Network and blogging
 - [Maltego social links professional transform](https://www.maltego.com/transform-hub/social-links-pro/)
 - [TorBot](https://github.com/DedSecInside/TorBot)
 - [Darkfeed](https://darkfeed.io/)
+- [Flare](https://flare.io/)
 
 # Digital Forensics
 
