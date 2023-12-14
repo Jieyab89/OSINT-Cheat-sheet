@@ -107,6 +107,7 @@ Be carefull using this tool
 - [Open Network](http://www.opendatanetwork.com/)
 - [WHO Data](https://www.who.int/data/gho/)
 - [Gpt OSINT](https://github.com/gigz/gpt-osint)
+- [Humdata](https://data.humdata.org/dataset)
 
 # Forums
 
@@ -1488,6 +1489,9 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [sketchmapper](https://sketchmapper.cellgrid.co/)
 - [github sketchmapper](https://github.com/mlkin/sketchmapper)
 - [byt-georagging](https://github.com/Yachay-AI/byt5-geotagging)
+- [CSIS maps](https://amti.csis.org/maps/)
+- [Humdata maps](https://data.humdata.org/group)
+- [Planet - satellite maps](https://www.planet.com/products/)
 
 # Fact Checking
 
@@ -1737,6 +1741,9 @@ Social Network and blogging
 - [Googleearthengine](https://earthengine.google.com/#intro)
 - [OSM Bellingcat](https://osm-search.bellingcat.com/)
 - [byt5-geotagging](https://github.com/Yachay-AI/byt5-geotagging)
+- [CSIS maps](https://amti.csis.org/maps/)
+- [Humdata maps](https://data.humdata.org/group)
+- [Planet - satellite maps](https://www.planet.com/products/)
 
 # Discord Server Search  
 
