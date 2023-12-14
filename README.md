@@ -173,6 +173,7 @@ Be carefull using this tool
 - [Social Searcher](https://www.social-searcher.com/)
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
 - [SNSCRAPE - Scraper](https://github.com/JustAnotherArchivist/snscrape)
+- [OSINT compass](https://osint-compass-portal.onrender.com/)
 
 # Social Media Management and Content Discovery
 
@@ -729,6 +730,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Waymore](https://forum.seccodeid.com/d/waymore-find-way-more-from-the-wayback-machine)
 - [Cached Pages](http://www.cachedpages.com/)
 - [cachedview](https://cachedview.com/)
+- [ArchivEye](https://github.com/eastrd/ArchivEye)
 
 # Data Breached OSINT
 
@@ -976,6 +978,8 @@ or you can use dork for spesific example
 - [Inflact](https://inflact.com/)
 - [Greatfon](https://greatfon.com/)
 - [Save Free](https://www.save-free.com/)
+- [Insta Location Search](https://github.com/bellingcat/instagram-location-search)
+- [Insta story visual maps](https://github.com/Jasawn/python-instagram-story-visualiser)
 
 # Pinterest
 
@@ -1289,6 +1293,9 @@ Search channel, username anymore
 - [Profil3r](https://github.com/Rog3rSm1th/Profil3r)
 - [Oblivion](https://github.com/loseys/Oblivion)
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
+- [Snsscrape](https://github.com/JustAnotherArchivist/snscrape)
+- [stratosphere](https://github.com/elehcimd/stratosphere)
+- [OSINT compass](https://osint-compass-portal.onrender.com/)
 
 # Image Search
 
@@ -1492,6 +1499,8 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [CSIS maps](https://amti.csis.org/maps/)
 - [Humdata maps](https://data.humdata.org/group)
 - [Planet - satellite maps](https://www.planet.com/products/)
+- [OSM Finder](https://github.com/Xetnus/osm-finder)
+- [OSM Finder - Web based](https://osm-finder.netlify.app/)
 
 # Fact Checking
 
@@ -1744,6 +1753,8 @@ Social Network and blogging
 - [CSIS maps](https://amti.csis.org/maps/)
 - [Humdata maps](https://data.humdata.org/group)
 - [Planet - satellite maps](https://www.planet.com/products/)
+- [OSM Finder](https://github.com/Xetnus/osm-finder)
+- [OSM Finder - Web based](https://osm-finder.netlify.app/)
 
 # Discord Server Search  
 
