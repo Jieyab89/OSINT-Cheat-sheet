@@ -106,6 +106,7 @@ Be carefull using this tool
 - [AWS open data](https://registry.opendata.aws/)
 - [Open Network](http://www.opendatanetwork.com/)
 - [WHO Data](https://www.who.int/data/gho/)
+- [Gpt OSINT](https://github.com/gigz/gpt-osint)
 
 # Forums
 
@@ -170,6 +171,7 @@ Be carefull using this tool
 - [Social Links](https://www.mtg-bi.com)
 - [Social Searcher](https://www.social-searcher.com/)
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
+- [SNSCRAPE - Scraper](https://github.com/JustAnotherArchivist/snscrape)
 
 # Social Media Management and Content Discovery
 
@@ -177,6 +179,8 @@ Be carefull using this tool
 - [Coosto](https://www.coosto.com)
 - [Revive Social](https://revive.social)
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
+- [Gpt OSINT](https://github.com/gigz/gpt-osint)
+- [SNSCRAPE - Scraper](https://github.com/JustAnotherArchivist/snscrape)
 
 # Web Intelligence
 
@@ -207,6 +211,7 @@ Be carefull using this tool
 - [Zoomeye](http://zoomeye.org/)
 - [securitytrails](https://securitytrails.com/)
 - [hakrawler](https://github.com/hakluke/hakrawler)
+- [Dork Lab](https://github.com/rtwillett/DorkLab)
 
 # Analysing URLs
 
@@ -330,6 +335,10 @@ You can find the file hash or other threat indicator
 - [Talos CTI](https://www.talosintelligence.com/)
 - [Darkfeed](https://darkfeed.io/)
 - [Flare](https://flare.io/)
+
+# Automation Dorking 
+
+- [Dorklab](https://github.com/rtwillett/DorkLab)
 
 # Dorking
 
@@ -1104,6 +1113,7 @@ Google queries for MySpace
 - [Find PDF Doc](http://www.findpdfdoc.com/)
 - [Pdf analyzer](http://pdf-analyser.edpsciences.org/)
 - [Tools pdf24](https://tools.pdf24.org/en/extract-images)
+- [ArchivEye](https://github.com/eastrd/ArchivEye)
 
 # Email Tracing
 
@@ -1135,6 +1145,7 @@ Google queries for MySpace
 - [Earthcam](https://www.earthcam.com/)
 - [Insecam](http://Insecam.org)
 - [Shodan](https://Shodan.io)
+- [Webcams](https://github.com/pbkompasz/webcams)
 
 # Shodan Query Options
 
@@ -1241,6 +1252,7 @@ Search channel, username anymore
 - [telegram-phone-number-checker](https://github.com/bellingcat/telegram-phone-number-checker)
 - [Telepathy](https://github.com/proseltd/Telepathy)
 - [Telemetr](https://telemetr.io/)
+- [Telegramtrac](https://github.com/claromes/telegramtrac)
 
 # Document and Slides Search
 
@@ -1261,6 +1273,7 @@ Search channel, username anymore
 - [Find PDF Doc](http://www.findpdfdoc.com/)
 - [Pdf analyzer](http://pdf-analyser.edpsciences.org/)
 - [Tools pdf24](https://tools.pdf24.org/en/extract-images)
+- [ArchivEye](https://github.com/eastrd/ArchivEye)
 
 # Real-Time Search, Social Media Search, and General Social Media Tools
 
@@ -1306,6 +1319,7 @@ Search channel, username anymore
 - [Face++](https://www.faceplusplus.com/)
 - [AWS-Recon](https://aws.amazon.com/rekognition/)
 - [Azure vidio indexer](https://vi.microsoft.com/en-us)
+- [Webcams](https://github.com/pbkompasz/webcams)
 
 # Image Analysis
 
@@ -1333,6 +1347,7 @@ Search channel, username anymore
 - [Pelock](https://www.pelock.com/products/steganography-online-codec)
 - [OCR Image](https://www.newocr.com/)
 - [labs.tib.eu](https://labs.tib.eu/geoestimation/)
+- [Webcams](https://github.com/pbkompasz/webcams)
 
 # Stock Images
 
@@ -1388,6 +1403,8 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [YouTube Geofind](https://mattw.io/youtube-geofind/)
 - [Video Stabilization Methods](https://github.com/yaochih/awesome-video-stabilization)
 - [Azure vidio indexer](https://vi.microsoft.com/en-us)
+- [Bilibili scraper](https://github.com/yixiangyin/bilibili-scraper)
+- [Webcams](https://github.com/pbkompasz/webcams)
 
 # Geospatial Research and Mapping Tools
 
@@ -1468,6 +1485,9 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [gvision](https://github.com/GONZOsint/gvision)
 - [OSM Bellingcat](https://osm-search.bellingcat.com/)
 - [labs.tib.eu](https://labs.tib.eu/geoestimation/)
+- [sketchmapper](https://sketchmapper.cellgrid.co/)
+- [github sketchmapper](https://github.com/mlkin/sketchmapper)
+- [byt-georagging](https://github.com/Yachay-AI/byt5-geotagging)
 
 # Fact Checking
 
@@ -1654,6 +1674,7 @@ Telegram
 - [Lyzem Search](https://lyzem.com/)
 - [Discover The Best Telegram Channels](https://telegramchannels.me/)
 - [Tele Channel Overiview](https://telemetr.io/)
+- [Telegramtrac](https://github.com/claromes/telegramtrac)
 
 # Build Sockpuppet Accounts
 
@@ -1715,6 +1736,7 @@ Social Network and blogging
 - [Google Maps Geocoding](https://www.maltego.com/transform-hub/google-maps-geocoding-transforms/)
 - [Googleearthengine](https://earthengine.google.com/#intro)
 - [OSM Bellingcat](https://osm-search.bellingcat.com/)
+- [byt5-geotagging](https://github.com/Yachay-AI/byt5-geotagging)
 
 # Discord Server Search  
 
@@ -1844,3 +1866,7 @@ Password Manager
 
 - [shiptracker](https://shiptracker.live/)
 - [marinetraffic](https://www.marinetraffic.com/)
+
+# GPT OSINT 
+
+- [Gpt osint](https://github.com/gigz/gpt-osint)
