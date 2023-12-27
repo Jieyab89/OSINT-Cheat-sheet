@@ -214,6 +214,10 @@ Be carefull using this tool
 - [securitytrails](https://securitytrails.com/)
 - [hakrawler](https://github.com/hakluke/hakrawler)
 - [Dork Lab](https://github.com/rtwillett/DorkLab)
+- [Websecreenshoot](https://github.com/maaaaz/webscreenshot)
+- [Leakos](https://github.com/carlospolop/Leakos)
+- [Pastos](https://github.com/carlospolop/Pastos)
+- [SNYK](snyk.io)
 
 # Analysing URLs
 
@@ -748,6 +752,8 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Breach Directory](https://breachdirectory.org/)
 - [Snusbase](https://snusbase.com/)
 - [Flare](https://flare.io/)
+- [Leaklookup](https://leak-lookup.com/)
+- [Pastos](https://github.com/carlospolop/Pastos)
 
 # Crack Jurnals
 
