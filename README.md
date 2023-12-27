@@ -234,6 +234,11 @@ Be carefull using this tool
 - [PolySwarm](https://polyswarm.network/)
 - [Threat Miner](https://www.threatminer.org/)
 - [Netcraft](https://www.netcraft.com/tools/)
+- [Malwareworld](https://malwareworld.com/)
+- [DNS TWIST](https://github.com/elceef/dnstwist)
+- [URL CRAZY - Phishing detector](https://github.com/urbanadventurer/urlcrazy)
+- [CRT - Find cert ssl and etc](https://crt.sh/)
+- [Phishing catcher](https://github.com/x0rz/phishing_catcher)
 
 # Researching Cyber Threats
 
@@ -285,6 +290,11 @@ Be carefull using this tool
 - [SPAMHAUS](https://www.spamhaus.org/)
 - [Spiderfoot HX](https://www.spiderfoot.net/open-source-vs-hx/) You must have account 
 - [Flare](https://flare.io/)
+- [Malwareworld](https://malwareworld.com/)
+- [DNS TWIST](https://github.com/elceef/dnstwist)
+- [URL CRAZY - Phishing detector](https://github.com/urbanadventurer/urlcrazy)
+- [CRT - Find cert ssl and etc](https://crt.sh/)
+- [Phishing catcher](https://github.com/x0rz/phishing_catcher)
 
 # IoT Search Engines
 
@@ -1894,3 +1904,7 @@ Password Manager
 # GPT OSINT 
 
 - [Gpt osint](https://github.com/gigz/gpt-osint)
+
+# OSINT for Read Team 
+
+- [Phishious](https://github.com/CanIPhish/Phishious)
