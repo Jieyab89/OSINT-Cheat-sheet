@@ -1907,4 +1907,5 @@ Password Manager
 
 # OSINT for Read Team 
 
-- [Phishious](https://github.com/CanIPhish/Phishious)
+- [Phishious](https://github.com/CanIPhish/Phishious) 
+Secure Email Gateway (SEG) for phishing email header (escape detection)
