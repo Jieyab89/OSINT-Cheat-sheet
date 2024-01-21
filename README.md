@@ -4,6 +4,24 @@
 
 Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and others. There are free and paid tools you can use and owner is not responsible, only for knowledge or educational purposes. Sorry if some of the resources have closed the service or error owner doesn't always check what's going on with the resources here, thank you
 
+# Tips and trick safe guide using resources 
+
+- Use virtual machine, fake host or docker image 
+- Use private network e.g vpn, tor, p2p 
+- Use second account (not you real account)
+- Read ToS the resouces 
+- Enable your firewall and IDS 
+- Dont upload your private files make sure you have clean personal file in folder
+
+# Linux Distribution for OSINT 
+
+You can build it with VM or Live USB make sure you have sandbox machine 
+
+- [tlosint-live](https://github.com/tracelabs/tlosint-live)
+- [tails](https://tails.net/)
+- [qubes](https://www.qubes-os.org/doc/)
+- [parrot sec](https://www.parrotsec.org/)
+
 # EXIF TOOL COMMAND
 
 ## Exif tag name and data type
@@ -99,6 +117,8 @@ Be carefull using this tool
 - [Tinfoleak](https://github.com/vaguileradiaz/tinfoleak)
 - [SOCMINT tool](https://osint.support/chrome-extensions/2019/09/29/osint-socmint-tooling.html)
 - [Graph Search](http://socmint.tools/graph.htm)
+- [Alfred](https://github.com/Alfredredbird/alfred)
+- [Blackbird](https://github.com/p1ngul1n0/blackbird)
 
 # Collection Dataset
 
@@ -351,10 +371,12 @@ You can find the file hash or other threat indicator
 - [Talos CTI](https://www.talosintelligence.com/)
 - [Darkfeed](https://darkfeed.io/)
 - [Flare](https://flare.io/)
+- [Mihari](https://github.com/ninoseki/mihari)
 
 # Automation Dorking 
 
 - [Dorklab](https://github.com/rtwillett/DorkLab)
+- [Ominis-Osint](https://github.com/AnonCatalyst/Ominis-Osint)
 
 # Dorking
 
@@ -745,6 +767,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Cached Pages](http://www.cachedpages.com/)
 - [cachedview](https://cachedview.com/)
 - [ArchivEye](https://github.com/eastrd/ArchivEye)
+- [Twitter Archive](https://github.com/humandecoded/twayback)
 
 # Data Breached OSINT
 
@@ -796,6 +819,7 @@ This domain will always change
 - [TorBot](https://github.com/DedSecInside/TorBot)
 - [Darkfeed](https://darkfeed.io/)
 - [Torch](xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega?P=)
+- [Onionsearch](https://github.com/megadose/OnionSearch)
 
 # Tracking Website Changes
 
@@ -907,6 +931,8 @@ This domain will always change
 - [Maigret](https://github.com/soxoj/maigret)
 - [Picuki](https://www.picuki.com/)
 - [ZoomInfo](https://www.zoominfo.com/)
+- [Alfred](https://github.com/Alfredredbird/alfred)
+- [Blackbird](https://github.com/p1ngul1n0/blackbird)
 
 # Social Networks
 
@@ -920,6 +946,7 @@ This domain will always change
 - [Google Social Network Transforms](https://www.maltego.com/transform-hub/google-programmable-search-engine-transforms/)
 - [FullContact](https://www.maltego.com/transform-hub/full-contact/)
 - [maigret](https://github.com/soxoj/maigret)
+- [Blackbird](https://github.com/p1ngul1n0/blackbird)
 
 # Google Queries for Facebook
 
@@ -974,12 +1001,17 @@ or you can use dork for spesific example
 
 - [Intel Technique](https://inteltechniques.com/osint/facebook.html)
 - [DumpItBlue](http://le-tools.com/DumpItBlue.html)
-- [Fanpage Karma](http://www.fanpagekarma.com)
 - [Facebook Search](http://search.fb.com/)
 - [Fb-sleep-stats](https://github.com/sqren/fb-sleep-stats)
 - [Lookup-ID.com](https://lookup-id.com)
 - [SearchIsBack](https://searchisback.com)
 - [Wolfram Alpha Facebook Report](http://www.wolframalpha.com/input/?i=facebook+report)
+- [Facebook Recover Lookup](https://web.facebook.com/login/identify?ctx=recover&_rdc=1&_rdr)
+- [Who posted facebook](https://whopostedwhat.com/)
+- [sowsearch](https://www.sowsearch.info/)
+- [Hastag Analzer](https://www.hashatit.com/)
+- [Export comment](https://exportcomments.com/)
+- [Facebook endpoint](https://plessas.net/facebookmatrix)
 
 # Instagram
 
@@ -996,10 +1028,25 @@ or you can use dork for spesific example
 - [Save Free](https://www.save-free.com/)
 - [Insta Location Search](https://github.com/bellingcat/instagram-location-search)
 - [Insta story visual maps](https://github.com/Jasawn/python-instagram-story-visualiser)
+- [Snap Insta](https://snapinsta.app/)
+- [Insta Profiler](https://imginn.io/)
+- [Insta Loader](https://github.com/instaloader/instaloader)
 
 # Pinterest
 
 - [Pingroupie](http://pingroupie.com)
+- [Pinterest Downloader](https://www.expertsphp.com/pinterest-photo-downloader.html)
+- [Pinterset Guest](https://addons.mozilla.org/en-US/firefox/addon/pinterest-guest/)
+- [Pinterest search](https://sourcinglab.io/search/pinterest)
+
+# Reddit 
+
+- [karmadecay](http://karmadecay.com/)
+- [reddit post analyser](https://www.osintcombine.com/reddit-post-analyser)
+- [Archive Reddit](https://www.redditarchive.com/)
+- [Reddit Search](https://redditcommentsearch.com/)
+- [Vizit](https://redditstuff.github.io/sna/vizit/)
+- [Sub reddit](https://subreddits.org/)
 
 # Twitter
 
@@ -1058,6 +1105,21 @@ or you can use dork for spesific example
 - [Twitwork](https://github.com/atmoner/TwitWork)
 - [Twitter Account Profiler](https://www.sotwe.com/)
 - [Twitter Account Profiler](https://twstalker.com/)
+- [Twitter Archive](https://github.com/humandecoded/twayback)
+- [History Twitter](https://memory.lol/app/)
+- [Wayback Twitter](https://waybacktweets.streamlit.app/)
+
+# Github 
+
+- [Github search name](https://caius.github.io/github_id/)
+- [Github Archive](https://www.gharchive.org/)
+- [Github Dork](https://github.com/techgaun/github-dorks)
+
+# Snapchat 
+
+- [Snapchat MAP](https://map.snapchat.com/)
+- [Snapchat Map scrapping](https://github.com/nemec/snapchat-map-scraper)
+- [SnapIntel](https://github.com/Kr0wZ/SnapIntel)
 
 # Twitter Search Engines
 
@@ -1079,6 +1141,10 @@ Google queries for LinkedIn
 - [LinkedInDumper](https://github.com/l4rm4nd/LinkedInDumper)
 - [Weakestlink](https://github.com/shellfarmer/WeakestLink)
 - [GatherContacts](https://github.com/clr2of8/GatherContacts)
+- [Rocket reach](https://rocketreach.co/person)
+- [Phantom Buster](https://phantombuster.com/phantombuster)
+- [reversecontact](https://www.reversecontact.com/)
+- [Linkedin Search OSINT](https://cse.google.com/cse?cx=daaf18e804f81bed0)
 
 # MySpace
 
@@ -1125,6 +1191,7 @@ Google queries for MySpace
 - [jimpl](https://jimpl.com/)
 - [pic2map](https://www.pic2map.com/)
 - [labs.tib.eu](https://labs.tib.eu/geoestimation/)
+- [imago-forensics](https://github.com/redaelli/imago-forensics)
 
 # Documents
 
@@ -1136,7 +1203,7 @@ Google queries for MySpace
 - [Tools pdf24](https://tools.pdf24.org/en/extract-images)
 - [ArchivEye](https://github.com/eastrd/ArchivEye)
 
-# Email Tracing
+# Email Tracking
 
 - [ip-adress](http://www.ip-adress.com/trace_email/)
 - [whatismyipaddress](http://www.whatismyipaddress.com/trace-email)
@@ -1159,6 +1226,8 @@ Google queries for MySpace
 - [Epios](https://epieos.com/)
 - [anymailfinder](https://anymailfinder.com/)
 - [getprospect](https://getprospect.com/)
+- [Email Hippo](https://tools.emailhippo.com/)
+- [Buster](https://github.com/sham00n/buster)
 
 # IoT – Internet of Things
 
@@ -1372,6 +1441,8 @@ Search channel, username anymore
 - [OCR Image](https://www.newocr.com/)
 - [labs.tib.eu](https://labs.tib.eu/geoestimation/)
 - [Webcams](https://github.com/pbkompasz/webcams)
+- [imago-forensics](https://github.com/redaelli/imago-forensics)
+- [Face recon](https://github.com/ageitgey/face_recognition)
 
 # Stock Images
 
@@ -1517,6 +1588,9 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Planet - satellite maps](https://www.planet.com/products/)
 - [OSM Finder](https://github.com/Xetnus/osm-finder)
 - [OSM Finder - Web based](https://osm-finder.netlify.app/)
+- [Wayback Geospatial](https://livingatlas.arcgis.com/wayback)
+- [Twitter Geo](http://geosocialfootprint.com/)
+- [Insta Geo](https://github.com/bellingcat/instagram-location-search)
 
 # Fact Checking
 
@@ -1709,6 +1783,7 @@ Telegram
 
 Build your sockpuppet account and proctect your privacy
 
+- [Roop Image face swap from AI](https://github.com/s0md3v/roop)
 - [Thispersondoesnotexist](https://www.thispersondoesnotexist.com/)
 - [Protonmail](https://protonmail.com/)
 - [Nordvpn](https://nordvpn.com/)
@@ -1777,6 +1852,7 @@ Social Network and blogging
 - [Discord servers](https://discordservers.com/)
 - [Discover servers](https://disboard.org/)
 - [Discord history tracker](https://www.dht.chylex.com/)  
+- [Darvester](https://github.com/darvester/darvester)
 
 # Darkweb Intelligence
 
@@ -1789,6 +1865,7 @@ Social Network and blogging
 - [TorBot](https://github.com/DedSecInside/TorBot)
 - [Darkfeed](https://darkfeed.io/)
 - [Flare](https://flare.io/)
+- [pryingdeep](https://github.com/iudicium/pryingdeep)
 
 # Digital Forensics
 
@@ -1812,6 +1889,8 @@ Social Network and blogging
 - [SIFT SANS](https://www.sans.org/tools/sift-workstation/)
 - [SIFT CLI](https://github.com/teamdfir/sift-cli/releases/tag/v1.8.5)
 - [HYAS Insight](https://www.maltego.com/transform-hub/hyas-insight/)
+- [imago-forensics](https://github.com/redaelli/imago-forensics)
+- [SimpleImager](https://github.com/QXJ6YW4/SimpleImager)
 
 # Write Your Investigation
 
@@ -1909,3 +1988,21 @@ Password Manager
 
 - [Phishious](https://github.com/CanIPhish/Phishious) 
 Secure Email Gateway (SEG) for phishing email header (escape detection)
+- [Operative framework](https://github.com/gaulliath/operative-framework/releases/tag/2.0a) investigation OSINT framework, you can interact with multiple targets
+- [Mod Login](https://github.com/clong/ModLogin) Credentials reuse
+- [Cr3dOv3r](https://github.com/D4Vinci/Cr3dOv3r) Credential reuse
+- [Crackmapexec](https://www.kali.org/tools/crackmapexec/) Password Spray 
+- [Datasploit](https://github.com/datasploit/datasploit) OSINT Framework to perform various recon techniques on Companies, People, Phone Number, Bitcoin Addresses, etc
+- [CloudFail](https://github.com/m0rtem/CloudFail) DNS and old database records to find hidden IP's behind the CloudFlare network
+- [cloudgazer](https://github.com/Aidennnn33/cloudgazer) Find Real IPs hidden behind Cloudflare with Criminal IP(criminalip.io), security OSINT Tool
+- [Rustcan](https://github.com/RustScan/RustScan) Port scanner 
+- [NMAP](https://nmap.org/) Port scanner 
+- [Getrails](https://pypi.org/project/getrails/) Dork hacking that work with Google, Duckduckgo and Torch
+- [OWASP Maryam](https://owasp.org/www-project-maryam/) open-source framework based on OSINT and data gathering
+- [Metabigor](https://github.com/j3ssie/metabigor?tab=readme-ov-file)  Intelligence tool, its goal is to do OSINT tasks and more but without any API key
+- [OSINT BBOT](https://github.com/blacklanternsecurity/bbot) A recursive internet scanner for hackers.
+- [Spiderfoot](https://github.com/smicallef/spiderfoot)
+
+# Audio OSINT 
+
+- [Audio metadata](https://github.com/tmont/audio-metadata)
