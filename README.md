@@ -129,7 +129,7 @@ Be carefull using this tool
 - [Gpt OSINT](https://github.com/gigz/gpt-osint)
 - [Humdata](https://data.humdata.org/dataset)
 
-# Forums
+# Forums & Sites
 
 - [Bellingcat Discord](https://discord.com/invite/nTaNPmz)
 - [Independent OSINT](https://discord.com/invite/2DGJ2EC)
@@ -137,6 +137,7 @@ Be carefull using this tool
 - [Seccodeid](https://forum.seccodeid.com/category/osint)
 - [Reddit OSINT](https://www.reddit.com/r/OSINT)
 - [TraceLabs Discord](https://discord.com/invite/Rn8z2QNAD9)
+- [IntelTechniques](https://inteltechniques.com/)
 
 # General Search
 
@@ -238,6 +239,8 @@ Be carefull using this tool
 - [Leakos](https://github.com/carlospolop/Leakos)
 - [Pastos](https://github.com/carlospolop/Pastos)
 - [SNYK](snyk.io)
+- [Similar Sites](https://www.similarsites.com/)
+- [Similar Web](https://www.similarweb.com/)
 
 # Analysing URLs
 
@@ -372,6 +375,8 @@ You can find the file hash or other threat indicator
 - [Darkfeed](https://darkfeed.io/)
 - [Flare](https://flare.io/)
 - [Mihari](https://github.com/ninoseki/mihari)
+- [Processhacker](https://processhacker.sourceforge.io/)
+- [Koodous](https://koodous.com/)
 
 # Automation Dorking 
 
@@ -754,6 +759,10 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [StartPage](https://www.startpage.com/)
 - [Searx](https://searx.space/)
 - [CommonCrawl](https://commoncrawl.org/latest-crawl)
+- [Similar Sites](https://www.similarsites.com/)
+- [Zap Meta](https://www.zapmeta.com/)
+- [Carrot Search](https://search.carrot2.org/#/search/web)
+- [Goo Search](https://www.goo.ne.jp/)
 
 # Internet Archive
 
@@ -1891,6 +1900,9 @@ Social Network and blogging
 - [HYAS Insight](https://www.maltego.com/transform-hub/hyas-insight/)
 - [imago-forensics](https://github.com/redaelli/imago-forensics)
 - [SimpleImager](https://github.com/QXJ6YW4/SimpleImager)
+- [Processhacker](https://processhacker.sourceforge.io/)
+- [Koodous](https://koodous.com/)
+- [Nirsoft Bwowsing History](https://www.nirsoft.net/utils/browsing_history_view.html)
 
 # Write Your Investigation
 
