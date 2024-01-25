@@ -262,6 +262,8 @@ Be carefull using this tool
 - [URL CRAZY - Phishing detector](https://github.com/urbanadventurer/urlcrazy)
 - [CRT - Find cert ssl and etc](https://crt.sh/)
 - [Phishing catcher](https://github.com/x0rz/phishing_catcher)
+- [Open Phish](https://openphish.com/phishing_feeds.html)
+- [Phishtalk](https://www.phishtank.com/phish_archive.php)
 
 # Researching Cyber Threats
 
@@ -305,7 +307,6 @@ Be carefull using this tool
 - [Phishstats](https://phishstats.info/)
 - [GitGuardian](https://www.gitguardian.com/monitor-public-github-for-secrets)
 - [Rescure](https://rescure.me/feeds.html)
-- [Kaspersky](https://opentip.kaspersky.com/)
 - [PolySwarm](https://polyswarm.network/)
 - [Darkfeed](https://darkfeed.io/)
 - [Header Email](https://github.com/umair9747/headmail)
@@ -318,6 +319,15 @@ Be carefull using this tool
 - [URL CRAZY - Phishing detector](https://github.com/urbanadventurer/urlcrazy)
 - [CRT - Find cert ssl and etc](https://crt.sh/)
 - [Phishing catcher](https://github.com/x0rz/phishing_catcher)
+- [Blackite](https://blackkite.com/community/)
+- [Open Phish](https://openphish.com/phishing_feeds.html)
+- [Phish Talk](https://www.phishtank.com/phish_archive.php)
+- [Threat Feeds](https://threatfeeds.io/)
+- [Threat Miner](https://www.threatminer.org/)
+- [Intel OWL](https://github.com/intelowlproject/IntelOwl/)
+- [RiskIQ](https://community.riskiq.com/)
+- [LOKI](https://github.com/Neo23x0/Loki)
+- [Mandiant](https://www.mandiant.com/advantage/threat-intelligence)
 
 # IoT Search Engines
 
@@ -377,6 +387,24 @@ You can find the file hash or other threat indicator
 - [Mihari](https://github.com/ninoseki/mihari)
 - [Processhacker](https://processhacker.sourceforge.io/)
 - [Koodous](https://koodous.com/)
+- [Blackite](https://blackkite.com/community/)
+- [Open Phish](https://openphish.com/phishing_feeds.html)
+- [Phish Talk](https://www.phishtank.com/phish_archive.php)
+- [Sophos](https://www.sophos.com/en-us/intelix)
+- [Signature Base](https://github.com/Neo23x0/signature-base) 
+- [SIEM Rules](https://www.siemrules.com/)
+- [Threat Feed](https://threatfeeds.io/)
+- [Threat Connect](https://threatconnect.com/threat-intelligence-operations-platform/)
+- [Threat Miner](https://www.threatminer.org/)
+- [Virus Share](https://virusshare.com/)
+- [Intel OWL](https://github.com/intelowlproject/IntelOwl/)
+- [RiskIQ](https://community.riskiq.com/)
+- [TypeDB](https://github.com/typedb-osi/typedb-cti)
+- [Goosint](https://github.com/ciscocsirt/gosint)
+- [Google APT search](https://cse.google.com/cse?cx=003248445720253387346:turlh5vi4xc)
+- [LOKI](https://github.com/Neo23x0/Loki)
+- [Mandiant](https://www.mandiant.com/advantage/threat-intelligence)
+- [IoC Editor](https://fireeye.market/apps/S7cWpi9W)
 
 # Automation Dorking 
 
@@ -796,6 +824,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Flare](https://flare.io/)
 - [Leaklookup](https://leak-lookup.com/)
 - [Pastos](https://github.com/carlospolop/Pastos)
+- [Blackkite](https://blackkite.com/community/)
 
 # Crack Jurnals
 
@@ -2018,3 +2047,10 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 # Audio OSINT 
 
 - [Audio metadata](https://github.com/tmont/audio-metadata)
+
+# OSINT Network 
+
+Detect a fake network and VPN
+
+- [Spur](https://spur.us/)
+- [FocSec](https://focsec.com/)
