@@ -264,6 +264,7 @@ Be carefull using this tool
 - [Phishing catcher](https://github.com/x0rz/phishing_catcher)
 - [Open Phish](https://openphish.com/phishing_feeds.html)
 - [Phishtalk](https://www.phishtank.com/phish_archive.php)
+- [URL Haus](https://urlhaus.abuse.ch/)
 
 # Researching Cyber Threats
 
@@ -405,6 +406,7 @@ You can find the file hash or other threat indicator
 - [LOKI](https://github.com/Neo23x0/Loki)
 - [Mandiant](https://www.mandiant.com/advantage/threat-intelligence)
 - [IoC Editor](https://fireeye.market/apps/S7cWpi9W)
+- [CREST Threat Intel](https://www.crest-approved.org/wp-content/uploads/2022/04/CREST-Cyber-Threat-Intelligence.pdf?ref=secjuice.com)
 
 # Automation Dorking 
 
@@ -2054,3 +2056,5 @@ Detect a fake network and VPN
 
 - [Spur](https://spur.us/)
 - [FocSec](https://focsec.com/)
+- [IP VPN detector](https://ip.teoh.io/vpn-detection)
+- [IPQS](https://www.ipqualityscore.com/vpn-ip-address-check)
