@@ -807,6 +807,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [cachedview](https://cachedview.com/)
 - [ArchivEye](https://github.com/eastrd/ArchivEye)
 - [Twitter Archive](https://github.com/humandecoded/twayback)
+- [Archive Today](https://archive.is/)
 
 # Data Breached OSINT
 
@@ -1483,6 +1484,7 @@ Search channel, username anymore
 - [Webcams](https://github.com/pbkompasz/webcams)
 - [imago-forensics](https://github.com/redaelli/imago-forensics)
 - [Face recon](https://github.com/ageitgey/face_recognition)
+- [Cleanup pictures](https://cleanup.pictures/)
 
 # Stock Images
 
@@ -1871,6 +1873,7 @@ Social Network and blogging
 - [Depix](https://github.com/beurtschipper/Depix)
 - [Realesrgan](https://replicate.com/xinntao/realesrgan)  
 - [HitPaw](https://online.hitpaw.com/online-photo-enhancer.html?linksource=header)
+- [Cleanup Pictures](https://cleanup.pictures/)
 
 # Locations Data Mapping
 
@@ -2058,3 +2061,9 @@ Detect a fake network and VPN
 - [FocSec](https://focsec.com/)
 - [IP VPN detector](https://ip.teoh.io/vpn-detection)
 - [IPQS](https://www.ipqualityscore.com/vpn-ip-address-check)
+
+# OSINT MILITARY
+
+- [militaryfactory](https://www.militaryfactory.com/)
+- [Military and other uniform badges](https://www.uniforminsignia.net/)
+- [SMALL ARMS SURVEY](https://www.smallarmssurvey.org/resource/introductory-guide-identification-small-arms-light-weapons-and-associated-ammunition)
