@@ -129,6 +129,10 @@ Be carefull using this tool
 - [Gpt OSINT](https://github.com/gigz/gpt-osint)
 - [Humdata](https://data.humdata.org/dataset)
 - [datasetsearch](https://datasetsearch.research.google.com/)
+- [OSINT Collection](https://start.me/p/DPYPMz/the-ultimate-osint-collection)
+- [Academic Torrent](https://academictorrents.com/)
+- [Torrent API](https://github.com/Ryuk-me/Torrent-Api-py) 
+- [API OSINT TORRENT](https://rapidapi.com/theoneappkh/api/torrent-search/) 
 
 # Forums & Sites
 
@@ -1656,6 +1660,10 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [EARTH DATA NASA](https://wvs.earthdata.nasa.gov/)
 - [peakvisor](https://peakvisor.com/)
 - [peakfinder](https://www.peakfinder.com/) 
+- [Calc Map Coordinate](https://www.calcmaps.com/map-coordinates/)
+- [Latlong Calc](https://www.latlong.net/)
+- [Gps Visualizer](https://www.gpsvisualizer.com/calculators)
+- [Iq Air](https://www.iqair.com/id/)
 
 # Nearby Map From Geospatial
 
@@ -2131,3 +2139,23 @@ Detect a fake network and VPN
 - [platesmania](https://platesmania.com/uk/search?&lang=en)
 - [findbyplate](https://findbyplate.com/)
 - [google image](https://www.google.com/imghp?hl=en)
+
+# Torrent
+
+- [utorrent](https://www.utorrent.com/) 
+- [bittorrent](https://www.bittorrent.com/) 
+- [Jacket](https://github.com/Jackett/Jackett)
+- [API OSINT TORRENT](https://github.com/cipher387/API-s-for-OSINT/blob/main/README.md) 
+- [torrentinim](https://github.com/sergiotapia/torrentinim)
+
+# SDR OSINT 
+
+- [map sdr points](https://rx-tx.info/map-sdr-points) 
+- [Airspy SDR RADIO](https://www.sdr-radio.com/airspy-server) 
+- [AirSpy MAP](https://airspy.com/directory/)
+
+# API for OSINT 
+
+Resources and collection for your make tool OSINT 
+
+- [API Resoruces OSINT - For Your Private Tool](https://github.com/cipher387/API-s-for-OSINT/blob/main/README.md) 
