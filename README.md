@@ -128,6 +128,7 @@ Be carefull using this tool
 - [WHO Data](https://www.who.int/data/gho/)
 - [Gpt OSINT](https://github.com/gigz/gpt-osint)
 - [Humdata](https://data.humdata.org/dataset)
+- [datasetsearch](https://datasetsearch.research.google.com/)
 
 # Forums & Sites
 
@@ -241,6 +242,8 @@ Be carefull using this tool
 - [SNYK](snyk.io)
 - [Similar Sites](https://www.similarsites.com/)
 - [Similar Web](https://www.similarweb.com/)
+- [spyonweb](https://spyonweb.com/)
+- [analyzeid](https://analyzeid.com/)
 
 # Analysing URLs
 
@@ -793,6 +796,8 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Zap Meta](https://www.zapmeta.com/)
 - [Carrot Search](https://search.carrot2.org/#/search/web)
 - [Goo Search](https://www.goo.ne.jp/)
+- [swisscows](https://swisscows.com/en)
+- [odp](http://www.odp.org/homepage.php)
 
 # Internet Archive
 
@@ -861,6 +866,7 @@ This domain will always change
 - [Darkfeed](https://darkfeed.io/)
 - [Torch](xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega?P=)
 - [Onionsearch](https://github.com/megadose/OnionSearch)
+- [Darkweeb w Google](https://www.google.com/#q=%22enter+search+term%22+site:onion.to)
 
 # Tracking Website Changes
 
@@ -884,6 +890,8 @@ This domain will always change
 - [Apolo](https://www.apollo.io/)
 - [Lusha](https://www.lusha.com/)
 - [Jobstreet](https://www.jobstreet.com.ph/)
+- [BOTW](https://botw.org/)
+- [opencorporates](https://opencorporates.com/)
 
 # People Searching
 
@@ -1053,6 +1061,7 @@ or you can use dork for spesific example
 - [Hastag Analzer](https://www.hashatit.com/)
 - [Export comment](https://exportcomments.com/)
 - [Facebook endpoint](https://plessas.net/facebookmatrix)
+- [Facebook Graph](https://graph.tips/facebook.html) 
 
 # Instagram
 
@@ -1088,6 +1097,13 @@ or you can use dork for spesific example
 - [Reddit Search](https://redditcommentsearch.com/)
 - [Vizit](https://redditstuff.github.io/sna/vizit/)
 - [Sub reddit](https://subreddits.org/)
+
+# Youtube 
+
+- [citizenevidence](https://citizenevidence.amnestyusa.org/)
+- [watchframebyframe](http://www.watchframebyframe.com/)
+- [YT Mtedata](https://mattw.io/youtube-metadata/)
+- [TY Geo Find](https://mattw.io/youtube-geofind/)
 
 # Twitter
 
@@ -1149,6 +1165,7 @@ or you can use dork for spesific example
 - [Twitter Archive](https://github.com/humandecoded/twayback)
 - [History Twitter](https://memory.lol/app/)
 - [Wayback Twitter](https://waybacktweets.streamlit.app/)
+- [Twitter BOT](https://botometer.osome.iu.edu/)
 
 # Github 
 
@@ -1454,6 +1471,7 @@ Search channel, username anymore
 - [AWS-Recon](https://aws.amazon.com/rekognition/)
 - [Azure vidio indexer](https://vi.microsoft.com/en-us)
 - [Webcams](https://github.com/pbkompasz/webcams)
+- [Mever](https://mever.iti.gr/forensics/)
 
 # Image Analysis
 
@@ -1485,6 +1503,7 @@ Search channel, username anymore
 - [imago-forensics](https://github.com/redaelli/imago-forensics)
 - [Face recon](https://github.com/ageitgey/face_recognition)
 - [Cleanup pictures](https://cleanup.pictures/)
+- [Mever](https://mever.iti.gr/forensics/)
 
 # Stock Images
 
@@ -1633,6 +1652,17 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Wayback Geospatial](https://livingatlas.arcgis.com/wayback)
 - [Twitter Geo](http://geosocialfootprint.com/)
 - [Insta Geo](https://github.com/bellingcat/instagram-location-search)
+- [NASA EARTH](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/firms)
+- [EARTH DATA NASA](https://wvs.earthdata.nasa.gov/)
+- [peakvisor](https://peakvisor.com/)
+- [peakfinder](https://www.peakfinder.com/) 
+
+# Nearby Map From Geospatial
+
+- [foursquare](https://location.foursquare.com/)
+- [tripadvisor](https://www.tripadvisor.com/)
+- [booking](booking.com)
+- [agoda](agoda.com)
 
 # Fact Checking
 
@@ -1649,6 +1679,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [Verification Handbook](http://verificationhandbook.com)
 - [Verification Junkie](http://verificationjunkie.com)
 - [Verily](https://veri.ly)
+- [Google Fact](https://toolbox.google.com/factcheck/explorer)
 
 # Server Information Gathering
 
@@ -1909,6 +1940,7 @@ Social Network and blogging
 - [Darkfeed](https://darkfeed.io/)
 - [Flare](https://flare.io/)
 - [pryingdeep](https://github.com/iudicium/pryingdeep)
+- [Maltego](https://www.maltego.com/)
 
 # Digital Forensics
 
@@ -1937,6 +1969,9 @@ Social Network and blogging
 - [Processhacker](https://processhacker.sourceforge.io/)
 - [Koodous](https://koodous.com/)
 - [Nirsoft Bwowsing History](https://www.nirsoft.net/utils/browsing_history_view.html)
+- [dfrlab.org](https://dfrlab.org/research/)
+- [atlanticcouncil](https://www.atlanticcouncil.org/)
+- [Mever](https://mever.iti.gr/forensics/)
 
 # Write Your Investigation
 
@@ -2020,11 +2055,15 @@ Password Manager
 - [flightaware](https://www.flightaware.com/live/)
 - [radarbox](https://www.radarbox.com/)
 - [adsbexchange](https://globe.adsbexchange.com/)
+- [Planefinder](https://planefinder.net/)
+- [Live ATC](https://www.liveatc.net/)
 
 # Ship Tracking
 
 - [shiptracker](https://shiptracker.live/)
 - [marinetraffic](https://www.marinetraffic.com/)
+- [vesselfinder](https://www.vesselfinder.com/)
+- [gisis](https://gisis.imo.org/Public/Default.aspx)
 
 # GPT OSINT 
 
@@ -2062,8 +2101,33 @@ Detect a fake network and VPN
 - [IP VPN detector](https://ip.teoh.io/vpn-detection)
 - [IPQS](https://www.ipqualityscore.com/vpn-ip-address-check)
 
-# OSINT MILITARY
+# OSINT Military
 
 - [militaryfactory](https://www.militaryfactory.com/)
 - [Military and other uniform badges](https://www.uniforminsignia.net/)
 - [SMALL ARMS SURVEY](https://www.smallarmssurvey.org/resource/introductory-guide-identification-small-arms-light-weapons-and-associated-ammunition)
+- [dfrlab.org](https://dfrlab.org/research/)
+- [atlanticcouncil](https://www.atlanticcouncil.org/)
+- [NASA EARTH](https://www.earthdata.nasa.gov/learn/find-data/near-real-time/firms)
+- [EARTH DATA NASA](https://wvs.earthdata.nasa.gov/)
+- [peakvisor](https://peakvisor.com/)
+- [peakfinder](https://www.peakfinder.com/) 
+
+# Academic Search Tools
+
+- [Base Search](https://www.base-search.net/)
+- [SCI HUB](https://www.sci-hub.se/)
+- [msearch](https://msearch.io/)
+- [Google scholar](https://scholar.google.com/)
+
+# Web Directory 
+
+- [Vlib](https://vlib.org/)
+- [Dmoz](https://web.archive.org/web/20240000000000*/http:/www.dmoz.org/)
+
+# Vehicle OSINT
+
+- [licenseplatemania](https://licenseplatemania.com/)
+- [platesmania](https://platesmania.com/uk/search?&lang=en)
+- [findbyplate](https://findbyplate.com/)
+- [google image](https://www.google.com/imghp?hl=en)
