@@ -133,6 +133,7 @@ Be carefull using this tool
 - [Academic Torrent](https://academictorrents.com/)
 - [Torrent API](https://github.com/Ryuk-me/Torrent-Api-py) 
 - [API OSINT TORRENT](https://rapidapi.com/theoneappkh/api/torrent-search/) 
+- [Microsoft Building Fingerprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
 
 # Forums & Sites
 
@@ -1664,6 +1665,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Latlong Calc](https://www.latlong.net/)
 - [Gps Visualizer](https://www.gpsvisualizer.com/calculators)
 - [Iq Air](https://www.iqair.com/id/)
+- [peakvisor](https://peakvisor.com/)
 
 # Nearby Map From Geospatial
 
@@ -2120,6 +2122,7 @@ Detect a fake network and VPN
 - [EARTH DATA NASA](https://wvs.earthdata.nasa.gov/)
 - [peakvisor](https://peakvisor.com/)
 - [peakfinder](https://www.peakfinder.com/) 
+- [Geoconfirmed](https://geoconfirmed.org/)
 
 # Academic Search Tools
 

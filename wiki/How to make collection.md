@@ -6,7 +6,7 @@ Search for information from open information sources. Utilizing information sour
 
 - Active Collection
 
-Use of various techniques to search for certain insights or information such as scanning, penetration testing, social engineering and post-exploit. This can be useful for carrying out further, valid and detailed espionage or collecting your data from the source you have hacked
+Use of various techniques to search for certain insights or information such as scanning, penetration testing, social engineering, human intercation and post-exploit. This can be useful for carrying out further, valid and detailed espionage or collecting your data from the source you have hacked
 
 - Aditional Information 
 
