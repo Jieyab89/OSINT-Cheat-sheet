@@ -256,6 +256,7 @@ Be carefull using this tool
 - [Similar Web](https://www.similarweb.com/)
 - [spyonweb](https://spyonweb.com/)
 - [analyzeid](https://analyzeid.com/)
+- [Zeus-Scanner](https://github.com/Ekultek/Zeus-Scanner)
 
 # Analysing URLs
 
@@ -849,6 +850,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Pastos](https://github.com/carlospolop/Pastos)
 - [Blackkite](https://blackkite.com/community/)
 - [Facebook Data Breach Cheker](https://haveibeenzuckered.com/)
+- [pwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot)
 
 # Crack Jurnals
 
@@ -1324,6 +1326,8 @@ Google queries for MySpace
 - [Buster](https://github.com/sham00n/buster)
 - [Gravatar Email Cheker](https://gravatar.com/site/check/)
 - [EmailRep](https://emailrep.io/)
+- [pwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot)
+
 
 # IoT – Internet of Things
 
@@ -2175,6 +2179,8 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Metabigor](https://github.com/j3ssie/metabigor?tab=readme-ov-file)  Intelligence tool, its goal is to do OSINT tasks and more but without any API key
 - [OSINT BBOT](https://github.com/blacklanternsecurity/bbot) A recursive internet scanner for hackers.
 - [Spiderfoot](https://github.com/smicallef/spiderfoot)
+- [Zeus-Scanner](https://github.com/Ekultek/Zeus-Scanner)
+
 
 # Audio OSINT 
 
