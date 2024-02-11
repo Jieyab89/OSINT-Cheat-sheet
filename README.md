@@ -883,6 +883,7 @@ This domain will always change
 - [Torch](xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega?P=)
 - [Onionsearch](https://github.com/megadose/OnionSearch)
 - [Darkweeb w Google](https://www.google.com/#q=%22enter+search+term%22+site:onion.to)
+- [Darknet Book](https://github.com/darknet-book/tor-guide)
 
 # Tracking Website Changes
 
@@ -1194,6 +1195,7 @@ or you can use dork for spesific example
 - [Wayback Twitter](https://waybacktweets.streamlit.app/)
 - [Twitter BOT](https://botometer.osome.iu.edu/)
 - [Treverse](https://github.com/paulgb/Treeverse/blob/master/README.md?utm_content=buffer33d48&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer#readme)
+- [Tweetbinder](https://www.tweetbinder.com/)
 
 # Github 
 
@@ -2015,6 +2017,7 @@ Social Network and blogging
 - [Flare](https://flare.io/)
 - [pryingdeep](https://github.com/iudicium/pryingdeep)
 - [Maltego](https://www.maltego.com/)
+- [Darknet Book](https://github.com/darknet-book/tor-guide)
 
 # Digital Forensics
 
