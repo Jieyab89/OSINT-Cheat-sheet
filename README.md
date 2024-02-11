@@ -1319,7 +1319,6 @@ Google queries for MySpace
 - [Freepeoplesearch](https://freepeoplesearch.com/)
 - [Headmail](https://github.com/umair9747/headmail)
 - [Poastal](https://github.com/jakecreps/poastal)
-- [Epios](https://epieos.com/)
 - [anymailfinder](https://anymailfinder.com/)
 - [getprospect](https://getprospect.com/)
 - [Email Hippo](https://tools.emailhippo.com/)
