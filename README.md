@@ -1728,6 +1728,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Sentinel Hub](https://www.sentinel-hub.com/)
 - [Skylens](https://app.skylens.io/)
 - [Geocreepy](https://www.geocreepy.com/)
+- [garmin](https://www.garmin.co.id/products/outdoor/gpsmap64s-sea/)
 
 # Nearby Map From Geospatial
 
@@ -1894,6 +1895,7 @@ Desktop NET debugger and assembly editor
 - [Thatsthem](https://thatsthem.com/)
 - [Freepeoplesearch](https://freepeoplesearch.com/)
 - [IMSI imei info](https://www.imei.info/imsi/)
+- [cellebrite](https://cellebrite.com/en/ufed/)
 
 # IMEI Investigation
 
@@ -2054,6 +2056,7 @@ Social Network and blogging
 - [dfrlab.org](https://dfrlab.org/research/)
 - [atlanticcouncil](https://www.atlanticcouncil.org/)
 - [Mever](https://mever.iti.gr/forensics/)
+- [cellebrite](https://cellebrite.com/en/ufed/)
 
 # Write Your Investigation
 
@@ -2190,6 +2193,20 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 # Audio OSINT 
 
 - [Audio metadata](https://github.com/tmont/audio-metadata)
+- [Google Translate by speech](https://support.google.com/translate/answer/6142468?hl=en&co=GENIE.Platform%3DDesktop)
+- [Microsoft Translator](https://play.google.com/store/apps/details?id=com.microsoft.translator&hl=en&gl=US)
+- [Yandex Translate](https://play.google.com/store/apps/details?id=ru.yandex.translate&hl=en&gl=US)
+- [Apple Translate by speech](https://apps.apple.com/us/app/translate/id1514844618)
+- [translatedlabs](https://translatedlabs.com/spoken-language-identifier)
+- [Adobe Audition](https://www.adobe.com/id_en/products/audition.html)
+- [Sound classification with YAMNet](https://www.tensorflow.org/hub/tutorials/yamnet)
+- [Praat](https://www.fon.hum.uva.nl/praat/)
+- [phonexia](https://www.phonexia.com/use-case/audio-forensics-software/)
+
+Audio enchange quality  
+
+- [boom](https://www.globaldelight.com/boom/)
+- [fxsound](https://www.fxsound.com/)
 
 # OSINT Network 
 
@@ -2223,6 +2240,7 @@ Detect a fake network and VPN
 - [Earthcam](https://www.earthcam.com/#google_vignette)
 - [onemilliontweetmap](https://onemilliontweetmap.com/)
 - [birdhunt](https://birdhunt.co/)
+- [garmin](https://www.garmin.co.id/products/outdoor/gpsmap64s-sea/)
 
 # Academic Search Tools
 
@@ -2267,3 +2285,9 @@ Resources and collection for your make tool OSINT
 - [Maltego](https://www.maltego.com/)
 - [Mgrs Mapper](https://mgrs-mapper.com/app)
 - [Neo4j](https://neo4j.com/)
+
+# Emoji Investigation
+
+- [dutchosintguy](https://www.dutchosintguy.com/post/cryptography-osint-can-you-read-emoji)
+- [Emoji Wiki](https://emojis.wiki/)
+- [Emoji Guide](https://emojiguide.com/)
