@@ -1718,13 +1718,11 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Latlong Calc](https://www.latlong.net/)
 - [Gps Visualizer](https://www.gpsvisualizer.com/calculators)
 - [Iq Air](https://www.iqair.com/id/)
-- [peakvisor](https://peakvisor.com/)
 - [NASA Earth Data](https://search.earthdata.nasa.gov/search)
 - [NASA World View](https://worldview.earthdata.nasa.gov/)
 - [Earth Exploer](https://earthexplorer.usgs.gov/)
 - [Sky Watch Earth Cache](https://skywatch.com/earthcache/)
 - [Sentinel Hub](https://www.sentinel-hub.com/)
-- [Suncalc](https://www.suncalc.org/)
 
 # Nearby Map From Geospatial
 
