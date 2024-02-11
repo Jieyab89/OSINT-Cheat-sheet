@@ -205,7 +205,6 @@ Be carefull using this tool
 - [SNSCRAPE - Scraper](https://github.com/JustAnotherArchivist/snscrape)
 - [OSINT compass](https://osint-compass-portal.onrender.com/)
 - [Phantom Buster](https://phantombuster.com/phantombuster)
-- [Sns Scrape](https://github.com/JustAnotherArchivist/snscrape)
 - [Open measure](https://public.openmeasures.io/)
 
 # Social Media Management and Content Discovery
@@ -353,6 +352,13 @@ Be carefull using this tool
 - [Shodan](https://www.shodan.io)
 - [Shodan Filters](https://github.com/T43cr0wl3r/shodan-filters)
 - [Shodan Scripts](https://github.com/random-robbie/My-Shodan-Scripts)
+- [Kamerka](https://github.com/woj-ciech/Kamerka-GUI)
+- [airportwebcams](https://airportwebcams.net/)
+- [Earthcam](https://www.earthcam.com/#google_vignette)
+- [tvway](http://tvway.ru/)
+- [Cameraftp](https://www.cameraftp.com/cameraftp/publish/publishedcameras.aspx)
+- [Insecam](http://Insecam.org)
+- [Webcams](https://github.com/pbkompasz/webcams)
 
 # IP Addresses
 
@@ -1198,6 +1204,8 @@ or you can use dork for spesific example
 - [Twitter BOT](https://botometer.osome.iu.edu/)
 - [Treverse](https://github.com/paulgb/Treeverse/blob/master/README.md?utm_content=buffer33d48&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer#readme)
 - [Tweetbinder](https://www.tweetbinder.com/)
+- [onemilliontweetmap](https://onemilliontweetmap.com/)
+- [birdhunt](https://birdhunt.co/)
 
 # Github 
 
@@ -1268,6 +1276,7 @@ Google queries for MySpace
 # Parler 
 
 - [Parler Vidio Map](https://kylemcdonald.net/parler/map/)
+- [Open Measures](https://public.openmeasures.io/)
 
 # Monitoring & Alerting
 
@@ -1326,15 +1335,6 @@ Google queries for MySpace
 - [Gravatar Email Cheker](https://gravatar.com/site/check/)
 - [EmailRep](https://emailrep.io/)
 - [pwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot)
-
-
-# IoT – Internet of Things
-
-- [Cameraftp](https://www.cameraftp.com/cameraftp/publish/publishedcameras.aspx)
-- [Earthcam](https://www.earthcam.com/)
-- [Insecam](http://Insecam.org)
-- [Shodan](https://Shodan.io)
-- [Webcams](https://github.com/pbkompasz/webcams)
 
 # Shodan Query Options
 
@@ -1443,6 +1443,8 @@ Search channel, username anymore
 - [IntelX Telegram](https://intelx.io/tools?tab=telegram)
 - [Tele Geo Int](https://github.com/Alb-310/Geogramint)
 - [Tele Phone Number Checker - Bellingcat](https://github.com/bellingcat/telegram-phone-number-checker)
+- [Telegram Geogramint](https://github.com/Alb-310/Geogramint)
+- [Telegram-Trilateration](https://github.com/jkctech/Telegram-Trilateration)
 
 # Document and Slides Search
 
@@ -1615,6 +1617,11 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Azure vidio indexer](https://vi.microsoft.com/en-us)
 - [Bilibili scraper](https://github.com/yixiangyin/bilibili-scraper)
 - [Webcams](https://github.com/pbkompasz/webcams)
+- [Kamerka](https://github.com/woj-ciech/Kamerka-GUI)
+- [airportwebcams](https://airportwebcams.net/)
+- [airportwebcams](https://airportwebcams.net/)
+- [Earthcam](https://www.earthcam.com/#google_vignette)
+- [tvway](http://tvway.ru/)
 
 # Geospatial Research and Mapping Tools
 
@@ -1719,6 +1726,8 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Earth Exploer](https://earthexplorer.usgs.gov/)
 - [Sky Watch Earth Cache](https://skywatch.com/earthcache/)
 - [Sentinel Hub](https://www.sentinel-hub.com/)
+- [Skylens](https://app.skylens.io/)
+- [Geocreepy](https://www.geocreepy.com/)
 
 # Nearby Map From Geospatial
 
@@ -1919,6 +1928,8 @@ Telegram
 - [Tele Channel Overiview](https://telemetr.io/)
 - [Telegramtrac](https://github.com/claromes/telegramtrac)
 - [TGDev](https://tgdev.io/)
+- [Telegram Geogramint](https://github.com/Alb-310/Geogramint)
+- [Telegram-Trilateration](https://github.com/jkctech/Telegram-Trilateration)
 
 # Build Sockpuppet Accounts
 
@@ -2204,6 +2215,14 @@ Detect a fake network and VPN
 - [Air Wars](https://airwars.org/)
 - [Copernicus](https://atmosphere.copernicus.eu/charts/packages/cams/?facets=%7B%22Family%22%3A%5B%22Fires%22%5D%7D)
 - [Ej Atlas](https://ejatlas.org/)
+- [Intro OSINT Military](https://www.linkedin.com/pulse/mastering-military-osint-comprehensive-guide-modern-niels-groeneveld)
+- [Telegram Geogramint](https://github.com/Alb-310/Geogramint)
+- [Skylens](https://app.skylens.io/)
+- [Geocreepy](https://www.geocreepy.com/)
+- [Kamerka](https://github.com/woj-ciech/Kamerka-GUI)
+- [Earthcam](https://www.earthcam.com/#google_vignette)
+- [onemilliontweetmap](https://onemilliontweetmap.com/)
+- [birdhunt](https://birdhunt.co/)
 
 # Academic Search Tools
 
