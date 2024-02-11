@@ -37,3 +37,4 @@
 - [Cell Tower Triangulation – How it Works](https://wrongfulconvictionsblog.org/2012/06/01/cell-tower-triangulation-how-it-works/)
 - [OSINT Blog](https://ohshint.gitbook.io/oh-shint-its-a-blog/)
 - [Belingcat Investigation](https://www.bellingcat.com/)
+- [dutchosintguy](https://www.dutchosintguy.com/)
