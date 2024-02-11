@@ -29,10 +29,22 @@ I have limited resources. Please before sending a message, here are the rules
 
 6. I protect your privacy regarding email, message content, media attachments and other things, I will not duplicate your messages, your files on any archive site, I will delete them periodically when the conversation is finished. I only keep your public key
 
+7. For media or news portal. Please use your company email and add the subject
+
+```
+> "Your corp - Media <Your title or subject>"
+```
+
+I do not collaborate with any media or any government, it needs to be emphasized that I am not a criminal or anything else, just sharing information about OSINT and what is happening in the cyber world.
+
+Thank you for supporting 
+
+## Aditional Info 
+
 Download gpg
 
 - [Here](https://www.gnupg.org/)
 - [Here](https://apps.kde.org/kleopatra/)
 - [More software](https://www.openpgp.org/software/)
 
-Thanks
+Please use pgp or gpg for messaging 
