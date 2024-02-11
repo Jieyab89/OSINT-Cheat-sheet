@@ -134,6 +134,9 @@ Be carefull using this tool
 - [Torrent API](https://github.com/Ryuk-me/Torrent-Api-py) 
 - [API OSINT TORRENT](https://rapidapi.com/theoneappkh/api/torrent-search/) 
 - [Microsoft Building Fingerprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
+- [MAXAR Satellite imagery](https://www.maxar.com/open-data)
+- [Satellite Collection](https://www.nesdis.noaa.gov/real-time-imagery/imagery-collections)
+- [Open measure](https://public.openmeasures.io/)
 
 # Forums & Sites
 
@@ -201,6 +204,9 @@ Be carefull using this tool
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
 - [SNSCRAPE - Scraper](https://github.com/JustAnotherArchivist/snscrape)
 - [OSINT compass](https://osint-compass-portal.onrender.com/)
+- [Phantom Buster](https://phantombuster.com/phantombuster)
+- [Sns Scrape](https://github.com/JustAnotherArchivist/snscrape)
+- [Open measure](https://public.openmeasures.io/)
 
 # Social Media Management and Content Discovery
 
@@ -210,6 +216,7 @@ Be carefull using this tool
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
 - [Gpt OSINT](https://github.com/gigz/gpt-osint)
 - [SNSCRAPE - Scraper](https://github.com/JustAnotherArchivist/snscrape)
+- [Phantom Buster](https://phantombuster.com/phantombuster)
 
 # Web Intelligence
 
@@ -806,6 +813,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 
 # Internet Archive
 
+- [DMCA](https://lumendatabase.org/)
 - [Wayback Machine](https://web.archive.org/)
 - [Intelligence X](https://intelx.io/)
 - [Openlibrary](https://openlibrary.org/)
@@ -818,6 +826,8 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [ArchivEye](https://github.com/eastrd/ArchivEye)
 - [Twitter Archive](https://github.com/humandecoded/twayback)
 - [Archive Today](https://archive.is/)
+- [Wayback Downloader](https://github.com/hartator/wayback-machine-downloader)
+- [How to archive tele content](https://www.bellingcat.com/resources/how-tos/2022/03/08/how-to-archive-telegram-content-to-document-russias-invasion-of-ukraine/)
 
 # Data Breached OSINT
 
@@ -838,6 +848,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Leaklookup](https://leak-lookup.com/)
 - [Pastos](https://github.com/carlospolop/Pastos)
 - [Blackkite](https://blackkite.com/community/)
+- [Facebook Data Breach Cheker](https://haveibeenzuckered.com/)
 
 # Crack Jurnals
 
@@ -897,6 +908,8 @@ This domain will always change
 - [Jobstreet](https://www.jobstreet.com.ph/)
 - [BOTW](https://botw.org/)
 - [opencorporates](https://opencorporates.com/)
+- [Data OCCRP](https://data.occrp.org/)
+- [OSINT Maps](https://cybdetective.com/osintmap/)
 
 # People Searching
 
@@ -987,6 +1000,7 @@ This domain will always change
 - [ZoomInfo](https://www.zoominfo.com/)
 - [Alfred](https://github.com/Alfredredbird/alfred)
 - [Blackbird](https://github.com/p1ngul1n0/blackbird)
+- [Bellingcat Username](https://bellingcat.github.io/name-variant-search/#gsc.tab=0)
 
 # Social Networks
 
@@ -1016,6 +1030,7 @@ This domain will always change
 # Facebook Query Language (FQL)
 
 - [Findmyfbid](http://www.findmyfbid.com/)
+- [Lists FB Query Endpoint](https://gist.github.com/nemec/2ba8afa589032f20e2d6509512381114)
 
 > Photos By - https://www.facebook.com/search/taget_id/photos-by
 >  
@@ -1067,6 +1082,11 @@ or you can use dork for spesific example
 - [Export comment](https://exportcomments.com/)
 - [Facebook endpoint](https://plessas.net/facebookmatrix)
 - [Facebook Graph](https://graph.tips/facebook.html) 
+- [Facebook live](https://www.facebook.com/watch/live/?ref=live_delegate)
+- [Facebook vid downloader](https://fdown.net/)
+- [Fb Sleep Stats](https://github.com/sorenlouv/fb-sleep-stats)
+- [Skopenow FB Hunter](https://www.skopenow.com/)
+- [Facebook Data Breach Cheker](https://haveibeenzuckered.com/)
 
 # Instagram
 
@@ -1102,6 +1122,8 @@ or you can use dork for spesific example
 - [Reddit Search](https://redditcommentsearch.com/)
 - [Vizit](https://redditstuff.github.io/sna/vizit/)
 - [Sub reddit](https://subreddits.org/)
+- [RedActive](https://www.redective.com/)
+- [f5bot](https://f5bot.com/)
 
 # Youtube 
 
@@ -1171,12 +1193,14 @@ or you can use dork for spesific example
 - [History Twitter](https://memory.lol/app/)
 - [Wayback Twitter](https://waybacktweets.streamlit.app/)
 - [Twitter BOT](https://botometer.osome.iu.edu/)
+- [Treverse](https://github.com/paulgb/Treeverse/blob/master/README.md?utm_content=buffer33d48&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer#readme)
 
 # Github 
 
 - [Github search name](https://caius.github.io/github_id/)
 - [Github Archive](https://www.gharchive.org/)
 - [Github Dork](https://github.com/techgaun/github-dorks)
+- [Fdupes](https://github.com/adrianlopezroche/fdupes)
 
 # Snapchat 
 
@@ -1208,6 +1232,7 @@ Google queries for LinkedIn
 - [Phantom Buster](https://phantombuster.com/phantombuster)
 - [reversecontact](https://www.reversecontact.com/)
 - [Linkedin Search OSINT](https://cse.google.com/cse?cx=daaf18e804f81bed0)
+- [Linkedin Overlay Remover](https://addons.mozilla.org/nl/firefox/addon/linkedin-overlay-remover/)
 
 # MySpace
 
@@ -1232,7 +1257,13 @@ Google queries for MySpace
 
 - [tiktok-hashtag-analysis](https://github.com/bellingcat/tiktok-hashtag-analysis)
 - [tiktok-downloader](https://github.com/Gimenz/tiktok-downloader)
+- [tiktok API](https://pypi.org/project/TikTokApi/)
+- [tiktok hastag analysis](https://github.com/bellingcat/tiktok-hashtag-analysis)
+- [tiktok date extract](https://bellingcat.github.io/tiktok-timestamp/)
 
+# Parler 
+
+- [Parler Vidio Map](https://kylemcdonald.net/parler/map/)
 
 # Social Network Search Engines
 
@@ -1255,6 +1286,7 @@ Google queries for MySpace
 - [pic2map](https://www.pic2map.com/)
 - [labs.tib.eu](https://labs.tib.eu/geoestimation/)
 - [imago-forensics](https://github.com/redaelli/imago-forensics)
+- [Renrot Exif](https://github.com/andy-shev/RenRot)
 
 # Documents
 
@@ -1265,6 +1297,7 @@ Google queries for MySpace
 - [Pdf analyzer](http://pdf-analyser.edpsciences.org/)
 - [Tools pdf24](https://tools.pdf24.org/en/extract-images)
 - [ArchivEye](https://github.com/eastrd/ArchivEye)
+- [Fdupes](https://github.com/adrianlopezroche/fdupes)
 
 # Email Tracking
 
@@ -1291,6 +1324,8 @@ Google queries for MySpace
 - [getprospect](https://getprospect.com/)
 - [Email Hippo](https://tools.emailhippo.com/)
 - [Buster](https://github.com/sham00n/buster)
+- [Gravatar Email Cheker](https://gravatar.com/site/check/)
+- [EmailRep](https://emailrep.io/)
 
 # IoT – Internet of Things
 
@@ -1406,6 +1441,10 @@ Search channel, username anymore
 - [Telepathy](https://github.com/proseltd/Telepathy)
 - [Telemetr](https://telemetr.io/)
 - [Telegramtrac](https://github.com/claromes/telegramtrac)
+- [TGDev](https://tgdev.io/)
+- [IntelX Telegram](https://intelx.io/tools?tab=telegram)
+- [Tele Geo Int](https://github.com/Alb-310/Geogramint)
+- [Tele Phone Number Checker - Bellingcat](https://github.com/bellingcat/telegram-phone-number-checker)
 
 # Document and Slides Search
 
@@ -1477,6 +1516,12 @@ Search channel, username anymore
 - [Azure vidio indexer](https://vi.microsoft.com/en-us)
 - [Webcams](https://github.com/pbkompasz/webcams)
 - [Mever](https://mever.iti.gr/forensics/)
+- [InVID Verification](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)
+- [Google Lens](https://lens.google.com/)
+- [Robots Verify](https://www.robots.ox.ac.uk/~vgg/software/vff/)
+- [Amazon Face Recon](https://aws.amazon.com/getting-started/hands-on/detect-analyze-compare-faces-rekognition/)
+- [VGG Image Search Engine (VISE)](https://robots.ox.ac.uk/~vgg/software/vise/)
+- [Fake face detector](https://seintpl.github.io/AmIReal/)
 
 # Image Analysis
 
@@ -1509,6 +1554,12 @@ Search channel, username anymore
 - [Face recon](https://github.com/ageitgey/face_recognition)
 - [Cleanup pictures](https://cleanup.pictures/)
 - [Mever](https://mever.iti.gr/forensics/)
+- [InVID Verification](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)
+- [Google Lens](https://lens.google.com/)
+- [Exif Purge](https://www.exifpurge.com/)
+- [VGG Image Classification](https://www.robots.ox.ac.uk/~vgg/software/vic/)
+- [VGG Image Search Engine (VISE)](https://robots.ox.ac.uk/~vgg/software/vise/)
+- [Fake face detector](https://seintpl.github.io/AmIReal/)
 
 # Stock Images
 
@@ -1666,6 +1717,12 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Gps Visualizer](https://www.gpsvisualizer.com/calculators)
 - [Iq Air](https://www.iqair.com/id/)
 - [peakvisor](https://peakvisor.com/)
+- [NASA Earth Data](https://search.earthdata.nasa.gov/search)
+- [NASA World View](https://worldview.earthdata.nasa.gov/)
+- [Earth Exploer](https://earthexplorer.usgs.gov/)
+- [Sky Watch Earth Cache](https://skywatch.com/earthcache/)
+- [Sentinel Hub](https://www.sentinel-hub.com/)
+- [Suncalc](https://www.suncalc.org/)
 
 # Nearby Map From Geospatial
 
@@ -1690,6 +1747,8 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [Verification Junkie](http://verificationjunkie.com)
 - [Verily](https://veri.ly)
 - [Google Fact](https://toolbox.google.com/factcheck/explorer)
+- [Open Measures](https://openmeasures.io/)
+- [Hoaxy](https://hoaxy.osome.iu.edu/)
 
 # Server Information Gathering
 
@@ -1797,6 +1856,7 @@ Desktop NET debugger and assembly editor
 - [Bitcoin Abuse](https://www.bitcoinabuse.com/)
 - [Blockchain-Info](https://www.maltego.com/transform-hub/blockchain-info/)
 - [GraphSense](https://github.com/INTERPOL-Innovation-Centre/GraphSense-Maltego-transform)
+- [Blockhain Explorer](https://www.blockexplorer.com/l/en-US/)
 
 # Cell Investigation
 
@@ -1848,6 +1908,7 @@ WhatsApp
 - [WhatsApp Group Links](https://whatsgrouplink.com/)
 - [Download WhatsApp Profile Picture](https://watools.io/download-profile-picture)
 - [WhatsApp Group Links 2](https://whatsappgroup.info/)
+- [Wa tools](https://watools.io/)
 
 Telegram
 
@@ -1861,6 +1922,7 @@ Telegram
 - [Discover The Best Telegram Channels](https://telegramchannels.me/)
 - [Tele Channel Overiview](https://telemetr.io/)
 - [Telegramtrac](https://github.com/claromes/telegramtrac)
+- [TGDev](https://tgdev.io/)
 
 # Build Sockpuppet Accounts
 
@@ -1915,6 +1977,7 @@ Social Network and blogging
 - [Realesrgan](https://replicate.com/xinntao/realesrgan)  
 - [HitPaw](https://online.hitpaw.com/online-photo-enhancer.html?linksource=header)
 - [Cleanup Pictures](https://cleanup.pictures/)
+- [Gfpgan](https://replicate.com/tencentarc/gfpgan)
 
 # Locations Data Mapping
 
@@ -1937,6 +2000,7 @@ Social Network and blogging
 - [Discover servers](https://disboard.org/)
 - [Discord history tracker](https://www.dht.chylex.com/)  
 - [Darvester](https://github.com/darvester/darvester)
+- [Discord Leaks](https://discordleaks.unicornriot.ninja/discord/server/)
 
 # Darkweb Intelligence
 
@@ -2006,11 +2070,20 @@ Social Network and blogging
 - [Temp Mail 3](https://tempmailo.com/)
 - [Phone Burner](https://www.phoneburner.com/)
 - [Hushed](https://hushed.com/)
+- [Privacy Badger](https://privacybadger.org/)
+- [Blur IMG Extension](https://chromewebstore.google.com/detail/blur-the-image-and-video/aikjogmpaoaookmacnkbenekcnkjlkmi?hl=en-US&authuser=0)
 
 Payment
 
 - [Bitcoin](https://bitcoin.org/id/)
 - [Monero](https://www.getmonero.org/)
+
+Password Manager
+
+- [Keepas](https://keepass.info/)
+- [Dashlane](https://www.dashlane.com/)
+- [Nordpass](https://nordpass.com/)
+- [Securing your email](https://cybernews.com/secure-email-providers/find-all-accounts-linked-to-email-address/)
 
 # Fraud Checker
 
@@ -2024,7 +2097,7 @@ Payment
 
 # Content Removal & Strict Media Content
 
-Strict, removing and minimize your data on the internet
+Search people missing and abuse, strict, removing, takedown and minimize your data on the internet
 
 - [Google image removal](https://support.google.com/websearch/answer/4628134)
 Remove your image from Google
@@ -2046,16 +2119,16 @@ Strict and disable bot crawl search engine index account
 - [ReportIWF Indonesia](https://report.iwf.org.uk/id) Proctect and remove sexualy, nudes on internet
 - [ReportIWF](https://www.iwf.org.uk/our-technology/report-remove/) Proctect and remove sexualy, nudes on internet
 
-*NB : Its taking to long, you need to patiently
+*NB : Please read carefully and check the ToS or privacy statment. Its taking to long, you need to patiently. For this point, your data is not guaranteed to be lost 100% on the internet, but this is to minimize the spread of your data and data breaches
 
-# Secure Your Data
+# Vehicle OSINT
 
-Password Manager
-
-- [Keepas](https://keepass.info/)
-- [Dashlane](https://www.dashlane.com/)
-- [Nordpass](https://nordpass.com/)
-- [Securing your email](https://cybernews.com/secure-email-providers/find-all-accounts-linked-to-email-address/)
+- [licenseplatemania](https://licenseplatemania.com/)
+- [platesmania](https://platesmania.com/uk/search?&lang=en)
+- [findbyplate](https://findbyplate.com/)
+- [google image](https://www.google.com/imghp?hl=en)
+- [Wiki Routes](https://wikiroutes.info/en/padang)
+- [Carnet](https://carnet.ai/)
 
 # Aircraft Tracking
 
@@ -2074,6 +2147,12 @@ Password Manager
 - [marinetraffic](https://www.marinetraffic.com/)
 - [vesselfinder](https://www.vesselfinder.com/)
 - [gisis](https://gisis.imo.org/Public/Default.aspx)
+- [WindWard](https://windward.ai/)
+
+# Railways
+
+- [Open Railways](https://wiki.openstreetmap.org/wiki/OpenRailwayMap)
+- [Train Tracker](https://mobility.portal.geops.io/world.geops.transit?lang=en&layers=strassennamen,haltekanten,haltestellen,pois,world.geops.traviclive&x=810000&y=5900000&z=5.5)
 
 # GPT OSINT 
 
@@ -2123,6 +2202,9 @@ Detect a fake network and VPN
 - [peakvisor](https://peakvisor.com/)
 - [peakfinder](https://www.peakfinder.com/) 
 - [Geoconfirmed](https://geoconfirmed.org/)
+- [Air Wars](https://airwars.org/)
+- [Copernicus](https://atmosphere.copernicus.eu/charts/packages/cams/?facets=%7B%22Family%22%3A%5B%22Fires%22%5D%7D)
+- [Ej Atlas](https://ejatlas.org/)
 
 # Academic Search Tools
 
@@ -2131,17 +2213,16 @@ Detect a fake network and VPN
 - [msearch](https://msearch.io/)
 - [Google scholar](https://scholar.google.com/)
 
+Academic Literature
+
+- [Academic Literature on Open Source Research & Methods](https://docs.google.com/document/d/1uqzGi9asZZlaEs8syHbh3AsizVccU-IKJp4zPufaaBk/edit#heading=h.s9zomzvdp109)
+- [OSINT ethics](https://stanleycenter.org/publications/osint-applied-ethics-workbook/)
+- [G Drive - Navigating digital media](https://drive.google.com/drive/folders/1eF9FE-2B-bVciTCbajMR_f1Q7fHZl0s5)
+
 # Web Directory 
 
 - [Vlib](https://vlib.org/)
 - [Dmoz](https://web.archive.org/web/20240000000000*/http:/www.dmoz.org/)
-
-# Vehicle OSINT
-
-- [licenseplatemania](https://licenseplatemania.com/)
-- [platesmania](https://platesmania.com/uk/search?&lang=en)
-- [findbyplate](https://findbyplate.com/)
-- [google image](https://www.google.com/imghp?hl=en)
 
 # Torrent
 
@@ -2162,3 +2243,9 @@ Detect a fake network and VPN
 Resources and collection for your make tool OSINT 
 
 - [API Resoruces OSINT - For Your Private Tool](https://github.com/cipher387/API-s-for-OSINT/blob/main/README.md) 
+
+# Data Visualization
+
+- [Maltego](https://www.maltego.com/)
+- [Mgrs Mapper](https://mgrs-mapper.com/app)
+- [Neo4j](https://neo4j.com/)
