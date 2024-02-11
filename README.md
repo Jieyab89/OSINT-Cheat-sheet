@@ -256,6 +256,7 @@ Be carefull using this tool
 - [Similar Web](https://www.similarweb.com/)
 - [spyonweb](https://spyonweb.com/)
 - [analyzeid](https://analyzeid.com/)
+- [Zeus-Scanner](https://github.com/Ekultek/Zeus-Scanner)
 
 # Analysing URLs
 
@@ -849,6 +850,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Pastos](https://github.com/carlospolop/Pastos)
 - [Blackkite](https://blackkite.com/community/)
 - [Facebook Data Breach Cheker](https://haveibeenzuckered.com/)
+- [pwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot)
 
 # Crack Jurnals
 
@@ -1267,10 +1269,6 @@ Google queries for MySpace
 
 - [Parler Vidio Map](https://kylemcdonald.net/parler/map/)
 
-# Social Network Search Engines
-
-- [socialmention](http://www.socialmention.com)
-
 # Monitoring & Alerting
 
 - [Pastebin Alerts](http://pastebin.com/u/alerts)
@@ -1321,13 +1319,14 @@ Google queries for MySpace
 - [Freepeoplesearch](https://freepeoplesearch.com/)
 - [Headmail](https://github.com/umair9747/headmail)
 - [Poastal](https://github.com/jakecreps/poastal)
-- [Epios](https://epieos.com/)
 - [anymailfinder](https://anymailfinder.com/)
 - [getprospect](https://getprospect.com/)
 - [Email Hippo](https://tools.emailhippo.com/)
 - [Buster](https://github.com/sham00n/buster)
 - [Gravatar Email Cheker](https://gravatar.com/site/check/)
 - [EmailRep](https://emailrep.io/)
+- [pwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot)
+
 
 # IoT – Internet of Things
 
@@ -1360,11 +1359,9 @@ Firefox plugin that will assist in downloading all media from a website
 - [Shrelock](https://github.com/sherlock-project/sherlock)
 - [Maltego](https://www.maltego.com/)
 - [OSINT Framework](https://osintframework.com/)
-- [Creepy](https://www.geocreepy.com/)
 - [Twint](https://forum.seccodeid.com/d/twint-twitter-intelligence-tool)
 - [Telegram OSINT](https://forum.seccodeid.com/d/telegram-nearby-map)
 - [Recon-Ng](https://github.com/lanmaster53/recon-ng)
-- [Metagoofil](https://www.kali.org/tools/metagoofil/)
 - [tinfoleak](https://github.com/vaguileradiaz/tinfoleak)
 - [maigret](https://github.com/soxoj/maigret)
 - [mosint](https://github.com/alpkeskin/mosint)
@@ -1372,8 +1369,7 @@ Firefox plugin that will assist in downloading all media from a website
 - [instaloctrack](https://github.com/bernsteining/instaloctrack)
 - [SpyScrap](https://github.com/RuthGnz/SpyScrap)
 - [osintteye](https://github.com/rlyonheart/osinteye)
-- [metagofil](https://github.com/kurobeats/metagoofil)
-- [recon-ng](https://github.com/lanmaster53/recon-ng)
+- [metagoofil](https://github.com/kurobeats/metagoofil)
 - [Harvester](https://github.com/laramies/theHarvester)
 - [Geo creepy](http://www.geocreepy.com/)
 - [trape](https://github.com/jofpin/trape)
@@ -1718,13 +1714,11 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Latlong Calc](https://www.latlong.net/)
 - [Gps Visualizer](https://www.gpsvisualizer.com/calculators)
 - [Iq Air](https://www.iqair.com/id/)
-- [peakvisor](https://peakvisor.com/)
 - [NASA Earth Data](https://search.earthdata.nasa.gov/search)
 - [NASA World View](https://worldview.earthdata.nasa.gov/)
 - [Earth Exploer](https://earthexplorer.usgs.gov/)
 - [Sky Watch Earth Cache](https://skywatch.com/earthcache/)
 - [Sentinel Hub](https://www.sentinel-hub.com/)
-- [Suncalc](https://www.suncalc.org/)
 
 # Nearby Map From Geospatial
 
@@ -2179,6 +2173,8 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Metabigor](https://github.com/j3ssie/metabigor?tab=readme-ov-file)  Intelligence tool, its goal is to do OSINT tasks and more but without any API key
 - [OSINT BBOT](https://github.com/blacklanternsecurity/bbot) A recursive internet scanner for hackers.
 - [Spiderfoot](https://github.com/smicallef/spiderfoot)
+- [Zeus-Scanner](https://github.com/Ekultek/Zeus-Scanner)
+
 
 # Audio OSINT 
 
