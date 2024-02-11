@@ -1267,10 +1267,6 @@ Google queries for MySpace
 
 - [Parler Vidio Map](https://kylemcdonald.net/parler/map/)
 
-# Social Network Search Engines
-
-- [socialmention](http://www.socialmention.com)
-
 # Monitoring & Alerting
 
 - [Pastebin Alerts](http://pastebin.com/u/alerts)
