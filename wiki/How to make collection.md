@@ -13,8 +13,14 @@ Use of various techniques to search for certain insights or information such as 
 Why ML, Big Data and AI need? For example for threat intelligence and data mapping 
 
 > Structuring data into ontologies and events
+> 
 > Classifying events and entities, helping human analysts prioritize alerts
+> 
 > Forecasting events and entity properties through predictive models
+> 
 > They were able to make more informed decisions faster
+> 
 > The information they accessed became more relevant and actionable
+> 
 > Their existing security solutions were improved
+> 
