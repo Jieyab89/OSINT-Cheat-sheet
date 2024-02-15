@@ -256,6 +256,8 @@ Be carefull using this tool
 - [spyonweb](https://spyonweb.com/)
 - [analyzeid](https://analyzeid.com/)
 - [Zeus-Scanner](https://github.com/Ekultek/Zeus-Scanner)
+- [CloudFail](https://github.com/m0rtem/CloudFail.git)
+- [Real IP Discover](https://github.com/elefr3n/real_ip_discover.git)
 
 # Analysing URLs
 
@@ -429,11 +431,13 @@ You can find the file hash or other threat indicator
 - [Mandiant](https://www.mandiant.com/advantage/threat-intelligence)
 - [IoC Editor](https://fireeye.market/apps/S7cWpi9W)
 - [CREST Threat Intel](https://www.crest-approved.org/wp-content/uploads/2022/04/CREST-Cyber-Threat-Intelligence.pdf?ref=secjuice.com)
+- [Intel471](https://intel471.com/)
 
 # Automation Dorking 
 
 - [Dorklab](https://github.com/rtwillett/DorkLab)
 - [Ominis-Osint](https://github.com/AnonCatalyst/Ominis-Osint)
+- [Go Dork](https://github.com/dwisiswant0/go-dork)
 
 # Dorking
 
@@ -857,6 +861,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Blackkite](https://blackkite.com/community/)
 - [Facebook Data Breach Cheker](https://haveibeenzuckered.com/)
 - [pwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot)
+- [Intel471](https://intel471.com/)
 
 # Crack Jurnals
 
@@ -939,6 +944,9 @@ This domain will always change
 - [getprospect](https://getprospect.com/)
 - [ZoomInfo](https://www.zoominfo.com/)
 - [Apolo](https://www.apollo.io/)
+- [Family Tree](https://www.familytreenow.com/)
+- [Radaris](https://radaris.com/)
+- [beenverified](https://www.beenverified.com/people/)
 
 # Phone Numbers
 
@@ -988,6 +996,7 @@ This domain will always change
 - [anymailfinder](https://anymailfinder.com/)
 - [getprospect](https://getprospect.com/)
 - [ZoomInfo](https://www.zoominfo.com/)
+- [Spam Calls](https://spamcalls.net/en/)
 
 # Public Records
 
@@ -2057,6 +2066,9 @@ Social Network and blogging
 - [atlanticcouncil](https://www.atlanticcouncil.org/)
 - [Mever](https://mever.iti.gr/forensics/)
 - [cellebrite](https://cellebrite.com/en/ufed/)
+- [MOBSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) 
+- [RMS - Mobile Pentest](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security) 
+- [APK Leaks](https://github.com/dwisiswant0/apkleaks)
 
 # Write Your Investigation
 
@@ -2105,6 +2117,7 @@ Password Manager
 - [Ipqualityscore](https://docs.maltego.com/support/solutions/articles/15000041408-maltego-ipqualityscore-transforms#overview-0-0)
 - [OpenCNAM](https://docs.maltego.com/support/solutions/articles/15000045282-maltego-opencnam-transforms)
 - [Fullcontact](https://www.fullcontact.com/)
+- [Spam Calls](https://spamcalls.net/en/)
 
 # Content Removal & Strict Media Content
 
@@ -2169,7 +2182,7 @@ Strict and disable bot crawl search engine index account
 
 - [Gpt osint](https://github.com/gigz/gpt-osint)
 
-# OSINT for Read Team 
+# OSINT for Red Team 
 
 - [Phishious](https://github.com/CanIPhish/Phishious) 
 Secure Email Gateway (SEG) for phishing email header (escape detection)
@@ -2186,9 +2199,15 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [OWASP Maryam](https://owasp.org/www-project-maryam/) open-source framework based on OSINT and data gathering
 - [Metabigor](https://github.com/j3ssie/metabigor?tab=readme-ov-file)  Intelligence tool, its goal is to do OSINT tasks and more but without any API key
 - [OSINT BBOT](https://github.com/blacklanternsecurity/bbot) A recursive internet scanner for hackers.
-- [Spiderfoot](https://github.com/smicallef/spiderfoot)
-- [Zeus-Scanner](https://github.com/Ekultek/Zeus-Scanner)
-
+- [Spiderfoot](https://github.com/smicallef/spiderfoot) A Scrapping web tool 
+- [Zeus-Scanner](https://github.com/Ekultek/Zeus-Scanner) A web scanner 
+- [Zenrows](https://www.zenrows.com/) Bypassing captcha and WAF 
+- [Scrapfly](https://scrapfly.io/) Bypassing captcha and WAF 
+- [Puppeter](https://www.npmjs.com/package/puppeteer-extra-plugin-stealth) For web scrapper and info gath 
+- [MOBSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) Mobile Pentest Tool 
+- [RMS - Mobile Pentest](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security) Mobile Pentest Tool 
+- [Mortar](https://github.com/0xsp-SRD/mortar) Mortar evasion technique to defeat and divert detection and prevention of security products (AV/EDR/XDR)
+- [APK Leaks](https://github.com/dwisiswant0/apkleaks)
 
 # Audio OSINT 
 
@@ -2216,6 +2235,11 @@ Detect a fake network and VPN
 - [FocSec](https://focsec.com/)
 - [IP VPN detector](https://ip.teoh.io/vpn-detection)
 - [IPQS](https://www.ipqualityscore.com/vpn-ip-address-check)
+
+# Medical OSINT 
+
+- [WHO](https://www.who.int/)
+- [PUB MED](https://pubmed.ncbi.nlm.nih.gov/)
 
 # OSINT Military
 
@@ -2248,6 +2272,7 @@ Detect a fake network and VPN
 - [SCI HUB](https://www.sci-hub.se/)
 - [msearch](https://msearch.io/)
 - [Google scholar](https://scholar.google.com/)
+- [Jstor](https://www.jstor.org/)
 
 Academic Literature
 
@@ -2291,3 +2316,9 @@ Resources and collection for your make tool OSINT
 - [dutchosintguy](https://www.dutchosintguy.com/post/cryptography-osint-can-you-read-emoji)
 - [Emoji Wiki](https://emojis.wiki/)
 - [Emoji Guide](https://emojiguide.com/)
+
+# OSINT Branding & Verify 
+
+- [Trus Pilot](https://www.trustpilot.com/)
+- [Google Alert](https://www.google.com/alerts)
+- [White Pages](https://www.whitepages.com/)
