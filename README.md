@@ -2316,6 +2316,7 @@ Resources and collection for your make tool OSINT
 - [dutchosintguy](https://www.dutchosintguy.com/post/cryptography-osint-can-you-read-emoji)
 - [Emoji Wiki](https://emojis.wiki/)
 - [Emoji Guide](https://emojiguide.com/)
+- [Emoji Tracker](https://emojitracker.com/details/1F44F)
 
 # OSINT Branding & Verify 
 
