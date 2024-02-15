@@ -7,7 +7,7 @@ Search for information from open information sources. Utilizing information sour
 PRO 
 
 1. Low risk being detected
-2. From 3 Party
+2. From third party or platform
 3. Does not require physical contact or interaction with the target
 
 CONS 
