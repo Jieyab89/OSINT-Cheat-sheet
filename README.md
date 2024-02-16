@@ -1874,6 +1874,8 @@ Desktop NET debugger and assembly editor
 - [Blockchain-Info](https://www.maltego.com/transform-hub/blockchain-info/)
 - [GraphSense](https://github.com/INTERPOL-Innovation-Centre/GraphSense-Maltego-transform)
 - [Blockhain Explorer](https://www.blockexplorer.com/l/en-US/)
+- [blockcypher](https://live.blockcypher.com/)
+- [BTC Scan](https://btcscan.org/)
 
 # Cell Investigation
 
