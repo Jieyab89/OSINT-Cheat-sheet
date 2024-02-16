@@ -258,6 +258,7 @@ Be carefull using this tool
 - [Zeus-Scanner](https://github.com/Ekultek/Zeus-Scanner)
 - [CloudFail](https://github.com/m0rtem/CloudFail.git)
 - [Real IP Discover](https://github.com/elefr3n/real_ip_discover.git)
+- [Mend Io](https://www.mend.io/vulnerability-database)
 
 # Analysing URLs
 
@@ -346,6 +347,7 @@ Be carefull using this tool
 - [RiskIQ](https://community.riskiq.com/)
 - [LOKI](https://github.com/Neo23x0/Loki)
 - [Mandiant](https://www.mandiant.com/advantage/threat-intelligence)
+- [Mend Io](https://www.mend.io/vulnerability-database)
 
 # IoT Search Engines
 
@@ -2317,6 +2319,7 @@ Strict and disable bot crawl search engine index account
 - [Yellow Book](https://www.beenverified.com/app/optout/search)
 - [Yellow Pages](https://tinyurl.com/dexknowscom)
 - [ZoomInfo](https://www.zoominfo.com/about-zoominfo/privacy-manage-profile)
+- [Get Contact Unlisting](https://getcontact.com/en/manage)
 
 *NB : Please read carefully and check the ToS or privacy statment. Its taking to long, you need to patiently. For this point, your data is not guaranteed to be lost 100% on the internet, but this is to minimize the spread of your data and data breaches
 
