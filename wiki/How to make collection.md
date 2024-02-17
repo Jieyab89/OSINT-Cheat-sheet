@@ -14,7 +14,7 @@ CONS
 
 1. Little and too much information
 2. Requires quite long and detailed validation
-3. Low risk of detection 
+3. Data not realtime
 
 - Active Collection
 
