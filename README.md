@@ -2153,182 +2153,182 @@ Strict and disable bot crawl search engine index account
 - [Inhope](https://www.inhope.org/EN#hotlineReferral) Report suspected child sexual abuse images or videos
 - [ReportIWF Indonesia](https://report.iwf.org.uk/id) Proctect and remove sexualy, nudes on internet
 - [ReportIWF](https://www.iwf.org.uk/our-technology/report-remove/) Proctect and remove sexualy, nudes on internet
-- [411](https://www.whitepages.com/suppression-requests)
-- [411 Info](https://411.info/manage/)- 
-- [Absolute People Search](https://absolutepeoplesearch.com/optout)
-- [Acxiom](https://isapps.acxiom.com/optout/optout.aspx)
-- [Addresses](https://www.intelius.com/opt-out/submit/)
-- [Address Search](https://addresssearch.com/remove-info.php)
-- [Archives](https://archives.com/optout)
-- [Apollo](https://www.apollo.io/privacy-policy/remove/)
-- [Arivify](https://www.arivify.com/removal)
-- [Azerch](https://www.azerch.com/Policies/Privacy)
-- [Background Alert](https://www.backgroundalert.com/optout/)
-- [Background Check](https://backgroundcheck.run/ng/control/privacy)
-- [Background Checkers](https://www.backgroundcheckers.net/optOut/name/landing)
-- [BatchSkipTracing](https://batchskiptracing.com/personal-information)
-- [BatchLeads](https://batchleads.io/personal-information)
-- [BatchDialer](https://batchdialer.com/personal-information)
-- [BatchDriven](https://batchdriven.com/personal)
-- [Been Verified](https://www.beenverified.com/faq/opt-out/)
-- [Buzzfile](http://www.buzzfile.com/Company/Remove)
-- [Call Truth](https://www.calltruth.com/opt_out.php)
-- [Caller Smart](https://www.callersmart.com/opt-out)
-- [Centeda](https://centeda.com/ng/control/privacy)
-- [Check People](https://www.checkpeople.com/opt-out)
-- [Check Secrets](https://www.checksecrets.com/optOut/name/landing)
-- [Checkr](https://candidate.checkr.com/privacy/delete)
-- [City-Data](https://www.city-data.com/privacy-form.php?w=usget)
-- [ClickSearch](https://clicksearch.us/optout)
-- [Clustr Maps](https://clustrmaps.com/bl/opt-out)
-- [Complete Investigation Services](http://www.cisworldwide.com/search/index.php?xpath=lp_optout)
-- [Confidential Phone Lookup](https://www.confidentialphonelookup.com)
-- [Contact Out](https://contactout.com/optout)
-- [Connected Investors](https://connectedinvestors.com/content/do-not-sell)
-- [Corporation Wiki](https://www.corporationwiki.com/profiles/public)
-- [Councilon](https://councilon.com/ex/control/privacy)
-- [Cyber Background Checks](https://www.cyberbackgroundchecks.com/removal)
-- [Data Axle](https://www.data-axle.com/do-not-sell-my-data/)
-- [DataVeria](https://dataveria.com/ng/control/privacy)
-- [DataChk](https://www.datacheckinc.com/contact/)
-- [Dehashed](https://dehashed.com/)
-- [DelvePoint](https://www.delvepoint.com)
-- [DexKnows](https://tinyurl.com/dexknowscom)
-- [DirectMail](https://www.directmail.com/mail_preference/)
-- [DMA Choice](https://www.ims-dm.com/cgi/dncc.php) | [DMA Choice](https://www.ims-dm.com/cgi/optoutemps.php)
-- [Epsilon-Main](https://www.epsilon.com/privacy-policy/)
-- [Epsilon-Abacus](https://www.epsilon.com/privacy-policy/)
-- [Epsilon-CFD](https://www.epsilon.com/privacy-policy/)
-- [Epsilon-Shopper](https://www.epsilon.com/privacy-policy/)
-- [Fama](https://fama.io/privacy/)
-- [FamilySearch](https://familysearch.org/privacy)
-- [Family Tree Now](https://www.familytreenow.com/optout)
-- [Fast People Fast](https://findpeoplefast.net/company/remove-my-info)
-- [Fast People Search](https://www.fastpeoplesearch.com/removal)
-- [Fax VIN](https://www.faxvin.com/company/privacy)
-- [Find People Search](https://findpeoplesearch.com/customerservice/)
-- [Free Background Checks](https://www.infopay.com/privacy)
-- [Free People Directory](https://www.freepeopledirectory.com/optout)
-- [Free Phone Tracer](https://www.beenverified.com/app/optout/search)
-- [Free Public Profile](https://www.freepublicprofile.com/Removal)
-- [FindRec](https://findrec.com/ng/control/privacy)
-- [Glad I Know](https://gladiknow.com/opt-out)
-- [GoLookup](https://golookup.com/support/optout)
-- [Grey Pages](https://www.grey-pages.com/removal)
-- [Haines & Company](https://www.haines.com/privacy-policy/)
-- [Hometry](https://homemetry.com/control/privacy)
-- [HPCC-USA](https://www.hpcc-usa.org/research/change-listing.html)
-- [ID Crawl](https://www.idcrawl.com/opt-out)
-- [ID True](https://www.idtrue.com/optout/)
-- [Infopay](mailto:privacy@infopay.com)
-- [Infospace](https://infospace.intelius.com/optout.php)
-- [Infotracer](https://infotracer.com/optout)
-- [Infotracer UK](https://infotracer.com/optout/)
-- [Instant Check Mate](https://instantcheckmate.com/optout)
-- [InstantPeopleFinder](https://www.intelius.com/opt-out)
-- [Intelius](https://www.intelius.com/opt-out)
-- [IntelligenceX](https://intelx.io/abuse)
-- [IRBSearch](mailto:customercare@irbsearch.com)
-- [Kiwi Searches](https://kiwisearches.com/optout)
-- [LexisNexis/Accurint](https://optout.lexisnexis.com)
-- [LexisNexis Direct Marketing](https://www.lexisnexis.com/privacy/directmarketingopt-out.aspx)
-- [Locate Family](https://www.locatefamily.com/removal2.html)
-- [Locate People](https://www.locatepeople.org/optout)
-- [MashPanel](https://www.mashpanel.com/remove.php)
-- [Mastercard](https://www.mastercard.us/en-us/vision/corp-responsibility/commitment-to-privacy/privacy/data-analytics-opt-out.html), 
-- [Mastercard](https://www.mastercard.us/en-us/vision/corp-responsibility/commitment-to-privacy/privacy/email-opt-out.html)
-- [MugshotLook](https://www.mugshotlook.com/optOut/name/landing)
-- [MyHeritage](https://faq.myheritage.com/en/article/how-do-i-delete-my-account-on-myheritage)
-- [MyLife](https://www.mylife.com/ccpa/index.pubview)
-- [National Cellular Directory](https://www.nationalcellulardirectory.com/optout/)
-- [Neighbor Report](https://neighbor.report/remove)
-- [NewEnglandFacts](https://newenglandfacts.com/ng/control/privacy)
-- [Number Guru](https://www.beenverified.com/app/optout/search)
-- [Numberville](https://numberville.com/opt-out.html)
-- [Nuwber](https://nuwber.com/removal/link)
-- [Official USA](https://www.officialusa.com/opt-out)
-- [Old Friends](https://old-friends.co/)
-- [Ownerly](https://www.beenverified.com/app/optout/search)
-- [PeekYou](https://www.peekyou.com/about/contact/optout/)
-- [Peep Lookup](https://www.peeplookup.com/opt_out)
-- [PeopleBackgroundCheck](https://people-background-check.com/ng/control/privacy)
-- [People By Name](https://www.peoplebyname.com/remove.php)
-- [People By Phone](https://www.peoplebyphone.com/remove-my-number/)
-- [People Data Labs](https://www.peopledatalabs.com/opt-out-form)
-- [People Finder](https://peoplefinder.com/optout.php)
-- [People Finders](https://www.peoplefinders.com/opt-out#IT)
-- [People Looker](https://www.peoplelooker.com/f/optout/search)
-- [People Search 123](https://www.peoplesearch123.com/optOut/name/landing)
-- [People Search Expert](https://www.peoplesearchexpert.com)
-- [People Finder](https://peoplefinder.com/optout.php)
-- [People Finders](https://www.peoplefinders.com/opt-out#IT)
-- [People Looker](https://www.peoplelooker.com/f/optout/search)
-- [People Search 123](https://www.peoplesearch123.com/optOut/name/landing)
-- [People Search Now](https://www.peoplesearchnow.com/opt-out)
-- [People Searcher](https://www.peoplesearcher.com/optOut/name/landing)
-- [People Smart](https://www.peoplesmart.com/app/optout/search)
-- [People Trace UK](https://www.peopletraceuk.com/RequestRecordRemoval.asp)
-- [People’s Check](https://www.peoplescheck.com/optout/)
-- [People Whiz](https://www.peoplewhiz.com/remove-my-info)
-- [Phonebook BT](https://www.productsandservices.bt.com/consumer/edw/privacypolicy/copyform/bt/#/)
-- [Pub360](https://pub360.com/ng/control/privacy)
-- [Public Data Digger](https://publicdatadigger.com/removeprofile)
-- [Public Data USA](https://publicdatausa.com/optout.php)
-- [Public Info Services](https://www.publicinfoservices.com/help-center/remove-my-public-record)
-- [Public Records](https://publicrecords.directory/contact.php)
-- [Public Records Now](https://www.publicrecordsnow.com/static/view/optout/)
-- [Quick People Trace](https://www.peoplefinders.com/opt-out#IT)
-- [Radaris](https://radaris.com/control/privacy)
-- [Reveal Name](https://www.revealname.com/opt_out)
-- [Reveal Phone Owner](https://www.revealphoneowner.com/data-removal)
-- [Sales Spider](http://salespidermedia.com/opt-out-and-information-removal.php)
-- [Search Bug](https://www.searchbug.com/peoplefinder/how-to-remove.aspx)
-- [Search People Free](https://www.searchpeoplefree.com/opt-out)
-- [Selfie Systems](https://www.spokeo.com/optout)
-- [Smart Background Checks](https://www.smartbackgroundchecks.com/optout)
-- [Social Catfish](https://socialcatfish.com/opt-out/)
-- [Spy Dialer](https://www.spydialer.com/optout.aspx)
-- [Spokeo](https://www.spokeo.com/optout)
-- [SpyFly](https://www.spyfly.com/help-center/remove-info)
-- [Spytox](https://www.spytox.com/opt_out)
-- [State Records](https://infotracer.com/optout/)
-- [Super Pages](https://tinyurl.com/dexknowscom)
-- [Sync Me](https://sync.me/optout/)
-- [Telephone Directories](https://www.telephonedirectories.us/Edit_Records)
-- [Tenn Help](https://www.tennhelp.com/public-resources/change-listing.html)
-- [That’s Them](https://thatsthem.com/optout)
-- [The Real Yellow Pages](https://tinyurl.com/dexknowscom)
-- [Thomson Reuters/Westlaw/CLEAR](https://privacyportal-cdn.onetrust.com/dsarwebform/dbf5ae8a-0a6a-4f4b-b527-7f94d0de6bbc/5dc91c0f-f1b7-4b6e-9d42-76043adaf72d.html)
-- [TLO](https://service.transunion.com/dss/ccpa_optout.page)
-- [Tower Data](https://dashboard.towerdata.com/optout/)
-- [True Caller](https://www.truecaller.com/unlisting)
-- [True People Search](https://www.truepeoplesearch.com/removal)
-- [True People Search.net](https://truepeoplesearch.net/remove-my-info)
-- [Truth Finder](https://www.truthfinder.com/opt-out/)
-- [United States Phonebook](http://www.unitedstatesphonebook.com/contact.php)
-- [Unmask](https://unmask.com/opt-out)
-- [USA People Search](https://www.usa-people-search.com/manage/)
-- [US Phone Pro](https://www.usphonepro.com/opt_out)
-- [US Phonebook](https://www.usphonebook.com/opt-out)
-- [USA Trace](https://www.peoplefinders.com/opt-out#IT)
-- [US Search](https://www.ussearch.com/opt-out/submit/)
-- [Valassis](https://valassis.com/do-not-sell-my-personal-information/)
-- [Valpak/Cox](https://www.valpak.com/coupons/show/mailinglistsuppression)
-- [Verecor](https://findrec.com/page/privacy)
-- [Vericora](https://vericora.com/ng/control/privacy)
-- [Veriforia](https://veriforia.com/ng/control/privacy)
-- [Veripages](https://veripages.com/page/contact)
-- [Verispy](https://www.dataaccessmanagement.com/verispy/)
-- [Veritora](https://federal-data.com/control/profile?url=)
-- [Visa](https://marketingreportoptout.visa.com/OPTOUT/request.do)
-- [Voter Records](https://voterrecords.com/faq)
-- [White Pages](http://www.whitepages.com/suppression_requests)
-- [WYTY](https://www.wyty.com/remove/)
-- [XLEK](https://www.xlek.com/optout.php)
-- [Yellow Book](https://www.beenverified.com/app/optout/search)
-- [Yellow Pages](https://tinyurl.com/dexknowscom)
-- [ZoomInfo](https://www.zoominfo.com/about-zoominfo/privacy-manage-profile)
-- [Get Contact Unlisting](https://getcontact.com/en/manage)
+- [411](https://www.whitepages.com/suppression-requests) Request for remove your data from this site
+- [411 Info](https://411.info/manage/) Request for remove your data from this site
+- [Absolute People Search](https://absolutepeoplesearch.com/optout) Request for remove your data from this site
+- [Acxiom](https://isapps.acxiom.com/optout/optout.aspx) Request for remove your data from this site
+- [Addresses](https://www.intelius.com/opt-out/submit/) Request for remove your data from this site
+- [Address Search](https://addresssearch.com/remove-info.php) Request for remove your data from this site
+- [Archives](https://archives.com/optout) Request for remove your data from this site
+- [Apollo](https://www.apollo.io/privacy-policy/remove/) Request for remove your data from this site
+- [Arivify](https://www.arivify.com/removal) Request for remove your data from this site
+- [Azerch](https://www.azerch.com/Policies/Privacy) Request for remove your data from this site
+- [Background Alert](https://www.backgroundalert.com/optout/) Request for remove your data from this site
+- [Background Check](https://backgroundcheck.run/ng/control/privacy) Request for remove your data from this site
+- [Background Checkers](https://www.backgroundcheckers.net/optOut/name/landing) Request for remove your data from this site
+- [BatchSkipTracing](https://batchskiptracing.com/personal-information) Request for remove your data from this site
+- [BatchLeads](https://batchleads.io/personal-information) Request for remove your data from this site
+- [BatchDialer](https://batchdialer.com/personal-information) Request for remove your data from this site
+- [BatchDriven](https://batchdriven.com/personal) Request for remove your data from this site
+- [Been Verified](https://www.beenverified.com/faq/opt-out/) Request for remove your data from this site
+- [Buzzfile](http://www.buzzfile.com/Company/Remove) Request for remove your data from this site
+- [Call Truth](https://www.calltruth.com/opt_out.php) Request for remove your data from this site
+- [Caller Smart](https://www.callersmart.com/opt-out) Request for remove your data from this site
+- [Centeda](https://centeda.com/ng/control/privacy) Request for remove your data from this site
+- [Check People](https://www.checkpeople.com/opt-out) Request for remove your data from this site
+- [Check Secrets](https://www.checksecrets.com/optOut/name/landing) Request for remove your data from this site
+- [Checkr](https://candidate.checkr.com/privacy/delete) Request for remove your data from this site
+- [City-Data](https://www.city-data.com/privacy-form.php?w=usget) Request for remove your data from this site
+- [ClickSearch](https://clicksearch.us/optout) Request for remove your data from this site
+- [Clustr Maps](https://clustrmaps.com/bl/opt-out) Request for remove your data from this site
+- [Complete Investigation Services](http://www.cisworldwide.com/search/index.php?xpath=lp_optout) Request for remove your data from this site
+- [Confidential Phone Lookup](https://www.confidentialphonelookup.com) Request for remove your data from this site
+- [Contact Out](https://contactout.com/optout) Request for remove your data from this site
+- [Connected Investors](https://connectedinvestors.com/content/do-not-sell) Request for remove your data from this site
+- [Corporation Wiki](https://www.corporationwiki.com/profiles/public) Request for remove your data from this site
+- [Councilon](https://councilon.com/ex/control/privacy) Request for remove your data from this site
+- [Cyber Background Checks](https://www.cyberbackgroundchecks.com/removal) Request for remove your data from this site
+- [Data Axle](https://www.data-axle.com/do-not-sell-my-data/) Request for remove your data from this site
+- [DataVeria](https://dataveria.com/ng/control/privacy) Request for remove your data from this site
+- [DataChk](https://www.datacheckinc.com/contact/) Request for remove your data from this site
+- [Dehashed](https://dehashed.com/) Request for remove your data from this site
+- [DelvePoint](https://www.delvepoint.com) Request for remove your data from this site
+- [DexKnows](https://tinyurl.com/dexknowscom) Request for remove your data from this site
+- [DirectMail](https://www.directmail.com/mail_preference/) Request for remove your data from this site
+- [DMA Choice](https://www.ims-dm.com/cgi/dncc.php) | [DMA Choice](https://www.ims-dm.com/cgi/optoutemps.php) Request for remove your data from this site
+- [Epsilon-Main](https://www.epsilon.com/privacy-policy/) Request for remove your data from this site
+- [Epsilon-Abacus](https://www.epsilon.com/privacy-policy/) Request for remove your data from this site
+- [Epsilon-CFD](https://www.epsilon.com/privacy-policy/) Request for remove your data from this site
+- [Epsilon-Shopper](https://www.epsilon.com/privacy-policy/) Request for remove your data from this site
+- [Fama](https://fama.io/privacy/) Request for remove your data from this site
+- [FamilySearch](https://familysearch.org/privacy) Request for remove your data from this site
+- [Family Tree Now](https://www.familytreenow.com/optout) Request for remove your data from this site
+- [Fast People Fast](https://findpeoplefast.net/company/remove-my-info) Request for remove your data from this site
+- [Fast People Search](https://www.fastpeoplesearch.com/removal) Request for remove your data from this site
+- [Fax VIN](https://www.faxvin.com/company/privacy) Request for remove your data from this site
+- [Find People Search](https://findpeoplesearch.com/customerservice/) Request for remove your data from this site
+- [Free Background Checks](https://www.infopay.com/privacy) Request for remove your data from this site
+- [Free People Directory](https://www.freepeopledirectory.com/optout) Request for remove your data from this site
+- [Free Phone Tracer](https://www.beenverified.com/app/optout/search) Request for remove your data from this site
+- [Free Public Profile](https://www.freepublicprofile.com/Removal) Request for remove your data from this site
+- [FindRec](https://findrec.com/ng/control/privacy) Request for remove your data from this site
+- [Glad I Know](https://gladiknow.com/opt-out) Request for remove your data from this site
+- [GoLookup](https://golookup.com/support/optout) Request for remove your data from this site
+- [Grey Pages](https://www.grey-pages.com/removal) Request for remove your data from this site
+- [Haines & Company](https://www.haines.com/privacy-policy/) Request for remove your data from this site
+- [Hometry](https://homemetry.com/control/privacy) Request for remove your data from this site
+- [HPCC-USA](https://www.hpcc-usa.org/research/change-listing.html) Request for remove your data from this site
+- [ID Crawl](https://www.idcrawl.com/opt-out) Request for remove your data from this site
+- [ID True](https://www.idtrue.com/optout/) Request for remove your data from this site
+- [Infopay](mailto:privacy@infopay.com) Request for remove your data from this site
+- [Infospace](https://infospace.intelius.com/optout.php) Request for remove your data from this site
+- [Infotracer](https://infotracer.com/optout) Request for remove your data from this site
+- [Infotracer UK](https://infotracer.com/optout/) Request for remove your data from this site
+- [Instant Check Mate](https://instantcheckmate.com/optout) Request for remove your data from this site
+- [InstantPeopleFinder](https://www.intelius.com/opt-out) Request for remove your data from this site
+- [Intelius](https://www.intelius.com/opt-out) Request for remove your data from this site
+- [IntelligenceX](https://intelx.io/abuse) Request for remove your data from this site
+- [IRBSearch](mailto:customercare@irbsearch.com) Request for remove your data from this site
+- [Kiwi Searches](https://kiwisearches.com/optout) Request for remove your data from this site
+- [LexisNexis/Accurint](https://optout.lexisnexis.com) Request for remove your data from this site
+- [LexisNexis Direct Marketing](https://www.lexisnexis.com/privacy/directmarketingopt-out.aspx) Request for remove your data from this site
+- [Locate Family](https://www.locatefamily.com/removal2.html) Request for remove your data from this site
+- [Locate People](https://www.locatepeople.org/optout) Request for remove your data from this site
+- [MashPanel](https://www.mashpanel.com/remove.php) Request for remove your data from this site
+- [Mastercard](https://www.mastercard.us/en-us/vision/corp-responsibility/commitment-to-privacy/privacy/data-analytics-opt-out.html) Request for remove your data from this site
+- [Mastercard](https://www.mastercard.us/en-us/vision/corp-responsibility/commitment-to-privacy/privacy/email-opt-out.html) Request for remove your data from this site
+- [MugshotLook](https://www.mugshotlook.com/optOut/name/landing) Request for remove your data from this site
+- [MyHeritage](https://faq.myheritage.com/en/article/how-do-i-delete-my-account-on-myheritage) Request for remove your data from this site
+- [MyLife](https://www.mylife.com/ccpa/index.pubview) Request for remove your data from this site
+- [National Cellular Directory](https://www.nationalcellulardirectory.com/optout/) Request for remove your data from this site
+- [Neighbor Report](https://neighbor.report/remove) Request for remove your data from this site
+- [NewEnglandFacts](https://newenglandfacts.com/ng/control/privacy) Request for remove your data from this site
+- [Number Guru](https://www.beenverified.com/app/optout/search) Request for remove your data from this site
+- [Numberville](https://numberville.com/opt-out.html) Request for remove your data from this site
+- [Nuwber](https://nuwber.com/removal/link) Request for remove your data from this site
+- [Official USA](https://www.officialusa.com/opt-out) Request for remove your data from this site
+- [Old Friends](https://old-friends.co/) Request for remove your data from this site
+- [Ownerly](https://www.beenverified.com/app/optout/search) Request for remove your data from this site
+- [PeekYou](https://www.peekyou.com/about/contact/optout/) Request for remove your data from this site
+- [Peep Lookup](https://www.peeplookup.com/opt_out) Request for remove your data from this site
+- [PeopleBackgroundCheck](https://people-background-check.com/ng/control/privacy) Request for remove your data from this site
+- [People By Name](https://www.peoplebyname.com/remove.php) Request for remove your data from this site
+- [People By Phone](https://www.peoplebyphone.com/remove-my-number/) Request for remove your data from this site
+- [People Data Labs](https://www.peopledatalabs.com/opt-out-form) Request for remove your data from this site
+- [People Finder](https://peoplefinder.com/optout.php) Request for remove your data from this site
+- [People Finders](https://www.peoplefinders.com/opt-out#IT) Request for remove your data from this site
+- [People Looker](https://www.peoplelooker.com/f/optout/search) Request for remove your data from this site
+- [People Search 123](https://www.peoplesearch123.com/optOut/name/landing) Request for remove your data from this site
+- [People Search Expert](https://www.peoplesearchexpert.com) Request for remove your data from this site
+- [People Finder](https://peoplefinder.com/optout.php) Request for remove your data from this site
+- [People Finders](https://www.peoplefinders.com/opt-out#IT) Request for remove your data from this site
+- [People Looker](https://www.peoplelooker.com/f/optout/search) Request for remove your data from this site
+- [People Search 123](https://www.peoplesearch123.com/optOut/name/landing) Request for remove your data from this site
+- [People Search Now](https://www.peoplesearchnow.com/opt-out) Request for remove your data from this site
+- [People Searcher](https://www.peoplesearcher.com/optOut/name/landing) Request for remove your data from this site
+- [People Smart](https://www.peoplesmart.com/app/optout/search) Request for remove your data from this site
+- [People Trace UK](https://www.peopletraceuk.com/RequestRecordRemoval.asp) Request for remove your data from this site
+- [People’s Check](https://www.peoplescheck.com/optout/) Request for remove your data from this site
+- [People Whiz](https://www.peoplewhiz.com/remove-my-info) Request for remove your data from this site
+- [Phonebook BT](https://www.productsandservices.bt.com/consumer/edw/privacypolicy/copyform/bt/#/) Request for remove your data from this site
+- [Pub360](https://pub360.com/ng/control/privacy) Request for remove your data from this site
+- [Public Data Digger](https://publicdatadigger.com/removeprofile) Request for remove your data from this site
+- [Public Data USA](https://publicdatausa.com/optout.php) Request for remove your data from this site
+- [Public Info Services](https://www.publicinfoservices.com/help-center/remove-my-public-record) Request for remove your data from this site
+- [Public Records](https://publicrecords.directory/contact.php) Request for remove your data from this site
+- [Public Records Now](https://www.publicrecordsnow.com/static/view/optout/) Request for remove your data from this site
+- [Quick People Trace](https://www.peoplefinders.com/opt-out#IT) Request for remove your data from this site
+- [Radaris](https://radaris.com/control/privacy) Request for remove your data from this site
+- [Reveal Name](https://www.revealname.com/opt_out) Request for remove your data from this site
+- [Reveal Phone Owner](https://www.revealphoneowner.com/data-removal) Request for remove your data from this site
+- [Sales Spider](http://salespidermedia.com/opt-out-and-information-removal.php) Request for remove your data from this site
+- [Search Bug](https://www.searchbug.com/peoplefinder/how-to-remove.aspx) Request for remove your data from this site
+- [Search People Free](https://www.searchpeoplefree.com/opt-out) Request for remove your data from this site
+- [Selfie Systems](https://www.spokeo.com/optout) Request for remove your data from this site
+- [Smart Background Checks](https://www.smartbackgroundchecks.com/optout) Request for remove your data from this site
+- [Social Catfish](https://socialcatfish.com/opt-out/) Request for remove your data from this site
+- [Spy Dialer](https://www.spydialer.com/optout.aspx) Request for remove your data from this site
+- [Spokeo](https://www.spokeo.com/optout) Request for remove your data from this site
+- [SpyFly](https://www.spyfly.com/help-center/remove-info) Request for remove your data from this site
+- [Spytox](https://www.spytox.com/opt_out) Request for remove your data from this site
+- [State Records](https://infotracer.com/optout/) Request for remove your data from this site
+- [Super Pages](https://tinyurl.com/dexknowscom) Request for remove your data from this site
+- [Sync Me](https://sync.me/optout/) Request for remove your data from this site
+- [Telephone Directories](https://www.telephonedirectories.us/Edit_Records) Request for remove your data from this site
+- [Tenn Help](https://www.tennhelp.com/public-resources/change-listing.html) Request for remove your data from this site
+- [That’s Them](https://thatsthem.com/optout) Request for remove your data from this site
+- [The Real Yellow Pages](https://tinyurl.com/dexknowscom) Request for remove your data from this site
+- [Thomson Reuters/Westlaw/CLEAR](https://privacyportal-cdn.onetrust.com/dsarwebform/dbf5ae8a-0a6a-4f4b-b527-7f94d0de6bbc/5dc91c0f-f1b7-4b6e-9d42-76043adaf72d.html) Request for remove your data from this site
+- [TLO](https://service.transunion.com/dss/ccpa_optout.page) Request for remove your data from this site
+- [Tower Data](https://dashboard.towerdata.com/optout/) Request for remove your data from this site
+- [True Caller](https://www.truecaller.com/unlisting) Request for remove your data from this site
+- [True People Search](https://www.truepeoplesearch.com/removal) Request for remove your data from this site
+- [True People Search.net](https://truepeoplesearch.net/remove-my-info) Request for remove your data from this site
+- [Truth Finder](https://www.truthfinder.com/opt-out/) Request for remove your data from this site
+- [United States Phonebook](http://www.unitedstatesphonebook.com/contact.php) Request for remove your data from this site
+- [Unmask](https://unmask.com/opt-out) Request for remove your data from this site
+- [USA People Search](https://www.usa-people-search.com/manage/) Request for remove your data from this site
+- [US Phone Pro](https://www.usphonepro.com/opt_out) Request for remove your data from this site
+- [US Phonebook](https://www.usphonebook.com/opt-out) Request for remove your data from this site
+- [USA Trace](https://www.peoplefinders.com/opt-out#IT) Request for remove your data from this site
+- [US Search](https://www.ussearch.com/opt-out/submit/) Request for remove your data from this site
+- [Valassis](https://valassis.com/do-not-sell-my-personal-information/) Request for remove your data from this site
+- [Valpak/Cox](https://www.valpak.com/coupons/show/mailinglistsuppression) Request for remove your data from this site
+- [Verecor](https://findrec.com/page/privacy) Request for remove your data from this site
+- [Vericora](https://vericora.com/ng/control/privacy) Request for remove your data from this site
+- [Veriforia](https://veriforia.com/ng/control/privacy) Request for remove your data from this site
+- [Veripages](https://veripages.com/page/contact) Request for remove your data from this site
+- [Verispy](https://www.dataaccessmanagement.com/verispy/) Request for remove your data from this site
+- [Veritora](https://federal-data.com/control/profile?url=) Request for remove your data from this site
+- [Visa](https://marketingreportoptout.visa.com/OPTOUT/request.do) Request for remove your data from this site
+- [Voter Records](https://voterrecords.com/faq) Request for remove your data from this site
+- [White Pages](http://www.whitepages.com/suppression_requests) Request for remove your data from this site
+- [WYTY](https://www.wyty.com/remove/) Request for remove your data from this site
+- [XLEK](https://www.xlek.com/optout.php) Request for remove your data from this site
+- [Yellow Book](https://www.beenverified.com/app/optout/search) Request for remove your data from this site
+- [Yellow Pages](https://tinyurl.com/dexknowscom) Request for remove your data from this site
+- [ZoomInfo](https://www.zoominfo.com/about-zoominfo/privacy-manage-profile) Request for remove your data from this site
+- [Get Contact Unlisting](https://getcontact.com/en/manage) Request for remove your data from this site
 
 *NB : Please read carefully and check the ToS or privacy statment. Its taking to long, you need to patiently. For this point, your data is not guaranteed to be lost 100% on the internet, but this is to minimize the spread of your data and data breaches
 
