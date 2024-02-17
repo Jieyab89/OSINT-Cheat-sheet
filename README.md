@@ -137,6 +137,9 @@ Be carefull using this tool
 - [MAXAR Satellite imagery](https://www.maxar.com/open-data)
 - [Satellite Collection](https://www.nesdis.noaa.gov/real-time-imagery/imagery-collections)
 - [Open measure](https://public.openmeasures.io/)
+- [Fiugis](https://fiugis.maps.arcgis.com/home/search.html?restrict=false&sortField=relevance&sortOrder=desc&categories=%2FCategories%2FLocation#content)
+- [Earth ESA](https://earth.esa.int/eogateway)
+- [Google Public Data](https://www.google.com/publicdata/directory)
 
 # Forums & Sites
 
@@ -434,6 +437,7 @@ You can find the file hash or other threat indicator
 - [IoC Editor](https://fireeye.market/apps/S7cWpi9W)
 - [CREST Threat Intel](https://www.crest-approved.org/wp-content/uploads/2022/04/CREST-Cyber-Threat-Intelligence.pdf?ref=secjuice.com)
 - [Intel471](https://intel471.com/)
+- [flashpoint](https://flashpoint.io/)
 
 # Automation Dorking 
 
@@ -1126,6 +1130,7 @@ or you can use dork for spesific example
 - [Snap Insta](https://snapinsta.app/)
 - [Insta Profiler](https://imginn.io/)
 - [Insta Loader](https://github.com/instaloader/instaloader)
+- [Storistalker](https://storistalker.com/#back)
 
 # Pinterest
 
@@ -1971,6 +1976,7 @@ Build your sockpuppet account and proctect your privacy
 - [Open DNS](https://www.opendns.com/home-internet-security/)
 - [I2P](https://geti2p.net/en/)
 - [TOR](https://www.torproject.org/download/)
+- [Apple Kuncitara](https://support.apple.com/id-id/guide/iphone/iph049680987/ios)
 
 Social Network and blogging
 
@@ -2099,6 +2105,7 @@ Social Network and blogging
 - [Hushed](https://hushed.com/)
 - [Privacy Badger](https://privacybadger.org/)
 - [Blur IMG Extension](https://chromewebstore.google.com/detail/blur-the-image-and-video/aikjogmpaoaookmacnkbenekcnkjlkmi?hl=en-US&authuser=0)
+- [Apple Kuncitara](https://support.apple.com/id-id/guide/iphone/iph049680987/ios)
 
 Payment
 
@@ -2387,7 +2394,7 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [MOBSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) Mobile Pentest Tool 
 - [RMS - Mobile Pentest](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security) Mobile Pentest Tool 
 - [Mortar](https://github.com/0xsp-SRD/mortar) Mortar evasion technique to defeat and divert detection and prevention of security products (AV/EDR/XDR)
-- [APK Leaks](https://github.com/dwisiswant0/apkleaks)
+- [APK Leaks](https://github.com/dwisiswant0/apkleaks) Decompile APK and find the sensitive info
 
 # Audio OSINT 
 
@@ -2445,6 +2452,15 @@ Detect a fake network and VPN
 - [onemilliontweetmap](https://onemilliontweetmap.com/)
 - [birdhunt](https://birdhunt.co/)
 - [garmin](https://www.garmin.co.id/products/outdoor/gpsmap64s-sea/)
+- [SALW](https://salw-dashboard.electrifai.net/analytics/main)
+- [Earth ESA](https://earth.esa.int/eogateway)
+- [APP Sentinel](https://apps.sentinel-hub.com/)
+- [NASA Fire Dataset](https://firms.modaps.eosdis.nasa.gov/)
+- [Google Earth Pro](https://earth.google.com/web/)
+- [CIA GOV](https://www.cia.gov/the-world-factbook/)
+- [Acleddata](https://acleddata.com/)
+- [Global Conflict](https://www.cfr.org/global-conflict-tracker)
+- [Google Public Data](https://www.google.com/publicdata/directory)
 
 # Academic Search Tools
 
@@ -2490,6 +2506,12 @@ Resources and collection for your make tool OSINT
 - [Maltego](https://www.maltego.com/)
 - [Mgrs Mapper](https://mgrs-mapper.com/app)
 - [Neo4j](https://neo4j.com/)
+- [Kepler Mapping](https://kepler.gl/demo/) 
+- [Google Chart](https://developers.google.com/chart)
+- [Chart JS](https://www.chartjs.org/)
+- [fiugis](https://fiugis.maps.arcgis.com/home/index.html)
+- [Map Hub](https://maphub.net/map)
+- [Maltego](https://docs.maltego.com/support/solutions/articles/15000018948-what-is-maltego-casefile-)
 
 # Emoji Investigation
 
