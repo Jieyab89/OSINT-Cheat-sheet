@@ -2511,7 +2511,7 @@ Resources and collection for your make tool OSINT
 - [Chart JS](https://www.chartjs.org/)
 - [fiugis](https://fiugis.maps.arcgis.com/home/index.html)
 - [Map Hub](https://maphub.net/map)
-- [Maltego](https://docs.maltego.com/support/solutions/articles/15000018948-what-is-maltego-casefile-)
+- [Maltego Casedile](https://docs.maltego.com/support/solutions/articles/15000018948-what-is-maltego-casefile-)
 
 # Emoji Investigation
 
