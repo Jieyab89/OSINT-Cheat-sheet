@@ -366,6 +366,7 @@ Be carefull using this tool
 - [Cameraftp](https://www.cameraftp.com/cameraftp/publish/publishedcameras.aspx)
 - [Insecam](http://Insecam.org)
 - [Webcams](https://github.com/pbkompasz/webcams)
+- [Molecool CCTV and Nearby](https://www.molecool.id/)
 
 # IP Addresses
 
@@ -827,6 +828,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Goo Search](https://www.goo.ne.jp/)
 - [swisscows](https://swisscows.com/en)
 - [odp](http://www.odp.org/homepage.php)
+- [Yiipy Search](https://www.yippysearchengine.com/)
 
 # Internet Archive
 
@@ -1745,6 +1747,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Skylens](https://app.skylens.io/)
 - [Geocreepy](https://www.geocreepy.com/)
 - [garmin](https://www.garmin.co.id/products/outdoor/gpsmap64s-sea/)
+- [Corona Atlsa](https://corona.cast.uark.edu/)
 
 # Nearby Map From Geospatial
 
@@ -1876,7 +1879,6 @@ Desktop NET debugger and assembly editor
 - [Tatum](https://tatum.io/)
 - [Ciphertrace](https://ciphertrace.com/)
 - [Bitcoin Abuse](https://www.bitcoinabuse.com/)
-- [Blockchain-Info](https://www.maltego.com/transform-hub/blockchain-info/)
 - [GraphSense](https://github.com/INTERPOL-Innovation-Centre/GraphSense-Maltego-transform)
 - [Blockhain Explorer](https://www.blockexplorer.com/l/en-US/)
 - [blockcypher](https://live.blockcypher.com/)
