@@ -262,6 +262,9 @@ Be carefull using this tool
 - [CloudFail](https://github.com/m0rtem/CloudFail.git)
 - [Real IP Discover](https://github.com/elefr3n/real_ip_discover.git)
 - [Mend Io](https://www.mend.io/vulnerability-database)
+- [whois request](whoisrequest.com)
+- [completedns](completedns.com)
+- [dnsdumper](dnsdumpster.com)
 
 # Analysing URLs
 
