@@ -265,6 +265,14 @@ Be carefull using this tool
 - [whois request](whoisrequest.com)
 - [completedns](completedns.com)
 - [dnsdumper](dnsdumpster.com)
+- [A href Backlink Checker](https://ahrefs.com/backlink-checker)
+- [Neil Patel Backlink](https://neilpatel.com/backlinks/)
+- [Semrush Backlink](https://www.semrush.com/analytics/backlinks/)
+- [Small SEO Tool Backlink](https://smallseotools.com/backlink-checker/)
+- [SEO Backlink Check](https://www.seobility.net/en/backlinkchecker/)
+- [Moz Backlink](https://moz.com/link-explorer)
+- [SPAM Check Score](https://www.dapachecker.org/spam-score-checker)
+- [MOZ Spam Check](https://moz.com/help/link-explorer/link-building/spam-score)
 
 # Analysing URLs
 
@@ -2516,7 +2524,7 @@ Resources and collection for your make tool OSINT
 - [Chart JS](https://www.chartjs.org/)
 - [fiugis](https://fiugis.maps.arcgis.com/home/index.html)
 - [Map Hub](https://maphub.net/map)
-- [Maltego Casedile](https://docs.maltego.com/support/solutions/articles/15000018948-what-is-maltego-casefile-)
+- [Maltego Casefile](https://docs.maltego.com/support/solutions/articles/15000018948-what-is-maltego-casefile-)
 
 # Emoji Investigation
 
