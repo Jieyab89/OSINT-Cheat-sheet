@@ -1759,6 +1759,8 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Geocreepy](https://www.geocreepy.com/)
 - [garmin](https://www.garmin.co.id/products/outdoor/gpsmap64s-sea/)
 - [Corona Atlsa](https://corona.cast.uark.edu/)
+- [BMKG RI](https://www.bmkg.go.id/)
+- [GIS INA](https://tanahair.indonesia.go.id/portal-web/)
 
 # Nearby Map From Geospatial
 
