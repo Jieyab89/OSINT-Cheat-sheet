@@ -925,6 +925,7 @@ This domain will always change
 # Company Reconnaissance Sites (Passive)
 
 - [whois](http://www.whois.net)
+- [whois by hostinger](https://www.hostinger.co.id/whois)
 - [Netcraft](http://www.netcraft.com)
 - [Hunter](https://hunter.io/)
 - [SignalHire](https://www.signalhire.com/)
@@ -943,6 +944,11 @@ This domain will always change
 - [opencorporates](https://opencorporates.com/)
 - [Data OCCRP](https://data.occrp.org/)
 - [OSINT Maps](https://cybdetective.com/osintmap/)
+- [Tripadvisor](https://www.tripadvisor.com/)
+- [Trustindex](https://www.trustindex.io/)
+- [G Map Review](https://www.google.com/maps/)
+- [Provenexpert](https://www.provenexpert.com/)
+- [SIMPU RI](https://umrahcerdas.kemenag.go.id/)
 
 # People Searching
 
@@ -966,6 +972,7 @@ This domain will always change
 - [Family Tree](https://www.familytreenow.com/)
 - [Radaris](https://radaris.com/)
 - [beenverified](https://www.beenverified.com/people/)
+- [bandcamp](https://bandcamp.com/)
 
 # Phone Numbers
 
@@ -2540,3 +2547,9 @@ Resources and collection for your make tool OSINT
 - [Trus Pilot](https://www.trustpilot.com/)
 - [Google Alert](https://www.google.com/alerts)
 - [White Pages](https://www.whitepages.com/)
+- [Tripadvisor](https://www.tripadvisor.com/)
+- [Trustindex](https://www.trustindex.io/)
+- [G Map Review](https://www.google.com/maps/)
+- [Provenexpert](https://www.provenexpert.com/)
+- [SIMPU RI](https://umrahcerdas.kemenag.go.id/)
+- [Jobstreet.co.id](https://www.jobstreet.co.id/)
