@@ -2154,7 +2154,7 @@ Password Manager
 
 # Content Removal & Strict Media Content
 
-Search people missing and abuse, strict, removing, takedown and minimize your data on the internet
+Search people missing and abuse, strict content, removing, takedown and minimize your data on the internet
 
 - [Google image removal](https://support.google.com/websearch/answer/4628134)
 Remove your image from Google
@@ -2175,6 +2175,21 @@ Strict and disable bot crawl search engine index account
 - [Inhope](https://www.inhope.org/EN#hotlineReferral) Report suspected child sexual abuse images or videos
 - [ReportIWF Indonesia](https://report.iwf.org.uk/id) Proctect and remove sexualy, nudes on internet
 - [ReportIWF](https://www.iwf.org.uk/our-technology/report-remove/) Proctect and remove sexualy, nudes on internet
+- [kemenpppa Indonesia](https://www.kemenpppa.go.id/) Kementrian perlindungan anak dan perempuan
+- [National Center for Missing and Exploited Children](https://report.cybertip.org/) Report the content to the appropriate authorities around the world
+- [Inhope](https://inhope.org/) Find your country listed, contact INHOPE abuse internet  
+- [cybertip US](https://report.cybertip.org/) National Center for Missing and Exploited Children
+- [cybertip Canada](https://www.cybertip.ca/en/) National Center for Missing and Exploited Children
+- [internethotline Japan](https://www.internethotline.jp/)  Internet Hotline Center Japan
+- [safekaznet Kazakhstan](http://www.safekaznet.kz/en/report-2) Internet Association of Kazakhstan
+- [Liga Internet Russia](https://ligainternet.ru/hotline/) Safe Internet League
+- [Kocs Korean](https://www.kocsc.or.kr/mainPage.do) Korea Communication Standards Commission
+- [Thailand Internet Hotline](https://www.thaihotline.org/) Internet Foundation for the Development of Thailand
+- [Jugendschutz Germany](https://www.jugendschutz.net/) Internet Foundation Germany
+- [FSM Germany](https://www.fsm.de/) Internet Foundation Germany
+- [ECO Germany](https://www.internet-beschwerdestelle.de/de/index.html) Internet Foundation Germany
+- [NCOSE](https://endsexualexploitation.org/about/) National Center on Sexual Exploitation (NCOSE) exists because people should be free to live and love without sexual abuse and exploitation.
+- [More info all region](https://support.google.com/websearch/answer/148666?hl=id) Check available internet hotline around world 
 - [411](https://www.whitepages.com/suppression-requests) Request for remove your data from this site
 - [411 Info](https://411.info/manage/) Request for remove your data from this site
 - [Absolute People Search](https://absolutepeoplesearch.com/optout) Request for remove your data from this site
