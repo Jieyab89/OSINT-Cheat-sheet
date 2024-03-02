@@ -2446,7 +2446,7 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [RMS - Mobile Pentest](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security) Mobile Pentest Tool 
 - [Mortar](https://github.com/0xsp-SRD/mortar) Mortar evasion technique to defeat and divert detection and prevention of security products (AV/EDR/XDR)
 - [APK Leaks](https://github.com/dwisiswant0/apkleaks) Decompile APK and find the sensitive info
-- [Web copilot](https://github.com/h4r5h1t/webcopilot)
+- [Web copilot](https://github.com/h4r5h1t/webcopilot) An automation tool that enumerates subdomains then filters out xss, sqli, open redirect, lfi, ssrf and rce parameters
 
 # Audio OSINT 
 
