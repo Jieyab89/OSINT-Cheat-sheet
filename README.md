@@ -273,6 +273,9 @@ Be carefull using this tool
 - [Moz Backlink](https://moz.com/link-explorer)
 - [SPAM Check Score](https://www.dapachecker.org/spam-score-checker)
 - [MOZ Spam Check](https://moz.com/help/link-explorer/link-building/spam-score)
+- [WEB Check](https://web-check.xyz/)
+- [brightcloud ip lookup](https://www.brightcloud.com/tools/url-ip-lookup.php)
+- [Url Filltering](https://urlfiltering.paloaltonetworks.com/)
 
 # Analysing URLs
 
@@ -297,6 +300,7 @@ Be carefull using this tool
 - [Open Phish](https://openphish.com/phishing_feeds.html)
 - [Phishtalk](https://www.phishtank.com/phish_archive.php)
 - [URL Haus](https://urlhaus.abuse.ch/)
+- [Expand Url](https://www.expandurl.net/)
 
 # Researching Cyber Threats
 
@@ -324,6 +328,8 @@ Be carefull using this tool
 - [CVE Mitre](https://cve.mitre.org/cve/search_cve_list.html)
 - [Malicious Check](https://forum.seccodeid.com/d/phishing-email-analysis-tools)
 - [Email Header Analysis](https://mxtoolbox.com/EmailHeaders.aspx)
+- [Email-Analytics](https://emailanalytics.com/email-headers/)
+- [Email Header Analisis Toolbox](https://toolbox.googleapps.com/apps/messageheader/)
 - [Url Scan]( https://urlscan.io/ )
 - [AnyRun](https://any.run/)
 - [Hybrid Analysis](https://www.hybrid-analysis.com/)
@@ -362,6 +368,11 @@ Be carefull using this tool
 - [LOKI](https://github.com/Neo23x0/Loki)
 - [Mandiant](https://www.mandiant.com/advantage/threat-intelligence)
 - [Mend Io](https://www.mend.io/vulnerability-database)
+- [TRIAGE](https://tria.ge/reports/public)
+- [EML Analyzer](https://eml-analyzer.herokuapp.com/#/)
+- [Cyber Chef](https://gchq.github.io/CyberChef/)
+- [Expand Url](https://www.expandurl.net/)
+- [Wanna Browser Sandbox](https://www.wannabrowser.net/)
 
 # IoT Search Engines
 
@@ -1371,6 +1382,8 @@ Google queries for MySpace
 - [Gravatar Email Cheker](https://gravatar.com/site/check/)
 - [EmailRep](https://emailrep.io/)
 - [pwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot)
+- [Email-Analytics](https://emailanalytics.com/email-headers/)
+- [Email Header Analisis Toolbox](https://toolbox.googleapps.com/apps/messageheader/)
 
 # Shodan Query Options
 
@@ -1387,6 +1400,7 @@ Firefox plugin that will assist in downloading all media from a website
 - [HTTrack](https://www.httrack.com/)
 - [Wayback Machine](https://archive.org/web/)
 - [cachedview](https://cachedview.com/)
+- [url png](https://www.url2png.com/) 
 
 # OSINT TOOLS
 
@@ -2549,6 +2563,10 @@ Resources and collection for your make tool OSINT
 - [fiugis](https://fiugis.maps.arcgis.com/home/index.html)
 - [Map Hub](https://maphub.net/map)
 - [Maltego Casefile](https://docs.maltego.com/support/solutions/articles/15000018948-what-is-maltego-casefile-)
+- [Any Chart](https://www.anychart.com/)
+- [High Charts](https://www.highcharts.com/)
+- [Any Logic](https://anylogic.help/)
+- [GO js Charts](https://gojs.net/)
 
 # Emoji Investigation
 
@@ -2568,3 +2586,14 @@ Resources and collection for your make tool OSINT
 - [Provenexpert](https://www.provenexpert.com/)
 - [SIMPU RI](https://umrahcerdas.kemenag.go.id/)
 - [Jobstreet.co.id](https://www.jobstreet.co.id/)
+- [WEB Check](https://web-check.xyz/)
+- [brightcloud ip lookup](https://www.brightcloud.com/tools/url-ip-lookup.php)
+- [Url Filltering](https://urlfiltering.paloaltonetworks.com/)
+- [A href Backlink Checker](https://ahrefs.com/backlink-checker)
+- [Neil Patel Backlink](https://neilpatel.com/backlinks/)
+- [Semrush Backlink](https://www.semrush.com/analytics/backlinks/)
+- [Small SEO Tool Backlink](https://smallseotools.com/backlink-checker/)
+- [SEO Backlink Check](https://www.seobility.net/en/backlinkchecker/)
+- [Moz Backlink](https://moz.com/link-explorer)
+- [SPAM Check Score](https://www.dapachecker.org/spam-score-checker)
+- [MOZ Spam Check](https://moz.com/help/link-explorer/link-building/spam-score)
