@@ -209,6 +209,7 @@ Be carefull using this tool
 - [OSINT compass](https://osint-compass-portal.onrender.com/)
 - [Phantom Buster](https://phantombuster.com/phantombuster)
 - [Open measure](https://public.openmeasures.io/)
+- [huntintel](https://www.huntintel.io/)
 
 # Social Media Management and Content Discovery
 
@@ -219,6 +220,7 @@ Be carefull using this tool
 - [Gpt OSINT](https://github.com/gigz/gpt-osint)
 - [SNSCRAPE - Scraper](https://github.com/JustAnotherArchivist/snscrape)
 - [Phantom Buster](https://phantombuster.com/phantombuster)
+- [huntintel](https://www.huntintel.io/)
 
 # Web Intelligence
 
@@ -1782,6 +1784,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Corona Atlsa](https://corona.cast.uark.edu/)
 - [BMKG RI](https://www.bmkg.go.id/)
 - [GIS INA](https://tanahair.indonesia.go.id/portal-web/)
+- [Kpler](https://www.kpler.com/)
 
 # Nearby Map From Geospatial
 
@@ -2410,6 +2413,7 @@ Strict and disable bot crawl search engine index account
 - [vesselfinder](https://www.vesselfinder.com/)
 - [gisis](https://gisis.imo.org/Public/Default.aspx)
 - [WindWard](https://windward.ai/)
+- [Kpler](https://www.kpler.com/)
 
 # Railways
 
@@ -2513,6 +2517,7 @@ Detect a fake network and VPN
 - [Acleddata](https://acleddata.com/)
 - [Global Conflict](https://www.cfr.org/global-conflict-tracker)
 - [Google Public Data](https://www.google.com/publicdata/directory)
+- [huntintel](https://www.huntintel.io/)
 
 # Academic Search Tools
 
@@ -2568,6 +2573,9 @@ Resources and collection for your make tool OSINT
 - [High Charts](https://www.highcharts.com/)
 - [Any Logic](https://anylogic.help/)
 - [GO js Charts](https://gojs.net/)
+- [cytoscape](https://js.cytoscape.org/)
+- [sigmajs](https://www.sigmajs.org/)
+- [graph-gallery](https://d3-graph-gallery.com/network.html)
 
 # Emoji Investigation
 
