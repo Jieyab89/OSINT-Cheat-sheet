@@ -1164,6 +1164,7 @@ or you can use dork for spesific example
 - [Insta Profiler](https://imginn.io/)
 - [Insta Loader](https://github.com/instaloader/instaloader)
 - [Storistalker](https://storistalker.com/#back)
+- [instahunt](https://instahunt.co/)
 
 # Pinterest
 
