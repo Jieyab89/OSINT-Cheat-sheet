@@ -375,6 +375,8 @@ Be carefull using this tool
 - [Cyber Chef](https://gchq.github.io/CyberChef/)
 - [Expand Url](https://www.expandurl.net/)
 - [Wanna Browser Sandbox](https://www.wannabrowser.net/)
+- [pestudio](https://www.winitor.com/download)
+- [procmon](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)
 
 # IoT Search Engines
 
@@ -463,6 +465,8 @@ You can find the file hash or other threat indicator
 - [CREST Threat Intel](https://www.crest-approved.org/wp-content/uploads/2022/04/CREST-Cyber-Threat-Intelligence.pdf?ref=secjuice.com)
 - [Intel471](https://intel471.com/)
 - [flashpoint](https://flashpoint.io/)
+- [pestudio](https://www.winitor.com/download)
+- [procmon](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)
 
 # Automation Dorking 
 
