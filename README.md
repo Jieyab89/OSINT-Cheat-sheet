@@ -210,6 +210,7 @@ Be carefull using this tool
 - [Phantom Buster](https://phantombuster.com/phantombuster)
 - [Open measure](https://public.openmeasures.io/)
 - [huntintel](https://www.huntintel.io/)
+- [Sherlock Eye](https://sherlockeye.io/)
 
 # Social Media Management and Content Discovery
 
@@ -221,6 +222,7 @@ Be carefull using this tool
 - [SNSCRAPE - Scraper](https://github.com/JustAnotherArchivist/snscrape)
 - [Phantom Buster](https://phantombuster.com/phantombuster)
 - [huntintel](https://www.huntintel.io/)
+- [Sherlock Eye](https://sherlockeye.io/)
 
 # Web Intelligence
 
@@ -990,6 +992,7 @@ This domain will always change
 - [Radaris](https://radaris.com/)
 - [beenverified](https://www.beenverified.com/people/)
 - [bandcamp](https://bandcamp.com/)
+- [Sherlock Eye](https://sherlockeye.io/)
 
 # Phone Numbers
 
@@ -1391,6 +1394,7 @@ Google queries for MySpace
 - [pwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot)
 - [Email-Analytics](https://emailanalytics.com/email-headers/)
 - [Email Header Analisis Toolbox](https://toolbox.googleapps.com/apps/messageheader/)
+- [Sherlock Eye](https://sherlockeye.io/)
 
 # Shodan Query Options
 
@@ -1540,6 +1544,7 @@ Search channel, username anymore
 - [Snsscrape](https://github.com/JustAnotherArchivist/snscrape)
 - [stratosphere](https://github.com/elehcimd/stratosphere)
 - [OSINT compass](https://osint-compass-portal.onrender.com/)
+- [Sherlock Eye](https://sherlockeye.io/)
 
 # Image Search
 
