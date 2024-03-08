@@ -150,6 +150,9 @@ Be carefull using this tool
 - [Reddit OSINT](https://www.reddit.com/r/OSINT)
 - [TraceLabs Discord](https://discord.com/invite/Rn8z2QNAD9)
 - [IntelTechniques](https://inteltechniques.com/)
+- [Google Group](https://groups.google.com/?pli=1)
+- [4Chan](https://4chansearch.com/)
+- [boardreader](https://boardreader.com/)
 
 # General Search
 
@@ -211,6 +214,7 @@ Be carefull using this tool
 - [Open measure](https://public.openmeasures.io/)
 - [huntintel](https://www.huntintel.io/)
 - [Sherlock Eye](https://sherlockeye.io/)
+- [clauneck](https://github.com/serpapi/clauneck)
 
 # Social Media Management and Content Discovery
 
@@ -223,6 +227,7 @@ Be carefull using this tool
 - [Phantom Buster](https://phantombuster.com/phantombuster)
 - [huntintel](https://www.huntintel.io/)
 - [Sherlock Eye](https://sherlockeye.io/)
+- [clauneck](https://github.com/serpapi/clauneck)
 
 # Web Intelligence
 
@@ -305,6 +310,7 @@ Be carefull using this tool
 - [Phishtalk](https://www.phishtank.com/phish_archive.php)
 - [URL Haus](https://urlhaus.abuse.ch/)
 - [Expand Url](https://www.expandurl.net/)
+- [Tiny Scan](https://www.tiny-scan.com)
 
 # Researching Cyber Threats
 
@@ -968,6 +974,7 @@ This domain will always change
 - [G Map Review](https://www.google.com/maps/)
 - [Provenexpert](https://www.provenexpert.com/)
 - [SIMPU RI](https://umrahcerdas.kemenag.go.id/)
+- [collegerecruiter](https://www.collegerecruiter.com/)
 
 # People Searching
 
@@ -1172,6 +1179,7 @@ or you can use dork for spesific example
 - [Insta Loader](https://github.com/instaloader/instaloader)
 - [Storistalker](https://storistalker.com/#back)
 - [instahunt](https://instahunt.co/)
+- [Sterraxcyl IG Profiler](https://github.com/novitae/sterraxcyl)
 
 # Pinterest
 
@@ -1622,6 +1630,9 @@ Search channel, username anymore
 - [VGG Image Classification](https://www.robots.ox.ac.uk/~vgg/software/vic/)
 - [VGG Image Search Engine (VISE)](https://robots.ox.ac.uk/~vgg/software/vise/)
 - [Fake face detector](https://seintpl.github.io/AmIReal/)
+- [GeoSpy](https://geospy.web.app/)
+- [DiffChecker](https://www.diffchecker.com/image-diff/)
+- [ImgOps](https://imgops.com/)
 
 # Stock Images
 
@@ -2093,6 +2104,7 @@ Social Network and blogging
 - [pryingdeep](https://github.com/iudicium/pryingdeep)
 - [Maltego](https://www.maltego.com/)
 - [Darknet Book](https://github.com/darknet-book/tor-guide)
+- [Onios Scan](https://github.com/s-rah/onionscan)
 
 # Digital Forensics
 
@@ -2616,3 +2628,22 @@ Resources and collection for your make tool OSINT
 - [Moz Backlink](https://moz.com/link-explorer)
 - [SPAM Check Score](https://www.dapachecker.org/spam-score-checker)
 - [MOZ Spam Check](https://moz.com/help/link-explorer/link-building/spam-score)
+
+# NEWS OSINT
+
+Search News and Documentary Sites 
+
+- [Glanlaw](https://www.glanlaw.org/)
+- [Bellingcat](bellingcat.com)
+- [The Guardians](https://www.theguardian.com/international)
+- [Drone Emprit](https://pers.droneemprit.id/)
+- [Google News](https://news.google.com/)
+- [MagPortal](http://www.magportal.com/)
+- [Flipboard](https://flipboard.com/)
+
+# OSINT Keyword 
+
+- [Google Trends](https://trends.google.com/trends/)
+- [keyworddiscovery](https://www.keyworddiscovery.com/)
+- [Yandex Trends](https://wordstat.yandex.com/)
+- [Wordtracker](https://www.wordtracker.com/)
