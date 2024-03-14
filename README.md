@@ -1504,7 +1504,6 @@ Search channel, username anymore
 - [Lyzem Search](https://lyzem.com/)
 - [Discover The Best Telegram Channels](https://telegramchannels.me/)
 - [Tele Channel Overiview](https://telemetr.io/)
-- [telegram-phone-number-checker](https://github.com/bellingcat/telegram-phone-number-checker)
 - [Telepathy](https://github.com/proseltd/Telepathy)
 - [Telemetr](https://telemetr.io/)
 - [Telegramtrac](https://github.com/claromes/telegramtrac)
@@ -2167,6 +2166,7 @@ Social Network and blogging
 - [Privacy Badger](https://privacybadger.org/)
 - [Blur IMG Extension](https://chromewebstore.google.com/detail/blur-the-image-and-video/aikjogmpaoaookmacnkbenekcnkjlkmi?hl=en-US&authuser=0)
 - [Apple Kuncitara](https://support.apple.com/id-id/guide/iphone/iph049680987/ios)
+- [Apple Focus Mode](https://support.apple.com/id-id/guide/iphone/iphd6288a67f/17.0/ios/17.0)
 
 Payment
 
@@ -2473,6 +2473,7 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Mortar](https://github.com/0xsp-SRD/mortar) Mortar evasion technique to defeat and divert detection and prevention of security products (AV/EDR/XDR)
 - [APK Leaks](https://github.com/dwisiswant0/apkleaks) Decompile APK and find the sensitive info
 - [Web copilot](https://github.com/h4r5h1t/webcopilot) An automation tool that enumerates subdomains then filters out xss, sqli, open redirect, lfi, ssrf and rce parameters
+- [Nuclei template js template](https://github.com/ayadim/Nuclei-bug-hunter/blob/main/file/web/js/js-analyse.yaml) Nuclei template. Extract Data From JS ffile e.g key, endpoint, etc 
 
 # Audio OSINT 
 
