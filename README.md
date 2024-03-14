@@ -1973,6 +1973,11 @@ Desktop NET debugger and assembly editor
 - [Freepeoplesearch](https://freepeoplesearch.com/)
 - [IMSI imei info](https://www.imei.info/imsi/)
 - [cellebrite](https://cellebrite.com/en/ufed/)
+- [LIST MCC & MNC World](https://docs.routee.net/docs/list-of-mccmnc-codes)
+- [Cell Global Identity World](https://en.wikipedia.org/wiki/Cell_Global_Identity)
+- [MCC MNC World Net](https://mcc-mnc.net/)
+- [Cell Global Identity Article](https://medium.com/@fthcknmz/cell-global-identity-cgi-407ea0288943)
+- [GSM Cell ID](https://en.wikipedia.org/wiki/GSM_Cell_ID)
 
 # IMEI Investigation
 
