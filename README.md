@@ -2029,6 +2029,7 @@ Build your sockpuppet account and proctect your privacy
 - [Phone Burner](https://www.phoneburner.com/)
 - [Hushed](https://hushed.com/)
 - [Temp Phone Number](https://temporary-phone-number.com/)
+- [Temp Phone Number and SMS activate](https://sms-activate.org/en)
 - [Temp Mail 1](https://mail.tm/en/)
 - [Temp Mail 2](https://temp-mail.org/en/)
 - [Temp Mail 3](https://tempmailo.com/)
