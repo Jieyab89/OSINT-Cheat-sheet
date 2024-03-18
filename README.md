@@ -2480,6 +2480,7 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [APK Leaks](https://github.com/dwisiswant0/apkleaks) Decompile APK and find the sensitive info
 - [Web copilot](https://github.com/h4r5h1t/webcopilot) An automation tool that enumerates subdomains then filters out xss, sqli, open redirect, lfi, ssrf and rce parameters
 - [Nuclei template js template](https://github.com/ayadim/Nuclei-bug-hunter/blob/main/file/web/js/js-analyse.yaml) Nuclei template. Extract Data From JS ffile e.g key, endpoint, etc 
+- [Atlas Sql Tamper Suggester](https://github.com/m4ll0k/Atlas) Open source tool that can suggest sqlmap tampers to bypass WAF/IDS/IPS, the tool is based on returned status code
 
 # Audio OSINT 
 
