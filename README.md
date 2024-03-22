@@ -1000,6 +1000,7 @@ This domain will always change
 - [beenverified](https://www.beenverified.com/people/)
 - [bandcamp](https://bandcamp.com/)
 - [Sherlock Eye](https://sherlockeye.io/)
+- [NIK PARSE](https://github.com/bachors/nik_parse.js?tab=readme-ov-file#nik_parsejs)
 
 # Phone Numbers
 
@@ -2636,6 +2637,7 @@ Resources and collection for your make tool OSINT
 - [Moz Backlink](https://moz.com/link-explorer)
 - [SPAM Check Score](https://www.dapachecker.org/spam-score-checker)
 - [MOZ Spam Check](https://moz.com/help/link-explorer/link-building/spam-score)
+- [NIK PARSE](https://github.com/bachors/nik_parse.js?tab=readme-ov-file#nik_parsejs)
 
 # NEWS OSINT
 
