@@ -2380,7 +2380,7 @@ Strict and disable bot crawl search engine index account
 - [Sync Me](https://sync.me/optout/) Request for remove your data from this site
 - [Telephone Directories](https://www.telephonedirectories.us/Edit_Records) Request for remove your data from this site
 - [Tenn Help](https://www.tennhelp.com/public-resources/change-listing.html) Request for remove your data from this site
-- [That’s Them](https://thatsthem.com/optout) Request for remove your data from this site
+- [That’s Them](https://thatsthem.com/optout) Request for remove your data from this sitef
 - [The Real Yellow Pages](https://tinyurl.com/dexknowscom) Request for remove your data from this site
 - [Thomson Reuters/Westlaw/CLEAR](https://privacyportal-cdn.onetrust.com/dsarwebform/dbf5ae8a-0a6a-4f4b-b527-7f94d0de6bbc/5dc91c0f-f1b7-4b6e-9d42-76043adaf72d.html) Request for remove your data from this site
 - [TLO](https://service.transunion.com/dss/ccpa_optout.page) Request for remove your data from this site
@@ -2484,6 +2484,9 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Nuclei template js template](https://github.com/ayadim/Nuclei-bug-hunter/blob/main/file/web/js/js-analyse.yaml) Nuclei template. Extract Data From JS ffile e.g key, endpoint, etc 
 - [Atlas Sql Tamper Suggester](https://github.com/m4ll0k/Atlas) Open source tool that can suggest sqlmap tampers to bypass WAF/IDS/IPS, the tool is based on returned status code
 - [Go Phish](https://getgophish.com/) Gophish is a powerful, open-source phishing framework that makes it easy to test your organization's exposure to phishing.
+- [Advanced SQL Injection](https://github.com/kleiton0x00/Advanced-SQL-Injection-Cheatsheet) A cheat sheet that contains advanced queries for SQL Injection of all types.
+- [Payload all the things](https://github.com/swisskyrepo/PayloadsAllTheThings) A list of useful payloads and bypass for Web Application Security and Pentest/CTF 
+- [Hack Tricks](https://book.hacktricks.xyz/) The great sites for pentesting and recon cheat sheet
 
 # Audio OSINT 
 
