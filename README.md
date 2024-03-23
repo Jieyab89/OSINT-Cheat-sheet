@@ -1337,6 +1337,7 @@ Google queries for MySpace
 - [tiktok API](https://pypi.org/project/TikTokApi/)
 - [tiktok hastag analysis](https://github.com/bellingcat/tiktok-hashtag-analysis)
 - [tiktok date extract](https://bellingcat.github.io/tiktok-timestamp/)
+- [Gimenz tiktok downloader](https://github.com/Gimenz/tiktok-downloader)
 
 # Parler 
 
@@ -2481,6 +2482,7 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Web copilot](https://github.com/h4r5h1t/webcopilot) An automation tool that enumerates subdomains then filters out xss, sqli, open redirect, lfi, ssrf and rce parameters
 - [Nuclei template js template](https://github.com/ayadim/Nuclei-bug-hunter/blob/main/file/web/js/js-analyse.yaml) Nuclei template. Extract Data From JS ffile e.g key, endpoint, etc 
 - [Atlas Sql Tamper Suggester](https://github.com/m4ll0k/Atlas) Open source tool that can suggest sqlmap tampers to bypass WAF/IDS/IPS, the tool is based on returned status code
+- [Go Phish](https://getgophish.com/) Gophish is a powerful, open-source phishing framework that makes it easy to test your organization's exposure to phishing.
 
 # Audio OSINT 
 
