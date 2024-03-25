@@ -481,6 +481,7 @@ You can find the file hash or other threat indicator
 - [Dorklab](https://github.com/rtwillett/DorkLab)
 - [Ominis-Osint](https://github.com/AnonCatalyst/Ominis-Osint)
 - [Go Dork](https://github.com/dwisiswant0/go-dork)
+- [Dorkish](https://github.com/yousseflahouifi/dorkish)
 
 # Dorking
 
@@ -2487,6 +2488,7 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Advanced SQL Injection](https://github.com/kleiton0x00/Advanced-SQL-Injection-Cheatsheet) A cheat sheet that contains advanced queries for SQL Injection of all types.
 - [Payload all the things](https://github.com/swisskyrepo/PayloadsAllTheThings) A list of useful payloads and bypass for Web Application Security and Pentest/CTF 
 - [Hack Tricks](https://book.hacktricks.xyz/) The great sites for pentesting and recon cheat sheet
+- [GAP-Burp-Extension](https://github.com/xnl-h4ck3r/GAP-Burp-Extension) Burp Extension to find potential endpoints, parameters, and generate a custom target wordlist
 
 # Audio OSINT 
 
