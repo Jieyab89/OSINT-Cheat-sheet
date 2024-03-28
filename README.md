@@ -285,6 +285,8 @@ Be carefull using this tool
 - [WEB Check](https://web-check.xyz/)
 - [brightcloud ip lookup](https://www.brightcloud.com/tools/url-ip-lookup.php)
 - [Url Filltering](https://urlfiltering.paloaltonetworks.com/)
+- [Katana](https://github.com/projectdiscovery/katana)
+- [chiasmod0n](https://github.com/chiasmod0n/chiasmodon?tab=readme-ov-file)
 
 # Analysing URLs
 
@@ -866,6 +868,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [swisscows](https://swisscows.com/en)
 - [odp](http://www.odp.org/homepage.php)
 - [Yiipy Search](https://www.yippysearchengine.com/)
+- [webarchiveviewer](https://cybdetective.com/webarchiveviewer/)
 
 # Internet Archive
 
@@ -884,6 +887,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Archive Today](https://archive.is/)
 - [Wayback Downloader](https://github.com/hartator/wayback-machine-downloader)
 - [How to archive tele content](https://www.bellingcat.com/resources/how-tos/2022/03/08/how-to-archive-telegram-content-to-document-russias-invasion-of-ukraine/)
+- [webarchiveviewer](https://cybdetective.com/webarchiveviewer/)
 
 # Data Breached OSINT
 
@@ -976,6 +980,7 @@ This domain will always change
 - [Provenexpert](https://www.provenexpert.com/)
 - [SIMPU RI](https://umrahcerdas.kemenag.go.id/)
 - [collegerecruiter](https://www.collegerecruiter.com/)
+- [corporationwiki](https://www.corporationwiki.com/)
 
 # People Searching
 
