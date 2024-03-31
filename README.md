@@ -944,7 +944,6 @@ This domain will always change
 - [Darkfeed](https://darkfeed.io/)
 - [Torch](xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega?P=)
 - [Onionsearch](https://github.com/megadose/OnionSearch)
-- [Darkweeb w Google](https://www.google.com/#q=%22enter+search+term%22+site:onion.to)
 - [Darknet Book](https://github.com/darknet-book/tor-guide)
 
 # Tracking Website Changes
@@ -1411,6 +1410,7 @@ Google queries for MySpace
 - [Email-Analytics](https://emailanalytics.com/email-headers/)
 - [Email Header Analisis Toolbox](https://toolbox.googleapps.com/apps/messageheader/)
 - [Sherlock Eye](https://sherlockeye.io/)
+- [Ghunt](https://github.com/mxrch/GHunt)
 
 # Shodan Query Options
 
@@ -1813,6 +1813,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [BMKG RI](https://www.bmkg.go.id/)
 - [GIS INA](https://tanahair.indonesia.go.id/portal-web/)
 - [Kpler](https://www.kpler.com/)
+- [wanderlog review on Google maps](https://wanderlog.com/)
 
 # Nearby Map From Geospatial
 
@@ -1820,6 +1821,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [tripadvisor](https://www.tripadvisor.com/)
 - [booking](booking.com)
 - [agoda](agoda.com)
+- [wanderlog review on Google maps](https://wanderlog.com/)
 
 # Fact Checking
 
@@ -2094,6 +2096,7 @@ Social Network and blogging
 - [Planet - satellite maps](https://www.planet.com/products/)
 - [OSM Finder](https://github.com/Xetnus/osm-finder)
 - [OSM Finder - Web based](https://osm-finder.netlify.app/)
+- [wanderlog review on Google maps](https://wanderlog.com/)
 
 # Discord Server Search  
 
@@ -2669,3 +2672,13 @@ Search News and Documentary Sites
 - [keyworddiscovery](https://www.keyworddiscovery.com/)
 - [Yandex Trends](https://wordstat.yandex.com/)
 - [Wordtracker](https://www.wordtracker.com/)
+
+# Threat Actor & Criminal 
+
+- [eumostwanted EU](https://eumostwanted.eu/)
+- [nationalcrimeagency UK](https://www.nationalcrimeagency.gov.uk/most-wanted)
+- [FBI Most Wanted](https://web.archive.org/web/20030315000000*/https://www.fbi.gov/wanted/cyber)
+- [secretservice](https://www.secretservice.gov/investigations/mostwanted)
+- [pusiknas Polri ID](https://pusiknas.polri.go.id/dpo)
+- [kejaksaan ID](https://pelayanan.kejaksaan.go.id/layanan/permohonan/dpo)
+- [reskrimum Polri ID](https://web.archive.org/web/20220124010657/https://reskrimum.metro.polri.go.id/dpo/)
