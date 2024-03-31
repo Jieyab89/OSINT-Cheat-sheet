@@ -1814,6 +1814,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [GIS INA](https://tanahair.indonesia.go.id/portal-web/)
 - [Kpler](https://www.kpler.com/)
 - [wanderlog review on Google maps](https://wanderlog.com/)
+- [planet](https://www.planet.com/)
 
 # Nearby Map From Geospatial
 
@@ -1847,6 +1848,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [Testssl](https://testssl.sh/)
 - [Nesus](https://www.tenable.com/products/nessus)
 - [securitytrails](https://securitytrails.com/)
+- [SSL Scan](https://www.kali.org/tools/sslscan/)
 
 # CTF Analysis & Exploit
 
@@ -2564,6 +2566,7 @@ Detect a fake network and VPN
 - [Global Conflict](https://www.cfr.org/global-conflict-tracker)
 - [Google Public Data](https://www.google.com/publicdata/directory)
 - [huntintel](https://www.huntintel.io/)
+- [planet](https://www.planet.com/)
 
 # Academic Search Tools
 
