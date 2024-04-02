@@ -123,6 +123,8 @@ Be carefull using this tool
 # Collection Dataset
 
 - [Kaggle](https://www.kaggle.com/)
+- [RAPID API Collection](https://rapidapi.com/hub)
+- [Exploit Database](https://www.exploit-db.com/google-hacking-database)
 - [AWS open data](https://registry.opendata.aws/)
 - [Open Network](http://www.opendatanetwork.com/)
 - [WHO Data](https://www.who.int/data/gho/)
@@ -146,13 +148,15 @@ Be carefull using this tool
 - [Bellingcat Discord](https://discord.com/invite/nTaNPmz)
 - [Independent OSINT](https://discord.com/invite/2DGJ2EC)
 - [OSINT.Team](https://osint.team)
-- [Seccodeid](https://forum.seccodeid.com/category/osint)
+- [Seccodeid Forum](https://forum.seccodeid.com/category/osint)
 - [Reddit OSINT](https://www.reddit.com/r/OSINT)
 - [TraceLabs Discord](https://discord.com/invite/Rn8z2QNAD9)
 - [IntelTechniques](https://inteltechniques.com/)
 - [Google Group](https://groups.google.com/?pli=1)
 - [4Chan](https://4chansearch.com/)
 - [boardreader](https://boardreader.com/)
+- [maltego](https://www.maltego.com/categories/osint/)
+- [offensiveosint](https://www.offensiveosint.io/)
 
 # General Search
 
@@ -287,6 +291,9 @@ Be carefull using this tool
 - [Url Filltering](https://urlfiltering.paloaltonetworks.com/)
 - [Katana](https://github.com/projectdiscovery/katana)
 - [chiasmod0n](https://github.com/chiasmod0n/chiasmodon?tab=readme-ov-file)
+- [redirectdetective](https://redirectdetective.com/)
+- [wheregoes](https://wheregoes.com/)
+- [spyoffers](https://www.spyoffers.com/)
 
 # Analysing URLs
 
@@ -313,6 +320,9 @@ Be carefull using this tool
 - [URL Haus](https://urlhaus.abuse.ch/)
 - [Expand Url](https://www.expandurl.net/)
 - [Tiny Scan](https://www.tiny-scan.com)
+- [redirectdetective](https://redirectdetective.com/)
+- [wheregoes](https://wheregoes.com/)
+- [spyoffers](https://www.spyoffers.com/)
 
 # Researching Cyber Threats
 
@@ -484,6 +494,7 @@ You can find the file hash or other threat indicator
 - [Ominis-Osint](https://github.com/AnonCatalyst/Ominis-Osint)
 - [Go Dork](https://github.com/dwisiswant0/go-dork)
 - [Dorkish](https://github.com/yousseflahouifi/dorkish)
+- [Dork Collection](https://github.com/cipher387/Dorks-collections-list?tab=readme-ov-file)
 
 # Dorking
 
@@ -1078,6 +1089,8 @@ This domain will always change
 - [Alfred](https://github.com/Alfredredbird/alfred)
 - [Blackbird](https://github.com/p1ngul1n0/blackbird)
 - [Bellingcat Username](https://bellingcat.github.io/name-variant-search/#gsc.tab=0)
+- [whatsmyname](https://whatsmyname.app/)
+- [holehe](https://github.com/megadose/holehe)
 
 # Social Networks
 
@@ -1165,6 +1178,28 @@ or you can use dork for spesific example
 - [Skopenow FB Hunter](https://www.skopenow.com/)
 - [Facebook Data Breach Cheker](https://haveibeenzuckered.com/)
 
+# OnlyFans
+
+- [fansmetrics](https://fansmetrics.com/)
+- [onlysearch](https://onlysearch.co/)
+- [onlyfinder](https://onlyfinder.com/)
+- [onlyfans search](https://hubite.com/en/onlyfans-search/)
+- [fansearch](https://www.fansearch.com/)
+
+# Steam 
+
+- [STEAM DB](https://steamdb.info/calculator/)
+- [Steam OSINT tool](https://github.com/matiash26/Steam-OSINT-TOOL)
+
+# Slack 
+
+- [SlackPirate](https://github.com/emtunc/SlackPirate)
+
+# Office365
+
+- [Oh365UserFinder](https://github.com/dievus/Oh365UserFinder)
+- [o365chk](https://github.com/nixintel/o365chk)
+
 # Instagram
 
 - [Hashtagify](http://hashtagify.me)
@@ -1186,6 +1221,10 @@ or you can use dork for spesific example
 - [Storistalker](https://storistalker.com/#back)
 - [instahunt](https://instahunt.co/)
 - [Sterraxcyl IG Profiler](https://github.com/novitae/sterraxcyl)
+
+# Microsoft OneDrive 
+
+- [Onedrive enum](https://github.com/nyxgeek/onedrive_user_enum)
 
 # Pinterest
 
@@ -1211,6 +1250,7 @@ or you can use dork for spesific example
 - [watchframebyframe](http://www.watchframebyframe.com/)
 - [YT Mtedata](https://mattw.io/youtube-metadata/)
 - [TY Geo Find](https://mattw.io/youtube-geofind/)
+- [YT chat downloader](https://github.com/xenova/chat-downloader)
 
 # Twitter
 
@@ -1368,6 +1408,7 @@ Google queries for MySpace
 - [labs.tib.eu](https://labs.tib.eu/geoestimation/)
 - [imago-forensics](https://github.com/redaelli/imago-forensics)
 - [Renrot Exif](https://github.com/andy-shev/RenRot)
+- [Geotag](https://vsudo.net/tools/geotag)
 
 # Documents
 
@@ -1599,6 +1640,7 @@ Search channel, username anymore
 - [Amazon Face Recon](https://aws.amazon.com/getting-started/hands-on/detect-analyze-compare-faces-rekognition/)
 - [VGG Image Search Engine (VISE)](https://robots.ox.ac.uk/~vgg/software/vise/)
 - [Fake face detector](https://seintpl.github.io/AmIReal/)
+- [Telegram Face Match Bot](https://t.me/facematch_bot)
 
 # Image Analysis
 
@@ -1640,6 +1682,7 @@ Search channel, username anymore
 - [GeoSpy](https://geospy.web.app/)
 - [DiffChecker](https://www.diffchecker.com/image-diff/)
 - [ImgOps](https://imgops.com/)
+- [Telegram Face Match Bot](https://t.me/facematch_bot)
 
 # Stock Images
 
@@ -1702,6 +1745,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [airportwebcams](https://airportwebcams.net/)
 - [Earthcam](https://www.earthcam.com/#google_vignette)
 - [tvway](http://tvway.ru/)
+- [unscreen](https://www.unscreen.com/)
 
 # Geospatial Research and Mapping Tools
 
@@ -1815,6 +1859,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Kpler](https://www.kpler.com/)
 - [wanderlog review on Google maps](https://wanderlog.com/)
 - [planet](https://www.planet.com/)
+- [NBR Map](https://map.nbr.org/interactivemap/)
 
 # Nearby Map From Geospatial
 
@@ -1952,6 +1997,7 @@ Desktop NET debugger and assembly editor
 - [Blockhain Explorer](https://www.blockexplorer.com/l/en-US/)
 - [blockcypher](https://live.blockcypher.com/)
 - [BTC Scan](https://btcscan.org/)
+- [TON of privacy](https://github.com/aaarghhh/a_TON_of_privacy)
 
 # Cell Investigation
 
@@ -2010,6 +2056,9 @@ WhatsApp
 - [Download WhatsApp Profile Picture](https://watools.io/download-profile-picture)
 - [WhatsApp Group Links 2](https://whatsappgroup.info/)
 - [Wa tools](https://watools.io/)
+- [whatsanalyze](https://whatsanalyze.com/)
+- [chatvisualizer](https://chatvisualizer.com/)
+- [WaGpScraper](https://github.com/riz4d/WaGpScraper)
 
 Telegram
 
@@ -2054,6 +2103,10 @@ Build your sockpuppet account and proctect your privacy
 - [I2P](https://geti2p.net/en/)
 - [TOR](https://www.torproject.org/download/)
 - [Apple Kuncitara](https://support.apple.com/id-id/guide/iphone/iph049680987/ios)
+- [AI Vidio Maker](https://www.synthesia.io/free-ai-video-demo#OptimizedForSharing_New)
+- [deepfakesweb](https://deepfakesweb.com/)
+- [DeepFaceLive](https://github.com/iperov/DeepFaceLive)
+- [fakeinfo](https://fakeinfo.net/)
 
 Social Network and blogging
 
@@ -2455,11 +2508,17 @@ Strict and disable bot crawl search engine index account
 - [gisis](https://gisis.imo.org/Public/Default.aspx)
 - [WindWard](https://windward.ai/)
 - [Kpler](https://www.kpler.com/)
+- [Container tracking](http://container-tracking.org/)
 
 # Railways
 
 - [Open Railways](https://wiki.openstreetmap.org/wiki/OpenRailwayMap)
 - [Train Tracker](https://mobility.portal.geops.io/world.geops.transit?lang=en&layers=strassennamen,haltekanten,haltestellen,pois,world.geops.traviclive&x=810000&y=5900000&z=5.5)
+- [Yandex Train Map](https://rasp.yandex.ru/map/trains/)
+- [KAI ID](https://penumpang.kai.id/daop)
+- [KAI ID Map Railway](https://www.arcgis.com/apps/View/index.html?appid=27b7119dc6754d3e9e584a4fa71e5744)
+- [World Railway Train](https://mobility.portal.geops.io/world.geops.transit?layers=paerke,strassennamen,haltekanten,haltestellen,pois,world.geops.traviclive&x=12003263.13&y=-842145.41&z=7.98)
+- [Railway zugfinder](https://www.zugfinder.net/)
 
 # GPT OSINT 
 
@@ -2499,6 +2558,8 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Payload all the things](https://github.com/swisskyrepo/PayloadsAllTheThings) A list of useful payloads and bypass for Web Application Security and Pentest/CTF 
 - [Hack Tricks](https://book.hacktricks.xyz/) The great sites for pentesting and recon cheat sheet
 - [GAP-Burp-Extension](https://github.com/xnl-h4ck3r/GAP-Burp-Extension) Burp Extension to find potential endpoints, parameters, and generate a custom target wordlist
+- [Cloundflare](https://github.com/greycatz/CloudUnflare) Reconnaissance Real IP address for Cloudflare Bypass
+- [Cloudmare](https://github.com/MrH0wl/Cloudmare) Cloudflare, Sucuri, Incapsula real IP tracker.
 
 # Audio OSINT 
 
@@ -2512,6 +2573,10 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Sound classification with YAMNet](https://www.tensorflow.org/hub/tutorials/yamnet)
 - [Praat](https://www.fon.hum.uva.nl/praat/)
 - [phonexia](https://www.phonexia.com/use-case/audio-forensics-software/)
+- [SoundScrape](https://github.com/Miserlou/SoundScrape)
+- [Online loudness meter](https://youlean.co/online-loudness-meter/)
+- [soundeffectssearch](https://www.soundeffectssearch.com/advanced-search/)
+- [vocalremover](https://vocalremover.org/)
 
 Audio enchange quality  
 
@@ -2567,6 +2632,17 @@ Detect a fake network and VPN
 - [Google Public Data](https://www.google.com/publicdata/directory)
 - [huntintel](https://www.huntintel.io/)
 - [planet](https://www.planet.com/)
+- [NBR Map](https://map.nbr.org/interactivemap/)
+- [ADS B](https://www.ads-b.nl/)
+- [itamilradar](https://www.itamilradar.com/)
+- [info-res](https://www.info-res.org/)
+- [syria.liveuamap](https://syria.liveuamap.com/)
+- [NATO INT](https://www.nato.int/nato-on-the-map/)
+- [understandingwar](https://www.understandingwar.org/map-room)
+- [worldbeyondwar](https://worldbeyondwar.org/no-bases/)
+- [planefinder](https://planefinder.net/)
+- [WEB SDR](http://websdr.ewi.utwente.nl:8901/)
+- [Bellingcat Radar](https://ollielballinger.users.earthengine.app/view/bellingcat-radar-interference-tracker)
 
 # Academic Search Tools
 
@@ -2600,12 +2676,15 @@ Academic Literature
 - [map sdr points](https://rx-tx.info/map-sdr-points) 
 - [Airspy SDR RADIO](https://www.sdr-radio.com/airspy-server) 
 - [AirSpy MAP](https://airspy.com/directory/)
+- [WEB SDR](http://websdr.ewi.utwente.nl:8901/)
+- [Bellingcat Radar](https://ollielballinger.users.earthengine.app/view/bellingcat-radar-interference-tracker)
 
 # API for OSINT 
 
 Resources and collection for your make tool OSINT 
 
 - [API Resoruces OSINT - For Your Private Tool](https://github.com/cipher387/API-s-for-OSINT/blob/main/README.md) 
+- [API for OSINT](https://github.com/cipher387/API-s-for-OSINT)
 
 # Data Visualization
 
@@ -2685,3 +2764,21 @@ Search News and Documentary Sites
 - [pusiknas Polri ID](https://pusiknas.polri.go.id/dpo)
 - [kejaksaan ID](https://pelayanan.kejaksaan.go.id/layanan/permohonan/dpo)
 - [reskrimum Polri ID](https://web.archive.org/web/20220124010657/https://reskrimum.metro.polri.go.id/dpo/)
+
+# OSINT for Politics and Geopolitics
+
+OSINT politics and geopolitics, risk crisis
+
+- [civicus](https://monitor.civicus.org/)
+- [freedomhouse](https://freedomhouse.org/countries/freedom-world/scores)
+- [hunger map](https://hungermap.wfp.org/)
+- [native-land](https://native-land.ca/)
+- [riskmap](https://www.riskmap.com/)
+- [splcenter](https://www.splcenter.org/hate-map)
+- [safeairspace](https://safeairspace.net/)
+- [globaldetentionproject](https://www.globaldetentionproject.org/detention-centres/map-view)
+- [tasteatlas](https://www.tasteatlas.com/)
+
+# Maltego Transform List 
+
+- [Github cipher387 maltego transforms list](https://github.com/cipher387/maltego-transforms-list)
