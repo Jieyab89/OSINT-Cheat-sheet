@@ -956,6 +956,7 @@ This domain will always change
 - [Torch](xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega?P=)
 - [Onionsearch](https://github.com/megadose/OnionSearch)
 - [Darknet Book](https://github.com/darknet-book/tor-guide)
+- [I2P Download](https://geti2p.net/en/)
 
 # Tracking Website Changes
 
@@ -1998,6 +1999,8 @@ Desktop NET debugger and assembly editor
 - [blockcypher](https://live.blockcypher.com/)
 - [BTC Scan](https://btcscan.org/)
 - [TON of privacy](https://github.com/aaarghhh/a_TON_of_privacy)
+- [OXT](https://oxt.me/)
+- [etherscan](https://etherscan.io/)
 
 # Cell Investigation
 
@@ -2176,6 +2179,8 @@ Social Network and blogging
 - [Maltego](https://www.maltego.com/)
 - [Darknet Book](https://github.com/darknet-book/tor-guide)
 - [Onios Scan](https://github.com/s-rah/onionscan)
+- [Cyber Int Darkweb Intel Platform](https://cyberint.com/platform/threat-intelligence/)
+- [SOC Radar Darkweb Int Monitoring](https://socradar.io/products/dark-web-monitoring/)
 
 # Digital Forensics
 
@@ -2781,7 +2786,12 @@ OSINT politics and geopolitics, risk crisis
 - [safeairspace](https://safeairspace.net/)
 - [globaldetentionproject](https://www.globaldetentionproject.org/detention-centres/map-view)
 - [tasteatlas](https://www.tasteatlas.com/)
+- [global terrorism database](https://www.start.umd.edu/gtd/)
+- [start global terrorism database](https://www.start.umd.edu/)
+- [datasets global terrorism database Kaggle](https://www.kaggle.com/datasets/START-UMD/gtd)
 
 # Maltego Transform List 
 
+- [Offical Maltego Transform List](https://www.maltego.com/transform-hub/)
 - [Github cipher387 maltego transforms list](https://github.com/cipher387/maltego-transforms-list)
+
