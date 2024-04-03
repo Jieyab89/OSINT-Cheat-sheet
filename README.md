@@ -2211,6 +2211,7 @@ Social Network and blogging
 - [MOBSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) 
 - [RMS - Mobile Pentest](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security) 
 - [APK Leaks](https://github.com/dwisiswant0/apkleaks)
+- [forensictools](https://github.com/cristianzsh/forensictools)
 
 # Write Your Investigation
 
@@ -2560,6 +2561,7 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [GAP-Burp-Extension](https://github.com/xnl-h4ck3r/GAP-Burp-Extension) Burp Extension to find potential endpoints, parameters, and generate a custom target wordlist
 - [Cloundflare](https://github.com/greycatz/CloudUnflare) Reconnaissance Real IP address for Cloudflare Bypass
 - [Cloudmare](https://github.com/MrH0wl/Cloudmare) Cloudflare, Sucuri, Incapsula real IP tracker.
+- [emkei](https://emkei.cz/) Free online fake mailer with attachments spoof email 
 
 # Audio OSINT 
 
@@ -2764,6 +2766,7 @@ Search News and Documentary Sites
 - [pusiknas Polri ID](https://pusiknas.polri.go.id/dpo)
 - [kejaksaan ID](https://pelayanan.kejaksaan.go.id/layanan/permohonan/dpo)
 - [reskrimum Polri ID](https://web.archive.org/web/20220124010657/https://reskrimum.metro.polri.go.id/dpo/)
+- [reskrimum Metro Polri ID](https://reskrimum.metro.polri.go.id/dpo/)
 
 # OSINT for Politics and Geopolitics
 
