@@ -2507,6 +2507,8 @@ Strict and disable bot crawl search engine index account
 - [Live ATC](https://www.liveatc.net/)
 - [planespotters](https://www.planespotters.net/)
 - [globe plane](https://globe.adsbexchange.com/)
+- [theaviationist](https://theaviationist.com/)
+- [airrecognition](https://airrecognition.com/index.php)
 
 # Ship Tracking
 
@@ -2517,6 +2519,7 @@ Strict and disable bot crawl search engine index account
 - [WindWard](https://windward.ai/)
 - [Kpler](https://www.kpler.com/)
 - [Container tracking](http://container-tracking.org/)
+- [marineteacher](https://www.marineteacher.com/)
 
 # Railways
 
@@ -2652,6 +2655,7 @@ Detect a fake network and VPN
 - [planefinder](https://planefinder.net/)
 - [WEB SDR](http://websdr.ewi.utwente.nl:8901/)
 - [Bellingcat Radar](https://ollielballinger.users.earthengine.app/view/bellingcat-radar-interference-tracker)
+- [airrecognition](https://airrecognition.com/index.php)
 
 # Academic Search Tools
 
@@ -2757,6 +2761,7 @@ Search News and Documentary Sites
 - [MagPortal](http://www.magportal.com/)
 - [Flipboard](https://flipboard.com/)
 - [aljazeera](https://www.aljazeera.com/)
+- [apnews](https://apnews.com/hub/israel-hamas-war)
 
 # OSINT Keyword 
 
@@ -2798,3 +2803,6 @@ OSINT politics and geopolitics, risk crisis
 - [Offical Maltego Transform List](https://www.maltego.com/transform-hub/)
 - [Github cipher387 maltego transforms list](https://github.com/cipher387/maltego-transforms-list)
 
+# OSINT Wildlife 
+
+- [SIKU](https://siku.org/project-management)
