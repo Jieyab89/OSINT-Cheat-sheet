@@ -2505,6 +2505,8 @@ Strict and disable bot crawl search engine index account
 - [adsbexchange](https://globe.adsbexchange.com/)
 - [Planefinder](https://planefinder.net/)
 - [Live ATC](https://www.liveatc.net/)
+- [planespotters](https://www.planespotters.net/)
+- [globe plane](https://globe.adsbexchange.com/)
 
 # Ship Tracking
 
@@ -2754,6 +2756,7 @@ Search News and Documentary Sites
 - [Google News](https://news.google.com/)
 - [MagPortal](http://www.magportal.com/)
 - [Flipboard](https://flipboard.com/)
+- [aljazeera](https://www.aljazeera.com/)
 
 # OSINT Keyword 
 
