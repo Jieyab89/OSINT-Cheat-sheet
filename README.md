@@ -294,6 +294,7 @@ Be carefull using this tool
 - [redirectdetective](https://redirectdetective.com/)
 - [wheregoes](https://wheregoes.com/)
 - [spyoffers](https://www.spyoffers.com/)
+- [Web Leaked Credentials](https://github.com/h4x0r-dz/Leaked-Credentials/)
 
 # Analysing URLs
 
@@ -2217,6 +2218,7 @@ Social Network and blogging
 - [RMS - Mobile Pentest](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security) 
 - [APK Leaks](https://github.com/dwisiswant0/apkleaks)
 - [forensictools](https://github.com/cristianzsh/forensictools)
+- [VolWeb](https://github.com/k1nd0ne/VolWeb)
 
 # Write Your Investigation
 
