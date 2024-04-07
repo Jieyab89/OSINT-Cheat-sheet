@@ -398,6 +398,7 @@ Be carefull using this tool
 - [Wanna Browser Sandbox](https://www.wannabrowser.net/)
 - [pestudio](https://www.winitor.com/download)
 - [procmon](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)
+- [C2-Tracker](https://github.com/montysecurity/C2-Tracker)
 
 # IoT Search Engines
 
@@ -1685,6 +1686,8 @@ Search channel, username anymore
 - [DiffChecker](https://www.diffchecker.com/image-diff/)
 - [ImgOps](https://imgops.com/)
 - [Telegram Face Match Bot](https://t.me/facematch_bot)
+- [picarta](https://picarta.ai/)
+- [huggingface](https://huggingface.co/)
 
 # Stock Images
 
@@ -1862,6 +1865,22 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [wanderlog review on Google maps](https://wanderlog.com/)
 - [planet](https://www.planet.com/)
 - [NBR Map](https://map.nbr.org/interactivemap/)
+- [geohints](https://geohints.com/)
+- [geotips](https://geotips.net/)
+- [shademap](https://shademap.app/)
+- [shadowmap](https://shadowmap.org/)
+- [livingatlas wayback](https://livingatlas.arcgis.com/wayback)
+- [livingatlas wayback Guide](https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/mapping/use-world-imagery-wayback/)
+- [supermapol](https://www.supermapol.com/)
+- [supermapol docs](https://doc.supermapol.com/en/Introduction/Introduction.html)
+- [gpsjam](https://gpsjam.org/)
+- [freemaptools](https://www.freemaptools.com/)
+- [bbbike](https://mc.bbbike.org/mc/)
+- [geojson](https://geojson.io/)
+- [mooncalc](https://www.mooncalc.org/)
+- [urbanaccessregulations](https://urbanaccessregulations.eu/userhome/map)
+- [mapsm](https://mapsm.com/)
+- [picarta](https://picarta.ai/)
 
 # Nearby Map From Geospatial
 
@@ -2219,6 +2238,7 @@ Social Network and blogging
 - [APK Leaks](https://github.com/dwisiswant0/apkleaks)
 - [forensictools](https://github.com/cristianzsh/forensictools)
 - [VolWeb](https://github.com/k1nd0ne/VolWeb)
+- [C2-Tracker](https://github.com/montysecurity/C2-Tracker)
 
 # Write Your Investigation
 
@@ -2511,6 +2531,7 @@ Strict and disable bot crawl search engine index account
 - [globe plane](https://globe.adsbexchange.com/)
 - [theaviationist](https://theaviationist.com/)
 - [airrecognition](https://airrecognition.com/index.php)
+- [gpsjam](https://gpsjam.org/)
 
 # Ship Tracking
 
@@ -2574,6 +2595,7 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Cloundflare](https://github.com/greycatz/CloudUnflare) Reconnaissance Real IP address for Cloudflare Bypass
 - [Cloudmare](https://github.com/MrH0wl/Cloudmare) Cloudflare, Sucuri, Incapsula real IP tracker.
 - [emkei](https://emkei.cz/) Free online fake mailer with attachments spoof email 
+- [GraphSpy](https://github.com/RedByte1337/GraphSpy) Initial Access and Post-Exploitation Tool for AAD and O365 with a browser-based GUI
 
 # Audio OSINT 
 
@@ -2658,6 +2680,10 @@ Detect a fake network and VPN
 - [WEB SDR](http://websdr.ewi.utwente.nl:8901/)
 - [Bellingcat Radar](https://ollielballinger.users.earthengine.app/view/bellingcat-radar-interference-tracker)
 - [airrecognition](https://airrecognition.com/index.php)
+- [gpsjam](https://gpsjam.org/)
+- [freemaptools](https://www.freemaptools.com/)
+- [earthobservatory NASA](https://earthobservatory.nasa.gov/global-maps)
+- [mooncalc](https://www.mooncalc.org/)
 
 # Academic Search Tools
 
@@ -2808,3 +2834,7 @@ OSINT politics and geopolitics, risk crisis
 # OSINT Wildlife 
 
 - [SIKU](https://siku.org/project-management)
+
+# OSINT Satellite
+
+- [esri](https://geoxc-apps.bd.esri.com/)
