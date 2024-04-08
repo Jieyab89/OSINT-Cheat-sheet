@@ -209,7 +209,8 @@ Be carefull using this tool
 - [Awario](https://awario.com)
 - [Brand24](https://brand24.com)
 - [Samdesk](https://www.samdesk.io)
-- [Social Links](https://www.mtg-bi.com)
+- [Maltego social links](https://www.maltego.com/transform-hub/social-links-ce/)
+- [Maltego Social Links Pro](https://www.maltego.com/transform-hub/social-links-pro/)
 - [Social Searcher](https://www.social-searcher.com/)
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
 - [SNSCRAPE - Scraper](https://github.com/JustAnotherArchivist/snscrape)
@@ -924,6 +925,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Facebook Data Breach Cheker](https://haveibeenzuckered.com/)
 - [pwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot)
 - [Intel471](https://intel471.com/)
+- [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
 
 # Crack Jurnals
 
@@ -994,6 +996,7 @@ This domain will always change
 - [SIMPU RI](https://umrahcerdas.kemenag.go.id/)
 - [collegerecruiter](https://www.collegerecruiter.com/)
 - [corporationwiki](https://www.corporationwiki.com/)
+- [Maltego social links](https://www.maltego.com/transform-hub/social-links-ce/)
 
 # People Searching
 
@@ -1020,6 +1023,7 @@ This domain will always change
 - [bandcamp](https://bandcamp.com/)
 - [Sherlock Eye](https://sherlockeye.io/)
 - [NIK PARSE](https://github.com/bachors/nik_parse.js?tab=readme-ov-file#nik_parsejs)
+- [Maltego Social Links Pro](https://www.maltego.com/transform-hub/social-links-pro/)
 
 # Phone Numbers
 
@@ -1423,6 +1427,7 @@ Google queries for MySpace
 - [Tools pdf24](https://tools.pdf24.org/en/extract-images)
 - [ArchivEye](https://github.com/eastrd/ArchivEye)
 - [Fdupes](https://github.com/adrianlopezroche/fdupes)
+- [kaseware search query](https://www.kaseware.com/search-query)
 
 # Email Tracking
 
@@ -1881,6 +1886,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [urbanaccessregulations](https://urbanaccessregulations.eu/userhome/map)
 - [mapsm](https://mapsm.com/)
 - [picarta](https://picarta.ai/)
+- [Kaseware Geospatial](https://www.kaseware.com/geospatial-analysis-software)
 
 # Nearby Map From Geospatial
 
@@ -2021,6 +2027,8 @@ Desktop NET debugger and assembly editor
 - [TON of privacy](https://github.com/aaarghhh/a_TON_of_privacy)
 - [OXT](https://oxt.me/)
 - [etherscan](https://etherscan.io/)
+- [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
+- [Maltego Social Links Pro](https://www.maltego.com/transform-hub/social-links-pro/)
 
 # Cell Investigation
 
@@ -2290,6 +2298,7 @@ Password Manager
 - [OpenCNAM](https://docs.maltego.com/support/solutions/articles/15000045282-maltego-opencnam-transforms)
 - [Fullcontact](https://www.fullcontact.com/)
 - [Spam Calls](https://spamcalls.net/en/)
+- [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
 
 # Content Removal & Strict Media Content
 
@@ -2776,6 +2785,8 @@ Resources and collection for your make tool OSINT
 - [SPAM Check Score](https://www.dapachecker.org/spam-score-checker)
 - [MOZ Spam Check](https://moz.com/help/link-explorer/link-building/spam-score)
 - [NIK PARSE](https://github.com/bachors/nik_parse.js?tab=readme-ov-file#nik_parsejs)
+- [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
+- [Kaseware](https://www.kaseware.com/link-analysis)
 
 # NEWS OSINT
 
@@ -2808,6 +2819,7 @@ Search News and Documentary Sites
 - [kejaksaan ID](https://pelayanan.kejaksaan.go.id/layanan/permohonan/dpo)
 - [reskrimum Polri ID](https://web.archive.org/web/20220124010657/https://reskrimum.metro.polri.go.id/dpo/)
 - [reskrimum Metro Polri ID](https://reskrimum.metro.polri.go.id/dpo/)
+- [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
 
 # OSINT for Politics and Geopolitics
 
