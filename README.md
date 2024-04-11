@@ -2801,10 +2801,11 @@ Resources and collection for your make tool OSINT
 - [Minerba ESDM ID](https://momi.minerba.esdm.go.id/gisportal/home/)
 - [MODI ID](https://modi.esdm.go.id/portal/dataPerusahaan)
 - [HAKI ID](https://pdki-indonesia.dgip.go.id/search?type=trademark&keyword=)
+- [Katadata ID](https://databoks.katadata.co.id/)
 
 # NEWS OSINT
 
-Search News and Documentary Sites 
+Search News Journalist and Documentary Sites 
 
 - [Glanlaw](https://www.glanlaw.org/)
 - [Bellingcat](bellingcat.com)
@@ -2815,6 +2816,9 @@ Search News and Documentary Sites
 - [Flipboard](https://flipboard.com/)
 - [aljazeera](https://www.aljazeera.com/)
 - [apnews](https://apnews.com/hub/israel-hamas-war)
+- [unocha](https://www.unocha.org/)
+- [narasi ID](https://narasi.tv/)
+- [katadata ID](https://katadata.co.id/)
 
 # OSINT Keyword 
 
