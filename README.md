@@ -997,6 +997,13 @@ This domain will always change
 - [collegerecruiter](https://www.collegerecruiter.com/)
 - [corporationwiki](https://www.corporationwiki.com/)
 - [Maltego social links](https://www.maltego.com/transform-hub/social-links-ce/)
+- [indokontraktor ID](https://indokontraktor.com/)
+- [opentender ID](https://opentender.net/)
+- [lpse lkpp ID](https://lpse.lkpp.go.id/eproc4)
+- [ahu ID](https://ahu.go.id/pencarian/profil-pt)
+- [Minerba ESDM ID](https://momi.minerba.esdm.go.id/gisportal/home/)
+- [MODI ID](https://modi.esdm.go.id/portal/dataPerusahaan)
+- [Minerba ESDM ID Map](https://momi.minerba.esdm.go.id/public/)
 
 # People Searching
 
@@ -2787,6 +2794,11 @@ Resources and collection for your make tool OSINT
 - [NIK PARSE](https://github.com/bachors/nik_parse.js?tab=readme-ov-file#nik_parsejs)
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
 - [Kaseware](https://www.kaseware.com/link-analysis)
+- [opentender ID](https://opentender.net/)
+- [lpse lkpp ID](https://lpse.lkpp.go.id/eproc4)
+- [ahu ID](https://ahu.go.id/pencarian/profil-pt)
+- [Minerba ESDM ID](https://momi.minerba.esdm.go.id/gisportal/home/)
+- [MODI ID](https://modi.esdm.go.id/portal/dataPerusahaan)
 
 # NEWS OSINT
 
