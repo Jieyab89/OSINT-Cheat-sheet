@@ -960,7 +960,6 @@ This domain will always change
 - [Torch](xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega?P=)
 - [Onionsearch](https://github.com/megadose/OnionSearch)
 - [Darknet Book](https://github.com/darknet-book/tor-guide)
-- [I2P Download](https://geti2p.net/en/)
 
 # Tracking Website Changes
 
@@ -2217,6 +2216,7 @@ Social Network and blogging
 - [Onios Scan](https://github.com/s-rah/onionscan)
 - [Cyber Int Darkweb Intel Platform](https://cyberint.com/platform/threat-intelligence/)
 - [SOC Radar Darkweb Int Monitoring](https://socradar.io/products/dark-web-monitoring/)
+- [I2P Download](https://geti2p.net/en/)
 
 # Digital Forensics
 
@@ -2224,7 +2224,6 @@ Social Network and blogging
 - [MISP](https://www.misp-project.org/)
 - [Maltego](https://www.maltego.com/)
 - [Filesec](https://filesec.io/)
-- [Lolbas](https://lolbas-project.github.io/)
 - [Logstash kibana](https://www.elastic.co/logstash/)
 - [Kibana](https://www.elastic.co/kibana/)
 - [Extundelete Ext3 or ext4 partition recovery](https://extundelete.sourceforge.net/)
@@ -2255,6 +2254,13 @@ Social Network and blogging
 - [forensictools](https://github.com/cristianzsh/forensictools)
 - [VolWeb](https://github.com/k1nd0ne/VolWeb)
 - [C2-Tracker](https://github.com/montysecurity/C2-Tracker)
+- [Wanna Browser Sandbox](https://www.wannabrowser.net/)
+- [pestudio](https://www.winitor.com/download)
+- [procmon](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)
+- [IoC Editor](https://fireeye.market/apps/S7cWpi9W)
+- [Gfobins](https://gtfobins.github.io/)
+- [Lolbas](https://lolbas-project.github.io/)
+- [Loonbins](https://www.loobins.io/tactics/collection/)
 
 # Write Your Investigation
 
@@ -2614,6 +2620,14 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [emkei](https://emkei.cz/) Free online fake mailer with attachments spoof email 
 - [GraphSpy](https://github.com/RedByte1337/GraphSpy) Initial Access and Post-Exploitation Tool for AAD and O365 with a browser-based GUI
 
+Privilage Escalation Cheat and check
+
+- [Gfobins](https://gtfobins.github.io/) Awesome privilage escalation cheat and checklist
+- [Lolbas](https://lolbas-project.github.io/) Awesome privilage escalation cheat and checklist
+- [Loonbins](https://www.loobins.io/tactics/collection/) Awesome privilage escalation cheat and checklist
+- [Mac OS privilage escalation](https://book.hacktricks.xyz/macos-hardening/macos-security-and-privilege-escalation) Awesome privilage escalation cheat and checklist
+- [PEASS NG](https://github.com/peass-ng/PEASS-ng) Awesome automatic enum for privilage escalation cheat and checklist
+ 
 # Audio OSINT 
 
 - [Audio metadata](https://github.com/tmont/audio-metadata)
