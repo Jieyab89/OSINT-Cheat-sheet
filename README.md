@@ -1004,6 +1004,7 @@ This domain will always change
 - [Minerba ESDM ID](https://momi.minerba.esdm.go.id/gisportal/home/)
 - [MODI ID](https://modi.esdm.go.id/portal/dataPerusahaan)
 - [Minerba ESDM ID Map](https://momi.minerba.esdm.go.id/public/)
+- [HAKI ID](https://pdki-indonesia.dgip.go.id/search?type=trademark&keyword=)
 
 # People Searching
 
@@ -2799,6 +2800,7 @@ Resources and collection for your make tool OSINT
 - [ahu ID](https://ahu.go.id/pencarian/profil-pt)
 - [Minerba ESDM ID](https://momi.minerba.esdm.go.id/gisportal/home/)
 - [MODI ID](https://modi.esdm.go.id/portal/dataPerusahaan)
+- [HAKI ID](https://pdki-indonesia.dgip.go.id/search?type=trademark&keyword=)
 
 # NEWS OSINT
 
