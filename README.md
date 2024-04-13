@@ -490,6 +490,7 @@ You can find the file hash or other threat indicator
 - [flashpoint](https://flashpoint.io/)
 - [pestudio](https://www.winitor.com/download)
 - [procmon](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)
+- [zerofox](https://www.zerofox.com/platform/)
 
 # Automation Dorking 
 
@@ -2217,6 +2218,7 @@ Social Network and blogging
 - [Cyber Int Darkweb Intel Platform](https://cyberint.com/platform/threat-intelligence/)
 - [SOC Radar Darkweb Int Monitoring](https://socradar.io/products/dark-web-monitoring/)
 - [I2P Download](https://geti2p.net/en/)
+- [zerofox](https://www.zerofox.com/platform/)
 
 # Digital Forensics
 
@@ -2330,6 +2332,7 @@ Check the detail on [here](https://support.google.com/websearch/troubleshooter/3
 Check the detail [here](https://help.archive.org/help/removing-your-item-pages-from-archive-org/) and [here](https://www.joshualowcock.com/guide/how-to-delete-your-site-from-the-internet-archive-wayback-machine-archive-org/) view detail on [Help web archive](https://help.archive.org/)
 - [Facebook Privacy](https://www.facebook.com/help/124518907626945)
 Strict and disable bot crawl search engine index account
+- [zerofox](https://www.zerofox.com/) From threat intelligence to brand and domain protection to rapid response DISRUPTION & TAKEDOWNS
 - [Instagram Privacy](https://help.instagram.com/147542625391305)
 Strict and disable bot crawl search engine index account
 - [Missing Kids](https://www.missingkids.org/gethelpnow/isyourexplicitcontentoutthere) Remove nudes or sexually-exploitive images or videos taken when you were a child out there on the internet
@@ -2816,6 +2819,7 @@ Resources and collection for your make tool OSINT
 - [MODI ID](https://modi.esdm.go.id/portal/dataPerusahaan)
 - [HAKI ID](https://pdki-indonesia.dgip.go.id/search?type=trademark&keyword=)
 - [Katadata ID](https://databoks.katadata.co.id/)
+- [pddikti ID](https://pddikti.kemdikbud.go.id/)
 
 # NEWS OSINT
 
@@ -2852,6 +2856,7 @@ Search News Journalist and Documentary Sites
 - [reskrimum Polri ID](https://web.archive.org/web/20220124010657/https://reskrimum.metro.polri.go.id/dpo/)
 - [reskrimum Metro Polri ID](https://reskrimum.metro.polri.go.id/dpo/)
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
+- [stealthmole](https://www.stealthmole.com/)
 
 # OSINT for Politics and Geopolitics
 
@@ -2881,4 +2886,10 @@ OSINT politics and geopolitics, risk crisis
 
 # OSINT Satellite
 
-- [esri](https://geoxc-apps.bd.esri.com/)
+- [ESRI](https://geoxc-apps.bd.esri.com/)
+- [n2yo](https://www.n2yo.com/)
+- [satellitemap](https://satellitemap.space/?constellation=starlink)
+- [planet](https://www.planet.com/)
+- [space track](https://www.space-track.org/auth/login)
+- [google earth](https://earth.google.com/)
+- [satellitetracker](https://satellitetracker.net/)
