@@ -2175,6 +2175,9 @@ Social Network and blogging
 - [HitPaw](https://online.hitpaw.com/online-photo-enhancer.html?linksource=header)
 - [Cleanup Pictures](https://cleanup.pictures/)
 - [Gfpgan](https://replicate.com/tencentarc/gfpgan)
+- [Realesrgan Playground](https://real-esrgan.com/#Playground)
+- [waifu2x](https://waifu2x.org/)
+- [imglarger](https://imglarger.com/Anime16K)
 
 # Locations Data Mapping
 
