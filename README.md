@@ -2625,6 +2625,8 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Cloudmare](https://github.com/MrH0wl/Cloudmare) Cloudflare, Sucuri, Incapsula real IP tracker.
 - [emkei](https://emkei.cz/) Free online fake mailer with attachments spoof email 
 - [GraphSpy](https://github.com/RedByte1337/GraphSpy) Initial Access and Post-Exploitation Tool for AAD and O365 with a browser-based GUI
+- [revshells](https://www.revshells.com/) Reverse Shell Generator
+- [enum4linux](https://github.com/CiscoCXSecurity/enum4linux) Linux alternative to enum.exe for enumerating data from Windows and Samba hosts
 
 Privilage Escalation Cheat and check
 
@@ -2633,6 +2635,8 @@ Privilage Escalation Cheat and check
 - [Loonbins](https://www.loobins.io/tactics/collection/) Awesome privilage escalation cheat and checklist
 - [Mac OS privilage escalation](https://book.hacktricks.xyz/macos-hardening/macos-security-and-privilege-escalation) Awesome privilage escalation cheat and checklist
 - [PEASS NG](https://github.com/peass-ng/PEASS-ng) Awesome automatic enum for privilage escalation cheat and checklist
+- [wadcoms](https://wadcoms.github.io/#+Windows) WADComs is an interactive cheat sheet, offensive security tools and their respective commands, to be used against Windows/AD environments
+- [g0tmi1k linux priv esc](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/) Basic Linux Privilege Escalation
  
 # Audio OSINT 
 
