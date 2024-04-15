@@ -2546,6 +2546,10 @@ Strict and disable bot crawl search engine index account
 - [google image](https://www.google.com/imghp?hl=en)
 - [Wiki Routes](https://wikiroutes.info/en/padang)
 - [Carnet](https://carnet.ai/)
+- [ID number plate](https://auto2000.co.id/berita-dan-tips/plat-nomor-seluruh-indonesia)
+- [ID number wikipedia](https://id.wikipedia.org/wiki/Tanda_Nomor_Kendaraan_Bermotor_Indonesia)
+- [World Car Brand Wikipedia](https://en.wikipedia.org/wiki/List_of_car_brands)
+- [carlogos](https://www.carlogos.org/car-brands/)
 
 # Aircraft Tracking
 
