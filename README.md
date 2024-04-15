@@ -2628,6 +2628,7 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [GraphSpy](https://github.com/RedByte1337/GraphSpy) Initial Access and Post-Exploitation Tool for AAD and O365 with a browser-based GUI
 - [revshells](https://www.revshells.com/) Reverse Shell Generator
 - [enum4linux](https://github.com/CiscoCXSecurity/enum4linux) Linux alternative to enum.exe for enumerating data from Windows and Samba hosts
+- [vulmap](https://github.com/zhzyker/vulmap) Vulmap - Web vulnerability scanning and verification tools
 
 Privilage Escalation Cheat and check
 
