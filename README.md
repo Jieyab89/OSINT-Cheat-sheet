@@ -21,6 +21,7 @@ You can build it with VM or Live USB make sure you have sandbox machine
 - [tails](https://tails.net/)
 - [qubes](https://www.qubes-os.org/doc/)
 - [parrot sec](https://www.parrotsec.org/)
+- [csi linux](https://csilinux.com/csi-linux-downloads/)
 
 # EXIF TOOL COMMAND
 
