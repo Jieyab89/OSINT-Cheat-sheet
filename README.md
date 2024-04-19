@@ -326,6 +326,7 @@ Be carefull using this tool
 - [redirectdetective](https://redirectdetective.com/)
 - [wheregoes](https://wheregoes.com/)
 - [spyoffers](https://www.spyoffers.com/)
+- [vx-underground](https://vx-underground.org/)
 
 # Researching Cyber Threats
 
@@ -401,6 +402,8 @@ Be carefull using this tool
 - [pestudio](https://www.winitor.com/download)
 - [procmon](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)
 - [C2-Tracker](https://github.com/montysecurity/C2-Tracker)
+- [malpedia](https://malpedia.caad.fkie.fraunhofer.de/)
+- [vx-underground](https://vx-underground.org/)
 
 # IoT Search Engines
 
@@ -492,6 +495,8 @@ You can find the file hash or other threat indicator
 - [pestudio](https://www.winitor.com/download)
 - [procmon](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)
 - [zerofox](https://www.zerofox.com/platform/)
+- [malpedia](https://malpedia.caad.fkie.fraunhofer.de/)
+- [vx-underground](https://vx-underground.org/)
 
 # Automation Dorking 
 
@@ -962,6 +967,7 @@ This domain will always change
 - [Torch](xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega?P=)
 - [Onionsearch](https://github.com/megadose/OnionSearch)
 - [Darknet Book](https://github.com/darknet-book/tor-guide)
+- [immuniweb](https://www.immuniweb.com/darkweb/)
 
 # Tracking Website Changes
 
@@ -1083,6 +1089,8 @@ This domain will always change
 - [getprospect](https://getprospect.com/)
 - [ZoomInfo](https://www.zoominfo.com/)
 - [Spam Calls](https://spamcalls.net/en/)
+- [inteltechniques](https://inteltechniques.com/tools/Telephone.html)
+- [pipl](https://pipl.com/)
 
 # Public Records
 
@@ -2613,6 +2621,8 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Zeus-Scanner](https://github.com/Ekultek/Zeus-Scanner) A web scanner 
 - [Zenrows](https://www.zenrows.com/) Bypassing captcha and WAF 
 - [Scrapfly](https://scrapfly.io/) Bypassing captcha and WAF 
+- [capsolver](https://www.capsolver.com/id) Bypassing captcha and WAF 
+- [2captcha](https://2captcha.com/) Bypassing captcha and WAF 
 - [Puppeter](https://www.npmjs.com/package/puppeteer-extra-plugin-stealth) For web scrapper and info gath 
 - [MOBSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) Mobile Pentest Tool 
 - [RMS - Mobile Pentest](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security) Mobile Pentest Tool 
@@ -2633,6 +2643,7 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [revshells](https://www.revshells.com/) Reverse Shell Generator
 - [enum4linux](https://github.com/CiscoCXSecurity/enum4linux) Linux alternative to enum.exe for enumerating data from Windows and Samba hosts
 - [vulmap](https://github.com/zhzyker/vulmap) Vulmap - Web vulnerability scanning and verification tools
+- [Active-Directory-Exploitation-Cheat-Sheet](https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet) A cheat sheet that contains common enumeration and attack methods for Windows Active Directory.
 
 Privilage Escalation Cheat and check
 
@@ -2833,6 +2844,7 @@ Resources and collection for your make tool OSINT
 - [HAKI ID](https://pdki-indonesia.dgip.go.id/search?type=trademark&keyword=)
 - [Katadata ID](https://databoks.katadata.co.id/)
 - [pddikti ID](https://pddikti.kemdikbud.go.id/)
+- [pipl](https://pipl.com/)
 
 # NEWS OSINT
 
@@ -2906,3 +2918,12 @@ OSINT politics and geopolitics, risk crisis
 - [space track](https://www.space-track.org/auth/login)
 - [google earth](https://earth.google.com/)
 - [satellitetracker](https://satellitetracker.net/)
+
+# OSINT for Scraping and Data Collection
+
+- [Zenrows](https://www.zenrows.com/) Bypassing captcha and WAF 
+- [Scrapfly](https://scrapfly.io/) Bypassing captcha and WAF 
+- [capsolver](https://www.capsolver.com/id) Bypassing captcha and WAF 
+- [2captcha](https://2captcha.com/) Bypassing captcha and WAF 
+- [Puppeter](https://www.npmjs.com/package/puppeteer-extra-plugin-stealth) For web scrapper and info gath
+- [spiderfoot](https://github.com/smicallef/spiderfoot) Automates OSINT for threat intelligence and mapping your attack surface.
