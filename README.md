@@ -1964,7 +1964,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 
 # CTF Analysis & Exploit
 
-- [Cybercheff](https://gchq.github.io/CyberChef/)
+- [Cybercheff](https://gchq.github.io/CyberChef/) The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
 - [Bettercap](https://github.com/bettercap/bettercap)
 Framework to perform MITM (Man in the Middle) attacks.
 - [Yersinia](https://github.com/tomac/yersinia)
@@ -2043,6 +2043,7 @@ List exploit and vuln cheat sheet walkthrough
 Example and payload injection
 - [All about bug bounty](https://github.com/daffainfo/AllAboutBugBounty)
 Bypasses, payloads, Reconnaissance and etc
+- [Bug Bounty](https://github.com/Yudha-ard/Bug-Bounty) Tips bug bounty reconnaissance
 - [DnsSpy](https://github.com/dnSpy/dnSpy)
 Desktop NET debugger and assembly editor
 
