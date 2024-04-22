@@ -186,6 +186,7 @@ Be carefull using this tool
 - [SearchCode](https://searchcode.com)
 - [SourceCodeOnline](http://www.sourcecodeonline.com)
 - [Woboq](https://code.woboq.org)
+- [publicwww](https://publicwww.com/)
 
 # Competitive Programming
 
@@ -297,6 +298,9 @@ Be carefull using this tool
 - [wheregoes](https://wheregoes.com/)
 - [spyoffers](https://www.spyoffers.com/)
 - [Web Leaked Credentials](https://github.com/h4x0r-dz/Leaked-Credentials/)
+- [host tracker](https://www.host-tracker.com/en)
+- [crt.sh](https://crt.sh/)
+- [view DNS](https://viewdns.info/)
 
 # Analysing URLs
 
@@ -933,6 +937,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [pwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot)
 - [Intel471](https://intel471.com/)
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
+- [breachdirectory](https://breachdirectory.org/)
 
 # Crack Jurnals
 
@@ -1666,6 +1671,8 @@ Search channel, username anymore
 - [VGG Image Search Engine (VISE)](https://robots.ox.ac.uk/~vgg/software/vise/)
 - [Fake face detector](https://seintpl.github.io/AmIReal/)
 - [Telegram Face Match Bot](https://t.me/facematch_bot)
+- [berify](https://berify.com/)
+- [shutterstock](https://www.shutterstock.com/royalty-free/reverse-image-search-for-video)
 
 # Image Analysis
 
@@ -1773,6 +1780,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Earthcam](https://www.earthcam.com/#google_vignette)
 - [tvway](http://tvway.ru/)
 - [unscreen](https://www.unscreen.com/)
+- [shutterstock](https://www.shutterstock.com/royalty-free/reverse-image-search-for-video)
 
 # Geospatial Research and Mapping Tools
 
@@ -2644,6 +2652,71 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [enum4linux](https://github.com/CiscoCXSecurity/enum4linux) Linux alternative to enum.exe for enumerating data from Windows and Samba hosts
 - [vulmap](https://github.com/zhzyker/vulmap) Vulmap - Web vulnerability scanning and verification tools
 - [Active-Directory-Exploitation-Cheat-Sheet](https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet) A cheat sheet that contains common enumeration and attack methods for Windows Active Directory.
+- [HPING](https://github.com/antirez/hping) Hping network tool
+- [AlliN](https://github.com/P1-Team/AlliN) A flexible scanner
+- [KUNYU](https://github.com/knownsec/Kunyu) Kunyu, more efficient corporate asset collection
+- [jwt tool](https://github.com/ticarpi/jwt_tool)  A toolkit for testing, tweaking and cracking JSON Web Tokens
+- [jwt-secrets-list](https://github.com/wallarm/jwt-secrets/blob/master/jwt.secrets.list) possible to help developers and DevOpses identify it by traffic analysis at the Wallarm NGWAF level 
+- [aparoid](https://github.com/stefan2200/aparoid) Static and dynamic Android application security analysis
+- [Active Directory Cheat](https://github.com/esidate/pentesting-active-directory) Active Directory Pentesting Mind Map 
+- [sploitus](https://sploitus.com/) Awesome exploit list like Exploit DB
+
+Password crack 
+
+- [hashcat](https://github.com/hashcat/hashcat) A tool brute and crack password hash
+- [john](https://github.com/openwall/john) A tool brute and crack password hash 
+- [thc hydra](https://github.com/vanhauser-thc/thc-hydra) A tool brute and crack password 
+
+Wordlists for all:
+
+- [SecLists](https://github.com/danielmiessler/SecLists) 
+- [SecDictionary](https://github.com/SexyBeast233/SecDictionary) 
+- [ffuf](https://github.com/ffuf/ffuf)
+- [Dictionary-Of-Pentesting](https://github.com/insightglacier/Dictionary-Of-Pentesting)
+- [fuzzDicts](https://github.com/TheKingOfDuck/fuzzDicts)
+- [Web-Fuzzing-Box](https://github.com/gh0stkey/Web-Fuzzing-Box)
+- [PentesterSpecialDict](https://github.com/ppbibo/PentesterSpecialDict)
+- [fuzz.txt](https://github.com/Bo0oM/fuzz.txt)
+- [wordlists](https://github.com/assetnote/wordlists)
+
+Web fuzz wordlists:
+
+- [top25-parameter](https://github.com/lutfumertceylan/top25-parameter)
+
+Generate wordlists: 
+
+- [weakpass.com/generate](https://weakpass.com/generate)
+
+Generate subdomains and wordlists: 
+
+- [weakpass.com/generate/domains](https://weakpass.com/generate/domains)
+
+Private Deployment:
+
+- [weakpass](https://github.com/zzzteph/weakpass)
+
+Generate subdomains and wordlists(offline): 
+
+- [probable_subdomains](https://github.com/zzzteph/probable_subdomains)
+
+Kali/Linux: 
+
+- [crunch-wordlist](https://sourceforge.net/projects/crunch-wordlist)
+
+Windows: 
+
+- [Windows-Crunch](https://github.com/shadwork/Windows-Crunch)
+
+Default Credentials
+
+- [DefaultCreds-cheat-sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet)
+- [datarecovery](https://datarecovery.com/rd/default-passwords/)
+- [cirt.net](https://cirt.net/passwords)
+- [routerpasswords](https://www.routerpasswords.com/)
+- [portforward](https://portforward.com/router-password/)
+- [cleancss](https://www.cleancss.com/router-default/)
+- [toolmao](https://www.toolmao.com/baiduapp/routerpwd/)
+- [datarecovery](https://datarecovery.com/rd/default-passwords/)
 
 Privilage Escalation Cheat and check
 
