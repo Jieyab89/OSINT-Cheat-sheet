@@ -301,6 +301,7 @@ Be carefull using this tool
 - [host tracker](https://www.host-tracker.com/en)
 - [crt.sh](https://crt.sh/)
 - [view DNS](https://viewdns.info/)
+- [visualping](https://visualping.io/)
 
 # Analysing URLs
 
@@ -409,6 +410,7 @@ Be carefull using this tool
 - [malpedia](https://malpedia.caad.fkie.fraunhofer.de/)
 - [vx-underground](https://vx-underground.org/)
 - [shellpub](https://n.shellpub.com/en)
+- [qianxin](https://ti.qianxin.com/en)
 
 # IoT Search Engines
 
@@ -503,6 +505,7 @@ You can find the file hash or other threat indicator
 - [malpedia](https://malpedia.caad.fkie.fraunhofer.de/)
 - [vx-underground](https://vx-underground.org/)
 - [shellpub](https://n.shellpub.com/en)
+- [qianxin](https://ti.qianxin.com/en)
 
 # Automation Dorking 
 
@@ -511,6 +514,12 @@ You can find the file hash or other threat indicator
 - [Go Dork](https://github.com/dwisiswant0/go-dork)
 - [Dorkish](https://github.com/yousseflahouifi/dorkish)
 - [Dork Collection](https://github.com/cipher387/Dorks-collections-list?tab=readme-ov-file)
+
+# Github Dork
+
+- [Advanced Search](https://github.com/search/advanced)
+- [GitDorker](https://github.com/obheda12/GitDorker)
+- [gitdorks_go](https://github.com/damit5/gitdorks_go)
 
 # Dorking
 
@@ -939,7 +948,6 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [pwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot)
 - [Intel471](https://intel471.com/)
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
-- [breachdirectory](https://breachdirectory.org/)
 
 # Crack Jurnals
 
@@ -2665,12 +2673,33 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [aparoid](https://github.com/stefan2200/aparoid) Static and dynamic Android application security analysis
 - [Active Directory Cheat](https://github.com/esidate/pentesting-active-directory) Active Directory Pentesting Mind Map 
 - [sploitus](https://sploitus.com/) Awesome exploit list like Exploit DB
-- [BloodHound](https://github.com/SpecterOps/BloodHound) Reveal the hidden and often unintended relationships within an Active Directory or Azure environment
+- [thehacker recipe](https://www.thehacker.recipes/) Awesome pentesting checklist and cheat 
+- [OPSEC](https://github.com/WesleyWong420/OPSEC-Tradecraft) Collection of OPSEC Tradecraft and TTPs for Red Team Operations
 
 Social Engineering
 
 - [social engineering](https://www.social-engineer.org/)
 - [emkei](https://emkei.cz/)
+
+Active Directory
+
+- [BloodHound](https://github.com/BloodHoundAD/BloodHound)
+- [Certify](https://github.com/GhostPack/Certify)
+- [Certipy](https://github.com/ly4k/Certipy)
+- [certi](https://github.com/zer1t0/certi)
+- [PKINITtools](https://github.com/dirkjanm/PKINITtools)
+- [ADCSPwn](https://github.com/bats3c/ADCSPwn)
+- [PassTheCert](https://github.com/AlmondOffSec/PassTheCert)
+- [kerbrute](https://github.com/ropnop/kerbrute)
+- [Adinfo](https://github.com/lzzbb/Adinfo)
+- [SharpADWS](https://github.com/wh0amitz/SharpADWS) via Active Directory Web Services (ADWS) protocol
+- [SOAPHound](https://github.com/FalconForceTeam/SOAPHound) via Active Directory Web Services (ADWS) protocol
+- [SharpHostInfo](https://github.com/shmilylty/SharpHostInfo)
+
+Webshell Bypass
+
+- [WebShell-Bypass-Guide](https://github.com/AabyssZG/WebShell-Bypass-Guide)
+- [bypass.tidesec.com/web/](http://bypass.tidesec.com/web/)
 
 Credential Access
 
@@ -2693,13 +2722,21 @@ Post Exploitation
 - [Responder](https://github.com/lgandx/Responder)
 - [Responder-Windows](https://github.com/lgandx/Responder-Windows)
 
+Credential Dumping
+
+- [LaZagne](https://github.com/AlessandroZ/LaZagne)
+- [WirelessKeyView](https://www.nirsoft.net/utils/wireless_key.html)
+- [Windows credential manager](https://www.nirsoft.net/utils/credentials_file_view.html)
+- [Pillager](https://github.com/qwqdanchun/Pillager/)
+- [searchall](https://github.com/Naturehi666/searchall)
+
 Password crack 
 
 - [hashcat](https://github.com/hashcat/hashcat) A tool brute and crack password hash
 - [john](https://github.com/openwall/john) A tool brute and crack password hash 
 - [thc hydra](https://github.com/vanhauser-thc/thc-hydra) A tool brute and crack password 
 
-Wordlists for all:
+Wordlists for all
 
 - [SecLists](https://github.com/danielmiessler/SecLists) 
 - [SecDictionary](https://github.com/SexyBeast233/SecDictionary) 
@@ -2711,31 +2748,31 @@ Wordlists for all:
 - [fuzz.txt](https://github.com/Bo0oM/fuzz.txt)
 - [wordlists](https://github.com/assetnote/wordlists)
 
-Web fuzz wordlists:
+Web fuzz wordlists
 
 - [top25-parameter](https://github.com/lutfumertceylan/top25-parameter)
 
-Generate wordlists: 
+Generate wordlists
 
 - [weakpass.com/generate](https://weakpass.com/generate)
 
-Generate subdomains and wordlists: 
+Generate subdomains and wordlists
 
 - [weakpass.com/generate/domains](https://weakpass.com/generate/domains)
 
-Private Deployment:
+Private Deployment
 
 - [weakpass](https://github.com/zzzteph/weakpass)
 
-Generate subdomains and wordlists(offline): 
+Generate subdomains and wordlists(offline)
 
 - [probable_subdomains](https://github.com/zzzteph/probable_subdomains)
 
-Kali/Linux: 
+Kali/Linux
 
 - [crunch-wordlist](https://sourceforge.net/projects/crunch-wordlist)
 
-Windows: 
+Windows
 
 - [Windows-Crunch](https://github.com/shadwork/Windows-Crunch)
 
@@ -2749,6 +2786,22 @@ Default Credentials
 - [cleancss](https://www.cleancss.com/router-default/)
 - [toolmao](https://www.toolmao.com/baiduapp/routerpwd/)
 - [datarecovery](https://datarecovery.com/rd/default-passwords/)
+
+Local Enumeration
+
+- [HackBrowserData](https://github.com/moonD4rk/HackBrowserData)
+- [BrowserGhost](https://github.com/QAX-A-Team/BrowserGhost)
+- chrome: [chromepass](http://www.nirsoft.net/utils/chromepass.html)
+- [firefox_decrypt](https://github.com/unode/firefox_decrypt)
+- foxmail: [foxmail-password-decryptor](https://securityxploded.com/foxmail-password-decryptor.php)
+- [how-does-MobaXterm-encrypt-password](https://github.com/HyperSine/how-does-MobaXterm-encrypt-password)
+- [navicat_password_decrypt](https://github.com/Zhuoyuan1/navicat_password_decrypt)
+- [how-does-navicat-encrypt-password](https://github.com/HyperSine/how-does-navicat-encrypt-password)
+- [Sunflower_get_Password](https://github.com/wafinfo/Sunflower_get_Password)
+- [shcrt](https://github.com/depau/shcrt)
+- [how-does-Xmanager-encrypt-password version<7.0](https://github.com/HyperSine how-does-Xmanager-encrypt-password)
+- [SharpDecryptPwd decrypt locally](https://github.com/RowTeam/SharpDecryptPwd)
+- [SharpXDecrypt](https://github.com/JDArmy/SharpXDecrypt)
 
 Privilage Escalation Cheat and check
 
