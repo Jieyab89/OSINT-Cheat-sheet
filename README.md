@@ -1424,7 +1424,6 @@ Google queries for MySpace
 - [tiktok-hashtag-analysis](https://github.com/bellingcat/tiktok-hashtag-analysis)
 - [tiktok-downloader](https://github.com/Gimenz/tiktok-downloader)
 - [tiktok API](https://pypi.org/project/TikTokApi/)
-- [tiktok hastag analysis](https://github.com/bellingcat/tiktok-hashtag-analysis)
 - [tiktok date extract](https://bellingcat.github.io/tiktok-timestamp/)
 - [Gimenz tiktok downloader](https://github.com/Gimenz/tiktok-downloader)
 
@@ -1572,7 +1571,6 @@ Firefox plugin that will assist in downloading all media from a website
 - [Twinangulate](https://www.twiangulate.com/search/)
 - [Geosocial](http://geosocialfootprint.com/)
 - [Hash tracking](https://www.hashtracking.com/)
-- [Bellingcat](https://www.bellingcat.com/)
 - [Socmint tool](http://socmint.tools/)
 - [Spyse](https://spyse.com/)
 - [OSINT Combine](https://www.osintcombine.com/tools)
