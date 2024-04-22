@@ -302,6 +302,7 @@ Be carefull using this tool
 - [crt.sh](https://crt.sh/)
 - [view DNS](https://viewdns.info/)
 - [visualping](https://visualping.io/)
+- [jam dev browser extension](https://jam.dev/)
 
 # Analysing URLs
 
@@ -988,6 +989,7 @@ This domain will always change
 
 - [Changedetection](http://www.changedetection.com)
 - [Followthatpage](http://www.followthatpage.com)
+- [visualping](https://visualping.io/)
 
 # Company Reconnaissance Sites (Passive)
 
@@ -2208,6 +2210,7 @@ Social Network and blogging
 - [Realesrgan Playground](https://real-esrgan.com/#Playground)
 - [waifu2x](https://waifu2x.org/)
 - [imglarger](https://imglarger.com/Anime16K)
+- [imageupscaler](https://imageupscaler.com/deblurring/)
 
 # Locations Data Mapping
 
