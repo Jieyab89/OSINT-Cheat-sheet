@@ -408,6 +408,7 @@ Be carefull using this tool
 - [C2-Tracker](https://github.com/montysecurity/C2-Tracker)
 - [malpedia](https://malpedia.caad.fkie.fraunhofer.de/)
 - [vx-underground](https://vx-underground.org/)
+- [shellpub](https://n.shellpub.com/en)
 
 # IoT Search Engines
 
@@ -501,6 +502,7 @@ You can find the file hash or other threat indicator
 - [zerofox](https://www.zerofox.com/platform/)
 - [malpedia](https://malpedia.caad.fkie.fraunhofer.de/)
 - [vx-underground](https://vx-underground.org/)
+- [shellpub](https://n.shellpub.com/en)
 
 # Automation Dorking 
 
@@ -1017,6 +1019,7 @@ This domain will always change
 - [MODI ID](https://modi.esdm.go.id/portal/dataPerusahaan)
 - [Minerba ESDM ID Map](https://momi.minerba.esdm.go.id/public/)
 - [HAKI ID](https://pdki-indonesia.dgip.go.id/search?type=trademark&keyword=)
+- [Email Format](https://www.email-format.com/i/search/)
 
 # People Searching
 
@@ -1096,6 +1099,7 @@ This domain will always change
 - [Spam Calls](https://spamcalls.net/en/)
 - [inteltechniques](https://inteltechniques.com/tools/Telephone.html)
 - [pipl](https://pipl.com/)
+- [phonebook](https://phonebook.cz/)
 
 # Public Records
 
@@ -1482,6 +1486,7 @@ Google queries for MySpace
 - [Email Header Analisis Toolbox](https://toolbox.googleapps.com/apps/messageheader/)
 - [Sherlock Eye](https://sherlockeye.io/)
 - [Ghunt](https://github.com/mxrch/GHunt)
+- [Email Format](https://www.email-format.com/i/search/)
 
 # Shodan Query Options
 
@@ -2660,6 +2665,33 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [aparoid](https://github.com/stefan2200/aparoid) Static and dynamic Android application security analysis
 - [Active Directory Cheat](https://github.com/esidate/pentesting-active-directory) Active Directory Pentesting Mind Map 
 - [sploitus](https://sploitus.com/) Awesome exploit list like Exploit DB
+- [BloodHound](https://github.com/SpecterOps/BloodHound) Reveal the hidden and often unintended relationships within an Active Directory or Azure environment
+
+Social Engineering
+
+- [social engineering](https://www.social-engineer.org/)
+- [emkei](https://emkei.cz/)
+
+Credential Access
+
+- [LaZagne](https://github.com/AlessandroZ/LaZagne)
+- [WirelessKeyView](https://www.nirsoft.net/utils/wireless_key.html)
+- [Windows credential manager](https://www.nirsoft.net/utils/credentials_file_view.html)
+- [Pillager](https://github.com/qwqdanchun/Pillager/)
+- [searchall](https://github.com/Naturehi666/searchall)
+
+Post Exploitation
+
+- [metasploit-framework](https://github.com/rapid7/metasploit-framework)
+- [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec)
+- [impacket](https://github.com/fortra/impacket)
+- [wmiexec-Pro](https://github.com/XiaoliChan/wmiexec-Pro)
+- [pstools](https://docs.microsoft.com/en-us/sysinternals/downloads/pstools)
+- [Rubeus](https://github.com/GhostPack/Rubeus)
+- [Powermad](https://github.com/Kevin-Robertson/Powermad)
+- [PowerSploit](https://github.com/PowerShellMafia/PowerSploit)
+- [Responder](https://github.com/lgandx/Responder)
+- [Responder-Windows](https://github.com/lgandx/Responder-Windows)
 
 Password crack 
 
