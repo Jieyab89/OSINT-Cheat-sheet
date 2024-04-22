@@ -2675,11 +2675,13 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [sploitus](https://sploitus.com/) Awesome exploit list like Exploit DB
 - [thehacker recipe](https://www.thehacker.recipes/) Awesome pentesting checklist and cheat 
 - [OPSEC](https://github.com/WesleyWong420/OPSEC-Tradecraft) Collection of OPSEC Tradecraft and TTPs for Red Team Operations
+- [CSAF CSLAB](https://github.com/csalab-id/csaf) Cyber Security Awareness Framework (CSAF)
 
 Social Engineering
 
 - [social engineering](https://www.social-engineer.org/)
 - [emkei](https://emkei.cz/)
+- [Phishious](https://github.com/CanIPhish/Phishious) 
 
 Active Directory
 
@@ -2735,6 +2737,7 @@ Password crack
 - [hashcat](https://github.com/hashcat/hashcat) A tool brute and crack password hash
 - [john](https://github.com/openwall/john) A tool brute and crack password hash 
 - [thc hydra](https://github.com/vanhauser-thc/thc-hydra) A tool brute and crack password 
+- [CiLocks](https://github.com/tegal1337/CiLocks) Crack Interface lockscreen, Metasploit and More Android/IOS Hacking
 
 Wordlists for all
 
@@ -2799,7 +2802,6 @@ Local Enumeration
 - [how-does-navicat-encrypt-password](https://github.com/HyperSine/how-does-navicat-encrypt-password)
 - [Sunflower_get_Password](https://github.com/wafinfo/Sunflower_get_Password)
 - [shcrt](https://github.com/depau/shcrt)
-- [how-does-Xmanager-encrypt-password version<7.0](https://github.com/HyperSine how-does-Xmanager-encrypt-password)
 - [SharpDecryptPwd decrypt locally](https://github.com/RowTeam/SharpDecryptPwd)
 - [SharpXDecrypt](https://github.com/JDArmy/SharpXDecrypt)
 
