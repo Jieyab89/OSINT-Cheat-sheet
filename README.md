@@ -964,6 +964,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Intel471](https://intel471.com/)
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
 - [offshoreleaks](https://offshoreleaks.icij.org/)
+- [proxynova password breach](https://proxynova.com/tools/comb/)
 
 # Crack Jurnals
 
@@ -2735,6 +2736,10 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [thehacker recipe](https://www.thehacker.recipes/) Awesome pentesting checklist and cheat 
 - [OPSEC](https://github.com/WesleyWong420/OPSEC-Tradecraft) Collection of OPSEC Tradecraft and TTPs for Red Team Operations
 - [CSAF CSLAB](https://github.com/csalab-id/csaf) Cyber Security Awareness Framework (CSAF)
+- [hakoriginfinder](https://github.com/hakluke/hakoriginfinder) Tool for discovering the origin host behind a reverse proxy. Useful for bypassing cloud WAFs! 
+- [gmapsapiscanner](https://github.com/ozguralp/gmapsapiscanner) Used for determining whether a leaked/found Google Maps API Key is vulnerable to unauthorized access by other applications or not
+- [jsluice](https://github.com/BishopFox/jsluice) Extract URLs, paths, secrets, and other interesting bits from JavaScript
+- [DisableFlagSecure](https://github.com/LSPosed/DisableFlagSecure) Disable FLAG_SECURE on all windows, enabling screenshots in apps that normally wouldn't allow it, and disabling screenshot detection on Android 14+
 
 Social Engineering
 
