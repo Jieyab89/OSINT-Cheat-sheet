@@ -143,6 +143,7 @@ Be carefull using this tool
 - [Fiugis](https://fiugis.maps.arcgis.com/home/search.html?restrict=false&sortField=relevance&sortOrder=desc&categories=%2FCategories%2FLocation#content)
 - [Earth ESA](https://earth.esa.int/eogateway)
 - [Google Public Data](https://www.google.com/publicdata/directory)
+- [paperswithcode](https://paperswithcode.com/)
 
 # Forums & Sites
 
@@ -428,6 +429,9 @@ Be carefull using this tool
 - [Insecam](http://Insecam.org)
 - [Webcams](https://github.com/pbkompasz/webcams)
 - [Molecool CCTV and Nearby](https://www.molecool.id/)
+- [Calculator IPVM](https://calculator.ipvm.com/)
+- [webcamtaxi](https://www.webcamtaxi.com/en/)
+- [weatherbug](https://www.weatherbug.com/traffic-cam/)
 
 # IP Addresses
 
@@ -834,6 +838,12 @@ AWS SECRET
 > site:www.github.com ext:doc | ext:docx | ext:odt | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv  
 >
 
+# Dorking Other Search Engine 
+
+- [YANDEX](https://seosly.com/blog/yandex-search-operators/)
+- [BING](https://seosly.com/blog/bing-search-operators/)
+- [mediasova](https://search.mediasova.com/en/index)
+
 # Bash Dorking Script
 
 PRO TIPS!
@@ -906,6 +916,10 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [odp](http://www.odp.org/homepage.php)
 - [Yiipy Search](https://www.yippysearchengine.com/)
 - [webarchiveviewer](https://cybdetective.com/webarchiveviewer/)
+- [duckduckgo Bangs](https://duckduckgo.com/bangs)
+- [mediasova](https://search.mediasova.com/en/index)
+- [mojeek](https://www.mojeek.com/)
+- [boardreader](https://boardreader.com/)
 
 # Internet Archive
 
@@ -949,7 +963,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [pwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot)
 - [Intel471](https://intel471.com/)
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
-- [proxynova password breach](https://proxynova.com/tools/comb/)
+- [offshoreleaks](https://offshoreleaks.icij.org/)
 
 # Crack Jurnals
 
@@ -1031,6 +1045,9 @@ This domain will always change
 - [Minerba ESDM ID Map](https://momi.minerba.esdm.go.id/public/)
 - [HAKI ID](https://pdki-indonesia.dgip.go.id/search?type=trademark&keyword=)
 - [Email Format](https://www.email-format.com/i/search/)
+- [opensanctions](https://www.opensanctions.org/)
+- [ALEPT OCCRP](https://aleph.occrp.org/)
+- [offshoreleaks](https://offshoreleaks.icij.org/)
 
 # People Searching
 
@@ -1058,6 +1075,7 @@ This domain will always change
 - [Sherlock Eye](https://sherlockeye.io/)
 - [NIK PARSE](https://github.com/bachors/nik_parse.js?tab=readme-ov-file#nik_parsejs)
 - [Maltego Social Links Pro](https://www.maltego.com/transform-hub/social-links-pro/)
+- [hertz](https://www.hertz.com/rentacar/receipts/request-receipts.do)
 
 # Phone Numbers
 
@@ -1135,6 +1153,7 @@ This domain will always change
 - [Bellingcat Username](https://bellingcat.github.io/name-variant-search/#gsc.tab=0)
 - [whatsmyname](https://whatsmyname.app/)
 - [holehe](https://github.com/megadose/holehe)
+- [hertz](https://www.hertz.com/rentacar/receipts/request-receipts.do)
 
 # Social Networks
 
@@ -1452,6 +1471,7 @@ Google queries for MySpace
 - [imago-forensics](https://github.com/redaelli/imago-forensics)
 - [Renrot Exif](https://github.com/andy-shev/RenRot)
 - [Geotag](https://vsudo.net/tools/geotag)
+- [PhotOSINT Browser Extension](https://chrome.google.com/webstore/detail/photosint/gonhdjmkgfkokhkflfhkbiagbmoolhcd/related?hl=nl)
 
 # Documents
 
@@ -1922,6 +1942,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [bbbike](https://mc.bbbike.org/mc/)
 - [geojson](https://geojson.io/)
 - [mooncalc](https://www.mooncalc.org/)
+- [moon timeanddate](https://www.timeanddate.com/)
 - [urbanaccessregulations](https://urbanaccessregulations.eu/userhome/map)
 - [mapsm](https://mapsm.com/)
 - [picarta](https://picarta.ai/)
@@ -1953,6 +1974,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [Google Fact](https://toolbox.google.com/factcheck/explorer)
 - [Open Measures](https://openmeasures.io/)
 - [Hoaxy](https://hoaxy.osome.iu.edu/)
+- [FEAT](https://github.com/GONZOsint/FEAT)
 
 # Server Information Gathering
 
@@ -2069,6 +2091,7 @@ Desktop NET debugger and assembly editor
 - [etherscan](https://etherscan.io/)
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
 - [Maltego Social Links Pro](https://www.maltego.com/transform-hub/social-links-pro/)
+- [trackenn](https://github.com/kennbroorg/trackenn?tab=readme-ov-file)
 
 # Cell Investigation
 
@@ -2582,6 +2605,39 @@ Strict and disable bot crawl search engine index account
 - [ID number wikipedia](https://id.wikipedia.org/wiki/Tanda_Nomor_Kendaraan_Bermotor_Indonesia)
 - [World Car Brand Wikipedia](https://en.wikipedia.org/wiki/List_of_car_brands)
 - [carlogos](https://www.carlogos.org/car-brands/)
+- [commercialtrucktrader](https://www.commercialtrucktrader.com/)
+- [License Plate AI Recognition](https://github.com/winter2897/Real-time-Auto-License-Plate-Recognition-with-Jetson-Nano)
+- [vehicleregistrationapi](https://www.vehicleregistrationapi.com/)
+- [vehiclehistory](https://www.vehiclehistory.com/license-plate-search)
+- [faxvin](https://www.faxvin.com/license-plate-lookup)
+- [worldlicenseplates](http://www.worldlicenseplates.com/)
+- [autotraveler](https://autotraveler.ru/en/spravka/vehicle-registration-codes-in-the-world.html#.Y3R6BnbMJPY)
+- [cipher387](https://cipher387.github.io/venicle_number_search_toolbox/)
+- [inteltechniques](https://inteltechniques.com/tools/Vehicle.html)
+- [avtocod](https://avtocod.ru/)
+- [dmvcivls.gov](https://dmvcivls-wselfservice.ct.gov/Registration/VerifyRegistration)
+- [etimspayments](https://prodpci.etimspayments.com/pbw/include/dc_parking/input.jsp?ticketType=P)
+
+VIN Checker 
+
+- [faxvin](https://www.faxvin.com/)
+- [vehiclehistory](https://www.vehiclehistory.com/)
+- [vindecoderz](https://www.vindecoderz.com/)
+- [fordvinlookup](https://www.fordvinlookup.com/)
+- [chevroletforum](https://chevroletforum.com/forum/vindecoder.php)
+- [hyundaiforum](https://www.hyundaiforum.com/forum/vindecoder.php)
+- [nissanusa](https://www.nissanusa.com/recalls-vin.html)
+- [cadillacforum](https://www.cadillacforum.com/forum/vindecoder.php)
+- [dodgeforum](https://dodgeforum.com/forum/vindecoder.php)
+- [toyota](https://www.toyota.com/owners/my-vehicle/vehicle-specification.html)
+- [audiworld](https://www.audiworld.com/forums/vindecoder.php)
+- [vinpit](https://vinpit.com/vin-decoder/yamaha)
+- [scionlife](https://www.scionlife.com/forums/vindecoder.php)
+- [nhtsa](https://www.nhtsa.gov/vin-decoder)
+- [bigrigvin](https://bigrigvin.com/)
+- [cartell Japan](https://www.cartell.ie/japanese-import/)
+- [carvx JP](https://carvx.jp/)
+- [cyclevin](https://cyclevin.com/)
 
 # Aircraft Tracking
 
@@ -2679,10 +2735,6 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [thehacker recipe](https://www.thehacker.recipes/) Awesome pentesting checklist and cheat 
 - [OPSEC](https://github.com/WesleyWong420/OPSEC-Tradecraft) Collection of OPSEC Tradecraft and TTPs for Red Team Operations
 - [CSAF CSLAB](https://github.com/csalab-id/csaf) Cyber Security Awareness Framework (CSAF)
-- [hakoriginfinder](https://github.com/hakluke/hakoriginfinder) Tool for discovering the origin host behind a reverse proxy. Useful for bypassing cloud WAFs! 
-- [gmapsapiscanner](https://github.com/ozguralp/gmapsapiscanner) Used for determining whether a leaked/found Google Maps API Key is vulnerable to unauthorized access by other applications or not
-- [jsluice](https://github.com/BishopFox/jsluice) Extract URLs, paths, secrets, and other interesting bits from JavaScript
-- [DisableFlagSecure](https://github.com/LSPosed/DisableFlagSecure) Disable FLAG_SECURE on all windows, enabling screenshots in apps that normally wouldn't allow it, and disabling screenshot detection on Android 14+
 
 Social Engineering
 
@@ -3094,3 +3146,8 @@ OSINT politics and geopolitics, risk crisis
 - [2captcha](https://2captcha.com/) Bypassing captcha and WAF 
 - [Puppeter](https://www.npmjs.com/package/puppeteer-extra-plugin-stealth) For web scrapper and info gath
 - [spiderfoot](https://github.com/smicallef/spiderfoot) Automates OSINT for threat intelligence and mapping your attack surface.
+
+# OSINT IRC CHAT
+
+- [netsplit](https://netsplit.de/channels/)
+- [kiwiirc](https://kiwiirc.com/search)
