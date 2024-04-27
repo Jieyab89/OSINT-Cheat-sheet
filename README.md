@@ -3069,6 +3069,7 @@ Resources and collection for your make tool OSINT
 - [Katadata ID](https://databoks.katadata.co.id/)
 - [pddikti ID](https://pddikti.kemdikbud.go.id/)
 - [pipl](https://pipl.com/)
+- [ipqs](https://www.ipqualityscore.com/)
 
 # NEWS OSINT
 
