@@ -2740,6 +2740,12 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [gmapsapiscanner](https://github.com/ozguralp/gmapsapiscanner) Used for determining whether a leaked/found Google Maps API Key is vulnerable to unauthorized access by other applications or not
 - [jsluice](https://github.com/BishopFox/jsluice) Extract URLs, paths, secrets, and other interesting bits from JavaScript
 - [DisableFlagSecure](https://github.com/LSPosed/DisableFlagSecure) Disable FLAG_SECURE on all windows, enabling screenshots in apps that normally wouldn't allow it, and disabling screenshot detection on Android 14+
+- [trufflehog](https://github.com/trufflesecurity/trufflehog) Find leaked credentials and Find and verify secrets
+- [SecretFinder](https://github.com/m4ll0k/SecretFinder) SecretFinder - A python script for find sensitive data (apikeys, accesstoken,jwt,..) and search anything on javascript files
+- [uproot-JS](https://github.com/0xDexter0us/uproot-JS) Extract JavaScript files from burp suite project with ease
+- [JS beautify vscode extension](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) Beautify javascript, JSON, CSS, Sass, and HTML in Visual Studio Code
+- [Bug bounty hunter javascript reccon](https://www.bugbountyhunter.com/guides/?type=javascript_files) Awesome trick and tips reccon web assets  
+- [Javascript reccon](https://gist.github.com/fuckup1337/49484c35c8ad8ae1d165ffe7d71375eb) This is a simple guide to perform javascript recon in the bugbounty
 
 Social Engineering
 
