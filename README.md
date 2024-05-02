@@ -965,6 +965,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
 - [offshoreleaks](https://offshoreleaks.icij.org/)
 - [proxynova password breach](https://proxynova.com/tools/comb/)
+- [WhiteIntel](https://whiteintel.io/)
 
 # Crack Jurnals
 
