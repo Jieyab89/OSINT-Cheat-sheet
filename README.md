@@ -144,6 +144,7 @@ Be carefull using this tool
 - [Earth ESA](https://earth.esa.int/eogateway)
 - [Google Public Data](https://www.google.com/publicdata/directory)
 - [paperswithcode](https://paperswithcode.com/)
+- [ID BPS](https://www.bps.go.id/id)
 
 # Forums & Sites
 
@@ -240,6 +241,7 @@ Be carefull using this tool
 # Web Intelligence
 
 - [Better Whois](http://www.betterwhois.com)
+- [whoishistory](https://osint.sh/whoishistory/)
 - [DNS History](http://dnshistory.org)
 - [DNS Spy](https://dnsspy.io)
 - [DNS Checker](https://dnschecker.org)
@@ -1050,6 +1052,7 @@ This domain will always change
 - [opensanctions](https://www.opensanctions.org/)
 - [ALEPT OCCRP](https://aleph.occrp.org/)
 - [offshoreleaks](https://offshoreleaks.icij.org/)
+- [gajiterbaru](https://gajiterbaru.id/)
 
 # People Searching
 
@@ -2747,6 +2750,8 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [JS beautify vscode extension](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) Beautify javascript, JSON, CSS, Sass, and HTML in Visual Studio Code
 - [Bug bounty hunter javascript reccon](https://www.bugbountyhunter.com/guides/?type=javascript_files) Awesome trick and tips reccon web assets  
 - [Javascript reccon](https://gist.github.com/fuckup1337/49484c35c8ad8ae1d165ffe7d71375eb) This is a simple guide to perform javascript recon in the bugbounty
+- [Nuclei OSINT Templates](https://github.com/cipher387/juicyinfo-nuclei-templates) Awesome list nuclei template for OSINT and reccon from web pages
+- [Official Nuclei Templates](https://github.com/projectdiscovery/nuclei-templates) List official nuclei templates available for pentesting 
 
 Social Engineering
 
