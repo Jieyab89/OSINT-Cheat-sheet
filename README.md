@@ -145,6 +145,7 @@ Be carefull using this tool
 - [Google Public Data](https://www.google.com/publicdata/directory)
 - [paperswithcode](https://paperswithcode.com/)
 - [ID BPS](https://www.bps.go.id/id)
+- [ID data Kementrian & Lembaha Dataset](https://data.go.id/home)
 
 # Forums & Sites
 
@@ -306,6 +307,10 @@ Be carefull using this tool
 - [view DNS](https://viewdns.info/)
 - [visualping](https://visualping.io/)
 - [jam dev browser extension](https://jam.dev/)
+- [Whoxy Whois History](https://www.whoxy.com/whois-history/)
+- [whoisfreaks Whois History](https://whoisfreaks.com/)
+- [domaintools Whois History](https://research.domaintools.com/research/whois-history/)
+- [whoisxmlapi Whois History](https://whois-history.whoisxmlapi.com/)
 
 # Analysing URLs
 
@@ -415,6 +420,7 @@ Be carefull using this tool
 - [vx-underground](https://vx-underground.org/)
 - [shellpub](https://n.shellpub.com/en)
 - [qianxin](https://ti.qianxin.com/en)
+- [CAPA MANDIANT](https://github.com/mandiant/capa)
 
 # IoT Search Engines
 
@@ -513,6 +519,7 @@ You can find the file hash or other threat indicator
 - [vx-underground](https://vx-underground.org/)
 - [shellpub](https://n.shellpub.com/en)
 - [qianxin](https://ti.qianxin.com/en)
+- [CAPA MANDIANT](https://github.com/mandiant/capa)
 
 # Automation Dorking 
 
@@ -1061,6 +1068,7 @@ This domain will always change
 - [peepdb](http://www.peepdb.com)
 - [reversegeni](http://www.reversegenie.com/plate.php)
 - [PDDIKTI](https://pddikti.kemdikbud.go.id/)
+- [IDEBKU OJK ID](https://idebku.ojk.go.id/Public/HomePage)
 - [SINTA](https://sinta.kemdikbud.go.id/)
 - [Social Searcher](https://www.social-searcher.com/)
 - [Pimeyes](https://pimeyes.com/en)
@@ -1522,6 +1530,7 @@ Google queries for MySpace
 - [Sherlock Eye](https://sherlockeye.io/)
 - [Ghunt](https://github.com/mxrch/GHunt)
 - [Email Format](https://www.email-format.com/i/search/)
+- [predictasearch](https://www.predictasearch.com/)
 
 # Shodan Query Options
 
@@ -1756,6 +1765,7 @@ Search channel, username anymore
 - [Telegram Face Match Bot](https://t.me/facematch_bot)
 - [picarta](https://picarta.ai/)
 - [huggingface](https://huggingface.co/)
+- [ID KTP OCR](https://github.com/fauzantaqiyuddin/fastapi-ocr-ktp)
 
 # Stock Images
 
@@ -2135,6 +2145,7 @@ Desktop NET debugger and assembly editor
 - [MCC MNC World Net](https://mcc-mnc.net/)
 - [Cell Global Identity Article](https://medium.com/@fthcknmz/cell-global-identity-cgi-407ea0288943)
 - [GSM Cell ID](https://en.wikipedia.org/wiki/GSM_Cell_ID)
+- [predictasearch](https://www.predictasearch.com/)
 
 # IMEI Investigation
 
@@ -2206,6 +2217,7 @@ Build your sockpuppet account and proctect your privacy
 - [deepfakesweb](https://deepfakesweb.com/)
 - [DeepFaceLive](https://github.com/iperov/DeepFaceLive)
 - [fakeinfo](https://fakeinfo.net/)
+- [Online SMS](https://online-sms.org/)
 
 Social Network and blogging
 
@@ -2752,6 +2764,8 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Javascript reccon](https://gist.github.com/fuckup1337/49484c35c8ad8ae1d165ffe7d71375eb) This is a simple guide to perform javascript recon in the bugbounty
 - [Nuclei OSINT Templates](https://github.com/cipher387/juicyinfo-nuclei-templates) Awesome list nuclei template for OSINT and reccon from web pages
 - [Official Nuclei Templates](https://github.com/projectdiscovery/nuclei-templates) List official nuclei templates available for pentesting 
+- [XRAY](https://github.com/chaitin/xray/blob/master/README_ID.md) A powerful security assessment tool 
+- [villain](https://www.kali.org/tools/villain/) C2 framework that can handle multiple TCP socket & HoaxShell-based reverse shells *maybe FUD
 
 Social Engineering
 
