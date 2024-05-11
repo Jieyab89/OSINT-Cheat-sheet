@@ -2766,6 +2766,10 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Official Nuclei Templates](https://github.com/projectdiscovery/nuclei-templates) List official nuclei templates available for pentesting 
 - [XRAY](https://github.com/chaitin/xray/blob/master/README_ID.md) A powerful security assessment tool 
 - [villain](https://www.kali.org/tools/villain/) C2 framework that can handle multiple TCP socket & HoaxShell-based reverse shells *maybe FUD
+- [aquasecurity vuln list](https://github.com/aquasecurity/vuln-list) Collect vulnerability information and save it in parsable format automatically
+- [trivy](https://github.com/aquasecurity/trivy) Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more 
+- [aquasecurity Redhat vuln list](https://github.com/aquasecurity/vuln-list-redhat) Red Hat security advisories 
+- [Vuls](https://vuls.io/docs/en/abstract.html) Vulnerability scanner for Linux/FreeBSD, agent-less, written in Go
 
 Social Engineering
 
@@ -3113,6 +3117,7 @@ Search News Journalist and Documentary Sites
 - [unocha](https://www.unocha.org/)
 - [narasi ID](https://narasi.tv/)
 - [katadata ID](https://katadata.co.id/)
+- [ID BRIN](https://brin.go.id/)
 
 # OSINT Keyword 
 
