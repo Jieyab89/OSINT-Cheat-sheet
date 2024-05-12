@@ -104,6 +104,10 @@ you can add multiple tag and multiple file
 > Not there are tag no writetable, make sure tagname can write
 >
 
+Automated tool by David Bombal
+
+- [Exif python script remover](https://github.com/davidbombal/red-python-scripts/blob/main/remove_exif.py)
+
 ## !Note
 
 > Use fresh file, if your file has been compressed or edit metadata you got a default metadata
@@ -1486,6 +1490,7 @@ Google queries for MySpace
 - [Renrot Exif](https://github.com/andy-shev/RenRot)
 - [Geotag](https://vsudo.net/tools/geotag)
 - [PhotOSINT Browser Extension](https://chrome.google.com/webstore/detail/photosint/gonhdjmkgfkokhkflfhkbiagbmoolhcd/related?hl=nl)
+- [Python exif extractor](https://github.com/davidbombal/red-python-scripts/blob/main/exif.py)
 
 # Documents
 
@@ -1767,6 +1772,7 @@ Search channel, username anymore
 - [picarta](https://picarta.ai/)
 - [huggingface](https://huggingface.co/)
 - [ID KTP OCR](https://github.com/fauzantaqiyuddin/fastapi-ocr-ktp)
+- [Python exif extractor](https://github.com/davidbombal/red-python-scripts/blob/main/exif.py)
 
 # Stock Images
 
