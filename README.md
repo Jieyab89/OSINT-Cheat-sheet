@@ -533,6 +533,12 @@ You can find the file hash or other threat indicator
 - [Go Dork](https://github.com/dwisiswant0/go-dork)
 - [Dorkish](https://github.com/yousseflahouifi/dorkish)
 - [Dork Collection](https://github.com/cipher387/Dorks-collections-list?tab=readme-ov-file)
+- [Fast Dork Scan](https://github.com/IvanGlinkin/Fast-Google-Dorks-Scan.git)
+- [Shodan Quries](https://github.com/jakejarvis/awesome-shodan-queries)
+- [List Dork](https://github.com/BullsEye0/google_dork_list/blob/master/google_Dorks.txt)
+- [CENSYS Queries](https://github.com/thehappydinoa/awesome-censys-queries)
+- [Google Dork Simplified](https://github.com/dheerajydv19/Google-Dorks-Simplified)
+- [Gdorks](https://github.com/Ishanoshada/GDorks)
 
 # Github Dork
 
@@ -2777,6 +2783,9 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [trivy](https://github.com/aquasecurity/trivy) Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more 
 - [aquasecurity Redhat vuln list](https://github.com/aquasecurity/vuln-list-redhat) Red Hat security advisories 
 - [Vuls](https://vuls.io/docs/en/abstract.html) Vulnerability scanner for Linux/FreeBSD, agent-less, written in Go
+- [OneForAll](https://github.com/shmilylty/OneForAll/blob/master/docs/en-us/README.md) Awesome web reccon and subdomain, DNS reccon
+- [Can I Take Over xyz](https://github.com/EdOverflow/can-i-take-over-xyz) A list of services and how to claim (sub)domains with dangling DNS records
+- [Can I Take Over DNS](https://github.com/indianajson/can-i-take-over-dns) A list of DNS providers and how to claim (sub)domains via missing hosted zones
 
 Social Engineering
 
