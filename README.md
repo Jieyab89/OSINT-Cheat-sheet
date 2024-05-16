@@ -2810,6 +2810,8 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Can I Take Over xyz](https://github.com/EdOverflow/can-i-take-over-xyz) A list of services and how to claim (sub)domains with dangling DNS records
 - [Can I Take Over DNS](https://github.com/indianajson/can-i-take-over-dns) A list of DNS providers and how to claim (sub)domains via missing hosted zones
 - [DevsecOps Secure Code](https://devsecopsguides.com/docs/rules) Resource for developers, security professionals, and operations teams who want to learn about the world of DevSecOps
+- [dwisiswant0 Nuceli Template Dir](https://github.com/dwisiswant0/nuclei-templates-dir) Awesome list and easy for search nuclei templates 
+- [dwisiswant0 CF-CHECK](https://github.com/dwisiswant0/cf-check/releases) CloudFlare Checker written in Go
 
 Social Engineering
 
