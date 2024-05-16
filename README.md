@@ -1114,6 +1114,11 @@ This domain will always change
 - [NIK PARSE](https://github.com/bachors/nik_parse.js?tab=readme-ov-file#nik_parsejs)
 - [Maltego Social Links Pro](https://www.maltego.com/transform-hub/social-links-pro/)
 - [hertz](https://www.hertz.com/rentacar/receipts/request-receipts.do)
+- [fastpeoplesearch](https://www.fastpeoplesearch.com/)
+- [fastpeoplesearch.info](https://fastpeoplesearch.info/)
+- [intelius](https://www.intelius.com/)
+- [recruitin](https://recruitin.net/)
+- [recruitmentgeek](https://recruitmentgeek.com/tools/linkedin#gsc.tab=0)
 
 # Phone Numbers
 
