@@ -150,6 +150,7 @@ Be carefull using this tool
 - [paperswithcode](https://paperswithcode.com/)
 - [ID BPS](https://www.bps.go.id/id)
 - [ID data Kementrian & Lembaha Dataset](https://data.go.id/home)
+- [ShadowDragon](https://shadowdragon.io/)
 
 # Forums & Sites
 
@@ -229,6 +230,9 @@ Be carefull using this tool
 - [huntintel](https://www.huntintel.io/)
 - [Sherlock Eye](https://sherlockeye.io/)
 - [clauneck](https://github.com/serpapi/clauneck)
+- [ShadowDragon](https://shadowdragon.io/)
+- [sociallinks](https://sociallinks.io/)
+- [Crimewall](https://sociallinks.io/products/sl-crimewall)
 
 # Social Media Management and Content Discovery
 
@@ -242,6 +246,9 @@ Be carefull using this tool
 - [huntintel](https://www.huntintel.io/)
 - [Sherlock Eye](https://sherlockeye.io/)
 - [clauneck](https://github.com/serpapi/clauneck)
+- [ShadowDragon](https://shadowdragon.io/)
+- [sociallinks](https://sociallinks.io/)
+- [Crimewall](https://sociallinks.io/products/sl-crimewall)
 
 # Web Intelligence
 
@@ -345,6 +352,7 @@ Be carefull using this tool
 - [wheregoes](https://wheregoes.com/)
 - [spyoffers](https://www.spyoffers.com/)
 - [vx-underground](https://vx-underground.org/)
+- [ShadowDragon](https://shadowdragon.io/)
 
 # Researching Cyber Threats
 
@@ -425,6 +433,7 @@ Be carefull using this tool
 - [shellpub](https://n.shellpub.com/en)
 - [qianxin](https://ti.qianxin.com/en)
 - [CAPA MANDIANT](https://github.com/mandiant/capa)
+- [ShadowDragon](https://shadowdragon.io/)
 
 # IoT Search Engines
 
@@ -525,6 +534,8 @@ You can find the file hash or other threat indicator
 - [shellpub](https://n.shellpub.com/en)
 - [qianxin](https://ti.qianxin.com/en)
 - [CAPA MANDIANT](https://github.com/mandiant/capa)
+- [ShadowDragon](https://shadowdragon.io/)
+- [sociallinks](https://sociallinks.io/)
 
 # Automation Dorking 
 
@@ -959,6 +970,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Wayback Downloader](https://github.com/hartator/wayback-machine-downloader)
 - [How to archive tele content](https://www.bellingcat.com/resources/how-tos/2022/03/08/how-to-archive-telegram-content-to-document-russias-invasion-of-ukraine/)
 - [webarchiveviewer](https://cybdetective.com/webarchiveviewer/)
+- [ShadowDragon](https://shadowdragon.io/)
 
 # Data Breached OSINT
 
@@ -1071,6 +1083,7 @@ This domain will always change
 - [ALEPT OCCRP](https://aleph.occrp.org/)
 - [offshoreleaks](https://offshoreleaks.icij.org/)
 - [gajiterbaru](https://gajiterbaru.id/)
+- [sociallinks](https://sociallinks.io/)
 
 # People Searching
 
@@ -1691,6 +1704,9 @@ Search channel, username anymore
 - [stratosphere](https://github.com/elehcimd/stratosphere)
 - [OSINT compass](https://osint-compass-portal.onrender.com/)
 - [Sherlock Eye](https://sherlockeye.io/)
+- [ShadowDragon](https://shadowdragon.io/)
+- [sociallinks](https://sociallinks.io/)
+- [Crimewall](https://sociallinks.io/products/sl-crimewall)
 
 # Image Search
 
@@ -2308,6 +2324,9 @@ Social Network and blogging
 - [SOC Radar Darkweb Int Monitoring](https://socradar.io/products/dark-web-monitoring/)
 - [I2P Download](https://geti2p.net/en/)
 - [zerofox](https://www.zerofox.com/platform/)
+- [ShadowDragon](https://shadowdragon.io/)
+- [sociallinks](https://sociallinks.io/)
+- [Crimewall](https://sociallinks.io/products/sl-crimewall)
 
 # Digital Forensics
 
@@ -2352,6 +2371,7 @@ Social Network and blogging
 - [Gfobins](https://gtfobins.github.io/)
 - [Lolbas](https://lolbas-project.github.io/)
 - [Loonbins](https://www.loobins.io/tactics/collection/)
+- [sociallinks](https://sociallinks.io/) 
 
 # Write Your Investigation
 
@@ -2404,6 +2424,7 @@ Password Manager
 - [Fullcontact](https://www.fullcontact.com/)
 - [Spam Calls](https://spamcalls.net/en/)
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
+- [Crimewall](https://sociallinks.io/products/sl-crimewall)
 
 # Content Removal & Strict Media Content
 
@@ -3116,6 +3137,7 @@ Resources and collection for your make tool OSINT
 - [pddikti ID](https://pddikti.kemdikbud.go.id/)
 - [pipl](https://pipl.com/)
 - [ipqs](https://www.ipqualityscore.com/)
+- [sociallinks](https://sociallinks.io/)
 
 # NEWS OSINT
 
@@ -3134,6 +3156,7 @@ Search News Journalist and Documentary Sites
 - [narasi ID](https://narasi.tv/)
 - [katadata ID](https://katadata.co.id/)
 - [ID BRIN](https://brin.go.id/)
+- [ShadowDragon](https://shadowdragon.io/)
 
 # OSINT Keyword 
 
@@ -3155,6 +3178,9 @@ Search News Journalist and Documentary Sites
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
 - [stealthmole](https://www.stealthmole.com/)
 - [NCA most wanted](https://nationalcrimeagency.gov.uk/most-wanted-search)
+- [ShadowDragon](https://shadowdragon.io/)
+- [sociallinks](https://sociallinks.io/)
+- [Crimewall](https://sociallinks.io/products/sl-crimewall)
 
 # OSINT for Politics and Geopolitics
 
