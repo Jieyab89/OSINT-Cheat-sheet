@@ -1493,6 +1493,7 @@ Google queries for MySpace
 
 - [Pastebin Alerts](http://pastebin.com/u/alerts)
 - [HaveIBeenPwned](http://www.haveIbeenpwned.com)
+- [Hudson Rock Cybercrime Intelligence Free Tools](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools)
 - [breachorclear](http://breachorclear.jesterscourt.cc)
 
 # EXIF Analysis
