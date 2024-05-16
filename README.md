@@ -194,6 +194,7 @@ Be carefull using this tool
 - [SourceCodeOnline](http://www.sourcecodeonline.com)
 - [Woboq](https://code.woboq.org)
 - [publicwww](https://publicwww.com/)
+- [DevsecOps Secure Code](https://devsecopsguides.com/docs/rules)
 
 # Competitive Programming
 
@@ -2786,6 +2787,7 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [OneForAll](https://github.com/shmilylty/OneForAll/blob/master/docs/en-us/README.md) Awesome web reccon and subdomain, DNS reccon
 - [Can I Take Over xyz](https://github.com/EdOverflow/can-i-take-over-xyz) A list of services and how to claim (sub)domains with dangling DNS records
 - [Can I Take Over DNS](https://github.com/indianajson/can-i-take-over-dns) A list of DNS providers and how to claim (sub)domains via missing hosted zones
+- [DevsecOps Secure Code](https://devsecopsguides.com/docs/rules) Resource for developers, security professionals, and operations teams who want to learn about the world of DevSecOps
 
 Social Engineering
 
