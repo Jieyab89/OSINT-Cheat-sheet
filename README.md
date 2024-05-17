@@ -1120,6 +1120,15 @@ This domain will always change
 - [recruitin](https://recruitin.net/)
 - [recruitmentgeek](https://recruitmentgeek.com/tools/linkedin#gsc.tab=0)
 
+# Family People Search 
+
+- [Delpher](https://www.delpher.nl/)
+- [Myheritage](https://www.myheritage.com/)
+- [Myheritage NL](https://www.myheritage.nl/)
+- [FamilySearch](https://www.familysearch.org/id/indonesia/)
+- [genealogieonline](https://www.genealogieonline.nl/en/)
+- [geneanet](https://en.geneanet.org/)
+
 # Phone Numbers
 
 - [argali](http://www.argali.com)
@@ -1672,6 +1681,7 @@ Search channel, username anymore
 - [Tele Phone Number Checker - Bellingcat](https://github.com/bellingcat/telegram-phone-number-checker)
 - [Telegram Geogramint](https://github.com/Alb-310/Geogramint)
 - [Telegram-Trilateration](https://github.com/jkctech/Telegram-Trilateration)
+- [TeleTracker by Tsale](https://github.com/tsale/TeleTracker)
 
 # Document and Slides Search
 
@@ -2221,6 +2231,7 @@ Telegram
 - [TGDev](https://tgdev.io/)
 - [Telegram Geogramint](https://github.com/Alb-310/Geogramint)
 - [Telegram-Trilateration](https://github.com/jkctech/Telegram-Trilateration)
+- [TeleTracker by Tsale](https://github.com/tsale/TeleTracker)
 
 # Build Sockpuppet Accounts
 
@@ -3167,6 +3178,7 @@ Search News Journalist and Documentary Sites
 - [katadata ID](https://katadata.co.id/)
 - [ID BRIN](https://brin.go.id/)
 - [ShadowDragon](https://shadowdragon.io/)
+- [Delpher](https://www.delpher.nl/)
 
 # OSINT Keyword 
 
@@ -3180,6 +3192,7 @@ Search News Journalist and Documentary Sites
 - [eumostwanted EU](https://eumostwanted.eu/)
 - [nationalcrimeagency UK](https://www.nationalcrimeagency.gov.uk/most-wanted)
 - [FBI Most Wanted](https://web.archive.org/web/20030315000000*/https://www.fbi.gov/wanted/cyber)
+- [FBI](https://www.fbi.gov/wanted)
 - [secretservice](https://www.secretservice.gov/investigations/mostwanted)
 - [pusiknas Polri ID](https://pusiknas.polri.go.id/dpo)
 - [kejaksaan ID](https://pelayanan.kejaksaan.go.id/layanan/permohonan/dpo)
@@ -3237,7 +3250,23 @@ OSINT politics and geopolitics, risk crisis
 - [Puppeter](https://www.npmjs.com/package/puppeteer-extra-plugin-stealth) For web scrapper and info gath
 - [spiderfoot](https://github.com/smicallef/spiderfoot) Automates OSINT for threat intelligence and mapping your attack surface.
 
-# OSINT IRC CHAT
+# OSINT IRC Chat
 
 - [netsplit](https://netsplit.de/channels/)
 - [kiwiirc](https://kiwiirc.com/search)
+
+# OSINT Art Collection
+
+- [Getty Edu](https://www.getty.edu/art/collection/)
+- [graphicsatlas](http://www.graphicsatlas.org/)
+- [NPG UK](https://www.npg.org.uk/collections/)
+- [Artnet](https://www.artnet.com/artists/)
+- [NGV AU](https://www.ngv.vic.gov.au/explore/collection/)
+- [DAAO AU](https://www.daao.org.au/)
+- [Old Indiana Photo](https://www.oldindianphotos.in/)
+- [Lostart DE](https://www.lostart.de/en/start)
+
+# OSINT The Artists 
+
+- [Artnet](https://www.artnet.com/artists/)
+- [NGV AU](https://www.ngv.vic.gov.au/explore/collection/)
