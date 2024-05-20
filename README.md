@@ -2828,6 +2828,9 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [DevsecOps Secure Code](https://devsecopsguides.com/docs/rules) Resource for developers, security professionals, and operations teams who want to learn about the world of DevSecOps
 - [dwisiswant0 Nuceli Template Dir](https://github.com/dwisiswant0/nuclei-templates-dir) Awesome list and easy for search nuclei templates 
 - [dwisiswant0 CF-CHECK](https://github.com/dwisiswant0/cf-check/releases) CloudFlare Checker written in Go
+- [List Red Team Tool Cheat Sheet](https://highon.coffee/blog/) List cheat sheet for red team tools 
+- [Red Team Notes](https://notes.benheater.com/) Good notes for red team  
+- [OSCP NOTES](https://github.com/0xsyr0/OSCP) Awesome OSCP notes cheat sheet for your labs and exam or CTF
 
 Social Engineering
 
