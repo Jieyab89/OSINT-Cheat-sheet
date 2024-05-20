@@ -2828,6 +2828,8 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [DevsecOps Secure Code](https://devsecopsguides.com/docs/rules) Resource for developers, security professionals, and operations teams who want to learn about the world of DevSecOps
 - [dwisiswant0 Nuceli Template Dir](https://github.com/dwisiswant0/nuclei-templates-dir) Awesome list and easy for search nuclei templates 
 - [dwisiswant0 CF-CHECK](https://github.com/dwisiswant0/cf-check/releases) CloudFlare Checker written in Go
+- [HTTP Docs](https://devdoc.net/web/developer.mozilla.org/en-US/docs/HTTP.1.html) Awesome guides protocol for transmitting hypermedia documents for pentester and developer
+- [Devoper Mozila](https://developer.mozilla.org/en-US/) Awesome resouces guides protocol for transmitting hypermedia documents for pentester and developer
 
 Social Engineering
 
