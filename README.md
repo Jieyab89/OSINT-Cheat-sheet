@@ -1002,8 +1002,15 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 
 # Crack Jurnals
 
-- [SCI HUB](https://sci-hub.hkvisa.net/)
-This domain will always change
+- [SCI HUB](https://sci-hub.hkvisa.net/) This domain will always change
+- [Z-Library](https://id.zlibrary-asia.se/s/?q=&type=phrase)
+- [DOAJ (Directory of Open Access Journals)](https://doaj.org/)
+- [LibGen (Library Genesis)](https://libgen.li/)
+- [ScienceOpen](https://www.scienceopen.com/)
+- [CORE](https://core.ac.uk/)
+- [Unpaywall](https://unpaywall.org/)
+- [Wiley Online Library](https://onlinelibrary.wiley.com/)
+- [Open Access Button](https://openaccessbutton.org/)
 
 # Search Jurnals
 
@@ -1013,6 +1020,19 @@ This domain will always change
 - [Sinta](https://sinta.kemdikbud.go.id/)
 - [Scopus](https://www.scopus.com/)
 - [Onesearch ID](https://onesearch.id/)
+- [Z-Library](https://id.zlibrary-asia.se/s/?q=&type=phrase)
+- [DOAJ (Directory of Open Access Journals)](https://doaj.org/)
+- [LibGen (Library Genesis) 2](https://libgen.li/)
+- [ScienceOpen](https://www.scienceopen.com/)
+- [CORE](https://core.ac.uk/)
+- [Springer Support](https://www.springeropen.com/journals)
+- [Springer link 2](https://link.springer.com/)
+- [Academia.edu](https://www.academia.edu/)
+- [CyberLeninka](https://cyberleninka.org/)
+- [Unpaywall](https://unpaywall.org/)
+- [ResearchGate](https://www.researchgate.net/)
+- [Wiley Online Library](https://onlinelibrary.wiley.com/)
+- [Open Access Button](https://openaccessbutton.org/)
 
 # Blogs Search Engine
 
