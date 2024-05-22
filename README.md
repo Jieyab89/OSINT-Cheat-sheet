@@ -1105,6 +1105,11 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [offshoreleaks](https://offshoreleaks.icij.org/)
 - [gajiterbaru](https://gajiterbaru.id/)
 - [sociallinks](https://sociallinks.io/)
+- [Job Planet](https://id.jobplanet.com/)
+- [Deals Job](https://dealls.com/)
+- [Pay Scale](https://www.payscale.com/research/US/Employer)
+- [salary](https://www.salary.com/research/employer)
+- [Paylab Salary Info](https://www.paylab.com/id/salaryinfo)
 
 # People Searching
 
