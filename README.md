@@ -435,6 +435,7 @@ Be carefull using this tool
 - [qianxin](https://ti.qianxin.com/en)
 - [CAPA MANDIANT](https://github.com/mandiant/capa)
 - [ShadowDragon](https://shadowdragon.io/)
+- [decompiler](https://www.decompiler.com/)
 
 # IoT Search Engines
 
@@ -537,6 +538,7 @@ You can find the file hash or other threat indicator
 - [CAPA MANDIANT](https://github.com/mandiant/capa)
 - [ShadowDragon](https://shadowdragon.io/)
 - [sociallinks](https://sociallinks.io/)
+- [decompiler](https://www.decompiler.com/)
 
 # Automation Dorking 
 
@@ -2410,6 +2412,7 @@ Social Network and blogging
 - [Lolbas](https://lolbas-project.github.io/)
 - [Loonbins](https://www.loobins.io/tactics/collection/)
 - [sociallinks](https://sociallinks.io/) 
+- [decompiler](https://www.decompiler.com/)
 
 # Write Your Investigation
 
