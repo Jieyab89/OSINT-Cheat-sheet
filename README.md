@@ -2862,6 +2862,7 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [List Red Team Tool Cheat Sheet](https://highon.coffee/blog/) List cheat sheet for red team tools 
 - [Red Team Notes](https://notes.benheater.com/) Good notes for red team  
 - [OSCP NOTES](https://github.com/0xsyr0/OSCP) Awesome OSCP notes cheat sheet for your labs and exam or CTF
+- [mytechnotalent Reverse-Engineering](https://github.com/mytechnotalent/Reverse-Engineering) A FREE comprehensive reverse engineering tutorial covering x86, x64, 32-bit ARM & 64-bit ARM architectures.
 
 Social Engineering
 
