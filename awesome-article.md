@@ -7,7 +7,7 @@
 - [OSINT handbook 2022 OSINT information gathering and threat intel](https://t.me/seccodeid/87)
 - [Introducing social media intelligence (SOCMINT)](https://www.researchgate.net/publication/262869934_Introducing_social_media_intelligence_SOCMINT)
 
-# Indonesian article
+# Indonesian Article
 
 - [OSINT Open Source Intelligence Fundamental](https://blog.seccodeid.com/2022/09/osint-open-source-intelligence.html)
 - [OSINT Tutorial Maltego -Open Source Intelligence Free Handbook](https://blog.tegalsec.org/osint-tutorial-maltego-open-source-intelligence-free-handbook/)
@@ -19,7 +19,7 @@
 - [Identitas BTS](http://karionotelco.blogspot.com/p/blog-page_6191.html)
 - [Bagaimana Lokasi Kita Ditemukan Dengan Triangulasi](https://medium.com/@adya/bagaimana-lokasi-kita-ditemukan-dengan-triangulasi-3b87796c1dd)
 
-# English article
+# English Article
 
 - [Creating Sock Puppets for Your Investigations](https://www.maltego.com/blog/creating-sock-puppets-for-your-investigations/)
 - [Investigative Journalism on Disinformation Campaigns: UC Berkeley Human Rights Center](https://www.maltego.com/blog/investigative-journalism-on-disinformation-campaigns-uc-berkeley-human-rights-center/)
@@ -39,3 +39,9 @@
 - [Belingcat Investigation](https://www.bellingcat.com/)
 - [dutchosintguy](https://www.dutchosintguy.com/)
 - [sector035](https://sector035.nl/)
+
+# Satellite Intelligence
+
+- [conference hitbsecconf](https://archive.conference.hitb.org/hitbsecconf2011ams/materials/D2T2%20-%20Jim%20Geovedi%20and%20Raoul%20Chiesa%20-%20Hacking%20a%20Bird%20in%20the%20Sky.pdf)
+- [Wikipedia](https://en.wikipedia.org/wiki/Reconnaissance_satellite)
+- [allsourceanalysis](https://allsourceanalysis.com/tag/open-source-intelligence-osint/)
