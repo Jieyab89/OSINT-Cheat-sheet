@@ -1035,6 +1035,10 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [ResearchGate](https://www.researchgate.net/)
 - [Wiley Online Library](https://onlinelibrary.wiley.com/)
 - [Open Access Button](https://openaccessbutton.org/)
+- [Arjuna Kemdikbud ID ](https://arjuna.kemdikbud.go.id/#/jurnal)
+- [Bima Kemdikbud ID](https://bima.kemdikbud.go.id/pengumuman)
+- [Rama Kemdikbud ID](https://rama.kemdikbud.go.id/)
+- [Anjani Kemdikbud ID](https://anjani.kemdikbud.go.id/contents/prosedur-pelaporan-78074230?ctx=prosedur-pelaporan) Report person academic cheat
 
 # Blogs Search Engine
 
@@ -1141,6 +1145,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [intelius](https://www.intelius.com/)
 - [recruitin](https://recruitin.net/)
 - [recruitmentgeek](https://recruitmentgeek.com/tools/linkedin#gsc.tab=0)
+- [Arjuna Kemdikbud ID ](https://arjuna.kemdikbud.go.id/#/jurnal)
 
 # Family People Search 
 
@@ -1150,6 +1155,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [FamilySearch](https://www.familysearch.org/id/indonesia/)
 - [genealogieonline](https://www.genealogieonline.nl/en/)
 - [geneanet](https://en.geneanet.org/)
+- [wiewaswie NL](https://www.wiewaswie.nl/)
 
 # Phone Numbers
 
@@ -3207,6 +3213,11 @@ Search News Journalist and Documentary Sites
 - [ID BRIN](https://brin.go.id/)
 - [ShadowDragon](https://shadowdragon.io/)
 - [Delpher](https://www.delpher.nl/)
+- [monash edu](https://repository.monash.edu/items/browse)
+- [digitalcollections](https://digitalcollections.universiteitleiden.nl/)
+- [scholarlypublications](https://scholarlypublications.universiteitleiden.nl/)
+- [nationaalarchief](https://www.nationaalarchief.nl/)
+- [myheritage](https://www.myheritage.nl/)
 
 # OSINT Keyword 
 
@@ -3298,3 +3309,8 @@ OSINT politics and geopolitics, risk crisis
 
 - [Artnet](https://www.artnet.com/artists/)
 - [NGV AU](https://www.ngv.vic.gov.au/explore/collection/)
+
+# OSINT Language 
+
+- [babla](https://www.babla.co.id/pengucapan/bahasa-china/)
+- [Google](https://www.google.com/search?q=google+translate)
