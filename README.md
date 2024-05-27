@@ -151,6 +151,7 @@ Be carefull using this tool
 - [ID BPS](https://www.bps.go.id/id)
 - [ID data Kementrian & Lembaha Dataset](https://data.go.id/home)
 - [ShadowDragon](https://shadowdragon.io/)
+- [datasetlist](https://www.datasetlist.com/)
 
 # Forums & Sites
 
@@ -166,6 +167,7 @@ Be carefull using this tool
 - [boardreader](https://boardreader.com/)
 - [maltego](https://www.maltego.com/categories/osint/)
 - [offensiveosint](https://www.offensiveosint.io/)
+- [sizeof](https://sizeof.cat/archive/)
 
 # General Search
 
@@ -196,6 +198,7 @@ Be carefull using this tool
 - [Woboq](https://code.woboq.org)
 - [publicwww](https://publicwww.com/)
 - [DevsecOps Secure Code](https://devsecopsguides.com/docs/rules)
+- [awesomeopensource](https://awesomeopensource.com/)
 
 # Competitive Programming
 
@@ -234,6 +237,7 @@ Be carefull using this tool
 - [ShadowDragon](https://shadowdragon.io/)
 - [sociallinks](https://sociallinks.io/)
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
+- [socialscan](https://pypi.org/project/socialscan/)
 
 # Social Media Management and Content Discovery
 
@@ -250,6 +254,7 @@ Be carefull using this tool
 - [ShadowDragon](https://shadowdragon.io/)
 - [sociallinks](https://sociallinks.io/)
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
+- [socialscan](https://pypi.org/project/socialscan/)
 
 # Web Intelligence
 
@@ -354,6 +359,7 @@ Be carefull using this tool
 - [spyoffers](https://www.spyoffers.com/)
 - [vx-underground](https://vx-underground.org/)
 - [ShadowDragon](https://shadowdragon.io/)
+- [metadefender](https://metadefender.opswat.com/)
 
 # Researching Cyber Threats
 
@@ -375,6 +381,7 @@ Be carefull using this tool
 - [Virus Share](https://virusshare.com)
 - [Web Cookies Scanner](https://webcookies.org)
 - [Yara](https://yara.readthedocs.io/en/stable/)
+- [Yara Hub](https://yaraify.abuse.ch/yarahub/)
 - [Spiderfoot](https://www.spiderfoot.net/)
 - [NVD](https://nvd.nist.gov/search)
 - [Seclist](https://seclists.org/fulldisclosure/)
@@ -436,6 +443,8 @@ Be carefull using this tool
 - [CAPA MANDIANT](https://github.com/mandiant/capa)
 - [ShadowDragon](https://shadowdragon.io/)
 - [decompiler](https://www.decompiler.com/)
+- [deepdarkCTI](https://github.com/fastfire/deepdarkCTI)
+- [metadefender](https://metadefender.opswat.com/)
 
 # IoT Search Engines
 
@@ -477,6 +486,9 @@ net huggers
 - [Wifimap](https://www.wifimap.io/)
 - [Fon](https://fon.com/maps/)
 - [SolarWInds](https://www.solarwinds.com/network-performance-monitor/use-cases/wifi-monitor)
+- [wifispc](https://wifispc.com/)
+- [wificafespots](https://www.wificafespots.com/wifi/)
+- [openwifimap](https://openwifimap.ne)
 
 # SOC & Threat Hunting
 
@@ -488,6 +500,7 @@ You can find the file hash or other threat indicator
 - [Exploit db](https://www.exploit-db.com/)
 - [AT&T](https://cybersecurity.att.com/resource-center#content_analyst-reports)
 - [Yara](https://yara.readthedocs.io/en/stable/)
+- [Yara Hub](https://yaraify.abuse.ch/yarahub/)
 - [Virustotal](https://www.virustotal.com/gui/home/upload)
 - [Joesandbox](https://www.joesandbox.com/#windows)
 - [Spiderfoot](https://www.spiderfoot.net/)
@@ -539,6 +552,8 @@ You can find the file hash or other threat indicator
 - [ShadowDragon](https://shadowdragon.io/)
 - [sociallinks](https://sociallinks.io/)
 - [decompiler](https://www.decompiler.com/)
+- [deepdarkCTI](https://github.com/fastfire/deepdarkCTI)
+- [metadefender](https://metadefender.opswat.com/)
 
 # Automation Dorking 
 
@@ -553,6 +568,7 @@ You can find the file hash or other threat indicator
 - [CENSYS Queries](https://github.com/thehappydinoa/awesome-censys-queries)
 - [Google Dork Simplified](https://github.com/dheerajydv19/Google-Dorks-Simplified)
 - [Gdorks](https://github.com/Ishanoshada/GDorks)
+- [cybdetective pastebin](https://cybdetective.com/pastebin.html)
 
 # Github Dork
 
@@ -954,6 +970,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [mediasova](https://search.mediasova.com/en/index)
 - [mojeek](https://www.mojeek.com/)
 - [boardreader](https://boardreader.com/)
+- [Geoint CSE search](https://cse.google.com/cse?cx=015328649639895072395:sbv3zyxzmji#gsc.tab=0&gsc.sort=)
 
 # Internet Archive
 
@@ -1001,6 +1018,10 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [offshoreleaks](https://offshoreleaks.icij.org/)
 - [proxynova password breach](https://proxynova.com/tools/comb/)
 - [WhiteIntel](https://whiteintel.io/)
+- [Leaked Domain](https://leaked.domains/)
+- [cybdetective pastebin](https://cybdetective.com/pastebin.html)
+- [emploleaks](https://github.com/infobyte/emploleaks)
+- [databreaches](https://databreaches.net/)
 
 # Crack Jurnals
 
@@ -1060,6 +1081,8 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Onionsearch](https://github.com/megadose/OnionSearch)
 - [Darknet Book](https://github.com/darknet-book/tor-guide)
 - [immuniweb](https://www.immuniweb.com/darkweb/)
+- [darknetlive](https://darknetlive.com/onions)
+- [ransomwatch](https://ransomwatch.telemetry.ltd/#/)
 
 # Tracking Website Changes
 
@@ -1116,6 +1139,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Pay Scale](https://www.payscale.com/research/US/Employer)
 - [salary](https://www.salary.com/research/employer)
 - [Paylab Salary Info](https://www.paylab.com/id/salaryinfo)
+- [emploleaks](https://github.com/infobyte/emploleaks)
 
 # People Searching
 
@@ -1151,6 +1175,8 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [recruitin](https://recruitin.net/)
 - [recruitmentgeek](https://recruitmentgeek.com/tools/linkedin#gsc.tab=0)
 - [Arjuna Kemdikbud ID ](https://arjuna.kemdikbud.go.id/#/jurnal)
+- [peekyou](https://www.peekyou.com/)
+- [castrickclues](https://castrickclues.com/)
 
 # Family People Search 
 
@@ -1239,6 +1265,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [whatsmyname](https://whatsmyname.app/)
 - [holehe](https://github.com/megadose/holehe)
 - [hertz](https://www.hertz.com/rentacar/receipts/request-receipts.do)
+- [peekyou](https://www.peekyou.com/)
 
 # Social Networks
 
@@ -1246,7 +1273,6 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Facebook lookup id](https://lookup-id.com/#)
 - [Sherlock](https://github.com/sherlock-project/sherlock)
 - [Socialsearcher Users](https://www.social-searcher.com/)
-- [Sherlock](https://github.com/sherlock-project/sherlock)
 - [Nexfil](https://github.com/thewhiteh4t/nexfil)
 - [Googlesocialsearch](https://www.social-searcher.com/google-social-search/)
 - [Google Social Network Transforms](https://www.maltego.com/transform-hub/google-programmable-search-engine-transforms/)
@@ -1325,6 +1351,8 @@ or you can use dork for spesific example
 - [Fb Sleep Stats](https://github.com/sorenlouv/fb-sleep-stats)
 - [Skopenow FB Hunter](https://www.skopenow.com/)
 - [Facebook Data Breach Cheker](https://haveibeenzuckered.com/)
+- [F**ck Facebook Github](https://github.com/Ph4nToM00/FuckFacebook)
+- [exportcomments](https://exportcomments.com/)
 
 # OnlyFans
 
@@ -1338,6 +1366,7 @@ or you can use dork for spesific example
 
 - [STEAM DB](https://steamdb.info/calculator/)
 - [Steam OSINT tool](https://github.com/matiash26/Steam-OSINT-TOOL)
+- [exportcomments](https://exportcomments.com/)
 
 # Slack 
 
@@ -1369,6 +1398,7 @@ or you can use dork for spesific example
 - [Storistalker](https://storistalker.com/#back)
 - [instahunt](https://instahunt.co/)
 - [Sterraxcyl IG Profiler](https://github.com/novitae/sterraxcyl)
+- [exportcomments](https://exportcomments.com/)
 
 # Microsoft OneDrive 
 
@@ -1399,6 +1429,10 @@ or you can use dork for spesific example
 - [YT Mtedata](https://mattw.io/youtube-metadata/)
 - [TY Geo Find](https://mattw.io/youtube-geofind/)
 - [YT chat downloader](https://github.com/xenova/chat-downloader)
+- [youtubecommentsdownloader](https://youtubecommentsdownloader.com/)
+- [ytcomment](https://ytcomment.kmcat.uk/)
+- [exportcomments](https://exportcomments.com/)
+- [yark YT archiving](https://github.com/Owez/yark)
 
 # Twitter
 
@@ -1465,6 +1499,7 @@ or you can use dork for spesific example
 - [Tweetbinder](https://www.tweetbinder.com/)
 - [onemilliontweetmap](https://onemilliontweetmap.com/)
 - [birdhunt](https://birdhunt.co/)
+- [exportcomments](https://exportcomments.com/)
 
 # Github 
 
@@ -1531,6 +1566,7 @@ Google queries for MySpace
 - [tiktok API](https://pypi.org/project/TikTokApi/)
 - [tiktok date extract](https://bellingcat.github.io/tiktok-timestamp/)
 - [Gimenz tiktok downloader](https://github.com/Gimenz/tiktok-downloader)
+- [exportcomments](https://exportcomments.com/)
 
 # Parler 
 
@@ -1605,6 +1641,7 @@ Google queries for MySpace
 - [Ghunt](https://github.com/mxrch/GHunt)
 - [Email Format](https://www.email-format.com/i/search/)
 - [predictasearch](https://www.predictasearch.com/)
+- [emailsearch](https://emailsearch.io/)
 
 # Shodan Query Options
 
@@ -1700,7 +1737,6 @@ Search channel, username anymore
 - [Telegram Search Engine](https://xtea.io/)
 - [Telegram Database: channels, groups and users](https://t.me/s/privatelinks)
 - [Telegram channels and groups catalog](https://tgstat.com/)
-- [Telegago](https://cse.google.com/)
 - [Social Finder](https://socialfinder.app/list/Telegram)
 - [Lyzem Search](https://lyzem.com/)
 - [Discover The Best Telegram Channels](https://telegramchannels.me/)
@@ -1757,6 +1793,7 @@ Search channel, username anymore
 - [ShadowDragon](https://shadowdragon.io/)
 - [sociallinks](https://sociallinks.io/)
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
+- [socialscan](https://pypi.org/project/socialscan/)
 
 # Image Search
 
@@ -1868,6 +1905,7 @@ Search channel, username anymore
 - [tookapic](https://stock.tookapic.com)
 - [Unsplash](https://unsplash.com)
 - [Pimeyes](https://pimeyes.com/en)
+- [Pixiv](https://www.pixiv.net/en/)
 
 # Video Search and Other Video Tools
 
@@ -2255,8 +2293,8 @@ Telegram
 - [Telegram Search Engine](https://xtea.io/)
 - [Telegram Database: channels, groups and users](https://t.me/s/privatelinks)
 - [Telegram channels and groups catalog](https://tgstat.com/)
-- [Telegago](https://cse.google.com/)
 - [Social Finder](https://socialfinder.app/list/Telegram)
+- [Telegago](https://cse.google.com/cse?q=+&cx=006368593537057042503:efxu7xprihg#gsc.tab=0&gsc.q=%20&gsc.page=1)
 - [Lyzem Search](https://lyzem.com/)
 - [Discover The Best Telegram Channels](https://telegramchannels.me/)
 - [Tele Channel Overiview](https://telemetr.io/)
@@ -2378,6 +2416,7 @@ Social Network and blogging
 - [ShadowDragon](https://shadowdragon.io/)
 - [sociallinks](https://sociallinks.io/)
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
+- [sizeof](https://sizeof.cat/archive/)
 
 # Digital Forensics
 
@@ -2477,6 +2516,7 @@ Password Manager
 - [Spam Calls](https://spamcalls.net/en/)
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
+- [scamsearch global scam database](https://scamsearch.io/)
 
 # Content Removal & Strict Media Content
 
@@ -2868,6 +2908,9 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Red Team Notes](https://notes.benheater.com/) Good notes for red team  
 - [OSCP NOTES](https://github.com/0xsyr0/OSCP) Awesome OSCP notes cheat sheet for your labs and exam or CTF
 - [mytechnotalent Reverse-Engineering](https://github.com/mytechnotalent/Reverse-Engineering) A FREE comprehensive reverse engineering tutorial covering x86, x64, 32-bit ARM & 64-bit ARM architectures.
+- [Mobile Nuclei Template](https://github.com/optiv/mobile-nuclei-templates?tab=readme-ov-file) Nuclei template for static analysis mobile security assessments
+- [Awesome Threat Intel](https://github.com/hudsonrock-partnerships/awesome-threat-intelligence) A curated list of Awesome Threat Intelligence resources
+- [Hacker Search Engine](https://awesome-hacker-search-engines.com/) Awesome cheat for enumeration for pentester
 
 Social Engineering
 
@@ -3215,6 +3258,7 @@ Search News Journalist and Documentary Sites
 - [apnews](https://apnews.com/hub/israel-hamas-war)
 - [unocha](https://www.unocha.org/)
 - [narasi ID](https://narasi.tv/)
+- [kumparan ID](https://kumparan.com/)
 - [katadata ID](https://katadata.co.id/)
 - [ID BRIN](https://brin.go.id/)
 - [ShadowDragon](https://shadowdragon.io/)
@@ -3315,6 +3359,7 @@ OSINT politics and geopolitics, risk crisis
 
 - [Artnet](https://www.artnet.com/artists/)
 - [NGV AU](https://www.ngv.vic.gov.au/explore/collection/)
+- [influzoom](https://influzoom.com/)
 
 # OSINT Language 
 
