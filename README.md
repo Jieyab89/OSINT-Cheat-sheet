@@ -2,18 +2,31 @@
 
 [![Github Badge](https://img.shields.io/badge/-Jieyab89-black?style=flat&logo=github&logoColor=white&link=https://github.com/Jieyab89/)](https://github.com/Jieyab89)
 
-Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and others. There are free and paid tools you can use and owner is not responsible, only for knowledge or educational purposes. Sorry if some of the resources have closed the service or error owner doesn't always check what's going on with the resources here, thank you
+Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and others. There are free and paid tools you can use and owner is not responsible (take your own risks), only for knowledge or educational purposes. Apologies if some of the resources are no longer available or contain errors, as the owner does not regularly check the status of these resources, thank you.
 
-# Tips and trick safe guide using resources 
+# Tips & Trick Safe Guide Using Resources 
 
-- Use virtual machine, fake host or docker image 
+- Use virtual machine, fake host or docker machine 
 - Use private network e.g vpn, tor, p2p 
 - Use second account (not you real account)
 - Read ToS the resouces 
-- Enable your firewall and IDS 
+- Enable your firewall, AV and IDS on your host or machine
+- Strict your browser with the privacy extension disable js, ads and more
 - Dont upload your private files make sure you have clean personal file in folder
+- Scan the files will you download 
 
-# Linux Distribution for OSINT 
+# These Resources Are Recommend For 
+
+- IT Security  
+- CTF Player 
+- Journalist 
+- Investigator 
+- Cyber Crime 
+- Researcher & Annalist
+- Law Enforcer
+- General 
+
+# Linux Distribution For OSINT 
 
 You can build it with VM or Live USB make sure you have sandbox machine 
 
