@@ -3284,6 +3284,7 @@ Search News Journalist and Documentary Sites
 - [scholarlypublications](https://scholarlypublications.universiteitleiden.nl/)
 - [nationaalarchief](https://www.nationaalarchief.nl/)
 - [myheritage](https://www.myheritage.nl/)
+- [internet archive](https://archive.org/)
 
 # OSINT Keyword 
 
