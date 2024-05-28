@@ -1072,6 +1072,9 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Arjuna Kemdikbud ID ](https://arjuna.kemdikbud.go.id/#/jurnal)
 - [Bima Kemdikbud ID](https://bima.kemdikbud.go.id/pengumuman)
 - [Rama Kemdikbud ID](https://rama.kemdikbud.go.id/)
+- [Google scholar](https://scholar.google.com/)
+- [Publish or Perish](https://harzing.com/resources/publish-or-perish/windows)
+- [mendeley](https://www.mendeley.com/)
 - [Anjani Kemdikbud ID](https://anjani.kemdikbud.go.id/contents/prosedur-pelaporan-78074230?ctx=prosedur-pelaporan) Report person academic cheat
 
 # Blogs Search Engine
