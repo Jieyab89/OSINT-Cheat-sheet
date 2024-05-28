@@ -13,7 +13,8 @@ Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and othe
 - Enable your firewall, AV and IDS on your host or machine
 - Strict your browser with the privacy extension disable js, ads and more
 - Dont upload your private files make sure you have clean personal file in folder
-- Scan the files will you download 
+- Scan the files will you download
+- Encrypt your network traffic and message, disk [VeraCrypt](https://www.veracrypt.fr/code/VeraCrypt/)
 
 # These Resources Are Recommend For 
 
@@ -31,7 +32,7 @@ Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and othe
 You can build it with VM or Live USB make sure you have sandbox machine 
 
 - [tlosint-live](https://github.com/tracelabs/tlosint-live)
-- [tails](https://tails.net/)
+- [tails](https://tails.net/) & [HiddenVM](https://github.com/aforensics/HiddenVM)
 - [qubes](https://www.qubes-os.org/doc/)
 - [parrot sec](https://www.parrotsec.org/)
 - [csi linux](https://csilinux.com/csi-linux-downloads/)
@@ -3381,3 +3382,13 @@ OSINT politics and geopolitics, risk crisis
 
 - [babla](https://www.babla.co.id/pengucapan/bahasa-china/)
 - [Google](https://www.google.com/search?q=google+translate)
+
+# OSINT Opsec 
+
+- [thgtoa](https://github.com/Anon-Planet/thgtoa) The comprehensive guide for online anonymity and OpSec
+- [HiddenVM](https://github.com/aforensics/HiddenVM) HiddenVM — Use any desktop OS without leaving a trace.
+- [OPSEC Roadmap](https://github.com/OffcierCia/Crypto-OpSec-SelfGuard-RoadMap) The best DeFi, Blockchain and crypto-related OpSec researches and data terminals
+- [OPSEC Guides](https://github.com/RistBS/Awesome-RedTeam-Cheatsheet/blob/master/Miscs/OPSEC%20Guide.md) Hardening tips and guide for OPSEC
+- [BounceBack](https://github.com/D00Movenok/BounceBack) Stealth redirector for your red team operation security
+- [OPSEC 101](https://github.com/BushidoUK/Operational-Security-101) A repository of advice and guides to share with friends and family who are concerned about their safety during online activities and the security of their devices
+- [cqcore UK](https://www.cqcore.uk/) Find OSINT, OPSEC, Obfuscation, Privacy, Infosec & Digital Exposure Profiling educational material, with useful News, Blogs, Top Tips
