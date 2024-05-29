@@ -3404,7 +3404,7 @@ OSINT politics and geopolitics, risk crisis
 - [babla](https://www.babla.co.id/pengucapan/bahasa-china/)
 - [Google](https://www.google.com/search?q=google+translate)
 
-# OSINT Opsec 
+# OSINT OPSEC 
 
 - [thgtoa](https://github.com/Anon-Planet/thgtoa) The comprehensive guide for online anonymity and OpSec
 - [HiddenVM](https://github.com/aforensics/HiddenVM) HiddenVM — Use any desktop OS without leaving a trace.
