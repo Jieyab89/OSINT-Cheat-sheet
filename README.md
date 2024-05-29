@@ -3293,7 +3293,8 @@ Search News Journalist and Documentary Sites
 - [DW ID](https://www.dw.com/id)
 - [histography](https://histography.io/)
 - [muckrack](https://muckrack.com/)
-
+- [internet archive](https://archive.org/)
+               
 Social Media Analytics
 
 - Facebook
