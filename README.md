@@ -3276,7 +3276,7 @@ Search News Journalist and Documentary Sites
 - [narasi ID](https://narasi.tv/)
 - [kumparan ID](https://kumparan.com/)
 - [katadata ID](https://katadata.co.id/)
-- [ID BRIN](https://brin.go.id/)
+- [BRIN ID](https://brin.go.id/)
 - [ShadowDragon](https://shadowdragon.io/)
 - [Delpher](https://www.delpher.nl/)
 - [monash edu](https://repository.monash.edu/items/browse)
@@ -3284,6 +3284,26 @@ Search News Journalist and Documentary Sites
 - [scholarlypublications](https://scholarlypublications.universiteitleiden.nl/)
 - [nationaalarchief](https://www.nationaalarchief.nl/)
 - [myheritage](https://www.myheritage.nl/)
+- [CNN World](https://edition.cnn.com/world)
+- [CNN ID](https://www.cnnindonesia.com/)
+- [Nationalgeographic](https://www.nationalgeographic.com/search)
+- [BPS ID](https://www.bps.go.id/id)
+- [Vice ID](https://www.vice.com/id)
+- [BBC](https://www.bbc.com/)
+- [DW ID](https://www.dw.com/id)
+- [histography](https://histography.io/)
+- [muckrack](https://muckrack.com/)
+
+Social Media Analytics
+
+- Facebook
+- Twitter
+- Instagram
+- Tiktok
+- Youtube
+- Quora
+- Linkedin
+- Reddit 
 
 # OSINT Keyword 
 
@@ -3381,3 +3401,7 @@ OSINT politics and geopolitics, risk crisis
 
 - [babla](https://www.babla.co.id/pengucapan/bahasa-china/)
 - [Google](https://www.google.com/search?q=google+translate)
+
+# OSINT Journalism Project
+
+- [journalism](https://github.com/wbkd/awesome-interactive-journalism)
