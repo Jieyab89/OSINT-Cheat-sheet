@@ -57,10 +57,14 @@ Each BTS tower is divided into three sectors, which we can call the Alpha, Beta 
 >I will make changes to the article here and review it and add case study examples
 >
 
+# Keyword tips 
+
+VLR, IMSI, MSISDN, MRSN, Signaling, Teclo, VOIP, GSM, MCC, MSIN, SS7, HLR, VOIP, AOL Signal Int (SIGINT) 
+
 # Reffernce 
 
 - [Forum Seccodeid Trace Cell Phone Num](https://forum.seccodeid.com/d/mencari-dan-melacak-nomor-hp-dengan-teknik-osint)
 - [What is BTS](https://en.wikipedia.org/wiki/Base_transceiver_station)
 - [cell phone triangulation](https://www.linkedin.com/pulse/cell-phone-triangulation-boney-maundu/)
 - [Triangulation Cell Work TegalSec Blog](https://blog.tegalsec.org/methode-melacak-ponsel-triangulating-with-bts-for-swift-recovery/)
-
+- [Rifky the Cyber CH](https://www.youtube.com/@RifkyTheCyber)
