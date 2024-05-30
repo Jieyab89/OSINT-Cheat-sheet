@@ -2281,6 +2281,10 @@ Desktop NET debugger and assembly editor
 - [GSM Cell ID](https://en.wikipedia.org/wiki/GSM_Cell_ID)
 - [predictasearch](https://www.predictasearch.com/)
 
+Pro Tips 
+
+If you has found the person phone number you can check at data breach, e wallet, social media, email address (via reset password), getcontact, truecaller, ipqs, fraud checker and last trying to dork or search any info into social media to 
+
 # IMEI Investigation
 
 - [SNDeepinfo](https://sndeep.info/)
