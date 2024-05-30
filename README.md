@@ -1257,6 +1257,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [inteltechniques](https://inteltechniques.com/tools/Telephone.html)
 - [pipl](https://pipl.com/)
 - [phonebook](https://phonebook.cz/)
+- [CALL APP](https://callapp.com/app-features)
 
 # Public Records
 
@@ -2280,6 +2281,7 @@ Desktop NET debugger and assembly editor
 - [Cell Global Identity Article](https://medium.com/@fthcknmz/cell-global-identity-cgi-407ea0288943)
 - [GSM Cell ID](https://en.wikipedia.org/wiki/GSM_Cell_ID)
 - [predictasearch](https://www.predictasearch.com/)
+- [CALL APP](https://callapp.com/app-features)
 
 # IMEI Investigation
 
