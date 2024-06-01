@@ -1258,6 +1258,13 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [pipl](https://pipl.com/)
 - [phonebook](https://phonebook.cz/)
 - [CALL APP](https://callapp.com/app-features)
+- [Number Finder IOS](https://apps.apple.com/us/app/number-finder-caller-id-book/id1324048797?platform=iphone)
+- [Dalily Android Apps](https://play.google.com/store/apps/details?id=dalily.caller.ids&hl=en&gl=US)
+- [ViewCaller](https://play.google.com/store/apps/details?id=id.caller.viewcaller&hl=en_US)
+
+Pro Tips
+
+If you has found the person phone number you can check at data breach, e wallet, social media, email address (via reset password), getcontact, truecaller, ipqs, fraud checker and last trying to dork or search any info into social media to
 
 # Public Records
 
@@ -2282,6 +2289,13 @@ Desktop NET debugger and assembly editor
 - [GSM Cell ID](https://en.wikipedia.org/wiki/GSM_Cell_ID)
 - [predictasearch](https://www.predictasearch.com/)
 - [CALL APP](https://callapp.com/app-features)
+- [Number Finder IOS](https://apps.apple.com/us/app/number-finder-caller-id-book/id1324048797?platform=iphone)
+- [Dalily Android Apps](https://play.google.com/store/apps/details?id=dalily.caller.ids&hl=en&gl=US)
+- [ViewCaller](https://play.google.com/store/apps/details?id=id.caller.viewcaller&hl=en_US)
+
+Pro Tips 
+
+If you has found the person phone number you can check at data breach, e wallet, social media, email address (via reset password), getcontact, truecaller, ipqs, fraud checker and last trying to dork or search any info into social media to 
 
 # IMEI Investigation
 
