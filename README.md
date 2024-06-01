@@ -14,7 +14,7 @@ Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and othe
 - Strict your browser with the privacy extension disable js, ads and more
 - Dont upload your private files make sure you have clean personal file in folder
 - Scan the files will you download
-- Encrypt your network traffic and message, disk [VeraCrypt](https://www.veracrypt.fr/code/VeraCrypt/)
+- Encrypt your network traffic, message and disk
 
 # These Resources Are Recommend For 
 
@@ -1039,9 +1039,9 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 
 # Crack Jurnals
 
-- [SCI HUB](https://sci-hub.hkvisa.net/) This domain will always change
+- [SCI HUB](https://sci-hub.hkvisa.net/) This domain will always change, check the mirror [Mirror](https://www.sci-hub.se/mirrors) 
 - [Z-Library](https://id.zlibrary-asia.se/s/?q=&type=phrase)
-- [DOAJ (Directory of Open Access Journals)](https://doaj.org/)
+- [DOAJ] (Directory of Open Access Journals)](https://doaj.org/)
 - [LibGen (Library Genesis)](https://libgen.li/)
 - [ScienceOpen](https://www.scienceopen.com/)
 - [CORE](https://core.ac.uk/)
@@ -1076,6 +1076,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Google scholar](https://scholar.google.com/)
 - [Publish or Perish](https://harzing.com/resources/publish-or-perish/windows)
 - [mendeley](https://www.mendeley.com/)
+- [Sciepub](https://www.sciepub.com/portal/search.aspx)
 - [Anjani Kemdikbud ID](https://anjani.kemdikbud.go.id/contents/prosedur-pelaporan-78074230?ctx=prosedur-pelaporan) Report person academic cheat
 
 # Blogs Search Engine
@@ -3231,6 +3232,8 @@ Resources and collection for your make tool OSINT
 - [cytoscape](https://js.cytoscape.org/)
 - [sigmajs](https://www.sigmajs.org/)
 - [graph-gallery](https://d3-graph-gallery.com/network.html)
+- [R lib](https://r-graph-gallery.com/network)
+- [D3 js](https://d3js.org/)
 
 # Emoji Investigation
 
