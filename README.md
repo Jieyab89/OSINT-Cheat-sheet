@@ -2286,7 +2286,11 @@ Desktop NET debugger and assembly editor
 - [Number Finder IOS](https://apps.apple.com/us/app/number-finder-caller-id-book/id1324048797?platform=iphone)
 - [Dalily Android Apps](https://play.google.com/store/apps/details?id=dalily.caller.ids&hl=en&gl=US)
 - [ViewCaller]([ViewCaller](https://play.google.com/store/apps/details?id=id.caller.viewcaller&hl=en_US))
-  
+
+Pro Tips 
+
+If you has found the person phone number you can check at data breach, e wallet, social media, email address (via reset password), getcontact, truecaller, ipqs, fraud checker and last trying to dork or search any info into social media to 
+
 # IMEI Investigation
 
 - [SNDeepinfo](https://sndeep.info/)
