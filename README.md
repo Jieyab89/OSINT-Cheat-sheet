@@ -459,6 +459,7 @@ Be carefull using this tool
 - [decompiler](https://www.decompiler.com/)
 - [deepdarkCTI](https://github.com/fastfire/deepdarkCTI)
 - [metadefender](https://metadefender.opswat.com/)
+- [CTX](https://www.ctx.io/)
 
 # IoT Search Engines
 
@@ -568,6 +569,7 @@ You can find the file hash or other threat indicator
 - [decompiler](https://www.decompiler.com/)
 - [deepdarkCTI](https://github.com/fastfire/deepdarkCTI)
 - [metadefender](https://metadefender.opswat.com/)
+- [CTX](https://www.ctx.io/)
 
 # Automation Dorking 
 
@@ -985,6 +987,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [mojeek](https://www.mojeek.com/)
 - [boardreader](https://boardreader.com/)
 - [Geoint CSE search](https://cse.google.com/cse?cx=015328649639895072395:sbv3zyxzmji#gsc.tab=0&gsc.sort=)
+- [lolarchiver](https://osint.lolarchiver.com/#)
 
 # Internet Archive
 
@@ -1005,6 +1008,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [How to archive tele content](https://www.bellingcat.com/resources/how-tos/2022/03/08/how-to-archive-telegram-content-to-document-russias-invasion-of-ukraine/)
 - [webarchiveviewer](https://cybdetective.com/webarchiveviewer/)
 - [ShadowDragon](https://shadowdragon.io/)
+- [lolarchiver](https://osint.lolarchiver.com/#)
 
 # Data Breached OSINT
 
@@ -1036,6 +1040,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [cybdetective pastebin](https://cybdetective.com/pastebin.html)
 - [emploleaks](https://github.com/infobyte/emploleaks)
 - [databreaches](https://databreaches.net/)
+- [lolarchiver](https://osint.lolarchiver.com/#)
 
 # Crack Jurnals
 
@@ -1195,6 +1200,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Arjuna Kemdikbud ID ](https://arjuna.kemdikbud.go.id/#/jurnal)
 - [peekyou](https://www.peekyou.com/)
 - [castrickclues](https://castrickclues.com/)
+- [lolarchiver](https://osint.lolarchiver.com/#)
 
 # Family People Search 
 
@@ -1262,6 +1268,8 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Number Finder IOS](https://apps.apple.com/us/app/number-finder-caller-id-book/id1324048797?platform=iphone)
 - [Dalily Android Apps](https://play.google.com/store/apps/details?id=dalily.caller.ids&hl=en&gl=US)
 - [ViewCaller](https://play.google.com/store/apps/details?id=id.caller.viewcaller&hl=en_US)
+- [inspektur](https://github.com/bgwastu/inspektur)
+- [lolarchiver](https://osint.lolarchiver.com/#)
 
 Pro Tips
 
@@ -1292,6 +1300,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [holehe](https://github.com/megadose/holehe)
 - [hertz](https://www.hertz.com/rentacar/receipts/request-receipts.do)
 - [peekyou](https://www.peekyou.com/)
+- [lolarchiver](https://osint.lolarchiver.com/#)
 
 # Social Networks
 
@@ -1668,6 +1677,8 @@ Google queries for MySpace
 - [Email Format](https://www.email-format.com/i/search/)
 - [predictasearch](https://www.predictasearch.com/)
 - [emailsearch](https://emailsearch.io/)
+- [inspektur](https://github.com/bgwastu/inspektur)
+- [lolarchiver](https://osint.lolarchiver.com/#)
 
 # Shodan Query Options
 
@@ -1753,6 +1764,7 @@ Firefox plugin that will assist in downloading all media from a website
 - [Cek Rekening](https://cekrekening.id/home)
 - [Thatsthem](https://thatsthem.com/)
 - [IntelligenceX](https://intelx.io/tools)
+- [lolarchiver](https://osint.lolarchiver.com/#)
 
 # Telegram Tool
 
@@ -1820,6 +1832,7 @@ Search channel, username anymore
 - [sociallinks](https://sociallinks.io/)
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
 - [socialscan](https://pypi.org/project/socialscan/)
+- [inspektur](https://github.com/bgwastu/inspektur)
 
 # Image Search
 
@@ -1908,6 +1921,7 @@ Search channel, username anymore
 - [huggingface](https://huggingface.co/)
 - [ID KTP OCR](https://github.com/fauzantaqiyuddin/fastapi-ocr-ktp)
 - [Python exif extractor](https://github.com/davidbombal/red-python-scripts/blob/main/exif.py)
+- [exterro](https://www.exterro.com/digital-forensics-software/ftk-imager)
 
 # Stock Images
 
@@ -2497,6 +2511,29 @@ Social Network and blogging
 - [Loonbins](https://www.loobins.io/tactics/collection/)
 - [sociallinks](https://sociallinks.io/) 
 - [decompiler](https://www.decompiler.com/)
+- [exterro](https://www.exterro.com/digital-forensics-software/ftk-imager)
+- [wireshark](https://www.wireshark.org/)
+- [bulk-extractor](https://www.kali.org/tools/bulk-extractor/)
+- [sleuthkit](https://www.sleuthkit.org/)
+- [recoverit](https://recoverit.wondershare.net/ad/data-recovery.html?gad_source=1)
+- [easeus](https://www.easeus.com/)
+- [belkasoft](https://belkasoft.com/x)
+- [domaintools](https://www.domaintools.com/)
+- [Imperva](https://www.imperva.com/products/attack-analytics/)
+- [magnetforensics](https://www.magnetforensics.com/)
+- [IBM](https://www.ibm.com/products/qradar-siem)
+- [Hex viewer](https://github.com/Keidan/HexViewer)
+- [Ghidra](https://www.ghidra-sre.org/)
+- [IDA](https://hex-rays.com/ida-free/)
+- [PSPY Linux](https://github.com/DominicBreuker/pspy)
+- [Process explorer Windows](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)
+- [volatilityfoundation](https://github.com/volatilityfoundation)
+- [Fire eye tool](https://fireeye.market/)
+- [SANS Faculty Free Tools](https://assets.contentstack.io/v3/assets/blt36c2e63521272fdc/bltd8ba96a0fce78883/Free_Faculty_Tools.pdf)
+
+*Pro Tips 
+
+You can analysis of hash, header, signature, evtx, ip, byte, file format, memory dumping, network, system process, start up apps, background apps 
 
 # Write Your Investigation
 
@@ -2945,6 +2982,10 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Mobile Nuclei Template](https://github.com/optiv/mobile-nuclei-templates?tab=readme-ov-file) Nuclei template for static analysis mobile security assessments
 - [Awesome Threat Intel](https://github.com/hudsonrock-partnerships/awesome-threat-intelligence) A curated list of Awesome Threat Intelligence resources
 - [Hacker Search Engine](https://awesome-hacker-search-engines.com/) Awesome cheat for enumeration for pentester
+- [tinyhack](https://tinyhack.com/) Awesome article and blog abaout hacking and android 
+- [compactbyte](https://blog.compactbyte.com/arsip/arsip-tulisan-yohanes/) Awesome article and blog abaout hacking, reverse engineering and android 
+- [noxer](https://github.com/AggressiveUser/noxer) About
+Noxer is a powerful Python script designed for automating Android penetration testing tasks within the Nox Player emulator.
 
 Social Engineering
 
@@ -3386,6 +3427,11 @@ OSINT politics and geopolitics, risk crisis
 - [space track](https://www.space-track.org/auth/login)
 - [google earth](https://earth.google.com/)
 - [satellitetracker](https://satellitetracker.net/)
+- [starlink](https://www.starlink.com/map)
+- [orbtrack](https://www.orbtrack.org/)
+- [isstracker database](https://isstracker.pl/en/satelity)
+- [Zoom Earth](https://zoom.earth/)
+- [In the sky](https://in-the-sky.org/satmap_worldmap.php)
 
 # OSINT for Scraping and Data Collection
 
@@ -3436,3 +3482,34 @@ OSINT politics and geopolitics, risk crisis
 # OSINT Journalism Project
 
 - [journalism](https://github.com/wbkd/awesome-interactive-journalism)
+
+# OSINT Similarity (Plagiarism)
+
+Text Analyzer 
+
+- [1text](https://1text.com/)
+- [gptzero](https://gptzero.me/)
+- [grammarly](https://www.grammarly.com/)
+- [duplichecker](https://www.duplichecker.com/)
+- [smallseotools](https://smallseotools.com/plagiarism-checker/)
+- [turnitin](https://www.turnitin.com/products/similarity/)
+- [hivemoderation](https://hivemoderation.com/ai-generated-content-detection)
+
+Audio Analyzer 
+
+- [hivemoderation](https://hivemoderation.com/ai-generated-content-detection)
+- [Youtube search with voice](https://www.youtube.com/)
+- [Google search with voice](https://www.google.com/)
+
+Image and Vidio Analyzer
+
+- [hivemoderation](https://hivemoderation.com/ai-generated-content-detection)
+- [shutterstock](https://www.shutterstock.com/search/like-video)
+- [Google Vidio Search](https://www.google.com/videohp?hl=id)
+
+Website 
+
+- [similarweb](https://www.similarweb.com/website/)
+- [similarsites](https://www.similarsites.com/)
+- [sitelike](https://www.sitelike.org/)
+- [pr-cy.io](https://pr-cy.io/tools/similar-websites/)
