@@ -460,6 +460,9 @@ Be carefull using this tool
 - [deepdarkCTI](https://github.com/fastfire/deepdarkCTI)
 - [metadefender](https://metadefender.opswat.com/)
 - [CTX](https://www.ctx.io/)
+- [SNYK](https://security.snyk.io/)
+- [Github advisoreis](https://github.com/advisories/)
+- [Openwall](https://www.openwall.com/)
 
 # IoT Search Engines
 
@@ -1046,7 +1049,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 
 - [SCI HUB](https://sci-hub.hkvisa.net/) This domain will always change, check the mirror [Mirror](https://www.sci-hub.se/mirrors) 
 - [Z-Library](https://id.zlibrary-asia.se/s/?q=&type=phrase)
-- [DOAJ] (Directory of Open Access Journals)](https://doaj.org/)
+- [DOAJ (Directory of Open Access Journals)](https://doaj.org/)
 - [LibGen (Library Genesis)](https://libgen.li/)
 - [ScienceOpen](https://www.scienceopen.com/)
 - [CORE](https://core.ac.uk/)
@@ -2127,6 +2130,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [booking](booking.com)
 - [agoda](agoda.com)
 - [wanderlog review on Google maps](https://wanderlog.com/)
+- [airbnb](https://www.airbnb.co.id/)
 
 # Fact Checking
 
@@ -3485,6 +3489,8 @@ OSINT politics and geopolitics, risk crisis
 
 # OSINT Similarity (Plagiarism)
 
+Check the similarity & plagiarism of the content and web apps 
+
 Text Analyzer 
 
 - [1text](https://1text.com/)
@@ -3513,3 +3519,15 @@ Website
 - [similarsites](https://www.similarsites.com/)
 - [sitelike](https://www.sitelike.org/)
 - [pr-cy.io](https://pr-cy.io/tools/similar-websites/)
+
+# Secure Code & Application 
+
+- [veracode](https://www.veracode.com/products/binary-static-analysis-sast)
+- [snyk](https://snyk.io/product/snyk-code/)
+- [fortify-static-code-analyzer](https://www.opentext.com/products/fortify-static-code-analyzer)
+- [tenable](https://www.tenable.com/)
+- [horusec](https://github.com/ZupIT/horusec)
+- [bearer](https://github.com/bearer/bearer)
+- [MATE](https://github.com/GaloisInc/MATE)
+- [codeql](https://github.com/github/codeql)
+- [Sonar](https://www.sonarsource.com/solutions/security/)
