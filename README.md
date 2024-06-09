@@ -3329,7 +3329,7 @@ Resources and collection for your make tool OSINT
 Search News Journalist and Documentary Sites 
 
 - [Glanlaw](https://www.glanlaw.org/)
-- [Bellingcat](bellingcat.com)
+- [Bellingcat](https://bellingcat.com)
 - [The Guardians](https://www.theguardian.com/international)
 - [Drone Emprit](https://pers.droneemprit.id/)
 - [Google News](https://news.google.com/)
