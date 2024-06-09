@@ -3339,6 +3339,7 @@ Search News Journalist and Documentary Sites
 - [apnews](https://apnews.com/hub/israel-hamas-war)
 - [unocha](https://www.unocha.org/)
 - [narasi ID](https://narasi.tv/)
+- [watchdoc ID](https://watchdoc.co.id/)
 - [kumparan ID](https://kumparan.com/)
 - [katadata ID](https://katadata.co.id/)
 - [BRIN ID](https://brin.go.id/)
