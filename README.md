@@ -1917,6 +1917,7 @@ Search channel, username anymore
 - [VGG Image Search Engine (VISE)](https://robots.ox.ac.uk/~vgg/software/vise/)
 - [Fake face detector](https://seintpl.github.io/AmIReal/)
 - [GeoSpy](https://geospy.web.app/)
+- [gvision](https://github.com/GONZOsint/gvision)
 - [DiffChecker](https://www.diffchecker.com/image-diff/)
 - [ImgOps](https://imgops.com/)
 - [Telegram Face Match Bot](https://t.me/facematch_bot)
@@ -2437,6 +2438,21 @@ Social Network and blogging
 - [OSM Finder](https://github.com/Xetnus/osm-finder)
 - [OSM Finder - Web based](https://osm-finder.netlify.app/)
 - [wanderlog review on Google maps](https://wanderlog.com/)
+- [map making app](https://map-making.app/)
+- [Overpass turbo](https://overpass-turbo.eu/#)
+- [Bellingcat Shadow Finder](https://github.com/bellingcat/ShadowFinder)
+- [Belinggcat Shadow Finder Hosted](https://colab.research.google.com/github/GalenReich/ShadowFinder/blob/main/ShadowFinderColab.ipynb#scrollTo=OBTVWE8tu2Pe)
+- [Moon Calc](https://www.mooncalc.org/)
+- [Coordinate Calc](https://www.maps.ie/coordinates.html)
+- [latlongdata calc](https://latlongdata.com/lat-long-converter/)
+- [Docs overpass API](https://overpass-api.de/)
+- [Zoom earth](https://zoom.earth/)
+- [satellites](https://satellites.pro/#)
+- [wikimapia](https://wikimapia.org/)
+- [peakfinder](https://www.peakfinder.com/)
+- [kartaview](https://kartaview.org/)
+- [mapillary](https://www.mapillary.com/app/?lat=20&lng=0&z=1.5)
+- [calcmaps](https://www.calcmaps.com/map-area/)
 
 # Discord Server Search  
 
@@ -2897,6 +2913,7 @@ VIN Checker
 # GPT OSINT 
 
 - [Gpt osint](https://github.com/gigz/gpt-osint)
+- [Hacker AI](https://chat.hackerai.co/id/login)
 
 # OSINT for Red Team 
 
@@ -2990,6 +3007,7 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [compactbyte](https://blog.compactbyte.com/arsip/arsip-tulisan-yohanes/) Awesome article and blog abaout hacking, reverse engineering and android 
 - [noxer](https://github.com/AggressiveUser/noxer) About
 Noxer is a powerful Python script designed for automating Android penetration testing tasks within the Nox Player emulator.
+- [Get-ReverseShell](https://github.com/gh0x0st/Get-ReverseShell) A solution to create obfuscated reverse shells for PowerShell.
 
 Social Engineering
 
@@ -3336,6 +3354,7 @@ Search News Journalist and Documentary Sites
 - [MagPortal](http://www.magportal.com/)
 - [Flipboard](https://flipboard.com/)
 - [aljazeera](https://www.aljazeera.com/)
+- [institute aljazeera](https://institute.aljazeera.net/en)
 - [apnews](https://apnews.com/hub/israel-hamas-war)
 - [unocha](https://www.unocha.org/)
 - [narasi ID](https://narasi.tv/)
