@@ -3235,6 +3235,19 @@ Detect a fake network and VPN
 - [earthobservatory NASA](https://earthobservatory.nasa.gov/global-maps)
 - [mooncalc](https://www.mooncalc.org/)
 
+# OSINT Shadow Analysis 
+
+Analysis for IMINT and find the geolocation, azimuth and etc
+
+- [suncalc](https://www.suncalc.org/)
+- [timeanddate](https://www.timeanddate.com/weather/indonesia/jakarta/historic)
+- [sunearthtools](https://www.sunearthtools.com/dp/tools/pos_sun.php)
+- [academo azimuth calc](https://academo.org/demos/azimuth-calculator/)
+- [findmyshadow](https://www.findmyshadow.com/)
+- [shadowcalculator](http://shadowcalculator.eu/#/lat/50.08/lng/19.9)
+- [shademap](https://shademap.app/)
+- [bellingcat shadow finder](https://github.com/bellingcat/ShadowFinder)
+
 # Academic Search Tools
 
 - [Base Search](https://www.base-search.net/)
@@ -3354,6 +3367,7 @@ Search News Journalist and Documentary Sites
 - [MagPortal](http://www.magportal.com/)
 - [Flipboard](https://flipboard.com/)
 - [aljazeera](https://www.aljazeera.com/)
+- [gijn](https://gijn.org/)
 - [institute aljazeera](https://institute.aljazeera.net/en)
 - [apnews](https://apnews.com/hub/israel-hamas-war)
 - [unocha](https://www.unocha.org/)
@@ -3506,6 +3520,7 @@ OSINT politics and geopolitics, risk crisis
 # OSINT Journalism Project
 
 - [journalism](https://github.com/wbkd/awesome-interactive-journalism)
+- [gijn](https://gijn.org/)
 
 # OSINT Similarity (Plagiarism)
 
