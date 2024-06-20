@@ -1044,7 +1044,6 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [emploleaks](https://github.com/infobyte/emploleaks)
 - [databreaches](https://databreaches.net/)
 - [lolarchiver](https://osint.lolarchiver.com/#)
-- [Proxynova](https://www.proxynova.com/tools/comb/)
 - [Leakcheck](https://leakcheck.io/)
 
 # Crack Jurnals
