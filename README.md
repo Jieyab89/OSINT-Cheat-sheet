@@ -463,6 +463,7 @@ Be carefull using this tool
 - [SNYK](https://security.snyk.io/)
 - [Github advisoreis](https://github.com/advisories/)
 - [Openwall](https://www.openwall.com/)
+- [Falcon Feeds](https://falconfeeds.io/)
 
 # IoT Search Engines
 
@@ -573,6 +574,7 @@ You can find the file hash or other threat indicator
 - [deepdarkCTI](https://github.com/fastfire/deepdarkCTI)
 - [metadefender](https://metadefender.opswat.com/)
 - [CTX](https://www.ctx.io/)
+- [Falcon Feeds](https://falconfeeds.io/)
 
 # Automation Dorking 
 
