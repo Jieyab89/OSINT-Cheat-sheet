@@ -575,6 +575,7 @@ You can find the file hash or other threat indicator
 - [metadefender](https://metadefender.opswat.com/)
 - [CTX](https://www.ctx.io/)
 - [Falcon Feeds](https://falconfeeds.io/)
+- [NetAlertX](https://github.com/jokob-sk/NetAlertX)
 
 # Automation Dorking 
 
@@ -1047,6 +1048,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [databreaches](https://databreaches.net/)
 - [lolarchiver](https://osint.lolarchiver.com/#)
 - [Leakcheck](https://leakcheck.io/)
+- [exposed](https://exposed.lol/)
 
 # Crack Jurnals
 
@@ -1687,6 +1689,7 @@ Google queries for MySpace
 - [lolarchiver](https://osint.lolarchiver.com/#)
 - [Proxynova](https://www.proxynova.com/tools/comb/)
 - [Leakcheck](https://leakcheck.io/)
+- [exposed](https://exposed.lol/)
 
 # Shodan Query Options
 
@@ -3013,6 +3016,7 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [noxer](https://github.com/AggressiveUser/noxer) About
 Noxer is a powerful Python script designed for automating Android penetration testing tasks within the Nox Player emulator.
 - [Get-ReverseShell](https://github.com/gh0x0st/Get-ReverseShell) A solution to create obfuscated reverse shells for PowerShell.
+- [OSCE 3 Guide](https://github.com/CyberSecurityUP/OSCE3-Complete-Guide) Guide for OSCE 3 and OSEE (OSWE, OSEP, OSED, OSEE)
 
 Social Engineering
 
