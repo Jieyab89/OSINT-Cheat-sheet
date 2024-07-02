@@ -182,6 +182,7 @@ Be carefull using this tool
 - [maltego](https://www.maltego.com/categories/osint/)
 - [offensiveosint](https://www.offensiveosint.io/)
 - [sizeof](https://sizeof.cat/archive/)
+- [onniforums](https://onniforums.com/)
 
 # General Search
 
@@ -464,6 +465,7 @@ Be carefull using this tool
 - [Github advisoreis](https://github.com/advisories/)
 - [Openwall](https://www.openwall.com/)
 - [Falcon Feeds](https://falconfeeds.io/)
+- [filescan](https://www.filescan.io/scan)
 
 # IoT Search Engines
 
@@ -576,6 +578,7 @@ You can find the file hash or other threat indicator
 - [CTX](https://www.ctx.io/)
 - [Falcon Feeds](https://falconfeeds.io/)
 - [NetAlertX](https://github.com/jokob-sk/NetAlertX)
+- [filescan](https://www.filescan.io/scan)
 
 # Automation Dorking 
 
@@ -1309,6 +1312,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [hertz](https://www.hertz.com/rentacar/receipts/request-receipts.do)
 - [peekyou](https://www.peekyou.com/)
 - [lolarchiver](https://osint.lolarchiver.com/#)
+- [User Searcher](https://www.user-searcher.com/)
 
 # Social Networks
 
@@ -1935,6 +1939,7 @@ Search channel, username anymore
 - [Python exif extractor](https://github.com/davidbombal/red-python-scripts/blob/main/exif.py)
 - [exterro](https://www.exterro.com/digital-forensics-software/ftk-imager)
 - [media IO](https://www.media.io/)
+- [Geospy Github](https://github.com/atiilla/geospy)
 
 # Stock Images
 
@@ -2132,6 +2137,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [mapsm](https://mapsm.com/)
 - [picarta](https://picarta.ai/)
 - [Kaseware Geospatial](https://www.kaseware.com/geospatial-analysis-software)
+- [nominatim OSM](https://nominatim.openstreetmap.org/)
 
 # Nearby Map From Geospatial
 
@@ -2462,6 +2468,7 @@ Social Network and blogging
 - [kartaview](https://kartaview.org/)
 - [mapillary](https://www.mapillary.com/app/?lat=20&lng=0&z=1.5)
 - [calcmaps](https://www.calcmaps.com/map-area/)
+- [nominatim OSM](https://nominatim.openstreetmap.org/)
 
 # Discord Server Search  
 
@@ -2494,6 +2501,8 @@ Social Network and blogging
 - [sociallinks](https://sociallinks.io/)
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
 - [sizeof](https://sizeof.cat/archive/)
+- [dailydarkweb](https://dailydarkweb.net/)
+- [darkwebinformer](https://darkwebinformer.com/)
 
 # Digital Forensics
 
