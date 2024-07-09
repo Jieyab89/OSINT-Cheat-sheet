@@ -343,6 +343,7 @@ Be carefull using this tool
 - [whoisfreaks Whois History](https://whoisfreaks.com/)
 - [domaintools Whois History](https://research.domaintools.com/research/whois-history/)
 - [whoisxmlapi Whois History](https://whois-history.whoisxmlapi.com/)
+- [fofa](https://en.fofa.info/)
 
 # Analysing URLs
 
@@ -375,6 +376,7 @@ Be carefull using this tool
 - [vx-underground](https://vx-underground.org/)
 - [ShadowDragon](https://shadowdragon.io/)
 - [metadefender](https://metadefender.opswat.com/)
+- [fofa](https://en.fofa.info/)
 
 # Researching Cyber Threats
 
@@ -1094,29 +1096,13 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [mendeley](https://www.mendeley.com/)
 - [Sciepub](https://www.sciepub.com/portal/search.aspx)
 - [Anjani Kemdikbud ID](https://anjani.kemdikbud.go.id/contents/prosedur-pelaporan-78074230?ctx=prosedur-pelaporan) Report person academic cheat
+- [Zotero](https://www.zotero.org/)
 
 # Blogs Search Engine
 
 - [Google Blog](www.google.com/blogsearch)
 - [technorati](www.technorati.com)
 - [omgili.com](http://omgili.com/)
-
-# Darkweb Search Engines
-
-- [Thehiddenwiki](http://thehiddenwiki.org)
-- [Onion Link](http://www.onion.link)
-- [MEMEX](https://memex.garden/)
-- [Onion](https://onion.cab)
-- [Onion city](https://onion.city/)
-- [Ahmia](https://ahmia.fi/)
-- [TorBot](https://github.com/DedSecInside/TorBot)
-- [Darkfeed](https://darkfeed.io/)
-- [Torch](xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega?P=)
-- [Onionsearch](https://github.com/megadose/OnionSearch)
-- [Darknet Book](https://github.com/darknet-book/tor-guide)
-- [immuniweb](https://www.immuniweb.com/darkweb/)
-- [darknetlive](https://darknetlive.com/onions)
-- [ransomwatch](https://ransomwatch.telemetry.ltd/#/)
 
 # Tracking Website Changes
 
@@ -1174,6 +1160,9 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [salary](https://www.salary.com/research/employer)
 - [Paylab Salary Info](https://www.paylab.com/id/salaryinfo)
 - [emploleaks](https://github.com/infobyte/emploleaks)
+- [UK Company Search](https://find-and-update.company-information.service.gov.uk/)
+- [Venture Radar](https://www.ventureradar.com/search)
+- [tracxn](https://tracxn.com/?redirect=false)
 
 # People Searching
 
@@ -1547,6 +1536,7 @@ or you can use dork for spesific example
 - [onemilliontweetmap](https://onemilliontweetmap.com/)
 - [birdhunt](https://birdhunt.co/)
 - [exportcomments](https://exportcomments.com/)
+- [followeraudit](https://www.followeraudit.com/)
 
 # Github 
 
@@ -2167,6 +2157,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [Open Measures](https://openmeasures.io/)
 - [Hoaxy](https://hoaxy.osome.iu.edu/)
 - [FEAT](https://github.com/GONZOsint/FEAT)
+- [followeraudit](https://www.followeraudit.com/)
 
 # Server Information Gathering
 
@@ -2478,6 +2469,37 @@ Social Network and blogging
 - [Darvester](https://github.com/darvester/darvester)
 - [Discord Leaks](https://discordleaks.unicornriot.ninja/discord/server/)
 
+# Darkweb Search Engines
+
+- [Thehiddenwiki](http://thehiddenwiki.org)
+- [Onion Link](http://www.onion.link)
+- [MEMEX](https://memex.garden/)
+- [Onion](https://onion.cab)
+- [Onion city](https://onion.city/)
+- [Ahmia](https://ahmia.fi/)
+- [TorBot](https://github.com/DedSecInside/TorBot)
+- [Darkfeed](https://darkfeed.io/)
+- [Torch](xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega?P=)
+- [Onionsearch](https://github.com/megadose/OnionSearch)
+- [Darknet Book](https://github.com/darknet-book/tor-guide)
+- [immuniweb](https://www.immuniweb.com/darkweb/)
+- [darknetlive](https://darknetlive.com/onions)
+- [ransomwatch](https://ransomwatch.telemetry.ltd/#/)
+- [Ahmia Onion Site](http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion/)
+- [Haystak Onion Site](http://haystak5njsmn2hqkewecpaxetahtwhsbsa64jom2k22z5afxhnpxfid.onion/)
+- [Dark Search Onion Site](http://darkschn4iw2hxvpv2vy2uoxwkvs2padb56t3h4wqztre6upoc5qwgid.onion)
+- [Tor66 Onion Site](http://tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion/)
+- [Torch](http://xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega)
+- [Darkowl](https://www.darkowl.com/)
+- [Digital Shadows](https://www.maltego.com/transform-hub/digital-shadows/)
+- [Onion Live](https://onion.live/)
+- [ATII](https://followmoneyfightslavery.org/)
+- [Onion Land Search](http://3bbad7fauom4d6sgppalyqddsqbf5u5p56b5k5uk2zxsy3d6ey2jobad.onion/)
+- [hunchly](https://www.hunch.ly/)
+- [hunch darkweb guide](https://www.hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf)
+- [darkweblinks](https://darkweblinks.io/)
+- [onion scan](https://onionscan.org/)
+
 # Darkweb Intelligence
 
 - [Stealthmole](https://www.stealthmole.com/products/darkweb-tracker)
@@ -2503,6 +2525,19 @@ Social Network and blogging
 - [sizeof](https://sizeof.cat/archive/)
 - [dailydarkweb](https://dailydarkweb.net/)
 - [darkwebinformer](https://darkwebinformer.com/)
+- [Ahmia Onion Site](http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion/)
+- [Haystak Onion Site](http://haystak5njsmn2hqkewecpaxetahtwhsbsa64jom2k22z5afxhnpxfid.onion/)
+- [Dark Search Onion Site](http://darkschn4iw2hxvpv2vy2uoxwkvs2padb56t3h4wqztre6upoc5qwgid.onion)
+- [Tor66 Onion Site](http://tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion/)
+- [Torch](http://xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega)
+- [Darkowl](https://www.darkowl.com/)
+- [Digital Shadows](https://www.maltego.com/transform-hub/digital-shadows/)
+- [Onion Live](https://onion.live/)
+- [ATII](https://followmoneyfightslavery.org/)
+- [Onion Land Search](http://3bbad7fauom4d6sgppalyqddsqbf5u5p56b5k5uk2zxsy3d6ey2jobad.onion/)
+- [hunchly](https://www.hunch.ly/)
+- [hunch darkweb guide](https://www.hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf)
+- [darkweblinks](https://darkweblinks.io/)
 
 # Digital Forensics
 
@@ -2633,6 +2668,7 @@ Search people missing and abuse, strict content, removing, takedown and minimize
 
 - [Google image removal](https://support.google.com/websearch/answer/4628134)
 Remove your image from Google
+- [ATII](https://followmoneyfightslavery.org/) The Anti-Human Trafficking Intelligence Initiative human trafficking, child exploitation, and child sexual abuse material (CSAM) through the advancement of prevention, detection, investigation, and reporting mechanisms.
 - [Stopncii](https://stopncii.org)
 Free tool designed to support victims of Non-Consensual Intimate Image (NCII) abuse
 - [Bing content removal](www.bing.com/webmasters/tools/contentremoval)
@@ -3182,6 +3218,7 @@ Privilage Escalation Cheat and check
 - [Online loudness meter](https://youlean.co/online-loudness-meter/)
 - [soundeffectssearch](https://www.soundeffectssearch.com/advanced-search/)
 - [vocalremover](https://vocalremover.org/)
+- [audacityteam](https://www.audacityteam.org/)
 
 Audio enchange quality  
 
@@ -3498,6 +3535,9 @@ OSINT politics and geopolitics, risk crisis
 - [2captcha](https://2captcha.com/) Bypassing captcha and WAF 
 - [Puppeter](https://www.npmjs.com/package/puppeteer-extra-plugin-stealth) For web scrapper and info gath
 - [spiderfoot](https://github.com/smicallef/spiderfoot) Automates OSINT for threat intelligence and mapping your attack surface.
+- [TorBot](https://github.com/DedSecInside/TorBoT) Scrapping darkweb
+- [TorCrawl](https://github.com/MikeMeliz/TorCrawl.py) Scrapping darkweb
+- [Onioningestor](https://github.com/danieleperera/OnionIngestor) Scrapping darkweb
 
 # OSINT IRC Chat
 
@@ -3525,6 +3565,7 @@ OSINT politics and geopolitics, risk crisis
 
 - [babla](https://www.babla.co.id/pengucapan/bahasa-china/)
 - [Google](https://www.google.com/search?q=google+translate)
+- [deepl](https://www.deepl.com/en/translator)
 
 # OSINT OPSEC 
 
@@ -3573,6 +3614,11 @@ Website
 - [similarsites](https://www.similarsites.com/)
 - [sitelike](https://www.sitelike.org/)
 - [pr-cy.io](https://pr-cy.io/tools/similar-websites/)
+
+Company 
+
+- [Venture Radar](https://www.ventureradar.com/search)
+- [tracxn](https://tracxn.com/?redirect=false)
 
 # Secure Code & Application 
 
