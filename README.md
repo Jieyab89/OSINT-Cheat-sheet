@@ -2140,6 +2140,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [picarta](https://picarta.ai/)
 - [Kaseware Geospatial](https://www.kaseware.com/geospatial-analysis-software)
 - [nominatim OSM](https://nominatim.openstreetmap.org/)
+- [Calculator IPVM](https://calculator.ipvm.com/)
 
 # Nearby Map From Geospatial
 
@@ -3076,6 +3077,7 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 Noxer is a powerful Python script designed for automating Android penetration testing tasks within the Nox Player emulator.
 - [Get-ReverseShell](https://github.com/gh0x0st/Get-ReverseShell) A solution to create obfuscated reverse shells for PowerShell.
 - [OSCE 3 Guide](https://github.com/CyberSecurityUP/OSCE3-Complete-Guide) Guide for OSCE 3 and OSEE (OSWE, OSEP, OSED, OSEE)
+- [Enumerate IAM](https://github.com/andresriancho/enumerate-iam) Enumerate the permissions associated with AWS credential set
 
 Social Engineering
 
