@@ -138,6 +138,12 @@ Be carefull using this tool
 - [Graph Search](http://socmint.tools/graph.htm)
 - [Alfred](https://github.com/Alfredredbird/alfred)
 - [Blackbird](https://github.com/p1ngul1n0/blackbird)
+- [sociallinks](https://sociallinks.io/products/sl-crimewall)
+- [spokeo](https://www.spokeo.com/)
+- [maigret](https://github.com/soxoj/maigret)
+- [social searcher](https://www.social-searcher.com/)
+- [seon](https://seon.io/products/digital-footprinting-solution/)
+- [inteltechniques](https://inteltechniques.com/tools/index.html)
 
 # Collection Dataset
 
@@ -183,6 +189,8 @@ Be carefull using this tool
 - [offensiveosint](https://www.offensiveosint.io/)
 - [sizeof](https://sizeof.cat/archive/)
 - [onniforums](https://onniforums.com/)
+- [intelligencewithsteve](https://www.intelligencewithsteve.com/blog/categories/osint)
+- [SANS](https://www.sans.org/blog/-must-have-free-resources-for-open-source-intelligence-osint-/)
 
 # General Search
 
@@ -214,6 +222,7 @@ Be carefull using this tool
 - [publicwww](https://publicwww.com/)
 - [DevsecOps Secure Code](https://devsecopsguides.com/docs/rules)
 - [awesomeopensource](https://awesomeopensource.com/)
+- [nerdydata](https://www.nerdydata.com/reports/new)
 
 # Competitive Programming
 
@@ -344,6 +353,7 @@ Be carefull using this tool
 - [domaintools Whois History](https://research.domaintools.com/research/whois-history/)
 - [whoisxmlapi Whois History](https://whois-history.whoisxmlapi.com/)
 - [fofa](https://en.fofa.info/)
+- [nerdydata](https://www.nerdydata.com/reports/new)
 
 # Analysing URLs
 
@@ -1472,6 +1482,7 @@ or you can use dork for spesific example
 
 # Twitter
 
+- [Twitter API](https://developer.x.com/en/docs/twitter-api/getting-started/about-twitter-api)
 - [search.twitter.com](https://twitter.com/search-home)
 - [twitter advanced](https://www.twitter.com/search-advanced)
 - [twitter who_to_follow](https://www.twitter.com/who_to_follow)
@@ -1538,6 +1549,13 @@ or you can use dork for spesific example
 - [exportcomments](https://exportcomments.com/)
 - [followeraudit](https://www.followeraudit.com/)
 
+Twitter Search Engine 
+
+- [tweetpaths](http://www.tweetpaths.com)
+- [allmytweets](http://www.allmytweets.com)
+- [Twimemachine](https://www.twimemachine.com)
+- [inteltechniques](http://inteltechniques.com/osint/twitter.html)
+
 # Github 
 
 - [Github search name](https://caius.github.io/github_id/)
@@ -1550,13 +1568,6 @@ or you can use dork for spesific example
 - [Snapchat MAP](https://map.snapchat.com/)
 - [Snapchat Map scrapping](https://github.com/nemec/snapchat-map-scraper)
 - [SnapIntel](https://github.com/Kr0wZ/SnapIntel)
-
-# Twitter Search Engines
-
-- [tweetpaths](http://www.tweetpaths.com)
-- [allmytweets](http://www.allmytweets.com)
-- [Twimemachine](https://www.twimemachine.com)
-- [inteltechniques](http://inteltechniques.com/osint/twitter.html)
 
 # LinkedIn
 
@@ -1930,6 +1941,7 @@ Search channel, username anymore
 - [exterro](https://www.exterro.com/digital-forensics-software/ftk-imager)
 - [media IO](https://www.media.io/)
 - [Geospy Github](https://github.com/atiilla/geospy)
+- [imagga](https://imagga.com/)
 
 # Stock Images
 
@@ -2318,6 +2330,7 @@ Desktop NET debugger and assembly editor
 - [Number Finder IOS](https://apps.apple.com/us/app/number-finder-caller-id-book/id1324048797?platform=iphone)
 - [Dalily Android Apps](https://play.google.com/store/apps/details?id=dalily.caller.ids&hl=en&gl=US)
 - [ViewCaller](https://play.google.com/store/apps/details?id=id.caller.viewcaller&hl=en_US)
+- [ip info](https://ipinfo.io/)
 
 Pro Tips 
 
@@ -3227,12 +3240,13 @@ Audio enchange quality
 
 # OSINT Network 
 
-Detect a fake network and VPN
+Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 
 - [Spur](https://spur.us/)
 - [FocSec](https://focsec.com/)
 - [IP VPN detector](https://ip.teoh.io/vpn-detection)
 - [IPQS](https://www.ipqualityscore.com/vpn-ip-address-check)
+- [ip info](https://ipinfo.io/)
 
 # Medical OSINT 
 
@@ -3366,6 +3380,9 @@ Resources and collection for your make tool OSINT
 - [graph-gallery](https://d3-graph-gallery.com/network.html)
 - [R lib](https://r-graph-gallery.com/network)
 - [D3 js](https://d3js.org/)
+- [Folium](https://python-visualization.github.io/folium/latest/getting_started.html)
+- [Gephi](https://gephi.org/features/)
+- [leafletjs](https://leafletjs.com/)
 
 # Emoji Investigation
 
@@ -3449,6 +3466,7 @@ Search News Journalist and Documentary Sites
 - [histography](https://histography.io/)
 - [muckrack](https://muckrack.com/)
 - [internet archive](https://archive.org/)
+- [Journalist toolbox](https://www.journaliststoolbox.org/)
                
 Social Media Analytics
 
@@ -3526,6 +3544,7 @@ OSINT politics and geopolitics, risk crisis
 - [isstracker database](https://isstracker.pl/en/satelity)
 - [Zoom Earth](https://zoom.earth/)
 - [In the sky](https://in-the-sky.org/satmap_worldmap.php)
+- [Maxar](https://www.maxar.com/)
 
 # OSINT for Scraping and Data Collection
 
@@ -3581,6 +3600,7 @@ OSINT politics and geopolitics, risk crisis
 
 - [journalism](https://github.com/wbkd/awesome-interactive-journalism)
 - [gijn](https://gijn.org/)
+- [Journalist toolbox](https://www.journaliststoolbox.org/)
 
 # OSINT Similarity (Plagiarism)
 
@@ -3639,3 +3659,19 @@ Company
 - [Arch Linux](https://archlinux.org/packages/)
 - [pkgs](https://pkgs.org/)
 - [Ubbuntu Package](https://packages.ubuntu.com/)
+
+# Shortlink for OSINT 
+
+- [t.ly](https://t.ly/)
+- [bit.ly](https://bitly.com/)
+- [tiny url](https://tinyurl.com/)
+
+*Pro tips : You can use the it with the social engineering and craeting own tools 
+
+# OSINT Jobs 
+
+- [OSINT Jobs](https://www.osint-jobs.com/applicants)
+
+# IP CIDR Conveter 
+
+- [CIDR Conveter](http://magic-cookie.co.uk/iplist.html)
