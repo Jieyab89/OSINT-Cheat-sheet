@@ -1280,6 +1280,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [ViewCaller](https://play.google.com/store/apps/details?id=id.caller.viewcaller&hl=en_US)
 - [inspektur](https://github.com/bgwastu/inspektur)
 - [lolarchiver](https://osint.lolarchiver.com/#)
+- [countrycode](https://countrycode.org/)
 
 Pro Tips
 
@@ -1891,6 +1892,8 @@ Search channel, username anymore
 - [Telegram Face Match Bot](https://t.me/facematch_bot)
 - [berify](https://berify.com/)
 - [shutterstock](https://www.shutterstock.com/royalty-free/reverse-image-search-for-video)
+- [gettyimages](https://www.gettyimages.com/)
+- [imgur](https://imgur.com/)
 
 # Image Analysis
 
@@ -1966,6 +1969,8 @@ Search channel, username anymore
 - [Unsplash](https://unsplash.com)
 - [Pimeyes](https://pimeyes.com/en)
 - [Pixiv](https://www.pixiv.net/en/)
+- [gettyimages](https://www.gettyimages.com/)
+- [imgur](https://imgur.com/)
 
 # Video Search and Other Video Tools
 
@@ -2332,6 +2337,7 @@ Desktop NET debugger and assembly editor
 - [Dalily Android Apps](https://play.google.com/store/apps/details?id=dalily.caller.ids&hl=en&gl=US)
 - [ViewCaller](https://play.google.com/store/apps/details?id=id.caller.viewcaller&hl=en_US)
 - [ip info](https://ipinfo.io/)
+- [countrycode](https://countrycode.org/)
 
 Pro Tips 
 
@@ -2967,6 +2973,9 @@ VIN Checker
 - [Kpler](https://www.kpler.com/)
 - [Container tracking](http://container-tracking.org/)
 - [marineteacher](https://www.marineteacher.com/)
+- [seasearcher](https://www.seasearcher.com/)
+- [shipfinder](https://shipfinder.co/)
+- [shiplocation](https://www.shiplocation.com/)
 
 # Railways
 
@@ -3078,11 +3087,13 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [Get-ReverseShell](https://github.com/gh0x0st/Get-ReverseShell) A solution to create obfuscated reverse shells for PowerShell.
 - [OSCE 3 Guide](https://github.com/CyberSecurityUP/OSCE3-Complete-Guide) Guide for OSCE 3 and OSEE (OSWE, OSEP, OSED, OSEE)
 - [Enumerate IAM](https://github.com/andresriancho/enumerate-iam) Enumerate the permissions associated with AWS credential set
+- [Ired team](https://www.ired.team/) Awesome list and notes for exploit, initial access and pentesting 
 
 Social Engineering
 
 - [social engineering](https://www.social-engineer.org/)
 - [emkei](https://emkei.cz/)
+- [anonymailer](https://anonymailer.net/)
 - [Phishious](https://github.com/CanIPhish/Phishious) 
 
 Active Directory
@@ -3216,6 +3227,7 @@ Privilage Escalation Cheat and check
 - [PEASS NG](https://github.com/peass-ng/PEASS-ng) Awesome automatic enum for privilage escalation cheat and checklist
 - [wadcoms](https://wadcoms.github.io/#+Windows) WADComs is an interactive cheat sheet, offensive security tools and their respective commands, to be used against Windows/AD environments
 - [g0tmi1k linux priv esc](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/) Basic Linux Privilege Escalation
+- [Windows Privilage Escalation](https://github.com/Ignitetechnologies/Windows-Privilege-Escalation?tab=readme-ov-file) Methods of escalating privilege on Windows-based machines and CTFs with examples
  
 # Audio OSINT 
 
@@ -3306,6 +3318,8 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [freemaptools](https://www.freemaptools.com/)
 - [earthobservatory NASA](https://earthobservatory.nasa.gov/global-maps)
 - [mooncalc](https://www.mooncalc.org/)
+- [suncalc](https://www.suncalc.org/)
+- [conflict-damage](https://www.conflict-damage.org/)
 
 # OSINT Shadow Analysis 
 
@@ -3385,6 +3399,7 @@ Resources and collection for your make tool OSINT
 - [Folium](https://python-visualization.github.io/folium/latest/getting_started.html)
 - [Gephi](https://gephi.org/features/)
 - [leafletjs](https://leafletjs.com/)
+- [QGIS](https://www.qgis.org/)
 
 # Emoji Investigation
 
@@ -3446,6 +3461,8 @@ Search News Journalist and Documentary Sites
 - [institute aljazeera](https://institute.aljazeera.net/en)
 - [apnews](https://apnews.com/hub/israel-hamas-war)
 - [unocha](https://www.unocha.org/)
+- [ohchr](https://www.ohchr.org/en/ohchr_homepage)
+- [ochaopt](https://www.ochaopt.org/)
 - [narasi ID](https://narasi.tv/)
 - [watchdoc ID](https://watchdoc.co.id/)
 - [kumparan ID](https://kumparan.com/)
@@ -3469,6 +3486,7 @@ Search News Journalist and Documentary Sites
 - [muckrack](https://muckrack.com/)
 - [internet archive](https://archive.org/)
 - [Journalist toolbox](https://www.journaliststoolbox.org/)
+- [rferl](https://www.rferl.org/)
                
 Social Media Analytics
 
@@ -3522,6 +3540,8 @@ OSINT politics and geopolitics, risk crisis
 - [global terrorism database](https://www.start.umd.edu/gtd/)
 - [start global terrorism database](https://www.start.umd.edu/)
 - [datasets global terrorism database Kaggle](https://www.kaggle.com/datasets/START-UMD/gtd)
+- [search-uk-sanctions](https://search-uk-sanctions-list.service.gov.uk/)
+- [sanctionsmap](https://www.sanctionsmap.eu/#/main)
 
 # Maltego Transform List 
 
