@@ -144,6 +144,8 @@ Be carefull using this tool
 - [social searcher](https://www.social-searcher.com/)
 - [seon](https://seon.io/products/digital-footprinting-solution/)
 - [inteltechniques](https://inteltechniques.com/tools/index.html)
+- [SNSSCRAPE](https://github.com/JustAnotherArchivist/snscrape)
+- [dreddown - social media downloader](https://www.dredown.com/)
 
 # Collection Dataset
 
@@ -1446,6 +1448,7 @@ or you can use dork for spesific example
 - [instahunt](https://instahunt.co/)
 - [Sterraxcyl IG Profiler](https://github.com/novitae/sterraxcyl)
 - [exportcomments](https://exportcomments.com/)
+- [Blastup - Insta Downloader](https://blastup.com/instagram-downloader)
 
 # Microsoft OneDrive 
 
@@ -1713,6 +1716,8 @@ Firefox plugin that will assist in downloading all media from a website
 - [Wayback Machine](https://archive.org/web/)
 - [cachedview](https://cachedview.com/)
 - [url png](https://www.url2png.com/) 
+- [Bellingcat Auto Archive](https://github.com/bellingcat/auto-archiver)
+- [Archive today](https://archive.ph/)
 
 # OSINT TOOLS
 
@@ -1806,6 +1811,7 @@ Search channel, username anymore
 - [Telegram Geogramint](https://github.com/Alb-310/Geogramint)
 - [Telegram-Trilateration](https://github.com/jkctech/Telegram-Trilateration)
 - [TeleTracker by Tsale](https://github.com/tsale/TeleTracker)
+- [Teletehon](https://docs.telethon.dev/en/stable/basic/installation.html)
 
 # Document and Slides Search
 
@@ -2382,6 +2388,7 @@ Telegram
 - [Telegram Geogramint](https://github.com/Alb-310/Geogramint)
 - [Telegram-Trilateration](https://github.com/jkctech/Telegram-Trilateration)
 - [TeleTracker by Tsale](https://github.com/tsale/TeleTracker)
+- [Teletehon](https://docs.telethon.dev/en/stable/basic/installation.html)
 
 # Build Sockpuppet Accounts
 
@@ -2952,7 +2959,6 @@ VIN Checker
 - [flightradar24](https://www.flightradar24.com/)
 - [flightaware](https://www.flightaware.com/)
 - [planefinder](https://planefinder.net/)
-- [flightaware](https://www.flightaware.com/live/)
 - [radarbox](https://www.radarbox.com/)
 - [adsbexchange](https://globe.adsbexchange.com/)
 - [Planefinder](https://planefinder.net/)
@@ -2962,6 +2968,7 @@ VIN Checker
 - [theaviationist](https://theaviationist.com/)
 - [airrecognition](https://airrecognition.com/index.php)
 - [gpsjam](https://gpsjam.org/)
+- [federal aviation administration](https://www.faa.gov/)
 
 # Ship Tracking
 
@@ -3567,6 +3574,7 @@ OSINT politics and geopolitics, risk crisis
 - [Zoom Earth](https://zoom.earth/)
 - [In the sky](https://in-the-sky.org/satmap_worldmap.php)
 - [Maxar](https://www.maxar.com/)
+- [Windy](https://www.windy.com/)
 
 # OSINT for Scraping and Data Collection
 
