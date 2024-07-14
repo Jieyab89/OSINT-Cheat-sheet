@@ -3688,7 +3688,7 @@ Company
 - [bit.ly](https://bitly.com/)
 - [tiny url](https://tinyurl.com/)
 
-*Pro tips : You can use the it with the social engineering and craeting own tools 
+*Pro tips : You can use it with the social engineering and creating own tools 
 
 # OSINT Jobs 
 
