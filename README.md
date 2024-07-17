@@ -1191,6 +1191,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [SignalHire](https://www.signalhire.com/)
 - [Thatsthem](https://thatsthem.com/)
 - [Freepeoplesearch](https://freepeoplesearch.com/)
+- [Predicta Search](https://www.predictasearch.com/)
 - [Epios](https://epieos.com/)
 - [anymailfinder](https://anymailfinder.com/)
 - [getprospect](https://getprospect.com/)
