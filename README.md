@@ -356,6 +356,9 @@ Be carefull using this tool
 - [whoisxmlapi Whois History](https://whois-history.whoisxmlapi.com/)
 - [fofa](https://en.fofa.info/)
 - [nerdydata](https://www.nerdydata.com/reports/new)
+- [urlquery](https://urlquery.net/)
+- [transparencyreport Google](https://transparencyreport.google.com/safe-browsing/search)
+- [stat ripe](https://stat.ripe.net/)
 
 # Analysing URLs
 
@@ -480,6 +483,8 @@ Be carefull using this tool
 - [Openwall](https://www.openwall.com/)
 - [Falcon Feeds](https://falconfeeds.io/)
 - [filescan](https://www.filescan.io/scan)
+- [urlquery](https://urlquery.net/)
+- [transparencyreport google](https://transparencyreport.google.com/safe-browsing/search)
 
 # IoT Search Engines
 
@@ -3269,6 +3274,9 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [IP VPN detector](https://ip.teoh.io/vpn-detection)
 - [IPQS](https://www.ipqualityscore.com/vpn-ip-address-check)
 - [ip info](https://ipinfo.io/)
+- [urlquery](https://urlquery.net/)
+- [bgp](https://bgp.he.net/)
+- [stat ripe](https://stat.ripe.net/)
 
 # Medical OSINT 
 
