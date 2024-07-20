@@ -2493,6 +2493,8 @@ Social Network and blogging
 - [mapillary](https://www.mapillary.com/app/?lat=20&lng=0&z=1.5)
 - [calcmaps](https://www.calcmaps.com/map-area/)
 - [nominatim OSM](https://nominatim.openstreetmap.org/)
+- [moscow RU](https://moscow.flamp.ru/)
+- [sun calc](https://www.suncalc.org/)
 
 # Discord Server Search  
 
@@ -3349,7 +3351,9 @@ Analysis for IMINT and find the geolocation, azimuth and etc
 - [shadowcalculator](http://shadowcalculator.eu/#/lat/50.08/lng/19.9)
 - [shademap](https://shademap.app/)
 - [bellingcat shadow finder](https://github.com/bellingcat/ShadowFinder)
-
+- [Moon Calc](https://www.mooncalc.org/)
+- [Dcode Azimuth Calc](https://www.dcode.fr/azimuth)
+  
 # Academic Search Tools
 
 - [Base Search](https://www.base-search.net/)
