@@ -174,6 +174,7 @@ Be carefull using this tool
 - [ID data Kementrian & Lembaha Dataset](https://data.go.id/home)
 - [ShadowDragon](https://shadowdragon.io/)
 - [datasetlist](https://www.datasetlist.com/)
+- [roboflow](https://roboflow.com/)
 
 # Forums & Sites
 
@@ -1019,7 +1020,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 
 # Internet Archive
 
-- [DMCA](https://lumendatabase.org/)
+- [DMCA Lumen DB](https://lumendatabase.org/)
 - [Wayback Machine](https://web.archive.org/)
 - [Intelligence X](https://intelx.io/)
 - [Openlibrary](https://openlibrary.org/)
@@ -1114,11 +1115,13 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Sciepub](https://www.sciepub.com/portal/search.aspx)
 - [Anjani Kemdikbud ID](https://anjani.kemdikbud.go.id/contents/prosedur-pelaporan-78074230?ctx=prosedur-pelaporan) Report person academic cheat
 - [Zotero](https://www.zotero.org/)
+- [ebsco](https://www.ebsco.com/)
+- [gale](https://www.gale.com/)
+- [hathitrust](https://www.hathitrust.org/)
 
 # Blogs Search Engine
 
 - [Google Blog](www.google.com/blogsearch)
-- [technorati](www.technorati.com)
 - [omgili.com](http://omgili.com/)
 
 # Tracking Website Changes
@@ -1793,6 +1796,7 @@ Firefox plugin that will assist in downloading all media from a website
 - [Thatsthem](https://thatsthem.com/)
 - [IntelligenceX](https://intelx.io/tools)
 - [lolarchiver](https://osint.lolarchiver.com/#)
+- [cybdetective public tool](https://cybdetective.com/)
 
 # Telegram Tool
 
@@ -2158,6 +2162,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Kaseware Geospatial](https://www.kaseware.com/geospatial-analysis-software)
 - [nominatim OSM](https://nominatim.openstreetmap.org/)
 - [Calculator IPVM](https://calculator.ipvm.com/)
+- [f4map](https://demo.f4map.com/)
 
 # Nearby Map From Geospatial
 
@@ -2167,6 +2172,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [agoda](agoda.com)
 - [wanderlog review on Google maps](https://wanderlog.com/)
 - [airbnb](https://www.airbnb.co.id/)
+- [copernix](https://copernix.io/)
 
 # Fact Checking
 
@@ -2350,6 +2356,9 @@ Desktop NET debugger and assembly editor
 - [ViewCaller](https://play.google.com/store/apps/details?id=id.caller.viewcaller&hl=en_US)
 - [ip info](https://ipinfo.io/)
 - [countrycode](https://countrycode.org/)
+- [evrytania](http://www.evrytania.com/lte-tools)
+- [sqimway](https://www.sqimway.com/)
+- [cell2gps](http://cell2gps.net/)
 
 Pro Tips 
 
@@ -2977,6 +2986,11 @@ VIN Checker
 - [airrecognition](https://airrecognition.com/index.php)
 - [gpsjam](https://gpsjam.org/)
 - [federal aviation administration](https://www.faa.gov/)
+- [adsb one](https://adsb.one/)
+- [adsb lol](https://www.adsb.lol/)
+- [adsb fi](https://adsb.fi/)
+- [open sky network](https://opensky-network.org/)
+- [adsb im](https://www.adsb.im/home)
 
 # Ship Tracking
 
@@ -3500,13 +3514,14 @@ Search News Journalist and Documentary Sites
 - [Nationalgeographic](https://www.nationalgeographic.com/search)
 - [BPS ID](https://www.bps.go.id/id)
 - [Vice ID](https://www.vice.com/id)
-- [BBC](https://www.bbc.com/)
 - [DW ID](https://www.dw.com/id)
 - [histography](https://histography.io/)
 - [muckrack](https://muckrack.com/)
 - [internet archive](https://archive.org/)
 - [Journalist toolbox](https://www.journaliststoolbox.org/)
 - [rferl](https://www.rferl.org/)
+- [newspapers](https://www.newspapers.com/)
+- [rollcall](https://rollcall.com/)
                
 Social Media Analytics
 
