@@ -622,6 +622,8 @@ You can find the file hash or other threat indicator
 - [Advanced Search](https://github.com/search/advanced)
 - [GitDorker](https://github.com/obheda12/GitDorker)
 - [gitdorks_go](https://github.com/damit5/gitdorks_go)
+- [Github API (view owner repo and etc)](https://docs.github.com/en/rest/activity/events?apiVersion=2022-11-28)
+- [Github advisories DB](https://github.com/advisories)
 
 # Dorking
 
@@ -1582,6 +1584,8 @@ Twitter Search Engine
 - [Github Archive](https://www.gharchive.org/)
 - [Github Dork](https://github.com/techgaun/github-dorks)
 - [Fdupes](https://github.com/adrianlopezroche/fdupes)
+- [Github API (view owner repo and etc)](https://docs.github.com/en/rest/activity/events?apiVersion=2022-11-28)
+- [Github advisories DB](https://github.com/advisories)
 
 # Snapchat 
 
