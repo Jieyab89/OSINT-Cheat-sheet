@@ -1118,6 +1118,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [ebsco](https://www.ebsco.com/)
 - [gale](https://www.gale.com/)
 - [hathitrust](https://www.hathitrust.org/)
+- [connectedpapers](https://www.connectedpapers.com/)
 
 # Blogs Search Engine
 
@@ -1183,6 +1184,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [UK Company Search](https://find-and-update.company-information.service.gov.uk/)
 - [Venture Radar](https://www.ventureradar.com/search)
 - [tracxn](https://tracxn.com/?redirect=false)
+- [clearbit](https://clearbit.com/)
 
 # People Searching
 
@@ -1222,6 +1224,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [peekyou](https://www.peekyou.com/)
 - [castrickclues](https://castrickclues.com/)
 - [lolarchiver](https://osint.lolarchiver.com/#)
+- [clearbit](https://clearbit.com/)
 
 # Family People Search 
 
@@ -1292,6 +1295,8 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [inspektur](https://github.com/bgwastu/inspektur)
 - [lolarchiver](https://osint.lolarchiver.com/#)
 - [countrycode](https://countrycode.org/)
+- [HLR Tsel Code Area](https://web.archive.org/web/20240730155821/http://www.ppipuskrip.com/cek-kode-hlr-telkomsel.html)
+- [HLR Tsel Area Code ](https://web.archive.org/web/20240730160717/https://kumparan.com/how-to-tekno/cara-mengetahui-kode-area-no-hp-orang-lain-1yzrnn0bUx1)
 
 Pro Tips
 
@@ -1961,6 +1966,7 @@ Search channel, username anymore
 - [media IO](https://www.media.io/)
 - [Geospy Github](https://github.com/atiilla/geospy)
 - [imagga](https://imagga.com/)
+- [geospy](https://geospy.ai/)
 
 # Stock Images
 
@@ -2163,13 +2169,14 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [nominatim OSM](https://nominatim.openstreetmap.org/)
 - [Calculator IPVM](https://calculator.ipvm.com/)
 - [f4map](https://demo.f4map.com/)
+- [geospy](https://geospy.ai/)
 
 # Nearby Map From Geospatial
 
 - [foursquare](https://location.foursquare.com/)
 - [tripadvisor](https://www.tripadvisor.com/)
-- [booking](booking.com)
-- [agoda](agoda.com)
+- [booking](https://booking.com)
+- [agoda](https://agoda.com)
 - [wanderlog review on Google maps](https://wanderlog.com/)
 - [airbnb](https://www.airbnb.co.id/)
 - [copernix](https://copernix.io/)
@@ -3118,6 +3125,8 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [OSCE 3 Guide](https://github.com/CyberSecurityUP/OSCE3-Complete-Guide) Guide for OSCE 3 and OSEE (OSWE, OSEP, OSED, OSEE)
 - [Enumerate IAM](https://github.com/andresriancho/enumerate-iam) Enumerate the permissions associated with AWS credential set
 - [Ired team](https://www.ired.team/) Awesome list and notes for exploit, initial access and pentesting 
+- [Subt](https://github.com/tegal1337/subt) SubT is a tool to check if a subdomain is vulnerable to subdomain takeover. It uses `subfinder` to search for subdomains, `dig` to check CNAME, and `curl` to check status code
+- [apk2url](https://github.com/n0mi1k/apk2url) An OSINT tool to quickly extract IP and URL endpoints from APKs by disassembling and decompiling
 
 Social Engineering
 
@@ -3604,6 +3613,8 @@ OSINT politics and geopolitics, risk crisis
 - [In the sky](https://in-the-sky.org/satmap_worldmap.php)
 - [Maxar](https://www.maxar.com/)
 - [Windy](https://www.windy.com/)
+- [Satellites Pro](https://satellites.pro/)
+- [livingatlas](https://livingatlas.arcgis.com/)
 
 # OSINT for Scraping and Data Collection
 
@@ -3616,6 +3627,9 @@ OSINT politics and geopolitics, risk crisis
 - [TorBot](https://github.com/DedSecInside/TorBoT) Scrapping darkweb
 - [TorCrawl](https://github.com/MikeMeliz/TorCrawl.py) Scrapping darkweb
 - [Onioningestor](https://github.com/danieleperera/OnionIngestor) Scrapping darkweb
+- [selenium](https://www.selenium.dev/) Web automation & site crawler 
+- [BeautifulSoup](https://BeautifulSoup.org/) Open source and collaborative framework for extracting the data you need from websites.
+- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) Python library for pulling data out of HTML and XML files
 
 # OSINT IRC Chat
 
@@ -3674,6 +3688,8 @@ Text Analyzer
 - [smallseotools](https://smallseotools.com/plagiarism-checker/)
 - [turnitin](https://www.turnitin.com/products/similarity/)
 - [hivemoderation](https://hivemoderation.com/ai-generated-content-detection)
+- [humata](https://www.humata.ai/)
+- [kipper](https://www.kipper.ai/)
 
 Audio Analyzer 
 
@@ -3693,6 +3709,7 @@ Website
 - [similarsites](https://www.similarsites.com/)
 - [sitelike](https://www.sitelike.org/)
 - [pr-cy.io](https://pr-cy.io/tools/similar-websites/)
+- [Clone UI Design](https://clone-ui.design/)
 
 Company 
 
