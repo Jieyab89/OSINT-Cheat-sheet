@@ -2694,6 +2694,7 @@ Password Manager
 
 # Fraud Checker
 
+- [ScamDB](https://scamdb.net/)- Report and Search Scam Accounts
 - [Cek Rekening](https://cekrekening.id/home) - Indonesian By Kominfo
 - [Kredibel](https://www.kredibel.com/) - Indonesian
 - [Verihub](https://verihubs.com/) - Indonesian
