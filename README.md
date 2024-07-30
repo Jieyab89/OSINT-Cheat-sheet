@@ -530,6 +530,7 @@ net huggers
 - [wifispc](https://wifispc.com/)
 - [wificafespots](https://www.wificafespots.com/wifi/)
 - [openwifimap](https://openwifimap.ne)
+- [unwiredlabs](https://unwiredlabs.com/products)
 
 # SOC & Threat Hunting
 
@@ -1300,7 +1301,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 
 Pro Tips
 
-If you has found the person phone number you can check at data breach, e wallet, social media, email address (via reset password), getcontact, truecaller, ipqs, fraud checker and last trying to dork or search any info into social media to
+If you has found the person phone number you can check at data breach, e wallet, social media, email address (via reset password), getcontact, truecaller, ipqs, fraud checker and last trying to dork or search any info into social media too
 
 # Public Records
 
@@ -2170,6 +2171,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Calculator IPVM](https://calculator.ipvm.com/)
 - [f4map](https://demo.f4map.com/)
 - [geospy](https://geospy.ai/)
+- [unwiredlabs](https://unwiredlabs.com/products)
 
 # Nearby Map From Geospatial
 
@@ -2366,6 +2368,7 @@ Desktop NET debugger and assembly editor
 - [evrytania](http://www.evrytania.com/lte-tools)
 - [sqimway](https://www.sqimway.com/)
 - [cell2gps](http://cell2gps.net/)
+- [unwiredlabs](https://unwiredlabs.com/products)
 
 Pro Tips 
 
@@ -3303,6 +3306,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [urlquery](https://urlquery.net/)
 - [bgp](https://bgp.he.net/)
 - [stat ripe](https://stat.ripe.net/)
+- [unwiredlabs](https://unwiredlabs.com/products)
 
 # Medical OSINT 
 
