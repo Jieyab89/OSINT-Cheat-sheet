@@ -513,6 +513,7 @@ Be carefull using this tool
 This tools can show your ip address isp provider
 - [Ip 2 location](https://www.ip2location.com/)
 This tools can show your ip address isp provider and geo location  
+- [unwiredlabs](https://unwiredlabs.com/products) Dataset about IP around world 
 
 # Wireless Network
 
@@ -1916,6 +1917,7 @@ Search channel, username anymore
 - [shutterstock](https://www.shutterstock.com/royalty-free/reverse-image-search-for-video)
 - [gettyimages](https://www.gettyimages.com/)
 - [imgur](https://imgur.com/)
+- [geospy](https://geospy.ai/)
 
 # Image Analysis
 
@@ -2372,7 +2374,7 @@ Desktop NET debugger and assembly editor
 
 Pro Tips 
 
-If you has found the person phone number you can check at data breach, e wallet, social media, email address (via reset password), getcontact, truecaller, ipqs, fraud checker and last trying to dork or search any info into social media to 
+If you has found the person phone number you can check at data breach, e wallet, social media, email address (via reset password), getcontact, truecaller, ipqs, fraud checker and last trying to dork or search any info into social media too 
 
 # IMEI Investigation
 
