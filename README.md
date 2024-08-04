@@ -213,6 +213,7 @@ Be carefull using this tool
 
 # Code Search
 
+- [Code Finder](https://codefinder.dev/)
 - [Chromium Code Search](https://source.chromium.org/chromium)
 - [Android Code Search](https://cs.android.com)
 - [Code Finder](http://codefinder.org)
