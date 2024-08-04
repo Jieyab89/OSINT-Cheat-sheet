@@ -215,8 +215,8 @@ Be carefull using this tool
 
 - [Code Finder](https://codefinder.dev/)
 - [Chromium Code Search](https://source.chromium.org/chromium)
+- [Code Finder](http://codefinder.dev/)
 - [Android Code Search](https://cs.android.com)
-- [Code Finder](http://codefinder.org)
 - [CodeSeek](https://www.codeseek.co)
 - [Debian Code Search](http://codesearch.debian.net)
 - [Scala](https://www.programcreek.com/scala)
