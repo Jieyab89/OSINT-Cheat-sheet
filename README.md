@@ -175,6 +175,7 @@ Be carefull using this tool
 - [ShadowDragon](https://shadowdragon.io/)
 - [datasetlist](https://www.datasetlist.com/)
 - [roboflow](https://roboflow.com/)
+- [databoks katadata ID](https://databoks.katadata.co.id/)
 
 # Forums & Sites
 
@@ -227,6 +228,7 @@ Be carefull using this tool
 - [DevsecOps Secure Code](https://devsecopsguides.com/docs/rules)
 - [awesomeopensource](https://awesomeopensource.com/)
 - [nerdydata](https://www.nerdydata.com/reports/new)
+- [Github code search](https://github.com/search?type=code)
 
 # Competitive Programming
 
@@ -361,6 +363,8 @@ Be carefull using this tool
 - [urlquery](https://urlquery.net/)
 - [transparencyreport Google](https://transparencyreport.google.com/safe-browsing/search)
 - [stat ripe](https://stat.ripe.net/)
+- [favicon-hash](https://favicon-hash.kmsec.uk/)
+- [FavFreak](https://github.com/devanshbatham/FavFreak)
 
 # Analysing URLs
 
@@ -487,6 +491,8 @@ Be carefull using this tool
 - [filescan](https://www.filescan.io/scan)
 - [urlquery](https://urlquery.net/)
 - [transparencyreport google](https://transparencyreport.google.com/safe-browsing/search)
+- [trustpositif Kominfo ID](https://trustpositif.kominfo.go.id/)
+- [Malware Bazaar](https://bazaar.abuse.ch/browse/)
 
 # IoT Search Engines
 
@@ -533,6 +539,7 @@ net huggers
 - [wificafespots](https://www.wificafespots.com/wifi/)
 - [openwifimap](https://openwifimap.ne)
 - [unwiredlabs](https://unwiredlabs.com/products)
+- [cellphonetrackers wifi tracker](https://cellphonetrackers.org/gsm/wifi-tracker.php)
 
 # SOC & Threat Hunting
 
@@ -602,6 +609,7 @@ You can find the file hash or other threat indicator
 - [Falcon Feeds](https://falconfeeds.io/)
 - [NetAlertX](https://github.com/jokob-sk/NetAlertX)
 - [filescan](https://www.filescan.io/scan)
+- [Malware Bazaar](https://bazaar.abuse.ch/browse/)
 
 # Automation Dorking 
 
@@ -1190,6 +1198,13 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Venture Radar](https://www.ventureradar.com/search)
 - [tracxn](https://tracxn.com/?redirect=false)
 - [clearbit](https://clearbit.com/)
+- [Kemenperin ID](https://kemenperin.go.id/direktori-perusahaan)
+- [IDX ID](https://www.idx.co.id/en/listed-companies/company-profiles)
+- [OJK ID](https://www.ojk.go.id/id/kanal/iknb/data-dan-statistik/direktori/direktori-iknb/Default.aspx)
+- [opentender ID](https://opentender.net/)
+- [lpse lkpp ID](https://lpse.lkpp.go.id/eproc4)
+- [companieshouse ID](https://companieshouse.id/)
+- [Fintech ID](https://fintech.id/id/member)
 
 # People Searching
 
@@ -1302,6 +1317,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [countrycode](https://countrycode.org/)
 - [HLR Tsel Code Area](https://web.archive.org/web/20240730155821/http://www.ppipuskrip.com/cek-kode-hlr-telkomsel.html)
 - [HLR Tsel Area Code ](https://web.archive.org/web/20240730160717/https://kumparan.com/how-to-tekno/cara-mengetahui-kode-area-no-hp-orang-lain-1yzrnn0bUx1)
+- [Indosat HLR](https://panduanbs.com/kode-area-wilayah-hlr-nomor-indosat-ooredo/)
 
 Pro Tips
 
@@ -1720,6 +1736,8 @@ Google queries for MySpace
 - [Proxynova](https://www.proxynova.com/tools/comb/)
 - [Leakcheck](https://leakcheck.io/)
 - [exposed](https://exposed.lol/)
+- [findemail](https://findemail.io/)
+- [skymem](https://www.skymem.info/)
 
 # Shodan Query Options
 
@@ -2102,7 +2120,6 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Zeemaps](https://www.zeemaps.com)
 - [Sentinel Hub](https://www.sentinel-hub.com/explore/sentinelplayground/)
 - [Maxar](https://discover.digitalglobe.com/)
-- [USGS (EarthExplorer)](https://earthexplorer.usgs.gov/)
 - [Zoom Earth](https://zoom.earth/)
 - [Remote Pixel](https://remotepixel.ca/projects/index.html)
 - [SunCalc](https://www.suncalc.org/)
@@ -2179,6 +2196,8 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [f4map](https://demo.f4map.com/)
 - [geospy](https://geospy.ai/)
 - [unwiredlabs](https://unwiredlabs.com/products)
+- [copernix](https://copernix.io/)
+- [skydb DB for building](https://www.skydb.net/)
 
 # Nearby Map From Geospatial
 
@@ -2328,6 +2347,25 @@ Desktop NET debugger and assembly editor
 - [Maltego Social Links Pro](https://www.maltego.com/transform-hub/social-links-pro/)
 - [trackenn](https://github.com/kennbroorg/trackenn?tab=readme-ov-file)
 
+# Crypto Market & Analysis  
+
+- [coinmarketcap](https://coinmarketcap.com/)
+- [coinbase](https://www.coinbase.com/explore) 
+- [binance](https://www.binance.com/en/markets)
+
+Transaction Analysis
+
+- [walletexplorer](https://www.walletexplorer.com/)
+- [bitref](https://bitref.com/)
+- [blockchain](https://www.blockchain.com/explorer)
+- [blockexplorer](https://blockexplorer.com/)
+- [blockcypher](https://live.blockcypher.com/)
+- [intelx](https://intelx.io/) 
+- [oxt](https://oxt.me/)
+- [bitcoinwhoswho](https://www.bitcoinwhoswho.com/)
+- [etherscan](https://etherscan.io/)
+- [etherchain](https://www.etherchain.org/)
+
 # Cell Investigation
 
 - [Opencellid](https://opencellid.org/)
@@ -2376,6 +2414,8 @@ Desktop NET debugger and assembly editor
 - [sqimway](https://www.sqimway.com/)
 - [cell2gps](http://cell2gps.net/)
 - [unwiredlabs](https://unwiredlabs.com/products)
+- [cellphonetrackers](https://cellphonetrackers.org/gsm/gsm-tracker.php)
+- [netmonster](https://netmonster.app/)
 
 Pro Tips 
 
@@ -2454,6 +2494,7 @@ Build your sockpuppet account and proctect your privacy
 - [DeepFaceLive](https://github.com/iperov/DeepFaceLive)
 - [fakeinfo](https://fakeinfo.net/)
 - [Online SMS](https://online-sms.org/)
+- [fakepersongenerator](https://www.fakepersongenerator.com/fake-name-generator)
 
 Social Network and blogging
 
@@ -2560,6 +2601,7 @@ Social Network and blogging
 - [hunch darkweb guide](https://www.hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf)
 - [darkweblinks](https://darkweblinks.io/)
 - [onion scan](https://onionscan.org/)
+- [hunch ly](https://www.hunch.ly/darkweb-osint/)
 
 # Darkweb Intelligence
 
@@ -2599,6 +2641,10 @@ Social Network and blogging
 - [hunchly](https://www.hunch.ly/)
 - [hunch darkweb guide](https://www.hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf)
 - [darkweblinks](https://darkweblinks.io/)
+- [hunch ly](https://www.hunch.ly/darkweb-osint/)
+- [darknetstats](https://www.darknetstats.com/)
+- [darknetlive](https://darknetlive.com/)
+- [Deepweb more resouces](http://whitepapers.virtualprivatelibrary.net/DeepWeb.pdf)
 
 # Digital Forensics
 
@@ -2730,6 +2776,7 @@ Search people missing and abuse, strict content, removing, takedown and minimize
 
 - [Google image removal](https://support.google.com/websearch/answer/4628134)
 Remove your image from Google
+- [Delete Me](https://joindeleteme.com/) Remove your personal information in internet and data broker (scrapper)
 - [ATII](https://followmoneyfightslavery.org/) The Anti-Human Trafficking Intelligence Initiative human trafficking, child exploitation, and child sexual abuse material (CSAM) through the advancement of prevention, detection, investigation, and reporting mechanisms.
 - [Stopncii](https://stopncii.org)
 Free tool designed to support victims of Non-Consensual Intimate Image (NCII) abuse
@@ -3194,6 +3241,17 @@ Credential Dumping
 - [Pillager](https://github.com/qwqdanchun/Pillager/)
 - [searchall](https://github.com/Naturehi666/searchall)
 
+Credentials
+
+- [Have I Been Pwned](https://haveibeenpwned.com/)
+- [Dehashed](https://www.dehashed.com/)
+- [Leak-Lookup](https://leak-lookup.com/)
+- [Snusbase](https://snusbase.com/)
+- [LeakCheck.io](https://leakcheck.io/)
+- [crackstation.net](https://crackstation.net/)
+- [breachdirectory.org](https://breachdirectory.org/)
+- [Intel Techniques Breach Tool](https://inteltechniques.com/tools/Breaches.html)
+
 Password crack 
 
 - [hashcat](https://github.com/hashcat/hashcat) A tool brute and crack password hash
@@ -3373,6 +3431,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [mooncalc](https://www.mooncalc.org/)
 - [suncalc](https://www.suncalc.org/)
 - [conflict-damage](https://www.conflict-damage.org/)
+- [Liveuamap](https://liveuamap.com/)
 
 # OSINT Shadow Analysis 
 
@@ -3599,6 +3658,13 @@ OSINT politics and geopolitics, risk crisis
 - [search-uk-sanctions](https://search-uk-sanctions-list.service.gov.uk/)
 - [sanctionsmap](https://www.sanctionsmap.eu/#/main)
 
+Terrorism & Radical 
+
+- [Europol Publications](https://www.europol.europa.eu/publications-events)
+- [terrorist-organizations](https://www.state.gov/foreign-terrorist-organizations)
+- [Sanctions against terrorism](https://www.consilium.europa.eu/en/policies/fight-against-terrorism/sanctions-against-terrorism/#list)
+- [EU financial sanctions list](https://data.europa.eu/data/datasets/consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions?locale=en)
+
 # Maltego Transform List 
 
 - [Offical Maltego Transform List](https://www.maltego.com/transform-hub/)
@@ -3626,6 +3692,7 @@ OSINT politics and geopolitics, risk crisis
 - [Windy](https://www.windy.com/)
 - [Satellites Pro](https://satellites.pro/)
 - [livingatlas](https://livingatlas.arcgis.com/)
+- [platform leo labs](https://platform.leolabs.space/visualization)
 
 # OSINT for Scraping and Data Collection
 
@@ -3686,6 +3753,10 @@ OSINT politics and geopolitics, risk crisis
 - [gijn](https://gijn.org/)
 - [Journalist toolbox](https://www.journaliststoolbox.org/)
 
+# OSINT Detect Deepfake 
+
+- [scanner deepfake](https://scanner.deepware.ai/)
+
 # OSINT Similarity (Plagiarism)
 
 Check the similarity & plagiarism of the content and web apps 
@@ -3726,6 +3797,7 @@ Company
 
 - [Venture Radar](https://www.ventureradar.com/search)
 - [tracxn](https://tracxn.com/?redirect=false)
+- [similarweb](https://www.similarweb.com/website/)
 
 # Secure Code & Application 
 
@@ -3762,3 +3834,27 @@ Company
 # IP CIDR Conveter 
 
 - [CIDR Conveter](http://magic-cookie.co.uk/iplist.html)
+
+# OSINT Technique Tips 
+
+This is path for you learn OSINT
+
+- [deepdarkCTI](https://github.com/fastfire/deepdarkCTI)
+- [osintcombine](https://www.osintcombine.com/post/dark-web-searching)
+- [overtoperator](https://www.overtoperator.com/s/daily-intel-brief)
+- [maltego](https://www.maltego.com/blog/top-osint-infosec-resources-for-you-and-your-team/)
+- [skopenow image int](https://www.skopenow.com/resource-center/image-based-osint-investigations-tips-techniques)
+- [Telegram OSINT](https://github.com/Ginsberg5150/Discord-and-Telegram-OSINT-references)
+- [OSINT Handbook](https://i-intelligence.eu/uploads/public-documents/OSINT_Handbook_2020.pdf)
+- [The Threat Intelligence Lifecycle](https://www.recordedfuture.com/threat-intelligence-lifecycle)
+- [Five Phashes of the Threat Intelligence Lifecycle](https://flashpoint.io/blog/threat-intelligence-lifecycle/)
+- [Threat Intelligence Lifecycle | Phases & Best Practices Explained](https://snyk.io/learn/threat-intelligence/threat-intelligence-lifecycle/)
+- [Open-Source Intelligence (OSINT) Cycle](https://securityorb.com/featured/the-open-source-intelligence-osint-cycle/)
+
+Browser List 
+
+Brave: https://brave.com/
+I2P: https://geti2p.net/en/ 
+Tor Broswer: https://www.torproject.org
+Whonix: https://www.whonix.org/
+Zeronet: https://zeronet.io/

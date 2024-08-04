@@ -39,9 +39,17 @@
 - [Belingcat Investigation](https://www.bellingcat.com/)
 - [dutchosintguy](https://www.dutchosintguy.com/)
 - [sector035](https://sector035.nl/)
+- [Leaked Docs Show What Phones Cellebrite Can (and Can’t) Unlock](https://www.404media.co/leaked-docs-show-what-phones-cellebrite-can-and-cant-unlock/)
 
 # Satellite Intelligence
 
 - [conference hitbsecconf](https://archive.conference.hitb.org/hitbsecconf2011ams/materials/D2T2%20-%20Jim%20Geovedi%20and%20Raoul%20Chiesa%20-%20Hacking%20a%20Bird%20in%20the%20Sky.pdf)
 - [Wikipedia](https://en.wikipedia.org/wiki/Reconnaissance_satellite)
 - [allsourceanalysis](https://allsourceanalysis.com/tag/open-source-intelligence-osint/)
+
+# Signal Intelligence
+
+- [Worldwide Cellular Tower Data Triangulation for Cell Phone Location Tracking](https://x-it.medium.com/worldwide-cellular-tower-data-triangulation-for-cell-phone-location-tracking-3c912da78de1)
+- [Melacak Posisi Berdasarkan LAC dan Cell ID pada Simcard No.Handphone](https://1sit.blog.amikom.me/2015/05/29/melacak-posisi-berdasarkan-lac-dan-cell-id-pada-simcard-no-handphone/)
+- [karionotelco](https://karionotelco.blogspot.com/p/blog-page_6191.html)
+- [Memperkenalkan LAC-CI](https://www.slideshare.net/riswan78/introducing-to-location-area-code-cell-id)
