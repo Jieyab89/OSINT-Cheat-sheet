@@ -3854,7 +3854,11 @@ This is path for you learn OSINT
 Browser List 
 
 Brave: https://brave.com/
+
 I2P: https://geti2p.net/en/ 
+
 Tor Broswer: https://www.torproject.org
+
 Whonix: https://www.whonix.org/
+
 Zeronet: https://zeronet.io/
