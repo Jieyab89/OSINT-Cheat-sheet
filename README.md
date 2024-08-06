@@ -2203,6 +2203,17 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [copernix](https://copernix.io/)
 - [skydb DB for building](https://www.skydb.net/)
 
+Convetert tool 
+
+- [SHP to KML Converrt](https://mygeodata.cloud/converter/shp-to-kml)
+- [Geojson to KML Convert](https://mygeodata.cloud/converter/geojson-to-kml)
+
+Geojson viewer 
+
+- [geojson](https://geojson.io/#map=5.37/-4.098/137.614)
+- [geojson](https://geojson.tools/)
+- [mapshaper](https://mapshaper.org/)
+
 # Nearby Map From Geospatial
 
 - [foursquare](https://location.foursquare.com/)
@@ -3706,6 +3717,12 @@ Terrorism & Radical
 - [Satellites Pro](https://satellites.pro/)
 - [livingatlas](https://livingatlas.arcgis.com/)
 - [platform leo labs](https://platform.leolabs.space/visualization)
+- [earthobservatory NASA](https://earthobservatory.nasa.gov/global-maps)
+- [EO Browser](https://apps.sentinel-hub.com/eo-browser/)
+- [NASA Firms](https://firms.modaps.eosdis.nasa.gov/)
+- [BMKG](https://www.bmkg.go.id/satelit/)
+- [GEE Google Earth Engine](https://earthengine.google.com/)
+- [NASA Worldview](https://worldview.earthdata.nasa.gov/)
 
 # OSINT for Scraping and Data Collection
 
