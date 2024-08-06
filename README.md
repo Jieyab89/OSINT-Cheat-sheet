@@ -1205,6 +1205,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [lpse lkpp ID](https://lpse.lkpp.go.id/eproc4)
 - [companieshouse ID](https://companieshouse.id/)
 - [Fintech ID](https://fintech.id/id/member)
+- [Website informer](https://website.informer.com/)
 
 # People Searching
 
@@ -1219,6 +1220,8 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Pimeyes](https://pimeyes.com/en)
 - [Rocketreach](https://rocketreach.co/)
 - [SignalHire](https://www.signalhire.com/)
+- [Website informer](https://website.informer.com/)
+- [Find and Update company](https://find-and-update.company-information.service.gov.uk/)
 - [Thatsthem](https://thatsthem.com/)
 - [Freepeoplesearch](https://freepeoplesearch.com/)
 - [Predicta Search](https://www.predictasearch.com/)
@@ -1702,6 +1705,7 @@ Google queries for MySpace
 - [ip-adress](http://www.ip-adress.com/trace_email/)
 - [whatismyipaddress](http://www.whatismyipaddress.com/trace-email)
 - [hunter](https://hunter.io/)
+- [Website informer](https://website.informer.com/)
 - [email-checker](https://email-checker.net/)
 - [verifyemailaddress](https://www.verifyemailaddress.org/)
 - [SignalHire](https://www.signalhire.com/)
@@ -3584,6 +3588,15 @@ Search News Journalist and Documentary Sites
 - [BRIN ID](https://brin.go.id/)
 - [ShadowDragon](https://shadowdragon.io/)
 - [Delpher](https://www.delpher.nl/)
+- [colonialarchitecture](https://colonialarchitecture.eu/)
+- [niod archive](https://www.niod.nl/)
+- [digitalcollections](https://digitalcollections.universiteitleiden.nl/)
+- [zoeken](https://zoeken.beeldengeluid.nl/)
+- [nationaalarchief](https://www.nationaalarchief.nl/en/research)
+- [archives](https://www.archives.gov/)
+- [Arsip Indonesia](https://arsip-indonesia.org/id/)
+- [Worldcat](https://search.worldcat.org/)
+- [MPN SIDAK kominfo](https://mpn.kominfo.go.id/arsip/)
 - [monash edu](https://repository.monash.edu/items/browse)
 - [digitalcollections](https://digitalcollections.universiteitleiden.nl/)
 - [scholarlypublications](https://scholarlypublications.universiteitleiden.nl/)
@@ -3714,6 +3727,21 @@ Terrorism & Radical
 - [netsplit](https://netsplit.de/channels/)
 - [kiwiirc](https://kiwiirc.com/search)
 
+# OSINT Historical 
+
+You can use for study academic literature, search book, people name, old archive and other 
+
+- [colonialarchitecture](https://colonialarchitecture.eu/)
+- [niod archive](https://www.niod.nl/)
+- [digitalcollections](https://digitalcollections.universiteitleiden.nl/)
+- [zoeken](https://zoeken.beeldengeluid.nl/)
+- [nationaalarchief](https://www.nationaalarchief.nl/en/research)
+- [archives](https://www.archives.gov/)
+- [Arsip Indonesia](https://arsip-indonesia.org/id/)
+- [Worldcat](https://search.worldcat.org/)
+- [MPN SIDAK kominfo](https://mpn.kominfo.go.id/arsip/)
+- [geheugen delpher](https://geheugen.delpher.nl/nl)
+
 # OSINT Art Collection
 
 - [Getty Edu](https://www.getty.edu/art/collection/)
@@ -3792,12 +3820,14 @@ Website
 - [sitelike](https://www.sitelike.org/)
 - [pr-cy.io](https://pr-cy.io/tools/similar-websites/)
 - [Clone UI Design](https://clone-ui.design/)
+- [Website informer](https://website.informer.com/)
 
 Company 
 
 - [Venture Radar](https://www.ventureradar.com/search)
 - [tracxn](https://tracxn.com/?redirect=false)
 - [similarweb](https://www.similarweb.com/website/)
+- [Website informer](https://website.informer.com/)
 
 # Secure Code & Application 
 
