@@ -176,6 +176,8 @@ Be carefull using this tool
 - [datasetlist](https://www.datasetlist.com/)
 - [roboflow](https://roboflow.com/)
 - [databoks katadata ID](https://databoks.katadata.co.id/)
+- [Google Engine Dataset](https://developers.google.com/earth-engine/datasets)
+- [All world geojson data](https://code.highcharts.com/mapdata/)
 
 # Forums & Sites
 
@@ -2203,7 +2205,9 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [copernix](https://copernix.io/)
 - [skydb DB for building](https://www.skydb.net/)
 
-Convetert tool 
+Conveter tool 
+
+*This for you have data like .shp and .kml or geojson and want to viewer or convert with the spesific tool for you analsis or sciene and other
 
 - [SHP to KML Converrt](https://mygeodata.cloud/converter/shp-to-kml)
 - [Geojson to KML Convert](https://mygeodata.cloud/converter/geojson-to-kml)
