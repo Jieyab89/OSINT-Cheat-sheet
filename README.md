@@ -627,6 +627,7 @@ You can find the file hash or other threat indicator
 - [Google Dork Simplified](https://github.com/dheerajydv19/Google-Dorks-Simplified)
 - [Gdorks](https://github.com/Ishanoshada/GDorks)
 - [cybdetective pastebin](https://cybdetective.com/pastebin.html)
+- [NAMINT](https://seintpl.github.io/NAMINT/)
 
 # Github Dork
 
@@ -1250,6 +1251,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [castrickclues](https://castrickclues.com/)
 - [lolarchiver](https://osint.lolarchiver.com/#)
 - [clearbit](https://clearbit.com/)
+- [idcrawl](https://www.idcrawl.com/)
 
 # Family People Search 
 
@@ -1323,6 +1325,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [HLR Tsel Code Area](https://web.archive.org/web/20240730155821/http://www.ppipuskrip.com/cek-kode-hlr-telkomsel.html)
 - [HLR Tsel Area Code ](https://web.archive.org/web/20240730160717/https://kumparan.com/how-to-tekno/cara-mengetahui-kode-area-no-hp-orang-lain-1yzrnn0bUx1)
 - [Indosat HLR](https://panduanbs.com/kode-area-wilayah-hlr-nomor-indosat-ooredo/)
+- [idcrawl](https://www.idcrawl.com/phone)
 
 Pro Tips
 
@@ -1355,6 +1358,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [peekyou](https://www.peekyou.com/)
 - [lolarchiver](https://osint.lolarchiver.com/#)
 - [User Searcher](https://www.user-searcher.com/)
+- [idcrawl](https://www.idcrawl.com/username)
 
 # Social Networks
 
@@ -1744,6 +1748,7 @@ Google queries for MySpace
 - [exposed](https://exposed.lol/)
 - [findemail](https://findemail.io/)
 - [skymem](https://www.skymem.info/)
+- [idcrawl](https://www.idcrawl.com/email-lookup)
 
 # Shodan Query Options
 
@@ -1947,6 +1952,7 @@ Search channel, username anymore
 - [gettyimages](https://www.gettyimages.com/)
 - [imgur](https://imgur.com/)
 - [geospy](https://geospy.ai/)
+- [sogou](https://pic.sogou.com/)
 
 # Image Analysis
 
@@ -3466,6 +3472,8 @@ Analysis for IMINT and find the geolocation, azimuth and etc
 - [bellingcat shadow finder](https://github.com/bellingcat/ShadowFinder)
 - [Moon Calc](https://www.mooncalc.org/)
 - [Dcode Azimuth Calc](https://www.dcode.fr/azimuth)
+- [carbidedepot Trigonometry Calculator](https://www.carbidedepot.com/formulas-trigright.asp)
+- [shadowmap](https://app.shadowmap.org/)
   
 # Academic Search Tools
 
