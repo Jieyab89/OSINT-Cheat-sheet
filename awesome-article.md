@@ -40,6 +40,7 @@
 - [dutchosintguy](https://www.dutchosintguy.com/)
 - [sector035](https://sector035.nl/)
 - [Leaked Docs Show What Phones Cellebrite Can (and Can’t) Unlock](https://www.404media.co/leaked-docs-show-what-phones-cellebrite-can-and-cant-unlock/)
+- [Email tracing and hunting](https://medium.com/hacking-info-sec/how-to-gmail-osint-like-a-boss-1ca4f55f55e2)
 
 # Satellite Intelligence
 
