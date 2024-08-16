@@ -1090,6 +1090,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [lolarchiver](https://osint.lolarchiver.com/#)
 - [Leakcheck](https://leakcheck.io/)
 - [exposed](https://exposed.lol/)
+- [oathnet](https://oathnet.ru/)
 
 # Crack Jurnals
 
@@ -2014,6 +2015,7 @@ Search channel, username anymore
 - [Image J github](https://github.com/imagej/ImageJ)
 - [imagemeasurement](https://imagemeasurement.online/image/view)
 - [powertoys Microsoft](https://learn.microsoft.com/en-us/windows/powertoys/screen-ruler)
+- [Apple Ruler](https://support.apple.com/id-id/102468)
 - [geohints](https://geohints.com/)
 
 # Stock Images
@@ -2223,6 +2225,9 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [dataspace](https://browser.dataspace.copernicus.eu/)
 - [openinframap](https://openinframap.org/#2/57.92/72.82/L,O)
 - [openseamap](https://map.openseamap.org/)
+- [openstreetbrowser](https://openstreetbrowser.org/)
+- [maproulette](https://maproulette.org/)
+- [Old maps online](https://www.oldmapsonline.org/en/)
 
 Conveter tool 
 
@@ -3475,6 +3480,10 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [suncalc](https://www.suncalc.org/)
 - [conflict-damage](https://www.conflict-damage.org/)
 - [Liveuamap](https://liveuamap.com/)
+- [Arcgis Military Overlay](https://solutions.arcgis.com/defense/help/military-overlay/#requirements)
+- [cesium](https://ion.cesium.com/)
+- [armscontrol](https://www.armscontrol.org/)
+- [sipri](https://www.sipri.org/databases)
 
 # OSINT Shadow Analysis 
 
@@ -3656,6 +3665,8 @@ Search News Journalist and Documentary Sites
 - [rferl](https://www.rferl.org/)
 - [newspapers](https://www.newspapers.com/)
 - [rollcall](https://rollcall.com/)
+- [reuters](https://www.reuters.com/)
+- [sipri](https://www.sipri.org/)
                
 Social Media Analytics
 
@@ -3756,6 +3767,7 @@ Terrorism & Radical
 - [GEE Google Earth Engine](https://earthengine.google.com/)
 - [NASA Worldview](https://worldview.earthdata.nasa.gov/)
 - [dataspace](https://browser.dataspace.copernicus.eu/)
+- [imagehunter](https://imagehunter.apollomapping.com/)
 
 # OSINT for Scraping and Data Collection
 
@@ -3791,6 +3803,7 @@ You can use for study academic literature, search book, people name, old archive
 - [Worldcat](https://search.worldcat.org/)
 - [MPN SIDAK kominfo](https://mpn.kominfo.go.id/arsip/)
 - [geheugen delpher](https://geheugen.delpher.nl/nl)
+- [Old maps online](https://www.oldmapsonline.org/en/)
 
 # OSINT Art Collection
 
@@ -3831,6 +3844,10 @@ You can use for study academic literature, search book, people name, old archive
 - [journalism](https://github.com/wbkd/awesome-interactive-journalism)
 - [gijn](https://gijn.org/)
 - [Journalist toolbox](https://www.journaliststoolbox.org/)
+
+Search Expert or Journalist
+
+- [expertisefinder](https://expertisefinder.com/)
 
 # OSINT Detect Deepfake 
 
