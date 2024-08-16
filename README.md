@@ -3484,6 +3484,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [cesium](https://ion.cesium.com/)
 - [armscontrol](https://www.armscontrol.org/)
 - [sipri](https://www.sipri.org/databases)
+- [Online Identification of Explosive Ordnance: Resources](https://docs.google.com/spreadsheets/d/19xNmsQpcz7UwHOPy1Zrwud-2jVdctulT5W3_0fUNn8k/edit?gid=0#gid=0)
 
 # OSINT Shadow Analysis 
 
@@ -3852,6 +3853,7 @@ Search Expert or Journalist
 # OSINT Detect Deepfake 
 
 - [scanner deepfake](https://scanner.deepware.ai/)
+- [aiornot](https://www.aiornot.com/)
 
 # OSINT Similarity (Plagiarism)
 
