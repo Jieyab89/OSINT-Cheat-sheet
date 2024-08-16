@@ -1,6 +1,6 @@
 # Where OSINT Data From? 
 
-- Law Enforcement Sources 
+- Law Enforcement Sources (Private Source) or (Publication)
 - Paid Sources
 - Open Source
 - Data Breach 

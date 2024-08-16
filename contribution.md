@@ -10,15 +10,20 @@ Thank you very much for those of you who contributed. You can contribute with me
 
 example : 
 
-# OSINT SOCMIT  
+# OSINT SOCMINT
+
 - [NAME TOOLS](URL)
 - [NAME TOOLS 2](URL)
 
 You can add description 
 
-# OSINT SOCMIT  
+# OSINT SOCMINT
+
 this is  description 
+
 - [NAME TOOLS](URL)
 - [NAME TOOLS 2](URL)
 
+# Other 
 
+If you want change the repo for web based and create like node, data list, search and other are welcome 
