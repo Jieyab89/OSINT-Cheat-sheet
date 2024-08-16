@@ -5,3 +5,5 @@
 - Open Source
 - Data Breach 
 - Social Engineering & HUMINT
+- Social Media
+- Data Broker
