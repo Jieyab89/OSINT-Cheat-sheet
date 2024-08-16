@@ -178,6 +178,7 @@ Be carefull using this tool
 - [databoks katadata ID](https://databoks.katadata.co.id/)
 - [Google Engine Dataset](https://developers.google.com/earth-engine/datasets)
 - [All world geojson data](https://code.highcharts.com/mapdata/)
+- [statista](https://www.statista.com/)
 
 # Forums & Sites
 
@@ -495,6 +496,7 @@ Be carefull using this tool
 - [transparencyreport google](https://transparencyreport.google.com/safe-browsing/search)
 - [trustpositif Kominfo ID](https://trustpositif.kominfo.go.id/)
 - [Malware Bazaar](https://bazaar.abuse.ch/browse/)
+- [tria](https://tria.ge)
 
 # IoT Search Engines
 
@@ -1326,6 +1328,8 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [HLR Tsel Area Code ](https://web.archive.org/web/20240730160717/https://kumparan.com/how-to-tekno/cara-mengetahui-kode-area-no-hp-orang-lain-1yzrnn0bUx1)
 - [Indosat HLR](https://panduanbs.com/kode-area-wilayah-hlr-nomor-indosat-ooredo/)
 - [idcrawl](https://www.idcrawl.com/phone)
+- [SMS PING](https://github.com/MatejKovacic/silent-sms-ping)
+- [SMS PING APK](https://f-droid.org/id/packages/com.itds.sms.ping/)
 
 Pro Tips
 
@@ -2005,6 +2009,12 @@ Search channel, username anymore
 - [Geospy Github](https://github.com/atiilla/geospy)
 - [imagga](https://imagga.com/)
 - [geospy](https://geospy.ai/)
+- [Image J](https://imagej.net/ij/index.html)
+- [Imjoy](https://ij.imjoy.io/)
+- [Image J github](https://github.com/imagej/ImageJ)
+- [imagemeasurement](https://imagemeasurement.online/image/view)
+- [powertoys Microsoft](https://learn.microsoft.com/en-us/windows/powertoys/screen-ruler)
+- [geohints](https://geohints.com/)
 
 # Stock Images
 
@@ -2210,6 +2220,9 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [unwiredlabs](https://unwiredlabs.com/products)
 - [copernix](https://copernix.io/)
 - [skydb DB for building](https://www.skydb.net/)
+- [dataspace](https://browser.dataspace.copernicus.eu/)
+- [openinframap](https://openinframap.org/#2/57.92/72.82/L,O)
+- [openseamap](https://map.openseamap.org/)
 
 Conveter tool 
 
@@ -2441,6 +2454,8 @@ Transaction Analysis
 - [unwiredlabs](https://unwiredlabs.com/products)
 - [cellphonetrackers](https://cellphonetrackers.org/gsm/gsm-tracker.php)
 - [netmonster](https://netmonster.app/)
+- [SMS PING](https://github.com/MatejKovacic/silent-sms-ping)
+- [SMS PING APK](https://f-droid.org/id/packages/com.itds.sms.ping/)
 
 Pro Tips 
 
@@ -2735,6 +2750,7 @@ Social Network and blogging
 - [volatilityfoundation](https://github.com/volatilityfoundation)
 - [Fire eye tool](https://fireeye.market/)
 - [SANS Faculty Free Tools](https://assets.contentstack.io/v3/assets/blt36c2e63521272fdc/bltd8ba96a0fce78883/Free_Faculty_Tools.pdf)
+- [Forensically](https://29a.ch/photo-forensics/)
 
 *Pro Tips 
 
@@ -3110,6 +3126,8 @@ VIN Checker
 
 - [Gpt osint](https://github.com/gigz/gpt-osint)
 - [Hacker AI](https://chat.hackerai.co/id/login)
+- [Blackbox AI](https://www.blackbox.ai/)
+- [Chat GPT](https://openai.com/chatgpt/)
 
 # OSINT for Red Team 
 
@@ -3689,10 +3707,12 @@ OSINT politics and geopolitics, risk crisis
 - [globaldetentionproject](https://www.globaldetentionproject.org/detention-centres/map-view)
 - [tasteatlas](https://www.tasteatlas.com/)
 - [global terrorism database](https://www.start.umd.edu/gtd/)
-- [start global terrorism database](https://www.start.umd.edu/)
 - [datasets global terrorism database Kaggle](https://www.kaggle.com/datasets/START-UMD/gtd)
 - [search-uk-sanctions](https://search-uk-sanctions-list.service.gov.uk/)
 - [sanctionsmap](https://www.sanctionsmap.eu/#/main)
+- [chroniclingamerica](https://chroniclingamerica.loc.gov/)
+- [Data catalog world bank](https://datacatalog.worldbank.org/)
+- [Google Patents](https://patents.google.com/)
 
 Terrorism & Radical 
 
@@ -3735,6 +3755,7 @@ Terrorism & Radical
 - [BMKG](https://www.bmkg.go.id/satelit/)
 - [GEE Google Earth Engine](https://earthengine.google.com/)
 - [NASA Worldview](https://worldview.earthdata.nasa.gov/)
+- [dataspace](https://browser.dataspace.copernicus.eu/)
 
 # OSINT for Scraping and Data Collection
 
@@ -3793,6 +3814,7 @@ You can use for study academic literature, search book, people name, old archive
 - [babla](https://www.babla.co.id/pengucapan/bahasa-china/)
 - [Google](https://www.google.com/search?q=google+translate)
 - [deepl](https://www.deepl.com/en/translator)
+- [glosbe](https://id.glosbe.com/)
 
 # OSINT OPSEC 
 
