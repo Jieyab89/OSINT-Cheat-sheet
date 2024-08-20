@@ -630,6 +630,7 @@ You can find the file hash or other threat indicator
 - [Gdorks](https://github.com/Ishanoshada/GDorks)
 - [cybdetective pastebin](https://cybdetective.com/pastebin.html)
 - [NAMINT](https://seintpl.github.io/NAMINT/)
+- [BullsEye0 dorks](https://github.com/BullsEye0/dorks-eye)
 
 # Github Dork
 
@@ -1331,6 +1332,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [idcrawl](https://www.idcrawl.com/phone)
 - [SMS PING](https://github.com/MatejKovacic/silent-sms-ping)
 - [SMS PING APK](https://f-droid.org/id/packages/com.itds.sms.ping/)
+- [Ghunt online tools](https://app.osint.industries/)
 
 Pro Tips
 
@@ -1364,6 +1366,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [lolarchiver](https://osint.lolarchiver.com/#)
 - [User Searcher](https://www.user-searcher.com/)
 - [idcrawl](https://www.idcrawl.com/username)
+- [Ghunt online tools](https://app.osint.industries/)
 
 # Social Networks
 
@@ -1754,6 +1757,8 @@ Google queries for MySpace
 - [findemail](https://findemail.io/)
 - [skymem](https://www.skymem.info/)
 - [idcrawl](https://www.idcrawl.com/email-lookup)
+- [Ghunt online tools](https://app.osint.industries/)
+- [Hashes email](https://hashes.com/en/emails/md5)
 
 # Shodan Query Options
 
@@ -2364,6 +2369,7 @@ Bypasses, payloads, Reconnaissance and etc
 - [Bug Bounty](https://github.com/Yudha-ard/Bug-Bounty) Tips bug bounty reconnaissance
 - [DnsSpy](https://github.com/dnSpy/dnSpy)
 Desktop NET debugger and assembly editor
+- [regex101](https://regex101.com/) Tips for Regex
 
 # Zero Day
 
@@ -3306,6 +3312,9 @@ Password crack
 - [john](https://github.com/openwall/john) A tool brute and crack password hash 
 - [thc hydra](https://github.com/vanhauser-thc/thc-hydra) A tool brute and crack password 
 - [CiLocks](https://github.com/tegal1337/CiLocks) Crack Interface lockscreen, Metasploit and More Android/IOS Hacking
+- [crackstation](https://crackstation.net/) Awesome database password crack and identifier
+- [Hashes](https://hashes.com/en/decrypt/hash) Awesome database password crack and identifier
+- [Hashes Escrow](https://hashes.com/en/escrow/view) You can earn money or make a password crack request with community help (Pay)
 
 Wordlists for all
 
