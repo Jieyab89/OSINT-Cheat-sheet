@@ -4,10 +4,22 @@ A fake account, but this account was created authentically with interactions, ph
 
 # What Is The Purpose? 
 
+OSINT investigators create sock puppets so they can access content on various sites, such as social media platforms, where content is only available with an account.
+
+Sock puppets are also created to isolate OSINT research, ensuring a separation between the personal and work lives of OSINT investigators. It is essential to emphasize the importance of separating an OSINT investigator's real identity from their research accounts, otherwise known as practicing good Operational Security (OPSEC).
+
+Some platforms, such as Facebook, may tell a target they are being investigated through friend recommendations. Further, suppose you use your personal accounts to conduct OSINT research; you may accidentally "like" a post on your target's profile or accidentally send a friend request.
+
+Posing the following question may help you further understand why it matters that you create sock puppets before researching targets. If you were a police officer, would you conduct surveillance using your personal vehicle? Most of you would hopefully answer "no"; you would not do that. The question to ask yourself is why you would use a personal Facebook account to research your subject. It's similar because your vehicle links to your real identity, just as your social media accounts link back to your real identity.
+
 1. To investigate others without revealing your true identity.
 2. Make the investigation authentic (HUMANINT, MASINT, other. With someone)
 3. Approach and know the target in real time and in detail
 4. Monitoring your target 
+
+# The Benefits of Sock Puppets
+
+It is recommended that OSINT investigators avoid using their personal social media accounts for research purposes to uphold their privacy and security and ensure the investigation's integrity. Keeping personal and work accounts separate when conducting research is crucial for gathering information discretely and anonymously for good OPSEC.
 
 # How To Detect? 
 
@@ -67,3 +79,4 @@ In other cases, the catfisher lacks the self-confidence needed to express themse
 Reff: 
 
 - https://www.fortinet.com/resources/cyberglossary/catfishing
+- https://www.sans.org/blog/what-are-sock-puppets-in-osint/ 
