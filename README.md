@@ -3338,6 +3338,8 @@ Wordlists for all
 - [PentesterSpecialDict](https://github.com/ppbibo/PentesterSpecialDict)
 - [fuzz.txt](https://github.com/Bo0oM/fuzz.txt)
 - [wordlists](https://github.com/assetnote/wordlists)
+- [Hashmob](https://hashmob.net/resources/hashmob)
+- [RockYou2024](https://github.com/exploit-development/RockYou2024)
 
 Web fuzz wordlists
 
@@ -3403,7 +3405,15 @@ Privilage Escalation Cheat and check
 - [wadcoms](https://wadcoms.github.io/#+Windows) WADComs is an interactive cheat sheet, offensive security tools and their respective commands, to be used against Windows/AD environments
 - [g0tmi1k linux priv esc](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/) Basic Linux Privilege Escalation
 - [Windows Privilage Escalation](https://github.com/Ignitetechnologies/Windows-Privilege-Escalation?tab=readme-ov-file) Methods of escalating privilege on Windows-based machines and CTFs with examples
- 
+
+Hacking Playground 
+
+- [wackopicko CSLAB](https://wackopicko.csalab.app/)
+- [juiceshop CSLAB](https://juiceshop.csalab.app/#/)
+- [dvwa CSLAB](https://dvwa.csalab.app/)
+- [hackthebox](https://www.hackthebox.com/)
+- [tryhackme](https://tryhackme.com/)
+
 # Audio OSINT 
 
 - [Audio metadata](https://github.com/tmont/audio-metadata)
