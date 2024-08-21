@@ -544,6 +544,11 @@ net huggers
 - [openwifimap](https://openwifimap.ne)
 - [unwiredlabs](https://unwiredlabs.com/products)
 - [cellphonetrackers wifi tracker](https://cellphonetrackers.org/gsm/wifi-tracker.php)
+- [mylnikov BSSID Public API](https://www.mylnikov.org/archives/1170)
+- [wifidb](https://wifidb.net/wifidb/)
+- [combain](https://combain.com/)
+- [freifunk](https://www.freifunk-karte.de/)
+- [GONZOsint- geowifi](https://github.com/GONZOsint/geowifi)
 
 # SOC & Threat Hunting
 
@@ -2256,6 +2261,10 @@ Geojson viewer
 - [wanderlog review on Google maps](https://wanderlog.com/)
 - [airbnb](https://www.airbnb.co.id/)
 - [copernix](https://copernix.io/)
+- [trip](https://www.trip.com/)
+- [traveloka](https://www.traveloka.com/)
+- [hotels](https://id.hotels.com/)
+- [booking](https://www.booking.com/)
 
 # Fact Checking
 
@@ -3238,6 +3247,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [Ired team](https://www.ired.team/) Awesome list and notes for exploit, initial access and pentesting 
 - [Subt](https://github.com/tegal1337/subt) SubT is a tool to check if a subdomain is vulnerable to subdomain takeover. It uses `subfinder` to search for subdomains, `dig` to check CNAME, and `curl` to check status code
 - [apk2url](https://github.com/n0mi1k/apk2url) An OSINT tool to quickly extract IP and URL endpoints from APKs by disassembling and decompiling
+- [dogbolt](https://dogbolt.org/) Online decompiler 
 
 Social Engineering
 
@@ -3245,6 +3255,7 @@ Social Engineering
 - [emkei](https://emkei.cz/)
 - [anonymailer](https://anonymailer.net/)
 - [Phishious](https://github.com/CanIPhish/Phishious) 
+- [GoPhish](https://getgophish.com/)
 
 Active Directory
 
