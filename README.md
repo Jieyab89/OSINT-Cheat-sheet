@@ -146,6 +146,7 @@ Be carefull using this tool
 - [inteltechniques](https://inteltechniques.com/tools/index.html)
 - [SNSSCRAPE](https://github.com/JustAnotherArchivist/snscrape)
 - [dreddown - social media downloader](https://www.dredown.com/)
+- [knowlesys](https://knowlesys.com/index.html)
 
 # Collection Dataset
 
@@ -182,6 +183,8 @@ Be carefull using this tool
 
 # Forums & Sites
 
+Site and forums OSINT community arround world 
+
 - [Bellingcat Discord](https://discord.com/invite/nTaNPmz)
 - [Independent OSINT](https://discord.com/invite/2DGJ2EC)
 - [OSINT.Team](https://osint.team)
@@ -198,6 +201,12 @@ Be carefull using this tool
 - [onniforums](https://onniforums.com/)
 - [intelligencewithsteve](https://www.intelligencewithsteve.com/blog/categories/osint)
 - [SANS](https://www.sans.org/blog/-must-have-free-resources-for-open-source-intelligence-osint-/)
+- [cybdetective](https://cybdetective.com/)
+- [secjuice](https://www.secjuice.com/)
+- [sector35](https://sector035.nl/articles/category:week-in-osint)
+- [ohshint](https://ohshint.gitbook.io/oh-shint-its-a-blog)
+- [osintcombine](https://www.osintcombine.com/blog)
+- [osintteam](https://osintteam.blog/)
 
 # General Search
 
@@ -271,6 +280,9 @@ Be carefull using this tool
 - [sociallinks](https://sociallinks.io/)
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
 - [socialscan](https://pypi.org/project/socialscan/)
+- [META crowdtangle](https://web.facebook.com/formedia/tools/crowdtangle?_rdc=1&_rdr)
+- [drone emprit](https://pers.droneemprit.id/)
+- [brandmentions](https://brandmentions.com/)
 
 # Social Media Management and Content Discovery
 
@@ -401,6 +413,7 @@ Be carefull using this tool
 - [ShadowDragon](https://shadowdragon.io/)
 - [metadefender](https://metadefender.opswat.com/)
 - [fofa](https://en.fofa.info/)
+- [safeweb norton](https://safeweb.norton.com/)
 
 # Researching Cyber Threats
 
@@ -497,6 +510,7 @@ Be carefull using this tool
 - [trustpositif Kominfo ID](https://trustpositif.kominfo.go.id/)
 - [Malware Bazaar](https://bazaar.abuse.ch/browse/)
 - [tria](https://tria.ge)
+- [safeweb norton](https://safeweb.norton.com/)
 
 # IoT Search Engines
 
@@ -619,6 +633,8 @@ You can find the file hash or other threat indicator
 - [NetAlertX](https://github.com/jokob-sk/NetAlertX)
 - [filescan](https://www.filescan.io/scan)
 - [Malware Bazaar](https://bazaar.abuse.ch/browse/)
+- [greynoise](https://www.greynoise.io/)
+- [darktrace](https://darktrace.com/)
 
 # Automation Dorking 
 
@@ -1097,6 +1113,8 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Leakcheck](https://leakcheck.io/)
 - [exposed](https://exposed.lol/)
 - [oathnet](https://oathnet.ru/)
+- [sn0int pwndb-domains](https://sn0int.com/r/kpcyrd/pwndb-domains)
+- [sn0int pwndb-emails](https://sn0int.com/r/kpcyrd/pwndb-emails)
 
 # Crack Jurnals
 
@@ -1483,6 +1501,10 @@ or you can use dork for spesific example
 - [Oh365UserFinder](https://github.com/dievus/Oh365UserFinder)
 - [o365chk](https://github.com/nixintel/o365chk)
 
+# Keybase 
+
+- [sn0int keybase](https://sn0int.com/r/kpcyrd/keybase)
+
 # Instagram
 
 - [Hashtagify](http://hashtagify.me)
@@ -1609,6 +1631,7 @@ or you can use dork for spesific example
 - [birdhunt](https://birdhunt.co/)
 - [exportcomments](https://exportcomments.com/)
 - [followeraudit](https://www.followeraudit.com/)
+- [knowlesys](https://knowlesys.com/index.html)
 
 Twitter Search Engine 
 
@@ -1625,6 +1648,7 @@ Twitter Search Engine
 - [Fdupes](https://github.com/adrianlopezroche/fdupes)
 - [Github API (view owner repo and etc)](https://docs.github.com/en/rest/activity/events?apiVersion=2022-11-28)
 - [Github advisories DB](https://github.com/advisories)
+- [sn0int github profil extractor](https://sn0int.com/r/kpcyrd/github)
 
 # Snapchat 
 
@@ -1690,6 +1714,9 @@ Google queries for MySpace
 - [HaveIBeenPwned](http://www.haveIbeenpwned.com)
 - [Hudson Rock Cybercrime Intelligence Free Tools](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools)
 - [breachorclear](http://breachorclear.jesterscourt.cc)
+- [brandmentions](https://brandmentions.com/)
+- [Google Alert](https://www.google.com/alerts?hl=en)
+- [flashpoint](https://flashpoint.io/)
 
 # EXIF Analysis
 
@@ -1764,6 +1791,7 @@ Google queries for MySpace
 - [idcrawl](https://www.idcrawl.com/email-lookup)
 - [Ghunt online tools](https://app.osint.industries/)
 - [Hashes email](https://hashes.com/en/emails/md5)
+- [sn0int protonmail-pks](https://sn0int.com/r/kpcyrd/protonmail-pks)
 
 # Shodan Query Options
 
@@ -1791,6 +1819,7 @@ Firefox plugin that will assist in downloading all media from a website
 - [Shrelock](https://github.com/sherlock-project/sherlock)
 - [Maltego](https://www.maltego.com/)
 - [OSINT Framework](https://osintframework.com/)
+- [OSINT Framework 2](https://knowlesys.com/osint_framework.html)
 - [Twint](https://forum.seccodeid.com/d/twint-twitter-intelligence-tool)
 - [Telegram OSINT](https://forum.seccodeid.com/d/telegram-nearby-map)
 - [Recon-Ng](https://github.com/lanmaster53/recon-ng)
@@ -1968,6 +1997,7 @@ Search channel, username anymore
 - [imgur](https://imgur.com/)
 - [geospy](https://geospy.ai/)
 - [sogou](https://pic.sogou.com/)
+- [geospy](https://geospy.web.app/)
 
 # Image Analysis
 
@@ -2027,6 +2057,9 @@ Search channel, username anymore
 - [powertoys Microsoft](https://learn.microsoft.com/en-us/windows/powertoys/screen-ruler)
 - [Apple Ruler](https://support.apple.com/id-id/102468)
 - [geohints](https://geohints.com/)
+- [graylark](https://graylark.io/)
+- [stylesuxx Steganography Online](https://stylesuxx.github.io/steganography/)
+- [earthkit](https://earthkit.app/)
 
 # Stock Images
 
@@ -2238,6 +2271,8 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [openstreetbrowser](https://openstreetbrowser.org/)
 - [maproulette](https://maproulette.org/)
 - [Old maps online](https://www.oldmapsonline.org/en/)
+- [graylark](https://graylark.io/)
+- [earthkit](https://earthkit.app/)
 
 Conveter tool 
 
@@ -2265,6 +2300,7 @@ Geojson viewer
 - [traveloka](https://www.traveloka.com/)
 - [hotels](https://id.hotels.com/)
 - [booking](https://www.booking.com/)
+- [yelp](https://www.yelp.com/)
 
 # Fact Checking
 
@@ -2297,6 +2333,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 # CTF Analysis & Exploit
 
 - [Cybercheff](https://gchq.github.io/CyberChef/) The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
+- [dcode](https://www.dcode.fr/cipher-identifier) Awesome site for decode, encode, detect cipher and anymore 
 - [Bettercap](https://github.com/bettercap/bettercap)
 Framework to perform MITM (Man in the Middle) attacks.
 - [Yersinia](https://github.com/tomac/yersinia)
@@ -2540,6 +2577,8 @@ Build your sockpuppet account and proctect your privacy
 - [Temp Mail 1](https://mail.tm/en/)
 - [Temp Mail 2](https://temp-mail.org/en/)
 - [Temp Mail 3](https://tempmailo.com/)
+- [Temp Mail 4](https://www.guerrillamail.com/)
+- [Temp Mail 5](https://www.mailinator.com/)
 - [Cryptocurrency Payment Monero](https://www.getmonero.org/)
 - [Cryptocurrency Payment Bitcoin](https://bitcoin.org/en/)
 - [Openpgp](https://www.openpgp.org/)
@@ -2622,6 +2661,7 @@ Social Network and blogging
 - [nominatim OSM](https://nominatim.openstreetmap.org/)
 - [moscow RU](https://moscow.flamp.ru/)
 - [sun calc](https://www.suncalc.org/)
+- [earthkit](https://earthkit.app/satellite)
 
 # Discord Server Search  
 
@@ -2771,6 +2811,8 @@ Social Network and blogging
 - [Fire eye tool](https://fireeye.market/)
 - [SANS Faculty Free Tools](https://assets.contentstack.io/v3/assets/blt36c2e63521272fdc/bltd8ba96a0fce78883/Free_Faculty_Tools.pdf)
 - [Forensically](https://29a.ch/photo-forensics/)
+- [GCK'S FILE SIGNATURES TABLE](https://www.garykessler.net/library/file_sigs.html)
+- [stylesuxx Steganography Online](https://stylesuxx.github.io/steganography/)
 
 *Pro Tips 
 
@@ -2800,6 +2842,7 @@ You can analysis of hash, header, signature, evtx, ip, byte, file format, memory
 - [Phone Burner](https://www.phoneburner.com/)
 - [Hushed](https://hushed.com/)
 - [Privacy Badger](https://privacybadger.org/)
+- [U block origin](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
 - [Blur IMG Extension](https://chromewebstore.google.com/detail/blur-the-image-and-video/aikjogmpaoaookmacnkbenekcnkjlkmi?hl=en-US&authuser=0)
 - [Apple Kuncitara](https://support.apple.com/id-id/guide/iphone/iph049680987/ios)
 - [Apple Focus Mode](https://support.apple.com/id-id/guide/iphone/iphd6288a67f/17.0/ios/17.0)
@@ -2838,6 +2881,7 @@ Search people missing and abuse, strict content, removing, takedown and minimize
 - [Google image removal](https://support.google.com/websearch/answer/4628134)
 Remove your image from Google
 - [Delete Me](https://joindeleteme.com/) Remove your personal information in internet and data broker (scrapper)
+- [backgroundchecks](https://backgroundchecks.org/justdeleteme/#go) A directory of direct links to delete your account from web services
 - [ATII](https://followmoneyfightslavery.org/) The Anti-Human Trafficking Intelligence Initiative human trafficking, child exploitation, and child sexual abuse material (CSAM) through the advancement of prevention, detection, investigation, and reporting mechanisms.
 - [Stopncii](https://stopncii.org)
 Free tool designed to support victims of Non-Consensual Intimate Image (NCII) abuse
@@ -3117,6 +3161,8 @@ VIN Checker
 - [adsb fi](https://adsb.fi/)
 - [open sky network](https://opensky-network.org/)
 - [adsb im](https://www.adsb.im/home)
+- [flightsafety](https://asn.flightsafety.org/)
+- [airfleets](https://www.airfleets.net/home/)
 
 # Ship Tracking
 
@@ -3248,6 +3294,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [Subt](https://github.com/tegal1337/subt) SubT is a tool to check if a subdomain is vulnerable to subdomain takeover. It uses `subfinder` to search for subdomains, `dig` to check CNAME, and `curl` to check status code
 - [apk2url](https://github.com/n0mi1k/apk2url) An OSINT tool to quickly extract IP and URL endpoints from APKs by disassembling and decompiling
 - [dogbolt](https://dogbolt.org/) Online decompiler 
+- [ezXSS](https://github.com/ssl/ezXSS) ezXSS is an easy way for penetration testers and bug bounty hunters to test (blind) Cross Site Scripting
 
 Social Engineering
 
@@ -3799,6 +3846,7 @@ Terrorism & Radical
 - [NASA Worldview](https://worldview.earthdata.nasa.gov/)
 - [dataspace](https://browser.dataspace.copernicus.eu/)
 - [imagehunter](https://imagehunter.apollomapping.com/)
+- [earthkit](https://earthkit.app/satellite)
 
 # OSINT for Scraping and Data Collection
 
@@ -3819,6 +3867,7 @@ Terrorism & Radical
 
 - [netsplit](https://netsplit.de/channels/)
 - [kiwiirc](https://kiwiirc.com/search)
+- [sn0int irc-monitor](https://sn0int.com/r/kpcyrd/irc-monitor)
 
 # OSINT Historical 
 
@@ -3965,6 +4014,15 @@ Company
 
 - [CIDR Conveter](http://magic-cookie.co.uk/iplist.html)
 
+# OSINT Data Broker List 
+
+This is list data broker, you can search or delete form data broker list on here 
+
+- [yaelwrites Data-Broker-Opt-Out-List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List)
+- [glamrock data-brokers](https://github.com/glamrock/data-brokers)
+- [privacyrights](https://privacyrights.org/data-brokers)
+- [simpleoptout](https://github.com/troy/simpleoptout)
+
 # OSINT Technique Tips 
 
 This is path for you learn OSINT
@@ -3980,6 +4038,7 @@ This is path for you learn OSINT
 - [Five Phashes of the Threat Intelligence Lifecycle](https://flashpoint.io/blog/threat-intelligence-lifecycle/)
 - [Threat Intelligence Lifecycle | Phases & Best Practices Explained](https://snyk.io/learn/threat-intelligence/threat-intelligence-lifecycle/)
 - [Open-Source Intelligence (OSINT) Cycle](https://securityorb.com/featured/the-open-source-intelligence-osint-cycle/)
+- [Learn and training OSINT free](https://sites.google.com/view/tpdprivacy/home?authuser=0)
 
 Browser List 
 
