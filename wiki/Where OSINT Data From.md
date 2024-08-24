@@ -11,3 +11,7 @@
 - Journalist and Documentarian
 - Satellite Data
 - Academic Sources
+- Data Census 
+- Court filings and arrest records
+- Data Survey
+- IOC (Indicator of Compromise)

@@ -48,3 +48,11 @@ Foreign instrumentation signals intelligence involves collecting information fro
 12. COMINT 
 
 Communications intelligence focuses information gathered from the communications between individuals or groups of individuals, including telephone conversations, text messages, email conversations, radio calls, and online interactions on the analysis of signals containing speech or text. Tapping voice, text or signal channels is aimed at finding information about voice, text and signal transmissions. That can lead to determining a number of intelligence considerations about the communications, such as signal bandwidth and protocol, modulation type and rate, and the radio frequency used
+
+13. CSINT 
+
+CSINT is Cyber ​​Security Intelligence In the world of intelligence, CSINT refers to and analysis related to cyber security which is used to protect computer systems, networks and data from threat information and cyber attacks. CSINT can also involve the use of classified information sources, such as intercepted communications or data from surveillance systems, typically used by authorized investigators. Examples include specialist analytical and forensic tools, secret geolocation service, A collection of confidential data provided by law enforcement agencies, subscription and special tools
+
+14. Espionage
+
+Espionage is the illegal or unauthorized collection of confidential or sensitive information. Espionage is usually carried out to obtain data of strategic or tactical value, such as military, technical, business or political information. These activities often include infiltrating organizations, monitoring their activities, or using obfuscation techniques to access protected information

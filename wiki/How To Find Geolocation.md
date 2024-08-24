@@ -23,7 +23,10 @@ Finding geolocation is not easy, there are obstacles when you want to find a loc
 9. Use OpenStreetMap for data mining (OSM Query or Overpass Query)
 10. Trying search historical image or satellite (wayback)
 11. Trying check nearby about the location (If you has found the location such as building, street name and etc)
-12. Find out about the place or region you want to know such as seasons, timezone, buildings, people (faces), language and other things.
+12. Find out about the place or region you want to know such as seasons, timezone, buildings, people (faces), language and other things
+13. Creating 3D simulation modeling such as AutoCAD and other platforms, this is useful for analyzing and playing with imagination to determine problems with the object
+14. Using AI & ML requires programming or coding skills, you can collect assets or datasets such as the geography of a country, faces, buildings and so on so that you can match the similarity of the image if it is not in Google, Bing or other data brokers
+15. Use Google Earth Pro airplane mode to see the characteristics of the world, this tends to be difficult and takes a long time
 
 Reff:
 

@@ -2,7 +2,6 @@
 
 - Check the join date 
 
-
 Make sure the joining date is old and has related posts like the first post and look at the relative posts, make sure they are recent
 
 - There are no posts or photos and other content 

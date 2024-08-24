@@ -42,6 +42,8 @@
 - [Leaked Docs Show What Phones Cellebrite Can (and Can’t) Unlock](https://www.404media.co/leaked-docs-show-what-phones-cellebrite-can-and-cant-unlock/)
 - [Email tracing and hunting](https://medium.com/hacking-info-sec/how-to-gmail-osint-like-a-boss-1ca4f55f55e2)
 - [Bellingcat Hackathon (Awesome OSINT tool)](https://www.bellingcat.com/resources/2022/10/06/automated-map-searches-scam-busting-tools-and-twitter-search-translations-here-are-the-results-of-bellingcats-second-hackathon/)
+- [OSINT in general and removal your data](https://osintteam.blog/dosint-deceiving-osint-a994724af95f)
+- [Geolocation and AI with StreetClip: introduction, country classification and building a web interface](https://osintteam.blog/geolocation-and-ai-with-streetclip-introduction-country-classification-and-building-a-web-e13bd0e6d857)
 
 # Satellite Intelligence
 
