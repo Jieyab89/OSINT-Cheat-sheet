@@ -1,6 +1,6 @@
 # OSINT Risk and General
 
-# Common OSINT Sources:
+# Common OSINT Sources
 
 - Social Media Profiles: Platforms like Facebook, Twitter, LinkedIn, and Instagram.
 - Public Records and Databases: Government databases, court records, and other publicly accessible documents.

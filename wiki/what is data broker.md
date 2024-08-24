@@ -103,6 +103,12 @@ You can also use a VPN or Virtual Private Network to enhance your online privacy
 - [Kuncitara Iphone](https://support.apple.com/id-id/guide/iphone/iph049680987/ios)
 - [Nord VPN](https://nordvpn.com/id/offer/cyber-plan-page/?vpn=brand&gad_source=1)
 
+# Data broker list 
+
+Here the list data broker you should know 
+
+- [OSINT data broker lists](https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main#osint-data-broker-list)
+
 Reff : 
 
 - [kaspersky.com](https://usa.kaspersky.com/resource-center/preemptive-safety/how-to-stop-data-brokers-from-selling-your-personal-information)
