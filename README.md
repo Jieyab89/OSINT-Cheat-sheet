@@ -380,6 +380,7 @@ Site and forums OSINT community arround world
 - [stat ripe](https://stat.ripe.net/)
 - [favicon-hash](https://favicon-hash.kmsec.uk/)
 - [FavFreak](https://github.com/devanshbatham/FavFreak)
+- [LeakIX](https://leakix.net)
 
 # Analysing URLs
 
@@ -414,6 +415,7 @@ Site and forums OSINT community arround world
 - [metadefender](https://metadefender.opswat.com/)
 - [fofa](https://en.fofa.info/)
 - [safeweb norton](https://safeweb.norton.com/)
+- [haveibeensquatted](https://www.haveibeensquatted.com/)
 
 # Researching Cyber Threats
 
@@ -511,6 +513,9 @@ Site and forums OSINT community arround world
 - [Malware Bazaar](https://bazaar.abuse.ch/browse/)
 - [tria](https://tria.ge)
 - [safeweb norton](https://safeweb.norton.com/)
+- [threatbook](https://threatbook.io/)
+- [pulsedive](https://pulsedive.com/dashboard/)
+- [cuckoo](https://cuckoo.cert.ee/)
 
 # IoT Search Engines
 
@@ -563,6 +568,7 @@ net huggers
 - [combain](https://combain.com/)
 - [freifunk](https://www.freifunk-karte.de/)
 - [GONZOsint- geowifi](https://github.com/GONZOsint/geowifi)
+- [bgp](https://bgp.tools/)
 
 # SOC & Threat Hunting
 
@@ -635,6 +641,10 @@ You can find the file hash or other threat indicator
 - [Malware Bazaar](https://bazaar.abuse.ch/browse/)
 - [greynoise](https://www.greynoise.io/)
 - [darktrace](https://darktrace.com/)
+- [threatbook](https://threatbook.io/)
+- [pulsedive](https://pulsedive.com/dashboard/)
+- [cuckoo](https://cuckoo.cert.ee/)
+- [polyswarm](https://polyswarm.io/)
 
 # Automation Dorking 
 
@@ -1649,6 +1659,7 @@ Twitter Search Engine
 - [Github API (view owner repo and etc)](https://docs.github.com/en/rest/activity/events?apiVersion=2022-11-28)
 - [Github advisories DB](https://github.com/advisories)
 - [sn0int github profil extractor](https://sn0int.com/r/kpcyrd/github)
+- [Github Trending Repo](https://trendingrepos.com/)
 
 # Snapchat 
 
@@ -1792,6 +1803,7 @@ Google queries for MySpace
 - [Ghunt online tools](https://app.osint.industries/)
 - [Hashes email](https://hashes.com/en/emails/md5)
 - [sn0int protonmail-pks](https://sn0int.com/r/kpcyrd/protonmail-pks)
+- [checkcybersecurity](https://checkcybersecurity.service.ncsc.gov.uk/email-security-check/form)
 
 # Shodan Query Options
 
@@ -3295,6 +3307,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [apk2url](https://github.com/n0mi1k/apk2url) An OSINT tool to quickly extract IP and URL endpoints from APKs by disassembling and decompiling
 - [dogbolt](https://dogbolt.org/) Online decompiler 
 - [ezXSS](https://github.com/ssl/ezXSS) ezXSS is an easy way for penetration testers and bug bounty hunters to test (blind) Cross Site Scripting
+- [grayhatwarfare](https://grayhatwarfare.com/) Search AWS bucket 
 
 Social Engineering
 
@@ -3497,6 +3510,8 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [bgp](https://bgp.he.net/)
 - [stat ripe](https://stat.ripe.net/)
 - [unwiredlabs](https://unwiredlabs.com/products)
+- [bgp](https://bgp.tools/)
+- [greynoise](https://viz.greynoise.io/)
 
 # Medical OSINT 
 
@@ -3690,6 +3705,7 @@ Resources and collection for your make tool OSINT
 - [pipl](https://pipl.com/)
 - [ipqs](https://www.ipqualityscore.com/)
 - [sociallinks](https://sociallinks.io/)
+- [urlvoid](https://www.urlvoid.com/)
 
 # NEWS OSINT
 
