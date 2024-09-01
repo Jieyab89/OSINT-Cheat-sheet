@@ -1241,7 +1241,6 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Kemenperin ID](https://kemenperin.go.id/direktori-perusahaan)
 - [IDX ID](https://www.idx.co.id/en/listed-companies/company-profiles)
 - [OJK ID](https://www.ojk.go.id/id/kanal/iknb/data-dan-statistik/direktori/direktori-iknb/Default.aspx)
-- [opentender ID](https://opentender.net/)
 - [lpse lkpp ID](https://lpse.lkpp.go.id/eproc4)
 - [companieshouse ID](https://companieshouse.id/)
 - [Fintech ID](https://fintech.id/id/member)
@@ -3905,6 +3904,7 @@ You can use for study academic literature, search book, people name, old archive
 - [MPN SIDAK kominfo](https://mpn.kominfo.go.id/arsip/)
 - [geheugen delpher](https://geheugen.delpher.nl/nl)
 - [Old maps online](https://www.oldmapsonline.org/en/)
+- [Delpher](https://www.delpher.nl/)
 
 # OSINT Art Collection
 
