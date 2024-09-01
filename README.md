@@ -1246,6 +1246,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [companieshouse ID](https://companieshouse.id/)
 - [Fintech ID](https://fintech.id/id/member)
 - [Website informer](https://website.informer.com/)
+- [contactout](https://contactout.com/)
 
 # People Searching
 
@@ -1289,6 +1290,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [lolarchiver](https://osint.lolarchiver.com/#)
 - [clearbit](https://clearbit.com/)
 - [idcrawl](https://www.idcrawl.com/)
+- [contactout](https://contactout.com/)
 
 # Family People Search 
 
@@ -3206,6 +3208,7 @@ VIN Checker
 - [Hacker AI](https://chat.hackerai.co/id/login)
 - [Blackbox AI](https://www.blackbox.ai/)
 - [Chat GPT](https://openai.com/chatgpt/)
+- [poe AI](https://poe.com/login)
 
 # OSINT for Red Team 
 
@@ -3308,6 +3311,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [dogbolt](https://dogbolt.org/) Online decompiler 
 - [ezXSS](https://github.com/ssl/ezXSS) ezXSS is an easy way for penetration testers and bug bounty hunters to test (blind) Cross Site Scripting
 - [grayhatwarfare](https://grayhatwarfare.com/) Search AWS bucket 
+- [pivotnacci](https://github.com/blackarrowsec/pivotnacci) Pivot into the internal network by deploying HTTP agents
 
 Social Engineering
 
@@ -3357,6 +3361,7 @@ Post Exploitation
 - [PowerSploit](https://github.com/PowerShellMafia/PowerSploit)
 - [Responder](https://github.com/lgandx/Responder)
 - [Responder-Windows](https://github.com/lgandx/Responder-Windows)
+- [pivotnacci](https://github.com/blackarrowsec/pivotnacci) Pivot into the internal network by deploying HTTP agents
 
 Credential Dumping
 
