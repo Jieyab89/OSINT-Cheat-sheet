@@ -2335,6 +2335,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [Hoaxy](https://hoaxy.osome.iu.edu/)
 - [FEAT](https://github.com/GONZOsint/FEAT)
 - [followeraudit](https://www.followeraudit.com/)
+- [TEMPO news ID cek fakta](https://cekfakta.tempo.co/)
 
 # Server Information Gathering
 
