@@ -366,6 +366,7 @@ Site and forums OSINT community arround world
 - [Web Leaked Credentials](https://github.com/h4x0r-dz/Leaked-Credentials/)
 - [host tracker](https://www.host-tracker.com/en)
 - [crt.sh](https://crt.sh/)
+- [merklemap.com](https://www.merklemap.com/)
 - [view DNS](https://viewdns.info/)
 - [visualping](https://visualping.io/)
 - [jam dev browser extension](https://jam.dev/)
