@@ -207,6 +207,8 @@ Site and forums OSINT community arround world
 - [ohshint](https://ohshint.gitbook.io/oh-shint-its-a-blog)
 - [osintcombine](https://www.osintcombine.com/blog)
 - [osintteam](https://osintteam.blog/)
+- [KASE OSINT Scenario](https://kasescenarios.com/)
+- [Sophia Santos](https://gralhix.com/)
 
 # General Search
 
@@ -1088,6 +1090,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [webarchiveviewer](https://cybdetective.com/webarchiveviewer/)
 - [ShadowDragon](https://shadowdragon.io/)
 - [lolarchiver](https://osint.lolarchiver.com/#)
+- [Time Travel](http://timetravel.mementoweb.org/)
 
 # Data Breached OSINT
 
@@ -1246,6 +1249,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Fintech ID](https://fintech.id/id/member)
 - [Website informer](https://website.informer.com/)
 - [contactout](https://contactout.com/)
+- [opensecrets](https://www.opensecrets.org/)
 
 # People Searching
 
@@ -1367,6 +1371,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [SMS PING](https://github.com/MatejKovacic/silent-sms-ping)
 - [SMS PING APK](https://f-droid.org/id/packages/com.itds.sms.ping/)
 - [Ghunt online tools](https://app.osint.industries/)
+- [numpi](https://numpi.com/)
 
 Pro Tips
 
@@ -1539,6 +1544,7 @@ or you can use dork for spesific example
 - [Sterraxcyl IG Profiler](https://github.com/novitae/sterraxcyl)
 - [exportcomments](https://exportcomments.com/)
 - [Blastup - Insta Downloader](https://blastup.com/instagram-downloader)
+- [Insta Stories View](https://storiesdown.com/)
 
 # Microsoft OneDrive 
 
@@ -1573,6 +1579,8 @@ or you can use dork for spesific example
 - [ytcomment](https://ytcomment.kmcat.uk/)
 - [exportcomments](https://exportcomments.com/)
 - [yark YT archiving](https://github.com/Owez/yark)
+- [Downsub](https://downsub.com/)
+- [Savesubs](https://savesubs.com/)
 
 # Twitter
 
@@ -1661,6 +1669,7 @@ Twitter Search Engine
 - [Github advisories DB](https://github.com/advisories)
 - [sn0int github profil extractor](https://sn0int.com/r/kpcyrd/github)
 - [Github Trending Repo](https://trendingrepos.com/)
+- [Octosuite Github](https://github.com/bellingcat/octosuite)
 
 # Snapchat 
 
@@ -1805,6 +1814,13 @@ Google queries for MySpace
 - [Hashes email](https://hashes.com/en/emails/md5)
 - [sn0int protonmail-pks](https://sn0int.com/r/kpcyrd/protonmail-pks)
 - [checkcybersecurity](https://checkcybersecurity.service.ncsc.gov.uk/email-security-check/form)
+- [Proton mail tracking](https://github.com/pixelbubble/ProtOSINT)
+
+# PGP or GPG Keybase 
+
+- [keybase.io](https://keybase.io/)
+- [keys openpgp](https://keys.openpgp.org/)
+- [ubbuntu key server](http://keyserver.ubuntu.com:11371/)
 
 # Shodan Query Options
 
@@ -1895,6 +1911,7 @@ Firefox plugin that will assist in downloading all media from a website
 - [IntelligenceX](https://intelx.io/tools)
 - [lolarchiver](https://osint.lolarchiver.com/#)
 - [cybdetective public tool](https://cybdetective.com/)
+- [OSINT indsutries](https://www.osint.industries/)
 
 # Telegram Tool
 
@@ -2286,6 +2303,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Old maps online](https://www.oldmapsonline.org/en/)
 - [graylark](https://graylark.io/)
 - [earthkit](https://earthkit.app/)
+- [drivingdirectionsandmaps](https://www.drivingdirectionsandmaps.com/)
 
 Conveter tool 
 
@@ -2455,6 +2473,7 @@ Desktop NET debugger and assembly editor
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
 - [Maltego Social Links Pro](https://www.maltego.com/transform-hub/social-links-pro/)
 - [trackenn](https://github.com/kennbroorg/trackenn?tab=readme-ov-file)
+- [tokensniffer](https://tokensniffer.com/)
 
 # Crypto Market & Analysis  
 
@@ -2577,6 +2596,7 @@ Telegram
 
 Build your sockpuppet account and proctect your privacy
 
+- [How to build sockpupper account](https://www.osintcurio.us/2018/12/27/the-puppeteer/)
 - [Roop Image face swap from AI](https://github.com/s0md3v/roop)
 - [Thispersondoesnotexist](https://www.thispersondoesnotexist.com/)
 - [Protonmail](https://protonmail.com/)
@@ -2684,6 +2704,8 @@ Social Network and blogging
 - [Discord history tracker](https://www.dht.chylex.com/)  
 - [Darvester](https://github.com/darvester/darvester)
 - [Discord Leaks](https://discordleaks.unicornriot.ninja/discord/server/)
+- [Dutchosintguy Discord](https://github.com/Dutchosintguy/OSINT-Discord-resources)
+- [discordbee.com](https://discordbee.com/)
 
 # Darkweb Search Engines
 
@@ -3106,6 +3128,7 @@ Strict and disable bot crawl search engine index account
 - [Yellow Pages](https://tinyurl.com/dexknowscom) Request for remove your data from this site
 - [ZoomInfo](https://www.zoominfo.com/about-zoominfo/privacy-manage-profile) Request for remove your data from this site
 - [Get Contact Unlisting](https://getcontact.com/en/manage) Request for remove your data from this site
+- [Interpol int](https://www.interpol.int/en/How-we-work/Notices/Yellow-Notices/View-Yellow-Notices) View and search public Yellow Notices for missing persons
 
 *NB : Please read carefully and check the ToS or privacy statment. Its taking to long, you need to patiently. For this point, your data is not guaranteed to be lost 100% on the internet, but this is to minimize the spread of your data and data breaches
 
@@ -3133,6 +3156,8 @@ Strict and disable bot crawl search engine index account
 - [avtocod](https://avtocod.ru/)
 - [dmvcivls.gov](https://dmvcivls-wselfservice.ct.gov/Registration/VerifyRegistration)
 - [etimspayments](https://prodpci.etimspayments.com/pbw/include/dc_parking/input.jsp?ticketType=P)
+- [platerecognizer](https://platerecognizer.com/)
+- [partialnumberplate UK](https://www.partialnumberplate.co.uk/)
 
 VIN Checker 
 
@@ -3883,6 +3908,9 @@ Terrorism & Radical
 - [selenium](https://www.selenium.dev/) Web automation & site crawler 
 - [BeautifulSoup](https://BeautifulSoup.org/) Open source and collaborative framework for extracting the data you need from websites.
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) Python library for pulling data out of HTML and XML files
+- [scrapehero](https://www.scrapehero.com/marketplace/)
+- [Google maps review scrapper](https://github.com/omkarcloud/google-maps-reviews-scraper)
+- [Omkar](https://www.omkar.cloud/tools/)
 
 # OSINT IRC Chat
 
@@ -3930,6 +3958,7 @@ You can use for study academic literature, search book, people name, old archive
 - [Google](https://www.google.com/search?q=google+translate)
 - [deepl](https://www.deepl.com/en/translator)
 - [glosbe](https://id.glosbe.com/)
+- [World map Country, language, writing system](https://www.key-shortcut.com/en/writing-systems/world-map-of-alphabets-scripts#map)
 
 # OSINT OPSEC 
 
@@ -3955,6 +3984,7 @@ Search Expert or Journalist
 
 - [scanner deepfake](https://scanner.deepware.ai/)
 - [aiornot](https://www.aiornot.com/)
+- [sensity.ai](https://sensity.ai/)
 
 # OSINT Similarity (Plagiarism)
 
@@ -4044,6 +4074,29 @@ This is list data broker, you can search or delete form data broker list on here
 - [glamrock data-brokers](https://github.com/glamrock/data-brokers)
 - [privacyrights](https://privacyrights.org/data-brokers)
 - [simpleoptout](https://github.com/troy/simpleoptout)
+
+# OSINT Software 
+
+This is for you searching software alternative 
+
+- [alternativeto](https://alternativeto.net/)
+
+# OSINT Barcode Reader 
+
+- [Barcode online reader](https://online-barcode-reader.inliteresearch.com/)
+- [Apple Barcode](https://support.apple.com/id-id/102680)
+
+# OSINT Measurement
+
+Analyzing your image, vidio, building, maps, simulation and other things 
+
+- [smappen](https://www.smappen.com/app/)
+- [Google earth](https://earth.google.com/)
+- [imagemeasurement](https://imagemeasurement.online/)
+- [imageJ](https://imagej.net/ij/)
+- [suncalc](https://www.suncalc.org/)
+- [suncalc 2](http://suncalc.net/)
+- [mooncalc](https://www.mooncalc.org/)
 
 # OSINT Technique Tips 
 
