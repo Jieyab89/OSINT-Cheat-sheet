@@ -32,7 +32,9 @@ If you want change the repo for web based and create like node, data list, searc
 
 ## Format
 
+- Navigate to wiki\Contributor Wiki 
 - Create the filename example "OSINT for investigation of war and geopolitics"
 - Create the content with title header 1 example "# investigation of war and geopolitics" 
 - Add Reference
+- Add your name or contact person (Optional)
 - File extension .md 
