@@ -180,6 +180,7 @@ Be carefull using this tool
 - [Google Engine Dataset](https://developers.google.com/earth-engine/datasets)
 - [All world geojson data](https://code.highcharts.com/mapdata/)
 - [statista](https://www.statista.com/)
+- [World Bank Open Data](https://data.worldbank.org/)
 
 # Forums & Sites
 
@@ -228,9 +229,9 @@ Site and forums OSINT community arround world
 
 # Code Search
 
-- [Code Finder](https://codefinder.dev/)
 - [Chromium Code Search](https://source.chromium.org/chromium)
 - [Code Finder](http://codefinder.dev/)
+- [codefinder org](https://codefinder.org/)
 - [Android Code Search](https://cs.android.com)
 - [CodeSeek](https://www.codeseek.co)
 - [Debian Code Search](http://codesearch.debian.net)
@@ -243,6 +244,8 @@ Site and forums OSINT community arround world
 - [awesomeopensource](https://awesomeopensource.com/)
 - [nerdydata](https://www.nerdydata.com/reports/new)
 - [Github code search](https://github.com/search?type=code)
+- [sourcegraph](https://sourcegraph.com/search)
+- [cybdetective code search](https://cybdetective.com/codesearch.html)
 
 # Competitive Programming
 
@@ -384,6 +387,7 @@ Site and forums OSINT community arround world
 - [favicon-hash](https://favicon-hash.kmsec.uk/)
 - [FavFreak](https://github.com/devanshbatham/FavFreak)
 - [LeakIX](https://leakix.net)
+- [vstat](https://vstat.info/)
 
 # Analysing URLs
 
@@ -539,6 +543,9 @@ Site and forums OSINT community arround world
 - [webcamtaxi](https://www.webcamtaxi.com/en/)
 - [weatherbug](https://www.weatherbug.com/traffic-cam/)
 - [CCTV location tracking](https://github.com/IvanGlinkin/CCTV)
+- [Rusia pub CCTV](https://www.geocam.ru/en/)
+- [lIVE CAM beach Australia](https://www.livebeaches.com/australia/)
+- [webcamcse cipher387](https://cipher387.github.io/webcamcse/)
 
 # IP Addresses
 
@@ -648,6 +655,7 @@ You can find the file hash or other threat indicator
 - [pulsedive](https://pulsedive.com/dashboard/)
 - [cuckoo](https://cuckoo.cert.ee/)
 - [polyswarm](https://polyswarm.io/)
+- [recordedfuture](https://www.recordedfuture.com/vulnerability-database)
 
 # Automation Dorking 
 
@@ -1251,6 +1259,8 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [Website informer](https://website.informer.com/)
 - [contactout](https://contactout.com/)
 - [opensecrets](https://www.opensecrets.org/)
+- [spyfu](https://www.spyfu.com/)
+- [google finance](https://www.google.com/finance/)
 
 # People Searching
 
@@ -1583,6 +1593,11 @@ or you can use dork for spesific example
 - [Downsub](https://downsub.com/)
 - [Savesubs](https://savesubs.com/)
 
+# Mastodon 
+
+- [Masto](https://github.com/C3n7ral051nt4g3ncy/Masto)
+- [imagstodon](https://seintpl.github.io/imagstodon/)
+
 # Twitter
 
 - [Twitter API](https://developer.x.com/en/docs/twitter-api/getting-started/about-twitter-api)
@@ -1652,6 +1667,7 @@ or you can use dork for spesific example
 - [exportcomments](https://exportcomments.com/)
 - [followeraudit](https://www.followeraudit.com/)
 - [knowlesys](https://knowlesys.com/index.html)
+- [stweet](https://github.com/markowanga/stweet)
 
 Twitter Search Engine 
 
@@ -1816,6 +1832,8 @@ Google queries for MySpace
 - [sn0int protonmail-pks](https://sn0int.com/r/kpcyrd/protonmail-pks)
 - [checkcybersecurity](https://checkcybersecurity.service.ncsc.gov.uk/email-security-check/form)
 - [Proton mail tracking](https://github.com/pixelbubble/ProtOSINT)
+- [Proton Protintelligence](https://github.com/C3n7ral051nt4g3ncy/Prot1ntelligence)
+- [Ghunt online Japanese Lang](https://gmail-osint.activetk.jp/)
 
 # PGP or GPG Keybase 
 
@@ -2091,6 +2109,8 @@ Search channel, username anymore
 - [graylark](https://graylark.io/)
 - [stylesuxx Steganography Online](https://stylesuxx.github.io/steganography/)
 - [earthkit](https://earthkit.app/)
+- [imageforensic](https://www.imageforensic.org/)
+- [watermarkremover](https://www.watermarkremover.io/)
 
 # Stock Images
 
@@ -2292,6 +2312,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [nominatim OSM](https://nominatim.openstreetmap.org/)
 - [Calculator IPVM](https://calculator.ipvm.com/)
 - [f4map](https://demo.f4map.com/)
+- [osmbuildings](https://osmbuildings.org/)
 - [geospy](https://geospy.ai/)
 - [unwiredlabs](https://unwiredlabs.com/products)
 - [copernix](https://copernix.io/)
@@ -2305,6 +2326,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [graylark](https://graylark.io/)
 - [earthkit](https://earthkit.app/)
 - [drivingdirectionsandmaps](https://www.drivingdirectionsandmaps.com/)
+- [virtualglobetrotting](https://virtualglobetrotting.com/)
 
 Conveter tool 
 
@@ -2333,6 +2355,7 @@ Geojson viewer
 - [hotels](https://id.hotels.com/)
 - [booking](https://www.booking.com/)
 - [yelp](https://www.yelp.com/)
+- [wikinearby](https://wikinearby.toolforge.org/)
 
 # Fact Checking
 
@@ -2574,6 +2597,7 @@ WhatsApp
 - [whatsanalyze](https://whatsanalyze.com/)
 - [chatvisualizer](https://chatvisualizer.com/)
 - [WaGpScraper](https://github.com/riz4d/WaGpScraper)
+- [realgrouplinks](https://realgrouplinks.com/)
 
 Telegram
 
@@ -2629,6 +2653,7 @@ Build your sockpuppet account and proctect your privacy
 - [fakeinfo](https://fakeinfo.net/)
 - [Online SMS](https://online-sms.org/)
 - [fakepersongenerator](https://www.fakepersongenerator.com/fake-name-generator)
+- [deepfakesweb](https://deepfakesweb.com/)
 
 Social Network and blogging
 
@@ -2697,6 +2722,7 @@ Social Network and blogging
 - [moscow RU](https://moscow.flamp.ru/)
 - [sun calc](https://www.suncalc.org/)
 - [earthkit](https://earthkit.app/satellite)
+- [gaisma sunrise, sunset arround world](https://www.gaisma.com/en/)
 
 # Discord Server Search  
 
@@ -2739,6 +2765,7 @@ Social Network and blogging
 - [darkweblinks](https://darkweblinks.io/)
 - [onion scan](https://onionscan.org/)
 - [hunch ly](https://www.hunch.ly/darkweb-osint/)
+- [DarkWeb Archive - Active Japan lang](https://darkweb-archive.activetk.jp/)
 
 # Darkweb Intelligence
 
@@ -3185,7 +3212,6 @@ VIN Checker
 
 - [flightradar24](https://www.flightradar24.com/)
 - [flightaware](https://www.flightaware.com/)
-- [planefinder](https://planefinder.net/)
 - [radarbox](https://www.radarbox.com/)
 - [adsbexchange](https://globe.adsbexchange.com/)
 - [Planefinder](https://planefinder.net/)
@@ -3203,6 +3229,9 @@ VIN Checker
 - [adsb im](https://www.adsb.im/home)
 - [flightsafety](https://asn.flightsafety.org/)
 - [airfleets](https://www.airfleets.net/home/)
+- [skyvector](https://skyvector.com/)
+- [flightconnections](https://www.flightconnections.com/)
+- [flight status check current flight](https://flight-status.com/)
 
 # Ship Tracking
 
@@ -3217,6 +3246,8 @@ VIN Checker
 - [seasearcher](https://www.seasearcher.com/)
 - [shipfinder](https://shipfinder.co/)
 - [shiplocation](https://www.shiplocation.com/)
+- [CMA CGM vesel finder](https://www.cma-cgm.com/ebusiness/schedules/voyage)
+- [marinevesseltraffic](https://www.marinevesseltraffic.com/2013/02/military-ship-track.html)
 
 # Railways
 
@@ -3522,6 +3553,7 @@ Hacking Playground
 - [soundeffectssearch](https://www.soundeffectssearch.com/advanced-search/)
 - [vocalremover](https://vocalremover.org/)
 - [audacityteam](https://www.audacityteam.org/)
+- [vocalremover](https://vocalremover.org/)
 
 Audio enchange quality  
 
@@ -3543,11 +3575,13 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [unwiredlabs](https://unwiredlabs.com/products)
 - [bgp](https://bgp.tools/)
 - [greynoise](https://viz.greynoise.io/)
+- [bgpview](https://bgpview.io/)
 
 # Medical OSINT 
 
 - [WHO](https://www.who.int/)
 - [PUB MED](https://pubmed.ncbi.nlm.nih.gov/)
+- [worldwidescience](https://worldwidescience.org/index.html)
 
 # OSINT Military
 
@@ -3608,6 +3642,8 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [armscontrol](https://www.armscontrol.org/)
 - [sipri](https://www.sipri.org/databases)
 - [Online Identification of Explosive Ordnance: Resources](https://docs.google.com/spreadsheets/d/19xNmsQpcz7UwHOPy1Zrwud-2jVdctulT5W3_0fUNn8k/edit?gid=0#gid=0)
+- [skyvector](https://skyvector.com/)
+- [US Millitary Base](https://worldbeyondwar.org/no-bases/)
 
 # OSINT Shadow Analysis 
 
@@ -3625,7 +3661,8 @@ Analysis for IMINT and find the geolocation, azimuth and etc
 - [Dcode Azimuth Calc](https://www.dcode.fr/azimuth)
 - [carbidedepot Trigonometry Calculator](https://www.carbidedepot.com/formulas-trigright.asp)
 - [shadowmap](https://app.shadowmap.org/)
-  
+- [gaisma sunrise, sunset arround world](https://www.gaisma.com/en/)
+
 # Academic Search Tools
 
 - [Base Search](https://www.base-search.net/)
@@ -3633,6 +3670,7 @@ Analysis for IMINT and find the geolocation, azimuth and etc
 - [msearch](https://msearch.io/)
 - [Google scholar](https://scholar.google.com/)
 - [Jstor](https://www.jstor.org/)
+- [worldwidescience](https://worldwidescience.org/index.html)
 
 Academic Literature
 
@@ -3894,6 +3932,7 @@ Terrorism & Radical
 - [dataspace](https://browser.dataspace.copernicus.eu/)
 - [imagehunter](https://imagehunter.apollomapping.com/)
 - [earthkit](https://earthkit.app/satellite)
+- [arcgis](https://www.arcgis.com/apps/View/index.html)
 
 # OSINT for Scraping and Data Collection
 
@@ -3935,6 +3974,7 @@ You can use for study academic literature, search book, people name, old archive
 - [geheugen delpher](https://geheugen.delpher.nl/nl)
 - [Old maps online](https://www.oldmapsonline.org/en/)
 - [Delpher](https://www.delpher.nl/)
+- [pastvu](https://pastvu.com/)
 
 # OSINT Art Collection
 
@@ -3986,10 +4026,11 @@ Search Expert or Journalist
 - [scanner deepfake](https://scanner.deepware.ai/)
 - [aiornot](https://www.aiornot.com/)
 - [sensity.ai](https://sensity.ai/)
+- [AmIReal](https://seintpl.github.io/AmIReal/)
 
 # OSINT Similarity (Plagiarism)
 
-Check the similarity & plagiarism of the content and web apps 
+Check the similarity or plagiarism of the content and web apps 
 
 Text Analyzer 
 
@@ -4002,6 +4043,10 @@ Text Analyzer
 - [hivemoderation](https://hivemoderation.com/ai-generated-content-detection)
 - [humata](https://www.humata.ai/)
 - [kipper](https://www.kipper.ai/)
+- [sintelix](https://sintelix.com/)
+- [ntlk](https://www.nltk.org/)
+- [voyant](https://voyant-tools.org/)
+- [brandmentions](https://brandmentions.com/)
 
 Audio Analyzer 
 
@@ -4023,6 +4068,8 @@ Website
 - [pr-cy.io](https://pr-cy.io/tools/similar-websites/)
 - [Clone UI Design](https://clone-ui.design/)
 - [Website informer](https://website.informer.com/)
+- [vstat](https://vstat.info/)
+- [siteslike](https://www.siteslike.com/)
 
 Company 
 
@@ -4030,6 +4077,7 @@ Company
 - [tracxn](https://tracxn.com/?redirect=false)
 - [similarweb](https://www.similarweb.com/website/)
 - [Website informer](https://website.informer.com/)
+- [vstat](https://vstat.info/)
 
 # Secure Code & Application 
 
@@ -4098,6 +4146,7 @@ Analyzing your image, vidio, building, maps, simulation and other things
 - [suncalc](https://www.suncalc.org/)
 - [suncalc 2](http://suncalc.net/)
 - [mooncalc](https://www.mooncalc.org/)
+- [Google maps measurement](https://zhenyanghua.github.io/MeasureTool-GoogleMaps-V3/)
 
 # OSINT Technique Tips 
 
