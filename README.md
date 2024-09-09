@@ -1533,6 +1533,10 @@ or you can use dork for spesific example
 
 - [sn0int keybase](https://sn0int.com/r/kpcyrd/keybase)
 
+# VK 
+
+- [SocNet Dynamic Image Search](https://github.com/DataSalo/SocNet_Dynamic_Image_Search)
+
 # Instagram
 
 - [Hashtagify](http://hashtagify.me)
@@ -1557,6 +1561,9 @@ or you can use dork for spesific example
 - [exportcomments](https://exportcomments.com/)
 - [Blastup - Insta Downloader](https://blastup.com/instagram-downloader)
 - [Insta Stories View](https://storiesdown.com/)
+- [Instagram Auditor](https://socialauditor.io/)
+- [Instagram Auditor 2](https://hypeauditor.com/free-tools/instagram-audit/?username=indozone.id)
+- [upfluence](https://www.upfluence.com/instagram-audit-tool)
 
 # Microsoft OneDrive 
 
@@ -1669,6 +1676,7 @@ or you can use dork for spesific example
 - [followeraudit](https://www.followeraudit.com/)
 - [knowlesys](https://knowlesys.com/index.html)
 - [stweet](https://github.com/markowanga/stweet)
+- [tweepy](https://www.tweepy.org/)
 
 Twitter Search Engine 
 
