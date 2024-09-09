@@ -210,6 +210,7 @@ Site and forums OSINT community arround world
 - [osintteam](https://osintteam.blog/)
 - [KASE OSINT Scenario](https://kasescenarios.com/)
 - [Sophia Santos](https://gralhix.com/)
+- [goosint](https://goosint.com/)
 
 # General Search
 
@@ -3369,6 +3370,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [ezXSS](https://github.com/ssl/ezXSS) ezXSS is an easy way for penetration testers and bug bounty hunters to test (blind) Cross Site Scripting
 - [grayhatwarfare](https://grayhatwarfare.com/) Search AWS bucket 
 - [pivotnacci](https://github.com/blackarrowsec/pivotnacci) Pivot into the internal network by deploying HTTP agents
+- [vulnshot](https://vulnshot.com/) Vulnerability Management From Nuclei CLI and tools for pentesting
 
 Social Engineering
 
