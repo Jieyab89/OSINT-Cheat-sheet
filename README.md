@@ -2336,6 +2336,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [earthkit](https://earthkit.app/)
 - [drivingdirectionsandmaps](https://www.drivingdirectionsandmaps.com/)
 - [virtualglobetrotting](https://virtualglobetrotting.com/)
+- [Population Count](https://landscan.ornl.gov/)
 
 Conveter tool 
 
@@ -2366,6 +2367,7 @@ Geojson viewer
 - [peakvisor](https://peakvisor.com/)
 - [Blender 3D maker](https://www.blender.org/)
 - [3D Maker by OSM](https://osmbuildings.org/documentation/leaflet/)
+- [Microsoft GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
 
 # Nearby Map From Geospatial
 
@@ -3671,6 +3673,9 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [Online Identification of Explosive Ordnance: Resources](https://docs.google.com/spreadsheets/d/19xNmsQpcz7UwHOPy1Zrwud-2jVdctulT5W3_0fUNn8k/edit?gid=0#gid=0)
 - [skyvector](https://skyvector.com/)
 - [US Millitary Base](https://worldbeyondwar.org/no-bases/)
+- [Microsoft GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
+- [Conflict Gaza damage](https://ee-ollielballinger.projects.earthengine.app/view/gazadamage)
+- [Conflict Ukraine damage](https://oballinger.github.io/PWTT/#ukraine-damage-assessment)
 
 # OSINT Shadow Analysis 
 
@@ -3961,6 +3966,7 @@ Terrorism & Radical
 - [imagehunter](https://imagehunter.apollomapping.com/)
 - [earthkit](https://earthkit.app/satellite)
 - [arcgis](https://www.arcgis.com/apps/View/index.html)
+- [Microsoft GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
 
 # OSINT for Scraping and Data Collection
 
