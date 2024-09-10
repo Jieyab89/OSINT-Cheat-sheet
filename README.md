@@ -2364,6 +2364,8 @@ Geojson viewer
 - [maptiler](https://www.maptiler.com/maps/)
 - [3D mapper](https://3d-mapper.com/)
 - [peakvisor](https://peakvisor.com/)
+- [Blender 3D maker](https://www.blender.org/)
+- [3D Maker by OSM](https://osmbuildings.org/documentation/leaflet/)
 
 # Nearby Map From Geospatial
 
