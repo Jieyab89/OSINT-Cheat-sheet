@@ -2336,7 +2336,6 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [earthkit](https://earthkit.app/)
 - [drivingdirectionsandmaps](https://www.drivingdirectionsandmaps.com/)
 - [virtualglobetrotting](https://virtualglobetrotting.com/)
-- [Population Count](https://landscan.ornl.gov/)
 
 Conveter tool 
 
@@ -2350,24 +2349,6 @@ Geojson viewer
 - [geojson](https://geojson.io/#map=5.37/-4.098/137.614)
 - [geojson](https://geojson.tools/)
 - [mapshaper](https://mapshaper.org/)
-
-3D Map & Building 
-
-- [G maps](https://maps.google.com/maps)
-- [G earth](https://earth.google.com/web)
-- [F4maps](https://demo.f4map.com/)
-- [arcgis](https://www.arcgis.com/home/webscene/viewer.html?layers=ca0470dbbddb4db28bad74ed39949e25)
-- [hub arcgis](https://hub.arcgis.com/maps/ca0470dbbddb4db28bad74ed39949e25/about)
-- [onegeo](https://onegeo.co/data/)
-- [osmbuildings](https://osmbuildings.org/?lat=31.54568&lon=34.45578&zoom=16.8&tilt=30)
-- [mapbox](https://www.mapbox.com/)
-- [maptoolkit](https://www.maptoolkit.com/)
-- [maptiler](https://www.maptiler.com/maps/)
-- [3D mapper](https://3d-mapper.com/)
-- [peakvisor](https://peakvisor.com/)
-- [Blender 3D maker](https://www.blender.org/)
-- [3D Maker by OSM](https://osmbuildings.org/documentation/leaflet/)
-- [Microsoft GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
 
 # Nearby Map From Geospatial
 
@@ -3260,6 +3241,10 @@ VIN Checker
 - [skyvector](https://skyvector.com/)
 - [flightconnections](https://www.flightconnections.com/)
 - [flight status check current flight](https://flight-status.com/)
+- [jetphotos](https://www.jetphotos.com/)
+- [raf](https://www.raf.mod.uk/)
+- [skytrack](https://github.com/ANG13T/skytrack)
+- [dictatoralert](https://dictatoralert.org/)
 
 # Ship Tracking
 
@@ -3673,9 +3658,6 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [Online Identification of Explosive Ordnance: Resources](https://docs.google.com/spreadsheets/d/19xNmsQpcz7UwHOPy1Zrwud-2jVdctulT5W3_0fUNn8k/edit?gid=0#gid=0)
 - [skyvector](https://skyvector.com/)
 - [US Millitary Base](https://worldbeyondwar.org/no-bases/)
-- [Microsoft GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
-- [Conflict Gaza damage](https://ee-ollielballinger.projects.earthengine.app/view/gazadamage)
-- [Conflict Ukraine damage](https://oballinger.github.io/PWTT/#ukraine-damage-assessment)
 
 # OSINT Shadow Analysis 
 
@@ -3966,7 +3948,6 @@ Terrorism & Radical
 - [imagehunter](https://imagehunter.apollomapping.com/)
 - [earthkit](https://earthkit.app/satellite)
 - [arcgis](https://www.arcgis.com/apps/View/index.html)
-- [Microsoft GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
 
 # OSINT for Scraping and Data Collection
 
