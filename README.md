@@ -307,6 +307,23 @@ Site and forums OSINT community arround world
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
 - [socialscan](https://pypi.org/project/socialscan/)
 
+# Hastag & Keyword Analysis 
+
+Hastag and keyword analysis in search engine, social media or other platform 
+
+- [brandmentions](https://app.brandmentions.com/)
+- [wordtracker](https://www.wordtracker.com/)
+- [keywordtool](https://keywordtool.io/)
+- [tweetbinder](https://www.tweetbinder.com/)
+- [onemilliontweetmap](https://onemilliontweetmap.com/)
+- [trackmyhashtag](https://www.trackmyhashtag.com/)
+- [Tweet Deck](https://pro.twitter.com/)
+- [droneemprit](https://pers.droneemprit.id/)
+- [Google Trends](https://trends.google.com/trends/)
+- [Google keyword planner](https://ads.google.com/intl/en_id/home/tools/keyword-planner/)
+- [keyworddiscovery](https://www.keyworddiscovery.com/)
+- [Yandex Trends](https://wordstat.yandex.com/)
+
 # Web Intelligence
 
 - [Better Whois](http://www.betterwhois.com)
@@ -3248,6 +3265,7 @@ VIN Checker
 - [raf](https://www.raf.mod.uk/)
 - [skytrack](https://github.com/ANG13T/skytrack)
 - [dictatoralert](https://dictatoralert.org/)
+- [airspace](https://www.airspace-review.com/)
 
 # Ship Tracking
 
@@ -3661,6 +3679,8 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [Online Identification of Explosive Ordnance: Resources](https://docs.google.com/spreadsheets/d/19xNmsQpcz7UwHOPy1Zrwud-2jVdctulT5W3_0fUNn8k/edit?gid=0#gid=0)
 - [skyvector](https://skyvector.com/)
 - [US Millitary Base](https://worldbeyondwar.org/no-bases/)
+- [airspace](https://www.airspace-review.com/)
+- [worldview NASA](https://worldview.earthdata.nasa.gov/)
 
 # OSINT Shadow Analysis 
 
@@ -3858,13 +3878,6 @@ Social Media Analytics
 - Quora
 - Linkedin
 - Reddit 
-
-# OSINT Keyword 
-
-- [Google Trends](https://trends.google.com/trends/)
-- [keyworddiscovery](https://www.keyworddiscovery.com/)
-- [Yandex Trends](https://wordstat.yandex.com/)
-- [Wordtracker](https://www.wordtracker.com/)
 
 # Threat Actor & Criminal 
 
