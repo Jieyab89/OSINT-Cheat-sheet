@@ -1404,6 +1404,10 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [SMS PING APK](https://f-droid.org/id/packages/com.itds.sms.ping/)
 - [Ghunt online tools](https://app.osint.industries/)
 - [numpi](https://numpi.com/)
+- [Phunter](https://github.com/N0rz3/Phunter)
+- [numlookup](https://www.numlookup.com/)
+- [haveibeenzuckered](https://haveibeenzuckered.com/)
+- [DetectDee](https://github.com/piaolin/DetectDee)
 
 Pro Tips
 
@@ -2966,6 +2970,8 @@ Password Manager
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
 - [scamsearch global scam database](https://scamsearch.io/)
+- [getcontact](https://getcontact.com/en/)
+- [SEON](https://seon.io/)
 
 # Content Removal & Strict Media Content
 
