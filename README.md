@@ -2362,6 +2362,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [earthkit](https://earthkit.app/)
 - [drivingdirectionsandmaps](https://www.drivingdirectionsandmaps.com/)
 - [virtualglobetrotting](https://virtualglobetrotting.com/)
+- [Population Count](https://landscan.ornl.gov/)
 
 Conveter tool 
 
@@ -2375,6 +2376,24 @@ Geojson viewer
 - [geojson](https://geojson.io/#map=5.37/-4.098/137.614)
 - [geojson](https://geojson.tools/)
 - [mapshaper](https://mapshaper.org/)
+
+3D Map & Building 
+
+- [G maps](https://maps.google.com/maps)
+- [G earth](https://earth.google.com/web)
+- [F4maps](https://demo.f4map.com/)
+- [arcgis](https://www.arcgis.com/home/webscene/viewer.html?layers=ca0470dbbddb4db28bad74ed39949e25)
+- [hub arcgis](https://hub.arcgis.com/maps/ca0470dbbddb4db28bad74ed39949e25/about)
+- [onegeo](https://onegeo.co/data/)
+- [osmbuildings](https://osmbuildings.org/?lat=31.54568&lon=34.45578&zoom=16.8&tilt=30)
+- [mapbox](https://www.mapbox.com/)
+- [maptoolkit](https://www.maptoolkit.com/)
+- [maptiler](https://www.maptiler.com/maps/)
+- [3D mapper](https://3d-mapper.com/)
+- [peakvisor](https://peakvisor.com/)
+- [Blender 3D maker](https://www.blender.org/)
+- [3D Maker by OSM](https://osmbuildings.org/documentation/leaflet/)
+- [Microsoft GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
 
 # Nearby Map From Geospatial
 
@@ -3695,6 +3714,9 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [airspace](https://www.airspace-review.com/)
 - [worldview NASA](https://worldview.earthdata.nasa.gov/)
 - [Ukraine Cyber Operation](https://github.com/curated-intel/Ukraine-Cyber-Operations)
+- [Microsoft GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
+- [Conflict Gaza damage](https://ee-ollielballinger.projects.earthengine.app/view/gazadamage)
+- [Conflict Ukraine damage](https://oballinger.github.io/PWTT/#ukraine-damage-assessment)
 
 # OSINT Shadow Analysis 
 
@@ -3983,6 +4005,7 @@ Terrorism & Radical
 - [arcgis](https://www.arcgis.com/apps/View/index.html)
 - [evdc ESA Orbit](https://evdc.esa.int/orbit/)
 - [skytruth](https://cerulean.skytruth.org/)
+- [Microsoft GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
 
 *Aditional Information coverage sat 
 
@@ -4010,9 +4033,9 @@ Terrorism & Radical
 - [selenium](https://www.selenium.dev/) Web automation & site crawler 
 - [BeautifulSoup](https://BeautifulSoup.org/) Open source and collaborative framework for extracting the data you need from websites.
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) Python library for pulling data out of HTML and XML files
-- [scrapehero](https://www.scrapehero.com/marketplace/)
-- [Google maps review scrapper](https://github.com/omkarcloud/google-maps-reviews-scraper)
-- [Omkar](https://www.omkar.cloud/tools/)
+- [scrapehero](https://www.scrapehero.com/marketplace/) Web scarapper vendor 
+- [Google maps review scrapper](https://github.com/omkarcloud/google-maps-reviews-scraper) Google maps review scrapper 
+- [Omkar](https://www.omkar.cloud/tools/) List site for scrapper 
 
 # OSINT IRC Chat
 
@@ -4199,7 +4222,7 @@ This is for you searching software alternative
 
 # OSINT Measurement
 
-Analyzing your image, vidio, building, maps, simulation and other things 
+Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or sensor and other things 
 
 - [smappen](https://www.smappen.com/app/)
 - [Google earth](https://earth.google.com/)
