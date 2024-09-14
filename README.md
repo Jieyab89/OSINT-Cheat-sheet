@@ -2410,6 +2410,7 @@ Geojson viewer
 - [booking](https://www.booking.com/)
 - [yelp](https://www.yelp.com/)
 - [wikinearby](https://wikinearby.toolforge.org/)
+- [Wikimapia](http://wikimapia.org)
 
 # Fact Checking
 
