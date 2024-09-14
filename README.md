@@ -3986,15 +3986,15 @@ Terrorism & Radical
 
 *Aditional Information coverage sat 
 
-| Satelit                 | Resolusi | Frekuensi Overpass |
+| Satellite                 | Resolution | Overpass Frequency |
 |-------------------------|----------|-------------------|
-| Planet Satellite        | 3 M      | Harian            |
-| Sentinel-2 Satellite    | 10 M     | Setiap 5 hari     |
-| Landsat 8/9 Satellite   | 30 M     | Setiap 16 hari    |
-| Sentinel-3 Satellite    | 300 M    | Harian            |
-| MODIS Satellite         | 250-1000 M| Harian            |
+| Planet Satellite        | 3 M      | Daily            |
+| Sentinel-2 Satellite    | 10 M     | Every 5 days     |
+| Landsat 8/9 Satellite   | 30 M     | Every 16 days    |
+| Sentinel-3 Satellite    | 300 M    | Daily            |
+| MODIS Satellite         | 250-1000 M| Daily            |
 
-*Source by: Bellingcat*
+*Source: Bellingcat*
 
 # OSINT for Scraping and Data Collection
 
