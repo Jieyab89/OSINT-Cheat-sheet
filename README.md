@@ -2666,6 +2666,7 @@ Build your sockpuppet account and proctect your privacy
 - [Hushed](https://hushed.com/)
 - [Temp Phone Number](https://temporary-phone-number.com/)
 - [Temp Phone Number and SMS activate](https://sms-activate.org/en)
+- [Temp Phone Number SMS Receive](https://temp-number.org/)
 - [Temp Mail 1](https://mail.tm/en/)
 - [Temp Mail 2](https://temp-mail.org/en/)
 - [Temp Mail 3](https://tempmailo.com/)
