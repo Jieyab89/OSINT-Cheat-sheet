@@ -50,6 +50,8 @@
 - [conference hitbsecconf](https://archive.conference.hitb.org/hitbsecconf2011ams/materials/D2T2%20-%20Jim%20Geovedi%20and%20Raoul%20Chiesa%20-%20Hacking%20a%20Bird%20in%20the%20Sky.pdf)
 - [Wikipedia](https://en.wikipedia.org/wiki/Reconnaissance_satellite)
 - [allsourceanalysis](https://allsourceanalysis.com/tag/open-source-intelligence-osint/)
+- [Learn Sat Sensor](https://bellingcat.github.io/RS4OSINT/A2_Remote_Sensing.html)
+- [NOOA oil identitification tutorial](https://response.restoration.noaa.gov/sites/default/files/OWJA_2016.pdf)
 
 # Signal Intelligence
 
