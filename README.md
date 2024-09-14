@@ -701,7 +701,7 @@ You can find the file hash or other threat indicator
 - [Advanced Search](https://github.com/search/advanced)
 - [GitDorker](https://github.com/obheda12/GitDorker)
 - [gitdorks_go](https://github.com/damit5/gitdorks_go)
-- [Github API (view owner repo and etc)](https://docs.github.com/en/rest/activity/events?apiVersion=2022-11-28)
+- [Github API (view owner repo and event etc)](https://docs.github.com/en/rest/activity/events?apiVersion=2022-11-28)
 - [Github advisories DB](https://github.com/advisories)
 
 # Dorking
@@ -1283,6 +1283,7 @@ for ((i=1;i<=10;i++));do curl -i -s -k -L -X GET -H "User-Agent: Mozilla/5.0 (Wi
 - [opensecrets](https://www.opensecrets.org/)
 - [spyfu](https://www.spyfu.com/)
 - [google finance](https://www.google.com/finance/)
+- [siteworthtraffic](https://www.siteworthtraffic.com/)
 
 # People Searching
 
@@ -1869,6 +1870,8 @@ Google queries for MySpace
 - [Proton Protintelligence](https://github.com/C3n7ral051nt4g3ncy/Prot1ntelligence)
 - [Ghunt online Japanese Lang](https://gmail-osint.activetk.jp/)
 - [OSINT rocks](https://osint.rocks/)
+- [email-permutator perform possible email addresses](http://metricsparrow.com/toolkit/email-permutator/)
+- [salesblink email-permutator perform possible email addresses](https://salesblink.io/email-permutator)
 
 # PGP or GPG Keybase 
 
@@ -2363,6 +2366,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [drivingdirectionsandmaps](https://www.drivingdirectionsandmaps.com/)
 - [virtualglobetrotting](https://virtualglobetrotting.com/)
 - [Population Count](https://landscan.ornl.gov/)
+- [grid Area mapping](https://grid.bellingcat.com/)
 
 Conveter tool 
 
@@ -3437,6 +3441,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [grayhatwarfare](https://grayhatwarfare.com/) Search AWS bucket 
 - [pivotnacci](https://github.com/blackarrowsec/pivotnacci) Pivot into the internal network by deploying HTTP agents
 - [vulnshot](https://vulnshot.com/) Vulnerability Management From Nuclei CLI and tools for pentesting
+- [Fierpa Lambda](https://github.com/firerpa/lamda) Android reverse engineering & automation framework
 
 Social Engineering
 
@@ -3718,6 +3723,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [Microsoft GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
 - [Conflict Gaza damage](https://ee-ollielballinger.projects.earthengine.app/view/gazadamage)
 - [Conflict Ukraine damage](https://oballinger.github.io/PWTT/#ukraine-damage-assessment)
+- [Ukriane Bellingcat Map](https://ukraine.bellingcat.com/)
 
 # OSINT Shadow Analysis 
 
