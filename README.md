@@ -3984,34 +3984,17 @@ Terrorism & Radical
 - [evdc ESA Orbit](https://evdc.esa.int/orbit/)
 - [skytruth](https://cerulean.skytruth.org/)
 
-*Aditional Information 
+*Aditional Information coverage sat 
 
-- Planet Satellite 
+| Satelit                 | Resolusi | Frekuensi Overpass |
+|-------------------------|----------|-------------------|
+| Planet Satellite        | 3 M      | Harian            |
+| Sentinel-2 Satellite    | 10 M     | Setiap 5 hari     |
+| Landsat 8/9 Satellite   | 30 M     | Setiap 16 hari    |
+| Sentinel-3 Satellite    | 300 M    | Harian            |
+| MODIS Satellite         | 250-1000 M| Harian            |
 
-Resolution : 3 M  
-Overpass : Daily 
-
-- Sentinel-2 Satellite
-
-Resolution : 10 M  
-Overpass : Every 5 days 
-
-- Landsaat 8/9 Satellite
-
-Resolution : 30 M  
-Overpass : Every 16 days 
-
-- Sentinel-3 Satellite
-
-Resolution : 300 M  
-Overpass : Daily
-
-- MODIS Satellite 
-
-Resolution : 250-1000 M  
-Overpass : Daily
-
-Source by : Bellingcat 
+*Source by: Bellingcat*
 
 # OSINT for Scraping and Data Collection
 
