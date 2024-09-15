@@ -307,6 +307,7 @@ Site and forums OSINT community arround world
 - [sociallinks](https://sociallinks.io/)
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
 - [socialscan](https://pypi.org/project/socialscan/)
+- [socialcatfish](https://socialcatfish.com/)
 
 # Hastag & Keyword Analysis 
 
@@ -324,6 +325,8 @@ Hastag and keyword analysis in search engine, social media or other platform
 - [Google keyword planner](https://ads.google.com/intl/en_id/home/tools/keyword-planner/)
 - [keyworddiscovery](https://www.keyworddiscovery.com/)
 - [Yandex Trends](https://wordstat.yandex.com/)
+- [orangedatamining](https://orangedatamining.com/)
+- [twtdata](https://www.twtdata.com/)
 
 # Web Intelligence
 
@@ -1590,6 +1593,8 @@ or you can use dork for spesific example
 - [Instagram Auditor](https://socialauditor.io/)
 - [Instagram Auditor 2](https://hypeauditor.com/free-tools/instagram-audit/?username=indozone.id)
 - [upfluence](https://www.upfluence.com/instagram-audit-tool)
+- [toolzu](https://toolzu.com/)
+- [pathsocial](https://www.pathsocial.com/id/)
 
 # Microsoft OneDrive 
 
@@ -1703,6 +1708,7 @@ or you can use dork for spesific example
 - [knowlesys](https://knowlesys.com/index.html)
 - [stweet](https://github.com/markowanga/stweet)
 - [tweepy](https://www.tweepy.org/)
+- [twtdata](https://www.twtdata.com/)
 
 Twitter Search Engine 
 
