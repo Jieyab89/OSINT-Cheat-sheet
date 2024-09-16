@@ -3306,7 +3306,7 @@ VIN Checker
 - [dictatoralert](https://dictatoralert.org/)
 - [airspace](https://www.airspace-review.com/)
 
-# Ship Tracking
+# Ship Tracking & Maritim
 
 - [shiptracker](https://shiptracker.live/)
 - [marinetraffic](https://www.marinetraffic.com/)
@@ -3321,6 +3321,7 @@ VIN Checker
 - [shiplocation](https://www.shiplocation.com/)
 - [CMA CGM vesel finder](https://www.cma-cgm.com/ebusiness/schedules/voyage)
 - [marinevesseltraffic](https://www.marinevesseltraffic.com/2013/02/military-ship-track.html)
+- [globalmaritimetraffic](https://www.globalmaritimetraffic.org/gmtds.html)
 
 NOOA Incident MAP 
 
@@ -4049,6 +4050,8 @@ Terrorism & Radical
 - [scrapehero](https://www.scrapehero.com/marketplace/) Web scarapper vendor 
 - [Google maps review scrapper](https://github.com/omkarcloud/google-maps-reviews-scraper) Google maps review scrapper 
 - [Omkar](https://www.omkar.cloud/tools/) List site for scrapper 
+- [torpy](https://github.com/torpyorg/torpy) Python Tor client implementation of the Tor protocol. Torpy can be used to communicate with clearnet hosts or hidden services through the Tor Network
+- [DARC](https://github.com/JarryShaw/darc) Darkweb Crawler Project
 
 # OSINT IRC Chat
 
