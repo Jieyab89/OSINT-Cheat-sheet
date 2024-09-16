@@ -182,6 +182,7 @@ Be carefull using this tool
 - [statista](https://www.statista.com/)
 - [World Bank Open Data](https://data.worldbank.org/)
 - [iceye sat dataset](https://www.iceye.com/resources/datasets)
+- [gigasheet](https://app.gigasheet.com/datasets)
 
 # Forums & Sites
 
@@ -3867,7 +3868,6 @@ Resources and collection for your make tool OSINT
 
 Search News Journalist and Documentary Sites 
 
-- [Glanlaw](https://www.glanlaw.org/)
 - [paxforpeace](https://paxforpeace.nl/)
 - [Bellingcat](https://bellingcat.com)
 - [The Guardians](https://www.theguardian.com/international)
