@@ -183,6 +183,8 @@ Be carefull using this tool
 - [World Bank Open Data](https://data.worldbank.org/)
 - [iceye sat dataset](https://www.iceye.com/resources/datasets)
 - [gigasheet](https://app.gigasheet.com/datasets)
+- [techforpalestine](https://data.techforpalestine.org/)
+- [genocide](https://genocide.club/)
 
 # Forums & Sites
 
@@ -2226,6 +2228,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 
 # Geospatial Research and Mapping Tools
 
+- [Apple Maps](https://beta.maps.apple.com/)
 - [Atlasify](http://www.atlasify.com)
 - [Batchgeo](http://batchgeo.com)
 - [Bing Maps](http://www.bing.com/maps)
