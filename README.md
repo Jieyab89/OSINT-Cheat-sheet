@@ -3756,11 +3756,12 @@ You can use for study academic literature, search book, people name, old archive
 - [archives](https://www.archives.gov/)
 - [Arsip Indonesia](https://arsip-indonesia.org/id/)
 - [Worldcat](https://search.worldcat.org/)
-- [MPN SIDAK kominfo](https://mpn.kominfo.go.id/arsip/)
+- [MPN SIDAK Kominfo](https://mpn.kominfo.go.id/arsip/)
 - [geheugen delpher](https://geheugen.delpher.nl/nl)
 - [Old maps online](https://www.oldmapsonline.org/en/)
 - [Delpher](https://www.delpher.nl/)
 - [pastvu](https://pastvu.com/)
+- [Web Archive](https://web.archive.org/)
 
 # OSINT Art Collection
 
