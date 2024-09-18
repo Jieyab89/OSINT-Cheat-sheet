@@ -147,6 +147,7 @@ Be carefull using this tool
 - [SNSSCRAPE](https://github.com/JustAnotherArchivist/snscrape)
 - [dreddown - social media downloader](https://www.dredown.com/)
 - [knowlesys](https://knowlesys.com/index.html)
+- [TOOKIE OSINT](https://github.com/Alfredredbird/tookie-osint)
 
 # Collection Dataset
 
@@ -413,6 +414,14 @@ Hastag and keyword analysis in search engine, social media or other platform
 - [FavFreak](https://github.com/devanshbatham/FavFreak)
 - [LeakIX](https://leakix.net)
 - [vstat](https://vstat.info/)
+
+*Tips web cache 
+
+Use this if google cache was gone 
+
+```
+https[:]//www[.]google[.]com/search?q=cache:<url of interest>
+```
 
 # Analysing URLs
 
@@ -1559,6 +1568,12 @@ Google queries for MySpace
 - [OSINT rocks](https://osint.rocks/)
 - [email-permutator perform possible email addresses](http://metricsparrow.com/toolkit/email-permutator/)
 - [salesblink email-permutator perform possible email addresses](https://salesblink.io/email-permutator)
+- [snov.io](https://snov.io/email-finder)
+- [experte](https://www.experte.com/email-finder)
+- [Josue87 EmailFinder](https://github.com/Josue87/EmailFinder)
+- [infoga](https://www.infoga.io/)
+- [findemail](https://findemail.io/)
+- [minelead](https://minelead.io/)
 
 # PGP or GPG Keybase 
 
@@ -3553,6 +3568,7 @@ Resources and collection for your make tool OSINT
 
 Search News Journalist and Documentary Sites 
 
+- [ICW ID](https://antikorupsi.org/id)
 - [paxforpeace](https://paxforpeace.nl/)
 - [Bellingcat](https://bellingcat.com)
 - [The Guardians](https://www.theguardian.com/international)
