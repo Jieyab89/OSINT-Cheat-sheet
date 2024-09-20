@@ -414,6 +414,7 @@ Hastag and keyword analysis in search engine, social media or other platform
 - [FavFreak](https://github.com/devanshbatham/FavFreak)
 - [LeakIX](https://leakix.net)
 - [vstat](https://vstat.info/)
+- [Waymore](https://forum.seccodeid.com/d/waymore-find-way-more-from-the-wayback-machine)
 
 *Tips web cache 
 
@@ -2072,6 +2073,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Population Count](https://landscan.ornl.gov/)
 - [grid Area mapping](https://grid.bellingcat.com/)
 - [Maritim world lightphotos](https://www.lightphotos.net/photos/map_all.php)
+- [geohack](https://geohack.toolforge.org/)
 
 Conveter tool 
 
@@ -3317,6 +3319,12 @@ Hacking Playground
 - [hackthebox](https://www.hackthebox.com/)
 - [tryhackme](https://tryhackme.com/)
 
+Awesome Burpsuite Extension
+
+- [PWNFOX](https://addons.mozilla.org/id/firefox/addon/pwnfox/)
+- [HAE](https://github.com/xnl-h4ck3r/HandE-Burp-Extension)
+- [Jsminner](https://github.com/PortSwigger/js-miner)
+
 # Audio OSINT 
 
 - [Audio metadata](https://github.com/tmont/audio-metadata)
@@ -3569,6 +3577,10 @@ Resources and collection for your make tool OSINT
 Search News Journalist and Documentary Sites 
 
 - [ICW ID](https://antikorupsi.org/id)
+- [middleeasteye](https://www.middleeasteye.net/)
+- [cpj](https://cpj.org/)
+- [skynws](https://news.sky.com/)
+- [france24](https://www.france24.com/)
 - [paxforpeace](https://paxforpeace.nl/)
 - [Bellingcat](https://bellingcat.com)
 - [The Guardians](https://www.theguardian.com/international)
