@@ -3836,6 +3836,10 @@ Search Expert or Journalist
 
 - [expertisefinder](https://expertisefinder.com/)
 
+Guide Journalist 
+
+- [datajournalism](https://datajournalism.com/read)
+
 # OSINT Detect Deepfake 
 
 - [scanner deepfake](https://scanner.deepware.ai/)
