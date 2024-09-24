@@ -2119,6 +2119,7 @@ Geojson viewer
 - [3D Maker by OSM](https://osmbuildings.org/documentation/leaflet/)
 - [Microsoft GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
 - [Microsoft flightsimulator](https://www.flightsimulator.com/)
+- [wego here](https://wego.here.com/)
 
 # Nearby Map From Geospatial
 
@@ -4004,6 +4005,7 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 
 This is path for you learn OSINT
 
+- [Bellingcat Guides Tools and Handbook](https://bellingcat.gitbook.io/toolkit/resources/guides-and-handbooks)
 - [deepdarkCTI](https://github.com/fastfire/deepdarkCTI)
 - [osintcombine](https://www.osintcombine.com/post/dark-web-searching)
 - [overtoperator](https://www.overtoperator.com/s/daily-intel-brief)
