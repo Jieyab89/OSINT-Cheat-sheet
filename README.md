@@ -148,6 +148,7 @@ Be carefull using this tool
 - [dreddown - social media downloader](https://www.dredown.com/)
 - [knowlesys](https://knowlesys.com/index.html)
 - [TOOKIE OSINT](https://github.com/Alfredredbird/tookie-osint)
+- [Hoaxy](https://hoaxy.osome.iu.edu/)
 
 # Collection Dataset
 
@@ -216,6 +217,7 @@ Site and forums OSINT community arround world
 - [KASE OSINT Scenario](https://kasescenarios.com/)
 - [Sophia Santos](https://gralhix.com/)
 - [goosint](https://goosint.com/)
+- [Bellingcat Volunteer](https://sites.google.com/bellingcat.com/bellingcat-volunteer-community/projects-opportunities)
 
 # General Search
 
@@ -415,6 +417,7 @@ Hastag and keyword analysis in search engine, social media or other platform
 - [LeakIX](https://leakix.net)
 - [vstat](https://vstat.info/)
 - [Waymore](https://forum.seccodeid.com/d/waymore-find-way-more-from-the-wayback-machine)
+- [DMCA Lumen DB](https://lumendatabase.org/)
 
 *Tips web cache 
 
@@ -853,6 +856,7 @@ Example
 - [oathnet](https://oathnet.ru/)
 - [sn0int pwndb-domains](https://sn0int.com/r/kpcyrd/pwndb-domains)
 - [sn0int pwndb-emails](https://sn0int.com/r/kpcyrd/pwndb-emails)
+- [trufflehog](https://trufflesecurity.com/trufflehog)
 
 # Crack Jurnals
 
@@ -1022,6 +1026,7 @@ Example
 - [clearbit](https://clearbit.com/)
 - [idcrawl](https://www.idcrawl.com/)
 - [contactout](https://contactout.com/)
+- [personlookup](https://personlookup.co.za/)
 
 # Family People Search 
 
@@ -1138,6 +1143,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [User Searcher](https://www.user-searcher.com/)
 - [idcrawl](https://www.idcrawl.com/username)
 - [Ghunt online tools](https://app.osint.industries/)
+- [Bellingcat Name Finder](https://bellingcat.github.io/name-variant-search/#gsc.tab=0&gsc.q=%22alex%22&gsc.sort=)
 
 # Social Networks
 
@@ -1256,6 +1262,7 @@ or you can use dork for spesific example
 # VK 
 
 - [SocNet Dynamic Image Search](https://github.com/DataSalo/SocNet_Dynamic_Image_Search)
+- [Bellingcat VK scrapper](https://github.com/bellingcat/vk-url-scraper)
 
 # Instagram
 
@@ -1330,6 +1337,7 @@ or you can use dork for spesific example
 
 # Twitter
 
+- [Hoaxy](https://hoaxy.osome.iu.edu/)
 - [Twitter API](https://developer.x.com/en/docs/twitter-api/getting-started/about-twitter-api)
 - [search.twitter.com](https://twitter.com/search-home)
 - [twitter advanced](https://www.twitter.com/search-advanced)
@@ -1697,6 +1705,7 @@ Search channel, username anymore
 - [Telegram-Trilateration](https://github.com/jkctech/Telegram-Trilateration)
 - [TeleTracker by Tsale](https://github.com/tsale/TeleTracker)
 - [Teletehon](https://docs.telethon.dev/en/stable/basic/installation.html)
+- [Bellingcat Telegram Joiner](https://bellingcat.github.io/telegram-group-joiner/)
 
 # Document and Slides Search
 
@@ -1789,6 +1798,7 @@ Search channel, username anymore
 - [sogou](https://pic.sogou.com/)
 - [geospy](https://geospy.web.app/)
 - [alamy](https://www.alamy.com/)
+- [rootabout](https://rootabout.com/)
 
 # Image Analysis
 
@@ -1920,6 +1930,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [tvway](http://tvway.ru/)
 - [unscreen](https://www.unscreen.com/)
 - [shutterstock](https://www.shutterstock.com/royalty-free/reverse-image-search-for-video)
+- [invid-project](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)
 
 # Geospatial Research and Mapping Tools
 
@@ -2074,6 +2085,8 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [grid Area mapping](https://grid.bellingcat.com/)
 - [Maritim world lightphotos](https://www.lightphotos.net/photos/map_all.php)
 - [geohack](https://geohack.toolforge.org/)
+- [alltrails](https://www.alltrails.com/)
+- [openinframap](https://openinframap.org/#3.14/-1.06/107.47/O,P,W)
 
 Conveter tool 
 
@@ -2383,6 +2396,7 @@ Telegram
 - [Telegram-Trilateration](https://github.com/jkctech/Telegram-Trilateration)
 - [TeleTracker by Tsale](https://github.com/tsale/TeleTracker)
 - [Teletehon](https://docs.telethon.dev/en/stable/basic/installation.html)
+- [Bellingcat Telegram Joiner](https://bellingcat.github.io/telegram-group-joiner/)
 
 # Build Sockpuppet Accounts
 
@@ -2501,6 +2515,7 @@ Social Network and blogging
 - [Discord Leaks](https://discordleaks.unicornriot.ninja/discord/server/)
 - [Dutchosintguy Discord](https://github.com/Dutchosintguy/OSINT-Discord-resources)
 - [discordbee.com](https://discordbee.com/)
+- [Disboard](https://disboard.org/servers)
 
 # Darkweb Search Engines
 
@@ -2645,6 +2660,7 @@ Social Network and blogging
 - [Forensically](https://29a.ch/photo-forensics/)
 - [GCK'S FILE SIGNATURES TABLE](https://www.garykessler.net/library/file_sigs.html)
 - [stylesuxx Steganography Online](https://stylesuxx.github.io/steganography/)
+- [fdupes](https://github.com/adrianlopezroche/fdupes)
 
 *Pro Tips 
 
@@ -3007,6 +3023,7 @@ VIN Checker
 - [skytrack](https://github.com/ANG13T/skytrack)
 - [dictatoralert](https://dictatoralert.org/)
 - [airspace](https://www.airspace-review.com/)
+- [airframes](https://www.airframes.org/)
 
 # Ship Tracking & Maritim
 
@@ -3025,6 +3042,9 @@ VIN Checker
 - [marinevesseltraffic](https://www.marinevesseltraffic.com/2013/02/military-ship-track.html)
 - [globalmaritimetraffic](https://www.globalmaritimetraffic.org/gmtds.html)
 - [Maritim world lightphotos](https://www.lightphotos.net/photos/map_all.php)
+- [openseamap](https://map.openseamap.org/)
+- [equasis](https://www.equasis.org/EquasisWeb/public/HomePage)
+- [MARITIME AWARENESS PROJECT](https://map.nbr.org/interactivemap/)
 
 NOOA Incident MAP 
 
@@ -3440,6 +3460,10 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [Conflict Gaza damage](https://ee-ollielballinger.projects.earthengine.app/view/gazadamage)
 - [Conflict Ukraine damage](https://oballinger.github.io/PWTT/#ukraine-damage-assessment)
 - [Ukriane Bellingcat Map](https://ukraine.bellingcat.com/)
+- [bulletpicker](https://www.bulletpicker.com/celluloid.html)
+- [Open Source Munitions Portal](https://osmp.ngo/)
+- [Table of explosive detonation velocities](https://en.wikipedia.org/wiki/Table_of_explosive_detonation_velocities)
+- []()
 
 # OSINT Shadow Analysis 
 
@@ -3631,7 +3655,8 @@ Search News Journalist and Documentary Sites
 - [rollcall](https://rollcall.com/)
 - [reuters](https://www.reuters.com/)
 - [sipri](https://www.sipri.org/)
-               
+- [newspapermap provider arround world](https://newspapermap.com/)               
+
 Social Media Analytics
 
 - Facebook
@@ -3698,6 +3723,10 @@ Terrorism & Radical
 # OSINT Wildlife 
 
 - [SIKU](https://siku.org/project-management)
+- [globalforestwatch](https://www.globalforestwatch.org/map/)
+- [oxpeckers](https://oxpeckers.org/tools/)
+- [viirs skytruth](https://viirs.skytruth.org/apps/heatmap/flaringmap.html#lat=33.85472&lon=35.86229&zoom=8&offset=27)
+- [protectedplanet](https://www.protectedplanet.net/)
 
 # OSINT Satellite
 
@@ -3831,6 +3860,7 @@ You can use for study academic literature, search book, people name, old archive
 - [journalism](https://github.com/wbkd/awesome-interactive-journalism)
 - [gijn](https://gijn.org/)
 - [Journalist toolbox](https://www.journaliststoolbox.org/)
+- [Google Journalist Studio](https://journaliststudio.google.com/pinpoint/case-studies/)
 
 Search Expert or Journalist
 
@@ -3839,6 +3869,7 @@ Search Expert or Journalist
 Guide Journalist 
 
 - [datajournalism](https://datajournalism.com/read)
+- [Resources Journalism](https://gijn.org/resource/)
 
 # OSINT Detect Deepfake 
 
@@ -3846,6 +3877,7 @@ Guide Journalist
 - [aiornot](https://www.aiornot.com/)
 - [sensity.ai](https://sensity.ai/)
 - [AmIReal](https://seintpl.github.io/AmIReal/)
+- [invid-project](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)
 
 # OSINT Similarity (Plagiarism)
 
@@ -3878,6 +3910,7 @@ Image and Vidio Analyzer
 - [hivemoderation](https://hivemoderation.com/ai-generated-content-detection)
 - [shutterstock](https://www.shutterstock.com/search/like-video)
 - [Google Vidio Search](https://www.google.com/videohp?hl=id)
+- [invid-project](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)
 
 Website 
 
