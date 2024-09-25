@@ -59,3 +59,11 @@
 - [Melacak Posisi Berdasarkan LAC dan Cell ID pada Simcard No.Handphone](https://1sit.blog.amikom.me/2015/05/29/melacak-posisi-berdasarkan-lac-dan-cell-id-pada-simcard-no-handphone/)
 - [karionotelco](https://karionotelco.blogspot.com/p/blog-page_6191.html)
 - [Memperkenalkan LAC-CI](https://www.slideshare.net/riswan78/introducing-to-location-area-code-cell-id)
+
+# AI 
+
+- [dutchosintguy Using AI for extracting Usernames, Emails, Phone Numbers, and Personal Names from large datasets](https://www.dutchosintguy.com/post/using-ai-for-extracting-usernames-emails-phone-numbers-and-personal-names-from-large-datasets)
+
+# Guides 
+
+- [bellingcat](https://bellingcat.gitbook.io/toolkit/resources/guides-and-handbooks)
