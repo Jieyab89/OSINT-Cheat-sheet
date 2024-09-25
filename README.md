@@ -2,7 +2,7 @@
 
 [![Github Badge](https://img.shields.io/badge/-Jieyab89-black?style=flat&logo=github&logoColor=white&link=https://github.com/Jieyab89/)](https://github.com/Jieyab89)
 
-Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and others. There are free and paid tools you can use and owner is not responsible (take your own risks), only for knowledge or educational purposes. Apologies if some of the resources are no longer available or contain errors, as the owner does not regularly check the status of these resources, thank you.
+Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and others. There are free and paid tools you can use and owner is not responsible (take your own risks), only for knowledge or educational purposes. Apologies if some of the resources are no longer available or contain errors, as the owner does not regularly check the status of these resources, If there is new information, the owner will add it to this repo along with the category. If you want to read about techniques and intelligence some have already been added to the Wiki page [Jieyaboo Wiki](https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki) The owner will add them back. If there are any errors let us know thank you.
 
 # Tips & Trick Safe Guide Using Resources 
 
@@ -187,6 +187,7 @@ Be carefull using this tool
 - [gigasheet](https://app.gigasheet.com/datasets)
 - [techforpalestine](https://data.techforpalestine.org/)
 - [genocide](https://genocide.club/)
+- [data world](https://data.world/search?q=)
 
 # Forums & Sites
 
@@ -3017,7 +3018,7 @@ VIN Checker
 - [planespotters](https://www.planespotters.net/)
 - [globe plane](https://globe.adsbexchange.com/)
 - [theaviationist](https://theaviationist.com/)
-- [airrecognition](https://airrecognition.com/index.php)
+- [airrecognition](https://web.archive.org/web/20240000000000*/https://airrecognition.com/)
 - [gpsjam](https://gpsjam.org/)
 - [federal aviation administration](https://www.faa.gov/)
 - [adsb one](https://adsb.one/)
@@ -3451,7 +3452,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [planefinder](https://planefinder.net/)
 - [WEB SDR](http://websdr.ewi.utwente.nl:8901/)
 - [Bellingcat Radar](https://ollielballinger.users.earthengine.app/view/bellingcat-radar-interference-tracker)
-- [airrecognition](https://airrecognition.com/index.php)
+- [airrecognition](https://web.archive.org/web/20240000000000*/https://airrecognition.com/)
 - [gpsjam](https://gpsjam.org/)
 - [freemaptools](https://www.freemaptools.com/)
 - [earthobservatory NASA](https://earthobservatory.nasa.gov/global-maps)
