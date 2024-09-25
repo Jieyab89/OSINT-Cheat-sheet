@@ -714,6 +714,7 @@ You can find the file hash or other threat indicator
 - [cybdetective pastebin](https://cybdetective.com/pastebin.html)
 - [NAMINT](https://seintpl.github.io/NAMINT/)
 - [BullsEye0 dorks](https://github.com/BullsEye0/dorks-eye)
+- [dorkgpt](https://www.dorkgpt.com/)
 
 # Github Dork
 
@@ -1037,6 +1038,7 @@ Example
 - [genealogieonline](https://www.genealogieonline.nl/en/)
 - [geneanet](https://en.geneanet.org/)
 - [wiewaswie NL](https://www.wiewaswie.nl/)
+- [familytreenow](https://familytreenow.com/)
 
 # Phone Numbers
 
@@ -1293,6 +1295,7 @@ or you can use dork for spesific example
 - [upfluence](https://www.upfluence.com/instagram-audit-tool)
 - [toolzu](https://toolzu.com/)
 - [pathsocial](https://www.pathsocial.com/id/)
+- [export comment Insta](https://exportgram.net/)
 
 # Microsoft OneDrive 
 
@@ -2087,6 +2090,9 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [geohack](https://geohack.toolforge.org/)
 - [alltrails](https://www.alltrails.com/)
 - [openinframap](https://openinframap.org/#3.14/-1.06/107.47/O,P,W)
+- [QGIS](https://www.qgis.org/)
+- [pastvu map](https://pastvu.com/)
+- [Latest change OSM](https://rene78.github.io/latest-changes/#5/-3.448/115.532)
 
 Conveter tool 
 
@@ -2123,6 +2129,7 @@ Geojson viewer
 
 # Nearby Map From Geospatial
 
+- [virtualglobetrotting](https://virtualglobetrotting.com/)
 - [foursquare](https://location.foursquare.com/)
 - [tripadvisor](https://www.tripadvisor.com/)
 - [booking](https://booking.com)
@@ -2159,6 +2166,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [FEAT](https://github.com/GONZOsint/FEAT)
 - [followeraudit](https://www.followeraudit.com/)
 - [TEMPO news ID cek fakta](https://cekfakta.tempo.co/)
+- [How to Verify Guide](https://www.howtoverify.info/Image/Where/Geolocation/Manual_geolocation)
 
 # Server Information Gathering
 
@@ -2437,6 +2445,8 @@ Build your sockpuppet account and proctect your privacy
 - [Online SMS](https://online-sms.org/)
 - [fakepersongenerator](https://www.fakepersongenerator.com/fake-name-generator)
 - [deepfakesweb](https://deepfakesweb.com/)
+- [dangerzone](https://github.com/freedomofpress/dangerzone) Take potentially dangerous PDFs, office documents, or images and convert them to a safe PDF
+- [coveryourtracks](https://coveryourtracks.eff.org/) Check your browser leaked information
 
 Social Network and blogging
 
@@ -2994,6 +3004,7 @@ VIN Checker
 - [cartell Japan](https://www.cartell.ie/japanese-import/)
 - [carvx JP](https://carvx.jp/)
 - [cyclevin](https://cyclevin.com/)
+- [epicvin](https://epicvin.com/)
 
 # Aircraft Tracking
 
@@ -3046,6 +3057,7 @@ VIN Checker
 - [openseamap](https://map.openseamap.org/)
 - [equasis](https://www.equasis.org/EquasisWeb/public/HomePage)
 - [MARITIME AWARENESS PROJECT](https://map.nbr.org/interactivemap/)
+- [shipspotting](https://www.shipspotting.com/)
 
 NOOA Incident MAP 
 
@@ -3464,7 +3476,13 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [bulletpicker](https://www.bulletpicker.com/celluloid.html)
 - [Open Source Munitions Portal](https://osmp.ngo/)
 - [Table of explosive detonation velocities](https://en.wikipedia.org/wiki/Table_of_explosive_detonation_velocities)
-- []()
+- [Types of explosive ordnance](https://www.gichd.org/explosive-ordnance/)
+- [conflictarm - Weapon Documentary](https://www.conflictarm.com/)
+- [Guide Identification Weapon](https://www.jmu.edu/cisr/research/index.shtml)
+- [Norwegua Defense Research & Publication](https://ffi-publikasjoner.archive.knowledgearc.net/discover)
+- [The Rocket Artillery Reference Book](https://ffi-publikasjoner.archive.knowledgearc.net/bitstream/handle/20.500.12242/2257/09-00179.pdf)
+- [globalsecurity](https://www.globalsecurity.org/military/world/index.html)
+- [cat-uxo](https://cat-uxo.com/)
 
 # OSINT Shadow Analysis 
 
@@ -3596,6 +3614,7 @@ Resources and collection for your make tool OSINT
 - [ipqs](https://www.ipqualityscore.com/)
 - [sociallinks](https://sociallinks.io/)
 - [urlvoid](https://www.urlvoid.com/)
+- [How to Verify Guide](https://www.howtoverify.info/Image/Where/Geolocation/Manual_geolocation)
 
 # NEWS OSINT
 
@@ -3763,6 +3782,8 @@ Terrorism & Radical
 - [evdc ESA Orbit](https://evdc.esa.int/orbit/)
 - [skytruth](https://cerulean.skytruth.org/)
 - [Microsoft GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
+- [List of satellite map images with missing or unclear data](https://en.wikipedia.org/wiki/List_of_satellite_map_images_with_missing_or_unclear_data)
+- [ventusky](https://www.ventusky.com/?p=-6.6;115.7;4&l=satellite)
 
 *Aditional Information coverage sat 
 
@@ -3818,7 +3839,8 @@ You can use for study academic literature, search book, people name, old archive
 - [geheugen delpher](https://geheugen.delpher.nl/nl)
 - [Old maps online](https://www.oldmapsonline.org/en/)
 - [Delpher](https://www.delpher.nl/)
-- [pastvu](https://pastvu.com/)
+- [pastvu map](https://pastvu.com/)
+- [Latest change OSM](https://rene78.github.io/latest-changes/#5/-3.448/115.532)
 - [Web Archive](https://web.archive.org/)
 
 # OSINT Art Collection
@@ -3879,6 +3901,13 @@ Guide Journalist
 - [sensity.ai](https://sensity.ai/)
 - [AmIReal](https://seintpl.github.io/AmIReal/)
 - [invid-project](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)
+- [gptzero](https://gptzero.com/)
+- [isitai](https://isitai.com/ai-image-detector/)
+- [hivemoderation](https://hivemoderation.com/ai-generated-content-detection)
+- [deepware](https://scanner.deepware.ai/)
+- [audio elevenlabs](https://elevenlabs.io/ai-speech-classifier)
+- [GIJN Investigate AI Deepfake](https://gijn.org/resource/tipsheet-investigating-ai-audio-deepfakes/)
+- [datajournalism AI Deepfake](https://datajournalism.com/read/handbook/verification-3/investigating-actors-content/6-how-to-think-about-deepfakes-and-emerging-manipulation-technologie)
 
 # OSINT Similarity (Plagiarism)
 
@@ -3899,6 +3928,8 @@ Text Analyzer
 - [ntlk](https://www.nltk.org/)
 - [voyant](https://voyant-tools.org/)
 - [brandmentions](https://brandmentions.com/)
+- [copyleaks](https://copyleaks.com/)
+- [gowinston](https://gowinston.ai/)
 
 Audio Analyzer 
 
@@ -4018,6 +4049,10 @@ This is path for you learn OSINT
 - [Threat Intelligence Lifecycle | Phases & Best Practices Explained](https://snyk.io/learn/threat-intelligence/threat-intelligence-lifecycle/)
 - [Open-Source Intelligence (OSINT) Cycle](https://securityorb.com/featured/the-open-source-intelligence-osint-cycle/)
 - [Learn and training OSINT free](https://sites.google.com/view/tpdprivacy/home?authuser=0)
+- [Bellingcat Resouces Guide](https://www.bellingcat.com/category/resources/)
+- [Guide for verification and SOCMINT](https://datajournalism.com/read/handbook/verification-3)
+- [Youtube OSINT Tutorial](https://www.youtube.com/playlist?list=PLrFPX1Vfqk3ehZKSFeb9pVIHqxqrNW8Sy)
+- [Ethical and about more OSINT](https://stanleycenter.org/publications/osint-applied-ethics-workbook/)
 
 Browser List 
 
