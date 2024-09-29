@@ -149,6 +149,7 @@ Be carefull using this tool
 - [knowlesys](https://knowlesys.com/index.html)
 - [TOOKIE OSINT](https://github.com/Alfredredbird/tookie-osint)
 - [Hoaxy](https://hoaxy.osome.iu.edu/)
+- [Offensive OSINT](https://www.os-surveillance.io/#choose-plan)
 
 # Collection Dataset
 
@@ -2096,6 +2097,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [QGIS](https://www.qgis.org/)
 - [pastvu map](https://pastvu.com/)
 - [Latest change OSM](https://rene78.github.io/latest-changes/#5/-3.448/115.532)
+- [Offensive OSINT](https://www.os-surveillance.io/#choose-plan)
 
 Conveter tool 
 
@@ -3586,6 +3588,8 @@ Resources and collection for your make tool OSINT
 - [Emoji Wiki](https://emojis.wiki/)
 - [Emoji Guide](https://emojiguide.com/)
 - [Emoji Tracker](https://emojitracker.com/details/1F44F)
+- [emojipedia](https://emojipedia.org/)
+- [fastemoji](https://www.fastemoji.com/)
 
 # OSINT Branding & Verify 
 
@@ -4045,6 +4049,7 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [suncalc 2](http://suncalc.net/)
 - [mooncalc](https://www.mooncalc.org/)
 - [Google maps measurement](https://zhenyanghua.github.io/MeasureTool-GoogleMaps-V3/)
+- [Microsoft powertoys](https://learn.microsoft.com/id-id/windows/powertoys/screen-ruler)
 
 # OSINT Technique Tips 
 
