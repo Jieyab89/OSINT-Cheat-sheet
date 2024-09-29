@@ -1500,6 +1500,7 @@ Google queries for MySpace
 - [brandmentions](https://brandmentions.com/)
 - [Google Alert](https://www.google.com/alerts?hl=en)
 - [flashpoint](https://flashpoint.io/)
+- [canarytokens](https://canarytokens.org/nest/)
 
 # EXIF Analysis
 
@@ -3085,6 +3086,7 @@ NOOA Incident MAP
 
 # OSINT for Red Team 
 
+- [pylingual](https://pylingual.io/) PyLingual Python Decompiler
 - [Phishious](https://github.com/CanIPhish/Phishious) 
 Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Operative framework](https://github.com/gaulliath/operative-framework/releases/tag/2.0a) investigation OSINT framework, you can interact with multiple targets
@@ -3187,6 +3189,11 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [pivotnacci](https://github.com/blackarrowsec/pivotnacci) Pivot into the internal network by deploying HTTP agents
 - [vulnshot](https://vulnshot.com/) Vulnerability Management From Nuclei CLI and tools for pentesting
 - [Fierpa Lambda](https://github.com/firerpa/lamda) Android reverse engineering & automation framework
+- [shellter](https://www.kali.org/tools/shellter/) a dynamic shellcode injection tool aka dynamic PE infector
+- [Child Gatting](https://gist.github.com/patois/1fede18833d5e6e62e75d915e3621c8f) Bypass android SSL pining with new PID
+- [PentestingEverything](https://github.com/m14r41/PentestingEverything) Awesome checklist for bug bounties and other
+- [busybox](https://busybox.net/) Escape from docker or container machine if you have get access the target like revshell but there is no apps or programm (binary) to run command 
+- [toybox](https://landley.net/toybox/downloads/binaries/latest/) Escape from docker or container machine if you have get access the target like revshell but there is no apps or programm (binary) to run command 
 
 Social Engineering
 
@@ -3359,6 +3366,7 @@ Awesome Burpsuite Extension
 - [PWNFOX](https://addons.mozilla.org/id/firefox/addon/pwnfox/)
 - [HAE](https://github.com/xnl-h4ck3r/HandE-Burp-Extension)
 - [Jsminner](https://github.com/PortSwigger/js-miner)
+- [Java Deserialization Scanner](https://portswigger.net/bappstore/228336544ebe4e68824b5146dbbd93ae)
 
 # Audio OSINT 
 
@@ -3984,6 +3992,10 @@ Company
 - [Arch Linux](https://archlinux.org/packages/)
 - [pkgs](https://pkgs.org/)
 - [Ubbuntu Package](https://packages.ubuntu.com/)
+
+Fixing grub or recovery grub missing 
+
+- [Boot-Repair ubuntu](https://help.ubuntu.com/community/Boot-Repair)
 
 # Shortlink for OSINT 
 
