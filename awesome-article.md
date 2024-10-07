@@ -66,4 +66,11 @@
 
 # Guides 
 
-- [bellingcat](https://bellingcat.gitbook.io/toolkit/resources/guides-and-handbooks)
+- [Bellingcat](https://bellingcat.gitbook.io/toolkit/resources/guides-and-handbooks)
+- [Dukera Gewel OSINT](https://publish.obsidian.md/dukera-gewel/about)
+- [Soxoj Sowel](https://sowel.soxoj.com/about)
+
+# Vehicle
+
+- [China number plates](https://jenxi.com/china-vehicle-registration-plates/)
+- [Indonesia number plates](https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Indonesia)
