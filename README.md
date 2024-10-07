@@ -2098,6 +2098,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [pastvu map](https://pastvu.com/)
 - [Latest change OSM](https://rene78.github.io/latest-changes/#5/-3.448/115.532)
 - [Offensive OSINT](https://www.os-surveillance.io/#choose-plan)
+- [OSM - Taginfo](https://taginfo.openstreetmap.org/keys)
 
 Conveter tool 
 
@@ -2131,6 +2132,7 @@ Geojson viewer
 - [Microsoft GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
 - [Microsoft flightsimulator](https://www.flightsimulator.com/)
 - [wego here](https://wego.here.com/)
+- [sunpath3d](https://drajmarsh.bitbucket.io/sunpath3d.html)
 
 # Nearby Map From Geospatial
 
@@ -3495,6 +3497,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [The Rocket Artillery Reference Book](https://ffi-publikasjoner.archive.knowledgearc.net/bitstream/handle/20.500.12242/2257/09-00179.pdf)
 - [globalsecurity](https://www.globalsecurity.org/military/world/index.html)
 - [cat-uxo](https://cat-uxo.com/)
+- [osm-tag-info-military](https://taginfo.openstreetmap.org/keys/military#map)
 
 # OSINT Shadow Analysis 
 
@@ -4050,6 +4053,8 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [mooncalc](https://www.mooncalc.org/)
 - [Google maps measurement](https://zhenyanghua.github.io/MeasureTool-GoogleMaps-V3/)
 - [Microsoft powertoys](https://learn.microsoft.com/id-id/windows/powertoys/screen-ruler)
+- [Angle Measurement](https://www.ginifab.com/feeds/angle_measurement/)
+- [sunpath3d](https://drajmarsh.bitbucket.io/sunpath3d.html)
 
 # OSINT Technique Tips 
 
