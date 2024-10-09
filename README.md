@@ -566,6 +566,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [threatbook](https://threatbook.io/)
 - [pulsedive](https://pulsedive.com/dashboard/)
 - [cuckoo](https://cuckoo.cert.ee/)
+- [neiki](https://tip.neiki.dev/)
 
 # IoT Search Engines
 
@@ -700,6 +701,8 @@ You can find the file hash or other threat indicator
 - [cuckoo](https://cuckoo.cert.ee/)
 - [polyswarm](https://polyswarm.io/)
 - [recordedfuture](https://www.recordedfuture.com/vulnerability-database)
+- [neiki](https://tip.neiki.dev/)
+- [neiki](https://tip.neiki.dev/)
 
 # Automation Dorking 
 
