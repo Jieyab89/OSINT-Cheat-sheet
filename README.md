@@ -567,7 +567,6 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [pulsedive](https://pulsedive.com/dashboard/)
 - [cuckoo](https://cuckoo.cert.ee/)
 - [neiki](https://tip.neiki.dev/)
-- [Ransomware Live and Archive](https://www.ransomware.live/)
 
 # IoT Search Engines
 
@@ -591,6 +590,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [Rusia pub CCTV](https://www.geocam.ru/en/)
 - [lIVE CAM beach Australia](https://www.livebeaches.com/australia/)
 - [webcamcse cipher387](https://cipher387.github.io/webcamcse/)
+- [Sunder Survilance Cam](https://sunders.uber.space/?lat=-2.4833826&lon=117.8902853&zoom=11)
 
 # IP Addresses
 
@@ -631,7 +631,7 @@ Tips
 
 You can find the file hash or other threat indicator
 
-- [Ransomware Live and Archive](https://www.ransomware.live/)
+- [Hudson Rock Cybercrime Intelligence Free Tools](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools)
 - [Alien Vault](https://otx.alienvault.com/)
 - [Exploit db](https://www.exploit-db.com/)
 - [AT&T](https://cybersecurity.att.com/resource-center#content_analyst-reports)
@@ -761,6 +761,7 @@ Example
 - [YANDEX](https://seosly.com/blog/yandex-search-operators/)
 - [BING](https://seosly.com/blog/bing-search-operators/)
 - [mediasova](https://search.mediasova.com/en/index)
+- [wbmii](https://webmii.com/)
 
 # Bash Dorking Script
 
@@ -806,6 +807,7 @@ Example
 - [boardreader](https://boardreader.com/)
 - [Geoint CSE search](https://cse.google.com/cse?cx=015328649639895072395:sbv3zyxzmji#gsc.tab=0&gsc.sort=)
 - [lolarchiver](https://osint.lolarchiver.com/#)
+- [wbmii](https://webmii.com/)
 
 # Internet Archive
 
@@ -866,6 +868,7 @@ Example
 - [sn0int pwndb-domains](https://sn0int.com/r/kpcyrd/pwndb-domains)
 - [sn0int pwndb-emails](https://sn0int.com/r/kpcyrd/pwndb-emails)
 - [trufflehog](https://trufflesecurity.com/trufflehog)
+- [9ghz](https://9ghz.com/)
 
 # Crack Jurnals
 
@@ -994,6 +997,7 @@ Example
 
 # People Searching
 
+- [wbmii](https://webmii.com/)
 - [spokeo](http://www.spokeo.com)
 - [123people](http://www.123people.com)
 - [peepdb](http://www.peepdb.com)
@@ -1119,6 +1123,7 @@ Example
 - [numlookup](https://www.numlookup.com/)
 - [haveibeenzuckered](https://haveibeenzuckered.com/)
 - [DetectDee](https://github.com/piaolin/DetectDee)
+- [espysys](https://espysys.com/)
 
 Pro Tips
 
@@ -1595,6 +1600,9 @@ Google queries for MySpace
 - [infoga](https://www.infoga.io/)
 - [findemail](https://findemail.io/)
 - [minelead](https://minelead.io/)
+- [espysys](https://espysys.com/)
+- [hackcheck](https://hackcheck.io/)
+- [h8mail](https://github.com/khast3x/h8mail)
 
 # PGP or GPG Keybase 
 
@@ -2617,6 +2625,8 @@ Social Network and blogging
 - [darknetstats](https://www.darknetstats.com/)
 - [darknetlive](https://darknetlive.com/)
 - [Deepweb more resouces](http://whitepapers.virtualprivatelibrary.net/DeepWeb.pdf)
+- [TOR map](https://tormap.org/)
+- [Read Darkweb](https://github.com/0xSojalSec/read-dark-web)
 
 # Digital Forensics
 
@@ -3029,7 +3039,6 @@ VIN Checker
 - [Planefinder](https://planefinder.net/)
 - [Live ATC](https://www.liveatc.net/)
 - [planespotters](https://www.planespotters.net/)
-- [globe plane](https://globe.adsbexchange.com/)
 - [theaviationist](https://theaviationist.com/)
 - [airrecognition](https://web.archive.org/web/20240000000000*/https://airrecognition.com/)
 - [gpsjam](https://gpsjam.org/)
@@ -3072,6 +3081,9 @@ VIN Checker
 - [equasis](https://www.equasis.org/EquasisWeb/public/HomePage)
 - [MARITIME AWARENESS PROJECT](https://map.nbr.org/interactivemap/)
 - [shipspotting](https://www.shipspotting.com/)
+- [maritime DB](https://www.maritime-database.com/)
+- [portfocus](https://portfocus.com/#google_vignette)
+- [submarinecablemap](https://www.submarinecablemap.com/)
 
 NOOA Incident MAP 
 
@@ -3097,6 +3109,8 @@ NOOA Incident MAP
 
 # OSINT for Red Team 
 
+- [Apk mirror](https://www.apkmirror.com/) Sites that provide downloads apk and version
+- [apkpure](https://apkpure.com/id/) Sites that provide downloads apk and version
 - [pylingual](https://pylingual.io/) PyLingual Python Decompiler
 - [Phishious](https://github.com/CanIPhish/Phishious) 
 Secure Email Gateway (SEG) for phishing email header (escape detection)
@@ -3205,6 +3219,8 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [PentestingEverything](https://github.com/m14r41/PentestingEverything) Awesome checklist for bug bounties and other
 - [busybox](https://busybox.net/) Escape from docker or container machine if you have get access the target like revshell but there is no apps or programm (binary) to run command 
 - [toybox](https://landley.net/toybox/downloads/binaries/latest/) Escape from docker or container machine if you have get access the target like revshell but there is no apps or programm (binary) to run command 
+- [frida](https://frida.re/) Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers
+- [Wireshark](https://www.wireshark.org/) Viewing and dump protocol such as signal, http and other 
 
 Social Engineering
 
@@ -3298,9 +3314,6 @@ Wordlists for all
 - [wordlists](https://github.com/assetnote/wordlists)
 - [Hashmob](https://hashmob.net/resources/hashmob)
 - [RockYou2024](https://github.com/exploit-development/RockYou2024)
-- [Rock You 2024 Archive](https://www.kaggle.com/datasets/bwandowando/original-rockyou2024-text-file-11-parts)
-- [Escrow (Request your hash)](https://hashes.com/en/escrow/view)
-- [Awesome Wordlist all](https://github.com/kkrypt0nn/wordlists)
 
 Web fuzz wordlists
 
@@ -3339,7 +3352,7 @@ Default Credentials
 - [portforward](https://portforward.com/router-password/)
 - [cleancss](https://www.cleancss.com/router-default/)
 - [toolmao](https://www.toolmao.com/baiduapp/routerpwd/)
-- [datarecovery](https://datarecovery.com/rd/default-passwords/)
+- [default-password](https://default-password.info/)
 
 Local Enumeration
 
@@ -4044,6 +4057,8 @@ This is list data broker, you can search or delete form data broker list on here
 This is for you searching software alternative 
 
 - [alternativeto](https://alternativeto.net/)
+- [Apk mirror](https://www.apkmirror.com/) 
+- [apkpure](https://apkpure.com/id/) 
 
 # OSINT Barcode Reader 
 
@@ -4065,11 +4080,50 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [Microsoft powertoys](https://learn.microsoft.com/id-id/windows/powertoys/screen-ruler)
 - [Angle Measurement](https://www.ginifab.com/feeds/angle_measurement/)
 - [sunpath3d](https://drajmarsh.bitbucket.io/sunpath3d.html)
+- [rapidtables conveter calc](https://www.rapidtables.com/convert/)
+
+# OSINT Financial (FININT)
+
+- [CC Checker](https://dnschecker.org/credit-card-validator.php)
+
+# OSINT Cryptography (Cipher)
+
+Find the cipher and other conveter tools for decode 
+
+- [dcode](https://www.dcode.fr/identification-chiffrement)
+- [CyberChef](https://gchq.github.io/CyberChef/)
+- [base64decode](https://www.base64decode.org/)
+- [hashes](https://hashes.com/en/tools/hash_identifier)
+- [kali hash identifier](https://www.kali.org/tools/hash-identifier/)
+
+Other conveter 
+
+- [rapidtables](https://www.rapidtables.com/convert/)
+
+# OSINT Game 
+
+Search person in game 
+
+- [Steamdb](https://steamdb.info/calculator/)
+- [tracker](https://tracker.gg/)
+
+# OSINT Device for Device 
+
+Getting info for device and hardware info and emulator
+
+- [gsmarena](https://www.gsmarena.com/)
+- [hardreset](https://www.hardreset.info/)
+- [3u tool](https://www.3u.com/)
+- [Old Device or Phone](https://www.mobilephonemuseum.com/catalogue)
+- [ifixit](https://it.ifixit.com/Device/Other_OS_Phone)
+- [scrcpy](https://github.com/Genymobile/scrcpy/releases)
+- [Android Studio](https://developer.android.com/studio)
 
 # OSINT Technique Tips 
 
 This is path for you learn OSINT
 
+- [Awesome guide attack vector OSINT](https://github.com/sinwindie/OSINT)
 - [Bellingcat Guides Tools and Handbook](https://bellingcat.gitbook.io/toolkit/resources/guides-and-handbooks)
 - [deepdarkCTI](https://github.com/fastfire/deepdarkCTI)
 - [osintcombine](https://www.osintcombine.com/post/dark-web-searching)
