@@ -567,6 +567,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [pulsedive](https://pulsedive.com/dashboard/)
 - [cuckoo](https://cuckoo.cert.ee/)
 - [neiki](https://tip.neiki.dev/)
+- [Ransomware Live and Archive](https://www.ransomware.live/)
 
 # IoT Search Engines
 
@@ -630,6 +631,7 @@ Tips
 
 You can find the file hash or other threat indicator
 
+- [Ransomware Live and Archive](https://www.ransomware.live/)
 - [Alien Vault](https://otx.alienvault.com/)
 - [Exploit db](https://www.exploit-db.com/)
 - [AT&T](https://cybersecurity.att.com/resource-center#content_analyst-reports)
@@ -3296,6 +3298,9 @@ Wordlists for all
 - [wordlists](https://github.com/assetnote/wordlists)
 - [Hashmob](https://hashmob.net/resources/hashmob)
 - [RockYou2024](https://github.com/exploit-development/RockYou2024)
+- [Rock You 2024 Archive](https://www.kaggle.com/datasets/bwandowando/original-rockyou2024-text-file-11-parts)
+- [Escrow (Request your hash)](https://hashes.com/en/escrow/view)
+- [Awesome Wordlist all](https://github.com/kkrypt0nn/wordlists)
 
 Web fuzz wordlists
 
