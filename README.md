@@ -960,7 +960,6 @@ Example
 - [Maltego social links](https://www.maltego.com/transform-hub/social-links-ce/)
 - [indokontraktor ID](https://indokontraktor.com/)
 - [opentender ID](https://opentender.net/)
-- [lpse lkpp ID](https://lpse.lkpp.go.id/eproc4)
 - [ahu ID](https://ahu.go.id/pencarian/profil-pt)
 - [Minerba ESDM ID](https://momi.minerba.esdm.go.id/gisportal/home/)
 - [MODI ID](https://modi.esdm.go.id/portal/dataPerusahaan)
