@@ -591,6 +591,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [lIVE CAM beach Australia](https://www.livebeaches.com/australia/)
 - [webcamcse cipher387](https://cipher387.github.io/webcamcse/)
 - [Sunder Survilance Cam](https://sunders.uber.space/?lat=-2.4833826&lon=117.8902853&zoom=11)
+- [Offensive OSINT](https://www.os-surveillance.io/)
 
 # IP Addresses
 
@@ -869,6 +870,8 @@ Example
 - [sn0int pwndb-emails](https://sn0int.com/r/kpcyrd/pwndb-emails)
 - [trufflehog](https://trufflesecurity.com/trufflehog)
 - [9ghz](https://9ghz.com/)
+- [leakpeek](https://leakpeek.com/)
+- [weleakinfo](https://weleakinfo.io/)
 
 # Crack Jurnals
 
@@ -1245,6 +1248,8 @@ or you can use dork for spesific example
 - [Facebook Data Breach Cheker](https://haveibeenzuckered.com/)
 - [F**ck Facebook Github](https://github.com/Ph4nToM00/FuckFacebook)
 - [exportcomments](https://exportcomments.com/)
+- [Facebook search photo](https://cse.google.com/cse?cx=013991603413798772546:jyvyp2ppxma#gsc.tab=0)
+- [Facebook custom search](https://cse.google.com/cse?cx=95ae46262a5f2958e)
 
 # OnlyFans
 
@@ -1344,6 +1349,7 @@ or you can use dork for spesific example
 - [yark YT archiving](https://github.com/Owez/yark)
 - [Downsub](https://downsub.com/)
 - [Savesubs](https://savesubs.com/)
+- [hadzy - YT Comment](https://hadzy.com/)
 
 # Mastodon 
 
@@ -3105,6 +3111,7 @@ NOOA Incident MAP
 - [Blackbox AI](https://www.blackbox.ai/)
 - [Chat GPT](https://openai.com/chatgpt/)
 - [poe AI](https://poe.com/login)
+- [Chat-PDF](https://www.chatpdf.com/)
 
 # OSINT for Red Team 
 
@@ -3220,6 +3227,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [toybox](https://landley.net/toybox/downloads/binaries/latest/) Escape from docker or container machine if you have get access the target like revshell but there is no apps or programm (binary) to run command 
 - [frida](https://frida.re/) Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers
 - [Wireshark](https://www.wireshark.org/) Viewing and dump protocol such as signal, http and other 
+- [greynoise](https://viz.greynoise.io/) Search CVE, IP  
 
 Social Engineering
 
@@ -3659,6 +3667,7 @@ Resources and collection for your make tool OSINT
 
 Search News Journalist and Documentary Sites 
 
+- [Google CSE search news](https://cse.google.com/cse?cx=013991603413798772546:fvmtax6anhd)
 - [ICW ID](https://antikorupsi.org/id)
 - [middleeasteye](https://www.middleeasteye.net/)
 - [cpj](https://cpj.org/)
@@ -3932,6 +3941,7 @@ Guide Journalist
 
 - [datajournalism](https://datajournalism.com/read)
 - [Resources Journalism](https://gijn.org/resource/)
+- [Danger zone](https://github.com/freedomofpress/dangerzone) Take potentially dangerous PDFs, office documents, or images and convert them to a safe PDF
 
 # OSINT Detect Deepfake 
 
@@ -4105,6 +4115,8 @@ Search person in game
 
 - [Steamdb](https://steamdb.info/calculator/)
 - [tracker](https://tracker.gg/)
+- [steamidfinder](https://www.steamidfinder.com/)
+- [steamcommunity](https://steamcommunity.com/search/users/)
 
 # OSINT Device for Device 
 
@@ -4117,6 +4129,13 @@ Getting info for device and hardware info and emulator
 - [ifixit](https://it.ifixit.com/Device/Other_OS_Phone)
 - [scrcpy](https://github.com/Genymobile/scrcpy/releases)
 - [Android Studio](https://developer.android.com/studio)
+- [NOX](https://www.bignox.com/)
+
+# OSINT Cloud 
+
+Search file in cloud like Google drive and other 
+
+- [Google CSE search drive](https://cse.google.com/cse?cx=013991603413798772546:nwzqlcysx_w)
 
 # OSINT Technique Tips 
 
