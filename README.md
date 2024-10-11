@@ -996,6 +996,7 @@ Example
 - [spyfu](https://www.spyfu.com/)
 - [google finance](https://www.google.com/finance/)
 - [siteworthtraffic](https://www.siteworthtraffic.com/)
+- [ID Bappebti](https://bappebti.go.id/)
 
 # People Searching
 
@@ -3115,6 +3116,8 @@ NOOA Incident MAP
 
 # OSINT for Red Team 
 
+- [SearchSploit](https://www.exploit-db.com/searchsploit)
+Command line search tool for Exploit-DB
 - [Apk mirror](https://www.apkmirror.com/) Sites that provide downloads apk and version
 - [apkpure](https://apkpure.com/id/) Sites that provide downloads apk and version
 - [pylingual](https://pylingual.io/) PyLingual Python Decompiler
@@ -4094,6 +4097,17 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 # OSINT Financial (FININT)
 
 - [CC Checker](https://dnschecker.org/credit-card-validator.php)
+- [EU financial sanctions list](https://data.europa.eu/data/datasets/consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions?locale=en)
+- [PPP Directory](https://ppp.directory/search)
+- [ID LKPP](https://lkpp.go.id/)
+- [ID LPSE LKPP](https://lpse.lkpp.go.id/eproc4/lelang)
+- [ID PPATK](https://www.ppatk.go.id/publikasi/lists/1.html)
+- [ID KPK](https://www.kpk.go.id/id)
+- [ID BPK](https://www.bpk.go.id/)
+- [ID Bappebti](https://bappebti.go.id/)
+- [ID BPS](https://www.bps.go.id/id)
+- [ID opentender](https://opentender.net/)
+- [ID Pengadaan Tender](https://tender.pengadaan.com/tender)
 
 # OSINT Cryptography (Cipher)
 
