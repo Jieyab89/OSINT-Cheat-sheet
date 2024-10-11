@@ -3723,6 +3723,8 @@ Search News Journalist and Documentary Sites
 - [Journalist toolbox](https://www.journaliststoolbox.org/)
 - [rferl](https://www.rferl.org/)
 - [newspapers](https://www.newspapers.com/)
+- [chroniclingamerica](https://chroniclingamerica.loc.gov/)
+- [Google News](https://news.google.com/newspapers)
 - [rollcall](https://rollcall.com/)
 - [reuters](https://www.reuters.com/)
 - [sipri](https://www.sipri.org/)
@@ -3893,6 +3895,9 @@ You can use for study academic literature, search book, people name, old archive
 - [pastvu map](https://pastvu.com/)
 - [Latest change OSM](https://rene78.github.io/latest-changes/#5/-3.448/115.532)
 - [Web Archive](https://web.archive.org/)
+- [chroniclingamerica](https://chroniclingamerica.loc.gov/)
+- [britishnewspaperarchive](https://www.britishnewspaperarchive.co.uk/)
+- [Google Archive News](https://news.google.com/newspapers)
 
 # OSINT Art Collection
 
