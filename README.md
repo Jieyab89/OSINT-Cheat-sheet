@@ -319,7 +319,7 @@ Site and forums OSINT community arround world
 
 # Hastag & Keyword Analysis 
 
-Hastag and keyword analysis in search engine, social media or other platform 
+Hastag and keyword analysis in search engine, social media or other platform (Text Intel)
 
 - [brandmentions](https://app.brandmentions.com/)
 - [wordtracker](https://www.wordtracker.com/)
@@ -335,6 +335,7 @@ Hastag and keyword analysis in search engine, social media or other platform
 - [Yandex Trends](https://wordstat.yandex.com/)
 - [orangedatamining](https://orangedatamining.com/)
 - [twtdata](https://www.twtdata.com/)
+- [gephi](https://gephi.org/)
 
 # Web Intelligence
 
@@ -1029,7 +1030,6 @@ Example
 - [Sherlock Eye](https://sherlockeye.io/)
 - [NIK PARSE](https://github.com/bachors/nik_parse.js?tab=readme-ov-file#nik_parsejs)
 - [Maltego Social Links Pro](https://www.maltego.com/transform-hub/social-links-pro/)
-- [hertz](https://www.hertz.com/rentacar/receipts/request-receipts.do)
 - [fastpeoplesearch](https://www.fastpeoplesearch.com/)
 - [fastpeoplesearch.info](https://fastpeoplesearch.info/)
 - [intelius](https://www.intelius.com/)
@@ -1155,7 +1155,6 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [Bellingcat Username](https://bellingcat.github.io/name-variant-search/#gsc.tab=0)
 - [whatsmyname](https://whatsmyname.app/)
 - [holehe](https://github.com/megadose/holehe)
-- [hertz](https://www.hertz.com/rentacar/receipts/request-receipts.do)
 - [peekyou](https://www.peekyou.com/)
 - [lolarchiver](https://osint.lolarchiver.com/#)
 - [User Searcher](https://www.user-searcher.com/)
@@ -1918,6 +1917,8 @@ Search channel, username anymore
 
 # Video Search and Other Video Tools
 
+- [Google Lens](https://lens.google/)
+- [Google Vid](https://www.google.com/videohp)
 - [Aol Videos](http://on.aol.com)
 - [Bing Videos](http://www.bing.com/?scope=video)
 - [Blinkx](http://www.blinkx.com)
@@ -3445,6 +3446,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [bgp](https://bgp.tools/)
 - [greynoise](https://viz.greynoise.io/)
 - [bgpview](https://bgpview.io/)
+- [wigle](https://wigle.net/)
 
 # Medical OSINT 
 
@@ -3549,6 +3551,7 @@ Analysis for IMINT and find the geolocation, azimuth and etc
 - [carbidedepot Trigonometry Calculator](https://www.carbidedepot.com/formulas-trigright.asp)
 - [shadowmap](https://app.shadowmap.org/)
 - [gaisma sunrise, sunset arround world](https://www.gaisma.com/en/)
+- [sunpath3d](https://drajmarsh.bitbucket.io/sunpath3d.html)
 
 # Academic Search Tools
 
