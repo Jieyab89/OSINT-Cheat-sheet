@@ -3585,6 +3585,8 @@ Academic Literature
 - [AirSpy MAP](https://airspy.com/directory/)
 - [WEB SDR](http://websdr.ewi.utwente.nl:8901/)
 - [Bellingcat Radar](https://ollielballinger.users.earthengine.app/view/bellingcat-radar-interference-tracker)
+- [Wireshark](https://www.wireshark.org/)
+Analyze the network dumps
 
 # API for OSINT 
 
@@ -3724,7 +3726,7 @@ Search News Journalist and Documentary Sites
 - [rferl](https://www.rferl.org/)
 - [newspapers](https://www.newspapers.com/)
 - [chroniclingamerica](https://chroniclingamerica.loc.gov/)
-- [Google News](https://news.google.com/newspapers)
+- [Google Newspaper (Archive and other)](https://news.google.com/newspapers)
 - [rollcall](https://rollcall.com/)
 - [reuters](https://www.reuters.com/)
 - [sipri](https://www.sipri.org/)
