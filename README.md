@@ -3672,6 +3672,7 @@ Search News Journalist and Documentary Sites
 
 - [Google CSE search news](https://cse.google.com/cse?cx=013991603413798772546:fvmtax6anhd)
 - [ICW ID](https://antikorupsi.org/id)
+- [washingtonpost](https://www.washingtonpost.com/)
 - [middleeasteye](https://www.middleeasteye.net/)
 - [cpj](https://cpj.org/)
 - [skynws](https://news.sky.com/)
