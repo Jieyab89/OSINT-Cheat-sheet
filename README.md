@@ -2176,26 +2176,21 @@ Geojson viewer
 
 # Fact Checking
 
-- [About Urban Legends](http://urbanlegends.about.com)
 - [Captin Fact](https://captainfact.io/)
-- [Check](https://meedan.com/check)
 - [Citizen Desk](https://www.sourcefabric.org/en/citizendesk)
-- [Emergent](http://www.emergent.info)
 - [Fact Check](http://www.factcheck.org)
 - [Full Fact](https://fullfact.org)
-- [MediaBugs](http://mediabugs.org)
 - [Snopes](http://www.snopes.com)
 The definitive Internet reference source for urban legends, folklore, myths, rumors, and misinformation.
 - [Verification Handbook](http://verificationhandbook.com)
-- [Verification Junkie](http://verificationjunkie.com)
-- [Verily](https://veri.ly)
 - [Google Fact](https://toolbox.google.com/factcheck/explorer)
 - [Open Measures](https://openmeasures.io/)
 - [Hoaxy](https://hoaxy.osome.iu.edu/)
-- [FEAT](https://github.com/GONZOsint/FEAT)
+- [FEAT Visual Tool](https://github.com/GONZOsint/FEAT)
 - [followeraudit](https://www.followeraudit.com/)
 - [TEMPO news ID cek fakta](https://cekfakta.tempo.co/)
 - [How to Verify Guide](https://www.howtoverify.info/Image/Where/Geolocation/Manual_geolocation)
+- [Gephi Visual Tool](https://gephi.org/)
 
 # Server Information Gathering
 
