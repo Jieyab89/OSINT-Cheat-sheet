@@ -220,6 +220,7 @@ Site and forums OSINT community arround world
 - [Sophia Santos](https://gralhix.com/)
 - [goosint](https://goosint.com/)
 - [Bellingcat Volunteer](https://sites.google.com/bellingcat.com/bellingcat-volunteer-community/projects-opportunities)
+- [benjaminstrick](https://benjaminstrick.com/blog/)
 
 # General Search
 
