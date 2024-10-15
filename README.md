@@ -189,6 +189,9 @@ Be carefull using this tool
 - [techforpalestine](https://data.techforpalestine.org/)
 - [genocide](https://genocide.club/)
 - [data world](https://data.world/search?q=)
+- [KEMNAKER ID](https://satudata.kemnaker.go.id/data)
+- [BNN ID](https://puslitdatin.bnn.go.id/portfolio/data-statistik-kasus-narkoba/)
+- [Microsoft Building Dataset](https://planetarycomputer.microsoft.com/dataset/ms-buildings)
 
 # Forums & Sites
 
@@ -423,6 +426,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [Waymore](https://forum.seccodeid.com/d/waymore-find-way-more-from-the-wayback-machine)
 - [DMCA Lumen DB](https://lumendatabase.org/)
 - [SubDomainRadar](https://subdomainradar.io)
+- [dnshistory](https://osint.sh/dnshistory/)
 
 *Tips web cache 
 
@@ -434,6 +438,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 
 # Analysing URLs
 
+- [dnshistory](https://osint.sh/dnshistory/)
 - [Unfurl](https://github.com/obsidianforensics/unfurl)
 - [VirusTotal](https://www.virustotal.com/gui/home/upload)
 - [Archive Org](https://archive.org/web/)
@@ -726,6 +731,7 @@ You can find the file hash or other threat indicator
 - [NAMINT](https://seintpl.github.io/NAMINT/)
 - [BullsEye0 dorks](https://github.com/BullsEye0/dorks-eye)
 - [dorkgpt](https://www.dorkgpt.com/)
+- [dorksearch](https://dorksearch.com/)
 
 # Github Dork
 
@@ -1044,6 +1050,7 @@ Example
 - [idcrawl](https://www.idcrawl.com/)
 - [contactout](https://contactout.com/)
 - [personlookup](https://personlookup.co.za/)
+- [OSINT indsutries](https://www.osint.industries/)
 
 # Family People Search 
 
@@ -1058,6 +1065,7 @@ Example
 
 # Phone Numbers
 
+- [predictasearch](https://www.predictasearch.com/)
 - [argali](http://www.argali.com)
 - [ciddb](http://www.ciddb.com/index.php)
 - [cellrevealer](http://www.cellrevealer.com)
@@ -1141,6 +1149,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 
 # Finding Usernames
 
+- [OSINT indsutries](https://www.osint.industries/)
 - [Namechk](http://www.namechk.com)
 - [Knowem](http://www.knowem.com)
 - [Nexfil](https://github.com/thewhiteh4t/nexfil)
@@ -1549,6 +1558,7 @@ Google queries for MySpace
 
 # Email Tracking
 
+- [OSINT indsutries](https://www.osint.industries/)
 - [ip-adress](http://www.ip-adress.com/trace_email/)
 - [whatismyipaddress](http://www.whatismyipaddress.com/trace-email)
 - [hunter](https://hunter.io/)
@@ -2156,6 +2166,7 @@ Geojson viewer
 - [Microsoft flightsimulator](https://www.flightsimulator.com/)
 - [wego here](https://wego.here.com/)
 - [sunpath3d](https://drajmarsh.bitbucket.io/sunpath3d.html)
+- [Microsoft Building Dataset](https://planetarycomputer.microsoft.com/dataset/ms-buildings)
 
 # Nearby Map From Geospatial
 
@@ -2588,6 +2599,7 @@ Social Network and blogging
 
 # Darkweb Intelligence
 
+- [darkradar](https://www.darkradar.io/)
 - [Stealthmole](https://www.stealthmole.com/products/darkweb-tracker)
 - [Darkweb bookmarks](https://www.osintcombine.com/dw-osint-bookmarks)
 - [Maltego digital shadows transform](https://www.maltego.com/transform-hub/digital-shadows/)
@@ -2707,6 +2719,7 @@ You can analysis of hash, header, signature, evtx, ip, byte, file format, memory
 # Write Your Investigation
 
 - [Yoga](https://github.com/WebBreacher/yoga)
+- [storymap js](https://storymap.knightlab.com/)
 - [Malteo CaseFile](https://docs.maltego.com/support/solutions/articles/15000018948-what-is-maltego-casefile-)
 
 # Securing Your Privacy
@@ -3033,6 +3046,14 @@ VIN Checker
 - [cyclevin](https://cyclevin.com/)
 - [epicvin](https://epicvin.com/)
 
+Public Transport 
+
+- [moovitapp (Global)](https://moovitapp.com/index/id/Tranportasi_Umum-countries)
+- [KAI ID ROUTE](https://commuterline.id/perjalanan-krl/peta-rute)
+- [transjakarta ID ROUTE](https://transjakarta.co.id/rute)
+- [Jaklingko ID MAP](https://www.jaklingkoindonesia.co.id/id/map)
+- [Palembang ID Pub Transport](https://geoportal.palembang.go.id/pencarian?kategori=Transportasi)
+
 # Aircraft Tracking
 
 - [flightradar24](https://www.flightradar24.com/)
@@ -3101,6 +3122,7 @@ NOOA Incident MAP
 - [KAI ID Map Railway](https://www.arcgis.com/apps/View/index.html?appid=27b7119dc6754d3e9e584a4fa71e5744)
 - [World Railway Train](https://mobility.portal.geops.io/world.geops.transit?layers=paerke,strassennamen,haltekanten,haltestellen,pois,world.geops.traviclive&x=12003263.13&y=-842145.41&z=7.98)
 - [Railway zugfinder](https://www.zugfinder.net/)
+- [KAI ID ROUTE](https://commuterline.id/perjalanan-krl/peta-rute)
 
 # GPT OSINT 
 
@@ -3529,6 +3551,12 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [globalsecurity](https://www.globalsecurity.org/military/world/index.html)
 - [cat-uxo](https://cat-uxo.com/)
 - [osm-tag-info-military](https://taginfo.openstreetmap.org/keys/military#map)
+
+Simulator and Game 
+
+- [War Thunder](https://warthunder.com/en)
+- [Modern Warship](https://promo.worldofwarships.com/)
+- [Microsoft Flight Simulator](https://www.flightsimulator.com/)
 
 # OSINT Shadow Analysis 
 
@@ -4088,6 +4116,7 @@ This is for you searching software alternative
 
 Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or sensor and other things 
 
+- [time&date awesome calc and conveter list](https://www.timeanddate.com/moon/)
 - [smappen](https://www.smappen.com/app/)
 - [Google earth](https://earth.google.com/)
 - [imagemeasurement](https://imagemeasurement.online/)
@@ -4100,6 +4129,7 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [Angle Measurement](https://www.ginifab.com/feeds/angle_measurement/)
 - [sunpath3d](https://drajmarsh.bitbucket.io/sunpath3d.html)
 - [rapidtables conveter calc](https://www.rapidtables.com/convert/)
+- [dcode fr awesome calc and conveter](https://www.dcode.fr/en)
 
 # OSINT Financial (FININT)
 
@@ -4156,7 +4186,9 @@ Getting info for device and hardware info and emulator
 
 Search file in cloud like Google drive and other 
 
-- [Google CSE search drive](https://cse.google.com/cse?cx=013991603413798772546:nwzqlcysx_w)
+- [Google CSE search drive](https://cse.google.com/cse?cx=013991603413798772546:nwzqlcysx_w) Search file in Google drive with custom search engine
+- [cloud enum](https://github.com/initstring/cloud_enum) Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
+- [dedigger](https://www.dedigger.com/#gsc.tab=0) Find public files in Google Drive
 
 # OSINT Technique Tips 
 
