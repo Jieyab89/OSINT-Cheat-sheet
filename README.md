@@ -1051,6 +1051,7 @@ Example
 - [contactout](https://contactout.com/)
 - [personlookup](https://personlookup.co.za/)
 - [OSINT indsutries](https://www.osint.industries/)
+- [infobel](https://www.infobel.com/fr/world)
 
 # Family People Search 
 
@@ -1136,6 +1137,7 @@ Example
 - [haveibeenzuckered](https://haveibeenzuckered.com/)
 - [DetectDee](https://github.com/piaolin/DetectDee)
 - [espysys](https://espysys.com/)
+- [infobel](https://www.infobel.com/fr/world)
 
 Pro Tips
 
@@ -1360,6 +1362,7 @@ or you can use dork for spesific example
 - [Downsub](https://downsub.com/)
 - [Savesubs](https://savesubs.com/)
 - [hadzy - YT Comment](https://hadzy.com/)
+- [Filmot](https://filmot.com/)
 
 # Mastodon 
 
@@ -2130,6 +2133,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Latest change OSM](https://rene78.github.io/latest-changes/#5/-3.448/115.532)
 - [Offensive OSINT](https://www.os-surveillance.io/#choose-plan)
 - [OSM - Taginfo](https://taginfo.openstreetmap.org/keys)
+- [Bellingcat Google Maps review Filename Chrome Extension](https://www.bellingcat.com/resources/2024/10/15/google-maps-image-filename-finder-tool/)
 
 Conveter tool 
 
@@ -3108,6 +3112,11 @@ Public Transport
 - [maritime DB](https://www.maritime-database.com/)
 - [portfocus](https://portfocus.com/#google_vignette)
 - [submarinecablemap](https://www.submarinecablemap.com/)
+- [AIS Signal Map](https://www.aishub.net/coverage)
+- [AIS Open Signal](https://www.opensignal.com/networks/thailand/dtac-coverage)
+- [myshiptracking](https://www.myshiptracking.com/)
+- [vesseltracker](https://www.vesseltracker.com/)
+- [shipnext](https://shipnext.com/vessel/9417440/Ohio)
 
 NOOA Incident MAP 
 
@@ -3704,7 +3713,9 @@ Search News Journalist and Documentary Sites
 - [washingtonpost](https://www.washingtonpost.com/)
 - [middleeasteye](https://www.middleeasteye.net/)
 - [cpj](https://cpj.org/)
-- [skynws](https://news.sky.com/)
+- [europeana collection newspaper](https://www.europeana.eu/en/collections/topic/18-newspaper)
+- [BNF France](https://gallica.bnf.fr/accueil/en/content/accueil-en?mode=desktop)
+- [skynews](https://news.sky.com/)
 - [france24](https://www.france24.com/)
 - [paxforpeace](https://paxforpeace.nl/)
 - [Bellingcat](https://bellingcat.com)
@@ -3928,6 +3939,9 @@ You can use for study academic literature, search book, people name, old archive
 - [chroniclingamerica](https://chroniclingamerica.loc.gov/)
 - [britishnewspaperarchive](https://www.britishnewspaperarchive.co.uk/)
 - [Google Archive News](https://news.google.com/newspapers)
+- [LOC Library of Congress collects](https://www.loc.gov/programs/veterans-history-project/about-this-program/)
+- [europeana collection newspaper](https://www.europeana.eu/en/collections/topic/18-newspaper)
+- [BNF France](https://gallica.bnf.fr/accueil/en/content/accueil-en?mode=desktop)
 
 # OSINT Art Collection
 
@@ -4173,6 +4187,7 @@ Search person in game
 
 Getting info for device and hardware info and emulator
 
+- [Bellingcat Google Maps review Filename Chrome Extension](https://www.bellingcat.com/resources/2024/10/15/google-maps-image-filename-finder-tool/)
 - [gsmarena](https://www.gsmarena.com/)
 - [hardreset](https://www.hardreset.info/)
 - [3u tool](https://www.3u.com/)
