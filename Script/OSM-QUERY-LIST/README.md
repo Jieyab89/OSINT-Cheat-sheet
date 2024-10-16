@@ -8,10 +8,11 @@ Things to you should take a look:
 2. Object of the building
 3. Road object
 4. Building object
-5. Pole objects, lights, signs
+5. Pole objects, lights, signs, railway 
 6. Billboard or advertising board object
 7. Are there other inventions such as license plates? Place names? Building characteristics
 8. Measurement on the object 
+9. Extract the information you collected from numbers, houses, trash cans, red lights etc
 
 # Pro Tips 
 
@@ -19,6 +20,7 @@ Things to you should take a look:
 2. You can learn through wikimapia to understand the object and the place of the object https://wikimapia.org/#lang=en&lat=-6.225886&lon=106.829681&z=10&m=w
 3. You need to understand IMINT, extract information from what you can
 4. Verify the data like coordinate and see on the Google maps or other things
+5. Measure the object 
 
 Example 
 
