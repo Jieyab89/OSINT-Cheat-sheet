@@ -2349,6 +2349,7 @@ Transaction Analysis
 
 # Cell Investigation
 
+- [wigle](https://wigle.net/)
 - [Opencellid](https://opencellid.org/)
 - [CellTower Locator - Cell2gps](http://www.cell2gps.com/)
 - [Cell-id Query](https://www.cell-id.info/?lang=en)
@@ -3087,6 +3088,10 @@ Public Transport
 - [dictatoralert](https://dictatoralert.org/)
 - [airspace](https://www.airspace-review.com/)
 - [airframes](https://www.airframes.org/)
+- [Aircraft Mil Dataset](https://github.com/sdr-enthusiasts/plane-alert-db)
+- [live-military](https://www.live-military-mode-s.eu/)
+- [theairtraffic](https://globe.theairtraffic.com/)
+- [ADS hub Station](https://www.adsbhub.org/stations.php)
 
 # Ship Tracking & Maritim
 
@@ -3117,6 +3122,7 @@ Public Transport
 - [myshiptracking](https://www.myshiptracking.com/)
 - [vesseltracker](https://www.vesseltracker.com/)
 - [shipnext](https://shipnext.com/vessel/9417440/Ohio)
+- [magicport](https://magicport.ai/)
 
 NOOA Incident MAP 
 
@@ -3352,6 +3358,7 @@ Wordlists for all
 - [wordlists](https://github.com/assetnote/wordlists)
 - [Hashmob](https://hashmob.net/resources/hashmob)
 - [RockYou2024](https://github.com/exploit-development/RockYou2024)
+- [bopscrk - Generate own wordlist](https://github.com/r3nt0n/bopscrk)
 
 Web fuzz wordlists
 
@@ -3560,6 +3567,8 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [globalsecurity](https://www.globalsecurity.org/military/world/index.html)
 - [cat-uxo](https://cat-uxo.com/)
 - [osm-tag-info-military](https://taginfo.openstreetmap.org/keys/military#map)
+- [Aircraft Mil Dataset](https://github.com/sdr-enthusiasts/plane-alert-db)
+- [live-military](https://www.live-military-mode-s.eu/)
 
 Simulator and Game 
 
