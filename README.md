@@ -150,6 +150,7 @@ Be carefull using this tool
 - [TOOKIE OSINT](https://github.com/Alfredredbird/tookie-osint)
 - [Hoaxy](https://hoaxy.osome.iu.edu/)
 - [Offensive OSINT](https://www.os-surveillance.io/#choose-plan)
+- [botsentinel](https://botsentinel.com/dashboard)
 
 # Collection Dataset
 
@@ -343,6 +344,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 
 # Web Intelligence
 
+- [dnslytics](https://dnslytics.com/)
 - [Better Whois](http://www.betterwhois.com)
 - [whoishistory](https://osint.sh/whoishistory/)
 - [DNS History](http://dnshistory.org)
@@ -632,6 +634,7 @@ net huggers
 - [freifunk](https://www.freifunk-karte.de/)
 - [GONZOsint- geowifi](https://github.com/GONZOsint/geowifi)
 - [bgp](https://bgp.tools/)
+- [macaddress](https://macaddress.io/)
 
 # SOC & Threat Hunting
 
@@ -1005,6 +1008,7 @@ Example
 - [google finance](https://www.google.com/finance/)
 - [siteworthtraffic](https://www.siteworthtraffic.com/)
 - [ID Bappebti](https://bappebti.go.id/)
+- [candid](https://app.candid.org/)
 
 # People Searching
 
@@ -1152,6 +1156,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 # Finding Usernames
 
 - [OSINT indsutries](https://www.osint.industries/)
+- [lullar](https://lullar-com-3.appspot.com/en)
 - [Namechk](http://www.namechk.com)
 - [Knowem](http://www.knowem.com)
 - [Nexfil](https://github.com/thewhiteh4t/nexfil)
@@ -1442,6 +1447,7 @@ or you can use dork for spesific example
 - [stweet](https://github.com/markowanga/stweet)
 - [tweepy](https://www.tweepy.org/)
 - [twtdata](https://www.twtdata.com/)
+- [botsentinel](https://botsentinel.com/dashboard)
 
 Twitter Search Engine 
 
@@ -1449,6 +1455,7 @@ Twitter Search Engine
 - [allmytweets](http://www.allmytweets.com)
 - [Twimemachine](https://www.twimemachine.com)
 - [inteltechniques](http://inteltechniques.com/osint/twitter.html)
+- [twitter lolarchiver](https://twitter.lolarchiver.com/)
 
 # Github 
 
@@ -1562,6 +1569,7 @@ Google queries for MySpace
 # Email Tracking
 
 - [OSINT indsutries](https://www.osint.industries/)
+- [lullar](https://lullar-com-3.appspot.com/en)
 - [ip-adress](http://www.ip-adress.com/trace_email/)
 - [whatismyipaddress](http://www.whatismyipaddress.com/trace-email)
 - [hunter](https://hunter.io/)
@@ -1648,8 +1656,30 @@ Firefox plugin that will assist in downloading all media from a website
 - [Bellingcat Auto Archive](https://github.com/bellingcat/auto-archiver)
 - [Archive today](https://archive.ph/)
 
-# OSINT TOOLS
+# OSINT Online Tool  
 
+- [Echosec](https://www.echosec.net/)
+- [Labs TIB](https://labs.tib.eu/info/en/)
+- [Foller](https://foller.me/)
+- [Tweet Deck](https://tweetdeck.twitter.com/)
+- [Tweet Trips](https://www.tweetedtrips.com/)
+- [Tweet Tonomy](http://www.twitonomy.com/)
+- [Twinangulate](https://www.twiangulate.com/search/)
+- [Geosocial](http://geosocialfootprint.com/)
+- [Hash tracking](https://www.hashtracking.com/)
+- [Socmint tool](http://socmint.tools/)
+- [Spyse](https://spyse.com/)
+- [OSINT Combine](https://www.osintcombine.com/tools)
+- [Cell Id Lookup](https://www.reskrim.com/cek.php)
+- [Device Info](https://www.deviceinfo.me/)
+- [Cell Finder](https://cellidfinder.com/)
+- [GRABIFY IP](https://grabify.link/)
+- [Cek Rekening](https://cekrekening.id/home)
+- [Thatsthem](https://thatsthem.com/)
+- [IntelligenceX](https://intelx.io/tools)
+- [lolarchiver](https://osint.lolarchiver.com/#)
+- [cybdetective public tool](https://cybdetective.com/)
+- [OSINT indsutries](https://www.osint.industries/)
 - [bbot](https://github.com/blacklanternsecurity/bbot)
 - [Meta OSINT](https://metaosint.github.io/)
 - [Shrelock](https://github.com/sherlock-project/sherlock)
@@ -1694,31 +1724,8 @@ Firefox plugin that will assist in downloading all media from a website
 - [Photon Incredibly fast crawler designed for OSINT](https://github.com/s0md3v/Photon)
 - [infoooze](https://github.com/devXprite/infoooze)
 - [Eye](https://github.com/N0rz3/Eyes)
+- [find osint-tool](https://find.osint-tool.com/)
 - [More](https://forum.seccodeid.com/?q=osint)
-
-# OSINT Online Tool  
-
-- [Echosec](https://www.echosec.net/)
-- [Foller](https://foller.me/)
-- [Tweet Deck](https://tweetdeck.twitter.com/)
-- [Tweet Trips](https://www.tweetedtrips.com/)
-- [Tweet Tonomy](http://www.twitonomy.com/)
-- [Twinangulate](https://www.twiangulate.com/search/)
-- [Geosocial](http://geosocialfootprint.com/)
-- [Hash tracking](https://www.hashtracking.com/)
-- [Socmint tool](http://socmint.tools/)
-- [Spyse](https://spyse.com/)
-- [OSINT Combine](https://www.osintcombine.com/tools)
-- [Cell Id Lookup](https://www.reskrim.com/cek.php)
-- [Device Info](https://www.deviceinfo.me/)
-- [Cell Finder](https://cellidfinder.com/)
-- [GRABIFY IP](https://grabify.link/)
-- [Cek Rekening](https://cekrekening.id/home)
-- [Thatsthem](https://thatsthem.com/)
-- [IntelligenceX](https://intelx.io/tools)
-- [lolarchiver](https://osint.lolarchiver.com/#)
-- [cybdetective public tool](https://cybdetective.com/)
-- [OSINT indsutries](https://www.osint.industries/)
 
 # Telegram Tool
 
@@ -1902,6 +1909,8 @@ Search channel, username anymore
 - [earthkit](https://earthkit.app/)
 - [imageforensic](https://www.imageforensic.org/)
 - [watermarkremover](https://www.watermarkremover.io/)
+- [georgeom](https://georgeom.net/StegOnline/upload)
+- [fotoforensics](https://fotoforensics.com/)
 
 # Stock Images
 
@@ -2134,6 +2143,8 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Offensive OSINT](https://www.os-surveillance.io/#choose-plan)
 - [OSM - Taginfo](https://taginfo.openstreetmap.org/keys)
 - [Bellingcat Google Maps review Filename Chrome Extension](https://www.bellingcat.com/resources/2024/10/15/google-maps-image-filename-finder-tool/)
+- [SOAR Earth](https://soar.earth/maps?)
+- [Kamerka](https://github.com/woj-ciech/Kamerka-GUI)
 
 Conveter tool 
 
@@ -2189,6 +2200,7 @@ Geojson viewer
 - [yelp](https://www.yelp.com/)
 - [wikinearby](https://wikinearby.toolforge.org/)
 - [Wikimapia](http://wikimapia.org)
+- [vrbo](https://www.vrbo.com/)
 
 # Fact Checking
 
@@ -2327,6 +2339,8 @@ Desktop NET debugger and assembly editor
 - [Maltego Social Links Pro](https://www.maltego.com/transform-hub/social-links-pro/)
 - [trackenn](https://github.com/kennbroorg/trackenn?tab=readme-ov-file)
 - [tokensniffer](https://tokensniffer.com/)
+- [opensea](https://opensea.io/)
+- [nyckel NFT Finder](https://www.nyckel.com/nft-finder)
 
 # Crypto Market & Analysis  
 
@@ -2346,6 +2360,7 @@ Transaction Analysis
 - [bitcoinwhoswho](https://www.bitcoinwhoswho.com/)
 - [etherscan](https://etherscan.io/)
 - [etherchain](https://www.etherchain.org/)
+- [web3 username search](https://app.ens.domains/)
 
 # Cell Investigation
 
@@ -2716,6 +2731,8 @@ Social Network and blogging
 - [GCK'S FILE SIGNATURES TABLE](https://www.garykessler.net/library/file_sigs.html)
 - [stylesuxx Steganography Online](https://stylesuxx.github.io/steganography/)
 - [fdupes](https://github.com/adrianlopezroche/fdupes)
+- [georgeom](https://georgeom.net/StegOnline/upload)
+- [fotoforensics](https://fotoforensics.com/)
 
 *Pro Tips 
 
@@ -3005,6 +3022,7 @@ Strict and disable bot crawl search engine index account
 # Vehicle OSINT
 
 - [licenseplatemania](https://licenseplatemania.com/)
+- [worldlicenseplates](http://worldlicenseplates.com/)
 - [platesmania](https://platesmania.com/uk/search?&lang=en)
 - [findbyplate](https://findbyplate.com/)
 - [google image](https://www.google.com/imghp?hl=en)
@@ -3050,6 +3068,7 @@ VIN Checker
 - [carvx JP](https://carvx.jp/)
 - [cyclevin](https://cyclevin.com/)
 - [epicvin](https://epicvin.com/)
+- [VIN Decoder](https://vpic.nhtsa.dot.gov/decoder)
 
 Public Transport 
 
@@ -3092,6 +3111,8 @@ Public Transport
 - [live-military](https://www.live-military-mode-s.eu/)
 - [theairtraffic](https://globe.theairtraffic.com/)
 - [ADS hub Station](https://www.adsbhub.org/stations.php)
+- [airportia](https://www.airportia.com/)
+- [utopiax](https://www.utopiax.org/)
 
 # Ship Tracking & Maritim
 
@@ -3130,6 +3151,7 @@ NOOA Incident MAP
 
 # Railways
 
+- [Global Open Railways](https://www.openrailwaymap.org/)
 - [Open Railways](https://wiki.openstreetmap.org/wiki/OpenRailwayMap)
 - [Train Tracker](https://mobility.portal.geops.io/world.geops.transit?lang=en&layers=strassennamen,haltekanten,haltestellen,pois,world.geops.traviclive&x=810000&y=5900000&z=5.5)
 - [Yandex Train Map](https://rasp.yandex.ru/map/trains/)
@@ -3481,6 +3503,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [greynoise](https://viz.greynoise.io/)
 - [bgpview](https://bgpview.io/)
 - [wigle](https://wigle.net/)
+- [macaddress](https://macaddress.io/)
 
 # Medical OSINT 
 
@@ -3809,6 +3832,7 @@ Social Media Analytics
 - [sociallinks](https://sociallinks.io/)
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
 - [breach-hq](https://breach-hq.com/threat-actors)
+- [United Nation PBB](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list)
 
 # OSINT for Politics and Geopolitics
 
@@ -3853,6 +3877,7 @@ Terrorism & Radical
 
 # OSINT Satellite
 
+- [SOAR Earth](https://soar.earth/maps?)
 - [apollomapping](https://apollomapping.com/)
 - [MODIS NASA](https://modis.gsfc.nasa.gov/gallery/)
 - [ESRI](https://geoxc-apps.bd.esri.com/)
@@ -4168,6 +4193,8 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [ID BPS](https://www.bps.go.id/id)
 - [ID opentender](https://opentender.net/)
 - [ID Pengadaan Tender](https://tender.pengadaan.com/tender)
+- [AS SAM gov](https://sam.gov/search/)
+- [littlesis](https://littlesis.org/)
 
 # OSINT Cryptography (Cipher)
 
@@ -4213,6 +4240,13 @@ Search file in cloud like Google drive and other
 - [Google CSE search drive](https://cse.google.com/cse?cx=013991603413798772546:nwzqlcysx_w) Search file in Google drive with custom search engine
 - [cloud enum](https://github.com/initstring/cloud_enum) Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
 - [dedigger](https://www.dedigger.com/#gsc.tab=0) Find public files in Google Drive
+
+# OSINT Property
+
+Find the list and history about house property, price and etc 
+
+- [ZILLOW](https://www.zillow.com/homes/for_sale/) 
+- [trulia](https://www.trulia.com/)
 
 # OSINT Technique Tips 
 
