@@ -576,9 +576,11 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [pulsedive](https://pulsedive.com/dashboard/)
 - [cuckoo](https://cuckoo.cert.ee/)
 - [neiki](https://tip.neiki.dev/)
+- [criminalip](https://www.criminalip.io/) 
 
 # IoT Search Engines
 
+- [criminalip](https://www.criminalip.io/) 
 - [LeakIX](https://leakix.net)
 - [Binary Edge](https://www.binaryedge.io)
 - [Shodan](https://www.shodan.io)
@@ -792,6 +794,7 @@ Example
 
 # Other Search Engines
 
+- [criminalip](https://www.criminalip.io/) 
 - [us.searchboth.net](http://us.searchboth.net)
 - [Archive.org](http://www.arhive.org)
 - [Yandex](Yandex.com)
@@ -3192,6 +3195,7 @@ NOOA Incident MAP
 
 # OSINT for Red Team 
 
+- [criminalip](https://www.criminalip.io/) Search information like ip, iot and other things 
 - [SearchSploit](https://www.exploit-db.com/searchsploit)
 Command line search tool for Exploit-DB
 - [Apk mirror](https://www.apkmirror.com/) Sites that provide downloads apk and version
