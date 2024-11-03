@@ -69,6 +69,7 @@
 - [Bellingcat](https://bellingcat.gitbook.io/toolkit/resources/guides-and-handbooks)
 - [Dukera Gewel OSINT](https://publish.obsidian.md/dukera-gewel/about)
 - [Soxoj Sowel](https://sowel.soxoj.com/about)
+- [Linkedin Guide](https://hatless1der.com/new-linkedin-search-features-mean-new-osint-opportunities/)
 
 # Vehicle
 
