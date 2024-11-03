@@ -716,6 +716,8 @@ You can find the file hash or other threat indicator
 - [recordedfuture](https://www.recordedfuture.com/vulnerability-database)
 - [neiki](https://tip.neiki.dev/)
 - [neiki](https://tip.neiki.dev/)
+- [dynamite.ai search pcap file](https://lab.dynamite.ai/)
+- [packetsafari analys pcap file](https://app.packetsafari.com/)
 
 # Automation Dorking 
 
@@ -820,6 +822,7 @@ Example
 - [Geoint CSE search](https://cse.google.com/cse?cx=015328649639895072395:sbv3zyxzmji#gsc.tab=0&gsc.sort=)
 - [lolarchiver](https://osint.lolarchiver.com/#)
 - [wbmii](https://webmii.com/)
+- [Wiki Leaks](https://wikileaks.org/)
 
 # Internet Archive
 
@@ -1007,7 +1010,7 @@ Example
 - [spyfu](https://www.spyfu.com/)
 - [google finance](https://www.google.com/finance/)
 - [siteworthtraffic](https://www.siteworthtraffic.com/)
-- [ID Bappebti](https://bappebti.go.id/)
+- [ID Bappebti](https://ceklegalitas.bappebti.go.id/)
 - [candid](https://app.candid.org/)
 
 # People Searching
@@ -1056,6 +1059,9 @@ Example
 - [personlookup](https://personlookup.co.za/)
 - [OSINT indsutries](https://www.osint.industries/)
 - [infobel](https://www.infobel.com/fr/world)
+- [peoplefinder](https://www.peoplefinder.com/)
+- [White Pages](https://www.whitepages.com/)
+- [locatefamily](https://www.locatefamily.com/)
 
 # Family People Search 
 
@@ -1067,6 +1073,7 @@ Example
 - [geneanet](https://en.geneanet.org/)
 - [wiewaswie NL](https://www.wiewaswie.nl/)
 - [familytreenow](https://familytreenow.com/)
+- [locatefamily](https://www.locatefamily.com/)
 
 # Phone Numbers
 
@@ -1352,6 +1359,8 @@ or you can use dork for spesific example
 - [Sub reddit](https://subreddits.org/)
 - [RedActive](https://www.redective.com/)
 - [f5bot](https://f5bot.com/)
+- [reditr](https://reditr.com/search)
+- [Redit Search CSE](https://cse.google.com/cse?cx=007749065626525752968:qh5bqebwi30)
 
 # Youtube 
 
@@ -1368,6 +1377,7 @@ or you can use dork for spesific example
 - [Savesubs](https://savesubs.com/)
 - [hadzy - YT Comment](https://hadzy.com/)
 - [Filmot](https://filmot.com/)
+- [appsgolem](https://appsgolem.com/en/download-most-replayed-moment-youtube-video)
 
 # Mastodon 
 
@@ -1493,6 +1503,11 @@ Google queries for LinkedIn
 - [reversecontact](https://www.reversecontact.com/)
 - [Linkedin Search OSINT](https://cse.google.com/cse?cx=daaf18e804f81bed0)
 - [Linkedin Overlay Remover](https://addons.mozilla.org/nl/firefox/addon/linkedin-overlay-remover/)
+- [Linkedin Google Search Custom](https://cse.google.com/cse?cx=002879889969213338875:ykfcyju2xe8)
+- [Linkedin Google Search Custom 2](https://cse.google.com/cse?cx=012951739560700154499:8rl_7tkzjgq#gsc.tab=0)
+- [coresignal](https://coresignal.com/)
+- [salesql](https://salesql.com/pricing)
+- [Linkedin Attack Vector](https://www.osintdojo.com/diagrams/linkedin)
 
 # MySpace
 
@@ -1553,18 +1568,6 @@ Google queries for MySpace
 - [Geotag](https://vsudo.net/tools/geotag)
 - [PhotOSINT Browser Extension](https://chrome.google.com/webstore/detail/photosint/gonhdjmkgfkokhkflfhkbiagbmoolhcd/related?hl=nl)
 - [Python exif extractor](https://github.com/davidbombal/red-python-scripts/blob/main/exif.py)
-
-# Documents
-
-- [Metashield Analyzer](https://metashieldanalyzer.elevenpaths.com/)
-- [foca](https://github.com/ElevenPaths/FOCA)
-- [Psbdmp](https://psbdmp.ws/)
-- [Find PDF Doc](http://www.findpdfdoc.com/)
-- [Pdf analyzer](http://pdf-analyser.edpsciences.org/)
-- [Tools pdf24](https://tools.pdf24.org/en/extract-images)
-- [ArchivEye](https://github.com/eastrd/ArchivEye)
-- [Fdupes](https://github.com/adrianlopezroche/fdupes)
-- [kaseware search query](https://www.kaseware.com/search-query)
 
 # Email Tracking
 
@@ -1753,7 +1756,7 @@ Search channel, username anymore
 - [Teletehon](https://docs.telethon.dev/en/stable/basic/installation.html)
 - [Bellingcat Telegram Joiner](https://bellingcat.github.io/telegram-group-joiner/)
 
-# Document and Slides Search
+# Document and Slides Search OSINT
 
 - [Authorstream](http://www.authorstream.com)
 - [Find-pdf-doc](http://www.findpdfdoc.com)
@@ -1773,6 +1776,20 @@ Search channel, username anymore
 - [Pdf analyzer](http://pdf-analyser.edpsciences.org/)
 - [Tools pdf24](https://tools.pdf24.org/en/extract-images)
 - [ArchivEye](https://github.com/eastrd/ArchivEye)
+- [Metashield Analyzer](https://metashieldanalyzer.elevenpaths.com/)
+- [foca](https://github.com/ElevenPaths/FOCA)
+- [Psbdmp](https://psbdmp.ws/)
+- [Find PDF Doc](http://www.findpdfdoc.com/)
+- [Pdf analyzer](http://pdf-analyser.edpsciences.org/)
+- [Tools pdf24](https://tools.pdf24.org/en/extract-images)
+- [ArchivEye](https://github.com/eastrd/ArchivEye)
+- [Fdupes](https://github.com/adrianlopezroche/fdupes)
+- [kaseware search query](https://www.kaseware.com/search-query)
+- [CV REesume Search](https://booleanstrings.com/hidden-resumes/#gsc.tab=0&gsc.q=)
+- [booleanstrings document search](https://booleanstrings.com/doc-finder-storage/#gsc.tab=0&gsc.q=)
+- [wikileaks](https://search.wikileaks.org/)
+- [slideshare](https://www.slideshare.net/)
+- [pdfdrive](https://www.pdfdrive.com/search?q=password)
 
 # Real-Time Search, Social Media Search, and General Social Media Tools
 
@@ -2145,6 +2162,8 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Bellingcat Google Maps review Filename Chrome Extension](https://www.bellingcat.com/resources/2024/10/15/google-maps-image-filename-finder-tool/)
 - [SOAR Earth](https://soar.earth/maps?)
 - [Kamerka](https://github.com/woj-ciech/Kamerka-GUI)
+- [dual maps](https://data.mashedworld.com/dualmaps/map.htm)
+- [instantstreetview](https://www.instantstreetview.com/)
 
 Conveter tool 
 
@@ -2839,7 +2858,7 @@ Strict and disable bot crawl search engine index account
 - [ECO Germany](https://www.internet-beschwerdestelle.de/de/index.html) Internet Foundation Germany
 - [NCOSE](https://endsexualexploitation.org/about/) National Center on Sexual Exploitation (NCOSE) exists because people should be free to live and love without sexual abuse and exploitation.
 - [More info all region](https://support.google.com/websearch/answer/148666?hl=id) Check available internet hotline around world 
-- [411](https://www.whitepages.com/suppression-requests) Request for remove your data from this site
+- [411 white pages](https://www.whitepages.com/suppression-requests) Request for remove your data from this site
 - [411 Info](https://411.info/manage/) Request for remove your data from this site
 - [Absolute People Search](https://absolutepeoplesearch.com/optout) Request for remove your data from this site
 - [Acxiom](https://isapps.acxiom.com/optout/optout.aspx) Request for remove your data from this site
@@ -3046,6 +3065,7 @@ Strict and disable bot crawl search engine index account
 - [etimspayments](https://prodpci.etimspayments.com/pbw/include/dc_parking/input.jsp?ticketType=P)
 - [platerecognizer](https://platerecognizer.com/)
 - [partialnumberplate UK](https://www.partialnumberplate.co.uk/)
+- [ID Samsat](https://samsat.info/cek-pajak-kendaraan-bermotor-online)
 
 VIN Checker 
 
@@ -3310,6 +3330,7 @@ Active Directory
 - [SharpADWS](https://github.com/wh0amitz/SharpADWS) via Active Directory Web Services (ADWS) protocol
 - [SOAPHound](https://github.com/FalconForceTeam/SOAPHound) via Active Directory Web Services (ADWS) protocol
 - [SharpHostInfo](https://github.com/shmilylty/SharpHostInfo)
+- [lolad project](https://lolad-project.github.io/)
 
 Webshell Bypass
 
@@ -3488,7 +3509,7 @@ Audio enchange quality
 
 # OSINT Network 
 
-Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
+Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic and VPN
 
 - [Spur](https://spur.us/)
 - [FocSec](https://focsec.com/)
@@ -3504,12 +3525,16 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [bgpview](https://bgpview.io/)
 - [wigle](https://wigle.net/)
 - [macaddress](https://macaddress.io/)
+- [dynamite.ai search pcap file](https://lab.dynamite.ai/)
+- [packetsafari analys pcap file](https://app.packetsafari.com/)
+- [wireshark](https://www.wireshark.org/)
 
 # Medical OSINT 
 
 - [WHO](https://www.who.int/)
 - [PUB MED](https://pubmed.ncbi.nlm.nih.gov/)
 - [worldwidescience](https://worldwidescience.org/index.html)
+- [ICRC International Committee of the Red Cross](https://www.icrc.org/en)
 
 # OSINT Military
 
@@ -3592,6 +3617,10 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip and VPN
 - [osm-tag-info-military](https://taginfo.openstreetmap.org/keys/military#map)
 - [Aircraft Mil Dataset](https://github.com/sdr-enthusiasts/plane-alert-db)
 - [live-military](https://www.live-military-mode-s.eu/)
+- [hotgunz](https://www.hotgunz.com/search.php)
+- [camopedia](https://camopedia.org/index.php/Indonesia)
+- [Wikipedia Milltary Ranks](https://en.wikipedia.org/wiki/List_of_comparative_military_ranks)
+- [ICRC International Committee of the Red Cross](https://www.icrc.org/en)
 
 Simulator and Game 
 
@@ -3912,6 +3941,7 @@ Terrorism & Radical
 - [Microsoft GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
 - [List of satellite map images with missing or unclear data](https://en.wikipedia.org/wiki/List_of_satellite_map_images_with_missing_or_unclear_data)
 - [ventusky](https://www.ventusky.com/?p=-6.6;115.7;4&l=satellite)
+- [EOS lan viewer](https://eos.com/landviewer/?lat=-6.22977&lng=106.98230&z=11&menuItem=search)
 
 *Aditional Information coverage sat 
 
@@ -3997,10 +4027,11 @@ You can use for study academic literature, search book, people name, old archive
 # OSINT Language 
 
 - [babla](https://www.babla.co.id/pengucapan/bahasa-china/)
-- [Google](https://www.google.com/search?q=google+translate)
+- [Google](https://translate.google.co.id/?sl=auto&tl=en&op=translate)
 - [deepl](https://www.deepl.com/en/translator)
 - [glosbe](https://id.glosbe.com/)
 - [World map Country, language, writing system](https://www.key-shortcut.com/en/writing-systems/world-map-of-alphabets-scripts#map)
+- [chatgpt](https://chatgpt.com/)
 
 # OSINT OPSEC 
 
@@ -4195,6 +4226,9 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [ID Pengadaan Tender](https://tender.pengadaan.com/tender)
 - [AS SAM gov](https://sam.gov/search/)
 - [littlesis](https://littlesis.org/)
+- [ID Kemenkeu](https://www.kemenkeu.go.id/home)
+- [ID Kejaksaan](https://www.kejaksaan.go.id/)
+- [ID Badan Pengawasan Keuangan dan Pembangunan](https://www.bpkp.go.id/)
 
 # OSINT Cryptography (Cipher)
 
