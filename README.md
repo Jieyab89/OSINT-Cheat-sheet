@@ -3311,6 +3311,9 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [frida](https://frida.re/) Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers
 - [Wireshark](https://www.wireshark.org/) Viewing and dump protocol such as signal, http and other 
 - [greynoise](https://viz.greynoise.io/) Search CVE, IP  
+- [XSS Payload and Crafting Portswigger](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet) XSS payload list from Portswigger
+- [SQL Injection Portswigger Cheat Sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)  Sql Injection payload list from Portswigger
+- [GitTools](https://github.com/internetwache/GitTools) A repository with 3 tools for pwn'ing websites with .git repositories available
 
 Social Engineering
 
@@ -4030,6 +4033,8 @@ You can use for study academic literature, search book, people name, old archive
 
 # OSINT Language 
 
+- [grammarly](https://www.grammarly.com/)
+- [quillbot](https://quillbot.com/translate)
 - [babla](https://www.babla.co.id/pengucapan/bahasa-china/)
 - [Google](https://translate.google.co.id/?sl=auto&tl=en&op=translate)
 - [deepl](https://www.deepl.com/en/translator)
