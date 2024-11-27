@@ -2542,6 +2542,23 @@ Build your sockpuppet account and proctect your privacy
 - [dangerzone](https://github.com/freedomofpress/dangerzone) Take potentially dangerous PDFs, office documents, or images and convert them to a safe PDF
 - [coveryourtracks](https://coveryourtracks.eff.org/) Check your browser leaked information
 
+Build your own deepfake 
+
+*Generate your deepfake 
+
+- [DeepFaceLab](https://github.com/iperov/DeepFaceLab)
+- [Facefusion](https://docs.facefusion.io/installation/platform/windows) 
+- [Roop](https://github.com/s0md3v/roop/wiki)
+- [Deepfake Offensive Toolkit](https://github.com/sensity-ai/dot)
+
+Virtual Camera 
+
+- [OBS](https://obsproject.com/)
+- [splitcam](https://splitcam.com/)
+- [altercam](https://altercam.com/)
+- [Virtual cam apk mod](https://apkcombo.com/id/virtual-camera-live-assist/virtual.camera.app/download/apk)
+- [vcames - CN](https://vcames.xyz/)
+
 Social Network and blogging
 
 - Wordpress
@@ -3334,6 +3351,8 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [bytecodeviewer](https://bytecodeviewer.com/) An advanced yet user friendly Java Reverse Engineering Suite
 - [android-penetration-testing-cheat-sheet](https://github.com/ivan-sincek/android-penetration-testing-cheat-sheet) Android Penetration Testing Cheat Sheet
 - [List of MIME types / Internet Media Types](https://www.freeformatter.com/mime-types-list.html) Awesome site for programming and hackers
+- [zygisk-reflutter](https://github.com/yohanes/zygisk-reflutter) tool for reverse engineering Flutter-based applications for both rooted and non-rooted Android
+- [httptoolkit](https://httptoolkit.com/) Intercept, view & edit any HTTP traffic
 
 Social Engineering
 
