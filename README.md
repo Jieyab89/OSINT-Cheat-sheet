@@ -225,6 +225,7 @@ Site and forums OSINT community arround world
 - [goosint](https://goosint.com/)
 - [Bellingcat Volunteer](https://sites.google.com/bellingcat.com/bellingcat-volunteer-community/projects-opportunities)
 - [benjaminstrick](https://benjaminstrick.com/blog/)
+- [osinord](https://www.osinord.com/)
 
 # General Search
 
@@ -303,6 +304,7 @@ Site and forums OSINT community arround world
 - [META crowdtangle](https://web.facebook.com/formedia/tools/crowdtangle?_rdc=1&_rdr)
 - [drone emprit](https://pers.droneemprit.id/)
 - [brandmentions](https://brandmentions.com/)
+- [meltwater](https://www.meltwater.com/en)
 
 # Social Media Management and Content Discovery
 
@@ -321,6 +323,7 @@ Site and forums OSINT community arround world
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
 - [socialscan](https://pypi.org/project/socialscan/)
 - [socialcatfish](https://socialcatfish.com/)
+- [meltwater](https://www.meltwater.com/en)
 
 # Hastag & Keyword Analysis 
 
@@ -341,6 +344,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [orangedatamining](https://orangedatamining.com/)
 - [twtdata](https://www.twtdata.com/)
 - [gephi](https://gephi.org/)
+- [meltwater](https://www.meltwater.com/en)
 
 # Web Intelligence
 
@@ -429,6 +433,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [DMCA Lumen DB](https://lumendatabase.org/)
 - [SubDomainRadar](https://subdomainradar.io)
 - [dnshistory](https://osint.sh/dnshistory/)
+- [bellingcat wayback-google-analytics](https://github.com/bellingcat/wayback-google-analytics)
 
 *Tips web cache 
 
@@ -577,6 +582,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [cuckoo](https://cuckoo.cert.ee/)
 - [neiki](https://tip.neiki.dev/)
 - [criminalip](https://www.criminalip.io/) 
+- [hackedlist](https://hackedlist.io/)
 
 # IoT Search Engines
 
@@ -826,6 +832,8 @@ Example
 - [lolarchiver](https://osint.lolarchiver.com/#)
 - [wbmii](https://webmii.com/)
 - [Wiki Leaks](https://wikileaks.org/)
+- [bellingcat wayback-google-analytics](https://github.com/bellingcat/wayback-google-analytics)
+- [yamli Arabic search](https://www.yamli.com/)
 
 # Internet Archive
 
@@ -848,9 +856,11 @@ Example
 - [ShadowDragon](https://shadowdragon.io/)
 - [lolarchiver](https://osint.lolarchiver.com/#)
 - [Time Travel](http://timetravel.mementoweb.org/)
+- [bellingcat wayback-google-analytics](https://github.com/bellingcat/wayback-google-analytics)
 
 # Data Breached OSINT
 
+- [hackedlist](https://hackedlist.io/)
 - [Dehashed](https://www.dehashed.com/)
 - [Haveibeenpwned](https://haveibeenpwned.com/)
 - [Intelligence X](https://intelx.io/)
@@ -1574,6 +1584,7 @@ Google queries for MySpace
 
 # Email Tracking
 
+- [Mailcat](https://github.com/sharsil/mailcat)
 - [OSINT indsutries](https://www.osint.industries/)
 - [lullar](https://lullar-com-3.appspot.com/en)
 - [ip-adress](http://www.ip-adress.com/trace_email/)
@@ -1661,6 +1672,8 @@ Firefox plugin that will assist in downloading all media from a website
 - [url png](https://www.url2png.com/) 
 - [Bellingcat Auto Archive](https://github.com/bellingcat/auto-archiver)
 - [Archive today](https://archive.ph/)
+- [flameshot](https://flameshot.org/)
+- [Googl earth pro](https://earth.google.com/web)
 
 # OSINT Online Tool  
 
@@ -2167,6 +2180,8 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Kamerka](https://github.com/woj-ciech/Kamerka-GUI)
 - [dual maps](https://data.mashedworld.com/dualmaps/map.htm)
 - [instantstreetview](https://www.instantstreetview.com/)
+- [skyscrapercenter Buildings](https://www.skyscrapercenter.com/buildings)
+- [Geo and 3D building in Istanbul](https://harita.istanbul/)
 
 Conveter tool 
 
@@ -2372,6 +2387,7 @@ Desktop NET debugger and assembly editor
 
 Transaction Analysis
 
+- [tronscan](https://tronscan.org/#/)
 - [walletexplorer](https://www.walletexplorer.com/)
 - [bitref](https://bitref.com/)
 - [blockchain](https://www.blockchain.com/explorer)
@@ -3174,6 +3190,7 @@ NOOA Incident MAP
 
 # Railways
 
+- [AU Railways](http://www.railpage.org.au/railmaps/)
 - [Global Open Railways](https://www.openrailwaymap.org/)
 - [Open Railways](https://wiki.openstreetmap.org/wiki/OpenRailwayMap)
 - [Train Tracker](https://mobility.portal.geops.io/world.geops.transit?lang=en&layers=strassennamen,haltekanten,haltestellen,pois,world.geops.traviclive&x=810000&y=5900000&z=5.5)
@@ -3314,6 +3331,9 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [XSS Payload and Crafting Portswigger](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet) XSS payload list from Portswigger
 - [SQL Injection Portswigger Cheat Sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)  Sql Injection payload list from Portswigger
 - [GitTools](https://github.com/internetwache/GitTools) A repository with 3 tools for pwn'ing websites with .git repositories available
+- [bytecodeviewer](https://bytecodeviewer.com/) An advanced yet user friendly Java Reverse Engineering Suite
+- [android-penetration-testing-cheat-sheet](https://github.com/ivan-sincek/android-penetration-testing-cheat-sheet) Android Penetration Testing Cheat Sheet
+- [List of MIME types / Internet Media Types](https://www.freeformatter.com/mime-types-list.html) Awesome site for programming and hackers
 
 Social Engineering
 
@@ -3545,6 +3565,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 
 # OSINT Military
 
+- [3D Rendered Synthetic Data](https://vframe.io/3d-rendered-data/)
 - [militaryfactory](https://www.militaryfactory.com/)
 - [Military and other uniform badges](https://www.uniforminsignia.net/)
 - [SMALL ARMS SURVEY](https://www.smallarmssurvey.org/resource/introductory-guide-identification-small-arms-light-weapons-and-associated-ammunition)
@@ -3619,8 +3640,9 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [Guide Identification Weapon](https://www.jmu.edu/cisr/research/index.shtml)
 - [Norwegua Defense Research & Publication](https://ffi-publikasjoner.archive.knowledgearc.net/discover)
 - [The Rocket Artillery Reference Book](https://ffi-publikasjoner.archive.knowledgearc.net/bitstream/handle/20.500.12242/2257/09-00179.pdf)
-- [globalsecurity](https://www.globalsecurity.org/military/world/index.html)
-- [cat-uxo](https://cat-uxo.com/)
+- [globalsecurity AMMUNITION COLOR CODES](https://www.globalsecurity.org/military/world/index.html)
+- [Color-Coded Bullets Tips](https://forensicreader.com/color-coded-bullets-tables/)
+- [cat-uxo weapon and missile](https://cat-uxo.com/)
 - [osm-tag-info-military](https://taginfo.openstreetmap.org/keys/military#map)
 - [Aircraft Mil Dataset](https://github.com/sdr-enthusiasts/plane-alert-db)
 - [live-military](https://www.live-military-mode-s.eu/)
@@ -4041,6 +4063,7 @@ You can use for study academic literature, search book, people name, old archive
 - [glosbe](https://id.glosbe.com/)
 - [World map Country, language, writing system](https://www.key-shortcut.com/en/writing-systems/world-map-of-alphabets-scripts#map)
 - [chatgpt](https://chatgpt.com/)
+- [2lingual](https://2lingual.com/)
 
 # OSINT OPSEC 
 
