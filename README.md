@@ -1750,6 +1750,7 @@ Firefox plugin that will assist in downloading all media from a website
 
 Search channel, username anymore
 
+- [Maltego Telegram](https://github.com/vognik/maltego-telegram)
 - [Telegago](https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg#gsc.tab=0)
 - [TelegramDB](http://www.telegramdb.org/)
 - [Telegram Search Engine](https://xtea.io/)
