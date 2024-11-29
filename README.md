@@ -193,6 +193,7 @@ Be carefull using this tool
 - [KEMNAKER ID](https://satudata.kemnaker.go.id/data)
 - [BNN ID](https://puslitdatin.bnn.go.id/portfolio/data-statistik-kasus-narkoba/)
 - [Microsoft Building Dataset](https://planetarycomputer.microsoft.com/dataset/ms-buildings)
+- [huggingface](https://huggingface.co/)
 
 # Forums & Sites
 
@@ -1025,6 +1026,12 @@ Example
 - [siteworthtraffic](https://www.siteworthtraffic.com/)
 - [ID Bappebti](https://ceklegalitas.bappebti.go.id/)
 - [candid](https://app.candid.org/)
+- [mycareersfuture SG](https://www.mycareersfuture.gov.sg/)
+- [protocol](https://protocol.ooo/)
+- [snef SG](https://snef.org.sg/)
+- [kendoemailapp](https://kendoemailapp.com/)
+- [sgpbusiness](https://www.sgpbusiness.com/)
+- [CrossLinked](https://github.com/m8sec/CrossLinked)
 
 # People Searching
 
@@ -1075,6 +1082,7 @@ Example
 - [peoplefinder](https://www.peoplefinder.com/)
 - [White Pages](https://www.whitepages.com/)
 - [locatefamily](https://www.locatefamily.com/)
+- [CrossLinked](https://github.com/m8sec/CrossLinked)
 
 # Family People Search 
 
@@ -1521,6 +1529,7 @@ Google queries for LinkedIn
 - [coresignal](https://coresignal.com/)
 - [salesql](https://salesql.com/pricing)
 - [Linkedin Attack Vector](https://www.osintdojo.com/diagrams/linkedin)
+- [CrossLinked](https://github.com/m8sec/CrossLinked)
 
 # MySpace
 
@@ -2507,7 +2516,6 @@ Telegram
 Build your sockpuppet account and proctect your privacy
 
 - [How to build sockpupper account](https://www.osintcurio.us/2018/12/27/the-puppeteer/)
-- [Roop Image face swap from AI](https://github.com/s0md3v/roop)
 - [Thispersondoesnotexist](https://www.thispersondoesnotexist.com/)
 - [Protonmail](https://protonmail.com/)
 - [Nordvpn](https://nordvpn.com/)
@@ -2532,25 +2540,26 @@ Build your sockpuppet account and proctect your privacy
 - [Open DNS](https://www.opendns.com/home-internet-security/)
 - [I2P](https://geti2p.net/en/)
 - [TOR](https://www.torproject.org/download/)
-- [Apple Kuncitara](https://support.apple.com/id-id/guide/iphone/iph049680987/ios)
+- [Apple Kuncitara - Securing your own device](https://support.apple.com/id-id/guide/iphone/iph049680987/ios)
 - [AI Vidio Maker](https://www.synthesia.io/free-ai-video-demo#OptimizedForSharing_New)
-- [deepfakesweb](https://deepfakesweb.com/)
-- [DeepFaceLive](https://github.com/iperov/DeepFaceLive)
 - [fakeinfo](https://fakeinfo.net/)
 - [Online SMS](https://online-sms.org/)
 - [fakepersongenerator](https://www.fakepersongenerator.com/fake-name-generator)
-- [deepfakesweb](https://deepfakesweb.com/)
-- [dangerzone](https://github.com/freedomofpress/dangerzone) Take potentially dangerous PDFs, office documents, or images and convert them to a safe PDF
-- [coveryourtracks](https://coveryourtracks.eff.org/) Check your browser leaked information
+- [dangerzone - Securing your own device](https://github.com/freedomofpress/dangerzone) Take potentially dangerous PDFs, office documents, or images and convert them to a safe PDF
+- [coveryourtracks - Securing your own device](https://coveryourtracks.eff.org/) Check your browser leaked information
 
 Build your own deepfake 
 
 *Generate your deepfake 
 
+- [Roop Image face swap from AI](https://github.com/s0md3v/roop)
+- [DeepFaceLive](https://github.com/iperov/DeepFaceLive)
 - [DeepFaceLab](https://github.com/iperov/DeepFaceLab)
 - [Facefusion](https://docs.facefusion.io/installation/platform/windows) 
 - [Roop](https://github.com/s0md3v/roop/wiki)
 - [Deepfake Offensive Toolkit](https://github.com/sensity-ai/dot)
+- [huggingface](https://huggingface.co/)
+- [deepfakesweb](https://deepfakesweb.com/)
 
 Virtual Camera 
 
@@ -3354,6 +3363,8 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [List of MIME types / Internet Media Types](https://www.freeformatter.com/mime-types-list.html) Awesome site for programming and hackers
 - [zygisk-reflutter](https://github.com/yohanes/zygisk-reflutter) tool for reverse engineering Flutter-based applications for both rooted and non-rooted Android
 - [httptoolkit](https://httptoolkit.com/) Intercept, view & edit any HTTP traffic
+- [LSPosed](https://github.com/LSPosed/LSPosed) Android framework module best of mobile pentesting 
+- [kernelsu](https://kernelsu.org/id_ID/) Rooted your android device 
 
 Social Engineering
 
@@ -3575,6 +3586,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [dynamite.ai search pcap file](https://lab.dynamite.ai/)
 - [packetsafari analys pcap file](https://app.packetsafari.com/)
 - [wireshark](https://www.wireshark.org/)
+- [hackertarget](https://hackertarget.com/as-ip-lookup/)
 
 # Medical OSINT 
 
@@ -4180,6 +4192,7 @@ Company
 - [similarweb](https://www.similarweb.com/website/)
 - [Website informer](https://website.informer.com/)
 - [vstat](https://vstat.info/)
+- [sgpbusiness](https://www.sgpbusiness.com/)
 
 # Secure Code & Application 
 
