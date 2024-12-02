@@ -3522,6 +3522,7 @@ Privilage Escalation Cheat and check
 - [Loonbins](https://www.loobins.io/tactics/collection/) Awesome privilage escalation cheat and checklist
 - [Mac OS privilage escalation](https://book.hacktricks.xyz/macos-hardening/macos-security-and-privilege-escalation) Awesome privilage escalation cheat and checklist
 - [PEASS NG](https://github.com/peass-ng/PEASS-ng) Awesome automatic enum for privilage escalation cheat and checklist
+- [PEAS NG Kali Linux](https://www.kali.org/tools/peass-ng/) Awesome automatic enum for privilage escalation cheat and checklist offc kali repo
 - [wadcoms](https://wadcoms.github.io/#+Windows) WADComs is an interactive cheat sheet, offensive security tools and their respective commands, to be used against Windows/AD environments
 - [g0tmi1k linux priv esc](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/) Basic Linux Privilege Escalation
 - [Windows Privilage Escalation](https://github.com/Ignitetechnologies/Windows-Privilege-Escalation?tab=readme-ov-file) Methods of escalating privilege on Windows-based machines and CTFs with examples
