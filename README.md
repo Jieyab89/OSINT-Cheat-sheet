@@ -2532,6 +2532,7 @@ Build your sockpuppet account and proctect your privacy
 - [Temp Mail 3](https://tempmailo.com/)
 - [Temp Mail 4](https://www.guerrillamail.com/)
 - [Temp Mail 5](https://www.mailinator.com/)
+- [Temp Mail 6](https://tempmail.so/)
 - [Cryptocurrency Payment Monero](https://www.getmonero.org/)
 - [Cryptocurrency Payment Bitcoin](https://bitcoin.org/en/)
 - [Openpgp](https://www.openpgp.org/)
