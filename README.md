@@ -1032,6 +1032,9 @@ Example
 - [kendoemailapp](https://kendoemailapp.com/)
 - [sgpbusiness](https://www.sgpbusiness.com/)
 - [CrossLinked](https://github.com/m8sec/CrossLinked)
+- [resourcecontracts](https://www.resourcecontracts.org/)
+- [sayari](https://sayari.com/)
+- [lexisnexis](https://www.lexisnexis.com/en-us)
 
 # People Searching
 
@@ -3229,7 +3232,7 @@ NOOA Incident MAP
 - [Railway zugfinder](https://www.zugfinder.net/)
 - [KAI ID ROUTE](https://commuterline.id/perjalanan-krl/peta-rute)
 
-# GPT OSINT 
+# GPT OSINT (AI)
 
 - [Gpt osint](https://github.com/gigz/gpt-osint)
 - [Hacker AI](https://chat.hackerai.co/id/login)
@@ -3237,6 +3240,7 @@ NOOA Incident MAP
 - [Chat GPT](https://openai.com/chatgpt/)
 - [poe AI](https://poe.com/login)
 - [Chat-PDF](https://www.chatpdf.com/)
+- [perplexity](https://www.perplexity.ai/)
 
 # OSINT for Red Team 
 
@@ -3366,6 +3370,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [httptoolkit](https://httptoolkit.com/) Intercept, view & edit any HTTP traffic
 - [LSPosed](https://github.com/LSPosed/LSPosed) Android framework module best of mobile pentesting 
 - [kernelsu](https://kernelsu.org/id_ID/) Rooted your android device 
+- [IOS Version Jailbreak Chart](https://docs.google.com/spreadsheets/d/1QjWyoDfaiF-TWhzVdvEMRqA3OQXsz6e8of3SxZB1W_M/edit?gid=128016025#gid=128016025)
 
 Social Engineering
 
@@ -3377,6 +3382,7 @@ Social Engineering
 
 Active Directory
 
+- [Active Directory and Red Teaming attack vectors](https://github.com/zulfi0/RedTeaming_CheatSheet)
 - [BloodHound](https://github.com/BloodHoundAD/BloodHound)
 - [Certify](https://github.com/GhostPack/Certify)
 - [Certipy](https://github.com/ly4k/Certipy)
