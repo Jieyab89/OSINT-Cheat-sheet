@@ -2,9 +2,11 @@
 
 Thank you very much for those of you who contributed. You can contribute with me in the following format
 
-# Format 
+# OSINT Resouces 
 
-- Use heading for title or poin 
+## Format 
+
+- Use heading 1 for title or point 
 - Use list and url 
 - Use english  
 
@@ -24,6 +26,11 @@ this is  description
 - [NAME TOOLS](URL)
 - [NAME TOOLS 2](URL)
 
+# OSINT SOCMINT
+
+- [NAME TOOLS](URL) this is  description 
+- [NAME TOOLS 2](URL) this is  description 
+
 # Other 
 
 If you want change the repo for web based and create like node, data list, search and other are welcome 
@@ -38,3 +45,25 @@ If you want change the repo for web based and create like node, data list, searc
 - Add Reference
 - Add your name or contact person (Optional)
 - File extension .md 
+
+# Script 
+
+## Format
+
+- Decide what script you're creating and what it's for. 
+- After deciding, put your script in the script folder 
+
+e.g
+
+Red Team - Python Scripts 
+
+> Python 
+>
+> Script for scrapping Twitter 
+> 
+> You can also add tips for usage your script or hints 
+>
+> your script 
+> 
+
+or you can also create new folder on this script path 
