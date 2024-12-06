@@ -2564,6 +2564,7 @@ Build your own deepfake
 - [Deepfake Offensive Toolkit](https://github.com/sensity-ai/dot)
 - [huggingface](https://huggingface.co/)
 - [deepfakesweb](https://deepfakesweb.com/)
+- [Swapface](https://swapface.org/#/home)
 
 Virtual Camera 
 
