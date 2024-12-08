@@ -1086,6 +1086,7 @@ Example
 - [White Pages](https://www.whitepages.com/)
 - [locatefamily](https://www.locatefamily.com/)
 - [CrossLinked](https://github.com/m8sec/CrossLinked)
+- [API for Indonesian ID card (KTP) identification](https://github.com/audhiaprilliant/indonesian-id-card-identification)
 
 # Family People Search 
 
@@ -2551,6 +2552,8 @@ Build your sockpuppet account and proctect your privacy
 - [fakepersongenerator](https://www.fakepersongenerator.com/fake-name-generator)
 - [dangerzone - Securing your own device](https://github.com/freedomofpress/dangerzone) Take potentially dangerous PDFs, office documents, or images and convert them to a safe PDF
 - [coveryourtracks - Securing your own device](https://coveryourtracks.eff.org/) Check your browser leaked information
+- [NIK creator ID](https://nik.zakiego.com/)
+- [NIK & KK ID Generator](https://web.archive.org/web/20241204174239/https://www.scribd.com/document/402863097/Nik-Kk-Generator)
 
 Build your own deepfake 
 
@@ -2565,6 +2568,8 @@ Build your own deepfake
 - [huggingface](https://huggingface.co/)
 - [deepfakesweb](https://deepfakesweb.com/)
 - [Swapface](https://swapface.org/#/home)
+- [EKTP-Generator ID](https://github.com/veldanava/EKTP-Generator)
+- [FAKE KTP ID](https://www.capcut.com/templates/FAKE-KTP-7231021297839475969?template_scale=360%3A227)
 
 Virtual Camera 
 
@@ -3245,6 +3250,7 @@ NOOA Incident MAP
 
 # OSINT for Red Team 
 
+- [rustcat](https://github.com/robiot/rustcat) Rustcat(rcat) - The modern Port listener and Reverse shell
 - [criminalip](https://www.criminalip.io/) Search information like ip, iot and other things 
 - [SearchSploit](https://www.exploit-db.com/searchsploit)
 Command line search tool for Exploit-DB
@@ -3765,6 +3771,7 @@ Resources and collection for your make tool OSINT
 # Data Visualization
 
 - [Maltego](https://www.maltego.com/)
+- [osintbuddy Node graphs](https://github.com/jerlendds/osintbuddy)
 - [Mgrs Mapper](https://mgrs-mapper.com/app)
 - [Neo4j](https://neo4j.com/)
 - [Kepler Mapping](https://kepler.gl/demo/) 
@@ -3819,6 +3826,7 @@ Resources and collection for your make tool OSINT
 - [SPAM Check Score](https://www.dapachecker.org/spam-score-checker)
 - [MOZ Spam Check](https://moz.com/help/link-explorer/link-building/spam-score)
 - [NIK PARSE](https://github.com/bachors/nik_parse.js?tab=readme-ov-file#nik_parsejs)
+- [API for Indonesian ID card (KTP) identification](https://github.com/audhiaprilliant/indonesian-id-card-identification)
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
 - [Kaseware](https://www.kaseware.com/link-analysis)
 - [opentender ID](https://opentender.net/)
