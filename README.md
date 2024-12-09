@@ -1785,6 +1785,8 @@ Search channel, username anymore
 - [TeleTracker by Tsale](https://github.com/tsale/TeleTracker)
 - [Teletehon](https://docs.telethon.dev/en/stable/basic/installation.html)
 - [Bellingcat Telegram Joiner](https://bellingcat.github.io/telegram-group-joiner/)
+- [Awesome-Telegram-OSINT](https://github.com/ItIsMeCall911/Awesome-Telegram-OSINT)
+- [Telegram-OSINT](https://github.com/The-Osint-Toolbox/Telegram-OSINT)
 
 # Document and Slides Search OSINT
 
@@ -3241,6 +3243,7 @@ NOOA Incident MAP
 # GPT OSINT (AI)
 
 - [Gpt osint](https://github.com/gigz/gpt-osint)
+- [ollama uncensored](https://ollama.com/library/llama2-uncensored)
 - [Hacker AI](https://chat.hackerai.co/id/login)
 - [Blackbox AI](https://www.blackbox.ai/)
 - [Chat GPT](https://openai.com/chatgpt/)
@@ -3430,6 +3433,7 @@ Post Exploitation
 - [Responder](https://github.com/lgandx/Responder)
 - [Responder-Windows](https://github.com/lgandx/Responder-Windows)
 - [pivotnacci](https://github.com/blackarrowsec/pivotnacci) Pivot into the internal network by deploying HTTP agents
+- [https://github.com/murat-exp/EDR-Antivirus-Bypass-to-Gain-Shell-Access/tree/main](https://github.com/murat-exp/EDR-Antivirus-Bypass-to-Gain-Shell-Access/tree/main)
 
 Credential Dumping
 
