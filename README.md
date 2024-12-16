@@ -3108,6 +3108,7 @@ Strict and disable bot crawl search engine index account
 - [ID number plate](https://auto2000.co.id/berita-dan-tips/plat-nomor-seluruh-indonesia)
 - [ID number wikipedia](https://id.wikipedia.org/wiki/Tanda_Nomor_Kendaraan_Bermotor_Indonesia)
 - [World Car Brand Wikipedia](https://en.wikipedia.org/wiki/List_of_car_brands)
+- [License Plate Lookup](https://www.licenseplatelookup.org)
 - [carlogos](https://www.carlogos.org/car-brands/)
 - [commercialtrucktrader](https://www.commercialtrucktrader.com/)
 - [License Plate AI Recognition](https://github.com/winter2897/Real-time-Auto-License-Plate-Recognition-with-Jetson-Nano)
