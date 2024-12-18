@@ -1651,6 +1651,7 @@ Google queries for MySpace
 - [OSINT rocks](https://osint.rocks/)
 - [email-permutator perform possible email addresses](http://metricsparrow.com/toolkit/email-permutator/)
 - [salesblink email-permutator perform possible email addresses](https://salesblink.io/email-permutator)
+- [ipkzone email generator](https://ipkzone.my.id/gmail/)
 - [snov.io](https://snov.io/email-finder)
 - [experte](https://www.experte.com/email-finder)
 - [Josue87 EmailFinder](https://github.com/Josue87/EmailFinder)
@@ -1797,6 +1798,7 @@ Search channel, username anymore
 - [RECAP](http://archive.recapthelaw.org)
 - [SlideShare](http://www.slideshare.net)
 - [Scribd](http://www.scribd.com)
+- [Scribd docdownloader](https://docdownloader.com/)
 - [soPDF.com](http://www.sopdf.com)
 - [FileChef](https://www.filechef.com/)
 - [File Search Engine](https://www.filesearch.link/)
@@ -2033,6 +2035,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 
 # Geospatial Research and Mapping Tools
 
+- [plonkit guide for geospatial](https://www.plonkit.net/guide)
 - [Apple Maps](https://beta.maps.apple.com/)
 - [Atlasify](http://www.atlasify.com)
 - [Batchgeo](http://batchgeo.com)
@@ -3379,6 +3382,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [LSPosed](https://github.com/LSPosed/LSPosed) Android framework module best of mobile pentesting 
 - [kernelsu](https://kernelsu.org/id_ID/) Rooted your android device 
 - [IOS Version Jailbreak Chart](https://docs.google.com/spreadsheets/d/1QjWyoDfaiF-TWhzVdvEMRqA3OQXsz6e8of3SxZB1W_M/edit?gid=128016025#gid=128016025)
+- [ghidra cheat sheet](https://ghidra-sre.org/CheatSheet.html)
 
 Social Engineering
 
@@ -3701,6 +3705,10 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [camopedia](https://camopedia.org/index.php/Indonesia)
 - [Wikipedia Milltary Ranks](https://en.wikipedia.org/wiki/List_of_comparative_military_ranks)
 - [ICRC International Committee of the Red Cross](https://www.icrc.org/en)
+- [Explosive damage blast estimation](https://unsaferguard.org/un-saferguard/blast-damage-estimation)
+- [nuclearsecrecy estimate calculator](https://nuclearsecrecy.com/nukemap/)
+- [nuclearweaponsedproj calculator](https://nuclearweaponsedproj.mit.edu/Node/114)
+- [outrider nuclear weapon calculator area with animation](https://outrider.org/nuclear-weapons/interactive/bomb-blast)
 
 Simulator and Game 
 
@@ -3797,6 +3805,7 @@ Resources and collection for your make tool OSINT
 - [Gephi](https://gephi.org/features/)
 - [leafletjs](https://leafletjs.com/)
 - [QGIS](https://www.qgis.org/)
+- [Flowchart maker](https://app.diagrams.net/)
 
 # Emoji Investigation
 
