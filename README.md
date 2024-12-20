@@ -435,6 +435,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [SubDomainRadar](https://subdomainradar.io)
 - [dnshistory](https://osint.sh/dnshistory/)
 - [bellingcat wayback-google-analytics](https://github.com/bellingcat/wayback-google-analytics)
+- [dnsdumpster](https://dnsdumpster.com/)
 
 *Tips web cache 
 
@@ -515,6 +516,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [Hybrid Analysis](https://www.hybrid-analysis.com/)
 - [VMRay Sandbox](https://www.vmray.com/)
 - [Browser Sandbox](https://www.browserling.com/)
+- [locabrowser sandbox](https://www.locabrowser.com/)
 - [Fillter Bypass](https://www.filterbypass.me/id)
 - [Abuse IP DB](https://www.abuseipdb.com/)
 - [Check-The-Sum](https://check-the-sum.fr/)
@@ -1966,6 +1968,8 @@ Search channel, username anymore
 
 # Stock Images
 
+- [Flickr](https://secure.flickr.com)
+- [pexels](https://www.pexels.com/)
 - [AlltheFreeStock](http://allthefreestock.com)
 - [Death to Stock](http://deathtothestockphoto.com)
 - [Freeimages](http://www.freeimages.com)
