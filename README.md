@@ -2555,6 +2555,7 @@ Build your sockpuppet account and proctect your privacy
 - [Open DNS](https://www.opendns.com/home-internet-security/)
 - [I2P](https://geti2p.net/en/)
 - [TOR](https://www.torproject.org/download/)
+- [proxychains](https://www.kali.org/tools/proxychains-ng/) 
 - [Apple Kuncitara - Securing your own device](https://support.apple.com/id-id/guide/iphone/iph049680987/ios)
 - [AI Vidio Maker](https://www.synthesia.io/free-ai-video-demo#OptimizedForSharing_New)
 - [fakeinfo](https://fakeinfo.net/)
@@ -3397,6 +3398,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [kernelsu](https://kernelsu.org/id_ID/) Rooted your android device 
 - [IOS Version Jailbreak Chart](https://docs.google.com/spreadsheets/d/1QjWyoDfaiF-TWhzVdvEMRqA3OQXsz6e8of3SxZB1W_M/edit?gid=128016025#gid=128016025) List table of IOS jailbreaking
 - [ghidra cheat sheet](https://ghidra-sre.org/CheatSheet.html) Official Ghidra cheat sheet for shortcut
+- [proxychains](https://www.kali.org/tools/proxychains-ng/) Securing your network and used for tunneling
 
 Social Engineering
 
@@ -3441,6 +3443,7 @@ Credential Access
 
 Post Exploitation
 
+- [proxychains](https://www.kali.org/tools/proxychains-ng/)
 - [metasploit-framework](https://github.com/rapid7/metasploit-framework)
 - [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec)
 - [impacket](https://github.com/fortra/impacket)
@@ -3594,6 +3597,7 @@ Lateral Movement & Pivoting
 
 If cannot connected with target check the port and the software version, you can change it 
 
+- [proxychains](https://www.kali.org/tools/proxychains-ng/)
 - [Chisel](https://github.com/jpillora/chisel/releases/tag/v1.9.1)
 - [Ligolo](https://github.com/nicocha30/ligolo-ng)
 
