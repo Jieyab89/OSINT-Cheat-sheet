@@ -3390,9 +3390,8 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [httptoolkit](https://httptoolkit.com/) Intercept, view & edit any HTTP traffic
 - [LSPosed](https://github.com/LSPosed/LSPosed) Android framework module best of mobile pentesting 
 - [kernelsu](https://kernelsu.org/id_ID/) Rooted your android device 
-- [IOS Version Jailbreak Chart](https://docs.google.com/spreadsheets/d/1QjWyoDfaiF-TWhzVdvEMRqA3OQXsz6e8of3SxZB1W_M/edit?gid=128016025#gid=128016025)
-- [ghidra cheat sheet](https://ghidra-sre.org/CheatSheet.html)
-- [lsposed](https://lsposed.org/) Awesome module list for pentesting 
+- [IOS Version Jailbreak Chart](https://docs.google.com/spreadsheets/d/1QjWyoDfaiF-TWhzVdvEMRqA3OQXsz6e8of3SxZB1W_M/edit?gid=128016025#gid=128016025) List table of IOS jailbreaking
+- [ghidra cheat sheet](https://ghidra-sre.org/CheatSheet.html) Official Ghidra cheat sheet for shortcut
 
 Social Engineering
 
@@ -3577,6 +3576,7 @@ Awesome Burpsuite Extension
 
 C2 & C4 
 
+- [cobaltstrike](https://www.cobaltstrike.com/)
 - [Ninja](https://github.com/ahmedkhlief/Ninja)
 - [Poweshell Empire](https://bc-security.gitbook.io/empire-wiki)
 - [Metasploit Framework](https://github.com/rapid7/metasploit-framework)
