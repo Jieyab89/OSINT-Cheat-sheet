@@ -2564,6 +2564,8 @@ Build your sockpuppet account and proctect your privacy
 - [coveryourtracks - Securing your own device](https://coveryourtracks.eff.org/) Check your browser leaked information
 - [NIK creator ID](https://nik.zakiego.com/)
 - [NIK & KK ID Generator](https://web.archive.org/web/20241204174239/https://www.scribd.com/document/402863097/Nik-Kk-Generator)
+- [EKTP-Generator ID](https://github.com/veldanava/EKTP-Generator)
+- [FAKE KTP ID](https://www.capcut.com/templates/FAKE-KTP-7231021297839475969?template_scale=360%3A227)
 
 Build your own deepfake 
 
@@ -2578,8 +2580,8 @@ Build your own deepfake
 - [huggingface](https://huggingface.co/)
 - [deepfakesweb](https://deepfakesweb.com/)
 - [Swapface](https://swapface.org/#/home)
-- [EKTP-Generator ID](https://github.com/veldanava/EKTP-Generator)
-- [FAKE KTP ID](https://www.capcut.com/templates/FAKE-KTP-7231021297839475969?template_scale=360%3A227)
+- [liveportrait animate your photo](https://liveportrait.org/)
+- [LivePortrait ](https://github.com/KwaiVGI/LivePortrait)
 
 Virtual Camera 
 
@@ -2588,6 +2590,7 @@ Virtual Camera
 - [altercam](https://altercam.com/)
 - [Virtual cam apk mod](https://apkcombo.com/id/virtual-camera-live-assist/virtual.camera.app/download/apk)
 - [vcames - CN](https://vcames.xyz/)
+- [virtual camera moudle lsposed](https://github.com/Xposed-Modules-Repo/com.example.vcam)
 
 Social Network and blogging
 
@@ -3389,6 +3392,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [kernelsu](https://kernelsu.org/id_ID/) Rooted your android device 
 - [IOS Version Jailbreak Chart](https://docs.google.com/spreadsheets/d/1QjWyoDfaiF-TWhzVdvEMRqA3OQXsz6e8of3SxZB1W_M/edit?gid=128016025#gid=128016025)
 - [ghidra cheat sheet](https://ghidra-sre.org/CheatSheet.html)
+- [lsposed](https://lsposed.org/) Awesome module list for pentesting 
 
 Social Engineering
 
@@ -3416,6 +3420,7 @@ Active Directory
 - [SOAPHound](https://github.com/FalconForceTeam/SOAPHound) via Active Directory Web Services (ADWS) protocol
 - [SharpHostInfo](https://github.com/shmilylty/SharpHostInfo)
 - [lolad project](https://lolad-project.github.io/)
+- [Ninja C2](https://github.com/ahmedkhlief/Ninja)
 
 Webshell Bypass
 
@@ -3569,6 +3574,23 @@ Awesome Burpsuite Extension
 - [HAE](https://github.com/xnl-h4ck3r/HandE-Burp-Extension)
 - [Jsminner](https://github.com/PortSwigger/js-miner)
 - [Java Deserialization Scanner](https://portswigger.net/bappstore/228336544ebe4e68824b5146dbbd93ae)
+
+C2 & C4 
+
+- [Ninja](https://github.com/ahmedkhlief/Ninja)
+- [Poweshell Empire](https://bc-security.gitbook.io/empire-wiki)
+- [Metasploit Framework](https://github.com/rapid7/metasploit-framework)
+- [Havoc](https://github.com/HavocFramework/Havoc)
+- [Starkiller](https://github.com/BC-SECURITY/Starkiller)
+
+Lateral Movement & Pivoting 
+
+*Pro tips 
+
+If cannot connected with target check the port and the software version, you can change it 
+
+- [Chisel](https://github.com/jpillora/chisel/releases/tag/v1.9.1)
+- [Ligolo](https://github.com/nicocha30/ligolo-ng)
 
 # Audio OSINT 
 
@@ -4039,6 +4061,7 @@ Terrorism & Radical
 - [List of satellite map images with missing or unclear data](https://en.wikipedia.org/wiki/List_of_satellite_map_images_with_missing_or_unclear_data)
 - [ventusky](https://www.ventusky.com/?p=-6.6;115.7;4&l=satellite)
 - [EOS lan viewer](https://eos.com/landviewer/?lat=-6.22977&lng=106.98230&z=11&menuItem=search)
+- [satdump](https://www.satdump.org/about/)
 
 *Aditional Information coverage sat 
 
@@ -4281,11 +4304,16 @@ This is list data broker, you can search or delete form data broker list on here
 
 # OSINT Software 
 
-This is for you searching software alternative 
+This is for you searching software and searching alternative software  
 
 - [alternativeto](https://alternativeto.net/)
 - [Apk mirror](https://www.apkmirror.com/) 
 - [apkpure](https://apkpure.com/id/) 
+- [slant](https://www.slant.co/)
+- [capterra](https://www.capterra.com/)
+- [G2](https://www.g2.com/)
+- [softwaresuggest](https://www.softwaresuggest.com/)
+- [softpedia](https://www.softpedia.com/)
 
 # OSINT Barcode Reader 
 
