@@ -3203,6 +3203,11 @@ Public Transport
 - [ADS hub Station](https://www.adsbhub.org/stations.php)
 - [airportia](https://www.airportia.com/)
 - [utopiax](https://www.utopiax.org/)
+- [Civil Aircraft Register ID](https://web.archive.org/web/20241222182708/https://imsis-djpu.dephub.go.id/PortalDKPPU/CAR2023-eng.pdf)
+- [Plane Registration](https://id.wikipedia.org/wiki/Registrasi_pesawat)
+- [Plane Registration 2](https://en.wikipedia.org/wiki/List_of_aircraft_registration_prefixes)
+- [Military Aircraft Wiki](https://en.wikipedia.org/wiki/Military_aircraft)
+- [Search Model Aircraft](https://dna.icao.int/wagmar/Search/InitAircraftSearchModel)
 
 # Ship Tracking & Maritim
 
@@ -3648,6 +3653,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 
 # OSINT Military
 
+- [globalsecurity military](https://www.globalsecurity.org/military/index.html)
 - [3D Rendered Synthetic Data](https://vframe.io/3d-rendered-data/)
 - [militaryfactory](https://www.militaryfactory.com/)
 - [Military and other uniform badges](https://www.uniforminsignia.net/)
@@ -3737,6 +3743,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [nuclearsecrecy estimate calculator](https://nuclearsecrecy.com/nukemap/)
 - [nuclearweaponsedproj calculator](https://nuclearweaponsedproj.mit.edu/Node/114)
 - [outrider nuclear weapon calculator area with animation](https://outrider.org/nuclear-weapons/interactive/bomb-blast)
+- [Military Aircraft Wiki](https://en.wikipedia.org/wiki/Military_aircraft)
 
 Simulator and Game 
 
