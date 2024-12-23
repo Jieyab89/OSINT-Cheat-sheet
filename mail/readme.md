@@ -1,3 +1,9 @@
+# Please Readme!!! 
+
+I made this repo to share information and knowledge only to the extent of education, this repo and email prioritize Journalism and Investigation and pentesting, if you use this information for illegal, the risk is borne by yourself, then I am not interested in any offer that is illegal, specify a clear question, purpose and what you are asking for. If there is a connection with illegal things and you lie, the risk is your own.
+
+If you ask about malicoius I do some archives for my own protection and proof of conversation if needed. For our mutual convenience please respect each other and always maintain your honesty and integrity.  
+
 ## Anonymous chat
 
 You can chat me anonymous and encrypted, import my keys on this path

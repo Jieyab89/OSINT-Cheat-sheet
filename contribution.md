@@ -50,7 +50,7 @@ If you want change the repo for web based and create like node, data list, searc
 
 ## Readme 
 
-*Notes for script: To avoid AV detection and abusive access to your computer, you can publish your scripts via pastebin, ghostbin or others. 
+*Notes for script: To avoid AV detection and abusive access to your computer, you can publish your scripts via pastebin, hastebin, dogbin or others. Please dont add malicious script on this repo folder  
 
 ## Format
 
@@ -72,4 +72,4 @@ Red Team - Python Scripts
 
 or you can also create new folder on this script path 
 
-*Notes for script: To avoid AV detection and abusive access to your computer, you can publish your scripts via pastebin, ghostbin or others. 
+*Notes for script: To avoid AV detection and abusive access to your computer, you can publish your scripts via pastebin, hastebin, dogbin or others. Please dont add malicious script on this repo folder  
