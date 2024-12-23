@@ -75,10 +75,27 @@ int main(void){
 }
 ```
 
-*Pro tips 
+### Enum about the jail 
+
+```
+echo $SHELL
+echo $PATH
+env
+export
+pwd
+```
+
+*Windows Powershell Pro Tips 
 
 - If you was gett the shell, change to powershell, you can run 
 
 ```
 powershell -ep bypass 
 ```
+
+Source 
+
+- [Hacktrikcs Escaping from Jails](https://hacktricks.boitatech.com.br/linux-unix/privilege-escalation/escaping-from-limited-bash)
+- [Hacktricks github escape from jails](https://github.com/HackTricks-wiki/hacktricks/blob/master/linux-hardening/useful-linux-commands/bypass-bash-restrictions.md)
+- [0xffsec restricted-shells](https://0xffsec.com/handbook/shells/restricted-shells/)
+- [Hacktrikcs powershell-for-pentesters](https://book.hacktricks.xyz/windows-hardening/basic-powershell-for-pentesters)
