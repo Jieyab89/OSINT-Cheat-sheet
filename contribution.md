@@ -48,6 +48,10 @@ If you want change the repo for web based and create like node, data list, searc
 
 # Script 
 
+## Readme 
+
+*Notes for script: To avoid AV detection and abusive access to your computer, you can publish your scripts via pastebin, ghostbin or others. 
+
 ## Format
 
 - Decide what script you're creating and what it's for. 
@@ -67,3 +71,5 @@ Red Team - Python Scripts
 > 
 
 or you can also create new folder on this script path 
+
+*Notes for script: To avoid AV detection and abusive access to your computer, you can publish your scripts via pastebin, ghostbin or others. 
