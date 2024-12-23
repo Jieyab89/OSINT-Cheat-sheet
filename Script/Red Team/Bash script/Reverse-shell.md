@@ -4,7 +4,7 @@ If you have obtained a vulnerability such as RCE, file upload or something else,
 
 1. Make sure the target has internet access (internet access opened)
 2. Try changing the port to a larger one such as 8080, 8888, etc. 
-3. Encode your script using base64 and then decode it 3. 
+3. Encode your script using base64 and then decode it 
 4. Encode your script using url encode 
 
 ## Script 1 
