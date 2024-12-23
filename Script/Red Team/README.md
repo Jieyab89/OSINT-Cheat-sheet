@@ -12,5 +12,7 @@ Welcome to path red teaming or pentesting for OSINT, on this path there are scri
 6. Check the compiler on the target 
 7. If AV is detected then you can encode into base64, url encode or try to enumerate what caused the payload to be detected such as checking functions, commands and others. 
 8. Change the port listener to bigger 
+9. If there is a restrictions you should to bypass
+10. If you have successfully connected with target, swtich to powershell if the Windows, if Linux switch to fully tty shell 
 
-## Soon will added (tamplate )
+## Soon will added (tamplate)
