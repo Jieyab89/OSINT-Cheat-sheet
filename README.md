@@ -196,6 +196,7 @@ Be carefull using this tool
 - [Microsoft Building Dataset](https://planetarycomputer.microsoft.com/dataset/ms-buildings)
 - [huggingface](https://huggingface.co/)
 - [goodstats ID](https://goodstats.id/)
+- [ransomwhe Browse ransomware data](https://ransomwhe.re/#report)
 
 # Forums & Sites
 
@@ -230,14 +231,6 @@ Site and forums OSINT community arround world
 - [benjaminstrick](https://benjaminstrick.com/blog/)
 - [osinord](https://www.osinord.com/)
 
-# General Search
-
-- [ASK](http://www.ask.com)
-- [Baidu](http://www.baidu.com)
-- [DuckDuckGo](https://duckduckgo.com)
-- [Yandex](https://www.yandex.com)
-- [Infospace](http://www.infospace.com)
-
 # Meta Search
 
 - [100SearchEngines](https://www.100searchengines.com)
@@ -265,6 +258,12 @@ Site and forums OSINT community arround world
 - [Github code search](https://github.com/search?type=code)
 - [sourcegraph](https://sourcegraph.com/search)
 - [cybdetective code search](https://cybdetective.com/codesearch.html)
+- [postman](https://www.postman.com/explore/collections)
+- [swaggerhub](https://app.swaggerhub.com/search)
+- [ecosyste](https://ecosyste.ms/)
+- [wpdirectory](https://wpdirectory.net/)
+- [launchpad](https://launchpad.net/)
+- [snipplr](https://snipplr.com/all)
 
 # Competitive Programming
 
@@ -352,6 +351,15 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 
 # Web Intelligence
 
+- [anubis](https://github.com/jonluca/anubis)
+- [subdomainfinder search history subdomain](https://subdomainfinder.c99.nl/)
+- [phonebook](https://phonebook.cz/?target=2#)
+- [awseye - search AWS](https://awseye.com/)
+- [cloudflare radar](https://radar.cloudflare.com/)
+- [webscout](https://webscout.io/)
+- [fullhunt](https://fullhunt.io/)
+- [hunter](https://hunter.how/)
+- [odin](https://search.odin.io/)
 - [dnslytics](https://dnslytics.com/)
 - [Better Whois](http://www.betterwhois.com)
 - [whoishistory](https://osint.sh/whoishistory/)
@@ -589,6 +597,8 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [neiki](https://tip.neiki.dev/)
 - [criminalip](https://www.criminalip.io/) 
 - [hackedlist](https://hackedlist.io/)
+- [cybersixgill](https://cybersixgill.com/)
+- [ibmcloud exchange](https://exchange.xforce.ibmcloud.com/)
 
 # IoT Search Engines
 
@@ -649,6 +659,9 @@ net huggers
 - [GONZOsint- geowifi](https://github.com/GONZOsint/geowifi)
 - [bgp](https://bgp.tools/)
 - [macaddress](https://macaddress.io/)
+- [macvendorlookup](https://www.macvendorlookup.com/)
+- [macvendors](https://macvendors.com/)
+- [whoisxmlapi](https://mac-address.whoisxmlapi.com/api)
 
 # SOC & Threat Hunting
 
@@ -732,6 +745,7 @@ You can find the file hash or other threat indicator
 - [neiki](https://tip.neiki.dev/)
 - [dynamite.ai search pcap file](https://lab.dynamite.ai/)
 - [packetsafari analys pcap file](https://app.packetsafari.com/)
+- [cybersixgill](https://cybersixgill.com/)
 
 # Automation Dorking 
 
@@ -840,6 +854,13 @@ Example
 - [Wiki Leaks](https://wikileaks.org/)
 - [bellingcat wayback-google-analytics](https://github.com/bellingcat/wayback-google-analytics)
 - [yamli Arabic search](https://www.yamli.com/)
+- [ASK](http://www.ask.com)
+- [Baidu](http://www.baidu.com)
+- [Infospace](http://www.infospace.com)
+- [gibiru](https://gibiru.com/)
+- [kagi](https://kagi.com/)
+- [brave](https://search.brave.com/)
+- [stract](https://stract.com/)
 
 # Internet Archive
 
@@ -906,6 +927,8 @@ Example
 - [leakpeek](https://leakpeek.com/)
 - [weleakinfo](https://weleakinfo.io/)
 - [leakradar](https://leakradar.io/)
+- [leakedpassword](https://leakedpassword.com/)
+- [scatteredsecrets](https://scatteredsecrets.com/)
 
 # Crack Jurnals
 
@@ -1603,6 +1626,7 @@ Google queries for MySpace
 
 # Email Tracking
 
+- [phonebook](https://phonebook.cz/?target=2#)
 - [Mailcat](https://github.com/sharsil/mailcat)
 - [OSINT indsutries](https://www.osint.industries/)
 - [lullar](https://lullar-com-3.appspot.com/en)
@@ -2284,8 +2308,17 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [How to Verify Guide](https://www.howtoverify.info/Image/Where/Geolocation/Manual_geolocation)
 - [Gephi Visual Tool](https://gephi.org/)
 
-# Server Information Gathering
+# Server Information Gathering Also Web
 
+- [cloudflare radar](https://radar.cloudflare.com/)
+- [fullhunt](https://fullhunt.io/)
+- [shodan](https://www.shodan.io/)
+- [hunter](https://hunter.how/)
+- [odin](https://search.odin.io/)
+- [onyphe](https://search.onyphe.io/)
+- [censys](https://search.censys.io/)
+- [zoomeye](https://www.zoomeye.ai/)
+- [greynoise](https://viz.greynoise.io/)
 - [Testssl](https://testssl.sh/)
 - [Nesus](https://www.tenable.com/products/nessus)
 - [securitytrails](https://securitytrails.com/)
@@ -2386,11 +2419,12 @@ Desktop NET debugger and assembly editor
 
 # Cryptocurrency Investigation
 
+- [bitquery](https://explorer.bitquery.io/)
 - [Blockchain](https://www.blockchain.com/)
 - [Flashpoint](https://flashpoint.io/resources/research/flashpoint-and-chainalysis-investigate-hydra-where-cryptocurrency-cybercrime-goes-dark/)
 - [Intel471](https://intel471.com/)
 - [Tatum](https://tatum.io/)
-- [Ciphertrace](https://ciphertrace.com/)
+- [bitquery](https://www.bitquery.io/)
 - [Bitcoin Abuse](https://www.bitcoinabuse.com/)
 - [GraphSense](https://github.com/INTERPOL-Innovation-Centre/GraphSense-Maltego-transform)
 - [Blockhain Explorer](https://www.blockexplorer.com/l/en-US/)
@@ -2405,6 +2439,11 @@ Desktop NET debugger and assembly editor
 - [tokensniffer](https://tokensniffer.com/)
 - [opensea](https://opensea.io/)
 - [nyckel NFT Finder](https://www.nyckel.com/nft-finder)
+- [chainabuse](https://www.chainabuse.com/)
+- [bitinfocharts](https://bitinfocharts.com/)
+- [blockchair](https://blockchair.com/)
+- [GraphSense-Maltego-transform](https://github.com/INTERPOL-Innovation-Centre/GraphSense-Maltego-transform)
+- [chainalysis](https://www.chainalysis.com/blockchain-intelligence/)
 
 # Crypto Market & Analysis  
 
@@ -2426,6 +2465,12 @@ Transaction Analysis
 - [etherscan](https://etherscan.io/)
 - [etherchain](https://www.etherchain.org/)
 - [web3 username search](https://app.ens.domains/)
+- [chainabuse](https://www.chainabuse.com/)
+- [bitinfocharts](https://bitinfocharts.com/)
+- [blockchair](https://blockchair.com/)
+- [bitaps](https://bitaps.com/)
+- [3pxl](https://3xpl.com/bitcoin)
+- [ARKHAM INTEL](https://intel.arkm.com/)
 
 # Cell Investigation
 
@@ -2544,6 +2589,8 @@ Build your sockpuppet account and proctect your privacy
 - [Temp Phone Number](https://temporary-phone-number.com/)
 - [Temp Phone Number and SMS activate](https://sms-activate.org/en)
 - [Temp Phone Number SMS Receive](https://temp-number.org/)
+- [dingtone Second Phone Number](https://www.dingtone.me/)
+- [call Second Phone Number](https://www.call.com/)
 - [Temp Mail 1](https://mail.tm/en/)
 - [Temp Mail 2](https://temp-mail.org/en/)
 - [Temp Mail 3](https://tempmailo.com/)
@@ -2712,6 +2759,7 @@ Social Network and blogging
 
 # Darkweb Intelligence
 
+- [WhiteIntel](https://whiteintel.io/)
 - [darkradar](https://www.darkradar.io/)
 - [Stealthmole](https://www.stealthmole.com/products/darkweb-tracker)
 - [Darkweb bookmarks](https://www.osintcombine.com/dw-osint-bookmarks)
@@ -2755,6 +2803,9 @@ Social Network and blogging
 - [Deepweb more resouces](http://whitepapers.virtualprivatelibrary.net/DeepWeb.pdf)
 - [TOR map](https://tormap.org/)
 - [Read Darkweb](https://github.com/0xSojalSec/read-dark-web)
+- [deepweblinks](https://deepweblinks.net/)
+- [onionlandsearchengine](https://onionlandsearchengine.net/)
+- [tor link](https://tor.link/)
 
 # Digital Forensics
 
@@ -2875,6 +2926,7 @@ Password Manager
 
 # Fraud Checker
 
+- [scamsearch](https://www.scamsearch.io/) Global Scam Database Search by Profile Picture, Email, Username, Pseudo Name, Phone Number, crypto address or website.
 - [ScamDB](https://scamdb.net/)- Report and Search Scam Accounts
 - [Cek Rekening](https://cekrekening.id/home) - Indonesian By Kominfo
 - [Kredibel](https://www.kredibel.com/) - Indonesian
@@ -3275,6 +3327,8 @@ NOOA Incident MAP
 
 # OSINT for Red Team 
 
+- [0day](https://0day.today/) View 0day exploit 
+- [cvexploits](https://cvexploits.io/) CVExploits Search comprehensive database for CVE exploits from across the internet.
 - [rustcat](https://github.com/robiot/rustcat) Rustcat(rcat) - The modern Port listener and Reverse shell
 - [criminalip](https://www.criminalip.io/) Search information like ip, iot and other things 
 - [SearchSploit](https://www.exploit-db.com/searchsploit)
@@ -3403,6 +3457,12 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [IOS Version Jailbreak Chart](https://docs.google.com/spreadsheets/d/1QjWyoDfaiF-TWhzVdvEMRqA3OQXsz6e8of3SxZB1W_M/edit?gid=128016025#gid=128016025) List table of IOS jailbreaking
 - [ghidra cheat sheet](https://ghidra-sre.org/CheatSheet.html) Official Ghidra cheat sheet for shortcut
 - [proxychains](https://www.kali.org/tools/proxychains-ng/) Securing your network and used for tunneling
+- [loldrivers](https://www.loldrivers.io/) Open-source project that brings together vulnerable, malicious, and known malicious Windows drivers
+- [pwnwiki](http://pwnwiki.io/#!index.md) Awesome cheat sheet and guide for hackers 
+- [lolapps](https://lolapps-project.github.io/) Compendium of applications that can be used to carry out day-to-day exploitation
+- [lolesxi](https://lolesxi-project.github.io/LOLESXi/) Comprehensive list of binaries/scripts natively available in VMware ESXi that adversaries have utilised in their operations
+- [lothardware](https://lothardware.com.tr/) Hardware is a resource collection that provides guidance on identifying and utilizing malicious hardware and malicious devices
+- [boostsecurityio](https://boostsecurityio.github.io/lotp/) How development tools commonly used in CI/CD pipelines can be used to achieve arbitrary code execution
 
 Social Engineering
 
@@ -3504,6 +3564,8 @@ Wordlists for all
 - [Hashmob](https://hashmob.net/resources/hashmob)
 - [RockYou2024](https://github.com/exploit-development/RockYou2024)
 - [bopscrk - Generate own wordlist](https://github.com/r3nt0n/bopscrk)
+- [leakedpassword](https://leakedpassword.com/)
+- [Leak-Lookup](https://leak-lookup.com/)
 
 Web fuzz wordlists
 
@@ -3570,6 +3632,8 @@ Privilage Escalation Cheat and check
 - [wadcoms](https://wadcoms.github.io/#+Windows) WADComs is an interactive cheat sheet, offensive security tools and their respective commands, to be used against Windows/AD environments
 - [g0tmi1k linux priv esc](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/) Basic Linux Privilege Escalation
 - [Windows Privilage Escalation](https://github.com/Ignitetechnologies/Windows-Privilege-Escalation?tab=readme-ov-file) Methods of escalating privilege on Windows-based machines and CTFs with examples
+- [gtfoargs](https://gtfoargs.github.io/) GTFOArgs is a curated list of Unix binaries that can be manipulated for argument injection, possibly resulting in security vulnerabilities
+- [loobins](https://www.loobins.io/binaries/) Detailed information on various built-in macOS binaries and how they can be used by threat actors for malicious purposes
 
 Hacking Playground 
 
@@ -3652,6 +3716,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [packetsafari analys pcap file](https://app.packetsafari.com/)
 - [wireshark](https://www.wireshark.org/)
 - [hackertarget](https://hackertarget.com/as-ip-lookup/)
+- [whoisxmlapi](https://mac-address.whoisxmlapi.com/api)
 
 # Medical OSINT 
 
@@ -3823,6 +3888,7 @@ Resources and collection for your make tool OSINT
 
 - [API Resoruces OSINT - For Your Private Tool](https://github.com/cipher387/API-s-for-OSINT/blob/main/README.md) 
 - [API for OSINT](https://github.com/cipher387/API-s-for-OSINT)
+- [C99's API Service](https://api.c99.nl/)
 
 # Data Visualization
 
@@ -4029,6 +4095,7 @@ Terrorism & Radical
 
 # Maltego Transform List 
 
+- [GraphSense-Maltego-transform](https://github.com/INTERPOL-Innovation-Centre/GraphSense-Maltego-transform)
 - [Offical Maltego Transform List](https://www.maltego.com/transform-hub/)
 - [Github cipher387 maltego transforms list](https://github.com/cipher387/maltego-transforms-list)
 
@@ -4182,6 +4249,8 @@ You can use for study academic literature, search book, people name, old archive
 - [BounceBack](https://github.com/D00Movenok/BounceBack) Stealth redirector for your red team operation security
 - [OPSEC 101](https://github.com/BushidoUK/Operational-Security-101) A repository of advice and guides to share with friends and family who are concerned about their safety during online activities and the security of their devices
 - [cqcore UK](https://www.cqcore.uk/) Find OSINT, OPSEC, Obfuscation, Privacy, Infosec & Digital Exposure Profiling educational material, with useful News, Blogs, Top Tips
+- [Crypto OpSec SelfGuard RoadMap](https://github.com/OffcierCia/Crypto-OpSec-SelfGuard-RoadMap) Here we collect and discuss the best DeFi, Blockchain and crypto-related OpSec researches and data terminals - contributions are welcome.
+- [Blockchain-dark-forest-selfguard-handbook](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_ID.md) Blockchain dark forest selfguard handbook. Master these, master the security of your cryptocurrency
 
 # OSINT Journalism Project
 
