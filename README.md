@@ -3450,6 +3450,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [bytecodeviewer](https://bytecodeviewer.com/) An advanced yet user friendly Java Reverse Engineering Suite
 - [android-penetration-testing-cheat-sheet](https://github.com/ivan-sincek/android-penetration-testing-cheat-sheet) Android Penetration Testing Cheat Sheet
 - [List of MIME types / Internet Media Types](https://www.freeformatter.com/mime-types-list.html) Awesome site for programming and hackers
+- [mimetype](https://mimetype.io/all-types) Comprehensive list of all MIME types
 - [zygisk-reflutter](https://github.com/yohanes/zygisk-reflutter) tool for reverse engineering Flutter-based applications for both rooted and non-rooted Android
 - [httptoolkit](https://httptoolkit.com/) Intercept, view & edit any HTTP traffic
 - [LSPosed](https://github.com/LSPosed/LSPosed) Android framework module best of mobile pentesting 
@@ -3463,6 +3464,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [lolesxi](https://lolesxi-project.github.io/LOLESXi/) Comprehensive list of binaries/scripts natively available in VMware ESXi that adversaries have utilised in their operations
 - [lothardware](https://lothardware.com.tr/) Hardware is a resource collection that provides guidance on identifying and utilizing malicious hardware and malicious devices
 - [boostsecurityio](https://boostsecurityio.github.io/lotp/) How development tools commonly used in CI/CD pipelines can be used to achieve arbitrary code execution
+- [List of mime type](https://developer.mozilla.org/en-US/docs/Web/HTTP/MIME_types) List indicates the nature and format of a document, file, or assortment of bytes
 
 Social Engineering
 
