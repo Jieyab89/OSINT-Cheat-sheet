@@ -8,10 +8,13 @@ javascript:
 var currentLocation = window.location.href;  
 var newLocation = currentLocation + "detail/photo/";  
 window.location.replace(newLocation);   
+```
 
-#View Recent Activity on a profile
+# View Recent Activity on a profile
 
 javascript:  
+
+```
 var currentLocation = window.location.href;   
 var newLocation = currentLocation + "detail/recent-activity/";   
 window.location.replace(newLocation);

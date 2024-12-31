@@ -1,10 +1,12 @@
 # Please Readme!!! 
 
-I made this repo to share information and knowledge only to the extent of education, this repo and email prioritize Journalism and Investigation and pentesting, if you use this information for illegal, the risk is borne by yourself, then I am not interested in any offer that is illegal, specify a clear question, purpose and what you are asking for. If there is a connection with illegal things and you lie, the risk is your own.
+I made this repo to share information and knowledge only to the extent of education, this repo and email prioritize Journalism and Investigation and pentesting, if you use this information for illegal, the risk is borne by yourself, then I am not interested in any offer that is illegal, specify a clear question, purpose and what you are asking for. If there is a connection with illegal things and you lie, the risk is your own
 
-If you ask about malicoius I do some archives for my own protection and proof of conversation if needed. For our mutual convenience please respect each other and always maintain your honesty and integrity.  
+If you ask about malicoius I do some archives for my own protection and proof of conversation if needed. For our mutual convenience please respect each other and always maintain your honesty and integrity. You can quote and retrieve the resouces contained in this content, the author is not concerned about any citations or quotations. You can reference this repo if possible :D 
 
-## Anonymous chat
+I created this for the purpose of sharing information, education and other interesting things about OSINT, IT Security, Documentary journalism and other things. Please emphasize once again, the risk and loss of this material is at your own expense
+
+## Anonymous Chat
 
 You can chat me anonymous and encrypted, import my keys on this path
 
