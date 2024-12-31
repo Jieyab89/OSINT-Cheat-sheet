@@ -2654,6 +2654,7 @@ Social Network and blogging
 
 # Enhance Image Quality
 
+- [Upscale Media Image Enhancer](https://www.upscale.media/upload)
 - [Letsenhance](https://letsenhance.io/)
 - [Cutout](https://www.cutout.pro/photo-enhancer-sharpener-upscaler)
 - [Upscale](https://upscalepics.com/)
