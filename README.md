@@ -362,7 +362,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [odin](https://search.odin.io/)
 - [dnslytics](https://dnslytics.com/)
 - [Better Whois](http://www.betterwhois.com)
-- [whoishistory](https://osint.sh/whoishistory/)
+- [whoishistory osint](https://osint.sh/whoishistory/)
 - [DNS History](http://dnshistory.org)
 - [DNS Spy](https://dnsspy.io)
 - [DNS Checker](https://dnschecker.org)
@@ -379,7 +379,6 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [Nikto](https://cirt.net/Nikto2)
 - [Webshag](https://github.com/wereallfeds/webshag)
 - [wayback machine](https://archive.org/web/)
-- [Whoxy](https://www.whoxy.com/)
 - [Farsight DNSDB Transforms for Maltego](https://www.maltego.com/transform-hub/farsight-dnsdb/)
 - [Web Screnshhot Maltego Transforms](https://github.com/TURROKS/Maltego_Web2Screenshot)
 - [Nuclei](https://github.com/projectdiscovery/nuclei)
@@ -447,6 +446,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [dnshistory](https://osint.sh/dnshistory/)
 - [bellingcat wayback-google-analytics](https://github.com/bellingcat/wayback-google-analytics)
 - [dnsdumpster](https://dnsdumpster.com/)
+- [domains - search similarity domain and niche web](https://www.domains.ch/en)
 
 *Tips web cache 
 
@@ -2310,6 +2310,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 
 # Server Information Gathering Also Web
 
+- [viewdns - IP history](https://viewdns.info/iphistory/?domain)
 - [cloudflare radar](https://radar.cloudflare.com/)
 - [fullhunt](https://fullhunt.io/)
 - [shodan](https://www.shodan.io/)
@@ -2323,6 +2324,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [Nesus](https://www.tenable.com/products/nessus)
 - [securitytrails](https://securitytrails.com/)
 - [SSL Scan](https://www.kali.org/tools/sslscan/)
+- [subdomainfinder search history subdomain](https://subdomainfinder.c99.nl/)
 
 # CTF Analysis & Exploit
 
@@ -4333,6 +4335,7 @@ Website
 - [Website informer](https://website.informer.com/)
 - [vstat](https://vstat.info/)
 - [siteslike](https://www.siteslike.com/)
+- [domains - search similarity domain and niche web](https://www.domains.ch/en)
 
 Company 
 
@@ -4485,6 +4488,8 @@ Getting info for device and hardware info and emulator
 - [scrcpy](https://github.com/Genymobile/scrcpy/releases)
 - [Android Studio](https://developer.android.com/studio)
 - [NOX](https://www.bignox.com/)
+- [mumuplayer](https://www.mumuplayer.com/index.html)
+- [ldplayer](https://id.ldplayer.net/)
 
 # OSINT Cloud 
 
