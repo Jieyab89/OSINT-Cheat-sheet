@@ -447,6 +447,8 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [bellingcat wayback-google-analytics](https://github.com/bellingcat/wayback-google-analytics)
 - [dnsdumpster](https://dnsdumpster.com/)
 - [domains - search similarity domain and niche web](https://www.domains.ch/en)
+- [favihash](https://www.favihash.com/)
+- [subdosec vulnshot](https://subdosec.vulnshot.com/)
 
 *Tips web cache 
 
@@ -492,6 +494,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [fofa](https://en.fofa.info/)
 - [safeweb norton](https://safeweb.norton.com/)
 - [haveibeensquatted](https://www.haveibeensquatted.com/)
+- [favihash](https://www.favihash.com/)
 
 # Researching Cyber Threats
 
@@ -599,6 +602,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [hackedlist](https://hackedlist.io/)
 - [cybersixgill](https://cybersixgill.com/)
 - [ibmcloud exchange](https://exchange.xforce.ibmcloud.com/)
+- [favihash](https://www.favihash.com/)
 
 # IoT Search Engines
 
@@ -804,6 +808,7 @@ Example
 - [BING](https://seosly.com/blog/bing-search-operators/)
 - [mediasova](https://search.mediasova.com/en/index)
 - [wbmii](https://webmii.com/)
+- [YaSeeker - Yandex Search Tools](https://github.com/HowToFind-bot/YaSeeker)
 
 # Bash Dorking Script
 
@@ -823,7 +828,7 @@ Example
 - [criminalip](https://www.criminalip.io/) 
 - [us.searchboth.net](http://us.searchboth.net)
 - [Archive.org](http://www.arhive.org)
-- [Yandex](Yandex.com)
+- [Yandex](https://yandex.com)
 - [Pastebin](http://www.pastebin.com)
 - [Topix.com](http://www.topix.com)
 - [search.carrot2.org/stable/search](http://search.carrot2.org/stable/search)
@@ -1239,6 +1244,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [idcrawl](https://www.idcrawl.com/username)
 - [Ghunt online tools](https://app.osint.industries/)
 - [Bellingcat Name Finder](https://bellingcat.github.io/name-variant-search/#gsc.tab=0&gsc.q=%22alex%22&gsc.sort=)
+- [lampyre](https://lampyre.io/)
 
 # Social Networks
 
@@ -1252,6 +1258,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [FullContact](https://www.maltego.com/transform-hub/full-contact/)
 - [maigret](https://github.com/soxoj/maigret)
 - [Blackbird](https://github.com/p1ngul1n0/blackbird)
+- [lampyre](https://lampyre.io/)
 
 # Google Queries for Facebook
 
@@ -1415,6 +1422,7 @@ or you can use dork for spesific example
 - [f5bot](https://f5bot.com/)
 - [reditr](https://reditr.com/search)
 - [Redit Search CSE](https://cse.google.com/cse?cx=007749065626525752968:qh5bqebwi30)
+- [Reddit find sub](https://anvaka.github.io/)
 
 # Youtube 
 
@@ -1532,6 +1540,7 @@ Twitter Search Engine
 - [sn0int github profil extractor](https://sn0int.com/r/kpcyrd/github)
 - [Github Trending Repo](https://trendingrepos.com/)
 - [Octosuite Github](https://github.com/bellingcat/octosuite)
+- [Github find project map](https://anvaka.github.io/map-of-github/#2/0/0)
 
 # Snapchat 
 
@@ -1691,6 +1700,7 @@ Google queries for MySpace
 - [espysys](https://espysys.com/)
 - [hackcheck](https://hackcheck.io/)
 - [h8mail](https://github.com/khast3x/h8mail)
+- [lampyre](https://lampyre.io/)
 
 # PGP or GPG Keybase 
 
@@ -1796,6 +1806,7 @@ Search channel, username anymore
 
 - [Maltego Telegram](https://github.com/vognik/maltego-telegram)
 - [Telegago](https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg#gsc.tab=0)
+- [Telegram search CSE](https://cse.google.com/cse?cx=004805129374225513871:p8lhfo0g3hg&q=)
 - [TelegramDB](http://www.telegramdb.org/)
 - [Telegram Search Engine](https://xtea.io/)
 - [Telegram Database: channels, groups and users](https://t.me/s/privatelinks)
@@ -1818,6 +1829,7 @@ Search channel, username anymore
 - [Bellingcat Telegram Joiner](https://bellingcat.github.io/telegram-group-joiner/)
 - [Awesome-Telegram-OSINT](https://github.com/ItIsMeCall911/Awesome-Telegram-OSINT)
 - [Telegram-OSINT](https://github.com/The-Osint-Toolbox/Telegram-OSINT)
+- [tlgrm channels by categories](https://tlgrm.eu/channels)
 
 # Document and Slides Search OSINT
 
@@ -1854,6 +1866,7 @@ Search channel, username anymore
 - [wikileaks](https://search.wikileaks.org/)
 - [slideshare](https://www.slideshare.net/)
 - [pdfdrive](https://www.pdfdrive.com/search?q=password)
+- [goofile](https://www.kali.org/tools/goofile/)
 
 # Real-Time Search, Social Media Search, and General Social Media Tools
 
@@ -2574,6 +2587,7 @@ Telegram
 - [Telegram-Trilateration](https://github.com/jkctech/Telegram-Trilateration)
 - [TeleTracker by Tsale](https://github.com/tsale/TeleTracker)
 - [Teletehon](https://docs.telethon.dev/en/stable/basic/installation.html)
+- [Telegram Search CSE](https://cse.google.com/cse?cx=004805129374225513871:p8lhfo0g3hg&q=)
 - [Bellingcat Telegram Joiner](https://bellingcat.github.io/telegram-group-joiner/)
 
 # Build Sockpuppet Accounts
@@ -3404,7 +3418,6 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Nuclei OSINT Templates](https://github.com/cipher387/juicyinfo-nuclei-templates) Awesome list nuclei template for OSINT and reccon from web pages
 - [Official Nuclei Templates](https://github.com/projectdiscovery/nuclei-templates) List official nuclei templates available for pentesting 
 - [XRAY](https://github.com/chaitin/xray/blob/master/README_ID.md) A powerful security assessment tool 
-- [villain](https://www.kali.org/tools/villain/) C2 framework that can handle multiple TCP socket & HoaxShell-based reverse shells *maybe FUD
 - [aquasecurity vuln list](https://github.com/aquasecurity/vuln-list) Collect vulnerability information and save it in parsable format automatically
 - [trivy](https://github.com/aquasecurity/trivy) Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more 
 - [aquasecurity Redhat vuln list](https://github.com/aquasecurity/vuln-list-redhat) Red Hat security advisories 
@@ -3469,6 +3482,8 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [lothardware](https://lothardware.com.tr/) Hardware is a resource collection that provides guidance on identifying and utilizing malicious hardware and malicious devices
 - [boostsecurityio](https://boostsecurityio.github.io/lotp/) How development tools commonly used in CI/CD pipelines can be used to achieve arbitrary code execution
 - [List of mime type](https://developer.mozilla.org/en-US/docs/Web/HTTP/MIME_types) List indicates the nature and format of a document, file, or assortment of bytes
+- [subdosec vulnshot](https://subdosec.vulnshot.com/) Awesome web based tool for subdomain enum
+- [IOS Tweak Cydia Repo Updated](https://www.ios-repo-updates.com/) Awesome tweak and package for pentesting IOS
 
 Social Engineering
 
@@ -3665,6 +3680,14 @@ C2 & C4
 - [Metasploit Framework](https://github.com/rapid7/metasploit-framework)
 - [Havoc](https://github.com/HavocFramework/Havoc)
 - [Starkiller](https://github.com/BC-SECURITY/Starkiller)
+- [villain](https://www.kali.org/tools/villain/) C2 framework that can handle multiple TCP socket & HoaxShell-based reverse shells *maybe FUD
+
+Linux Distro Tool Lists 
+
+- [Kali Linnux](https://www.kali.org/tools/)
+- [blackarch Linux](https://blackarch.org/tools.html)
+- [Parrot Sec Linux](https://parrotsec.org/docs/category/tools/)
+- [katoolin3 for Ubbuntu Kali tools](https://github.com/s-h-3-l-l/katoolin3)
 
 Lateral Movement & Pivoting 
 
@@ -4039,6 +4062,7 @@ Search News Journalist and Documentary Sites
 - [reuters](https://www.reuters.com/)
 - [sipri](https://www.sipri.org/)
 - [newspapermap provider arround world](https://newspapermap.com/)               
+- [OCCRP Organized Crime and Corruption Reporting Project](https://www.occrp.org/en)
 
 Social Media Analytics
 
@@ -4436,6 +4460,7 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 
 - [CC Checker](https://dnschecker.org/credit-card-validator.php)
 - [EU financial sanctions list](https://data.europa.eu/data/datasets/consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions?locale=en)
+- [OCCRP Organized Crime and Corruption Reporting Project](https://www.occrp.org/en)
 - [PPP Directory](https://ppp.directory/search)
 - [ID LKPP](https://lkpp.go.id/)
 - [ID LPSE LKPP](https://lpse.lkpp.go.id/eproc4/lelang)
