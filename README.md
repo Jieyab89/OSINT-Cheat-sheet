@@ -3684,6 +3684,8 @@ C2 & C4
 - [Havoc](https://github.com/HavocFramework/Havoc)
 - [Starkiller](https://github.com/BC-SECURITY/Starkiller)
 - [villain](https://www.kali.org/tools/villain/) C2 framework that can handle multiple TCP socket & HoaxShell-based reverse shells *maybe FUD
+- [sliver C2](https://sliver.sh/docs)
+- [mythic C2](https://docs.mythic-c2.net/installation)
 
 Linux Distro Tool Lists 
 
