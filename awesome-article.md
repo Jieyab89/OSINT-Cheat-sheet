@@ -19,6 +19,10 @@
 - [Identitas BTS](http://karionotelco.blogspot.com/p/blog-page_6191.html)
 - [Bagaimana Lokasi Kita Ditemukan Dengan Triangulasi](https://medium.com/@adya/bagaimana-lokasi-kita-ditemukan-dengan-triangulasi-3b87796c1dd)
 
+## ID SOCMINT 
+
+- [Melacak Pengguna Telegram Menggunakan Fitur People Nearby](https://candramawa.medium.com/melacak-pengguna-telegram-menggunakan-fitur-people-nearby-bd841f561e36)
+
 # English Article
 
 - [Creating Sock Puppets for Your Investigations](https://www.maltego.com/blog/creating-sock-puppets-for-your-investigations/)
@@ -70,8 +74,14 @@
 - [Dukera Gewel OSINT](https://publish.obsidian.md/dukera-gewel/about)
 - [Soxoj Sowel](https://sowel.soxoj.com/about)
 - [Linkedin Guide](https://hatless1der.com/new-linkedin-search-features-mean-new-osint-opportunities/)
+- [intelligence.eu - Chrome extension for journalist](https://i-intelligence.eu/insights/the-best-chrome-extensions-for-osint-professionals-researchers-and-journalists-in-2024)
 
 # Vehicle
 
 - [China number plates](https://jenxi.com/china-vehicle-registration-plates/)
 - [Indonesia number plates](https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Indonesia)
+
+# SOCMINT 
+
+- [Information Hackers Find in the Background of Your Social Media Photos](https://medium.com/digital-marketing-lab/subtle-information-hackers-find-in-the-background-of-your-social-media-photos-938ec1876246)
+- [Find Twitter ID with wayback](https://popzazzle.blogspot.com/2019/05/twitter-detective-masterhack-how-to-retrospectively-find-twitter-user-id.html?m=1)
