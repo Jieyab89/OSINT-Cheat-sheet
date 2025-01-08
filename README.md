@@ -2442,6 +2442,7 @@ Desktop NET debugger and assembly editor
 
 # Cryptocurrency Investigation
 
+- [OnChain Industries](https://onchain.industries/)
 - [bitquery](https://explorer.bitquery.io/)
 - [Blockchain](https://www.blockchain.com/)
 - [Flashpoint](https://flashpoint.io/resources/research/flashpoint-and-chainalysis-investigate-hydra-where-cryptocurrency-cybercrime-goes-dark/)
