@@ -1221,6 +1221,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 
 # Finding Usernames
 
+- [onchain](https://www.onchain.industries/)
 - [OSINT indsutries](https://www.osint.industries/)
 - [lullar](https://lullar-com-3.appspot.com/en)
 - [Namechk](http://www.namechk.com)
@@ -1701,6 +1702,7 @@ Google queries for MySpace
 - [hackcheck](https://hackcheck.io/)
 - [h8mail](https://github.com/khast3x/h8mail)
 - [lampyre](https://lampyre.io/)
+- [onchain](https://www.onchain.industries/)
 
 # PGP or GPG Keybase 
 
@@ -2264,6 +2266,7 @@ Geojson viewer
 
 3D Map & Building 
 
+- [osm-3d globe](https://osm-3d.org/screenshots.en.htm)
 - [OSM 3D Map Lists Awesome](https://wiki.openstreetmap.org/wiki/3D)
 - [streets gl](https://streets.gl/)
 - [G maps](https://maps.google.com/maps)
@@ -2286,6 +2289,8 @@ Geojson viewer
 - [sunpath3d](https://drajmarsh.bitbucket.io/sunpath3d.html)
 - [Microsoft Building Dataset](https://planetarycomputer.microsoft.com/dataset/ms-buildings)
 - [osm-3d globe](https://osm-3d.org/screenshots.en.htm)
+- [maps3d](https://maps3d.io/)
+- [osm2world](https://osm2world.org/)
 
 # Nearby Map From Geospatial
 
@@ -2462,6 +2467,7 @@ Desktop NET debugger and assembly editor
 - [blockchair](https://blockchair.com/)
 - [GraphSense-Maltego-transform](https://github.com/INTERPOL-Innovation-Centre/GraphSense-Maltego-transform)
 - [chainalysis](https://www.chainalysis.com/blockchain-intelligence/)
+- [onchain](https://www.onchain.industries/)
 
 # Crypto Market & Analysis  
 
@@ -2489,6 +2495,7 @@ Transaction Analysis
 - [bitaps](https://bitaps.com/)
 - [3pxl](https://3xpl.com/bitcoin)
 - [ARKHAM INTEL](https://intel.arkm.com/)
+- [onchain](https://www.onchain.industries/)
 
 # Cell Investigation
 
@@ -3348,7 +3355,11 @@ NOOA Incident MAP
 
 # OSINT for Red Team 
 
-- [0day](https://0day.today/) View 0day exploit 
+- [resourcehacker](https://www.angusj.com/resourcehacker/) Decompiler tools and change the icon logo for application
+- [php exeoutput](https://www.exeoutput.com/) make your php script to executable file. php compiler for windows
+- [python pyinstaller](https://pyinstaller.org/en/stable/) make your python script to executable file
+- [python py2exe](https://www.py2exe.org/) make your python script to executable file
+- [0day](https://0day.today/) View 0day exploit list
 - [cvexploits](https://cvexploits.io/) CVExploits Search comprehensive database for CVE exploits from across the internet.
 - [rustcat](https://github.com/robiot/rustcat) Rustcat(rcat) - The modern Port listener and Reverse shell
 - [criminalip](https://www.criminalip.io/) Search information like ip, iot and other things 
@@ -3423,6 +3434,7 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [XRAY](https://github.com/chaitin/xray/blob/master/README_ID.md) A powerful security assessment tool 
 - [aquasecurity vuln list](https://github.com/aquasecurity/vuln-list) Collect vulnerability information and save it in parsable format automatically
 - [trivy](https://github.com/aquasecurity/trivy) Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more 
+- [grype](https://github.com/anchore/grype) A vulnerability scanner for container images and filesystems
 - [aquasecurity Redhat vuln list](https://github.com/aquasecurity/vuln-list-redhat) Red Hat security advisories 
 - [Vuls](https://vuls.io/docs/en/abstract.html) Vulnerability scanner for Linux/FreeBSD, agent-less, written in Go
 - [OneForAll](https://github.com/shmilylty/OneForAll/blob/master/docs/en-us/README.md) Awesome web reccon and subdomain, DNS reccon
@@ -3487,6 +3499,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [List of mime type](https://developer.mozilla.org/en-US/docs/Web/HTTP/MIME_types) List indicates the nature and format of a document, file, or assortment of bytes
 - [subdosec vulnshot](https://subdosec.vulnshot.com/) Awesome web based tool for subdomain enum
 - [IOS Tweak Cydia Repo Updated](https://www.ios-repo-updates.com/) Awesome tweak and package for pentesting IOS
+- [beeceptor](https://beeceptor.com/) Create mock server, alternatife for burp collaborator
 
 Social Engineering
 
