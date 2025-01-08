@@ -1427,6 +1427,7 @@ or you can use dork for spesific example
 
 # Youtube 
 
+- [Youtube Comments Finder and Downloader](https://ytbcomments.com/)
 - [citizenevidence](https://citizenevidence.amnestyusa.org/)
 - [watchframebyframe](http://www.watchframebyframe.com/)
 - [YT Mtedata](https://mattw.io/youtube-metadata/)
