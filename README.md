@@ -2252,6 +2252,8 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [anvaka city road creator](https://anvaka.github.io/city-roads)
 - [Windows mapp](https://apps.microsoft.com/detail/9wzdncrdtbvb?hl=en-US&gl=US)
 - [worldatlas](https://www.worldatlas.com/countries)
+- [earthquake hazards USGS](https://www.usgs.gov/programs/earthquake-hazards)
+- [ID earthquake bmkg](https://www.bmkg.go.id/gempabumi/)
 
 Conveter tool 
 
@@ -3870,6 +3872,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [globalfirepower](https://www.globalfirepower.com/)
 - [worldatlas](https://www.worldatlas.com/countries)
 - [army-technology](https://www.army-technology.com/)
+- [zones_nucleardetonation](https://remm.hhs.gov/zones_nucleardetonation.htm)
 
 Simulator and Game 
 
