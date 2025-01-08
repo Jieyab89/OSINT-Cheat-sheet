@@ -2251,6 +2251,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Geo and 3D building in Istanbul](https://harita.istanbul/)
 - [anvaka city road creator](https://anvaka.github.io/city-roads)
 - [Windows mapp](https://apps.microsoft.com/detail/9wzdncrdtbvb?hl=en-US&gl=US)
+- [worldatlas](https://www.worldatlas.com/countries)
 
 Conveter tool 
 
@@ -3866,6 +3867,9 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [nuclearweaponsedproj calculator](https://nuclearweaponsedproj.mit.edu/Node/114)
 - [outrider nuclear weapon calculator area with animation](https://outrider.org/nuclear-weapons/interactive/bomb-blast)
 - [Military Aircraft Wiki](https://en.wikipedia.org/wiki/Military_aircraft)
+- [globalfirepower](https://www.globalfirepower.com/)
+- [worldatlas](https://www.worldatlas.com/countries)
+- [army-technology](https://www.army-technology.com/)
 
 Simulator and Game 
 
@@ -4282,6 +4286,7 @@ You can use for study academic literature, search book, people name, old archive
 - [grammarly](https://www.grammarly.com/)
 - [quillbot](https://quillbot.com/translate)
 - [babla](https://www.babla.co.id/pengucapan/bahasa-china/)
+- [goong](https://goong.com/id/)
 - [Google](https://translate.google.co.id/?sl=auto&tl=en&op=translate)
 - [deepl](https://www.deepl.com/en/translator)
 - [glosbe](https://id.glosbe.com/)
@@ -4495,6 +4500,7 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [ID Kemenkeu](https://www.kemenkeu.go.id/home)
 - [ID Kejaksaan](https://www.kejaksaan.go.id/)
 - [ID Badan Pengawasan Keuangan dan Pembangunan](https://www.bpkp.go.id/)
+- [ID SIRUP LKPP](https://sirup.lkpp.go.id/sirup/home/rekapitulasiindex)
 
 # OSINT Cryptography (Cipher)
 
