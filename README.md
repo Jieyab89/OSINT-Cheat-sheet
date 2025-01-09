@@ -360,6 +360,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [fullhunt](https://fullhunt.io/)
 - [hunter](https://hunter.how/)
 - [odin](https://search.odin.io/)
+- [domaincodex](https://www.domaincodex.com/)
 - [dnslytics](https://dnslytics.com/)
 - [Better Whois](http://www.betterwhois.com)
 - [whoishistory osint](https://osint.sh/whoishistory/)
