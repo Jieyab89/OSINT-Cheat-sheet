@@ -352,6 +352,8 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 # Web Intelligence
 
 - [anubis](https://github.com/jonluca/anubis)
+- [robtex](https://www.robtex.com/)
+- [aware-online](https://www.aware-online.com/en/osint-tools/website-search-tool/)
 - [subdomainfinder search history subdomain](https://subdomainfinder.c99.nl/)
 - [phonebook](https://phonebook.cz/?target=2#)
 - [awseye - search AWS](https://awseye.com/)
