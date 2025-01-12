@@ -4299,6 +4299,7 @@ You can use for study academic literature, search book, people name, old archive
 - [World map Country, language, writing system](https://www.key-shortcut.com/en/writing-systems/world-map-of-alphabets-scripts#map)
 - [chatgpt](https://chatgpt.com/)
 - [2lingual](https://2lingual.com/)
+- [urbandictionary](https://www.urbandictionary.com/)
 
 # OSINT OPSEC 
 
