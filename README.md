@@ -1374,6 +1374,7 @@ or you can use dork for spesific example
 
 # Instagram
 
+- [anonyig IG Profiler](https://anonyig.com/en/)
 - [Hashtagify](http://hashtagify.me)
 - [Iconosquare](http://iconosquare.com)
 - [Picodash](https://www.picodash.com)
