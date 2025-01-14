@@ -1848,6 +1848,7 @@ Search channel, username anymore
 - [Scribd](http://www.scribd.com)
 - [Scribd docdownloader](https://docdownloader.com/)
 - [soPDF.com](http://www.sopdf.com)
+- [Doclibra.com](https://doclibra.com/)
 - [FileChef](https://www.filechef.com/)
 - [File Search Engine](https://www.filesearch.link/)
 - [FilePursuit](https://filepursuit.com/)
