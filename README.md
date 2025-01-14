@@ -3509,6 +3509,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [subdosec vulnshot](https://subdosec.vulnshot.com/) Awesome web based tool for subdomain enum
 - [IOS Tweak Cydia Repo Updated](https://www.ios-repo-updates.com/) Awesome tweak and package for pentesting IOS
 - [beeceptor](https://beeceptor.com/) Create mock server, alternatife for burp collaborator
+- [objection](https://github.com/sensepost/objection) is a runtime mobile exploration toolkit, powered by Frida, built to help you assess the security posture of your mobile applications, without needing a jailbreak.
 
 Social Engineering
 
@@ -3517,6 +3518,7 @@ Social Engineering
 - [anonymailer](https://anonymailer.net/)
 - [Phishious](https://github.com/CanIPhish/Phishious) 
 - [GoPhish](https://getgophish.com/)
+- [SET](https://github.com/trustedsec/social-engineer-toolkit)
 
 Active Directory
 
@@ -4331,6 +4333,7 @@ Guide Journalist
 - [datajournalism](https://datajournalism.com/read)
 - [Resources Journalism](https://gijn.org/resource/)
 - [Danger zone](https://github.com/freedomofpress/dangerzone) Take potentially dangerous PDFs, office documents, or images and convert them to a safe PDF
+- [protect from macro virus guide](https://support.microsoft.com/id-id/office/protect-yourself-from-macro-viruses-a3f3576a-bfef-4d25-84dc-70d18bde5903)
 
 # OSINT Detect Deepfake 
 
