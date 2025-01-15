@@ -1374,6 +1374,8 @@ or you can use dork for spesific example
 
 # Instagram
 
+- [instanavigation](https://instanavigation.net/)
+- [storynavigation](https://storynavigation.com/)
 - [anonyig IG Profiler](https://anonyig.com/en/)
 - [Hashtagify](http://hashtagify.me)
 - [Iconosquare](http://iconosquare.com)
