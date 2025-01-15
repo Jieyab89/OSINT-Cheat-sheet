@@ -1378,6 +1378,7 @@ or you can use dork for spesific example
 - [Hashtagify](http://hashtagify.me)
 - [Iconosquare](http://iconosquare.com)
 - [Picodash](https://www.picodash.com)
+- [Instagram video downloader](https://instaclip.app/)
 - [Toutatis](https://github.com/megadose/toutatis)
 - [SearchMyBio](https://www.searchmy.bio/)
 - [Dumpor](https://dumpor.com/)
@@ -1393,6 +1394,7 @@ or you can use dork for spesific example
 - [Insta Loader](https://github.com/instaloader/instaloader)
 - [Storistalker](https://storistalker.com/#back)
 - [instahunt](https://instahunt.co/)
+- [instaclip](https://instaclip.app/)
 - [Sterraxcyl IG Profiler](https://github.com/novitae/sterraxcyl)
 - [exportcomments](https://exportcomments.com/)
 - [Blastup - Insta Downloader](https://blastup.com/instagram-downloader)
@@ -1401,9 +1403,10 @@ or you can use dork for spesific example
 - [Instagram Auditor 2](https://hypeauditor.com/free-tools/instagram-audit/?username=indozone.id)
 - [upfluence](https://www.upfluence.com/instagram-audit-tool)
 - [toolzu](https://toolzu.com/)
+- [Download instagram videos](https://instaclip.app/)
 - [pathsocial](https://www.pathsocial.com/id/)
 - [export comment Insta](https://exportgram.net/)
-
+- [Download instagram video](https://instaclip.app/)
 # Microsoft OneDrive 
 
 - [Onedrive enum](https://github.com/nyxgeek/onedrive_user_enum)
