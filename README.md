@@ -152,6 +152,7 @@ Be carefull using this tool
 - [Offensive OSINT](https://www.os-surveillance.io/#choose-plan)
 - [botsentinel](https://botsentinel.com/dashboard)
 - [keyhole](https://keyhole.co/)
+- [skopenow](https://www.skopenow.com/)
 
 # Collection Dataset
 
@@ -4215,8 +4216,11 @@ Terrorism & Radical
 - [Microsoft GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
 - [List of satellite map images with missing or unclear data](https://en.wikipedia.org/wiki/List_of_satellite_map_images_with_missing_or_unclear_data)
 - [ventusky](https://www.ventusky.com/?p=-6.6;115.7;4&l=satellite)
-- [EOS lan viewer](https://eos.com/landviewer/?lat=-6.22977&lng=106.98230&z=11&menuItem=search)
 - [satdump](https://www.satdump.org/about/)
+- [airbus sat](https://space-solutions.airbus.com/)
+- [blacksky](https://www.blacksky.com/)
+- [EOS LAND SAT](https://eos.com/landviewer/)
+- [eorc JP](https://www.eorc.jaxa.jp/ALOS/en/index_e.htm)
 
 *Aditional Information coverage sat 
 
@@ -4228,7 +4232,7 @@ Terrorism & Radical
 | Sentinel-3 Satellite    | 300 M    | Daily            |
 | MODIS Satellite         | 250-1000 M| Daily            |
 
-*Source: Bellingcat*
+*Source: Bellingcat & GJIN*
 
 # OSINT for Scraping and Data Collection
 
