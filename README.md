@@ -398,6 +398,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [SNYK](snyk.io)
 - [Similar Sites](https://www.similarsites.com/)
 - [Similar Web](https://www.similarweb.com/)
+- [smallseotools compare web similar](https://smallseotools.com/similar-sites/)
 - [spyonweb](https://spyonweb.com/)
 - [analyzeid](https://analyzeid.com/)
 - [Zeus-Scanner](https://github.com/Ekultek/Zeus-Scanner)
@@ -1374,6 +1375,7 @@ or you can use dork for spesific example
 
 # Instagram
 
+- [mollygram](https://mollygram.com/)
 - [instanavigation](https://instanavigation.net/)
 - [storynavigation](https://storynavigation.com/)
 - [anonyig IG Profiler](https://anonyig.com/en/)
@@ -3356,6 +3358,8 @@ NOOA Incident MAP
 # GPT OSINT (AI)
 
 - [Gpt osint](https://github.com/gigz/gpt-osint)
+- [cursor](https://www.cursor.com/features)
+- [lmstudio](https://lmstudio.ai/)
 - [ollama uncensored](https://ollama.com/library/llama2-uncensored)
 - [Hacker AI](https://chat.hackerai.co/id/login)
 - [Blackbox AI](https://www.blackbox.ai/)
@@ -3521,6 +3525,8 @@ Social Engineering
 - [Phishious](https://github.com/CanIPhish/Phishious) 
 - [GoPhish](https://getgophish.com/)
 - [SET](https://github.com/trustedsec/social-engineer-toolkit)
+- [httrack](https://www.httrack.com/)
+- [saveweb2zip](https://saveweb2zip.com/en)
 
 Active Directory
 
@@ -4398,6 +4404,7 @@ Website
 - [vstat](https://vstat.info/)
 - [siteslike](https://www.siteslike.com/)
 - [domains - search similarity domain and niche web](https://www.domains.ch/en)
+- [smallseotools compare web similar](https://smallseotools.com/similar-sites/)
 
 Company 
 
@@ -4462,6 +4469,7 @@ This is list data broker, you can search or delete form data broker list on here
 This is for you searching software and searching alternative software  
 
 - [alternativeto](https://alternativeto.net/)
+- [alternative](https://alternative.me/)
 - [Apk mirror](https://www.apkmirror.com/) 
 - [apkpure](https://apkpure.com/id/) 
 - [slant](https://www.slant.co/)
