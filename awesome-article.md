@@ -18,6 +18,7 @@
 - [Melacak Posisi Berdasarkan LAC dan Cell ID pada Simcard No.Handphone](https://1sit.blog.amikom.me/2015/05/29/melacak-posisi-berdasarkan-lac-dan-cell-id-pada-simcard-no-handphone/)
 - [Identitas BTS](http://karionotelco.blogspot.com/p/blog-page_6191.html)
 - [Bagaimana Lokasi Kita Ditemukan Dengan Triangulasi](https://medium.com/@adya/bagaimana-lokasi-kita-ditemukan-dengan-triangulasi-3b87796c1dd)
+- [Cegah Website Tampilkan Konten Judi Online dengan Cloudflare Worker](https://mastomi.id/articles/2025-01/cegah-website-tampilkan-konten-judol-dengan-cloudflare-worker)
 
 ## ID SOCMINT 
 
