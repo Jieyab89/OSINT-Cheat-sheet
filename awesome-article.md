@@ -76,6 +76,7 @@
 - [Soxoj Sowel](https://sowel.soxoj.com/about)
 - [Linkedin Guide](https://hatless1der.com/new-linkedin-search-features-mean-new-osint-opportunities/)
 - [intelligence.eu - Chrome extension for journalist](https://i-intelligence.eu/insights/the-best-chrome-extensions-for-osint-professionals-researchers-and-journalists-in-2024)
+- [media manipulators to target journalists and other influential public figures](https://datasociety.net/wp-content/uploads/2019/09/Source-Hacking_Hi-res.pdf)
 
 # Vehicle
 
