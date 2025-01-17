@@ -153,6 +153,7 @@ Be carefull using this tool
 - [botsentinel](https://botsentinel.com/dashboard)
 - [keyhole](https://keyhole.co/)
 - [skopenow](https://www.skopenow.com/)
+- [pipl](https://pipl.com/)
 
 # Collection Dataset
 
@@ -198,6 +199,7 @@ Be carefull using this tool
 - [huggingface](https://huggingface.co/)
 - [goodstats ID](https://goodstats.id/)
 - [ransomwhe Browse ransomware data](https://ransomwhe.re/#report)
+- [botometer Twitter bot dataset](https://botometer.osome.iu.edu/bot-repository/datasets.html)
 
 # Forums & Sites
 
@@ -1126,6 +1128,8 @@ Example
 - [locatefamily](https://www.locatefamily.com/)
 - [CrossLinked](https://github.com/m8sec/CrossLinked)
 - [API for Indonesian ID card (KTP) identification](https://github.com/audhiaprilliant/indonesian-id-card-identification)
+- [pipl](https://pipl.com/)
+- [skopenow](https://www.skopenow.com/)
 
 # Family People Search 
 
@@ -1229,6 +1233,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [onchain](https://www.onchain.industries/)
 - [OSINT indsutries](https://www.osint.industries/)
 - [lullar](https://lullar-com-3.appspot.com/en)
+- [namecheckr](https://www.namecheckr.com/)
 - [Namechk](http://www.namechk.com)
 - [Knowem](http://www.knowem.com)
 - [Nexfil](https://github.com/thewhiteh4t/nexfil)
@@ -1520,6 +1525,7 @@ or you can use dork for spesific example
 - [History Twitter](https://memory.lol/app/)
 - [Wayback Twitter](https://waybacktweets.streamlit.app/)
 - [Twitter BOT](https://botometer.osome.iu.edu/)
+- [botometer Twitter dataset](https://botometer.osome.iu.edu/bot-repository/datasets.html)
 - [Treverse](https://github.com/paulgb/Treeverse/blob/master/README.md?utm_content=buffer33d48&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer#readme)
 - [Tweetbinder](https://www.tweetbinder.com/)
 - [onemilliontweetmap](https://onemilliontweetmap.com/)
@@ -2677,7 +2683,7 @@ Build your own deepfake
 - [deepfakesweb](https://deepfakesweb.com/)
 - [Swapface](https://swapface.org/#/home)
 - [liveportrait animate your photo](https://liveportrait.org/)
-- [LivePortrait ](https://github.com/KwaiVGI/LivePortrait)
+- [LivePortrait](https://github.com/KwaiVGI/LivePortrait)
 
 Virtual Camera 
 
@@ -2685,7 +2691,7 @@ Virtual Camera
 - [splitcam](https://splitcam.com/)
 - [altercam](https://altercam.com/)
 - [Virtual cam apk mod](https://apkcombo.com/id/virtual-camera-live-assist/virtual.camera.app/download/apk)
-- [vcames - CN](https://vcames.xyz/)
+- [vcamare - CN](https://vcames.xyz/)
 - [virtual camera moudle lsposed](https://github.com/Xposed-Modules-Repo/com.example.vcam)
 
 Social Network and blogging
@@ -2696,6 +2702,8 @@ Social Network and blogging
 - Facebook
 - Instagram
 - Linkedin 
+- Rocket Reach
+- Etc
 
 # Enhance Image Quality
 
@@ -2765,7 +2773,6 @@ Social Network and blogging
 # Discord Server Search  
 
 - [Discord servers](https://discordservers.com/)
-- [Discover servers](https://disboard.org/)
 - [Discord history tracker](https://www.dht.chylex.com/)  
 - [Darvester](https://github.com/darvester/darvester)
 - [Discord Leaks](https://discordleaks.unicornriot.ninja/discord/server/)
@@ -3379,6 +3386,7 @@ NOOA Incident MAP
 
 # OSINT for Red Team 
 
+- [PayloadsAllThePDFs](https://github.com/luigigubello/PayloadsAllThePDFs) A list of crafted malicious PDF files to test the security of PDF readers and tools
 - [resourcehacker](https://www.angusj.com/resourcehacker/) Decompiler tools and change the icon logo for application
 - [php exeoutput](https://www.exeoutput.com/) make your php script to executable file. php compiler for windows
 - [python pyinstaller](https://pyinstaller.org/en/stable/) make your python script to executable file
@@ -4373,6 +4381,8 @@ Guide Journalist
 - [audio elevenlabs](https://elevenlabs.io/ai-speech-classifier)
 - [GIJN Investigate AI Deepfake](https://gijn.org/resource/tipsheet-investigating-ai-audio-deepfakes/)
 - [datajournalism AI Deepfake](https://datajournalism.com/read/handbook/verification-3/investigating-actors-content/6-how-to-think-about-deepfakes-and-emerging-manipulation-technologie)
+- [sightengine](https://sightengine.com/)
+- [wasitai](https://wasitai.com/)
 
 # OSINT Similarity (Plagiarism)
 
@@ -4395,6 +4405,7 @@ Text Analyzer
 - [brandmentions](https://brandmentions.com/)
 - [copyleaks](https://copyleaks.com/)
 - [gowinston](https://gowinston.ai/)
+- [humbot](https://humbot.ai/)
 
 Audio Analyzer 
 
