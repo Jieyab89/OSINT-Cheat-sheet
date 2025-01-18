@@ -200,6 +200,7 @@ Be carefull using this tool
 - [goodstats ID](https://goodstats.id/)
 - [ransomwhe Browse ransomware data](https://ransomwhe.re/#report)
 - [botometer Twitter bot dataset](https://botometer.osome.iu.edu/bot-repository/datasets.html)
+- [Aircraft Mil Dataset](https://github.com/sdr-enthusiasts/plane-alert-db)
 
 # Forums & Sites
 
@@ -1848,6 +1849,7 @@ Search channel, username anymore
 - [Awesome-Telegram-OSINT](https://github.com/ItIsMeCall911/Awesome-Telegram-OSINT)
 - [Telegram-OSINT](https://github.com/The-Osint-Toolbox/Telegram-OSINT)
 - [tlgrm channels by categories](https://tlgrm.eu/channels)
+- [TeleBotList](https://github.com/MoonWalker440/TeleBotList)
 
 # Document and Slides Search OSINT
 
@@ -2769,6 +2771,7 @@ Social Network and blogging
 - [mooncalendar](https://www.mooncalc.org/mooncalendar/)
 - [earthkit](https://earthkit.app/satellite)
 - [gaisma sunrise, sunset arround world](https://www.gaisma.com/en/)
+- [Ej Atlas](https://ejatlas.org/)
 
 # Discord Server Search  
 
@@ -3353,6 +3356,7 @@ Public Transport
 - [vesseltracker](https://www.vesseltracker.com/)
 - [shipnext](https://shipnext.com/vessel/9417440/Ohio)
 - [magicport](https://magicport.ai/)
+- [opencpn GPS Navigation Software](https://opencpn.org/OpenCPN/info/about.html)
 
 NOOA Incident MAP 
 
@@ -3743,6 +3747,27 @@ Linux Distro Tool Lists
 - [Parrot Sec Linux](https://parrotsec.org/docs/category/tools/)
 - [katoolin3 for Ubbuntu Kali tools](https://github.com/s-h-3-l-l/katoolin3)
 
+Hardware Pentesting 
+
+- [Ruber ducky](https://shop.hak5.org/collections/hotplug-attack-tools/products/usb-rubber-ducky)
+- [OMG cable](https://shop.hak5.org/products/omg-cable)
+- [bash-bunny](https://shop.hak5.org/collections/hotplug-attack-tools/products/bash-bunny)
+- [shark jack](https://shop.hak5.org/collections/hotplug-attack-tools/products/shark-jack)
+- [LAN turtle](https://shop.hak5.org/collections/implants/products/lan-turtle)
+- [HackRF](https://greatscottgadgets.com/hackrf/)
+- [bladeRF](https://www.nuand.com/bladerf-1/)
+- [RasberryPI](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
+- [RTL SDR](https://www.rtl-sdr.com/)
+- [usbkill](https://usbkill.com/)
+- [OSMOCOM GSM](https://osmocom.org/projects/baseband/wiki/Hardware)
+- [esp8266](https://www.espressif.com/en/products/socs/esp8266)
+- [arduino](https://www.arduino.cc/)
+- [flipperzero](https://flipperzero.one/)
+- [wifi-pineapple](https://shop.hak5.org/products/wifi-pineapple)
+- [LAN Cable](https://en.wikipedia.org/wiki/Ethernet)
+- [LockPick](https://en.wikipedia.org/wiki/Lock_picking)
+- [NodeMCU Board](https://www.amazon.in/Easy-Electronics-NodeMcu-Development-Board/dp/B06XYRS6KC)
+
 Lateral Movement & Pivoting 
 
 *Pro tips 
@@ -3907,6 +3932,8 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [worldatlas](https://www.worldatlas.com/countries)
 - [army-technology](https://www.army-technology.com/)
 - [zones_nucleardetonation](https://remm.hhs.gov/zones_nucleardetonation.htm)
+- [nuclearsecrecy missil map simulation](https://nuclearsecrecy.com/missilemap/)
+- [atomicarchive awesome to learn sains and chemistry](https://www.atomicarchive.com/resources/links/index.html)
 
 Simulator and Game 
 
@@ -4125,6 +4152,8 @@ Search News Journalist and Documentary Sites
 - [sipri](https://www.sipri.org/)
 - [newspapermap provider arround world](https://newspapermap.com/)               
 - [OCCRP Organized Crime and Corruption Reporting Project](https://www.occrp.org/en)
+- [timesofisrael](https://www.timesofisrael.com/)
+- [The international news](https://www.thenews.com.pk/)
 
 Social Media Analytics
 
@@ -4190,6 +4219,11 @@ Terrorism & Radical
 - [GraphSense-Maltego-transform](https://github.com/INTERPOL-Innovation-Centre/GraphSense-Maltego-transform)
 - [Offical Maltego Transform List](https://www.maltego.com/transform-hub/)
 - [Github cipher387 maltego transforms list](https://github.com/cipher387/maltego-transforms-list)
+- [Holehe Maltego Transforms](https://github.com/megadose/holehe-maltego)
+- [Farsight DNSDB Transforms for Maltego](https://www.maltego.com/transform-hub/farsight-dnsdb/)
+- [Web Screnshhot Maltego Transforms](https://github.com/TURROKS/Maltego_Web2Screenshot)
+- [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
+- [Maltego Social Links Pro](https://www.maltego.com/transform-hub/social-links-pro/)
 
 # OSINT Wildlife 
 
@@ -4241,6 +4275,7 @@ Terrorism & Radical
 - [blacksky](https://www.blacksky.com/)
 - [EOS LAND SAT](https://eos.com/landviewer/)
 - [eorc JP](https://www.eorc.jaxa.jp/ALOS/en/index_e.htm)
+- [Copernicus](https://atmosphere.copernicus.eu/charts/packages/cams/?facets=%7B%22Family%22%3A%5B%22Fires%22%5D%7D)
 
 *Aditional Information coverage sat 
 
@@ -4381,6 +4416,7 @@ Guide Journalist
 - [audio elevenlabs](https://elevenlabs.io/ai-speech-classifier)
 - [GIJN Investigate AI Deepfake](https://gijn.org/resource/tipsheet-investigating-ai-audio-deepfakes/)
 - [datajournalism AI Deepfake](https://datajournalism.com/read/handbook/verification-3/investigating-actors-content/6-how-to-think-about-deepfakes-and-emerging-manipulation-technologie)
+- [DW Guide Investigate Deepfake](https://www.dw.com/en/fact-check-how-do-i-spot-a-deepfake/a-60029650)
 - [sightengine](https://sightengine.com/)
 - [wasitai](https://wasitai.com/)
 
@@ -4532,6 +4568,10 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [sunpath3d](https://drajmarsh.bitbucket.io/sunpath3d.html)
 - [rapidtables conveter calc](https://www.rapidtables.com/convert/)
 - [dcode fr awesome calc and conveter](https://www.dcode.fr/en)
+- [unsaferguard Blast Damage Estimation](https://unsaferguard.org/un-saferguard/blast-damage-estimation)
+- [nukemap nuclear damage estimation](https://nuclearsecrecy.com/nukemap/)
+- [nuclearweaponsedproj blast effects calc](https://nuclearweaponsedproj.mit.edu/nuclear-weapons-blast-effects-calculator/)
+- [outrider sains nuclear weapon estimate calc](https://outrider.org/)
 
 # OSINT Financial (FININT)
 
