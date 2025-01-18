@@ -1960,6 +1960,8 @@ Search channel, username anymore
 - [geospy](https://geospy.web.app/)
 - [alamy](https://www.alamy.com/)
 - [rootabout](https://rootabout.com/)
+- [copyseeker](https://copyseeker.net/)
+- [infringement image search](https://infringement.report/api/raider-reverse-image-search/)
 
 # Image Analysis
 
@@ -3776,7 +3778,7 @@ If cannot connected with target check the port and the software version, you can
 
 - [proxychains](https://www.kali.org/tools/proxychains-ng/)
 - [Chisel](https://github.com/jpillora/chisel/releases/tag/v1.9.1)
-- [Ligolo](https://github.com/nicocha30/ligolo-ng)
+- [Ligolo-NG](https://github.com/nicocha30/ligolo-ng)
 
 # Audio OSINT 
 
