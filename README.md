@@ -1381,6 +1381,19 @@ or you can use dork for spesific example
 - [SocNet Dynamic Image Search](https://github.com/DataSalo/SocNet_Dynamic_Image_Search)
 - [Bellingcat VK scrapper](https://github.com/bellingcat/vk-url-scraper)
 
+# Bluesky 
+
+- [Bluesky api doc](https://docs.bsky.app/)
+- [hoaxy](https://hoaxy.osome.iu.edu/)
+- [osintcombine](https://www.osintcombine.com/platform)
+- [bcounter](https://bcounter.nat.vg/)
+- [vqv](https://vqv.app/)
+- [realtime bluesky](https://realtime.blue/)
+- [bluesky label](https://www.bluesky-labelers.io/)
+- [goodfeeds](https://goodfeeds.co/)
+- [bluesky insights](https://bluesky-insights.dwagentai.com/)
+- [bluesky-crossposter](https://github.com/Linus2punkt0/bluesky-crossposter)
+
 # Instagram
 
 - [mollygram](https://mollygram.com/)
@@ -1463,6 +1476,7 @@ or you can use dork for spesific example
 
 - [Masto](https://github.com/C3n7ral051nt4g3ncy/Masto)
 - [imagstodon](https://seintpl.github.io/imagstodon/)
+- [bluesky-crossposter](https://github.com/Linus2punkt0/bluesky-crossposter)
 
 # Twitter
 
@@ -1539,6 +1553,7 @@ or you can use dork for spesific example
 - [tweepy](https://www.tweepy.org/)
 - [twtdata](https://www.twtdata.com/)
 - [botsentinel](https://botsentinel.com/dashboard)
+- [bluesky-crossposter](https://github.com/Linus2punkt0/bluesky-crossposter)
 
 Twitter Search Engine 
 
