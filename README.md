@@ -369,6 +369,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [domaincodex](https://www.domaincodex.com/)
 - [dnslytics](https://dnslytics.com/)
 - [Better Whois](http://www.betterwhois.com)
+- [ican whois](https://lookup.icann.org/en)
 - [whoishistory osint](https://osint.sh/whoishistory/)
 - [DNS History](http://dnshistory.org)
 - [DNS Spy](https://dnsspy.io)
@@ -3942,6 +3943,13 @@ Simulator and Game
 - [War Thunder](https://warthunder.com/en)
 - [Modern Warship](https://promo.worldofwarships.com/)
 - [Microsoft Flight Simulator](https://www.flightsimulator.com/)
+
+Tactical learn and some knowledge
+
+- [FalconLaw](https://www.youtube.com/@falconclaw_)
+- [GarandThumb](https://www.youtube.com/@GarandThumb)
+- [The FieldCraft Survival Channel
+](https://www.youtube.com/@fieldcraftsurvival)
 
 # OSINT Shadow Analysis 
 
