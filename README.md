@@ -4581,7 +4581,7 @@ This is for you searching software and searching alternative software
 
 # OSINT Measurement
 
-Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or sensor and other things 
+Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or sensor and other things (mapping location) 
 
 - [time&date awesome calc and conveter list](https://www.timeanddate.com/moon/)
 - [smappen](https://www.smappen.com/app/)
