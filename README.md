@@ -1866,6 +1866,13 @@ Search channel, username anymore
 - [Telegram-OSINT](https://github.com/The-Osint-Toolbox/Telegram-OSINT)
 - [tlgrm channels by categories](https://tlgrm.eu/channels)
 - [TeleBotList](https://github.com/MoonWalker440/TeleBotList)
+- [telepathydb](https://telepathydb.com/)
+- [telemetryapp](https://www.telemetryapp.io/)
+- [fragment](https://fragment.com/)
+- [combot Tele Group](https://combot.org/top/telegram/groups)
+- [telegram-store](https://telegram-store.com/)
+- [telegramdb](https://www.telegramdb.org/)
+- [tosint](https://github.com/drego85/tosint)
 
 # Document and Slides Search OSINT
 
@@ -2627,6 +2634,7 @@ WhatsApp
 Telegram
 
 - [TelegramDB](http://www.telegramdb.org/)
+- [tosint](https://github.com/drego85/tosint)
 - [Telegram Search Engine](https://xtea.io/)
 - [Telegram Database: channels, groups and users](https://t.me/s/privatelinks)
 - [Telegram channels and groups catalog](https://tgstat.com/)
