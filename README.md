@@ -458,10 +458,11 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [domains - search similarity domain and niche web](https://www.domains.ch/en)
 - [favihash](https://www.favihash.com/)
 - [subdosec vulnshot](https://subdosec.vulnshot.com/)
+- [waybackpack download wayback archive url](https://github.com/jsvine/waybackpack)
 
 *Tips web cache 
 
-Use this if google cache was gone 
+Use this if google cache was gone (no index sites)
 
 ```
 https[:]//www[.]google[.]com/search?q=cache:<url of interest>
@@ -504,6 +505,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [safeweb norton](https://safeweb.norton.com/)
 - [haveibeensquatted](https://www.haveibeensquatted.com/)
 - [favihash](https://www.favihash.com/)
+- [waybackpack download wayback archive url](https://github.com/jsvine/waybackpack)
 
 # Researching Cyber Threats
 
@@ -898,6 +900,7 @@ Example
 - [lolarchiver](https://osint.lolarchiver.com/#)
 - [Time Travel](http://timetravel.mementoweb.org/)
 - [bellingcat wayback-google-analytics](https://github.com/bellingcat/wayback-google-analytics)
+- [waybackpack download wayback archive url](https://github.com/jsvine/waybackpack)
 
 # Data Breached OSINT
 
@@ -1397,6 +1400,7 @@ or you can use dork for spesific example
 # Instagram
 
 - [mollygram](https://mollygram.com/)
+- [indownloader](https://indownloader.app/)
 - [instanavigation](https://instanavigation.net/)
 - [storynavigation](https://storynavigation.com/)
 - [anonyig IG Profiler](https://anonyig.com/en/)
@@ -1428,6 +1432,7 @@ or you can use dork for spesific example
 - [toolzu](https://toolzu.com/)
 - [pathsocial](https://www.pathsocial.com/id/)
 - [export comment Insta](https://exportgram.net/)
+- [Get account ID instagram](https://commentpicker.com/instagram-user-id.php)
 
 # Microsoft OneDrive 
 
@@ -1890,7 +1895,7 @@ Search channel, username anymore
 - [File Search Engine](https://www.filesearch.link/)
 - [FilePursuit](https://filepursuit.com/)
 - [NAPALM FTP Indexer](https://www.searchftps.net/)
-- [Cryptome](https://cryptome.org/)
+- [Cryptome - search doc about publication that are prohibited by government](https://cryptome.org/)
 - [Finda PDF](https://www.findapdf.com/)
 - [Find PDF Doc](http://www.findpdfdoc.com/)
 - [Pdf analyzer](http://pdf-analyser.edpsciences.org/)
@@ -1908,7 +1913,6 @@ Search channel, username anymore
 - [CV REesume Search](https://booleanstrings.com/hidden-resumes/#gsc.tab=0&gsc.q=)
 - [booleanstrings document search](https://booleanstrings.com/doc-finder-storage/#gsc.tab=0&gsc.q=)
 - [wikileaks](https://search.wikileaks.org/)
-- [slideshare](https://www.slideshare.net/)
 - [pdfdrive](https://www.pdfdrive.com/search?q=password)
 - [goofile](https://www.kali.org/tools/goofile/)
 
@@ -2148,7 +2152,7 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [GPSVisualizer](http://www.gpsvisualizer.com)
 - [GrassGIS](http://grass.osgeo.org)
 - [Here](http://here.com)
-- [Hyperlapse](https://github.com/TeehanLax/Hyperlapse.js)
+- [Hyperlapse Google Street View](https://github.com/TeehanLax/Hyperlapse.js)
 - [Inspire Geoportal](http://inspire-geoportal.ec.europa.eu)
 - [InstantAtlas](http://www.instantatlas.com)
 - [Instant Google Street View](http://www.instantstreetview.com)
@@ -2721,6 +2725,7 @@ Virtual Camera
 - [Virtual cam apk mod](https://apkcombo.com/id/virtual-camera-live-assist/virtual.camera.app/download/apk)
 - [vcamare - CN](https://vcames.xyz/)
 - [virtual camera moudle lsposed](https://github.com/Xposed-Modules-Repo/com.example.vcam)
+- [android virtual cam - CN](https://github.com/w2016561536/android_virtual_cam)
 
 Social Network and blogging
 
@@ -2842,6 +2847,7 @@ Social Network and blogging
 - [onion scan](https://onionscan.org/)
 - [hunch ly](https://www.hunch.ly/darkweb-osint/)
 - [DarkWeb Archive - Active Japan lang](https://darkweb-archive.activetk.jp/)
+- [iaca-darkweb-tools](https://iaca-darkweb-tools.com/search-darkweb/)
 
 # Darkweb Intelligence
 
@@ -2892,6 +2898,7 @@ Social Network and blogging
 - [deepweblinks](https://deepweblinks.net/)
 - [onionlandsearchengine](https://onionlandsearchengine.net/)
 - [tor link](https://tor.link/)
+- [iaca-darkweb-tools](https://iaca-darkweb-tools.com/search-darkweb/)
 
 # Digital Forensics
 
@@ -3027,6 +3034,7 @@ Password Manager
 - [scamsearch global scam database](https://scamsearch.io/)
 - [getcontact](https://getcontact.com/en/)
 - [SEON](https://seon.io/)
+- [snusbase](https://snusbase.com/)
 
 # Content Removal & Strict Media Content
 
@@ -3126,7 +3134,6 @@ Strict and disable bot crawl search engine index account
 - [Find People Search](https://findpeoplesearch.com/customerservice/) Request for remove your data from this site
 - [Free Background Checks](https://www.infopay.com/privacy) Request for remove your data from this site
 - [Free People Directory](https://www.freepeopledirectory.com/optout) Request for remove your data from this site
-- [Free Phone Tracer](https://www.beenverified.com/app/optout/search) Request for remove your data from this site
 - [Free Public Profile](https://www.freepublicprofile.com/Removal) Request for remove your data from this site
 - [FindRec](https://findrec.com/ng/control/privacy) Request for remove your data from this site
 - [Glad I Know](https://gladiknow.com/opt-out) Request for remove your data from this site
@@ -3160,12 +3167,10 @@ Strict and disable bot crawl search engine index account
 - [National Cellular Directory](https://www.nationalcellulardirectory.com/optout/) Request for remove your data from this site
 - [Neighbor Report](https://neighbor.report/remove) Request for remove your data from this site
 - [NewEnglandFacts](https://newenglandfacts.com/ng/control/privacy) Request for remove your data from this site
-- [Number Guru](https://www.beenverified.com/app/optout/search) Request for remove your data from this site
 - [Numberville](https://numberville.com/opt-out.html) Request for remove your data from this site
 - [Nuwber](https://nuwber.com/removal/link) Request for remove your data from this site
 - [Official USA](https://www.officialusa.com/opt-out) Request for remove your data from this site
 - [Old Friends](https://old-friends.co/) Request for remove your data from this site
-- [Ownerly](https://www.beenverified.com/app/optout/search) Request for remove your data from this site
 - [PeekYou](https://www.peekyou.com/about/contact/optout/) Request for remove your data from this site
 - [Peep Lookup](https://www.peeplookup.com/opt_out) Request for remove your data from this site
 - [PeopleBackgroundCheck](https://people-background-check.com/ng/control/privacy) Request for remove your data from this site
@@ -3563,6 +3568,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [IOS Tweak Cydia Repo Updated](https://www.ios-repo-updates.com/) Awesome tweak and package for pentesting IOS
 - [beeceptor](https://beeceptor.com/) Create mock server, alternatife for burp collaborator
 - [objection](https://github.com/sensepost/objection) is a runtime mobile exploration toolkit, powered by Frida, built to help you assess the security posture of your mobile applications, without needing a jailbreak.
+- [Fiddler](https://www.telerik.com/fiddler) Uncover software bugs when HTTP communication is involved. The Fiddler set of tools helps you promptly identify errors to effectively fix them. Easily (like burp)
 
 Social Engineering
 
@@ -3960,6 +3966,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [zones_nucleardetonation](https://remm.hhs.gov/zones_nucleardetonation.htm)
 - [nuclearsecrecy missil map simulation](https://nuclearsecrecy.com/missilemap/)
 - [atomicarchive awesome to learn sains and chemistry](https://www.atomicarchive.com/resources/links/index.html)
+- [Cryptome - search doc about publication that are prohibited by government](https://cryptome.org/)
 
 Simulator and Game 
 
@@ -4009,6 +4016,7 @@ Academic Literature
 - [Academic Literature on Open Source Research & Methods](https://docs.google.com/document/d/1uqzGi9asZZlaEs8syHbh3AsizVccU-IKJp4zPufaaBk/edit#heading=h.s9zomzvdp109)
 - [OSINT ethics](https://stanleycenter.org/publications/osint-applied-ethics-workbook/)
 - [G Drive - Navigating digital media](https://drive.google.com/drive/folders/1eF9FE-2B-bVciTCbajMR_f1Q7fHZl0s5)
+- [Cryptome - search doc about publication that are prohibited by government](https://cryptome.org/)
 
 # Web Directory 
 
@@ -4187,6 +4195,7 @@ Search News Journalist and Documentary Sites
 - [OCCRP Organized Crime and Corruption Reporting Project](https://www.occrp.org/en)
 - [timesofisrael](https://www.timesofisrael.com/)
 - [The international news](https://www.thenews.com.pk/)
+- [Cryptome - search doc about publication that are prohibited by government](https://cryptome.org/)
 
 Social Media Analytics
 
@@ -4198,6 +4207,8 @@ Social Media Analytics
 - Quora
 - Linkedin
 - Reddit 
+- Old forum 
+- Local forum
 
 # Threat Actor & Criminal 
 
