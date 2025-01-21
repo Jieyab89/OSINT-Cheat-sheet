@@ -506,6 +506,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [haveibeensquatted](https://www.haveibeensquatted.com/)
 - [favihash](https://www.favihash.com/)
 - [waybackpack download wayback archive url](https://github.com/jsvine/waybackpack)
+- [Google Safe Browsing](https://developers.google.com/safe-browsing?hl=id)
 
 # Researching Cyber Threats
 
@@ -614,6 +615,8 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [cybersixgill](https://cybersixgill.com/)
 - [ibmcloud exchange](https://exchange.xforce.ibmcloud.com/)
 - [favihash](https://www.favihash.com/)
+- [Google Safe Browsing](https://developers.google.com/safe-browsing?hl=id)
+- [greynoise](https://www.greynoise.io/)
 
 # IoT Search Engines
 
@@ -761,6 +764,7 @@ You can find the file hash or other threat indicator
 - [dynamite.ai search pcap file](https://lab.dynamite.ai/)
 - [packetsafari analys pcap file](https://app.packetsafari.com/)
 - [cybersixgill](https://cybersixgill.com/)
+- [Google Safe Browsing](https://developers.google.com/safe-browsing?hl=id)
 
 # Automation Dorking 
 
@@ -877,6 +881,7 @@ Example
 - [kagi](https://kagi.com/)
 - [brave](https://search.brave.com/)
 - [stract](https://stract.com/)
+- [Google Safe Browsing](https://developers.google.com/safe-browsing?hl=id)
 
 # Internet Archive
 
@@ -2522,7 +2527,8 @@ Desktop NET debugger and assembly editor
 - [blockchair](https://blockchair.com/)
 - [GraphSense-Maltego-transform](https://github.com/INTERPOL-Innovation-Centre/GraphSense-Maltego-transform)
 - [chainalysis](https://www.chainalysis.com/blockchain-intelligence/)
-- [onchain](https://www.onchain.industries/)
+- [onchain industries](https://www.onchain.industries/)
+- [breadcrumbs](https://www.breadcrumbs.app/)
 
 # Crypto Market & Analysis  
 
@@ -2550,7 +2556,8 @@ Transaction Analysis
 - [bitaps](https://bitaps.com/)
 - [3pxl](https://3xpl.com/bitcoin)
 - [ARKHAM INTEL](https://intel.arkm.com/)
-- [onchain](https://www.onchain.industries/)
+- [onchain industries](https://www.onchain.industries/)
+- [breadcrumbs](https://www.breadcrumbs.app/)
 
 # Cell Investigation
 
@@ -2700,6 +2707,7 @@ Build your sockpuppet account and proctect your privacy
 - [NIK & KK ID Generator](https://web.archive.org/web/20241204174239/https://www.scribd.com/document/402863097/Nik-Kk-Generator)
 - [EKTP-Generator ID](https://github.com/veldanava/EKTP-Generator)
 - [FAKE KTP ID](https://www.capcut.com/templates/FAKE-KTP-7231021297839475969?template_scale=360%3A227)
+- [Google Safe Browsing](https://developers.google.com/safe-browsing?hl=id)
 
 Build your own deepfake 
 
