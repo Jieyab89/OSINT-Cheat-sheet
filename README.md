@@ -998,6 +998,10 @@ Example
 - [gale](https://www.gale.com/)
 - [hathitrust](https://www.hathitrust.org/)
 - [connectedpapers](https://www.connectedpapers.com/)
+- [base-search](https://www.base-search.net/)
+- [smartquantai](https://www.smartquantai.com/)
+- [arxiv](https://arxiv.org/multi?group=grp_physics&%2Fform=Form+Interface)
+- [oa citation](https://oa.mg/)
 
 # Blogs Search Engine
 
@@ -4018,13 +4022,12 @@ Analysis for IMINT and find the geolocation, azimuth and etc
 - [Google scholar](https://scholar.google.com/)
 - [Jstor](https://www.jstor.org/)
 - [worldwidescience](https://worldwidescience.org/index.html)
-
-Academic Literature
-
+- [CORE](https://core.ac.uk/)
 - [Academic Literature on Open Source Research & Methods](https://docs.google.com/document/d/1uqzGi9asZZlaEs8syHbh3AsizVccU-IKJp4zPufaaBk/edit#heading=h.s9zomzvdp109)
 - [OSINT ethics](https://stanleycenter.org/publications/osint-applied-ethics-workbook/)
 - [G Drive - Navigating digital media](https://drive.google.com/drive/folders/1eF9FE-2B-bVciTCbajMR_f1Q7fHZl0s5)
 - [Cryptome - search doc about publication that are prohibited by government](https://cryptome.org/)
+- [smartquantai](https://www.smartquantai.com/)
 
 # Web Directory 
 
