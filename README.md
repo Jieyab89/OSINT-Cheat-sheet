@@ -94,7 +94,7 @@ Site :
 
 - exiftool -tagname="string" file
 >
->example : exiftool -Author="Bayu" test.txt
+> example : exiftool -Author="Bayu" test.txt
 >
 
 you can add multiple tag and multiple file
@@ -103,14 +103,14 @@ you can add multiple tag and multiple file
 
 - exiftool -tagname="" file
 >
->example : exiftool -Author="" test.txt
+> example : exiftool -Author="" test.txt
 >
 
 ## Delete mass metadata
 
 - exiftool -all="" file
 >
->example : exiftool -all="" file
+> example : exiftool -all="" file
 >
 
 #Usage : man exiftool or read documentation exiftool.org
@@ -132,21 +132,16 @@ Automated tool by David Bombal
 # SOCMINT  
 
 - [Instagram](https://github.com/Datalux/Osintgram)
-Be carefull using this tool
+Be carefull using this tool use 2nd account because your account got banned
 - [Tinfoleak](https://github.com/vaguileradiaz/tinfoleak)
-- [SOCMINT tool](https://osint.support/chrome-extensions/2019/09/29/osint-socmint-tooling.html)
 - [Graph Search](http://socmint.tools/graph.htm)
 - [Alfred](https://github.com/Alfredredbird/alfred)
 - [Blackbird](https://github.com/p1ngul1n0/blackbird)
 - [sociallinks](https://sociallinks.io/products/sl-crimewall)
-- [spokeo](https://www.spokeo.com/)
 - [maigret](https://github.com/soxoj/maigret)
 - [social searcher](https://www.social-searcher.com/)
-- [seon](https://seon.io/products/digital-footprinting-solution/)
 - [inteltechniques](https://inteltechniques.com/tools/index.html)
 - [SNSSCRAPE](https://github.com/JustAnotherArchivist/snscrape)
-- [dreddown - social media downloader](https://www.dredown.com/)
-- [knowlesys](https://knowlesys.com/index.html)
 - [TOOKIE OSINT](https://github.com/Alfredredbird/tookie-osint)
 - [Hoaxy](https://hoaxy.osome.iu.edu/)
 - [Offensive OSINT](https://www.os-surveillance.io/#choose-plan)
@@ -169,8 +164,6 @@ Be carefull using this tool
 - [datasetsearch](https://datasetsearch.research.google.com/)
 - [OSINT Collection](https://start.me/p/DPYPMz/the-ultimate-osint-collection)
 - [Academic Torrent](https://academictorrents.com/)
-- [Torrent API](https://github.com/Ryuk-me/Torrent-Api-py) 
-- [API OSINT TORRENT](https://rapidapi.com/theoneappkh/api/torrent-search/) 
 - [Microsoft Building Fingerprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
 - [MAXAR Satellite imagery](https://www.maxar.com/open-data)
 - [Satellite Collection](https://www.nesdis.noaa.gov/real-time-imagery/imagery-collections)
@@ -278,15 +271,12 @@ Site and forums OSINT community arround world
 
 # File & FTP
 
-- [Archie](http://archie.icm.edu.pl/archie_eng.html)
 - [4shared](https://www.4shared.com)
 - [FileSearching](http://www.filesearching.com)
 - [File chef](https://www.filechef.com)
 - [Global File Search](http://globalfilesearch.com)
 - [Search Shared](https://www.searchshared.info)
 - [MMNT](http://www.mmnt.ru)
-- [Pdf analyzer](http://pdf-analyser.edpsciences.org/)
-- [Tools pdf24](https://tools.pdf24.org/en/extract-images)
 
 # Social Media Search and Monitoring
 
@@ -299,7 +289,7 @@ Site and forums OSINT community arround world
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
 - [SNSCRAPE - Scraper](https://github.com/JustAnotherArchivist/snscrape)
 - [OSINT compass](https://osint-compass-portal.onrender.com/)
-- [Phantom Buster](https://phantombuster.com/phantombuster)
+- [Phantom Buster Scraper](https://phantombuster.com/phantombuster)
 - [Open measure](https://public.openmeasures.io/)
 - [huntintel](https://www.huntintel.io/)
 - [Sherlock Eye](https://sherlockeye.io/)
@@ -308,7 +298,6 @@ Site and forums OSINT community arround world
 - [sociallinks](https://sociallinks.io/)
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
 - [socialscan](https://pypi.org/project/socialscan/)
-- [META crowdtangle](https://web.facebook.com/formedia/tools/crowdtangle?_rdc=1&_rdr)
 - [drone emprit](https://pers.droneemprit.id/)
 - [brandmentions](https://brandmentions.com/)
 - [meltwater](https://www.meltwater.com/en)
@@ -317,9 +306,7 @@ Site and forums OSINT community arround world
 
 - [Buffer](https://buffer.com)
 - [Coosto](https://www.coosto.com)
-- [Revive Social](https://revive.social)
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
-- [Gpt OSINT](https://github.com/gigz/gpt-osint)
 - [SNSCRAPE - Scraper](https://github.com/JustAnotherArchivist/snscrape)
 - [Phantom Buster](https://phantombuster.com/phantombuster)
 - [huntintel](https://www.huntintel.io/)
@@ -330,7 +317,6 @@ Site and forums OSINT community arround world
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
 - [socialscan](https://pypi.org/project/socialscan/)
 - [socialcatfish](https://socialcatfish.com/)
-- [meltwater](https://www.meltwater.com/en)
 
 # Hastag & Keyword Analysis 
 
@@ -352,7 +338,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [orangedatamining](https://orangedatamining.com/)
 - [twtdata](https://www.twtdata.com/)
 - [gephi](https://gephi.org/)
-- [meltwater](https://www.meltwater.com/en)
+- [Tweetdeck](https://pro.twitter.com/)
 
 # Web Intelligence
 
@@ -360,7 +346,6 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [robtex](https://www.robtex.com/)
 - [aware-online](https://www.aware-online.com/en/osint-tools/website-search-tool/)
 - [subdomainfinder search history subdomain](https://subdomainfinder.c99.nl/)
-- [phonebook](https://phonebook.cz/?target=2#)
 - [awseye - search AWS](https://awseye.com/)
 - [cloudflare radar](https://radar.cloudflare.com/)
 - [webscout](https://webscout.io/)
@@ -512,10 +497,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 
 # Researching Cyber Threats
 
-- [Apility.io](https://apility.io)
 - [Alien Vault](https://otx.alienvault.com)
-- [AutoShun](https://www.autoshun.org)
-- [Blacklist Check Tool](http://www.blchecktool.com)
 - [Censys](https://censys.io)
 - [CVE Details](https://www.cvedetails.com)
 - [IBM X-Force Exchange](https://exchange.xforce.ibmcloud.com)
@@ -528,7 +510,6 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [Quttera](https://quttera.com)
 - [Virus total](https://www.virustotal.com/gui/home/upload)
 - [Virus Share](https://virusshare.com)
-- [Web Cookies Scanner](https://webcookies.org)
 - [Yara Doc](https://yara.readthedocs.io/en/stable/)
 - [Yara Hub](https://yaraify.abuse.ch/yarahub/)
 - [Spiderfoot](https://www.spiderfoot.net/)
@@ -662,7 +643,6 @@ Maps and database of 802.11 wireless networks, with statistics, submitted by war
 net huggers
 - [Fing Net Scan](https://www.fing.com/)
 - [Wifianalyzer](https://www.wifianalyzer.info/)
-- [Signalmonitoring](https://signalmonitoring.com/)
 - [Angry Ip](https://angryip.org/)
 - [Advanced ip scanner](https://www.advanced-ip-scanner.com/)
 - [Wifimap](https://www.wifimap.io/)
@@ -691,6 +671,8 @@ Tips
 
 You can find the file hash or other threat indicator
 
+- [grafana](https://grafana.com/)
+- [wazuh](https://wazuh.com/)
 - [Hudson Rock Cybercrime Intelligence Free Tools](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools)
 - [Alien Vault](https://otx.alienvault.com/)
 - [Exploit db](https://www.exploit-db.com/)
@@ -764,11 +746,10 @@ You can find the file hash or other threat indicator
 - [polyswarm](https://polyswarm.io/)
 - [recordedfuture](https://www.recordedfuture.com/vulnerability-database)
 - [neiki](https://tip.neiki.dev/)
-- [neiki](https://tip.neiki.dev/)
 - [dynamite.ai search pcap file](https://lab.dynamite.ai/)
 - [packetsafari analys pcap file](https://app.packetsafari.com/)
 - [cybersixgill](https://cybersixgill.com/)
-- [Google Safe Browsing](https://developers.google.com/safe-browsing?hl=id)
+- [Google Safe Browsing](https://developers.google.com/safe-browsing/reference?hl=id)
 
 # Automation Dorking 
 
@@ -790,13 +771,24 @@ You can find the file hash or other threat indicator
 - [dorksearch](https://dorksearch.com/)
 - [lullar.com](https://com.lullar.com/)
 
-# Github Dork
+# Github 
+
+- [Github search name](https://caius.github.io/github_id/)
+- [Github Archive](https://www.gharchive.org/)
+- [Github Dork](https://github.com/techgaun/github-dorks)
+- [Fdupes](https://github.com/adrianlopezroche/fdupes)
+- [Github API (view owner repo and etc)](https://docs.github.com/en/rest/activity/events?apiVersion=2022-11-28)
+- [Github advisories DB](https://github.com/advisories)
+- [sn0int github profil extractor](https://sn0int.com/r/kpcyrd/github)
+- [Github Trending Repo](https://trendingrepos.com/)
+- [Octosuite Github](https://github.com/bellingcat/octosuite)
+- [Github find project map](https://anvaka.github.io/map-of-github/#2/0/0)
+
+Github Dork
 
 - [Advanced Search](https://github.com/search/advanced)
 - [GitDorker](https://github.com/obheda12/GitDorker)
 - [gitdorks_go](https://github.com/damit5/gitdorks_go)
-- [Github API (view owner repo and event etc)](https://docs.github.com/en/rest/activity/events?apiVersion=2022-11-28)
-- [Github advisories DB](https://github.com/advisories)
 
 # Dorking
 
@@ -851,7 +843,6 @@ Example
 - [Yandex](https://yandex.com)
 - [Pastebin](http://www.pastebin.com)
 - [Topix.com](http://www.topix.com)
-- [search.carrot2.org/stable/search](http://search.carrot2.org/stable/search)
 - [Shodan](https://www.shodan.io/)
 - [Piratebays](https://thepiratebays.com/)
 - [Onesearch](https://www.onesearch.com/)
@@ -886,7 +877,7 @@ Example
 - [kagi](https://kagi.com/)
 - [brave](https://search.brave.com/)
 - [stract](https://stract.com/)
-- [Google Safe Browsing](https://developers.google.com/safe-browsing?hl=id)
+- [Google Safe Browsing](https://developers.google.com/safe-browsing/reference?hl=id)
 
 # Internet Archive
 
@@ -1011,8 +1002,9 @@ Example
 
 # Blogs Search Engine
 
-- [Google Blog](www.google.com/blogsearch)
-- [omgili.com](http://omgili.com/)
+- [Google Blog](https://www.searchblogspot.com/blogger-profiles)
+
+*You can also use Google dork to search blogger profile
 
 # Tracking Website Changes
 
@@ -1072,7 +1064,6 @@ Example
 - [UK Company Search](https://find-and-update.company-information.service.gov.uk/)
 - [Venture Radar](https://www.ventureradar.com/search)
 - [tracxn](https://tracxn.com/?redirect=false)
-- [clearbit](https://clearbit.com/)
 - [Kemenperin ID](https://kemenperin.go.id/direktori-perusahaan)
 - [IDX ID](https://www.idx.co.id/en/listed-companies/company-profiles)
 - [OJK ID](https://www.ojk.go.id/id/kanal/iknb/data-dan-statistik/direktori/direktori-iknb/Default.aspx)
@@ -1104,9 +1095,9 @@ Example
 - [123people](http://www.123people.com)
 - [peepdb](http://www.peepdb.com)
 - [reversegeni](http://www.reversegenie.com/plate.php)
-- [PDDIKTI](https://pddikti.kemdikbud.go.id/)
+- [PDDIKTI ID](https://pddikti.kemdikbud.go.id/)
 - [IDEBKU OJK ID](https://idebku.ojk.go.id/Public/HomePage)
-- [SINTA](https://sinta.kemdikbud.go.id/)
+- [SINTA ID](https://sinta.kemdikbud.go.id/)
 - [Social Searcher](https://www.social-searcher.com/)
 - [Pimeyes](https://pimeyes.com/en)
 - [Rocketreach](https://rocketreach.co/)
@@ -1126,7 +1117,7 @@ Example
 - [beenverified](https://www.beenverified.com/people/)
 - [bandcamp](https://bandcamp.com/)
 - [Sherlock Eye](https://sherlockeye.io/)
-- [NIK PARSE](https://github.com/bachors/nik_parse.js?tab=readme-ov-file#nik_parsejs)
+- [NIK PARSE ID](https://github.com/bachors/nik_parse.js?tab=readme-ov-file#nik_parsejs)
 - [Maltego Social Links Pro](https://www.maltego.com/transform-hub/social-links-pro/)
 - [fastpeoplesearch](https://www.fastpeoplesearch.com/)
 - [fastpeoplesearch.info](https://fastpeoplesearch.info/)
@@ -1183,7 +1174,6 @@ Example
 - [True Caller](https://www.truecaller.com/)
 - [Cell Id Lookup](https://www.reskrim.com/cek.php)
 - [Device Info](https://www.deviceinfo.me/)
-- [Cell Finder](https://cellidfinder.com/)
 - [Unkownphone](https://www.unknownphone.com/)
 - [Whocallsme](https://whocallsme.com/)
 - [elenchitelefonici](https://www.elenchitelefonici.it/)
@@ -1241,6 +1231,7 @@ Example
 - [infobel](https://www.infobel.com/fr/world)
 - [email2phonenumber](https://github.com/martinvigo/email2phonenumber)
 - [truepeoplesearch](https://www.truepeoplesearch.com/)
+- [spokeo](https://www.spokeo.com/)
 
 Pro Tips
 
@@ -1348,11 +1339,9 @@ or you can use dork for spesific example
 # The Ultimate Facebook Investigation Tool
 
 - [Intel Technique](https://inteltechniques.com/osint/facebook.html)
-- [DumpItBlue](http://le-tools.com/DumpItBlue.html)
 - [Facebook Search](http://search.fb.com/)
 - [Fb-sleep-stats](https://github.com/sqren/fb-sleep-stats)
 - [Lookup-ID.com](https://lookup-id.com)
-- [SearchIsBack](https://searchisback.com)
 - [Wolfram Alpha Facebook Report](http://www.wolframalpha.com/input/?i=facebook+report)
 - [Facebook Recover Lookup](https://web.facebook.com/login/identify?ctx=recover&_rdc=1&_rdr)
 - [Who posted facebook](https://whopostedwhat.com/)
@@ -1363,11 +1352,9 @@ or you can use dork for spesific example
 - [Facebook Graph](https://graph.tips/facebook.html) 
 - [Facebook live](https://www.facebook.com/watch/live/?ref=live_delegate)
 - [Facebook vid downloader](https://fdown.net/)
-- [Fb Sleep Stats](https://github.com/sorenlouv/fb-sleep-stats)
 - [Skopenow FB Hunter](https://www.skopenow.com/)
 - [Facebook Data Breach Cheker](https://haveibeenzuckered.com/)
 - [F**ck Facebook Github](https://github.com/Ph4nToM00/FuckFacebook)
-- [exportcomments](https://exportcomments.com/)
 - [Facebook search photo](https://cse.google.com/cse?cx=013991603413798772546:jyvyp2ppxma#gsc.tab=0)
 - [Facebook custom search](https://cse.google.com/cse?cx=95ae46262a5f2958e)
 - [Get account ID Facebook](https://commentpicker.com/)
@@ -1398,6 +1385,7 @@ or you can use dork for spesific example
 # Keybase 
 
 - [sn0int keybase](https://sn0int.com/r/kpcyrd/keybase)
+- [keybase](https://keybase.io/)
 
 # VK 
 
@@ -1467,8 +1455,7 @@ or you can use dork for spesific example
 
 # Reddit 
 
-- [karmadecay](http://karmadecay.com/)
-- [reddit post analyser](https://www.osintcombine.com/reddit-post-analyser)
+- [reddit post analyser](https://www.osintcombine.com/free-osint-tools/reddit-post-analyser)
 - [Archive Reddit](https://www.redditarchive.com/)
 - [Reddit Search](https://redditcommentsearch.com/)
 - [Vizit](https://redditstuff.github.io/sna/vizit/)
@@ -1522,43 +1509,24 @@ or you can use dork for spesific example
 - [Hashtags.org](http://www.hashtags.org)
 - [MyTweetAlerts](https://www.mytweetalerts.com/) A tool to create custom email alerts based on Twitter search.
 - [OneMillionTweetMap](http://onemilliontweetmap.com)
-- [SnapBird](http://snapbird.org)
 - [Social Bearing](http://www.socialbearing.com)
 - [Social Rank First Follower](http://socialrank.com/firstfollower)
 - [Spoonbill](http://spoonbill.io)
 - [Tagdef](https://tagdef.com)
-- [TeachingPrivacy](http://app.teachingprivacy.com)
 - [Tinfoleak](https://tinfoleak.com)
 - [Trends24](http://trends24.in)
 - [TrendsMap](http://trendsmap.com)
-- [Ttrends](https://ttrends.co)
-- [twbirthday](http://twbirthday.com)
 - [TwChat](http://twchat.com)
-- [tweepsect](http://tweepsect.com)
 - [TweetArchivist](http://www.tweetarchivist.com)
 - [TweetDeck](https://www.tweetdeck.com)
-- [Tweeten](http://tweeten.xyz)
 - [TweetMap](http://mapd.csail.mit.edu/tweetmap)
 - [TweetMap](http://worldmap.harvard.edu/tweetmap)
-- [TweetPsych](http://tweetpsych.com)
-- [Tweetreach](http://tweetreach.com)
-- [TweetStats](http://www.tweetstats.com)
-- [TweetTunnel](http://tweettunnel.com)
-- [Twellow](http://www.twellow.com)
-- [Tweriod](http://www.tweriod.com)
 - [Twiangulate](http://www.twiangulate.com)
-- [Twilert](http://www.twilert.com)
-- [Twipho](http://www.twipho.net)
 - [Twitonomy](http://www.twitonomy.com)
-- [TwitRSS](https://twitrss.me)
 - [Twitter Advanced Search](https://twitter.com/search-advanced?lang=en)
 - [Twitter Audit](https://www.twitteraudit.com)
 - [Twitter Chat Schedule](http://tweetreports.com/twitter-chat-schedule)
-- [Twitter Counter](http://twittercounter.com)
-- [Twitterfall](http://twitterfall.com)
 - [Twitter Search](http://search.twitter.com)
-- [TWUBS Twitter Chat](http://twubs.com/twitter-chats)
-- [Schedule Warble](https://warble.co)
 - [Twint](https://github.com/twintproject/twint)
 - [Twitwork](https://github.com/atmoner/TwitWork)
 - [Twitter Account Profiler](https://www.sotwe.com/)
@@ -1574,7 +1542,6 @@ or you can use dork for spesific example
 - [birdhunt](https://birdhunt.co/)
 - [exportcomments](https://exportcomments.com/)
 - [followeraudit](https://www.followeraudit.com/)
-- [knowlesys](https://knowlesys.com/index.html)
 - [stweet](https://github.com/markowanga/stweet)
 - [tweepy](https://www.tweepy.org/)
 - [twtdata](https://www.twtdata.com/)
@@ -1584,24 +1551,9 @@ or you can use dork for spesific example
 
 Twitter Search Engine 
 
-- [tweetpaths](http://www.tweetpaths.com)
-- [allmytweets](http://www.allmytweets.com)
-- [Twimemachine](https://www.twimemachine.com)
 - [inteltechniques](http://inteltechniques.com/osint/twitter.html)
 - [twitter lolarchiver](https://twitter.lolarchiver.com/)
-
-# Github 
-
-- [Github search name](https://caius.github.io/github_id/)
-- [Github Archive](https://www.gharchive.org/)
-- [Github Dork](https://github.com/techgaun/github-dorks)
-- [Fdupes](https://github.com/adrianlopezroche/fdupes)
-- [Github API (view owner repo and etc)](https://docs.github.com/en/rest/activity/events?apiVersion=2022-11-28)
-- [Github advisories DB](https://github.com/advisories)
-- [sn0int github profil extractor](https://sn0int.com/r/kpcyrd/github)
-- [Github Trending Repo](https://trendingrepos.com/)
-- [Octosuite Github](https://github.com/bellingcat/octosuite)
-- [Github find project map](https://anvaka.github.io/map-of-github/#2/0/0)
+- [Geoint CSE search](https://cse.google.com/cse?cx=015328649639895072395:sbv3zyxzmji#gsc.tab=0&gsc.sort=)
 
 # Snapchat 
 
@@ -1626,11 +1578,9 @@ Google queries for LinkedIn
 - [Phantom Buster](https://phantombuster.com/phantombuster)
 - [reversecontact](https://www.reversecontact.com/)
 - [Linkedin Search OSINT](https://cse.google.com/cse?cx=daaf18e804f81bed0)
-- [Linkedin Overlay Remover](https://addons.mozilla.org/nl/firefox/addon/linkedin-overlay-remover/)
 - [Linkedin Google Search Custom](https://cse.google.com/cse?cx=002879889969213338875:ykfcyju2xe8)
 - [Linkedin Google Search Custom 2](https://cse.google.com/cse?cx=012951739560700154499:8rl_7tkzjgq#gsc.tab=0)
 - [coresignal](https://coresignal.com/)
-- [salesql](https://salesql.com/pricing)
 - [Linkedin Attack Vector](https://www.osintdojo.com/diagrams/linkedin)
 - [CrossLinked](https://github.com/m8sec/CrossLinked)
 
@@ -1672,7 +1622,6 @@ Google queries for MySpace
 - [Pastebin Alerts](http://pastebin.com/u/alerts)
 - [HaveIBeenPwned](http://www.haveIbeenpwned.com)
 - [Hudson Rock Cybercrime Intelligence Free Tools](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools)
-- [breachorclear](http://breachorclear.jesterscourt.cc)
 - [brandmentions](https://brandmentions.com/)
 - [Google Alert](https://www.google.com/alerts?hl=en)
 - [flashpoint](https://flashpoint.io/)
@@ -1697,7 +1646,6 @@ Google queries for MySpace
 
 # Email Tracking
 
-- [phonebook](https://phonebook.cz/?target=2#)
 - [Mailcat](https://github.com/sharsil/mailcat)
 - [OSINT indsutries](https://www.osint.industries/)
 - [lullar](https://lullar-com-3.appspot.com/en)
@@ -1782,8 +1730,6 @@ Google queries for MySpace
 
 # Capturing Information
 
-- [DownloadHelper](https://www.downloadhelper.net/)
-Firefox plugin that will assist in downloading all media from a website
 - [Exif Viewer](https://addons.mozilla.org/en-US/firefox/addon/exif-viewer/)
 - [HTTrack](https://www.httrack.com/)
 - [Wayback Machine](https://archive.org/web/)
@@ -1806,11 +1752,8 @@ Firefox plugin that will assist in downloading all media from a website
 - [Geosocial](http://geosocialfootprint.com/)
 - [Hash tracking](https://www.hashtracking.com/)
 - [Socmint tool](http://socmint.tools/)
-- [Spyse](https://spyse.com/)
 - [OSINT Combine](https://www.osintcombine.com/tools)
-- [Cell Id Lookup](https://www.reskrim.com/cek.php)
 - [Device Info](https://www.deviceinfo.me/)
-- [Cell Finder](https://cellidfinder.com/)
 - [GRABIFY IP](https://grabify.link/)
 - [Cek Rekening](https://cekrekening.id/home)
 - [Thatsthem](https://thatsthem.com/)
@@ -1906,18 +1849,12 @@ Search channel, username anymore
 
 # Document and Slides Search OSINT
 
-- [Authorstream](http://www.authorstream.com)
 - [Find-pdf-doc](http://www.findpdfdoc.com)
 - [Free Full PDF](http://www.freefullpdf.com)
-- [PDF Search Engine](http://www.pdfsearchengine.info)
-- [RECAP](http://archive.recapthelaw.org)
 - [SlideShare](http://www.slideshare.net)
 - [Scribd](http://www.scribd.com)
 - [Scribd docdownloader](https://docdownloader.com/)
-- [soPDF.com](http://www.sopdf.com)
 - [Doclibra.com](https://doclibra.com/)
-- [FileChef](https://www.filechef.com/)
-- [File Search Engine](https://www.filesearch.link/)
 - [FilePursuit](https://filepursuit.com/)
 - [NAPALM FTP Indexer](https://www.searchftps.net/)
 - [Cryptome - search doc about publication that are prohibited by government](https://cryptome.org/)
@@ -1929,9 +1866,6 @@ Search channel, username anymore
 - [Metashield Analyzer](https://metashieldanalyzer.elevenpaths.com/)
 - [foca](https://github.com/ElevenPaths/FOCA)
 - [Psbdmp](https://psbdmp.ws/)
-- [Find PDF Doc](http://www.findpdfdoc.com/)
-- [Pdf analyzer](http://pdf-analyser.edpsciences.org/)
-- [Tools pdf24](https://tools.pdf24.org/en/extract-images)
 - [ArchivEye](https://github.com/eastrd/ArchivEye)
 - [Fdupes](https://github.com/adrianlopezroche/fdupes)
 - [kaseware search query](https://www.kaseware.com/search-query)
@@ -1943,7 +1877,6 @@ Search channel, username anymore
 
 # Real-Time Search, Social Media Search, and General Social Media Tools
 
-- [Buffer](https://buffer.com)
 - [Hashtatit](http://www.hashatit.com)
 - [Rival IQ](https://www.rivaliq.com)
 - [SocialBakers](http://www.socialbakers.com)
@@ -2115,29 +2048,21 @@ Search channel, username anymore
 - [Google Vid](https://www.google.com/videohp)
 - [Aol Videos](http://on.aol.com)
 - [Bing Videos](http://www.bing.com/?scope=video)
-- [Blinkx](http://www.blinkx.com)
 - [Clarify](http://clarify.io)
-- [Clip Blast](http://www.clipblast.com)
 - [DailyMotion](http://www.dailymotion.com)
 - [Deturl](http://deturl.com)
-- [DownloadHealper](http://www.downloadhelper.net)
 - [Earthcam](http://www.earthcam.com)
 - [Insecam](http://insecam.org/)
-- [Frame by Frame](https://chrome.google.com/webstore/detail/frame-by-frame/cclnaabdfgnehogonpeddbgejclcjneh/)
+- [clipchamp](https://clipchamp.com/en/)
 Browser plugin that allows you to watch YouTube videos frame by frame.
-- [Geosearch](http://www.geosearchtool.com)
 - [Internet Archive: Open Source Videos](https://archive.org/details/opensource_movies)
 - [LiveLeak](http://www.liveleak.com)
-- [Metacafe](http://www.metacafe.com)
 - [Metatube](http://www.metatube.com)
-- [Montage](https://montage.storyful.com)
 - [Veoh](http://www.veoh.com)
 - [Vimeo](https://vimeo.com)
-- [Voxalead](http://voxalead.labs.exalead.com)
 - [Yahoo Video Search](http://video.search.yahoo.com)
 - [YouTube](https://www.youtube.com)
 - [YouTube Data Viewer](https://www.amnestyusa.org/citizenevidence)
-- [ccSUBS](http://ccsubs.com/) Download Closed Captions & Subtitles from YouTube
 - [YouTube Metadata](https://mattw.io/youtube-metadata/)
 - [YouTube Geofind](https://mattw.io/youtube-geofind/)
 - [Video Stabilization Methods](https://github.com/yaochih/awesome-video-stabilization)
@@ -2145,7 +2070,6 @@ Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Bilibili scraper](https://github.com/yixiangyin/bilibili-scraper)
 - [Webcams](https://github.com/pbkompasz/webcams)
 - [Kamerka](https://github.com/woj-ciech/Kamerka-GUI)
-- [airportwebcams](https://airportwebcams.net/)
 - [airportwebcams](https://airportwebcams.net/)
 - [Earthcam](https://www.earthcam.com/#google_vignette)
 - [tvway](http://tvway.ru/)
@@ -2394,7 +2318,6 @@ Geojson viewer
 # Fact Checking
 
 - [Captin Fact](https://captainfact.io/)
-- [Citizen Desk](https://www.sourcefabric.org/en/citizendesk)
 - [Fact Check](http://www.factcheck.org)
 - [Full Fact](https://fullfact.org)
 - [Snopes](http://www.snopes.com)
@@ -4185,6 +4108,7 @@ Search News Journalist and Documentary Sites
 - [ohchr](https://www.ohchr.org/en/ohchr_homepage)
 - [ochaopt](https://www.ochaopt.org/)
 - [narasi ID](https://narasi.tv/)
+- [Tempo ID](https://www.tempo.co/)
 - [watchdoc ID](https://watchdoc.co.id/)
 - [kumparan ID](https://kumparan.com/)
 - [katadata ID](https://katadata.co.id/)
