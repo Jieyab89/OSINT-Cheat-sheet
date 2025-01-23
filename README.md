@@ -154,6 +154,7 @@ Be carefull using this tool
 - [keyhole](https://keyhole.co/)
 - [skopenow](https://www.skopenow.com/)
 - [pipl](https://pipl.com/)
+- [Get account & gather info](https://commentpicker.com/)
 
 # Collection Dataset
 
@@ -459,6 +460,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [favihash](https://www.favihash.com/)
 - [subdosec vulnshot](https://subdosec.vulnshot.com/)
 - [waybackpack download wayback archive url](https://github.com/jsvine/waybackpack)
+- [urlvoid](https://www.urlvoid.com/)
 
 *Tips web cache 
 
@@ -527,7 +529,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [Virus total](https://www.virustotal.com/gui/home/upload)
 - [Virus Share](https://virusshare.com)
 - [Web Cookies Scanner](https://webcookies.org)
-- [Yara](https://yara.readthedocs.io/en/stable/)
+- [Yara Doc](https://yara.readthedocs.io/en/stable/)
 - [Yara Hub](https://yaraify.abuse.ch/yarahub/)
 - [Spiderfoot](https://www.spiderfoot.net/)
 - [NVD](https://nvd.nist.gov/search)
@@ -617,6 +619,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [favihash](https://www.favihash.com/)
 - [Google Safe Browsing](https://developers.google.com/safe-browsing?hl=id)
 - [greynoise](https://www.greynoise.io/)
+- [Intel471](https://intel471.com/)
 
 # IoT Search Engines
 
@@ -677,6 +680,7 @@ net huggers
 - [GONZOsint- geowifi](https://github.com/GONZOsint/geowifi)
 - [bgp](https://bgp.tools/)
 - [macaddress](https://macaddress.io/)
+- [macaddresslookup](https://www.macaddresslookup.org/)
 - [macvendorlookup](https://www.macvendorlookup.com/)
 - [macvendors](https://macvendors.com/)
 - [whoisxmlapi](https://mac-address.whoisxmlapi.com/api)
@@ -784,6 +788,7 @@ You can find the file hash or other threat indicator
 - [BullsEye0 dorks](https://github.com/BullsEye0/dorks-eye)
 - [dorkgpt](https://www.dorkgpt.com/)
 - [dorksearch](https://dorksearch.com/)
+- [lullar.com](https://com.lullar.com/)
 
 # Github Dork
 
@@ -906,6 +911,7 @@ Example
 - [Time Travel](http://timetravel.mementoweb.org/)
 - [bellingcat wayback-google-analytics](https://github.com/bellingcat/wayback-google-analytics)
 - [waybackpack download wayback archive url](https://github.com/jsvine/waybackpack)
+- [archive-it](https://archive-it.org/)
 
 # Data Breached OSINT
 
@@ -1144,6 +1150,8 @@ Example
 - [API for Indonesian ID card (KTP) identification](https://github.com/audhiaprilliant/indonesian-id-card-identification)
 - [pipl](https://pipl.com/)
 - [skopenow](https://www.skopenow.com/)
+- [truepeoplesearch](https://www.truepeoplesearch.com/)
+- [411 reverse phone](https://www.411.com/reverse-phone)
 
 # Family People Search 
 
@@ -1231,6 +1239,8 @@ Example
 - [DetectDee](https://github.com/piaolin/DetectDee)
 - [espysys](https://espysys.com/)
 - [infobel](https://www.infobel.com/fr/world)
+- [email2phonenumber](https://github.com/martinvigo/email2phonenumber)
+- [truepeoplesearch](https://www.truepeoplesearch.com/)
 
 Pro Tips
 
@@ -1360,6 +1370,7 @@ or you can use dork for spesific example
 - [exportcomments](https://exportcomments.com/)
 - [Facebook search photo](https://cse.google.com/cse?cx=013991603413798772546:jyvyp2ppxma#gsc.tab=0)
 - [Facebook custom search](https://cse.google.com/cse?cx=95ae46262a5f2958e)
+- [Get account ID Facebook](https://commentpicker.com/)
 
 # OnlyFans
 
@@ -1485,6 +1496,7 @@ or you can use dork for spesific example
 - [hadzy - YT Comment](https://hadzy.com/)
 - [Filmot](https://filmot.com/)
 - [appsgolem](https://appsgolem.com/en/download-most-replayed-moment-youtube-video)
+- [Get account ID YT](https://commentpicker.com/)
 
 # Mastodon 
 
@@ -1568,6 +1580,7 @@ or you can use dork for spesific example
 - [twtdata](https://www.twtdata.com/)
 - [botsentinel](https://botsentinel.com/dashboard)
 - [bluesky-crossposter](https://github.com/Linus2punkt0/bluesky-crossposter)
+- [Get account ID Facebook](https://commentpicker.com/)
 
 Twitter Search Engine 
 
@@ -1664,6 +1677,7 @@ Google queries for MySpace
 - [Google Alert](https://www.google.com/alerts?hl=en)
 - [flashpoint](https://flashpoint.io/)
 - [canarytokens](https://canarytokens.org/nest/)
+- [Intel471](https://intel471.com/)
 
 # EXIF Analysis
 
@@ -1750,6 +1764,8 @@ Google queries for MySpace
 - [h8mail](https://github.com/khast3x/h8mail)
 - [lampyre](https://lampyre.io/)
 - [onchain](https://www.onchain.industries/)
+- [email2phonenumber](https://github.com/martinvigo/email2phonenumber)
+- [lullar like a dork](https://com.lullar.com/)
 
 # PGP or GPG Keybase 
 
@@ -2617,6 +2633,7 @@ Transaction Analysis
 - [SMS PING](https://github.com/MatejKovacic/silent-sms-ping)
 - [SMS PING APK](https://f-droid.org/id/packages/com.itds.sms.ping/)
 - [Wireshark wiki voip call](https://wiki.wireshark.org/VoIP_calls)
+- [opensignal](https://www.opensignal.com/)
 
 Pro Tips 
 
@@ -3394,7 +3411,6 @@ Public Transport
 - [portfocus](https://portfocus.com/#google_vignette)
 - [submarinecablemap](https://www.submarinecablemap.com/)
 - [AIS Signal Map](https://www.aishub.net/coverage)
-- [AIS Open Signal](https://www.opensignal.com/networks/thailand/dtac-coverage)
 - [myshiptracking](https://www.myshiptracking.com/)
 - [vesseltracker](https://www.vesseltracker.com/)
 - [shipnext](https://shipnext.com/vessel/9417440/Ohio)
@@ -3553,6 +3569,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [busybox](https://busybox.net/) Escape from docker or container machine if you have get access the target like revshell but there is no apps or programm (binary) to run command 
 - [toybox](https://landley.net/toybox/downloads/binaries/latest/) Escape from docker or container machine if you have get access the target like revshell but there is no apps or programm (binary) to run command 
 - [frida](https://frida.re/) Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers
+- [codeshare Frida script](https://codeshare.frida.re/) Awesome list to help you mobile pentesting like root detection, function hooking and ssl pin bypass
 - [Wireshark](https://www.wireshark.org/) Viewing and dump protocol such as signal, http and other 
 - [greynoise](https://viz.greynoise.io/) Search CVE, IP  
 - [XSS Payload and Crafting Portswigger](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet) XSS payload list from Portswigger
@@ -3581,7 +3598,8 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [beeceptor](https://beeceptor.com/) Create mock server, alternatife for burp collaborator
 - [objection](https://github.com/sensepost/objection) is a runtime mobile exploration toolkit, powered by Frida, built to help you assess the security posture of your mobile applications, without needing a jailbreak.
 - [Fiddler](https://www.telerik.com/fiddler) Uncover software bugs when HTTP communication is involved. The Fiddler set of tools helps you promptly identify errors to effectively fix them. Easily (like burp)
-
+- [privacyspace](https://github.com/Xposed-Modules-Repo/cn.geektang.privacyspace) For Android mobile pentest. This is an Xposed module. The function of this module is to "hide" the apps, which can achieve the "Second space" function of MIUI
+ 
 Social Engineering
 
 - [social engineering](https://www.social-engineer.org/)
@@ -3869,6 +3887,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [wireshark](https://www.wireshark.org/)
 - [hackertarget](https://hackertarget.com/as-ip-lookup/)
 - [whoisxmlapi](https://mac-address.whoisxmlapi.com/api)
+- [macaddresslookup](https://www.macaddresslookup.org/)
 
 # Medical OSINT 
 
@@ -3992,6 +4011,7 @@ Tactical learn and some knowledge
 - [GarandThumb](https://www.youtube.com/@GarandThumb)
 - [The FieldCraft Survival Channel
 ](https://www.youtube.com/@fieldcraftsurvival)
+- [ID LycmaMilTech](https://www.youtube.com/@LycmaMilTech)
 
 # OSINT Shadow Analysis 
 
