@@ -2054,7 +2054,6 @@ Search channel, username anymore
 - [Earthcam](http://www.earthcam.com)
 - [Insecam](http://insecam.org/)
 - [clipchamp](https://clipchamp.com/en/)
-Browser plugin that allows you to watch YouTube videos frame by frame.
 - [Internet Archive: Open Source Videos](https://archive.org/details/opensource_movies)
 - [LiveLeak](http://www.liveleak.com)
 - [Metatube](http://www.metatube.com)
