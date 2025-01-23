@@ -2556,6 +2556,7 @@ Transaction Analysis
 - [SMS PING APK](https://f-droid.org/id/packages/com.itds.sms.ping/)
 - [Wireshark wiki voip call](https://wiki.wireshark.org/VoIP_calls)
 - [opensignal](https://www.opensignal.com/)
+- [osmocom](https://osmocom.org/projects/baseband)
 
 Pro Tips 
 
@@ -3521,7 +3522,8 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [objection](https://github.com/sensepost/objection) is a runtime mobile exploration toolkit, powered by Frida, built to help you assess the security posture of your mobile applications, without needing a jailbreak.
 - [Fiddler](https://www.telerik.com/fiddler) Uncover software bugs when HTTP communication is involved. The Fiddler set of tools helps you promptly identify errors to effectively fix them. Easily (like burp)
 - [privacyspace](https://github.com/Xposed-Modules-Repo/cn.geektang.privacyspace) For Android mobile pentest. This is an Xposed module. The function of this module is to "hide" the apps, which can achieve the "Second space" function of MIUI
- 
+- [Dopamine](https://github.com/opa334/Dopamine) Dopamine is a semi-untethered jailbreak for iOS 15 and 16
+
 Social Engineering
 
 - [social engineering](https://www.social-engineer.org/)
