@@ -4105,7 +4105,7 @@ Search News Journalist and Documentary Sites
 - [aljazeera](https://www.aljazeera.com/)
 - [gijn](https://gijn.org/)
 - [institute aljazeera](https://institute.aljazeera.net/en)
-- [apnews](https://apnews.com/hub/israel-hamas-war)
+- [AP news](https://apnews.com/hub/israel-hamas-war)
 - [unocha](https://www.unocha.org/)
 - [ohchr](https://www.ohchr.org/en/ohchr_homepage)
 - [ochaopt](https://www.ochaopt.org/)
@@ -4153,6 +4153,10 @@ Search News Journalist and Documentary Sites
 - [timesofisrael](https://www.timesofisrael.com/)
 - [The international news](https://www.thenews.com.pk/)
 - [Cryptome - search doc about publication that are prohibited by government](https://cryptome.org/)
+- [haaretz](https://www.haaretz.com/)
+- [thecradle](https://thecradle.co/)
+- [nytimes](https://www.nytimes.com/)
+- [thebureauinvestigates](https://www.thebureauinvestigates.com/)
 
 Social Media Analytics
 
