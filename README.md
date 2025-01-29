@@ -3360,6 +3360,8 @@ NOOA Incident MAP
 
 # GPT OSINT (AI)
 
+- [claude](https://claude.ai/login)
+- [deepseek](https://www.deepseek.com/)
 - [Gpt osint](https://github.com/gigz/gpt-osint)
 - [cursor](https://www.cursor.com/features)
 - [lmstudio](https://lmstudio.ai/)
