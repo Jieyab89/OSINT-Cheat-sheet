@@ -195,6 +195,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [ransomwhe Browse ransomware data](https://ransomwhe.re/#report)
 - [botometer Twitter bot dataset](https://botometer.osome.iu.edu/bot-repository/datasets.html)
 - [Aircraft Mil Dataset](https://github.com/sdr-enthusiasts/plane-alert-db)
+- [datareportal](https://datareportal.com/)
 
 # Forums & Sites
 
@@ -2236,7 +2237,6 @@ Search channel, username anymore
 - [Maritim world lightphotos](https://www.lightphotos.net/photos/map_all.php)
 - [geohack](https://geohack.toolforge.org/)
 - [alltrails](https://www.alltrails.com/)
-- [openinframap](https://openinframap.org/#3.14/-1.06/107.47/O,P,W)
 - [QGIS](https://www.qgis.org/)
 - [pastvu map](https://pastvu.com/)
 - [Latest change OSM](https://rene78.github.io/latest-changes/#5/-3.448/115.532)
@@ -3925,6 +3925,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [nuclearsecrecy missil map simulation](https://nuclearsecrecy.com/missilemap/)
 - [atomicarchive awesome to learn sains and chemistry](https://www.atomicarchive.com/resources/links/index.html)
 - [Cryptome - search doc about publication that are prohibited by government](https://cryptome.org/)
+- [Tipsheet for Investigative Journalists on War Crimes and Open Source Research](https://gijn.org/resource/tipsheet-for-investigative-journalists-on-war-crimes-and-open-source-research/)
 
 Simulator and Game 
 
@@ -4283,6 +4284,7 @@ Terrorism & Radical
 - [EOS LAND SAT](https://eos.com/landviewer/)
 - [eorc JP](https://www.eorc.jaxa.jp/ALOS/en/index_e.htm)
 - [Copernicus](https://atmosphere.copernicus.eu/charts/packages/cams/?facets=%7B%22Family%22%3A%5B%22Fires%22%5D%7D)
+- [Meteorological Satellite Center Himawari Sat](https://www.data.jma.go.jp/mscweb/data/himawari/)
 
 *Aditional Information coverage sat 
 
@@ -4293,8 +4295,28 @@ Terrorism & Radical
 | Landsat 8/9 Satellite   | 30 M     | Every 16 days    |
 | Sentinel-3 Satellite    | 300 M    | Daily            |
 | MODIS Satellite         | 250-1000 M| Daily            |
+| Google Maps Sat         | 15 - 30 CM | 1 - 6 Year     |   
+| Bing Maps               | 30 CM    | 1 - 3 Year       |
+| Apple Maps              | 15 - 30 CM | 1 - 3 Year     |
 
-*Source: Bellingcat & GJIN*
+*Source: Bellingcat & GIJN*
+
+*TIPS 
+
+Understand every characteristic of satellites like, thermal satellites, enterprise satellites, live satellites. Each satellite has its own characteristics and there are some that are paid and produce good and fast resouces. And understand their uses, such as thermal satellites
+
+- Forest Fire Monitoring: Thermal satellites can detect heat from forest fires and monitor the extent and intensity of the fire.
+- Agriculture: Used to measure soil moisture and crop temperature to monitor agricultural conditions.
+- Climate Change Monitoring: Thermal satellites help in monitoring global temperature changes and climate phenomena such as El Niño.
+- Environmental Quality Monitoring: Observe ocean and land temperatures, which helps in monitoring environmental quality and ecosystem changes.
+- Natural Resource Mapping: Used to monitor surface temperatures and conditions, which is very useful in mapping geological, groundwater, and other natural resources.
+
+Ex: 
+
+- [Landsat Sat](https://id.wikipedia.org/wiki/Program_Landsat)
+- [MODIS Sat](https://id.wikipedia.org/wiki/Moderate-Resolution_Imaging_Spectroradiometer)
+- [Suomi NPP Sat](https://fi.wikipedia.org/wiki/Suomi_NPP)
+- [Sentinel-3 Sat](https://en.wikipedia.org/wiki/Sentinel-3)
 
 # OSINT for Scraping and Data Collection
 
@@ -4579,6 +4601,7 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [nukemap nuclear damage estimation](https://nuclearsecrecy.com/nukemap/)
 - [nuclearweaponsedproj blast effects calc](https://nuclearweaponsedproj.mit.edu/nuclear-weapons-blast-effects-calculator/)
 - [outrider sains nuclear weapon estimate calc](https://outrider.org/)
+- [MapChecking Crowd counting tool](https://www.mapchecking.com/)
 
 # OSINT Financial (FININT)
 
@@ -4601,6 +4624,7 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [ID Kejaksaan](https://www.kejaksaan.go.id/)
 - [ID Badan Pengawasan Keuangan dan Pembangunan](https://www.bpkp.go.id/)
 - [ID SIRUP LKPP](https://sirup.lkpp.go.id/sirup/home/rekapitulasiindex)
+- [ID BI](https://www.bi.go.id/id/default.aspx)
 
 # OSINT Cryptography (Cipher)
 
