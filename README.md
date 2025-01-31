@@ -4089,6 +4089,7 @@ Resources and collection for your make tool OSINT
 
 Search News Journalist and Documentary Sites 
 
+- [ID FWI (Forest Watch Indonesia)](https://perpustakaan.fwi.or.id/)
 - [Google CSE search news](https://cse.google.com/cse?cx=013991603413798772546:fvmtax6anhd)
 - [ICW ID](https://antikorupsi.org/id)
 - [washingtonpost](https://www.washingtonpost.com/)
