@@ -3562,6 +3562,7 @@ Webshell Bypass
 
 - [WebShell-Bypass-Guide](https://github.com/AabyssZG/WebShell-Bypass-Guide)
 - [bypass.tidesec.com/web/](http://bypass.tidesec.com/web/)
+- [Tiny-PHP-Webshell](https://github.com/bayufedra/Tiny-PHP-Webshell)
 
 Credential Access
 
@@ -3585,7 +3586,7 @@ Post Exploitation
 - [Responder](https://github.com/lgandx/Responder)
 - [Responder-Windows](https://github.com/lgandx/Responder-Windows)
 - [pivotnacci](https://github.com/blackarrowsec/pivotnacci) Pivot into the internal network by deploying HTTP agents
-- [https://github.com/murat-exp/EDR-Antivirus-Bypass-to-Gain-Shell-Access/tree/main](https://github.com/murat-exp/EDR-Antivirus-Bypass-to-Gain-Shell-Access/tree/main)
+- [EDR-Antivirus-Bypass-to-Gain-Shell-Access](https://github.com/murat-exp/EDR-Antivirus-Bypass-to-Gain-Shell-Access/tree/main)
 
 Credential Dumping
 
