@@ -77,6 +77,8 @@
 - [Linkedin Guide](https://hatless1der.com/new-linkedin-search-features-mean-new-osint-opportunities/)
 - [intelligence.eu - Chrome extension for journalist](https://i-intelligence.eu/insights/the-best-chrome-extensions-for-osint-professionals-researchers-and-journalists-in-2024)
 - [media manipulators to target journalists and other influential public figures](https://datasociety.net/wp-content/uploads/2019/09/Source-Hacking_Hi-res.pdf)
+- [How to Investigate a Cryptocurrency Scammer](https://www.onchain.industries/blog/how-to-investigate-a-cryptocurrency-scammer)
+- [Unique 0-click deanonymization attack targeting Signal, Discord and hundreds of platform](https://gist.github.com/hackermondev/45a3cdfa52246f1d1201c1e8cdef6117)
 
 # Vehicle
 
