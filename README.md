@@ -150,6 +150,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [skopenow](https://www.skopenow.com/)
 - [pipl](https://pipl.com/)
 - [Get account & gather info](https://commentpicker.com/)
+- [SociaBlade](http://socialblade.com)
 
 # Collection Dataset
 
@@ -196,6 +197,8 @@ Be carefull using this tool use 2nd account because your account got banned
 - [botometer Twitter bot dataset](https://botometer.osome.iu.edu/bot-repository/datasets.html)
 - [Aircraft Mil Dataset](https://github.com/sdr-enthusiasts/plane-alert-db)
 - [datareportal](https://datareportal.com/)
+- [medgismar GIS](https://medgismar.rempec.org/)
+- [Conflict Gaza damage](https://ee-ollielballinger.projects.earthengine.app/view/gazadamage)
 
 # Forums & Sites
 
@@ -771,6 +774,7 @@ You can find the file hash or other threat indicator
 - [dorkgpt](https://www.dorkgpt.com/)
 - [dorksearch](https://dorksearch.com/)
 - [lullar.com](https://com.lullar.com/)
+- [recruitin](https://recruitin.net/)
 
 # Github 
 
@@ -1119,6 +1123,7 @@ Example
 - [bandcamp](https://bandcamp.com/)
 - [Sherlock Eye](https://sherlockeye.io/)
 - [NIK PARSE ID](https://github.com/bachors/nik_parse.js?tab=readme-ov-file#nik_parsejs)
+- [iD PENCARIAN DATA PM (PENERIMA MANFAAT) BANSOS](https://cekbansos.kemensos.go.id/)
 - [Maltego Social Links Pro](https://www.maltego.com/transform-hub/social-links-pro/)
 - [fastpeoplesearch](https://www.fastpeoplesearch.com/)
 - [fastpeoplesearch.info](https://fastpeoplesearch.info/)
@@ -1234,6 +1239,7 @@ Example
 - [email2phonenumber](https://github.com/martinvigo/email2phonenumber)
 - [truepeoplesearch](https://www.truepeoplesearch.com/)
 - [spokeo](https://www.spokeo.com/)
+- [TrueCaller Tele Bot](https://t.me/TrueCaller_Z_Bot)
 
 Pro Tips
 
@@ -1949,6 +1955,7 @@ Search channel, username anymore
 - [rootabout](https://rootabout.com/)
 - [copyseeker](https://copyseeker.net/)
 - [infringement image search](https://infringement.report/api/raider-reverse-image-search/)
+- [Face Similarity Test Online](https://facecomparison.toolpie.com/)
 
 # Image Analysis
 
@@ -2015,6 +2022,8 @@ Search channel, username anymore
 - [watermarkremover](https://www.watermarkremover.io/)
 - [georgeom](https://georgeom.net/StegOnline/upload)
 - [fotoforensics](https://fotoforensics.com/)
+- [picsman](https://www.picsman.ai/)
+- [Face Similarity Test Online](https://facecomparison.toolpie.com/)
 
 # Stock Images
 
@@ -2254,6 +2263,7 @@ Search channel, username anymore
 - [worldatlas](https://www.worldatlas.com/countries)
 - [earthquake hazards USGS](https://www.usgs.gov/programs/earthquake-hazards)
 - [ID earthquake bmkg](https://www.bmkg.go.id/gempabumi/)
+- [mapcreator](https://mapcreator.io/)
 
 Conveter tool 
 
@@ -2295,6 +2305,7 @@ Geojson viewer
 - [osm-3d globe](https://osm-3d.org/screenshots.en.htm)
 - [maps3d](https://maps3d.io/)
 - [osm2world](https://osm2world.org/)
+- [euspaceimaging](https://www.euspaceimaging.com/products/3d-products/)
 
 # Nearby Map From Geospatial
 
@@ -2715,6 +2726,7 @@ Social Network and blogging
 - [waifu2x](https://waifu2x.org/)
 - [imglarger](https://imglarger.com/Anime16K)
 - [imageupscaler](https://imageupscaler.com/deblurring/)
+- [Face-Real-ESRGAN](https://huggingface.co/spaces/doevent/Face-Real-ESRGAN)
 
 # Locations Data Mapping
 
@@ -3237,6 +3249,7 @@ Strict and disable bot crawl search engine index account
 - [platerecognizer](https://platerecognizer.com/)
 - [partialnumberplate UK](https://www.partialnumberplate.co.uk/)
 - [ID Samsat](https://samsat.info/cek-pajak-kendaraan-bermotor-online)
+- [Free Car Check UK](https://motorscan.co.uk/)
 
 VIN Checker 
 
@@ -3340,10 +3353,8 @@ Public Transport
 - [shipnext](https://shipnext.com/vessel/9417440/Ohio)
 - [magicport](https://magicport.ai/)
 - [opencpn GPS Navigation Software](https://opencpn.org/OpenCPN/info/about.html)
-
-NOOA Incident MAP 
-
 - [incidentnews NOOA](https://incidentnews.noaa.gov/map)
+- [EMSA](https://www.emsa.europa.eu/)
 
 # Railways
 
@@ -3526,6 +3537,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [Fiddler](https://www.telerik.com/fiddler) Uncover software bugs when HTTP communication is involved. The Fiddler set of tools helps you promptly identify errors to effectively fix them. Easily (like burp)
 - [privacyspace](https://github.com/Xposed-Modules-Repo/cn.geektang.privacyspace) For Android mobile pentest. This is an Xposed module. The function of this module is to "hide" the apps, which can achieve the "Second space" function of MIUI
 - [Dopamine](https://github.com/opa334/Dopamine) Dopamine is a semi-untethered jailbreak for iOS 15 and 16
+- [SSL bypass check](https://github.com/0xCD4/SSL-bypass) A comprehensive Frida script for bypassing root detection, SSL certificate pinning, and Frida detection mechanisms in Android applications.
 
 Social Engineering
 
@@ -4277,6 +4289,7 @@ Terrorism & Radical
 - [arcgis](https://www.arcgis.com/apps/View/index.html)
 - [evdc ESA Orbit](https://evdc.esa.int/orbit/)
 - [skytruth](https://cerulean.skytruth.org/)
+- [Alert skytruth](https://monitor.skytruth.org/)
 - [Microsoft GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
 - [List of satellite map images with missing or unclear data](https://en.wikipedia.org/wiki/List_of_satellite_map_images_with_missing_or_unclear_data)
 - [ventusky](https://www.ventusky.com/?p=-6.6;115.7;4&l=satellite)
@@ -4287,6 +4300,9 @@ Terrorism & Radical
 - [eorc JP](https://www.eorc.jaxa.jp/ALOS/en/index_e.htm)
 - [Copernicus](https://atmosphere.copernicus.eu/charts/packages/cams/?facets=%7B%22Family%22%3A%5B%22Fires%22%5D%7D)
 - [Meteorological Satellite Center Himawari Sat](https://www.data.jma.go.jp/mscweb/data/himawari/)
+- [Earth ESA sat](https://earth.esa.int/eogateway/missions/planetscope#instruments-section)
+- [euspaceimaging](https://www.euspaceimaging.com/)
+- [medgismar GIS](https://medgismar.rempec.org/)
 
 *Aditional Information coverage sat 
 
@@ -4319,6 +4335,14 @@ Ex:
 - [MODIS Sat](https://id.wikipedia.org/wiki/Moderate-Resolution_Imaging_Spectroradiometer)
 - [Suomi NPP Sat](https://fi.wikipedia.org/wiki/Suomi_NPP)
 - [Sentinel-3 Sat](https://en.wikipedia.org/wiki/Sentinel-3)
+- [Guide Remote Sensing](https://bellingcat.github.io/RS4OSINT/A2_Remote_Sensing.html)
+
+Ex Guides: 
+
+- [Sentinel 2 Bands and Combinations](https://gisgeography.com/sentinel-2-bands-combinations/)
+- [Visualizing a Marine Oil Spill with Sentinel-2 MSI Imagery](https://medium.com/@anapau_diazg/visualizing-a-marine-oil-spill-with-sentinel-2-msi-imagery-cb0aaa2045b)
+- [NOAA Contracts with Planet to Gain Situational Awareness of Oil Spills, Marine Debris, and Marine Life](https://www.planet.com/pulse/noaa-contracts-with-planet-to-gain-situational-awareness-of-oil-spills-marine-debris-and-marine-life/)
+- [Aerial Observation and Identification Guide](https://www.amsa.gov.au/sites/default/files/2014-01-mp-amsa22-identification-oil-on-water.pdf)
 
 # OSINT for Scraping and Data Collection
 
@@ -4486,6 +4510,7 @@ Image and Vidio Analyzer
 - [shutterstock](https://www.shutterstock.com/search/like-video)
 - [Google Vidio Search](https://www.google.com/videohp?hl=id)
 - [invid-project](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)
+- [Face Similarity Test Online](https://facecomparison.toolpie.com/)
 
 Website 
 
@@ -4627,6 +4652,9 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [ID Badan Pengawasan Keuangan dan Pembangunan](https://www.bpkp.go.id/)
 - [ID SIRUP LKPP](https://sirup.lkpp.go.id/sirup/home/rekapitulasiindex)
 - [ID BI](https://www.bi.go.id/id/default.aspx)
+- [wise](https://wise.com/id/)
+- [tradingeconomics](https://id.tradingeconomics.com/)
+- [worldbank](https://data.worldbank.org/)
 
 # OSINT Cryptography (Cipher)
 
