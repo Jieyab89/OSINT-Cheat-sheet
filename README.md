@@ -3946,13 +3946,15 @@ Simulator and Game
 - [Modern Warship](https://promo.worldofwarships.com/)
 - [Microsoft Flight Simulator](https://www.flightsimulator.com/)
 
-Tactical learn and some knowledge
+Tactical learn and some firearms knowledge
 
 - [FalconLaw](https://www.youtube.com/@falconclaw_)
 - [GarandThumb](https://www.youtube.com/@GarandThumb)
 - [The FieldCraft Survival Channel
 ](https://www.youtube.com/@fieldcraftsurvival)
 - [ID LycmaMilTech](https://www.youtube.com/@LycmaMilTech)
+- [GarandThumb](https://www.youtube.com/@GarandThumb)
+- [wiki firearm brands](https://en.wikipedia.org/wiki/List_of_firearm_brands)
 
 # OSINT Shadow Analysis 
 
