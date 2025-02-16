@@ -2447,6 +2447,7 @@ Bypasses, payloads, Reconnaissance and etc
 - [DnsSpy](https://github.com/dnSpy/dnSpy)
 Desktop NET debugger and assembly editor
 - [regex101](https://regex101.com/) Tips for Regex
+- [Search CTF Writeups](https://ctfsearch.hackmap.win/) Find and explore CTF solutions and writeups 35,000+ writeups
 
 # Zero Day
 
@@ -3721,6 +3722,7 @@ Hacking Playground
 - [dvwa CSLAB](https://dvwa.csalab.app/)
 - [hackthebox](https://www.hackthebox.com/)
 - [tryhackme](https://tryhackme.com/)
+- [LaraVuln Jieyab89](https://github.com/Jieyab89/LaraVuln)
 
 Awesome Burpsuite Extension
 
@@ -3728,6 +3730,14 @@ Awesome Burpsuite Extension
 - [HAE](https://github.com/xnl-h4ck3r/HandE-Burp-Extension)
 - [Jsminner](https://github.com/PortSwigger/js-miner)
 - [Java Deserialization Scanner](https://portswigger.net/bappstore/228336544ebe4e68824b5146dbbd93ae)
+- [PyCript-WebSocket](https://github.com/Anof-cyber/PyCript-WebSocket/)
+- [Autorize](https://portswigger.net/bappstore/f9bbac8c4acf4aefa4d7dc92a991af2f)
+- [Retire.js](https://github.com/RetireJS/retire.js)
+- [Upload Scanner](https://portswigger.net/bappstore/b2244cbb6953442cb3c82fa0a0d908fa)
+- [Backslash Powered Scanner](https://portswigger.net/bappstore/9cff8c55432a45808432e26dbb2b41d8)
+- [Turbo Intruder](https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988)
+- [Wayback Machine](https://portswigger.net/bappstore/5c7c516c690345c19fbf55b2b2ebeb76)
+- [403 Bypasser](https://portswigger.net/bappstore/444407b96d9c4de0adb7aed89e826122)
 
 C2 & C4 
 
