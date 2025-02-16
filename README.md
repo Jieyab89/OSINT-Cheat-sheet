@@ -15,6 +15,7 @@ Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and othe
 - Dont upload your private files make sure you have clean personal file in folder
 - Scan the files will you download
 - Encrypt your network traffic, message and disk
+- Beware about attachments such as docx, xlsm or macro documents (Check macros don't immediately press enable, check properties file to do strict mode)
 
 # These Resources Are Recommend For 
 
