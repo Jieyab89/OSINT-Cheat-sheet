@@ -4316,6 +4316,8 @@ Terrorism & Radical
 - [Earth ESA sat](https://earth.esa.int/eogateway/missions/planetscope#instruments-section)
 - [euspaceimaging](https://www.euspaceimaging.com/)
 - [medgismar GIS](https://medgismar.rempec.org/)
+- [umbra open data](https://umbra.space/open-data/)
+- [Bellingcat Monitor the Umbra open data catalogue](https://github.com/bellingcat/umbra-open-data-tracker?tab=readme-ov-file)
 
 *Aditional Information coverage sat 
 
