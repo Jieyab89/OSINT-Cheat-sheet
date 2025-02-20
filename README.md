@@ -200,6 +200,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [datareportal](https://datareportal.com/)
 - [medgismar GIS](https://medgismar.rempec.org/)
 - [Conflict Gaza damage](https://ee-ollielballinger.projects.earthengine.app/view/gazadamage)
+- [resourcewatch](https://resourcewatch.org/data/explore)
 
 # Forums & Sites
 
@@ -2247,7 +2248,6 @@ Search channel, username anymore
 - [Maritim world lightphotos](https://www.lightphotos.net/photos/map_all.php)
 - [geohack](https://geohack.toolforge.org/)
 - [alltrails](https://www.alltrails.com/)
-- [QGIS](https://www.qgis.org/)
 - [pastvu map](https://pastvu.com/)
 - [Latest change OSM](https://rene78.github.io/latest-changes/#5/-3.448/115.532)
 - [Offensive OSINT](https://www.os-surveillance.io/#choose-plan)
@@ -2265,6 +2265,7 @@ Search channel, username anymore
 - [earthquake hazards USGS](https://www.usgs.gov/programs/earthquake-hazards)
 - [ID earthquake bmkg](https://www.bmkg.go.id/gempabumi/)
 - [mapcreator](https://mapcreator.io/)
+- [google initiative news - Basic GEE](https://newsinitiative.withgoogle.com/resources/trainings/introduction-to-google-earth-engine/)
 
 Conveter tool 
 
@@ -2307,6 +2308,11 @@ Geojson viewer
 - [maps3d](https://maps3d.io/)
 - [osm2world](https://osm2world.org/)
 - [euspaceimaging](https://www.euspaceimaging.com/products/3d-products/)
+
+Guides 
+
+- [Earth Engine Doc](https://developers.google.com/earth-engine/guides/getstarted)
+- [Google Earth Engine: A Quick Guide for Beginners](https://gisgeography.com/google-earth-engine/)
 
 # Nearby Map From Geospatial
 
@@ -4187,6 +4193,7 @@ Search News Journalist and Documentary Sites
 - [thecradle](https://thecradle.co/)
 - [nytimes](https://www.nytimes.com/)
 - [thebureauinvestigates](https://www.thebureauinvestigates.com/)
+- [info-res](https://www.info-res.org/)
 
 Social Media Analytics
 
@@ -4267,6 +4274,7 @@ Terrorism & Radical
 - [oxpeckers](https://oxpeckers.org/tools/)
 - [viirs skytruth](https://viirs.skytruth.org/apps/heatmap/flaringmap.html#lat=33.85472&lon=35.86229&zoom=8&offset=27)
 - [protectedplanet](https://www.protectedplanet.net/)
+- [globalfishingwatch](https://globalfishingwatch.org/)
 
 # OSINT Satellite
 
@@ -4318,6 +4326,10 @@ Terrorism & Radical
 - [medgismar GIS](https://medgismar.rempec.org/)
 - [umbra open data](https://umbra.space/open-data/)
 - [Bellingcat Monitor the Umbra open data catalogue](https://github.com/bellingcat/umbra-open-data-tracker?tab=readme-ov-file)
+- [ghgsat](https://www.ghgsat.com/en/)
+- [NASA EMIT](https://earth.jpl.nasa.gov/emit/)
+- [NASA NEO](https://neo.gsfc.nasa.gov/)
+- [skywatch](explore.skywatch.com)
 
 *Aditional Information coverage sat 
 
@@ -4358,6 +4370,10 @@ Ex Guides:
 - [Visualizing a Marine Oil Spill with Sentinel-2 MSI Imagery](https://medium.com/@anapau_diazg/visualizing-a-marine-oil-spill-with-sentinel-2-msi-imagery-cb0aaa2045b)
 - [NOAA Contracts with Planet to Gain Situational Awareness of Oil Spills, Marine Debris, and Marine Life](https://www.planet.com/pulse/noaa-contracts-with-planet-to-gain-situational-awareness-of-oil-spills-marine-debris-and-marine-life/)
 - [Aerial Observation and Identification Guide](https://www.amsa.gov.au/sites/default/files/2014-01-mp-amsa22-identification-oil-on-water.pdf)
+- [What does real-time satellite data really look like?](https://skywatch.com/real-time-satellite-data/)
+- [Starting Satellite Investigations](https://exposingtheinvisible.org/en/guides/starting-satellite-investigations/)
+- [A Journalist's Guide to using AI + Satellite Imagery for Storytelling](https://aifromabove.notion.site/A-Journalist-s-Guide-to-using-AI-Satellite-Imagery-for-Storytelling-c32a310269124f069da96b73e872e574)
+- [How to analyse satellite imagery](https://institute.aljazeera.net/en/ajr/article/2191)
 
 # OSINT for Scraping and Data Collection
 
@@ -4747,6 +4763,7 @@ This is path for you learn OSINT
 - [Guide for verification and SOCMINT](https://datajournalism.com/read/handbook/verification-3)
 - [Youtube OSINT Tutorial](https://www.youtube.com/playlist?list=PLrFPX1Vfqk3ehZKSFeb9pVIHqxqrNW8Sy)
 - [Ethical and about more OSINT](https://stanleycenter.org/publications/osint-applied-ethics-workbook/)
+- [Exposing the Invisible - The Kit](https://kit.exposingtheinvisible.org/en/index.html)
 
 Browser List 
 
