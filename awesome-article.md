@@ -68,6 +68,7 @@
 # AI 
 
 - [dutchosintguy Using AI for extracting Usernames, Emails, Phone Numbers, and Personal Names from large datasets](https://www.dutchosintguy.com/post/using-ai-for-extracting-usernames-emails-phone-numbers-and-personal-names-from-large-datasets)
+- [Deepfake Geography: How AI Can Now Falsify Satellite Images](https://gijn.org/stories/deepfake-geography-how-ai-can-now-falsify-satellite-images/)
 
 # Guides 
 
@@ -79,6 +80,7 @@
 - [media manipulators to target journalists and other influential public figures](https://datasociety.net/wp-content/uploads/2019/09/Source-Hacking_Hi-res.pdf)
 - [How to Investigate a Cryptocurrency Scammer](https://www.onchain.industries/blog/how-to-investigate-a-cryptocurrency-scammer)
 - [Unique 0-click deanonymization attack targeting Signal, Discord and hundreds of platform](https://gist.github.com/hackermondev/45a3cdfa52246f1d1201c1e8cdef6117)
+- [google initiative news - Basic GEE](https://newsinitiative.withgoogle.com/resources/trainings/introduction-to-google-earth-engine/)
 
 # Vehicle
 
@@ -93,3 +95,8 @@
 # Red Teamer OSINT 
 
 - [ID - Linux chattr command](https://www.linuxsec.org/2019/06/perintah-chattr.html)
+
+# OSINT for WAR (Mil OSINT)
+
+- [Investigating War Crimes: Open Source Research](https://gijn.org/resource/reporters-guide-to-investigating-war-crimes-open-source-research/)
+- [Scorched Earth: Using NASA Fire Data to Monitor War Zones](https://www.bellingcat.com/resources/2022/10/04/scorched-earth-using-nasa-fire-data-to-monitor-war-zones/)
