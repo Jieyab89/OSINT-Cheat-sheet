@@ -4508,7 +4508,7 @@ Guide Journalist
 
 # OSINT Similarity (Plagiarism)
 
-Check the similarity or plagiarism of the content and web apps 
+Check the similarity or plagiarism of the content and web apps or social media similarity 
 
 Text Analyzer 
 
@@ -4565,6 +4565,10 @@ Company
 - [vstat](https://vstat.info/)
 - [sgpbusiness](https://www.sgpbusiness.com/)
 
+Social Media 
+
+- [socialblade similarity](https://socialblade.com/)
+  
 # Secure Code & Application 
 
 - [veracode](https://www.veracode.com/products/binary-static-analysis-sast)
