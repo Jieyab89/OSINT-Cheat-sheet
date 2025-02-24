@@ -152,6 +152,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [pipl](https://pipl.com/)
 - [Get account & gather info](https://commentpicker.com/)
 - [SociaBlade](http://socialblade.com)
+- [Open Measures](https://openmeasures.io/)
 
 # Collection Dataset
 
@@ -201,6 +202,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [medgismar GIS](https://medgismar.rempec.org/)
 - [Conflict Gaza damage](https://ee-ollielballinger.projects.earthengine.app/view/gazadamage)
 - [resourcewatch](https://resourcewatch.org/data/explore)
+- [Open Measures Database](https://openmeasures.io/)
 
 # Forums & Sites
 
@@ -1094,6 +1096,7 @@ Example
 - [resourcecontracts](https://www.resourcecontracts.org/)
 - [sayari](https://sayari.com/)
 - [lexisnexis](https://www.lexisnexis.com/en-us)
+- [Public Database of Domestic Politically Exposed Persons of Russia, Belarus and Kazakhstan](https://rupep.org/en/)
 
 # People Searching
 
@@ -1151,6 +1154,7 @@ Example
 - [skopenow](https://www.skopenow.com/)
 - [truepeoplesearch](https://www.truepeoplesearch.com/)
 - [411 reverse phone](https://www.411.com/reverse-phone)
+- [Public Database of Domestic Politically Exposed Persons of Russia, Belarus and Kazakhstan](https://rupep.org/en/)
 
 # Family People Search 
 
@@ -2266,6 +2270,7 @@ Search channel, username anymore
 - [ID earthquake bmkg](https://www.bmkg.go.id/gempabumi/)
 - [mapcreator](https://mapcreator.io/)
 - [google initiative news - Basic GEE](https://newsinitiative.withgoogle.com/resources/trainings/introduction-to-google-earth-engine/)
+- [shadowbreakintl](https://www.shadowbreakintl.com/#products)
 
 Conveter tool 
 
@@ -2308,6 +2313,7 @@ Geojson viewer
 - [maps3d](https://maps3d.io/)
 - [osm2world](https://osm2world.org/)
 - [euspaceimaging](https://www.euspaceimaging.com/products/3d-products/)
+- [Baidu maps](https://map.baidu.com/)
 
 Guides 
 
@@ -2342,6 +2348,7 @@ Guides
 The definitive Internet reference source for urban legends, folklore, myths, rumors, and misinformation.
 - [Verification Handbook](http://verificationhandbook.com)
 - [Google Fact](https://toolbox.google.com/factcheck/explorer)
+- [Google Fact API](https://toolbox.google.com/factcheck/apis)
 - [Open Measures](https://openmeasures.io/)
 - [Hoaxy](https://hoaxy.osome.iu.edu/)
 - [FEAT Visual Tool](https://github.com/GONZOsint/FEAT)
@@ -2349,6 +2356,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [TEMPO news ID cek fakta](https://cekfakta.tempo.co/)
 - [How to Verify Guide](https://www.howtoverify.info/Image/Where/Geolocation/Manual_geolocation)
 - [Gephi Visual Tool](https://gephi.org/)
+- [3 new ways to check images and sources online](https://blog.google/products/search/google-search-new-fact-checking-features/)
 
 # Server Information Gathering Also Web
 
@@ -2698,6 +2706,7 @@ Virtual Camera
 - [vcamare - CN](https://vcames.xyz/)
 - [virtual camera moudle lsposed](https://github.com/Xposed-Modules-Repo/com.example.vcam)
 - [android virtual cam - CN](https://github.com/w2016561536/android_virtual_cam)
+- [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam)
 
 Social Network and blogging
 
@@ -3730,6 +3739,7 @@ Hacking Playground
 - [hackthebox](https://www.hackthebox.com/)
 - [tryhackme](https://tryhackme.com/)
 - [LaraVuln Jieyab89](https://github.com/Jieyab89/LaraVuln)
+- [game of active directory](https://github.com/Orange-Cyberdefense/GOAD)
 
 Awesome Burpsuite Extension
 
@@ -3926,7 +3936,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [Conflict Ukraine damage](https://oballinger.github.io/PWTT/#ukraine-damage-assessment)
 - [Ukriane Bellingcat Map](https://ukraine.bellingcat.com/)
 - [bulletpicker](https://www.bulletpicker.com/celluloid.html)
-- [Open Source Munitions Portal](https://osmp.ngo/)
+- [Open Source Munitions Portal (OSMP)](https://osmp.ngo/)
 - [Table of explosive detonation velocities](https://en.wikipedia.org/wiki/Table_of_explosive_detonation_velocities)
 - [Types of explosive ordnance](https://www.gichd.org/explosive-ordnance/)
 - [conflictarm - Weapon Documentary](https://www.conflictarm.com/)
@@ -3956,6 +3966,8 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [atomicarchive awesome to learn sains and chemistry](https://www.atomicarchive.com/resources/links/index.html)
 - [Cryptome - search doc about publication that are prohibited by government](https://cryptome.org/)
 - [Tipsheet for Investigative Journalists on War Crimes and Open Source Research](https://gijn.org/resource/tipsheet-for-investigative-journalists-on-war-crimes-and-open-source-research/)
+- [ARES](https://armamentresearch.com/)
+- [eyesonrussia](https://eyesonrussia.org/)
 
 Simulator and Game 
 
@@ -4278,6 +4290,7 @@ Terrorism & Radical
 
 # OSINT Satellite
 
+- [NASA Earth Data](https://search.earthdata.nasa.gov/search)
 - [SOAR Earth](https://soar.earth/maps?)
 - [apollomapping](https://apollomapping.com/)
 - [MODIS NASA](https://modis.gsfc.nasa.gov/gallery/)
@@ -4330,6 +4343,11 @@ Terrorism & Radical
 - [NASA EMIT](https://earth.jpl.nasa.gov/emit/)
 - [NASA NEO](https://neo.gsfc.nasa.gov/)
 - [skywatch](explore.skywatch.com)
+- [AWS Earth](https://aws.amazon.com/earth/)
+- [NOAA Data Access Viewer](https://coast.noaa.gov/dataviewer/#/)
+- [capellaspace](https://www.capellaspace.com/)
+- [shadowbreakintl](https://www.shadowbreakintl.com/#products)
+- [globalforestwatch](https://www.globalforestwatch.org/map/)
 
 *Aditional Information coverage sat 
 
@@ -4374,6 +4392,8 @@ Ex Guides:
 - [Starting Satellite Investigations](https://exposingtheinvisible.org/en/guides/starting-satellite-investigations/)
 - [A Journalist's Guide to using AI + Satellite Imagery for Storytelling](https://aifromabove.notion.site/A-Journalist-s-Guide-to-using-AI-Satellite-Imagery-for-Storytelling-c32a310269124f069da96b73e872e574)
 - [How to analyse satellite imagery](https://institute.aljazeera.net/en/ajr/article/2191)
+- [A Beginner’s Guide to Sentinel Hub](https://citizenevidence.org/2023/03/21/summit-series-a-beginners-guide-to-sentinel-hub/)
+- [Reporter’s Tipsheet for Acquiring Free Satellite Images](https://gijn.org/resource/guide-acquire-free-satellite-images/)
 
 # OSINT for Scraping and Data Collection
 
@@ -4690,6 +4710,7 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [wise](https://wise.com/id/)
 - [tradingeconomics](https://id.tradingeconomics.com/)
 - [worldbank](https://data.worldbank.org/)
+- [sayari](https://sayari.com/)
 
 # OSINT Cryptography (Cipher)
 
