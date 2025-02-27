@@ -916,6 +916,7 @@ Example
 
 # Data Breached OSINT
 
+- [clatscope](https://github.com/clats97/clatscope)
 - [hackedlist](https://hackedlist.io/)
 - [Dehashed](https://www.dehashed.com/)
 - [Haveibeenpwned](https://haveibeenpwned.com/)
@@ -1261,6 +1262,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 
 # Finding Usernames
 
+- [clatscope](https://github.com/clats97/clatscope)
 - [onchain](https://www.onchain.industries/)
 - [OSINT indsutries](https://www.osint.industries/)
 - [lullar](https://lullar-com-3.appspot.com/en)
@@ -1730,6 +1732,7 @@ Google queries for MySpace
 - [onchain](https://www.onchain.industries/)
 - [email2phonenumber](https://github.com/martinvigo/email2phonenumber)
 - [lullar like a dork](https://com.lullar.com/)
+- [clatscope](https://github.com/clats97/clatscope)
 
 # PGP or GPG Keybase 
 
@@ -2274,6 +2277,7 @@ Search channel, username anymore
 - [mapcreator](https://mapcreator.io/)
 - [google initiative news - Basic GEE](https://newsinitiative.withgoogle.com/resources/trainings/introduction-to-google-earth-engine/)
 - [shadowbreakintl](https://www.shadowbreakintl.com/#products)
+- [earthkit](https://agent.earthkit.app/)
 
 Conveter tool 
 
@@ -2747,6 +2751,7 @@ Social Network and blogging
 - [imglarger](https://imglarger.com/Anime16K)
 - [imageupscaler](https://imageupscaler.com/deblurring/)
 - [Face-Real-ESRGAN](https://huggingface.co/spaces/doevent/Face-Real-ESRGAN)
+- [imgify](https://imgify.net/ai-photo-enhancer/)
 
 # Locations Data Mapping
 
@@ -3404,6 +3409,7 @@ Public Transport
 - [Chat-PDF](https://www.chatpdf.com/)
 - [perplexity](https://www.perplexity.ai/)
 - [UBIKRON](https://www.osint-tool.com/unravel-help/)
+- [earthkit](https://agent.earthkit.app/)
 
 # OSINT for Red Team 
 
