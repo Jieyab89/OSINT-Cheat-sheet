@@ -204,6 +204,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [Conflict Gaza damage](https://ee-ollielballinger.projects.earthengine.app/view/gazadamage)
 - [resourcewatch](https://resourcewatch.org/data/explore)
 - [Open Measures Database](https://openmeasures.io/)
+- [planet openstreetmap](https://planet.openstreetmap.org/planet/)
 
 # Forums & Sites
 
@@ -888,6 +889,7 @@ Example
 - [brave](https://search.brave.com/)
 - [stract](https://stract.com/)
 - [Google Safe Browsing](https://developers.google.com/safe-browsing/reference?hl=id)
+- [qwant](https://www.qwant.com)
 
 # Internet Archive
 
@@ -2009,7 +2011,6 @@ Search channel, username anymore
 - [ImgOps](https://imgops.com/)
 - [Telegram Face Match Bot](https://t.me/facematch_bot)
 - [picarta](https://picarta.ai/)
-- [huggingface](https://huggingface.co/)
 - [ID KTP OCR](https://github.com/fauzantaqiyuddin/fastapi-ocr-ktp)
 - [Python exif extractor](https://github.com/davidbombal/red-python-scripts/blob/main/exif.py)
 - [exterro](https://www.exterro.com/digital-forensics-software/ftk-imager)
@@ -2033,6 +2034,7 @@ Search channel, username anymore
 - [fotoforensics](https://fotoforensics.com/)
 - [picsman](https://www.picsman.ai/)
 - [Face Similarity Test Online](https://facecomparison.toolpie.com/)
+- [photopea](https://www.photopea.com/)
 
 # Stock Images
 
@@ -2588,6 +2590,7 @@ Transaction Analysis
 - [Wireshark wiki voip call](https://wiki.wireshark.org/VoIP_calls)
 - [opensignal](https://www.opensignal.com/)
 - [osmocom](https://osmocom.org/projects/baseband)
+- [DTMF Decoder](https://dtmf.netlify.app/)
 
 Pro Tips 
 
@@ -3829,6 +3832,7 @@ If cannot connected with target check the port and the software version, you can
 - [vocalremover](https://vocalremover.org/)
 - [audacityteam](https://www.audacityteam.org/)
 - [vocalremover](https://vocalremover.org/)
+- [morsecode decoder audio](https://morsecode.world/international/decoder/audio-decoder-adaptive.html)
 
 Audio enchange quality  
 
@@ -4754,6 +4758,27 @@ Getting info for device and hardware info and emulator
 - [NOX](https://www.bignox.com/)
 - [mumuplayer](https://www.mumuplayer.com/index.html)
 - [ldplayer](https://id.ldplayer.net/)
+
+Smartphone & Devices (Check coverage)
+
+IOS 
+
+- [Apple Check Coverage](https://checkcoverage.apple.com/)
+- [IPhone IMEI](https://iunlocker.com/en/check_imei.php)
+- [imei24 - Check serial number](https://imei24.com/check/apple_sn/)
+
+Android 
+
+- [iunlocker](https://iunlocker.com/id/check_imei.php)
+- [imei24 - Check serial number](https://imei24.com/check/apple_sn/)
+- [samsung](https://www.samsung.com/us/support/warranty/#Warranty_Checker)
+
+PC & Laptop 
+
+- [lenovo](https://pcsupport.lenovo.com/id/id/warranty-lookup#/)
+- [samsung](https://www.samsung.com/us/support/warranty/#Warranty_Checker)
+- [asus](https://as-rma.asus.com/id/info/warranty)
+- [asus](https://www.asus.com/support/warranty-status-inquiry/)
 
 # OSINT Cloud 
 
