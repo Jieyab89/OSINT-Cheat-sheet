@@ -4772,6 +4772,10 @@ IOS
 - [Apple Check Coverage](https://checkcoverage.apple.com/)
 - [IPhone IMEI](https://iunlocker.com/en/check_imei.php)
 - [imei24 - Check serial number](https://imei24.com/check/apple_sn/)
+- [Iphone model number code](https://support.apple.com/en-mt/108044)
+- [iPhone model number country code](https://discussions.apple.com/thread/251748775?sortBy=rank)
+- [Iphone model serial number code](https://theapplewiki.com/wiki/Models#:~:text=%22%20F%20%22%3A%20refurbished%20unit,%22%3A%20personalized%20(engraved)%20unit)
+- [Decode The Meaning Behind Your Apple Serial Number](https://beetstech.com/blog/decode-meaning-behind-apple-serial-number)
 
 Android 
 
