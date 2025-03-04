@@ -154,6 +154,10 @@ Be carefull using this tool use 2nd account because your account got banned
 - [SociaBlade](http://socialblade.com)
 - [Open Measures](https://openmeasures.io/)
 - [UBIKRON](https://www.osint-tool.com/unravel-help/)
+- [CSE SOCMINT search data like vidio](https://cse.google.com/cse?cx=004121198361051842949:uqqcf2re4ts)
+- [CSE SOCMINT INSTA](https://cse.google.com/cse?cx=d69e08526637c468d#gsc.tab=0&gsc.sort=)
+- [CSE SOCMINT tools search](https://cse.google.com/cse?cx=029ffbc44aa3946cb#gsc.tab=0&gsc.sort=&gsc.ref=more%3Afb)
+- [CSE Search comment](https://cse.google.com/cse?cx=006368593537057042503:ig4r3rz35qi#gsc.tab=0)
 
 # Collection Dataset
 
@@ -652,6 +656,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [camstreamer](https://camstreamer.com/live/map)
 - [worldcams](https://worldcams.tv/)
 - [webcamcse CSE](https://cipher387.github.io/webcamcse/)
+- [CSE Webcam search](https://cse.google.com/cse?cx=013991603413798772546:gjcdtyiytey#gsc.tab=0&gsc.sort=)
 
 # IP Addresses
 
@@ -797,6 +802,7 @@ You can find the file hash or other threat indicator
 - [dorksearch](https://dorksearch.com/)
 - [lullar.com](https://com.lullar.com/)
 - [recruitin](https://recruitin.net/)
+- [Dorking webcamcse](https://cipher387.github.io/webcamcse/)
 
 # Github 
 
@@ -1176,6 +1182,7 @@ Example
 - [411 reverse phone](https://www.411.com/reverse-phone)
 - [Public Database of Domestic Politically Exposed Persons of Russia, Belarus and Kazakhstan](https://rupep.org/en/)
 - [UBIKRON](https://www.osint-tool.com/unravel-help/)
+- [CSE Google Search](https://cse.google.com/cse?cx=partner-pub-7233843800519946:6667570044&ie=UTF-8&q=)
 
 # Family People Search 
 
@@ -1189,6 +1196,7 @@ Example
 - [familytreenow](https://familytreenow.com/)
 - [locatefamily](https://www.locatefamily.com/)
 - [spokeo](https://www.spokeo.com/)
+- [CSE Google Search](https://cse.google.com/cse?cx=partner-pub-7233843800519946:6667570044&ie=UTF-8&q=)
 
 # Phone Numbers
 
@@ -4237,6 +4245,7 @@ Search News Journalist and Documentary Sites
 - [nytimes](https://www.nytimes.com/)
 - [thebureauinvestigates](https://www.thebureauinvestigates.com/)
 - [info-res](https://www.info-res.org/)
+- [CSE News and resume search](https://cse.google.com/cse?cx=009462381166450434430%3Afrzo6adfjso&q#gsc.tab=0&gsc.q=jakarta&gsc.sort=)
 
 Social Media Analytics
 
@@ -4821,6 +4830,11 @@ Find the list and history about house property, price and etc
 
 - [ZILLOW](https://www.zillow.com/homes/for_sale/) 
 - [trulia](https://www.trulia.com/)
+
+# Custom CSE Search Engine (CSE)
+
+- [CSE-UTOPIA LISTS](https://start.me/p/EL84Km/cse-utopia)
+- [40 Custom Search Engines](https://booleanstrings.com/all-the-40-forty-custom-search-engines/)
 
 # OSINT Technique Tips 
 
