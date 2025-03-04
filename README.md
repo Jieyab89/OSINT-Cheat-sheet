@@ -205,6 +205,8 @@ Be carefull using this tool use 2nd account because your account got banned
 - [resourcewatch](https://resourcewatch.org/data/explore)
 - [Open Measures Database](https://openmeasures.io/)
 - [planet openstreetmap](https://planet.openstreetmap.org/planet/)
+- [arcgis dataset](https://hub.arcgis.com/search?collection=Dataset)
+- [atlasofsurveillance](https://atlasofsurveillance.org/)
 
 # Forums & Sites
 
@@ -456,6 +458,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [subdosec vulnshot](https://subdosec.vulnshot.com/)
 - [waybackpack download wayback archive url](https://github.com/jsvine/waybackpack)
 - [urlvoid](https://www.urlvoid.com/)
+- [netlas.io](https://app.netlas.io/host/)
 
 *Tips web cache 
 
@@ -636,7 +639,19 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [lIVE CAM beach Australia](https://www.livebeaches.com/australia/)
 - [webcamcse cipher387](https://cipher387.github.io/webcamcse/)
 - [Sunder Survilance Cam](https://sunders.uber.space/?lat=-2.4833826&lon=117.8902853&zoom=11)
-- [Offensive OSINT](https://www.os-surveillance.io/)
+- [Offensive OSINT OS - Surveillance](https://www.os-surveillance.io/)
+- [OSM Query surveillance cam](https://wiki.openstreetmap.org/wiki/Tag:man_made=surveillance)
+- [cwwp2 surveillance map](https://cwwp2.dot.ca.gov/vm/iframemap.htm)
+- [hacked surveillance map](https://hacked.camera/map/)
+- [listentothepeople surveillance map](https://www.listentothepeople.net/#info)
+- [mapcomplete surveillance map](https://mapcomplete.org/surveillance.html)
+- [osmcamera surveillance map](https://osmcamera.dihe.de/)
+- [atlasofsurveillance](https://atlasofsurveillance.org/)
+- [offensiveosint](https://www.offensiveosint.io/offensive-osint-s04e07-open-source-surveillance-cameras/)
+- [netlas.io](https://app.netlas.io/host/)
+- [camstreamer](https://camstreamer.com/live/map)
+- [worldcams](https://worldcams.tv/)
+- [webcamcse CSE](https://cipher387.github.io/webcamcse/)
 
 # IP Addresses
 
@@ -674,6 +689,7 @@ net huggers
 - [macvendorlookup](https://www.macvendorlookup.com/)
 - [macvendors](https://macvendors.com/)
 - [whoisxmlapi](https://mac-address.whoisxmlapi.com/api)
+- [netlas.io](https://app.netlas.io/host/)
 
 # SOC & Threat Hunting
 
@@ -1829,6 +1845,7 @@ Google queries for MySpace
 - [find osint-tool](https://find.osint-tool.com/)
 - [More](https://forum.seccodeid.com/?q=osint)
 - [UBIKRON](https://www.osint-tool.com/unravel-help/)
+- [netlas.io](https://app.netlas.io/host/)
 
 # Telegram Tool
 
