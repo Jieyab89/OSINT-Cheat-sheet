@@ -983,6 +983,7 @@ Example
 - [leakradar](https://leakradar.io/)
 - [leakedpassword](https://leakedpassword.com/)
 - [scatteredsecrets](https://scatteredsecrets.com/)
+- [BF Database Search](https://bf.based.re/)
 
 # Crack Jurnals
 
@@ -4261,7 +4262,7 @@ Social Media Analytics
 - Old forum 
 - Local forum
 
-# Threat Actor & Criminal 
+# Threat Actor & Criminal Search 
 
 - [eumostwanted EU](https://eumostwanted.eu/)
 - [nationalcrimeagency UK](https://www.nationalcrimeagency.gov.uk/most-wanted)
@@ -4280,6 +4281,7 @@ Social Media Analytics
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
 - [breach-hq](https://breach-hq.com/threat-actors)
 - [United Nation PBB](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list)
+- [ID Sistem Informasi Penelusuran Perkara](https://sipp.pn-negara.go.id/) *Tips you can search by province or regency (subdomain)  
 
 # OSINT for Politics and Geopolitics
 
