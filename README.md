@@ -804,6 +804,7 @@ You can find the file hash or other threat indicator
 - [lullar.com](https://com.lullar.com/)
 - [recruitin](https://recruitin.net/)
 - [Dorking webcamcse](https://cipher387.github.io/webcamcse/)
+- [DEEP DORK](https://guilherme-moraiss.github.io/Deep-Dork-Web/)
 
 # Github 
 
@@ -985,6 +986,7 @@ Example
 - [leakedpassword](https://leakedpassword.com/)
 - [scatteredsecrets](https://scatteredsecrets.com/)
 - [BF Database Search](https://bf.based.re/)
+- [darkradar](https://www.darkradar.io/)
 
 # Crack Jurnals
 
@@ -1048,6 +1050,7 @@ Example
 - [Changedetection](http://www.changedetection.com)
 - [Followthatpage](http://www.followthatpage.com)
 - [visualping](https://visualping.io/)
+- [ID MA Web Monitoring](https://www.mahkamahagung.go.id/id/webmon)
 
 # Company Reconnaissance Sites (Passive)
 
@@ -1769,6 +1772,7 @@ Google queries for MySpace
 - [email2phonenumber](https://github.com/martinvigo/email2phonenumber)
 - [lullar like a dork](https://com.lullar.com/)
 - [clatscope](https://github.com/clats97/clatscope)
+- [darkradar](https://www.darkradar.io/mail-breach)
 
 # PGP or GPG Keybase 
 
