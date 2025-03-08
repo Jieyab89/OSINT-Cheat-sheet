@@ -195,8 +195,8 @@ Be carefull using this tool use 2nd account because your account got banned
 - [techforpalestine](https://data.techforpalestine.org/)
 - [genocide](https://genocide.club/)
 - [data world](https://data.world/search?q=)
-- [KEMNAKER ID](https://satudata.kemnaker.go.id/data)
-- [BNN ID](https://puslitdatin.bnn.go.id/portfolio/data-statistik-kasus-narkoba/)
+- [KEMNAKER Data ID](https://satudata.kemnaker.go.id/data)
+- [BNN Stats ID](https://puslitdatin.bnn.go.id/portfolio/data-statistik-kasus-narkoba/)
 - [Microsoft Building Dataset](https://planetarycomputer.microsoft.com/dataset/ms-buildings)
 - [huggingface](https://huggingface.co/)
 - [goodstats ID](https://goodstats.id/)
@@ -211,6 +211,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [planet openstreetmap](https://planet.openstreetmap.org/planet/)
 - [arcgis dataset](https://hub.arcgis.com/search?collection=Dataset)
 - [atlasofsurveillance](https://atlasofsurveillance.org/)
+- [ID Pelaporan LHKPN](https://elhkpn.kpk.go.id/portal/user/petakepatuhan)
 
 # Forums & Sites
 
@@ -1103,7 +1104,7 @@ Example
 - [Kemenperin ID](https://kemenperin.go.id/direktori-perusahaan)
 - [IDX ID](https://www.idx.co.id/en/listed-companies/company-profiles)
 - [OJK ID](https://www.ojk.go.id/id/kanal/iknb/data-dan-statistik/direktori/direktori-iknb/Default.aspx)
-- [lpse lkpp ID](https://lpse.lkpp.go.id/eproc4)
+- [lpse lkpp ID](https://lpse.lkpp.go.id/eproc4) *Tips you can search by province, institution or regency (subdomain)  
 - [companieshouse ID](https://companieshouse.id/)
 - [Fintech ID](https://fintech.id/id/member)
 - [Website informer](https://website.informer.com/)
@@ -1124,6 +1125,10 @@ Example
 - [sayari](https://sayari.com/)
 - [lexisnexis](https://www.lexisnexis.com/en-us)
 - [Public Database of Domestic Politically Exposed Persons of Russia, Belarus and Kazakhstan](https://rupep.org/en/)
+- [ID E catalogue](https://e-katalog.lkpp.go.id/)
+- [ID SIRUP LKPP](https://sirup.lkpp.go.id/sirup/rekap/klpd/L40)
+- [ID INAPROC daftar hitam penyedia](https://daftar-hitam.inaproc.id/)
+- [ID SIKAP CARI PELAKU USAHA](https://sikap.lkpp.go.id/pelaku-usaha/cari)
 
 # People Searching
 
@@ -1184,6 +1189,10 @@ Example
 - [Public Database of Domestic Politically Exposed Persons of Russia, Belarus and Kazakhstan](https://rupep.org/en/)
 - [UBIKRON](https://www.osint-tool.com/unravel-help/)
 - [CSE Google Search](https://cse.google.com/cse?cx=partner-pub-7233843800519946:6667570044&ie=UTF-8&q=)
+- [ID Sistem Informasi Penelusuran Perkara](https://sipp.pn-negara.go.id/) *Tips you can search by province or regency (subdomain)  
+- [ID mahkamahagung](https://putusan3.mahkamahagung.go.id/)
+- [ID Check the wealth assets of Indonesian ministries](https://elhkpn.kpk.go.id/portal/user/check_search_announ#announ)
+- [ID SIKAP CARI PELAKU USAHA](https://sikap.lkpp.go.id/pelaku-usaha/cari)
 
 # Family People Search 
 
@@ -4157,7 +4166,7 @@ Resources and collection for your make tool OSINT
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
 - [Kaseware](https://www.kaseware.com/link-analysis)
 - [opentender ID](https://opentender.net/)
-- [lpse lkpp ID](https://lpse.lkpp.go.id/eproc4)
+- [lpse lkpp ID](https://lpse.lkpp.go.id/eproc4) *Tips you can search with name of subdomain Institution oder Region
 - [ahu ID](https://ahu.go.id/pencarian/profil-pt)
 - [Minerba ESDM ID](https://momi.minerba.esdm.go.id/gisportal/home/)
 - [MODI ID](https://modi.esdm.go.id/portal/dataPerusahaan)
@@ -4169,6 +4178,7 @@ Resources and collection for your make tool OSINT
 - [sociallinks](https://sociallinks.io/)
 - [urlvoid](https://www.urlvoid.com/)
 - [How to Verify Guide](https://www.howtoverify.info/Image/Where/Geolocation/Manual_geolocation)
+- [ID INAPROC daftar hitam penyedia](https://daftar-hitam.inaproc.id/)
 
 # NEWS OSINT
 
@@ -4736,7 +4746,7 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [OCCRP Organized Crime and Corruption Reporting Project](https://www.occrp.org/en)
 - [PPP Directory](https://ppp.directory/search)
 - [ID LKPP](https://lkpp.go.id/)
-- [ID LPSE LKPP](https://lpse.lkpp.go.id/eproc4/lelang)
+- [ID LPSE LKPP](https://lpse.lkpp.go.id/eproc4/lelang) *Tips you can search by province, institution or regency (subdomain)  
 - [ID PPATK](https://www.ppatk.go.id/publikasi/lists/1.html)
 - [ID KPK](https://www.kpk.go.id/id)
 - [ID BPK](https://www.bpk.go.id/)
@@ -4755,6 +4765,7 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [tradingeconomics](https://id.tradingeconomics.com/)
 - [worldbank](https://data.worldbank.org/)
 - [sayari](https://sayari.com/)
+- [ID E catalogue](https://e-katalog.lkpp.go.id/)
 
 # OSINT Cryptography (Cipher)
 
