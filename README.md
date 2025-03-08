@@ -3438,6 +3438,7 @@ Public Transport
 - [perplexity](https://www.perplexity.ai/)
 - [UBIKRON](https://www.osint-tool.com/unravel-help/)
 - [earthkit](https://agent.earthkit.app/)
+- [browser-use](https://github.com/browser-use/browser-use)
 
 # OSINT for Red Team 
 
@@ -4454,6 +4455,7 @@ Ex Guides:
 - [Omkar](https://www.omkar.cloud/tools/) List site for scrapper 
 - [torpy](https://github.com/torpyorg/torpy) Python Tor client implementation of the Tor protocol. Torpy can be used to communicate with clearnet hosts or hidden services through the Tor Network
 - [DARC](https://github.com/JarryShaw/darc) Darkweb Crawler Project
+- [browser-use](https://github.com/browser-use/browser-use)
 
 # OSINT IRC Chat
 
@@ -4862,12 +4864,9 @@ This is path for you learn OSINT
 
 Browser List 
 
-Brave: https://brave.com/
-
-I2P: https://geti2p.net/en/ 
-
-Tor Broswer: https://www.torproject.org
-
-Whonix: https://www.whonix.org/
-
-Zeronet: https://zeronet.io/
+- [browser-use](https://github.com/browser-use/browser-use)
+- [Brave](https://brave.com/)
+- [I2P](https://geti2p.net/en/) 
+- [TOR](https://www.torproject.org)
+- [Whonix](https://www.whonix.org/)
+- [Zeronet](https://zeronet.io/)
