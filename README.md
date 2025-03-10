@@ -212,6 +212,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [arcgis dataset](https://hub.arcgis.com/search?collection=Dataset)
 - [atlasofsurveillance](https://atlasofsurveillance.org/)
 - [ID Pelaporan LHKPN](https://elhkpn.kpk.go.id/portal/user/petakepatuhan)
+- [NASA Fire Dataset](https://firms.modaps.eosdis.nasa.gov/)
 
 # Forums & Sites
 
@@ -1288,6 +1289,7 @@ Example
 - [truepeoplesearch](https://www.truepeoplesearch.com/)
 - [spokeo](https://www.spokeo.com/)
 - [TrueCaller Tele Bot](https://t.me/TrueCaller_Z_Bot)
+- [SNS masking](https://smsviro.com/home/#pricing)
 
 Pro Tips
 
@@ -2729,6 +2731,7 @@ Build your sockpuppet account and proctect your privacy
 - [EKTP-Generator ID](https://github.com/veldanava/EKTP-Generator)
 - [FAKE KTP ID](https://www.capcut.com/templates/FAKE-KTP-7231021297839475969?template_scale=360%3A227)
 - [Google Safe Browsing](https://developers.google.com/safe-browsing?hl=id)
+- [SNS masking](https://smsviro.com/home/#pricing)
 
 Build your own deepfake 
 
@@ -4022,6 +4025,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [Tipsheet for Investigative Journalists on War Crimes and Open Source Research](https://gijn.org/resource/tipsheet-for-investigative-journalists-on-war-crimes-and-open-source-research/)
 - [ARES](https://armamentresearch.com/)
 - [eyesonrussia](https://eyesonrussia.org/)
+- [blacksky](https://www.blacksky.com/)
 
 Simulator and Game 
 
@@ -4344,6 +4348,7 @@ Terrorism & Radical
 - [viirs skytruth](https://viirs.skytruth.org/apps/heatmap/flaringmap.html#lat=33.85472&lon=35.86229&zoom=8&offset=27)
 - [protectedplanet](https://www.protectedplanet.net/)
 - [globalfishingwatch](https://globalfishingwatch.org/)
+- [ID SIPONGI](https://sipongi.menlhk.go.id/peta)
 
 # OSINT Satellite
 
@@ -4770,6 +4775,8 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [worldbank](https://data.worldbank.org/)
 - [sayari](https://sayari.com/)
 - [ID E catalogue](https://e-katalog.lkpp.go.id/)
+- [ID Cek nomor rekening](https://tools.bagusok.dev/cek-rekening)
+- [ID kredibel check scammer](https://www.kredibel.com/search)
 
 # OSINT Cryptography (Cipher)
 
@@ -4793,6 +4800,7 @@ Search person in game
 - [tracker](https://tracker.gg/)
 - [steamidfinder](https://www.steamidfinder.com/)
 - [steamcommunity](https://steamcommunity.com/search/users/)
+- [Cek Id Game](https://tools.bagusok.dev/cek-id-game)
 
 # OSINT Device for Device 
 
