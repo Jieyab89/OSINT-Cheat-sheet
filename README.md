@@ -3701,6 +3701,9 @@ Password crack
 - [crackstation](https://crackstation.net/) Awesome database password crack and identifier
 - [Hashes](https://hashes.com/en/decrypt/hash) Awesome database password crack and identifier
 - [Hashes Escrow](https://hashes.com/en/escrow/view) You can earn money or make a password crack request with community help (Pay)
+- [Search that hash](https://github.com/bee-san/Search-That-Hash)
+- [Medusa](https://www.kali.org/tools/medusa/)
+- [crackmapexec](https://www.kali.org/tools/crackmapexec/)
 
 Wordlists for all
 
