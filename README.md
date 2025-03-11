@@ -213,6 +213,8 @@ Be carefull using this tool use 2nd account because your account got banned
 - [atlasofsurveillance](https://atlasofsurveillance.org/)
 - [ID Pelaporan LHKPN](https://elhkpn.kpk.go.id/portal/user/petakepatuhan)
 - [NASA Fire Dataset](https://firms.modaps.eosdis.nasa.gov/)
+- [Dataset global forest watch](https://data.globalforestwatch.org/)
+- [datasets global fire data](https://www.globalfiredata.org/related.html#fireatlas)
 
 # Forums & Sites
 
@@ -1133,6 +1135,7 @@ Example
 - [ID SIRUP LKPP](https://sirup.lkpp.go.id/sirup/rekap/klpd/L40)
 - [ID INAPROC daftar hitam penyedia](https://daftar-hitam.inaproc.id/)
 - [ID SIKAP CARI PELAKU USAHA](https://sikap.lkpp.go.id/pelaku-usaha/cari)
+- [ID TKDN Kemenperin](https://tkdn.kemenperin.go.id/search.php?where=perush&what=)
 
 # People Searching
 
@@ -1500,6 +1503,8 @@ or you can use dork for spesific example
 - [pathsocial](https://www.pathsocial.com/id/)
 - [export comment Insta](https://exportgram.net/)
 - [Get account ID instagram](https://commentpicker.com/instagram-user-id.php)
+- [dumpor](https://dumpor.io/)
+- [greatfon](https://greatfon.io/)
 
 # Microsoft OneDrive 
 
@@ -2732,6 +2737,7 @@ Build your sockpuppet account and proctect your privacy
 - [FAKE KTP ID](https://www.capcut.com/templates/FAKE-KTP-7231021297839475969?template_scale=360%3A227)
 - [Google Safe Browsing](https://developers.google.com/safe-browsing?hl=id)
 - [SNS masking](https://smsviro.com/home/#pricing)
+- [USER AGENT LIST](https://www.useragentstring.com/pages/useragentstring.php)
 
 Build your own deepfake 
 
@@ -2770,6 +2776,10 @@ Social Network and blogging
 - Linkedin 
 - Rocket Reach
 - Etc
+
+Guides 
+
+- [privacyguides](https://www.privacyguides.org/en/)
 
 # Enhance Image Quality
 
@@ -3005,6 +3015,7 @@ Social Network and blogging
 - [fdupes](https://github.com/adrianlopezroche/fdupes)
 - [georgeom](https://georgeom.net/StegOnline/upload)
 - [fotoforensics](https://fotoforensics.com/)
+- [List and guides about tools forensic](https://ericzimmerman.github.io/#!index.md)
 
 *Pro Tips 
 
@@ -4139,6 +4150,7 @@ Resources and collection for your make tool OSINT
 - [leafletjs](https://leafletjs.com/)
 - [QGIS](https://www.qgis.org/)
 - [Flowchart maker](https://app.diagrams.net/)
+- [osintracker](https://app.osintracker.com/)
 
 # Emoji Investigation
 
@@ -4413,6 +4425,7 @@ Terrorism & Radical
 - [capellaspace](https://www.capellaspace.com/)
 - [shadowbreakintl](https://www.shadowbreakintl.com/#products)
 - [globalforestwatch](https://www.globalforestwatch.org/map/)
+- [HERE MAP](https://maps.here.com/)
 
 *Aditional Information coverage sat 
 
@@ -4555,6 +4568,9 @@ You can use for study academic literature, search book, people name, old archive
 - [cqcore UK](https://www.cqcore.uk/) Find OSINT, OPSEC, Obfuscation, Privacy, Infosec & Digital Exposure Profiling educational material, with useful News, Blogs, Top Tips
 - [Crypto OpSec SelfGuard RoadMap](https://github.com/OffcierCia/Crypto-OpSec-SelfGuard-RoadMap) Here we collect and discuss the best DeFi, Blockchain and crypto-related OpSec researches and data terminals - contributions are welcome.
 - [Blockchain-dark-forest-selfguard-handbook](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_ID.md) Blockchain dark forest selfguard handbook. Master these, master the security of your cryptocurrency
+- [Docker](https://www.docker.com/) Buold your docker image or virtual host 
+- [vmware](https://www.vmware.com/)
+- [virtualbox](https://www.virtualbox.org/)
 
 # OSINT Journalism Project
 
@@ -4761,6 +4777,9 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [ID LPSE LKPP](https://lpse.lkpp.go.id/eproc4/lelang) *Tips you can search by province, institution or regency (subdomain)  
 - [ID PPATK](https://www.ppatk.go.id/publikasi/lists/1.html)
 - [ID KPK](https://www.kpk.go.id/id)
+- [ID Pelaporan KPK LHKPN](https://elhkpn.kpk.go.id/portal/user/petakepatuhan)
+- [ID KPK Check the wealth assets of Indonesian ministries](https://elhkpn.kpk.go.id/portal/user/check_search_announ#announ)
+- [ID SIKAP CARI PELAKU USAHA](https://sikap.lkpp.go.id/pelaku-usaha/cari)
 - [ID BPK](https://www.bpk.go.id/)
 - [ID Bappebti](https://bappebti.go.id/)
 - [ID BPS](https://www.bps.go.id/id)
