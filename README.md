@@ -3622,6 +3622,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [privacyspace](https://github.com/Xposed-Modules-Repo/cn.geektang.privacyspace) For Android mobile pentest. This is an Xposed module. The function of this module is to "hide" the apps, which can achieve the "Second space" function of MIUI
 - [Dopamine](https://github.com/opa334/Dopamine) Dopamine is a semi-untethered jailbreak for iOS 15 and 16
 - [SSL bypass check](https://github.com/0xCD4/SSL-bypass) A comprehensive Frida script for bypassing root detection, SSL certificate pinning, and Frida detection mechanisms in Android applications.
+- [PSPY Linux](https://github.com/DominicBreuker/pspy) Enumeration host or monitor linux processes without root permissions
 
 Social Engineering
 
@@ -3712,9 +3713,9 @@ Password crack
 - [crackstation](https://crackstation.net/) Awesome database password crack and identifier
 - [Hashes](https://hashes.com/en/decrypt/hash) Awesome database password crack and identifier
 - [Hashes Escrow](https://hashes.com/en/escrow/view) You can earn money or make a password crack request with community help (Pay)
-- [Search that hash](https://github.com/bee-san/Search-That-Hash)
-- [Medusa](https://www.kali.org/tools/medusa/)
-- [crackmapexec](https://www.kali.org/tools/crackmapexec/)
+- [Search that hash](https://github.com/bee-san/Search-That-Hash) A tool brute and crack password hash
+- [Medusa](https://www.kali.org/tools/medusa/) A tool brute and crack password hash
+- [crackmapexec](https://www.kali.org/tools/crackmapexec/)  Automates gathering information, executing advanced password attacks, and performing post-exploitation activities like lateral movement.
 
 Wordlists for all
 
