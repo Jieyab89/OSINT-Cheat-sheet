@@ -3634,6 +3634,7 @@ Social Engineering
 - [SET](https://github.com/trustedsec/social-engineer-toolkit)
 - [httrack](https://www.httrack.com/)
 - [saveweb2zip](https://saveweb2zip.com/en)
+- [same web cloner](https://same.dev/)
 
 Active Directory
 
@@ -3811,6 +3812,7 @@ Hacking Playground
 - [tryhackme](https://tryhackme.com/)
 - [LaraVuln Jieyab89](https://github.com/Jieyab89/LaraVuln)
 - [game of active directory](https://github.com/Orange-Cyberdefense/GOAD)
+- [Damn-Vulnerable-Drone](https://github.com/nicholasaleks/Damn-Vulnerable-Drone?tab=readme-ov-file)
 
 Awesome Burpsuite Extension
 
@@ -4800,6 +4802,7 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [ID E catalogue](https://e-katalog.lkpp.go.id/)
 - [ID Cek nomor rekening](https://tools.bagusok.dev/cek-rekening)
 - [ID kredibel check scammer](https://www.kredibel.com/search)
+- [DataRepublican](https://datarepublican.com/)
 
 # OSINT Cryptography (Cipher)
 
