@@ -1200,6 +1200,7 @@ Example
 - [ID mahkamahagung](https://putusan3.mahkamahagung.go.id/)
 - [ID Check the wealth assets of Indonesian ministries](https://elhkpn.kpk.go.id/portal/user/check_search_announ#announ)
 - [ID SIKAP CARI PELAKU USAHA](https://sikap.lkpp.go.id/pelaku-usaha/cari)
+- [ID Pejabat rekam jejak](https://rekamjejak.net/direktori?query=&category=&party=&page=1&limit=9)
 
 # Family People Search 
 
@@ -1884,7 +1885,6 @@ Search channel, username anymore
 - [Telegago](https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg#gsc.tab=0)
 - [Telegram search CSE](https://cse.google.com/cse?cx=004805129374225513871:p8lhfo0g3hg&q=)
 - [TelegramDB](http://www.telegramdb.org/)
-- [Telegram Search Engine](https://xtea.io/)
 - [Telegram Database: channels, groups and users](https://t.me/s/privatelinks)
 - [Telegram channels and groups catalog](https://tgstat.com/)
 - [Social Finder](https://socialfinder.app/list/Telegram)
@@ -1912,8 +1912,8 @@ Search channel, username anymore
 - [fragment](https://fragment.com/)
 - [combot Tele Group](https://combot.org/top/telegram/groups)
 - [telegram-store](https://telegram-store.com/)
-- [telegramdb](https://www.telegramdb.org/)
 - [tosint](https://github.com/drego85/tosint)
+- [Telegram Scammer list ACC Database](https://apk.ibnux.com/data/)
 
 # Document and Slides Search OSINT
 
@@ -3081,6 +3081,7 @@ Password Manager
 - [getcontact](https://getcontact.com/en/)
 - [SEON](https://seon.io/)
 - [snusbase](https://snusbase.com/)
+- [Telegram Scammer list ACC Database](https://apk.ibnux.com/data/)
 
 # Content Removal & Strict Media Content
 
@@ -3623,6 +3624,8 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [Dopamine](https://github.com/opa334/Dopamine) Dopamine is a semi-untethered jailbreak for iOS 15 and 16
 - [SSL bypass check](https://github.com/0xCD4/SSL-bypass) A comprehensive Frida script for bypassing root detection, SSL certificate pinning, and Frida detection mechanisms in Android applications.
 - [PSPY Linux](https://github.com/DominicBreuker/pspy) Enumeration host or monitor linux processes without root permissions
+- [MT.CN](https://mt2.cn/guide/) Android to rebuild apk and modified apk 
+- [winmerge](https://winmerge.org/) Compare android apk like rebuild or any things (like diff command)
 
 Social Engineering
 
@@ -4284,6 +4287,7 @@ Search News Journalist and Documentary Sites
 - [thebureauinvestigates](https://www.thebureauinvestigates.com/)
 - [info-res](https://www.info-res.org/)
 - [CSE News and resume search](https://cse.google.com/cse?cx=009462381166450434430%3Afrzo6adfjso&q#gsc.tab=0&gsc.q=jakarta&gsc.sort=)
+- [ID KontraS](https://kontras.org/)
 
 Social Media Analytics
 
@@ -4346,6 +4350,7 @@ Terrorism & Radical
 - [terrorist-organizations](https://www.state.gov/foreign-terrorist-organizations)
 - [Sanctions against terrorism](https://www.consilium.europa.eu/en/policies/fight-against-terrorism/sanctions-against-terrorism/#list)
 - [EU financial sanctions list](https://data.europa.eu/data/datasets/consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions?locale=en)
+- [ID Pejabat rekam jejak](https://rekamjejak.net/direktori?query=&category=&party=&page=1&limit=9)
 
 # Maltego Transform List 
 
@@ -4736,6 +4741,7 @@ This is for you searching software and searching alternative software
 - [G2](https://www.g2.com/)
 - [softwaresuggest](https://www.softwaresuggest.com/)
 - [softpedia](https://www.softpedia.com/)
+- [DAPK APK SEARCH](https://github.com/m4ll0k/BBTz/blob/master/dapk.py)
 
 # OSINT Barcode Reader 
 
