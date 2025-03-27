@@ -215,6 +215,9 @@ Be carefull using this tool use 2nd account because your account got banned
 - [NASA Fire Dataset](https://firms.modaps.eosdis.nasa.gov/)
 - [Dataset global forest watch](https://data.globalforestwatch.org/)
 - [datasets global fire data](https://www.globalfiredata.org/related.html#fireatlas)
+- [UNRWA photoshelter](https://unrwa.photoshelter.com/search)
+- [Committee to Protect Journalists Dataset](https://cpj.org/)
+- [worldbank webdocs](https://thedocs.worldbank.org/en/doc/webdocs)
 
 # Forums & Sites
 
@@ -1942,6 +1945,7 @@ Search channel, username anymore
 - [wikileaks](https://search.wikileaks.org/)
 - [pdfdrive](https://www.pdfdrive.com/search?q=password)
 - [goofile](https://www.kali.org/tools/goofile/)
+- [worldbank webdocs](https://thedocs.worldbank.org/en/doc/webdocs)
 
 # Real-Time Search, Social Media Search, and General Social Media Tools
 
@@ -2084,6 +2088,7 @@ Search channel, username anymore
 - [picsman](https://www.picsman.ai/)
 - [Face Similarity Test Online](https://facecomparison.toolpie.com/)
 - [photopea](https://www.photopea.com/)
+- [demuc](https://demuc.de/)
 
 # Stock Images
 
@@ -2369,6 +2374,7 @@ Geojson viewer
 - [osm2world](https://osm2world.org/)
 - [euspaceimaging](https://www.euspaceimaging.com/products/3d-products/)
 - [Baidu maps](https://map.baidu.com/)
+- [cesium](https://cesium.com/)
 
 Guides 
 
@@ -4218,12 +4224,13 @@ Resources and collection for your make tool OSINT
 
 Search News Journalist and Documentary Sites 
 
+- [Committee to Protect Journalists](https://cpj.org/)
+- [forensic-architecture](https://forensic-architecture.org/)
 - [ID FWI (Forest Watch Indonesia)](https://perpustakaan.fwi.or.id/)
 - [Google CSE search news](https://cse.google.com/cse?cx=013991603413798772546:fvmtax6anhd)
 - [ICW ID](https://antikorupsi.org/id)
 - [washingtonpost](https://www.washingtonpost.com/)
 - [middleeasteye](https://www.middleeasteye.net/)
-- [cpj](https://cpj.org/)
 - [europeana collection newspaper](https://www.europeana.eu/en/collections/topic/18-newspaper)
 - [BNF France](https://gallica.bnf.fr/accueil/en/content/accueil-en?mode=desktop)
 - [skynews](https://news.sky.com/)
@@ -4439,6 +4446,7 @@ Terrorism & Radical
 - [shadowbreakintl](https://www.shadowbreakintl.com/#products)
 - [globalforestwatch](https://www.globalforestwatch.org/map/)
 - [HERE MAP](https://maps.here.com/)
+- [s2maps](https://s2maps.eu/#)
 
 *Aditional Information coverage sat 
 
