@@ -169,7 +169,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [WHO Data](https://www.who.int/data/gho/)
 - [Gpt OSINT](https://github.com/gigz/gpt-osint)
 - [Humdata](https://data.humdata.org/dataset)
-- [datasetsearch](https://datasetsearch.research.google.com/)
+- [Google datasetsearch](https://datasetsearch.research.google.com/)
 - [OSINT Collection](https://start.me/p/DPYPMz/the-ultimate-osint-collection)
 - [Academic Torrent](https://academictorrents.com/)
 - [Microsoft Building Fingerprints](https://github.com/microsoft/GlobalMLBuildingFootprints)
@@ -218,6 +218,11 @@ Be carefull using this tool use 2nd account because your account got banned
 - [UNRWA photoshelter](https://unrwa.photoshelter.com/search)
 - [Committee to Protect Journalists Dataset](https://cpj.org/)
 - [worldbank webdocs](https://thedocs.worldbank.org/en/doc/webdocs)
+- [ALEPT OCCRP](https://aleph.occrp.org/)
+- [archive Machine Learning Repository](https://archive.ics.uci.edu/)
+- [data EU](https://data.europa.eu/en)
+- [Crime Data Explorer (CDE)](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads)
+- [Other Dataset Collection](https://github.com/awesomedata/awesome-public-datasets)
 
 # Forums & Sites
 
@@ -4300,6 +4305,8 @@ Search News Journalist and Documentary Sites
 - [info-res](https://www.info-res.org/)
 - [CSE News and resume search](https://cse.google.com/cse?cx=009462381166450434430%3Afrzo6adfjso&q#gsc.tab=0&gsc.q=jakarta&gsc.sort=)
 - [ID KontraS](https://kontras.org/)
+- [The New York Times](https://www.nytimes.com/)
+- [bbc](https://www.bbc.com/)
 
 Social Media Analytics
 
