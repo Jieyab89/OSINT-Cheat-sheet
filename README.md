@@ -2518,6 +2518,7 @@ Bypasses, payloads, Reconnaissance and etc
 Desktop NET debugger and assembly editor
 - [regex101](https://regex101.com/) Tips for Regex
 - [Search CTF Writeups](https://ctfsearch.hackmap.win/) Find and explore CTF solutions and writeups 35,000+ writeups
+- [ippsec - WU CTF](https://ippsec.rocks/?#) List write up CTF mostly HTB
 
 # Zero Day
 
@@ -2869,7 +2870,6 @@ Guides
 - [Ahmia](https://ahmia.fi/)
 - [TorBot](https://github.com/DedSecInside/TorBot)
 - [Darkfeed](https://darkfeed.io/)
-- [Torch](xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega?P=)
 - [Onionsearch](https://github.com/megadose/OnionSearch)
 - [Darknet Book](https://github.com/darknet-book/tor-guide)
 - [immuniweb](https://www.immuniweb.com/darkweb/)
@@ -2893,6 +2893,9 @@ Guides
 - [hunch ly](https://www.hunch.ly/darkweb-osint/)
 - [DarkWeb Archive - Active Japan lang](https://darkweb-archive.activetk.jp/)
 - [iaca-darkweb-tools](https://iaca-darkweb-tools.com/search-darkweb/)
+- [Not Evil](http://hss3uro2hsxfogfq.onion/)
+- [Visitor](http://visitorfi5kl7q7i.onion/)
+- [deepweblinks - other lists](https://deepweblinks.net/)
 
 # Darkweb Intelligence
 
@@ -3530,6 +3533,7 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [AlliN](https://github.com/P1-Team/AlliN) A flexible scanner
 - [KUNYU](https://github.com/knownsec/Kunyu) Kunyu, more efficient corporate asset collection
 - [jwt tool](https://github.com/ticarpi/jwt_tool)  A toolkit for testing, tweaking and cracking JSON Web Tokens
+- [Jawir](https://github.com/dundorma/jawir) A toolkit for testing, tweaking and cracking JSON Web Tokens
 - [jwt-secrets-list](https://github.com/wallarm/jwt-secrets/blob/master/jwt.secrets.list) possible to help developers and DevOpses identify it by traffic analysis at the Wallarm NGWAF level 
 - [aparoid](https://github.com/stefan2200/aparoid) Static and dynamic Android application security analysis
 - [sploitus](https://sploitus.com/) Awesome exploit list like Exploit DB
@@ -3626,6 +3630,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [PSPY Linux](https://github.com/DominicBreuker/pspy) Enumeration host or monitor linux processes without root permissions
 - [MT.CN](https://mt2.cn/guide/) Android to rebuild apk and modified apk 
 - [winmerge](https://winmerge.org/) Compare android apk like rebuild or any things (like diff command)
+- [GhidraMCP](https://github.com/LaurieWired/GhidraMCP) ghidraMCP is an Model Context Protocol server for allowing LLMs to autonomously reverse engineer applications. It exposes numerous tools from core Ghidra functionality to MCP clients
 
 Social Engineering
 
