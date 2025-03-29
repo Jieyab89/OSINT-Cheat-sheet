@@ -2,8 +2,6 @@
 
 # USAGE 
 
-*Search is case sensitive 
-
 ## Update Items 
 
 Please run the python script on folder gen node 

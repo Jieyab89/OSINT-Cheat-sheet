@@ -1,6 +1,6 @@
 [
     {
-        "category": "OSINT CHEAT SHEET - List OSINT Tools",
+        "category": "OSINT CHEAT SHEET - List OSINT Tools [![Github Badge](https://img.shields.io/badge/-Jieyab89-black?style=flat&logo=github&logoColor=white&link=https://github.com/Jieyab89/)](https://github.com/Jieyab89)",
         "items": []
     },
     {
@@ -163,6 +163,10 @@
             {
                 "name": "CSE Search comment",
                 "url": "https://cse.google.com/cse?cx=006368593537057042503:ig4r3rz35qi#gsc.tab=0"
+            },
+            {
+                "name": "voilanorbert",
+                "url": "https://www.voilanorbert.com/"
             }
         ]
     },
@@ -5772,6 +5776,10 @@
             {
                 "name": "darkradar",
                 "url": "https://www.darkradar.io/mail-breach"
+            },
+            {
+                "name": "voilanorbert",
+                "url": "https://www.voilanorbert.com/"
             }
         ]
     },
@@ -8835,6 +8843,10 @@
             {
                 "name": "ipification API",
                 "url": "https://www.ipification.com/"
+            },
+            {
+                "name": "rayhunter",
+                "url": "https://github.com/EFForg/rayhunter"
             }
         ]
     },
@@ -11785,6 +11797,10 @@
             {
                 "name": "browser-use",
                 "url": "https://github.com/browser-use/browser-use"
+            },
+            {
+                "name": "interviewcoder",
+                "url": "https://www.interviewcoder.co/"
             }
         ]
     },
@@ -12418,6 +12434,10 @@
             {
                 "name": "caido",
                 "url": "https://caido.io/"
+            },
+            {
+                "name": "MobileApp-Pentest-Cheatsheet",
+                "url": "https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet"
             },
             {
                 "name": "social engineering",
