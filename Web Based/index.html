@@ -51,7 +51,7 @@
     <script>
         let allNodes = [], allLinks = [];
 
-        fetch()
+        fetch('osint_data.json')
             .then(response => response.json())
             .then(data => {
                 allNodes = [];
