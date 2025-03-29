@@ -1,8 +1,6 @@
-# OSINT CHEAT SHEET - List OSINT Tools
+# OSINT CHEAT SHEET - List OSINT Tools [![Github Badge](https://img.shields.io/badge/-Jieyab89-black?style=flat&logo=github&logoColor=white&link=https://github.com/Jieyab89/)](https://github.com/Jieyab89)
 
 ![image](https://github.com/user-attachments/assets/37d7d761-c1f3-40f5-9ecd-d79457ee8a6e)
-
-[![Github Badge](https://img.shields.io/badge/-Jieyab89-black?style=flat&logo=github&logoColor=white&link=https://github.com/Jieyab89/)](https://github.com/Jieyab89)
 
 Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and others. There are free and paid tools you can use and owner is not responsible (take your own risks), only for knowledge or educational purposes. Apologies if some of the resources are no longer available or contain errors, as the owner does not regularly check the status of these resources, If there is new information, the owner will add it to this repo along with the category. If you want to read about techniques and intelligence some have already been added to the Wiki page [Jieyaboo Wiki](https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki) The owner will add them back. If there are any errors let us know thank you.
 
@@ -160,6 +158,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [CSE SOCMINT INSTA](https://cse.google.com/cse?cx=d69e08526637c468d#gsc.tab=0&gsc.sort=)
 - [CSE SOCMINT tools search](https://cse.google.com/cse?cx=029ffbc44aa3946cb#gsc.tab=0&gsc.sort=&gsc.ref=more%3Afb)
 - [CSE Search comment](https://cse.google.com/cse?cx=006368593537057042503:ig4r3rz35qi#gsc.tab=0)
+- [voilanorbert](https://www.voilanorbert.com/)
 
 # Collection Dataset
 
@@ -1792,6 +1791,7 @@ Google queries for MySpace
 - [lullar like a dork](https://com.lullar.com/)
 - [clatscope](https://github.com/clats97/clatscope)
 - [darkradar](https://www.darkradar.io/mail-breach)
+- [voilanorbert](https://www.voilanorbert.com/)
 
 # PGP or GPG Keybase 
 
@@ -2657,6 +2657,7 @@ Transaction Analysis
 - [osmocom](https://osmocom.org/projects/baseband)
 - [DTMF Decoder](https://dtmf.netlify.app/)
 - [ipification API](https://www.ipification.com/)
+- [rayhunter](https://github.com/EFForg/rayhunter)
 
 Pro Tips 
 
@@ -3486,6 +3487,7 @@ Public Transport
 - [UBIKRON](https://www.osint-tool.com/unravel-help/)
 - [earthkit](https://agent.earthkit.app/)
 - [browser-use](https://github.com/browser-use/browser-use)
+- [interviewcoder](https://www.interviewcoder.co/)
 
 # OSINT for Red Team 
 
@@ -3649,8 +3651,9 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [burpscan](https://github.com/sherlock-ohm/burpscan) Automate unauthenticated web application security testing with Burp Suite
 - [nowafpls](https://github.com/assetnote/nowafpls) Burp Plugin to Bypass WAFs through the insertion of Junk Data
 - [caido](https://caido.io/) Security testing tools intercepting request like burp
- 
-Social Engineering
+- [MobileApp-Pentest-Cheatsheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet) mapped OWASP Mobile Risk Top 10 for conducting pentest.
+
+Social Engineering (Social E)
 
 - [social engineering](https://www.social-engineer.org/)
 - [emkei](https://emkei.cz/)
