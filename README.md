@@ -224,6 +224,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [data EU](https://data.europa.eu/en)
 - [Crime Data Explorer (CDE)](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads)
 - [Other Dataset Collection](https://github.com/awesomedata/awesome-public-datasets)
+- [unwiredlabs](https://unwiredlabs.com/products)
 
 # Forums & Sites
 
@@ -1003,7 +1004,7 @@ Example
 
 # Crack Jurnals
 
-- [SCI HUB](https://sci-hub.hkvisa.net/) This domain will always change, check the mirror [Mirror](https://www.sci-hub.se/mirrors) 
+- [SCI HUB](https://sci-hub.hkvisa.net/) This domain will always change, check the mirror [SCI HUB Mirror](https://www.sci-hub.se/mirrors) 
 - [Z-Library](https://id.zlibrary-asia.se/s/?q=&type=phrase)
 - [DOAJ (Directory of Open Access Journals)](https://doaj.org/)
 - [LibGen (Library Genesis)](https://libgen.li/)
@@ -1177,7 +1178,7 @@ Example
 - [bandcamp](https://bandcamp.com/)
 - [Sherlock Eye](https://sherlockeye.io/)
 - [NIK PARSE ID](https://github.com/bachors/nik_parse.js?tab=readme-ov-file#nik_parsejs)
-- [iD PENCARIAN DATA PM (PENERIMA MANFAAT) BANSOS](https://cekbansos.kemensos.go.id/)
+- [ID PENCARIAN DATA PM (PENERIMA MANFAAT) BANSOS](https://cekbansos.kemensos.go.id/)
 - [Maltego Social Links Pro](https://www.maltego.com/transform-hub/social-links-pro/)
 - [fastpeoplesearch](https://www.fastpeoplesearch.com/)
 - [fastpeoplesearch.info](https://fastpeoplesearch.info/)
@@ -2100,6 +2101,7 @@ Search channel, username anymore
 
 # Stock Images
 
+- [UNRWA photoshelter](https://unrwa.photoshelter.com/search)
 - [Flickr](https://secure.flickr.com)
 - [pexels](https://www.pexels.com/)
 - [AlltheFreeStock](http://allthefreestock.com)
@@ -3908,6 +3910,9 @@ If cannot connected with target check the port and the software version, you can
 - [proxychains](https://www.kali.org/tools/proxychains-ng/)
 - [Chisel](https://github.com/jpillora/chisel/releases/tag/v1.9.1)
 - [Ligolo-NG](https://github.com/nicocha30/ligolo-ng)
+- [NGROK](https://swisskyrepo.github.io/InternalAllTheThings/redteam/pivoting/network-pivoting-techniques/#ngrok)
+- [pivotnacci](https://github.com/blackarrowsec/pivotnacci)
+- [SSH Pivoting](https://cyberkhalid.github.io/posts/ssh-pivot/)
 
 # Audio OSINT 
 
@@ -4088,6 +4093,7 @@ Tactical learn and some firearms knowledge
 - [ID LycmaMilTech](https://www.youtube.com/@LycmaMilTech)
 - [GarandThumb](https://www.youtube.com/@GarandThumb)
 - [wiki firearm brands](https://en.wikipedia.org/wiki/List_of_firearm_brands)
+- [Armament Research Services (ARES)](https://rss.com/podcasts/bellingcatstagetalk/1945244/)
 
 # OSINT Shadow Analysis 
 
@@ -4280,7 +4286,7 @@ Search News Journalist and Documentary Sites
 - [archives](https://www.archives.gov/)
 - [Arsip Indonesia](https://arsip-indonesia.org/id/)
 - [Worldcat](https://search.worldcat.org/)
-- [MPN SIDAK kominfo](https://mpn.kominfo.go.id/arsip/)
+- [ID MPN SIDAK kominfo](https://mpn.kominfo.go.id/arsip/)
 - [monash edu](https://repository.monash.edu/items/browse)
 - [digitalcollections](https://digitalcollections.universiteitleiden.nl/)
 - [scholarlypublications](https://scholarlypublications.universiteitleiden.nl/)
@@ -4531,7 +4537,7 @@ Ex Guides:
 - [Omkar](https://www.omkar.cloud/tools/) List site for scrapper 
 - [torpy](https://github.com/torpyorg/torpy) Python Tor client implementation of the Tor protocol. Torpy can be used to communicate with clearnet hosts or hidden services through the Tor Network
 - [DARC](https://github.com/JarryShaw/darc) Darkweb Crawler Project
-- [browser-use](https://github.com/browser-use/browser-use)
+- [browser-use](https://github.com/browser-use/browser-use) A cool web browser for scarpping, automated mapping each element on web page
 
 # OSINT IRC Chat
 
@@ -4551,7 +4557,7 @@ You can use for study academic literature, search book, people name, old archive
 - [archives](https://www.archives.gov/)
 - [Arsip Indonesia](https://arsip-indonesia.org/id/)
 - [Worldcat](https://search.worldcat.org/)
-- [MPN SIDAK Kominfo](https://mpn.kominfo.go.id/arsip/)
+- [ID MPN SIDAK Kominfo](https://mpn.kominfo.go.id/arsip/)
 - [geheugen delpher](https://geheugen.delpher.nl/nl)
 - [Old maps online](https://www.oldmapsonline.org/en/)
 - [Delpher](https://www.delpher.nl/)
@@ -4564,6 +4570,10 @@ You can use for study academic literature, search book, people name, old archive
 - [LOC Library of Congress collects](https://www.loc.gov/programs/veterans-history-project/about-this-program/)
 - [europeana collection newspaper](https://www.europeana.eu/en/collections/topic/18-newspaper)
 - [BNF France](https://gallica.bnf.fr/accueil/en/content/accueil-en?mode=desktop)
+- [Myheritage](https://www.myheritage.com/)
+- [FamilySearch](https://www.familysearch.org/id/indonesia/)
+- [geneanet](https://en.geneanet.org/)
+- [CSE Google Search](https://cse.google.com/cse?cx=partner-pub-7233843800519946:6667570044&ie=UTF-8&q=)
 
 # OSINT Art Collection
 
@@ -4607,9 +4617,9 @@ You can use for study academic literature, search book, people name, old archive
 - [cqcore UK](https://www.cqcore.uk/) Find OSINT, OPSEC, Obfuscation, Privacy, Infosec & Digital Exposure Profiling educational material, with useful News, Blogs, Top Tips
 - [Crypto OpSec SelfGuard RoadMap](https://github.com/OffcierCia/Crypto-OpSec-SelfGuard-RoadMap) Here we collect and discuss the best DeFi, Blockchain and crypto-related OpSec researches and data terminals - contributions are welcome.
 - [Blockchain-dark-forest-selfguard-handbook](https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook/blob/main/README_ID.md) Blockchain dark forest selfguard handbook. Master these, master the security of your cryptocurrency
-- [Docker](https://www.docker.com/) Buold your docker image or virtual host 
-- [vmware](https://www.vmware.com/)
-- [virtualbox](https://www.virtualbox.org/)
+- [Docker](https://www.docker.com/) Build your docker image or virtual host 
+- [vmware](https://www.vmware.com/) Create your Virutal Machine or fake host. You can also make automated OS like scheduler to run service within anonymous network and etc for OPSEC 
+- [virtualbox](https://www.virtualbox.org/) Create your Virutal Machine or fake host. You can also make automated OS like scheduler to run service within anonymous network and etc for OPSEC 
 
 # OSINT Journalism Project
 
