@@ -73,3 +73,7 @@ Red Team - Python Scripts
 or you can also create new folder on this script path 
 
 *Notes for script: To avoid AV detection and abusive access to your computer, you can publish your scripts via pastebin, hastebin, dogbin or others. Please dont add malicious script on this repo folder  
+
+# WEB BASED
+
+If you have any ideas to make it better for UI and UX and functional are welcome, please run python script for update node data 

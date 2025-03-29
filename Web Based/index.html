@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jieyab89 OSINT Cheat Sheet</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #search {
+            margin: 5px;
+            padding: 8px;
+            width: 85%;
+            max-width: 400px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+        }
+        svg {
+            width: 100vw;
+            height: 100vh;
+        }
+        .node circle {
+            stroke: #ffffff;
+            stroke-width: 2px;
+            cursor: pointer;
+        }
+        .link {
+            stroke: #888;
+            stroke-width: 1.5px;
+        }
+        text {
+            font-size: 12px;
+            fill: #ffffff;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jieyab89 OSINT Cheat Sheet</h1>
+    <input type="text" id="search" placeholder="Search by Category Name">
+    <svg></svg>
+    <script>
+        let allNodes = [], allLinks = [];
+
+        fetch()
+            .then(response => response.json())
+            .then(data => {
+                allNodes = [];
+                allLinks = [];
+                const nodeMap = new Map();
+
+                data.forEach(category => {
+                    let catNode = { id: category.category, type: 'category' };
+                    allNodes.push(catNode);
+                    nodeMap.set(category.category, catNode);
+
+                    category.items.forEach(item => {
+                        let toolNode = { id: item.name, url: item.url, type: 'tool' };
+                        allNodes.push(toolNode);
+                        allLinks.push({ source: category.category, target: item.name });
+                        nodeMap.set(item.name, toolNode);
+                    });
+                });
+                updateGraph(allNodes, allLinks);
+            })
+            .catch(error => console.error("Error loading JSON:", error));
+
+        function updateGraph(nodes, links) {
+            d3.select("svg").selectAll("*").remove();
+
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+
+            const svg = d3.select("svg")
+                .attr("width", width)
+                .attr("height", height)
+                .call(d3.zoom().on("zoom", (event) => {
+                    svgGroup.attr("transform", event.transform);
+                }));
+
+            let svgGroup = svg.append("g");
+
+            const simulation = d3.forceSimulation(nodes)
+                .force("link", d3.forceLink(links).id(d => d.id).distance(150))
+                .force("charge", d3.forceManyBody().strength(-300))
+                .force("center", d3.forceCenter(width / 2, height / 2))
+                .force("collision", d3.forceCollide().radius(40));
+
+            const link = svgGroup.append("g")
+                .selectAll("line")
+                .data(links)
+                .enter().append("line")
+                .attr("class", "link");
+
+            const node = svgGroup.append("g")
+                .selectAll("g")
+                .data(nodes)
+                .enter().append("g");
+
+            node.append("circle")
+                .attr("r", d => d.type === 'category' ? 12 : 8)
+                .attr("fill", d => d.type === 'category' ? "#FF5733" : "#1E90FF")
+                .call(d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    .on("end", dragended));
+
+            node.append("text")
+                .attr("dy", -15)
+                .attr("text-anchor", "middle")
+                .text(d => d.id);
+
+            node.on("click", (event, d) => {
+                if (d.url) {
+                    window.open(d.url, "_blank");
+                }
+            });
+
+            simulation.on("tick", () => {
+                link
+                    .attr("x1", d => d.source.x)
+                    .attr("y1", d => d.source.y)
+                    .attr("x2", d => d.target.x)
+                    .attr("y2", d => d.target.y);
+
+                node
+                    .attr("transform", d => `translate(${d.x},${d.y})`);
+            });
+        }
+
+        document.getElementById("search").addEventListener("input", function() {
+            const searchTerm = this.value.toLowerCase();
+            if (searchTerm === "") {
+                updateGraph(allNodes, allLinks);
+                return;
+            }
+
+            const filteredNodes = [];
+            const filteredLinks = [];
+
+            allNodes.forEach(node => {
+                if (node.type === 'category' && node.id.toLowerCase().includes(searchTerm)) {
+                    filteredNodes.push(node);
+                    allLinks.forEach(link => {
+                        if (link.source.id === node.id) {
+                            filteredNodes.push(link.target);
+                            filteredLinks.push(link);
+                        }
+                    });
+                }
+            });
+
+            updateGraph(filteredNodes, filteredLinks);
+        });
+
+        function dragstarted(event, d) {
+            if (!event.active) event.sourceEvent.stopPropagation();
+            d.fx = d.x;
+            d.fy = d.y;
+        }
+
+        function dragged(event, d) {
+            d.fx = event.x;
+            d.fy = event.y;
+        }
+
+        function dragended(event, d) {
+            d.fx = null;
+            d.fy = null;
+        }
+    </script>
+</body>
+</html>
