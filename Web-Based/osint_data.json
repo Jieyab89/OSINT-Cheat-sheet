@@ -420,6 +420,10 @@
             {
                 "name": "Other Dataset Collection",
                 "url": "https://github.com/awesomedata/awesome-public-datasets"
+            },
+            {
+                "name": "unwiredlabs",
+                "url": "https://unwiredlabs.com/products"
             }
         ]
     },
@@ -3826,7 +3830,7 @@
                 "url": "https://github.com/bachors/nik_parse.js?tab=readme-ov-file#nik_parsejs"
             },
             {
-                "name": "iD PENCARIAN DATA PM (PENERIMA MANFAAT) BANSOS",
+                "name": "ID PENCARIAN DATA PM (PENERIMA MANFAAT) BANSOS",
                 "url": "https://cekbansos.kemensos.go.id/"
             },
             {
@@ -6918,6 +6922,10 @@
     {
         "category": "Stock Images",
         "items": [
+            {
+                "name": "UNRWA photoshelter",
+                "url": "https://unrwa.photoshelter.com/search"
+            },
             {
                 "name": "Flickr",
                 "url": "https://secure.flickr.com"
@@ -13138,6 +13146,18 @@
             {
                 "name": "Ligolo-NG",
                 "url": "https://github.com/nicocha30/ligolo-ng"
+            },
+            {
+                "name": "NGROK",
+                "url": "https://swisskyrepo.github.io/InternalAllTheThings/redteam/pivoting/network-pivoting-techniques/#ngrok"
+            },
+            {
+                "name": "pivotnacci",
+                "url": "https://github.com/blackarrowsec/pivotnacci"
+            },
+            {
+                "name": "SSH Pivoting",
+                "url": "https://cyberkhalid.github.io/posts/ssh-pivot/"
             }
         ]
     },
@@ -13778,6 +13798,10 @@
             {
                 "name": "wiki firearm brands",
                 "url": "https://en.wikipedia.org/wiki/List_of_firearm_brands"
+            },
+            {
+                "name": "Armament Research Services (ARES)",
+                "url": "https://rss.com/podcasts/bellingcatstagetalk/1945244/"
             }
         ]
     },
@@ -14450,7 +14474,7 @@
                 "url": "https://search.worldcat.org/"
             },
             {
-                "name": "MPN SIDAK kominfo",
+                "name": "ID MPN SIDAK kominfo",
                 "url": "https://mpn.kominfo.go.id/arsip/"
             },
             {
@@ -15274,7 +15298,7 @@
                 "url": "https://search.worldcat.org/"
             },
             {
-                "name": "MPN SIDAK Kominfo",
+                "name": "ID MPN SIDAK Kominfo",
                 "url": "https://mpn.kominfo.go.id/arsip/"
             },
             {
@@ -15324,6 +15348,22 @@
             {
                 "name": "BNF France",
                 "url": "https://gallica.bnf.fr/accueil/en/content/accueil-en?mode=desktop"
+            },
+            {
+                "name": "Myheritage",
+                "url": "https://www.myheritage.com/"
+            },
+            {
+                "name": "FamilySearch",
+                "url": "https://www.familysearch.org/id/indonesia/"
+            },
+            {
+                "name": "geneanet",
+                "url": "https://en.geneanet.org/"
+            },
+            {
+                "name": "CSE Google Search",
+                "url": "https://cse.google.com/cse?cx=partner-pub-7233843800519946:6667570044&ie=UTF-8&q="
             }
         ]
     },
