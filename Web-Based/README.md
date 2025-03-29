@@ -1,4 +1,8 @@
+![image](https://github.com/user-attachments/assets/37d7d761-c1f3-40f5-9ecd-d79457ee8a6e)
+
 # USAGE 
+
+*Search is case sensitive 
 
 ## Update Items 
 
