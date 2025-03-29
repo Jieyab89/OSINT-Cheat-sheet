@@ -925,6 +925,7 @@ Example
 - [stract](https://stract.com/)
 - [Google Safe Browsing](https://developers.google.com/safe-browsing/reference?hl=id)
 - [qwant](https://www.qwant.com)
+- [alltheinternet](https://www.alltheinternet.com/)
 
 # Internet Archive
 
@@ -2653,6 +2654,7 @@ Transaction Analysis
 - [opensignal](https://www.opensignal.com/)
 - [osmocom](https://osmocom.org/projects/baseband)
 - [DTMF Decoder](https://dtmf.netlify.app/)
+- [ipification API](https://www.ipification.com/)
 
 Pro Tips 
 
@@ -3642,7 +3644,10 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [MT.CN](https://mt2.cn/guide/) Android to rebuild apk and modified apk 
 - [winmerge](https://winmerge.org/) Compare android apk like rebuild or any things (like diff command)
 - [GhidraMCP](https://github.com/LaurieWired/GhidraMCP) ghidraMCP is an Model Context Protocol server for allowing LLMs to autonomously reverse engineer applications. It exposes numerous tools from core Ghidra functionality to MCP clients
-
+- [burpscan](https://github.com/sherlock-ohm/burpscan) Automate unauthenticated web application security testing with Burp Suite
+- [nowafpls](https://github.com/assetnote/nowafpls) Burp Plugin to Bypass WAFs through the insertion of Junk Data
+- [caido](https://caido.io/) Security testing tools intercepting request like burp
+ 
 Social Engineering
 
 - [social engineering](https://www.social-engineer.org/)
@@ -4306,7 +4311,8 @@ Search News Journalist and Documentary Sites
 - [CSE News and resume search](https://cse.google.com/cse?cx=009462381166450434430%3Afrzo6adfjso&q#gsc.tab=0&gsc.q=jakarta&gsc.sort=)
 - [ID KontraS](https://kontras.org/)
 - [The New York Times](https://www.nytimes.com/)
-- [bbc](https://www.bbc.com/)
+- [BBC](https://www.bbc.com/)
+- [ID Metro TV](https://www.metrotvnews.com/)
 
 Social Media Analytics
 
