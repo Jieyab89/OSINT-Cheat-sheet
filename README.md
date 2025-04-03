@@ -860,7 +860,8 @@ Dorking is a wonderful thing, you can use this technique to search for anything 
 
 Example
 
-[Dorking list](Script/Google-Dork/README.md)
+- [Dorking list](Script/Google-Dork/README.md)
+- [Dorking list 2](https://github.com/yogsec/One-Liner-OSINT)
 
 # Dorking Other Search Engine 
 
@@ -874,7 +875,7 @@ Example
 
 Example 
 
-[Bash Dorking Script](Script/Google-Dork/README.md)
+- [Bash Dorking Script](Script/Google-Dork/README.md)
 
 # Google Advanced Search Tools
 
@@ -2965,6 +2966,7 @@ Guides
 - [onionlandsearchengine](https://onionlandsearchengine.net/)
 - [tor link](https://tor.link/)
 - [iaca-darkweb-tools](https://iaca-darkweb-tools.com/search-darkweb/)
+- [Dakint](https://start.me/p/Nx0e6O/darkint)
 
 # Digital Forensics
 
@@ -3047,6 +3049,7 @@ You can analysis of hash, header, signature, evtx, ip, byte, file format, memory
 - [Yoga](https://github.com/WebBreacher/yoga)
 - [storymap js](https://storymap.knightlab.com/)
 - [Malteo CaseFile](https://docs.maltego.com/support/solutions/articles/15000018948-what-is-maltego-casefile-)
+- [osintracker](https://www.osintracker.com/)
 
 # Securing Your Privacy
 
@@ -4189,6 +4192,7 @@ Resources and collection for your make tool OSINT
 - [QGIS](https://www.qgis.org/)
 - [Flowchart maker](https://app.diagrams.net/)
 - [osintracker](https://app.osintracker.com/)
+- [babylonjs web 3D maker](https://www.babylonjs.com/)
 
 # Emoji Investigation
 
@@ -4324,6 +4328,8 @@ Search News Journalist and Documentary Sites
 - [The New York Times](https://www.nytimes.com/)
 - [BBC](https://www.bbc.com/)
 - [ID Metro TV](https://www.metrotvnews.com/)
+- [ID Komdigi MPN Library](https://mpn.komdigi.go.id/perpus/index.php)
+- [ID Komdigi MPN](https://mpn.komdigi.go.id/arsip/)
 
 Social Media Analytics
 
@@ -4558,6 +4564,8 @@ You can use for study academic literature, search book, people name, old archive
 - [Arsip Indonesia](https://arsip-indonesia.org/id/)
 - [Worldcat](https://search.worldcat.org/)
 - [ID MPN SIDAK Kominfo](https://mpn.kominfo.go.id/arsip/)
+- [ID Komdigi MPN Library](https://mpn.komdigi.go.id/perpus/index.php)
+- [ID Komdigi MPN](https://mpn.komdigi.go.id/arsip/)
 - [geheugen delpher](https://geheugen.delpher.nl/nl)
 - [Old maps online](https://www.oldmapsonline.org/en/)
 - [Delpher](https://www.delpher.nl/)
