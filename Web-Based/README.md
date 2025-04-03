@@ -2,6 +2,12 @@
 
 # USAGE 
 
+Install the package from script 
+
+```
+pip install -r requirements.txt
+```
+
 ## Update Items 
 
 Please run the python script on folder gen node 
