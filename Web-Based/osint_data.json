@@ -2666,7 +2666,16 @@
     },
     {
         "category": "Dorking",
-        "items": []
+        "items": [
+            {
+                "name": "Dorking list",
+                "url": "Script/Google-Dork/README.md"
+            },
+            {
+                "name": "Dorking list 2",
+                "url": "https://github.com/yogsec/One-Liner-OSINT"
+            }
+        ]
     },
     {
         "category": "Dorking Other Search Engine",
@@ -2695,7 +2704,12 @@
     },
     {
         "category": "Bash Dorking Script",
-        "items": []
+        "items": [
+            {
+                "name": "Bash Dorking Script",
+                "url": "Script/Google-Dork/README.md"
+            }
+        ]
     },
     {
         "category": "Google Advanced Search Tools",
@@ -9887,6 +9901,10 @@
             {
                 "name": "iaca-darkweb-tools",
                 "url": "https://iaca-darkweb-tools.com/search-darkweb/"
+            },
+            {
+                "name": "Dakint",
+                "url": "https://start.me/p/Nx0e6O/darkint"
             }
         ]
     },
@@ -10185,6 +10203,10 @@
             {
                 "name": "Malteo CaseFile",
                 "url": "https://docs.maltego.com/support/solutions/articles/15000018948-what-is-maltego-casefile-"
+            },
+            {
+                "name": "osintracker",
+                "url": "https://www.osintracker.com/"
             }
         ]
     },
@@ -14113,6 +14135,10 @@
             {
                 "name": "osintracker",
                 "url": "https://app.osintracker.com/"
+            },
+            {
+                "name": "babylonjs web 3D maker",
+                "url": "https://www.babylonjs.com/"
             }
         ]
     },
@@ -14624,6 +14650,14 @@
             {
                 "name": "ID Metro TV",
                 "url": "https://www.metrotvnews.com/"
+            },
+            {
+                "name": "ID Komdigi MPN Library",
+                "url": "https://mpn.komdigi.go.id/perpus/index.php"
+            },
+            {
+                "name": "ID Komdigi MPN",
+                "url": "https://mpn.komdigi.go.id/arsip/"
             }
         ]
     },
@@ -15364,6 +15398,14 @@
             {
                 "name": "CSE Google Search",
                 "url": "https://cse.google.com/cse?cx=partner-pub-7233843800519946:6667570044&ie=UTF-8&q="
+            },
+            {
+                "name": "ID Komdigi MPN Library",
+                "url": "https://mpn.komdigi.go.id/perpus/index.php"
+            },
+            {
+                "name": "ID Komdigi MPN",
+                "url": "https://mpn.komdigi.go.id/arsip/"
             }
         ]
     },
