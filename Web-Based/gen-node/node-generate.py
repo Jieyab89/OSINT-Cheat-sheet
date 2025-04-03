@@ -2,10 +2,13 @@ import requests
 import json
 import os
 
-url = "https://raw.githubusercontent.com/Jieyab89/OSINT-Cheat-sheet/refs/heads/main/README.md"
-# URL (add another soon)
+# Arr URL'S
+urls = [
+    "https://raw.githubusercontent.com/Jieyab89/OSINT-Cheat-sheet/refs/heads/main/README.md",
+    "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki"
+]
 
-response = requests.get(url)
+response = requests.get(urls[0])
 data = response.text
 
 json_file = os.path.join(os.pardir, "osint_data.json")
@@ -39,6 +42,22 @@ for line in data.split("\n"):
         if current_category:
             new_categories[current_category]["items"].append({"name": name, "url": link})
 
+wiki_category = "Jieyab89 Wiki Pages"
+wiki_items = []
+
+wiki_response = requests.get(urls[1])
+if wiki_response.status_code == 200:
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(wiki_response.text, "html.parser")
+    
+    for link in soup.select(".wiki-pages-box a"):  
+        title = link.text.strip()
+        page_url = "https://github.com" + link["href"]
+        wiki_items.append({"name": title, "url": page_url})
+
+if wiki_items:
+    new_categories[wiki_category] = {"category": wiki_category, "items": wiki_items}
+
 for category, new_data in new_categories.items():
     if category in existing_categories:
         existing_items = {item["name"] for item in existing_categories[category]["items"]}
@@ -51,4 +70,4 @@ for category, new_data in new_categories.items():
 with open(json_file, "w", encoding="utf-8") as f:
     json.dump(list(existing_categories.values()), f, indent=4, ensure_ascii=False)
 
-print(f"Data updated: {json_file}")
+print(f"[+] Data updated: {json_file}")
