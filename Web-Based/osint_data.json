@@ -1353,6 +1353,10 @@
             {
                 "name": "netlas.io",
                 "url": "https://app.netlas.io/host/"
+            },
+            {
+                "name": "godaddy",
+                "url": "https://www.godaddy.com/en"
             }
         ]
     },
@@ -6270,6 +6274,14 @@
             {
                 "name": "Telegram Scammer list ACC Database",
                 "url": "https://apk.ibnux.com/data/"
+            },
+            {
+                "name": "matkap hunt down malicious Telegram bots",
+                "url": "https://github.com/0x6rss/matkap"
+            },
+            {
+                "name": "matkap hunt down malicious Telegram bots  web based",
+                "url": "https://matkap.cti.monster/"
             }
         ]
     },
@@ -8220,6 +8232,10 @@
             {
                 "name": "subdomainfinder search history subdomain",
                 "url": "https://subdomainfinder.c99.nl/"
+            },
+            {
+                "name": "godaddy",
+                "url": "https://www.godaddy.com/en"
             }
         ]
     },
@@ -9015,6 +9031,10 @@
             {
                 "name": "Bellingcat Telegram Joiner",
                 "url": "https://bellingcat.github.io/telegram-group-joiner/"
+            },
+            {
+                "name": "matkap hunt down malicious Telegram bots  web based",
+                "url": "https://matkap.cti.monster/"
             }
         ]
     },
@@ -13180,6 +13200,10 @@
             {
                 "name": "SSH Pivoting",
                 "url": "https://cyberkhalid.github.io/posts/ssh-pivot/"
+            },
+            {
+                "name": "BloodHound MCP based",
+                "url": "https://github.com/stevenyu113228/BloodHound-MCP/tree/main"
             }
         ]
     },
@@ -14139,6 +14163,10 @@
             {
                 "name": "babylonjs web 3D maker",
                 "url": "https://www.babylonjs.com/"
+            },
+            {
+                "name": "animejs",
+                "url": "https://animejs.com/"
             }
         ]
     },
@@ -14658,6 +14686,10 @@
             {
                 "name": "ID Komdigi MPN",
                 "url": "https://mpn.komdigi.go.id/arsip/"
+            },
+            {
+                "name": "forbiddenstories",
+                "url": "https://forbiddenstories.org/en-fadi-al-wahidi-shot-press-gaza/"
             }
         ]
     },
