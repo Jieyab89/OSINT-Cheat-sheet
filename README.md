@@ -477,6 +477,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [waybackpack download wayback archive url](https://github.com/jsvine/waybackpack)
 - [urlvoid](https://www.urlvoid.com/)
 - [netlas.io](https://app.netlas.io/host/)
+- [godaddy](https://www.godaddy.com/en)
 
 *Tips web cache 
 
@@ -1892,7 +1893,7 @@ Google queries for MySpace
 
 # Telegram Tool
 
-Search channel, username anymore
+Search channel, username, bot and anymore
 
 - [Maltego Telegram](https://github.com/vognik/maltego-telegram)
 - [Telegago](https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg#gsc.tab=0)
@@ -1927,6 +1928,8 @@ Search channel, username anymore
 - [telegram-store](https://telegram-store.com/)
 - [tosint](https://github.com/drego85/tosint)
 - [Telegram Scammer list ACC Database](https://apk.ibnux.com/data/)
+- [matkap hunt down malicious Telegram bots](https://github.com/0x6rss/matkap)
+- [matkap hunt down malicious Telegram bots  web based](https://matkap.cti.monster/)
 
 # Document and Slides Search OSINT
 
@@ -2447,6 +2450,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [securitytrails](https://securitytrails.com/)
 - [SSL Scan](https://www.kali.org/tools/sslscan/)
 - [subdomainfinder search history subdomain](https://subdomainfinder.c99.nl/)
+- [godaddy](https://www.godaddy.com/en)
 
 # CTF Analysis & Exploit
 
@@ -2710,6 +2714,7 @@ Telegram
 - [Teletehon](https://docs.telethon.dev/en/stable/basic/installation.html)
 - [Telegram Search CSE](https://cse.google.com/cse?cx=004805129374225513871:p8lhfo0g3hg&q=)
 - [Bellingcat Telegram Joiner](https://bellingcat.github.io/telegram-group-joiner/)
+- [matkap hunt down malicious Telegram bots  web based](https://matkap.cti.monster/)
 
 # Build Sockpuppet Accounts
 
@@ -3689,6 +3694,7 @@ Active Directory
 - [SharpHostInfo](https://github.com/shmilylty/SharpHostInfo)
 - [lolad project](https://lolad-project.github.io/)
 - [Ninja C2](https://github.com/ahmedkhlief/Ninja)
+- [BloodHound MCP based](https://github.com/stevenyu113228/BloodHound-MCP/tree/main)
 
 Webshell Bypass
 
@@ -4193,6 +4199,7 @@ Resources and collection for your make tool OSINT
 - [Flowchart maker](https://app.diagrams.net/)
 - [osintracker](https://app.osintracker.com/)
 - [babylonjs web 3D maker](https://www.babylonjs.com/)
+- [animejs](https://animejs.com/)
 
 # Emoji Investigation
 
@@ -4330,6 +4337,7 @@ Search News Journalist and Documentary Sites
 - [ID Metro TV](https://www.metrotvnews.com/)
 - [ID Komdigi MPN Library](https://mpn.komdigi.go.id/perpus/index.php)
 - [ID Komdigi MPN](https://mpn.komdigi.go.id/arsip/)
+- [forbiddenstories](https://forbiddenstories.org/en-fadi-al-wahidi-shot-press-gaza/)
 
 Social Media Analytics
 
