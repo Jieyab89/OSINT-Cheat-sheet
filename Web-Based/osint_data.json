@@ -1510,6 +1510,10 @@
             {
                 "name": "Google Safe Browsing",
                 "url": "https://developers.google.com/safe-browsing?hl=id"
+            },
+            {
+                "name": "Virus Exchange",
+                "url": "https://virus.exchange/"
             }
         ]
     },
@@ -1931,6 +1935,14 @@
             {
                 "name": "Intel471",
                 "url": "https://intel471.com/"
+            },
+            {
+                "name": "Virus Exchange",
+                "url": "https://virus.exchange/"
+            },
+            {
+                "name": "Malware Sample and IOC",
+                "url": "https://github.com/rivitna/Malware"
             }
         ]
     },
@@ -2523,6 +2535,14 @@
             {
                 "name": "Google Safe Browsing",
                 "url": "https://developers.google.com/safe-browsing/reference?hl=id"
+            },
+            {
+                "name": "Virus Exchange",
+                "url": "https://virus.exchange/"
+            },
+            {
+                "name": "Malware Sample and IOC",
+                "url": "https://github.com/rivitna/Malware"
             }
         ]
     },
@@ -8885,6 +8905,10 @@
             {
                 "name": "rayhunter",
                 "url": "https://github.com/EFForg/rayhunter"
+            },
+            {
+                "name": "Silent SMSping",
+                "url": "https://www.smsdeliverer.com/onlinehelp/interface/pingsms/"
             }
         ]
     },
@@ -9292,6 +9316,34 @@
             {
                 "name": "privacyguides",
                 "url": "https://www.privacyguides.org/en/"
+            },
+            {
+                "name": "Frida script",
+                "url": "https://gist.github.com/JarLob/a2954430c35905b48f758391cdaf209e"
+            },
+            {
+                "name": "Frida script 2",
+                "url": "https://codeshare.frida.re/@dzervas/android-location-spoofing/"
+            },
+            {
+                "name": "Android Fake GPS APK",
+                "url": "https://play.google.com/store/apps/details?id=com.just4funtools.fakegpslocationprofessional"
+            },
+            {
+                "name": "Android Fake GPS APK 2",
+                "url": "https://play.google.com/store/apps/details?id=com.lexa.fakegps"
+            },
+            {
+                "name": "i2p network",
+                "url": "https://geti2p.net/en/"
+            },
+            {
+                "name": "torproject",
+                "url": "https://www.torproject.org/"
+            },
+            {
+                "name": "nord",
+                "url": "https://nordvpn.com/"
             }
         ]
     },
@@ -10206,6 +10258,14 @@
             {
                 "name": "List and guides about tools forensic",
                 "url": "https://ericzimmerman.github.io/#!index.md"
+            },
+            {
+                "name": "Virus Exchange",
+                "url": "https://virus.exchange/"
+            },
+            {
+                "name": "Malware Sample and IOC",
+                "url": "https://github.com/rivitna/Malware"
             }
         ]
     },
