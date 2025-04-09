@@ -492,6 +492,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [dnshistory](https://osint.sh/dnshistory/)
 - [Unfurl](https://github.com/obsidianforensics/unfurl)
 - [VirusTotal](https://www.virustotal.com/gui/home/upload)
+- [Virus Exchange](https://virus.exchange/)
 - [Archive Org](https://archive.org/web/)
 - [Iplocation](https://iplocation.io/website-link-analyzer)
 - [Smallseotools](https://smallseotools.com/website-link-analyzer-tool/)
@@ -542,6 +543,8 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [Quttera](https://quttera.com)
 - [Virus total](https://www.virustotal.com/gui/home/upload)
 - [Virus Share](https://virusshare.com)
+- [Virus Exchange](https://virus.exchange/)
+- [Malware Sample and IOC](https://github.com/rivitna/Malware)
 - [Yara Doc](https://yara.readthedocs.io/en/stable/)
 - [Yara Hub](https://yaraify.abuse.ch/yarahub/)
 - [Spiderfoot](https://www.spiderfoot.net/)
@@ -726,6 +729,8 @@ You can find the file hash or other threat indicator
 - [Yara](https://yara.readthedocs.io/en/stable/)
 - [Yara Hub](https://yaraify.abuse.ch/yarahub/)
 - [Virustotal](https://www.virustotal.com/gui/home/upload)
+- [Virus Exchange](https://virus.exchange/)
+- [Malware Sample and IOC](https://github.com/rivitna/Malware)
 - [Joesandbox](https://www.joesandbox.com/#windows)
 - [Spiderfoot](https://www.spiderfoot.net/)
 - [Open CTI](https://github.com/OpenCTI-Platform/opencti)
@@ -1292,7 +1297,6 @@ Example
 - [HLR Tsel Area Code ](https://web.archive.org/web/20240730160717/https://kumparan.com/how-to-tekno/cara-mengetahui-kode-area-no-hp-orang-lain-1yzrnn0bUx1)
 - [Indosat HLR](https://panduanbs.com/kode-area-wilayah-hlr-nomor-indosat-ooredo/)
 - [idcrawl](https://www.idcrawl.com/phone)
-- [SMS PING](https://github.com/MatejKovacic/silent-sms-ping)
 - [SMS PING APK](https://f-droid.org/id/packages/com.itds.sms.ping/)
 - [Ghunt online tools](https://app.osint.industries/)
 - [numpi](https://numpi.com/)
@@ -2665,6 +2669,7 @@ Transaction Analysis
 - [DTMF Decoder](https://dtmf.netlify.app/)
 - [ipification API](https://www.ipification.com/)
 - [rayhunter](https://github.com/EFForg/rayhunter)
+- [Silent SMSping](https://www.smsdeliverer.com/onlinehelp/interface/pingsms/)
 
 Pro Tips 
 
@@ -2790,6 +2795,16 @@ Virtual Camera
 - [virtual camera moudle lsposed](https://github.com/Xposed-Modules-Repo/com.example.vcam)
 - [android virtual cam - CN](https://github.com/w2016561536/android_virtual_cam)
 - [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam)
+
+FakeGPS Location 
+
+- [Frida script](https://gist.github.com/JarLob/a2954430c35905b48f758391cdaf209e)
+- [Frida script 2](https://codeshare.frida.re/@dzervas/android-location-spoofing/)
+- [Android Fake GPS APK](https://play.google.com/store/apps/details?id=com.just4funtools.fakegpslocationprofessional)
+- [Android Fake GPS APK 2](https://play.google.com/store/apps/details?id=com.lexa.fakegps)
+- [i2p network](https://geti2p.net/en/)
+- [torproject](https://www.torproject.org/)
+- [nord](https://nordvpn.com/)
 
 Social Network and blogging
 
@@ -2984,6 +2999,8 @@ Guides
 - [Extundelete Ext3 or ext4 partition recovery](https://extundelete.sourceforge.net/)
 - [TestDisk](https://www.cgsecurity.org/wiki/TestDisk_Download)
 - [VirusTotal](https://www.virustotal.com/gui/home/upload)
+- [Virus Exchange](https://virus.exchange/)
+- [Malware Sample and IOC](https://github.com/rivitna/Malware)
 - [Avilla Forensics](https://forum.seccodeid.com/d/avillaforensics-mobile-digital-forensics)
 - [Autopsy](https://www.autopsy.com/)
 - [Recuva](https://www.ccleaner.com/recuva)
