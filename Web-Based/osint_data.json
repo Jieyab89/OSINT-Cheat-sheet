@@ -424,6 +424,10 @@
             {
                 "name": "unwiredlabs",
                 "url": "https://unwiredlabs.com/products"
+            },
+            {
+                "name": "FaceForensics - List face dataset",
+                "url": "https://github.com/ondyari/FaceForensics"
             }
         ]
     },
@@ -6302,6 +6306,46 @@
             {
                 "name": "matkap hunt down malicious Telegram bots  web based",
                 "url": "https://matkap.cti.monster/"
+            },
+            {
+                "name": "OSINT Industries",
+                "url": "https://app.osint.industries/"
+            },
+            {
+                "name": "xtea",
+                "url": "https://xtea.io/ts_en.html"
+            },
+            {
+                "name": "AllInOneLeaksBOT",
+                "url": "https://t.me/AllInOneLeaksBOT"
+            },
+            {
+                "name": "Collection Wayback Machine Tele",
+                "url": "https://archive.org/details/archiveteam_telegram"
+            },
+            {
+                "name": "OSINT.ME CSE",
+                "url": "https://cse.google.com/cse?cx=6c3e0c0d3da8e3b4a"
+            },
+            {
+                "name": "Tele search CSE",
+                "url": "https://cse.google.com/cse?cx=004805129374225513871%3Ap8lhfo0g3hg"
+            },
+            {
+                "name": "t.me/<change usernam>",
+                "url": "https://t.me/USERNAME"
+            },
+            {
+                "name": "t.me/joinchat/<VALUE>",
+                "url": "https://t.me/joinchat/HASHVALUE"
+            },
+            {
+                "name": "t.me/+<change phone num>",
+                "url": "https://t.me/+TELEPHONE-NUMBER"
+            },
+            {
+                "name": "t.me/s/<change username>",
+                "url": "https://t.me/s/PREVIEWCHANNEL"
             }
         ]
     },
@@ -8909,6 +8953,10 @@
             {
                 "name": "Silent SMSping",
                 "url": "https://www.smsdeliverer.com/onlinehelp/interface/pingsms/"
+            },
+            {
+                "name": "IMSI Catcher",
+                "url": "https://sls.eff.org/technologies/cell-site-simulators-imsi-catchers"
             }
         ]
     },
@@ -9344,6 +9392,18 @@
             {
                 "name": "nord",
                 "url": "https://nordvpn.com/"
+            },
+            {
+                "name": "huggingface Seach model",
+                "url": "https://huggingface.co/"
+            },
+            {
+                "name": "stargan-v2",
+                "url": "https://github.com/clovaai/stargan-v2"
+            },
+            {
+                "name": "VCamera",
+                "url": "https://github.com/andvipgroup/VCamera"
             }
         ]
     },
@@ -10400,6 +10460,18 @@
             {
                 "name": "Securing your email",
                 "url": "https://cybernews.com/secure-email-providers/find-all-accounts-linked-to-email-address/"
+            },
+            {
+                "name": "https-everywhere",
+                "url": "https://www.eff.org/https-everywhere"
+            },
+            {
+                "name": "Surveillance Self-Defense",
+                "url": "https://ssd.eff.org/"
+            },
+            {
+                "name": "Street level Surveillance",
+                "url": "https://sls.eff.org/"
             }
         ]
     },
@@ -11911,6 +11983,18 @@
             {
                 "name": "interviewcoder",
                 "url": "https://www.interviewcoder.co/"
+            },
+            {
+                "name": "copy",
+                "url": "https://www.copy.ai/"
+            },
+            {
+                "name": "murf AI Voice",
+                "url": "https://murf.ai/"
+            },
+            {
+                "name": "AI Voice Generator",
+                "url": "https://play.ht/"
             }
         ]
     },
@@ -13264,6 +13348,26 @@
             {
                 "name": "BloodHound MCP based",
                 "url": "https://github.com/stevenyu113228/BloodHound-MCP/tree/main"
+            },
+            {
+                "name": "Facial Recognition Attack's - Checklist",
+                "url": "https://github.com/CyberSecurityUP/Facial-Recognition-PenTest-Checklist"
+            },
+            {
+                "name": "A guide AV Evasion",
+                "url": "https://evasions.checkpoint.com/"
+            },
+            {
+                "name": "AD Mindmap - AD Guides",
+                "url": "https://mayfly277.github.io/posts/AD-mindmap-2k25/"
+            },
+            {
+                "name": "mobilehackinglab",
+                "url": "https://www.mobilehackinglab.com/free-mobile-hacking-labs"
+            },
+            {
+                "name": "hextree",
+                "url": "https://www.hextree.io/"
             }
         ]
     },
@@ -16100,6 +16204,10 @@
             {
                 "name": "DAPK APK SEARCH",
                 "url": "https://github.com/m4ll0k/BBTz/blob/master/dapk.py"
+            },
+            {
+                "name": "apkeep",
+                "url": "https://github.com/EFForg/apkeep?tab=readme-ov-file"
             }
         ]
     },
@@ -16767,6 +16875,28 @@
             {
                 "name": "OSINT for Historical",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Historical"
+            }
+        ]
+    },
+    {
+        "category": "Telegra OSINT",
+        "items": [
+            {
+                "name": "telegcrack",
+                "url": "https://telegcrack.com/"
+            }
+        ]
+    },
+    {
+        "category": "OSINT Astronomy",
+        "items": [
+            {
+                "name": "stellarium",
+                "url": "https://stellarium-web.org/"
+            },
+            {
+                "name": "star-chart",
+                "url": "https://apps.apple.com/us/app/star-chart/id345542655"
             }
         ]
     }
