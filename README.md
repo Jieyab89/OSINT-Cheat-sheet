@@ -225,6 +225,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [Crime Data Explorer (CDE)](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads)
 - [Other Dataset Collection](https://github.com/awesomedata/awesome-public-datasets)
 - [unwiredlabs](https://unwiredlabs.com/products)
+- [FaceForensics - List face dataset](https://github.com/ondyari/FaceForensics)
 
 # Forums & Sites
 
@@ -1934,6 +1935,24 @@ Search channel, username, bot and anymore
 - [Telegram Scammer list ACC Database](https://apk.ibnux.com/data/)
 - [matkap hunt down malicious Telegram bots](https://github.com/0x6rss/matkap)
 - [matkap hunt down malicious Telegram bots  web based](https://matkap.cti.monster/)
+- [OSINT Industries](https://app.osint.industries/)
+- [xtea](https://xtea.io/ts_en.html)
+- [AllInOneLeaksBOT](https://t.me/AllInOneLeaksBOT)
+- [Collection Wayback Machine Tele](https://archive.org/details/archiveteam_telegram)
+- [OSINT.ME CSE](https://cse.google.com/cse?cx=6c3e0c0d3da8e3b4a)
+- [Tele search CSE](https://cse.google.com/cse?cx=004805129374225513871%3Ap8lhfo0g3hg)
+
+Telegram Tips 
+
+- [t.me/<change usernam>](https://t.me/USERNAME)
+- [t.me/joinchat/<VALUE>](https://t.me/joinchat/HASHVALUE)
+- [t.me/+<change phone num>](https://t.me/+TELEPHONE-NUMBER)
+- [t.me/s/<change username>](https://t.me/s/PREVIEWCHANNEL)
+
+
+# Telegra OSINT 
+
+- [telegcrack](https://telegcrack.com/)
 
 # Document and Slides Search OSINT
 
@@ -2670,6 +2689,7 @@ Transaction Analysis
 - [ipification API](https://www.ipification.com/)
 - [rayhunter](https://github.com/EFForg/rayhunter)
 - [Silent SMSping](https://www.smsdeliverer.com/onlinehelp/interface/pingsms/)
+- [IMSI Catcher](https://sls.eff.org/technologies/cell-site-simulators-imsi-catchers)
 
 Pro Tips 
 
@@ -2779,14 +2799,16 @@ Build your own deepfake
 - [Facefusion](https://docs.facefusion.io/installation/platform/windows) 
 - [Roop](https://github.com/s0md3v/roop/wiki)
 - [Deepfake Offensive Toolkit](https://github.com/sensity-ai/dot)
-- [huggingface](https://huggingface.co/)
+- [huggingface Seach model](https://huggingface.co/)
 - [deepfakesweb](https://deepfakesweb.com/)
 - [Swapface](https://swapface.org/#/home)
 - [liveportrait animate your photo](https://liveportrait.org/)
 - [LivePortrait](https://github.com/KwaiVGI/LivePortrait)
+- [stargan-v2](https://github.com/clovaai/stargan-v2)
 
 Virtual Camera 
 
+- [VCamera](https://github.com/andvipgroup/VCamera)
 - [OBS](https://obsproject.com/)
 - [splitcam](https://splitcam.com/)
 - [altercam](https://altercam.com/)
@@ -3093,6 +3115,7 @@ You can analysis of hash, header, signature, evtx, ip, byte, file format, memory
 - [Hushed](https://hushed.com/)
 - [Privacy Badger](https://privacybadger.org/)
 - [U block origin](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
+- [https-everywhere](https://www.eff.org/https-everywhere)
 - [Blur IMG Extension](https://chromewebstore.google.com/detail/blur-the-image-and-video/aikjogmpaoaookmacnkbenekcnkjlkmi?hl=en-US&authuser=0)
 - [Apple Kuncitara](https://support.apple.com/id-id/guide/iphone/iph049680987/ios)
 - [Apple Focus Mode](https://support.apple.com/id-id/guide/iphone/iphd6288a67f/17.0/ios/17.0)
@@ -3108,6 +3131,11 @@ Password Manager
 - [Dashlane](https://www.dashlane.com/)
 - [Nordpass](https://nordpass.com/)
 - [Securing your email](https://cybernews.com/secure-email-providers/find-all-accounts-linked-to-email-address/)
+
+Guide for Surveillance 
+
+- [Surveillance Self-Defense](https://ssd.eff.org/)
+- [Street level Surveillance](https://sls.eff.org/)
 
 # Fraud Checker
 
@@ -3515,6 +3543,9 @@ Public Transport
 - [earthkit](https://agent.earthkit.app/)
 - [browser-use](https://github.com/browser-use/browser-use)
 - [interviewcoder](https://www.interviewcoder.co/)
+- [copy](https://www.copy.ai/)
+- [murf AI Voice](https://murf.ai/)
+- [AI Voice Generator](https://play.ht/)
 
 # OSINT for Red Team 
 
@@ -3679,6 +3710,8 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [nowafpls](https://github.com/assetnote/nowafpls) Burp Plugin to Bypass WAFs through the insertion of Junk Data
 - [caido](https://caido.io/) Security testing tools intercepting request like burp
 - [MobileApp-Pentest-Cheatsheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet) mapped OWASP Mobile Risk Top 10 for conducting pentest.
+- [Facial Recognition Attack's - Checklist](https://github.com/CyberSecurityUP/Facial-Recognition-PenTest-Checklist) Awesome checklist for pentesting Liveness and mobile apps face verif 
+- [A guide AV Evasion](https://evasions.checkpoint.com/)
 
 Social Engineering (Social E)
 
@@ -3712,6 +3745,7 @@ Active Directory
 - [lolad project](https://lolad-project.github.io/)
 - [Ninja C2](https://github.com/ahmedkhlief/Ninja)
 - [BloodHound MCP based](https://github.com/stevenyu113228/BloodHound-MCP/tree/main)
+- [AD Mindmap - AD Guides](https://mayfly277.github.io/posts/AD-mindmap-2k25/)
 
 Webshell Bypass
 
@@ -3870,6 +3904,8 @@ Hacking Playground
 - [LaraVuln Jieyab89](https://github.com/Jieyab89/LaraVuln)
 - [game of active directory](https://github.com/Orange-Cyberdefense/GOAD)
 - [Damn-Vulnerable-Drone](https://github.com/nicholasaleks/Damn-Vulnerable-Drone?tab=readme-ov-file)
+- [mobilehackinglab](https://www.mobilehackinglab.com/free-mobile-hacking-labs)
+- [hextree](https://www.hextree.io/)
 
 Awesome Burpsuite Extension
 
@@ -4816,6 +4852,7 @@ This is for you searching software and searching alternative software
 - [softwaresuggest](https://www.softwaresuggest.com/)
 - [softpedia](https://www.softpedia.com/)
 - [DAPK APK SEARCH](https://github.com/m4ll0k/BBTz/blob/master/dapk.py)
+- [apkeep](https://github.com/EFForg/apkeep?tab=readme-ov-file)
 
 # OSINT Barcode Reader 
 
@@ -5001,3 +5038,8 @@ Browser List
 - [TOR](https://www.torproject.org)
 - [Whonix](https://www.whonix.org/)
 - [Zeronet](https://zeronet.io/)
+
+# OSINT Astronomy
+
+- [stellarium](https://stellarium-web.org/)
+- [star-chart](https://apps.apple.com/us/app/star-chart/id345542655)
