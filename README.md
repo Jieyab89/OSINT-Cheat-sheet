@@ -3711,7 +3711,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [caido](https://caido.io/) Security testing tools intercepting request like burp
 - [MobileApp-Pentest-Cheatsheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet) mapped OWASP Mobile Risk Top 10 for conducting pentest.
 - [Facial Recognition Attack's - Checklist](https://github.com/CyberSecurityUP/Facial-Recognition-PenTest-Checklist) Awesome checklist for pentesting Liveness and mobile apps face verif 
-- [A guide AV Evasion](https://evasions.checkpoint.com/)
+- [A guide AV Evasion](https://evasions.checkpoint.com/) A guide for bypass AV or evading AV technique 
 
 Social Engineering (Social E)
 
@@ -3785,7 +3785,7 @@ Credential Dumping
 - [Pillager](https://github.com/qwqdanchun/Pillager/)
 - [searchall](https://github.com/Naturehi666/searchall)
 
-Credentials
+Credentials Leak
 
 - [Have I Been Pwned](https://haveibeenpwned.com/)
 - [Dehashed](https://www.dehashed.com/)
@@ -4155,7 +4155,8 @@ Tactical learn and some firearms knowledge
 - [ID LycmaMilTech](https://www.youtube.com/@LycmaMilTech)
 - [GarandThumb](https://www.youtube.com/@GarandThumb)
 - [wiki firearm brands](https://en.wikipedia.org/wiki/List_of_firearm_brands)
-- [Armament Research Services (ARES)](https://rss.com/podcasts/bellingcatstagetalk/1945244/)
+- [Armament Research Services (ARES) Podcast](https://rss.com/podcasts/bellingcatstagetalk/1945244/)
+- [Armament Research Services (ARES) Official Site](https://armamentresearch.com/)
 
 # OSINT Shadow Analysis 
 
