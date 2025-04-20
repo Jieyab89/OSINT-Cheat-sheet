@@ -428,6 +428,10 @@
             {
                 "name": "FaceForensics - List face dataset",
                 "url": "https://github.com/ondyari/FaceForensics"
+            },
+            {
+                "name": "DC gov opendata",
+                "url": "https://opendata.dc.gov/"
             }
         ]
     },
@@ -10326,6 +10330,18 @@
             {
                 "name": "Malware Sample and IOC",
                 "url": "https://github.com/rivitna/Malware"
+            },
+            {
+                "name": "TCPView",
+                "url": "https://learn.microsoft.com/id-id/sysinternals/downloads/tcpview"
+            },
+            {
+                "name": "Sysinternals Suite",
+                "url": "https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite"
+            },
+            {
+                "name": "Burpsuite",
+                "url": "https://portswigger.net/burp"
             }
         ]
     },
@@ -13368,6 +13384,18 @@
             {
                 "name": "hextree",
                 "url": "https://www.hextree.io/"
+            },
+            {
+                "name": "emkei email sender",
+                "url": "https://emkei.cz/"
+            },
+            {
+                "name": "anonymailer email sender",
+                "url": "https://www.anonymailer.net/m-demo.asp"
+            },
+            {
+                "name": "Lki C2",
+                "url": "https://github.com/boku7/Loki"
             }
         ]
     },
@@ -15610,6 +15638,10 @@
             {
                 "name": "ID Komdigi MPN",
                 "url": "https://mpn.komdigi.go.id/arsip/"
+            },
+            {
+                "name": "google arts and culture",
+                "url": "https://artsandculture.google.com/explore"
             }
         ]
     },
@@ -15647,6 +15679,10 @@
             {
                 "name": "Lostart DE",
                 "url": "https://www.lostart.de/en/start"
+            },
+            {
+                "name": "google arts and culture",
+                "url": "https://artsandculture.google.com/explore"
             }
         ]
     },
@@ -15664,6 +15700,10 @@
             {
                 "name": "influzoom",
                 "url": "https://influzoom.com/"
+            },
+            {
+                "name": "google arts and culture",
+                "url": "https://artsandculture.google.com/explore"
             }
         ]
     },
