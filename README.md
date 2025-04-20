@@ -480,6 +480,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [urlvoid](https://www.urlvoid.com/)
 - [netlas.io](https://app.netlas.io/host/)
 - [godaddy](https://www.godaddy.com/en)
+- [socradar](https://socradar.io/labs/)
 
 *Tips web cache 
 
@@ -638,6 +639,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [Google Safe Browsing](https://developers.google.com/safe-browsing?hl=id)
 - [greynoise](https://www.greynoise.io/)
 - [Intel471](https://intel471.com/)
+- [socradar](https://socradar.io/labs/)
 
 # IoT Search Engines
 
@@ -1221,6 +1223,7 @@ Example
 - [ID Check the wealth assets of Indonesian ministries](https://elhkpn.kpk.go.id/portal/user/check_search_announ#announ)
 - [ID SIKAP CARI PELAKU USAHA](https://sikap.lkpp.go.id/pelaku-usaha/cari)
 - [ID Pejabat rekam jejak](https://rekamjejak.net/direktori?query=&category=&party=&page=1&limit=9)
+- [truepeoplesearch](https://truepeoplesearch.com/)
 
 # Family People Search 
 
@@ -1235,6 +1238,7 @@ Example
 - [locatefamily](https://www.locatefamily.com/)
 - [spokeo](https://www.spokeo.com/)
 - [CSE Google Search](https://cse.google.com/cse?cx=partner-pub-7233843800519946:6667570044&ie=UTF-8&q=)
+- [truepeoplesearch](https://truepeoplesearch.com/)
 
 # Phone Numbers
 
@@ -2691,6 +2695,7 @@ Transaction Analysis
 - [rayhunter](https://github.com/EFForg/rayhunter)
 - [Silent SMSping](https://www.smsdeliverer.com/onlinehelp/interface/pingsms/)
 - [IMSI Catcher](https://sls.eff.org/technologies/cell-site-simulators-imsi-catchers)
+- [bscoords](https://github.com/kolonist/bscoords)
 
 Pro Tips 
 
@@ -3010,6 +3015,7 @@ Guides
 - [tor link](https://tor.link/)
 - [iaca-darkweb-tools](https://iaca-darkweb-tools.com/search-darkweb/)
 - [Dakint](https://start.me/p/Nx0e6O/darkint)
+- [socradar](https://socradar.io/labs/)
 
 # Digital Forensics
 
@@ -3087,6 +3093,7 @@ Guides
 - [georgeom](https://georgeom.net/StegOnline/upload)
 - [fotoforensics](https://fotoforensics.com/)
 - [List and guides about tools forensic](https://ericzimmerman.github.io/#!index.md)
+- [socradar](https://socradar.io/labs/)
 
 *Pro Tips 
 
@@ -3716,6 +3723,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [MobileApp-Pentest-Cheatsheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet) mapped OWASP Mobile Risk Top 10 for conducting pentest.
 - [Facial Recognition Attack's - Checklist](https://github.com/CyberSecurityUP/Facial-Recognition-PenTest-Checklist) Awesome checklist for pentesting Liveness and mobile apps face verif 
 - [A guide AV Evasion](https://evasions.checkpoint.com/) A guide for bypass AV or evading AV technique 
+- [jadx-ai-mcp](https://github.com/zinja-coder/jadx-ai-mcp) Plugin for JADX to integrate MCP server
 
 Social Engineering (Social E)
 
@@ -3911,6 +3919,7 @@ Hacking Playground
 - [Damn-Vulnerable-Drone](https://github.com/nicholasaleks/Damn-Vulnerable-Drone?tab=readme-ov-file)
 - [mobilehackinglab](https://www.mobilehackinglab.com/free-mobile-hacking-labs)
 - [hextree](https://www.hextree.io/)
+- [Damn-Vulnerable-RESTaurant-API-Game](https://github.com/theowni/Damn-Vulnerable-RESTaurant-API-Game)
 
 Awesome Burpsuite Extension
 
@@ -4006,6 +4015,10 @@ Audio enchange quality
 
 - [boom](https://www.globaldelight.com/boom/)
 - [fxsound](https://www.fxsound.com/)
+
+Guide 
+
+- [Audio Analysis Reveals About Aid Workers Killed in Gaza](https://www.bellingcat.com/news/2025/04/09/gaza-palestine-israel-killed-death-aid-workers-international-red-cross-crescent-audio-analysis/)
 
 # OSINT Network 
 
@@ -4432,6 +4445,7 @@ Social Media Analytics
 - [breach-hq](https://breach-hq.com/threat-actors)
 - [United Nation PBB](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list)
 - [ID Sistem Informasi Penelusuran Perkara](https://sipp.pn-negara.go.id/) *Tips you can search by province or regency (subdomain)  
+- [socradar](https://socradar.io/labs/)
 
 # OSINT for Politics and Geopolitics
 
