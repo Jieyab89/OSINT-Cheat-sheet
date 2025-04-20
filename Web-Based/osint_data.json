@@ -1365,6 +1365,10 @@
             {
                 "name": "godaddy",
                 "url": "https://www.godaddy.com/en"
+            },
+            {
+                "name": "socradar",
+                "url": "https://socradar.io/labs/"
             }
         ]
     },
@@ -1951,6 +1955,10 @@
             {
                 "name": "Malware Sample and IOC",
                 "url": "https://github.com/rivitna/Malware"
+            },
+            {
+                "name": "socradar",
+                "url": "https://socradar.io/labs/"
             }
         ]
     },
@@ -4059,6 +4067,10 @@
             {
                 "name": "CSE Google Search",
                 "url": "https://cse.google.com/cse?cx=partner-pub-7233843800519946:6667570044&ie=UTF-8&q="
+            },
+            {
+                "name": "truepeoplesearch",
+                "url": "https://truepeoplesearch.com/"
             }
         ]
     },
@@ -8961,6 +8973,10 @@
             {
                 "name": "IMSI Catcher",
                 "url": "https://sls.eff.org/technologies/cell-site-simulators-imsi-catchers"
+            },
+            {
+                "name": "bscoords",
+                "url": "https://github.com/kolonist/bscoords"
             }
         ]
     },
@@ -10041,6 +10057,10 @@
             {
                 "name": "Dakint",
                 "url": "https://start.me/p/Nx0e6O/darkint"
+            },
+            {
+                "name": "socradar",
+                "url": "https://socradar.io/labs/"
             }
         ]
     },
@@ -10342,6 +10362,10 @@
             {
                 "name": "Burpsuite",
                 "url": "https://portswigger.net/burp"
+            },
+            {
+                "name": "socradar",
+                "url": "https://socradar.io/labs/"
             }
         ]
     },
@@ -13396,6 +13420,14 @@
             {
                 "name": "Lki C2",
                 "url": "https://github.com/boku7/Loki"
+            },
+            {
+                "name": "jadx-ai-mcp",
+                "url": "https://github.com/zinja-coder/jadx-ai-mcp"
+            },
+            {
+                "name": "Damn-Vulnerable-RESTaurant-API-Game",
+                "url": "https://github.com/theowni/Damn-Vulnerable-RESTaurant-API-Game"
             }
         ]
     },
@@ -13477,6 +13509,10 @@
             {
                 "name": "fxsound",
                 "url": "https://www.fxsound.com/"
+            },
+            {
+                "name": "Audio Analysis Reveals About Aid Workers Killed in Gaza",
+                "url": "https://www.bellingcat.com/news/2025/04/09/gaza-palestine-israel-killed-death-aid-workers-international-red-cross-crescent-audio-analysis/"
             }
         ]
     },
@@ -14967,6 +15003,10 @@
             {
                 "name": "ID Sistem Informasi Penelusuran Perkara",
                 "url": "https://sipp.pn-negara.go.id/"
+            },
+            {
+                "name": "socradar",
+                "url": "https://socradar.io/labs/"
             }
         ]
     },
