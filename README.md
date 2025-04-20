@@ -226,6 +226,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [Other Dataset Collection](https://github.com/awesomedata/awesome-public-datasets)
 - [unwiredlabs](https://unwiredlabs.com/products)
 - [FaceForensics - List face dataset](https://github.com/ondyari/FaceForensics)
+- [DC gov opendata](https://opendata.dc.gov/)
 
 # Forums & Sites
 
@@ -3073,6 +3074,9 @@ Guides
 - [IDA](https://hex-rays.com/ida-free/)
 - [PSPY Linux](https://github.com/DominicBreuker/pspy)
 - [Process explorer Windows](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer)
+- [TCPView](https://learn.microsoft.com/id-id/sysinternals/downloads/tcpview)
+- [Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)
+- [Burpsuite](https://portswigger.net/burp)
 - [volatilityfoundation](https://github.com/volatilityfoundation)
 - [Fire eye tool](https://fireeye.market/)
 - [SANS Faculty Free Tools](https://assets.contentstack.io/v3/assets/blt36c2e63521272fdc/bltd8ba96a0fce78883/Free_Faculty_Tools.pdf)
@@ -3716,7 +3720,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 Social Engineering (Social E)
 
 - [social engineering](https://www.social-engineer.org/)
-- [emkei](https://emkei.cz/)
+- [emkei email sender](https://emkei.cz/)
 - [anonymailer](https://anonymailer.net/)
 - [Phishious](https://github.com/CanIPhish/Phishious) 
 - [GoPhish](https://getgophish.com/)
@@ -3724,6 +3728,7 @@ Social Engineering (Social E)
 - [httrack](https://www.httrack.com/)
 - [saveweb2zip](https://saveweb2zip.com/en)
 - [same web cloner](https://same.dev/)
+- [anonymailer email sender](https://www.anonymailer.net/m-demo.asp)
 
 Active Directory
 
@@ -3934,6 +3939,7 @@ C2 & C4
 - [villain](https://www.kali.org/tools/villain/) C2 framework that can handle multiple TCP socket & HoaxShell-based reverse shells *maybe FUD
 - [sliver C2](https://sliver.sh/docs)
 - [mythic C2](https://docs.mythic-c2.net/installation)
+- [Lki C2](https://github.com/boku7/Loki)
 
 Linux Distro Tool Lists 
 
@@ -4644,6 +4650,7 @@ You can use for study academic literature, search book, people name, old archive
 - [FamilySearch](https://www.familysearch.org/id/indonesia/)
 - [geneanet](https://en.geneanet.org/)
 - [CSE Google Search](https://cse.google.com/cse?cx=partner-pub-7233843800519946:6667570044&ie=UTF-8&q=)
+- [google arts and culture](https://artsandculture.google.com/explore)
 
 # OSINT Art Collection
 
@@ -4655,12 +4662,14 @@ You can use for study academic literature, search book, people name, old archive
 - [DAAO AU](https://www.daao.org.au/)
 - [Old Indiana Photo](https://www.oldindianphotos.in/)
 - [Lostart DE](https://www.lostart.de/en/start)
+- [google arts and culture](https://artsandculture.google.com/explore)
 
 # OSINT The Artists 
 
 - [Artnet](https://www.artnet.com/artists/)
 - [NGV AU](https://www.ngv.vic.gov.au/explore/collection/)
 - [influzoom](https://influzoom.com/)
+- [google arts and culture](https://artsandculture.google.com/explore)
 
 # OSINT Language 
 
