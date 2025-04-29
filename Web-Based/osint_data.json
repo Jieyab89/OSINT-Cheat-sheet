@@ -4945,6 +4945,10 @@
             {
                 "name": "greatfon",
                 "url": "https://greatfon.io/"
+            },
+            {
+                "name": "instaclip",
+                "url": "https://instaclip.app/"
             }
         ]
     },
@@ -9424,6 +9428,22 @@
             {
                 "name": "VCamera",
                 "url": "https://github.com/andvipgroup/VCamera"
+            },
+            {
+                "name": "DOT",
+                "url": "https://github.com/sensity-ai/dot"
+            },
+            {
+                "name": "VirtuCam",
+                "url": "https://t.me//VirtuCam"
+            },
+            {
+                "name": "android_virtual_cam",
+                "url": "https://github.com/llearn/android_virtual_cam/releases"
+            },
+            {
+                "name": "DroidCam",
+                "url": "https://play.google.com/store/apps/details?id=com.dev47apps.obsdroidcam"
             }
         ]
     },
@@ -13428,6 +13448,14 @@
             {
                 "name": "Damn-Vulnerable-RESTaurant-API-Game",
                 "url": "https://github.com/theowni/Damn-Vulnerable-RESTaurant-API-Game"
+            },
+            {
+                "name": "TrickyStore",
+                "url": "https://github.com/5ec1cff/TrickyStore"
+            },
+            {
+                "name": "susfs4ksu-module",
+                "url": "https://github.com/sidex15/susfs4ksu-module"
             }
         ]
     },
@@ -15133,6 +15161,10 @@
             {
                 "name": "Maltego Social Links Pro",
                 "url": "https://www.maltego.com/transform-hub/social-links-pro/"
+            },
+            {
+                "name": "Maltego Telegram",
+                "url": "https://github.com/vognik/maltego-telegram"
             }
         ]
     },
@@ -16985,6 +17017,46 @@
             {
                 "name": "star-chart",
                 "url": "https://apps.apple.com/us/app/star-chart/id345542655"
+            },
+            {
+                "name": "suncalc",
+                "url": "https://www.suncalc.org/"
+            },
+            {
+                "name": "mooncalc",
+                "url": "https://www.mooncalc.org/"
+            },
+            {
+                "name": "planetscalc",
+                "url": "https://www.planetscalc.org/"
+            },
+            {
+                "name": "space-track.org",
+                "url": "https://www.space-track.org/auth/login"
+            },
+            {
+                "name": "n2yo",
+                "url": "https://www.n2yo.com/api/"
+            },
+            {
+                "name": "NASA",
+                "url": "https://www.nasa.gov/"
+            },
+            {
+                "name": "openspaceproject",
+                "url": "https://www.openspaceproject.com/tutorial-videos"
+            },
+            {
+                "name": "astrometry",
+                "url": "https://astrometry.net/gallery.html"
+            },
+            {
+                "name": "worldwidetelescope",
+                "url": "https://worldwidetelescope.org/webclient/"
+            },
+            {
+                "name": "SKY ESA",
+                "url": "https://sky.esa.int/esasky/"
             }
         ]
     }
