@@ -17057,6 +17057,18 @@
             {
                 "name": "SKY ESA",
                 "url": "https://sky.esa.int/esasky/"
+            },
+            {
+                "name": "science NASA",
+                "url": "https://science.nasa.gov/"
+            },
+            {
+                "name": "esahubble",
+                "url": "https://esahubble.org/"
+            },
+            {
+                "name": "timeanddate",
+                "url": "https://www.timeanddate.com/moon/phases/"
             }
         ]
     }
