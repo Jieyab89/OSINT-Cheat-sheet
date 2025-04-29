@@ -1529,6 +1529,7 @@ or you can use dork for spesific example
 - [Get account ID instagram](https://commentpicker.com/instagram-user-id.php)
 - [dumpor](https://dumpor.io/)
 - [greatfon](https://greatfon.io/)
+- [instaclip](https://instaclip.app/)
 
 # Microsoft OneDrive 
 
@@ -2823,6 +2824,10 @@ Virtual Camera
 - [virtual camera moudle lsposed](https://github.com/Xposed-Modules-Repo/com.example.vcam)
 - [android virtual cam - CN](https://github.com/w2016561536/android_virtual_cam)
 - [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam)
+- [DOT](https://github.com/sensity-ai/dot)
+- [VirtuCam](https://t.me//VirtuCam)
+- [android_virtual_cam](https://github.com/llearn/android_virtual_cam/releases)
+- [DroidCam](https://play.google.com/store/apps/details?id=com.dev47apps.obsdroidcam)
 
 FakeGPS Location 
 
@@ -3724,6 +3729,8 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [Facial Recognition Attack's - Checklist](https://github.com/CyberSecurityUP/Facial-Recognition-PenTest-Checklist) Awesome checklist for pentesting Liveness and mobile apps face verif 
 - [A guide AV Evasion](https://evasions.checkpoint.com/) A guide for bypass AV or evading AV technique 
 - [jadx-ai-mcp](https://github.com/zinja-coder/jadx-ai-mcp) Plugin for JADX to integrate MCP server
+- [TrickyStore](https://github.com/5ec1cff/TrickyStore) This module is used for modifying the certificate chain generated for android key attestation 
+- [susfs4ksu-module](https://github.com/sidex15/susfs4ksu-module) An addon root hiding service for KernelSU
 
 Social Engineering (Social E)
 
@@ -4486,6 +4493,7 @@ Terrorism & Radical
 - [Web Screnshhot Maltego Transforms](https://github.com/TURROKS/Maltego_Web2Screenshot)
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
 - [Maltego Social Links Pro](https://www.maltego.com/transform-hub/social-links-pro/)
+- [Maltego Telegram](https://github.com/vognik/maltego-telegram)
 
 # OSINT Wildlife 
 
@@ -5067,3 +5075,13 @@ Browser List
 
 - [stellarium](https://stellarium-web.org/)
 - [star-chart](https://apps.apple.com/us/app/star-chart/id345542655)
+- [suncalc](https://www.suncalc.org/)
+- [mooncalc](https://www.mooncalc.org/)
+- [planetscalc](https://www.planetscalc.org/)
+- [space-track.org](https://www.space-track.org/auth/login)
+- [n2yo](https://www.n2yo.com/api/)
+- [NASA](https://www.nasa.gov/)
+- [openspaceproject](https://www.openspaceproject.com/tutorial-videos)
+- [astrometry](https://astrometry.net/gallery.html)
+- [worldwidetelescope](https://worldwidetelescope.org/webclient/)
+- [SKY ESA](https://sky.esa.int/esasky/)
