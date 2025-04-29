@@ -5085,3 +5085,6 @@ Browser List
 - [astrometry](https://astrometry.net/gallery.html)
 - [worldwidetelescope](https://worldwidetelescope.org/webclient/)
 - [SKY ESA](https://sky.esa.int/esasky/)
+- [science NASA](https://science.nasa.gov/)
+- [esahubble](https://esahubble.org/)
+- [timeanddate](https://www.timeanddate.com/moon/phases/)
