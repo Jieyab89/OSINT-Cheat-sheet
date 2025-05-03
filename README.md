@@ -227,6 +227,10 @@ Be carefull using this tool use 2nd account because your account got banned
 - [unwiredlabs](https://unwiredlabs.com/products)
 - [FaceForensics - List face dataset](https://github.com/ondyari/FaceForensics)
 - [DC gov opendata](https://opendata.dc.gov/)
+- [Maxar Open Data](https://www.maxar.com/open-data/)
+- [Eyes NASA](https://eyes.nasa.gov/)
+- [UNOSAT Gaza Emergency Response Data Hub](https://gaza-unosat.hub.arcgis.com/pages/data)
+- [opengeos](https://github.com/opengeos)
 
 # Forums & Sites
 
@@ -2317,7 +2321,6 @@ Telegram Tips
 - [geotips](https://geotips.net/)
 - [shademap](https://shademap.app/)
 - [shadowmap](https://shadowmap.org/)
-- [livingatlas wayback](https://livingatlas.arcgis.com/wayback)
 - [livingatlas wayback Guide](https://www.esri.com/arcgis-blog/products/arcgis-living-atlas/mapping/use-world-imagery-wayback/)
 - [supermapol](https://www.supermapol.com/)
 - [supermapol docs](https://doc.supermapol.com/en/Introduction/Introduction.html)
@@ -2374,6 +2377,8 @@ Telegram Tips
 - [google initiative news - Basic GEE](https://newsinitiative.withgoogle.com/resources/trainings/introduction-to-google-earth-engine/)
 - [shadowbreakintl](https://www.shadowbreakintl.com/#products)
 - [earthkit](https://agent.earthkit.app/)
+- [Mapquest](https://www.mapquest.com/)
+- [solara-maxar](https://github.com/opengeos/solara-maxar)
 
 Conveter tool 
 
@@ -2418,6 +2423,9 @@ Geojson viewer
 - [euspaceimaging](https://www.euspaceimaging.com/products/3d-products/)
 - [Baidu maps](https://map.baidu.com/)
 - [cesium](https://cesium.com/)
+- [arcgis webscene](https://www.arcgis.com/home/webscene/viewer.html)
+- [samgeo](https://samgeo.gishub.org/)
+- [leafmap](https://leafmap.org/#youtube-channel)
 
 Guides 
 
@@ -2795,6 +2803,7 @@ Build your sockpuppet account and proctect your privacy
 - [Google Safe Browsing](https://developers.google.com/safe-browsing?hl=id)
 - [SNS masking](https://smsviro.com/home/#pricing)
 - [USER AGENT LIST](https://www.useragentstring.com/pages/useragentstring.php)
+- [dnmx email](https://dnmx.su/)
 
 Build your own deepfake 
 
@@ -3021,6 +3030,7 @@ Guides
 - [iaca-darkweb-tools](https://iaca-darkweb-tools.com/search-darkweb/)
 - [Dakint](https://start.me/p/Nx0e6O/darkint)
 - [socradar](https://socradar.io/labs/)
+- [robin](https://github.com/apurvsinghgautam/robin)
 
 # Digital Forensics
 
@@ -3494,6 +3504,7 @@ Public Transport
 - [Plane Registration 2](https://en.wikipedia.org/wiki/List_of_aircraft_registration_prefixes)
 - [Military Aircraft Wiki](https://en.wikipedia.org/wiki/Military_aircraft)
 - [Search Model Aircraft](https://dna.icao.int/wagmar/Search/InitAircraftSearchModel)
+- [ADS B Tracking Military Aircraft](https://www.ads-b.nl/)
 
 # Ship Tracking & Maritim
 
@@ -3562,6 +3573,7 @@ Public Transport
 - [copy](https://www.copy.ai/)
 - [murf AI Voice](https://murf.ai/)
 - [AI Voice Generator](https://play.ht/)
+- [nari-labs/dia](https://github.com/nari-labs/dia)
 
 # OSINT for Red Team 
 
@@ -3731,6 +3743,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [jadx-ai-mcp](https://github.com/zinja-coder/jadx-ai-mcp) Plugin for JADX to integrate MCP server
 - [TrickyStore](https://github.com/5ec1cff/TrickyStore) This module is used for modifying the certificate chain generated for android key attestation 
 - [susfs4ksu-module](https://github.com/sidex15/susfs4ksu-module) An addon root hiding service for KernelSU
+- [Powershell-Scripts-for-Hackers-and-Pentesters](https://github.com/Whitecat18/Powershell-Scripts-for-Hackers-and-Pentesters) An List of my Powershell scripts, commands and Blogs for windows Red Teaming.
 
 Social Engineering (Social E)
 
@@ -4097,7 +4110,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [huntintel](https://www.huntintel.io/)
 - [planet](https://www.planet.com/)
 - [NBR Map](https://map.nbr.org/interactivemap/)
-- [ADS B](https://www.ads-b.nl/)
+- [ADS B Tracking Military Aircraft](https://www.ads-b.nl/)
 - [itamilradar](https://www.itamilradar.com/)
 - [info-res](https://www.info-res.org/)
 - [syria.liveuamap](https://syria.liveuamap.com/)
@@ -4280,6 +4293,7 @@ Resources and collection for your make tool OSINT
 - [osintracker](https://app.osintracker.com/)
 - [babylonjs web 3D maker](https://www.babylonjs.com/)
 - [animejs](https://animejs.com/)
+- [echarts](https://echarts.apache.org/en/index.html)
 
 # Emoji Investigation
 
@@ -4474,6 +4488,7 @@ OSINT politics and geopolitics, risk crisis
 - [chroniclingamerica](https://chroniclingamerica.loc.gov/)
 - [Data catalog world bank](https://datacatalog.worldbank.org/)
 - [Google Patents](https://patents.google.com/)
+- [unosat satellite database](https://unosat.org/products)
 
 Terrorism & Radical 
 
@@ -4567,6 +4582,14 @@ Terrorism & Radical
 - [globalforestwatch](https://www.globalforestwatch.org/map/)
 - [HERE MAP](https://maps.here.com/)
 - [s2maps](https://s2maps.eu/#)
+- [mapbox](https://www.mapbox.com/)
+- [wego here](https://wego.here.com/)
+- [Mapquest](https://www.mapquest.com/)
+- [Earth Exploer](https://earthexplorer.usgs.gov/)
+- [leaflet](https://leaflet-extras.github.io/leaflet-providers/preview/)
+- [cesium](https://cesium.com/)
+- [maxar geohive](https://geohive.maxar.com/)
+- [ongeo](https://ongeo-intelligence.com/satellite-imagery-report)
 
 *Aditional Information coverage sat 
 
@@ -4634,6 +4657,7 @@ Ex Guides:
 - [torpy](https://github.com/torpyorg/torpy) Python Tor client implementation of the Tor protocol. Torpy can be used to communicate with clearnet hosts or hidden services through the Tor Network
 - [DARC](https://github.com/JarryShaw/darc) Darkweb Crawler Project
 - [browser-use](https://github.com/browser-use/browser-use) A cool web browser for scarpping, automated mapping each element on web page
+- [playwright](https://playwright.dev/docs/writing-tests) A powerful tool for testing and automating web browser interactions
 
 # OSINT IRC Chat
 
@@ -4757,6 +4781,9 @@ Guide Journalist
 - [DW Guide Investigate Deepfake](https://www.dw.com/en/fact-check-how-do-i-spot-a-deepfake/a-60029650)
 - [sightengine](https://sightengine.com/)
 - [wasitai](https://wasitai.com/)
+- [restream](https://restream.io/tools/transcribe-video-to-text)
+- [detect-ai-images](https://detect-ai-images.web.app/)
+- [Audio AI Deepfake Detection](https://detect.resemble.ai/)
 
 # OSINT Similarity (Plagiarism)
 
