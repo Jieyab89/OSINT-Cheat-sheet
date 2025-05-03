@@ -432,6 +432,22 @@
             {
                 "name": "DC gov opendata",
                 "url": "https://opendata.dc.gov/"
+            },
+            {
+                "name": "Maxar Open Data",
+                "url": "https://www.maxar.com/open-data/"
+            },
+            {
+                "name": "Eyes NASA",
+                "url": "https://eyes.nasa.gov/"
+            },
+            {
+                "name": "UNOSAT Gaza Emergency Response Data Hub",
+                "url": "https://gaza-unosat.hub.arcgis.com/pages/data"
+            },
+            {
+                "name": "opengeos",
+                "url": "https://github.com/opengeos"
             }
         ]
     },
@@ -8117,6 +8133,22 @@
             {
                 "name": "Google Earth Engine: A Quick Guide for Beginners",
                 "url": "https://gisgeography.com/google-earth-engine/"
+            },
+            {
+                "name": "solara-maxar",
+                "url": "https://github.com/opengeos/solara-maxar"
+            },
+            {
+                "name": "arcgis webscene",
+                "url": "https://www.arcgis.com/home/webscene/viewer.html"
+            },
+            {
+                "name": "samgeo",
+                "url": "https://samgeo.gishub.org/"
+            },
+            {
+                "name": "leafmap",
+                "url": "https://leafmap.org/#youtube-channel"
             }
         ]
     },
@@ -9444,6 +9476,10 @@
             {
                 "name": "DroidCam",
                 "url": "https://play.google.com/store/apps/details?id=com.dev47apps.obsdroidcam"
+            },
+            {
+                "name": "dnmx email",
+                "url": "https://dnmx.su/"
             }
         ]
     },
@@ -10081,6 +10117,10 @@
             {
                 "name": "socradar",
                 "url": "https://socradar.io/labs/"
+            },
+            {
+                "name": "robin",
+                "url": "https://github.com/apurvsinghgautam/robin"
             }
         ]
     },
@@ -11804,6 +11844,10 @@
             {
                 "name": "Search Model Aircraft",
                 "url": "https://dna.icao.int/wagmar/Search/InitAircraftSearchModel"
+            },
+            {
+                "name": "ADS B Tracking Military Aircraft",
+                "url": "https://www.ads-b.nl/"
             }
         ]
     },
@@ -12055,6 +12099,10 @@
             {
                 "name": "AI Voice Generator",
                 "url": "https://play.ht/"
+            },
+            {
+                "name": "nari-labs/dia",
+                "url": "https://github.com/nari-labs/dia"
             }
         ]
     },
@@ -13456,6 +13504,10 @@
             {
                 "name": "susfs4ksu-module",
                 "url": "https://github.com/sidex15/susfs4ksu-module"
+            },
+            {
+                "name": "Powershell-Scripts-for-Hackers-and-Pentesters",
+                "url": "https://github.com/Whitecat18/Powershell-Scripts-for-Hackers-and-Pentesters"
             }
         ]
     },
@@ -14112,6 +14164,10 @@
             {
                 "name": "Armament Research Services (ARES) Official Site",
                 "url": "https://armamentresearch.com/"
+            },
+            {
+                "name": "ADS B Tracking Military Aircraft",
+                "url": "https://www.ads-b.nl/"
             }
         ]
     },
@@ -14431,6 +14487,10 @@
             {
                 "name": "animejs",
                 "url": "https://animejs.com/"
+            },
+            {
+                "name": "echarts",
+                "url": "https://echarts.apache.org/en/index.html"
             }
         ]
     },
@@ -15124,6 +15184,10 @@
             {
                 "name": "ID Pejabat rekam jejak",
                 "url": "https://rekamjejak.net/direktori?query=&category=&party=&page=1&limit=9"
+            },
+            {
+                "name": "unosat satellite database",
+                "url": "https://unosat.org/products"
             }
         ]
     },
@@ -15503,6 +15567,38 @@
             {
                 "name": "Reporter’s Tipsheet for Acquiring Free Satellite Images",
                 "url": "https://gijn.org/resource/guide-acquire-free-satellite-images/"
+            },
+            {
+                "name": "mapbox",
+                "url": "https://www.mapbox.com/"
+            },
+            {
+                "name": "wego here",
+                "url": "https://wego.here.com/"
+            },
+            {
+                "name": "Mapquest",
+                "url": "https://www.mapquest.com/"
+            },
+            {
+                "name": "Earth Exploer",
+                "url": "https://earthexplorer.usgs.gov/"
+            },
+            {
+                "name": "leaflet",
+                "url": "https://leaflet-extras.github.io/leaflet-providers/preview/"
+            },
+            {
+                "name": "cesium",
+                "url": "https://cesium.com/"
+            },
+            {
+                "name": "maxar geohive",
+                "url": "https://geohive.maxar.com/"
+            },
+            {
+                "name": "ongeo",
+                "url": "https://ongeo-intelligence.com/satellite-imagery-report"
             }
         ]
     },
@@ -15580,6 +15676,10 @@
             {
                 "name": "browser-use",
                 "url": "https://github.com/browser-use/browser-use"
+            },
+            {
+                "name": "playwright",
+                "url": "https://playwright.dev/docs/writing-tests"
             }
         ]
     },
@@ -15984,6 +16084,18 @@
             {
                 "name": "wasitai",
                 "url": "https://wasitai.com/"
+            },
+            {
+                "name": "restream",
+                "url": "https://restream.io/tools/transcribe-video-to-text"
+            },
+            {
+                "name": "detect-ai-images",
+                "url": "https://detect-ai-images.web.app/"
+            },
+            {
+                "name": "Audio AI Deepfake Detection",
+                "url": "https://detect.resemble.ai/"
             }
         ]
     },
