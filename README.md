@@ -1028,6 +1028,7 @@ Example
 - [Unpaywall](https://unpaywall.org/)
 - [Wiley Online Library](https://onlinelibrary.wiley.com/)
 - [Open Access Button](https://openaccessbutton.org/)
+- [sci-net](https://sci-net.xyz/)
 
 # Search Jurnals
 
@@ -1067,6 +1068,7 @@ Example
 - [smartquantai](https://www.smartquantai.com/)
 - [arxiv](https://arxiv.org/multi?group=grp_physics&%2Fform=Form+Interface)
 - [oa citation](https://oa.mg/)
+- [sci-net](https://sci-net.xyz/)
 
 # Blogs Search Engine
 
@@ -2379,6 +2381,7 @@ Telegram Tips
 - [earthkit](https://agent.earthkit.app/)
 - [Mapquest](https://www.mapquest.com/)
 - [solara-maxar](https://github.com/opengeos/solara-maxar)
+- [qgis](https://qgis.org/)
 
 Conveter tool 
 
@@ -4638,6 +4641,8 @@ Ex Guides:
 - [How to analyse satellite imagery](https://institute.aljazeera.net/en/ajr/article/2191)
 - [A Beginner’s Guide to Sentinel Hub](https://citizenevidence.org/2023/03/21/summit-series-a-beginners-guide-to-sentinel-hub/)
 - [Reporter’s Tipsheet for Acquiring Free Satellite Images](https://gijn.org/resource/guide-acquire-free-satellite-images/)
+- [Automatic Detection of War-Destroyed Buildings from High-Resolution Remote Sensing Images](https://www.mdpi.com/2072-4292/17/3/509)
+- [Earthquake building damage detection based on synthetic-aperture-radar imagery and machine learning](https://nhess.copernicus.org/articles/23/789/2023/)
 
 # OSINT for Scraping and Data Collection
 
