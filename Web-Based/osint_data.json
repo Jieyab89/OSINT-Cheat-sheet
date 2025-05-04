@@ -3281,6 +3281,10 @@
             {
                 "name": "Open Access Button",
                 "url": "https://openaccessbutton.org/"
+            },
+            {
+                "name": "sci-net",
+                "url": "https://sci-net.xyz/"
             }
         ]
     },
@@ -3430,6 +3434,10 @@
             {
                 "name": "oa citation",
                 "url": "https://oa.mg/"
+            },
+            {
+                "name": "sci-net",
+                "url": "https://sci-net.xyz/"
             }
         ]
     },
@@ -8149,6 +8157,10 @@
             {
                 "name": "leafmap",
                 "url": "https://leafmap.org/#youtube-channel"
+            },
+            {
+                "name": "qgis",
+                "url": "https://qgis.org/"
             }
         ]
     },
@@ -9480,6 +9492,10 @@
             {
                 "name": "dnmx email",
                 "url": "https://dnmx.su/"
+            },
+            {
+                "name": "pict2cam",
+                "url": "https://github.com/adriangl/pict2cam?tab=readme-ov-file"
             }
         ]
     },
@@ -15599,6 +15615,14 @@
             {
                 "name": "ongeo",
                 "url": "https://ongeo-intelligence.com/satellite-imagery-report"
+            },
+            {
+                "name": "Automatic Detection of War-Destroyed Buildings from High-Resolution Remote Sensing Images",
+                "url": "https://www.mdpi.com/2072-4292/17/3/509"
+            },
+            {
+                "name": "Earthquake building damage detection based on synthetic-aperture-radar imagery and machine learning",
+                "url": "https://nhess.copernicus.org/articles/23/789/2023/"
             }
         ]
     },
