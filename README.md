@@ -2837,6 +2837,8 @@ Virtual Camera
 - [VirtuCam](https://t.me//VirtuCam)
 - [android_virtual_cam](https://github.com/llearn/android_virtual_cam/releases)
 - [DroidCam](https://play.google.com/store/apps/details?id=com.dev47apps.obsdroidcam)
+- [pict2cam](https://github.com/adriangl/pict2cam?tab=readme-ov-file)
+- [VirtuCam](https://t.me/+A2jKvWBRh0plYjhk)
 
 FakeGPS Location 
 
