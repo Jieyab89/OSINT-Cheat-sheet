@@ -17205,6 +17205,10 @@
             {
                 "name": "timeanddate",
                 "url": "https://www.timeanddate.com/moon/phases/"
+            },
+            {
+                "name": "SpaceEngine Game",
+                "url": "https://store.steampowered.com/app/314650/SpaceEngine/"
             }
         ]
     }
