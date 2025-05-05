@@ -5122,3 +5122,4 @@ Browser List
 - [science NASA](https://science.nasa.gov/)
 - [esahubble](https://esahubble.org/)
 - [timeanddate](https://www.timeanddate.com/moon/phases/)
+- [SpaceEngine Game](https://store.steampowered.com/app/314650/SpaceEngine/)
