@@ -8856,6 +8856,26 @@
             {
                 "name": "tonscan",
                 "url": "https://tonscan.org/"
+            },
+            {
+                "name": "ciphertrace",
+                "url": "https://ciphertrace.com/"
+            },
+            {
+                "name": "metasleuth",
+                "url": "https://metasleuth.io/"
+            },
+            {
+                "name": "misttrack",
+                "url": "https://misttrack.io/"
+            },
+            {
+                "name": "Tatum",
+                "url": "https://tatum.io/"
+            },
+            {
+                "name": "Blockchain Insights Hub",
+                "url": "https://github.com/nemo-nesciam/Blockchain-Insights-Hub?tab=readme-ov-file"
             }
         ]
     },
