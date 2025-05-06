@@ -167,6 +167,10 @@
             {
                 "name": "voilanorbert",
                 "url": "https://www.voilanorbert.com/"
+            },
+            {
+                "name": "freepeoplesearchtool",
+                "url": "https://freepeoplesearchtool.com/"
             }
         ]
     },
@@ -448,6 +452,10 @@
             {
                 "name": "opengeos",
                 "url": "https://github.com/opengeos"
+            },
+            {
+                "name": "Github data wayback machine",
+                "url": "https://www.gharchive.org/"
             }
         ]
     },
@@ -1385,6 +1393,14 @@
             {
                 "name": "socradar",
                 "url": "https://socradar.io/labs/"
+            },
+            {
+                "name": "ReconDog",
+                "url": "https://github.com/s0md3v/ReconDog"
+            },
+            {
+                "name": "OSINT rock",
+                "url": "https://osint.rocks/"
             }
         ]
     },
@@ -4404,6 +4420,10 @@
             {
                 "name": "SNS masking",
                 "url": "https://smsviro.com/home/#pricing"
+            },
+            {
+                "name": "OSINT rock",
+                "url": "https://osint.rocks/"
             }
         ]
     },
@@ -4534,6 +4554,10 @@
             {
                 "name": "lampyre",
                 "url": "https://lampyre.io/"
+            },
+            {
+                "name": "OSINT rock",
+                "url": "https://osint.rocks/"
             }
         ]
     },
@@ -4685,6 +4709,14 @@
             {
                 "name": "Get account ID Facebook",
                 "url": "https://commentpicker.com/"
+            },
+            {
+                "name": "Intelx Facebook",
+                "url": "https://intelx.io/tools?tab=facebook"
+            },
+            {
+                "name": "Check email and phone num on facebook",
+                "url": "https://web.facebook.com/login/identify?ctx=recover&_rdc=1&_rdr#"
             }
         ]
     },
@@ -4973,6 +5005,10 @@
             {
                 "name": "instaclip",
                 "url": "https://instaclip.app/"
+            },
+            {
+                "name": "fameswap",
+                "url": "https://fameswap.com/tool-instagram-user-id"
             }
         ]
     },
@@ -5371,6 +5407,22 @@
             {
                 "name": "Geoint CSE search",
                 "url": "https://cse.google.com/cse?cx=015328649639895072395:sbv3zyxzmji#gsc.tab=0&gsc.sort="
+            },
+            {
+                "name": "Get account ID Facebook and Twitter",
+                "url": "https://commentpicker.com/"
+            },
+            {
+                "name": "Get ID Twitter",
+                "url": "https://tweeterid.com/"
+            },
+            {
+                "name": "birdhunt 2",
+                "url": "https://birdhunt.huntintel.io/"
+            },
+            {
+                "name": "Twitter Cache",
+                "url": "https://cache.digitaldigging.org/"
             }
         ]
     },
@@ -5441,6 +5493,10 @@
             {
                 "name": "CrossLinked",
                 "url": "https://github.com/m8sec/CrossLinked"
+            },
+            {
+                "name": "intelx Linkedin",
+                "url": "https://intelx.io/tools?tab=linkedin"
             }
         ]
     },
@@ -5870,6 +5926,10 @@
             {
                 "name": "voilanorbert",
                 "url": "https://www.voilanorbert.com/"
+            },
+            {
+                "name": "cleantalk - email validation",
+                "url": "https://cleantalk.org/email-checker"
             }
         ]
     },
@@ -6390,6 +6450,18 @@
             {
                 "name": "t.me/s/<change username>",
                 "url": "https://t.me/s/PREVIEWCHANNEL"
+            },
+            {
+                "name": "A Telegram Mass Surveillance Bot in Python",
+                "url": "https://github.com/paulpierre/informer"
+            },
+            {
+                "name": "TGRAM",
+                "url": "https://tgram.io/"
+            },
+            {
+                "name": "Telethon",
+                "url": "https://github.com/LonamiWebs/Telethon"
             }
         ]
     },
@@ -8780,6 +8852,10 @@
             {
                 "name": "breadcrumbs",
                 "url": "https://www.breadcrumbs.app/"
+            },
+            {
+                "name": "tonscan",
+                "url": "https://tonscan.org/"
             }
         ]
     },
@@ -9928,6 +10004,66 @@
             {
                 "name": "deepweblinks - other lists",
                 "url": "https://deepweblinks.net/"
+            },
+            {
+                "name": "Ahmia Onion Site (onion link)",
+                "url": "http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion/"
+            },
+            {
+                "name": "Haystak Onion Site (onion link)",
+                "url": "http://haystak5njsmn2hqkewecpaxetahtwhsbsa64jom2k22z5afxhnpxfid.onion/"
+            },
+            {
+                "name": "Dark Search Onion Site (onion link)",
+                "url": "http://darkschn4iw2hxvpv2vy2uoxwkvs2padb56t3h4wqztre6upoc5qwgid.onion"
+            },
+            {
+                "name": "Tor66 Onion Site (onion link)",
+                "url": "http://tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion/"
+            },
+            {
+                "name": "Torch (onion link)",
+                "url": "http://xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega"
+            },
+            {
+                "name": "Onion Land Search (onion link)",
+                "url": "http://3bbad7fauom4d6sgppalyqddsqbf5u5p56b5k5uk2zxsy3d6ey2jobad.onion/"
+            },
+            {
+                "name": "Not Evil (onion link)",
+                "url": "http://hss3uro2hsxfogfq.onion/"
+            },
+            {
+                "name": "Visitor (onion link)",
+                "url": "http://visitorfi5kl7q7i.onion/"
+            },
+            {
+                "name": "onion live",
+                "url": "https://onion.live/"
+            },
+            {
+                "name": "tor link",
+                "url": "https://tor.link"
+            },
+            {
+                "name": "Tor Taxi (onion link)",
+                "url": "http://tortaxi2dev6xjwbaydqzla77rrnth7yn2oqzjfmiuwn5h6vsk2a4syd.onion/"
+            },
+            {
+                "name": "Dark Fail (onion link)",
+                "url": "http://darkfailenbsdla5mal2mxn2uz66od5vtzd5qozslagrfzachha3f3id.onion/"
+            },
+            {
+                "name": "OnionLand (onion link)",
+                "url": "http://3bbad7fauom4d6sgppalyqddsqbf5u5p56b5k5uk2zxsy3d6ey2jobad.onion"
+            },
+            {
+                "name": "DarkWebSitesLinks (onion link)",
+                "url": "http://darkwev6xtagl7742tqu24v2j4namr5ocfsfpha74a5nh4bwyp27a3ad.onion"
+            },
+            {
+                "name": "Tor Links (onion link)",
+                "url": "http://torlinksge6enmcyyuxjpjkoouw4oorgdgeo7ftnq3zodj7g2zxi3kyd.onion"
             }
         ]
     },
@@ -10137,6 +10273,46 @@
             {
                 "name": "robin",
                 "url": "https://github.com/apurvsinghgautam/robin"
+            },
+            {
+                "name": "Ahmia Onion Site (onion link)",
+                "url": "http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion/"
+            },
+            {
+                "name": "Haystak Onion Site (onion link)",
+                "url": "http://haystak5njsmn2hqkewecpaxetahtwhsbsa64jom2k22z5afxhnpxfid.onion/"
+            },
+            {
+                "name": "Dark Search Onion Site (onion link)",
+                "url": "http://darkschn4iw2hxvpv2vy2uoxwkvs2padb56t3h4wqztre6upoc5qwgid.onion"
+            },
+            {
+                "name": "Tor66 Onion Site (onion link)",
+                "url": "http://tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion/"
+            },
+            {
+                "name": "Torch (onion link)",
+                "url": "http://xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega"
+            },
+            {
+                "name": "Onion Land Search (onion link)",
+                "url": "http://3bbad7fauom4d6sgppalyqddsqbf5u5p56b5k5uk2zxsy3d6ey2jobad.onion/"
+            },
+            {
+                "name": "onion live",
+                "url": "https://onion.live/"
+            },
+            {
+                "name": "Tor Taxi (onion link)",
+                "url": "http://tortaxi2dev6xjwbaydqzla77rrnth7yn2oqzjfmiuwn5h6vsk2a4syd.onion/"
+            },
+            {
+                "name": "Dark Fail (onion link)",
+                "url": "http://darkfailenbsdla5mal2mxn2uz66od5vtzd5qozslagrfzachha3f3id.onion/"
+            },
+            {
+                "name": "Darkweb labs settup",
+                "url": "https://hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf"
             }
         ]
     },
@@ -16002,6 +16178,14 @@
             {
                 "name": "virtualbox",
                 "url": "https://www.virtualbox.org/"
+            },
+            {
+                "name": "Google Cloud",
+                "url": "https://cloud.google.com/products/compute"
+            },
+            {
+                "name": "Digital Ocean",
+                "url": "https://www.paperspace.com/pricing"
             }
         ]
     },
@@ -17010,6 +17194,10 @@
             {
                 "name": "Zeronet",
                 "url": "https://zeronet.io/"
+            },
+            {
+                "name": "myosint",
+                "url": "https://www.myosint.training/pages/free-resources"
             }
         ]
     },
