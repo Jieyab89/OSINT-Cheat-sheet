@@ -159,6 +159,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [CSE SOCMINT tools search](https://cse.google.com/cse?cx=029ffbc44aa3946cb#gsc.tab=0&gsc.sort=&gsc.ref=more%3Afb)
 - [CSE Search comment](https://cse.google.com/cse?cx=006368593537057042503:ig4r3rz35qi#gsc.tab=0)
 - [voilanorbert](https://www.voilanorbert.com/)
+- [freepeoplesearchtool](https://freepeoplesearchtool.com/)
 
 # Collection Dataset
 
@@ -231,6 +232,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [Eyes NASA](https://eyes.nasa.gov/)
 - [UNOSAT Gaza Emergency Response Data Hub](https://gaza-unosat.hub.arcgis.com/pages/data)
 - [opengeos](https://github.com/opengeos)
+- [Github data wayback machine](https://www.gharchive.org/)
 
 # Forums & Sites
 
@@ -485,6 +487,8 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [netlas.io](https://app.netlas.io/host/)
 - [godaddy](https://www.godaddy.com/en)
 - [socradar](https://socradar.io/labs/)
+- [ReconDog](https://github.com/s0md3v/ReconDog)
+- [OSINT rock](https://osint.rocks/)
 
 *Tips web cache 
 
@@ -1323,6 +1327,7 @@ Example
 - [spokeo](https://www.spokeo.com/)
 - [TrueCaller Tele Bot](https://t.me/TrueCaller_Z_Bot)
 - [SNS masking](https://smsviro.com/home/#pricing)
+- [OSINT rock](https://osint.rocks/)
 
 Pro Tips
 
@@ -1336,6 +1341,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 
 # Finding Usernames
 
+- [OSINT rock](https://osint.rocks/)
 - [clatscope](https://github.com/clats97/clatscope)
 - [onchain](https://www.onchain.industries/)
 - [OSINT indsutries](https://www.osint.industries/)
@@ -1450,6 +1456,8 @@ or you can use dork for spesific example
 - [Facebook search photo](https://cse.google.com/cse?cx=013991603413798772546:jyvyp2ppxma#gsc.tab=0)
 - [Facebook custom search](https://cse.google.com/cse?cx=95ae46262a5f2958e)
 - [Get account ID Facebook](https://commentpicker.com/)
+- [Intelx Facebook](https://intelx.io/tools?tab=facebook)
+- [Check email and phone num on facebook](https://web.facebook.com/login/identify?ctx=recover&_rdc=1&_rdr#)
 
 # OnlyFans
 
@@ -1536,6 +1544,8 @@ or you can use dork for spesific example
 - [dumpor](https://dumpor.io/)
 - [greatfon](https://greatfon.io/)
 - [instaclip](https://instaclip.app/)
+- [fameswap](https://fameswap.com/tool-instagram-user-id)
+- [instahunt](https://instahunt.huntintel.io/)
 
 # Microsoft OneDrive 
 
@@ -1642,13 +1652,16 @@ or you can use dork for spesific example
 - [twtdata](https://www.twtdata.com/)
 - [botsentinel](https://botsentinel.com/dashboard)
 - [bluesky-crossposter](https://github.com/Linus2punkt0/bluesky-crossposter)
-- [Get account ID Facebook](https://commentpicker.com/)
+- [Get account ID Facebook and Twitter](https://commentpicker.com/)
+- [Get ID Twitter](https://tweeterid.com/)
+- [birdhunt 2](https://birdhunt.huntintel.io/)
 
 Twitter Search Engine 
 
 - [inteltechniques](http://inteltechniques.com/osint/twitter.html)
 - [twitter lolarchiver](https://twitter.lolarchiver.com/)
 - [Geoint CSE search](https://cse.google.com/cse?cx=015328649639895072395:sbv3zyxzmji#gsc.tab=0&gsc.sort=)
+- [Twitter Cache](https://cache.digitaldigging.org/)
 
 # Snapchat 
 
@@ -1678,6 +1691,7 @@ Google queries for LinkedIn
 - [coresignal](https://coresignal.com/)
 - [Linkedin Attack Vector](https://www.osintdojo.com/diagrams/linkedin)
 - [CrossLinked](https://github.com/m8sec/CrossLinked)
+- [intelx Linkedin](https://intelx.io/tools?tab=linkedin)
 
 # MySpace
 
@@ -1812,6 +1826,7 @@ Google queries for MySpace
 - [clatscope](https://github.com/clats97/clatscope)
 - [darkradar](https://www.darkradar.io/mail-breach)
 - [voilanorbert](https://www.voilanorbert.com/)
+- [cleantalk - email validation](https://cleantalk.org/email-checker)
 
 # PGP or GPG Keybase 
 
@@ -1953,6 +1968,9 @@ Search channel, username, bot and anymore
 - [Collection Wayback Machine Tele](https://archive.org/details/archiveteam_telegram)
 - [OSINT.ME CSE](https://cse.google.com/cse?cx=6c3e0c0d3da8e3b4a)
 - [Tele search CSE](https://cse.google.com/cse?cx=004805129374225513871%3Ap8lhfo0g3hg)
+- [A Telegram Mass Surveillance Bot in Python](https://github.com/paulpierre/informer)
+- [TGRAM](https://tgram.io/)
+- [Telethon](https://github.com/LonamiWebs/Telethon)
 
 Telegram Tips 
 
@@ -2645,6 +2663,7 @@ Transaction Analysis
 - [ARKHAM INTEL](https://intel.arkm.com/)
 - [onchain industries](https://www.onchain.industries/)
 - [breadcrumbs](https://www.breadcrumbs.app/)
+- [tonscan](https://tonscan.org/)
 
 # Cell Investigation
 
@@ -2962,16 +2981,16 @@ Guides
 - [darknetlive](https://darknetlive.com/onions)
 - [ransomwatch](https://ransomwatch.telemetry.ltd/#/)
 - [watchguard ransomtracker](https://www.watchguard.com/wgrd-security-hub/ransomware-tracker)
-- [Ahmia Onion Site](http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion/)
-- [Haystak Onion Site](http://haystak5njsmn2hqkewecpaxetahtwhsbsa64jom2k22z5afxhnpxfid.onion/)
-- [Dark Search Onion Site](http://darkschn4iw2hxvpv2vy2uoxwkvs2padb56t3h4wqztre6upoc5qwgid.onion)
-- [Tor66 Onion Site](http://tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion/)
-- [Torch](http://xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega)
+- [Ahmia Onion Site (onion link)](http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion/)
+- [Haystak Onion Site (onion link)](http://haystak5njsmn2hqkewecpaxetahtwhsbsa64jom2k22z5afxhnpxfid.onion/)
+- [Dark Search Onion Site (onion link)](http://darkschn4iw2hxvpv2vy2uoxwkvs2padb56t3h4wqztre6upoc5qwgid.onion)
+- [Tor66 Onion Site (onion link)](http://tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion/)
+- [Torch (onion link)](http://xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega)
 - [Darkowl](https://www.darkowl.com/)
 - [Digital Shadows](https://www.maltego.com/transform-hub/digital-shadows/)
 - [Onion Live](https://onion.live/)
 - [ATII](https://followmoneyfightslavery.org/)
-- [Onion Land Search](http://3bbad7fauom4d6sgppalyqddsqbf5u5p56b5k5uk2zxsy3d6ey2jobad.onion/)
+- [Onion Land Search (onion link)](http://3bbad7fauom4d6sgppalyqddsqbf5u5p56b5k5uk2zxsy3d6ey2jobad.onion/)
 - [hunchly](https://www.hunch.ly/)
 - [hunch darkweb guide](https://www.hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf)
 - [darkweblinks](https://darkweblinks.io/)
@@ -2979,9 +2998,16 @@ Guides
 - [hunch ly](https://www.hunch.ly/darkweb-osint/)
 - [DarkWeb Archive - Active Japan lang](https://darkweb-archive.activetk.jp/)
 - [iaca-darkweb-tools](https://iaca-darkweb-tools.com/search-darkweb/)
-- [Not Evil](http://hss3uro2hsxfogfq.onion/)
-- [Visitor](http://visitorfi5kl7q7i.onion/)
+- [Not Evil (onion link)](http://hss3uro2hsxfogfq.onion/)
+- [Visitor (onion link)](http://visitorfi5kl7q7i.onion/)
 - [deepweblinks - other lists](https://deepweblinks.net/)
+- [onion live](https://onion.live/)
+- [tor link](https://tor.link)
+- [Tor Taxi (onion link)](http://tortaxi2dev6xjwbaydqzla77rrnth7yn2oqzjfmiuwn5h6vsk2a4syd.onion/)
+- [Dark Fail (onion link)](http://darkfailenbsdla5mal2mxn2uz66od5vtzd5qozslagrfzachha3f3id.onion/)
+- [OnionLand (onion link)](http://3bbad7fauom4d6sgppalyqddsqbf5u5p56b5k5uk2zxsy3d6ey2jobad.onion)
+- [DarkWebSitesLinks (onion link)](http://darkwev6xtagl7742tqu24v2j4namr5ocfsfpha74a5nh4bwyp27a3ad.onion)
+- [Tor Links (onion link)](http://torlinksge6enmcyyuxjpjkoouw4oorgdgeo7ftnq3zodj7g2zxi3kyd.onion )
 
 # Darkweb Intelligence
 
@@ -3010,16 +3036,16 @@ Guides
 - [sizeof](https://sizeof.cat/archive/)
 - [dailydarkweb](https://dailydarkweb.net/)
 - [darkwebinformer](https://darkwebinformer.com/)
-- [Ahmia Onion Site](http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion/)
-- [Haystak Onion Site](http://haystak5njsmn2hqkewecpaxetahtwhsbsa64jom2k22z5afxhnpxfid.onion/)
-- [Dark Search Onion Site](http://darkschn4iw2hxvpv2vy2uoxwkvs2padb56t3h4wqztre6upoc5qwgid.onion)
-- [Tor66 Onion Site](http://tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion/)
-- [Torch](http://xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega)
+- [Ahmia Onion Site (onion link)](http://juhanurmihxlp77nkq76byazcldy2hlmovfu2epvl5ankdibsot4csyd.onion/)
+- [Haystak Onion Site (onion link)](http://haystak5njsmn2hqkewecpaxetahtwhsbsa64jom2k22z5afxhnpxfid.onion/)
+- [Dark Search Onion Site (onion link)](http://darkschn4iw2hxvpv2vy2uoxwkvs2padb56t3h4wqztre6upoc5qwgid.onion)
+- [Tor66 Onion Site (onion link)](http://tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion/)
+- [Torch (onion link)](http://xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/cgi-bin/omega/omega)
 - [Darkowl](https://www.darkowl.com/)
 - [Digital Shadows](https://www.maltego.com/transform-hub/digital-shadows/)
 - [Onion Live](https://onion.live/)
 - [ATII](https://followmoneyfightslavery.org/)
-- [Onion Land Search](http://3bbad7fauom4d6sgppalyqddsqbf5u5p56b5k5uk2zxsy3d6ey2jobad.onion/)
+- [Onion Land Search (onion link)](http://3bbad7fauom4d6sgppalyqddsqbf5u5p56b5k5uk2zxsy3d6ey2jobad.onion/)
 - [hunchly](https://www.hunch.ly/)
 - [hunch darkweb guide](https://www.hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf)
 - [darkweblinks](https://darkweblinks.io/)
@@ -3036,6 +3062,14 @@ Guides
 - [Dakint](https://start.me/p/Nx0e6O/darkint)
 - [socradar](https://socradar.io/labs/)
 - [robin](https://github.com/apurvsinghgautam/robin)
+- [onion live](https://onion.live/)
+- [tor link](https://tor.link)
+- [Tor Taxi (onion link)](http://tortaxi2dev6xjwbaydqzla77rrnth7yn2oqzjfmiuwn5h6vsk2a4syd.onion/)
+- [Dark Fail (onion link)](http://darkfailenbsdla5mal2mxn2uz66od5vtzd5qozslagrfzachha3f3id.onion/)
+
+Guide 
+
+- [Darkweb labs settup](https://hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf)
 
 # Digital Forensics
 
@@ -4752,6 +4786,8 @@ You can use for study academic literature, search book, people name, old archive
 - [Docker](https://www.docker.com/) Build your docker image or virtual host 
 - [vmware](https://www.vmware.com/) Create your Virutal Machine or fake host. You can also make automated OS like scheduler to run service within anonymous network and etc for OPSEC 
 - [virtualbox](https://www.virtualbox.org/) Create your Virutal Machine or fake host. You can also make automated OS like scheduler to run service within anonymous network and etc for OPSEC 
+- [Google Cloud](https://cloud.google.com/products/compute) Create your own host or labs using Google cloud 
+- [Digital Ocean](https://www.paperspace.com/pricing) Create your own labs with high vga with rent digital ocean cloud
 
 # OSINT Journalism Project
 
@@ -5104,6 +5140,10 @@ Browser List
 - [TOR](https://www.torproject.org)
 - [Whonix](https://www.whonix.org/)
 - [Zeronet](https://zeronet.io/)
+
+Bookmark OSINT tools list 
+
+- [myosint](https://www.myosint.training/pages/free-resources)
 
 # OSINT Astronomy
 
