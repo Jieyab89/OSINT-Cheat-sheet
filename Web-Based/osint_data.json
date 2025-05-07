@@ -4058,6 +4058,22 @@
             {
                 "name": "ID Pejabat rekam jejak",
                 "url": "https://rekamjejak.net/direktori?query=&category=&party=&page=1&limit=9"
+            },
+            {
+                "name": "huggingface Face-Search-Online",
+                "url": "https://huggingface.co/spaces/FaceOnLive/Face-Search-Online"
+            },
+            {
+                "name": "faceseek",
+                "url": "https://faceseek.online/"
+            },
+            {
+                "name": "lenso",
+                "url": "https://lenso.ai/en"
+            },
+            {
+                "name": "berify",
+                "url": "https://berify.com/"
             }
         ]
     },
@@ -6853,6 +6869,26 @@
             {
                 "name": "Face Similarity Test Online",
                 "url": "https://facecomparison.toolpie.com/"
+            },
+            {
+                "name": "huggingface Face-Search-Online",
+                "url": "https://huggingface.co/spaces/FaceOnLive/Face-Search-Online"
+            },
+            {
+                "name": "faceseek",
+                "url": "https://faceseek.online/"
+            },
+            {
+                "name": "lenso",
+                "url": "https://lenso.ai/en"
+            },
+            {
+                "name": "faceonlive",
+                "url": "https://faceonlive.com/face-search-online/#search-panel"
+            },
+            {
+                "name": "socialcatfish",
+                "url": "https://socialcatfish.com/reverse-image-search/"
             }
         ]
     },
@@ -15226,6 +15262,10 @@
             {
                 "name": "forbiddenstories",
                 "url": "https://forbiddenstories.org/en-fadi-al-wahidi-shot-press-gaza/"
+            },
+            {
+                "name": "doublethinklab",
+                "url": "https://doublethinklab.org/"
             }
         ]
     },
@@ -16145,6 +16185,26 @@
             {
                 "name": "urbandictionary",
                 "url": "https://www.urbandictionary.com/"
+            },
+            {
+                "name": "urbandictionary - contain slang",
+                "url": "https://www.urbandictionary.com/"
+            },
+            {
+                "name": "greensdictofslang",
+                "url": "https://greensdictofslang.com/"
+            },
+            {
+                "name": "youglish",
+                "url": "https://youglish.com/"
+            },
+            {
+                "name": "wiktionary",
+                "url": "https://en.wiktionary.org/wiki/Wiktionary:Main_Page"
+            },
+            {
+                "name": "digitalcultures",
+                "url": "https://digitalcultures.net/"
             }
         ]
     },
@@ -16324,6 +16384,10 @@
             {
                 "name": "Audio AI Deepfake Detection",
                 "url": "https://detect.resemble.ai/"
+            },
+            {
+                "name": "DeepFake Detector",
+                "url": "https://huggingface.co/spaces/FaceOnLive/Deepfake-Detector"
             }
         ]
     },
