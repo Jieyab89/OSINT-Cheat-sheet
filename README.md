@@ -1234,6 +1234,10 @@ Example
 - [ID SIKAP CARI PELAKU USAHA](https://sikap.lkpp.go.id/pelaku-usaha/cari)
 - [ID Pejabat rekam jejak](https://rekamjejak.net/direktori?query=&category=&party=&page=1&limit=9)
 - [truepeoplesearch](https://truepeoplesearch.com/)
+- [huggingface Face-Search-Online](https://huggingface.co/spaces/FaceOnLive/Face-Search-Online)
+- [faceseek](https://faceseek.online/)
+- [lenso](https://lenso.ai/en)
+- [berify](https://berify.com/)
 
 # Family People Search 
 
@@ -2086,6 +2090,11 @@ Telegram Tips
 - [copyseeker](https://copyseeker.net/)
 - [infringement image search](https://infringement.report/api/raider-reverse-image-search/)
 - [Face Similarity Test Online](https://facecomparison.toolpie.com/)
+- [huggingface Face-Search-Online](https://huggingface.co/spaces/FaceOnLive/Face-Search-Online)
+- [faceseek](https://faceseek.online/)
+- [lenso](https://lenso.ai/en)
+- [faceonlive](https://faceonlive.com/face-search-online/#search-panel)
+- [socialcatfish](https://socialcatfish.com/reverse-image-search/)
 
 # Image Analysis
 
@@ -4479,6 +4488,7 @@ Search News Journalist and Documentary Sites
 - [ID Komdigi MPN Library](https://mpn.komdigi.go.id/perpus/index.php)
 - [ID Komdigi MPN](https://mpn.komdigi.go.id/arsip/)
 - [forbiddenstories](https://forbiddenstories.org/en-fadi-al-wahidi-shot-press-gaza/)
+- [doublethinklab](https://doublethinklab.org/)
 
 Social Media Analytics
 
@@ -4778,7 +4788,14 @@ You can use for study academic literature, search book, people name, old archive
 - [World map Country, language, writing system](https://www.key-shortcut.com/en/writing-systems/world-map-of-alphabets-scripts#map)
 - [chatgpt](https://chatgpt.com/)
 - [2lingual](https://2lingual.com/)
-- [urbandictionary](https://www.urbandictionary.com/)
+
+Slang Language
+
+- [urbandictionary - contain slang](https://www.urbandictionary.com/)
+- [greensdictofslang](https://greensdictofslang.com/)
+- [youglish](https://youglish.com/)
+- [wiktionary](https://en.wiktionary.org/wiki/Wiktionary:Main_Page)
+- [digitalcultures](https://digitalcultures.net/)
 
 # OSINT OPSEC 
 
@@ -4835,6 +4852,7 @@ Guide Journalist
 - [restream](https://restream.io/tools/transcribe-video-to-text)
 - [detect-ai-images](https://detect-ai-images.web.app/)
 - [Audio AI Deepfake Detection](https://detect.resemble.ai/)
+- [DeepFake Detector](https://huggingface.co/spaces/FaceOnLive/Deepfake-Detector)
 
 # OSINT Similarity (Plagiarism)
 
