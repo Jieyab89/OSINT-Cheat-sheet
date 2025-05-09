@@ -2862,6 +2862,7 @@ Build your own deepfake
 - [liveportrait animate your photo](https://liveportrait.org/)
 - [LivePortrait](https://github.com/KwaiVGI/LivePortrait)
 - [stargan-v2](https://github.com/clovaai/stargan-v2)
+- [inZOI](https://store.steampowered.com/app/2456740/inZOI/)
 
 Virtual Camera 
 
