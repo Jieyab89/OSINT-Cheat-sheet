@@ -9636,6 +9636,10 @@
             {
                 "name": "pict2cam",
                 "url": "https://github.com/adriangl/pict2cam?tab=readme-ov-file"
+            },
+            {
+                "name": "inZOI",
+                "url": "https://store.steampowered.com/app/2456740/inZOI/"
             }
         ]
     },
@@ -17423,6 +17427,10 @@
             {
                 "name": "OSINT for Historical",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Historical"
+            },
+            {
+                "name": "All About OSINT Matters Things in OSINT",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-OSINT-Matters-Things-in-OSINT"
             }
         ]
     },
