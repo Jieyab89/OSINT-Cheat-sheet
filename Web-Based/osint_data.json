@@ -6889,6 +6889,10 @@
             {
                 "name": "socialcatfish",
                 "url": "https://socialcatfish.com/reverse-image-search/"
+            },
+            {
+                "name": "flickr map",
+                "url": "https://www.flickr.com/map"
             }
         ]
     },
@@ -7267,6 +7271,10 @@
             {
                 "name": "imgur",
                 "url": "https://imgur.com/"
+            },
+            {
+                "name": "flickr map",
+                "url": "https://www.flickr.com/map"
             }
         ]
     },
@@ -12221,6 +12229,10 @@
             {
                 "name": "EMSA",
                 "url": "https://www.emsa.europa.eu/"
+            },
+            {
+                "name": "balticshipping",
+                "url": "https://www.balticshipping.com/"
             }
         ]
     },
@@ -17130,6 +17142,14 @@
             {
                 "name": "asus",
                 "url": "https://www.asus.com/support/warranty-status-inquiry/"
+            },
+            {
+                "name": "ifixit IT",
+                "url": "https://it.ifixit.com/Device/Other_OS_Phone"
+            },
+            {
+                "name": "ifixit EN",
+                "url": "https://www.ifixit.com/"
             }
         ]
     },
@@ -17481,6 +17501,23 @@
             {
                 "name": "SpaceEngine Game",
                 "url": "https://store.steampowered.com/app/314650/SpaceEngine/"
+            },
+            {
+                "name": "lightpollutionmap",
+                "url": "https://www.lightpollutionmap.info/"
+            }
+        ]
+    },
+    {
+        "category": "OSINT Playground",
+        "items": [
+            {
+                "name": "challenge bellincgcat",
+                "url": "https://challenge.bellingcat.com/"
+            },
+            {
+                "name": "tracelabs",
+                "url": "https://www.tracelabs.org/"
             }
         ]
     }
