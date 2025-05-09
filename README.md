@@ -2045,7 +2045,8 @@ Telegram Tips
 - [Baidu Images](http://image.baidu.com)
 - [Bing Images](http://www.bing.com/images)
 - [Clarify](http://clarify.io)
-- [Flickr](https://secure.flickr.com)
+- [Flickr](https://flickr.com/search)
+- [flickr map](https://www.flickr.com/map)
 - [GoodSearch Image Search](http://www.goodsearch.com/search-image)
 - [Google Image](https://images.google.com)
 - [Image Identification Project](https://www.imageidentify.com)
@@ -2168,7 +2169,7 @@ Telegram Tips
 # Stock Images
 
 - [UNRWA photoshelter](https://unrwa.photoshelter.com/search)
-- [Flickr](https://secure.flickr.com)
+- [Flickr](https://flickr.com/search)
 - [pexels](https://www.pexels.com/)
 - [AlltheFreeStock](http://allthefreestock.com)
 - [Death to Stock](http://deathtothestockphoto.com)
@@ -2193,6 +2194,7 @@ Telegram Tips
 - [Pixiv](https://www.pixiv.net/en/)
 - [gettyimages](https://www.gettyimages.com/)
 - [imgur](https://imgur.com/)
+- [flickr map](https://www.flickr.com/map)
 
 # Video Search and Other Video Tools
 
@@ -3594,6 +3596,7 @@ Public Transport
 - [opencpn GPS Navigation Software](https://opencpn.org/OpenCPN/info/about.html)
 - [incidentnews NOOA](https://incidentnews.noaa.gov/map)
 - [EMSA](https://www.emsa.europa.eu/)
+- [balticshipping](https://www.balticshipping.com/)
 
 # Railways
 
@@ -5082,12 +5085,13 @@ Getting info for device and hardware info and emulator
 - [hardreset](https://www.hardreset.info/)
 - [3u tool](https://www.3u.com/)
 - [Old Device or Phone](https://www.mobilephonemuseum.com/catalogue)
-- [ifixit](https://it.ifixit.com/Device/Other_OS_Phone)
+- [ifixit IT](https://it.ifixit.com/Device/Other_OS_Phone)
 - [scrcpy](https://github.com/Genymobile/scrcpy/releases)
 - [Android Studio](https://developer.android.com/studio)
 - [NOX](https://www.bignox.com/)
 - [mumuplayer](https://www.mumuplayer.com/index.html)
 - [ldplayer](https://id.ldplayer.net/)
+- [ifixit EN](https://www.ifixit.com/)
 
 Smartphone & Devices (Check coverage)
 
@@ -5189,3 +5193,9 @@ Bookmark OSINT tools list
 - [esahubble](https://esahubble.org/)
 - [timeanddate](https://www.timeanddate.com/moon/phases/)
 - [SpaceEngine Game](https://store.steampowered.com/app/314650/SpaceEngine/)
+- [lightpollutionmap](https://www.lightpollutionmap.info/)
+
+# OSINT Playground 
+
+- [challenge bellincgcat](https://challenge.bellingcat.com/)
+- [tracelabs](https://www.tracelabs.org/)
