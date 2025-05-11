@@ -81,6 +81,7 @@
 - [How to Investigate a Cryptocurrency Scammer](https://www.onchain.industries/blog/how-to-investigate-a-cryptocurrency-scammer)
 - [Unique 0-click deanonymization attack targeting Signal, Discord and hundreds of platform](https://gist.github.com/hackermondev/45a3cdfa52246f1d1201c1e8cdef6117)
 - [google initiative news - Basic GEE](https://newsinitiative.withgoogle.com/resources/trainings/introduction-to-google-earth-engine/)
+- [OSINT TIPS AND GUIDE](https://ohshint.gitbook.io/oh-shint-its-a-blog/osint/osint-protips)
 
 # Vehicle
 
