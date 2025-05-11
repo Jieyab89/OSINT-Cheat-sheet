@@ -1,15 +1,14 @@
 import requests
 import json
 import os
+from bs4 import BeautifulSoup
 
-# Arr URL'S
-urls = [
-    "https://raw.githubusercontent.com/Jieyab89/OSINT-Cheat-sheet/refs/heads/main/README.md",
-    "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki"
-]
-
-response = requests.get(urls[0])
-data = response.text
+# Arr URLs
+urls = {
+    "readme": "https://raw.githubusercontent.com/Jieyab89/OSINT-Cheat-sheet/refs/heads/main/README.md",
+    "wiki": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki",
+    "articles": "https://raw.githubusercontent.com/Jieyab89/OSINT-Cheat-sheet/main/awesome-article.md"
+}
 
 json_file = os.path.join(os.pardir, "osint_data.json")
 
@@ -26,37 +25,51 @@ existing_categories = {cat["category"]: cat for cat in existing_data}
 new_categories = {}
 current_category = None
 
-for line in data.split("\n"):
-    line = line.strip()
+def parse_markdown_md(url):
+    response = requests.get(url)
+    if response.status_code != 200:
+        print(f"[-] Failed to fetch: {url}")
+        return {}
 
-    if line.startswith("# "):  
-        current_category = line[2:].strip()
-        if current_category not in new_categories:
-            new_categories[current_category] = {"category": current_category, "items": []}
+    parsed = {}
+    current_cat = None
 
-    elif line.startswith("- [") and "](" in line:  
-        parts = line.split("[", 1)[1].split("](")
-        name = parts[0].strip()
-        link = parts[1].split(")")[0].strip()
+    for line in response.text.split("\n"):
+        line = line.strip()
 
-        if current_category:
-            new_categories[current_category]["items"].append({"name": name, "url": link})
+        if line.startswith("# "):
+            current_cat = line[2:].strip()
+            parsed[current_cat] = {"category": current_cat, "items": []}
 
-wiki_category = "Jieyab89 Wiki Pages"
-wiki_items = []
+        elif line.startswith("- [") and "](" in line:
+            parts = line.split("[", 1)[1].split("](")
+            name = parts[0].strip()
+            link = parts[1].split(")")[0].strip()
+            if current_cat:
+                parsed[current_cat]["items"].append({"name": name, "url": link})
 
-wiki_response = requests.get(urls[1])
-if wiki_response.status_code == 200:
-    from bs4 import BeautifulSoup
-    soup = BeautifulSoup(wiki_response.text, "html.parser")
-    
-    for link in soup.select(".wiki-pages-box a"):  
+    return parsed
+
+def parse_github_wiki(url):
+    wiki_items = []
+    response = requests.get(url)
+    if response.status_code != 200:
+        print(f"[-] Failed to fetch: {url}")
+        return {}
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    for link in soup.select(".wiki-pages-box a"):
         title = link.text.strip()
         page_url = "https://github.com" + link["href"]
         wiki_items.append({"name": title, "url": page_url})
 
-if wiki_items:
-    new_categories[wiki_category] = {"category": wiki_category, "items": wiki_items}
+    if wiki_items:
+        return {"Jieyab89 Wiki Pages": {"category": "Jieyab89 Wiki Pages", "items": wiki_items}}
+    return {}
+
+new_categories.update(parse_markdown_md(urls["readme"]))
+new_categories.update(parse_markdown_md(urls["articles"]))
+new_categories.update(parse_github_wiki(urls["wiki"]))
 
 for category, new_data in new_categories.items():
     if category in existing_categories:

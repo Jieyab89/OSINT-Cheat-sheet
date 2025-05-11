@@ -171,6 +171,14 @@
             {
                 "name": "freepeoplesearchtool",
                 "url": "https://freepeoplesearchtool.com/"
+            },
+            {
+                "name": "Information Hackers Find in the Background of Your Social Media Photos",
+                "url": "https://medium.com/digital-marketing-lab/subtle-information-hackers-find-in-the-background-of-your-social-media-photos-938ec1876246"
+            },
+            {
+                "name": "Find Twitter ID with wayback",
+                "url": "https://popzazzle.blogspot.com/2019/05/twitter-detective-masterhack-how-to-retrospectively-find-twitter-user-id.html?m=1"
             }
         ]
     },
@@ -1991,6 +1999,14 @@
             {
                 "name": "socradar",
                 "url": "https://socradar.io/labs/"
+            },
+            {
+                "name": "Cuckoo",
+                "url": "https://cuckoo.readthedocs.io/en/latest/installation/host/installation/"
+            },
+            {
+                "name": "Awesome list malware analysis",
+                "url": "https://github.com/rshipp/awesome-malware-analysis"
             }
         ]
     },
@@ -2591,6 +2607,30 @@
             {
                 "name": "Malware Sample and IOC",
                 "url": "https://github.com/rivitna/Malware"
+            },
+            {
+                "name": "Cuckoo",
+                "url": "https://cuckoo.readthedocs.io/en/latest/installation/host/installation/"
+            },
+            {
+                "name": "autoruns",
+                "url": "https://learn.microsoft.com/id-id/sysinternals/downloads/autoruns"
+            },
+            {
+                "name": "Awesome list malware analysis",
+                "url": "https://github.com/rshipp/awesome-malware-analysis"
+            },
+            {
+                "name": "Process Hacker",
+                "url": "https://systeminformer.sourceforge.io/"
+            },
+            {
+                "name": "remnux",
+                "url": "https://remnux.org/"
+            },
+            {
+                "name": "intezer",
+                "url": "https://analyze.intezer.com/scan"
             }
         ]
     },
@@ -8920,6 +8960,18 @@
             {
                 "name": "Blockchain Insights Hub",
                 "url": "https://github.com/nemo-nesciam/Blockchain-Insights-Hub?tab=readme-ov-file"
+            },
+            {
+                "name": "geckoterminal",
+                "url": "https://www.geckoterminal.com/"
+            },
+            {
+                "name": "dexscreener",
+                "url": "https://dexscreener.com/"
+            },
+            {
+                "name": "chainalysis",
+                "url": "https://www.chainalysis.com/blockchain-intelligence/"
             }
         ]
     },
@@ -10686,6 +10738,46 @@
             {
                 "name": "socradar",
                 "url": "https://socradar.io/labs/"
+            },
+            {
+                "name": "intezer",
+                "url": "https://analyze.intezer.com/scan"
+            },
+            {
+                "name": "AnyRun",
+                "url": "https://any.run/"
+            },
+            {
+                "name": "Cuckoo",
+                "url": "https://cuckoo.readthedocs.io/en/latest/installation/host/installation/"
+            },
+            {
+                "name": "autoruns",
+                "url": "https://learn.microsoft.com/id-id/sysinternals/downloads/autoruns"
+            },
+            {
+                "name": "Hybrid Analysis",
+                "url": "https://www.hybrid-analysis.com/"
+            },
+            {
+                "name": "Awesome list malware analysis",
+                "url": "https://github.com/rshipp/awesome-malware-analysis"
+            },
+            {
+                "name": "Process Hacker",
+                "url": "https://systeminformer.sourceforge.io/"
+            },
+            {
+                "name": "regshot",
+                "url": "https://sourceforge.net/projects/regshot/"
+            },
+            {
+                "name": "remnux",
+                "url": "https://remnux.org/"
+            },
+            {
+                "name": "resourcehacker",
+                "url": "https://www.angusj.com/resourcehacker/"
             }
         ]
     },
@@ -12367,6 +12459,18 @@
             {
                 "name": "nari-labs/dia",
                 "url": "https://github.com/nari-labs/dia"
+            },
+            {
+                "name": "xbow - AI offensive security (BETA TEST)",
+                "url": "https://xbow.com/"
+            },
+            {
+                "name": "QWEN AI",
+                "url": "https://chat.qwen.ai/"
+            },
+            {
+                "name": "Roo-Code AI AGENT",
+                "url": "https://github.com/RooVetGit/Roo-Code"
             }
         ]
     },
@@ -14432,6 +14536,10 @@
             {
                 "name": "ADS B Tracking Military Aircraft",
                 "url": "https://www.ads-b.nl/"
+            },
+            {
+                "name": "List of aircraft carriers",
+                "url": "https://en.wikipedia.org/wiki/List_of_aircraft_carriers"
             }
         ]
     },
@@ -15363,6 +15471,10 @@
             {
                 "name": "socradar",
                 "url": "https://socradar.io/labs/"
+            },
+            {
+                "name": "Interpol Int",
+                "url": "https://www-interpol-int.translate.goog/How-we-work/Databases?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=tc"
             }
         ]
     },
@@ -15875,6 +15987,14 @@
             {
                 "name": "Earthquake building damage detection based on synthetic-aperture-radar imagery and machine learning",
                 "url": "https://nhess.copernicus.org/articles/23/789/2023/"
+            },
+            {
+                "name": "Sat selfi by Mark Rober",
+                "url": "https://space.crunchlabs.com/"
+            },
+            {
+                "name": "stuffin space sat map",
+                "url": "https://stuffin.space/"
             }
         ]
     },
@@ -17513,6 +17633,10 @@
             {
                 "name": "lightpollutionmap",
                 "url": "https://www.lightpollutionmap.info/"
+            },
+            {
+                "name": "stuffin space sat map",
+                "url": "https://stuffin.space/"
             }
         ]
     },
@@ -17526,6 +17650,316 @@
             {
                 "name": "tracelabs",
                 "url": "https://www.tracelabs.org/"
+            }
+        ]
+    },
+    {
+        "category": "OSINT CHEAT SHEET - Awesome Article",
+        "items": []
+    },
+    {
+        "category": "OSINT RESOURCES DATASET e.g E-BOOK, TELEGRAM, ARTICLE",
+        "items": [
+            {
+                "name": "Join Telegram channel",
+                "url": "https://t.me/seccodeid"
+            },
+            {
+                "name": "OSINT beginner",
+                "url": "https://t.me/seccodeid/38"
+            },
+            {
+                "name": "OSINT handbook 2022 OSINT information gathering and threat intel",
+                "url": "https://t.me/seccodeid/87"
+            },
+            {
+                "name": "Introducing social media intelligence (SOCMINT)",
+                "url": "https://www.researchgate.net/publication/262869934_Introducing_social_media_intelligence_SOCMINT"
+            }
+        ]
+    },
+    {
+        "category": "Indonesian Article",
+        "items": [
+            {
+                "name": "OSINT Open Source Intelligence Fundamental",
+                "url": "https://blog.seccodeid.com/2022/09/osint-open-source-intelligence.html"
+            },
+            {
+                "name": "OSINT Tutorial Maltego -Open Source Intelligence Free Handbook",
+                "url": "https://blog.tegalsec.org/osint-tutorial-maltego-open-source-intelligence-free-handbook/"
+            },
+            {
+                "name": "Open Source Intelligence - Open Source Threat Intelligence",
+                "url": "https://blog.seccodeid.com/2022/01/open-source-intelligence-open-source.html"
+            },
+            {
+                "name": "Metode pelacakan osint dan keaslian sumber",
+                "url": "https://blog.seccodeid.com/2021/05/metode-pelacakan-osint-dan-keaslian.html"
+            },
+            {
+                "name": "Panduan Untuk Social Media Intelligence Gathering (SOCMINT)",
+                "url": "https://blog.seccodeid.com/2020/08/panduan-untuk-social-media-intelligence.html"
+            },
+            {
+                "name": "OSINT tips and trick technique hunt your target",
+                "url": "https://blog.seccodeid.com/2021/11/httpsblog.seccodeid.com202111osint-tips-and-trick-technique-hunt-id.html.html"
+            },
+            {
+                "name": "Melacak Posisi Berdasarkan LAC dan Cell ID pada Simcard No.Handphone",
+                "url": "https://1sit.blog.amikom.me/2015/05/29/melacak-posisi-berdasarkan-lac-dan-cell-id-pada-simcard-no-handphone/"
+            },
+            {
+                "name": "Identitas BTS",
+                "url": "http://karionotelco.blogspot.com/p/blog-page_6191.html"
+            },
+            {
+                "name": "Bagaimana Lokasi Kita Ditemukan Dengan Triangulasi",
+                "url": "https://medium.com/@adya/bagaimana-lokasi-kita-ditemukan-dengan-triangulasi-3b87796c1dd"
+            },
+            {
+                "name": "Cegah Website Tampilkan Konten Judi Online dengan Cloudflare Worker",
+                "url": "https://mastomi.id/articles/2025-01/cegah-website-tampilkan-konten-judol-dengan-cloudflare-worker"
+            },
+            {
+                "name": "Melacak Pengguna Telegram Menggunakan Fitur People Nearby",
+                "url": "https://candramawa.medium.com/melacak-pengguna-telegram-menggunakan-fitur-people-nearby-bd841f561e36"
+            }
+        ]
+    },
+    {
+        "category": "English Article",
+        "items": [
+            {
+                "name": "Creating Sock Puppets for Your Investigations",
+                "url": "https://www.maltego.com/blog/creating-sock-puppets-for-your-investigations/"
+            },
+            {
+                "name": "Investigative Journalism on Disinformation Campaigns: UC Berkeley Human Rights Center",
+                "url": "https://www.maltego.com/blog/investigative-journalism-on-disinformation-campaigns-uc-berkeley-human-rights-center/"
+            },
+            {
+                "name": "Effective Techniques for Intelligence Analysis",
+                "url": "https://www.maltego.com/blog/effective-techniques-for-intelligence-analysis/"
+            },
+            {
+                "name": "Creating an Effective Sock Puppet for OSINT Investigations – Introduction",
+                "url": "https://web.archive.org/web/20210125191016/https://jakecreps.com/2018/11/02/sock-puppets/"
+            },
+            {
+                "name": "OSINT Tools & Software for Passive & Active Recon & Security!",
+                "url": "https://www.pcwdld.com/osint-tools-and-software#wbounce-modal"
+            },
+            {
+                "name": "OSINT Open Source Intelligence Fundamental",
+                "url": "https://en-blog.seccodeid.com/2022/09/osint-open-source-intelligence.html"
+            },
+            {
+                "name": "Os2int",
+                "url": "https://os2int.com/toolbox/"
+            },
+            {
+                "name": "Types of Threat Intelligence Gathering",
+                "url": "https://socradar.io/types-of-threat-intelligence-gathering/"
+            },
+            {
+                "name": "Learn transform Maltego",
+                "url": "https://www.maltego.com/transform-hub/"
+            },
+            {
+                "name": "Investigation phone Maltego",
+                "url": "https://www.maltego.com/blog/investigating-phone-numbers-with-opencnam-and-ipqualityscore/"
+            },
+            {
+                "name": "Maltego transform phone search",
+                "url": "https://docs.maltego.com/support/solutions/articles/15000033679-phonesearch"
+            },
+            {
+                "name": "OSINT WIFI Tutorial: Track People using WiFi via Wigle",
+                "url": "https://www.ehacking.net/2021/04/osint-wifi-tutorial-track-people-using-wifi-via-wigle.html"
+            },
+            {
+                "name": "Finding location using MCC, MNC, LAC, and Cell ID",
+                "url": "https://stackoverflow.com/questions/18686888/finding-location-using-mcc-mnc-lac-and-cell-id"
+            },
+            {
+                "name": "Cell Tower Triangulation – How it Works",
+                "url": "https://wrongfulconvictionsblog.org/2012/06/01/cell-tower-triangulation-how-it-works/"
+            },
+            {
+                "name": "OSINT Blog",
+                "url": "https://ohshint.gitbook.io/oh-shint-its-a-blog/"
+            },
+            {
+                "name": "Belingcat Investigation",
+                "url": "https://www.bellingcat.com/"
+            },
+            {
+                "name": "dutchosintguy",
+                "url": "https://www.dutchosintguy.com/"
+            },
+            {
+                "name": "sector035",
+                "url": "https://sector035.nl/"
+            },
+            {
+                "name": "Leaked Docs Show What Phones Cellebrite Can (and Can’t) Unlock",
+                "url": "https://www.404media.co/leaked-docs-show-what-phones-cellebrite-can-and-cant-unlock/"
+            },
+            {
+                "name": "Email tracing and hunting",
+                "url": "https://medium.com/hacking-info-sec/how-to-gmail-osint-like-a-boss-1ca4f55f55e2"
+            },
+            {
+                "name": "Bellingcat Hackathon (Awesome OSINT tool)",
+                "url": "https://www.bellingcat.com/resources/2022/10/06/automated-map-searches-scam-busting-tools-and-twitter-search-translations-here-are-the-results-of-bellingcats-second-hackathon/"
+            },
+            {
+                "name": "OSINT in general and removal your data",
+                "url": "https://osintteam.blog/dosint-deceiving-osint-a994724af95f"
+            },
+            {
+                "name": "Geolocation and AI with StreetClip: introduction, country classification and building a web interface",
+                "url": "https://osintteam.blog/geolocation-and-ai-with-streetclip-introduction-country-classification-and-building-a-web-e13bd0e6d857"
+            }
+        ]
+    },
+    {
+        "category": "Satellite Intelligence",
+        "items": [
+            {
+                "name": "conference hitbsecconf",
+                "url": "https://archive.conference.hitb.org/hitbsecconf2011ams/materials/D2T2%20-%20Jim%20Geovedi%20and%20Raoul%20Chiesa%20-%20Hacking%20a%20Bird%20in%20the%20Sky.pdf"
+            },
+            {
+                "name": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Reconnaissance_satellite"
+            },
+            {
+                "name": "allsourceanalysis",
+                "url": "https://allsourceanalysis.com/tag/open-source-intelligence-osint/"
+            },
+            {
+                "name": "Learn Sat Sensor",
+                "url": "https://bellingcat.github.io/RS4OSINT/A2_Remote_Sensing.html"
+            },
+            {
+                "name": "NOOA oil identitification tutorial",
+                "url": "https://response.restoration.noaa.gov/sites/default/files/OWJA_2016.pdf"
+            }
+        ]
+    },
+    {
+        "category": "Signal Intelligence",
+        "items": [
+            {
+                "name": "Worldwide Cellular Tower Data Triangulation for Cell Phone Location Tracking",
+                "url": "https://x-it.medium.com/worldwide-cellular-tower-data-triangulation-for-cell-phone-location-tracking-3c912da78de1"
+            },
+            {
+                "name": "Melacak Posisi Berdasarkan LAC dan Cell ID pada Simcard No.Handphone",
+                "url": "https://1sit.blog.amikom.me/2015/05/29/melacak-posisi-berdasarkan-lac-dan-cell-id-pada-simcard-no-handphone/"
+            },
+            {
+                "name": "karionotelco",
+                "url": "https://karionotelco.blogspot.com/p/blog-page_6191.html"
+            },
+            {
+                "name": "Memperkenalkan LAC-CI",
+                "url": "https://www.slideshare.net/riswan78/introducing-to-location-area-code-cell-id"
+            }
+        ]
+    },
+    {
+        "category": "AI",
+        "items": [
+            {
+                "name": "dutchosintguy Using AI for extracting Usernames, Emails, Phone Numbers, and Personal Names from large datasets",
+                "url": "https://www.dutchosintguy.com/post/using-ai-for-extracting-usernames-emails-phone-numbers-and-personal-names-from-large-datasets"
+            },
+            {
+                "name": "Deepfake Geography: How AI Can Now Falsify Satellite Images",
+                "url": "https://gijn.org/stories/deepfake-geography-how-ai-can-now-falsify-satellite-images/"
+            }
+        ]
+    },
+    {
+        "category": "Guides",
+        "items": [
+            {
+                "name": "Bellingcat",
+                "url": "https://bellingcat.gitbook.io/toolkit/resources/guides-and-handbooks"
+            },
+            {
+                "name": "Dukera Gewel OSINT",
+                "url": "https://publish.obsidian.md/dukera-gewel/about"
+            },
+            {
+                "name": "Soxoj Sowel",
+                "url": "https://sowel.soxoj.com/about"
+            },
+            {
+                "name": "Linkedin Guide",
+                "url": "https://hatless1der.com/new-linkedin-search-features-mean-new-osint-opportunities/"
+            },
+            {
+                "name": "intelligence.eu - Chrome extension for journalist",
+                "url": "https://i-intelligence.eu/insights/the-best-chrome-extensions-for-osint-professionals-researchers-and-journalists-in-2024"
+            },
+            {
+                "name": "media manipulators to target journalists and other influential public figures",
+                "url": "https://datasociety.net/wp-content/uploads/2019/09/Source-Hacking_Hi-res.pdf"
+            },
+            {
+                "name": "How to Investigate a Cryptocurrency Scammer",
+                "url": "https://www.onchain.industries/blog/how-to-investigate-a-cryptocurrency-scammer"
+            },
+            {
+                "name": "Unique 0-click deanonymization attack targeting Signal, Discord and hundreds of platform",
+                "url": "https://gist.github.com/hackermondev/45a3cdfa52246f1d1201c1e8cdef6117"
+            },
+            {
+                "name": "google initiative news - Basic GEE",
+                "url": "https://newsinitiative.withgoogle.com/resources/trainings/introduction-to-google-earth-engine/"
+            },
+            {
+                "name": "OSINT TIPS AND GUIDE",
+                "url": "https://ohshint.gitbook.io/oh-shint-its-a-blog/osint/osint-protips"
+            }
+        ]
+    },
+    {
+        "category": "Vehicle",
+        "items": [
+            {
+                "name": "China number plates",
+                "url": "https://jenxi.com/china-vehicle-registration-plates/"
+            },
+            {
+                "name": "Indonesia number plates",
+                "url": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Indonesia"
+            }
+        ]
+    },
+    {
+        "category": "Red Teamer OSINT",
+        "items": [
+            {
+                "name": "ID - Linux chattr command",
+                "url": "https://www.linuxsec.org/2019/06/perintah-chattr.html"
+            }
+        ]
+    },
+    {
+        "category": "OSINT for WAR (Mil OSINT)",
+        "items": [
+            {
+                "name": "Investigating War Crimes: Open Source Research",
+                "url": "https://gijn.org/resource/reporters-guide-to-investigating-war-crimes-open-source-research/"
+            },
+            {
+                "name": "Scorched Earth: Using NASA Fire Data to Monitor War Zones",
+                "url": "https://www.bellingcat.com/resources/2022/10/04/scorched-earth-using-nasa-fire-data-to-monitor-war-zones/"
             }
         ]
     }
