@@ -648,6 +648,8 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [greynoise](https://www.greynoise.io/)
 - [Intel471](https://intel471.com/)
 - [socradar](https://socradar.io/labs/)
+- [Cuckoo](https://cuckoo.readthedocs.io/en/latest/installation/host/installation/)
+- [Awesome list malware analysis](https://github.com/rshipp/awesome-malware-analysis)
 
 # IoT Search Engines
 
@@ -813,6 +815,12 @@ You can find the file hash or other threat indicator
 - [packetsafari analys pcap file](https://app.packetsafari.com/)
 - [cybersixgill](https://cybersixgill.com/)
 - [Google Safe Browsing](https://developers.google.com/safe-browsing/reference?hl=id)
+- [Cuckoo](https://cuckoo.readthedocs.io/en/latest/installation/host/installation/)
+- [autoruns](https://learn.microsoft.com/id-id/sysinternals/downloads/autoruns)
+- [Awesome list malware analysis](https://github.com/rshipp/awesome-malware-analysis)
+- [Process Hacker](https://systeminformer.sourceforge.io/)
+- [remnux](https://remnux.org/)
+- [intezer](https://analyze.intezer.com/scan)
 
 # Automation Dorking 
 
@@ -2651,6 +2659,8 @@ Desktop NET debugger and assembly editor
 - [coinmarketcap](https://coinmarketcap.com/)
 - [coinbase](https://www.coinbase.com/explore) 
 - [binance](https://www.binance.com/en/markets)
+- [geckoterminal](https://www.geckoterminal.com/)
+- [dexscreener](https://dexscreener.com/)
 
 Transaction Analysis
 
@@ -2679,6 +2689,7 @@ Transaction Analysis
 - [metasleuth](https://metasleuth.io/)
 - [misttrack](https://misttrack.io/)
 - [Tatum](https://tatum.io/)
+- [chainalysis](https://www.chainalysis.com/blockchain-intelligence/)
 
 Guide 
 
@@ -3093,6 +3104,8 @@ Guide
 
 # Digital Forensics
 
+- [intezer](https://analyze.intezer.com/scan)
+- [AnyRun](https://any.run/)
 - [Yggdrasil](https://github.com/Jarl-Bjoern/Yggdrasil/)
 - [MISP](https://www.misp-project.org/)
 - [Maltego](https://www.maltego.com/)
@@ -3168,6 +3181,14 @@ Guide
 - [fotoforensics](https://fotoforensics.com/)
 - [List and guides about tools forensic](https://ericzimmerman.github.io/#!index.md)
 - [socradar](https://socradar.io/labs/)
+- [Cuckoo](https://cuckoo.readthedocs.io/en/latest/installation/host/installation/)
+- [autoruns](https://learn.microsoft.com/id-id/sysinternals/downloads/autoruns)
+- [Hybrid Analysis](https://www.hybrid-analysis.com/)
+- [Awesome list malware analysis](https://github.com/rshipp/awesome-malware-analysis)
+- [Process Hacker](https://systeminformer.sourceforge.io/)
+- [regshot](https://sourceforge.net/projects/regshot/)
+- [remnux](https://remnux.org/)
+- [resourcehacker](https://www.angusj.com/resourcehacker/)
 
 *Pro Tips 
 
@@ -3634,6 +3655,9 @@ Public Transport
 - [murf AI Voice](https://murf.ai/)
 - [AI Voice Generator](https://play.ht/)
 - [nari-labs/dia](https://github.com/nari-labs/dia)
+- [xbow - AI offensive security (BETA TEST)](https://xbow.com/)
+- [QWEN AI](https://chat.qwen.ai/)
+- [Roo-Code AI AGENT](https://github.com/RooVetGit/Roo-Code)
 
 # OSINT for Red Team 
 
@@ -4134,6 +4158,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 
 # OSINT Military
 
+- [List of aircraft carriers](https://en.wikipedia.org/wiki/List_of_aircraft_carriers)
 - [globalsecurity military](https://www.globalsecurity.org/military/index.html)
 - [3D Rendered Synthetic Data](https://vframe.io/3d-rendered-data/)
 - [militaryfactory](https://www.militaryfactory.com/)
@@ -4529,6 +4554,10 @@ Social Media Analytics
 - [ID Sistem Informasi Penelusuran Perkara](https://sipp.pn-negara.go.id/) *Tips you can search by province or regency (subdomain)  
 - [socradar](https://socradar.io/labs/)
 
+Guides 
+
+- [Interpol Int](https://www-interpol-int.translate.goog/How-we-work/Databases?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=tc)
+
 # OSINT for Politics and Geopolitics
 
 OSINT politics and geopolitics, risk crisis
@@ -4651,6 +4680,8 @@ Terrorism & Radical
 - [cesium](https://cesium.com/)
 - [maxar geohive](https://geohive.maxar.com/)
 - [ongeo](https://ongeo-intelligence.com/satellite-imagery-report)
+- [Sat selfi by Mark Rober](https://space.crunchlabs.com/)
+- [stuffin space sat map](https://stuffin.space/)
 
 *Aditional Information coverage sat 
 
@@ -5195,6 +5226,7 @@ Bookmark OSINT tools list
 - [timeanddate](https://www.timeanddate.com/moon/phases/)
 - [SpaceEngine Game](https://store.steampowered.com/app/314650/SpaceEngine/)
 - [lightpollutionmap](https://www.lightpollutionmap.info/)
+- [stuffin space sat map](https://stuffin.space/)
 
 # OSINT Playground 
 
