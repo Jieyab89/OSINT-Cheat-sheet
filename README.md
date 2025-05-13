@@ -16,6 +16,7 @@ Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and othe
 - Scan the files will you download
 - Encrypt your network traffic, message and disk
 - Beware about attachments such as docx, xlsm or macro documents (Check macros don't immediately press enable, check properties file to do strict mode)
+- Beware about malicious script like programm lang always check will you run it 
 
 # These Resources Are Recommend For 
 
@@ -132,6 +133,7 @@ Automated tool by David Bombal
 
 # SOCMINT  
 
+- [socialblade](https://socialblade.com/)
 - [Instagram](https://github.com/Datalux/Osintgram)
 Be carefull using this tool use 2nd account because your account got banned
 - [Tinfoleak](https://github.com/vaguileradiaz/tinfoleak)
@@ -1519,6 +1521,7 @@ or you can use dork for spesific example
 
 # Instagram
 
+- [instrack](https://instrack.app/)
 - [mollygram](https://mollygram.com/)
 - [indownloader](https://indownloader.app/)
 - [instanavigation](https://instanavigation.net/)
@@ -1531,7 +1534,6 @@ or you can use dork for spesific example
 - [SearchMyBio](https://www.searchmy.bio/)
 - [Dumpor](https://dumpor.com/)
 - [Hookgram](https://hookgram.com/)
-- [Picuki](https://www.picuki.com/)
 - [Inflact](https://inflact.com/)
 - [Greatfon](https://greatfon.com/)
 - [Save Free](https://www.save-free.com/)
@@ -1726,6 +1728,7 @@ Google queries for MySpace
 
 # Tiktok
 
+- [Picuki](https://www.picuki.com/)
 - [tiktok-hashtag-analysis](https://github.com/bellingcat/tiktok-hashtag-analysis)
 - [tiktok-downloader](https://github.com/Gimenz/tiktok-downloader)
 - [tiktok API](https://pypi.org/project/TikTokApi/)
@@ -2914,10 +2917,6 @@ Social Network and blogging
 - Rocket Reach
 - Etc
 
-Guides 
-
-- [privacyguides](https://www.privacyguides.org/en/)
-
 # Enhance Image Quality
 
 - [Upscale Media Image Enhancer](https://www.upscale.media/upload)
@@ -3242,6 +3241,9 @@ Guide for Surveillance
 
 - [Surveillance Self-Defense](https://ssd.eff.org/)
 - [Street level Surveillance](https://sls.eff.org/)
+- [Protesters' Guide to Smartphone Security](https://www.privacyguides.org/articles/2025/01/23/activists-guide-securing-your-smartphone/#avoid-external-storage)
+- [disint - guide for privacy action](https://disint.org/main.html?checkboxes=check80)
+- [privacyguides](https://www.privacyguides.org/en/)
 
 # Fraud Checker
 
@@ -3870,14 +3872,6 @@ Webshell Bypass
 - [bypass.tidesec.com/web/](http://bypass.tidesec.com/web/)
 - [Tiny-PHP-Webshell](https://github.com/bayufedra/Tiny-PHP-Webshell)
 
-Credential Access
-
-- [LaZagne](https://github.com/AlessandroZ/LaZagne)
-- [WirelessKeyView](https://www.nirsoft.net/utils/wireless_key.html)
-- [Windows credential manager](https://www.nirsoft.net/utils/credentials_file_view.html)
-- [Pillager](https://github.com/qwqdanchun/Pillager/)
-- [searchall](https://github.com/Naturehi666/searchall)
-
 Post Exploitation
 
 - [proxychains](https://www.kali.org/tools/proxychains-ng/)
@@ -3901,6 +3895,13 @@ Credential Dumping
 - [Windows credential manager](https://www.nirsoft.net/utils/credentials_file_view.html)
 - [Pillager](https://github.com/qwqdanchun/Pillager/)
 - [searchall](https://github.com/Naturehi666/searchall)
+- [HackBrowserData](https://github.com/moonD4rk/HackBrowserData)
+- [mimikatz](https://github.com/ParrotSec/mimikatz)
+- [SharpDPAPI](https://github.com/GhostPack/SharpDPAPI)
+- [Empire](https://github.com/EmpireProject/Empire)
+- [Rubeus](https://github.com/GhostPack/Rubeus)
+- [Responder](https://github.com/SpiderLabs/Responder)
+- [SecretsDump](https://wadcoms.github.io/wadcoms/Impacket-SecretsDump/)
 
 Credentials Leak
 
@@ -4148,6 +4149,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [hackertarget](https://hackertarget.com/as-ip-lookup/)
 - [whoisxmlapi](https://mac-address.whoisxmlapi.com/api)
 - [macaddresslookup](https://www.macaddresslookup.org/)
+- [Sniffnet Comfortably monitor your Internet traffic](https://sniffnet.net/)
 
 # Medical OSINT 
 
@@ -4338,8 +4340,10 @@ Analysis for IMINT and find the geolocation, azimuth and etc
 - [AirSpy MAP](https://airspy.com/directory/)
 - [WEB SDR](http://websdr.ewi.utwente.nl:8901/)
 - [Bellingcat Radar](https://ollielballinger.users.earthengine.app/view/bellingcat-radar-interference-tracker)
-- [Wireshark](https://www.wireshark.org/)
-Analyze the network dumps
+- [Wireshark](https://www.wireshark.org/) Analyze the network dumps
+- [radioreference](https://www.radioreference.com/)
+- [hamnetdb](https://hamnetdb.net/)
+- [sdr-radio](https://www.sdr-radio.com/gallery)
 
 # API for OSINT 
 
@@ -4682,6 +4686,7 @@ Terrorism & Radical
 - [ongeo](https://ongeo-intelligence.com/satellite-imagery-report)
 - [Sat selfi by Mark Rober](https://space.crunchlabs.com/)
 - [stuffin space sat map](https://stuffin.space/)
+- [NASA Sat list and mission](https://www.nasa.gov/a-to-z-of-nasa-missions/)
 
 *Aditional Information coverage sat 
 
@@ -4938,6 +4943,7 @@ Website
 - [siteslike](https://www.siteslike.com/)
 - [domains - search similarity domain and niche web](https://www.domains.ch/en)
 - [smallseotools compare web similar](https://smallseotools.com/similar-sites/)
+- [semrush](https://www.semrush.com/website/%3Cwebcompetitor-domain.com%3E/competitors/)
 
 Company 
 
@@ -5227,6 +5233,7 @@ Bookmark OSINT tools list
 - [SpaceEngine Game](https://store.steampowered.com/app/314650/SpaceEngine/)
 - [lightpollutionmap](https://www.lightpollutionmap.info/)
 - [stuffin space sat map](https://stuffin.space/)
+- [NASA Sat list and mission](https://www.nasa.gov/a-to-z-of-nasa-missions/)
 
 # OSINT Playground 
 
