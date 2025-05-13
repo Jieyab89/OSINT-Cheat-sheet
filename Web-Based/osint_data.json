@@ -5065,6 +5065,10 @@
             {
                 "name": "fameswap",
                 "url": "https://fameswap.com/tool-instagram-user-id"
+            },
+            {
+                "name": "instrack",
+                "url": "https://instrack.app/"
             }
         ]
     },
@@ -5586,6 +5590,10 @@
             {
                 "name": "exportcomments",
                 "url": "https://exportcomments.com/"
+            },
+            {
+                "name": "Picuki",
+                "url": "https://www.picuki.com/"
             }
         ]
     },
@@ -10924,6 +10932,18 @@
             {
                 "name": "Street level Surveillance",
                 "url": "https://sls.eff.org/"
+            },
+            {
+                "name": "Protesters' Guide to Smartphone Security",
+                "url": "https://www.privacyguides.org/articles/2025/01/23/activists-guide-securing-your-smartphone/#avoid-external-storage"
+            },
+            {
+                "name": "disint - guide for privacy action",
+                "url": "https://disint.org/main.html?checkboxes=check80"
+            },
+            {
+                "name": "privacyguides",
+                "url": "https://www.privacyguides.org/en/"
             }
         ]
     },
@@ -13876,6 +13896,22 @@
             {
                 "name": "Powershell-Scripts-for-Hackers-and-Pentesters",
                 "url": "https://github.com/Whitecat18/Powershell-Scripts-for-Hackers-and-Pentesters"
+            },
+            {
+                "name": "mimikatz",
+                "url": "https://github.com/ParrotSec/mimikatz"
+            },
+            {
+                "name": "SharpDPAPI",
+                "url": "https://github.com/GhostPack/SharpDPAPI"
+            },
+            {
+                "name": "Empire",
+                "url": "https://github.com/EmpireProject/Empire"
+            },
+            {
+                "name": "SecretsDump",
+                "url": "https://wadcoms.github.io/wadcoms/Impacket-SecretsDump/"
             }
         ]
     },
@@ -14046,6 +14082,10 @@
             {
                 "name": "macaddresslookup",
                 "url": "https://www.macaddresslookup.org/"
+            },
+            {
+                "name": "Sniffnet Comfortably monitor your Internet traffic",
+                "url": "https://sniffnet.net/"
             }
         ]
     },
@@ -14729,6 +14769,18 @@
             {
                 "name": "Wireshark",
                 "url": "https://www.wireshark.org/"
+            },
+            {
+                "name": "radioreference",
+                "url": "https://www.radioreference.com/"
+            },
+            {
+                "name": "hamnetdb",
+                "url": "https://hamnetdb.net/"
+            },
+            {
+                "name": "sdr-radio",
+                "url": "https://www.sdr-radio.com/gallery"
             }
         ]
     },
@@ -15995,6 +16047,10 @@
             {
                 "name": "stuffin space sat map",
                 "url": "https://stuffin.space/"
+            },
+            {
+                "name": "NASA Sat list and mission",
+                "url": "https://www.nasa.gov/a-to-z-of-nasa-missions/"
             }
         ]
     },
@@ -16693,6 +16749,10 @@
             {
                 "name": "socialblade similarity",
                 "url": "https://socialblade.com/"
+            },
+            {
+                "name": "semrush",
+                "url": "https://www.semrush.com/website/%3Cwebcompetitor-domain.com%3E/competitors/"
             }
         ]
     },
@@ -17637,6 +17697,10 @@
             {
                 "name": "stuffin space sat map",
                 "url": "https://stuffin.space/"
+            },
+            {
+                "name": "NASA Sat list and mission",
+                "url": "https://www.nasa.gov/a-to-z-of-nasa-missions/"
             }
         ]
     },
