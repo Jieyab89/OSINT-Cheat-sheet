@@ -1030,6 +1030,7 @@ Example
 - [scatteredsecrets](https://scatteredsecrets.com/)
 - [BF Database Search](https://bf.based.re/)
 - [darkradar](https://www.darkradar.io/)
+- [leakbase](https://leakbase.la/)
 
 # Crack Jurnals
 
@@ -2176,6 +2177,8 @@ Telegram Tips
 - [Face Similarity Test Online](https://facecomparison.toolpie.com/)
 - [photopea](https://www.photopea.com/)
 - [demuc](https://demuc.de/)
+- [gimp](https://www.gimp.org/)
+- [photoshop](https://www.adobe.com/id_en/products/photoshop.html)
 
 # Stock Images
 
@@ -2736,7 +2739,6 @@ Guide
 - [MCC MNC World Net](https://mcc-mnc.net/)
 - [Cell Global Identity Article](https://medium.com/@fthcknmz/cell-global-identity-cgi-407ea0288943)
 - [GSM Cell ID](https://en.wikipedia.org/wiki/GSM_Cell_ID)
-- [predictasearch](https://www.predictasearch.com/)
 - [CALL APP](https://callapp.com/app-features)
 - [Number Finder IOS](https://apps.apple.com/us/app/number-finder-caller-id-book/id1324048797?platform=iphone)
 - [Dalily Android Apps](https://play.google.com/store/apps/details?id=dalily.caller.ids&hl=en&gl=US)
@@ -3096,6 +3098,7 @@ Social Network and blogging
 - [tor link](https://tor.link)
 - [Tor Taxi (onion link)](http://tortaxi2dev6xjwbaydqzla77rrnth7yn2oqzjfmiuwn5h6vsk2a4syd.onion/)
 - [Dark Fail (onion link)](http://darkfailenbsdla5mal2mxn2uz66od5vtzd5qozslagrfzachha3f3id.onion/)
+- [rooted](https://rooted.wtf/)
 
 Guide 
 
@@ -4828,6 +4831,12 @@ You can use for study academic literature, search book, people name, old archive
 - [World map Country, language, writing system](https://www.key-shortcut.com/en/writing-systems/world-map-of-alphabets-scripts#map)
 - [chatgpt](https://chatgpt.com/)
 - [2lingual](https://2lingual.com/)
+- [Javanese dictionary 1](https://www.kamusjawa.net/)
+- [Javanese dictionary 2](https://jv.wiktionary.org/)
+- [Chinese dictionary 1](https://www.mdbg.net/chinese/dictionary)
+- [Chinese dictionary 2](https://dictionary.writtenchinese.com/)
+- [hanzii Translator](https://hanzii.net/)
+- [Chinese Hokkien dictionary 1](https://niawdeleon.com/)
 
 Slang Language
 
@@ -4836,6 +4845,7 @@ Slang Language
 - [youglish](https://youglish.com/)
 - [wiktionary](https://en.wiktionary.org/wiki/Wiktionary:Main_Page)
 - [digitalcultures](https://digitalcultures.net/)
+- [merriam slang dictionary](https://www.merriam-webster.com/)
 
 # OSINT OPSEC 
 
