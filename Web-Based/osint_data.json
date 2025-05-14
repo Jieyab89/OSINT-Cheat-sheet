@@ -3296,6 +3296,10 @@
             {
                 "name": "darkradar",
                 "url": "https://www.darkradar.io/"
+            },
+            {
+                "name": "leakbase",
+                "url": "https://leakbase.la/"
             }
         ]
     },
@@ -7210,6 +7214,14 @@
             {
                 "name": "demuc",
                 "url": "https://demuc.de/"
+            },
+            {
+                "name": "gimp",
+                "url": "https://www.gimp.org/"
+            },
+            {
+                "name": "photoshop",
+                "url": "https://www.adobe.com/id_en/products/photoshop.html"
             }
         ]
     },
@@ -10441,6 +10453,10 @@
             {
                 "name": "Darkweb labs settup",
                 "url": "https://hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf"
+            },
+            {
+                "name": "rooted",
+                "url": "https://rooted.wtf/"
             }
         ]
     },
@@ -16397,6 +16413,34 @@
             {
                 "name": "digitalcultures",
                 "url": "https://digitalcultures.net/"
+            },
+            {
+                "name": "Javanese dictionary 1",
+                "url": "https://www.kamusjawa.net/"
+            },
+            {
+                "name": "Javanese dictionary 2",
+                "url": "https://jv.wiktionary.org/"
+            },
+            {
+                "name": "Chinese dictionary 1",
+                "url": "https://www.mdbg.net/chinese/dictionary"
+            },
+            {
+                "name": "Chinese dictionary 2",
+                "url": "https://dictionary.writtenchinese.com/"
+            },
+            {
+                "name": "hanzii Translator",
+                "url": "https://hanzii.net/"
+            },
+            {
+                "name": "Chinese Hokkien dictionary 1",
+                "url": "https://niawdeleon.com/"
+            },
+            {
+                "name": "merriam slang dictionary",
+                "url": "https://www.merriam-webster.com/"
             }
         ]
     },
