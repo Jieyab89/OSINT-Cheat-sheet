@@ -31,3 +31,7 @@ python -m http.server 8000
 ```
 
 Then access it with your IP or localhost into web browser 
+
+# Search 
+
+You can seaerch on search box with name category example "Jieyab89 Wiki"
