@@ -162,6 +162,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [CSE Search comment](https://cse.google.com/cse?cx=006368593537057042503:ig4r3rz35qi#gsc.tab=0)
 - [voilanorbert](https://www.voilanorbert.com/)
 - [freepeoplesearchtool](https://freepeoplesearchtool.com/)
+- [Social-Exractror](https://github.com/soxoj/socid-extractor) Extract accounts info from personal pages on various sites
 
 # Collection Dataset
 
@@ -205,6 +206,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [huggingface](https://huggingface.co/)
 - [goodstats ID](https://goodstats.id/)
 - [ransomwhe Browse ransomware data](https://ransomwhe.re/#report)
+- [ransomware wiki](https://ransom.wiki/)
 - [botometer Twitter bot dataset](https://botometer.osome.iu.edu/bot-repository/datasets.html)
 - [Aircraft Mil Dataset](https://github.com/sdr-enthusiasts/plane-alert-db)
 - [datareportal](https://datareportal.com/)
@@ -235,6 +237,9 @@ Be carefull using this tool use 2nd account because your account got banned
 - [UNOSAT Gaza Emergency Response Data Hub](https://gaza-unosat.hub.arcgis.com/pages/data)
 - [opengeos](https://github.com/opengeos)
 - [Github data wayback machine](https://www.gharchive.org/)
+- [IL Dataset Gov](https://data.gov.il/dataset)
+- [0day database](https://www.zero-day.cz/database/)
+- [Dataset crime for blockchain](https://hacked.slowmist.io/)
 
 # Forums & Sites
 
@@ -409,6 +414,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [Nmap](https://nmap.org/)
 - [builtwith](https://builtwith.com/)
 - [VirusTotal](https://www.virustotal.com/gui/)
+- [virustotal mcp](https://github.com/BurtTheCoder/mcp-virustotal)
 - [Nessus](https://www.tenable.com/products/nessus)
 - [Nikto](https://cirt.net/Nikto2)
 - [Webshag](https://github.com/wereallfeds/webshag)
@@ -505,6 +511,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [dnshistory](https://osint.sh/dnshistory/)
 - [Unfurl](https://github.com/obsidianforensics/unfurl)
 - [VirusTotal](https://www.virustotal.com/gui/home/upload)
+- [virustotal mcp](https://github.com/BurtTheCoder/mcp-virustotal)
 - [Virus Exchange](https://virus.exchange/)
 - [Archive Org](https://archive.org/web/)
 - [Iplocation](https://iplocation.io/website-link-analyzer)
@@ -514,6 +521,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [Check Phish](https://checkphish.ai/)
 - [Radar By Cloudflare](https://radar.cloudflare.com/)
 - [Is it Phishing](https://isitphishing.org/)
+- [dnstwist](https://dnstwist.it/)
 - [Kaspersky](https://opentip.kaspersky.com/)
 - [PolySwarm](https://polyswarm.network/)
 - [Threat Miner](https://www.threatminer.org/)
@@ -543,6 +551,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 
 # Researching Cyber Threats
 
+- [valhalla](https://valhalla.nextron-systems.com/)
 - [Alien Vault](https://otx.alienvault.com)
 - [Censys](https://censys.io)
 - [CVE Details](https://www.cvedetails.com)
@@ -555,6 +564,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [Malware URL Website](https://www.malwareurl.com/listing-urls.php)
 - [Quttera](https://quttera.com)
 - [Virus total](https://www.virustotal.com/gui/home/upload)
+- [virustotal mcp](https://github.com/BurtTheCoder/mcp-virustotal)
 - [Virus Share](https://virusshare.com)
 - [Virus Exchange](https://virus.exchange/)
 - [Malware Sample and IOC](https://github.com/rivitna/Malware)
@@ -652,10 +662,12 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [socradar](https://socradar.io/labs/)
 - [Cuckoo](https://cuckoo.readthedocs.io/en/latest/installation/host/installation/)
 - [Awesome list malware analysis](https://github.com/rshipp/awesome-malware-analysis)
+- [dnstwist](https://dnstwist.it/)
 
 # IoT Search Engines
 
 - [criminalip](https://www.criminalip.io/) 
+- [zoomeye](https://www.zoomeye.ai/)
 - [LeakIX](https://leakix.net)
 - [Binary Edge](https://www.binaryedge.io)
 - [Shodan](https://www.shodan.io)
@@ -691,6 +703,8 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [worldcams](https://worldcams.tv/)
 - [webcamcse CSE](https://cipher387.github.io/webcamcse/)
 - [CSE Webcam search](https://cse.google.com/cse?cx=013991603413798772546:gjcdtyiytey#gsc.tab=0&gsc.sort=)
+- [zoomeye mcp](https://github.com/zoomeye-ai/mcp_zoomeye)
+- [livetraffic](https://livetraffic.eu/)
 
 # IP Addresses
 
@@ -957,6 +971,7 @@ Example
 - [Google Safe Browsing](https://developers.google.com/safe-browsing/reference?hl=id)
 - [qwant](https://www.qwant.com)
 - [alltheinternet](https://www.alltheinternet.com/)
+- [sogou CN](https://www.sogou.com/)
 
 # Internet Archive
 
@@ -1179,6 +1194,7 @@ Example
 - [ID INAPROC daftar hitam penyedia](https://daftar-hitam.inaproc.id/)
 - [ID SIKAP CARI PELAKU USAHA](https://sikap.lkpp.go.id/pelaku-usaha/cari)
 - [ID TKDN Kemenperin](https://tkdn.kemenperin.go.id/search.php?where=perush&what=)
+- [WIPO INT](https://branddb.wipo.int/)
 
 # People Searching
 
@@ -2320,6 +2336,7 @@ Telegram Tips
 - [Liveuamap](https://liveuamap.com/)
 - [Descartes Labs](https://maps.descarteslabs.com/)
 - [Baidu Maps](https://map.baidu.com/)
+- [QQ map](https://map.qq.com/)
 - [MapChecking](https://www.mapchecking.com/)
 - [Windy](https://www.windy.com/)
 - [SOAR](https://soar.earth/)
@@ -2527,6 +2544,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [onyphe](https://search.onyphe.io/)
 - [censys](https://search.censys.io/)
 - [zoomeye](https://www.zoomeye.ai/)
+- [zoomeye mcp](https://github.com/zoomeye-ai/mcp_zoomeye)
 - [greynoise](https://viz.greynoise.io/)
 - [Testssl](https://testssl.sh/)
 - [Nesus](https://www.tenable.com/products/nessus)
@@ -2629,6 +2647,7 @@ Desktop NET debugger and assembly editor
 - [0day](https://0day.today/)
 - [Zerodium](https://zerodium.com/)
 - [0day fans](https://0dayfans.com/)
+- [0day database](https://www.zero-day.cz/database/)
 
 # Cryptocurrency Investigation
 
@@ -2682,7 +2701,6 @@ Transaction Analysis
 - [etherscan](https://etherscan.io/)
 - [etherchain](https://www.etherchain.org/)
 - [web3 username search](https://app.ens.domains/)
-- [chainabuse](https://www.chainabuse.com/)
 - [bitinfocharts](https://bitinfocharts.com/)
 - [blockchair](https://blockchair.com/)
 - [bitaps](https://bitaps.com/)
@@ -2696,10 +2714,12 @@ Transaction Analysis
 - [misttrack](https://misttrack.io/)
 - [Tatum](https://tatum.io/)
 - [chainalysis](https://www.chainalysis.com/blockchain-intelligence/)
+- [solscan-solana](https://solscan.io/)
 
 Guide 
 
 - [Blockchain Insights Hub](https://github.com/nemo-nesciam/Blockchain-Insights-Hub?tab=readme-ov-file)
+- [Awesome guide blockhain analysis](https://github.com/aaarghhh/awesome_osint_blockchain_analysis)
 
 # Cell Investigation
 
@@ -2864,8 +2884,9 @@ Build your sockpuppet account and proctect your privacy
 
 Build your own deepfake 
 
-*Generate your deepfake 
+*Generate your deepfake (is taking longer time, need high gpu)
 
+- [wefaceswap - faceswap](https://www.wefaceswap.com/faceswap)
 - [Roop Image face swap from AI](https://github.com/s0md3v/roop)
 - [DeepFaceLive](https://github.com/iperov/DeepFaceLive)
 - [DeepFaceLab](https://github.com/iperov/DeepFaceLab)
@@ -2880,7 +2901,7 @@ Build your own deepfake
 - [stargan-v2](https://github.com/clovaai/stargan-v2)
 - [inZOI](https://store.steampowered.com/app/2456740/inZOI/)
 
-Virtual Camera 
+Virtual Camera or Camera Replacement
 
 - [VCamera](https://github.com/andvipgroup/VCamera)
 - [OBS](https://obsproject.com/)
@@ -3098,7 +3119,7 @@ Social Network and blogging
 - [tor link](https://tor.link)
 - [Tor Taxi (onion link)](http://tortaxi2dev6xjwbaydqzla77rrnth7yn2oqzjfmiuwn5h6vsk2a4syd.onion/)
 - [Dark Fail (onion link)](http://darkfailenbsdla5mal2mxn2uz66od5vtzd5qozslagrfzachha3f3id.onion/)
-- [rooted](https://rooted.wtf/)
+- [rooted](https://rooted.wtf/) Onion links for Crypto domain
 
 Guide 
 
@@ -3117,6 +3138,7 @@ Guide
 - [Extundelete Ext3 or ext4 partition recovery](https://extundelete.sourceforge.net/)
 - [TestDisk](https://www.cgsecurity.org/wiki/TestDisk_Download)
 - [VirusTotal](https://www.virustotal.com/gui/home/upload)
+- [virustotal mcp](https://github.com/BurtTheCoder/mcp-virustotal)
 - [Virus Exchange](https://virus.exchange/)
 - [Malware Sample and IOC](https://github.com/rivitna/Malware)
 - [Avilla Forensics](https://forum.seccodeid.com/d/avillaforensics-mobile-digital-forensics)
@@ -3247,6 +3269,7 @@ Guide for Surveillance
 - [Protesters' Guide to Smartphone Security](https://www.privacyguides.org/articles/2025/01/23/activists-guide-securing-your-smartphone/#avoid-external-storage)
 - [disint - guide for privacy action](https://disint.org/main.html?checkboxes=check80)
 - [privacyguides](https://www.privacyguides.org/en/)
+- [Soxoj - Counter-OSINT & privacy guide](https://github.com/soxoj/counter-osint-guide-en)
 
 # Fraud Checker
 
@@ -3262,11 +3285,11 @@ Guide for Surveillance
 - [Spam Calls](https://spamcalls.net/en/)
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
-- [scamsearch global scam database](https://scamsearch.io/)
 - [getcontact](https://getcontact.com/en/)
 - [SEON](https://seon.io/)
 - [snusbase](https://snusbase.com/)
 - [Telegram Scammer list ACC Database](https://apk.ibnux.com/data/)
+- [chainabuse - wallet scam search](https://www.chainabuse.com/)
 
 # Content Removal & Strict Media Content
 
@@ -3590,6 +3613,7 @@ Public Transport
 - [Military Aircraft Wiki](https://en.wikipedia.org/wiki/Military_aircraft)
 - [Search Model Aircraft](https://dna.icao.int/wagmar/Search/InitAircraftSearchModel)
 - [ADS B Tracking Military Aircraft](https://www.ads-b.nl/)
+- [military radar](https://military.freedar.uk/)
 
 # Ship Tracking & Maritim
 
@@ -3663,6 +3687,7 @@ Public Transport
 - [xbow - AI offensive security (BETA TEST)](https://xbow.com/)
 - [QWEN AI](https://chat.qwen.ai/)
 - [Roo-Code AI AGENT](https://github.com/RooVetGit/Roo-Code)
+- [gihtub copilot](https://github.com/features/copilot)
 
 # OSINT for Red Team 
 
@@ -3833,6 +3858,9 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [TrickyStore](https://github.com/5ec1cff/TrickyStore) This module is used for modifying the certificate chain generated for android key attestation 
 - [susfs4ksu-module](https://github.com/sidex15/susfs4ksu-module) An addon root hiding service for KernelSU
 - [Powershell-Scripts-for-Hackers-and-Pentesters](https://github.com/Whitecat18/Powershell-Scripts-for-Hackers-and-Pentesters) An List of my Powershell scripts, commands and Blogs for windows Red Teaming.
+- [Sn1per](https://github.com/1N3/Sn1per) Discover hidden assets and vulnerabilities in your environment pentesting toolkit
+- [Pulse-MCP-Awesome list tool and guide](https://www.pulsemcp.com/servers/himanshusanecha-osint-toolkit) List tools for information gathering network reconnaissance and more offensive security 
+- [kitploit](https://kitploit.com/) A website contain IT Security news and how to exploit 
 
 Social Engineering (Social E)
 
@@ -3985,6 +4013,7 @@ Default Credentials
 - [cleancss](https://www.cleancss.com/router-default/)
 - [toolmao](https://www.toolmao.com/baiduapp/routerpwd/)
 - [default-password](https://default-password.info/)
+- [many-password](https://github.com/many-passwords/many-passwords?tab=readme-ov-file)
 
 Local Enumeration
 
@@ -4268,6 +4297,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [ARES](https://armamentresearch.com/)
 - [eyesonrussia](https://eyesonrussia.org/)
 - [blacksky](https://www.blacksky.com/)
+- [military radar](https://military.freedar.uk/)
 
 Simulator and Game 
 
@@ -4437,6 +4467,7 @@ Resources and collection for your make tool OSINT
 - [urlvoid](https://www.urlvoid.com/)
 - [How to Verify Guide](https://www.howtoverify.info/Image/Where/Geolocation/Manual_geolocation)
 - [ID INAPROC daftar hitam penyedia](https://daftar-hitam.inaproc.id/)
+- [WIPO INT](https://branddb.wipo.int/)
 
 # NEWS OSINT
 
@@ -4560,6 +4591,7 @@ Social Media Analytics
 - [United Nation PBB](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list)
 - [ID Sistem Informasi Penelusuran Perkara](https://sipp.pn-negara.go.id/) *Tips you can search by province or regency (subdomain)  
 - [socradar](https://socradar.io/labs/)
+- [scamsearch](https://www.scamsearch.io/) Global Scam Database Search by Profile Picture, Email, Username, Pseudo Name, Phone Number, crypto address or website.
 
 Guides 
 
@@ -4690,6 +4722,7 @@ Terrorism & Radical
 - [Sat selfi by Mark Rober](https://space.crunchlabs.com/)
 - [stuffin space sat map](https://stuffin.space/)
 - [NASA Sat list and mission](https://www.nasa.gov/a-to-z-of-nasa-missions/)
+- [SatIntel - sat osint cli](https://github.com/ANG13T/SatIntel)
 
 *Aditional Information coverage sat 
 
@@ -4760,6 +4793,7 @@ Ex Guides:
 - [DARC](https://github.com/JarryShaw/darc) Darkweb Crawler Project
 - [browser-use](https://github.com/browser-use/browser-use) A cool web browser for scarpping, automated mapping each element on web page
 - [playwright](https://playwright.dev/docs/writing-tests) A powerful tool for testing and automating web browser interactions
+- [G maps scrapper](https://github.com/gosom/google-maps-scraper)
 
 # OSINT IRC Chat
 
@@ -4954,6 +4988,7 @@ Website
 - [domains - search similarity domain and niche web](https://www.domains.ch/en)
 - [smallseotools compare web similar](https://smallseotools.com/similar-sites/)
 - [semrush](https://www.semrush.com/website/%3Cwebcompetitor-domain.com%3E/competitors/)
+- [Find Similar Sites](https://www.findsimilarsites.com/)
 
 Company 
 
@@ -4963,6 +4998,7 @@ Company
 - [Website informer](https://website.informer.com/)
 - [vstat](https://vstat.info/)
 - [sgpbusiness](https://www.sgpbusiness.com/)
+- [WIPO INT](https://branddb.wipo.int/)
 
 Social Media 
 
@@ -5209,6 +5245,7 @@ This is path for you learn OSINT
 - [Youtube OSINT Tutorial](https://www.youtube.com/playlist?list=PLrFPX1Vfqk3ehZKSFeb9pVIHqxqrNW8Sy)
 - [Ethical and about more OSINT](https://stanleycenter.org/publications/osint-applied-ethics-workbook/)
 - [Exposing the Invisible - The Kit](https://kit.exposingtheinvisible.org/en/index.html)
+- [The Atypical OSINT Guide](https://github.com/OffcierCia/non-typical-OSINT-guide?tab=readme-ov-file#introduction-civil-osint)
 
 Browser List 
 
