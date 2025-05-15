@@ -464,6 +464,22 @@
             {
                 "name": "Github data wayback machine",
                 "url": "https://www.gharchive.org/"
+            },
+            {
+                "name": "ransomware wiki",
+                "url": "https://ransom.wiki/"
+            },
+            {
+                "name": "IL Dataset Gov",
+                "url": "https://data.gov.il/dataset"
+            },
+            {
+                "name": "0day database",
+                "url": "https://www.zero-day.cz/database/"
+            },
+            {
+                "name": "Dataset crime for blockchain",
+                "url": "https://hacked.slowmist.io/"
             }
         ]
     },
@@ -1409,6 +1425,10 @@
             {
                 "name": "OSINT rock",
                 "url": "https://osint.rocks/"
+            },
+            {
+                "name": "virustotal mcp",
+                "url": "https://github.com/BurtTheCoder/mcp-virustotal"
             }
         ]
     },
@@ -1566,6 +1586,14 @@
             {
                 "name": "Virus Exchange",
                 "url": "https://virus.exchange/"
+            },
+            {
+                "name": "virustotal mcp",
+                "url": "https://github.com/BurtTheCoder/mcp-virustotal"
+            },
+            {
+                "name": "dnstwist",
+                "url": "https://dnstwist.it/"
             }
         ]
     },
@@ -2007,6 +2035,18 @@
             {
                 "name": "Awesome list malware analysis",
                 "url": "https://github.com/rshipp/awesome-malware-analysis"
+            },
+            {
+                "name": "valhalla",
+                "url": "https://valhalla.nextron-systems.com/"
+            },
+            {
+                "name": "virustotal mcp",
+                "url": "https://github.com/BurtTheCoder/mcp-virustotal"
+            },
+            {
+                "name": "dnstwist",
+                "url": "https://dnstwist.it/"
             }
         ]
     },
@@ -2156,6 +2196,18 @@
             {
                 "name": "CSE Webcam search",
                 "url": "https://cse.google.com/cse?cx=013991603413798772546:gjcdtyiytey#gsc.tab=0&gsc.sort="
+            },
+            {
+                "name": "zoomeye",
+                "url": "https://www.zoomeye.ai/"
+            },
+            {
+                "name": "zoomeye mcp",
+                "url": "https://github.com/zoomeye-ai/mcp_zoomeye"
+            },
+            {
+                "name": "livetraffic",
+                "url": "https://livetraffic.eu/"
             }
         ]
     },
@@ -3018,6 +3070,10 @@
             {
                 "name": "alltheinternet",
                 "url": "https://www.alltheinternet.com/"
+            },
+            {
+                "name": "sogou CN",
+                "url": "https://www.sogou.com/"
             }
         ]
     },
@@ -3849,6 +3905,10 @@
             {
                 "name": "ID TKDN Kemenperin",
                 "url": "https://tkdn.kemenperin.go.id/search.php?where=perush&what="
+            },
+            {
+                "name": "WIPO INT",
+                "url": "https://branddb.wipo.int/"
             }
         ]
     },
@@ -8337,6 +8397,10 @@
             {
                 "name": "qgis",
                 "url": "https://qgis.org/"
+            },
+            {
+                "name": "QQ map",
+                "url": "https://map.qq.com/"
             }
         ]
     },
@@ -8540,6 +8604,10 @@
             {
                 "name": "godaddy",
                 "url": "https://www.godaddy.com/en"
+            },
+            {
+                "name": "zoomeye mcp",
+                "url": "https://github.com/zoomeye-ai/mcp_zoomeye"
             }
         ]
     },
@@ -8746,6 +8814,10 @@
             {
                 "name": "0day fans",
                 "url": "https://0dayfans.com/"
+            },
+            {
+                "name": "0day database",
+                "url": "https://www.zero-day.cz/database/"
             }
         ]
     },
@@ -8992,6 +9064,14 @@
             {
                 "name": "chainalysis",
                 "url": "https://www.chainalysis.com/blockchain-intelligence/"
+            },
+            {
+                "name": "solscan-solana",
+                "url": "https://solscan.io/"
+            },
+            {
+                "name": "Awesome guide blockhain analysis",
+                "url": "https://github.com/aaarghhh/awesome_osint_blockchain_analysis"
             }
         ]
     },
@@ -9712,6 +9792,10 @@
             {
                 "name": "inZOI",
                 "url": "https://store.steampowered.com/app/2456740/inZOI/"
+            },
+            {
+                "name": "wefaceswap - faceswap",
+                "url": "https://www.wefaceswap.com/faceswap"
             }
         ]
     },
@@ -10802,6 +10886,10 @@
             {
                 "name": "resourcehacker",
                 "url": "https://www.angusj.com/resourcehacker/"
+            },
+            {
+                "name": "virustotal mcp",
+                "url": "https://github.com/BurtTheCoder/mcp-virustotal"
             }
         ]
     },
@@ -10960,6 +11048,10 @@
             {
                 "name": "privacyguides",
                 "url": "https://www.privacyguides.org/en/"
+            },
+            {
+                "name": "Soxoj - Counter-OSINT & privacy guide",
+                "url": "https://github.com/soxoj/counter-osint-guide-en"
             }
         ]
     },
@@ -11033,6 +11125,10 @@
             {
                 "name": "Telegram Scammer list ACC Database",
                 "url": "https://apk.ibnux.com/data/"
+            },
+            {
+                "name": "chainabuse - wallet scam search",
+                "url": "https://www.chainabuse.com/"
             }
         ]
     },
@@ -12236,6 +12332,10 @@
             {
                 "name": "ADS B Tracking Military Aircraft",
                 "url": "https://www.ads-b.nl/"
+            },
+            {
+                "name": "military radar",
+                "url": "https://military.freedar.uk/"
             }
         ]
     },
@@ -12507,6 +12607,10 @@
             {
                 "name": "Roo-Code AI AGENT",
                 "url": "https://github.com/RooVetGit/Roo-Code"
+            },
+            {
+                "name": "gihtub copilot",
+                "url": "https://github.com/features/copilot"
             }
         ]
     },
@@ -13928,6 +14032,22 @@
             {
                 "name": "SecretsDump",
                 "url": "https://wadcoms.github.io/wadcoms/Impacket-SecretsDump/"
+            },
+            {
+                "name": "Sn1per",
+                "url": "https://github.com/1N3/Sn1per"
+            },
+            {
+                "name": "Pulse-MCP-Awesome list tool and guide",
+                "url": "https://www.pulsemcp.com/servers/himanshusanecha-osint-toolkit"
+            },
+            {
+                "name": "kitploit",
+                "url": "https://kitploit.com/"
+            },
+            {
+                "name": "many-password",
+                "url": "https://github.com/many-passwords/many-passwords?tab=readme-ov-file"
             }
         ]
     },
@@ -14596,6 +14716,10 @@
             {
                 "name": "List of aircraft carriers",
                 "url": "https://en.wikipedia.org/wiki/List_of_aircraft_carriers"
+            },
+            {
+                "name": "military radar",
+                "url": "https://military.freedar.uk/"
             }
         ]
     },
@@ -15121,6 +15245,10 @@
             {
                 "name": "ID INAPROC daftar hitam penyedia",
                 "url": "https://daftar-hitam.inaproc.id/"
+            },
+            {
+                "name": "WIPO INT",
+                "url": "https://branddb.wipo.int/"
             }
         ]
     },
@@ -15543,6 +15671,10 @@
             {
                 "name": "Interpol Int",
                 "url": "https://www-interpol-int.translate.goog/How-we-work/Databases?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=tc"
+            },
+            {
+                "name": "scamsearch",
+                "url": "https://www.scamsearch.io/"
             }
         ]
     },
@@ -16067,6 +16199,10 @@
             {
                 "name": "NASA Sat list and mission",
                 "url": "https://www.nasa.gov/a-to-z-of-nasa-missions/"
+            },
+            {
+                "name": "SatIntel - sat osint cli",
+                "url": "https://github.com/ANG13T/SatIntel"
             }
         ]
     },
@@ -16148,6 +16284,10 @@
             {
                 "name": "playwright",
                 "url": "https://playwright.dev/docs/writing-tests"
+            },
+            {
+                "name": "G maps scrapper",
+                "url": "https://github.com/gosom/google-maps-scraper"
             }
         ]
     },
@@ -16797,6 +16937,14 @@
             {
                 "name": "semrush",
                 "url": "https://www.semrush.com/website/%3Cwebcompetitor-domain.com%3E/competitors/"
+            },
+            {
+                "name": "Find Similar Sites",
+                "url": "https://www.findsimilarsites.com/"
+            },
+            {
+                "name": "WIPO INT",
+                "url": "https://branddb.wipo.int/"
             }
         ]
     },
@@ -17530,6 +17678,10 @@
             {
                 "name": "myosint",
                 "url": "https://www.myosint.training/pages/free-resources"
+            },
+            {
+                "name": "The Atypical OSINT Guide",
+                "url": "https://github.com/OffcierCia/non-typical-OSINT-guide?tab=readme-ov-file#introduction-civil-osint"
             }
         ]
     },
