@@ -3401,6 +3401,14 @@
             {
                 "name": "sci-net",
                 "url": "https://sci-net.xyz/"
+            },
+            {
+                "name": "SCI HUB TELE BOT",
+                "url": "https://sci-hub.41610.org/sci-hub-telegram-bot"
+            },
+            {
+                "name": "SCI HUB TELE BOT 2",
+                "url": "https://scihub.help/nexus-search-project"
             }
         ]
     },
@@ -3554,6 +3562,10 @@
             {
                 "name": "sci-net",
                 "url": "https://sci-net.xyz/"
+            },
+            {
+                "name": "elsevier - Get and search cite the jouurnal api",
+                "url": "https://dev.elsevier.com/"
             }
         ]
     },
@@ -7282,6 +7294,10 @@
             {
                 "name": "photoshop",
                 "url": "https://www.adobe.com/id_en/products/photoshop.html"
+            },
+            {
+                "name": "Remove Background",
+                "url": "https://theinpaint.com/"
             }
         ]
     },
@@ -8401,6 +8417,10 @@
             {
                 "name": "QQ map",
                 "url": "https://map.qq.com/"
+            },
+            {
+                "name": "showmystreet",
+                "url": "https://showmystreet.com/"
             }
         ]
     },
@@ -9072,6 +9092,14 @@
             {
                 "name": "Awesome guide blockhain analysis",
                 "url": "https://github.com/aaarghhh/awesome_osint_blockchain_analysis"
+            },
+            {
+                "name": "XMR SCAN",
+                "url": "https://xmrscan.org/"
+            },
+            {
+                "name": "XMR SCAN 2",
+                "url": "https://localmonero.co/blocks/"
             }
         ]
     },
@@ -10054,6 +10082,10 @@
             {
                 "name": "Ej Atlas",
                 "url": "https://ejatlas.org/"
+            },
+            {
+                "name": "showmystreet",
+                "url": "https://showmystreet.com/"
             }
         ]
     },
@@ -11052,6 +11084,14 @@
             {
                 "name": "Soxoj - Counter-OSINT & privacy guide",
                 "url": "https://github.com/soxoj/counter-osint-guide-en"
+            },
+            {
+                "name": "dnmx email",
+                "url": "https://dnmx.su/"
+            },
+            {
+                "name": "nordvpn",
+                "url": "https://nordvpn.com/"
             }
         ]
     },
@@ -11954,6 +11994,10 @@
             {
                 "name": "Interpol int",
                 "url": "https://www.interpol.int/en/How-we-work/Notices/Yellow-Notices/View-Yellow-Notices"
+            },
+            {
+                "name": "accountkiller",
+                "url": "https://www.accountkiller.com/en/all-sites"
             }
         ]
     },
@@ -12611,6 +12655,46 @@
             {
                 "name": "gihtub copilot",
                 "url": "https://github.com/features/copilot"
+            },
+            {
+                "name": "firecrawl",
+                "url": "https://www.firecrawl.dev/"
+            },
+            {
+                "name": "kling AI - Generate media and vidio",
+                "url": "https://www.klingai.com/"
+            },
+            {
+                "name": "canva AI",
+                "url": "https://www.canva.com/"
+            },
+            {
+                "name": "MAC Stduio",
+                "url": "https://www.apple.com/id/mac-studio/"
+            },
+            {
+                "name": "openwebui",
+                "url": "https://docs.openwebui.com/"
+            },
+            {
+                "name": "LM Studio",
+                "url": "https://lmstudio.ai/"
+            },
+            {
+                "name": "RAG (Retrieval-Augmented Generation)",
+                "url": "https://aws.amazon.com/id/what-is/retrieval-augmented-generation/"
+            },
+            {
+                "name": "Retrieval-Augmented Generation - NVIDIA",
+                "url": "https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/"
+            },
+            {
+                "name": "What is prompt system and prompt user",
+                "url": "https://www.regie.ai/blog/user-prompts-vs-system-prompts"
+            },
+            {
+                "name": "What is MCP",
+                "url": "https://modelcontextprotocol.io/introduction"
             }
         ]
     },
@@ -14048,6 +14132,18 @@
             {
                 "name": "many-password",
                 "url": "https://github.com/many-passwords/many-passwords?tab=readme-ov-file"
+            },
+            {
+                "name": "cheatsheet - Offsec",
+                "url": "https://cheatsheet.haax.fr/"
+            },
+            {
+                "name": "letsencrypt for free ssl",
+                "url": "https://letsencrypt.org/id/"
+            },
+            {
+                "name": "BURP MCP SERVER",
+                "url": "https://github.com/PortSwigger/mcp-server"
             }
         ]
     },
@@ -14938,6 +15034,10 @@
             {
                 "name": "C99's API Service",
                 "url": "https://api.c99.nl/"
+            },
+            {
+                "name": "RAPID API Collection",
+                "url": "https://rapidapi.com/hub"
             }
         ]
     },
@@ -16288,6 +16388,14 @@
             {
                 "name": "G maps scrapper",
                 "url": "https://github.com/gosom/google-maps-scraper"
+            },
+            {
+                "name": "stagehand",
+                "url": "https://github.com/browserbase/stagehand"
+            },
+            {
+                "name": "Brave Search API",
+                "url": "https://brave.com/search/api/"
             }
         ]
     },
@@ -16581,6 +16689,10 @@
             {
                 "name": "merriam slang dictionary",
                 "url": "https://www.merriam-webster.com/"
+            },
+            {
+                "name": "global dictionary",
+                "url": "https://www.wiktionary.org/"
             }
         ]
     },
@@ -17682,6 +17794,10 @@
             {
                 "name": "The Atypical OSINT Guide",
                 "url": "https://github.com/OffcierCia/non-typical-OSINT-guide?tab=readme-ov-file#introduction-civil-osint"
+            },
+            {
+                "name": "cheatsheet - awesome list checklist OSINT and OSINT Branch",
+                "url": "https://cheatsheet.haax.fr/open-source-intelligence-osint/"
             }
         ]
     },
