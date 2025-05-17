@@ -1050,6 +1050,8 @@ Example
 # Crack Jurnals
 
 - [SCI HUB](https://sci-hub.hkvisa.net/) This domain will always change, check the mirror [SCI HUB Mirror](https://www.sci-hub.se/mirrors) 
+- [SCI HUB TELE BOT](https://sci-hub.41610.org/sci-hub-telegram-bot)
+- [SCI HUB TELE BOT 2](https://scihub.help/nexus-search-project)
 - [Z-Library](https://id.zlibrary-asia.se/s/?q=&type=phrase)
 - [DOAJ (Directory of Open Access Journals)](https://doaj.org/)
 - [LibGen (Library Genesis)](https://libgen.li/)
@@ -1099,6 +1101,7 @@ Example
 - [arxiv](https://arxiv.org/multi?group=grp_physics&%2Fform=Form+Interface)
 - [oa citation](https://oa.mg/)
 - [sci-net](https://sci-net.xyz/)
+- [elsevier - Get and search cite the jouurnal api](https://dev.elsevier.com/)
 
 # Blogs Search Engine
 
@@ -2011,6 +2014,7 @@ Telegram Tips
 - [t.me/+<change phone num>](https://t.me/+TELEPHONE-NUMBER)
 - [t.me/s/<change username>](https://t.me/s/PREVIEWCHANNEL)
 
+*Change the hash value, username, phone number on the endpoint or url's
 
 # Telegra OSINT 
 
@@ -2195,6 +2199,7 @@ Telegram Tips
 - [demuc](https://demuc.de/)
 - [gimp](https://www.gimp.org/)
 - [photoshop](https://www.adobe.com/id_en/products/photoshop.html)
+- [Remove Background](https://theinpaint.com/)
 
 # Stock Images
 
@@ -2442,6 +2447,7 @@ Telegram Tips
 - [Mapquest](https://www.mapquest.com/)
 - [solara-maxar](https://github.com/opengeos/solara-maxar)
 - [qgis](https://qgis.org/)
+- [showmystreet](https://showmystreet.com/)
 
 Conveter tool 
 
@@ -2715,6 +2721,8 @@ Transaction Analysis
 - [Tatum](https://tatum.io/)
 - [chainalysis](https://www.chainalysis.com/blockchain-intelligence/)
 - [solscan-solana](https://solscan.io/)
+- [XMR SCAN](https://xmrscan.org/)
+- [XMR SCAN 2](https://localmonero.co/blocks/)
 
 Guide 
 
@@ -3007,6 +3015,7 @@ Social Network and blogging
 - [earthkit](https://earthkit.app/satellite)
 - [gaisma sunrise, sunset arround world](https://www.gaisma.com/en/)
 - [Ej Atlas](https://ejatlas.org/)
+- [showmystreet](https://showmystreet.com/)
 
 # Discord Server Search  
 
@@ -3241,6 +3250,7 @@ You can analysis of hash, header, signature, evtx, ip, byte, file format, memory
 - [Temp Mail 1](https://mail.tm/en/)
 - [Temp Mail 2](https://temp-mail.org/en/)
 - [Temp Mail 3](https://tempmailo.com/)
+- [dnmx email](https://dnmx.su/)
 - [Phone Burner](https://www.phoneburner.com/)
 - [Hushed](https://hushed.com/)
 - [Privacy Badger](https://privacybadger.org/)
@@ -3249,6 +3259,7 @@ You can analysis of hash, header, signature, evtx, ip, byte, file format, memory
 - [Blur IMG Extension](https://chromewebstore.google.com/detail/blur-the-image-and-video/aikjogmpaoaookmacnkbenekcnkjlkmi?hl=en-US&authuser=0)
 - [Apple Kuncitara](https://support.apple.com/id-id/guide/iphone/iph049680987/ios)
 - [Apple Focus Mode](https://support.apple.com/id-id/guide/iphone/iphd6288a67f/17.0/ios/17.0)
+- [nordvpn](https://nordvpn.com/)
 
 Payment
 
@@ -3507,6 +3518,7 @@ Strict and disable bot crawl search engine index account
 - [ZoomInfo](https://www.zoominfo.com/about-zoominfo/privacy-manage-profile) Request for remove your data from this site
 - [Get Contact Unlisting](https://getcontact.com/en/manage) Request for remove your data from this site
 - [Interpol int](https://www.interpol.int/en/How-we-work/Notices/Yellow-Notices/View-Yellow-Notices) View and search public Yellow Notices for missing persons
+- [accountkiller](https://www.accountkiller.com/en/all-sites) A guide for deleting your account on the site or social media platform
 
 *NB : Please read carefully and check the ToS or privacy statment. Its taking to long, you need to patiently. For this point, your data is not guaranteed to be lost 100% on the internet, but this is to minimize the spread of your data and data breaches
 
@@ -3540,6 +3552,7 @@ Strict and disable bot crawl search engine index account
 - [partialnumberplate UK](https://www.partialnumberplate.co.uk/)
 - [ID Samsat](https://samsat.info/cek-pajak-kendaraan-bermotor-online)
 - [Free Car Check UK](https://motorscan.co.uk/)
+- [vehicleregistrationapi](https://www.vehicleregistrationapi.com/)
 
 VIN Checker 
 
@@ -3688,6 +3701,25 @@ Public Transport
 - [QWEN AI](https://chat.qwen.ai/)
 - [Roo-Code AI AGENT](https://github.com/RooVetGit/Roo-Code)
 - [gihtub copilot](https://github.com/features/copilot)
+- [firecrawl](https://www.firecrawl.dev/)
+- [kling AI - Generate media and vidio](https://www.klingai.com/)
+- [canva AI](https://www.canva.com/)
+
+Hardware and server 
+
+- [MAC Stduio](https://www.apple.com/id/mac-studio/)
+
+LLM Interface 
+
+- [openwebui](https://docs.openwebui.com/)
+- [LM Studio](https://lmstudio.ai/)
+
+Knowledge AI and ML 
+
+- [RAG (Retrieval-Augmented Generation)](https://aws.amazon.com/id/what-is/retrieval-augmented-generation/)
+- [Retrieval-Augmented Generation - NVIDIA](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/)
+- [What is prompt system and prompt user](https://www.regie.ai/blog/user-prompts-vs-system-prompts)
+- [What is MCP](https://modelcontextprotocol.io/introduction)
 
 # OSINT for Red Team 
 
@@ -3861,6 +3893,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [Sn1per](https://github.com/1N3/Sn1per) Discover hidden assets and vulnerabilities in your environment pentesting toolkit
 - [Pulse-MCP-Awesome list tool and guide](https://www.pulsemcp.com/servers/himanshusanecha-osint-toolkit) List tools for information gathering network reconnaissance and more offensive security 
 - [kitploit](https://kitploit.com/) A website contain IT Security news and how to exploit 
+- [cheatsheet - Offsec](https://cheatsheet.haax.fr/) A awesome toos and tips and trick for red teamer 
 
 Social Engineering (Social E)
 
@@ -3874,6 +3907,7 @@ Social Engineering (Social E)
 - [saveweb2zip](https://saveweb2zip.com/en)
 - [same web cloner](https://same.dev/)
 - [anonymailer email sender](https://www.anonymailer.net/m-demo.asp)
+- [letsencrypt for free ssl](https://letsencrypt.org/id/)
 
 Active Directory
 
@@ -4072,6 +4106,7 @@ Awesome Burpsuite Extension
 - [Turbo Intruder](https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988)
 - [Wayback Machine](https://portswigger.net/bappstore/5c7c516c690345c19fbf55b2b2ebeb76)
 - [403 Bypasser](https://portswigger.net/bappstore/444407b96d9c4de0adb7aed89e826122)
+- [BURP MCP SERVER](https://github.com/PortSwigger/mcp-server)
 
 C2 & C4 
 
@@ -4385,6 +4420,7 @@ Resources and collection for your make tool OSINT
 - [API Resoruces OSINT - For Your Private Tool](https://github.com/cipher387/API-s-for-OSINT/blob/main/README.md) 
 - [API for OSINT](https://github.com/cipher387/API-s-for-OSINT)
 - [C99's API Service](https://api.c99.nl/)
+- [RAPID API Collection](https://rapidapi.com/hub)
 
 # Data Visualization
 
@@ -4792,8 +4828,10 @@ Ex Guides:
 - [torpy](https://github.com/torpyorg/torpy) Python Tor client implementation of the Tor protocol. Torpy can be used to communicate with clearnet hosts or hidden services through the Tor Network
 - [DARC](https://github.com/JarryShaw/darc) Darkweb Crawler Project
 - [browser-use](https://github.com/browser-use/browser-use) A cool web browser for scarpping, automated mapping each element on web page
+- [stagehand](https://github.com/browserbase/stagehand) A cool web browser for scarpping, automated mapping each element on web page
 - [playwright](https://playwright.dev/docs/writing-tests) A powerful tool for testing and automating web browser interactions
-- [G maps scrapper](https://github.com/gosom/google-maps-scraper)
+- [G maps scrapper](https://github.com/gosom/google-maps-scraper) A tool for scrapping google maps data 
+- [Brave Search API](https://brave.com/search/api/) Search data from brave search engine 
 
 # OSINT IRC Chat
 
@@ -4871,6 +4909,7 @@ You can use for study academic literature, search book, people name, old archive
 - [Chinese dictionary 2](https://dictionary.writtenchinese.com/)
 - [hanzii Translator](https://hanzii.net/)
 - [Chinese Hokkien dictionary 1](https://niawdeleon.com/)
+- [global dictionary](https://www.wiktionary.org/)
 
 Slang Language
 
@@ -5246,6 +5285,7 @@ This is path for you learn OSINT
 - [Ethical and about more OSINT](https://stanleycenter.org/publications/osint-applied-ethics-workbook/)
 - [Exposing the Invisible - The Kit](https://kit.exposingtheinvisible.org/en/index.html)
 - [The Atypical OSINT Guide](https://github.com/OffcierCia/non-typical-OSINT-guide?tab=readme-ov-file#introduction-civil-osint)
+- [cheatsheet - awesome list checklist OSINT and OSINT Branch](https://cheatsheet.haax.fr/open-source-intelligence-osint/)
 
 Browser List 
 
