@@ -2683,6 +2683,10 @@
             {
                 "name": "intezer",
                 "url": "https://analyze.intezer.com/scan"
+            },
+            {
+                "name": "Splunk",
+                "url": "https://www.splunk.com/"
             }
         ]
     },
@@ -10922,6 +10926,10 @@
             {
                 "name": "virustotal mcp",
                 "url": "https://github.com/BurtTheCoder/mcp-virustotal"
+            },
+            {
+                "name": "Splunk",
+                "url": "https://www.splunk.com/"
             }
         ]
     },
@@ -12554,6 +12562,10 @@
             {
                 "name": "KAI ID ROUTE",
                 "url": "https://commuterline.id/perjalanan-krl/peta-rute"
+            },
+            {
+                "name": "ID Railway Map",
+                "url": "https://168railway.com/"
             }
         ]
     },
