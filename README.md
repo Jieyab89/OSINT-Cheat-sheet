@@ -837,6 +837,7 @@ You can find the file hash or other threat indicator
 - [Process Hacker](https://systeminformer.sourceforge.io/)
 - [remnux](https://remnux.org/)
 - [intezer](https://analyze.intezer.com/scan)
+- [Splunk](https://www.splunk.com/)
 
 # Automation Dorking 
 
@@ -3222,6 +3223,7 @@ Guide
 - [regshot](https://sourceforge.net/projects/regshot/)
 - [remnux](https://remnux.org/)
 - [resourcehacker](https://www.angusj.com/resourcehacker/)
+- [Splunk](https://www.splunk.com/)
 
 *Pro Tips 
 
@@ -3674,6 +3676,7 @@ Public Transport
 - [World Railway Train](https://mobility.portal.geops.io/world.geops.transit?layers=paerke,strassennamen,haltekanten,haltestellen,pois,world.geops.traviclive&x=12003263.13&y=-842145.41&z=7.98)
 - [Railway zugfinder](https://www.zugfinder.net/)
 - [KAI ID ROUTE](https://commuterline.id/perjalanan-krl/peta-rute)
+- [ID Railway Map](https://168railway.com/)
 
 # GPT OSINT (AI)
 
