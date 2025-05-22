@@ -2829,6 +2829,10 @@
             {
                 "name": "gitdorks_go",
                 "url": "https://github.com/damit5/gitdorks_go"
+            },
+            {
+                "name": "Github find email",
+                "url": "https://ghintel.secrets.ninja/"
             }
         ]
     },
@@ -6409,6 +6413,10 @@
             {
                 "name": "netlas.io",
                 "url": "https://app.netlas.io/host/"
+            },
+            {
+                "name": "sn0int doc",
+                "url": "https://sn0int.readthedocs.io/en/stable/"
             }
         ]
     },
