@@ -3264,6 +3264,7 @@ You can analysis of hash, header, signature, evtx, ip, byte, file format, memory
 - [Apple Kuncitara](https://support.apple.com/id-id/guide/iphone/iph049680987/ios)
 - [Apple Focus Mode](https://support.apple.com/id-id/guide/iphone/iphd6288a67f/17.0/ios/17.0)
 - [nordvpn](https://nordvpn.com/)
+- [VPN Comparison Table](https://docs.google.com/spreadsheets/d/1ijfqfLrJWLUVBfJZ_YalVpstWsjw-JGzkvMd6u2jqEk/edit?gid=231869418#gid=231869418)
 
 Payment
 
