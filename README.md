@@ -874,6 +874,7 @@ You can find the file hash or other threat indicator
 - [Github Trending Repo](https://trendingrepos.com/)
 - [Octosuite Github](https://github.com/bellingcat/octosuite)
 - [Github find project map](https://anvaka.github.io/map-of-github/#2/0/0)
+- [Github find email](https://ghintel.secrets.ninja/)
 
 Github Dork
 
@@ -1958,6 +1959,7 @@ Google queries for MySpace
 - [More](https://forum.seccodeid.com/?q=osint)
 - [UBIKRON](https://www.osint-tool.com/unravel-help/)
 - [netlas.io](https://app.netlas.io/host/)
+- [sn0int doc](https://sn0int.readthedocs.io/en/stable/)
 
 # Telegram Tool
 
