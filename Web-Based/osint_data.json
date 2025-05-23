@@ -1429,6 +1429,14 @@
             {
                 "name": "virustotal mcp",
                 "url": "https://github.com/BurtTheCoder/mcp-virustotal"
+            },
+            {
+                "name": "Website informer",
+                "url": "https://website.informer.com/"
+            },
+            {
+                "name": "cyscan",
+                "url": "https://cyscan.io/"
             }
         ]
     },
@@ -2208,6 +2216,10 @@
             {
                 "name": "livetraffic",
                 "url": "https://livetraffic.eu/"
+            },
+            {
+                "name": "ShodanSpider",
+                "url": "https://github.com/shubhamrooter/ShodanSpider"
             }
         ]
     },
@@ -2687,6 +2699,22 @@
             {
                 "name": "Splunk",
                 "url": "https://www.splunk.com/"
+            },
+            {
+                "name": "ransomware live",
+                "url": "https://www.ransomware.live/"
+            },
+            {
+                "name": "Ransomware Posts",
+                "url": "https://ransom.privtools.eu/"
+            },
+            {
+                "name": "nomoreransom",
+                "url": "https://www.nomoreransom.org/"
+            },
+            {
+                "name": "ransomwatch",
+                "url": "https://ransomwatch.telemetry.ltd/"
             }
         ]
     },
@@ -2772,6 +2800,10 @@
             {
                 "name": "DEEP DORK",
                 "url": "https://guilherme-moraiss.github.io/Deep-Dork-Web/"
+            },
+            {
+                "name": "filephish",
+                "url": "https://greylensresearch.github.io/filephish/"
             }
         ]
     },
@@ -3082,6 +3114,10 @@
             {
                 "name": "sogou CN",
                 "url": "https://www.sogou.com/"
+            },
+            {
+                "name": "chronos Wayback Machine OSINT Framework",
+                "url": "https://github.com/mhmdiaa/chronos"
             }
         ]
     },
@@ -3364,6 +3400,22 @@
             {
                 "name": "leakbase",
                 "url": "https://leakbase.la/"
+            },
+            {
+                "name": "Proxynova",
+                "url": "https://www.proxynova.com/tools/comb/"
+            },
+            {
+                "name": "osintleak",
+                "url": "https://osintleak.com/"
+            },
+            {
+                "name": "Hawker",
+                "url": "https://github.com/RetrO-M/Hawker"
+            },
+            {
+                "name": "deepfind",
+                "url": "https://www.deepfind.me/tools"
             }
         ]
     },
@@ -4698,6 +4750,18 @@
             {
                 "name": "OSINT rock",
                 "url": "https://osint.rocks/"
+            },
+            {
+                "name": "Username Checker",
+                "url": "https://analyzeid.com/username/"
+            },
+            {
+                "name": "leakpeek",
+                "url": "https://leakpeek.com/"
+            },
+            {
+                "name": "Maigret OSINT tele bot",
+                "url": "https://t.me/osint_maigret_bot"
             }
         ]
     },
@@ -4857,6 +4921,10 @@
             {
                 "name": "Check email and phone num on facebook",
                 "url": "https://web.facebook.com/login/identify?ctx=recover&_rdc=1&_rdr#"
+            },
+            {
+                "name": "META Scan",
+                "url": "https://github.com/HackUnderway/meta_scan"
             }
         ]
     },
@@ -5153,6 +5221,10 @@
             {
                 "name": "instrack",
                 "url": "https://instrack.app/"
+            },
+            {
+                "name": "Stalkiana",
+                "url": "https://github.com/RuiBorgesDev/Stalkiana"
             }
         ]
     },
@@ -5228,6 +5300,10 @@
             {
                 "name": "Reddit find sub",
                 "url": "https://anvaka.github.io/"
+            },
+            {
+                "name": "reveddit",
+                "url": "https://www.reveddit.com/"
             }
         ]
     },
@@ -5297,6 +5373,10 @@
             {
                 "name": "Get account ID YT",
                 "url": "https://commentpicker.com/"
+            },
+            {
+                "name": "Youtube Subscribe History",
+                "url": "https://xxluke.de/subscription-history/"
             }
         ]
     },
@@ -5641,6 +5721,14 @@
             {
                 "name": "intelx Linkedin",
                 "url": "https://intelx.io/tools?tab=linkedin"
+            },
+            {
+                "name": "Linkdin Viewer",
+                "url": "https://nubela.co/proxycurl/demo/linkedin-profile-viewer"
+            },
+            {
+                "name": "LinkdTime",
+                "url": "https://github.com/Lucksi/LinkdTime"
             }
         ]
     },
@@ -6078,6 +6166,34 @@
             {
                 "name": "cleantalk - email validation",
                 "url": "https://cleantalk.org/email-checker"
+            },
+            {
+                "name": "emailGuesser - like email permutator",
+                "url": "https://github.com/WhiteHatInspector/emailGuesser"
+            },
+            {
+                "name": "leakpeek",
+                "url": "https://leakpeek.com/"
+            },
+            {
+                "name": "leakradar",
+                "url": "https://leakradar.io/"
+            },
+            {
+                "name": "osintleak",
+                "url": "https://osintleak.com/"
+            },
+            {
+                "name": "deepfind",
+                "url": "https://www.deepfind.me/tools"
+            },
+            {
+                "name": "hashtray",
+                "url": "https://github.com/soxoj/hashtray"
+            },
+            {
+                "name": "gmail permutator",
+                "url": "https://github.com/mariosantella/gmail_permutator"
             }
         ]
     },
@@ -6417,6 +6533,10 @@
             {
                 "name": "sn0int doc",
                 "url": "https://sn0int.readthedocs.io/en/stable/"
+            },
+            {
+                "name": "deepfind",
+                "url": "https://www.deepfind.me/tools"
             }
         ]
     },
@@ -6614,6 +6734,10 @@
             {
                 "name": "Telethon",
                 "url": "https://github.com/LonamiWebs/Telethon"
+            },
+            {
+                "name": "TeleGraphite telehgram scrapper",
+                "url": "https://github.com/hamodywe/telegram-scraper-TeleGraphite"
             }
         ]
     },
@@ -7029,6 +7153,10 @@
             {
                 "name": "flickr map",
                 "url": "https://www.flickr.com/map"
+            },
+            {
+                "name": "faceagle",
+                "url": "https://faceagle.com/"
             }
         ]
     },
@@ -7310,6 +7438,10 @@
             {
                 "name": "Remove Background",
                 "url": "https://theinpaint.com/"
+            },
+            {
+                "name": "Depix -  to recover plaintext from pixelized screenshots",
+                "url": "https://github.com/spipm/Depixelization_poc"
             }
         ]
     },
@@ -8433,6 +8565,14 @@
             {
                 "name": "showmystreet",
                 "url": "https://showmystreet.com/"
+            },
+            {
+                "name": "geoguessr GPT",
+                "url": "https://chatgpt.com/g/g-brlHi7t2R-geoguessr-gpt"
+            },
+            {
+                "name": "findpiclocation",
+                "url": "https://findpiclocation.com/"
             }
         ]
     },
@@ -10332,6 +10472,14 @@
             {
                 "name": "Tor Links (onion link)",
                 "url": "http://torlinksge6enmcyyuxjpjkoouw4oorgdgeo7ftnq3zodj7g2zxi3kyd.onion"
+            },
+            {
+                "name": "onionlinkhub",
+                "url": "https://www.onionlinkhub.com/"
+            },
+            {
+                "name": "darkwebdaily",
+                "url": "https://darkwebdaily.live/"
             }
         ]
     },
@@ -10585,6 +10733,14 @@
             {
                 "name": "rooted",
                 "url": "https://rooted.wtf/"
+            },
+            {
+                "name": "deepfind",
+                "url": "https://www.deepfind.me/tools"
+            },
+            {
+                "name": "onionlinkhub",
+                "url": "https://www.onionlinkhub.com/"
             }
         ]
     },
@@ -12719,6 +12875,10 @@
             {
                 "name": "What is MCP",
                 "url": "https://modelcontextprotocol.io/introduction"
+            },
+            {
+                "name": "geoguessr GPT",
+                "url": "https://chatgpt.com/g/g-brlHi7t2R-geoguessr-gpt"
             }
         ]
     },
@@ -14168,6 +14328,26 @@
             {
                 "name": "BURP MCP SERVER",
                 "url": "https://github.com/PortSwigger/mcp-server"
+            },
+            {
+                "name": "search public bucket",
+                "url": "https://buckets.grayhatwarfare.com/"
+            },
+            {
+                "name": "Post Leak",
+                "url": "https://github.com/cosad3s/postleaks"
+            },
+            {
+                "name": "cyscan",
+                "url": "https://cyscan.io/"
+            },
+            {
+                "name": "investigator",
+                "url": "https://abhijithb200.github.io/investigator/"
+            },
+            {
+                "name": "Argus",
+                "url": "https://github.com/jasonxtn/Argus?tab=readme-ov-file"
             }
         ]
     },
@@ -17822,6 +18002,10 @@
             {
                 "name": "cheatsheet - awesome list checklist OSINT and OSINT Branch",
                 "url": "https://cheatsheet.haax.fr/open-source-intelligence-osint/"
+            },
+            {
+                "name": "osintnewsletter",
+                "url": "https://osintnewsletter.com/"
             }
         ]
     },
@@ -17947,6 +18131,114 @@
             {
                 "name": "All About OSINT Matters Things in OSINT",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-OSINT-Matters-Things-in-OSINT"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
             }
         ]
     },
