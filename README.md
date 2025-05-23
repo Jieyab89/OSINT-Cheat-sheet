@@ -3672,6 +3672,8 @@ Public Transport
 - [Search Model Aircraft](https://dna.icao.int/wagmar/Search/InitAircraftSearchModel)
 - [ADS B Tracking Military Aircraft](https://www.ads-b.nl/)
 - [military radar](https://military.freedar.uk/)
+- [airplanes](https://globe.airplanes.live/)
+- [airnavradar](https://www.airnavradar.com/data/flights)
 
 # Ship Tracking & Maritim
 
