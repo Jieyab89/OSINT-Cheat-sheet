@@ -240,6 +240,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [IL Dataset Gov](https://data.gov.il/dataset)
 - [0day database](https://www.zero-day.cz/database/)
 - [Dataset crime for blockchain](https://hacked.slowmist.io/)
+- [threatfox IOC Database](https://threatfox.abuse.ch/browse/)
 
 # Forums & Sites
 
@@ -387,6 +388,8 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 
 # Web Intelligence
 
+- [haveibeensquatted](https://www.haveibeensquatted.com/)
+- [sitereview](https://sitereview.bluecoat.com/)
 - [Website informer](https://website.informer.com/)
 - [anubis](https://github.com/jonluca/anubis)
 - [robtex](https://www.robtex.com/)
@@ -500,6 +503,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [OSINT rock](https://osint.rocks/)
 - [analyzeid](https://analyzeid.com/)
 - [cyscan](https://cyscan.io/)
+- [urlfiltering](https://urlfiltering.paloaltonetworks.com/)
 
 *Tips web cache 
 
@@ -511,6 +515,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 
 # Analysing URLs
 
+- [urlfiltering](https://urlfiltering.paloaltonetworks.com/)
 - [dnshistory](https://osint.sh/dnshistory/)
 - [Unfurl](https://github.com/obsidianforensics/unfurl)
 - [VirusTotal](https://www.virustotal.com/gui/home/upload)
@@ -554,6 +559,8 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 
 # Researching Cyber Threats
 
+- [ransom db](https://www.ransom-db.com/)
+- [ransomware live](https://www.ransomware.live/)
 - [valhalla](https://valhalla.nextron-systems.com/)
 - [Alien Vault](https://otx.alienvault.com)
 - [Censys](https://censys.io)
@@ -666,6 +673,10 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [Cuckoo](https://cuckoo.readthedocs.io/en/latest/installation/host/installation/)
 - [Awesome list malware analysis](https://github.com/rshipp/awesome-malware-analysis)
 - [dnstwist](https://dnstwist.it/)
+- [capesandbox](https://capesandbox.com/)
+- [docguard](https://www.docguard.io/)
+- [threatfox](https://threatfox.abuse.ch/browse/)
+- [infostealers](https://www.infostealers.com/)
 
 # IoT Search Engines
 
@@ -754,6 +765,7 @@ Tips
 
 You can find the file hash or other threat indicator
 
+- [ransom db](https://www.ransom-db.com/)
 - [grafana](https://grafana.com/)
 - [wazuh](https://wazuh.com/)
 - [Hudson Rock Cybercrime Intelligence Free Tools](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools)
@@ -846,6 +858,11 @@ You can find the file hash or other threat indicator
 - [Ransomware Posts](https://ransom.privtools.eu/)
 - [nomoreransom](https://www.nomoreransom.org/)
 - [ransomwatch](https://ransomwatch.telemetry.ltd/)
+- [tirreno](https://www.tirreno.com/)
+- [capesandbox](https://capesandbox.com/)
+- [docguard](https://www.docguard.io/)
+- [threatfox](https://threatfox.abuse.ch/browse/)
+- [infostealers](https://www.infostealers.com/)
 
 # Automation Dorking 
 
@@ -1646,6 +1663,7 @@ or you can use dork for spesific example
 - [appsgolem](https://appsgolem.com/en/download-most-replayed-moment-youtube-video)
 - [Get account ID YT](https://commentpicker.com/)
 - [Youtube Subscribe History](https://xxluke.de/subscription-history/)
+- [Summarize Any YouTube Video](https://ytbsum.codexfolio.com/)
 
 # Mastodon 
 
@@ -2487,6 +2505,7 @@ Telegram Tips
 - [showmystreet](https://showmystreet.com/)
 - [geoguessr GPT](https://chatgpt.com/g/g-brlHi7t2R-geoguessr-gpt)
 - [findpiclocation](https://findpiclocation.com/)
+- [sveaflet](https://sveaflet.vercel.app/docs/pages/introduction)
 
 Conveter tool 
 
@@ -2762,6 +2781,7 @@ Transaction Analysis
 - [solscan-solana](https://solscan.io/)
 - [XMR SCAN](https://xmrscan.org/)
 - [XMR SCAN 2](https://localmonero.co/blocks/)
+- [blockscan](https://blockscan.com/)
 
 Guide 
 
@@ -3107,10 +3127,12 @@ Social Network and blogging
 - [Tor Taxi (onion link)](http://tortaxi2dev6xjwbaydqzla77rrnth7yn2oqzjfmiuwn5h6vsk2a4syd.onion/)
 - [Dark Fail (onion link)](http://darkfailenbsdla5mal2mxn2uz66od5vtzd5qozslagrfzachha3f3id.onion/)
 - [OnionLand (onion link)](http://3bbad7fauom4d6sgppalyqddsqbf5u5p56b5k5uk2zxsy3d6ey2jobad.onion)
+- [onionland surface web](https://onionland.io/)
 - [DarkWebSitesLinks (onion link)](http://darkwev6xtagl7742tqu24v2j4namr5ocfsfpha74a5nh4bwyp27a3ad.onion)
 - [Tor Links (onion link)](http://torlinksge6enmcyyuxjpjkoouw4oorgdgeo7ftnq3zodj7g2zxi3kyd.onion )
 - [onionlinkhub](https://www.onionlinkhub.com/)
 - [darkwebdaily](https://darkwebdaily.live/)
+- [Deep Search (onion link)](http://search7tdrcvri22rieiwgi5g46qnwsesvnubqav2xakhezv4hjzkkad.onion/)
 
 # Darkweb Intelligence
 
@@ -3305,6 +3327,7 @@ You can analysis of hash, header, signature, evtx, ip, byte, file format, memory
 - [Apple Focus Mode](https://support.apple.com/id-id/guide/iphone/iphd6288a67f/17.0/ios/17.0)
 - [nordvpn](https://nordvpn.com/)
 - [VPN Comparison Table](https://docs.google.com/spreadsheets/d/1ijfqfLrJWLUVBfJZ_YalVpstWsjw-JGzkvMd6u2jqEk/edit?gid=231869418#gid=231869418)
+- [cloudflare 0 trust](https://www.cloudflare.com/zero-trust/solutions/vpn-replacement/)
 
 Payment
 
@@ -3947,6 +3970,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [Post Leak](https://github.com/cosad3s/postleaks) Search for sensitive data in Postman public library
 - [cyscan](https://cyscan.io/) A url web scanner to enumerate resouces and gather some information 
 - [investigator](https://abhijithb200.github.io/investigator/) A dork command list to gather information like leak password and other things 
+- [attackerkb](https://attackerkb.com/activity-feed) Search about exploit guide and payload 
 
 Social Engineering (Social E)
 
@@ -4662,6 +4686,7 @@ Social Media Analytics
 
 # Threat Actor & Criminal Search 
 
+- [infostealers](https://www.infostealers.com/)
 - [eumostwanted EU](https://eumostwanted.eu/)
 - [nationalcrimeagency UK](https://www.nationalcrimeagency.gov.uk/most-wanted)
 - [FBI Most Wanted](https://web.archive.org/web/20030315000000*/https://www.fbi.gov/wanted/cyber)
@@ -5011,7 +5036,6 @@ Guide Journalist
 
 # OSINT Detect Deepfake 
 
-- [scanner deepfake](https://scanner.deepware.ai/)
 - [aiornot](https://www.aiornot.com/)
 - [sensity.ai](https://sensity.ai/)
 - [AmIReal](https://seintpl.github.io/AmIReal/)
@@ -5030,6 +5054,8 @@ Guide Journalist
 - [detect-ai-images](https://detect-ai-images.web.app/)
 - [Audio AI Deepfake Detection](https://detect.resemble.ai/)
 - [DeepFake Detector](https://huggingface.co/spaces/FaceOnLive/Deepfake-Detector)
+- [aivoicedetector](https://aivoicedetector.com/)
+- [thehive](https://docs.thehive.ai/)
 
 # OSINT Similarity (Plagiarism)
 
@@ -5161,6 +5187,8 @@ This is for you searching software and searching alternative software
 - [softpedia](https://www.softpedia.com/)
 - [DAPK APK SEARCH](https://github.com/m4ll0k/BBTz/blob/master/dapk.py)
 - [apkeep](https://github.com/EFForg/apkeep?tab=readme-ov-file)
+- [cyberarsenal](https://cyberarsenal.org/)
+- [XSS](https://xss.is/)
 
 # OSINT Barcode Reader 
 
@@ -5228,6 +5256,7 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [ID Cek nomor rekening](https://tools.bagusok.dev/cek-rekening)
 - [ID kredibel check scammer](https://www.kredibel.com/search)
 - [DataRepublican](https://datarepublican.com/)
+- [Cek Nama Rekening Bank/e-Wallet Indonesia](https://cekrekening.github.io/)
 
 # OSINT Cryptography (Cipher)
 
