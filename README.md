@@ -1462,7 +1462,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 >
 > Pages Search: site:facebook.com inurl:pages
 >
-> Public Profiles: allinurl: people ‘‘name’’ site:facebook.com
+> Public Profiles: allinurl: people 'name' site:facebook.com
 >
 
 # Facebook Query Language (FQL)
@@ -1537,6 +1537,7 @@ or you can use dork for spesific example
 - [onlyfinder](https://onlyfinder.com/)
 - [onlyfans search](https://hubite.com/en/onlyfans-search/)
 - [fansearch](https://www.fansearch.com/)
+- [xmodelfinder](https://www.xmodelfinder.com/)
 
 # Steam 
 
@@ -1782,11 +1783,11 @@ Google queries for MySpace
 >  
 > Jobs: site:myspace.com inurl:jobs
 >  
-> Videos: site:myspace.com ‘‘TARGET NAME’’ ‘‘videos’’
+> Videos: site:myspace.com 'TARGET NAME' 'videos'
 >  
-> Comments: site:myspace.com ‘‘TARGET NAME’’ ‘‘comments’’
+> Comments: site:myspace.com 'TARGET NAME' 'comments'
 >  
-> Friends: site:myspace.com ‘‘TARGET NAME’’ ‘‘friends’’
+> Friends: site:myspace.com 'TARGET NAME' 'friends'
 >  
 
 # Tiktok
@@ -2651,7 +2652,7 @@ Net mapping and port scanner
 Analyze the network dumps
 - [Apktool](https://ibotpeaches.github.io/Apktool/)
 Android Decompiler
-- [Ninja Binary](https://binary.ninja/)
+- [Ninja Binary](https://github.com/radareorg/radare2)
 Binary analysis framework
 - [Binwalk](https://github.com/ReFirmLabs/binwalk)
 Analyze, reverse engineer, and extract firmware images
@@ -3524,7 +3525,7 @@ Strict and disable bot crawl search engine index account
 - [People Searcher](https://www.peoplesearcher.com/optOut/name/landing) Request for remove your data from this site
 - [People Smart](https://www.peoplesmart.com/app/optout/search) Request for remove your data from this site
 - [People Trace UK](https://www.peopletraceuk.com/RequestRecordRemoval.asp) Request for remove your data from this site
-- [People’s Check](https://www.peoplescheck.com/optout/) Request for remove your data from this site
+- [People's Check](https://www.peoplescheck.com/optout/) Request for remove your data from this site
 - [People Whiz](https://www.peoplewhiz.com/remove-my-info) Request for remove your data from this site
 - [Phonebook BT](https://www.productsandservices.bt.com/consumer/edw/privacypolicy/copyform/bt/#/) Request for remove your data from this site
 - [Pub360](https://pub360.com/ng/control/privacy) Request for remove your data from this site
@@ -3552,7 +3553,7 @@ Strict and disable bot crawl search engine index account
 - [Sync Me](https://sync.me/optout/) Request for remove your data from this site
 - [Telephone Directories](https://www.telephonedirectories.us/Edit_Records) Request for remove your data from this site
 - [Tenn Help](https://www.tennhelp.com/public-resources/change-listing.html) Request for remove your data from this site
-- [That’s Them](https://thatsthem.com/optout) Request for remove your data from this sitef
+- [That's Them](https://thatsthem.com/optout) Request for remove your data from this sitef
 - [The Real Yellow Pages](https://tinyurl.com/dexknowscom) Request for remove your data from this site
 - [Thomson Reuters/Westlaw/CLEAR](https://privacyportal-cdn.onetrust.com/dsarwebform/dbf5ae8a-0a6a-4f4b-b527-7f94d0de6bbc/5dc91c0f-f1b7-4b6e-9d42-76043adaf72d.html) Request for remove your data from this site
 - [TLO](https://service.transunion.com/dss/ccpa_optout.page) Request for remove your data from this site
@@ -4882,8 +4883,8 @@ Ex Guides:
 - [Starting Satellite Investigations](https://exposingtheinvisible.org/en/guides/starting-satellite-investigations/)
 - [A Journalist's Guide to using AI + Satellite Imagery for Storytelling](https://aifromabove.notion.site/A-Journalist-s-Guide-to-using-AI-Satellite-Imagery-for-Storytelling-c32a310269124f069da96b73e872e574)
 - [How to analyse satellite imagery](https://institute.aljazeera.net/en/ajr/article/2191)
-- [A Beginner’s Guide to Sentinel Hub](https://citizenevidence.org/2023/03/21/summit-series-a-beginners-guide-to-sentinel-hub/)
-- [Reporter’s Tipsheet for Acquiring Free Satellite Images](https://gijn.org/resource/guide-acquire-free-satellite-images/)
+- [A Beginner's Guide to Sentinel Hub](https://citizenevidence.org/2023/03/21/summit-series-a-beginners-guide-to-sentinel-hub/)
+- [Reporter's Tipsheet for Acquiring Free Satellite Images](https://gijn.org/resource/guide-acquire-free-satellite-images/)
 - [Automatic Detection of War-Destroyed Buildings from High-Resolution Remote Sensing Images](https://www.mdpi.com/2072-4292/17/3/509)
 - [Earthquake building damage detection based on synthetic-aperture-radar imagery and machine learning](https://nhess.copernicus.org/articles/23/789/2023/)
 
@@ -5307,7 +5308,7 @@ IOS
 - [IPhone IMEI](https://iunlocker.com/en/check_imei.php)
 - [imei24 - Check serial number](https://imei24.com/check/apple_sn/)
 - [Iphone model number code](https://support.apple.com/en-mt/108044)
-- [iPhone model number country code](https://discussions.apple.com/thread/251748775?sortBy=rank)
+- [Iphone model number country code](https://discussions.apple.com/thread/251748775?sortBy=rank)
 - [Iphone model serial number code](https://theapplewiki.com/wiki/Models#:~:text=%22%20F%20%22%3A%20refurbished%20unit,%22%3A%20personalized%20(engraved)%20unit)
 - [Decode The Meaning Behind Your Apple Serial Number](https://beetstech.com/blog/decode-meaning-behind-apple-serial-number)
 
