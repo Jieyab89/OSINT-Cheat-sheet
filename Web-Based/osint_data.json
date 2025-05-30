@@ -480,6 +480,10 @@
             {
                 "name": "Dataset crime for blockchain",
                 "url": "https://hacked.slowmist.io/"
+            },
+            {
+                "name": "threatfox IOC Database",
+                "url": "https://threatfox.abuse.ch/browse/"
             }
         ]
     },
@@ -1437,6 +1441,18 @@
             {
                 "name": "cyscan",
                 "url": "https://cyscan.io/"
+            },
+            {
+                "name": "haveibeensquatted",
+                "url": "https://www.haveibeensquatted.com/"
+            },
+            {
+                "name": "sitereview",
+                "url": "https://sitereview.bluecoat.com/"
+            },
+            {
+                "name": "urlfiltering",
+                "url": "https://urlfiltering.paloaltonetworks.com/"
             }
         ]
     },
@@ -1602,6 +1618,10 @@
             {
                 "name": "dnstwist",
                 "url": "https://dnstwist.it/"
+            },
+            {
+                "name": "urlfiltering",
+                "url": "https://urlfiltering.paloaltonetworks.com/"
             }
         ]
     },
@@ -2055,6 +2075,30 @@
             {
                 "name": "dnstwist",
                 "url": "https://dnstwist.it/"
+            },
+            {
+                "name": "ransom db",
+                "url": "https://www.ransom-db.com/"
+            },
+            {
+                "name": "ransomware live",
+                "url": "https://www.ransomware.live/"
+            },
+            {
+                "name": "capesandbox",
+                "url": "https://capesandbox.com/"
+            },
+            {
+                "name": "docguard",
+                "url": "https://www.docguard.io/"
+            },
+            {
+                "name": "threatfox",
+                "url": "https://threatfox.abuse.ch/browse/"
+            },
+            {
+                "name": "infostealers",
+                "url": "https://www.infostealers.com/"
             }
         ]
     },
@@ -2715,6 +2759,30 @@
             {
                 "name": "ransomwatch",
                 "url": "https://ransomwatch.telemetry.ltd/"
+            },
+            {
+                "name": "ransom db",
+                "url": "https://www.ransom-db.com/"
+            },
+            {
+                "name": "tirreno",
+                "url": "https://www.tirreno.com/"
+            },
+            {
+                "name": "capesandbox",
+                "url": "https://capesandbox.com/"
+            },
+            {
+                "name": "docguard",
+                "url": "https://www.docguard.io/"
+            },
+            {
+                "name": "threatfox",
+                "url": "https://threatfox.abuse.ch/browse/"
+            },
+            {
+                "name": "infostealers",
+                "url": "https://www.infostealers.com/"
             }
         ]
     },
@@ -5377,6 +5445,10 @@
             {
                 "name": "Youtube Subscribe History",
                 "url": "https://xxluke.de/subscription-history/"
+            },
+            {
+                "name": "Summarize Any YouTube Video",
+                "url": "https://ytbsum.codexfolio.com/"
             }
         ]
     },
@@ -8573,6 +8645,10 @@
             {
                 "name": "findpiclocation",
                 "url": "https://findpiclocation.com/"
+            },
+            {
+                "name": "sveaflet",
+                "url": "https://sveaflet.vercel.app/docs/pages/introduction"
             }
         ]
     },
@@ -9252,6 +9328,10 @@
             {
                 "name": "XMR SCAN 2",
                 "url": "https://localmonero.co/blocks/"
+            },
+            {
+                "name": "blockscan",
+                "url": "https://blockscan.com/"
             }
         ]
     },
@@ -10480,6 +10560,14 @@
             {
                 "name": "darkwebdaily",
                 "url": "https://darkwebdaily.live/"
+            },
+            {
+                "name": "onionland surface web",
+                "url": "https://onionland.io/"
+            },
+            {
+                "name": "Deep Search (onion link)",
+                "url": "http://search7tdrcvri22rieiwgi5g46qnwsesvnubqav2xakhezv4hjzkkad.onion/"
             }
         ]
     },
@@ -11268,6 +11356,10 @@
             {
                 "name": "VPN Comparison Table",
                 "url": "https://docs.google.com/spreadsheets/d/1ijfqfLrJWLUVBfJZ_YalVpstWsjw-JGzkvMd6u2jqEk/edit?gid=231869418#gid=231869418"
+            },
+            {
+                "name": "cloudflare 0 trust",
+                "url": "https://www.cloudflare.com/zero-trust/solutions/vpn-replacement/"
             }
         ]
     },
@@ -12556,6 +12648,14 @@
             {
                 "name": "military radar",
                 "url": "https://military.freedar.uk/"
+            },
+            {
+                "name": "airplanes",
+                "url": "https://globe.airplanes.live/"
+            },
+            {
+                "name": "airnavradar",
+                "url": "https://www.airnavradar.com/data/flights"
             }
         ]
     },
@@ -14348,6 +14448,10 @@
             {
                 "name": "Argus",
                 "url": "https://github.com/jasonxtn/Argus?tab=readme-ov-file"
+            },
+            {
+                "name": "attackerkb",
+                "url": "https://attackerkb.com/activity-feed"
             }
         ]
     },
@@ -15979,6 +16083,10 @@
             {
                 "name": "scamsearch",
                 "url": "https://www.scamsearch.io/"
+            },
+            {
+                "name": "infostealers",
+                "url": "https://www.infostealers.com/"
             }
         ]
     },
@@ -17080,6 +17188,14 @@
             {
                 "name": "DeepFake Detector",
                 "url": "https://huggingface.co/spaces/FaceOnLive/Deepfake-Detector"
+            },
+            {
+                "name": "aivoicedetector",
+                "url": "https://aivoicedetector.com/"
+            },
+            {
+                "name": "thehive",
+                "url": "https://docs.thehive.ai/"
             }
         ]
     },
@@ -17436,6 +17552,14 @@
             {
                 "name": "apkeep",
                 "url": "https://github.com/EFForg/apkeep?tab=readme-ov-file"
+            },
+            {
+                "name": "cyberarsenal",
+                "url": "https://cyberarsenal.org/"
+            },
+            {
+                "name": "XSS",
+                "url": "https://xss.is/"
             }
         ]
     },
@@ -17675,6 +17799,10 @@
             {
                 "name": "DataRepublican",
                 "url": "https://datarepublican.com/"
+            },
+            {
+                "name": "Cek Nama Rekening Bank/e-Wallet Indonesia",
+                "url": "https://cekrekening.github.io/"
             }
         ]
     },
