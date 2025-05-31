@@ -3584,6 +3584,14 @@
             {
                 "name": "profiler",
                 "url": "https://search.profiler.me/"
+            },
+            {
+                "name": "breachguard",
+                "url": "https://breachguard.profiler.me/"
+            },
+            {
+                "name": "intelbase",
+                "url": "https://intelbase.is/"
             }
         ]
     },
@@ -4796,6 +4804,10 @@
             {
                 "name": "whocalld",
                 "url": "https://whocalld.com/"
+            },
+            {
+                "name": "castrickclues",
+                "url": "https://castrickclues.com/"
             }
         ]
     },
@@ -4950,6 +4962,10 @@
             {
                 "name": "Leakcheck",
                 "url": "https://leakcheck.io/"
+            },
+            {
+                "name": "castrickclues",
+                "url": "https://castrickclues.com/"
             }
         ]
     },
@@ -6426,6 +6442,18 @@
             {
                 "name": "psbdmp",
                 "url": "https://psbdmp.ws/api/search/<email>"
+            },
+            {
+                "name": "intelbase",
+                "url": "https://intelbase.is/"
+            },
+            {
+                "name": "minervaosint",
+                "url": "https://minervaosint.com/"
+            },
+            {
+                "name": "castrickclues",
+                "url": "https://castrickclues.com/"
             }
         ]
     },
@@ -14700,6 +14728,10 @@
             {
                 "name": "mattw",
                 "url": "https://mattw.io/hashID/types"
+            },
+            {
+                "name": "IOS Pentesting",
+                "url": "https://github.com/ansjdnakjdnajkd/iOS"
             }
         ]
     },
@@ -18659,6 +18691,18 @@
             {
                 "name": "Please reload this page",
                 "url": "https://github.com"
+            },
+            {
+                "name": "Read Me",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki#read-me"
+            },
+            {
+                "name": "Pro Tips",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki#pro-tips"
+            },
+            {
+                "name": "Support Me",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki#support-me"
             }
         ]
     },
