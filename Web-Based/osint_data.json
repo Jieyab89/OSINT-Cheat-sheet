@@ -484,6 +484,10 @@
             {
                 "name": "threatfox IOC Database",
                 "url": "https://threatfox.abuse.ch/browse/"
+            },
+            {
+                "name": "urlhaus - database malicious URLs",
+                "url": "https://urlhaus.abuse.ch/"
             }
         ]
     },
@@ -723,6 +727,14 @@
             {
                 "name": "snipplr",
                 "url": "https://snipplr.com/all"
+            },
+            {
+                "name": "invent",
+                "url": "https://invent.kde.org/explore"
+            },
+            {
+                "name": "stackoverflow",
+                "url": "https://stackoverflow.com/questions"
             }
         ]
     },
@@ -1453,6 +1465,14 @@
             {
                 "name": "urlfiltering",
                 "url": "https://urlfiltering.paloaltonetworks.com/"
+            },
+            {
+                "name": "reconspider",
+                "url": "https://github.com/bhavsec/reconspider"
+            },
+            {
+                "name": "threatintelligenceplatform",
+                "url": "https://threatintelligenceplatform.com/"
             }
         ]
     },
@@ -1622,6 +1642,14 @@
             {
                 "name": "urlfiltering",
                 "url": "https://urlfiltering.paloaltonetworks.com/"
+            },
+            {
+                "name": "threatintelligenceplatform",
+                "url": "https://threatintelligenceplatform.com/"
+            },
+            {
+                "name": "unshorten.it",
+                "url": "https://unshorten.it/"
             }
         ]
     },
@@ -2099,6 +2127,34 @@
             {
                 "name": "infostealers",
                 "url": "https://www.infostealers.com/"
+            },
+            {
+                "name": "malshare",
+                "url": "https://malshare.com/"
+            },
+            {
+                "name": "APT Group List",
+                "url": "https://docs.google.com/spreadsheets/u/1/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU/pubhtml"
+            },
+            {
+                "name": "threatintelligenceplatform",
+                "url": "https://threatintelligenceplatform.com/"
+            },
+            {
+                "name": "maltiverse",
+                "url": "https://maltiverse.com/start"
+            },
+            {
+                "name": "intezer",
+                "url": "https://analyze.intezer.com/scan"
+            },
+            {
+                "name": "CheckPhish Detects and Monitors Phishing and Scam Sites",
+                "url": "https://checkphish.bolster.ai/"
+            },
+            {
+                "name": "apklab by avast",
+                "url": "https://www.apklab.io/"
             }
         ]
     },
@@ -2783,6 +2839,14 @@
             {
                 "name": "infostealers",
                 "url": "https://www.infostealers.com/"
+            },
+            {
+                "name": "malshare",
+                "url": "https://malshare.com/"
+            },
+            {
+                "name": "APT Group List",
+                "url": "https://docs.google.com/spreadsheets/u/1/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU/pubhtml"
             }
         ]
     },
@@ -2933,6 +2997,10 @@
             {
                 "name": "Github find email",
                 "url": "https://ghintel.secrets.ninja/"
+            },
+            {
+                "name": "GROT",
+                "url": "https://github.com/montysecurity/GROT"
             }
         ]
     },
@@ -3186,6 +3254,30 @@
             {
                 "name": "chronos Wayback Machine OSINT Framework",
                 "url": "https://github.com/mhmdiaa/chronos"
+            },
+            {
+                "name": "friendpaste",
+                "url": "https://friendpaste.com/"
+            },
+            {
+                "name": "centos paste",
+                "url": "https://paste.centos.org/"
+            },
+            {
+                "name": "Github Gist",
+                "url": "https://gist.github.com/"
+            },
+            {
+                "name": "justpaste",
+                "url": "https://justpaste.it/"
+            },
+            {
+                "name": "censys",
+                "url": "https://search.censys.io/"
+            },
+            {
+                "name": "dehashed",
+                "url": "https://dehashed.com/"
             }
         ]
     },
@@ -3484,6 +3576,14 @@
             {
                 "name": "deepfind",
                 "url": "https://www.deepfind.me/tools"
+            },
+            {
+                "name": "psbdmp",
+                "url": "https://psbdmp.ws/"
+            },
+            {
+                "name": "profiler",
+                "url": "https://search.profiler.me/"
             }
         ]
     },
@@ -4049,6 +4149,10 @@
             {
                 "name": "WIPO INT",
                 "url": "https://branddb.wipo.int/"
+            },
+            {
+                "name": "urlvoid",
+                "url": "https://www.urlvoid.com/"
             }
         ]
     },
@@ -4318,6 +4422,10 @@
             {
                 "name": "berify",
                 "url": "https://berify.com/"
+            },
+            {
+                "name": "snusbase",
+                "url": "https://snusbase.com/"
             }
         ]
     },
@@ -4684,6 +4792,10 @@
             {
                 "name": "OSINT rock",
                 "url": "https://osint.rocks/"
+            },
+            {
+                "name": "whocalld",
+                "url": "https://whocalld.com/"
             }
         ]
     },
@@ -4830,6 +4942,14 @@
             {
                 "name": "Maigret OSINT tele bot",
                 "url": "https://t.me/osint_maigret_bot"
+            },
+            {
+                "name": "Snusbase",
+                "url": "https://snusbase.com/"
+            },
+            {
+                "name": "Leakcheck",
+                "url": "https://leakcheck.io/"
             }
         ]
     },
@@ -5018,6 +5138,10 @@
             {
                 "name": "fansearch",
                 "url": "https://www.fansearch.com/"
+            },
+            {
+                "name": "xmodelfinder",
+                "url": "https://www.xmodelfinder.com/"
             }
         ]
     },
@@ -5128,6 +5252,10 @@
             {
                 "name": "bluesky-crossposter",
                 "url": "https://github.com/Linus2punkt0/bluesky-crossposter"
+            },
+            {
+                "name": "awesome-bluesky",
+                "url": "https://github.com/fishttp/awesome-bluesky"
             }
         ]
     },
@@ -5293,6 +5421,10 @@
             {
                 "name": "Stalkiana",
                 "url": "https://github.com/RuiBorgesDev/Stalkiana"
+            },
+            {
+                "name": "ignorant",
+                "url": "https://github.com/megadose/ignorant"
             }
         ]
     },
@@ -5719,6 +5851,10 @@
             {
                 "name": "Twitter Cache",
                 "url": "https://cache.digitaldigging.org/"
+            },
+            {
+                "name": "twiangulate",
+                "url": "https://twiangulate.com/"
             }
         ]
     },
@@ -5736,6 +5872,10 @@
             {
                 "name": "SnapIntel",
                 "url": "https://github.com/Kr0wZ/SnapIntel"
+            },
+            {
+                "name": "ignorant",
+                "url": "https://github.com/megadose/ignorant"
             }
         ]
     },
@@ -6266,6 +6406,26 @@
             {
                 "name": "gmail permutator",
                 "url": "https://github.com/mariosantella/gmail_permutator"
+            },
+            {
+                "name": "socialscan",
+                "url": "https://github.com/iojw/socialscan"
+            },
+            {
+                "name": "emailable",
+                "url": "https://emailable.com/"
+            },
+            {
+                "name": "leak lookup",
+                "url": "https://leak-lookup.com/"
+            },
+            {
+                "name": "reconspider",
+                "url": "https://github.com/bhavsec/reconspider"
+            },
+            {
+                "name": "psbdmp",
+                "url": "https://psbdmp.ws/api/search/<email>"
             }
         ]
     },
@@ -6609,6 +6769,22 @@
             {
                 "name": "deepfind",
                 "url": "https://www.deepfind.me/tools"
+            },
+            {
+                "name": "scrapersnbots - available support more site for scrapper",
+                "url": "https://www.scrapersnbots.com/webtools/"
+            },
+            {
+                "name": "synapsint",
+                "url": "https://synapsint.com/"
+            },
+            {
+                "name": "usersearch",
+                "url": "https://usersearch.ai/"
+            },
+            {
+                "name": "donwloader - available support other site",
+                "url": "https://cobalt.tools/"
             }
         ]
     },
@@ -6919,6 +7095,10 @@
             {
                 "name": "worldbank webdocs",
                 "url": "https://thedocs.worldbank.org/en/doc/webdocs"
+            },
+            {
+                "name": "Data OCCRP",
+                "url": "https://data.occrp.org/"
             }
         ]
     },
@@ -7229,6 +7409,10 @@
             {
                 "name": "faceagle",
                 "url": "https://faceagle.com/"
+            },
+            {
+                "name": "camgirlfinder",
+                "url": "https://camgirlfinder.net/"
             }
         ]
     },
@@ -8856,6 +9040,14 @@
             {
                 "name": "zoomeye mcp",
                 "url": "https://github.com/zoomeye-ai/mcp_zoomeye"
+            },
+            {
+                "name": "host io",
+                "url": "https://host.io/"
+            },
+            {
+                "name": "crt.sh",
+                "url": "https://crt.sh/"
             }
         ]
     },
@@ -10056,6 +10248,10 @@
             {
                 "name": "wefaceswap - faceswap",
                 "url": "https://www.wefaceswap.com/faceswap"
+            },
+            {
+                "name": "heygen",
+                "url": "https://www.heygen.com/"
             }
         ]
     },
@@ -10568,6 +10764,18 @@
             {
                 "name": "Deep Search (onion link)",
                 "url": "http://search7tdrcvri22rieiwgi5g46qnwsesvnubqav2xakhezv4hjzkkad.onion/"
+            },
+            {
+                "name": "Not Evil 2 (onion link)",
+                "url": "http://hss3uro2hsxfogfq.onion.to/"
+            },
+            {
+                "name": "wikiwand",
+                "url": "https://www.wikiwand.com/en/articles/List_of_Tor_onion_services"
+            },
+            {
+                "name": "DarkNetLive Dark Web Markets (onion link)",
+                "url": "http://darkzzx4avcsuofgfez5zq75cqc4mprjvfqywo45dfcaxrwqg6qrlfid.onion/markets"
             }
         ]
     },
@@ -12266,6 +12474,14 @@
             {
                 "name": "accountkiller",
                 "url": "https://www.accountkiller.com/en/all-sites"
+            },
+            {
+                "name": "People's Check",
+                "url": "https://www.peoplescheck.com/optout/"
+            },
+            {
+                "name": "That's Them",
+                "url": "https://thatsthem.com/optout"
             }
         ]
     },
@@ -12979,6 +13195,14 @@
             {
                 "name": "geoguessr GPT",
                 "url": "https://chatgpt.com/g/g-brlHi7t2R-geoguessr-gpt"
+            },
+            {
+                "name": "gemini",
+                "url": "https://gemini.google.com/"
+            },
+            {
+                "name": "2short",
+                "url": "https://2short.ai/"
             }
         ]
     },
@@ -14452,6 +14676,30 @@
             {
                 "name": "attackerkb",
                 "url": "https://attackerkb.com/activity-feed"
+            },
+            {
+                "name": "Kernel-PWN",
+                "url": "https://github.com/Low-LevelDev-ID/kernel-pwn/tree/main"
+            },
+            {
+                "name": "API Hudson rock",
+                "url": "https://docs.hudsonrock.com/"
+            },
+            {
+                "name": "coalitioninc",
+                "url": "ess.coalitioninc.com"
+            },
+            {
+                "name": "censys",
+                "url": "https://censys.com/"
+            },
+            {
+                "name": "Search password",
+                "url": "https://psbdmp.ws/api/search/<password>"
+            },
+            {
+                "name": "mattw",
+                "url": "https://mattw.io/hashID/types"
             }
         ]
     },
@@ -15346,6 +15594,10 @@
             {
                 "name": "RAPID API Collection",
                 "url": "https://rapidapi.com/hub"
+            },
+            {
+                "name": "API Hudson rock",
+                "url": "https://docs.hudsonrock.com/"
             }
         ]
     },
@@ -16087,6 +16339,14 @@
             {
                 "name": "infostealers",
                 "url": "https://www.infostealers.com/"
+            },
+            {
+                "name": "ID mahkamahagung",
+                "url": "https://putusan3.mahkamahagung.go.id/"
+            },
+            {
+                "name": "APT Group List",
+                "url": "https://docs.google.com/spreadsheets/u/1/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU/pubhtml"
             }
         ]
     },
@@ -16180,6 +16440,10 @@
             {
                 "name": "unosat satellite database",
                 "url": "https://unosat.org/products"
+            },
+            {
+                "name": "foia",
+                "url": "https://www.foia.gov/"
             }
         ]
     },
@@ -16615,6 +16879,14 @@
             {
                 "name": "SatIntel - sat osint cli",
                 "url": "https://github.com/ANG13T/SatIntel"
+            },
+            {
+                "name": "A Beginner's Guide to Sentinel Hub",
+                "url": "https://citizenevidence.org/2023/03/21/summit-series-a-beginners-guide-to-sentinel-hub/"
+            },
+            {
+                "name": "Reporter's Tipsheet for Acquiring Free Satellite Images",
+                "url": "https://gijn.org/resource/guide-acquire-free-satellite-images/"
             }
         ]
     },
@@ -16708,6 +16980,14 @@
             {
                 "name": "Brave Search API",
                 "url": "https://brave.com/search/api/"
+            },
+            {
+                "name": "anti-captcha",
+                "url": "https://anti-captcha.com/apidoc"
+            },
+            {
+                "name": "tailscale",
+                "url": "https://tailscale.com/"
             }
         ]
     },
@@ -16842,6 +17122,10 @@
             {
                 "name": "google arts and culture",
                 "url": "https://artsandculture.google.com/explore"
+            },
+            {
+                "name": "newspaperarchive",
+                "url": "https://newspaperarchive.com/"
             }
         ]
     },
@@ -17803,6 +18087,10 @@
             {
                 "name": "Cek Nama Rekening Bank/e-Wallet Indonesia",
                 "url": "https://cekrekening.github.io/"
+            },
+            {
+                "name": "BIN Database CC Checker",
+                "url": "https://www.bindb.com/bin-database"
             }
         ]
     },
@@ -17970,6 +18258,10 @@
             {
                 "name": "ifixit EN",
                 "url": "https://www.ifixit.com/"
+            },
+            {
+                "name": "Iphone model number country code",
+                "url": "https://discussions.apple.com/thread/251748775?sortBy=rank"
             }
         ]
     },
@@ -18780,6 +19072,63 @@
             {
                 "name": "Scorched Earth: Using NASA Fire Data to Monitor War Zones",
                 "url": "https://www.bellingcat.com/resources/2022/10/04/scorched-earth-using-nasa-fire-data-to-monitor-war-zones/"
+            }
+        ]
+    },
+    {
+        "category": "OSINT Adult or Porn (18+)",
+        "items": [
+            {
+                "name": "bedpage",
+                "url": "http://bedpage.com/"
+            },
+            {
+                "name": "pornhub",
+                "url": "https://www.pornhub.com/"
+            },
+            {
+                "name": "spankbang",
+                "url": "https://spankbang.com/s/spank+bank/"
+            },
+            {
+                "name": "cityxguide",
+                "url": "http://cityxguide.com/"
+            },
+            {
+                "name": "eros",
+                "url": "https://eros.com/"
+            },
+            {
+                "name": "onlyfans",
+                "url": "https://onlyfans.com/onlyfans"
+            },
+            {
+                "name": "discord",
+                "url": "https://discord.com/"
+            },
+            {
+                "name": "telegram",
+                "url": "https://web.telegram.org/"
+            },
+            {
+                "name": "slixa",
+                "url": "https://www.slixa.com/"
+            },
+            {
+                "name": "kaskus",
+                "url": "https://www.kaskus.co.id/"
+            },
+            {
+                "name": "Quora",
+                "url": "https://id.quora.com/"
+            },
+            {
+                "name": "X",
+                "url": "https://twitter.com/"
+            },
+            {
+                "name": "Adult Finder",
+                "url": "https://www.scrapersnbots.com/webtools/plenty-of-fish-username-search.php?sitetosearch=adultfriendfinder#gsc.tab=0"
             }
         ]
     }
