@@ -163,6 +163,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [voilanorbert](https://www.voilanorbert.com/)
 - [freepeoplesearchtool](https://freepeoplesearchtool.com/)
 - [Social-Exractror](https://github.com/soxoj/socid-extractor) Extract accounts info from personal pages on various sites
+- [socialscan](https://github.com/iojw/socialscan)
 
 # Collection Dataset
 
@@ -241,6 +242,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [0day database](https://www.zero-day.cz/database/)
 - [Dataset crime for blockchain](https://hacked.slowmist.io/)
 - [threatfox IOC Database](https://threatfox.abuse.ch/browse/)
+- [urlhaus - database malicious URLs](https://urlhaus.abuse.ch/)
 
 # Forums & Sites
 
@@ -308,6 +310,8 @@ Site and forums OSINT community arround world
 - [wpdirectory](https://wpdirectory.net/)
 - [launchpad](https://launchpad.net/)
 - [snipplr](https://snipplr.com/all)
+- [invent](https://invent.kde.org/explore)
+- [stackoverflow](https://stackoverflow.com/questions) use google dork
 
 # Competitive Programming
 
@@ -388,6 +392,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 
 # Web Intelligence
 
+- [reconspider](https://github.com/bhavsec/reconspider)
 - [haveibeensquatted](https://www.haveibeensquatted.com/)
 - [sitereview](https://sitereview.bluecoat.com/)
 - [Website informer](https://website.informer.com/)
@@ -504,6 +509,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [analyzeid](https://analyzeid.com/)
 - [cyscan](https://cyscan.io/)
 - [urlfiltering](https://urlfiltering.paloaltonetworks.com/)
+- [threatintelligenceplatform](https://threatintelligenceplatform.com/)
 
 *Tips web cache 
 
@@ -556,6 +562,8 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [favihash](https://www.favihash.com/)
 - [waybackpack download wayback archive url](https://github.com/jsvine/waybackpack)
 - [Google Safe Browsing](https://developers.google.com/safe-browsing?hl=id)
+- [threatintelligenceplatform](https://threatintelligenceplatform.com/)
+- [unshorten.it](https://unshorten.it/)
 
 # Researching Cyber Threats
 
@@ -580,6 +588,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [Malware Sample and IOC](https://github.com/rivitna/Malware)
 - [Yara Doc](https://yara.readthedocs.io/en/stable/)
 - [Yara Hub](https://yaraify.abuse.ch/yarahub/)
+- [malshare](https://malshare.com/)
 - [Spiderfoot](https://www.spiderfoot.net/)
 - [NVD](https://nvd.nist.gov/search)
 - [Seclist](https://seclists.org/fulldisclosure/)
@@ -664,7 +673,6 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [criminalip](https://www.criminalip.io/) 
 - [hackedlist](https://hackedlist.io/)
 - [cybersixgill](https://cybersixgill.com/)
-- [ibmcloud exchange](https://exchange.xforce.ibmcloud.com/)
 - [favihash](https://www.favihash.com/)
 - [Google Safe Browsing](https://developers.google.com/safe-browsing?hl=id)
 - [greynoise](https://www.greynoise.io/)
@@ -677,6 +685,12 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [docguard](https://www.docguard.io/)
 - [threatfox](https://threatfox.abuse.ch/browse/)
 - [infostealers](https://www.infostealers.com/)
+- [APT Group List](https://docs.google.com/spreadsheets/u/1/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU/pubhtml)
+- [threatintelligenceplatform](https://threatintelligenceplatform.com/)
+- [maltiverse](https://maltiverse.com/start)
+- [intezer](https://analyze.intezer.com/scan)
+- [CheckPhish Detects and Monitors Phishing and Scam Sites](https://checkphish.bolster.ai/)
+- [apklab by avast](https://www.apklab.io/)
 
 # IoT Search Engines
 
@@ -863,6 +877,8 @@ You can find the file hash or other threat indicator
 - [docguard](https://www.docguard.io/)
 - [threatfox](https://threatfox.abuse.ch/browse/)
 - [infostealers](https://www.infostealers.com/)
+- [malshare](https://malshare.com/)
+- [APT Group List](https://docs.google.com/spreadsheets/u/1/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU/pubhtml)
 
 # Automation Dorking 
 
@@ -890,6 +906,7 @@ You can find the file hash or other threat indicator
 
 # Github 
 
+- [GROT](https://github.com/montysecurity/GROT)
 - [Github search name](https://caius.github.io/github_id/)
 - [Github Archive](https://www.gharchive.org/)
 - [Github Dork](https://github.com/techgaun/github-dorks)
@@ -960,7 +977,11 @@ Example
 - [us.searchboth.net](http://us.searchboth.net)
 - [Archive.org](http://www.arhive.org)
 - [Yandex](https://yandex.com)
-- [Pastebin](http://www.pastebin.com)
+- [Pastebin](http://www.pastebin.com) Check other domain extension like .ca, .fr you can search domain simillarity
+- [friendpaste](https://friendpaste.com/) Use google dork for search
+- [centos paste](https://paste.centos.org/) Use google dork for search
+- [Github Gist](https://gist.github.com/) 
+- [justpaste](https://justpaste.it/) Use google dork for search
 - [Topix.com](http://www.topix.com)
 - [Shodan](https://www.shodan.io/)
 - [Piratebays](https://thepiratebays.com/)
@@ -1001,6 +1022,8 @@ Example
 - [alltheinternet](https://www.alltheinternet.com/)
 - [sogou CN](https://www.sogou.com/)
 - [chronos Wayback Machine OSINT Framework](https://github.com/mhmdiaa/chronos)
+- [censys](https://search.censys.io/)
+- [dehashed](https://dehashed.com/)
 
 # Internet Archive
 
@@ -1079,6 +1102,8 @@ Example
 - [osintleak](https://osintleak.com/)
 - [Hawker](https://github.com/RetrO-M/Hawker)
 - [deepfind](https://www.deepfind.me/tools)
+- [psbdmp](https://psbdmp.ws/)
+- [profiler](https://search.profiler.me/)
 
 # Crack Jurnals
 
@@ -1231,9 +1256,11 @@ Example
 - [ID SIKAP CARI PELAKU USAHA](https://sikap.lkpp.go.id/pelaku-usaha/cari)
 - [ID TKDN Kemenperin](https://tkdn.kemenperin.go.id/search.php?where=perush&what=)
 - [WIPO INT](https://branddb.wipo.int/)
+- [urlvoid](https://www.urlvoid.com/)
 
 # People Searching
 
+- [snusbase](https://snusbase.com/)
 - [wbmii](https://webmii.com/)
 - [spokeo](http://www.spokeo.com)
 - [123people](http://www.123people.com)
@@ -1319,6 +1346,7 @@ Example
 
 # Phone Numbers
 
+- [whocalld](https://whocalld.com/)
 - [predictasearch](https://www.predictasearch.com/)
 - [argali](http://www.argali.com)
 - [ciddb](http://www.ciddb.com/index.php)
@@ -1408,6 +1436,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 
 # Finding Usernames
 
+- [Snusbase](https://snusbase.com/)
 - [Username Checker](https://analyzeid.com/username/)
 - [leakpeek](https://leakpeek.com/)
 - [OSINT rock](https://osint.rocks/)
@@ -1439,6 +1468,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [Bellingcat Name Finder](https://bellingcat.github.io/name-variant-search/#gsc.tab=0&gsc.q=%22alex%22&gsc.sort=)
 - [lampyre](https://lampyre.io/)
 - [Maigret OSINT tele bot](https://t.me/osint_maigret_bot)
+- [Leakcheck](https://leakcheck.io/)
 
 # Social Networks
 
@@ -1539,6 +1569,24 @@ or you can use dork for spesific example
 - [fansearch](https://www.fansearch.com/)
 - [xmodelfinder](https://www.xmodelfinder.com/)
 
+# OSINT Adult or Porn (18+)
+
+Note is for investigator like search scandal, deepfake porn or blackmail 
+
+- [bedpage](http://bedpage.com/)
+- [pornhub](https://www.pornhub.com/)
+- [spankbang](https://spankbang.com/s/spank+bank/)
+- [cityxguide](http://cityxguide.com/)
+- [eros](https://eros.com/)
+- [onlyfans](https://onlyfans.com/onlyfans)
+- [discord](https://discord.com/) You must to know the server 
+- [telegram](https://web.telegram.org/) You must to know the channel or group 
+- [slixa](https://www.slixa.com/)
+- [kaskus](https://www.kaskus.co.id/) You must to dork 
+- [Quora](https://id.quora.com/) You must to dork 
+- [X](https://twitter.com/) You must to dork and search
+- [Adult Finder](https://www.scrapersnbots.com/webtools/plenty-of-fish-username-search.php?sitetosearch=adultfriendfinder#gsc.tab=0)
+
 # Steam 
 
 - [STEAM DB](https://steamdb.info/calculator/)
@@ -1576,6 +1624,7 @@ or you can use dork for spesific example
 - [goodfeeds](https://goodfeeds.co/)
 - [bluesky insights](https://bluesky-insights.dwagentai.com/)
 - [bluesky-crossposter](https://github.com/Linus2punkt0/bluesky-crossposter)
+- [awesome-bluesky](https://github.com/fishttp/awesome-bluesky)
 
 # Instagram
 
@@ -1619,6 +1668,7 @@ or you can use dork for spesific example
 - [fameswap](https://fameswap.com/tool-instagram-user-id)
 - [instahunt](https://instahunt.huntintel.io/)
 - [Stalkiana](https://github.com/RuiBorgesDev/Stalkiana) *Run on your VM or cloud machine
+- [ignorant](https://github.com/megadose/ignorant)
 
 # Microsoft OneDrive 
 
@@ -1731,6 +1781,7 @@ or you can use dork for spesific example
 - [Get account ID Facebook and Twitter](https://commentpicker.com/)
 - [Get ID Twitter](https://tweeterid.com/)
 - [birdhunt 2](https://birdhunt.huntintel.io/)
+- [twiangulate](https://twiangulate.com/)
 
 Twitter Search Engine 
 
@@ -1744,6 +1795,7 @@ Twitter Search Engine
 - [Snapchat MAP](https://map.snapchat.com/)
 - [Snapchat Map scrapping](https://github.com/nemec/snapchat-map-scraper)
 - [SnapIntel](https://github.com/Kr0wZ/SnapIntel)
+- [ignorant](https://github.com/megadose/ignorant)
 
 # LinkedIn
 
@@ -1834,6 +1886,7 @@ Google queries for MySpace
 
 # Email Tracking
 
+- [socialscan](https://github.com/iojw/socialscan)
 - [Mailcat](https://github.com/sharsil/mailcat)
 - [OSINT indsutries](https://www.osint.industries/)
 - [lullar](https://lullar-com-3.appspot.com/en)
@@ -1913,6 +1966,10 @@ Google queries for MySpace
 - [deepfind](https://www.deepfind.me/tools)
 - [hashtray](https://github.com/soxoj/hashtray)
 - [gmail permutator](https://github.com/mariosantella/gmail_permutator)
+- [emailable](https://emailable.com/)
+- [leak lookup](https://leak-lookup.com/)
+- [reconspider](https://github.com/bhavsec/reconspider)
+- [psbdmp](https://psbdmp.ws/api/search/<email>)
 
 # PGP or GPG Keybase 
 
@@ -1941,6 +1998,7 @@ Google queries for MySpace
 
 # OSINT Online Tool  
 
+- [scrapersnbots - available support more site for scrapper](https://www.scrapersnbots.com/webtools/)
 - [Echosec](https://www.echosec.net/)
 - [Labs TIB](https://labs.tib.eu/info/en/)
 - [Foller](https://foller.me/)
@@ -2010,6 +2068,9 @@ Google queries for MySpace
 - [netlas.io](https://app.netlas.io/host/)
 - [sn0int doc](https://sn0int.readthedocs.io/en/stable/)
 - [deepfind](https://www.deepfind.me/tools)
+- [synapsint](https://synapsint.com/)
+- [usersearch](https://usersearch.ai/)
+- [donwloader - available support other site](https://cobalt.tools/)
 
 # Telegram Tool
 
@@ -2102,6 +2163,7 @@ Telegram Tips
 - [pdfdrive](https://www.pdfdrive.com/search?q=password)
 - [goofile](https://www.kali.org/tools/goofile/)
 - [worldbank webdocs](https://thedocs.worldbank.org/en/doc/webdocs)
+- [Data OCCRP](https://data.occrp.org/)
 
 # Real-Time Search, Social Media Search, and General Social Media Tools
 
@@ -2183,6 +2245,7 @@ Telegram Tips
 - [faceonlive](https://faceonlive.com/face-search-online/#search-panel)
 - [socialcatfish](https://socialcatfish.com/reverse-image-search/)
 - [faceagle](https://faceagle.com/)
+- [camgirlfinder](https://camgirlfinder.net/)
 
 # Image Analysis
 
@@ -2617,6 +2680,8 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [SSL Scan](https://www.kali.org/tools/sslscan/)
 - [subdomainfinder search history subdomain](https://subdomainfinder.c99.nl/)
 - [godaddy](https://www.godaddy.com/en)
+- [host io](https://host.io/)
+- [crt.sh](https://crt.sh/)
 
 # CTF Analysis & Exploit
 
@@ -2968,6 +3033,7 @@ Build your own deepfake
 - [LivePortrait](https://github.com/KwaiVGI/LivePortrait)
 - [stargan-v2](https://github.com/clovaai/stargan-v2)
 - [inZOI](https://store.steampowered.com/app/2456740/inZOI/)
+- [heygen](https://www.heygen.com/)
 
 Virtual Camera or Camera Replacement
 
@@ -3121,6 +3187,7 @@ Social Network and blogging
 - [DarkWeb Archive - Active Japan lang](https://darkweb-archive.activetk.jp/)
 - [iaca-darkweb-tools](https://iaca-darkweb-tools.com/search-darkweb/)
 - [Not Evil (onion link)](http://hss3uro2hsxfogfq.onion/)
+- [Not Evil 2 (onion link)](http://hss3uro2hsxfogfq.onion.to/)
 - [Visitor (onion link)](http://visitorfi5kl7q7i.onion/)
 - [deepweblinks - other lists](https://deepweblinks.net/)
 - [onion live](https://onion.live/)
@@ -3134,6 +3201,8 @@ Social Network and blogging
 - [onionlinkhub](https://www.onionlinkhub.com/)
 - [darkwebdaily](https://darkwebdaily.live/)
 - [Deep Search (onion link)](http://search7tdrcvri22rieiwgi5g46qnwsesvnubqav2xakhezv4hjzkkad.onion/)
+- [wikiwand](https://www.wikiwand.com/en/articles/List_of_Tor_onion_services)
+- [DarkNetLive Dark Web Markets (onion link)](http://darkzzx4avcsuofgfez5zq75cqc4mprjvfqywo45dfcaxrwqg6qrlfid.onion/markets)
 
 # Darkweb Intelligence
 
@@ -3777,6 +3846,8 @@ Public Transport
 - [kling AI - Generate media and vidio](https://www.klingai.com/)
 - [canva AI](https://www.canva.com/)
 - [geoguessr GPT](https://chatgpt.com/g/g-brlHi7t2R-geoguessr-gpt)
+- [gemini](https://gemini.google.com/)
+- [2short](https://2short.ai/)
 
 Hardware and server 
 
@@ -3972,6 +4043,11 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [cyscan](https://cyscan.io/) A url web scanner to enumerate resouces and gather some information 
 - [investigator](https://abhijithb200.github.io/investigator/) A dork command list to gather information like leak password and other things 
 - [attackerkb](https://attackerkb.com/activity-feed) Search about exploit guide and payload 
+- [Kernel-PWN](https://github.com/Low-LevelDev-ID/kernel-pwn/tree/main) A cool stuff to learn about kernel exploit from basic - hard
+- [Argus](https://github.com/jasonxtn/Argus?tab=readme-ov-file) The Ultimate Information Gathering Toolkit
+- [API Hudson rock](https://docs.hudsonrock.com/) Awesom API for find credential leak and find some initial access
+- [coalitioninc](ess.coalitioninc.com) Explore vulnerabilities, find their details and insights in a unified platform
+- [censys](https://censys.com/) A platform for reccon web or domain 
 
 Social Engineering (Social E)
 
@@ -4056,6 +4132,7 @@ Credentials Leak
 - [crackstation.net](https://crackstation.net/)
 - [breachdirectory.org](https://breachdirectory.org/)
 - [Intel Techniques Breach Tool](https://inteltechniques.com/tools/Breaches.html)
+- [Search password](https://psbdmp.ws/api/search/<password>)
 
 Password crack 
 
@@ -4069,6 +4146,7 @@ Password crack
 - [Search that hash](https://github.com/bee-san/Search-That-Hash) A tool brute and crack password hash
 - [Medusa](https://www.kali.org/tools/medusa/) A tool brute and crack password hash
 - [crackmapexec](https://www.kali.org/tools/crackmapexec/)  Automates gathering information, executing advanced password attacks, and performing post-exploitation activities like lateral movement.
+- [mattw](https://mattw.io/hashID/types) Hash identifier and hashcat mode cheat sheet 
 
 Wordlists for all
 
@@ -4155,7 +4233,6 @@ Privilage Escalation Cheat and check
 - [Windows Privilage Escalation](https://github.com/Ignitetechnologies/Windows-Privilege-Escalation?tab=readme-ov-file) Methods of escalating privilege on Windows-based machines and CTFs with examples
 - [gtfoargs](https://gtfoargs.github.io/) GTFOArgs is a curated list of Unix binaries that can be manipulated for argument injection, possibly resulting in security vulnerabilities
 - [loobins](https://www.loobins.io/binaries/) Detailed information on various built-in macOS binaries and how they can be used by threat actors for malicious purposes
-- [Argus](https://github.com/jasonxtn/Argus?tab=readme-ov-file) The Ultimate Information Gathering Toolkit
 
 Hacking Playground 
 
@@ -4500,6 +4577,7 @@ Resources and collection for your make tool OSINT
 - [API for OSINT](https://github.com/cipher387/API-s-for-OSINT)
 - [C99's API Service](https://api.c99.nl/)
 - [RAPID API Collection](https://rapidapi.com/hub)
+- [API Hudson rock](https://docs.hudsonrock.com/)
 
 # Data Visualization
 
@@ -4708,6 +4786,8 @@ Social Media Analytics
 - [ID Sistem Informasi Penelusuran Perkara](https://sipp.pn-negara.go.id/) *Tips you can search by province or regency (subdomain)  
 - [socradar](https://socradar.io/labs/)
 - [scamsearch](https://www.scamsearch.io/) Global Scam Database Search by Profile Picture, Email, Username, Pseudo Name, Phone Number, crypto address or website.
+- [ID mahkamahagung](https://putusan3.mahkamahagung.go.id/)
+- [APT Group List](https://docs.google.com/spreadsheets/u/1/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU/pubhtml)
 
 Guides 
 
@@ -4734,6 +4814,7 @@ OSINT politics and geopolitics, risk crisis
 - [Data catalog world bank](https://datacatalog.worldbank.org/)
 - [Google Patents](https://patents.google.com/)
 - [unosat satellite database](https://unosat.org/products)
+- [foia](https://www.foia.gov/)
 
 Terrorism & Radical 
 
@@ -4912,6 +4993,8 @@ Ex Guides:
 - [playwright](https://playwright.dev/docs/writing-tests) A powerful tool for testing and automating web browser interactions
 - [G maps scrapper](https://github.com/gosom/google-maps-scraper) A tool for scrapping google maps data 
 - [Brave Search API](https://brave.com/search/api/) Search data from brave search engine 
+- [anti-captcha](https://anti-captcha.com/apidoc) Bypassing captcha and WAF 
+- [tailscale](https://tailscale.com/) Possible to bypass WAF 
 
 # OSINT IRC Chat
 
@@ -4951,6 +5034,7 @@ You can use for study academic literature, search book, people name, old archive
 - [geneanet](https://en.geneanet.org/)
 - [CSE Google Search](https://cse.google.com/cse?cx=partner-pub-7233843800519946:6667570044&ie=UTF-8&q=)
 - [google arts and culture](https://artsandculture.google.com/explore)
+- [newspaperarchive](https://newspaperarchive.com/)
 
 # OSINT Art Collection
 
@@ -5258,6 +5342,7 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [ID kredibel check scammer](https://www.kredibel.com/search)
 - [DataRepublican](https://datarepublican.com/)
 - [Cek Nama Rekening Bank/e-Wallet Indonesia](https://cekrekening.github.io/)
+- [BIN Database CC Checker](https://www.bindb.com/bin-database)
 
 # OSINT Cryptography (Cipher)
 
@@ -5351,7 +5436,6 @@ This is path for you learn OSINT
 
 - [Awesome guide attack vector OSINT](https://github.com/sinwindie/OSINT)
 - [Bellingcat Guides Tools and Handbook](https://bellingcat.gitbook.io/toolkit/resources/guides-and-handbooks)
-- [deepdarkCTI](https://github.com/fastfire/deepdarkCTI)
 - [osintcombine](https://www.osintcombine.com/post/dark-web-searching)
 - [overtoperator](https://www.overtoperator.com/s/daily-intel-brief)
 - [maltego](https://www.maltego.com/blog/top-osint-infosec-resources-for-you-and-your-team/)
