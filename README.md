@@ -1104,6 +1104,8 @@ Example
 - [deepfind](https://www.deepfind.me/tools)
 - [psbdmp](https://psbdmp.ws/)
 - [profiler](https://search.profiler.me/)
+- [breachguard](https://breachguard.profiler.me/)
+- [intelbase](https://intelbase.is/)
 
 # Crack Jurnals
 
@@ -1423,6 +1425,7 @@ Example
 - [TrueCaller Tele Bot](https://t.me/TrueCaller_Z_Bot)
 - [SNS masking](https://smsviro.com/home/#pricing)
 - [OSINT rock](https://osint.rocks/)
+- [castrickclues](https://castrickclues.com/)
 
 Pro Tips
 
@@ -1469,6 +1472,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [lampyre](https://lampyre.io/)
 - [Maigret OSINT tele bot](https://t.me/osint_maigret_bot)
 - [Leakcheck](https://leakcheck.io/)
+- [castrickclues](https://castrickclues.com/)
 
 # Social Networks
 
@@ -1886,6 +1890,8 @@ Google queries for MySpace
 
 # Email Tracking
 
+- [intelbase](https://intelbase.is/)
+- [minervaosint](https://minervaosint.com/)
 - [socialscan](https://github.com/iojw/socialscan)
 - [Mailcat](https://github.com/sharsil/mailcat)
 - [OSINT indsutries](https://www.osint.industries/)
@@ -1970,6 +1976,7 @@ Google queries for MySpace
 - [leak lookup](https://leak-lookup.com/)
 - [reconspider](https://github.com/bhavsec/reconspider)
 - [psbdmp](https://psbdmp.ws/api/search/<email>)
+- [castrickclues](https://castrickclues.com/)
 
 # PGP or GPG Keybase 
 
@@ -4048,6 +4055,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [API Hudson rock](https://docs.hudsonrock.com/) Awesom API for find credential leak and find some initial access
 - [coalitioninc](ess.coalitioninc.com) Explore vulnerabilities, find their details and insights in a unified platform
 - [censys](https://censys.com/) A platform for reccon web or domain 
+- [IOS Pentesting](https://github.com/ansjdnakjdnajkd/iOS) Most usable tools for iOS penetration testing
 
 Social Engineering (Social E)
 
