@@ -2652,7 +2652,7 @@ Net mapping and port scanner
 Analyze the network dumps
 - [Apktool](https://ibotpeaches.github.io/Apktool/)
 Android Decompiler
-- [Ninja Binary](https://github.com/radareorg/radare2)
+- [Ninja Binary](https://binary.ninja/)
 Binary analysis framework
 - [Binwalk](https://github.com/ReFirmLabs/binwalk)
 Analyze, reverse engineer, and extract firmware images
@@ -3553,7 +3553,7 @@ Strict and disable bot crawl search engine index account
 - [Sync Me](https://sync.me/optout/) Request for remove your data from this site
 - [Telephone Directories](https://www.telephonedirectories.us/Edit_Records) Request for remove your data from this site
 - [Tenn Help](https://www.tennhelp.com/public-resources/change-listing.html) Request for remove your data from this site
-- [That's Them](https://thatsthem.com/optout) Request for remove your data from this sitef
+- [That's Them](https://thatsthem.com/optout) Request for remove your data from this site
 - [The Real Yellow Pages](https://tinyurl.com/dexknowscom) Request for remove your data from this site
 - [Thomson Reuters/Westlaw/CLEAR](https://privacyportal-cdn.onetrust.com/dsarwebform/dbf5ae8a-0a6a-4f4b-b527-7f94d0de6bbc/5dc91c0f-f1b7-4b6e-9d42-76043adaf72d.html) Request for remove your data from this site
 - [TLO](https://service.transunion.com/dss/ccpa_optout.page) Request for remove your data from this site
