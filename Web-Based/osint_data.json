@@ -15524,6 +15524,10 @@
             {
                 "name": "military radar",
                 "url": "https://military.freedar.uk/"
+            },
+            {
+                "name": "smallarmssurvey",
+                "url": "https://www.smallarmssurvey.org/databases"
             }
         ]
     },
@@ -18843,6 +18847,10 @@
             {
                 "name": "Support Me",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki#support-me"
+            },
+            {
+                "name": "All About Doxing",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-Doxing"
             }
         ]
     },
@@ -19315,5 +19323,9 @@
                 "url": "https://www.scrapersnbots.com/webtools/plenty-of-fish-username-search.php?sitetosearch=adultfriendfinder#gsc.tab=0"
             }
         ]
+    },
+    {
+        "category": "See Jieyab Wiki pages",
+        "items": []
     }
 ]
