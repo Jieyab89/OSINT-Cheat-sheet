@@ -164,6 +164,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [freepeoplesearchtool](https://freepeoplesearchtool.com/)
 - [Social-Exractror](https://github.com/soxoj/socid-extractor) Extract accounts info from personal pages on various sites
 - [socialscan](https://github.com/iojw/socialscan)
+- [CSE Social media search](https://cse.google.com/cse?cx=016621447308871563343:0p9cd3f8p-k#gsc.tab=0&gsc.sort=)
 
 # Collection Dataset
 
@@ -312,6 +313,13 @@ Site and forums OSINT community arround world
 - [snipplr](https://snipplr.com/all)
 - [invent](https://invent.kde.org/explore)
 - [stackoverflow](https://stackoverflow.com/questions) use google dork
+- [Find Pasted Text](https://cse.google.com/cse?cx=013991603413798772546:nxs552dhq8k) 
+- [Github code search CSE](https://cse.google.com/cse?cx=017261104271573007538:fqn_jyftcdq#gsc.tab=0&gsc.sort=)
+- [Gist Github](https://gist.github.com/starred)
+
+*Pro Tips 
+
+Try search on forum like programmer forums, web framework forums, social media and other things. Use a google dork to easy way find information with site target 
 
 # Competitive Programming
 
@@ -564,6 +572,11 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [Google Safe Browsing](https://developers.google.com/safe-browsing?hl=id)
 - [threatintelligenceplatform](https://threatintelligenceplatform.com/)
 - [unshorten.it](https://unshorten.it/)
+- [URL Expander Tool](https://t.ly/tools/link-expander/)
+- [Expand and verify all your shortened links](https://checkshorturl.com/)
+- [Expand Shortened URLs](https://www.expandurl.net/)
+- [getlinkinfo](https://www.getlinkinfo.com/)
+- [Redirect Tracker](https://www.websiteplanet.com/webtools/redirected/)
 
 # Researching Cyber Threats
 
@@ -662,7 +675,6 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [filescan](https://www.filescan.io/scan)
 - [urlquery](https://urlquery.net/)
 - [transparencyreport google](https://transparencyreport.google.com/safe-browsing/search)
-- [trustpositif Kominfo ID](https://trustpositif.kominfo.go.id/)
 - [Malware Bazaar](https://bazaar.abuse.ch/browse/)
 - [tria](https://tria.ge)
 - [safeweb norton](https://safeweb.norton.com/)
@@ -1024,6 +1036,8 @@ Example
 - [chronos Wayback Machine OSINT Framework](https://github.com/mhmdiaa/chronos)
 - [censys](https://search.censys.io/)
 - [dehashed](https://dehashed.com/)
+- [verifyhalal](https://verifyhalal.com/) Discover Over 1,000,000 Halal Products and Services Today
+- [Google cse search general](https://cse.google.com/cse?cx=013991603413798772546:jyvyp2ppxma#gsc.tab=0)
 
 # Internet Archive
 
@@ -1175,6 +1189,8 @@ Example
 - [Followthatpage](http://www.followthatpage.com)
 - [visualping](https://visualping.io/)
 - [ID MA Web Monitoring](https://www.mahkamahagung.go.id/id/webmon)
+- [trustpositif Kominfo ID](https://trustpositif.kominfo.go.id/) Checking blocked site ID 
+- [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
 
 # Company Reconnaissance Sites (Passive)
 
@@ -1259,6 +1275,7 @@ Example
 - [ID TKDN Kemenperin](https://tkdn.kemenperin.go.id/search.php?where=perush&what=)
 - [WIPO INT](https://branddb.wipo.int/)
 - [urlvoid](https://www.urlvoid.com/)
+- [littlesis](https://littlesis.org/)
 
 # People Searching
 
@@ -1698,6 +1715,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail
 - [Redit Search CSE](https://cse.google.com/cse?cx=007749065626525752968:qh5bqebwi30)
 - [Reddit find sub](https://anvaka.github.io/)
 - [reveddit](https://www.reveddit.com/)
+- [Reddit google cse search](https://cse.google.com/cse?cx=017261104271573007538:bbzhlah6n4o#gsc.tab=0&gsc.sort=)
 
 # Youtube 
 
@@ -1719,6 +1737,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail
 - [Get account ID YT](https://commentpicker.com/)
 - [Youtube Subscribe History](https://xxluke.de/subscription-history/)
 - [Summarize Any YouTube Video](https://ytbsum.codexfolio.com/)
+- [Youtube search operator](https://seosly.com/blog/youtube-search-operators/)
 
 # Mastodon 
 
@@ -1793,6 +1812,8 @@ Twitter Search Engine
 - [twitter lolarchiver](https://twitter.lolarchiver.com/)
 - [Geoint CSE search](https://cse.google.com/cse?cx=015328649639895072395:sbv3zyxzmji#gsc.tab=0&gsc.sort=)
 - [Twitter Cache](https://cache.digitaldigging.org/)
+- [Twitter image search google cse](https://cse.google.com/cse?cx=006205189065513216365:vltpvp4_gyo#gsc.tab=1&gsc.sort=)
+- [Twitter image search google cse 2](https://cse.google.com/cse?cx=006290531980334157382:_ltcjq0robu#gsc.tab=0&gsc.sort=&gsc.q=)
 
 # Snapchat 
 
@@ -1855,6 +1876,7 @@ Google queries for MySpace
 - [tiktok date extract](https://bellingcat.github.io/tiktok-timestamp/)
 - [Gimenz tiktok downloader](https://github.com/Gimenz/tiktok-downloader)
 - [exportcomments](https://exportcomments.com/)
+- [Google CSE Tiktok](https://cse.google.com/cse?cx=013991603413798772546:igv4fyrnnfu#gsc.tab=0)
 
 # Parler 
 
@@ -1871,6 +1893,7 @@ Google queries for MySpace
 - [flashpoint](https://flashpoint.io/)
 - [canarytokens](https://canarytokens.org/nest/)
 - [Intel471](https://intel471.com/)
+- [CSE Google alert](https://cse.google.com/cse?cx=013991603413798772546:rs7bbm8kdsg#gsc.tab=0)
 
 # EXIF Analysis
 
@@ -2171,6 +2194,7 @@ Telegram Tips
 - [goofile](https://www.kali.org/tools/goofile/)
 - [worldbank webdocs](https://thedocs.worldbank.org/en/doc/webdocs)
 - [Data OCCRP](https://data.occrp.org/)
+- [Google Search CSE File type search](https://cse.google.com/cse?cx=013991603413798772546:mu-oio3a980#gsc.tab=0&gsc.sort=)
 
 # Real-Time Search, Social Media Search, and General Social Media Tools
 
@@ -2253,6 +2277,7 @@ Telegram Tips
 - [socialcatfish](https://socialcatfish.com/reverse-image-search/)
 - [faceagle](https://faceagle.com/)
 - [camgirlfinder](https://camgirlfinder.net/)
+- [Google cse flickr image search](https://cse.google.com/cse?cx=011444696387487602669:nl3ze53kw8g#gsc.tab=0&gsc.q=yogyakarta&gsc.page=8)
 
 # Image Analysis
 
@@ -2667,6 +2692,11 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [How to Verify Guide](https://www.howtoverify.info/Image/Where/Geolocation/Manual_geolocation)
 - [Gephi Visual Tool](https://gephi.org/)
 - [3 new ways to check images and sources online](https://blog.google/products/search/google-search-new-fact-checking-features/)
+
+Guide 
+
+- [verificationhandbook](https://verificationhandbook.com/)
+- [Exposing the Invisible - The Kit](https://kit.exposingtheinvisible.org/en/index.html)
 
 # Server Information Gathering Also Web
 
@@ -3210,6 +3240,8 @@ Social Network and blogging
 - [Deep Search (onion link)](http://search7tdrcvri22rieiwgi5g46qnwsesvnubqav2xakhezv4hjzkkad.onion/)
 - [wikiwand](https://www.wikiwand.com/en/articles/List_of_Tor_onion_services)
 - [DarkNetLive Dark Web Markets (onion link)](http://darkzzx4avcsuofgfez5zq75cqc4mprjvfqywo45dfcaxrwqg6qrlfid.onion/markets)
+- [darksearch](https://darksearch.io/)
+- [thehiddenwiki](https://thehiddenwiki.com/)
 
 # Darkweb Intelligence
 
@@ -3859,6 +3891,8 @@ Public Transport
 Hardware and server 
 
 - [MAC Stduio](https://www.apple.com/id/mac-studio/)
+- [nvidia](https://www.nvidia.com/en-us/)
+- [digitalocean rent a gpu](https://www.digitalocean.com/pricing/gpu-droplets)
 
 LLM Interface 
 
@@ -4046,6 +4080,8 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [kitploit](https://kitploit.com/) A website contain IT Security news and how to exploit 
 - [cheatsheet - Offsec](https://cheatsheet.haax.fr/) A awesome toos and tips and trick for red teamer 
 - [search public bucket](https://buckets.grayhatwarfare.com/) Search public bucket like aws and other
+- [Amazon cloud search google cse](https://cse.google.com/cse?cx=005797772976587943970:g-6ohngosio#gsc.tab=0&gsc.sort=)
+- [Amazon cloud search google cse 2](https://cse.google.com/cse?cx=018215287813575168593:c17elzg384a#gsc.tab=0&gsc.q=amikom&gsc.sort=)
 - [Post Leak](https://github.com/cosad3s/postleaks) Search for sensitive data in Postman public library
 - [cyscan](https://cyscan.io/) A url web scanner to enumerate resouces and gather some information 
 - [investigator](https://abhijithb200.github.io/investigator/) A dork command list to gather information like leak password and other things 
@@ -4056,6 +4092,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [coalitioninc](ess.coalitioninc.com) Explore vulnerabilities, find their details and insights in a unified platform
 - [censys](https://censys.com/) A platform for reccon web or domain 
 - [IOS Pentesting](https://github.com/ansjdnakjdnajkd/iOS) Most usable tools for iOS penetration testing
+- [Find Pasted Text](https://cse.google.com/cse?cx=013991603413798772546:nxs552dhq8k) Awesome search engine to search pasted text 
 
 Social Engineering (Social E)
 
@@ -5315,6 +5352,7 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [nuclearweaponsedproj blast effects calc](https://nuclearweaponsedproj.mit.edu/nuclear-weapons-blast-effects-calculator/)
 - [outrider sains nuclear weapon estimate calc](https://outrider.org/)
 - [MapChecking Crowd counting tool](https://www.mapchecking.com/)
+- [wolframalpha](https://www.wolframalpha.com/)
 
 # OSINT Financial (FININT)
 
@@ -5425,6 +5463,9 @@ Search file in cloud like Google drive and other
 - [Google CSE search drive](https://cse.google.com/cse?cx=013991603413798772546:nwzqlcysx_w) Search file in Google drive with custom search engine
 - [cloud enum](https://github.com/initstring/cloud_enum) Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
 - [dedigger](https://www.dedigger.com/#gsc.tab=0) Find public files in Google Drive
+- [Google DOCS CSE](https://cse.google.com/cse?cx=013991603413798772546:rse-4irjrn8) Search document in Google docs
+- [Find google drive public](https://cse.google.com/cse?cx=009049714591083331396:54vj9vejyek)
+- [Find google drive public 2](https://cse.google.com/cse?cx=013991603413798772546:nwzqlcysx_w)
 
 # OSINT Property
 
@@ -5437,6 +5478,7 @@ Find the list and history about house property, price and etc
 
 - [CSE-UTOPIA LISTS](https://start.me/p/EL84Km/cse-utopia)
 - [40 Custom Search Engines](https://booleanstrings.com/all-the-40-forty-custom-search-engines/)
+- [Find Pasted Text](https://cse.google.com/cse?cx=013991603413798772546:nxs552dhq8k)
 
 # OSINT Technique Tips 
 
