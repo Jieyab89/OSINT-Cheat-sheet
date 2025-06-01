@@ -1,5 +1,9 @@
 # OSINT CHEAT SHEET - List OSINT Tools [![Github Badge](https://img.shields.io/badge/-Jieyab89-black?style=flat&logo=github&logoColor=white&link=https://github.com/Jieyab89/)](https://github.com/Jieyab89)
 
+# See Jieyab Wiki pages 
+
+[![Wiki](https://img.shields.io/badge/GitHub_Wiki-📖%20Jieyab89-blue?style=for-the-badge)](https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki)
+
 ![image](https://github.com/user-attachments/assets/37d7d761-c1f3-40f5-9ecd-d79457ee8a6e)
 
 Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and others. There are free and paid tools you can use and owner is not responsible (take your own risks), only for knowledge or educational purposes. Apologies if some of the resources are no longer available or contain errors, as the owner does not regularly check the status of these resources, If there is new information, the owner will add it to this repo along with the category. If you want to read about techniques and intelligence some have already been added to the Wiki page [Jieyaboo Wiki](https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki) The owner will add them back. If there are any errors let us know thank you.
@@ -3486,7 +3490,7 @@ Search people missing and abuse, strict content, removing, takedown and minimize
 - [Google image removal](https://support.google.com/websearch/answer/4628134)
 Remove your image from Google
 - [Delete Me](https://joindeleteme.com/) Remove your personal information in internet and data broker (scrapper)
-- [backgroundchecks](https://backgroundchecks.org/justdeleteme/#go) A directory of direct links to delete your account from web services
+- [backgroundchecks](https://backgroundchecks.org/justdeleteme/#go) A guide directory of direct links to delete your account from web services
 - [ATII](https://followmoneyfightslavery.org/) The Anti-Human Trafficking Intelligence Initiative human trafficking, child exploitation, and child sexual abuse material (CSAM) through the advancement of prevention, detection, investigation, and reporting mechanisms.
 - [Stopncii](https://stopncii.org)
 Free tool designed to support victims of Non-Consensual Intimate Image (NCII) abuse
@@ -4552,6 +4556,11 @@ Tactical learn and some firearms knowledge
 - [wiki firearm brands](https://en.wikipedia.org/wiki/List_of_firearm_brands)
 - [Armament Research Services (ARES) Podcast](https://rss.com/podcasts/bellingcatstagetalk/1945244/)
 - [Armament Research Services (ARES) Official Site](https://armamentresearch.com/)
+- [smallarmssurvey](https://www.smallarmssurvey.org/databases)
+
+*Pro Tips 
+
+If you want to analyze the military for your research, you can learn about SALW, UXO, EO, Geopolitics, geospatial, signal intelligence, CSINT, security protocols on SALW, tools of war, geography, history, IT security and some programming and some research
 
 # OSINT Shadow Analysis 
 
