@@ -4097,6 +4097,8 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [censys](https://censys.com/) A platform for reccon web or domain 
 - [IOS Pentesting](https://github.com/ansjdnakjdnajkd/iOS) Most usable tools for iOS penetration testing
 - [Find Pasted Text](https://cse.google.com/cse?cx=013991603413798772546:nxs552dhq8k) Awesome search engine to search pasted text 
+- [leakradar](https://leakradar.io/) Instant search across 2 B+ plain-text info-stealer credentials; email, domain, metadata queries, monitoring & API
+- [subdomainradar](https://subdomainradar.io/) All-in-one recon platform: 50+ data sources for subdomain discovery, port & vulnerability scans, screenshots, and API access
 
 Social Engineering (Social E)
 
@@ -4632,6 +4634,7 @@ Resources and collection for your make tool OSINT
 - [C99's API Service](https://api.c99.nl/)
 - [RAPID API Collection](https://rapidapi.com/hub)
 - [API Hudson rock](https://docs.hudsonrock.com/)
+- [API LeakRadar](https://api.leakradar.io/docs)
 
 # Data Visualization
 
