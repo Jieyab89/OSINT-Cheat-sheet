@@ -1901,6 +1901,7 @@ Google queries for MySpace
 
 # EXIF Analysis
 
+- [EXIF Editor](https://exifeditor.io)
 - [regex](http://regex.info/exif.cgi)
 - [FindExif](http://www.findexif.com)
 - [metapicz](http://metapicz.com)
