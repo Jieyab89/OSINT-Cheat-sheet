@@ -747,6 +747,10 @@
             {
                 "name": "Gist Github",
                 "url": "https://gist.github.com/starred"
+            },
+            {
+                "name": "grep",
+                "url": "https://grep.app/"
             }
         ]
     },
@@ -1485,6 +1489,10 @@
             {
                 "name": "threatintelligenceplatform",
                 "url": "https://threatintelligenceplatform.com/"
+            },
+            {
+                "name": "pagecached",
+                "url": "https://pagecached.com/"
             }
         ]
     },
@@ -3033,6 +3041,18 @@
             {
                 "name": "GROT",
                 "url": "https://github.com/montysecurity/GROT"
+            },
+            {
+                "name": "gittodoc",
+                "url": "https://www.gittodoc.com/"
+            },
+            {
+                "name": "gitsearchai",
+                "url": "https://www.gitsearchai.com/"
+            },
+            {
+                "name": "gitdiagram",
+                "url": "https://gitdiagram.com/"
             }
         ]
     },
@@ -3632,6 +3652,14 @@
             {
                 "name": "intelbase",
                 "url": "https://intelbase.is/"
+            },
+            {
+                "name": "mozilla monitor",
+                "url": "https://monitor.mozilla.org/"
+            },
+            {
+                "name": "google darkweb security checkup",
+                "url": "https://myactivity.google.com/dark-web-report/setup-profile"
             }
         ]
     },
@@ -3842,6 +3870,10 @@
             {
                 "name": "elsevier - Get and search cite the jouurnal api",
                 "url": "https://dev.elsevier.com/"
+            },
+            {
+                "name": "semanticscholar",
+                "url": "https://www.semanticscholar.org/"
             }
         ]
     },
@@ -5181,6 +5213,10 @@
             {
                 "name": "META Scan",
                 "url": "https://github.com/HackUnderway/meta_scan"
+            },
+            {
+                "name": "Facebook lookup id",
+                "url": "https://lookup-id.com/#"
             }
         ]
     },
@@ -5939,6 +5975,18 @@
             {
                 "name": "Twitter image search google cse 2",
                 "url": "https://cse.google.com/cse?cx=006290531980334157382:_ltcjq0robu#gsc.tab=0&gsc.sort=&gsc.q="
+            },
+            {
+                "name": "Get ID 2",
+                "url": "https://twiteridfinder.com/"
+            },
+            {
+                "name": "threadreaderapp",
+                "url": "https://threadreaderapp.com/"
+            },
+            {
+                "name": "Tweet Map",
+                "url": "https://www.heavy.ai/demos/tweetmap"
             }
         ]
     },
@@ -6025,6 +6073,10 @@
             {
                 "name": "LinkdTime",
                 "url": "https://github.com/Lucksi/LinkdTime"
+            },
+            {
+                "name": "Linkedin CSE - Search OSINT",
+                "url": "https://cse.google.com/cse?cx=daaf18e804f81bed0"
             }
         ]
     },
@@ -6066,6 +6118,10 @@
             {
                 "name": "Google CSE Tiktok",
                 "url": "https://cse.google.com/cse?cx=013991603413798772546:igv4fyrnnfu#gsc.tab=0"
+            },
+            {
+                "name": "Tktok username lookup and viewer",
+                "url": "https://omar-thing.nekoweb.org/"
             }
         ]
     },
@@ -6177,6 +6233,10 @@
             {
                 "name": "Python exif extractor",
                 "url": "https://github.com/davidbombal/red-python-scripts/blob/main/exif.py"
+            },
+            {
+                "name": "EXIF Editor",
+                "url": "https://exifeditor.io"
             }
         ]
     },
@@ -6592,6 +6652,10 @@
             {
                 "name": "Googl earth pro",
                 "url": "https://earth.google.com/web"
+            },
+            {
+                "name": "Wayback Twitter",
+                "url": "https://waybacktweets.streamlit.app/"
             }
         ]
     },
@@ -7207,6 +7271,14 @@
             {
                 "name": "Google Search CSE File type search",
                 "url": "https://cse.google.com/cse?cx=013991603413798772546:mu-oio3a980#gsc.tab=0&gsc.sort="
+            },
+            {
+                "name": "pdfyes",
+                "url": "http://pdfyes.com/"
+            },
+            {
+                "name": "Web Archive",
+                "url": "https://web.archive.org/"
             }
         ]
     },
@@ -10372,6 +10444,22 @@
             {
                 "name": "heygen",
                 "url": "https://www.heygen.com/"
+            },
+            {
+                "name": "fakesims - Generate User Persona",
+                "url": "https://fakesims.com/username-generator.html"
+            },
+            {
+                "name": "Receive SMS Online - SmsPva",
+                "url": "https://smspva.com/"
+            },
+            {
+                "name": "Proton Mail",
+                "url": "https://account.proton.me/mail"
+            },
+            {
+                "name": "Tuta Mail",
+                "url": "https://app.tuta.com/"
             }
         ]
     },
@@ -10904,6 +10992,10 @@
             {
                 "name": "thehiddenwiki",
                 "url": "https://thehiddenwiki.com/"
+            },
+            {
+                "name": "onionsearchengine",
+                "url": "https://onionsearchengine.com/index.php"
             }
         ]
     },
@@ -14852,6 +14944,14 @@
             {
                 "name": "Find Pasted Text",
                 "url": "https://cse.google.com/cse?cx=013991603413798772546:nxs552dhq8k"
+            },
+            {
+                "name": "leakradar",
+                "url": "https://leakradar.io/"
+            },
+            {
+                "name": "subdomainradar",
+                "url": "https://subdomainradar.io/"
             }
         ]
     },
@@ -15650,6 +15750,10 @@
             {
                 "name": "smartquantai",
                 "url": "https://www.smartquantai.com/"
+            },
+            {
+                "name": "semanticscholar",
+                "url": "https://www.semanticscholar.org/"
             }
         ]
     },
@@ -15688,6 +15792,10 @@
             {
                 "name": "torrentinim",
                 "url": "https://github.com/sergiotapia/torrentinim"
+            },
+            {
+                "name": "Track IP Torrent Activity",
+                "url": "https://iknowwhatyoudownload.com/"
             }
         ]
     },
@@ -15754,6 +15862,10 @@
             {
                 "name": "API Hudson rock",
                 "url": "https://docs.hudsonrock.com/"
+            },
+            {
+                "name": "API LeakRadar",
+                "url": "https://api.leakradar.io/docs"
             }
         ]
     },
@@ -17323,6 +17435,10 @@
             {
                 "name": "google arts and culture",
                 "url": "https://artsandculture.google.com/explore"
+            },
+            {
+                "name": "google artsexperiments",
+                "url": "https://artsexperiments.withgoogle.com/"
             }
         ]
     },
@@ -17817,6 +17933,10 @@
             {
                 "name": "WIPO INT",
                 "url": "https://branddb.wipo.int/"
+            },
+            {
+                "name": "ithenticate",
+                "url": "https://www.ithenticate.com/"
             }
         ]
     },
@@ -19229,6 +19349,10 @@
             {
                 "name": "OSINT TIPS AND GUIDE",
                 "url": "https://ohshint.gitbook.io/oh-shint-its-a-blog/osint/osint-protips"
+            },
+            {
+                "name": "Using Flight Tracking For Geolocation",
+                "url": "https://nixintel.info/osint/using-flight-tracking-for-geolocation-quiztime-30th-october-2019/"
             }
         ]
     },
@@ -19327,5 +19451,14 @@
     {
         "category": "See Jieyab Wiki pages",
         "items": []
+    },
+    {
+        "category": "Thread",
+        "items": [
+            {
+                "name": "Reverse-engineering Instagram's - Checking endpoint API",
+                "url": "https://github.com/m1guelpf/threads-re"
+            }
+        ]
     }
 ]
