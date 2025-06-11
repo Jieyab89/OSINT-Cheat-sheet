@@ -320,6 +320,7 @@ Site and forums OSINT community arround world
 - [Find Pasted Text](https://cse.google.com/cse?cx=013991603413798772546:nxs552dhq8k) 
 - [Github code search CSE](https://cse.google.com/cse?cx=017261104271573007538:fqn_jyftcdq#gsc.tab=0&gsc.sort=)
 - [Gist Github](https://gist.github.com/starred)
+- [grep](https://grep.app/)
 
 *Pro Tips 
 
@@ -522,6 +523,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [cyscan](https://cyscan.io/)
 - [urlfiltering](https://urlfiltering.paloaltonetworks.com/)
 - [threatintelligenceplatform](https://threatintelligenceplatform.com/)
+- [pagecached](https://pagecached.com/)
 
 *Tips web cache 
 
@@ -934,6 +936,9 @@ You can find the file hash or other threat indicator
 - [Octosuite Github](https://github.com/bellingcat/octosuite)
 - [Github find project map](https://anvaka.github.io/map-of-github/#2/0/0)
 - [Github find email](https://ghintel.secrets.ninja/)
+- [gittodoc](https://www.gittodoc.com/)
+- [gitsearchai](https://www.gitsearchai.com/)
+- [gitdiagram](https://gitdiagram.com/)
 
 Github Dork
 
@@ -1124,6 +1129,8 @@ Example
 - [profiler](https://search.profiler.me/)
 - [breachguard](https://breachguard.profiler.me/)
 - [intelbase](https://intelbase.is/)
+- [mozilla monitor](https://monitor.mozilla.org/)
+- [google darkweb security checkup](https://myactivity.google.com/dark-web-report/setup-profile)
 
 # Crack Jurnals
 
@@ -1180,6 +1187,7 @@ Example
 - [oa citation](https://oa.mg/)
 - [sci-net](https://sci-net.xyz/)
 - [elsevier - Get and search cite the jouurnal api](https://dev.elsevier.com/)
+- [semanticscholar](https://www.semanticscholar.org/)
 
 # Blogs Search Engine
 
@@ -1584,6 +1592,7 @@ or you can use dork for spesific example
 - [Intelx Facebook](https://intelx.io/tools?tab=facebook)
 - [Check email and phone num on facebook](https://web.facebook.com/login/identify?ctx=recover&_rdc=1&_rdr#)
 - [META Scan](https://github.com/HackUnderway/meta_scan)
+- [Facebook lookup id](https://lookup-id.com/#)
 
 # OnlyFans
 
@@ -1694,6 +1703,10 @@ Note is for investigator like search scandal, deepfake porn or blackmail
 - [instahunt](https://instahunt.huntintel.io/)
 - [Stalkiana](https://github.com/RuiBorgesDev/Stalkiana) *Run on your VM or cloud machine
 - [ignorant](https://github.com/megadose/ignorant)
+
+# Thread 
+
+- [Reverse-engineering Instagram's - Checking endpoint API](https://github.com/m1guelpf/threads-re)
 
 # Microsoft OneDrive 
 
@@ -1809,6 +1822,9 @@ Note is for investigator like search scandal, deepfake porn or blackmail
 - [Get ID Twitter](https://tweeterid.com/)
 - [birdhunt 2](https://birdhunt.huntintel.io/)
 - [twiangulate](https://twiangulate.com/)
+- [Get ID 2](https://twiteridfinder.com/)
+- [threadreaderapp](https://threadreaderapp.com/)
+- [Tweet Map](https://www.heavy.ai/demos/tweetmap)
 
 Twitter Search Engine 
 
@@ -1842,7 +1858,7 @@ Google queries for LinkedIn
 - [Rocket reach](https://rocketreach.co/person)
 - [Phantom Buster](https://phantombuster.com/phantombuster)
 - [reversecontact](https://www.reversecontact.com/)
-- [Linkedin Search OSINT](https://cse.google.com/cse?cx=daaf18e804f81bed0)
+- [Linkedin CSE - Search OSINT](https://cse.google.com/cse?cx=daaf18e804f81bed0)
 - [Linkedin Google Search Custom](https://cse.google.com/cse?cx=002879889969213338875:ykfcyju2xe8)
 - [Linkedin Google Search Custom 2](https://cse.google.com/cse?cx=012951739560700154499:8rl_7tkzjgq#gsc.tab=0)
 - [coresignal](https://coresignal.com/)
@@ -1881,6 +1897,7 @@ Google queries for MySpace
 - [Gimenz tiktok downloader](https://github.com/Gimenz/tiktok-downloader)
 - [exportcomments](https://exportcomments.com/)
 - [Google CSE Tiktok](https://cse.google.com/cse?cx=013991603413798772546:igv4fyrnnfu#gsc.tab=0)
+- [Tktok username lookup and viewer](https://omar-thing.nekoweb.org/)
 
 # Parler 
 
@@ -2030,6 +2047,7 @@ Google queries for MySpace
 - [Archive today](https://archive.ph/)
 - [flameshot](https://flameshot.org/)
 - [Googl earth pro](https://earth.google.com/web)
+- [Wayback Twitter](https://waybacktweets.streamlit.app/)
 
 # OSINT Online Tool  
 
@@ -2200,6 +2218,8 @@ Telegram Tips
 - [worldbank webdocs](https://thedocs.worldbank.org/en/doc/webdocs)
 - [Data OCCRP](https://data.occrp.org/)
 - [Google Search CSE File type search](https://cse.google.com/cse?cx=013991603413798772546:mu-oio3a980#gsc.tab=0&gsc.sort=)
+- [pdfyes](http://pdfyes.com/)
+- [Web Archive](https://web.archive.org/)
 
 # Real-Time Search, Social Media Search, and General Social Media Tools
 
@@ -3056,6 +3076,10 @@ Build your sockpuppet account and proctect your privacy
 - [SNS masking](https://smsviro.com/home/#pricing)
 - [USER AGENT LIST](https://www.useragentstring.com/pages/useragentstring.php)
 - [dnmx email](https://dnmx.su/)
+- [fakesims - Generate User Persona](https://fakesims.com/username-generator.html)
+- [Receive SMS Online - SmsPva](https://smspva.com/)
+- [Proton Mail](https://account.proton.me/mail)
+- [Tuta Mail](https://app.tuta.com/)
 
 Build your own deepfake 
 
@@ -3247,6 +3271,7 @@ Social Network and blogging
 - [DarkNetLive Dark Web Markets (onion link)](http://darkzzx4avcsuofgfez5zq75cqc4mprjvfqywo45dfcaxrwqg6qrlfid.onion/markets)
 - [darksearch](https://darksearch.io/)
 - [thehiddenwiki](https://thehiddenwiki.com/)
+- [onionsearchengine](https://onionsearchengine.com/index.php)
 
 # Darkweb Intelligence
 
@@ -3845,6 +3870,7 @@ Public Transport
 - [incidentnews NOOA](https://incidentnews.noaa.gov/map)
 - [EMSA](https://www.emsa.europa.eu/)
 - [balticshipping](https://www.balticshipping.com/)
+- [shipfinder](https://www.shipfinder.com/)
 
 # Railways
 
@@ -4600,6 +4626,11 @@ Analysis for IMINT and find the geolocation, azimuth and etc
 - [G Drive - Navigating digital media](https://drive.google.com/drive/folders/1eF9FE-2B-bVciTCbajMR_f1Q7fHZl0s5)
 - [Cryptome - search doc about publication that are prohibited by government](https://cryptome.org/)
 - [smartquantai](https://www.smartquantai.com/)
+- [semanticscholar](https://www.semanticscholar.org/)
+
+*Pro Tips
+
+Check on category search jurnals 
 
 # Web Directory 
 
@@ -4613,6 +4644,7 @@ Analysis for IMINT and find the geolocation, azimuth and etc
 - [Jacket](https://github.com/Jackett/Jackett)
 - [API OSINT TORRENT](https://github.com/cipher387/API-s-for-OSINT/blob/main/README.md) 
 - [torrentinim](https://github.com/sergiotapia/torrentinim)
+- [Track IP Torrent Activity](https://iknowwhatyoudownload.com/)
 
 # SDR OSINT 
 
@@ -5105,6 +5137,7 @@ You can use for study academic literature, search book, people name, old archive
 - [Old Indiana Photo](https://www.oldindianphotos.in/)
 - [Lostart DE](https://www.lostart.de/en/start)
 - [google arts and culture](https://artsandculture.google.com/explore)
+- [google artsexperiments](https://artsexperiments.withgoogle.com/)
 
 # OSINT The Artists 
 
@@ -5191,7 +5224,7 @@ Guide Journalist
 - [GIJN Investigate AI Deepfake](https://gijn.org/resource/tipsheet-investigating-ai-audio-deepfakes/)
 - [datajournalism AI Deepfake](https://datajournalism.com/read/handbook/verification-3/investigating-actors-content/6-how-to-think-about-deepfakes-and-emerging-manipulation-technologie)
 - [DW Guide Investigate Deepfake](https://www.dw.com/en/fact-check-how-do-i-spot-a-deepfake/a-60029650)
-- [sightengine](https://sightengine.com/)
+- [sightengine](https://dashboard.sightengine.com/)
 - [wasitai](https://wasitai.com/)
 - [restream](https://restream.io/tools/transcribe-video-to-text)
 - [detect-ai-images](https://detect-ai-images.web.app/)
@@ -5222,6 +5255,7 @@ Text Analyzer
 - [copyleaks](https://copyleaks.com/)
 - [gowinston](https://gowinston.ai/)
 - [humbot](https://humbot.ai/)
+- [ithenticate](https://www.ithenticate.com/)
 
 Audio Analyzer 
 
