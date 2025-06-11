@@ -2,7 +2,16 @@
 
 # See Jieyab Wiki pages 
 
+Contains information about OSINT tips, OSINT branches and knowledge about intelligence
+
 [![Wiki](https://img.shields.io/badge/GitHub_Wiki-📖%20Jieyab89-blue?style=for-the-badge)](https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki)
+
+# See Jieyab Gitbook  
+
+Contains information about OSINT tips, write up usage resouces and more tips about OSINT and OSINT branch
+
+[![Wiki](https://img.shields.io/badge/GitHub_Wiki-📖%20Jieyab89-blue?style=for-the-badge)](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips)
+
 
 ![image](https://github.com/user-attachments/assets/37d7d761-c1f3-40f5-9ecd-d79457ee8a6e)
 
@@ -3892,7 +3901,6 @@ Public Transport
 - [deepseek](https://www.deepseek.com/)
 - [Gpt osint](https://github.com/gigz/gpt-osint)
 - [cursor](https://www.cursor.com/features)
-- [lmstudio](https://lmstudio.ai/)
 - [ollama uncensored](https://ollama.com/library/llama2-uncensored)
 - [Hacker AI](https://chat.hackerai.co/id/login)
 - [Blackbox AI](https://www.blackbox.ai/)
