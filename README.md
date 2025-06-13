@@ -5324,8 +5324,7 @@ Social Media
 - [fortify-static-code-analyzer](https://www.opentext.com/products/fortify-static-code-analyzer)
 - [tenable](https://www.tenable.com/)
 - [horusec](https://github.com/ZupIT/horusec)
-- [Vulert](https://vulert.com/) - Vulert secures software by detecting vulnerabilities in open-source dependencies—without accessing your code. It supports Js, PHP, Java, Python, and more.
-
+- [Vulert](https://vulert.com/) - Vulert secures software by detecting vulnerabilities in open-source dependencies—without accessing your code. It supports Js, PHP, Java, Python, and more
 - [bearer](https://github.com/bearer/bearer)
 - [MATE](https://github.com/GaloisInc/MATE)
 - [codeql](https://github.com/github/codeql)
