@@ -1368,6 +1368,7 @@ Example
 - [faceseek](https://faceseek.online/)
 - [lenso](https://lenso.ai/en)
 - [berify](https://berify.com/)
+- [ID KPK Check the wealth assets of Indonesian ministries](https://elhkpn.kpk.go.id/portal/user/check_search_announ#announ)
 
 # Family People Search 
 
@@ -1614,7 +1615,7 @@ or you can use dork for spesific example
 
 # OSINT Adult or Porn (18+)
 
-Note is for investigator like search scandal, deepfake porn or blackmail 
+Note is for investigator like search scandal, deepfake porn or blackmail and porn actress
 
 - [bedpage](http://bedpage.com/)
 - [pornhub](https://www.pornhub.com/)
@@ -1629,6 +1630,10 @@ Note is for investigator like search scandal, deepfake porn or blackmail
 - [Quora](https://id.quora.com/) You must to dork 
 - [X](https://twitter.com/) You must to dork and search
 - [Adult Finder](https://www.scrapersnbots.com/webtools/plenty-of-fish-username-search.php?sitetosearch=adultfriendfinder#gsc.tab=0)
+
+Pro Tips 
+
+Searching for scandal or blackmail or deepfake porn doesn't have to be on the listed sites, there are many perpetrators uploading on several platforms You need to do massive scrapping to collect this information, but there are times when they do it on platforms such as telegram, X or adult sites, you can search using dork, regex and other things
 
 # Steam 
 
@@ -4257,6 +4262,10 @@ Wordlists for all
 - [leakedpassword](https://leakedpassword.com/)
 - [Leak-Lookup](https://leak-lookup.com/)
 
+Pro Tips 
+
+You can make own wordlist within name, full name, dob, institution, pets name and give add numeric like 123, 1234 example admin123, admin1234 and other things be a creative or use a default password 
+
 Web fuzz wordlists
 
 - [top25-parameter](https://github.com/lutfumertceylan/top25-parameter)
@@ -4749,7 +4758,7 @@ Resources and collection for your make tool OSINT
 - [Moz Backlink](https://moz.com/link-explorer)
 - [SPAM Check Score](https://www.dapachecker.org/spam-score-checker)
 - [MOZ Spam Check](https://moz.com/help/link-explorer/link-building/spam-score)
-- [NIK PARSE](https://github.com/bachors/nik_parse.js?tab=readme-ov-file#nik_parsejs)
+- [NIK PARSE ID](https://github.com/bachors/nik_parse.js?tab=readme-ov-file#nik_parsejs)
 - [API for Indonesian ID card (KTP) identification](https://github.com/audhiaprilliant/indonesian-id-card-identification)
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
 - [Kaseware](https://www.kaseware.com/link-analysis)
