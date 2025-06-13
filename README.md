@@ -4068,6 +4068,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [busybox](https://busybox.net/) Escape from docker or container machine if you have get access the target like revshell but there is no apps or programm (binary) to run command 
 - [toybox](https://landley.net/toybox/downloads/binaries/latest/) Escape from docker or container machine if you have get access the target like revshell but there is no apps or programm (binary) to run command 
 - [frida](https://frida.re/) Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers
+- [Frida-Server](https://github.com/frida/frida/releases) Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers
 - [codeshare Frida script](https://codeshare.frida.re/) Awesome list to help you mobile pentesting like root detection, function hooking and ssl pin bypass
 - [Wireshark](https://www.wireshark.org/) Viewing and dump protocol such as signal, http and other 
 - [greynoise](https://viz.greynoise.io/) Search CVE, IP  
@@ -4134,6 +4135,11 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [Find Pasted Text](https://cse.google.com/cse?cx=013991603413798772546:nxs552dhq8k) Awesome search engine to search pasted text 
 - [leakradar](https://leakradar.io/) Instant search across 2 B+ plain-text info-stealer credentials; email, domain, metadata queries, monitoring & API
 - [subdomainradar](https://subdomainradar.io/) All-in-one recon platform: 50+ data sources for subdomain discovery, port & vulnerability scans, screenshots, and API access
+- [rootAVD](https://github.com/newbit1/rootAVD) Script to root AVDs running with QEMU Emulator from Android Studio
+- [Magisk](https://github.com/topjohnwu/magisk/releases/) A module to hide su or root detection 
+- [Shamiko](https://github.com/LSPosed/LSPosed.github.io/releases) A module to hide su or root detection
+- [KernelSU](https://github.com/tiann/KernelSU) A Kernel based root solution for Android
+- [KernelSU Next](https://github.com/KernelSU-Next/KernelSU-Next) An advanced Kernel based root solution for Android
 
 Social Engineering (Social E)
 
@@ -4575,12 +4581,15 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [eyesonrussia](https://eyesonrussia.org/)
 - [blacksky](https://www.blacksky.com/)
 - [military radar](https://military.freedar.uk/)
+- [sourcehere](https://sourcehere.com/search)
+- [ID indodefence](https://indodefence.com/)
 
 Simulator and Game 
 
 - [War Thunder](https://warthunder.com/en)
 - [Modern Warship](https://promo.worldofwarships.com/)
 - [Microsoft Flight Simulator](https://www.flightsimulator.com/)
+- [Airsoft Gun](https://en.wikipedia.org/wiki/Airsoft_gun)
 
 Tactical learn and some firearms knowledge
 
@@ -5471,7 +5480,7 @@ Search person in game
 
 # OSINT Device for Device 
 
-Getting info for device and hardware info and emulator
+Getting info for device and hardware info and emulator also emulator for pentesting mobile apps like Android 
 
 - [Bellingcat Google Maps review Filename Chrome Extension](https://www.bellingcat.com/resources/2024/10/15/google-maps-image-filename-finder-tool/)
 - [gsmarena](https://www.gsmarena.com/)
@@ -5482,7 +5491,9 @@ Getting info for device and hardware info and emulator
 - [scrcpy](https://github.com/Genymobile/scrcpy/releases)
 - [Android Studio](https://developer.android.com/studio)
 - [NOX](https://www.bignox.com/)
+- [bluestacks](https://www.bluestacks.com/)
 - [mumuplayer](https://www.mumuplayer.com/index.html)
+- [memuplay](https://www.memuplay.com/)
 - [ldplayer](https://id.ldplayer.net/)
 - [ifixit EN](https://www.ifixit.com/)
 
@@ -5510,6 +5521,12 @@ PC & Laptop
 - [samsung](https://www.samsung.com/us/support/warranty/#Warranty_Checker)
 - [asus](https://as-rma.asus.com/id/info/warranty)
 - [asus](https://www.asus.com/support/warranty-status-inquiry/)
+
+Device Name or Code Name 
+
+- [all-xiaomi-codenames](https://xiaomiui.net/all-xiaomi-codenames-5137/)
+- [List of Samsung Galaxy Codenames](https://www.droidthunder.com/samsung-galaxy-codenames/)
+- [list brand code name device](https://github.com/KHwang9883/MobileModels/tree/master/brands)
 
 # OSINT Cloud 
 
