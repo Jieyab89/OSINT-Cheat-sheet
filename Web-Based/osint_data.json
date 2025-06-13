@@ -14952,6 +14952,30 @@
             {
                 "name": "subdomainradar",
                 "url": "https://subdomainradar.io/"
+            },
+            {
+                "name": "Frida-Server",
+                "url": "https://github.com/frida/frida/releases"
+            },
+            {
+                "name": "rootAVD",
+                "url": "https://github.com/newbit1/rootAVD"
+            },
+            {
+                "name": "Magisk",
+                "url": "https://github.com/topjohnwu/magisk/releases/"
+            },
+            {
+                "name": "Shamiko",
+                "url": "https://github.com/LSPosed/LSPosed.github.io/releases"
+            },
+            {
+                "name": "KernelSU",
+                "url": "https://github.com/tiann/KernelSU"
+            },
+            {
+                "name": "KernelSU Next",
+                "url": "https://github.com/KernelSU-Next/KernelSU-Next"
             }
         ]
     },
@@ -15628,6 +15652,18 @@
             {
                 "name": "smallarmssurvey",
                 "url": "https://www.smallarmssurvey.org/databases"
+            },
+            {
+                "name": "sourcehere",
+                "url": "https://sourcehere.com/search"
+            },
+            {
+                "name": "ID indodefence",
+                "url": "https://indodefence.com/"
+            },
+            {
+                "name": "Airsoft Gun",
+                "url": "https://en.wikipedia.org/wiki/Airsoft_gun"
             }
         ]
     },
@@ -17978,6 +18014,10 @@
             {
                 "name": "Sonar",
                 "url": "https://www.sonarsource.com/solutions/security/"
+            },
+            {
+                "name": "Vulert",
+                "url": "https://vulert.com/"
             }
         ]
     },
@@ -18542,6 +18582,26 @@
             {
                 "name": "Iphone model number country code",
                 "url": "https://discussions.apple.com/thread/251748775?sortBy=rank"
+            },
+            {
+                "name": "bluestacks",
+                "url": "https://www.bluestacks.com/"
+            },
+            {
+                "name": "memuplay",
+                "url": "https://www.memuplay.com/"
+            },
+            {
+                "name": "all-xiaomi-codenames",
+                "url": "https://xiaomiui.net/all-xiaomi-codenames-5137/"
+            },
+            {
+                "name": "List of Samsung Galaxy Codenames",
+                "url": "https://www.droidthunder.com/samsung-galaxy-codenames/"
+            },
+            {
+                "name": "list brand code name device",
+                "url": "https://github.com/KHwang9883/MobileModels/tree/master/brands"
             }
         ]
     },
@@ -19460,5 +19520,9 @@
                 "url": "https://github.com/m1guelpf/threads-re"
             }
         ]
+    },
+    {
+        "category": "See Jieyab Gitbook",
+        "items": []
     }
 ]
