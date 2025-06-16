@@ -1465,7 +1465,6 @@ Example
 - [truepeoplesearch](https://www.truepeoplesearch.com/)
 - [spokeo](https://www.spokeo.com/)
 - [TrueCaller Tele Bot](https://t.me/TrueCaller_Z_Bot)
-- [SNS masking](https://smsviro.com/home/#pricing)
 - [OSINT rock](https://osint.rocks/)
 - [castrickclues](https://castrickclues.com/)
 
