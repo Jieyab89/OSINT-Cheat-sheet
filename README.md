@@ -1197,6 +1197,7 @@ Example
 - [sci-net](https://sci-net.xyz/)
 - [elsevier - Get and search cite the jouurnal api](https://dev.elsevier.com/)
 - [semanticscholar](https://www.semanticscholar.org/)
+- [Web Archive](https://web.archive.org/)
 
 # Blogs Search Engine
 
@@ -2357,7 +2358,6 @@ Telegram Tips
 - [Fake face detector](https://seintpl.github.io/AmIReal/)
 - [GeoSpy](https://geospy.web.app/)
 - [gvision](https://github.com/GONZOsint/gvision)
-- [DiffChecker](https://www.diffchecker.com/image-diff/)
 - [ImgOps](https://imgops.com/)
 - [Telegram Face Match Bot](https://t.me/facematch_bot)
 - [picarta](https://picarta.ai/)
@@ -2854,6 +2854,7 @@ Desktop NET debugger and assembly editor
 - [Zerodium](https://zerodium.com/)
 - [0day fans](https://0dayfans.com/)
 - [0day database](https://www.zero-day.cz/database/)
+- [zerodayinitiative](https://www.zerodayinitiative.com/blog/) You can also check their Twitter for latest update 
 
 # Cryptocurrency Investigation
 
@@ -3114,6 +3115,7 @@ Build your own deepfake
 - [stargan-v2](https://github.com/clovaai/stargan-v2)
 - [inZOI](https://store.steampowered.com/app/2456740/inZOI/)
 - [heygen](https://www.heygen.com/)
+- [Guide AI Virtual Cam](https://www.sqlsec.com/2024/05/aiface.html#%E8%BE%93%E5%85%A5%E8%A7%86%E9%A2%91)
 
 Virtual Camera or Camera Replacement
 
@@ -3132,6 +3134,7 @@ Virtual Camera or Camera Replacement
 - [DroidCam](https://play.google.com/store/apps/details?id=com.dev47apps.obsdroidcam)
 - [pict2cam](https://github.com/adriangl/pict2cam?tab=readme-ov-file)
 - [VirtuCam](https://t.me/+A2jKvWBRh0plYjhk)
+- [W2 Pro Cam](https://www.ios-repo-updates.com/repository/bigboss/package/xc.lzsxcl.w2/)
 
 FakeGPS Location 
 
@@ -4145,6 +4148,8 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [Shamiko](https://github.com/LSPosed/LSPosed.github.io/releases) A module to hide su or root detection
 - [KernelSU](https://github.com/tiann/KernelSU) A Kernel based root solution for Android
 - [KernelSU Next](https://github.com/KernelSU-Next/KernelSU-Next) An advanced Kernel based root solution for Android
+- [unlocktool](https://unlocktool.net/) A software tool for unlock ubl all brand mobile phone 
+- [ncunlock](https://ncunlock.com/) A software tool for unlock ubl mobile phone like xiaomi, oneplus and other (It doesn't always work, if it doesn't work you need to pay too)
 
 Social Engineering (Social E)
 
@@ -4961,6 +4966,7 @@ Terrorism & Radical
 - [protectedplanet](https://www.protectedplanet.net/)
 - [globalfishingwatch](https://globalfishingwatch.org/)
 - [ID SIPONGI](https://sipongi.menlhk.go.id/peta)
+- [greenpeace](https://www.greenpeace.org/indonesia/)
 
 # OSINT Satellite
 
@@ -5282,6 +5288,7 @@ Text Analyzer
 - [gowinston](https://gowinston.ai/)
 - [humbot](https://humbot.ai/)
 - [ithenticate](https://www.ithenticate.com/)
+- [DiffChecker](https://www.diffchecker.com/image-diff/)
 
 Audio Analyzer 
 
@@ -5393,6 +5400,7 @@ This is for you searching software and searching alternative software
 - [apkeep](https://github.com/EFForg/apkeep?tab=readme-ov-file)
 - [cyberarsenal](https://cyberarsenal.org/)
 - [XSS](https://xss.is/)
+- [apkcombo](https://apkcombo.com/)
 
 # OSINT Barcode Reader 
 
