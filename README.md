@@ -761,6 +761,8 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [zoomeye mcp](https://github.com/zoomeye-ai/mcp_zoomeye)
 - [livetraffic](https://livetraffic.eu/)
 - [ShodanSpider](https://github.com/shubhamrooter/ShodanSpider)
+- [iplivecams](https://www.iplivecams.com/)
+- [camscape](https://www.camscape.com/)
 
 # IP Addresses
 
@@ -1056,6 +1058,7 @@ Example
 - [dehashed](https://dehashed.com/)
 - [verifyhalal](https://verifyhalal.com/) Discover Over 1,000,000 Halal Products and Services Today
 - [Google cse search general](https://cse.google.com/cse?cx=013991603413798772546:jyvyp2ppxma#gsc.tab=0)
+- [webcrawler](https://www.webcrawler.com/)
 
 # Internet Archive
 
@@ -2854,6 +2857,7 @@ Desktop NET debugger and assembly editor
 - [Zerodium](https://zerodium.com/)
 - [0day fans](https://0dayfans.com/)
 - [0day database](https://www.zero-day.cz/database/)
+- [zerodayinitiative](https://www.zerodayinitiative.com/blog/) You can also check their Twitter for latest update
 
 # Cryptocurrency Investigation
 
@@ -3114,6 +3118,7 @@ Build your own deepfake
 - [stargan-v2](https://github.com/clovaai/stargan-v2)
 - [inZOI](https://store.steampowered.com/app/2456740/inZOI/)
 - [heygen](https://www.heygen.com/)
+- [Guide AI Virtual Cam](https://www.sqlsec.com/2024/05/aiface.html#%E8%BE%93%E5%85%A5%E8%A7%86%E9%A2%91)
 
 Virtual Camera or Camera Replacement
 
@@ -3132,6 +3137,7 @@ Virtual Camera or Camera Replacement
 - [DroidCam](https://play.google.com/store/apps/details?id=com.dev47apps.obsdroidcam)
 - [pict2cam](https://github.com/adriangl/pict2cam?tab=readme-ov-file)
 - [VirtuCam](https://t.me/+A2jKvWBRh0plYjhk)
+- [W2 Pro Cam IOS](https://www.ios-repo-updates.com/repository/bigboss/package/xc.lzsxcl.w2/)
 
 FakeGPS Location 
 
@@ -4145,6 +4151,8 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [Shamiko](https://github.com/LSPosed/LSPosed.github.io/releases) A module to hide su or root detection
 - [KernelSU](https://github.com/tiann/KernelSU) A Kernel based root solution for Android
 - [KernelSU Next](https://github.com/KernelSU-Next/KernelSU-Next) An advanced Kernel based root solution for Android
+- [unlocktool](https://unlocktool.net/) A software tool for unlock ubl all brand mobile phone 
+- [ncunlock](https://ncunlock.com/) A software tool for unlock ubl mobile phone like xiaomi, oneplus and other (It doesn't always work, if it doesn't work you need to pay too)
 
 Social Engineering (Social E)
 
@@ -4592,6 +4600,10 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [military radar](https://military.freedar.uk/)
 - [sourcehere](https://sourcehere.com/search)
 - [ID indodefence](https://indodefence.com/)
+- [israelpalestine war map](https://israelpalestine.liveuamap.com/)
+- [iplivecams tel aviv Israel](https://www.iplivecams.com/live-cams/tel-aviv-yafo-israel/)
+- [camscape](https://www.camscape.com/)
+- [tzevaadom map event](https://www.tzevaadom.co.il/)
 
 Simulator and Game 
 
@@ -4653,6 +4665,7 @@ Analysis for IMINT and find the geolocation, azimuth and etc
 - [Cryptome - search doc about publication that are prohibited by government](https://cryptome.org/)
 - [smartquantai](https://www.smartquantai.com/)
 - [semanticscholar](https://www.semanticscholar.org/)
+- [Web Archive](https://web.archive.org/)
 
 *Pro Tips
 
@@ -4961,6 +4974,7 @@ Terrorism & Radical
 - [protectedplanet](https://www.protectedplanet.net/)
 - [globalfishingwatch](https://globalfishingwatch.org/)
 - [ID SIPONGI](https://sipongi.menlhk.go.id/peta)
+- [greenpeace](https://www.greenpeace.org/indonesia/)
 
 # OSINT Satellite
 
@@ -5282,6 +5296,7 @@ Text Analyzer
 - [gowinston](https://gowinston.ai/)
 - [humbot](https://humbot.ai/)
 - [ithenticate](https://www.ithenticate.com/)
+- [DiffChecker](https://www.diffchecker.com/image-diff/)
 
 Audio Analyzer 
 
@@ -5393,6 +5408,7 @@ This is for you searching software and searching alternative software
 - [apkeep](https://github.com/EFForg/apkeep?tab=readme-ov-file)
 - [cyberarsenal](https://cyberarsenal.org/)
 - [XSS](https://xss.is/)
+- [apkcombo](https://apkcombo.com/)
 
 # OSINT Barcode Reader 
 
