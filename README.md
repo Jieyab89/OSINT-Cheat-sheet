@@ -2690,6 +2690,7 @@ Geojson viewer
 - [arcgis webscene](https://www.arcgis.com/home/webscene/viewer.html)
 - [samgeo](https://samgeo.gishub.org/)
 - [leafmap](https://leafmap.org/#youtube-channel)
+- [cesium](https://cesium.com/)
 
 Guides 
 
@@ -3185,6 +3186,7 @@ Social Network and blogging
 - [imageupscaler](https://imageupscaler.com/deblurring/)
 - [Face-Real-ESRGAN](https://huggingface.co/spaces/doevent/Face-Real-ESRGAN)
 - [imgify](https://imgify.net/ai-photo-enhancer/)
+- [myheritage hoto-enhancer](https://www.myheritage.nl/photo-enhancer)
 
 # Locations Data Mapping
 
@@ -3210,7 +3212,7 @@ Social Network and blogging
 - [latlongdata calc](https://latlongdata.com/lat-long-converter/)
 - [Docs overpass API](https://overpass-api.de/)
 - [Zoom earth](https://zoom.earth/)
-- [satellites](https://satellites.pro/#)
+- [satellites pro](https://satellites.pro/#)
 - [wikimapia](https://wikimapia.org/)
 - [peakfinder](https://www.peakfinder.com/)
 - [kartaview](https://kartaview.org/)
@@ -3227,6 +3229,7 @@ Social Network and blogging
 - [gaisma sunrise, sunset arround world](https://www.gaisma.com/en/)
 - [Ej Atlas](https://ejatlas.org/)
 - [showmystreet](https://showmystreet.com/)
+- [flightradar24 gps jamming](https://www.flightradar24.com/data/gps-jamming?date=2025-06-19)
 
 # Discord Server Search  
 
@@ -3446,6 +3449,7 @@ Guide
 - [remnux](https://remnux.org/)
 - [resourcehacker](https://www.angusj.com/resourcehacker/)
 - [Splunk](https://www.splunk.com/)
+- [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)
 
 *Pro Tips 
 
@@ -3822,7 +3826,6 @@ Public Transport
 - [planespotters](https://www.planespotters.net/)
 - [theaviationist](https://theaviationist.com/)
 - [airrecognition](https://web.archive.org/web/20240000000000*/https://airrecognition.com/)
-- [gpsjam](https://gpsjam.org/)
 - [federal aviation administration](https://www.faa.gov/)
 - [adsb one](https://adsb.one/)
 - [adsb lol](https://www.adsb.lol/)
@@ -4152,6 +4155,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [KernelSU Next](https://github.com/KernelSU-Next/KernelSU-Next) An advanced Kernel based root solution for Android
 - [unlocktool](https://unlocktool.net/) A software tool for unlock ubl all brand mobile phone 
 - [ncunlock](https://ncunlock.com/) A software tool for unlock ubl mobile phone like xiaomi, oneplus and other (It doesn't always work, if it doesn't work you need to pay too)
+- [CloakQuest3r](https://github.com/spyboy-productions/CloakQuest3r) Uncover the true IP address of websites safeguarded by Cloudflare & Others
 
 Social Engineering (Social E)
 
@@ -4603,6 +4607,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [iplivecams tel aviv Israel](https://www.iplivecams.com/live-cams/tel-aviv-yafo-israel/)
 - [camscape](https://www.camscape.com/)
 - [tzevaadom map event](https://www.tzevaadom.co.il/)
+- [flightradar24 gps jamming](https://www.flightradar24.com/data/gps-jamming?date=2025-06-19)
 
 Simulator and Game 
 
@@ -5637,6 +5642,7 @@ Bookmark OSINT tools list
 - [lightpollutionmap](https://www.lightpollutionmap.info/)
 - [stuffin space sat map](https://stuffin.space/)
 - [NASA Sat list and mission](https://www.nasa.gov/a-to-z-of-nasa-missions/)
+- [Eyes NASA](https://eyes.nasa.gov/)
 
 # OSINT Playground 
 
