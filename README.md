@@ -3245,7 +3245,6 @@ Social Network and blogging
 
 - [Thehiddenwiki](http://thehiddenwiki.org)
 - [Onion Link](http://www.onion.link)
-- [MEMEX](https://memex.garden/)
 - [Onion](https://onion.cab)
 - [Onion city](https://onion.city/)
 - [Ahmia](https://ahmia.fi/)
