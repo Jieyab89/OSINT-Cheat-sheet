@@ -83,6 +83,8 @@
 - [google initiative news - Basic GEE](https://newsinitiative.withgoogle.com/resources/trainings/introduction-to-google-earth-engine/)
 - [OSINT TIPS AND GUIDE](https://ohshint.gitbook.io/oh-shint-its-a-blog/osint/osint-protips)
 - [Using Flight Tracking For Geolocation](https://nixintel.info/osint/using-flight-tracking-for-geolocation-quiztime-30th-october-2019/)
+- [How Reverse Phone Lookups Work [with OSINT Industries]](https://www.osint.industries/post/how-reverse-phone-lookups-work-with-osint-industries)
+- [OSINT Basics: Reverse Email Lookup](https://www.osint.industries/post/reverse-email-lookup-the-basics)
 
 # Vehicle
 
@@ -93,6 +95,7 @@
 
 - [Information Hackers Find in the Background of Your Social Media Photos](https://medium.com/digital-marketing-lab/subtle-information-hackers-find-in-the-background-of-your-social-media-photos-938ec1876246)
 - [Find Twitter ID with wayback](https://popzazzle.blogspot.com/2019/05/twitter-detective-masterhack-how-to-retrospectively-find-twitter-user-id.html?m=1)
+- [OSINT on Discord: How to Find Discord Emails, Phone Numbers and More](https://www.osint.industries/post/osint-on-discord-how-to-find-discord-emails-phone-numbers-and-more)
 
 # Red Teamer OSINT 
 

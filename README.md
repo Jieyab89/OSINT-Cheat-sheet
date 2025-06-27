@@ -718,6 +718,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [intezer](https://analyze.intezer.com/scan)
 - [CheckPhish Detects and Monitors Phishing and Scam Sites](https://checkphish.bolster.ai/)
 - [apklab by avast](https://www.apklab.io/)
+- [hackforums](https://hackforums.net/)
 
 # IoT Search Engines
 
@@ -1300,6 +1301,7 @@ Example
 - [WIPO INT](https://branddb.wipo.int/)
 - [urlvoid](https://www.urlvoid.com/)
 - [littlesis](https://littlesis.org/)
+- [chinaconnects](https://chinaconnects.iiss.org/)
 
 # People Searching
 
@@ -1480,6 +1482,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 
 # Finding Usernames
 
+- [TraceFind](https://tracefind.info)
 - [Snusbase](https://snusbase.com/)
 - [Username Checker](https://analyzeid.com/username/)
 - [leakpeek](https://leakpeek.com/)
@@ -2643,6 +2646,7 @@ Telegram Tips
 - [geoguessr GPT](https://chatgpt.com/g/g-brlHi7t2R-geoguessr-gpt)
 - [findpiclocation](https://findpiclocation.com/)
 - [sveaflet](https://sveaflet.vercel.app/docs/pages/introduction)
+- [chinaconnects](https://chinaconnects.iiss.org/)
 
 Conveter tool 
 
@@ -2995,6 +2999,7 @@ Guide
 - [Silent SMSping](https://www.smsdeliverer.com/onlinehelp/interface/pingsms/)
 - [IMSI Catcher](https://sls.eff.org/technologies/cell-site-simulators-imsi-catchers)
 - [bscoords](https://github.com/kolonist/bscoords)
+- [TraceFind](https://tracefind.info)
 
 Pro Tips 
 
@@ -3938,6 +3943,8 @@ Public Transport
 - [geoguessr GPT](https://chatgpt.com/g/g-brlHi7t2R-geoguessr-gpt)
 - [gemini](https://gemini.google.com/)
 - [2short](https://2short.ai/)
+- [suna](https://www.suna.so/)
+- [mistral](https://mistral.ai/)
 
 Hardware and server 
 
