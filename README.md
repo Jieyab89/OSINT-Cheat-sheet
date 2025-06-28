@@ -30,6 +30,7 @@ Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and othe
 - Encrypt your network traffic, message and disk
 - Beware about attachments such as docx, xlsm or macro documents (Check macros don't immediately press enable, check properties file to do strict mode)
 - Beware about malicious script like programm lang always check will you run it 
+- Do a active on each platform example like post, follow, following to avoid bot detection or blocked by user (target)
 
 # These Resources Are Recommend For 
 
@@ -178,6 +179,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [Social-Exractror](https://github.com/soxoj/socid-extractor) Extract accounts info from personal pages on various sites
 - [socialscan](https://github.com/iojw/socialscan)
 - [CSE Social media search](https://cse.google.com/cse?cx=016621447308871563343:0p9cd3f8p-k#gsc.tab=0&gsc.sort=)
+- [DetectDee](https://github.com/piaolin/DetectDee)
 
 # Collection Dataset
 
@@ -257,6 +259,8 @@ Be carefull using this tool use 2nd account because your account got banned
 - [Dataset crime for blockchain](https://hacked.slowmist.io/)
 - [threatfox IOC Database](https://threatfox.abuse.ch/browse/)
 - [urlhaus - database malicious URLs](https://urlhaus.abuse.ch/)
+- [libraryofleaks](https://search.libraryofleaks.org/)
+- [open-search aleph](https://open-search.aleph-networks.eu/)
 
 # Forums & Sites
 
@@ -533,6 +537,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [urlfiltering](https://urlfiltering.paloaltonetworks.com/)
 - [threatintelligenceplatform](https://threatintelligenceplatform.com/)
 - [pagecached](https://pagecached.com/)
+- [Google Trends](https://trends.google.com/trends/)
 
 *Tips web cache 
 
@@ -1060,6 +1065,7 @@ Example
 - [verifyhalal](https://verifyhalal.com/) Discover Over 1,000,000 Halal Products and Services Today
 - [Google cse search general](https://cse.google.com/cse?cx=013991603413798772546:jyvyp2ppxma#gsc.tab=0)
 - [webcrawler](https://www.webcrawler.com/)
+- [usersearch](https://usersearch.ai/)
 
 # Internet Archive
 
@@ -1144,6 +1150,7 @@ Example
 - [intelbase](https://intelbase.is/)
 - [mozilla monitor](https://monitor.mozilla.org/)
 - [google darkweb security checkup](https://myactivity.google.com/dark-web-report/setup-profile)
+- [open-search aleph](https://open-search.aleph-networks.eu/)
 
 # Crack Jurnals
 
@@ -1302,6 +1309,8 @@ Example
 - [urlvoid](https://www.urlvoid.com/)
 - [littlesis](https://littlesis.org/)
 - [chinaconnects](https://chinaconnects.iiss.org/)
+- [libraryofleaks](https://search.libraryofleaks.org/)
+- [open-search aleph](https://open-search.aleph-networks.eu/)
 
 # People Searching
 
@@ -1374,6 +1383,9 @@ Example
 - [lenso](https://lenso.ai/en)
 - [berify](https://berify.com/)
 - [ID KPK Check the wealth assets of Indonesian ministries](https://elhkpn.kpk.go.id/portal/user/check_search_announ#announ)
+- [usersearch](https://usersearch.ai/)
+- [libraryofleaks](https://search.libraryofleaks.org/)
+- [ALEPT OCCRP](https://aleph.occrp.org/)
 
 # Family People Search 
 
@@ -1584,6 +1596,7 @@ or you can use dork for spesific example
 
 # The Ultimate Facebook Investigation Tool
 
+- [socialblade](https://socialblade.com/)
 - [Intel Technique](https://inteltechniques.com/osint/facebook.html)
 - [Facebook Search](http://search.fb.com/)
 - [Fb-sleep-stats](https://github.com/sqren/fb-sleep-stats)
@@ -1722,6 +1735,8 @@ Searching for scandal or blackmail or deepfake porn doesn't have to be on the li
 - [instahunt](https://instahunt.huntintel.io/)
 - [Stalkiana](https://github.com/RuiBorgesDev/Stalkiana) *Run on your VM or cloud machine
 - [ignorant](https://github.com/megadose/ignorant)
+- [socialblade](https://socialblade.com/)
+- [InsE - Instagram email finder & exporter extension browser](https://chromewebstore.google.com/detail/inse-instagram-email-find/hboikjnbkhkjmllgdcflmbcojbpklcca)
 
 # Thread 
 
@@ -1774,6 +1789,7 @@ Searching for scandal or blackmail or deepfake porn doesn't have to be on the li
 - [Youtube Subscribe History](https://xxluke.de/subscription-history/)
 - [Summarize Any YouTube Video](https://ytbsum.codexfolio.com/)
 - [Youtube search operator](https://seosly.com/blog/youtube-search-operators/)
+- [socialblade](https://socialblade.com/)
 
 # Mastodon 
 
@@ -1850,7 +1866,7 @@ Twitter Search Engine
 - [inteltechniques](http://inteltechniques.com/osint/twitter.html)
 - [twitter lolarchiver](https://twitter.lolarchiver.com/)
 - [Geoint CSE search](https://cse.google.com/cse?cx=015328649639895072395:sbv3zyxzmji#gsc.tab=0&gsc.sort=)
-- [Twitter Cache](https://cache.digitaldigging.org/)
+- [Twitter Cache](https://cache.digitaldigging.org/) *View cache and archive and delete post in Twitter
 - [Twitter image search google cse](https://cse.google.com/cse?cx=006205189065513216365:vltpvp4_gyo#gsc.tab=1&gsc.sort=)
 - [Twitter image search google cse 2](https://cse.google.com/cse?cx=006290531980334157382:_ltcjq0robu#gsc.tab=0&gsc.sort=&gsc.q=)
 
@@ -1917,6 +1933,7 @@ Google queries for MySpace
 - [exportcomments](https://exportcomments.com/)
 - [Google CSE Tiktok](https://cse.google.com/cse?cx=013991603413798772546:igv4fyrnnfu#gsc.tab=0)
 - [Tktok username lookup and viewer](https://omar-thing.nekoweb.org/)
+- [socialblade](https://socialblade.com/)
 
 # Parler 
 
@@ -2172,7 +2189,7 @@ Search channel, username, bot and anymore
 - [Teletehon](https://docs.telethon.dev/en/stable/basic/installation.html)
 - [Bellingcat Telegram Joiner](https://bellingcat.github.io/telegram-group-joiner/)
 - [Awesome-Telegram-OSINT](https://github.com/ItIsMeCall911/Awesome-Telegram-OSINT)
-- [Telegram-OSINT](https://github.com/The-Osint-Toolbox/Telegram-OSINT)
+- [Telegram-OSINT](https://github.com/The-Osint-Toolbox/Telegram-OSINT) *Use your second telegram account. There are many bot tele available on the list
 - [tlgrm channels by categories](https://tlgrm.eu/channels)
 - [TeleBotList](https://github.com/MoonWalker440/TeleBotList)
 - [telepathydb](https://telepathydb.com/)
@@ -2387,7 +2404,6 @@ Telegram Tips
 - [imageforensic](https://www.imageforensic.org/)
 - [watermarkremover](https://www.watermarkremover.io/)
 - [georgeom](https://georgeom.net/StegOnline/upload)
-- [fotoforensics](https://fotoforensics.com/)
 - [picsman](https://www.picsman.ai/)
 - [Face Similarity Test Online](https://facecomparison.toolpie.com/)
 - [photopea](https://www.photopea.com/)
@@ -2933,6 +2949,7 @@ Transaction Analysis
 - [XMR SCAN](https://xmrscan.org/)
 - [XMR SCAN 2](https://localmonero.co/blocks/)
 - [blockscan](https://blockscan.com/)
+- [open-search aleph](https://open-search.aleph-networks.eu/)
 
 Guide 
 
@@ -3104,6 +3121,7 @@ Build your sockpuppet account and proctect your privacy
 - [Receive SMS Online - SmsPva](https://smspva.com/)
 - [Proton Mail](https://account.proton.me/mail)
 - [Tuta Mail](https://app.tuta.com/)
+- [simplelogin email](https://app.simplelogin.io/)
 
 Build your own deepfake 
 
@@ -3360,6 +3378,8 @@ Social Network and blogging
 - [rooted](https://rooted.wtf/) Onion links for Crypto domain
 - [deepfind](https://www.deepfind.me/tools)
 - [onionlinkhub](https://www.onionlinkhub.com/)
+- [TorCrawl](https://github.com/MikeMeliz/TorCrawl.py) Scrapping darkweb
+- [tor2web](https://www.tor2web.org/)
 
 Guide 
 
@@ -4163,6 +4183,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [unlocktool](https://unlocktool.net/) A software tool for unlock ubl all brand mobile phone 
 - [ncunlock](https://ncunlock.com/) A software tool for unlock ubl mobile phone like xiaomi, oneplus and other (It doesn't always work, if it doesn't work you need to pay too)
 - [CloakQuest3r](https://github.com/spyboy-productions/CloakQuest3r) Uncover the true IP address of websites safeguarded by Cloudflare & Others
+- [Frida-Script-Runner](https://github.com/z3n70/Frida-Script-Runner) Frida Script Runner is a versatile web-based tool designed for Android and iOS penetration testing purposes.
 
 Social Engineering (Social E)
 
