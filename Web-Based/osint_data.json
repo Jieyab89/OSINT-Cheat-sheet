@@ -392,6 +392,14 @@
             {
                 "name": "urlhaus - database malicious URLs",
                 "url": "https://urlhaus.abuse.ch/"
+            },
+            {
+                "name": "libraryofleaks",
+                "url": "https://search.libraryofleaks.org/"
+            },
+            {
+                "name": "open-search aleph",
+                "url": "https://open-search.aleph-networks.eu/"
             }
         ]
     },
@@ -1401,6 +1409,10 @@
             {
                 "name": "pagecached",
                 "url": "https://pagecached.com/"
+            },
+            {
+                "name": "Google Trends",
+                "url": "https://trends.google.com/trends/"
             }
         ]
     },
@@ -3254,6 +3266,10 @@
             {
                 "name": "webcrawler",
                 "url": "https://www.webcrawler.com/"
+            },
+            {
+                "name": "usersearch",
+                "url": "https://usersearch.ai/"
             }
         ]
     },
@@ -3576,6 +3592,10 @@
             {
                 "name": "google darkweb security checkup",
                 "url": "https://myactivity.google.com/dark-web-report/setup-profile"
+            },
+            {
+                "name": "open-search aleph",
+                "url": "https://open-search.aleph-networks.eu/"
             }
         ]
     },
@@ -4165,6 +4185,14 @@
             {
                 "name": "chinaconnects",
                 "url": "https://chinaconnects.iiss.org/"
+            },
+            {
+                "name": "libraryofleaks",
+                "url": "https://search.libraryofleaks.org/"
+            },
+            {
+                "name": "open-search aleph",
+                "url": "https://open-search.aleph-networks.eu/"
             }
         ]
     },
@@ -4446,6 +4474,18 @@
             {
                 "name": "ID KPK Check the wealth assets of Indonesian ministries",
                 "url": "https://elhkpn.kpk.go.id/portal/user/check_search_announ#announ"
+            },
+            {
+                "name": "usersearch",
+                "url": "https://usersearch.ai/"
+            },
+            {
+                "name": "libraryofleaks",
+                "url": "https://search.libraryofleaks.org/"
+            },
+            {
+                "name": "ALEPT OCCRP",
+                "url": "https://aleph.occrp.org/"
             }
         ]
     },
@@ -5141,6 +5181,10 @@
             {
                 "name": "Facebook lookup id",
                 "url": "https://lookup-id.com/#"
+            },
+            {
+                "name": "socialblade",
+                "url": "https://socialblade.com/"
             }
         ]
     },
@@ -5510,6 +5554,14 @@
             {
                 "name": "ignorant",
                 "url": "https://github.com/megadose/ignorant"
+            },
+            {
+                "name": "socialblade",
+                "url": "https://socialblade.com/"
+            },
+            {
+                "name": "InsE - Instagram email finder & exporter extension browser",
+                "url": "https://chromewebstore.google.com/detail/inse-instagram-email-find/hboikjnbkhkjmllgdcflmbcojbpklcca"
             }
         ]
     },
@@ -5683,6 +5735,10 @@
             {
                 "name": "Youtube search operator",
                 "url": "https://seosly.com/blog/youtube-search-operators/"
+            },
+            {
+                "name": "socialblade",
+                "url": "https://socialblade.com/"
             }
         ]
     },
@@ -6104,6 +6160,10 @@
             {
                 "name": "Tktok username lookup and viewer",
                 "url": "https://omar-thing.nekoweb.org/"
+            },
+            {
+                "name": "socialblade",
+                "url": "https://socialblade.com/"
             }
         ]
     },
@@ -9719,6 +9779,10 @@
             {
                 "name": "Awesome guide blockhain analysis",
                 "url": "https://github.com/aaarghhh/awesome_osint_blockchain_analysis"
+            },
+            {
+                "name": "open-search aleph",
+                "url": "https://open-search.aleph-networks.eu/"
             }
         ]
     },
@@ -10467,6 +10531,10 @@
             {
                 "name": "nord",
                 "url": "https://nordvpn.com/"
+            },
+            {
+                "name": "simplelogin email",
+                "url": "https://app.simplelogin.io/"
             }
         ]
     },
@@ -11216,6 +11284,14 @@
             {
                 "name": "Darkweb labs settup",
                 "url": "https://hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf"
+            },
+            {
+                "name": "TorCrawl",
+                "url": "https://github.com/MikeMeliz/TorCrawl.py"
+            },
+            {
+                "name": "tor2web",
+                "url": "https://www.tor2web.org/"
             }
         ]
     },
@@ -14935,6 +15011,10 @@
             {
                 "name": "SSH Pivoting",
                 "url": "https://cyberkhalid.github.io/posts/ssh-pivot/"
+            },
+            {
+                "name": "Frida-Script-Runner",
+                "url": "https://github.com/z3n70/Frida-Script-Runner"
             }
         ]
     },
