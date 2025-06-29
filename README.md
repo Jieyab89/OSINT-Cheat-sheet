@@ -261,6 +261,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [urlhaus - database malicious URLs](https://urlhaus.abuse.ch/)
 - [libraryofleaks](https://search.libraryofleaks.org/)
 - [open-search aleph](https://open-search.aleph-networks.eu/)
+- [githut - most discover languages in GitHub](https://githut.info/)
 
 # Forums & Sites
 
@@ -942,7 +943,7 @@ You can find the file hash or other threat indicator
 # Github 
 
 - [GROT](https://github.com/montysecurity/GROT)
-- [Github search name](https://caius.github.io/github_id/)
+- [Github search name and find ID](https://caius.github.io/github_id/)
 - [Github Archive](https://www.gharchive.org/)
 - [Github Dork](https://github.com/techgaun/github-dorks)
 - [Fdupes](https://github.com/adrianlopezroche/fdupes)
@@ -1386,6 +1387,7 @@ Example
 - [usersearch](https://usersearch.ai/)
 - [libraryofleaks](https://search.libraryofleaks.org/)
 - [ALEPT OCCRP](https://aleph.occrp.org/)
+- [freepeoplesearchtool](https://freepeoplesearchtool.com/)
 
 # Family People Search 
 
@@ -1860,6 +1862,7 @@ Searching for scandal or blackmail or deepfake porn doesn't have to be on the li
 - [Get ID 2](https://twiteridfinder.com/)
 - [threadreaderapp](https://threadreaderapp.com/)
 - [Tweet Map](https://www.heavy.ai/demos/tweetmap)
+- [drone emprit](https://pers.droneemprit.id/)
 
 Twitter Search Engine 
 
