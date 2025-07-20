@@ -3604,6 +3604,10 @@
             {
                 "name": "open-search aleph",
                 "url": "https://open-search.aleph-networks.eu/"
+            },
+            {
+                "name": "WhatBreac",
+                "url": "https://github.com/Ekultek/WhatBreach.git"
             }
         ]
     },
@@ -7350,6 +7354,18 @@
             {
                 "name": "Web Archive",
                 "url": "https://web.archive.org/"
+            },
+            {
+                "name": "documentcloud",
+                "url": "https://www.documentcloud.org/"
+            },
+            {
+                "name": "scribd",
+                "url": "https://www.scribd.com/"
+            },
+            {
+                "name": "How to view scribd",
+                "url": "https://www.scribd.com/embeds/HANGE ID/content?start_page=1&view_mode=scroll&access_key=key-fFexxf7r1bzEfWu3HKwf"
             }
         ]
     },
@@ -10551,6 +10567,10 @@
             {
                 "name": "simplelogin email",
                 "url": "https://app.simplelogin.io/"
+            },
+            {
+                "name": "Temp email gmail",
+                "url": "https://www.emailnator.com/mailbox"
             }
         ]
     },
