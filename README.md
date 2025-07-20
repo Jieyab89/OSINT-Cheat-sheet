@@ -1152,6 +1152,7 @@ Example
 - [mozilla monitor](https://monitor.mozilla.org/)
 - [google darkweb security checkup](https://myactivity.google.com/dark-web-report/setup-profile)
 - [open-search aleph](https://open-search.aleph-networks.eu/)
+- [WhatBreac](https://github.com/Ekultek/WhatBreach.git)
 
 # Crack Jurnals
 
@@ -2260,6 +2261,12 @@ Telegram Tips
 - [Google Search CSE File type search](https://cse.google.com/cse?cx=013991603413798772546:mu-oio3a980#gsc.tab=0&gsc.sort=)
 - [pdfyes](http://pdfyes.com/)
 - [Web Archive](https://web.archive.org/)
+- [documentcloud](https://www.documentcloud.org/)
+- [scribd](https://www.scribd.com/)
+
+*Scribd viewer 
+
+- [How to view scribd](https://www.scribd.com/embeds/HANGE ID/content?start_page=1&view_mode=scroll&access_key=key-fFexxf7r1bzEfWu3HKwf)
 
 # Real-Time Search, Social Media Search, and General Social Media Tools
 
@@ -3096,6 +3103,7 @@ Build your sockpuppet account and proctect your privacy
 - [Temp Mail 4](https://www.guerrillamail.com/)
 - [Temp Mail 5](https://www.mailinator.com/)
 - [Temp Mail 6](https://tempmail.so/)
+- [Temp email gmail](https://www.emailnator.com/mailbox)
 - [Cryptocurrency Payment Monero](https://www.getmonero.org/)
 - [Cryptocurrency Payment Bitcoin](https://bitcoin.org/en/)
 - [Openpgp](https://www.openpgp.org/)
