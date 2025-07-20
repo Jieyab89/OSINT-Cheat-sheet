@@ -2262,11 +2262,10 @@ Telegram Tips
 - [pdfyes](http://pdfyes.com/)
 - [Web Archive](https://web.archive.org/)
 - [documentcloud](https://www.documentcloud.org/)
-- [scribd](https://www.scribd.com/)
 
 *Scribd viewer 
 
-- [How to view scribd](https://www.scribd.com/embeds/HANGE ID/content?start_page=1&view_mode=scroll&access_key=key-fFexxf7r1bzEfWu3HKwf)
+- [How to view scribd](https://www.scribd.com/embeds/<HANGEID>/content?start_page=1&view_mode=scroll&access_key=key-fFexxf7r1bzEfWu3HKwf)
 
 # Real-Time Search, Social Media Search, and General Social Media Tools
 
