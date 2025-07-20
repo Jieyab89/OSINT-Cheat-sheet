@@ -15051,6 +15051,10 @@
             {
                 "name": "Frida-Script-Runner",
                 "url": "https://github.com/z3n70/Frida-Script-Runner"
+            },
+            {
+                "name": "plaguards",
+                "url": "https://github.com/Bread-Yolk/plaguards"
             }
         ]
     },
@@ -15751,6 +15755,10 @@
             {
                 "name": "smallarmssurvey",
                 "url": "https://www.smallarmssurvey.org/databases"
+            },
+            {
+                "name": "warpowerindonesia",
+                "url": "https://www.warpowerindonesia.com/"
             }
         ]
     },
