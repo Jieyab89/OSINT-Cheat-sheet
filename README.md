@@ -4194,6 +4194,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [ncunlock](https://ncunlock.com/) A software tool for unlock ubl mobile phone like xiaomi, oneplus and other (It doesn't always work, if it doesn't work you need to pay too)
 - [CloakQuest3r](https://github.com/spyboy-productions/CloakQuest3r) Uncover the true IP address of websites safeguarded by Cloudflare & Others
 - [Frida-Script-Runner](https://github.com/z3n70/Frida-Script-Runner) Frida Script Runner is a versatile web-based tool designed for Android and iOS penetration testing purposes.
+- [plaguards](https://github.com/Bread-Yolk/plaguards) Open Source PowerShell Deobfuscation and IOC Detection Engine for Blue Teams
 
 Social Engineering (Social E)
 
@@ -4416,7 +4417,7 @@ Awesome Burpsuite Extension
 
 C2 & C4 
 
-- [cobaltstrike](https://www.cobaltstrike.com/)
+- [cobaltstrike](https://www.cobaltstrike.com/) 
 - [bruteratel C4](https://bruteratel.com/tabs/tutorials/)
 - [Ninja](https://github.com/ahmedkhlief/Ninja)
 - [Poweshell Empire](https://bc-security.gitbook.io/empire-wiki)
@@ -4427,6 +4428,10 @@ C2 & C4
 - [sliver C2](https://sliver.sh/docs)
 - [mythic C2](https://docs.mythic-c2.net/installation)
 - [Lki C2](https://github.com/boku7/Loki)
+
+*Notes
+
+There is C2 and C4 are paid and there is a validation and regulation for buying that tools 
 
 Linux Distro Tool Lists 
 
@@ -4646,6 +4651,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [camscape](https://www.camscape.com/)
 - [tzevaadom map event](https://www.tzevaadom.co.il/)
 - [flightradar24 gps jamming](https://www.flightradar24.com/data/gps-jamming?date=2025-06-19)
+- [warpowerindonesia](https://www.warpowerindonesia.com/) There are many other country
 
 Simulator and Game 
 
