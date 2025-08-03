@@ -57,6 +57,7 @@
 - [allsourceanalysis](https://allsourceanalysis.com/tag/open-source-intelligence-osint/)
 - [Learn Sat Sensor](https://bellingcat.github.io/RS4OSINT/A2_Remote_Sensing.html)
 - [NOOA oil identitification tutorial](https://response.restoration.noaa.gov/sites/default/files/OWJA_2016.pdf)
+- [Hack a sat CTF WU](https://github.com/deptofdefense/hack-a-sat-library)
 
 # Signal Intelligence
 

@@ -262,6 +262,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [libraryofleaks](https://search.libraryofleaks.org/)
 - [open-search aleph](https://open-search.aleph-networks.eu/)
 - [githut - most discover languages in GitHub](https://githut.info/)
+- [seasia infographic](https://seasia.co/infographic)
 
 # Forums & Sites
 
@@ -539,6 +540,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [threatintelligenceplatform](https://threatintelligenceplatform.com/)
 - [pagecached](https://pagecached.com/)
 - [Google Trends](https://trends.google.com/trends/)
+- [drweb](https://vms.drweb.com/online/)
 
 *Tips web cache 
 
@@ -550,6 +552,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 
 # Analysing URLs
 
+- [drweb](https://vms.drweb.com/online/)
 - [urlfiltering](https://urlfiltering.paloaltonetworks.com/)
 - [dnshistory](https://osint.sh/dnshistory/)
 - [Unfurl](https://github.com/obsidianforensics/unfurl)
@@ -725,6 +728,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [CheckPhish Detects and Monitors Phishing and Scam Sites](https://checkphish.bolster.ai/)
 - [apklab by avast](https://www.apklab.io/)
 - [hackforums](https://hackforums.net/)
+- [drweb](https://vms.drweb.com/scan_file/)
 
 # IoT Search Engines
 
@@ -1153,6 +1157,10 @@ Example
 - [google darkweb security checkup](https://myactivity.google.com/dark-web-report/setup-profile)
 - [open-search aleph](https://open-search.aleph-networks.eu/)
 - [WhatBreac](https://github.com/Ekultek/WhatBreach.git)
+- [Scribd](http://www.scribd.com)
+- [Scribd docdownloader](https://docdownloader.com/)
+- [Scribd Downloader 2](https://scribd.vdownloaders.com/)
+- [documentcloud](https://www.documentcloud.org/)
 
 # Crack Jurnals
 
@@ -2236,6 +2244,7 @@ Telegram Tips
 - [SlideShare](http://www.slideshare.net)
 - [Scribd](http://www.scribd.com)
 - [Scribd docdownloader](https://docdownloader.com/)
+- [Scribd Downloader 2](https://scribd.vdownloaders.com/)
 - [Doclibra.com](https://doclibra.com/)
 - [FilePursuit](https://filepursuit.com/)
 - [NAPALM FTP Indexer](https://www.searchftps.net/)
@@ -2673,6 +2682,10 @@ Telegram Tips
 - [findpiclocation](https://findpiclocation.com/)
 - [sveaflet](https://sveaflet.vercel.app/docs/pages/introduction)
 - [chinaconnects](https://chinaconnects.iiss.org/)
+- [citywalki](https://www.citywalki.com/)
+- [openhistoricalmap](https://www.openhistoricalmap.org/)
+- [chronas](https://www.chronas.org/)
+- [river-runner-global](https://river-runner-global.samlearner.com/)
 
 Conveter tool 
 
@@ -3485,6 +3498,8 @@ Guide
 - [resourcehacker](https://www.angusj.com/resourcehacker/)
 - [Splunk](https://www.splunk.com/)
 - [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)
+- [CISA Public Repo](https://github.com/cisagov)
+- [drweb](https://vms.drweb.com/online/)
 
 *Pro Tips 
 
@@ -4428,6 +4443,7 @@ C2 & C4
 - [sliver C2](https://sliver.sh/docs)
 - [mythic C2](https://docs.mythic-c2.net/installation)
 - [Lki C2](https://github.com/boku7/Loki)
+- [HAVOC](https://havocframework.com/)
 
 *Notes
 
@@ -4744,6 +4760,7 @@ Check on category search jurnals
 - [radioreference](https://www.radioreference.com/)
 - [hamnetdb](https://hamnetdb.net/)
 - [sdr-radio](https://www.sdr-radio.com/gallery)
+- [radio garden](https://radio.garden/)
 
 # API for OSINT 
 
@@ -4926,6 +4943,7 @@ Search News Journalist and Documentary Sites
 - [ID Komdigi MPN](https://mpn.komdigi.go.id/arsip/)
 - [forbiddenstories](https://forbiddenstories.org/en-fadi-al-wahidi-shot-press-gaza/)
 - [doublethinklab](https://doublethinklab.org/)
+- [Wiki Leaks](https://wikileaks.org/)
 
 Social Media Analytics
 
@@ -5023,6 +5041,7 @@ Terrorism & Radical
 - [globalfishingwatch](https://globalfishingwatch.org/)
 - [ID SIPONGI](https://sipongi.menlhk.go.id/peta)
 - [greenpeace](https://www.greenpeace.org/indonesia/)
+- [river-runner-global](https://river-runner-global.samlearner.com/)
 
 # OSINT Satellite
 
@@ -5098,6 +5117,9 @@ Terrorism & Radical
 - [stuffin space sat map](https://stuffin.space/)
 - [NASA Sat list and mission](https://www.nasa.gov/a-to-z-of-nasa-missions/)
 - [SatIntel - sat osint cli](https://github.com/ANG13T/SatIntel)
+- [Hack a sat CTF WU](https://github.com/deptofdefense/hack-a-sat-library)
+- [MDA SPACE](https://mda.space/)
+- [unosat](https://unosat.org/)
 
 *Aditional Information coverage sat 
 
@@ -5213,6 +5235,9 @@ You can use for study academic literature, search book, people name, old archive
 - [CSE Google Search](https://cse.google.com/cse?cx=partner-pub-7233843800519946:6667570044&ie=UTF-8&q=)
 - [google arts and culture](https://artsandculture.google.com/explore)
 - [newspaperarchive](https://newspaperarchive.com/)
+- [openhistoricalmap](https://www.openhistoricalmap.org/)
+- [chronas](https://www.chronas.org/)
+- [histography](https://histography.io/)
 
 # OSINT Art Collection
 
@@ -5374,6 +5399,7 @@ Website
 - [smallseotools compare web similar](https://smallseotools.com/similar-sites/)
 - [semrush](https://www.semrush.com/website/%3Cwebcompetitor-domain.com%3E/competitors/)
 - [Find Similar Sites](https://www.findsimilarsites.com/)
+- [sitechecker](https://sitechecker.pro/similar-websites/)
 
 Company 
 
@@ -5384,6 +5410,7 @@ Company
 - [vstat](https://vstat.info/)
 - [sgpbusiness](https://www.sgpbusiness.com/)
 - [WIPO INT](https://branddb.wipo.int/)
+- [sitechecker](https://sitechecker.pro/similar-websites/)
 
 Social Media 
 
