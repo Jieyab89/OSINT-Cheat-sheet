@@ -404,6 +404,10 @@
             {
                 "name": "githut - most discover languages in GitHub",
                 "url": "https://githut.info/"
+            },
+            {
+                "name": "seasia infographic",
+                "url": "https://seasia.co/infographic"
             }
         ]
     },
@@ -1417,6 +1421,10 @@
             {
                 "name": "Google Trends",
                 "url": "https://trends.google.com/trends/"
+            },
+            {
+                "name": "drweb",
+                "url": "https://vms.drweb.com/online/"
             }
         ]
     },
@@ -1614,6 +1622,10 @@
             {
                 "name": "Redirect Tracker",
                 "url": "https://www.websiteplanet.com/webtools/redirected/"
+            },
+            {
+                "name": "drweb",
+                "url": "https://vms.drweb.com/online/"
             }
         ]
     },
@@ -2115,6 +2127,10 @@
             {
                 "name": "hackforums",
                 "url": "https://hackforums.net/"
+            },
+            {
+                "name": "drweb",
+                "url": "https://vms.drweb.com/scan_file/"
             }
         ]
     },
@@ -3608,6 +3624,22 @@
             {
                 "name": "WhatBreac",
                 "url": "https://github.com/Ekultek/WhatBreach.git"
+            },
+            {
+                "name": "Scribd",
+                "url": "http://www.scribd.com"
+            },
+            {
+                "name": "Scribd docdownloader",
+                "url": "https://docdownloader.com/"
+            },
+            {
+                "name": "Scribd Downloader 2",
+                "url": "https://scribd.vdownloaders.com/"
+            },
+            {
+                "name": "documentcloud",
+                "url": "https://www.documentcloud.org/"
             }
         ]
     },
@@ -5755,6 +5787,10 @@
             {
                 "name": "socialblade",
                 "url": "https://socialblade.com/"
+            },
+            {
+                "name": "ReelTime AI",
+                "url": "https://reeltime-ai.com/"
             }
         ]
     },
@@ -7366,6 +7402,10 @@
             {
                 "name": "How to view scribd",
                 "url": "https://www.scribd.com/embeds/HANGE ID/content?start_page=1&view_mode=scroll&access_key=key-fFexxf7r1bzEfWu3HKwf"
+            },
+            {
+                "name": "Scribd Downloader 2",
+                "url": "https://scribd.vdownloaders.com/"
             }
         ]
     },
@@ -9112,6 +9152,22 @@
             {
                 "name": "Google Earth Engine: A Quick Guide for Beginners",
                 "url": "https://gisgeography.com/google-earth-engine/"
+            },
+            {
+                "name": "citywalki",
+                "url": "https://www.citywalki.com/"
+            },
+            {
+                "name": "openhistoricalmap",
+                "url": "https://www.openhistoricalmap.org/"
+            },
+            {
+                "name": "chronas",
+                "url": "https://www.chronas.org/"
+            },
+            {
+                "name": "river-runner-global",
+                "url": "https://river-runner-global.samlearner.com/"
             }
         ]
     },
@@ -11685,6 +11741,14 @@
             {
                 "name": "Stirling-PDF",
                 "url": "https://github.com/Stirling-Tools/Stirling-PDF"
+            },
+            {
+                "name": "CISA Public Repo",
+                "url": "https://github.com/cisagov"
+            },
+            {
+                "name": "drweb",
+                "url": "https://vms.drweb.com/online/"
             }
         ]
     },
@@ -15055,6 +15119,18 @@
             {
                 "name": "plaguards",
                 "url": "https://github.com/Bread-Yolk/plaguards"
+            },
+            {
+                "name": "postman",
+                "url": "https://www.postman.com/explore/collections"
+            },
+            {
+                "name": "github search",
+                "url": "https://github.com/search/advanced"
+            },
+            {
+                "name": "HAVOC",
+                "url": "https://havocframework.com/"
             }
         ]
     },
@@ -15972,6 +16048,10 @@
             {
                 "name": "sdr-radio",
                 "url": "https://www.sdr-radio.com/gallery"
+            },
+            {
+                "name": "radio garden",
+                "url": "https://radio.garden/"
             }
         ]
     },
@@ -16649,6 +16729,10 @@
             {
                 "name": "doublethinklab",
                 "url": "https://doublethinklab.org/"
+            },
+            {
+                "name": "Wiki Leaks",
+                "url": "https://wikileaks.org/"
             }
         ]
     },
@@ -16925,6 +17009,10 @@
             {
                 "name": "greenpeace",
                 "url": "https://www.greenpeace.org/indonesia/"
+            },
+            {
+                "name": "river-runner-global",
+                "url": "https://river-runner-global.samlearner.com/"
             }
         ]
     },
@@ -17286,6 +17374,18 @@
             {
                 "name": "Earthquake building damage detection based on synthetic-aperture-radar imagery and machine learning",
                 "url": "https://nhess.copernicus.org/articles/23/789/2023/"
+            },
+            {
+                "name": "Hack a sat CTF WU",
+                "url": "https://github.com/deptofdefense/hack-a-sat-library"
+            },
+            {
+                "name": "MDA SPACE",
+                "url": "https://mda.space/"
+            },
+            {
+                "name": "unosat",
+                "url": "https://unosat.org/"
             }
         ]
     },
@@ -17525,6 +17625,18 @@
             {
                 "name": "newspaperarchive",
                 "url": "https://newspaperarchive.com/"
+            },
+            {
+                "name": "openhistoricalmap",
+                "url": "https://www.openhistoricalmap.org/"
+            },
+            {
+                "name": "chronas",
+                "url": "https://www.chronas.org/"
+            },
+            {
+                "name": "histography",
+                "url": "https://histography.io/"
             }
         ]
     },
@@ -18064,6 +18176,14 @@
             {
                 "name": "socialblade similarity",
                 "url": "https://socialblade.com/"
+            },
+            {
+                "name": "sitechecker",
+                "url": "https://sitechecker.pro/similar-websites/"
+            },
+            {
+                "name": "sitechecker",
+                "url": "https://sitechecker.pro/similar-websites/"
             }
         ]
     },
@@ -19159,6 +19279,10 @@
             {
                 "name": "NOOA oil identitification tutorial",
                 "url": "https://response.restoration.noaa.gov/sites/default/files/OWJA_2016.pdf"
+            },
+            {
+                "name": "Hack a sat CTF WU",
+                "url": "https://github.com/deptofdefense/hack-a-sat-library"
             }
         ]
     },
