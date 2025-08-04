@@ -263,6 +263,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [open-search aleph](https://open-search.aleph-networks.eu/)
 - [githut - most discover languages in GitHub](https://githut.info/)
 - [seasia infographic](https://seasia.co/infographic)
+- [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
 
 # Forums & Sites
 
@@ -541,6 +542,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [pagecached](https://pagecached.com/)
 - [Google Trends](https://trends.google.com/trends/)
 - [drweb](https://vms.drweb.com/online/)
+- [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
 
 *Tips web cache 
 
@@ -1071,6 +1073,7 @@ Example
 - [Google cse search general](https://cse.google.com/cse?cx=013991603413798772546:jyvyp2ppxma#gsc.tab=0)
 - [webcrawler](https://www.webcrawler.com/)
 - [usersearch](https://usersearch.ai/)
+- [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
 
 # Internet Archive
 
@@ -1096,6 +1099,7 @@ Example
 - [bellingcat wayback-google-analytics](https://github.com/bellingcat/wayback-google-analytics)
 - [waybackpack download wayback archive url](https://github.com/jsvine/waybackpack)
 - [archive-it](https://archive-it.org/)
+- [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
 
 # Data Breached OSINT
 
@@ -1502,6 +1506,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [Public Record](http://publicrecords.searchsystems.net)
 - [Fam Watchdog](http://Familywatchdog.us)
 - [Crime Reports](http://www.crimereports.com)
+- [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
 
 # Finding Usernames
 
@@ -2081,10 +2086,8 @@ Google queries for MySpace
 
 # Shodan Query Options
 
-> https://pen-testing.sans.org/blog/2015/12/08/effective-shodan-searches
->  
-> https://danielmiessler.com/study/shodan/#gs.VBVsyo0
->  
+- [effective-shodan-searches](https://pen-testing.sans.org/blog/2015/12/08/effective-shodan-searches)
+- [shodan tips](https://danielmiessler.com/study/shodan/#gs.VBVsyo0)
 
 # Capturing Information
 
@@ -2224,6 +2227,7 @@ Search channel, username, bot and anymore
 - [TGRAM](https://tgram.io/)
 - [Telethon](https://github.com/LonamiWebs/Telethon)
 - [TeleGraphite telehgram scrapper](https://github.com/hamodywe/telegram-scraper-TeleGraphite)
+- [tele userinfobot](https://github.com/nadam/userinfobot)
 
 Telegram Tips 
 
@@ -3170,6 +3174,8 @@ Build your own deepfake
 
 Virtual Camera or Camera Replacement
 
+*Beware, make sure installed on  not primary device use device for research
+
 - [VCamera](https://github.com/andvipgroup/VCamera)
 - [OBS](https://obsproject.com/)
 - [splitcam](https://splitcam.com/)
@@ -3206,7 +3212,11 @@ Social Network and blogging
 - Instagram
 - Linkedin 
 - Rocket Reach
-- Etc
+- Twitter 
+- Discord 
+- Quora 
+- Reddit
+- Other community on internet 
 
 # Enhance Image Quality
 
