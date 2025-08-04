@@ -4210,6 +4210,8 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [CloakQuest3r](https://github.com/spyboy-productions/CloakQuest3r) Uncover the true IP address of websites safeguarded by Cloudflare & Others
 - [Frida-Script-Runner](https://github.com/z3n70/Frida-Script-Runner) Frida Script Runner is a versatile web-based tool designed for Android and iOS penetration testing purposes.
 - [plaguards](https://github.com/Bread-Yolk/plaguards) Open Source PowerShell Deobfuscation and IOC Detection Engine for Blue Teams
+- [postman](https://www.postman.com/explore/collections) Search leak public api, finding key and other enviroment 
+- [github search](https://github.com/search/advanced) Search public repo to find cred leak, api leak, source code and other things 
 
 Social Engineering (Social E)
 
