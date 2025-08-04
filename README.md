@@ -4406,6 +4406,7 @@ Privilage Escalation Cheat and check
 Hacking Playground 
 
 - [wackopicko CSLAB](https://wackopicko.csalab.app/)
+- [8ksec Battlegrounds](https://8ksec.io/battle/)
 - [juiceshop CSLAB](https://juiceshop.csalab.app/#/)
 - [dvwa CSLAB](https://dvwa.csalab.app/)
 - [hackthebox](https://www.hackthebox.com/)
