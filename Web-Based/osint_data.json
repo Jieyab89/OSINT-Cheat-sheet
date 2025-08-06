@@ -408,6 +408,10 @@
             {
                 "name": "seasia infographic",
                 "url": "https://seasia.co/infographic"
+            },
+            {
+                "name": "OONI",
+                "url": "https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false"
             }
         ]
     },
@@ -1425,6 +1429,10 @@
             {
                 "name": "drweb",
                 "url": "https://vms.drweb.com/online/"
+            },
+            {
+                "name": "OONI",
+                "url": "https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false"
             }
         ]
     },
@@ -3294,6 +3302,10 @@
             {
                 "name": "usersearch",
                 "url": "https://usersearch.ai/"
+            },
+            {
+                "name": "OONI",
+                "url": "https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false"
             }
         ]
     },
@@ -3387,6 +3399,10 @@
             {
                 "name": "archive-it",
                 "url": "https://archive-it.org/"
+            },
+            {
+                "name": "OONI",
+                "url": "https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false"
             }
         ]
     },
@@ -4917,6 +4933,10 @@
             {
                 "name": "Crime Reports",
                 "url": "http://www.crimereports.com"
+            },
+            {
+                "name": "OONI",
+                "url": "https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false"
             }
         ]
     },
@@ -6714,7 +6734,16 @@
     },
     {
         "category": "Shodan Query Options",
-        "items": []
+        "items": [
+            {
+                "name": "effective-shodan-searches",
+                "url": "https://pen-testing.sans.org/blog/2015/12/08/effective-shodan-searches"
+            },
+            {
+                "name": "shodan tips",
+                "url": "https://danielmiessler.com/study/shodan/#gs.VBVsyo0"
+            }
+        ]
     },
     {
         "category": "Capturing Information",
@@ -7256,6 +7285,10 @@
             {
                 "name": "t.me/s/<change username>",
                 "url": "https://t.me/s/PREVIEWCHANNEL"
+            },
+            {
+                "name": "tele userinfobot",
+                "url": "https://github.com/nadam/userinfobot"
             }
         ]
     },
@@ -15131,6 +15164,10 @@
             {
                 "name": "HAVOC",
                 "url": "https://havocframework.com/"
+            },
+            {
+                "name": "8ksec Battlegrounds",
+                "url": "https://8ksec.io/battle/"
             }
         ]
     },
