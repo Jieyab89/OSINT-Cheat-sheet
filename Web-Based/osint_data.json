@@ -4253,6 +4253,10 @@
             {
                 "name": "open-search aleph",
                 "url": "https://open-search.aleph-networks.eu/"
+            },
+            {
+                "name": "usersearch",
+                "url": "https://usersearch.com/"
             }
         ]
     },
@@ -4916,6 +4920,10 @@
             {
                 "name": "castrickclues",
                 "url": "https://castrickclues.com/"
+            },
+            {
+                "name": "usersearch",
+                "url": "https://usersearch.com/"
             }
         ]
     },
@@ -5082,6 +5090,10 @@
             {
                 "name": "castrickclues",
                 "url": "https://castrickclues.com/"
+            },
+            {
+                "name": "usersearch",
+                "url": "https://usersearch.com/"
             }
         ]
     },
@@ -6712,6 +6724,10 @@
             {
                 "name": "castrickclues",
                 "url": "https://castrickclues.com/"
+            },
+            {
+                "name": "usersearch",
+                "url": "https://usersearch.com/"
             }
         ]
     },
