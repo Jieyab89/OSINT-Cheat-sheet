@@ -2280,6 +2280,7 @@ Telegram Tips
 - [pdfyes](http://pdfyes.com/)
 - [Web Archive](https://web.archive.org/)
 - [documentcloud](https://www.documentcloud.org/)
+- [meawfy - mega.nz search engine](https://meawfy.com/)
 
 *Scribd viewer 
 
@@ -5657,6 +5658,7 @@ Search file in cloud like Google drive and other
 - [Google DOCS CSE](https://cse.google.com/cse?cx=013991603413798772546:rse-4irjrn8) Search document in Google docs
 - [Find google drive public](https://cse.google.com/cse?cx=009049714591083331396:54vj9vejyek)
 - [Find google drive public 2](https://cse.google.com/cse?cx=013991603413798772546:nwzqlcysx_w)
+- [meawfy - mega.nz search engine](https://meawfy.com/)
 
 # OSINT Property
 
