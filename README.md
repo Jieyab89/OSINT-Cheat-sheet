@@ -144,7 +144,6 @@ Automated tool by David Bombal
 > You can use xmp format for edit, write and delete metadata
 > Check the documentation
 
-
 # SOCMINT  
 
 - [socialblade](https://socialblade.com/)
@@ -264,6 +263,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [githut - most discover languages in GitHub](https://githut.info/)
 - [seasia infographic](https://seasia.co/infographic)
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
+- [malware-traffic-analysis](https://www.malware-traffic-analysis.net/2025/index.html)
 
 # Forums & Sites
 
@@ -418,9 +418,16 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [twtdata](https://www.twtdata.com/)
 - [gephi](https://gephi.org/)
 - [Tweetdeck](https://pro.twitter.com/)
+- [tagdef](https://tagdef.com/en/)
 
 # Web Intelligence
 
+- [similarsitesearch](https://www.similarsitesearch.com/)
+- [topsimilarsites](https://www.topsimilarsites.com/)
+- [ARIN - American Regsitry Internet Number](https://search.arin.net/rdap/)
+- [ipvoid](https://www.ipvoid.com/)
+- [censys](https://censys.com/)
+- [Url Scan](https://urlscan.io/)
 - [reconspider](https://github.com/bhavsec/reconspider)
 - [haveibeensquatted](https://www.haveibeensquatted.com/)
 - [sitereview](https://sitereview.bluecoat.com/)
@@ -543,6 +550,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [Google Trends](https://trends.google.com/trends/)
 - [drweb](https://vms.drweb.com/online/)
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
+- [host - Domain Name Data API](https://host.io/)
 
 *Tips web cache 
 
@@ -554,6 +562,8 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 
 # Analysing URLs
 
+- [trendmicro](https://global.sitesafety.trendmicro.com/)
+- [zscaler](https://zulu.zscaler.com/)
 - [drweb](https://vms.drweb.com/online/)
 - [urlfiltering](https://urlfiltering.paloaltonetworks.com/)
 - [dnshistory](https://osint.sh/dnshistory/)
@@ -603,9 +613,13 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [Expand Shortened URLs](https://www.expandurl.net/)
 - [getlinkinfo](https://www.getlinkinfo.com/)
 - [Redirect Tracker](https://www.websiteplanet.com/webtools/redirected/)
+- [fortiguard](https://www.fortiguard.com/threatintel-search)
 
 # Researching Cyber Threats
 
+- [ID Ransomware analysis](https://id-ransomware.malwarehunterteam.com/)
+- [fortiguard](https://www.fortiguard.com/threatintel-search)
+- [trendmicro](https://global.sitesafety.trendmicro.com/)
 - [ransom db](https://www.ransom-db.com/)
 - [ransomware live](https://www.ransomware.live/)
 - [valhalla](https://valhalla.nextron-systems.com/)
@@ -636,8 +650,8 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [Email Header Analysis](https://mxtoolbox.com/EmailHeaders.aspx)
 - [Email-Analytics](https://emailanalytics.com/email-headers/)
 - [Email Header Analisis Toolbox](https://toolbox.googleapps.com/apps/messageheader/)
-- [Url Scan]( https://urlscan.io/ )
-- [AnyRun](https://any.run/)
+- [Url Scan](https://urlscan.io/)
+- [AnyRun](https://app.any.run/)
 - [Hybrid Analysis](https://www.hybrid-analysis.com/)
 - [VMRay Sandbox](https://www.vmray.com/)
 - [Browser Sandbox](https://www.browserling.com/)
@@ -731,6 +745,8 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [apklab by avast](https://www.apklab.io/)
 - [hackforums](https://hackforums.net/)
 - [drweb](https://vms.drweb.com/scan_file/)
+- [virusscan](https://virusscan.jotti.org/)
+- [malware-traffic-analysis](https://www.malware-traffic-analysis.net/2025/index.html)
 
 # IoT Search Engines
 
@@ -788,8 +804,7 @@ This tools can show your ip address isp provider and geo location
 # Wireless Network
 
 - [Wigle](https://www.wigle.net/)
-Maps and database of 802.11 wireless networks, with statistics, submitted by wardrivers, netstumblers, and
-net huggers
+Maps and database of 802.11 wireless networks, with statistics, submitted by wardrivers, netstumblers, and net huggers
 - [Fing Net Scan](https://www.fing.com/)
 - [Wifianalyzer](https://www.wifianalyzer.info/)
 - [Angry Ip](https://angryip.org/)
@@ -821,6 +836,8 @@ Tips
 
 You can find the file hash or other threat indicator
 
+- [virusscan](https://virusscan.jotti.org/)
+- [AnyRun](https://app.any.run/)
 - [ransom db](https://www.ransom-db.com/)
 - [grafana](https://grafana.com/)
 - [wazuh](https://wazuh.com/)
@@ -912,6 +929,7 @@ You can find the file hash or other threat indicator
 - [Splunk](https://www.splunk.com/)
 - [ransomware live](https://www.ransomware.live/)
 - [Ransomware Posts](https://ransom.privtools.eu/)
+- [ID Ransomware analysis](https://id-ransomware.malwarehunterteam.com/)
 - [nomoreransom](https://www.nomoreransom.org/)
 - [ransomwatch](https://ransomwatch.telemetry.ltd/)
 - [tirreno](https://www.tirreno.com/)
@@ -945,6 +963,7 @@ You can find the file hash or other threat indicator
 - [Dorking webcamcse](https://cipher387.github.io/webcamcse/)
 - [DEEP DORK](https://guilherme-moraiss.github.io/Deep-Dork-Web/)
 - [filephish](https://greylensresearch.github.io/filephish/)
+- [securitytoolkits - list dorking](https://securitytoolkits.com/bug-hunting)
 
 # Github 
 
@@ -1101,8 +1120,15 @@ Example
 - [archive-it](https://archive-it.org/)
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
 
+Web Defacement Archive 
+
+- [Zone H](https://www.zone-h.org/archive?hz=1)
+- [defacer ID](https://defacer.id/)
+
 # Data Breached OSINT
 
+- [leakix](https://leakix.net/)
+- [leakScraper](https://github.com/Acceis/leakScraper)
 - [clatscope](https://github.com/clats97/clatscope)
 - [hackedlist](https://hackedlist.io/)
 - [Dehashed](https://www.dehashed.com/)
@@ -1165,6 +1191,8 @@ Example
 - [Scribd docdownloader](https://docdownloader.com/)
 - [Scribd Downloader 2](https://scribd.vdownloaders.com/)
 - [documentcloud](https://www.documentcloud.org/)
+- [Leak Finder [ONION SITE]](http://leakfindrg5s2zcwwdmxlvz6oefz6hdwlkckh4eir4huqcpjsefxkead.onion/Market)
+- [psbdmp](https://psbdmp.ws/)
 
 # Crack Jurnals
 
@@ -1756,6 +1784,7 @@ Searching for scandal or blackmail or deepfake porn doesn't have to be on the li
 - [ignorant](https://github.com/megadose/ignorant)
 - [socialblade](https://socialblade.com/)
 - [InsE - Instagram email finder & exporter extension browser](https://chromewebstore.google.com/detail/inse-instagram-email-find/hboikjnbkhkjmllgdcflmbcojbpklcca)
+- [Find ID Insta Acc](https://skweezer.net/find-instagram-user-id)
 
 # Thread 
 
@@ -2232,6 +2261,7 @@ Search channel, username, bot and anymore
 - [Telethon](https://github.com/LonamiWebs/Telethon)
 - [TeleGraphite telehgram scrapper](https://github.com/hamodywe/telegram-scraper-TeleGraphite)
 - [tele userinfobot](https://github.com/nadam/userinfobot)
+- [userinfobot - telegram](https://telegram.me/userinfobot)
 
 Telegram Tips 
 
@@ -2696,6 +2726,7 @@ Telegram Tips
 - [openhistoricalmap](https://www.openhistoricalmap.org/)
 - [chronas](https://www.chronas.org/)
 - [river-runner-global](https://river-runner-global.samlearner.com/)
+- [skyscraperpage](https://skyscraperpage.com/)
 
 Conveter tool 
 
@@ -3419,6 +3450,8 @@ Social Network and blogging
 - [onionlinkhub](https://www.onionlinkhub.com/)
 - [TorCrawl](https://github.com/MikeMeliz/TorCrawl.py) Scrapping darkweb
 - [tor2web](https://www.tor2web.org/)
+- [DeepWebHarvester](https://github.com/techenthusiast167/DeepWebHarvester?tab=readme-ov-file) A stealthy Python dark web scraper using Tor. Crawl .onion sites anonymously,
+- [torproject - relay search](https://metrics.torproject.org/)
 
 Guide 
 
@@ -3959,6 +3992,7 @@ Public Transport
 - [EMSA](https://www.emsa.europa.eu/)
 - [balticshipping](https://www.balticshipping.com/)
 - [shipfinder](https://www.shipfinder.com/)
+- [boatinfoworld](https://www.boatinfoworld.com/)
 
 # Railways
 
@@ -4228,6 +4262,11 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [plaguards](https://github.com/Bread-Yolk/plaguards) Open Source PowerShell Deobfuscation and IOC Detection Engine for Blue Teams
 - [postman](https://www.postman.com/explore/collections) Search leak public api, finding key and other enviroment 
 - [github search](https://github.com/search/advanced) Search public repo to find cred leak, api leak, source code and other things 
+- [Web Leaked Credentials](https://github.com/h4x0r-dz/Leaked-Credentials/) Find and enumerate key and other on web assets with regex
+- [OSINT SH](https://osint.sh/buckets/) Find public bucket on AWS S3 and Azure  by keyword
+- [subfinder](https://github.com/projectdiscovery/subfinder) Subdomain finder and enumerate DNS
+- [Sudomy](https://github.com/screetsec/Sudomy) Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance
+- [Url Scan](https://urlscan.io/) Enumerate a web finding a endpoint and assets 
 
 Social Engineering (Social E)
 
@@ -4563,6 +4602,10 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [whoisxmlapi](https://mac-address.whoisxmlapi.com/api)
 - [macaddresslookup](https://www.macaddresslookup.org/)
 - [Sniffnet Comfortably monitor your Internet traffic](https://sniffnet.net/)
+- [torproject - relay search](https://metrics.torproject.org/)
+- [ipvoid](https://www.ipvoid.com/)
+- [db-ip](https://db-ip.com/)
+- [macvendorlookup](https://www.macvendorlookup.com/)
 
 # Medical OSINT 
 
@@ -4963,6 +5006,7 @@ Search News Journalist and Documentary Sites
 - [forbiddenstories](https://forbiddenstories.org/en-fadi-al-wahidi-shot-press-gaza/)
 - [doublethinklab](https://doublethinklab.org/)
 - [Wiki Leaks](https://wikileaks.org/)
+- [CIA - Factbook](https://www.cia.gov/library/publications/the-world-factbook/)
 
 Social Media Analytics
 
@@ -5139,6 +5183,7 @@ Terrorism & Radical
 - [Hack a sat CTF WU](https://github.com/deptofdefense/hack-a-sat-library)
 - [MDA SPACE](https://mda.space/)
 - [unosat](https://unosat.org/)
+- [robosat](https://github.com/mapbox/robosat)
 
 *Aditional Information coverage sat 
 
@@ -5280,6 +5325,7 @@ You can use for study academic literature, search book, people name, old archive
 
 # OSINT Language 
 
+- [KBBI Kemendikbud - ID](https://kbbi.kemdikbud.go.id/)
 - [grammarly](https://www.grammarly.com/)
 - [quillbot](https://quillbot.com/translate)
 - [babla](https://www.babla.co.id/pengucapan/bahasa-china/)
@@ -5306,6 +5352,7 @@ Slang Language
 - [wiktionary](https://en.wiktionary.org/wiki/Wiktionary:Main_Page)
 - [digitalcultures](https://digitalcultures.net/)
 - [merriam slang dictionary](https://www.merriam-webster.com/)
+- [knowyourmeme](https://knowyourmeme.com/)
 
 # OSINT OPSEC 
 
@@ -5389,6 +5436,7 @@ Text Analyzer
 - [humbot](https://humbot.ai/)
 - [ithenticate](https://www.ithenticate.com/)
 - [DiffChecker](https://www.diffchecker.com/image-diff/)
+- [text compare](https://text-compare.com/)
 
 Audio Analyzer 
 
@@ -5419,6 +5467,8 @@ Website
 - [semrush](https://www.semrush.com/website/%3Cwebcompetitor-domain.com%3E/competitors/)
 - [Find Similar Sites](https://www.findsimilarsites.com/)
 - [sitechecker](https://sitechecker.pro/similar-websites/)
+- [topsimilarsites](https://www.topsimilarsites.com/)
+- [similarsitesearch](https://www.similarsitesearch.com/)
 
 Company 
 
@@ -5739,3 +5789,15 @@ Bookmark OSINT tools list
 
 - [challenge bellincgcat](https://challenge.bellingcat.com/)
 - [tracelabs](https://www.tracelabs.org/)
+- [geoguessr](https://www.geoguessr.com/)
+
+# OSINT Search Hacker Nickname 
+
+You can search nickname, hacker team and hacker archive like web defacement and other 
+
+- [Zone H](https://www.zone-h.org/archive?hz=1)
+- [defacer ID](https://defacer.id/)
+
+# MISC
+
+- [tubeoffline - Tools and media downloader](https://www.tubeoffline.com/)
