@@ -412,6 +412,10 @@
             {
                 "name": "OONI",
                 "url": "https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false"
+            },
+            {
+                "name": "malware-traffic-analysis",
+                "url": "https://www.malware-traffic-analysis.net/2025/index.html"
             }
         ]
     },
@@ -940,6 +944,10 @@
             {
                 "name": "Tweetdeck",
                 "url": "https://pro.twitter.com/"
+            },
+            {
+                "name": "tagdef",
+                "url": "https://tagdef.com/en/"
             }
         ]
     },
@@ -1433,6 +1441,34 @@
             {
                 "name": "OONI",
                 "url": "https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false"
+            },
+            {
+                "name": "similarsitesearch",
+                "url": "https://www.similarsitesearch.com/"
+            },
+            {
+                "name": "topsimilarsites",
+                "url": "https://www.topsimilarsites.com/"
+            },
+            {
+                "name": "ARIN - American Regsitry Internet Number",
+                "url": "https://search.arin.net/rdap/"
+            },
+            {
+                "name": "ipvoid",
+                "url": "https://www.ipvoid.com/"
+            },
+            {
+                "name": "censys",
+                "url": "https://censys.com/"
+            },
+            {
+                "name": "Url Scan",
+                "url": "https://urlscan.io/"
+            },
+            {
+                "name": "host - Domain Name Data API",
+                "url": "https://host.io/"
             }
         ]
     },
@@ -1634,6 +1670,18 @@
             {
                 "name": "drweb",
                 "url": "https://vms.drweb.com/online/"
+            },
+            {
+                "name": "trendmicro",
+                "url": "https://global.sitesafety.trendmicro.com/"
+            },
+            {
+                "name": "zscaler",
+                "url": "https://zulu.zscaler.com/"
+            },
+            {
+                "name": "fortiguard",
+                "url": "https://www.fortiguard.com/threatintel-search"
             }
         ]
     },
@@ -2139,6 +2187,26 @@
             {
                 "name": "drweb",
                 "url": "https://vms.drweb.com/scan_file/"
+            },
+            {
+                "name": "ID Ransomware analysis",
+                "url": "https://id-ransomware.malwarehunterteam.com/"
+            },
+            {
+                "name": "fortiguard",
+                "url": "https://www.fortiguard.com/threatintel-search"
+            },
+            {
+                "name": "trendmicro",
+                "url": "https://global.sitesafety.trendmicro.com/"
+            },
+            {
+                "name": "virusscan",
+                "url": "https://virusscan.jotti.org/"
+            },
+            {
+                "name": "malware-traffic-analysis",
+                "url": "https://www.malware-traffic-analysis.net/2025/index.html"
             }
         ]
     },
@@ -2839,6 +2907,18 @@
             {
                 "name": "APT Group List",
                 "url": "https://docs.google.com/spreadsheets/u/1/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU/pubhtml"
+            },
+            {
+                "name": "virusscan",
+                "url": "https://virusscan.jotti.org/"
+            },
+            {
+                "name": "AnyRun",
+                "url": "https://app.any.run/"
+            },
+            {
+                "name": "ID Ransomware analysis",
+                "url": "https://id-ransomware.malwarehunterteam.com/"
             }
         ]
     },
@@ -2928,6 +3008,10 @@
             {
                 "name": "filephish",
                 "url": "https://greylensresearch.github.io/filephish/"
+            },
+            {
+                "name": "securitytoolkits - list dorking",
+                "url": "https://securitytoolkits.com/bug-hunting"
             }
         ]
     },
@@ -3403,6 +3487,14 @@
             {
                 "name": "OONI",
                 "url": "https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false"
+            },
+            {
+                "name": "Zone H",
+                "url": "https://www.zone-h.org/archive?hz=1"
+            },
+            {
+                "name": "defacer ID",
+                "url": "https://defacer.id/"
             }
         ]
     },
@@ -3656,6 +3748,18 @@
             {
                 "name": "documentcloud",
                 "url": "https://www.documentcloud.org/"
+            },
+            {
+                "name": "leakix",
+                "url": "https://leakix.net/"
+            },
+            {
+                "name": "leakScraper",
+                "url": "https://github.com/Acceis/leakScraper"
+            },
+            {
+                "name": "Leak Finder [ONION SITE]",
+                "url": "http://leakfindrg5s2zcwwdmxlvz6oefz6hdwlkckh4eir4huqcpjsefxkead.onion/Market"
             }
         ]
     },
@@ -5642,6 +5746,10 @@
             {
                 "name": "InsE - Instagram email finder & exporter extension browser",
                 "url": "https://chromewebstore.google.com/detail/inse-instagram-email-find/hboikjnbkhkjmllgdcflmbcojbpklcca"
+            },
+            {
+                "name": "Find ID Insta Acc",
+                "url": "https://skweezer.net/find-instagram-user-id"
             }
         ]
     },
@@ -7305,6 +7413,10 @@
             {
                 "name": "tele userinfobot",
                 "url": "https://github.com/nadam/userinfobot"
+            },
+            {
+                "name": "userinfobot - telegram",
+                "url": "https://telegram.me/userinfobot"
             }
         ]
     },
@@ -9221,6 +9333,10 @@
             {
                 "name": "river-runner-global",
                 "url": "https://river-runner-global.samlearner.com/"
+            },
+            {
+                "name": "skyscraperpage",
+                "url": "https://skyscraperpage.com/"
             }
         ]
     },
@@ -11437,6 +11553,14 @@
             {
                 "name": "tor2web",
                 "url": "https://www.tor2web.org/"
+            },
+            {
+                "name": "DeepWebHarvester",
+                "url": "https://github.com/techenthusiast167/DeepWebHarvester?tab=readme-ov-file"
+            },
+            {
+                "name": "torproject - relay search",
+                "url": "https://metrics.torproject.org/"
             }
         ]
     },
@@ -13405,6 +13529,10 @@
             {
                 "name": "shipfinder",
                 "url": "https://www.shipfinder.com/"
+            },
+            {
+                "name": "boatinfoworld",
+                "url": "https://www.boatinfoworld.com/"
             }
         ]
     },
@@ -15188,6 +15316,26 @@
             {
                 "name": "8ksec Battlegrounds",
                 "url": "https://8ksec.io/battle/"
+            },
+            {
+                "name": "Web Leaked Credentials",
+                "url": "https://github.com/h4x0r-dz/Leaked-Credentials/"
+            },
+            {
+                "name": "OSINT SH",
+                "url": "https://osint.sh/buckets/"
+            },
+            {
+                "name": "subfinder",
+                "url": "https://github.com/projectdiscovery/subfinder"
+            },
+            {
+                "name": "Sudomy",
+                "url": "https://github.com/screetsec/Sudomy"
+            },
+            {
+                "name": "Url Scan",
+                "url": "https://urlscan.io/"
             }
         ]
     },
@@ -15362,6 +15510,22 @@
             {
                 "name": "Sniffnet Comfortably monitor your Internet traffic",
                 "url": "https://sniffnet.net/"
+            },
+            {
+                "name": "torproject - relay search",
+                "url": "https://metrics.torproject.org/"
+            },
+            {
+                "name": "ipvoid",
+                "url": "https://www.ipvoid.com/"
+            },
+            {
+                "name": "db-ip",
+                "url": "https://db-ip.com/"
+            },
+            {
+                "name": "macvendorlookup",
+                "url": "https://www.macvendorlookup.com/"
             }
         ]
     },
@@ -16790,6 +16954,10 @@
             {
                 "name": "Wiki Leaks",
                 "url": "https://wikileaks.org/"
+            },
+            {
+                "name": "CIA - Factbook",
+                "url": "https://www.cia.gov/library/publications/the-world-factbook/"
             }
         ]
     },
@@ -17443,6 +17611,10 @@
             {
                 "name": "unosat",
                 "url": "https://unosat.org/"
+            },
+            {
+                "name": "robosat",
+                "url": "https://github.com/mapbox/robosat"
             }
         ]
     },
@@ -17857,6 +18029,14 @@
             {
                 "name": "merriam slang dictionary",
                 "url": "https://www.merriam-webster.com/"
+            },
+            {
+                "name": "KBBI Kemendikbud - ID",
+                "url": "https://kbbi.kemdikbud.go.id/"
+            },
+            {
+                "name": "knowyourmeme",
+                "url": "https://knowyourmeme.com/"
             }
         ]
     },
@@ -18241,6 +18421,18 @@
             {
                 "name": "sitechecker",
                 "url": "https://sitechecker.pro/similar-websites/"
+            },
+            {
+                "name": "text compare",
+                "url": "https://text-compare.com/"
+            },
+            {
+                "name": "topsimilarsites",
+                "url": "https://www.topsimilarsites.com/"
+            },
+            {
+                "name": "similarsitesearch",
+                "url": "https://www.similarsitesearch.com/"
             }
         ]
     },
@@ -19144,6 +19336,10 @@
             {
                 "name": "tracelabs",
                 "url": "https://www.tracelabs.org/"
+            },
+            {
+                "name": "geoguessr",
+                "url": "https://www.geoguessr.com/"
             }
         ]
     },
@@ -19731,6 +19927,28 @@
             {
                 "name": "Please reload this page",
                 "url": "https://github.com"
+            }
+        ]
+    },
+    {
+        "category": "OSINT Search Hacker Nickname",
+        "items": [
+            {
+                "name": "Zone H",
+                "url": "https://www.zone-h.org/archive?hz=1"
+            },
+            {
+                "name": "defacer ID",
+                "url": "https://defacer.id/"
+            }
+        ]
+    },
+    {
+        "category": "MISC",
+        "items": [
+            {
+                "name": "tubeoffline - Tools and media downloader",
+                "url": "https://www.tubeoffline.com/"
             }
         ]
     }
