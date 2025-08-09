@@ -264,6 +264,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [seasia infographic](https://seasia.co/infographic)
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
 - [malware-traffic-analysis](https://www.malware-traffic-analysis.net/2025/index.html)
+- [Track IP Torrent Activity](https://iknowwhatyoudownload.com/)
 
 # Forums & Sites
 
@@ -617,6 +618,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 
 # Researching Cyber Threats
 
+- [nomoreransom](https://www.nomoreransom.org/en/decryption-tools.html)
 - [ID Ransomware analysis](https://id-ransomware.malwarehunterteam.com/)
 - [fortiguard](https://www.fortiguard.com/threatintel-search)
 - [trendmicro](https://global.sitesafety.trendmicro.com/)
@@ -1037,6 +1039,7 @@ Example
 
 # Other Search Engines
 
+- [Etools](http://www.etools.ch)
 - [criminalip](https://www.criminalip.io/) 
 - [us.searchboth.net](http://us.searchboth.net)
 - [Archive.org](http://www.arhive.org)
@@ -1119,6 +1122,7 @@ Example
 - [waybackpack download wayback archive url](https://github.com/jsvine/waybackpack)
 - [archive-it](https://archive-it.org/)
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
+- [ghostarchive](https://ghostarchive.org/)
 
 Web Defacement Archive 
 
@@ -1193,6 +1197,9 @@ Web Defacement Archive
 - [documentcloud](https://www.documentcloud.org/)
 - [Leak Finder [ONION SITE]](http://leakfindrg5s2zcwwdmxlvz6oefz6hdwlkckh4eir4huqcpjsefxkead.onion/Market)
 - [psbdmp](https://psbdmp.ws/)
+- [hacked email com [archived site]](https://web.archive.org/web/*/http://hacked-emails.com/*)
+- [domainbigdata com [archived site]](https://web.archive.org/web/*/https://domainbigdata.com/*)
+- [Personal data leak check](https://cybernews.com/personal-data-leak-check/)
 
 # Crack Jurnals
 
@@ -1250,6 +1257,7 @@ Web Defacement Archive
 - [sci-net](https://sci-net.xyz/)
 - [elsevier - Get and search cite the jouurnal api](https://dev.elsevier.com/)
 - [semanticscholar](https://www.semanticscholar.org/)
+- [Z Librrary [ONION SITE]](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/)
 
 # Blogs Search Engine
 
@@ -1839,6 +1847,7 @@ Searching for scandal or blackmail or deepfake porn doesn't have to be on the li
 - [Summarize Any YouTube Video](https://ytbsum.codexfolio.com/)
 - [Youtube search operator](https://seosly.com/blog/youtube-search-operators/)
 - [socialblade](https://socialblade.com/)
+- [channelcrawler](https://app.channelcrawler.com/)
 
 # Mastodon 
 
@@ -1919,6 +1928,7 @@ Twitter Search Engine
 - [Twitter Cache](https://cache.digitaldigging.org/) *View cache and archive and delete post in Twitter
 - [Twitter image search google cse](https://cse.google.com/cse?cx=006205189065513216365:vltpvp4_gyo#gsc.tab=1&gsc.sort=)
 - [Twitter image search google cse 2](https://cse.google.com/cse?cx=006290531980334157382:_ltcjq0robu#gsc.tab=0&gsc.sort=&gsc.q=)
+- [Wayback Twitter](https://waybacktweets.streamlit.app/) Retrieves archived tweets
 
 # Snapchat 
 
@@ -2110,6 +2120,7 @@ Google queries for MySpace
 - [psbdmp](https://psbdmp.ws/api/search/<email>)
 - [castrickclues](https://castrickclues.com/)
 - [usersearch](https://usersearch.com/)
+- [Personal data leak check](https://cybernews.com/personal-data-leak-check/)
 
 # PGP or GPG Keybase 
 
@@ -2262,6 +2273,8 @@ Search channel, username, bot and anymore
 - [TeleGraphite telehgram scrapper](https://github.com/hamodywe/telegram-scraper-TeleGraphite)
 - [tele userinfobot](https://github.com/nadam/userinfobot)
 - [userinfobot - telegram](https://telegram.me/userinfobot)
+- [GetTheirIDBot](https://t.me/GetTheirIDBot)
+- [PasswordSearchBot](https://t.me/PasswordSearchBot)
 
 Telegram Tips 
 
@@ -2470,6 +2483,7 @@ Telegram Tips
 - [photoshop](https://www.adobe.com/id_en/products/photoshop.html)
 - [Remove Background](https://theinpaint.com/)
 - [Depix -  to recover plaintext from pixelized screenshots](https://github.com/spipm/Depixelization_poc)
+- [smartdeblur](http://smartdeblur.net/) Install on your VM not main enviroment
 
 # Stock Images
 
@@ -2727,6 +2741,7 @@ Telegram Tips
 - [chronas](https://www.chronas.org/)
 - [river-runner-global](https://river-runner-global.samlearner.com/)
 - [skyscraperpage](https://skyscraperpage.com/)
+- [geograph - mostly europe](https://www.geograph.org/)
 
 Conveter tool 
 
@@ -3387,6 +3402,7 @@ Social Network and blogging
 - [darksearch](https://darksearch.io/)
 - [thehiddenwiki](https://thehiddenwiki.com/)
 - [onionsearchengine](https://onionsearchengine.com/index.php)
+- [dargle](https://www.dargle.net/)
 
 # Darkweb Intelligence
 
@@ -3549,6 +3565,7 @@ Guide
 - [Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)
 - [CISA Public Repo](https://github.com/cisagov)
 - [drweb](https://vms.drweb.com/online/)
+- [List file signature](https://filesig.search.org/)
 
 *Pro Tips 
 
@@ -4606,6 +4623,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [ipvoid](https://www.ipvoid.com/)
 - [db-ip](https://db-ip.com/)
 - [macvendorlookup](https://www.macvendorlookup.com/)
+- [Track IP Torrent Activity](https://iknowwhatyoudownload.com/)
 
 # Medical OSINT 
 
@@ -4792,6 +4810,7 @@ Analysis for IMINT and find the geolocation, azimuth and etc
 - [smartquantai](https://www.smartquantai.com/)
 - [semanticscholar](https://www.semanticscholar.org/)
 - [Web Archive](https://web.archive.org/)
+- [Z Librrary [ONION SITE]](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/)
 
 *Pro Tips
 
@@ -5801,3 +5820,10 @@ You can search nickname, hacker team and hacker archive like web defacement and 
 # MISC
 
 - [tubeoffline - Tools and media downloader](https://www.tubeoffline.com/)
+- [humantraffickingsearch](https://humantraffickingsearch.org/)
+
+# OSINT Drone Search
+
+Search and find drone and drone footage 
+
+- [dronestagr](https://www.dronestagr.am/?s=indonesia)
