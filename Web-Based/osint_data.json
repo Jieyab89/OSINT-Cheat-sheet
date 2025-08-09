@@ -416,6 +416,10 @@
             {
                 "name": "malware-traffic-analysis",
                 "url": "https://www.malware-traffic-analysis.net/2025/index.html"
+            },
+            {
+                "name": "Track IP Torrent Activity",
+                "url": "https://iknowwhatyoudownload.com/"
             }
         ]
     },
@@ -2207,6 +2211,10 @@
             {
                 "name": "malware-traffic-analysis",
                 "url": "https://www.malware-traffic-analysis.net/2025/index.html"
+            },
+            {
+                "name": "nomoreransom",
+                "url": "https://www.nomoreransom.org/en/decryption-tools.html"
             }
         ]
     },
@@ -3390,6 +3398,10 @@
             {
                 "name": "OONI",
                 "url": "https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false"
+            },
+            {
+                "name": "Etools",
+                "url": "http://www.etools.ch"
             }
         ]
     },
@@ -3495,6 +3507,10 @@
             {
                 "name": "defacer ID",
                 "url": "https://defacer.id/"
+            },
+            {
+                "name": "ghostarchive",
+                "url": "https://ghostarchive.org/"
             }
         ]
     },
@@ -3760,6 +3776,18 @@
             {
                 "name": "Leak Finder [ONION SITE]",
                 "url": "http://leakfindrg5s2zcwwdmxlvz6oefz6hdwlkckh4eir4huqcpjsefxkead.onion/Market"
+            },
+            {
+                "name": "hacked email com [archived site]",
+                "url": "https://web.archive.org/web/*/http://hacked-emails.com/*"
+            },
+            {
+                "name": "domainbigdata com [archived site]",
+                "url": "https://web.archive.org/web/*/https://domainbigdata.com/*"
+            },
+            {
+                "name": "Personal data leak check",
+                "url": "https://cybernews.com/personal-data-leak-check/"
             }
         ]
     },
@@ -3974,6 +4002,10 @@
             {
                 "name": "semanticscholar",
                 "url": "https://www.semanticscholar.org/"
+            },
+            {
+                "name": "Z Librrary [ONION SITE]",
+                "url": "http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/"
             }
         ]
     },
@@ -5931,6 +5963,10 @@
             {
                 "name": "ReelTime AI",
                 "url": "https://reeltime-ai.com/"
+            },
+            {
+                "name": "channelcrawler",
+                "url": "https://app.channelcrawler.com/"
             }
         ]
     },
@@ -6836,6 +6872,10 @@
             {
                 "name": "usersearch",
                 "url": "https://usersearch.com/"
+            },
+            {
+                "name": "Personal data leak check",
+                "url": "https://cybernews.com/personal-data-leak-check/"
             }
         ]
     },
@@ -7417,6 +7457,14 @@
             {
                 "name": "userinfobot - telegram",
                 "url": "https://telegram.me/userinfobot"
+            },
+            {
+                "name": "GetTheirIDBot",
+                "url": "https://t.me/GetTheirIDBot"
+            },
+            {
+                "name": "PasswordSearchBot",
+                "url": "https://t.me/PasswordSearchBot"
             }
         ]
     },
@@ -8174,6 +8222,10 @@
             {
                 "name": "Depix -  to recover plaintext from pixelized screenshots",
                 "url": "https://github.com/spipm/Depixelization_poc"
+            },
+            {
+                "name": "smartdeblur",
+                "url": "http://smartdeblur.net/"
             }
         ]
     },
@@ -9337,6 +9389,10 @@
             {
                 "name": "skyscraperpage",
                 "url": "https://skyscraperpage.com/"
+            },
+            {
+                "name": "geograph - mostly europe",
+                "url": "https://www.geograph.org/"
             }
         ]
     },
@@ -11304,6 +11360,10 @@
             {
                 "name": "onionsearchengine",
                 "url": "https://onionsearchengine.com/index.php"
+            },
+            {
+                "name": "dargle",
+                "url": "https://www.dargle.net/"
             }
         ]
     },
@@ -11926,6 +11986,10 @@
             {
                 "name": "drweb",
                 "url": "https://vms.drweb.com/online/"
+            },
+            {
+                "name": "List file signature",
+                "url": "https://filesig.search.org/"
             }
         ]
     },
@@ -15526,6 +15590,10 @@
             {
                 "name": "macvendorlookup",
                 "url": "https://www.macvendorlookup.com/"
+            },
+            {
+                "name": "Track IP Torrent Activity",
+                "url": "https://iknowwhatyoudownload.com/"
             }
         ]
     },
@@ -16186,6 +16254,10 @@
             {
                 "name": "Web Archive",
                 "url": "https://web.archive.org/"
+            },
+            {
+                "name": "Z Librrary [ONION SITE]",
+                "url": "http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/"
             }
         ]
     },
@@ -19949,6 +20021,19 @@
             {
                 "name": "tubeoffline - Tools and media downloader",
                 "url": "https://www.tubeoffline.com/"
+            },
+            {
+                "name": "humantraffickingsearch",
+                "url": "https://humantraffickingsearch.org/"
+            }
+        ]
+    },
+    {
+        "category": "OSINT Drone Search",
+        "items": [
+            {
+                "name": "dronestagr",
+                "url": "https://www.dronestagr.am/?s=indonesia"
             }
         ]
     }
