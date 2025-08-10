@@ -147,6 +147,7 @@ Automated tool by David Bombal
 
 # SOCMINT  
 
+- [InstagramPrivSniffer](https://github.com/obitouka/InstagramPrivSniffer)
 - [socialblade](https://socialblade.com/)
 - [Instagram](https://github.com/Datalux/Osintgram)
 Be carefull using this tool use 2nd account because your account got banned
@@ -1713,6 +1714,7 @@ Searching for scandal or blackmail or deepfake porn doesn't have to be on the li
 
 # Instagram
 
+- [InstagramPrivSniffer](https://github.com/obitouka/InstagramPrivSniffer)
 - [instrack](https://instrack.app/)
 - [mollygram](https://mollygram.com/)
 - [indownloader](https://indownloader.app/)
@@ -2108,6 +2110,7 @@ Google queries for MySpace
 
 # OSINT Online Tool  
 
+- [InstagramPrivSniffer](https://github.com/obitouka/InstagramPrivSniffer)
 - [scrapersnbots - available support more site for scrapper](https://www.scrapersnbots.com/webtools/)
 - [Echosec](https://www.echosec.net/)
 - [Labs TIB](https://labs.tib.eu/info/en/)
