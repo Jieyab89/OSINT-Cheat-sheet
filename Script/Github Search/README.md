@@ -7,21 +7,21 @@ You are required to log in to get the best results
 
 Repository & Owner
 
-> repo:<owner>/<repo> 
+> repo:owner/repo 
 >
-> user:<username>
+> user:username
 > 
-> org:<orgname>
+> org:orgname
 
 File & Code 
 
-> filename:<name>
+> filename:name
 >
-> path:<path>
+> path:path
 >
-> extension:<ext>
+> extension:ext
 > 
-> language:<lang>
+> language:lang
 
 Text & Content
 
@@ -43,17 +43,17 @@ Issue & PR
 >
 > is:open / is:closed
 > 
-> author:<user>
+> author:user
 > 
-> assignee:<user>
+> assignee:user
 >
-> mentions:<user>
+> mentions:user
 >
-> commenter:<user>
+> commenter:user
 >
-> label:<label>
+> label:label
 > 
-> milestone:<name>
+> milestone:name
 
 Repo Metadata
 
