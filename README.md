@@ -344,6 +344,17 @@ Site and forums OSINT community arround world
 
 Try search on forum like programmer forums, web framework forums, social media and other things. Use a google dork to easy way find information with site target 
 
+List endpoint Github for search code 
+
+Endpoint list Github 
+
+- https://github.com/search?q=<value>
+- https://github.com/search?type=code&q=<value>
+- https://github.com/search?type=repositories&q=<value>
+- https://github.com/search?type=issues&q=<value>
+- https://github.com/search?type=commits&q=<value>
+- https://github.com/search/advanced
+
 # Competitive Programming
 
 - [Hackerrank](https://www.hackerrank.com/)
@@ -1204,6 +1215,8 @@ Web Defacement Archive
 - [hacked email com [archived site]](https://web.archive.org/web/*/http://hacked-emails.com/*)
 - [domainbigdata com [archived site]](https://web.archive.org/web/*/https://domainbigdata.com/*)
 - [Personal data leak check](https://cybernews.com/personal-data-leak-check/)
+- [github](https://github.com)
+- [pastebin](https://pastebin.com/)
 
 # Crack Jurnals
 
