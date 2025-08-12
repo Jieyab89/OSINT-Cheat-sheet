@@ -3511,6 +3511,18 @@
             {
                 "name": "ghostarchive",
                 "url": "https://ghostarchive.org/"
+            },
+            {
+                "name": "zone xsec",
+                "url": "https://zone-xsec.com/"
+            },
+            {
+                "name": "haxor ID",
+                "url": "https://haxor.id/archive"
+            },
+            {
+                "name": "ownzyou",
+                "url": "https://ownzyou.com/"
             }
         ]
     },
@@ -4044,6 +4056,18 @@
             {
                 "name": "OONI",
                 "url": "https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false"
+            },
+            {
+                "name": "wayback machine",
+                "url": "https://archive.org/web/"
+            },
+            {
+                "name": "Archive Fo",
+                "url": "https://archive.fo/"
+            },
+            {
+                "name": "webarchiveviewer",
+                "url": "https://cybdetective.com/webarchiveviewer/"
             }
         ]
     },
@@ -5782,6 +5806,10 @@
             {
                 "name": "Find ID Insta Acc",
                 "url": "https://skweezer.net/find-instagram-user-id"
+            },
+            {
+                "name": "InstagramPrivSniffer",
+                "url": "https://github.com/obitouka/InstagramPrivSniffer"
             }
         ]
     },
@@ -7248,6 +7276,10 @@
             {
                 "name": "donwloader - available support other site",
                 "url": "https://cobalt.tools/"
+            },
+            {
+                "name": "InstagramPrivSniffer",
+                "url": "https://github.com/obitouka/InstagramPrivSniffer"
             }
         ]
     },
@@ -18505,6 +18537,14 @@
             {
                 "name": "similarsitesearch",
                 "url": "https://www.similarsitesearch.com/"
+            },
+            {
+                "name": "moreofit",
+                "url": "http://www.moreofit.com/similar-to/www.pornhub.com/Top_10_Sites_Like_Pornhub/"
+            },
+            {
+                "name": "xranks",
+                "url": "https://xranks.com/"
             }
         ]
     },
@@ -20012,6 +20052,18 @@
             {
                 "name": "defacer ID",
                 "url": "https://defacer.id/"
+            },
+            {
+                "name": "zone xsec",
+                "url": "https://zone-xsec.com/"
+            },
+            {
+                "name": "haxor ID",
+                "url": "https://haxor.id/archive"
+            },
+            {
+                "name": "ownzyou",
+                "url": "https://ownzyou.com/"
             }
         ]
     },
