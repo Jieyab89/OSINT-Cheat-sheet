@@ -1128,6 +1128,9 @@ Web Defacement Archive
 
 - [Zone H](https://www.zone-h.org/archive?hz=1)
 - [defacer ID](https://defacer.id/)
+- [zone xsec](https://zone-xsec.com/)
+- [haxor ID](https://haxor.id/archive)
+- [ownzyou](https://ownzyou.com/)
 
 # Data Breached OSINT
 
@@ -2061,7 +2064,7 @@ Google queries for MySpace
 - [getprospect](https://getprospect.com/)
 - [Email Hippo](https://tools.emailhippo.com/)
 - [Buster](https://github.com/sham00n/buster)
-- [Gravatar Email Cheker](https://gravatar.com/site/check/)
+- [Gravatar Email Cheker](https://gravatar.com/site/check/) *You can brute the hash with md5 to find the email address
 - [EmailRep](https://emailrep.io/)
 - [pwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot)
 - [Email-Analytics](https://emailanalytics.com/email-headers/)
@@ -5488,6 +5491,8 @@ Website
 - [sitechecker](https://sitechecker.pro/similar-websites/)
 - [topsimilarsites](https://www.topsimilarsites.com/)
 - [similarsitesearch](https://www.similarsitesearch.com/)
+- [moreofit](http://www.moreofit.com/similar-to/www.pornhub.com/Top_10_Sites_Like_Pornhub/)
+- [xranks](https://xranks.com/)
 
 Company 
 
@@ -5812,10 +5817,13 @@ Bookmark OSINT tools list
 
 # OSINT Search Hacker Nickname 
 
-You can search nickname, hacker team and hacker archive like web defacement and other 
+You can search nickname, hacker team and hacker archive like web defacement data and other 
 
 - [Zone H](https://www.zone-h.org/archive?hz=1)
 - [defacer ID](https://defacer.id/)
+- [zone xsec](https://zone-xsec.com/)
+- [haxor ID](https://haxor.id/archive)
+- [ownzyou](https://ownzyou.com/)
 
 # MISC
 
