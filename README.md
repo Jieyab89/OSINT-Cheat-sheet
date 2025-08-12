@@ -1277,6 +1277,9 @@ Web Defacement Archive
 - [ID MA Web Monitoring](https://www.mahkamahagung.go.id/id/webmon)
 - [trustpositif Kominfo ID](https://trustpositif.kominfo.go.id/) Checking blocked site ID 
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
+- [wayback machine](https://archive.org/web/) search history archive on site 
+- [Archive Fo](https://archive.fo/)
+- [webarchiveviewer](https://cybdetective.com/webarchiveviewer/)
 
 # Company Reconnaissance Sites (Passive)
 
