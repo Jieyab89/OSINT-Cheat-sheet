@@ -2927,6 +2927,10 @@
             {
                 "name": "ID Ransomware analysis",
                 "url": "https://id-ransomware.malwarehunterteam.com/"
+            },
+            {
+                "name": "maltiverse",
+                "url": "https://whatis.maltiverse.com/"
             }
         ]
     },
@@ -3800,6 +3804,14 @@
             {
                 "name": "Personal data leak check",
                 "url": "https://cybernews.com/personal-data-leak-check/"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com"
+            },
+            {
+                "name": "pastebin",
+                "url": "https://pastebin.com/"
             }
         ]
     },
