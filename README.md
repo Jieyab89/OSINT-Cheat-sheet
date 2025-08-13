@@ -761,6 +761,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [drweb](https://vms.drweb.com/scan_file/)
 - [virusscan](https://virusscan.jotti.org/)
 - [malware-traffic-analysis](https://www.malware-traffic-analysis.net/2025/index.html)
+- [threatbook](https://i.threatbook.io/) *Mostly IoC apt CN and RU
 
 # IoT Search Engines
 
@@ -850,6 +851,7 @@ Tips
 
 You can find the file hash or other threat indicator
 
+- [maltiverse](https://whatis.maltiverse.com/)
 - [virusscan](https://virusscan.jotti.org/)
 - [AnyRun](https://app.any.run/)
 - [ransom db](https://www.ransom-db.com/)
@@ -953,6 +955,7 @@ You can find the file hash or other threat indicator
 - [infostealers](https://www.infostealers.com/)
 - [malshare](https://malshare.com/)
 - [APT Group List](https://docs.google.com/spreadsheets/u/1/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU/pubhtml)
+- [threatbook](https://i.threatbook.io/)
 
 # Automation Dorking 
 
