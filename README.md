@@ -575,6 +575,8 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 
 # Analysing URLs
 
+There is a resouces to investigae malicious link and bypass url shortlink 
+
 - [trendmicro](https://global.sitesafety.trendmicro.com/)
 - [zscaler](https://zulu.zscaler.com/)
 - [drweb](https://vms.drweb.com/online/)
@@ -627,6 +629,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [getlinkinfo](https://www.getlinkinfo.com/)
 - [Redirect Tracker](https://www.websiteplanet.com/webtools/redirected/)
 - [fortiguard](https://www.fortiguard.com/threatintel-search)
+- [Url Scan](https://urlscan.io/)
 
 # Researching Cyber Threats
 
@@ -762,6 +765,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 - [virusscan](https://virusscan.jotti.org/)
 - [malware-traffic-analysis](https://www.malware-traffic-analysis.net/2025/index.html)
 - [threatbook](https://i.threatbook.io/) *Mostly IoC apt CN and RU
+- [huntress](https://www.huntress.com/)
 
 # IoT Search Engines
 
@@ -956,6 +960,7 @@ You can find the file hash or other threat indicator
 - [malshare](https://malshare.com/)
 - [APT Group List](https://docs.google.com/spreadsheets/u/1/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU/pubhtml)
 - [threatbook](https://i.threatbook.io/)
+- [huntress](https://www.huntress.com/)
 
 # Automation Dorking 
 
@@ -1054,6 +1059,7 @@ Example
 
 # Other Search Engines
 
+- [odcrawler](https://odcrawler.xyz/)
 - [Etools](http://www.etools.ch)
 - [criminalip](https://www.criminalip.io/) 
 - [us.searchboth.net](http://us.searchboth.net)
@@ -1220,6 +1226,7 @@ Web Defacement Archive
 - [Personal data leak check](https://cybernews.com/personal-data-leak-check/)
 - [github](https://github.com)
 - [pastebin](https://pastebin.com/)
+- [databreach](https://databreach.com/)
 
 # Crack Jurnals
 
@@ -1817,6 +1824,8 @@ Searching for scandal or blackmail or deepfake porn doesn't have to be on the li
 - [socialblade](https://socialblade.com/)
 - [InsE - Instagram email finder & exporter extension browser](https://chromewebstore.google.com/detail/inse-instagram-email-find/hboikjnbkhkjmllgdcflmbcojbpklcca)
 - [Find ID Insta Acc](https://skweezer.net/find-instagram-user-id)
+- [dolphinradar](https://www.dolphinradar.com/web-viewer-for-instagram)
+- [boostfluence](https://www.boostfluence.com/)
 
 # Thread 
 
@@ -3247,6 +3256,7 @@ Build your own deepfake
 - [inZOI](https://store.steampowered.com/app/2456740/inZOI/)
 - [heygen](https://www.heygen.com/)
 - [Guide AI Virtual Cam](https://www.sqlsec.com/2024/05/aiface.html#%E8%BE%93%E5%85%A5%E8%A7%86%E9%A2%91)
+- [facegsmproject](https://github.com/facegsmproject/FaceGSM?tab=readme-ov-file)
 
 Virtual Camera or Camera Replacement
 
@@ -4309,6 +4319,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [subfinder](https://github.com/projectdiscovery/subfinder) Subdomain finder and enumerate DNS
 - [Sudomy](https://github.com/screetsec/Sudomy) Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance
 - [Url Scan](https://urlscan.io/) Enumerate a web finding a endpoint and assets 
+- [netexec](https://www.kali.org/tools/netexec/) Spray password on service like CrackMapExec
 
 Social Engineering (Social E)
 
@@ -4345,6 +4356,7 @@ Active Directory
 - [Ninja C2](https://github.com/ahmedkhlief/Ninja)
 - [BloodHound MCP based](https://github.com/stevenyu113228/BloodHound-MCP/tree/main)
 - [AD Mindmap - AD Guides](https://mayfly277.github.io/posts/AD-mindmap-2k25/)
+- [netexec](https://www.kali.org/tools/netexec/)
 
 Webshell Bypass
 
@@ -5149,6 +5161,7 @@ Terrorism & Radical
 - [ID SIPONGI](https://sipongi.menlhk.go.id/peta)
 - [greenpeace](https://www.greenpeace.org/indonesia/)
 - [river-runner-global](https://river-runner-global.samlearner.com/)
+- [dinosaurpictures](https://dinosaurpictures.org/)
 
 # OSINT Satellite
 
@@ -5346,6 +5359,7 @@ You can use for study academic literature, search book, people name, old archive
 - [openhistoricalmap](https://www.openhistoricalmap.org/)
 - [chronas](https://www.chronas.org/)
 - [histography](https://histography.io/)
+- [dinosaurpictures](https://dinosaurpictures.org/)
 
 # OSINT Art Collection
 
