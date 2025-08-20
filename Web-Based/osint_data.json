@@ -657,6 +657,10 @@
             {
                 "name": "osinord",
                 "url": "https://www.osinord.com/"
+            },
+            {
+                "name": "UK OSINT",
+                "url": "https://www.uk-osint.net/tiktok.html"
             }
         ]
     },
@@ -3071,6 +3075,14 @@
             {
                 "name": "huntress",
                 "url": "https://www.huntress.com/"
+            },
+            {
+                "name": "cyble",
+                "url": "https://cyble.com/"
+            },
+            {
+                "name": "cyfirma",
+                "url": "https://www.cyfirma.com/"
             }
         ]
     },
@@ -9589,6 +9601,14 @@
             {
                 "name": "Google Earth Engine: A Quick Guide for Beginners",
                 "url": "https://gisgeography.com/google-earth-engine/"
+            },
+            {
+                "name": "airpano",
+                "url": "https://www.airpano.com/"
+            },
+            {
+                "name": "notable-people",
+                "url": "https://tjukanovt.github.io/notable-people"
             }
         ]
     },
@@ -12190,6 +12210,10 @@
             {
                 "name": "List file signature",
                 "url": "https://filesig.search.org/"
+            },
+            {
+                "name": "IPED",
+                "url": "https://github.com/sepinf-inc/IPED"
             }
         ]
     },
@@ -13660,6 +13684,10 @@
             {
                 "name": "airnavradar",
                 "url": "https://www.airnavradar.com/data/flights"
+            },
+            {
+                "name": "aireon",
+                "url": "https://aireon.com/"
             }
         ]
     },
@@ -19674,6 +19702,10 @@
             {
                 "name": "humantraffickingsearch",
                 "url": "https://humantraffickingsearch.org/"
+            },
+            {
+                "name": "turboscribe - YT Tools and downloander and conveter",
+                "url": "https://turboscribe.ai/"
             }
         ]
     },
