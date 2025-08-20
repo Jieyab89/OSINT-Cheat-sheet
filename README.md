@@ -299,6 +299,7 @@ Site and forums OSINT community arround world
 - [Bellingcat Volunteer](https://sites.google.com/bellingcat.com/bellingcat-volunteer-community/projects-opportunities)
 - [benjaminstrick](https://benjaminstrick.com/blog/)
 - [osinord](https://www.osinord.com/)
+- [UK OSINT](https://www.uk-osint.net/tiktok.html)
 
 # Meta Search
 
@@ -961,6 +962,8 @@ You can find the file hash or other threat indicator
 - [APT Group List](https://docs.google.com/spreadsheets/u/1/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU/pubhtml)
 - [threatbook](https://i.threatbook.io/)
 - [huntress](https://www.huntress.com/)
+- [cyble](https://cyble.com/)
+- [cyfirma](https://www.cyfirma.com/)
 
 # Automation Dorking 
 
@@ -2776,6 +2779,8 @@ Telegram Tips
 - [river-runner-global](https://river-runner-global.samlearner.com/)
 - [skyscraperpage](https://skyscraperpage.com/)
 - [geograph - mostly europe](https://www.geograph.org/)
+- [airpano](https://www.airpano.com/)
+- [notable-people](https://tjukanovt.github.io/notable-people)
 
 Conveter tool 
 
@@ -3601,6 +3606,7 @@ Guide
 - [CISA Public Repo](https://github.com/cisagov)
 - [drweb](https://vms.drweb.com/online/)
 - [List file signature](https://filesig.search.org/)
+- [IPED](https://github.com/sepinf-inc/IPED)
 
 *Pro Tips 
 
@@ -4009,6 +4015,7 @@ Public Transport
 - [military radar](https://military.freedar.uk/)
 - [airplanes](https://globe.airplanes.live/)
 - [airnavradar](https://www.airnavradar.com/data/flights)
+- [aireon](https://aireon.com/)
 
 # Ship Tracking & Maritim
 
@@ -5865,6 +5872,7 @@ You can search nickname, hacker team and hacker archive like web defacement data
 
 - [tubeoffline - Tools and media downloader](https://www.tubeoffline.com/)
 - [humantraffickingsearch](https://humantraffickingsearch.org/)
+- [turboscribe - YT Tools and downloander and conveter](https://turboscribe.ai/)
 
 # OSINT Drone Search
 
