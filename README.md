@@ -856,6 +856,7 @@ Tips
 
 You can find the file hash or other threat indicator
 
+- [VMRay Sandbox](https://www.vmray.com/)
 - [maltiverse](https://whatis.maltiverse.com/)
 - [virusscan](https://virusscan.jotti.org/)
 - [AnyRun](https://app.any.run/)
@@ -1230,6 +1231,7 @@ Web Defacement Archive
 - [github](https://github.com)
 - [pastebin](https://pastebin.com/)
 - [databreach](https://databreach.com/)
+- [leaking forum](https://leaking.cc/)
 
 # Crack Jurnals
 
@@ -4563,10 +4565,11 @@ C2 & C4
 - [mythic C2](https://docs.mythic-c2.net/installation)
 - [Lki C2](https://github.com/boku7/Loki)
 - [HAVOC](https://havocframework.com/)
+- [AdaptixC2](https://github.com/Adaptix-Framework/AdaptixC2)
 
 *Notes
 
-There is C2 and C4 are paid and there is a validation and regulation for buying that tools 
+There is C2 and C4 are paid and there is a validation and regulation for buying that tools. FUD? There is FUD C2 and C4 or u can custom the payload with undocumented  Windows API and mask u shell code  
 
 Linux Distro Tool Lists 
 
