@@ -3083,6 +3083,10 @@
             {
                 "name": "cyfirma",
                 "url": "https://www.cyfirma.com/"
+            },
+            {
+                "name": "VMRay Sandbox",
+                "url": "https://www.vmray.com/"
             }
         ]
     },
@@ -3972,6 +3976,10 @@
             {
                 "name": "databreach",
                 "url": "https://databreach.com/"
+            },
+            {
+                "name": "leaking forum",
+                "url": "https://leaking.cc/"
             }
         ]
     },
@@ -15636,6 +15644,10 @@
             {
                 "name": "SSH Pivoting",
                 "url": "https://cyberkhalid.github.io/posts/ssh-pivot/"
+            },
+            {
+                "name": "AdaptixC2",
+                "url": "https://github.com/Adaptix-Framework/AdaptixC2"
             }
         ]
     },
