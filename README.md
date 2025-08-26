@@ -1222,6 +1222,7 @@ Web Defacement Archive
 - [Scribd](http://www.scribd.com)
 - [Scribd docdownloader](https://docdownloader.com/)
 - [Scribd Downloader 2](https://scribd.vdownloaders.com/)
+- [Scrib Downloader 3](https://scribdownloader.com/)
 - [documentcloud](https://www.documentcloud.org/)
 - [Leak Finder [ONION SITE]](http://leakfindrg5s2zcwwdmxlvz6oefz6hdwlkckh4eir4huqcpjsefxkead.onion/Market)
 - [psbdmp](https://psbdmp.ws/)
@@ -2069,6 +2070,7 @@ Google queries for MySpace
 
 # Email Tracking
 
+- [mosint](https://github.com/alpkeskin/mosint)
 - [TraceFind](https://tracefind.info)
 - [intelbase](https://intelbase.is/)
 - [minervaosint](https://minervaosint.com/)
@@ -2336,6 +2338,7 @@ Telegram Tips
 - [Scribd](http://www.scribd.com)
 - [Scribd docdownloader](https://docdownloader.com/)
 - [Scribd Downloader 2](https://scribd.vdownloaders.com/)
+- [Scrib Downloader 3](https://scribdownloader.com/)
 - [Doclibra.com](https://doclibra.com/)
 - [FilePursuit](https://filepursuit.com/)
 - [NAPALM FTP Indexer](https://www.searchftps.net/)
@@ -4102,6 +4105,11 @@ Public Transport
 - [2short](https://2short.ai/)
 - [suna](https://www.suna.so/)
 - [mistral](https://mistral.ai/)
+
+Tips Prompt Injection (LLM Injection)
+
+- [imprompter](https://imprompter.ai/#pii-exfiltration)
+- [imprompter Github](https://github.com/Reapor-Yurnero/imprompter)
 
 Hardware and server 
 
