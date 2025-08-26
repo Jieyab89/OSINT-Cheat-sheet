@@ -106,3 +106,8 @@
 
 - [Investigating War Crimes: Open Source Research](https://gijn.org/resource/reporters-guide-to-investigating-war-crimes-open-source-research/)
 - [Scorched Earth: Using NASA Fire Data to Monitor War Zones](https://www.bellingcat.com/resources/2022/10/04/scorched-earth-using-nasa-fire-data-to-monitor-war-zones/)
+
+# Web Intel Article 
+
+- [Using Favicon Hashes for OSINT Reconnaissance](https://fagun18.medium.com/using-favicon-hashes-for-osint-reconnaissanc-cefcb8c4ddca)
+- [Weaponizing favicon.ico for BugBounties , OSINT and what not](https://medium.com/@Asm0d3us/weaponizing-favicon-ico-for-bugbounties-osint-and-what-not-ace3c214e139)
