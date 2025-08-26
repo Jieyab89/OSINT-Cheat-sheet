@@ -3980,6 +3980,10 @@
             {
                 "name": "leaking forum",
                 "url": "https://leaking.cc/"
+            },
+            {
+                "name": "Scrib Downloader 3",
+                "url": "https://scribdownloader.com/"
             }
         ]
     },
@@ -7096,6 +7100,10 @@
             {
                 "name": "Personal data leak check",
                 "url": "https://cybernews.com/personal-data-leak-check/"
+            },
+            {
+                "name": "mosint",
+                "url": "https://github.com/alpkeskin/mosint"
             }
         ]
     },
@@ -7839,6 +7847,10 @@
             {
                 "name": "How to view scribd",
                 "url": "https://www.scribd.com/embeds/<HANGEID>/content?start_page=1&view_mode=scroll&access_key=key-fFexxf7r1bzEfWu3HKwf"
+            },
+            {
+                "name": "Scrib Downloader 3",
+                "url": "https://scribdownloader.com/"
             }
         ]
     },
@@ -14047,6 +14059,14 @@
             {
                 "name": "What is MCP",
                 "url": "https://modelcontextprotocol.io/introduction"
+            },
+            {
+                "name": "imprompter",
+                "url": "https://imprompter.ai/#pii-exfiltration"
+            },
+            {
+                "name": "imprompter Github",
+                "url": "https://github.com/Reapor-Yurnero/imprompter"
             }
         ]
     },
@@ -20331,6 +20351,19 @@
             {
                 "name": "Scorched Earth: Using NASA Fire Data to Monitor War Zones",
                 "url": "https://www.bellingcat.com/resources/2022/10/04/scorched-earth-using-nasa-fire-data-to-monitor-war-zones/"
+            }
+        ]
+    },
+    {
+        "category": "Web Intel Article",
+        "items": [
+            {
+                "name": "Using Favicon Hashes for OSINT Reconnaissance",
+                "url": "https://fagun18.medium.com/using-favicon-hashes-for-osint-reconnaissanc-cefcb8c4ddca"
+            },
+            {
+                "name": "Weaponizing favicon.ico for BugBounties , OSINT and what not",
+                "url": "https://medium.com/@Asm0d3us/weaponizing-favicon-ico-for-bugbounties-osint-and-what-not-ace3c214e139"
             }
         ]
     }
