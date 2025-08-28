@@ -1887,6 +1887,8 @@ Searching for scandal or blackmail or deepfake porn doesn't have to be on the li
 - [Youtube search operator](https://seosly.com/blog/youtube-search-operators/)
 - [socialblade](https://socialblade.com/)
 - [channelcrawler](https://app.channelcrawler.com/)
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+- [Seal](https://github.com/JunkFood02/Seal)
 
 # Mastodon 
 
@@ -3911,6 +3913,7 @@ Strict and disable bot crawl search engine index account
 - [Get Contact Unlisting](https://getcontact.com/en/manage) Request for remove your data from this site
 - [Interpol int](https://www.interpol.int/en/How-we-work/Notices/Yellow-Notices/View-Yellow-Notices) View and search public Yellow Notices for missing persons
 - [accountkiller](https://www.accountkiller.com/en/all-sites) A guide for deleting your account on the site or social media platform
+- [Interpol Yellow Notice](https://www.interpol.int/How-we-work/Notices/Yellow-Notices/View-Yellow-Notices#)
 
 *NB : Please read carefully and check the ToS or privacy statment. Its taking to long, you need to patiently. For this point, your data is not guaranteed to be lost 100% on the internet, but this is to minimize the spread of your data and data breaches
 
@@ -5120,6 +5123,7 @@ Social Media Analytics
 - [scamsearch](https://www.scamsearch.io/) Global Scam Database Search by Profile Picture, Email, Username, Pseudo Name, Phone Number, crypto address or website.
 - [ID mahkamahagung](https://putusan3.mahkamahagung.go.id/)
 - [APT Group List](https://docs.google.com/spreadsheets/u/1/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU/pubhtml)
+- [Interpol Red Notice](https://www.interpol.int/How-we-work/Notices/Red-Notices/View-Red-Notices)
 
 Guides 
 
