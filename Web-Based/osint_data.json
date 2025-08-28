@@ -6187,6 +6187,14 @@
             {
                 "name": "channelcrawler",
                 "url": "https://app.channelcrawler.com/"
+            },
+            {
+                "name": "yt-dlp",
+                "url": "https://github.com/yt-dlp/yt-dlp"
+            },
+            {
+                "name": "Seal",
+                "url": "https://github.com/JunkFood02/Seal"
             }
         ]
     },
@@ -13314,6 +13322,10 @@
             {
                 "name": "accountkiller",
                 "url": "https://www.accountkiller.com/en/all-sites"
+            },
+            {
+                "name": "Interpol Yellow Notice",
+                "url": "https://www.interpol.int/How-we-work/Notices/Yellow-Notices/View-Yellow-Notices#"
             }
         ]
     },
@@ -17399,6 +17411,10 @@
             {
                 "name": "Interpol Int",
                 "url": "https://www-interpol-int.translate.goog/How-we-work/Databases?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=tc"
+            },
+            {
+                "name": "Interpol Red Notice",
+                "url": "https://www.interpol.int/How-we-work/Notices/Red-Notices/View-Red-Notices"
             }
         ]
     },
