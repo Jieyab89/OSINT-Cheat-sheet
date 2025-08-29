@@ -5263,6 +5263,11 @@ Terrorism & Radical
 - [MDA SPACE](https://mda.space/)
 - [unosat](https://unosat.org/)
 - [robosat](https://github.com/mapbox/robosat)
+- [satellitevu - high thermal](https://www.satellitevu.com/)
+- [Iceye Sat](https://www.iceye.com/satellites)
+- [albedo](https://albedo.com/)
+- [Sentinel 1 copernicus](https://sentinels.copernicus.eu/)
+- [ESA](https://www.esa.int/)
 
 *Aditional Information coverage sat 
 
