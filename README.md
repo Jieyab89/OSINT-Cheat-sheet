@@ -1832,6 +1832,8 @@ Searching for scandal or blackmail or deepfake porn doesn't have to be on the li
 - [Find ID Insta Acc](https://skweezer.net/find-instagram-user-id)
 - [dolphinradar](https://www.dolphinradar.com/web-viewer-for-instagram)
 - [boostfluence](https://www.boostfluence.com/)
+- [indown](https://indown.io/)
+- [storiesig picuki viewer](https://storiesig.info/en/picuki/)
 
 # Thread 
 
