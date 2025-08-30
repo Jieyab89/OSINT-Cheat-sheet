@@ -10340,6 +10340,10 @@
             {
                 "name": "Awesome guide blockhain analysis",
                 "url": "https://github.com/aaarghhh/awesome_osint_blockchain_analysis"
+            },
+            {
+                "name": "blockpath",
+                "url": "https://blockpath.com/"
             }
         ]
     },
@@ -11612,6 +11616,22 @@
             {
                 "name": "dargle",
                 "url": "https://www.dargle.net/"
+            },
+            {
+                "name": "Torry",
+                "url": "https://www.torry.io/"
+            },
+            {
+                "name": "onionlandsearchengine",
+                "url": "https://onionlandsearchengine.net/"
+            },
+            {
+                "name": "torsearch",
+                "url": "https://torsearch.com/"
+            },
+            {
+                "name": "Duck go (ONION SITE)",
+                "url": "https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/"
             }
         ]
     },
@@ -11869,6 +11889,38 @@
             {
                 "name": "Darkweb labs settup",
                 "url": "https://hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf"
+            },
+            {
+                "name": "onion scan",
+                "url": "https://onionscan.org/"
+            },
+            {
+                "name": "onionite",
+                "url": "https://github.com/lukechilds/onionite?tab=readme-ov-file"
+            },
+            {
+                "name": "Dan tor nodes",
+                "url": "https://www.dan.me.uk/tornodes"
+            },
+            {
+                "name": "Tor metrics exonarator",
+                "url": "https://metrics.torproject.org/exonerator.html"
+            },
+            {
+                "name": "Tor relay descriptors",
+                "url": "https://collector.torproject.org/archive/relay-descriptors/microdescs/"
+            },
+            {
+                "name": "thehiddenwiki",
+                "url": "https://thehiddenwiki.org/"
+            },
+            {
+                "name": "thedarkweblinks",
+                "url": "https://thedarkweblinks.com/"
+            },
+            {
+                "name": "dark fail",
+                "url": "https://dark.fail/"
             }
         ]
     },
@@ -15874,6 +15926,10 @@
             {
                 "name": "Track IP Torrent Activity",
                 "url": "https://iknowwhatyoudownload.com/"
+            },
+            {
+                "name": "Tor metrics exonarator",
+                "url": "https://metrics.torproject.org/exonerator.html"
             }
         ]
     },
@@ -17975,6 +18031,26 @@
             {
                 "name": "Earthquake building damage detection based on synthetic-aperture-radar imagery and machine learning",
                 "url": "https://nhess.copernicus.org/articles/23/789/2023/"
+            },
+            {
+                "name": "satellitevu - high thermal",
+                "url": "https://www.satellitevu.com/"
+            },
+            {
+                "name": "Iceye Sat",
+                "url": "https://www.iceye.com/satellites"
+            },
+            {
+                "name": "albedo",
+                "url": "https://albedo.com/"
+            },
+            {
+                "name": "Sentinel 1 copernicus",
+                "url": "https://sentinels.copernicus.eu/"
+            },
+            {
+                "name": "ESA",
+                "url": "https://www.esa.int/"
             }
         ]
     },
@@ -18076,6 +18152,14 @@
             {
                 "name": "tailscale",
                 "url": "https://tailscale.com/"
+            },
+            {
+                "name": "scrapy",
+                "url": "https://www.scrapy.org/"
+            },
+            {
+                "name": "puppeteer",
+                "url": "https://github.com/puppeteer/puppeteer"
             }
         ]
     },
