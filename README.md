@@ -3074,6 +3074,7 @@ Transaction Analysis
 - [XMR SCAN 2](https://localmonero.co/blocks/)
 - [blockscan](https://blockscan.com/)
 - [open-search aleph](https://open-search.aleph-networks.eu/)
+- [blockpath](https://blockpath.com/)
 
 Guide 
 
@@ -3450,9 +3451,15 @@ Social Network and blogging
 - [thehiddenwiki](https://thehiddenwiki.com/)
 - [onionsearchengine](https://onionsearchengine.com/index.php)
 - [dargle](https://www.dargle.net/)
+- [Torry](https://www.torry.io/)
+- [onionlandsearchengine](https://onionlandsearchengine.net/)
+- [torsearch](https://torsearch.com/)
+- [Duck go (ONION SITE)](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/)
 
 # Darkweb Intelligence
 
+- [onion scan](https://onionscan.org/)
+- [onionite](https://github.com/lukechilds/onionite?tab=readme-ov-file)
 - [WhiteIntel](https://whiteintel.io/)
 - [darkradar](https://www.darkradar.io/)
 - [Stealthmole](https://www.stealthmole.com/products/darkweb-tracker)
@@ -3515,6 +3522,12 @@ Social Network and blogging
 - [tor2web](https://www.tor2web.org/)
 - [DeepWebHarvester](https://github.com/techenthusiast167/DeepWebHarvester?tab=readme-ov-file) A stealthy Python dark web scraper using Tor. Crawl .onion sites anonymously,
 - [torproject - relay search](https://metrics.torproject.org/)
+- [Dan tor nodes](https://www.dan.me.uk/tornodes)
+- [Tor metrics exonarator](https://metrics.torproject.org/exonerator.html)
+- [Tor relay descriptors](https://collector.torproject.org/archive/relay-descriptors/microdescs/)
+- [thehiddenwiki](https://thehiddenwiki.org/)
+- [thedarkweblinks](https://thedarkweblinks.com/)
+- [dark fail](https://dark.fail/)
 
 Guide 
 
@@ -4682,6 +4695,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [db-ip](https://db-ip.com/)
 - [macvendorlookup](https://www.macvendorlookup.com/)
 - [Track IP Torrent Activity](https://iknowwhatyoudownload.com/)
+- [Tor metrics exonarator](https://metrics.torproject.org/exonerator.html)
 
 # Medical OSINT 
 
@@ -5343,6 +5357,8 @@ Ex Guides:
 - [Brave Search API](https://brave.com/search/api/) Search data from brave search engine 
 - [anti-captcha](https://anti-captcha.com/apidoc) Bypassing captcha and WAF 
 - [tailscale](https://tailscale.com/) Possible to bypass WAF 
+- [scrapy](https://www.scrapy.org/) Pyhton lib for scrapper
+- [puppeteer](https://github.com/puppeteer/puppeteer) JavaScript API for Chrome and Firefox for scrapper
 
 # OSINT IRC Chat
 
