@@ -768,6 +768,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [malware-traffic-analysis](https://www.malware-traffic-analysis.net/2025/index.html)
 - [threatbook](https://i.threatbook.io/) *Mostly IoC apt CN and RU
 - [huntress](https://www.huntress.com/)
+- [synthient](https://search.synthient.com/)
 
 # IoT Search Engines
 
@@ -3229,6 +3230,7 @@ Build your sockpuppet account and proctect your privacy
 - [Temp Mail 4](https://www.guerrillamail.com/)
 - [Temp Mail 5](https://www.mailinator.com/)
 - [Temp Mail 6](https://tempmail.so/)
+- [Temp Mail 7](https://tempmailto.online/)
 - [Temp email gmail](https://www.emailnator.com/mailbox)
 - [Cryptocurrency Payment Monero](https://www.getmonero.org/)
 - [Cryptocurrency Payment Bitcoin](https://bitcoin.org/en/)
@@ -4684,6 +4686,7 @@ Guide
 Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic and VPN
 
 - [Spur](https://spur.us/)
+- [synthient](https://search.synthient.com/)
 - [FocSec](https://focsec.com/)
 - [IP VPN detector](https://ip.teoh.io/vpn-detection)
 - [IPQS](https://www.ipqualityscore.com/vpn-ip-address-check)
