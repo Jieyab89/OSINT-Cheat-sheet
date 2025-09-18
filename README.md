@@ -180,6 +180,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [socialscan](https://github.com/iojw/socialscan)
 - [CSE Social media search](https://cse.google.com/cse?cx=016621447308871563343:0p9cd3f8p-k#gsc.tab=0&gsc.sort=)
 - [DetectDee](https://github.com/piaolin/DetectDee)
+- [Profile Scout](https://profile-scout-16ba7f56.base44.app/)
 
 # Collection Dataset
 
@@ -812,6 +813,9 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [ShodanSpider](https://github.com/shubhamrooter/ShodanSpider)
 - [iplivecams](https://www.iplivecams.com/)
 - [camscape](https://www.camscape.com/)
+- [worldcam EU](https://worldcam.eu/)
+- [worldcam RU](https://world-cam.ru/)
+- [TVway RU](https://tvway.ru/)
 
 # IP Addresses
 
@@ -1121,6 +1125,7 @@ Example
 - [webcrawler](https://www.webcrawler.com/)
 - [usersearch](https://usersearch.ai/)
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
+- [wikimedia](https://commons.wikimedia.org/wiki/Main_Page)
 
 # Internet Archive
 
@@ -1474,6 +1479,8 @@ Web Defacement Archive
 - [libraryofleaks](https://search.libraryofleaks.org/)
 - [ALEPT OCCRP](https://aleph.occrp.org/)
 - [freepeoplesearchtool](https://freepeoplesearchtool.com/)
+- [fastpeoplesearch](https://fastpeoplesearch.io/)
+- [Profile Scout](https://profile-scout-16ba7f56.base44.app/)
 
 # Family People Search 
 
@@ -1768,6 +1775,7 @@ Searching for scandal or blackmail or deepfake porn doesn't have to be on the li
 
 - [SocNet Dynamic Image Search](https://github.com/DataSalo/SocNet_Dynamic_Image_Search)
 - [Bellingcat VK scrapper](https://github.com/bellingcat/vk-url-scraper)
+- [VK com](https://vk.com/)
 
 # Bluesky 
 
@@ -2320,6 +2328,8 @@ Search channel, username, bot and anymore
 - [userinfobot - telegram](https://telegram.me/userinfobot)
 - [GetTheirIDBot](https://t.me/GetTheirIDBot)
 - [PasswordSearchBot](https://t.me/PasswordSearchBot)
+- [Telegram-Trilateration](https://github.com/jkctech/Telegram-Trilateration?tab=readme-ov-file)
+- [Discover the location of nearby Telegram users](https://github.com/tejado/telegram-nearby-map)
 
 Telegram Tips 
 
@@ -2703,9 +2713,7 @@ Telegram Tips
 - [NASA World View](https://worldview.earthdata.nasa.gov/)
 - [Earth Exploer](https://earthexplorer.usgs.gov/)
 - [Sky Watch Earth Cache](https://skywatch.com/earthcache/)
-- [Sentinel Hub](https://www.sentinel-hub.com/)
 - [Skylens](https://app.skylens.io/)
-- [Geocreepy](https://www.geocreepy.com/)
 - [garmin](https://www.garmin.co.id/products/outdoor/gpsmap64s-sea/)
 - [Corona Atlsa](https://corona.cast.uark.edu/)
 - [BMKG RI](https://www.bmkg.go.id/)
@@ -2790,6 +2798,7 @@ Telegram Tips
 - [geograph - mostly europe](https://www.geograph.org/)
 - [airpano](https://www.airpano.com/)
 - [notable-people](https://tjukanovt.github.io/notable-people)
+- [OSM leaflet](https://osm-gadget-leaflet.toolforge.org/)
 
 Conveter tool 
 
@@ -4123,6 +4132,8 @@ Public Transport
 - [2short](https://2short.ai/)
 - [suna](https://www.suna.so/)
 - [mistral](https://mistral.ai/)
+- [hexstrike](https://www.hexstrike.com/)
+- [anythingllm](https://anythingllm.com/)
 
 Tips Prompt Injection (LLM Injection)
 
@@ -4592,6 +4603,7 @@ C2 & C4
 - [Lki C2](https://github.com/boku7/Loki)
 - [HAVOC](https://havocframework.com/)
 - [AdaptixC2](https://github.com/Adaptix-Framework/AdaptixC2)
+- [exploitpack](https://exploitpack.com/index.html)
 
 *Notes
 
@@ -4727,9 +4739,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [Intro OSINT Military](https://www.linkedin.com/pulse/mastering-military-osint-comprehensive-guide-modern-niels-groeneveld)
 - [Telegram Geogramint](https://github.com/Alb-310/Geogramint)
 - [Skylens](https://app.skylens.io/)
-- [Geocreepy](https://www.geocreepy.com/)
 - [Kamerka](https://github.com/woj-ciech/Kamerka-GUI)
-- [Earthcam](https://www.earthcam.com/#google_vignette)
 - [onemilliontweetmap](https://onemilliontweetmap.com/)
 - [birdhunt](https://birdhunt.co/)
 - [garmin](https://www.garmin.co.id/products/outdoor/gpsmap64s-sea/)
@@ -5284,6 +5294,7 @@ Terrorism & Radical
 - [albedo](https://albedo.com/)
 - [Sentinel 1 copernicus](https://sentinels.copernicus.eu/)
 - [ESA](https://www.esa.int/)
+- [Sentinel Hub](https://www.sentinel-hub.com/)
 
 *Aditional Information coverage sat 
 
