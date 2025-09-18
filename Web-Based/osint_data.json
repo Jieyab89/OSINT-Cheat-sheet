@@ -203,6 +203,10 @@
             {
                 "name": "DetectDee",
                 "url": "https://github.com/piaolin/DetectDee"
+            },
+            {
+                "name": "Profile Scout",
+                "url": "https://profile-scout-16ba7f56.base44.app/"
             }
         ]
     },
@@ -2351,6 +2355,10 @@
             {
                 "name": "huntress",
                 "url": "https://www.huntress.com/"
+            },
+            {
+                "name": "synthient",
+                "url": "https://search.synthient.com/"
             }
         ]
     },
@@ -2524,6 +2532,18 @@
             {
                 "name": "camscape",
                 "url": "https://www.camscape.com/"
+            },
+            {
+                "name": "worldcam EU",
+                "url": "https://worldcam.eu/"
+            },
+            {
+                "name": "worldcam RU",
+                "url": "https://world-cam.ru/"
+            },
+            {
+                "name": "TVway RU",
+                "url": "https://tvway.ru/"
             }
         ]
     },
@@ -3562,6 +3582,10 @@
             {
                 "name": "OONI",
                 "url": "https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false"
+            },
+            {
+                "name": "wikimedia",
+                "url": "https://commons.wikimedia.org/wiki/Main_Page"
             }
         ]
     },
@@ -4898,6 +4922,10 @@
             {
                 "name": "freepeoplesearchtool",
                 "url": "https://freepeoplesearchtool.com/"
+            },
+            {
+                "name": "Profile Scout",
+                "url": "https://profile-scout-16ba7f56.base44.app/"
             }
         ]
     },
@@ -5760,6 +5788,10 @@
             {
                 "name": "Bellingcat VK scrapper",
                 "url": "https://github.com/bellingcat/vk-url-scraper"
+            },
+            {
+                "name": "VK com",
+                "url": "https://vk.com/"
             }
         ]
     },
@@ -6002,6 +6034,14 @@
             {
                 "name": "boostfluence",
                 "url": "https://www.boostfluence.com/"
+            },
+            {
+                "name": "indown",
+                "url": "https://indown.io/"
+            },
+            {
+                "name": "storiesig picuki viewer",
+                "url": "https://storiesig.info/en/picuki/"
             }
         ]
     },
@@ -7705,6 +7745,10 @@
             {
                 "name": "t.me/s/<change username>",
                 "url": "https://t.me/s/PREVIEWCHANNEL"
+            },
+            {
+                "name": "Discover the location of nearby Telegram users",
+                "url": "https://github.com/tejado/telegram-nearby-map"
             }
         ]
     },
@@ -9637,6 +9681,10 @@
             {
                 "name": "notable-people",
                 "url": "https://tjukanovt.github.io/notable-people"
+            },
+            {
+                "name": "OSM leaflet",
+                "url": "https://osm-gadget-leaflet.toolforge.org/"
             }
         ]
     },
@@ -11104,6 +11152,10 @@
             {
                 "name": "nord",
                 "url": "https://nordvpn.com/"
+            },
+            {
+                "name": "Temp Mail 7",
+                "url": "https://tempmailto.online/"
             }
         ]
     },
@@ -14131,6 +14183,14 @@
             {
                 "name": "imprompter Github",
                 "url": "https://github.com/Reapor-Yurnero/imprompter"
+            },
+            {
+                "name": "hexstrike",
+                "url": "https://www.hexstrike.com/"
+            },
+            {
+                "name": "anythingllm",
+                "url": "https://anythingllm.com/"
             }
         ]
     },
@@ -15732,6 +15792,10 @@
             {
                 "name": "AdaptixC2",
                 "url": "https://github.com/Adaptix-Framework/AdaptixC2"
+            },
+            {
+                "name": "exploitpack",
+                "url": "https://exploitpack.com/index.html"
             }
         ]
     },
@@ -15930,6 +15994,10 @@
             {
                 "name": "Tor metrics exonarator",
                 "url": "https://metrics.torproject.org/exonerator.html"
+            },
+            {
+                "name": "synthient",
+                "url": "https://search.synthient.com/"
             }
         ]
     },
@@ -18051,6 +18119,10 @@
             {
                 "name": "ESA",
                 "url": "https://www.esa.int/"
+            },
+            {
+                "name": "Sentinel Hub",
+                "url": "https://www.sentinel-hub.com/"
             }
         ]
     },
