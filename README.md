@@ -267,6 +267,9 @@ Be carefull using this tool use 2nd account because your account got banned
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
 - [malware-traffic-analysis](https://www.malware-traffic-analysis.net/2025/index.html)
 - [Track IP Torrent Activity](https://iknowwhatyoudownload.com/)
+- [AWS Earth](https://aws.amazon.com/earth/)
+- [unavco sat](https://www.unavco.org/data/)
+- [Planet sat data stories](https://www.planet.com/stories/)
 
 # Forums & Sites
 
@@ -1971,6 +1974,7 @@ Searching for scandal or blackmail or deepfake porn doesn't have to be on the li
 - [threadreaderapp](https://threadreaderapp.com/)
 - [Tweet Map](https://www.heavy.ai/demos/tweetmap)
 - [drone emprit](https://pers.droneemprit.id/)
+- [nitter](https://nitter.net/)
 
 Twitter Search Engine 
 
@@ -4160,6 +4164,10 @@ Knowledge AI and ML
 - [What is prompt system and prompt user](https://www.regie.ai/blog/user-prompts-vs-system-prompts)
 - [What is MCP](https://modelcontextprotocol.io/introduction)
 
+Securing your LLM 
+
+- [garak](https://github.com/NVIDIA/garak)
+
 # OSINT for Red Team 
 
 - [PayloadsAllThePDFs](https://github.com/luigigubello/PayloadsAllThePDFs) A list of crafted malicious PDF files to test the security of PDF readers and tools
@@ -5375,6 +5383,7 @@ Ex Guides:
 - [tailscale](https://tailscale.com/) Possible to bypass WAF 
 - [scrapy](https://www.scrapy.org/) Pyhton lib for scrapper
 - [puppeteer](https://github.com/puppeteer/puppeteer) JavaScript API for Chrome and Firefox for scrapper
+- [SNSSCRAPE](https://github.com/JustAnotherArchivist/snscrape) Scrapper tool for Twitter or X
 
 # OSINT IRC Chat
 
