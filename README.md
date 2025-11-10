@@ -181,6 +181,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [CSE Social media search](https://cse.google.com/cse?cx=016621447308871563343:0p9cd3f8p-k#gsc.tab=0&gsc.sort=)
 - [DetectDee](https://github.com/piaolin/DetectDee)
 - [Profile Scout](https://profile-scout-16ba7f56.base44.app/)
+- [hostagram](https://github.com/banaxou/hostagram)
 
 # Collection Dataset
 
@@ -772,6 +773,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [threatbook](https://i.threatbook.io/) *Mostly IoC apt CN and RU
 - [huntress](https://www.huntress.com/)
 - [synthient](https://search.synthient.com/)
+- [opensourcemalware](https://opensourcemalware.com/)
 
 # IoT Search Engines
 
@@ -973,6 +975,7 @@ You can find the file hash or other threat indicator
 - [huntress](https://www.huntress.com/)
 - [cyble](https://cyble.com/)
 - [cyfirma](https://www.cyfirma.com/)
+- [opensourcemalware](https://opensourcemalware.com/)
 
 # Automation Dorking 
 
@@ -1846,6 +1849,7 @@ Searching for scandal or blackmail or deepfake porn doesn't have to be on the li
 - [boostfluence](https://www.boostfluence.com/)
 - [indown](https://indown.io/)
 - [storiesig picuki viewer](https://storiesig.info/en/picuki/)
+- [hostagram](https://github.com/banaxou/hostagram)
 
 # Thread 
 
@@ -3091,6 +3095,7 @@ Transaction Analysis
 - [blockscan](https://blockscan.com/)
 - [open-search aleph](https://open-search.aleph-networks.eu/)
 - [blockpath](https://blockpath.com/)
+- [trmlabs](https://www.trmlabs.com/)
 
 Guide 
 
@@ -3265,6 +3270,7 @@ Build your sockpuppet account and proctect your privacy
 - [Proton Mail](https://account.proton.me/mail)
 - [Tuta Mail](https://app.tuta.com/)
 - [simplelogin email](https://app.simplelogin.io/)
+- [zoho](https://www.zoho.com/id/)
 
 Build your own deepfake 
 
@@ -3472,6 +3478,8 @@ Social Network and blogging
 - [onionlandsearchengine](https://onionlandsearchengine.net/)
 - [torsearch](https://torsearch.com/)
 - [Duck go (ONION SITE)](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/)
+- [Onion Links List (ONION SITE)](http://jaz45aabn5vkemy4jkg4mi4syheisqn2wn2n4fsuitpccdackjwxplad.onion/)
+- [EXCAVATOR (ONION SITE)](http://2fd6cemt4gmccflhm6imvdfvli3nf7zn6rfrwpsy7uhxrgbypvwf5fad.onion/)
 
 # Darkweb Intelligence
 
@@ -4376,6 +4384,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [Sudomy](https://github.com/screetsec/Sudomy) Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance
 - [Url Scan](https://urlscan.io/) Enumerate a web finding a endpoint and assets 
 - [netexec](https://www.kali.org/tools/netexec/) Spray password on service like CrackMapExec
+- [deep-eye](https://github.com/zakirkun/deep-eye) AI-driven vulnerability scanner and penetration testing tool that integrates multiple AI providers (OpenAI, Grok, OLLAMA, Claude)
 
 Social Engineering (Social E)
 
@@ -4462,6 +4471,7 @@ Credentials Leak
 - [breachdirectory.org](https://breachdirectory.org/)
 - [Intel Techniques Breach Tool](https://inteltechniques.com/tools/Breaches.html)
 - [Search password](https://psbdmp.ws/api/search/<password>)
+- [projectdiscovery credential monitor](https://cloud.projectdiscovery.io/leaks)
 
 Password crack 
 
@@ -4721,6 +4731,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [macvendorlookup](https://www.macvendorlookup.com/)
 - [Track IP Torrent Activity](https://iknowwhatyoudownload.com/)
 - [Tor metrics exonarator](https://metrics.torproject.org/exonerator.html)
+- [Whois IP Lookup domaintools](https://whois.domaintools.com/)
 
 # Medical OSINT 
 
