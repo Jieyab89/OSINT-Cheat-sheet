@@ -2904,6 +2904,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [How to Verify Guide](https://www.howtoverify.info/Image/Where/Geolocation/Manual_geolocation)
 - [Gephi Visual Tool](https://gephi.org/)
 - [3 new ways to check images and sources online](https://blog.google/products/search/google-search-new-fact-checking-features/)
+- [BBC fact checking](https://www.bbc.com/news/bbcverify)
 
 Guide 
 
@@ -4861,6 +4862,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [tzevaadom map event](https://www.tzevaadom.co.il/)
 - [flightradar24 gps jamming](https://www.flightradar24.com/data/gps-jamming?date=2025-06-19)
 - [warpowerindonesia](https://www.warpowerindonesia.com/) There are many other country
+- [vantor](https://vantor.com/)
 
 Simulator and Game 
 
@@ -4868,6 +4870,8 @@ Simulator and Game
 - [Modern Warship](https://promo.worldofwarships.com/)
 - [Microsoft Flight Simulator](https://www.flightsimulator.com/)
 - [Airsoft Gun](https://en.wikipedia.org/wiki/Airsoft_gun)
+- [Arma Reforger](https://store.steampowered.com/app/1874880/Arma_Reforger/)
+- [Pure Sniper](https://store.steampowered.com/app/1612020/Pure_Sniper/)
 
 Tactical learn and some firearms knowledge
 
@@ -5328,6 +5332,7 @@ Terrorism & Radical
 - [Sentinel 1 copernicus](https://sentinels.copernicus.eu/)
 - [ESA](https://www.esa.int/)
 - [Sentinel Hub](https://www.sentinel-hub.com/)
+- [vantor](https://vantor.com/)
 
 *Aditional Information coverage sat 
 
