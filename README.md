@@ -5177,6 +5177,8 @@ Social Media Analytics
 - [Interpol Red Notice](https://www.interpol.int/How-we-work/Notices/Red-Notices/View-Red-Notices)
 - [Pitch darkweb (ONION SITE)](https://pitchprash4aqilfr7sbmuwve3pnkpylqwxjbj2q5o4szcfeea6d27yd.onion/)
 - [Dread darkweb (ONION SITE)](https://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion)
+- [CSI DB](https://www.csidb.net/)
+- [altenen](https://altenens.is)
 
 Guides 
 
@@ -5613,6 +5615,7 @@ Website
 - [similarsitesearch](https://www.similarsitesearch.com/)
 - [moreofit](http://www.moreofit.com/similar-to/www.pornhub.com/Top_10_Sites_Like_Pornhub/)
 - [xranks](https://xranks.com/)
+- [alternativeto](https://alternativeto.net/)
 
 Company 
 
