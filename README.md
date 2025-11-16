@@ -1261,6 +1261,10 @@ Web Defacement Archive
 - [Open Access Button](https://openaccessbutton.org/)
 - [sci-net](https://sci-net.xyz/)
 
+Crack medium article 
+
+- [freedium](https://freedium.cfd/) *Open at firefox and change DNS
+
 # Search Jurnals
 
 - [Libgen](https://libgen.is/)
@@ -5616,6 +5620,7 @@ Website
 - [moreofit](http://www.moreofit.com/similar-to/www.pornhub.com/Top_10_Sites_Like_Pornhub/)
 - [xranks](https://xranks.com/)
 - [alternativeto](https://alternativeto.net/)
+- [DMCA Lumen DB](https://lumendatabase.org/)
 
 Company 
 
