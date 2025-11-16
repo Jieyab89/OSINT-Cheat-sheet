@@ -1726,6 +1726,7 @@ or you can use dork for spesific example
 - [Check email and phone num on facebook](https://web.facebook.com/login/identify?ctx=recover&_rdc=1&_rdr#)
 - [META Scan](https://github.com/HackUnderway/meta_scan)
 - [Facebook lookup id](https://lookup-id.com/#)
+- [Facebook scrapper](https://github.com/0xSojalSec/facebook-scraper)
 
 # OnlyFans
 
@@ -3480,6 +3481,8 @@ Social Network and blogging
 - [Duck go (ONION SITE)](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/)
 - [Onion Links List (ONION SITE)](http://jaz45aabn5vkemy4jkg4mi4syheisqn2wn2n4fsuitpccdackjwxplad.onion/)
 - [EXCAVATOR (ONION SITE)](http://2fd6cemt4gmccflhm6imvdfvli3nf7zn6rfrwpsy7uhxrgbypvwf5fad.onion/)
+- [Darksearch (ONION SITE)](http://darkzqtmbdeauwq5mzcmgeeuhet42fhfjj4p5wbak3ofx2yqgecoeqyd.onion/)
+- [TOR watch onion domain search (ONION SITE)](http://xq5hcm32m7ipdqt2ydqj6cc7lpj3lw3iwqnxiak2juynysoevjmancad.onion/)
 
 # Darkweb Intelligence
 
@@ -5172,6 +5175,8 @@ Social Media Analytics
 - [ID mahkamahagung](https://putusan3.mahkamahagung.go.id/)
 - [APT Group List](https://docs.google.com/spreadsheets/u/1/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU/pubhtml)
 - [Interpol Red Notice](https://www.interpol.int/How-we-work/Notices/Red-Notices/View-Red-Notices)
+- [Pitch darkweb (ONION SITE)](https://pitchprash4aqilfr7sbmuwve3pnkpylqwxjbj2q5o4szcfeea6d27yd.onion/)
+- [Dread darkweb (ONION SITE)](https://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion)
 
 Guides 
 
