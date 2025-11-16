@@ -207,6 +207,10 @@
             {
                 "name": "Profile Scout",
                 "url": "https://profile-scout-16ba7f56.base44.app/"
+            },
+            {
+                "name": "hostagram",
+                "url": "https://github.com/banaxou/hostagram"
             }
         ]
     },
@@ -544,6 +548,18 @@
             {
                 "name": "Track IP Torrent Activity",
                 "url": "https://iknowwhatyoudownload.com/"
+            },
+            {
+                "name": "AWS Earth",
+                "url": "https://aws.amazon.com/earth/"
+            },
+            {
+                "name": "unavco sat",
+                "url": "https://www.unavco.org/data/"
+            },
+            {
+                "name": "Planet sat data stories",
+                "url": "https://www.planet.com/stories/"
             }
         ]
     },
@@ -2359,6 +2375,10 @@
             {
                 "name": "synthient",
                 "url": "https://search.synthient.com/"
+            },
+            {
+                "name": "opensourcemalware",
+                "url": "https://opensourcemalware.com/"
             }
         ]
     },
@@ -3107,6 +3127,10 @@
             {
                 "name": "VMRay Sandbox",
                 "url": "https://www.vmray.com/"
+            },
+            {
+                "name": "opensourcemalware",
+                "url": "https://opensourcemalware.com/"
             }
         ]
     },
@@ -4061,6 +4085,10 @@
             {
                 "name": "sci-net",
                 "url": "https://sci-net.xyz/"
+            },
+            {
+                "name": "freedium",
+                "url": "https://freedium.cfd/"
             }
         ]
     },
@@ -5637,6 +5665,10 @@
             {
                 "name": "Facebook lookup id",
                 "url": "https://lookup-id.com/#"
+            },
+            {
+                "name": "Facebook scrapper",
+                "url": "https://github.com/0xSojalSec/facebook-scraper"
             }
         ]
     },
@@ -6042,6 +6074,10 @@
             {
                 "name": "storiesig picuki viewer",
                 "url": "https://storiesig.info/en/picuki/"
+            },
+            {
+                "name": "hostagram",
+                "url": "https://github.com/banaxou/hostagram"
             }
         ]
     },
@@ -6533,6 +6569,10 @@
             {
                 "name": "Wayback Twitter",
                 "url": "https://waybacktweets.streamlit.app/"
+            },
+            {
+                "name": "nitter",
+                "url": "https://nitter.net/"
             }
         ]
     },
@@ -9827,6 +9867,10 @@
             {
                 "name": "Exposing the Invisible - The Kit",
                 "url": "https://kit.exposingtheinvisible.org/en/index.html"
+            },
+            {
+                "name": "BBC fact checking",
+                "url": "https://www.bbc.com/news/bbcverify"
             }
         ]
     },
@@ -10392,6 +10436,10 @@
             {
                 "name": "blockpath",
                 "url": "https://blockpath.com/"
+            },
+            {
+                "name": "trmlabs",
+                "url": "https://www.trmlabs.com/"
             }
         ]
     },
@@ -11156,6 +11204,10 @@
             {
                 "name": "Temp Mail 7",
                 "url": "https://tempmailto.online/"
+            },
+            {
+                "name": "zoho",
+                "url": "https://www.zoho.com/id/"
             }
         ]
     },
@@ -11684,6 +11736,22 @@
             {
                 "name": "Duck go (ONION SITE)",
                 "url": "https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/"
+            },
+            {
+                "name": "Onion Links List (ONION SITE)",
+                "url": "http://jaz45aabn5vkemy4jkg4mi4syheisqn2wn2n4fsuitpccdackjwxplad.onion/"
+            },
+            {
+                "name": "EXCAVATOR (ONION SITE)",
+                "url": "http://2fd6cemt4gmccflhm6imvdfvli3nf7zn6rfrwpsy7uhxrgbypvwf5fad.onion/"
+            },
+            {
+                "name": "Darksearch (ONION SITE)",
+                "url": "http://darkzqtmbdeauwq5mzcmgeeuhet42fhfjj4p5wbak3ofx2yqgecoeqyd.onion/"
+            },
+            {
+                "name": "TOR watch onion domain search (ONION SITE)",
+                "url": "http://xq5hcm32m7ipdqt2ydqj6cc7lpj3lw3iwqnxiak2juynysoevjmancad.onion/"
             }
         ]
     },
@@ -14191,6 +14259,10 @@
             {
                 "name": "anythingllm",
                 "url": "https://anythingllm.com/"
+            },
+            {
+                "name": "garak",
+                "url": "https://github.com/NVIDIA/garak"
             }
         ]
     },
@@ -15796,6 +15868,14 @@
             {
                 "name": "exploitpack",
                 "url": "https://exploitpack.com/index.html"
+            },
+            {
+                "name": "deep-eye",
+                "url": "https://github.com/zakirkun/deep-eye"
+            },
+            {
+                "name": "projectdiscovery credential monitor",
+                "url": "https://cloud.projectdiscovery.io/leaks"
             }
         ]
     },
@@ -15998,6 +16078,10 @@
             {
                 "name": "synthient",
                 "url": "https://search.synthient.com/"
+            },
+            {
+                "name": "Whois IP Lookup domaintools",
+                "url": "https://whois.domaintools.com/"
             }
         ]
     },
@@ -16528,6 +16612,18 @@
             {
                 "name": "smallarmssurvey",
                 "url": "https://www.smallarmssurvey.org/databases"
+            },
+            {
+                "name": "vantor",
+                "url": "https://vantor.com/"
+            },
+            {
+                "name": "Arma Reforger",
+                "url": "https://store.steampowered.com/app/1874880/Arma_Reforger/"
+            },
+            {
+                "name": "Pure Sniper",
+                "url": "https://store.steampowered.com/app/1612020/Pure_Sniper/"
             }
         ]
     },
@@ -17539,6 +17635,22 @@
             {
                 "name": "Interpol Red Notice",
                 "url": "https://www.interpol.int/How-we-work/Notices/Red-Notices/View-Red-Notices"
+            },
+            {
+                "name": "Pitch darkweb (ONION SITE)",
+                "url": "https://pitchprash4aqilfr7sbmuwve3pnkpylqwxjbj2q5o4szcfeea6d27yd.onion/"
+            },
+            {
+                "name": "Dread darkweb (ONION SITE)",
+                "url": "https://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion"
+            },
+            {
+                "name": "CSI DB",
+                "url": "https://www.csidb.net/"
+            },
+            {
+                "name": "altenen",
+                "url": "https://altenens.is"
             }
         ]
     },
@@ -18123,6 +18235,10 @@
             {
                 "name": "Sentinel Hub",
                 "url": "https://www.sentinel-hub.com/"
+            },
+            {
+                "name": "vantor",
+                "url": "https://vantor.com/"
             }
         ]
     },
@@ -18232,6 +18348,10 @@
             {
                 "name": "puppeteer",
                 "url": "https://github.com/puppeteer/puppeteer"
+            },
+            {
+                "name": "SNSSCRAPE",
+                "url": "https://github.com/JustAnotherArchivist/snscrape"
             }
         ]
     },
@@ -18961,6 +19081,14 @@
             {
                 "name": "socialblade similarity",
                 "url": "https://socialblade.com/"
+            },
+            {
+                "name": "alternativeto",
+                "url": "https://alternativeto.net/"
+            },
+            {
+                "name": "DMCA Lumen DB",
+                "url": "https://lumendatabase.org/"
             }
         ]
     },
