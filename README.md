@@ -5957,6 +5957,8 @@ You can search nickname, hacker team and hacker archive like web defacement data
 - [zone xsec](https://zone-xsec.com/)
 - [haxor ID](https://haxor.id/archive)
 - [ownzyou](https://ownzyou.com/)
+- [hack db](https://hack-db.org//)
+- [defacer net](https://defacer.net/)
 
 # MISC
 
