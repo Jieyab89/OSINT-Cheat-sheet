@@ -560,6 +560,14 @@
             {
                 "name": "Planet sat data stories",
                 "url": "https://www.planet.com/stories/"
+            },
+            {
+                "name": "NASA visibleearth catalog",
+                "url": "https://visibleearth.nasa.gov/"
+            },
+            {
+                "name": "Labelbox dataset",
+                "url": "https://labelbox.com/datasets/"
             }
         ]
     },
@@ -11208,6 +11216,18 @@
             {
                 "name": "zoho",
                 "url": "https://www.zoho.com/id/"
+            },
+            {
+                "name": "WAN AI",
+                "url": "https://wan.video/"
+            },
+            {
+                "name": "SORA AI",
+                "url": "https://sora.chatgpt.com/"
+            },
+            {
+                "name": "deevid",
+                "url": "https://deevid.ai/"
             }
         ]
     },
@@ -18239,6 +18259,10 @@
             {
                 "name": "vantor",
                 "url": "https://vantor.com/"
+            },
+            {
+                "name": "NASA visibleearth catalog",
+                "url": "https://visibleearth.nasa.gov/"
             }
         ]
     },
@@ -18864,6 +18888,10 @@
             {
                 "name": "thehive",
                 "url": "https://docs.thehive.ai/"
+            },
+            {
+                "name": "Mever",
+                "url": "https://mever.iti.gr/forensics/"
             }
         ]
     },
@@ -20021,6 +20049,14 @@
             {
                 "name": "ownzyou",
                 "url": "https://ownzyou.com/"
+            },
+            {
+                "name": "hack db",
+                "url": "https://hack-db.org//"
+            },
+            {
+                "name": "defacer net",
+                "url": "https://defacer.net/"
             }
         ]
     },
