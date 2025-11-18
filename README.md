@@ -271,6 +271,8 @@ Be carefull using this tool use 2nd account because your account got banned
 - [AWS Earth](https://aws.amazon.com/earth/)
 - [unavco sat](https://www.unavco.org/data/)
 - [Planet sat data stories](https://www.planet.com/stories/)
+- [NASA visibleearth catalog](https://visibleearth.nasa.gov/)
+- [Labelbox dataset](https://labelbox.com/datasets/)
 
 # Forums & Sites
 
@@ -2453,7 +2455,6 @@ Telegram Tips
 - [AWS-Recon](https://aws.amazon.com/rekognition/)
 - [Azure vidio indexer](https://vi.microsoft.com/en-us)
 - [Webcams](https://github.com/pbkompasz/webcams)
-- [Mever](https://mever.iti.gr/forensics/)
 - [InVID Verification](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)
 - [Google Lens](https://lens.google.com/)
 - [Robots Verify](https://www.robots.ox.ac.uk/~vgg/software/vff/)
@@ -3299,6 +3300,9 @@ Build your own deepfake
 - [heygen](https://www.heygen.com/)
 - [Guide AI Virtual Cam](https://www.sqlsec.com/2024/05/aiface.html#%E8%BE%93%E5%85%A5%E8%A7%86%E9%A2%91)
 - [facegsmproject](https://github.com/facegsmproject/FaceGSM?tab=readme-ov-file)
+- [WAN AI](https://wan.video/)
+- [SORA AI](https://sora.chatgpt.com/)
+- [deevid](https://deevid.ai/)
 
 Virtual Camera or Camera Replacement
 
@@ -5333,6 +5337,7 @@ Terrorism & Radical
 - [ESA](https://www.esa.int/)
 - [Sentinel Hub](https://www.sentinel-hub.com/)
 - [vantor](https://vantor.com/)
+- [NASA visibleearth catalog](https://visibleearth.nasa.gov/)
 
 *Aditional Information coverage sat 
 
@@ -5564,6 +5569,7 @@ Guide Journalist
 - [DeepFake Detector](https://huggingface.co/spaces/FaceOnLive/Deepfake-Detector)
 - [aivoicedetector](https://aivoicedetector.com/)
 - [thehive](https://docs.thehive.ai/)
+- [Mever](https://mever.iti.gr/forensics/)
 
 # OSINT Similarity (Plagiarism)
 
