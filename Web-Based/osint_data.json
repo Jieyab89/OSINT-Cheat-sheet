@@ -4962,6 +4962,10 @@
             {
                 "name": "Profile Scout",
                 "url": "https://profile-scout-16ba7f56.base44.app/"
+            },
+            {
+                "name": "famousbirthdays",
+                "url": "https://www.famousbirthdays.com/"
             }
         ]
     },
@@ -18596,6 +18600,10 @@
             {
                 "name": "google arts and culture",
                 "url": "https://artsandculture.google.com/explore"
+            },
+            {
+                "name": "famousbirthdays",
+                "url": "https://www.famousbirthdays.com/"
             }
         ]
     },
