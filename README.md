@@ -868,6 +868,7 @@ Tips
 
 You can find the file hash or other threat indicator
 
+- [attack MITRE TTP](https://attack.mitre.org/techniques/mobile/)
 - [VMRay Sandbox](https://www.vmray.com/)
 - [maltiverse](https://whatis.maltiverse.com/)
 - [virusscan](https://virusscan.jotti.org/)
@@ -3023,6 +3024,7 @@ Desktop NET debugger and assembly editor
 - [regex101](https://regex101.com/) Tips for Regex
 - [Search CTF Writeups](https://ctfsearch.hackmap.win/) Find and explore CTF solutions and writeups 35,000+ writeups
 - [ippsec - WU CTF](https://ippsec.rocks/?#) List write up CTF mostly HTB
+- [OSCP 2025 PG Practices & Play - Relevant Labs](https://docs.google.com/spreadsheets/d/1GBNBGQH1xTkXmvfv8F7EF0y5MBHo7cIUjh7SNfLt264/edit?gid=0#gid=0)
 
 # Zero Day
 
@@ -3030,7 +3032,7 @@ Desktop NET debugger and assembly editor
 - [Zerodium](https://zerodium.com/)
 - [0day fans](https://0dayfans.com/)
 - [0day database](https://www.zero-day.cz/database/)
-- [zerodayinitiative](https://www.zerodayinitiative.com/blog/) You can also check their Twitter for latest update
+- [zerodayinitiative](https://www.zerodayinitiative.com/advisories/published/) You can also check their Twitter for latest update
 
 # Cryptocurrency Investigation
 
@@ -5192,6 +5194,7 @@ Social Media Analytics
 - [Dread darkweb (ONION SITE)](https://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion)
 - [CSI DB](https://www.csidb.net/)
 - [altenen](https://altenens.is)
+- [Groups MITRE](https://attack.mitre.org/groups/)
 
 Guides 
 
