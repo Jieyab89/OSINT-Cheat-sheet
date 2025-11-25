@@ -1494,6 +1494,7 @@ Crack medium article
 - [freepeoplesearchtool](https://freepeoplesearchtool.com/)
 - [fastpeoplesearch](https://fastpeoplesearch.io/)
 - [Profile Scout](https://profile-scout-16ba7f56.base44.app/)
+- [famousbirthdays](https://www.famousbirthdays.com/)
 
 # Family People Search 
 
@@ -5480,6 +5481,7 @@ You can use for study academic literature, search book, people name, old archive
 - [NGV AU](https://www.ngv.vic.gov.au/explore/collection/)
 - [influzoom](https://influzoom.com/)
 - [google arts and culture](https://artsandculture.google.com/explore)
+- [famousbirthdays](https://www.famousbirthdays.com/)
 
 # OSINT Language 
 
