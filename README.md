@@ -4162,7 +4162,8 @@ Public Transport
 - [suna](https://www.suna.so/)
 - [mistral](https://mistral.ai/)
 - [hexstrike](https://www.hexstrike.com/)
-- [anythingllm](https://anythingllm.com/)
+- [trae](https://www.trae.ai/)
+- [codex CLI](https://developers.openai.com/codex/cli/)
 
 Tips Prompt Injection (LLM Injection)
 
@@ -4179,6 +4180,12 @@ LLM Interface
 
 - [openwebui](https://docs.openwebui.com/)
 - [LM Studio](https://lmstudio.ai/)
+- [maia](https://maia.id/)
+- [megallm](https://megallm.io/)
+- [openrouter](https://openrouter.ai/)
+- [dify](https://dify.ai/)
+- [Lobe](https://github.com/lobehub/lobe-chat)
+- [anything llm](https://github.com/Mintplex-Labs/anything-llm)
 
 Knowledge AI and ML 
 
@@ -4400,6 +4407,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [Url Scan](https://urlscan.io/) Enumerate a web finding a endpoint and assets 
 - [netexec](https://www.kali.org/tools/netexec/) Spray password on service like CrackMapExec
 - [deep-eye](https://github.com/zakirkun/deep-eye) AI-driven vulnerability scanner and penetration testing tool that integrates multiple AI providers (OpenAI, Grok, OLLAMA, Claude)
+- [vulners](https://vulners.com/) Search CVE and common vulnerability
 
 Social Engineering (Social E)
 
@@ -4606,6 +4614,7 @@ Hacking Playground
 - [mobilehackinglab](https://www.mobilehackinglab.com/free-mobile-hacking-labs)
 - [hextree](https://www.hextree.io/)
 - [Damn-Vulnerable-RESTaurant-API-Game](https://github.com/theowni/Damn-Vulnerable-RESTaurant-API-Game)
+- [MBTL](https://github.com/bayufedra/MBPTL)
 
 Awesome Burpsuite Extension
 
