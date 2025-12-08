@@ -3139,6 +3139,10 @@
             {
                 "name": "opensourcemalware",
                 "url": "https://opensourcemalware.com/"
+            },
+            {
+                "name": "attack MITRE TTP",
+                "url": "https://attack.mitre.org/techniques/mobile/"
             }
         ]
     },
@@ -5506,6 +5510,10 @@
             {
                 "name": "usersearch",
                 "url": "https://usersearch.com/"
+            },
+            {
+                "name": "360username",
+                "url": "https://360username.com/"
             }
         ]
     },
@@ -10153,6 +10161,10 @@
             {
                 "name": "ippsec - WU CTF",
                 "url": "https://ippsec.rocks/?#"
+            },
+            {
+                "name": "OSCP 2025 PG Practices & Play - Relevant Labs",
+                "url": "https://docs.google.com/spreadsheets/d/1GBNBGQH1xTkXmvfv8F7EF0y5MBHo7cIUjh7SNfLt264/edit?gid=0#gid=0"
             }
         ]
     },
@@ -14287,6 +14299,38 @@
             {
                 "name": "garak",
                 "url": "https://github.com/NVIDIA/garak"
+            },
+            {
+                "name": "trae",
+                "url": "https://www.trae.ai/"
+            },
+            {
+                "name": "codex CLI",
+                "url": "https://developers.openai.com/codex/cli/"
+            },
+            {
+                "name": "maia",
+                "url": "https://maia.id/"
+            },
+            {
+                "name": "megallm",
+                "url": "https://megallm.io/"
+            },
+            {
+                "name": "openrouter",
+                "url": "https://openrouter.ai/"
+            },
+            {
+                "name": "dify",
+                "url": "https://dify.ai/"
+            },
+            {
+                "name": "Lobe",
+                "url": "https://github.com/lobehub/lobe-chat"
+            },
+            {
+                "name": "anything llm",
+                "url": "https://github.com/Mintplex-Labs/anything-llm"
             }
         ]
     },
@@ -15900,6 +15944,14 @@
             {
                 "name": "projectdiscovery credential monitor",
                 "url": "https://cloud.projectdiscovery.io/leaks"
+            },
+            {
+                "name": "vulners",
+                "url": "https://vulners.com/"
+            },
+            {
+                "name": "MBTL",
+                "url": "https://github.com/bayufedra/MBPTL"
             }
         ]
     },
@@ -17675,6 +17727,10 @@
             {
                 "name": "altenen",
                 "url": "https://altenens.is"
+            },
+            {
+                "name": "Groups MITRE",
+                "url": "https://attack.mitre.org/groups/"
             }
         ]
     },
