@@ -502,7 +502,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [Similar Sites](https://www.similarsites.com/)
 - [Similar Web](https://www.similarweb.com/)
 - [smallseotools compare web similar](https://smallseotools.com/similar-sites/)
-- [spyonweb](https://spyonweb.com/)
+- [spyonweb](https://spyonweb.net)
 - [analyzeid](https://analyzeid.com/)
 - [Zeus-Scanner](https://github.com/Ekultek/Zeus-Scanner)
 - [CloudFail](https://github.com/m0rtem/CloudFail.git)
@@ -1606,7 +1606,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 
 # Finding Usernames
 
--[360username](https://360username.com/)
+- [360username](https://360username.com/)
 - [TraceFind](https://tracefind.info)
 - [Snusbase](https://snusbase.com/)
 - [Username Checker](https://analyzeid.com/username/)
