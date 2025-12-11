@@ -4655,6 +4655,7 @@ C2 & C4
 - [HAVOC](https://havocframework.com/)
 - [AdaptixC2](https://github.com/Adaptix-Framework/AdaptixC2)
 - [exploitpack](https://exploitpack.com/index.html)
+- [phpsploit](https://github.com/nil0x42/phpsploit)
 
 *Notes
 
