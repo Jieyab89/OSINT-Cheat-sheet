@@ -835,6 +835,18 @@
             {
                 "name": "grep",
                 "url": "https://grep.app/"
+            },
+            {
+                "name": "jsonformatter",
+                "url": "https://jsonformatter.org/recentLinksPage/json"
+            },
+            {
+                "name": "codebeautify",
+                "url": "https://codebeautify.org/recentLinksPage"
+            },
+            {
+                "name": "Pastebin",
+                "url": "https://pastebin.com/"
             }
         ]
     },
@@ -4101,6 +4113,10 @@
             {
                 "name": "freedium",
                 "url": "https://freedium.cfd/"
+            },
+            {
+                "name": "freedium (mirror)",
+                "url": "https://freedium-mirror.cfd/"
             }
         ]
     },
@@ -15952,6 +15968,10 @@
             {
                 "name": "MBTL",
                 "url": "https://github.com/bayufedra/MBPTL"
+            },
+            {
+                "name": "phpsploit",
+                "url": "https://github.com/nil0x42/phpsploit"
             }
         ]
     },
@@ -19486,6 +19506,10 @@
             {
                 "name": "wolframalpha",
                 "url": "https://www.wolframalpha.com/"
+            },
+            {
+                "name": "asteroid launcher",
+                "url": "https://neal.fun/asteroid-launcher/"
             }
         ]
     },
@@ -20071,6 +20095,14 @@
             {
                 "name": "Eyes NASA",
                 "url": "https://eyes.nasa.gov/"
+            },
+            {
+                "name": "universesandbox",
+                "url": "https://universesandbox.com/"
+            },
+            {
+                "name": "asteroid launcher",
+                "url": "https://neal.fun/asteroid-launcher/"
             }
         ]
     },
