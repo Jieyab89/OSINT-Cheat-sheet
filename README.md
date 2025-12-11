@@ -347,6 +347,9 @@ Site and forums OSINT community arround world
 - [Github code search CSE](https://cse.google.com/cse?cx=017261104271573007538:fqn_jyftcdq#gsc.tab=0&gsc.sort=)
 - [Gist Github](https://gist.github.com/starred)
 - [grep](https://grep.app/)
+- [jsonformatter](https://jsonformatter.org/recentLinksPage/json)
+- [codebeautify](https://codebeautify.org/recentLinksPage)
+- [Pastebin](https://pastebin.com/)
 
 *Pro Tips 
 
@@ -362,6 +365,8 @@ Endpoint list Github
 - https://github.com/search?type=issues&q=<value>
 - https://github.com/search?type=commits&q=<value>
 - https://github.com/search/advanced
+
+Guide Github search code by Jieyab89 : https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Github-Search 
 
 # Competitive Programming
 
@@ -1267,6 +1272,7 @@ Web Defacement Archive
 Crack medium article 
 
 - [freedium](https://freedium.cfd/) *Open at firefox and change DNS
+- [freedium (mirror)](https://freedium-mirror.cfd/)
 
 # Search Jurnals
 
@@ -5765,6 +5771,7 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [outrider sains nuclear weapon estimate calc](https://outrider.org/)
 - [MapChecking Crowd counting tool](https://www.mapchecking.com/)
 - [wolframalpha](https://www.wolframalpha.com/)
+- [asteroid launcher](https://neal.fun/asteroid-launcher/)
 
 # OSINT Financial (FININT)
 
@@ -5962,6 +5969,8 @@ Bookmark OSINT tools list
 - [stuffin space sat map](https://stuffin.space/)
 - [NASA Sat list and mission](https://www.nasa.gov/a-to-z-of-nasa-missions/)
 - [Eyes NASA](https://eyes.nasa.gov/)
+- [universesandbox](https://universesandbox.com/)
+- [asteroid launcher](https://neal.fun/asteroid-launcher/)
 
 # OSINT Playground 
 
