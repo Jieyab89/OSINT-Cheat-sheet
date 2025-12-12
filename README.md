@@ -1168,6 +1168,7 @@ Example
 - [archive-it](https://archive-it.org/)
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
 - [ghostarchive](https://ghostarchive.org/)
+- [removepaywall](https://www.removepaywall.com)
 
 Web Defacement Archive 
 
@@ -1268,6 +1269,7 @@ Web Defacement Archive
 - [Wiley Online Library](https://onlinelibrary.wiley.com/)
 - [Open Access Button](https://openaccessbutton.org/)
 - [sci-net](https://sci-net.xyz/)
+- [removepaywall](https://www.removepaywall.com)
 
 Crack medium article 
 
@@ -1754,7 +1756,7 @@ or you can use dork for spesific example
 
 # OSINT Adult or Porn (18+)
 
-Note is for investigator like search scandal, deepfake porn or blackmail and porn actress
+Note is for investigator like search scandal, deepfake porn or blackmail, red distric review, women and porn actress
 
 - [bedpage](http://bedpage.com/)
 - [pornhub](https://www.pornhub.com/)
@@ -1769,6 +1771,8 @@ Note is for investigator like search scandal, deepfake porn or blackmail and por
 - [Quora](https://id.quora.com/) You must to dork 
 - [X](https://twitter.com/) You must to dork and search
 - [Adult Finder](https://www.scrapersnbots.com/webtools/plenty-of-fish-username-search.php?sitetosearch=adultfriendfinder#gsc.tab=0)
+- [singlemanforum](https://singlemanforum.com/)
+- [Reddit](https://www.reddit.com/) You must to dork
 
 Pro Tips 
 
@@ -1866,6 +1870,7 @@ Searching for scandal or blackmail or deepfake porn doesn't have to be on the li
 - [indown](https://indown.io/)
 - [storiesig picuki viewer](https://storiesig.info/en/picuki/)
 - [hostagram](https://github.com/banaxou/hostagram)
+- [instasploit](https://gitlab.com/anezatra-katedram/instasploit)
 
 # Thread 
 
@@ -3575,6 +3580,7 @@ Social Network and blogging
 - [thehiddenwiki](https://thehiddenwiki.org/)
 - [thedarkweblinks](https://thedarkweblinks.com/)
 - [dark fail](https://dark.fail/)
+- [search aleph - Darkweb](https://open-search.aleph-networks.eu/en)
 
 Guide 
 
