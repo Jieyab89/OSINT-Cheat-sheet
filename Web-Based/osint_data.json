@@ -1637,6 +1637,10 @@
             {
                 "name": "host - Domain Name Data API",
                 "url": "https://host.io/"
+            },
+            {
+                "name": "Whois XML API - Lookup",
+                "url": "https://reverse-whois.whoisxmlapi.com/lookup"
             }
         ]
     },
@@ -3755,6 +3759,10 @@
             {
                 "name": "ownzyou",
                 "url": "https://ownzyou.com/"
+            },
+            {
+                "name": "removepaywall",
+                "url": "https://www.removepaywall.com"
             }
         ]
     },
@@ -4056,6 +4064,14 @@
             {
                 "name": "Scrib Downloader 3",
                 "url": "https://scribdownloader.com/"
+            },
+            {
+                "name": "darkforums",
+                "url": "https://darkforums.hn/"
+            },
+            {
+                "name": "Hudson Rock Cybercrime Intelligence Free Tools",
+                "url": "https://www.hudsonrock.com/threat-intelligence-cybercrime-tools"
             }
         ]
     },
@@ -4117,6 +4133,10 @@
             {
                 "name": "freedium (mirror)",
                 "url": "https://freedium-mirror.cfd/"
+            },
+            {
+                "name": "removepaywall",
+                "url": "https://www.removepaywall.com"
             }
         ]
     },
@@ -5791,6 +5811,14 @@
             {
                 "name": "Adult Finder",
                 "url": "https://www.scrapersnbots.com/webtools/plenty-of-fish-username-search.php?sitetosearch=adultfriendfinder#gsc.tab=0"
+            },
+            {
+                "name": "singlemanforum",
+                "url": "https://singlemanforum.com/"
+            },
+            {
+                "name": "Reddit",
+                "url": "https://www.reddit.com/"
             }
         ]
     },
@@ -6114,6 +6142,10 @@
             {
                 "name": "hostagram",
                 "url": "https://github.com/banaxou/hostagram"
+            },
+            {
+                "name": "instasploit",
+                "url": "https://gitlab.com/anezatra-katedram/instasploit"
             }
         ]
     },
@@ -7604,6 +7636,10 @@
             {
                 "name": "donwloader - available support other site",
                 "url": "https://cobalt.tools/"
+            },
+            {
+                "name": "OSINT rocks",
+                "url": "https://osint.rocks/"
             }
         ]
     },
@@ -12093,6 +12129,10 @@
             {
                 "name": "dark fail",
                 "url": "https://dark.fail/"
+            },
+            {
+                "name": "search aleph - Darkweb",
+                "url": "https://open-search.aleph-networks.eu/en"
             }
         ]
     },
