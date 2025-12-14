@@ -577,6 +577,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [drweb](https://vms.drweb.com/online/)
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
 - [host - Domain Name Data API](https://host.io/)
+- [Whois XML API - Lookup](https://reverse-whois.whoisxmlapi.com/lookup)
 
 *Tips web cache 
 
@@ -1189,7 +1190,7 @@ Web Defacement Archive
 - [Intelligence X](https://intelx.io/)
 - [Wiki Leaks](https://wikileaks.org/)
 - [DDO Secrets](https://ddosecrets.com/wiki/Distributed_Denial_of_Secrets)
-- [Breached](https://breached.to/) Availabe on Darkweb
+- [darkforums](https://darkforums.hn/) Availabe on Darkweb
 - [Stealthmole](https://www.stealthmole.com/products/darkweb-tracker)
 - [Doxbin](https://doxbin.com/)
 - [Search0t](https://search.0t.rocks/)
@@ -1254,6 +1255,7 @@ Web Defacement Archive
 - [pastebin](https://pastebin.com/)
 - [databreach](https://databreach.com/)
 - [leaking forum](https://leaking.cc/)
+- [Hudson Rock Cybercrime Intelligence Free Tools](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools)
 
 # Crack Jurnals
 
@@ -2230,6 +2232,7 @@ Google queries for MySpace
 
 # OSINT Online Tool  
 
+- [OSINT rocks](https://osint.rocks/)
 - [InstagramPrivSniffer](https://github.com/obitouka/InstagramPrivSniffer)
 - [scrapersnbots - available support more site for scrapper](https://www.scrapersnbots.com/webtools/)
 - [Echosec](https://www.echosec.net/)
@@ -2273,7 +2276,6 @@ Google queries for MySpace
 - [trape](https://github.com/jofpin/trape)
 - [ReconDog](https://github.com/s0md3v/ReconDog)
 - [iKy](https://github.com/kennbroorg/iKy)
-- [Ghunt](https://github.com/mxrch/GHunt)
 - [Moriarty-Project](https://github.com/AzizKpln/Moriarty-Project)
 - [Mr.Holmes](https://github.com/Lucksi/Mr.Holmes)
 - [octosuite Advanced Github OSINT Framework](https://github.com/rly0nheart/octosuite.git)  
