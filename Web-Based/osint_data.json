@@ -1641,6 +1641,22 @@
             {
                 "name": "Whois XML API - Lookup",
                 "url": "https://reverse-whois.whoisxmlapi.com/lookup"
+            },
+            {
+                "name": "web-check",
+                "url": "https://web-check.as93.net/"
+            },
+            {
+                "name": "whatsmyname",
+                "url": "https://whatsmyname.app/"
+            },
+            {
+                "name": "Public WWW",
+                "url": "https://publicwww.com/syntax.html"
+            },
+            {
+                "name": "whatcms",
+                "url": "https://whatcms.org/"
             }
         ]
     },
@@ -5006,6 +5022,10 @@
             {
                 "name": "famousbirthdays",
                 "url": "https://www.famousbirthdays.com/"
+            },
+            {
+                "name": "whatsmyname",
+                "url": "https://whatsmyname.app/"
             }
         ]
     },
@@ -7640,6 +7660,10 @@
             {
                 "name": "OSINT rocks",
                 "url": "https://osint.rocks/"
+            },
+            {
+                "name": "whatsmyname",
+                "url": "https://whatsmyname.app/"
             }
         ]
     },
@@ -16012,6 +16036,18 @@
             {
                 "name": "phpsploit",
                 "url": "https://github.com/nil0x42/phpsploit"
+            },
+            {
+                "name": "AutoRecon",
+                "url": "https://github.com/AutoRecon/AutoRecon"
+            },
+            {
+                "name": "web-check",
+                "url": "https://web-check.as93.net/"
+            },
+            {
+                "name": "Linux hardening checklist - CSA LAB",
+                "url": "https://csalab-id.github.io/documents/compliance/CIS_Benchmark_Ubuntu_24_04.pdf"
             }
         ]
     },
