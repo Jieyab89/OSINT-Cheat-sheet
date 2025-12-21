@@ -19,6 +19,10 @@ Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and othe
 
 # Tips & Trick Safe Guide Using Resources 
 
+Please take a notes. Due to the large number of supply chain attacks, refer to OWASP TOP 10 2025. My advice is to use a sandbox machine that does not contain your data and work. With the rise of malware stealers, crypto miners, and other threats, to reduce this risk, you can use fake accounts on social media, email, phone numbers, and your sandbox machine, as well as turn on your AV (Anti Virus) and firewall to be on the safe side.
+
+Tips: 
+
 - Use virtual machine, fake host or docker machine 
 - Use private network e.g vpn, tor, p2p 
 - Use second account (not you real account)
@@ -448,6 +452,8 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 
 # Web Intelligence
 
+- [web-check](https://web-check.as93.net/)
+- [whatsmyname](https://whatsmyname.app/)
 - [similarsitesearch](https://www.similarsitesearch.com/)
 - [topsimilarsites](https://www.topsimilarsites.com/)
 - [ARIN - American Regsitry Internet Number](https://search.arin.net/rdap/)
@@ -578,6 +584,8 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
 - [host - Domain Name Data API](https://host.io/)
 - [Whois XML API - Lookup](https://reverse-whois.whoisxmlapi.com/lookup)
+- [Public WWW](https://publicwww.com/syntax.html)
+- [whatcms](https://whatcms.org/)
 
 *Tips web cache 
 
@@ -1430,6 +1438,8 @@ Crack medium article
 
 # People Searching
 
+- [castrickclues](https://castrickclues.com/)
+- [whatsmyname](https://whatsmyname.app/)
 - [snusbase](https://snusbase.com/)
 - [wbmii](https://webmii.com/)
 - [spokeo](http://www.spokeo.com)
@@ -2232,6 +2242,7 @@ Google queries for MySpace
 
 # OSINT Online Tool  
 
+- [whatsmyname](https://whatsmyname.app/)
 - [OSINT rocks](https://osint.rocks/)
 - [InstagramPrivSniffer](https://github.com/obitouka/InstagramPrivSniffer)
 - [scrapersnbots - available support more site for scrapper](https://www.scrapersnbots.com/webtools/)
@@ -4215,6 +4226,8 @@ Securing your LLM
 
 # OSINT for Red Team 
 
+- [AutoRecon](https://github.com/AutoRecon/AutoRecon) AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services. And recommend for OSCP
+- [web-check](https://web-check.as93.net/) Awesome web tool for enumerate web and information gathering
 - [PayloadsAllThePDFs](https://github.com/luigigubello/PayloadsAllThePDFs) A list of crafted malicious PDF files to test the security of PDF readers and tools
 - [resourcehacker](https://www.angusj.com/resourcehacker/) Decompiler tools and change the icon logo for application
 - [php exeoutput](https://www.exeoutput.com/) make your php script to executable file. php compiler for windows
@@ -4709,6 +4722,10 @@ If cannot connected with target check the port and the software version, you can
 - [NGROK](https://swisskyrepo.github.io/InternalAllTheThings/redteam/pivoting/network-pivoting-techniques/#ngrok)
 - [pivotnacci](https://github.com/blackarrowsec/pivotnacci)
 - [SSH Pivoting](https://cyberkhalid.github.io/posts/ssh-pivot/)
+
+Linux Hardening 
+
+- [Linux hardening checklist - CSA LAB](https://csalab-id.github.io/documents/compliance/CIS_Benchmark_Ubuntu_24_04.pdf)
 
 # Audio OSINT 
 
