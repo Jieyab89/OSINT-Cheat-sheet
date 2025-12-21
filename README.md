@@ -19,7 +19,7 @@ Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and othe
 
 # Tips & Trick Safe Guide Using Resources 
 
-Please take a notes. Due to the large number of supply chain attacks, refer to OWASP TOP 10 2025. My advice is to use a sandbox machine that does not contain your data and work. With the rise of malware stealers, crypto miners, and other threats, to reduce this risk, you can use fake accounts on social media, email, phone numbers, and your sandbox machine, as well as turn on your AV (Anti Virus) and firewall to be on the safe side.
+Please take a notes. Due to the large number of supply chain attacks, refer to OWASP TOP 10 2025. My advice is to use a sandbox machine that does not contain your personal data and office. With the rise of malware stealers, crypto miners, and other threats, to reduce this risk, you can use fake accounts on social media, email, phone numbers, and your sandbox machine, as well as turn on your AV (Anti Virus) and firewall.
 
 Tips: 
 
