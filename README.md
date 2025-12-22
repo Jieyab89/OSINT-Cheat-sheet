@@ -1178,6 +1178,7 @@ Example
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
 - [ghostarchive](https://ghostarchive.org/)
 - [removepaywall](https://www.removepaywall.com)
+- [archivarix](https://archivarix.com/en/)
 
 Web Defacement Archive 
 
@@ -1186,6 +1187,8 @@ Web Defacement Archive
 - [zone xsec](https://zone-xsec.com/)
 - [haxor ID](https://haxor.id/archive)
 - [ownzyou](https://ownzyou.com/)
+- [hack db](https://hack-db.org//)
+- [defacer net](https://defacer.net/)
 
 # Data Breached OSINT
 
@@ -2215,6 +2218,7 @@ Google queries for MySpace
 - [castrickclues](https://castrickclues.com/)
 - [usersearch](https://usersearch.com/)
 - [Personal data leak check](https://cybernews.com/personal-data-leak-check/)
+- [bosint](https://app.bosint.gg/)
 
 # PGP or GPG Keybase 
 
@@ -2242,6 +2246,7 @@ Google queries for MySpace
 
 # OSINT Online Tool  
 
+- [bosint](https://app.bosint.gg/)
 - [whatsmyname](https://whatsmyname.app/)
 - [OSINT rocks](https://osint.rocks/)
 - [InstagramPrivSniffer](https://github.com/obitouka/InstagramPrivSniffer)
