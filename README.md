@@ -354,6 +354,7 @@ Site and forums OSINT community arround world
 - [jsonformatter](https://jsonformatter.org/recentLinksPage/json)
 - [codebeautify](https://codebeautify.org/recentLinksPage)
 - [Pastebin](https://pastebin.com/)
+- [bevigil](https://bevigil.com/osint-api)
 
 *Pro Tips 
 
@@ -586,6 +587,9 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [Whois XML API - Lookup](https://reverse-whois.whoisxmlapi.com/lookup)
 - [Public WWW](https://publicwww.com/syntax.html)
 - [whatcms](https://whatcms.org/)
+- [dehashed](https://dehashed.com/)
+- [dnsdumpster](https://dnsdumpster.com/)
+- [rapiddns](https://rapiddns.io/)
 
 *Tips web cache 
 
@@ -1268,6 +1272,7 @@ Web Defacement Archive
 - [databreach](https://databreach.com/)
 - [leaking forum](https://leaking.cc/)
 - [Hudson Rock Cybercrime Intelligence Free Tools](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools)
+- [dehashed](https://dehashed.com/)
 
 # Crack Jurnals
 
@@ -2247,6 +2252,9 @@ Google queries for MySpace
 
 # OSINT Online Tool  
 
+Mostly general for searching data like web enumerate, attack surface, email, person and etc with hosted and manual installation (local install)
+
+- [hackertarget](https://hackertarget.com/)
 - [bosint](https://app.bosint.gg/)
 - [whatsmyname](https://whatsmyname.app/)
 - [OSINT rocks](https://osint.rocks/)
@@ -2966,6 +2974,8 @@ Guide
 - [godaddy](https://www.godaddy.com/en)
 - [host io](https://host.io/)
 - [crt.sh](https://crt.sh/)
+- [dnsdumpster](https://dnsdumpster.com/)
+- [rapiddns](https://rapiddns.io/)
 
 # CTF Analysis & Exploit
 
