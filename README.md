@@ -1179,6 +1179,7 @@ Example
 - [ghostarchive](https://ghostarchive.org/)
 - [removepaywall](https://www.removepaywall.com)
 - [archivarix](https://archivarix.com/en/)
+- [Wayback Geospatial](https://livingatlas.arcgis.com/wayback)
 
 Web Defacement Archive 
 
@@ -4277,6 +4278,7 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Nuclei template js template](https://github.com/ayadim/Nuclei-bug-hunter/blob/main/file/web/js/js-analyse.yaml) Nuclei template. Extract Data From JS ffile e.g key, endpoint, etc 
 - [Atlas Sql Tamper Suggester](https://github.com/m4ll0k/Atlas) Open source tool that can suggest sqlmap tampers to bypass WAF/IDS/IPS, the tool is based on returned status code
 - [Go Phish](https://getgophish.com/) Gophish is a powerful, open-source phishing framework that makes it easy to test your organization's exposure to phishing.
+- [evilginx](https://evilginx.com/) Standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication
 - [Advanced SQL Injection](https://github.com/kleiton0x00/Advanced-SQL-Injection-Cheatsheet) A cheat sheet that contains advanced queries for SQL Injection of all types.
 - [Payload all the things](https://github.com/swisskyrepo/PayloadsAllTheThings) A list of useful payloads and bypass for Web Application Security and Pentest/CTF 
 - [Hack Tricks](https://book.hacktricks.xyz/) The great sites for pentesting and recon cheat sheet
@@ -4449,6 +4451,7 @@ Social Engineering (Social E)
 - [anonymailer](https://anonymailer.net/)
 - [Phishious](https://github.com/CanIPhish/Phishious) 
 - [GoPhish](https://getgophish.com/)
+- [evilginx](https://evilginx.com/)
 - [SET](https://github.com/trustedsec/social-engineer-toolkit)
 - [httrack](https://www.httrack.com/)
 - [saveweb2zip](https://saveweb2zip.com/en)
