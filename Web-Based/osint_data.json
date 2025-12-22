@@ -847,6 +847,10 @@
             {
                 "name": "Pastebin",
                 "url": "https://pastebin.com/"
+            },
+            {
+                "name": "bevigil",
+                "url": "https://bevigil.com/osint-api"
             }
         ]
     },
@@ -1657,6 +1661,14 @@
             {
                 "name": "whatcms",
                 "url": "https://whatcms.org/"
+            },
+            {
+                "name": "dehashed",
+                "url": "https://dehashed.com/"
+            },
+            {
+                "name": "rapiddns",
+                "url": "https://rapiddns.io/"
             }
         ]
     },
@@ -3779,6 +3791,22 @@
             {
                 "name": "removepaywall",
                 "url": "https://www.removepaywall.com"
+            },
+            {
+                "name": "archivarix",
+                "url": "https://archivarix.com/en/"
+            },
+            {
+                "name": "Wayback Geospatial",
+                "url": "https://livingatlas.arcgis.com/wayback"
+            },
+            {
+                "name": "hack db",
+                "url": "https://hack-db.org//"
+            },
+            {
+                "name": "defacer net",
+                "url": "https://defacer.net/"
             }
         ]
     },
@@ -4088,6 +4116,10 @@
             {
                 "name": "Hudson Rock Cybercrime Intelligence Free Tools",
                 "url": "https://www.hudsonrock.com/threat-intelligence-cybercrime-tools"
+            },
+            {
+                "name": "dehashed",
+                "url": "https://dehashed.com/"
             }
         ]
     },
@@ -7280,6 +7312,10 @@
             {
                 "name": "mosint",
                 "url": "https://github.com/alpkeskin/mosint"
+            },
+            {
+                "name": "bosint",
+                "url": "https://app.bosint.gg/"
             }
         ]
     },
@@ -7664,6 +7700,14 @@
             {
                 "name": "whatsmyname",
                 "url": "https://whatsmyname.app/"
+            },
+            {
+                "name": "hackertarget",
+                "url": "https://hackertarget.com/"
+            },
+            {
+                "name": "bosint",
+                "url": "https://app.bosint.gg/"
             }
         ]
     },
@@ -10048,6 +10092,14 @@
             {
                 "name": "crt.sh",
                 "url": "https://crt.sh/"
+            },
+            {
+                "name": "dnsdumpster",
+                "url": "https://dnsdumpster.com/"
+            },
+            {
+                "name": "rapiddns",
+                "url": "https://rapiddns.io/"
             }
         ]
     },
@@ -16048,6 +16100,14 @@
             {
                 "name": "Linux hardening checklist - CSA LAB",
                 "url": "https://csalab-id.github.io/documents/compliance/CIS_Benchmark_Ubuntu_24_04.pdf"
+            },
+            {
+                "name": "evilginx",
+                "url": "https://evilginx.com/"
+            },
+            {
+                "name": "evilginx",
+                "url": "https://evilginx.com/"
             }
         ]
     },
