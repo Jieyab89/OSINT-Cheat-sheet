@@ -322,6 +322,7 @@ Site and forums OSINT community arround world
 
 # Code Search
 
+- [code google](https://code.google.com)
 - [Chromium Code Search](https://source.chromium.org/chromium)
 - [Code Finder](http://codefinder.dev/)
 - [codefinder org](https://codefinder.org/)
@@ -659,6 +660,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 
 # Researching Cyber Threats
 
+- [watchguard ransomtracker](https://www.watchguard.com/wgrd-security-hub/ransomware-tracker)
 - [nomoreransom](https://www.nomoreransom.org/en/decryption-tools.html)
 - [ID Ransomware analysis](https://id-ransomware.malwarehunterteam.com/)
 - [fortiguard](https://www.fortiguard.com/threatintel-search)
@@ -1184,6 +1186,8 @@ Example
 - [removepaywall](https://www.removepaywall.com)
 - [archivarix](https://archivarix.com/en/)
 - [Wayback Geospatial](https://livingatlas.arcgis.com/wayback)
+- [archive today](https://archive.today)
+- [webcitation](https://www.webcitation.org/query)
 
 Web Defacement Archive 
 
@@ -1621,6 +1625,7 @@ Crack medium article
 - [OSINT rock](https://osint.rocks/)
 - [castrickclues](https://castrickclues.com/)
 - [usersearch](https://usersearch.com/)
+- [blackbird (mostly Indonesia)](https://blackbird.mom/)
 
 Pro Tips
 
@@ -1672,6 +1677,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [Leakcheck](https://leakcheck.io/)
 - [castrickclues](https://castrickclues.com/)
 - [usersearch](https://usersearch.com/)
+- [blackbird (mostly Indonesia)](https://blackbird.mom/)
 
 # Social Networks
 
@@ -2225,6 +2231,7 @@ Google queries for MySpace
 - [usersearch](https://usersearch.com/)
 - [Personal data leak check](https://cybernews.com/personal-data-leak-check/)
 - [bosint](https://app.bosint.gg/)
+- [blackbird (mostly Indonesia)](https://blackbird.mom/)
 
 # PGP or GPG Keybase 
 
@@ -3515,7 +3522,6 @@ Social Network and blogging
 - [tor link](https://tor.link)
 - [Tor Taxi (onion link)](http://tortaxi2dev6xjwbaydqzla77rrnth7yn2oqzjfmiuwn5h6vsk2a4syd.onion/)
 - [Dark Fail (onion link)](http://darkfailenbsdla5mal2mxn2uz66od5vtzd5qozslagrfzachha3f3id.onion/)
-- [OnionLand (onion link)](http://3bbad7fauom4d6sgppalyqddsqbf5u5p56b5k5uk2zxsy3d6ey2jobad.onion)
 - [onionland surface web](https://onionland.io/)
 - [DarkWebSitesLinks (onion link)](http://darkwev6xtagl7742tqu24v2j4namr5ocfsfpha74a5nh4bwyp27a3ad.onion)
 - [Tor Links (onion link)](http://torlinksge6enmcyyuxjpjkoouw4oorgdgeo7ftnq3zodj7g2zxi3kyd.onion )
@@ -3536,6 +3542,18 @@ Social Network and blogging
 - [EXCAVATOR (ONION SITE)](http://2fd6cemt4gmccflhm6imvdfvli3nf7zn6rfrwpsy7uhxrgbypvwf5fad.onion/)
 - [Darksearch (ONION SITE)](http://darkzqtmbdeauwq5mzcmgeeuhet42fhfjj4p5wbak3ofx2yqgecoeqyd.onion/)
 - [TOR watch onion domain search (ONION SITE)](http://xq5hcm32m7ipdqt2ydqj6cc7lpj3lw3iwqnxiak2juynysoevjmancad.onion/)
+- [The Dark Web Pug's  (ONION SITE)](http://jgwe5cjqdbyvudjqskaajbfibfewew4pndx52dye7ug3mt3jimmktkid.onion/)
+- [deepweblinks NET](https://deepweblinks.net/the-hidden-wiki/)
+- [Tor gle (ONION SITE)](http://iy3544gmoeclh5de6gez2256v6pjh4omhpqdh2wpeeppjtvqmjhkfwad.onion/torgle/?query=)
+- [TorDex (ONION SITE)](http://tordexu73joywapk2txdr54jed4imqledpcvcuf75qsas2gwdgksvnyd.onion/)
+- [Fresh onion (ONION SITE)](http://freshonifyfe4rmuh6qwpsexfhdrww7wnt5qmkoertwxmcuvm4woo4ad.onion/)
+- [Onion site service (ONION SITE)](http://3fzh7yuupdfyjhwt3ugzqqof6ulbcl27ecev33knxe3u7goi3vfn2qqd.onion)
+- [Wiki page (ONION SITE)](http://uquroyobsaquslaunwkz6bmc3wutpzvwe7mv62xeq64645a57bugnsyd.onion)
+- [Danex io (ONION SITE)](http://danexio627wiswvlpt6ejyhpxl5gla5nt2tgvgm2apj2ofrgm44vbeyd.onion)
+- [onionfind](https://onionfind.com/)
+- [onionlinks](https://onionlinks.com/)
+- [torchsearch](https://torchsearch.org/)
+- [tordex](https://www.tordex.app/)
 
 # Darkweb Intelligence
 
@@ -4453,6 +4471,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [netexec](https://www.kali.org/tools/netexec/) Spray password on service like CrackMapExec
 - [deep-eye](https://github.com/zakirkun/deep-eye) AI-driven vulnerability scanner and penetration testing tool that integrates multiple AI providers (OpenAI, Grok, OLLAMA, Claude)
 - [vulners](https://vulners.com/) Search CVE and common vulnerability
+- [Guadian CLI](https://github.com/zakirkun/guardian-cli) Guardian is a production-ready AI-powered penetration testing automation CLI tool that leverages Google Gemini and LangChain to orchestrate intelligent, step-by-step penetration testing workflows while maintaining ethical hacking standards.
 
 Social Engineering (Social E)
 
@@ -5781,6 +5800,7 @@ This is for you searching software and searching alternative software
 - [cyberarsenal](https://cyberarsenal.org/)
 - [XSS](https://xss.is/)
 - [apkcombo](https://apkcombo.com/)
+- [sourceforge](https://sourceforge.net)
 
 # OSINT Barcode Reader 
 
