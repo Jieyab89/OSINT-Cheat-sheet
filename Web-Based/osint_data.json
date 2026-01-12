@@ -851,6 +851,10 @@
             {
                 "name": "bevigil",
                 "url": "https://bevigil.com/osint-api"
+            },
+            {
+                "name": "code google",
+                "url": "https://code.google.com"
             }
         ]
     },
@@ -1669,6 +1673,10 @@
             {
                 "name": "rapiddns",
                 "url": "https://rapiddns.io/"
+            },
+            {
+                "name": "bigdomaindata",
+                "url": "https://www.bigdomaindata.com/"
             }
         ]
     },
@@ -2431,6 +2439,10 @@
             {
                 "name": "opensourcemalware",
                 "url": "https://opensourcemalware.com/"
+            },
+            {
+                "name": "watchguard ransomtracker",
+                "url": "https://www.watchguard.com/wgrd-security-hub/ransomware-tracker"
             }
         ]
     },
@@ -2616,6 +2628,10 @@
             {
                 "name": "TVway RU",
                 "url": "https://tvway.ru/"
+            },
+            {
+                "name": "insecam",
+                "url": "http://www.insecam.org/"
             }
         ]
     },
@@ -3807,6 +3823,14 @@
             {
                 "name": "defacer net",
                 "url": "https://defacer.net/"
+            },
+            {
+                "name": "archive today",
+                "url": "https://archive.today"
+            },
+            {
+                "name": "webcitation",
+                "url": "https://www.webcitation.org/query"
             }
         ]
     },
@@ -5428,6 +5452,10 @@
             {
                 "name": "usersearch",
                 "url": "https://usersearch.com/"
+            },
+            {
+                "name": "blackbird (mostly Indonesia)",
+                "url": "https://blackbird.mom/"
             }
         ]
     },
@@ -5602,6 +5630,10 @@
             {
                 "name": "360username",
                 "url": "https://360username.com/"
+            },
+            {
+                "name": "blackbird (mostly Indonesia)",
+                "url": "https://blackbird.mom/"
             }
         ]
     },
@@ -6828,6 +6860,34 @@
             {
                 "name": "socialblade",
                 "url": "https://socialblade.com/"
+            },
+            {
+                "name": "Tiktok Legal Guidelance for law enforcement",
+                "url": "https://www.tiktok.com/legal/page/global/law-enforcement/en"
+            },
+            {
+                "name": "TikTok User Finder",
+                "url": "https://omar-thing.site/"
+            },
+            {
+                "name": "mavekite tiktok analytics",
+                "url": "https://mavekite.com/"
+            },
+            {
+                "name": "urlebird tiktok viewer",
+                "url": "https://urlebird.com/"
+            },
+            {
+                "name": "tikface TikTok Viewer",
+                "url": "https://www.tikface.com/"
+            },
+            {
+                "name": "snaptik tiktok downloader",
+                "url": "https://snaptik.app/en2"
+            },
+            {
+                "name": "CrotDalam - Collection & Reconnaissance Of TikTok — Discovery, Analysis, Logging, And Monitoring",
+                "url": "https://github.com/Masriyan/CrotDalam"
             }
         ]
     },
@@ -7316,6 +7376,10 @@
             {
                 "name": "bosint",
                 "url": "https://app.bosint.gg/"
+            },
+            {
+                "name": "blackbird (mostly Indonesia)",
+                "url": "https://blackbird.mom/"
             }
         ]
     },
@@ -10987,6 +11051,10 @@
             {
                 "name": "matkap hunt down malicious Telegram bots  web based",
                 "url": "https://matkap.cti.monster/"
+            },
+            {
+                "name": "whatsapp Law Enforcement Online Requests",
+                "url": "https://www.whatsapp.com/records/login"
             }
         ]
     },
@@ -11916,6 +11984,62 @@
             {
                 "name": "TOR watch onion domain search (ONION SITE)",
                 "url": "http://xq5hcm32m7ipdqt2ydqj6cc7lpj3lw3iwqnxiak2juynysoevjmancad.onion/"
+            },
+            {
+                "name": "The Dark Web Pug's  (ONION SITE)",
+                "url": "http://jgwe5cjqdbyvudjqskaajbfibfewew4pndx52dye7ug3mt3jimmktkid.onion/"
+            },
+            {
+                "name": "deepweblinks NET",
+                "url": "https://deepweblinks.net/the-hidden-wiki/"
+            },
+            {
+                "name": "Tor gle (ONION SITE)",
+                "url": "http://iy3544gmoeclh5de6gez2256v6pjh4omhpqdh2wpeeppjtvqmjhkfwad.onion/torgle/?query="
+            },
+            {
+                "name": "TorDex (ONION SITE)",
+                "url": "http://tordexu73joywapk2txdr54jed4imqledpcvcuf75qsas2gwdgksvnyd.onion/"
+            },
+            {
+                "name": "Fresh onion (ONION SITE)",
+                "url": "http://freshonifyfe4rmuh6qwpsexfhdrww7wnt5qmkoertwxmcuvm4woo4ad.onion/"
+            },
+            {
+                "name": "Onion site service (ONION SITE)",
+                "url": "http://3fzh7yuupdfyjhwt3ugzqqof6ulbcl27ecev33knxe3u7goi3vfn2qqd.onion"
+            },
+            {
+                "name": "Wiki page (ONION SITE)",
+                "url": "http://uquroyobsaquslaunwkz6bmc3wutpzvwe7mv62xeq64645a57bugnsyd.onion"
+            },
+            {
+                "name": "Danex io (ONION SITE)",
+                "url": "http://danexio627wiswvlpt6ejyhpxl5gla5nt2tgvgm2apj2ofrgm44vbeyd.onion"
+            },
+            {
+                "name": "onionfind",
+                "url": "https://onionfind.com/"
+            },
+            {
+                "name": "onionlinks",
+                "url": "https://onionlinks.com/"
+            },
+            {
+                "name": "torchsearch",
+                "url": "https://torchsearch.org/"
+            },
+            {
+                "name": "tordex",
+                "url": "https://www.tordex.app/"
+            },
+            {
+                "name": "Grams (ONION SITE)",
+                "url": "http://grams64rarzrk7rzdaz2fpb7lehcyi7zrrf5kd6w2uoamp7jw2aq6vyd.onion"
+            },
+            {
+                "name": "Dargle",
+                "url": "https://www.dargle.net/domains"
             }
         ]
     },
@@ -16108,6 +16232,14 @@
             {
                 "name": "evilginx",
                 "url": "https://evilginx.com/"
+            },
+            {
+                "name": "Guadian CLI",
+                "url": "https://github.com/zakirkun/guardian-cli"
+            },
+            {
+                "name": "Awesome vulnerable",
+                "url": "https://github.com/kaiiyer/awesome-vulnerable"
             }
         ]
     },
@@ -16314,6 +16446,10 @@
             {
                 "name": "Whois IP Lookup domaintools",
                 "url": "https://whois.domaintools.com/"
+            },
+            {
+                "name": "bigdomaindata",
+                "url": "https://www.bigdomaindata.com/"
             }
         ]
     },
@@ -16925,6 +17061,10 @@
             {
                 "name": "sunpath3d",
                 "url": "https://drajmarsh.bitbucket.io/sunpath3d.html"
+            },
+            {
+                "name": "andrewmarsh sun path 3d",
+                "url": "https://andrewmarsh.com/software/sunpath3d-web/"
             }
         ]
     },
@@ -19528,6 +19668,10 @@
             {
                 "name": "apkcombo",
                 "url": "https://apkcombo.com/"
+            },
+            {
+                "name": "sourceforge",
+                "url": "https://sourceforge.net"
             }
         ]
     },
@@ -20306,6 +20450,38 @@
             {
                 "name": "turboscribe - YT Tools and downloander and conveter",
                 "url": "https://turboscribe.ai/"
+            },
+            {
+                "name": "OSINT of Israel",
+                "url": "https://unishka.substack.com/p/osint-of-israel"
+            },
+            {
+                "name": "OSINT of Indonesia",
+                "url": "https://unishka.substack.com/p/osint-of-indonesia"
+            },
+            {
+                "name": "OSINT of the Philippines",
+                "url": "https://unishka.substack.com/p/osint-of-the-philippines"
+            },
+            {
+                "name": "OSINT of UAE",
+                "url": "https://unishka.substack.com/p/osint-of-uae"
+            },
+            {
+                "name": "OSINT of Syria",
+                "url": "https://unishka.substack.com/p/osint-of-syria"
+            },
+            {
+                "name": "OSINT of Iraq",
+                "url": "https://unishka.substack.com/p/osint-of-iraq"
+            },
+            {
+                "name": "OSINT of Egypt",
+                "url": "https://unishka.substack.com/p/osint-of-egypt"
+            },
+            {
+                "name": "OSINT of India",
+                "url": "https://unishka.substack.com/p/osint-of-india"
             }
         ]
     },
@@ -20747,6 +20923,10 @@
             {
                 "name": "Geolocation and AI with StreetClip: introduction, country classification and building a web interface",
                 "url": "https://osintteam.blog/geolocation-and-ai-with-streetclip-introduction-country-classification-and-building-a-web-e13bd0e6d857"
+            },
+            {
+                "name": "UK OSINT",
+                "url": "https://www.uk-osint.net/"
             }
         ]
     },
@@ -20932,6 +21112,19 @@
             {
                 "name": "Weaponizing favicon.ico for BugBounties , OSINT and what not",
                 "url": "https://medium.com/@Asm0d3us/weaponizing-favicon-ico-for-bugbounties-osint-and-what-not-ace3c214e139"
+            }
+        ]
+    },
+    {
+        "category": "OSINT Academy",
+        "items": [
+            {
+                "name": "Maltego academy",
+                "url": "https://academy.maltego.com/"
+            },
+            {
+                "name": "Darkweb academy",
+                "url": "https://www.darkwebacademy.com/labs/"
             }
         ]
     }
