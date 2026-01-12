@@ -57,6 +57,11 @@ You can build it with VM or Live USB make sure you have sandbox machine
 - [parrot sec](https://www.parrotsec.org/)
 - [csi linux](https://csilinux.com/csi-linux-downloads/)
 
+# OSINT Academy
+
+- [Maltego academy](https://academy.maltego.com/)
+- [Darkweb academy](https://www.darkwebacademy.com/labs/)
+
 # EXIF TOOL COMMAND
 
 ## Exif tag name and data type
@@ -481,6 +486,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [Better Whois](http://www.betterwhois.com)
 - [ican whois](https://lookup.icann.org/en)
 - [whoishistory osint](https://osint.sh/whoishistory/)
+- [bigdomaindata](https://www.bigdomaindata.com/)
 - [DNS History](http://dnshistory.org)
 - [DNS Spy](https://dnsspy.io)
 - [DNS Checker](https://dnschecker.org)
@@ -844,6 +850,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [worldcam EU](https://worldcam.eu/)
 - [worldcam RU](https://world-cam.ru/)
 - [TVway RU](https://tvway.ru/)
+- [insecam](http://www.insecam.org/)
 
 # IP Addresses
 
@@ -1451,6 +1458,7 @@ Crack medium article
 
 # People Searching
 
+- [usersearch](https://usersearch.com/)
 - [castrickclues](https://castrickclues.com/)
 - [whatsmyname](https://whatsmyname.app/)
 - [snusbase](https://snusbase.com/)
@@ -2102,6 +2110,13 @@ Google queries for MySpace
 - [Google CSE Tiktok](https://cse.google.com/cse?cx=013991603413798772546:igv4fyrnnfu#gsc.tab=0)
 - [Tktok username lookup and viewer](https://omar-thing.nekoweb.org/)
 - [socialblade](https://socialblade.com/)
+- [Tiktok Legal Guidelance for law enforcement](https://www.tiktok.com/legal/page/global/law-enforcement/en)
+- [TikTok User Finder](https://omar-thing.site/)
+- [mavekite tiktok analytics](https://mavekite.com/)
+- [urlebird tiktok viewer](https://urlebird.com/)
+- [tikface TikTok Viewer](https://www.tikface.com/)
+- [snaptik tiktok downloader](https://snaptik.app/en2)
+- [CrotDalam - Collection & Reconnaissance Of TikTok — Discovery, Analysis, Logging, And Monitoring](https://github.com/Masriyan/CrotDalam)
 
 # Parler 
 
@@ -3250,6 +3265,7 @@ WhatsApp
 - [chatvisualizer](https://chatvisualizer.com/)
 - [WaGpScraper](https://github.com/riz4d/WaGpScraper)
 - [realgrouplinks](https://realgrouplinks.com/)
+- [whatsapp Law Enforcement Online Requests](https://www.whatsapp.com/records/login)
 
 Telegram
 
@@ -4829,6 +4845,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [Track IP Torrent Activity](https://iknowwhatyoudownload.com/)
 - [Tor metrics exonarator](https://metrics.torproject.org/exonerator.html)
 - [Whois IP Lookup domaintools](https://whois.domaintools.com/)
+- [bigdomaindata](https://www.bigdomaindata.com/)
 
 # Medical OSINT 
 
@@ -4983,6 +5000,7 @@ If you want to analyze the military for your research, you can learn about SALW,
 
 Analysis for IMINT and find the geolocation, azimuth and etc
 
+- [andrewmarsh sun path 3d](https://andrewmarsh.com/software/sunpath3d-web/)
 - [suncalc](https://www.suncalc.org/)
 - [timeanddate](https://www.timeanddate.com/weather/indonesia/jakarta/historic)
 - [sunearthtools](https://www.sunearthtools.com/dp/tools/pos_sun.php)
@@ -6062,6 +6080,17 @@ You can search nickname, hacker team and hacker archive like web defacement data
 - [tubeoffline - Tools and media downloader](https://www.tubeoffline.com/)
 - [humantraffickingsearch](https://humantraffickingsearch.org/)
 - [turboscribe - YT Tools and downloander and conveter](https://turboscribe.ai/)
+
+List available data source OSINT for other country 
+
+- [OSINT of Israel](https://unishka.substack.com/p/osint-of-israel)
+- [OSINT of Indonesia](https://unishka.substack.com/p/osint-of-indonesia)
+- [OSINT of the Philippines](https://unishka.substack.com/p/osint-of-the-philippines)
+- [OSINT of UAE](https://unishka.substack.com/p/osint-of-uae)
+- [OSINT of Syria](https://unishka.substack.com/p/osint-of-syria)
+- [OSINT of Iraq](https://unishka.substack.com/p/osint-of-iraq)
+- [OSINT of Egypt](https://unishka.substack.com/p/osint-of-egypt)
+- [OSINT of India](https://unishka.substack.com/p/osint-of-india)
 
 # OSINT Drone Search
 

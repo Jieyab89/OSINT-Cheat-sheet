@@ -49,6 +49,7 @@
 - [Bellingcat Hackathon (Awesome OSINT tool)](https://www.bellingcat.com/resources/2022/10/06/automated-map-searches-scam-busting-tools-and-twitter-search-translations-here-are-the-results-of-bellingcats-second-hackathon/)
 - [OSINT in general and removal your data](https://osintteam.blog/dosint-deceiving-osint-a994724af95f)
 - [Geolocation and AI with StreetClip: introduction, country classification and building a web interface](https://osintteam.blog/geolocation-and-ai-with-streetclip-introduction-country-classification-and-building-a-web-e13bd0e6d857)
+- [UK OSINT](https://www.uk-osint.net/)
 
 # Satellite Intelligence
 
