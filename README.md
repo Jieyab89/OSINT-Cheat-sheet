@@ -3554,6 +3554,8 @@ Social Network and blogging
 - [onionlinks](https://onionlinks.com/)
 - [torchsearch](https://torchsearch.org/)
 - [tordex](https://www.tordex.app/)
+- [Grams (ONION SITE)](http://grams64rarzrk7rzdaz2fpb7lehcyi7zrrf5kd6w2uoamp7jw2aq6vyd.onion)
+- [Dargle](https://www.dargle.net/domains)
 
 # Darkweb Intelligence
 
@@ -4680,6 +4682,7 @@ Hacking Playground
 - [hextree](https://www.hextree.io/)
 - [Damn-Vulnerable-RESTaurant-API-Game](https://github.com/theowni/Damn-Vulnerable-RESTaurant-API-Game)
 - [MBTL](https://github.com/bayufedra/MBPTL)
+- [Awesome vulnerable](https://github.com/kaiiyer/awesome-vulnerable)
 
 Awesome Burpsuite Extension
 
