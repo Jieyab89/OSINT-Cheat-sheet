@@ -798,7 +798,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [drweb](https://vms.drweb.com/scan_file/)
 - [virusscan](https://virusscan.jotti.org/)
 - [malware-traffic-analysis](https://www.malware-traffic-analysis.net/2025/index.html)
-- [threatbook](https://i.threatbook.io/) *Mostly IoC apt CN and RU
+- [threatbook](https://i.threatbook.io/) Mostly IoC APT CN and RU
 - [huntress](https://www.huntress.com/)
 - [synthient](https://search.synthient.com/)
 - [opensourcemalware](https://opensourcemalware.com/)
@@ -1205,6 +1205,7 @@ Web Defacement Archive
 - [ownzyou](https://ownzyou.com/)
 - [hack db](https://hack-db.org//)
 - [defacer net](https://defacer.net/)
+- [z-x archived site](https://web.archive.org/web/*/z-x.my.id*) *you can use dork and cache for Google index search hacker nickname 
 
 # Data Breached OSINT
 
@@ -1303,7 +1304,7 @@ Web Defacement Archive
 
 Crack medium article 
 
-- [freedium](https://freedium.cfd/) *Open at firefox and change DNS
+- [freedium](https://freedium.cfd/) Open at firefox and change DNS
 - [freedium (mirror)](https://freedium-mirror.cfd/)
 
 # Search Jurnals
@@ -1422,7 +1423,7 @@ Crack medium article
 - [Kemenperin ID](https://kemenperin.go.id/direktori-perusahaan)
 - [IDX ID](https://www.idx.co.id/en/listed-companies/company-profiles)
 - [OJK ID](https://www.ojk.go.id/id/kanal/iknb/data-dan-statistik/direktori/direktori-iknb/Default.aspx)
-- [lpse lkpp ID](https://lpse.lkpp.go.id/eproc4) *Tips you can search by province, institution or regency (subdomain)  
+- [lpse lkpp ID](https://lpse.lkpp.go.id/eproc4) Tips you can search by province, institution or regency (subdomain)  
 - [companieshouse ID](https://companieshouse.id/)
 - [Fintech ID](https://fintech.id/id/member)
 - [Website informer](https://website.informer.com/)
@@ -1519,7 +1520,7 @@ Crack medium article
 - [Public Database of Domestic Politically Exposed Persons of Russia, Belarus and Kazakhstan](https://rupep.org/en/)
 - [UBIKRON](https://www.osint-tool.com/unravel-help/)
 - [CSE Google Search](https://cse.google.com/cse?cx=partner-pub-7233843800519946:6667570044&ie=UTF-8&q=)
-- [ID Sistem Informasi Penelusuran Perkara](https://sipp.pn-negara.go.id/) *Tips you can search by province or regency (subdomain)  
+- [ID Sistem Informasi Penelusuran Perkara](https://sipp.pn-negara.go.id/) Tips you can search by province or regency (subdomain)  
 - [ID mahkamahagung](https://putusan3.mahkamahagung.go.id/)
 - [ID Check the wealth assets of Indonesian ministries](https://elhkpn.kpk.go.id/portal/user/check_search_announ#announ)
 - [ID SIKAP CARI PELAKU USAHA](https://sikap.lkpp.go.id/pelaku-usaha/cari)
@@ -1895,7 +1896,7 @@ Searching for scandal or blackmail or deepfake porn doesn't have to be on the li
 - [instaclip](https://instaclip.app/)
 - [fameswap](https://fameswap.com/tool-instagram-user-id)
 - [instahunt](https://instahunt.huntintel.io/)
-- [Stalkiana](https://github.com/RuiBorgesDev/Stalkiana) *Run on your VM or cloud machine
+- [Stalkiana](https://github.com/RuiBorgesDev/Stalkiana) Run on your VM or cloud machine
 - [ignorant](https://github.com/megadose/ignorant)
 - [socialblade](https://socialblade.com/)
 - [InsE - Instagram email finder & exporter extension browser](https://chromewebstore.google.com/detail/inse-instagram-email-find/hboikjnbkhkjmllgdcflmbcojbpklcca)
@@ -2041,7 +2042,7 @@ Twitter Search Engine
 - [inteltechniques](http://inteltechniques.com/osint/twitter.html)
 - [twitter lolarchiver](https://twitter.lolarchiver.com/)
 - [Geoint CSE search](https://cse.google.com/cse?cx=015328649639895072395:sbv3zyxzmji#gsc.tab=0&gsc.sort=)
-- [Twitter Cache](https://cache.digitaldigging.org/) *View cache and archive and delete post in Twitter
+- [Twitter Cache](https://cache.digitaldigging.org/) View cache and archive and delete post in Twitter
 - [Twitter image search google cse](https://cse.google.com/cse?cx=006205189065513216365:vltpvp4_gyo#gsc.tab=1&gsc.sort=)
 - [Twitter image search google cse 2](https://cse.google.com/cse?cx=006290531980334157382:_ltcjq0robu#gsc.tab=0&gsc.sort=&gsc.q=)
 - [Wayback Twitter](https://waybacktweets.streamlit.app/) Retrieves archived tweets
@@ -2185,7 +2186,7 @@ Google queries for MySpace
 - [getprospect](https://getprospect.com/)
 - [Email Hippo](https://tools.emailhippo.com/)
 - [Buster](https://github.com/sham00n/buster)
-- [Gravatar Email Cheker](https://gravatar.com/site/check/) *You can brute the hash with md5 to find the email address
+- [Gravatar Email Cheker](https://gravatar.com/site/check/) You can brute the hash with md5 to find the email address
 - [EmailRep](https://emailrep.io/)
 - [pwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot)
 - [Email-Analytics](https://emailanalytics.com/email-headers/)
@@ -2387,7 +2388,7 @@ Search channel, username, bot and anymore
 - [Teletehon](https://docs.telethon.dev/en/stable/basic/installation.html)
 - [Bellingcat Telegram Joiner](https://bellingcat.github.io/telegram-group-joiner/)
 - [Awesome-Telegram-OSINT](https://github.com/ItIsMeCall911/Awesome-Telegram-OSINT)
-- [Telegram-OSINT](https://github.com/The-Osint-Toolbox/Telegram-OSINT) *Use your second telegram account. There are many bot tele available on the list
+- [Telegram-OSINT](https://github.com/The-Osint-Toolbox/Telegram-OSINT) Use your second telegram account. There are many bot tele available on the list
 - [tlgrm channels by categories](https://tlgrm.eu/channels)
 - [TeleBotList](https://github.com/MoonWalker440/TeleBotList)
 - [telepathydb](https://telepathydb.com/)
@@ -2423,7 +2424,7 @@ Telegram Tips
 - [t.me/+<change phone num>](https://t.me/+TELEPHONE-NUMBER)
 - [t.me/s/<change username>](https://t.me/s/PREVIEWCHANNEL)
 
-*Change the hash value, username, phone number on the endpoint or url's
+Telegram tips. Change the hash value, username, phone number on the endpoint or url's
 
 # Telegra OSINT 
 
@@ -2466,7 +2467,7 @@ Telegram Tips
 - [documentcloud](https://www.documentcloud.org/)
 - [meawfy - mega.nz search engine](https://meawfy.com/)
 
-*Scribd viewer 
+Scribd viewer 
 
 - [How to view scribd](https://www.scribd.com/embeds/<HANGEID>/content?start_page=1&view_mode=scroll&access_key=key-fFexxf7r1bzEfWu3HKwf)
 
@@ -3093,7 +3094,7 @@ Desktop NET debugger and assembly editor
 - [regex101](https://regex101.com/) Tips for Regex
 - [Search CTF Writeups](https://ctfsearch.hackmap.win/) Find and explore CTF solutions and writeups 35,000+ writeups
 - [ippsec - WU CTF](https://ippsec.rocks/?#) List write up CTF mostly HTB
-- [OSCP 2025 PG Practices & Play - Relevant Labs](https://docs.google.com/spreadsheets/d/1GBNBGQH1xTkXmvfv8F7EF0y5MBHo7cIUjh7SNfLt264/edit?gid=0#gid=0)
+- [OSCP 2025 PG Practices & Play - Relevant Labs](https://docs.google.com/spreadsheets/d/1GBNBGQH1xTkXmvfv8F7EF0y5MBHo7cIUjh7SNfLt264/edit?gid=0#gid=0) OSCP exam prep relevant labs 
 
 # Zero Day
 
@@ -5167,7 +5168,7 @@ Resources and collection for your make tool OSINT
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
 - [Kaseware](https://www.kaseware.com/link-analysis)
 - [opentender ID](https://opentender.net/)
-- [lpse lkpp ID](https://lpse.lkpp.go.id/eproc4) *Tips you can search with name of subdomain Institution oder Region
+- [lpse lkpp ID](https://lpse.lkpp.go.id/eproc4) Tips you can search with name of subdomain Institution oder Region
 - [ahu ID](https://ahu.go.id/pencarian/profil-pt)
 - [Minerba ESDM ID](https://momi.minerba.esdm.go.id/gisportal/home/)
 - [MODI ID](https://modi.esdm.go.id/portal/dataPerusahaan)
@@ -5305,7 +5306,7 @@ Social Media Analytics
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
 - [breach-hq](https://breach-hq.com/threat-actors)
 - [United Nation PBB](https://main.un.org/securitycouncil/en/content/un-sc-consolidated-list)
-- [ID Sistem Informasi Penelusuran Perkara](https://sipp.pn-negara.go.id/) *Tips you can search by province or regency (subdomain)  
+- [ID Sistem Informasi Penelusuran Perkara](https://sipp.pn-negara.go.id/) Tips you can search by province or regency (subdomain)  
 - [socradar](https://socradar.io/labs/)
 - [scamsearch](https://www.scamsearch.io/) Global Scam Database Search by Profile Picture, Email, Username, Pseudo Name, Phone Number, crypto address or website.
 - [ID mahkamahagung](https://putusan3.mahkamahagung.go.id/)
@@ -5887,7 +5888,7 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [OCCRP Organized Crime and Corruption Reporting Project](https://www.occrp.org/en)
 - [PPP Directory](https://ppp.directory/search)
 - [ID LKPP](https://lkpp.go.id/)
-- [ID LPSE LKPP](https://lpse.lkpp.go.id/eproc4/lelang) *Tips you can search by province, institution or regency (subdomain)  
+- [ID LPSE LKPP](https://lpse.lkpp.go.id/eproc4/lelang) Tips you can search by province, institution or regency (subdomain)  
 - [ID PPATK](https://www.ppatk.go.id/publikasi/lists/1.html)
 - [ID KPK](https://www.kpk.go.id/id)
 - [ID Pelaporan KPK LHKPN](https://elhkpn.kpk.go.id/portal/user/petakepatuhan)
@@ -5998,9 +5999,9 @@ Search file in cloud like Google drive and other
 - [cloud enum](https://github.com/initstring/cloud_enum) Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
 - [dedigger](https://www.dedigger.com/#gsc.tab=0) Find public files in Google Drive
 - [Google DOCS CSE](https://cse.google.com/cse?cx=013991603413798772546:rse-4irjrn8) Search document in Google docs
-- [Find google drive public](https://cse.google.com/cse?cx=009049714591083331396:54vj9vejyek)
-- [Find google drive public 2](https://cse.google.com/cse?cx=013991603413798772546:nwzqlcysx_w)
-- [meawfy - mega.nz search engine](https://meawfy.com/)
+- [Find google drive public](https://cse.google.com/cse?cx=009049714591083331396:54vj9vejyek) Search document in Google docs
+- [Find google drive public 2](https://cse.google.com/cse?cx=013991603413798772546:nwzqlcysx_w) Search document in Google docs
+- [meawfy - mega.nz search engine](https://meawfy.com/) Search document in Mega cloud 
 
 # OSINT Property
 
@@ -6029,7 +6030,7 @@ This is path for you learn OSINT
 - [OSINT Handbook](https://i-intelligence.eu/uploads/public-documents/OSINT_Handbook_2020.pdf)
 - [The Threat Intelligence Lifecycle](https://www.recordedfuture.com/threat-intelligence-lifecycle)
 - [Five Phashes of the Threat Intelligence Lifecycle](https://flashpoint.io/blog/threat-intelligence-lifecycle/)
-- [Threat Intelligence Lifecycle | Phases & Best Practices Explained](https://snyk.io/learn/threat-intelligence/threat-intelligence-lifecycle/)
+- [Threat Intelligence Lifecycle Phases & Best Practices Explained](https://snyk.io/learn/threat-intelligence/threat-intelligence-lifecycle/)
 - [Open-Source Intelligence (OSINT) Cycle](https://securityorb.com/featured/the-open-source-intelligence-osint-cycle/)
 - [Learn and training OSINT free](https://sites.google.com/view/tpdprivacy/home?authuser=0)
 - [Bellingcat Resouces Guide](https://www.bellingcat.com/category/resources/)
