@@ -2358,12 +2358,18 @@ Mostly general for searching data like web enumerate, attack surface, email, per
 
 Search channel, username, bot and anymore
 
+- [tgdb BOT](https://www.tgdb.org/bot) *Need Tele account 
+- [directorytg](https://directorytg.com/)
+- [hottg](https://www.hottg.com/)
+- [Discover The Best Telegram Channels](https://telegramchannels.me/)
+- [Telegram viewer](https://xn--r1a.website/#)
 - [Maltego Telegram](https://github.com/vognik/maltego-telegram)
 - [Telegago](https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg#gsc.tab=0)
 - [Telegram search CSE](https://cse.google.com/cse?cx=004805129374225513871:p8lhfo0g3hg&q=)
 - [TelegramDB](http://www.telegramdb.org/)
 - [Telegram Database: channels, groups and users](https://t.me/s/privatelinks)
 - [Telegram channels and groups catalog](https://tgstat.com/)
+- [tgstat RU](https://tgstat.ru/)
 - [Social Finder](https://socialfinder.app/list/Telegram)
 - [Lyzem Search](https://lyzem.com/)
 - [Discover The Best Telegram Channels](https://telegramchannels.me/)
@@ -3269,6 +3275,7 @@ WhatsApp
 
 Telegram
 
+- [Telegram viewer](https://xn--r1a.website/#)
 - [TelegramDB](http://www.telegramdb.org/)
 - [tosint](https://github.com/drego85/tosint)
 - [Telegram Search Engine](https://xtea.io/)
@@ -5751,6 +5758,7 @@ Website
 - [xranks](https://xranks.com/)
 - [alternativeto](https://alternativeto.net/)
 - [DMCA Lumen DB](https://lumendatabase.org/)
+- [siteprice](https://www.siteprice.org/)
 
 Company 
 
@@ -6088,6 +6096,7 @@ You can search nickname, hacker team and hacker archive like web defacement data
 - [ownzyou](https://ownzyou.com/)
 - [hack db](https://hack-db.org//)
 - [defacer net](https://defacer.net/)
+- [z-x archived site](https://web.archive.org/web/*/z-x.my.id*) *you can use dork and cache for Google index search hacker nickname 
 
 # MISC
 

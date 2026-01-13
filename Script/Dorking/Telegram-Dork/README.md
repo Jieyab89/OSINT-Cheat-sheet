@@ -4,6 +4,13 @@
 
 - t.me 
 - telemetr.io 
+- telegramchannels.me
+- hottg.com
+- directorytg.com
+- tgstat.ru
+- tgstat.com
+- telegramdb.org
+- tgdb.org
 - Etc soon i will added more 
 
 # Example Dork 
