@@ -1217,7 +1217,7 @@ Web Defacement Archive
 - [Intelligence X](https://intelx.io/)
 - [Wiki Leaks](https://wikileaks.org/)
 - [DDO Secrets](https://ddosecrets.com/wiki/Distributed_Denial_of_Secrets)
-- [darkforums](https://darkforums.hn/) Availabe on Darkweb
+- [darkforums](https://darkforums.io/) Availabe on Darkweb
 - [Stealthmole](https://www.stealthmole.com/products/darkweb-tracker)
 - [Doxbin](https://doxbin.com/)
 - [Search0t](https://search.0t.rocks/)
@@ -3572,6 +3572,20 @@ Social Network and blogging
 - [tordex](https://www.tordex.app/)
 - [Grams (ONION SITE)](http://grams64rarzrk7rzdaz2fpb7lehcyi7zrrf5kd6w2uoamp7jw2aq6vyd.onion)
 - [Dargle](https://www.dargle.net/domains)
+- [onion archive (ONION LINK)](http://x4ijfwy76n6jl7rs4qyhe6qi5rv6xyuos3kaczgjpjcajigjzk3k7wqd.onion)
+- [onion dir (ONION LINK)](http://oniodtu6xudkiblcijrwwkduu2tdle3rav7nlszrjhrxpjtkg4brmgqd.onion)
+- [French Market (ONION LINK)](http://frenchwltobamdhyq5y2egezkbnz53ws5kaa6wnscildhnegdw5nhsyd.onion)
+- [Ransom Group Site (ONION LINK)](http://ransomwr3tsydeii4q43vazm7wofla5ujdajquitomtd47cxjtfgwyyd.onion/)
+- [Tor Links (ONION LINK)](http://torlinksge6enmcyyuxjpjkoouw4oorgdgeo7ftnq3zodj7g2zxi3kyd.onion/)
+- [Vormweb](https://vormweb.de/en/)
+- [tor.link](https://tor.link)
+- [darkweblinks](https://darkweblinks.com/)
+- [4get onion search (ONION LINK)](http://4getwebfrq5zr4sxugk6htxvawqehxtdgjrbcn2oslllcol2vepa23yd.onion)
+- [SearchXNG (ONION LINK)](http://searx3aolosaf3urwnhpynlhuokqsgz47si4pzz5hvb7uuzyjncl2tid.onion/)
+- [Onion find search (ONION LINK)](http://ofinde3b67voi7xiq3qflof2mwriwngicd7glwvf3bclgdgcjfozlzqd.onion/)
+- [Darksearchs (ONION LINK)](http://darkzqtmbdeauwq5mzcmgeeuhet42fhfjj4p5wbak3ofx2yqgecoeqyd.onion/)
+- [OnionX (ONION LINK)](http://onionxpwovutq7bfv54ees3sfhcj32euy4bd555vvc4aufemxhkzvoyd.onion/)
+- [Hidden wiki blog (ONION LINK)](http://darkwebp7lyr44rpgqdtevalty2pk5oqmc6m2cnicnix7itelt3lp3id.onion/)
 
 # Darkweb Intelligence
 
