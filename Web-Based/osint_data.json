@@ -568,6 +568,10 @@
             {
                 "name": "Labelbox dataset",
                 "url": "https://labelbox.com/datasets/"
+            },
+            {
+                "name": "tableau public dataset",
+                "url": "https://public.tableau.com/"
             }
         ]
     },
@@ -3831,6 +3835,10 @@
             {
                 "name": "webcitation",
                 "url": "https://www.webcitation.org/query"
+            },
+            {
+                "name": "z-x archived site",
+                "url": "https://web.archive.org/web/*/z-x.my.id*"
             }
         ]
     },
@@ -7993,6 +8001,26 @@
             {
                 "name": "Discover the location of nearby Telegram users",
                 "url": "https://github.com/tejado/telegram-nearby-map"
+            },
+            {
+                "name": "tgdb BOT",
+                "url": "https://www.tgdb.org/bot"
+            },
+            {
+                "name": "directorytg",
+                "url": "https://directorytg.com/"
+            },
+            {
+                "name": "hottg",
+                "url": "https://www.hottg.com/"
+            },
+            {
+                "name": "Telegram viewer",
+                "url": "https://xn--r1a.website/#"
+            },
+            {
+                "name": "tgstat RU",
+                "url": "https://tgstat.ru/"
             }
         ]
     },
@@ -11055,6 +11083,10 @@
             {
                 "name": "whatsapp Law Enforcement Online Requests",
                 "url": "https://www.whatsapp.com/records/login"
+            },
+            {
+                "name": "Telegram viewer",
+                "url": "https://xn--r1a.website/#"
             }
         ]
     },
@@ -19529,6 +19561,10 @@
             {
                 "name": "DMCA Lumen DB",
                 "url": "https://lumendatabase.org/"
+            },
+            {
+                "name": "siteprice",
+                "url": "https://www.siteprice.org/"
             }
         ]
     },
@@ -20342,6 +20378,10 @@
             {
                 "name": "myosint",
                 "url": "https://www.myosint.training/pages/free-resources"
+            },
+            {
+                "name": "Threat Intelligence Lifecycle Phases & Best Practices Explained",
+                "url": "https://snyk.io/learn/threat-intelligence/threat-intelligence-lifecycle/"
             }
         ]
     },
@@ -20485,6 +20525,10 @@
             {
                 "name": "defacer net",
                 "url": "https://defacer.net/"
+            },
+            {
+                "name": "z-x archived site",
+                "url": "https://web.archive.org/web/*/z-x.my.id*"
             }
         ]
     },
