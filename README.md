@@ -362,6 +362,7 @@ Site and forums OSINT community arround world
 - [codebeautify](https://codebeautify.org/recentLinksPage)
 - [Pastebin](https://pastebin.com/)
 - [bevigil](https://bevigil.com/osint-api)
+- [codeberg](https://codeberg.org/)
 
 *Pro Tips 
 
@@ -1657,7 +1658,6 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [leakpeek](https://leakpeek.com/)
 - [OSINT rock](https://osint.rocks/)
 - [clatscope](https://github.com/clats97/clatscope)
-- [onchain](https://www.onchain.industries/)
 - [OSINT indsutries](https://www.osint.industries/)
 - [lullar](https://lullar-com-3.appspot.com/en)
 - [namecheckr](https://www.namecheckr.com/)
@@ -2227,7 +2227,6 @@ Google queries for MySpace
 - [hackcheck](https://hackcheck.io/)
 - [h8mail](https://github.com/khast3x/h8mail)
 - [lampyre](https://lampyre.io/)
-- [onchain](https://www.onchain.industries/)
 - [email2phonenumber](https://github.com/martinvigo/email2phonenumber)
 - [lullar like a dork](https://com.lullar.com/)
 - [clatscope](https://github.com/clats97/clatscope)
@@ -3132,7 +3131,6 @@ Desktop NET debugger and assembly editor
 - [blockchair](https://blockchair.com/)
 - [GraphSense-Maltego-transform](https://github.com/INTERPOL-Innovation-Centre/GraphSense-Maltego-transform)
 - [chainalysis](https://www.chainalysis.com/blockchain-intelligence/)
-- [onchain industries](https://www.onchain.industries/)
 - [breadcrumbs](https://www.breadcrumbs.app/)
 
 # Crypto Market & Analysis  
@@ -3162,7 +3160,6 @@ Transaction Analysis
 - [bitaps](https://bitaps.com/)
 - [3pxl](https://3xpl.com/bitcoin)
 - [ARKHAM INTEL](https://intel.arkm.com/)
-- [onchain industries](https://www.onchain.industries/)
 - [breadcrumbs](https://www.breadcrumbs.app/)
 - [tonscan](https://tonscan.org/)
 - [ciphertrace](https://ciphertrace.com/)
@@ -3595,6 +3592,11 @@ Social Network and blogging
 - [Darksearchs (ONION LINK)](http://darkzqtmbdeauwq5mzcmgeeuhet42fhfjj4p5wbak3ofx2yqgecoeqyd.onion/)
 - [OnionX (ONION LINK)](http://onionxpwovutq7bfv54ees3sfhcj32euy4bd555vvc4aufemxhkzvoyd.onion/)
 - [Hidden wiki blog (ONION LINK)](http://darkwebp7lyr44rpgqdtevalty2pk5oqmc6m2cnicnix7itelt3lp3id.onion/)
+- [G dark onion search engine (ONION LINK)](http://zb2jtkhnbvhkya3d46twv3g7lkobi4s62tjffqmafjibixk6pmq75did.onion/gdark/search.php)
+- [TOR Land (ONION LINK)](http://torlgu6zhhtwe73fdu76uiswgnkfvukqfujofxjfo7vzoht2rndyhxyd.onion/)
+- [OurREALM search engine (ONION SITE)](http://orealmvxooetglfeguv2vp65a3rig2baq2ljc7jxxs4hsqsrcemkxcad.onion/)
+- [onionsearchengine](https://onionsearchengine.com/)
+- [Tor Search (ONION SITE)](http://tz75oxijdfwnobeh3sn6vfethrz4zqdasylrmp7euntqivbsaubojmyd.onion/)
 
 # Darkweb Intelligence
 
