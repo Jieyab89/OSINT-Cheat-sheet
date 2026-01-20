@@ -155,6 +155,7 @@ Automated tool by David Bombal
 
 # SOCMINT  
 
+- [webvetted](https://webvetted.com/)
 - [InstagramPrivSniffer](https://github.com/obitouka/InstagramPrivSniffer)
 - [socialblade](https://socialblade.com/)
 - [Instagram](https://github.com/Datalux/Osintgram)
@@ -283,6 +284,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [NASA visibleearth catalog](https://visibleearth.nasa.gov/)
 - [Labelbox dataset](https://labelbox.com/datasets/)
 - [tableau public dataset](https://public.tableau.com/)
+- [World’s single largest Internet domains dataset](https://github.com/tb0hdan/domains)
 
 # Forums & Sites
 
@@ -461,6 +463,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 
 # Web Intelligence
 
+- [similartech](https://similartech.com/)
 - [web-check](https://web-check.as93.net/)
 - [whatsmyname](https://whatsmyname.app/)
 - [similarsitesearch](https://www.similarsitesearch.com/)
@@ -599,6 +602,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [dehashed](https://dehashed.com/)
 - [dnsdumpster](https://dnsdumpster.com/)
 - [rapiddns](https://rapiddns.io/)
+- [atsameip](https://atsameip.com/)
 
 *Tips web cache 
 
@@ -853,6 +857,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [worldcam RU](https://world-cam.ru/)
 - [TVway RU](https://tvway.ru/)
 - [insecam](http://www.insecam.org/)
+- [Campod - IP CAM (MOST INDONESIAN ID)](https://campod.my.id/)
 
 # IP Addresses
 
@@ -1540,6 +1545,7 @@ Crack medium article
 - [fastpeoplesearch](https://fastpeoplesearch.io/)
 - [Profile Scout](https://profile-scout-16ba7f56.base44.app/)
 - [famousbirthdays](https://www.famousbirthdays.com/)
+- [webvetted](https://webvetted.com/)
 
 # Family People Search 
 
@@ -1558,6 +1564,7 @@ Crack medium article
 
 # Phone Numbers
 
+- [Whatsapp profile picture checker and other](https://whatsapp.checkleaked.cc/)
 - [whocalld](https://whocalld.com/)
 - [predictasearch](https://www.predictasearch.com/)
 - [argali](http://www.argali.com)
@@ -2416,8 +2423,11 @@ Search channel, username, bot and anymore
 - [PasswordSearchBot](https://t.me/PasswordSearchBot)
 - [Telegram-Trilateration](https://github.com/jkctech/Telegram-Trilateration?tab=readme-ov-file)
 - [Discover the location of nearby Telegram users](https://github.com/tejado/telegram-nearby-map)
+- [waybien search telegram chat, grup and other](https://waybien.com/en)
 
 Telegram Tips 
+
+View and parse the data like usernanme, private group, phone number and etc 
 
 - [t.me/<change usernam>](https://t.me/USERNAME)
 - [t.me/joinchat/<VALUE>](https://t.me/joinchat/HASHVALUE)
@@ -2552,6 +2562,8 @@ Scribd viewer
 - [faceagle](https://faceagle.com/)
 - [camgirlfinder](https://camgirlfinder.net/)
 - [Google cse flickr image search](https://cse.google.com/cse?cx=011444696387487602669:nl3ze53kw8g#gsc.tab=0&gsc.q=yogyakarta&gsc.page=8)
+- [reversely](https://www.reversely.ai/)
+- [surfface](https://surfface.com/)
 
 # Image Analysis
 
@@ -3271,6 +3283,8 @@ WhatsApp
 - [WaGpScraper](https://github.com/riz4d/WaGpScraper)
 - [realgrouplinks](https://realgrouplinks.com/)
 - [whatsapp Law Enforcement Online Requests](https://www.whatsapp.com/records/login)
+- [Whatsapp profile picture checker and other](https://whatsapp.checkleaked.cc/)
+- [WhatsApp-OSINT](https://github.com/kinghacker0/WhatsApp-OSINT?tab=readme-ov-file)
 
 Telegram
 
@@ -3294,6 +3308,7 @@ Telegram
 - [Telegram Search CSE](https://cse.google.com/cse?cx=004805129374225513871:p8lhfo0g3hg&q=)
 - [Bellingcat Telegram Joiner](https://bellingcat.github.io/telegram-group-joiner/)
 - [matkap hunt down malicious Telegram bots  web based](https://matkap.cti.monster/)
+- [instagram spoiler Decode hidden text from Telegram](https://spoiler.soxoj.com/)
 
 # Build Sockpuppet Accounts
 
@@ -3600,6 +3615,10 @@ Social Network and blogging
 - [Darkwebdaily](https://darkwebdaily.net/)
 - [Dautlink](https://daunt.link/)
 - [Tor Taxi](https://tor.taxi/)
+- [NotEvil Search Engine (ONION SITE)](http://notevil2ebbr5xjww6nryjta7bycbriyi2vh7an3wcuovlznvobykmad.onion/)
+- [Darksearch search engine (ONION SITE)](http://notevil2ebbr5xjww6nryjta7bycbriyi2vh7an3wcuovlznvobykmad.onion/)
+- [Just onion (ONION SITE)](http://justdirs5iebdkegiwbp3k6vwgwyr5mce7pztld23hlluy22ox4r3iad.onion/)
+- [The Hidden Wiki (ONION SITE)](http://zqktlwiuavvvqqt4ybvgvi7tyo4hjl5xgfuvpdf6otjiycgwqbym2qad.onion/wiki/index.php/Main_Page)
 
 # Darkweb Intelligence
 
@@ -4875,6 +4894,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [Tor metrics exonarator](https://metrics.torproject.org/exonerator.html)
 - [Whois IP Lookup domaintools](https://whois.domaintools.com/)
 - [bigdomaindata](https://www.bigdomaindata.com/)
+- [atsameip](https://atsameip.com/)
 
 # Medical OSINT 
 
@@ -5744,6 +5764,8 @@ Image and Vidio Analyzer
 - [Google Vidio Search](https://www.google.com/videohp?hl=id)
 - [invid-project](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)
 - [Face Similarity Test Online](https://facecomparison.toolpie.com/)
+- [reversely](https://www.reversely.ai/)
+- [google image search](https://www.google.com/imghp?hl=EN)
 
 Website 
 
@@ -5767,6 +5789,7 @@ Website
 - [alternativeto](https://alternativeto.net/)
 - [DMCA Lumen DB](https://lumendatabase.org/)
 - [siteprice](https://www.siteprice.org/)
+- [similartech](https://similartech.com/)
 
 Company 
 
