@@ -12149,6 +12149,18 @@
             {
                 "name": "Tor Search (ONION SITE)",
                 "url": "http://tz75oxijdfwnobeh3sn6vfethrz4zqdasylrmp7euntqivbsaubojmyd.onion/"
+            },
+            {
+                "name": "Darkwebdaily",
+                "url": "https://darkwebdaily.net/"
+            },
+            {
+                "name": "Dautlink",
+                "url": "https://daunt.link/"
+            },
+            {
+                "name": "Tor Taxi",
+                "url": "https://tor.taxi/"
             }
         ]
     },
@@ -12442,6 +12454,10 @@
             {
                 "name": "Darkweb labs settup",
                 "url": "https://hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf"
+            },
+            {
+                "name": "breaking bad forums (ONION SITE)",
+                "url": "http://bbzzzsvqcrqtki6umym6itiixfhni37ybtt7mkbjyxn2pgllzxf2qgyd.onion/"
             }
         ]
     },
