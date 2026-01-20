@@ -3597,9 +3597,13 @@ Social Network and blogging
 - [OurREALM search engine (ONION SITE)](http://orealmvxooetglfeguv2vp65a3rig2baq2ljc7jxxs4hsqsrcemkxcad.onion/)
 - [onionsearchengine](https://onionsearchengine.com/)
 - [Tor Search (ONION SITE)](http://tz75oxijdfwnobeh3sn6vfethrz4zqdasylrmp7euntqivbsaubojmyd.onion/)
+- [Darkwebdaily](https://darkwebdaily.net/)
+- [Dautlink](https://daunt.link/)
+- [Tor Taxi](https://tor.taxi/)
 
 # Darkweb Intelligence
 
+- [breaking bad forums (ONION SITE)](http://bbzzzsvqcrqtki6umym6itiixfhni37ybtt7mkbjyxn2pgllzxf2qgyd.onion/)
 - [onion scan](https://onionscan.org/)
 - [onionite](https://github.com/lukechilds/onionite?tab=readme-ov-file)
 - [WhiteIntel](https://whiteintel.io/)
