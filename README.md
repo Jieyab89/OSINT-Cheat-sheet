@@ -155,6 +155,7 @@ Automated tool by David Bombal
 
 # SOCMINT  
 
+- [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
 - [webvetted](https://webvetted.com/)
 - [InstagramPrivSniffer](https://github.com/obitouka/InstagramPrivSniffer)
 - [socialblade](https://socialblade.com/)
@@ -380,6 +381,7 @@ Endpoint list Github
 - https://github.com/search?type=issues&q=<value>
 - https://github.com/search?type=commits&q=<value>
 - https://github.com/search/advanced
+- https://github.com/topics/<value>
 
 Guide Github search code by Jieyab89 : https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Github-Search 
 
@@ -463,6 +465,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 
 # Web Intelligence
 
+- [Abuse IP DB](https://www.abuseipdb.com/)
 - [similartech](https://similartech.com/)
 - [web-check](https://web-check.as93.net/)
 - [whatsmyname](https://whatsmyname.app/)
@@ -641,7 +644,6 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [Malwareworld](https://malwareworld.com/)
 - [DNS TWIST](https://github.com/elceef/dnstwist)
 - [URL CRAZY - Phishing detector](https://github.com/urbanadventurer/urlcrazy)
-- [CRT - Find cert ssl and etc](https://crt.sh/)
 - [Phishing catcher](https://github.com/x0rz/phishing_catcher)
 - [Open Phish](https://openphish.com/phishing_feeds.html)
 - [Phishtalk](https://www.phishtank.com/phish_archive.php)
@@ -672,6 +674,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 
 # Researching Cyber Threats
 
+- [URL Haus](https://urlhaus.abuse.ch/)
 - [watchguard ransomtracker](https://www.watchguard.com/wgrd-security-hub/ransomware-tracker)
 - [nomoreransom](https://www.nomoreransom.org/en/decryption-tools.html)
 - [ID Ransomware analysis](https://id-ransomware.malwarehunterteam.com/)
@@ -735,7 +738,6 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [Malwareworld](https://malwareworld.com/)
 - [DNS TWIST](https://github.com/elceef/dnstwist)
 - [URL CRAZY - Phishing detector](https://github.com/urbanadventurer/urlcrazy)
-- [CRT - Find cert ssl and etc](https://crt.sh/)
 - [Phishing catcher](https://github.com/x0rz/phishing_catcher)
 - [Blackite](https://blackkite.com/community/)
 - [Open Phish](https://openphish.com/phishing_feeds.html)
@@ -1173,6 +1175,7 @@ Example
 
 # Internet Archive
 
+- [nationalarchives](https://www.nationalarchives.gov.uk/)
 - [DMCA Lumen DB](https://lumendatabase.org/)
 - [Wayback Machine](https://web.archive.org/)
 - [Intelligence X](https://intelx.io/)
@@ -1282,7 +1285,6 @@ Web Defacement Archive
 - [Scrib Downloader 3](https://scribdownloader.com/)
 - [documentcloud](https://www.documentcloud.org/)
 - [Leak Finder [ONION SITE]](http://leakfindrg5s2zcwwdmxlvz6oefz6hdwlkckh4eir4huqcpjsefxkead.onion/Market)
-- [psbdmp](https://psbdmp.ws/)
 - [hacked email com [archived site]](https://web.archive.org/web/*/http://hacked-emails.com/*)
 - [domainbigdata com [archived site]](https://web.archive.org/web/*/https://domainbigdata.com/*)
 - [Personal data leak check](https://cybernews.com/personal-data-leak-check/)
@@ -1463,6 +1465,7 @@ Crack medium article
 - [libraryofleaks](https://search.libraryofleaks.org/)
 - [open-search aleph](https://open-search.aleph-networks.eu/)
 - [usersearch](https://usersearch.com/)
+- [pappers FR](https://www.pappers.fr/)
 
 # People Searching
 
@@ -2255,6 +2258,7 @@ Google queries for MySpace
 - [Personal data leak check](https://cybernews.com/personal-data-leak-check/)
 - [bosint](https://app.bosint.gg/)
 - [blackbird (mostly Indonesia)](https://blackbird.mom/)
+- [API protnon mail check creation date](https://api.protonmail.ch/pks/lookup?op=index&search=<changeemaiiladdr>)
 
 # PGP or GPG Keybase 
 
@@ -2567,6 +2571,7 @@ Scribd viewer
 
 # Image Analysis
 
+- [facerec face compare aka face reccon](https://facerec.gjung.com/ComparingFaces)
 - [ExifTool](https://exiftool.org/)
 - [Exif Search](http://www.exif-search.com)
 - [FotoForensics](http://www.fotoforensics.com)
@@ -4127,6 +4132,8 @@ Strict and disable bot crawl search engine index account
 - [ID Samsat](https://samsat.info/cek-pajak-kendaraan-bermotor-online)
 - [Free Car Check UK](https://motorscan.co.uk/)
 - [vehicleregistrationapi](https://www.vehicleregistrationapi.com/)
+- [auto-info.gratis](https://auto-info.gratis/)
+- [mail.e-data.com.ua](https://mail.e-data.com.ua/)
 
 VIN Checker 
 
@@ -4203,6 +4210,7 @@ Public Transport
 - [airplanes](https://globe.airplanes.live/)
 - [airnavradar](https://www.airnavradar.com/data/flights)
 - [aireon](https://aireon.com/)
+- [IATA check airlines code](https://www.iata.org/en/publications/directories/code-search/)
 
 # Ship Tracking & Maritim
 
@@ -4895,6 +4903,9 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [Whois IP Lookup domaintools](https://whois.domaintools.com/)
 - [bigdomaindata](https://www.bigdomaindata.com/)
 - [atsameip](https://atsameip.com/)
+- [ip2location](https://www.ip2location.io/)
+- [IP2Whois - whois information lookup](https://www.ip2whois.com/)
+- [ipwhois](https://ipwhois.io/)
 
 # Medical OSINT 
 
