@@ -381,7 +381,7 @@ Endpoint list Github
 - https://github.com/search?type=issues&q=<value>
 - https://github.com/search?type=commits&q=<value>
 - https://github.com/search/advanced
-- https://github.com/topics/<value>
+- https://github.com/topics/change_this_value_search
 
 Guide Github search code by Jieyab89 : https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Github-Search 
 
