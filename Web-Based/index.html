@@ -70,6 +70,24 @@
             fill: #ffffff;
             pointer-events: none;
         }
+
+        .link {
+        stroke: #888;
+        stroke-width: 1.2;
+        fill: none;
+        stroke-dasharray: 6 6;
+        animation: flow 1.6s linear infinite;
+        opacity: 0.9;
+        }
+
+        @keyframes flow {
+        from {
+            stroke-dashoffset: 0;
+        }
+        to {
+            stroke-dashoffset: -24;
+        }
+        }
     </style>
     
 </head>
@@ -78,133 +96,252 @@
     <input type="text" id="search" placeholder="Search by Category Name and Jieyab89 Wiki's">
     <svg></svg>
     <script>
-        let allNodes = [], allLinks = [];
+        const BATCH_SIZE = 5;
+        const BASE_RADIUS = 140;
+        const DRIFT_SPEED = 0.25;
+        const SEPARATION_DIST = 42;
+        const SEPARATION_FORCE = 0.015;
+
+        let rawData = [];
+        let nodes = [];
+        let links = [];
+        let nodeMap = new Map();
+        let urlIndex = new Map();
+
+        function rand(min, max) {
+        return Math.random() * (max - min) + min;
+        }
+
+        function normalizeUrl(url) {
+        return url.trim().toLowerCase();
+        }
+
+        function linkExists(a, b) {
+        return links.some(l =>
+            (l.source === a && l.target === b) ||
+            (l.source === b && l.target === a)
+        );
+        }
 
         fetch('osint_data.json')
-            .then(response => response.json())
-            .then(data => {
-                allNodes = [];
-                allLinks = [];
-                const nodeMap = new Map();
-
-                data.forEach(category => {
-                    let catNode = { id: category.category, type: 'category' };
-                    allNodes.push(catNode);
-                    nodeMap.set(category.category, catNode);
-
-                    category.items.forEach(item => {
-                        let toolNode = { id: item.name, url: item.url, type: 'tool' };
-                        allNodes.push(toolNode);
-                        allLinks.push({ source: category.category, target: item.name });
-                        nodeMap.set(item.name, toolNode);
-                    });
-                });
-                updateGraph(allNodes, allLinks);
-            })
-            .catch(error => console.error("Error loading JSON:", error));
-
-        function updateGraph(nodes, links) {
-            d3.select("svg").selectAll("*").remove();
-
-            const width = window.innerWidth;
-            const height = window.innerHeight;
-
-            const svg = d3.select("svg")
-                .attr("width", width)
-                .attr("height", height)
-                .call(d3.zoom().on("zoom", (event) => {
-                    svgGroup.attr("transform", event.transform);
-                }));
-
-            let svgGroup = svg.append("g");
-
-            const simulation = d3.forceSimulation(nodes)
-                .force("link", d3.forceLink(links).id(d => d.id).distance(150))
-                .force("charge", d3.forceManyBody().strength(-300))
-                .force("center", d3.forceCenter(width / 2, height / 2))
-                .force("collision", d3.forceCollide().radius(40));
-
-            const link = svgGroup.append("g")
-                .selectAll("line")
-                .data(links)
-                .enter().append("line")
-                .attr("class", "link");
-
-            const node = svgGroup.append("g")
-                .selectAll("g")
-                .data(nodes)
-                .enter().append("g");
-
-            node.append("circle")
-                .attr("r", d => d.type === 'category' ? 12 : 8)
-                .attr("fill", d => d.type === 'category' ? "#FF5733" : "#1E90FF")
-                .call(d3.drag()
-                    .on("start", dragstarted)
-                    .on("drag", dragged)
-                    .on("end", dragended));
-
-            node.append("text")
-                .attr("dy", -15)
-                .attr("text-anchor", "middle")
-                .text(d => d.id);
-
-            node.on("click", (event, d) => {
-                if (d.url) {
-                    window.open(d.url, "_blank");
-                }
-            });
-
-            simulation.on("tick", () => {
-                link
-                    .attr("x1", d => d.source.x)
-                    .attr("y1", d => d.source.y)
-                    .attr("x2", d => d.target.x)
-                    .attr("y2", d => d.target.y);
-
-                node
-                    .attr("transform", d => `translate(${d.x},${d.y})`);
-            });
-        }
-
-        document.getElementById("search").addEventListener("input", function() {
-            const searchTerm = this.value.toLowerCase();
-            if (searchTerm === "") {
-                updateGraph(allNodes, allLinks);
-                return;
-            }
-
-            const filteredNodes = [];
-            const filteredLinks = [];
-
-            allNodes.forEach(node => {
-                if (node.type === 'category' && node.id.toLowerCase().includes(searchTerm)) {
-                    filteredNodes.push(node);
-                    allLinks.forEach(link => {
-                        if (link.source.id === node.id) {
-                            filteredNodes.push(link.target);
-                            filteredLinks.push(link);
-                        }
-                    });
-                }
-            });
-
-            updateGraph(filteredNodes, filteredLinks);
+        .then(r => r.json())
+        .then(data => {
+        rawData = data;
+        initCategories();
+        requestAnimationFrame(idleMotion);
         });
 
-        function dragstarted(event, d) {
-            if (!event.active) event.sourceEvent.stopPropagation();
-            d.fx = d.x;
-            d.fy = d.y;
+        function initCategories(filtered = null) {
+        nodes = [];
+        links = [];
+        nodeMap.clear();
+        urlIndex.clear();
+
+        const data = filtered || rawData;
+        const cx = innerWidth / 2;
+        const cy = innerHeight / 2;
+
+        data.forEach(cat => {
+            const n = {
+            id: cat.category,
+            label: cat.category,
+            type: 'category',
+            _items: cat.items,
+            _offset: 0,
+            x: cx + rand(-400, 400),
+            y: cy + rand(-260, 260),
+            vx: rand(-DRIFT_SPEED, DRIFT_SPEED),
+            vy: rand(-DRIFT_SPEED, DRIFT_SPEED),
+            dragging: false
+            };
+            nodes.push(n);
+            nodeMap.set(n.id, n);
+        });
+
+        render();
         }
 
-        function dragged(event, d) {
-            d.fx = event.x;
-            d.fy = event.y;
+        function handleUrlCorrelation(node) {
+        if (!node.url) return;
+        const key = normalizeUrl(node.url);
+
+        if (!urlIndex.has(key)) urlIndex.set(key, new Set());
+
+        urlIndex.get(key).forEach(otherId => {
+            if (!linkExists(node.id, otherId)) {
+            links.push({ source: node.id, target: otherId, type: "correlation" });
+            }
+        });
+
+        urlIndex.get(key).add(node.id);
         }
 
-        function dragended(event, d) {
-            d.fx = null;
-            d.fy = null;
+        function expandNode(parent) {
+        if (!parent._items || parent._offset >= parent._items.length) return;
+
+        const start = parent._offset;
+        const end = Math.min(start + BATCH_SIZE, parent._items.length);
+        const radius = BASE_RADIUS + (parent.type === 'category' ? 80 : 140);
+
+        for (let i = start; i < end; i++) {
+            const item = parent._items[i];
+            if (nodeMap.has(item.name)) continue;
+
+            const c = {
+            id: item.name,
+            label: item.name,
+            type: parent.type === 'category' ? 'tool' : 'subtool',
+            url: item.url || null,
+            parent: parent.id,
+            _items: item.children || [],
+            _offset: 0,
+            x: parent.x + rand(-radius, radius),
+            y: parent.y + rand(-radius, radius),
+            vx: rand(-DRIFT_SPEED, DRIFT_SPEED),
+            vy: rand(-DRIFT_SPEED, DRIFT_SPEED),
+            dragging: false
+            };
+
+            nodes.push(c);
+            nodeMap.set(c.id, c);
+            links.push({ source: parent.id, target: c.id, type: "parent" });
+            handleUrlCorrelation(c);
+        }
+
+        parent._offset = end;
+        render();
+        }
+
+        document.getElementById("search").addEventListener("keydown", e => {
+        if (e.key !== "Enter") return;
+        const q = e.target.value.trim().toLowerCase();
+        if (!q) return initCategories();
+
+        initCategories(rawData.filter(c =>
+            c.category.toLowerCase().includes(q)
+        ));
+        });
+
+        let zoomLayer, graphLayer, nodeSel, linkSel;
+
+        function render() {
+        d3.select("svg").selectAll("*").remove();
+
+        const svg = d3.select("svg")
+            .attr("width", innerWidth)
+            .attr("height", innerHeight)
+            .call(
+            d3.zoom()
+                .scaleExtent([0.3, 5])
+                .on("zoom", e => {
+                zoomLayer.attr("transform", e.transform);
+                })
+            );
+
+        zoomLayer = svg.append("g");
+        graphLayer = zoomLayer.append("g");
+
+        linkSel = graphLayer.selectAll("line")
+            .data(links)
+            .enter()
+            .append("line")
+            .attr("class", d =>
+            d.type === "correlation" ? "link correlation" : "link"
+            );
+
+        nodeSel = graphLayer.selectAll("g")
+            .data(nodes)
+            .enter()
+            .append("g")
+            .attr("transform", d => `translate(${d.x},${d.y})`)
+            .call(
+            d3.drag()
+                .on("start", (e, d) => {
+                d.dragging = true;
+                e.sourceEvent.stopPropagation(); 
+                })
+                .on("drag", (e, d) => {
+                const dx = e.x - d.x;
+                const dy = e.y - d.y;
+                d.x = e.x;
+                d.y = e.y;
+
+                nodes.forEach(n => {
+                    if (n.parent === d.id) {
+                    n.x += dx;
+                    n.y += dy;
+                    }
+                });
+                update();
+                })
+                .on("end", (e, d) => d.dragging = false)
+            );
+
+        nodeSel.append("circle")
+            .attr("r", d =>
+            d.type === 'category' ? 18 :
+            d.type === 'tool' ? 11 : 8
+            )
+            .attr("fill", d =>
+            d.type === 'category' ? "#ff5733" :
+            d.type === 'tool' ? "#1e90ff" : "#00ffaa"
+            );
+
+        nodeSel.append("text")
+            .attr("dy", -20)
+            .attr("text-anchor", "middle")
+            .attr("font-size", "12px")
+            .text(d => d.label);
+
+        nodeSel
+            .on("click", (e, d) => d.url && window.open(d.url, "_blank"))
+            .on("dblclick", (e, d) => expandNode(d));
+
+        update();
+        }
+
+        function update() {
+        nodeSel.attr("transform", d => `translate(${d.x},${d.y})`);
+        linkSel
+            .attr("x1", d => nodeMap.get(d.source).x)
+            .attr("y1", d => nodeMap.get(d.source).y)
+            .attr("x2", d => nodeMap.get(d.target).x)
+            .attr("y2", d => nodeMap.get(d.target).y);
+        }
+
+        function idleMotion() {
+        const cx = innerWidth / 2;
+        const cy = innerHeight / 2;
+        const boundX = innerWidth * 0.45;
+        const boundY = innerHeight * 0.35;
+
+        nodes.forEach((a, i) => {
+            if (a.dragging) return;
+
+            a.x += a.vx;
+            a.y += a.vy;
+
+            if (a.x < cx - boundX || a.x > cx + boundX) a.vx *= -1;
+            if (a.y < cy - boundY || a.y > cy + boundY) a.vy *= -1;
+
+            for (let j = i + 1; j < nodes.length; j++) {
+            const b = nodes[j];
+            const dx = a.x - b.x;
+            const dy = a.y - b.y;
+            const dist = Math.sqrt(dx*dx + dy*dy);
+
+            if (dist > 0 && dist < SEPARATION_DIST) {
+                const push = (SEPARATION_DIST - dist) / SEPARATION_DIST * SEPARATION_FORCE;
+                a.x += dx * push;
+                a.y += dy * push;
+                b.x -= dx * push;
+                b.y -= dy * push;
+            }
+            }
+        });
+
+        update();
+        requestAnimationFrame(idleMotion);
         }
     </script>
 </body>
