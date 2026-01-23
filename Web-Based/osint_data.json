@@ -1,13 +1,5 @@
 [
     {
-        "category": "OSINT CHEAT SHEET - List OSINT Tools [![Github Badge](https://img.shields.io/badge/-Jieyab89-black?style=flat&logo=github&logoColor=white&link=https://github.com/Jieyab89/)](https://github.com/Jieyab89)",
-        "items": []
-    },
-    {
-        "category": "See Jieyab Wiki pages",
-        "items": []
-    },
-    {
         "category": "See Jieyab Gitbook",
         "items": [
             {
@@ -47,14 +39,6 @@
                 "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/inside-about-data-breach-in-osint"
             }
         ]
-    },
-    {
-        "category": "Tips & Trick Safe Guide Using Resources",
-        "items": []
-    },
-    {
-        "category": "These Resources Are Recommend For",
-        "items": []
     },
     {
         "category": "Linux Distribution For OSINT",
@@ -21192,240 +21176,120 @@
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/1-Jieyab-Wiki-Backlink"
             },
             {
-                "name": "Please reload this page",
-                "url": "https://github.com"
-            },
-            {
                 "name": "All About Doxing",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-Doxing"
-            },
-            {
-                "name": "Please reload this page",
-                "url": "https://github.com"
             },
             {
                 "name": "All About OSINT Matters Things in OSINT",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-OSINT-Matters-Things-in-OSINT"
             },
             {
-                "name": "Please reload this page",
-                "url": "https://github.com"
-            },
-            {
                 "name": "All About SIGINT Signal Intelligence",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-SIGINT-Signal-Intelligence"
-            },
-            {
-                "name": "Please reload this page",
-                "url": "https://github.com"
             },
             {
                 "name": "Cell Investigations",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Cell-Investigations"
             },
             {
-                "name": "Please reload this page",
-                "url": "https://github.com"
-            },
-            {
                 "name": "Geospatial Intelligence",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Geospatial-Intelligence"
-            },
-            {
-                "name": "Please reload this page",
-                "url": "https://github.com"
             },
             {
                 "name": "How to OSINT Collection the Data",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/How-to-OSINT-Collection-the-Data"
             },
             {
-                "name": "Please reload this page",
-                "url": "https://github.com"
-            },
-            {
                 "name": "How to Verify Content & Discover Content",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/How-to-Verify-Content-&-Discover-Content"
-            },
-            {
-                "name": "Please reload this page",
-                "url": "https://github.com"
             },
             {
                 "name": "IMINT  ‐ Image and Vidio Analysis",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/IMINT--%E2%80%90-Image-and-Vidio-Analysis"
             },
             {
-                "name": "Please reload this page",
-                "url": "https://github.com"
-            },
-            {
                 "name": "Intelligence Base & Knowledge Base",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Intelligence-Base-&-Knowledge-Base"
-            },
-            {
-                "name": "Please reload this page",
-                "url": "https://github.com"
             },
             {
                 "name": "OSINT for Academic Literature",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Academic-Literature"
             },
             {
-                "name": "Please reload this page",
-                "url": "https://github.com"
-            },
-            {
                 "name": "OSINT for Email Lookup Tips",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Email-Lookup-Tips"
-            },
-            {
-                "name": "Please reload this page",
-                "url": "https://github.com"
             },
             {
                 "name": "OSINT for Historical",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Historical"
             },
             {
-                "name": "Please reload this page",
-                "url": "https://github.com"
-            },
-            {
                 "name": "OSINT for Journalism",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Journalism"
-            },
-            {
-                "name": "Please reload this page",
-                "url": "https://github.com"
             },
             {
                 "name": "OSINT for OPSEC (Operational security)",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-OPSEC-(Operational-security)"
             },
             {
-                "name": "Please reload this page",
-                "url": "https://github.com"
-            },
-            {
                 "name": "OSINT for War Analysis & Geopolitics",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-War-Analysis-&-Geopolitics"
-            },
-            {
-                "name": "Please reload this page",
-                "url": "https://github.com"
             },
             {
                 "name": "OSINT Risk & General",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-Risk-&-General"
             },
             {
-                "name": "Please reload this page",
-                "url": "https://github.com"
-            },
-            {
                 "name": "OSINT Where OSINT Data From",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-Where-OSINT-Data-From"
-            },
-            {
-                "name": "Please reload this page",
-                "url": "https://github.com"
             },
             {
                 "name": "OSINT ‐ Inside About Data Breach",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-%E2%80%90-Inside-About-Data-Breach"
             },
             {
-                "name": "Please reload this page",
-                "url": "https://github.com"
-            },
-            {
                 "name": "OSINT ‐ Tips Investigations & Analysis",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-%E2%80%90-Tips-Investigations-&-Analysis"
-            },
-            {
-                "name": "Please reload this page",
-                "url": "https://github.com"
             },
             {
                 "name": "SOCMINT Challenge",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/SOCMINT-Challenge"
             },
             {
-                "name": "Please reload this page",
-                "url": "https://github.com"
-            },
-            {
                 "name": "SOCMINT ‐ Facebook",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/SOCMINT-%E2%80%90-Facebook"
-            },
-            {
-                "name": "Please reload this page",
-                "url": "https://github.com"
             },
             {
                 "name": "Welcome to the OSINT‐Cheat‐sheet wiki!",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Welcome-to-the-OSINT%E2%80%90Cheat%E2%80%90sheet-wiki!"
             },
             {
-                "name": "Please reload this page",
-                "url": "https://github.com"
-            },
-            {
                 "name": "What is BIAS? (prejudices)",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/What-is-BIAS%3F-(prejudices)"
-            },
-            {
-                "name": "Please reload this page",
-                "url": "https://github.com"
             },
             {
                 "name": "What is Data Broker",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/What-is-Data-Broker"
             },
             {
-                "name": "Please reload this page",
-                "url": "https://github.com"
-            },
-            {
                 "name": "What is Data Enrichment & Pivoting",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/What-is-Data-Enrichment-&-Pivoting"
-            },
-            {
-                "name": "Please reload this page",
-                "url": "https://github.com"
             },
             {
                 "name": "What is Metadata",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/What-is-Metadata"
             },
             {
-                "name": "Please reload this page",
-                "url": "https://github.com"
-            },
-            {
                 "name": "What is Propaganda",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/What-is-Propaganda"
-            },
-            {
-                "name": "Please reload this page",
-                "url": "https://github.com"
             },
             {
                 "name": "What is Sock Puppets Account",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/What-is-Sock-Puppets-Account"
             },
             {
-                "name": "Please reload this page",
-                "url": "https://github.com"
-            },
-            {
                 "name": "Who OSINT Used",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Who-OSINT-Used"
-            },
-            {
-                "name": "Please reload this page",
-                "url": "https://github.com"
             }
         ]
     }
