@@ -1,5 +1,9 @@
 # OSINT CHEAT SHEET - List OSINT Tools [![Github Badge](https://img.shields.io/badge/-Jieyab89-black?style=flat&logo=github&logoColor=white&link=https://github.com/Jieyab89/)](https://github.com/Jieyab89)
 
+![image](https://github.com/user-attachments/assets/6f1fbfe1-11a4-4c1b-b5fd-669107197ca2)
+
+Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and others. There are free and paid tools you can use and owner is not responsible (take your own risks), only for knowledge or educational purposes. Apologies if some of the resources are no longer available or contain errors, as the owner does not regularly check the status of these resources, If there is new information, the owner will add it to this repo along with the category. If you want to read about techniques and intelligence some have already been added to the Wiki page [Jieyaboo Wiki](https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki) The owner will add them back. If there are any errors let us know thank you.
+
 # See Jieyab Wiki pages 
 
 Contains information about OSINT tips, OSINT branches and knowledge about intelligence
@@ -10,12 +14,15 @@ Contains information about OSINT tips, OSINT branches and knowledge about intell
 
 Contains information about OSINT tips, write up usage resouces and more tips about OSINT and OSINT branch
 
-[![Wiki](https://img.shields.io/badge/GitHub_Wiki-📖%20Jieyab89-blue?style=for-the-badge)](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips)
-
-
-![image](https://github.com/user-attachments/assets/37d7d761-c1f3-40f5-9ecd-d79457ee8a6e)
-
-Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and others. There are free and paid tools you can use and owner is not responsible (take your own risks), only for knowledge or educational purposes. Apologies if some of the resources are no longer available or contain errors, as the owner does not regularly check the status of these resources, If there is new information, the owner will add it to this repo along with the category. If you want to read about techniques and intelligence some have already been added to the Wiki page [Jieyaboo Wiki](https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki) The owner will add them back. If there are any errors let us know thank you.
+- [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
+- [All About Doxing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing)
+- [All About OSINT Matters Things in OSINT](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-osint-thing-in-osint)
+- [All About SIGINT Signal Intelligence](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-sigint-signal-intelligence)
+- [Cell Investigations](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-cell-phone)
+- [Geospatial Intelligence](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/geospatial-intelligence)
+- [What is Data Enrichment & Pivoting](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/what-is-data-enrichment-and-pivoting)
+- [How to Spot a Deepfake](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/how-to-spot-a-deepfake)
+- [OSINT ‐ Inside About Data Breach](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/inside-about-data-breach-in-osint)
 
 # Tips & Trick Safe Guide Using Resources 
 
@@ -1219,6 +1226,7 @@ Web Defacement Archive
 
 # Data Breached OSINT
 
+- [telegra.ph](https://telegra.ph/) You can use dork for search data
 - [leakix](https://leakix.net/)
 - [leakScraper](https://github.com/Acceis/leakScraper)
 - [clatscope](https://github.com/clats97/clatscope)
@@ -1661,6 +1669,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 
 # Finding Usernames
 
+- [dmeta](https://dmeta.me/)
 - [360username](https://360username.com/)
 - [TraceFind](https://tracefind.info)
 - [Snusbase](https://snusbase.com/)
@@ -2166,6 +2175,7 @@ Google queries for MySpace
 
 # Email Tracking
 
+- [dmeta](https://dmeta.me/)
 - [mosint](https://github.com/alpkeskin/mosint)
 - [TraceFind](https://tracefind.info)
 - [intelbase](https://intelbase.is/)
@@ -2480,6 +2490,7 @@ Telegram tips. Change the hash value, username, phone number on the endpoint or 
 - [Web Archive](https://web.archive.org/)
 - [documentcloud](https://www.documentcloud.org/)
 - [meawfy - mega.nz search engine](https://meawfy.com/)
+- [telegra.ph](https://telegra.ph/) You can use dork for search data
 
 Scribd viewer 
 
@@ -2706,6 +2717,7 @@ Scribd viewer
 - [unscreen](https://www.unscreen.com/)
 - [shutterstock](https://www.shutterstock.com/royalty-free/reverse-image-search-for-video)
 - [invid-project](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)
+- [asciinema](https://asciinema.org/)
 
 # Geospatial Research and Mapping Tools
 
@@ -6145,6 +6157,7 @@ You can search nickname, hacker team and hacker archive like web defacement data
 - [tubeoffline - Tools and media downloader](https://www.tubeoffline.com/)
 - [humantraffickingsearch](https://humantraffickingsearch.org/)
 - [turboscribe - YT Tools and downloander and conveter](https://turboscribe.ai/)
+- [telegra.ph](https://telegra.ph/) You can use dork for search data
 
 List available data source OSINT for other country 
 
