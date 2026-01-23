@@ -9,7 +9,44 @@
     },
     {
         "category": "See Jieyab Gitbook",
-        "items": []
+        "items": [
+            {
+                "name": "Intelligence Base & Knowledge Base",
+                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base"
+            },
+            {
+                "name": "All About Doxing",
+                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing"
+            },
+            {
+                "name": "All About OSINT Matters Things in OSINT",
+                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-osint-thing-in-osint"
+            },
+            {
+                "name": "All About SIGINT Signal Intelligence",
+                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-sigint-signal-intelligence"
+            },
+            {
+                "name": "Cell Investigations",
+                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-cell-phone"
+            },
+            {
+                "name": "Geospatial Intelligence",
+                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/geospatial-intelligence"
+            },
+            {
+                "name": "What is Data Enrichment & Pivoting",
+                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/what-is-data-enrichment-and-pivoting"
+            },
+            {
+                "name": "How to Spot a Deepfake",
+                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/how-to-spot-a-deepfake"
+            },
+            {
+                "name": "OSINT ‐ Inside About Data Breach",
+                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/inside-about-data-breach-in-osint"
+            }
+        ]
     },
     {
         "category": "Tips & Trick Safe Guide Using Resources",
@@ -85,6 +122,14 @@
     {
         "category": "SOCMINT",
         "items": [
+            {
+                "name": "Social Analyzer",
+                "url": "https://github.com/qeeqbox/social-analyzer"
+            },
+            {
+                "name": "webvetted",
+                "url": "https://webvetted.com/"
+            },
             {
                 "name": "InstagramPrivSniffer",
                 "url": "https://github.com/obitouka/InstagramPrivSniffer"
@@ -585,6 +630,10 @@
             {
                 "name": "tableau public dataset",
                 "url": "https://public.tableau.com/"
+            },
+            {
+                "name": "World’s single largest Internet domains dataset",
+                "url": "https://github.com/tb0hdan/domains"
             }
         ]
     },
@@ -1152,6 +1201,14 @@
         "category": "Web Intelligence",
         "items": [
             {
+                "name": "Abuse IP DB",
+                "url": "https://www.abuseipdb.com/"
+            },
+            {
+                "name": "similartech",
+                "url": "https://similartech.com/"
+            },
+            {
                 "name": "web-check",
                 "url": "https://web-check.as93.net/"
             },
@@ -1702,6 +1759,10 @@
             {
                 "name": "rapiddns",
                 "url": "https://rapiddns.io/"
+            },
+            {
+                "name": "atsameip",
+                "url": "https://atsameip.com/"
             }
         ]
     },
@@ -1807,10 +1868,6 @@
             {
                 "name": "URL CRAZY - Phishing detector",
                 "url": "https://github.com/urbanadventurer/urlcrazy"
-            },
-            {
-                "name": "CRT - Find cert ssl and etc",
-                "url": "https://crt.sh/"
             },
             {
                 "name": "Phishing catcher",
@@ -1925,6 +1982,10 @@
     {
         "category": "Researching Cyber Threats",
         "items": [
+            {
+                "name": "URL Haus",
+                "url": "https://urlhaus.abuse.ch/"
+            },
             {
                 "name": "watchguard ransomtracker",
                 "url": "https://www.watchguard.com/wgrd-security-hub/ransomware-tracker"
@@ -2176,10 +2237,6 @@
             {
                 "name": "URL CRAZY - Phishing detector",
                 "url": "https://github.com/urbanadventurer/urlcrazy"
-            },
-            {
-                "name": "CRT - Find cert ssl and etc",
-                "url": "https://crt.sh/"
             },
             {
                 "name": "Phishing catcher",
@@ -2657,6 +2714,10 @@
             {
                 "name": "insecam",
                 "url": "http://www.insecam.org/"
+            },
+            {
+                "name": "Campod - IP CAM (MOST INDONESIAN ID)",
+                "url": "https://campod.my.id/"
             }
         ]
     },
@@ -3714,6 +3775,10 @@
         "category": "Internet Archive",
         "items": [
             {
+                "name": "nationalarchives",
+                "url": "https://www.nationalarchives.gov.uk/"
+            },
+            {
                 "name": "DMCA Lumen DB",
                 "url": "https://lumendatabase.org/"
             },
@@ -3866,6 +3931,10 @@
     {
         "category": "Data Breached OSINT",
         "items": [
+            {
+                "name": "telegra.ph",
+                "url": "https://telegra.ph/"
+            },
             {
                 "name": "leakix",
                 "url": "https://leakix.net/"
@@ -4129,10 +4198,6 @@
             {
                 "name": "Leak Finder [ONION SITE]",
                 "url": "http://leakfindrg5s2zcwwdmxlvz6oefz6hdwlkckh4eir4huqcpjsefxkead.onion/Market"
-            },
-            {
-                "name": "psbdmp",
-                "url": "https://psbdmp.ws/"
             },
             {
                 "name": "hacked email com [archived site]",
@@ -4798,6 +4863,10 @@
             {
                 "name": "usersearch",
                 "url": "https://usersearch.com/"
+            },
+            {
+                "name": "pappers FR",
+                "url": "https://www.pappers.fr/"
             }
         ]
     },
@@ -5119,6 +5188,10 @@
             {
                 "name": "famousbirthdays",
                 "url": "https://www.famousbirthdays.com/"
+            },
+            {
+                "name": "webvetted",
+                "url": "https://webvetted.com/"
             }
         ]
     },
@@ -5178,6 +5251,10 @@
     {
         "category": "Phone Numbers",
         "items": [
+            {
+                "name": "Whatsapp profile picture checker and other",
+                "url": "https://whatsapp.checkleaked.cc/"
+            },
             {
                 "name": "whocalld",
                 "url": "https://whocalld.com/"
@@ -5520,6 +5597,10 @@
     {
         "category": "Finding Usernames",
         "items": [
+            {
+                "name": "dmeta",
+                "url": "https://dmeta.me/"
+            },
             {
                 "name": "360username",
                 "url": "https://360username.com/"
@@ -7043,6 +7124,10 @@
         "category": "Email Tracking",
         "items": [
             {
+                "name": "dmeta",
+                "url": "https://dmeta.me/"
+            },
+            {
                 "name": "mosint",
                 "url": "https://github.com/alpkeskin/mosint"
             },
@@ -7409,6 +7494,10 @@
             {
                 "name": "blackbird (mostly Indonesia)",
                 "url": "https://blackbird.mom/"
+            },
+            {
+                "name": "API protnon mail check creation date",
+                "url": "https://api.protonmail.ch/pks/lookup?op=index&search=<changeemaiiladdr>"
             }
         ]
     },
@@ -8032,6 +8121,10 @@
                 "url": "https://github.com/tejado/telegram-nearby-map"
             },
             {
+                "name": "waybien search telegram chat, grup and other",
+                "url": "https://waybien.com/en"
+            },
+            {
                 "name": "t.me/<change usernam>",
                 "url": "https://t.me/USERNAME"
             },
@@ -8196,6 +8289,10 @@
             {
                 "name": "meawfy - mega.nz search engine",
                 "url": "https://meawfy.com/"
+            },
+            {
+                "name": "telegra.ph",
+                "url": "https://telegra.ph/"
             },
             {
                 "name": "How to view scribd",
@@ -8514,12 +8611,24 @@
             {
                 "name": "Google cse flickr image search",
                 "url": "https://cse.google.com/cse?cx=011444696387487602669:nl3ze53kw8g#gsc.tab=0&gsc.q=yogyakarta&gsc.page=8"
+            },
+            {
+                "name": "reversely",
+                "url": "https://www.reversely.ai/"
+            },
+            {
+                "name": "surfface",
+                "url": "https://surfface.com/"
             }
         ]
     },
     {
         "category": "Image Analysis",
         "items": [
+            {
+                "name": "facerec face compare aka face reccon",
+                "url": "https://facerec.gjung.com/ComparingFaces"
+            },
             {
                 "name": "ExifTool",
                 "url": "https://exiftool.org/"
@@ -9041,6 +9150,10 @@
             {
                 "name": "invid-project",
                 "url": "https://www.invid-project.eu/tools-and-services/invid-verification-plugin/"
+            },
+            {
+                "name": "asciinema",
+                "url": "https://asciinema.org/"
             }
         ]
     },
@@ -11014,6 +11127,14 @@
                 "url": "https://www.whatsapp.com/records/login"
             },
             {
+                "name": "Whatsapp profile picture checker and other",
+                "url": "https://whatsapp.checkleaked.cc/"
+            },
+            {
+                "name": "WhatsApp-OSINT",
+                "url": "https://github.com/kinghacker0/WhatsApp-OSINT?tab=readme-ov-file"
+            },
+            {
                 "name": "Telegram viewer",
                 "url": "https://xn--r1a.website/#"
             },
@@ -11092,6 +11213,10 @@
             {
                 "name": "matkap hunt down malicious Telegram bots  web based",
                 "url": "https://matkap.cti.monster/"
+            },
+            {
+                "name": "instagram spoiler Decode hidden text from Telegram",
+                "url": "https://spoiler.soxoj.com/"
             }
         ]
     },
@@ -12161,12 +12286,32 @@
             {
                 "name": "Tor Taxi",
                 "url": "https://tor.taxi/"
+            },
+            {
+                "name": "NotEvil Search Engine (ONION SITE)",
+                "url": "http://notevil2ebbr5xjww6nryjta7bycbriyi2vh7an3wcuovlznvobykmad.onion/"
+            },
+            {
+                "name": "Darksearch search engine (ONION SITE)",
+                "url": "http://notevil2ebbr5xjww6nryjta7bycbriyi2vh7an3wcuovlznvobykmad.onion/"
+            },
+            {
+                "name": "Just onion (ONION SITE)",
+                "url": "http://justdirs5iebdkegiwbp3k6vwgwyr5mce7pztld23hlluy22ox4r3iad.onion/"
+            },
+            {
+                "name": "The Hidden Wiki (ONION SITE)",
+                "url": "http://zqktlwiuavvvqqt4ybvgvi7tyo4hjl5xgfuvpdf6otjiycgwqbym2qad.onion/wiki/index.php/Main_Page"
             }
         ]
     },
     {
         "category": "Darkweb Intelligence",
         "items": [
+            {
+                "name": "breaking bad forums (ONION SITE)",
+                "url": "http://bbzzzsvqcrqtki6umym6itiixfhni37ybtt7mkbjyxn2pgllzxf2qgyd.onion/"
+            },
             {
                 "name": "onion scan",
                 "url": "https://onionscan.org/"
@@ -12454,10 +12599,6 @@
             {
                 "name": "Darkweb labs settup",
                 "url": "https://hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf"
-            },
-            {
-                "name": "breaking bad forums (ONION SITE)",
-                "url": "http://bbzzzsvqcrqtki6umym6itiixfhni37ybtt7mkbjyxn2pgllzxf2qgyd.onion/"
             }
         ]
     },
@@ -14038,6 +14179,14 @@
                 "url": "https://www.vehicleregistrationapi.com/"
             },
             {
+                "name": "auto-info.gratis",
+                "url": "https://auto-info.gratis/"
+            },
+            {
+                "name": "mail.e-data.com.ua",
+                "url": "https://mail.e-data.com.ua/"
+            },
+            {
                 "name": "faxvin",
                 "url": "https://www.faxvin.com/"
             },
@@ -14309,6 +14458,10 @@
             {
                 "name": "aireon",
                 "url": "https://aireon.com/"
+            },
+            {
+                "name": "IATA check airlines code",
+                "url": "https://www.iata.org/en/publications/directories/code-search/"
             }
         ]
     },
@@ -16571,6 +16724,22 @@
             {
                 "name": "bigdomaindata",
                 "url": "https://www.bigdomaindata.com/"
+            },
+            {
+                "name": "atsameip",
+                "url": "https://atsameip.com/"
+            },
+            {
+                "name": "ip2location",
+                "url": "https://www.ip2location.io/"
+            },
+            {
+                "name": "IP2Whois - whois information lookup",
+                "url": "https://www.ip2whois.com/"
+            },
+            {
+                "name": "ipwhois",
+                "url": "https://ipwhois.io/"
             }
         ]
     },
@@ -19480,6 +19649,14 @@
                 "url": "https://facecomparison.toolpie.com/"
             },
             {
+                "name": "reversely",
+                "url": "https://www.reversely.ai/"
+            },
+            {
+                "name": "google image search",
+                "url": "https://www.google.com/imghp?hl=EN"
+            },
+            {
                 "name": "similarweb",
                 "url": "https://www.similarweb.com/website/"
             },
@@ -19558,6 +19735,10 @@
             {
                 "name": "siteprice",
                 "url": "https://www.siteprice.org/"
+            },
+            {
+                "name": "similartech",
+                "url": "https://similartech.com/"
             },
             {
                 "name": "Venture Radar",
@@ -20573,6 +20754,10 @@
                 "url": "https://turboscribe.ai/"
             },
             {
+                "name": "telegra.ph",
+                "url": "https://telegra.ph/"
+            },
+            {
                 "name": "OSINT of Israel",
                 "url": "https://unishka.substack.com/p/osint-of-israel"
             },
@@ -21197,6 +21382,14 @@
             {
                 "name": "What is Data Broker",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/What-is-Data-Broker"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "What is Data Enrichment & Pivoting",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/What-is-Data-Enrichment-&-Pivoting"
             },
             {
                 "name": "Please reload this page",
