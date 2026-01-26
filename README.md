@@ -4573,7 +4573,8 @@ Social Engineering (Social E)
 - [same web cloner](https://same.dev/)
 - [anonymailer email sender](https://www.anonymailer.net/m-demo.asp)
 - [letsencrypt for free ssl](https://letsencrypt.org/id/)
-
+- [copyweb](https://copyweb.net)
+- 
 Active Directory
 
 - [Active Directory Cheat](https://github.com/esidate/pentesting-active-directory) Active Directory Pentesting Mind Map 
