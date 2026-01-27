@@ -1022,6 +1022,7 @@ You can find the file hash or other threat indicator
 - [cyble](https://cyble.com/)
 - [cyfirma](https://www.cyfirma.com/)
 - [opensourcemalware](https://opensourcemalware.com/)
+- [Google threat intelligence ](https://cloud.google.com/security/products/threat-intelligence#threat-intelligence-and-advanced-hunting)
 
 # Automation Dorking 
 
@@ -1050,6 +1051,7 @@ You can find the file hash or other threat indicator
 
 # Github 
 
+- [trendshift github trend repo](https://trendshift.io/github-trending-repositories)
 - [GROT](https://github.com/montysecurity/GROT)
 - [Github search name and find ID](https://caius.github.io/github_id/)
 - [Github Archive](https://www.gharchive.org/)
@@ -3408,6 +3410,8 @@ Build your own deepfake
 - [WAN AI](https://wan.video/)
 - [SORA AI](https://sora.chatgpt.com/)
 - [deevid](https://deevid.ai/)
+- [Gemini VEO 3](https://gemini.google/subscriptions)
+- [klingai](https://app.klingai.com/)
 
 Virtual Camera or Camera Replacement
 
