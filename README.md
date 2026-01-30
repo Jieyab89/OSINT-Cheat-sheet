@@ -1239,6 +1239,7 @@ Web Defacement Archive
 - [Wiki Leaks](https://wikileaks.org/)
 - [DDO Secrets](https://ddosecrets.com/wiki/Distributed_Denial_of_Secrets)
 - [darkforums](https://darkforums.io/) Availabe on Darkweb
+- [breachforums](https://breachforums.cz/index.php)
 - [Stealthmole](https://www.stealthmole.com/products/darkweb-tracker)
 - [Doxbin](https://doxbin.com/)
 - [Search0t](https://search.0t.rocks/)
@@ -5045,6 +5046,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [flightradar24 gps jamming](https://www.flightradar24.com/data/gps-jamming?date=2025-06-19)
 - [warpowerindonesia](https://www.warpowerindonesia.com/) There are many other country
 - [vantor](https://vantor.com/)
+- [maps tochnyi mostly Ukraine war](https://maps.tochnyi.info/humansafari/)
 
 Simulator and Game 
 
