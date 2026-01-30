@@ -55,6 +55,20 @@ Contains information about OSINT tips, write up usage resouces and more tips abo
 - Law Enforcer
 - General 
 
+# Legal Consider and Law International 
+
+## Legal & Ethical Considerations for OSINT
+
+| Country / Region | Legal Framework | Key Legal Considerations | OSINT / PII Implications |
+|------------------|-----------------|--------------------------|---------------------------|
+| **Indonesia 🇮🇩** | **Personal Data Protection Law (Law No. 27 of 2022)** — [Official Text (BPK PDF)](https://peraturan.bpk.go.id/Home/Details/224884/uu-no-27-tahun-2022)<br>**Electronic Information and Transactions Law (UU ITE)** — [Law Overview](https://jdih.kominfo.go.id/produk_hukum/view/id/555/t/undangundang+nomor+11+tahun+2008) | Requires a lawful basis for processing personal data (consent, contract, legal obligation, legitimate interest, etc.). Data subjects have rights. UU ITE prohibits unlawful access and misuse of electronic data. | OSINT using publicly available data is generally permissible, **but processing identifiable personal data must comply with PDP Law principles** such as purpose limitation and data minimization. |
+| **European Union 🇪🇺** | **General Data Protection Regulation (GDPR)** — [Official EU Text](https://eur-lex.europa.eu/eli/reg/2016/679/oj) | Processing requires a lawful basis (consent, legitimate interest, etc.). Transparency, accountability, and data subject rights apply. High-risk processing may require a DPIA. | Public availability does **not** remove GDPR obligations. OSINT involving EU residents’ personal data must meet GDPR compliance standards. |
+| **Spain 🇪🇸** | **LOPDGDD (Spain’s Organic Law on Data Protection) + GDPR** — [Official Text (BOE)](https://www.boe.es/eli/es/lo/2018/12/05/3) | Supplements GDPR with national rules. Legitimate interest may apply for research under strict necessity and proportionality tests. | OSINT research must document lawful basis and balance privacy impact against legitimate interest. |
+| **Mexico 🇲🇽** | **Federal Law on Protection of Personal Data Held by Private Parties** — [Official Government Portal](https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf) | Requires privacy notice, lawful basis, and safeguards when processing personal data. Individuals have rights to access, rectify, cancel, or oppose data use. | Collecting public data is allowed, but processing personal data still falls under legal protections. |
+| **United States 🇺🇸** | **Computer Fraud and Abuse Act (CFAA)** — [Cornell Law School Reference](https://www.law.cornell.edu/uscode/text/18/1030)<br>**State Privacy Laws (e.g., CCPA/CPRA)** — [California DOJ](https://oag.ca.gov/privacy/ccpa) | Prohibits unauthorized access to computers and bypassing authentication. Privacy laws vary by state. | OSINT is legal when using publicly accessible sources. Accessing restricted systems or circumventing security controls is illegal. |
+| **International (Human Rights)** | **International Covenant on Civil and Political Rights (ICCPR), Article 17** — [UN Text](https://www.ohchr.org/en/instruments-mechanisms/instruments/international-covenant-civil-and-political-rights) | Recognizes the right to privacy and protection from arbitrary interference. Applies to digital environments. | OSINT activities should respect fundamental privacy rights even when data is publicly accessible. |
+| **OSINT Ethical Principles (Non-Legal)** | Community-driven OSINT codes of conduct and research ethics | Use only lawfully and publicly available sources. Avoid doxxing, stalking, harassment, or data resale. Minimize sensitive data collection. | Ethical practice often goes beyond legal requirements and reduces risk of harm, misuse, or reputational damage. |
+
 # Linux Distribution For OSINT 
 
 You can build it with VM or Live USB make sure you have sandbox machine 
@@ -1495,6 +1509,7 @@ Crack medium article
 - [SINTA ID](https://sinta.kemdikbud.go.id/)
 - [Social Searcher](https://www.social-searcher.com/)
 - [Pimeyes](https://pimeyes.com/en)
+- [OSINT Pimeyes](https://osint.pimeyes.com/)
 - [Rocketreach](https://rocketreach.co/)
 - [SignalHire](https://www.signalhire.com/)
 - [Website informer](https://website.informer.com/)
@@ -2545,6 +2560,7 @@ Scribd viewer
 - [Betaface](https://www.betaface.com/demo.html)
 - [Search4faces](https://search4faces.com/)
 - [Pimeyes](https://pimeyes.com/en)
+- [OSINT Pimeyes](https://osint.pimeyes.com/)
 - [Reminiai](https://remini.ai/)
 - [Search4face](https://search4faces.com/en/)
 - [Vkfacewatch](https://vk.watch/)
@@ -3717,6 +3733,7 @@ Social Network and blogging
 - [thedarkweblinks](https://thedarkweblinks.com/)
 - [dark fail](https://dark.fail/)
 - [search aleph - Darkweb](https://open-search.aleph-networks.eu/en)
+- [darkdump](https://github.com/josh0xA/darkdump)
 
 Guide 
 
@@ -4789,6 +4806,7 @@ Awesome Burpsuite Extension
 - [Wayback Machine](https://portswigger.net/bappstore/5c7c516c690345c19fbf55b2b2ebeb76)
 - [403 Bypasser](https://portswigger.net/bappstore/444407b96d9c4de0adb7aed89e826122)
 - [BURP MCP SERVER](https://github.com/PortSwigger/mcp-server)
+- [IP Rotate](https://portswigger.net/bappstore/2eb2b1cb1cf34cc79cda36f0f9019874) Need AWS account and insert your creds and config on AWS dashboard
 
 C2 & C4 
 
@@ -5599,6 +5617,7 @@ Ex Guides:
 - [scrapy](https://www.scrapy.org/) Pyhton lib for scrapper
 - [puppeteer](https://github.com/puppeteer/puppeteer) JavaScript API for Chrome and Firefox for scrapper
 - [SNSSCRAPE](https://github.com/JustAnotherArchivist/snscrape) Scrapper tool for Twitter or X
+- [Photon](https://github.com/s0md3v/Photon)
 
 # OSINT IRC Chat
 
