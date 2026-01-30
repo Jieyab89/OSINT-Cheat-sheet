@@ -14,7 +14,21 @@ You are required to log in to get the best results
 
 Analysis with Github event API
 
+This case possible to view commit message git when --force with the developer or contributor. You can see the commit with the GitHub event, but keep in mind that GitHub events still store it (it hasn't been deleted). I experienced this when I was working with my college friends XD. Or you can see the Github forks, sometime there is people doesnt update or sync with the main repo or check the pull request   
+
 Doc : https://docs.github.com/en/rest/activity/events?apiVersion=2022-11-28
+
+```
+Request Github forks 
+
+curl https://api.github.com/repos/OWNER/REPO/forks
+```
+
+Then 
+
+```
+git log --all --oneline --graph
+```
 
 ```
 Request 
