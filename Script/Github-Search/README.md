@@ -5,6 +5,65 @@ You are required to log in to get the best results
 1. Navigate on Github search 
 2. Search by "search qualifier." on Github, here the example qualifier 
 
+# Useful Git Command 
+
+- git show -> Show details of the latest commit
+- git logs -> Show full commit history
+- git diff -> Show unstaged changes
+- git log --graph --oneline --all -> Show history with branch graph
+
+Analysis with Github event API
+
+Doc : https://docs.github.com/en/rest/activity/events?apiVersion=2022-11-28
+
+```
+Request 
+
+curl \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer YOUR_GITHUB_TOKEN" \
+  https://api.github.com/repos/OWNER/REPO/events
+
+```
+
+```
+Response
+...................
+{
+  "type": "PushEvent",
+  "payload": {
+    "before": "OLD_SHA_BEFORE_FORCE",
+    "head": "NEW_SHA_AFTER_FORCE"
+  }
+}
+
+```
+Desc for response body 
+
+before -> commit before force-push
+
+head -> commit after force-push
+
+If you find a before value, it is the SHA commit before the forced push that was lost from the branch. You can use that SHA to view the commit data or even restore it. 
+
+View commit 
+
+```
+curl \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer YOUR_GITHUB_TOKEN" \
+  https://api.github.com/repos/OWNER/REPO/commits/OLD_SHA_BEFORE_FORCE
+```
+The JSON response will provide:
+
+message commit
+
+author
+
+diff file
+
+other metadata
+
 Repository & Owner
 
 > repo:owner/repo 
