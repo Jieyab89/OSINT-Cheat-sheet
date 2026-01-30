@@ -31,6 +31,9 @@ git log --all --oneline --graph
 ```
 
 ```
+
+Github event API, check event commit SHA message from Github repo, this request need auth with your account. You can use curl or postman for hit the API
+
 Request 
 
 curl \
