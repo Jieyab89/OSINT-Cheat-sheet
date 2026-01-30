@@ -3273,6 +3273,10 @@
             {
                 "name": "opensourcemalware",
                 "url": "https://opensourcemalware.com/"
+            },
+            {
+                "name": "Google threat intelligence",
+                "url": "https://cloud.google.com/security/products/threat-intelligence#threat-intelligence-and-advanced-hunting"
             }
         ]
     },
@@ -3443,6 +3447,10 @@
             {
                 "name": "gitdorks_go",
                 "url": "https://github.com/damit5/gitdorks_go"
+            },
+            {
+                "name": "trendshift github trend repo",
+                "url": "https://trendshift.io/github-trending-repositories"
             }
         ]
     },
@@ -4218,6 +4226,10 @@
             {
                 "name": "dehashed",
                 "url": "https://dehashed.com/"
+            },
+            {
+                "name": "breachforums",
+                "url": "https://breachforums.cz/index.php"
             }
         ]
     },
@@ -11586,6 +11598,14 @@
             {
                 "name": "nord",
                 "url": "https://nordvpn.com/"
+            },
+            {
+                "name": "Gemini VEO 3",
+                "url": "https://gemini.google/subscriptions"
+            },
+            {
+                "name": "klingai",
+                "url": "https://app.klingai.com/"
             }
         ]
     },
@@ -17258,6 +17278,10 @@
             {
                 "name": "smallarmssurvey",
                 "url": "https://www.smallarmssurvey.org/databases"
+            },
+            {
+                "name": "maps tochnyi mostly Ukraine war",
+                "url": "https://maps.tochnyi.info/humansafari/"
             }
         ]
     },
@@ -21106,6 +21130,10 @@
             {
                 "name": "OSINT on Discord: How to Find Discord Emails, Phone Numbers and More",
                 "url": "https://www.osint.industries/post/osint-on-discord-how-to-find-discord-emails-phone-numbers-and-more"
+            },
+            {
+                "name": "Extract information anonymous telegram user with sticker",
+                "url": "https://hackernoon.com/whats-wrong-with-stickers-in-telegram-deanonymize-anonymous-channels-in-two-clicks"
             }
         ]
     },
@@ -21290,7 +21318,143 @@
             {
                 "name": "Who OSINT Used",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Who-OSINT-Used"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
             }
         ]
+    },
+    {
+        "category": "OSINT CHEAT SHEET - List OSINT Tools [![Github Badge](https://img.shields.io/badge/-Jieyab89-black?style=flat&logo=github&logoColor=white&link=https://github.com/Jieyab89/)](https://github.com/Jieyab89)",
+        "items": []
+    },
+    {
+        "category": "Tips & Trick Safe Guide Using Resources",
+        "items": []
+    },
+    {
+        "category": "See Jieyab Wiki pages",
+        "items": []
+    },
+    {
+        "category": "These Resources Are Recommend For",
+        "items": []
     }
 ]
