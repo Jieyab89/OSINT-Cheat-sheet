@@ -56,13 +56,13 @@ curl \
 ```
 The JSON response will provide:
 
-message commit
+- message commit
 
-author
+- author
 
-diff file
+- diff file
 
-other metadata
+Github search operator other metadata
 
 Repository & Owner
 
