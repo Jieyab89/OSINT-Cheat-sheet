@@ -4,6 +4,26 @@
 
 Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and others. There are free and paid tools you can use and owner is not responsible (take your own risks), only for knowledge or educational purposes. Apologies if some of the resources are no longer available or contain errors, as the owner does not regularly check the status of these resources, If there is new information, the owner will add it to this repo along with the category. If you want to read about techniques and intelligence some have already been added to the Wiki page [Jieyaboo Wiki](https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki) The owner will add them back. If there are any errors let us know thank you.
 
+# Tips & Trick Safe Guide Using Resources 
+
+Please take a notes. Due to the large number of supply chain attacks, refer to OWASP TOP 10 2025. My advice is to use a sandbox machine that does not contain your personal data and office. With the rise of malware stealers, crypto miners, and other threats, to reduce this risk, you can use fake accounts on social media, email, phone numbers, and your sandbox machine, as well as turn on your AV (Anti Virus) and firewall.
+
+Tips: 
+
+- Use virtual machine, fake host or docker machine, or cloud machine try on your vps 
+- Use private network e.g vpn, tor, p2p 
+- Use second account (not you real account)
+- Read ToS the resouces 
+- Enable your firewall, AV and IDS on your host or machine
+- Strict your browser with the privacy extension disable js, ads and more
+- Dont upload your private files make sure you have clean personal file in folder
+- Scan the files will you download
+- Encrypt your network traffic, message and disk
+- Beware about attachments such as docx, xlsm or macro documents (Check macros don't immediately press enable, check properties file to do strict mode)
+- Beware about malicious script like programm lang always check will you run it e.g review, code and community usage (like plugin, library, github source code, extension browser, extension code editor or other things) beware with code with obfuscate (dont trust it)
+- Do a active on each platform example like post, follow, following to avoid bot detection or blocked by user (target)
+- If tools are paid try on with demo trial version with sock (fake) account, many on this resouces there is a paid so i suggest to try demo firstIf there is a payment such as using crypto, try to track the transaction using Arkham or similar. If it is non-crypto, make sure there is a clear contact us, support, and email. Do not rush to pay. If you want to pay and are forced to, find the cheapest version and pay using a virtual account or third-party service to make the transaction  
+
 # See Jieyab Wiki pages 
 
 Contains information about OSINT tips, OSINT branches and knowledge about intelligence
@@ -23,25 +43,6 @@ Contains information about OSINT tips, write up usage resouces and more tips abo
 - [What is Data Enrichment & Pivoting](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/what-is-data-enrichment-and-pivoting)
 - [How to Spot a Deepfake](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/how-to-spot-a-deepfake)
 - [OSINT ‐ Inside About Data Breach](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/inside-about-data-breach-in-osint)
-
-# Tips & Trick Safe Guide Using Resources 
-
-Please take a notes. Due to the large number of supply chain attacks, refer to OWASP TOP 10 2025. My advice is to use a sandbox machine that does not contain your personal data and office. With the rise of malware stealers, crypto miners, and other threats, to reduce this risk, you can use fake accounts on social media, email, phone numbers, and your sandbox machine, as well as turn on your AV (Anti Virus) and firewall.
-
-Tips: 
-
-- Use virtual machine, fake host or docker machine 
-- Use private network e.g vpn, tor, p2p 
-- Use second account (not you real account)
-- Read ToS the resouces 
-- Enable your firewall, AV and IDS on your host or machine
-- Strict your browser with the privacy extension disable js, ads and more
-- Dont upload your private files make sure you have clean personal file in folder
-- Scan the files will you download
-- Encrypt your network traffic, message and disk
-- Beware about attachments such as docx, xlsm or macro documents (Check macros don't immediately press enable, check properties file to do strict mode)
-- Beware about malicious script like programm lang always check will you run it 
-- Do a active on each platform example like post, follow, following to avoid bot detection or blocked by user (target)
 
 # These Resources Are Recommend For 
 
