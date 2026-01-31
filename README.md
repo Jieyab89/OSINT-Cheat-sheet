@@ -307,6 +307,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [Labelbox dataset](https://labelbox.com/datasets/)
 - [tableau public dataset](https://public.tableau.com/)
 - [World’s single largest Internet domains dataset](https://github.com/tb0hdan/domains)
+- [7 darkweb market forum datasets, with usernames obfuscated](https://github.com/gayanku/darkweb_clearweb_darktopics?tab=readme-ov-file)
 
 # Forums & Sites
 
@@ -1726,6 +1727,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [castrickclues](https://castrickclues.com/)
 - [usersearch](https://usersearch.com/)
 - [blackbird (mostly Indonesia)](https://blackbird.mom/)
+- [user-scanner](https://github.com/kaifcodec/user-scanner/releases/tag/v1.1.0)
 
 # Social Networks
 
@@ -1831,6 +1833,8 @@ or you can use dork for spesific example
 
 # OSINT Adult or Porn (18+)
 
+- [justpaste](https://justpaste.it/)
+- [terabox](https://www.terabox.com/)
 - [erome](https://www.erome.com/)
 - [trakteer](https://trakteer.id/)
 - [bedpage](http://bedpage.com/)
@@ -1840,6 +1844,7 @@ or you can use dork for spesific example
 - [eros](https://eros.com/)
 - [onlyfans](https://onlyfans.com/onlyfans)
 - [discord](https://discord.com/) You must to know the server 
+- [facebook](https://www.facebook.com/) You must to know the grup or post 
 - [telegram](https://web.telegram.org/) You must to know the channel or group 
 - [slixa](https://www.slixa.com/)
 - [kaskus](https://www.kaskus.co.id/) You must to dork 
@@ -1849,10 +1854,14 @@ or you can use dork for spesific example
 - [singlemanforum](https://singlemanforum.com/)
 - [Reddit](https://www.reddit.com/) You must to dork
 - [mega](https://mega.io/id/)
+- [mediafire](https://www.mediafire.com/)
+- [sexvid](https://www.sexvid.pro/reset-password/)
+- [xnxx](https://www.xnxx.com/account/checkemail)
+- [xvideos](https://www.xvideos.com/account/checkemail)
 
 Pro Tips 
 
-Note is for investigator like search scandal, deepfake porn or blackmail, red distric review, women and porn actress. Searching for scandal or blackmail or deepfake porn doesn't have to be on the listed sites, there are many perpetrators uploading on several platforms You need to do massive scrapping to collect this information, but there are times when they do it on platforms such as telegram, X or adult sites, you can search using dork, regex and other things
+Note is for investigator like search scandal, deepfake porn or blackmail, red distric review, women and porn actress. Searching for scandal or blackmail or deepfake porn doesn't have to be on the listed sites, there are many perpetrators uploading on several platforms You need to do massive scrapping to collect this information, but there are times when they do it on platforms such as telegram, X or adult sites, you can search using dork, regex and linguistic like slang, abbreviation of word and other things
 
 # Steam 
 
@@ -1896,6 +1905,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 
 # Instagram
 
+- [pixnoy insta viewer](https://www.pixnoy.com/)
 - [InstagramPrivSniffer](https://github.com/obitouka/InstagramPrivSniffer)
 - [instrack](https://instrack.app/)
 - [mollygram](https://mollygram.com/)
@@ -2014,6 +2024,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 
 # Twitter
 
+- [instalker - x viewer](https://www.instalker.org/)
 - [Hoaxy](https://hoaxy.osome.iu.edu/)
 - [Twitter API](https://developer.x.com/en/docs/twitter-api/getting-started/about-twitter-api)
 - [search.twitter.com](https://twitter.com/search-home)
@@ -2290,6 +2301,7 @@ Google queries for MySpace
 - [bosint](https://app.bosint.gg/)
 - [blackbird (mostly Indonesia)](https://blackbird.mom/)
 - [API protnon mail check creation date](https://api.protonmail.ch/pks/lookup?op=index&search=<changeemaiiladdr>)
+- [user-scanner](https://github.com/kaifcodec/user-scanner/releases/tag/v1.1.0)
 
 # PGP or GPG Keybase 
 
@@ -2514,6 +2526,9 @@ Telegram tips. Change the hash value, username, phone number on the endpoint or 
 - [meawfy - mega.nz search engine](https://meawfy.com/)
 - [telegra.ph](https://telegra.ph/) You can use dork for search data
 - [mega](https://mega.io/)
+- [terabox](https://www.terabox.com/)
+- [mediafire](https://www.mediafire.com/)
+- [justpaste](https://justpaste.it/)
 
 Scribd viewer 
 

@@ -87,6 +87,7 @@
 - [Using Flight Tracking For Geolocation](https://nixintel.info/osint/using-flight-tracking-for-geolocation-quiztime-30th-october-2019/)
 - [How Reverse Phone Lookups Work [with OSINT Industries]](https://www.osint.industries/post/how-reverse-phone-lookups-work-with-osint-industries)
 - [OSINT Basics: Reverse Email Lookup](https://www.osint.industries/post/reverse-email-lookup-the-basics)
+- [OPEN SOURCE INTELLIGENCE TOOLS AND RESOURCES HANDBOOK](https://drive.google.com/viewerng/viewer?url=https://i-intelligence.eu/uploads/public-documents/OSINT_Handbook_June-2018_Final.pdf)
 
 # Vehicle
 
