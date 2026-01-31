@@ -1848,6 +1848,7 @@ or you can use dork for spesific example
 - [Adult Finder](https://www.scrapersnbots.com/webtools/plenty-of-fish-username-search.php?sitetosearch=adultfriendfinder#gsc.tab=0)
 - [singlemanforum](https://singlemanforum.com/)
 - [Reddit](https://www.reddit.com/) You must to dork
+- [mega](https://mega.io/id/)
 
 Pro Tips 
 
@@ -1947,8 +1948,9 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [hostagram](https://github.com/banaxou/hostagram)
 - [instasploit](https://gitlab.com/anezatra-katedram/instasploit)
 
-# Thread 
+# Threads
 
+- [threads](https://www.threads.com/)
 - [Reverse-engineering Instagram's - Checking endpoint API](https://github.com/m1guelpf/threads-re)
 
 # Microsoft OneDrive 
@@ -2471,6 +2473,7 @@ Telegram tips. Change the hash value, username, phone number on the endpoint or 
 
 # Telegra OSINT 
 
+- [telegra](https://telegra.ph/) Need dorking 
 - [telegcrack](https://telegcrack.com/)
 
 # Document and Slides Search OSINT
@@ -2510,6 +2513,7 @@ Telegram tips. Change the hash value, username, phone number on the endpoint or 
 - [documentcloud](https://www.documentcloud.org/)
 - [meawfy - mega.nz search engine](https://meawfy.com/)
 - [telegra.ph](https://telegra.ph/) You can use dork for search data
+- [mega](https://mega.io/)
 
 Scribd viewer 
 
@@ -2980,7 +2984,6 @@ Geojson viewer
 - [arcgis webscene](https://www.arcgis.com/home/webscene/viewer.html)
 - [samgeo](https://samgeo.gishub.org/)
 - [leafmap](https://leafmap.org/#youtube-channel)
-- [cesium](https://cesium.com/)
 
 Guides 
 
@@ -3025,6 +3028,7 @@ The definitive Internet reference source for urban legends, folklore, myths, rum
 - [Gephi Visual Tool](https://gephi.org/)
 - [3 new ways to check images and sources online](https://blog.google/products/search/google-search-new-fact-checking-features/)
 - [BBC fact checking](https://www.bbc.com/news/bbcverify)
+- [CNN](https://edition.cnn.com/politics/fact-check)
 
 Guide 
 
@@ -3152,6 +3156,7 @@ Desktop NET debugger and assembly editor
 - [0day fans](https://0dayfans.com/)
 - [0day database](https://www.zero-day.cz/database/)
 - [zerodayinitiative](https://www.zerodayinitiative.com/advisories/published/) You can also check their Twitter for latest update
+- [PWN2OWN](https://www.secwest.net/)
 
 # Cryptocurrency Investigation
 
@@ -3919,11 +3924,12 @@ Guide for Surveillance
 
 Search people missing and abuse, strict content, removing, takedown and minimize your data on the internet
 
+- [Interpol Yellow Notice](https://www.interpol.int/How-we-work/Notices/Yellow-Notices/View-Yellow-Notices#)
 - [Google image removal](https://support.google.com/websearch/answer/4628134)
 Remove your image from Google
 - [Delete Me](https://joindeleteme.com/) Remove your personal information in internet and data broker (scrapper)
 - [backgroundchecks](https://backgroundchecks.org/justdeleteme/#go) A guide directory of direct links to delete your account from web services
-- [ATII](https://followmoneyfightslavery.org/) The Anti-Human Trafficking Intelligence Initiative human trafficking, child exploitation, and child sexual abuse material (CSAM) through the advancement of prevention, detection, investigation, and reporting mechanisms.
+- [ATII](https://followmoneyfightslavery.org/) The Anti-Human Trafficking Intelligence Initiative human trafficking, child exploitation, and child sexual abuse material (CSAM) through the advancement of prevention, detection, investigation, and reporting mechanisms
 - [Stopncii](https://stopncii.org)
 Free tool designed to support victims of Non-Consensual Intimate Image (NCII) abuse
 - [Bing content removal](www.bing.com/webmasters/tools/contentremoval)
@@ -4132,7 +4138,6 @@ Strict and disable bot crawl search engine index account
 - [Get Contact Unlisting](https://getcontact.com/en/manage) Request for remove your data from this site
 - [Interpol int](https://www.interpol.int/en/How-we-work/Notices/Yellow-Notices/View-Yellow-Notices) View and search public Yellow Notices for missing persons
 - [accountkiller](https://www.accountkiller.com/en/all-sites) A guide for deleting your account on the site or social media platform
-- [Interpol Yellow Notice](https://www.interpol.int/How-we-work/Notices/Yellow-Notices/View-Yellow-Notices#)
 
 *NB : Please read carefully and check the ToS or privacy statment. Its taking to long, you need to patiently. For this point, your data is not guaranteed to be lost 100% on the internet, but this is to minimize the spread of your data and data breaches
 
