@@ -1065,6 +1065,7 @@ You can find the file hash or other threat indicator
 
 # Github 
 
+- [ecosyste](https://ecosyste.ms/)
 - [trendshift github trend repo](https://trendshift.io/github-trending-repositories)
 - [GROT](https://github.com/montysecurity/GROT)
 - [Github search name and find ID](https://caius.github.io/github_id/)
@@ -1396,7 +1397,7 @@ Crack medium article
 - [Followthatpage](http://www.followthatpage.com)
 - [visualping](https://visualping.io/)
 - [ID MA Web Monitoring](https://www.mahkamahagung.go.id/id/webmon)
-- [trustpositif Kominfo ID](https://trustpositif.kominfo.go.id/) Checking blocked site ID 
+- [trustpositif Kominfo ID](https://trustpositif.komdigi.go.id/normalisasi) Checking blocked site ID 
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
 - [wayback machine](https://archive.org/web/) search history archive on site 
 - [Archive Fo](https://archive.fo/)
@@ -1830,8 +1831,8 @@ or you can use dork for spesific example
 
 # OSINT Adult or Porn (18+)
 
-Note is for investigator like search scandal, deepfake porn or blackmail, red distric review, women and porn actress
-
+- [erome](https://www.erome.com/)
+- [trakteer](https://trakteer.id/)
 - [bedpage](http://bedpage.com/)
 - [pornhub](https://www.pornhub.com/)
 - [spankbang](https://spankbang.com/s/spank+bank/)
@@ -1850,7 +1851,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 
 Pro Tips 
 
-Searching for scandal or blackmail or deepfake porn doesn't have to be on the listed sites, there are many perpetrators uploading on several platforms You need to do massive scrapping to collect this information, but there are times when they do it on platforms such as telegram, X or adult sites, you can search using dork, regex and other things
+Note is for investigator like search scandal, deepfake porn or blackmail, red distric review, women and porn actress. Searching for scandal or blackmail or deepfake porn doesn't have to be on the listed sites, there are many perpetrators uploading on several platforms You need to do massive scrapping to collect this information, but there are times when they do it on platforms such as telegram, X or adult sites, you can search using dork, regex and other things
 
 # Steam 
 
@@ -5167,6 +5168,7 @@ Check on category search jurnals
 
 Resources and collection for your make tool OSINT 
 
+- [ecosyste](https://ecosyste.ms/)
 - [API Resoruces OSINT - For Your Private Tool](https://github.com/cipher387/API-s-for-OSINT/blob/main/README.md) 
 - [API for OSINT](https://github.com/cipher387/API-s-for-OSINT)
 - [C99's API Service](https://api.c99.nl/)
