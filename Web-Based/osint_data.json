@@ -3451,6 +3451,10 @@
             {
                 "name": "trendshift github trend repo",
                 "url": "https://trendshift.io/github-trending-repositories"
+            },
+            {
+                "name": "ecosyste",
+                "url": "https://ecosyste.ms/"
             }
         ]
     },
@@ -4493,7 +4497,7 @@
             },
             {
                 "name": "trustpositif Kominfo ID",
-                "url": "https://trustpositif.kominfo.go.id/"
+                "url": "https://trustpositif.komdigi.go.id/normalisasi"
             },
             {
                 "name": "OONI",
@@ -5188,6 +5192,10 @@
             {
                 "name": "webvetted",
                 "url": "https://webvetted.com/"
+            },
+            {
+                "name": "OSINT Pimeyes",
+                "url": "https://osint.pimeyes.com/"
             }
         ]
     },
@@ -6013,6 +6021,14 @@
             {
                 "name": "Reddit",
                 "url": "https://www.reddit.com/"
+            },
+            {
+                "name": "erome",
+                "url": "https://www.erome.com/"
+            },
+            {
+                "name": "trakteer",
+                "url": "https://trakteer.id/"
             }
         ]
     },
@@ -8615,6 +8631,10 @@
             {
                 "name": "surfface",
                 "url": "https://surfface.com/"
+            },
+            {
+                "name": "OSINT Pimeyes",
+                "url": "https://osint.pimeyes.com/"
             }
         ]
     },
@@ -12603,6 +12623,10 @@
             {
                 "name": "Darkweb labs settup",
                 "url": "https://hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf"
+            },
+            {
+                "name": "darkdump",
+                "url": "https://github.com/josh0xA/darkdump"
             }
         ]
     },
@@ -16518,6 +16542,10 @@
             {
                 "name": "Linux hardening checklist - CSA LAB",
                 "url": "https://csalab-id.github.io/documents/compliance/CIS_Benchmark_Ubuntu_24_04.pdf"
+            },
+            {
+                "name": "IP Rotate",
+                "url": "https://portswigger.net/bappstore/2eb2b1cb1cf34cc79cda36f0f9019874"
             }
         ]
     },
@@ -17536,6 +17564,10 @@
             {
                 "name": "API LeakRadar",
                 "url": "https://api.leakradar.io/docs"
+            },
+            {
+                "name": "ecosyste",
+                "url": "https://ecosyste.ms/"
             }
         ]
     },
@@ -19022,6 +19054,10 @@
             {
                 "name": "SNSSCRAPE",
                 "url": "https://github.com/JustAnotherArchivist/snscrape"
+            },
+            {
+                "name": "Photon",
+                "url": "https://github.com/s0md3v/Photon"
             }
         ]
     },
@@ -21455,6 +21491,10 @@
     },
     {
         "category": "These Resources Are Recommend For",
+        "items": []
+    },
+    {
+        "category": "Legal Considerations and International Law for OSINT",
         "items": []
     }
 ]
