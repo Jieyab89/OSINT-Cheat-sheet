@@ -4353,6 +4353,10 @@ Public Transport
 - [hexstrike](https://www.hexstrike.com/)
 - [trae](https://www.trae.ai/)
 - [codex CLI](https://developers.openai.com/codex/cli/)
+- [grok](https://grok.com/)
+- [antigravity](https://antigravity.google/)
+- [Microsoft Copilot](https://copilot.microsoft.com/)
+- [SORA AI](https://sora.chatgpt.com/explore)
 
 Tips Prompt Injection (LLM Injection)
 
