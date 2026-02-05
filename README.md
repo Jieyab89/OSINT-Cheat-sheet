@@ -3678,6 +3678,9 @@ Social Network and blogging
 - [Darksearch search engine (ONION SITE)](http://notevil2ebbr5xjww6nryjta7bycbriyi2vh7an3wcuovlznvobykmad.onion/)
 - [Just onion (ONION SITE)](http://justdirs5iebdkegiwbp3k6vwgwyr5mce7pztld23hlluy22ox4r3iad.onion/)
 - [The Hidden Wiki (ONION SITE)](http://zqktlwiuavvvqqt4ybvgvi7tyo4hjl5xgfuvpdf6otjiycgwqbym2qad.onion/wiki/index.php/Main_Page)
+- [Tor Node (ONION SITE)](http://tornode3tnrtzgqwd3vmxdumucddqfd6zk7icu4wzdwxo5c3zn2xqfqd.onion/)
+- [TORCH Search (ONION SITE)](http://torchdeedp3i2jigzjdmfpn5ttjhthh5wbmda2rr3jvqjg5p77c54dqd.onion/)
+- [onion search server (ONION SITE)](http://3fzh7yuupdfyjhwt3ugzqqof6ulbcl27ecev33knxe3u7goi3vfn2qqd.onion/oss/)
 
 # Darkweb Intelligence
 
