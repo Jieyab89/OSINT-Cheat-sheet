@@ -77,6 +77,7 @@ You can build it with VM or Live USB make sure you have sandbox machine
 - [qubes](https://www.qubes-os.org/doc/)
 - [parrot sec](https://www.parrotsec.org/)
 - [csi linux](https://csilinux.com/csi-linux-downloads/)
+- [nullsec-linux](https://github.com/bad-antics/nullsec-linux) Security-hardened Linux distro preconfigured for OSINT, pentesting, and digital forensics with kernel-level hardening
 
 # OSINT Academy
 
@@ -215,6 +216,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [Profile Scout](https://profile-scout-16ba7f56.base44.app/)
 - [hostagram](https://github.com/banaxou/hostagram)
 
+- [baudrillard-suite](https://github.com/bad-antics/baudrillard-suite) Cross-platform OSINT and social intelligence toolkit with modules for SOCMINT, metadata forensics, network mapping, and automated reconnaissance
 # Collection Dataset
 
 - [Kaggle](https://www.kaggle.com/)
@@ -1038,6 +1040,7 @@ You can find the file hash or other threat indicator
 - [cyfirma](https://www.cyfirma.com/)
 - [opensourcemalware](https://opensourcemalware.com/)
 - [Google threat intelligence ](https://cloud.google.com/security/products/threat-intelligence#threat-intelligence-and-advanced-hunting)
+- [rupurt](https://github.com/bad-antics/rupurt) Rootkit hunter and kernel integrity monitor for Linux, detects hidden processes, hooked syscalls, and tampered kernel modules
 
 # Automation Dorking 
 
