@@ -1243,6 +1243,14 @@ Web Defacement Archive
 - [defacer net](https://defacer.net/)
 - [z-x archived site](https://web.archive.org/web/*/z-x.my.id*) *you can use dork and cache for Google index search hacker nickname 
 
+Politic and Geopolitic Archive 
+
+- [thetrumparchive twitter Trump archive](https://www.thetrumparchive.com/)
+- [rollcall](https://rollcall.com/factbase/trump/topic/social/?platform=all&sort=date&sort_order=desc&page=1)
+- [propublica Trump twitter archive](https://projects.propublica.org/politwoops/search?q=trump)
+- [trumpstruth](https://trumpstruth.org/)
+- [PolitiTweet Archive](https://polititweet.org/)
+
 # Data Breached OSINT
 
 - [telegra.ph](https://telegra.ph/) You can use dork for search data
@@ -5457,6 +5465,11 @@ OSINT politics and geopolitics, risk crisis
 - [Google Patents](https://patents.google.com/)
 - [unosat satellite database](https://unosat.org/products)
 - [foia](https://www.foia.gov/)
+- [thetrumparchive twitter Trump archive](https://www.thetrumparchive.com/)
+- [rollcall](https://rollcall.com/factbase/trump/topic/social/?platform=all&sort=date&sort_order=desc&page=1)
+- [propublica Trump twitter archive](https://projects.propublica.org/politwoops/search?q=trump)
+- [trumpstruth](https://trumpstruth.org/)
+- [PolitiTweet Archive](https://polititweet.org/)
 
 Terrorism & Radical 
 
