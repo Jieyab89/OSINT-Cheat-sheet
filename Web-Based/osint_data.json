@@ -2840,6 +2840,10 @@
             {
                 "name": "netlas.io",
                 "url": "https://app.netlas.io/host/"
+            },
+            {
+                "name": "KISMET",
+                "url": "https://www.kismetwireless.net/"
             }
         ]
     },
@@ -3937,6 +3941,26 @@
             {
                 "name": "z-x archived site",
                 "url": "https://web.archive.org/web/*/z-x.my.id*"
+            },
+            {
+                "name": "thetrumparchive twitter Trump archive",
+                "url": "https://www.thetrumparchive.com/"
+            },
+            {
+                "name": "rollcall",
+                "url": "https://rollcall.com/factbase/trump/topic/social/?platform=all&sort=date&sort_order=desc&page=1"
+            },
+            {
+                "name": "propublica Trump twitter archive",
+                "url": "https://projects.propublica.org/politwoops/search?q=trump"
+            },
+            {
+                "name": "trumpstruth",
+                "url": "https://trumpstruth.org/"
+            },
+            {
+                "name": "PolitiTweet Archive",
+                "url": "https://polititweet.org/"
             }
         ]
     },
@@ -4883,6 +4907,10 @@
             {
                 "name": "pappers FR",
                 "url": "https://www.pappers.fr/"
+            },
+            {
+                "name": "geoportal ESDM ID",
+                "url": "https://geoportal.esdm.go.id/"
             }
         ]
     },
@@ -6508,6 +6536,14 @@
             {
                 "name": "Reddit google cse search",
                 "url": "https://cse.google.com/cse?cx=017261104271573007538:bbzhlah6n4o#gsc.tab=0&gsc.sort="
+            },
+            {
+                "name": "Reddit Viewer uforio",
+                "url": "http://web.uforio.com/#search"
+            },
+            {
+                "name": "realsrikar Reddit search and viewer",
+                "url": "https://realsrikar.github.io/"
             }
         ]
     },
@@ -8219,6 +8255,10 @@
             {
                 "name": "t.me/s/<change username>",
                 "url": "https://t.me/s/PREVIEWCHANNEL"
+            },
+            {
+                "name": "tdirectory",
+                "url": "https://tdirectory.me/"
             }
         ]
     },
@@ -10183,6 +10223,10 @@
             {
                 "name": "Google Earth Engine: A Quick Guide for Beginners",
                 "url": "https://gisgeography.com/google-earth-engine/"
+            },
+            {
+                "name": "geoportal ESDM ID",
+                "url": "https://geoportal.esdm.go.id/"
             }
         ]
     },
@@ -12021,6 +12065,22 @@
             {
                 "name": "Disboard",
                 "url": "https://disboard.org/servers"
+            },
+            {
+                "name": "Discord server search",
+                "url": "https://discord.center/"
+            },
+            {
+                "name": "discadia finding Discord Servers",
+                "url": "https://discadia.com/"
+            },
+            {
+                "name": "search Discord Bots",
+                "url": "https://top.gg/"
+            },
+            {
+                "name": "Discord Bots",
+                "url": "https://discordbotlist.com/"
             }
         ]
     },
@@ -12418,6 +12478,18 @@
             {
                 "name": "The Hidden Wiki (ONION SITE)",
                 "url": "http://zqktlwiuavvvqqt4ybvgvi7tyo4hjl5xgfuvpdf6otjiycgwqbym2qad.onion/wiki/index.php/Main_Page"
+            },
+            {
+                "name": "Tor Node (ONION SITE)",
+                "url": "http://tornode3tnrtzgqwd3vmxdumucddqfd6zk7icu4wzdwxo5c3zn2xqfqd.onion/"
+            },
+            {
+                "name": "TORCH Search (ONION SITE)",
+                "url": "http://torchdeedp3i2jigzjdmfpn5ttjhthh5wbmda2rr3jvqjg5p77c54dqd.onion/"
+            },
+            {
+                "name": "onion search server (ONION SITE)",
+                "url": "http://3fzh7yuupdfyjhwt3ugzqqof6ulbcl27ecev33knxe3u7goi3vfn2qqd.onion/oss/"
             }
         ]
     },
@@ -14981,6 +15053,22 @@
             {
                 "name": "garak",
                 "url": "https://github.com/NVIDIA/garak"
+            },
+            {
+                "name": "grok",
+                "url": "https://grok.com/"
+            },
+            {
+                "name": "antigravity",
+                "url": "https://antigravity.google/"
+            },
+            {
+                "name": "Microsoft Copilot",
+                "url": "https://copilot.microsoft.com/"
+            },
+            {
+                "name": "SORA AI",
+                "url": "https://sora.chatgpt.com/explore"
             }
         ]
     },
@@ -18538,6 +18626,34 @@
             {
                 "name": "ID Pejabat rekam jejak",
                 "url": "https://rekamjejak.net/direktori?query=&category=&party=&page=1&limit=9"
+            },
+            {
+                "name": "thetrumparchive twitter Trump archive",
+                "url": "https://www.thetrumparchive.com/"
+            },
+            {
+                "name": "rollcall",
+                "url": "https://rollcall.com/factbase/trump/topic/social/?platform=all&sort=date&sort_order=desc&page=1"
+            },
+            {
+                "name": "propublica Trump twitter archive",
+                "url": "https://projects.propublica.org/politwoops/search?q=trump"
+            },
+            {
+                "name": "trumpstruth",
+                "url": "https://trumpstruth.org/"
+            },
+            {
+                "name": "PolitiTweet Archive",
+                "url": "https://polititweet.org/"
+            },
+            {
+                "name": "mappingmilitants",
+                "url": "https://mappingmilitants.org/"
+            },
+            {
+                "name": "trackingterrorism",
+                "url": "https://trackingterrorism.org/"
             }
         ]
     },
@@ -21450,6 +21566,48 @@
             {
                 "name": "Who OSINT Used",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Who-OSINT-Used"
+            },
+            {
+                "name": "Jieyab89 Script for OSINT",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Jieyab89-Script-for-OSINT"
+            }
+        ]
+    },
+    {
+        "category": "Tips & Trick Safe Guide Using Resources",
+        "items": []
+    },
+    {
+        "category": "See Jieyab Wiki pages",
+        "items": []
+    },
+    {
+        "category": "Vehicles",
+        "items": [
+            {
+                "name": "China number plates",
+                "url": "https://jenxi.com/china-vehicle-registration-plates/"
+            },
+            {
+                "name": "Indonesia number plates",
+                "url": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Indonesia"
+            }
+        ]
+    },
+    {
+        "category": "HUMINT",
+        "items": [
+            {
+                "name": "MICE”- the 4 pillars of CIA spy recruitment",
+                "url": "https://spyauthor.medium.com/mice-the-4-pillars-of-cia-spy-recruitment-61d3f5cf9d3c"
+            },
+            {
+                "name": "Rethinking and Old Approach: An Alternative Framework for Agent Recruitment: From MICE to RASCLS",
+                "url": "https://www.cia.gov/resources/csi/studies-in-intelligence/volume-57-no-1/an-alternative-framework-for-agent-recruitment-from-mice-to-rascls/"
+            },
+            {
+                "name": "Decoding MICE",
+                "url": "https://www.insurgent.ca/p/decoding-mice"
             }
         ]
     }
