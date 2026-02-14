@@ -919,6 +919,7 @@ Maps and database of 802.11 wireless networks, with statistics, submitted by war
 - [macvendors](https://macvendors.com/)
 - [whoisxmlapi](https://mac-address.whoisxmlapi.com/api)
 - [netlas.io](https://app.netlas.io/host/)
+- [KISMET](https://www.kismetwireless.net/)
 
 # SOC & Threat Hunting
 
@@ -1493,6 +1494,7 @@ Crack medium article
 - [open-search aleph](https://open-search.aleph-networks.eu/)
 - [usersearch](https://usersearch.com/)
 - [pappers FR](https://www.pappers.fr/)
+- [geoportal ESDM ID](https://geoportal.esdm.go.id/)
 
 # People Searching
 
@@ -1988,6 +1990,8 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [Reddit find sub](https://anvaka.github.io/)
 - [reveddit](https://www.reveddit.com/)
 - [Reddit google cse search](https://cse.google.com/cse?cx=017261104271573007538:bbzhlah6n4o#gsc.tab=0&gsc.sort=)
+- [Reddit Viewer uforio](http://web.uforio.com/#search)
+- [realsrikar Reddit search and viewer](https://realsrikar.github.io/)
 
 # Youtube 
 
@@ -2471,6 +2475,7 @@ Search channel, username, bot and anymore
 - [Telegram-Trilateration](https://github.com/jkctech/Telegram-Trilateration?tab=readme-ov-file)
 - [Discover the location of nearby Telegram users](https://github.com/tejado/telegram-nearby-map)
 - [waybien search telegram chat, grup and other](https://waybien.com/en)
+- [tdirectory](https://tdirectory.me/)
 
 Telegram Tips 
 
@@ -2952,6 +2957,7 @@ Scribd viewer
 - [airpano](https://www.airpano.com/)
 - [notable-people](https://tjukanovt.github.io/notable-people)
 - [OSM leaflet](https://osm-gadget-leaflet.toolforge.org/)
+- [geoportal ESDM ID](https://geoportal.esdm.go.id/)
 
 Conveter tool 
 
@@ -3577,6 +3583,10 @@ Social Network and blogging
 - [Dutchosintguy Discord](https://github.com/Dutchosintguy/OSINT-Discord-resources)
 - [discordbee.com](https://discordbee.com/)
 - [Disboard](https://disboard.org/servers)
+- [Discord server search](https://discord.center/)
+- [discadia finding Discord Servers](https://discadia.com/)
+- [search Discord Bots](https://top.gg/)
+- [Discord Bots](https://discordbotlist.com/)
 
 # Darkweb Search Engines
 
@@ -5455,6 +5465,8 @@ Terrorism & Radical
 - [Sanctions against terrorism](https://www.consilium.europa.eu/en/policies/fight-against-terrorism/sanctions-against-terrorism/#list)
 - [EU financial sanctions list](https://data.europa.eu/data/datasets/consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions?locale=en)
 - [ID Pejabat rekam jejak](https://rekamjejak.net/direktori?query=&category=&party=&page=1&limit=9)
+- [mappingmilitants](https://mappingmilitants.org/)
+- [trackingterrorism](https://trackingterrorism.org/)
 
 # Maltego Transform List 
 
@@ -5645,7 +5657,7 @@ Ex Guides:
 - [scrapy](https://www.scrapy.org/) Pyhton lib for scrapper
 - [puppeteer](https://github.com/puppeteer/puppeteer) JavaScript API for Chrome and Firefox for scrapper
 - [SNSSCRAPE](https://github.com/JustAnotherArchivist/snscrape) Scrapper tool for Twitter or X
-- [Photon](https://github.com/s0md3v/Photon)
+- [Photon](https://github.com/s0md3v/Photon) Extract information and scrapping on site and url 
 
 # OSINT IRC Chat
 
