@@ -89,7 +89,7 @@
 - [OSINT Basics: Reverse Email Lookup](https://www.osint.industries/post/reverse-email-lookup-the-basics)
 - [OPEN SOURCE INTELLIGENCE TOOLS AND RESOURCES HANDBOOK](https://drive.google.com/viewerng/viewer?url=https://i-intelligence.eu/uploads/public-documents/OSINT_Handbook_June-2018_Final.pdf)
 
-# Vehicle
+# Vehicles
 
 - [China number plates](https://jenxi.com/china-vehicle-registration-plates/)
 - [Indonesia number plates](https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Indonesia)
@@ -114,3 +114,9 @@
 
 - [Using Favicon Hashes for OSINT Reconnaissance](https://fagun18.medium.com/using-favicon-hashes-for-osint-reconnaissanc-cefcb8c4ddca)
 - [Weaponizing favicon.ico for BugBounties , OSINT and what not](https://medium.com/@Asm0d3us/weaponizing-favicon-ico-for-bugbounties-osint-and-what-not-ace3c214e139)
+
+# HUMINT 
+
+- [MICE”- the 4 pillars of CIA spy recruitment](https://spyauthor.medium.com/mice-the-4-pillars-of-cia-spy-recruitment-61d3f5cf9d3c)
+- [Rethinking and Old Approach: An Alternative Framework for Agent Recruitment: From MICE to RASCLS](https://www.cia.gov/resources/csi/studies-in-intelligence/volume-57-no-1/an-alternative-framework-for-agent-recruitment-from-mice-to-rascls/)
+- [Decoding MICE](https://www.insurgent.ca/p/decoding-mice)
