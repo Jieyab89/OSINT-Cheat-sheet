@@ -6237,6 +6237,7 @@ You can search nickname, hacker team and hacker archive like web defacement data
 - [humantraffickingsearch](https://humantraffickingsearch.org/)
 - [turboscribe - YT Tools and downloander and conveter](https://turboscribe.ai/)
 - [telegra.ph](https://telegra.ph/) You can use dork for search data
+- [List of interesting and active OSINT researchers/bloggers](https://github.com/ubikron/OSINT-People)
 
 List available data source OSINT for other country 
 
