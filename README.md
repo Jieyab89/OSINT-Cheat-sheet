@@ -832,6 +832,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [huntress](https://www.huntress.com/)
 - [synthient](https://search.synthient.com/)
 - [opensourcemalware](https://opensourcemalware.com/)
+- [breach house](https://breach.house/all_stealers)
 
 # IoT Search Engines
 
@@ -928,6 +929,7 @@ Tips
 You can find the file hash or other threat indicator
 
 - [attack MITRE TTP](https://attack.mitre.org/techniques/mobile/)
+- [breach house](https://breach.house/all_stealers)
 - [VMRay Sandbox](https://www.vmray.com/)
 - [maltiverse](https://whatis.maltiverse.com/)
 - [virusscan](https://virusscan.jotti.org/)
@@ -1330,6 +1332,7 @@ Politic and Geopolitic Archive
 - [leaking forum](https://leaking.cc/)
 - [Hudson Rock Cybercrime Intelligence Free Tools](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools)
 - [dehashed](https://dehashed.com/)
+- [breach house](https://breach.house/all_stealers)
 
 # Crack Jurnals
 
@@ -3406,6 +3409,7 @@ Build your sockpuppet account and proctect your privacy
 - [Temp Mail 5](https://www.mailinator.com/)
 - [Temp Mail 6](https://tempmail.so/)
 - [Temp Mail 7](https://tempmailto.online/)
+- [Temp Mail 8 w custom](https://emailfake.com/)
 - [Temp email gmail](https://www.emailnator.com/mailbox)
 - [Cryptocurrency Payment Monero](https://www.getmonero.org/)
 - [Cryptocurrency Payment Bitcoin](https://bitcoin.org/en/)
@@ -3775,6 +3779,7 @@ Social Network and blogging
 - [dark fail](https://dark.fail/)
 - [search aleph - Darkweb](https://open-search.aleph-networks.eu/en)
 - [darkdump](https://github.com/josh0xA/darkdump)
+- [breach house](https://breach.house/all_stealers)
 
 Guide 
 
@@ -5592,6 +5597,7 @@ Terrorism & Radical
 - [Sentinel Hub](https://www.sentinel-hub.com/)
 - [vantor](https://vantor.com/)
 - [NASA visibleearth catalog](https://visibleearth.nasa.gov/)
+- [Copy over live data sat](https://copy-over.com/feeds?tab=satellites)
 
 *Aditional Information coverage sat 
 
