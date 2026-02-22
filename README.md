@@ -388,6 +388,7 @@ Site and forums OSINT community arround world
 - [Pastebin](https://pastebin.com/)
 - [bevigil](https://bevigil.com/osint-api)
 - [codeberg](https://codeberg.org/)
+- [dnslytics](https://search.dnslytics.com/)
 
 *Pro Tips 
 
@@ -628,6 +629,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [dnsdumpster](https://dnsdumpster.com/)
 - [rapiddns](https://rapiddns.io/)
 - [atsameip](https://atsameip.com/)
+- [dnslytics](https://search.dnslytics.com/)
 
 *Tips web cache 
 
@@ -696,6 +698,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 
 # Researching Cyber Threats
 
+- [OPEN SOURCE MALWARE A community database, API and collaboration platform to help identify and protect against open-source malware](https://opensourcemalware.com/)
 - [URL Haus](https://urlhaus.abuse.ch/)
 - [watchguard ransomtracker](https://www.watchguard.com/wgrd-security-hub/ransomware-tracker)
 - [nomoreransom](https://www.nomoreransom.org/en/decryption-tools.html)
@@ -928,6 +931,7 @@ Tips
 
 You can find the file hash or other threat indicator
 
+- [OPEN SOURCE MALWARE A community database, API and collaboration platform to help identify and protect against open-source malware](https://opensourcemalware.com/)
 - [attack MITRE TTP](https://attack.mitre.org/techniques/mobile/)
 - [breach house](https://breach.house/all_stealers)
 - [VMRay Sandbox](https://www.vmray.com/)
@@ -2773,6 +2777,7 @@ Scribd viewer
 - [shutterstock](https://www.shutterstock.com/royalty-free/reverse-image-search-for-video)
 - [invid-project](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)
 - [asciinema](https://asciinema.org/)
+- [videosearch](https://videosearch.io/)
 
 # Geospatial Research and Mapping Tools
 
@@ -4383,6 +4388,10 @@ Public Transport
 - [antigravity](https://antigravity.google/)
 - [Microsoft Copilot](https://copilot.microsoft.com/)
 - [SORA AI](https://sora.chatgpt.com/explore)
+
+System and User Prompt AI Model Lists 
+
+- [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
 
 Tips Prompt Injection (LLM Injection)
 
@@ -6236,6 +6245,7 @@ You can search nickname, hacker team and hacker archive like web defacement data
 - [hack db](https://hack-db.org//)
 - [defacer net](https://defacer.net/)
 - [z-x archived site](https://web.archive.org/web/*/z-x.my.id*) *you can use dork and cache for Google index search hacker nickname 
+- [ctftime](https://ctftime.org/)
 
 # MISC
 
