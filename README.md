@@ -886,6 +886,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [TVway RU](https://tvway.ru/)
 - [insecam](http://www.insecam.org/)
 - [Campod - IP CAM (MOST INDONESIAN ID)](https://campod.my.id/)
+- [BloodCat](https://github.com/MartinxMax/BloodCat)
 
 # IP Addresses
 
@@ -2321,6 +2322,7 @@ Google queries for MySpace
 - [blackbird (mostly Indonesia)](https://blackbird.mom/)
 - [API protnon mail check creation date](https://api.protonmail.ch/pks/lookup?op=index&search=<changeemaiiladdr>)
 - [user-scanner](https://github.com/kaifcodec/user-scanner/releases/tag/v1.1.0)
+- [Blackbird](https://github.com/p1ngul1n0/blackbird)
 
 # PGP or GPG Keybase 
 
@@ -3021,6 +3023,10 @@ Geojson viewer
 - [arcgis webscene](https://www.arcgis.com/home/webscene/viewer.html)
 - [samgeo](https://samgeo.gishub.org/)
 - [leafmap](https://leafmap.org/#youtube-channel)
+
+List Country Code 
+
+- [nationsonline Country Codes List](https://www.nationsonline.org/oneworld/country_code_list.htm)
 
 Guides 
 
