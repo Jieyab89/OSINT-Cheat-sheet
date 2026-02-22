@@ -925,6 +925,10 @@
             {
                 "name": "codeberg",
                 "url": "https://codeberg.org/"
+            },
+            {
+                "name": "dnslytics",
+                "url": "https://search.dnslytics.com/"
             }
         ]
     },
@@ -2525,6 +2529,14 @@
             {
                 "name": "opensourcemalware",
                 "url": "https://opensourcemalware.com/"
+            },
+            {
+                "name": "OPEN SOURCE MALWARE A community database, API and collaboration platform to help identify and protect against open-source malware",
+                "url": "https://opensourcemalware.com/"
+            },
+            {
+                "name": "breach house",
+                "url": "https://breach.house/all_stealers"
             }
         ]
     },
@@ -2718,6 +2730,10 @@
             {
                 "name": "Campod - IP CAM (MOST INDONESIAN ID)",
                 "url": "https://campod.my.id/"
+            },
+            {
+                "name": "BloodCat",
+                "url": "https://github.com/MartinxMax/BloodCat"
             }
         ]
     },
@@ -3297,6 +3313,14 @@
             {
                 "name": "Google threat intelligence",
                 "url": "https://cloud.google.com/security/products/threat-intelligence#threat-intelligence-and-advanced-hunting"
+            },
+            {
+                "name": "OPEN SOURCE MALWARE A community database, API and collaboration platform to help identify and protect against open-source malware",
+                "url": "https://opensourcemalware.com/"
+            },
+            {
+                "name": "breach house",
+                "url": "https://breach.house/all_stealers"
             }
         ]
     },
@@ -4274,6 +4298,10 @@
             {
                 "name": "dehashed",
                 "url": "https://dehashed.com/"
+            },
+            {
+                "name": "breach house",
+                "url": "https://breach.house/all_stealers"
             }
         ]
     },
@@ -7614,6 +7642,10 @@
             {
                 "name": "user-scanner",
                 "url": "https://github.com/kaifcodec/user-scanner/releases/tag/v1.1.0"
+            },
+            {
+                "name": "Blackbird",
+                "url": "https://github.com/p1ngul1n0/blackbird"
             }
         ]
     },
@@ -9298,6 +9330,10 @@
             {
                 "name": "asciinema",
                 "url": "https://asciinema.org/"
+            },
+            {
+                "name": "videosearch",
+                "url": "https://videosearch.io/"
             }
         ]
     },
@@ -10227,6 +10263,10 @@
             {
                 "name": "geoportal ESDM ID",
                 "url": "https://geoportal.esdm.go.id/"
+            },
+            {
+                "name": "nationsonline Country Codes List",
+                "url": "https://www.nationsonline.org/oneworld/country_code_list.htm"
             }
         ]
     },
@@ -11762,6 +11802,10 @@
             {
                 "name": "nord",
                 "url": "https://nordvpn.com/"
+            },
+            {
+                "name": "Temp Mail 8 w custom",
+                "url": "https://emailfake.com/"
             }
         ]
     },
@@ -12791,6 +12835,10 @@
             {
                 "name": "Darkweb labs settup",
                 "url": "https://hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf"
+            },
+            {
+                "name": "breach house",
+                "url": "https://breach.house/all_stealers"
             }
         ]
     },
@@ -15069,6 +15117,10 @@
             {
                 "name": "SORA AI",
                 "url": "https://sora.chatgpt.com/explore"
+            },
+            {
+                "name": "system-prompts-and-models-of-ai-tools",
+                "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools"
             }
         ]
     },
@@ -19149,6 +19201,10 @@
             {
                 "name": "Earthquake building damage detection based on synthetic-aperture-radar imagery and machine learning",
                 "url": "https://nhess.copernicus.org/articles/23/789/2023/"
+            },
+            {
+                "name": "Copy over live data sat",
+                "url": "https://copy-over.com/feeds?tab=satellites"
             }
         ]
     },
@@ -20987,6 +21043,10 @@
             {
                 "name": "z-x archived site",
                 "url": "https://web.archive.org/web/*/z-x.my.id*"
+            },
+            {
+                "name": "ctftime",
+                "url": "https://ctftime.org/"
             }
         ]
     },
@@ -21040,6 +21100,10 @@
             {
                 "name": "OSINT of India",
                 "url": "https://unishka.substack.com/p/osint-of-india"
+            },
+            {
+                "name": "List of interesting and active OSINT researchers/bloggers",
+                "url": "https://github.com/ubikron/OSINT-People"
             }
         ]
     },
