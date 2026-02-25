@@ -1208,6 +1208,7 @@ Example
 
 # Internet Archive
 
+- [thebarchive](https://thebarchive.com/_/articles/faq/)
 - [nationalarchives](https://www.nationalarchives.gov.uk/)
 - [DMCA Lumen DB](https://lumendatabase.org/)
 - [Wayback Machine](https://web.archive.org/)
@@ -1848,19 +1849,20 @@ or you can use dork for spesific example
 - [onlyfans search](https://hubite.com/en/onlyfans-search/)
 - [fansearch](https://www.fansearch.com/)
 - [xmodelfinder](https://www.xmodelfinder.com/)
+- [sotugas onlyfans search username](https://sotugas.com/onlyfans/)
 
 # OSINT Adult or Porn (18+)
 
-- [justpaste](https://justpaste.it/)
-- [terabox](https://www.terabox.com/)
-- [erome](https://www.erome.com/)
-- [trakteer](https://trakteer.id/)
-- [bedpage](http://bedpage.com/)
-- [pornhub](https://www.pornhub.com/)
+- [justpaste](https://justpaste.it/) You must to dork 
+- [terabox](https://www.terabox.com/) You must to dork 
+- [erome](https://www.erome.com/) You must to dork 
+- [trakteer](https://trakteer.id/) You must to dork 
+- [bedpage](http://bedpage.com/) You must to dork 
+- [pornhub](https://www.pornhub.com/) 
 - [spankbang](https://spankbang.com/s/spank+bank/)
 - [cityxguide](http://cityxguide.com/)
-- [eros](https://eros.com/)
-- [onlyfans](https://onlyfans.com/onlyfans)
+- [eros](https://eros.com/) You must to dork 
+- [onlyfans](https://onlyfans.com/onlyfans) 
 - [discord](https://discord.com/) You must to know the server 
 - [facebook](https://www.facebook.com/) You must to know the grup or post 
 - [telegram](https://web.telegram.org/) You must to know the channel or group 
@@ -1876,6 +1878,7 @@ or you can use dork for spesific example
 - [sexvid](https://www.sexvid.pro/reset-password/)
 - [xnxx](https://www.xnxx.com/account/checkemail)
 - [xvideos](https://www.xvideos.com/account/checkemail)
+- [archiveofsins Archives](https://archiveofsins.com/)
 
 Pro Tips 
 
@@ -1923,6 +1926,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 
 # Instagram
 
+- [imginn anonymous instagram story viewer](https://imginn.com/)
 - [pixnoy insta viewer](https://www.pixnoy.com/)
 - [InstagramPrivSniffer](https://github.com/obitouka/InstagramPrivSniffer)
 - [instrack](https://instrack.app/)
@@ -1994,6 +1998,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 
 # Reddit 
 
+- [Reddit Account Extractor](https://www.reddit.com/user/<USERNAME-HERE>/about.json)
 - [reddit post analyser](https://www.osintcombine.com/free-osint-tools/reddit-post-analyser)
 - [Archive Reddit](https://www.redditarchive.com/)
 - [Reddit Search](https://redditcommentsearch.com/)
@@ -2008,6 +2013,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [Reddit google cse search](https://cse.google.com/cse?cx=017261104271573007538:bbzhlah6n4o#gsc.tab=0&gsc.sort=)
 - [Reddit Viewer uforio](http://web.uforio.com/#search)
 - [realsrikar Reddit search and viewer](https://realsrikar.github.io/)
+- [Better Reddit Search](https://betterredditsearch.web.app/)
 
 # Youtube 
 
@@ -2035,6 +2041,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [channelcrawler](https://app.channelcrawler.com/)
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - [Seal](https://github.com/JunkFood02/Seal)
+- [ytlarge](https://ytlarge.com/)
 
 # Mastodon 
 
@@ -2190,6 +2197,16 @@ Google queries for MySpace
 - [tikface TikTok Viewer](https://www.tikface.com/)
 - [snaptik tiktok downloader](https://snaptik.app/en2)
 - [CrotDalam - Collection & Reconnaissance Of TikTok — Discovery, Analysis, Logging, And Monitoring](https://github.com/Masriyan/CrotDalam)
+
+# 4chan 
+
+- [4chan](https://4chan.org/)
+- [4chansearch](https://4chansearch.com/)
+- [find 4chan](https://find.4chan.org/)
+- [search4chan](https://search4chan.org/)
+- [wiki archiveteam for 4chan archive](https://wiki.archiveteam.org/index.php/4chan#The_Second_4archive.org)
+- [4chanarchives](https://4chanarchives.com/)
+- [archived moe 4chan](https://archived.moe/)
 
 # Parler 
 
@@ -2352,6 +2369,7 @@ Google queries for MySpace
 
 Mostly general for searching data like web enumerate, attack surface, email, person and etc with hosted and manual installation (local install)
 
+- [shadowdragon free tools](https://shadowdragon.io/blog/category/free-osint-tools/)
 - [hackertarget](https://hackertarget.com/)
 - [bosint](https://app.bosint.gg/)
 - [whatsmyname](https://whatsmyname.app/)
@@ -2434,6 +2452,7 @@ Mostly general for searching data like web enumerate, attack surface, email, per
 
 Search channel, username, bot and anymore
 
+- [telemetr.me RU Lang](https://telemetr.me/all_posts/)
 - [tgdb BOT](https://www.tgdb.org/bot) *Need Tele account 
 - [directorytg](https://directorytg.com/)
 - [hottg](https://www.hottg.com/)
@@ -4398,6 +4417,7 @@ Public Transport
 System and User Prompt AI Model Lists 
 
 - [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
+- [Claude Code Plugins Orchestration and Automation](https://github.com/wshobson/agents/tree/main)
 
 Tips Prompt Injection (LLM Injection)
 
