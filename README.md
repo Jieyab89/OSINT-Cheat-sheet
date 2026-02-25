@@ -308,6 +308,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [tableau public dataset](https://public.tableau.com/)
 - [World’s single largest Internet domains dataset](https://github.com/tb0hdan/domains)
 - [7 darkweb market forum datasets, with usernames obfuscated](https://github.com/gayanku/darkweb_clearweb_darktopics?tab=readme-ov-file)
+- [DOTA Dataset for Object Detection in Aerial Images](https://captain-whu.github.io/DOTA/)
 
 # Forums & Sites
 
