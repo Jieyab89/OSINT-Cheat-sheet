@@ -2,6 +2,12 @@
 
 Thank you very much for those of you who contributed. You can contribute with me in the following format
 
+# Please Take a Notes 
+
+If you want to contribute when making a PR (Pull Request), please check first whether the tools you have created are working. Documentation and instructions on how to use your tools or procedures should be provided so that the owner can check in more detail and ensure that there are no malicious or dangerous scripts in them
+
+For all users, please use a different environment. Do not use your main environment when testing tools 
+
 # OSINT Resouces 
 
 ## Format 
