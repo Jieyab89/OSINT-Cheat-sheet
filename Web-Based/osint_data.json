@@ -3985,6 +3985,10 @@
             {
                 "name": "PolitiTweet Archive",
                 "url": "https://polititweet.org/"
+            },
+            {
+                "name": "thebarchive",
+                "url": "https://thebarchive.com/_/articles/faq/"
             }
         ]
     },
@@ -6032,6 +6036,10 @@
             {
                 "name": "xmodelfinder",
                 "url": "https://www.xmodelfinder.com/"
+            },
+            {
+                "name": "sotugas onlyfans search username",
+                "url": "https://sotugas.com/onlyfans/"
             }
         ]
     },
@@ -6137,6 +6145,10 @@
             {
                 "name": "xvideos",
                 "url": "https://www.xvideos.com/account/checkemail"
+            },
+            {
+                "name": "archiveofsins Archives",
+                "url": "https://archiveofsins.com/"
             }
         ]
     },
@@ -6468,6 +6480,10 @@
             {
                 "name": "instasploit",
                 "url": "https://gitlab.com/anezatra-katedram/instasploit"
+            },
+            {
+                "name": "imginn anonymous instagram story viewer",
+                "url": "https://imginn.com/"
             }
         ]
     },
@@ -6572,6 +6588,14 @@
             {
                 "name": "realsrikar Reddit search and viewer",
                 "url": "https://realsrikar.github.io/"
+            },
+            {
+                "name": "Reddit Account Extractor",
+                "url": "https://www.reddit.com/user/<USERNAME-HERE>/about.json"
+            },
+            {
+                "name": "Better Reddit Search",
+                "url": "https://betterredditsearch.web.app/"
             }
         ]
     },
@@ -6673,6 +6697,10 @@
             {
                 "name": "Seal",
                 "url": "https://github.com/JunkFood02/Seal"
+            },
+            {
+                "name": "ytlarge",
+                "url": "https://ytlarge.com/"
             }
         ]
     },
@@ -8034,6 +8062,10 @@
             {
                 "name": "donwloader - available support other site",
                 "url": "https://cobalt.tools/"
+            },
+            {
+                "name": "shadowdragon free tools",
+                "url": "https://shadowdragon.io/blog/category/free-osint-tools/"
             }
         ]
     },
@@ -8291,6 +8323,10 @@
             {
                 "name": "tdirectory",
                 "url": "https://tdirectory.me/"
+            },
+            {
+                "name": "telemetr.me RU Lang",
+                "url": "https://telemetr.me/all_posts/"
             }
         ]
     },
@@ -15121,6 +15157,10 @@
             {
                 "name": "system-prompts-and-models-of-ai-tools",
                 "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools"
+            },
+            {
+                "name": "Claude Code Plugins Orchestration and Automation",
+                "url": "https://github.com/wshobson/agents/tree/main"
             }
         ]
     },
@@ -21672,6 +21712,39 @@
             {
                 "name": "Decoding MICE",
                 "url": "https://www.insurgent.ca/p/decoding-mice"
+            }
+        ]
+    },
+    {
+        "category": "4chan",
+        "items": [
+            {
+                "name": "4chan",
+                "url": "https://4chan.org/"
+            },
+            {
+                "name": "4chansearch",
+                "url": "https://4chansearch.com/"
+            },
+            {
+                "name": "find 4chan",
+                "url": "https://find.4chan.org/"
+            },
+            {
+                "name": "search4chan",
+                "url": "https://search4chan.org/"
+            },
+            {
+                "name": "wiki archiveteam for 4chan archive",
+                "url": "https://wiki.archiveteam.org/index.php/4chan#The_Second_4archive.org"
+            },
+            {
+                "name": "4chanarchives",
+                "url": "https://4chanarchives.com/"
+            },
+            {
+                "name": "archived moe 4chan",
+                "url": "https://archived.moe/"
             }
         ]
     }
