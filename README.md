@@ -223,7 +223,6 @@ Be carefull using this tool use 2nd account because your account got banned
 - [AWS open data](https://registry.opendata.aws/)
 - [Open Network](http://www.opendatanetwork.com/)
 - [WHO Data](https://www.who.int/data/gho/)
-- [Gpt OSINT](https://github.com/gigz/gpt-osint)
 - [Humdata](https://data.humdata.org/dataset)
 - [Google datasetsearch](https://datasetsearch.research.google.com/)
 - [OSINT Collection](https://start.me/p/DPYPMz/the-ultimate-osint-collection)
@@ -238,7 +237,6 @@ Be carefull using this tool use 2nd account because your account got banned
 - [paperswithcode](https://paperswithcode.com/)
 - [ID BPS](https://www.bps.go.id/id)
 - [ID data Kementrian & Lembaha Dataset](https://data.go.id/home)
-- [ShadowDragon](https://shadowdragon.io/)
 - [datasetlist](https://www.datasetlist.com/)
 - [roboflow](https://roboflow.com/)
 - [databoks katadata ID](https://databoks.katadata.co.id/)
@@ -4380,7 +4378,6 @@ Public Transport
 
 - [claude](https://claude.ai/login)
 - [deepseek](https://www.deepseek.com/)
-- [Gpt osint](https://github.com/gigz/gpt-osint)
 - [cursor](https://www.cursor.com/features)
 - [ollama uncensored](https://ollama.com/library/llama2-uncensored)
 - [Hacker AI](https://chat.hackerai.co/id/login)

@@ -304,10 +304,6 @@
                 "url": "https://www.who.int/data/gho/"
             },
             {
-                "name": "Gpt OSINT",
-                "url": "https://github.com/gigz/gpt-osint"
-            },
-            {
                 "name": "Humdata",
                 "url": "https://data.humdata.org/dataset"
             },
@@ -362,10 +358,6 @@
             {
                 "name": "ID data Kementrian & Lembaha Dataset",
                 "url": "https://data.go.id/home"
-            },
-            {
-                "name": "ShadowDragon",
-                "url": "https://shadowdragon.io/"
             },
             {
                 "name": "datasetlist",
@@ -14994,10 +14986,6 @@
             {
                 "name": "deepseek",
                 "url": "https://www.deepseek.com/"
-            },
-            {
-                "name": "Gpt osint",
-                "url": "https://github.com/gigz/gpt-osint"
             },
             {
                 "name": "cursor",
