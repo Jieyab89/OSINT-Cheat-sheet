@@ -4,6 +4,14 @@
         "items": []
     },
     {
+        "category": "Tips & Trick Safe Guide Using Resources",
+        "items": []
+    },
+    {
+        "category": "See Jieyab Wiki pages",
+        "items": []
+    },
+    {
         "category": "See Jieyab Gitbook",
         "items": [
             {
@@ -634,6 +642,10 @@
             {
                 "name": "7 darkweb market forum datasets, with usernames obfuscated",
                 "url": "https://github.com/gayanku/darkweb_clearweb_darktopics?tab=readme-ov-file"
+            },
+            {
+                "name": "DOTA Dataset for Object Detection in Aerial Images",
+                "url": "https://captain-whu.github.io/DOTA/"
             }
         ]
     },
@@ -1767,6 +1779,10 @@
             {
                 "name": "atsameip",
                 "url": "https://atsameip.com/"
+            },
+            {
+                "name": "dnslytics",
+                "url": "https://search.dnslytics.com/"
             }
         ]
     },
@@ -1986,6 +2002,10 @@
     {
         "category": "Researching Cyber Threats",
         "items": [
+            {
+                "name": "OPEN SOURCE MALWARE A community database, API and collaboration platform to help identify and protect against open-source malware",
+                "url": "https://opensourcemalware.com/"
+            },
             {
                 "name": "URL Haus",
                 "url": "https://urlhaus.abuse.ch/"
@@ -2531,10 +2551,6 @@
                 "url": "https://opensourcemalware.com/"
             },
             {
-                "name": "OPEN SOURCE MALWARE A community database, API and collaboration platform to help identify and protect against open-source malware",
-                "url": "https://opensourcemalware.com/"
-            },
-            {
                 "name": "breach house",
                 "url": "https://breach.house/all_stealers"
             }
@@ -2867,8 +2883,16 @@
         "category": "SOC & Threat Hunting",
         "items": [
             {
+                "name": "OPEN SOURCE MALWARE A community database, API and collaboration platform to help identify and protect against open-source malware",
+                "url": "https://opensourcemalware.com/"
+            },
+            {
                 "name": "attack MITRE TTP",
                 "url": "https://attack.mitre.org/techniques/mobile/"
+            },
+            {
+                "name": "breach house",
+                "url": "https://breach.house/all_stealers"
             },
             {
                 "name": "VMRay Sandbox",
@@ -3313,14 +3337,6 @@
             {
                 "name": "Google threat intelligence",
                 "url": "https://cloud.google.com/security/products/threat-intelligence#threat-intelligence-and-advanced-hunting"
-            },
-            {
-                "name": "OPEN SOURCE MALWARE A community database, API and collaboration platform to help identify and protect against open-source malware",
-                "url": "https://opensourcemalware.com/"
-            },
-            {
-                "name": "breach house",
-                "url": "https://breach.house/all_stealers"
             }
         ]
     },
@@ -3815,6 +3831,10 @@
         "category": "Internet Archive",
         "items": [
             {
+                "name": "thebarchive",
+                "url": "https://thebarchive.com/_/articles/faq/"
+            },
+            {
                 "name": "nationalarchives",
                 "url": "https://www.nationalarchives.gov.uk/"
             },
@@ -3985,10 +4005,6 @@
             {
                 "name": "PolitiTweet Archive",
                 "url": "https://polititweet.org/"
-            },
-            {
-                "name": "thebarchive",
-                "url": "https://thebarchive.com/_/articles/faq/"
             }
         ]
     },
@@ -6274,6 +6290,10 @@
         "category": "Instagram",
         "items": [
             {
+                "name": "imginn anonymous instagram story viewer",
+                "url": "https://imginn.com/"
+            },
+            {
                 "name": "pixnoy insta viewer",
                 "url": "https://www.pixnoy.com/"
             },
@@ -6480,10 +6500,6 @@
             {
                 "name": "instasploit",
                 "url": "https://gitlab.com/anezatra-katedram/instasploit"
-            },
-            {
-                "name": "imginn anonymous instagram story viewer",
-                "url": "https://imginn.com/"
             }
         ]
     },
@@ -6533,6 +6549,10 @@
     {
         "category": "Reddit",
         "items": [
+            {
+                "name": "Reddit Account Extractor",
+                "url": "https://www.reddit.com/user/<USERNAME-HERE>/about.json"
+            },
             {
                 "name": "reddit post analyser",
                 "url": "https://www.osintcombine.com/free-osint-tools/reddit-post-analyser"
@@ -6588,10 +6608,6 @@
             {
                 "name": "realsrikar Reddit search and viewer",
                 "url": "https://realsrikar.github.io/"
-            },
-            {
-                "name": "Reddit Account Extractor",
-                "url": "https://www.reddit.com/user/<USERNAME-HERE>/about.json"
             },
             {
                 "name": "Better Reddit Search",
@@ -7170,6 +7186,39 @@
             {
                 "name": "CrotDalam - Collection & Reconnaissance Of TikTok — Discovery, Analysis, Logging, And Monitoring",
                 "url": "https://github.com/Masriyan/CrotDalam"
+            }
+        ]
+    },
+    {
+        "category": "4chan",
+        "items": [
+            {
+                "name": "4chan",
+                "url": "https://4chan.org/"
+            },
+            {
+                "name": "4chansearch",
+                "url": "https://4chansearch.com/"
+            },
+            {
+                "name": "find 4chan",
+                "url": "https://find.4chan.org/"
+            },
+            {
+                "name": "search4chan",
+                "url": "https://search4chan.org/"
+            },
+            {
+                "name": "wiki archiveteam for 4chan archive",
+                "url": "https://wiki.archiveteam.org/index.php/4chan#The_Second_4archive.org"
+            },
+            {
+                "name": "4chanarchives",
+                "url": "https://4chanarchives.com/"
+            },
+            {
+                "name": "archived moe 4chan",
+                "url": "https://archived.moe/"
             }
         ]
     },
@@ -7756,6 +7805,10 @@
         "category": "OSINT Online Tool",
         "items": [
             {
+                "name": "shadowdragon free tools",
+                "url": "https://shadowdragon.io/blog/category/free-osint-tools/"
+            },
+            {
                 "name": "hackertarget",
                 "url": "https://hackertarget.com/"
             },
@@ -8062,16 +8115,16 @@
             {
                 "name": "donwloader - available support other site",
                 "url": "https://cobalt.tools/"
-            },
-            {
-                "name": "shadowdragon free tools",
-                "url": "https://shadowdragon.io/blog/category/free-osint-tools/"
             }
         ]
     },
     {
         "category": "Telegram Tool",
         "items": [
+            {
+                "name": "telemetr.me RU Lang",
+                "url": "https://telemetr.me/all_posts/"
+            },
             {
                 "name": "tgdb BOT",
                 "url": "https://www.tgdb.org/bot"
@@ -8305,6 +8358,10 @@
                 "url": "https://waybien.com/en"
             },
             {
+                "name": "tdirectory",
+                "url": "https://tdirectory.me/"
+            },
+            {
                 "name": "t.me/<change usernam>",
                 "url": "https://t.me/USERNAME"
             },
@@ -8319,14 +8376,6 @@
             {
                 "name": "t.me/s/<change username>",
                 "url": "https://t.me/s/PREVIEWCHANNEL"
-            },
-            {
-                "name": "tdirectory",
-                "url": "https://tdirectory.me/"
-            },
-            {
-                "name": "telemetr.me RU Lang",
-                "url": "https://telemetr.me/all_posts/"
             }
         ]
     },
@@ -10145,6 +10194,18 @@
                 "url": "https://osm-gadget-leaflet.toolforge.org/"
             },
             {
+                "name": "geoportal ESDM Mineral and other ID",
+                "url": "https://geoportal.esdm.go.id/"
+            },
+            {
+                "name": "earthquake USGS map",
+                "url": "https://earthquake.usgs.gov/"
+            },
+            {
+                "name": "worldmonitor map",
+                "url": "https://worldmonitor.app/"
+            },
+            {
                 "name": "SHP to KML Converrt",
                 "url": "https://mygeodata.cloud/converter/shp-to-kml"
             },
@@ -10289,20 +10350,16 @@
                 "url": "https://leafmap.org/#youtube-channel"
             },
             {
+                "name": "nationsonline Country Codes List",
+                "url": "https://www.nationsonline.org/oneworld/country_code_list.htm"
+            },
+            {
                 "name": "Earth Engine Doc",
                 "url": "https://developers.google.com/earth-engine/guides/getstarted"
             },
             {
                 "name": "Google Earth Engine: A Quick Guide for Beginners",
                 "url": "https://gisgeography.com/google-earth-engine/"
-            },
-            {
-                "name": "geoportal ESDM ID",
-                "url": "https://geoportal.esdm.go.id/"
-            },
-            {
-                "name": "nationsonline Country Codes List",
-                "url": "https://www.nationsonline.org/oneworld/country_code_list.htm"
             }
         ]
     },
@@ -11536,6 +11593,10 @@
                 "url": "https://tempmailto.online/"
             },
             {
+                "name": "Temp Mail 8 w custom",
+                "url": "https://emailfake.com/"
+            },
+            {
                 "name": "Temp email gmail",
                 "url": "https://www.emailnator.com/mailbox"
             },
@@ -11838,10 +11899,6 @@
             {
                 "name": "nord",
                 "url": "https://nordvpn.com/"
-            },
-            {
-                "name": "Temp Mail 8 w custom",
-                "url": "https://emailfake.com/"
             }
         ]
     },
@@ -12869,12 +12926,12 @@
                 "url": "https://github.com/josh0xA/darkdump"
             },
             {
-                "name": "Darkweb labs settup",
-                "url": "https://hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf"
-            },
-            {
                 "name": "breach house",
                 "url": "https://breach.house/all_stealers"
+            },
+            {
+                "name": "Darkweb labs settup",
+                "url": "https://hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf"
             }
         ]
     },
@@ -15067,6 +15124,30 @@
                 "url": "https://developers.openai.com/codex/cli/"
             },
             {
+                "name": "grok",
+                "url": "https://grok.com/"
+            },
+            {
+                "name": "antigravity",
+                "url": "https://antigravity.google/"
+            },
+            {
+                "name": "Microsoft Copilot",
+                "url": "https://copilot.microsoft.com/"
+            },
+            {
+                "name": "SORA AI",
+                "url": "https://sora.chatgpt.com/explore"
+            },
+            {
+                "name": "system-prompts-and-models-of-ai-tools",
+                "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools"
+            },
+            {
+                "name": "Claude Code Plugins Orchestration and Automation",
+                "url": "https://github.com/wshobson/agents/tree/main"
+            },
+            {
                 "name": "imprompter",
                 "url": "https://imprompter.ai/#pii-exfiltration"
             },
@@ -15137,30 +15218,6 @@
             {
                 "name": "garak",
                 "url": "https://github.com/NVIDIA/garak"
-            },
-            {
-                "name": "grok",
-                "url": "https://grok.com/"
-            },
-            {
-                "name": "antigravity",
-                "url": "https://antigravity.google/"
-            },
-            {
-                "name": "Microsoft Copilot",
-                "url": "https://copilot.microsoft.com/"
-            },
-            {
-                "name": "SORA AI",
-                "url": "https://sora.chatgpt.com/explore"
-            },
-            {
-                "name": "system-prompts-and-models-of-ai-tools",
-                "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools"
-            },
-            {
-                "name": "Claude Code Plugins Orchestration and Automation",
-                "url": "https://github.com/wshobson/agents/tree/main"
             }
         ]
     },
@@ -15812,6 +15869,18 @@
                 "url": "https://caido.io/"
             },
             {
+                "name": "proxifier",
+                "url": "https://www.proxifier.com/"
+            },
+            {
+                "name": "mitmproxy",
+                "url": "https://www.mitmproxy.org/"
+            },
+            {
+                "name": "ProxyBridge",
+                "url": "https://github.com/InterceptSuite/ProxyBridge"
+            },
+            {
                 "name": "MobileApp-Pentest-Cheatsheet",
                 "url": "https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet"
             },
@@ -15992,8 +16061,8 @@
                 "url": "https://www.kali.org/tools/netexec/"
             },
             {
-                "name": "deep-eye",
-                "url": "https://github.com/zakirkun/deep-eye"
+                "name": "guardian-cli",
+                "url": "https://github.com/zakirkun/guardian-cli"
             },
             {
                 "name": "vulners",
@@ -18700,26 +18769,6 @@
                 "url": "https://www.foia.gov/"
             },
             {
-                "name": "Europol Publications",
-                "url": "https://www.europol.europa.eu/publications-events"
-            },
-            {
-                "name": "terrorist-organizations",
-                "url": "https://www.state.gov/foreign-terrorist-organizations"
-            },
-            {
-                "name": "Sanctions against terrorism",
-                "url": "https://www.consilium.europa.eu/en/policies/fight-against-terrorism/sanctions-against-terrorism/#list"
-            },
-            {
-                "name": "EU financial sanctions list",
-                "url": "https://data.europa.eu/data/datasets/consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions?locale=en"
-            },
-            {
-                "name": "ID Pejabat rekam jejak",
-                "url": "https://rekamjejak.net/direktori?query=&category=&party=&page=1&limit=9"
-            },
-            {
                 "name": "thetrumparchive twitter Trump archive",
                 "url": "https://www.thetrumparchive.com/"
             },
@@ -18738,6 +18787,30 @@
             {
                 "name": "PolitiTweet Archive",
                 "url": "https://polititweet.org/"
+            },
+            {
+                "name": "worldmonitor map",
+                "url": "https://worldmonitor.app/"
+            },
+            {
+                "name": "Europol Publications",
+                "url": "https://www.europol.europa.eu/publications-events"
+            },
+            {
+                "name": "terrorist-organizations",
+                "url": "https://www.state.gov/foreign-terrorist-organizations"
+            },
+            {
+                "name": "Sanctions against terrorism",
+                "url": "https://www.consilium.europa.eu/en/policies/fight-against-terrorism/sanctions-against-terrorism/#list"
+            },
+            {
+                "name": "EU financial sanctions list",
+                "url": "https://data.europa.eu/data/datasets/consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions?locale=en"
+            },
+            {
+                "name": "ID Pejabat rekam jejak",
+                "url": "https://rekamjejak.net/direktori?query=&category=&party=&page=1&limit=9"
             },
             {
                 "name": "mappingmilitants",
@@ -19175,6 +19248,10 @@
                 "url": "https://visibleearth.nasa.gov/"
             },
             {
+                "name": "Copy over live data sat",
+                "url": "https://copy-over.com/feeds?tab=satellites"
+            },
+            {
                 "name": "Landsat Sat",
                 "url": "https://id.wikipedia.org/wiki/Program_Landsat"
             },
@@ -19241,10 +19318,6 @@
             {
                 "name": "Earthquake building damage detection based on synthetic-aperture-radar imagery and machine learning",
                 "url": "https://nhess.copernicus.org/articles/23/789/2023/"
-            },
-            {
-                "name": "Copy over live data sat",
-                "url": "https://copy-over.com/feeds?tab=satellites"
             }
         ]
     },
@@ -21110,6 +21183,10 @@
                 "url": "https://telegra.ph/"
             },
             {
+                "name": "List of interesting and active OSINT researchers/bloggers",
+                "url": "https://github.com/ubikron/OSINT-People"
+            },
+            {
                 "name": "OSINT of Israel",
                 "url": "https://unishka.substack.com/p/osint-of-israel"
             },
@@ -21140,10 +21217,6 @@
             {
                 "name": "OSINT of India",
                 "url": "https://unishka.substack.com/p/osint-of-india"
-            },
-            {
-                "name": "List of interesting and active OSINT researchers/bloggers",
-                "url": "https://github.com/ubikron/OSINT-People"
             }
         ]
     },
@@ -21456,7 +21529,7 @@
         ]
     },
     {
-        "category": "Vehicle",
+        "category": "Vehicles",
         "items": [
             {
                 "name": "China number plates",
@@ -21521,6 +21594,23 @@
             {
                 "name": "Weaponizing favicon.ico for BugBounties , OSINT and what not",
                 "url": "https://medium.com/@Asm0d3us/weaponizing-favicon-ico-for-bugbounties-osint-and-what-not-ace3c214e139"
+            }
+        ]
+    },
+    {
+        "category": "HUMINT",
+        "items": [
+            {
+                "name": "MICE”- the 4 pillars of CIA spy recruitment",
+                "url": "https://spyauthor.medium.com/mice-the-4-pillars-of-cia-spy-recruitment-61d3f5cf9d3c"
+            },
+            {
+                "name": "Rethinking and Old Approach: An Alternative Framework for Agent Recruitment: From MICE to RASCLS",
+                "url": "https://www.cia.gov/resources/csi/studies-in-intelligence/volume-57-no-1/an-alternative-framework-for-agent-recruitment-from-mice-to-rascls/"
+            },
+            {
+                "name": "Decoding MICE",
+                "url": "https://www.insurgent.ca/p/decoding-mice"
             }
         ]
     },
@@ -21590,6 +21680,10 @@
             {
                 "name": "Intelligence Base & Knowledge Base",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Intelligence-Base-&-Knowledge-Base"
+            },
+            {
+                "name": "Jieyab89 Script for OSINT",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Jieyab89-Script-for-OSINT"
             },
             {
                 "name": "OSINT for Academic Literature",
@@ -21670,81 +21764,6 @@
             {
                 "name": "Who OSINT Used",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Who-OSINT-Used"
-            },
-            {
-                "name": "Jieyab89 Script for OSINT",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Jieyab89-Script-for-OSINT"
-            }
-        ]
-    },
-    {
-        "category": "Tips & Trick Safe Guide Using Resources",
-        "items": []
-    },
-    {
-        "category": "See Jieyab Wiki pages",
-        "items": []
-    },
-    {
-        "category": "Vehicles",
-        "items": [
-            {
-                "name": "China number plates",
-                "url": "https://jenxi.com/china-vehicle-registration-plates/"
-            },
-            {
-                "name": "Indonesia number plates",
-                "url": "https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Indonesia"
-            }
-        ]
-    },
-    {
-        "category": "HUMINT",
-        "items": [
-            {
-                "name": "MICE”- the 4 pillars of CIA spy recruitment",
-                "url": "https://spyauthor.medium.com/mice-the-4-pillars-of-cia-spy-recruitment-61d3f5cf9d3c"
-            },
-            {
-                "name": "Rethinking and Old Approach: An Alternative Framework for Agent Recruitment: From MICE to RASCLS",
-                "url": "https://www.cia.gov/resources/csi/studies-in-intelligence/volume-57-no-1/an-alternative-framework-for-agent-recruitment-from-mice-to-rascls/"
-            },
-            {
-                "name": "Decoding MICE",
-                "url": "https://www.insurgent.ca/p/decoding-mice"
-            }
-        ]
-    },
-    {
-        "category": "4chan",
-        "items": [
-            {
-                "name": "4chan",
-                "url": "https://4chan.org/"
-            },
-            {
-                "name": "4chansearch",
-                "url": "https://4chansearch.com/"
-            },
-            {
-                "name": "find 4chan",
-                "url": "https://find.4chan.org/"
-            },
-            {
-                "name": "search4chan",
-                "url": "https://search4chan.org/"
-            },
-            {
-                "name": "wiki archiveteam for 4chan archive",
-                "url": "https://wiki.archiveteam.org/index.php/4chan#The_Second_4archive.org"
-            },
-            {
-                "name": "4chanarchives",
-                "url": "https://4chanarchives.com/"
-            },
-            {
-                "name": "archived moe 4chan",
-                "url": "https://archived.moe/"
             }
         ]
     }
