@@ -18,9 +18,9 @@ This case possible to view commit message git when --force with the developer or
 
 Doc : https://docs.github.com/en/rest/activity/events?apiVersion=2022-11-28
 
-```
 Request Github forks 
 
+```
 curl https://api.github.com/repos/OWNER/REPO/forks
 ```
 
@@ -32,8 +32,9 @@ git log --all --oneline --graph
 
 Github event API, check event commit SHA message from Github repo, this request need auth with your account. You can use curl or postman for hit the API
 
-```
 Request 
+
+```
 
 curl \
   -H "Accept: application/vnd.github+json" \
@@ -42,9 +43,9 @@ curl \
 
 ```
 
-```
 Response
-...................
+
+```
 {
   "type": "PushEvent",
   "payload": {
