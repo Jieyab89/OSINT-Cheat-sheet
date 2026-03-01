@@ -2995,7 +2995,9 @@ Scribd viewer
 - [airpano](https://www.airpano.com/)
 - [notable-people](https://tjukanovt.github.io/notable-people)
 - [OSM leaflet](https://osm-gadget-leaflet.toolforge.org/)
-- [geoportal ESDM ID](https://geoportal.esdm.go.id/)
+- [geoportal ESDM Mineral and other ID](https://geoportal.esdm.go.id/)
+- [earthquake USGS map](https://earthquake.usgs.gov/)
+- [worldmonitor map](https://worldmonitor.app/)
 
 Conveter tool 
 
@@ -4619,6 +4621,9 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [burpscan](https://github.com/sherlock-ohm/burpscan) Automate unauthenticated web application security testing with Burp Suite
 - [nowafpls](https://github.com/assetnote/nowafpls) Burp Plugin to Bypass WAFs through the insertion of Junk Data
 - [caido](https://caido.io/) Security testing tools intercepting request like burp
+- [proxifier](https://www.proxifier.com/) Security testing tools intercepting request like burp
+- [mitmproxy](https://www.mitmproxy.org/) Security testing tools intercepting request like burp
+- [ProxyBridge](https://github.com/InterceptSuite/ProxyBridge) Security testing tools intercepting request like burp
 - [MobileApp-Pentest-Cheatsheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet) mapped OWASP Mobile Risk Top 10 for conducting pentest.
 - [Facial Recognition Attack's - Checklist](https://github.com/CyberSecurityUP/Facial-Recognition-PenTest-Checklist) Awesome checklist for pentesting Liveness and mobile apps face verif 
 - [A guide AV Evasion](https://evasions.checkpoint.com/) A guide for bypass AV or evading AV technique 
@@ -4664,7 +4669,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [Sudomy](https://github.com/screetsec/Sudomy) Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance
 - [Url Scan](https://urlscan.io/) Enumerate a web finding a endpoint and assets 
 - [netexec](https://www.kali.org/tools/netexec/) Spray password on service like CrackMapExec
-- [deep-eye](https://github.com/zakirkun/deep-eye) AI-driven vulnerability scanner and penetration testing tool that integrates multiple AI providers (OpenAI, Grok, OLLAMA, Claude)
+- [guardian-cli](https://github.com/zakirkun/guardian-cli) AI-driven penetration testing automation CLI tool that leverages Google Gemini and LangChain to orchestrate intelligent, step-by-step penetration testing workflows while maintaining ethical hacking standards
 - [vulners](https://vulners.com/) Search CVE and common vulnerability
 - [Guadian CLI](https://github.com/zakirkun/guardian-cli) Guardian is a production-ready AI-powered penetration testing automation CLI tool that leverages Google Gemini and LangChain to orchestrate intelligent, step-by-step penetration testing workflows while maintaining ethical hacking standards.
 
@@ -5511,6 +5516,7 @@ OSINT politics and geopolitics, risk crisis
 - [propublica Trump twitter archive](https://projects.propublica.org/politwoops/search?q=trump)
 - [trumpstruth](https://trumpstruth.org/)
 - [PolitiTweet Archive](https://polititweet.org/)
+- [worldmonitor map](https://worldmonitor.app/)
 
 Terrorism & Radical 
 
