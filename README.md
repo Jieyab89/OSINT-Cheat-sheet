@@ -2733,6 +2733,7 @@ Scribd viewer
 - [Remove Background](https://theinpaint.com/)
 - [Depix -  to recover plaintext from pixelized screenshots](https://github.com/spipm/Depixelization_poc)
 - [smartdeblur](http://smartdeblur.net/) Install on your VM not main enviroment
+- [GeoInfer](https://geoinfer.com/) AI-powered image geolocation tool
 
 # Stock Images
 
