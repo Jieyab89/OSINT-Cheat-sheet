@@ -2245,6 +2245,7 @@ Google queries for MySpace
 
 # Email Tracking
 
+- [behindtheemail](https://behindtheemail.com/)
 - [dmeta](https://dmeta.me/)
 - [mosint](https://github.com/alpkeskin/mosint)
 - [TraceFind](https://tracefind.info)
@@ -2998,6 +2999,7 @@ Scribd viewer
 - [geoportal ESDM Mineral and other ID](https://geoportal.esdm.go.id/)
 - [earthquake USGS map](https://earthquake.usgs.gov/)
 - [worldmonitor map](https://worldmonitor.app/)
+- [GeoSentinel](https://github.com/h9zdev/GeoSentinel)
 
 Conveter tool 
 
@@ -4248,6 +4250,7 @@ Strict and disable bot crawl search engine index account
 - [vehicleregistrationapi](https://www.vehicleregistrationapi.com/)
 - [auto-info.gratis](https://auto-info.gratis/)
 - [mail.e-data.com.ua](https://mail.e-data.com.ua/)
+- [platetracker](https://www.stopice.net/platetracker/index.cgi)
 
 VIN Checker 
 
@@ -4453,6 +4456,10 @@ Knowledge AI and ML
 Securing your LLM 
 
 - [garak](https://github.com/NVIDIA/garak)
+
+Adding skill on AI agent 
+
+- [skills](https://skills.sh/) Before run check the repo and mode "ask before execute"
 
 # OSINT for Red Team 
 
@@ -6281,6 +6288,9 @@ You can search nickname, hacker team and hacker archive like web defacement data
 
 # MISC
 
+- [Awesome Telegram](https://github.com/ebertti/awesome-telegram) Collection great groups, channels, bots and libraries for Telegram 
+- [osintrack](https://osintrack.com/) The list of OSINT sources and data sources is similar to Jieyab89
+- [pasal ID](https://pasal.id/) Search for articles, sections, and laws in Indonesia 
 - [tubeoffline - Tools and media downloader](https://www.tubeoffline.com/)
 - [humantraffickingsearch](https://humantraffickingsearch.org/)
 - [turboscribe - YT Tools and downloander and conveter](https://turboscribe.ai/)
