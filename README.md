@@ -1454,6 +1454,7 @@ Crack medium article
 - [Maltego social links](https://www.maltego.com/transform-hub/social-links-ce/)
 - [indokontraktor ID](https://indokontraktor.com/)
 - [opentender ID](https://opentender.net/)
+- [IndoTender ID](https://indotender.com/)
 - [ahu ID](https://ahu.go.id/pencarian/profil-pt)
 - [Minerba ESDM ID](https://momi.minerba.esdm.go.id/gisportal/home/)
 - [MODI ID](https://modi.esdm.go.id/portal/dataPerusahaan)
