@@ -1580,6 +1580,7 @@ Crack medium article
 - [CSE Google Search](https://cse.google.com/cse?cx=partner-pub-7233843800519946:6667570044&ie=UTF-8&q=)
 - [ID Sistem Informasi Penelusuran Perkara](https://sipp.pn-negara.go.id/) Tips you can search by province or regency (subdomain)  
 - [ID mahkamahagung](https://putusan3.mahkamahagung.go.id/)
+- [ID IndoCourtAtlas](https://indocourtatlas.com/)
 - [ID Check the wealth assets of Indonesian ministries](https://elhkpn.kpk.go.id/portal/user/check_search_announ#announ)
 - [ID SIKAP CARI PELAKU USAHA](https://sikap.lkpp.go.id/pelaku-usaha/cari)
 - [ID Pejabat rekam jejak](https://rekamjejak.net/direktori?query=&category=&party=&page=1&limit=9)
