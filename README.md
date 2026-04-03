@@ -835,6 +835,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [synthient](https://search.synthient.com/)
 - [opensourcemalware](https://opensourcemalware.com/)
 - [breach house](https://breach.house/all_stealers)
+- [kleenscan](https://kleenscan.biz/)
 
 # IoT Search Engines
 
