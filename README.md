@@ -1891,6 +1891,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [STEAM DB](https://steamdb.info/calculator/)
 - [Steam OSINT tool](https://github.com/matiash26/Steam-OSINT-TOOL)
 - [exportcomments](https://exportcomments.com/)
+- [steamcharts](https://steamcharts.com/)
 
 # Slack 
 
