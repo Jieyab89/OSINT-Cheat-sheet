@@ -836,6 +836,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [opensourcemalware](https://opensourcemalware.com/)
 - [breach house](https://breach.house/all_stealers)
 - [kleenscan](https://kleenscan.biz/)
+- [malapi](https://malapi.io/) 
 
 # IoT Search Engines
 
@@ -1881,6 +1882,7 @@ or you can use dork for spesific example
 - [xnxx](https://www.xnxx.com/account/checkemail)
 - [xvideos](https://www.xvideos.com/account/checkemail)
 - [archiveofsins Archives](https://archiveofsins.com/)
+- [deviantart](https://www.deviantart.com/)
 
 Pro Tips 
 
@@ -4680,6 +4682,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [guardian-cli](https://github.com/zakirkun/guardian-cli) AI-driven penetration testing automation CLI tool that leverages Google Gemini and LangChain to orchestrate intelligent, step-by-step penetration testing workflows while maintaining ethical hacking standards
 - [vulners](https://vulners.com/) Search CVE and common vulnerability
 - [Guadian CLI](https://github.com/zakirkun/guardian-cli) Guardian is a production-ready AI-powered penetration testing automation CLI tool that leverages Google Gemini and LangChain to orchestrate intelligent, step-by-step penetration testing workflows while maintaining ethical hacking standards.
+- [malapi](https://malapi.io/) Reference for Windows APIs that are commonly abused by malware or frequently used in cyber security contexts. It serves as a "cheat sheet" for malware analysts
 
 Social Engineering (Social E)
 
@@ -5357,6 +5360,7 @@ Resources and collection for your make tool OSINT
 - [How to Verify Guide](https://www.howtoverify.info/Image/Where/Geolocation/Manual_geolocation)
 - [ID INAPROC daftar hitam penyedia](https://daftar-hitam.inaproc.id/)
 - [WIPO INT](https://branddb.wipo.int/)
+- [SPSE inaproc ID](https://spse.inaproc.id/)
 
 # NEWS OSINT
 
@@ -6104,6 +6108,7 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [DataRepublican](https://datarepublican.com/)
 - [Cek Nama Rekening Bank/e-Wallet Indonesia](https://cekrekening.github.io/)
 - [BIN Database CC Checker](https://www.bindb.com/bin-database)
+- [SPSE inaproc ID](https://spse.inaproc.id/)
 
 # OSINT Cryptography (Cipher)
 
