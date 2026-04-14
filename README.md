@@ -43,6 +43,7 @@ Contains information about OSINT tips, write up usage resouces and more tips abo
 - [What is Data Enrichment & Pivoting](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/what-is-data-enrichment-and-pivoting)
 - [How to Spot a Deepfake](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/how-to-spot-a-deepfake)
 - [OSINT ‐ Inside About Data Breach](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/inside-about-data-breach-in-osint)
+- [All About HUMINT](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/all-about-humint#whats-is-humint)
 
 # These Resources Are Recommend For 
 
