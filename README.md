@@ -488,6 +488,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 
 # Web Intelligence
 
+- [GAU getallurls ](https://github.com/lc/gau)
 - [Abuse IP DB](https://www.abuseipdb.com/)
 - [similartech](https://similartech.com/)
 - [web-check](https://web-check.as93.net/)
@@ -643,6 +644,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 
 There is a resouces to investigae malicious link and bypass url shortlink 
 
+- [GAU getallurls ](https://github.com/lc/gau)
 - [trendmicro](https://global.sitesafety.trendmicro.com/)
 - [zscaler](https://zulu.zscaler.com/)
 - [drweb](https://vms.drweb.com/online/)
