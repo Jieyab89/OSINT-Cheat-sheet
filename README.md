@@ -1420,6 +1420,7 @@ Crack medium article
 - [Changedetection](http://www.changedetection.com)
 - [Followthatpage](http://www.followthatpage.com)
 - [visualping](https://visualping.io/)
+- [Snaplert](https://snaplert.com) - Visual pixel diffs + AI summaries for website change monitoring
 - [ID MA Web Monitoring](https://www.mahkamahagung.go.id/id/webmon)
 - [trustpositif Kominfo ID](https://trustpositif.komdigi.go.id/normalisasi) Checking blocked site ID 
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
