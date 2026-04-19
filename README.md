@@ -4469,6 +4469,10 @@ Adding skill on AI agent
 
 - [skills](https://skills.sh/) Before run check the repo and mode "ask before execute"
 
+Misc
+
+- [Claude Adjusment and Usage Policy for Cyber Use Case](https://claude.com/form/cyber-use-case)
+
 # OSINT for Red Team 
 
 - [AutoRecon](https://github.com/AutoRecon/AutoRecon) AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services. And recommend for OSCP
