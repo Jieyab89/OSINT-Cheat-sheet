@@ -3008,6 +3008,7 @@ Scribd viewer
 - [earthquake USGS map](https://earthquake.usgs.gov/)
 - [worldmonitor map](https://worldmonitor.app/)
 - [GeoSentinel](https://github.com/h9zdev/GeoSentinel)
+- [irwatch](https://irwatch.org/)
 
 Conveter tool 
 
@@ -4390,26 +4391,22 @@ Public Transport
 # GPT OSINT (AI)
 
 - [claude](https://claude.ai/login)
+- [claude cli](https://code.claude.com/docs/en/overview)
 - [deepseek](https://www.deepseek.com/)
 - [cursor](https://www.cursor.com/features)
 - [ollama uncensored](https://ollama.com/library/llama2-uncensored)
-- [Hacker AI](https://chat.hackerai.co/id/login)
 - [Blackbox AI](https://www.blackbox.ai/)
 - [Chat GPT](https://openai.com/chatgpt/)
-- [poe AI](https://poe.com/login)
 - [Chat-PDF](https://www.chatpdf.com/)
 - [perplexity](https://www.perplexity.ai/)
 - [UBIKRON](https://www.osint-tool.com/unravel-help/)
 - [earthkit](https://agent.earthkit.app/)
 - [browser-use](https://github.com/browser-use/browser-use)
 - [interviewcoder](https://www.interviewcoder.co/)
-- [copy](https://www.copy.ai/)
 - [murf AI Voice](https://murf.ai/)
-- [AI Voice Generator](https://play.ht/)
 - [nari-labs/dia](https://github.com/nari-labs/dia)
 - [xbow - AI offensive security (BETA TEST)](https://xbow.com/)
 - [QWEN AI](https://chat.qwen.ai/)
-- [Roo-Code AI AGENT](https://github.com/RooVetGit/Roo-Code)
 - [gihtub copilot](https://github.com/features/copilot)
 - [firecrawl](https://www.firecrawl.dev/)
 - [kling AI - Generate media and vidio](https://www.klingai.com/)
@@ -4420,7 +4417,6 @@ Public Transport
 - [suna](https://www.suna.so/)
 - [mistral](https://mistral.ai/)
 - [hexstrike](https://www.hexstrike.com/)
-- [trae](https://www.trae.ai/)
 - [codex CLI](https://developers.openai.com/codex/cli/)
 - [grok](https://grok.com/)
 - [antigravity](https://antigravity.google/)
@@ -5537,6 +5533,7 @@ OSINT politics and geopolitics, risk crisis
 - [trumpstruth](https://trumpstruth.org/)
 - [PolitiTweet Archive](https://polititweet.org/)
 - [worldmonitor map](https://worldmonitor.app/)
+- [irwatch](https://irwatch.org/)
 
 Terrorism & Radical 
 
