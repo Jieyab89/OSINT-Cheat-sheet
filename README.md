@@ -4439,9 +4439,9 @@ Tips Prompt Injection (LLM Injection)
 
 Hardware and server 
 
-- [MAC Stduio](https://www.apple.com/id/mac-studio/)
-- [nvidia](https://www.nvidia.com/en-us/)
-- [digitalocean rent a gpu](https://www.digitalocean.com/pricing/gpu-droplets)
+- [MAC Studio](https://www.apple.com/id/mac-studio/)
+- [Nvidia](https://www.nvidia.com/en-us/)
+- [Digitalocean rent a gpu](https://www.digitalocean.com/pricing/gpu-droplets)
 
 LLM Interface 
 
