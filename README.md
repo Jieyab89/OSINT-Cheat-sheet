@@ -954,6 +954,7 @@ You can find the file hash or other threat indicator
 - [AT&T](https://cybersecurity.att.com/resource-center#content_analyst-reports)
 - [Yara](https://yara.readthedocs.io/en/stable/)
 - [Yara Hub](https://yaraify.abuse.ch/yarahub/)
+- [Yara Offc Repo](https://github.com/yara-rules/rules)
 - [Virustotal](https://www.virustotal.com/gui/home/upload)
 - [Virus Exchange](https://virus.exchange/)
 - [Malware Sample and IOC](https://github.com/rivitna/Malware)
@@ -1097,6 +1098,7 @@ You can find the file hash or other threat indicator
 - [gittodoc](https://www.gittodoc.com/)
 - [gitsearchai](https://www.gitsearchai.com/)
 - [gitdiagram](https://gitdiagram.com/)
+- [braingainsoft find github email](https://braingainsoft.com/)
 
 Github Dork
 
@@ -2253,6 +2255,7 @@ Google queries for MySpace
 
 # Email Tracking
 
+- [braingainsoft find github email](https://braingainsoft.com/)
 - [behindtheemail](https://behindtheemail.com/)
 - [dmeta](https://dmeta.me/)
 - [mosint](https://github.com/alpkeskin/mosint)
@@ -3478,7 +3481,7 @@ Build your sockpuppet account and proctect your privacy
 - [Google Safe Browsing](https://developers.google.com/safe-browsing?hl=id)
 - [SNS masking](https://smsviro.com/home/#pricing)
 - [USER AGENT LIST](https://www.useragentstring.com/pages/useragentstring.php)
-- [dnmx email](https://dnmx.su/)
+- [dnmx email](https://dnmx.cc/)
 - [fakesims - Generate User Persona](https://fakesims.com/username-generator.html)
 - [Receive SMS Online - SmsPva](https://smspva.com/)
 - [Proton Mail](https://account.proton.me/mail)
@@ -3750,6 +3753,7 @@ Social Network and blogging
 
 # Darkweb Intelligence
 
+- [ail-framework](https://github.com/ail-project/ail-framework)
 - [breaking bad forums (ONION SITE)](http://bbzzzsvqcrqtki6umym6itiixfhni37ybtt7mkbjyxn2pgllzxf2qgyd.onion/)
 - [onion scan](https://onionscan.org/)
 - [onionite](https://github.com/lukechilds/onionite?tab=readme-ov-file)
@@ -5181,6 +5185,8 @@ Simulator and Game
 - [Airsoft Gun](https://en.wikipedia.org/wiki/Airsoft_gun)
 - [Arma Reforger](https://store.steampowered.com/app/1874880/Arma_Reforger/)
 - [Pure Sniper](https://store.steampowered.com/app/1612020/Pure_Sniper/)
+- [Sniper Ghost Warrior Contracts 2](https://store.steampowered.com/app/1338770/Sniper_Ghost_Warrior_Contracts_2/)
+- [Ready or Not](https://store.steampowered.com/app/1144200/Ready_or_Not/)
 
 Tactical learn and some firearms knowledge
 
