@@ -57,6 +57,10 @@
             {
                 "name": "All About Darkweb Tips Darkweb OSINT Assessments",
                 "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/all-about-darkweb-tips-darkweb-osint-assessments"
+            },
+            {
+                "name": "All About Stealer Log and Cyber Threat",
+                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-stealer-log-and-cyber-threat"
             }
         ]
     },
@@ -4350,6 +4354,26 @@
             {
                 "name": "breach house",
                 "url": "https://breach.house/all_stealers"
+            },
+            {
+                "name": "OsintCat",
+                "url": "https://www.osintcat.net/"
+            },
+            {
+                "name": "idleakcheck",
+                "url": "https://idleakcheck.com/"
+            },
+            {
+                "name": "breach VIP",
+                "url": "https://breach.vip/"
+            },
+            {
+                "name": "infodra",
+                "url": "https://infodra.com/"
+            },
+            {
+                "name": "breachbase",
+                "url": "https://breachbase.com/search"
             }
         ]
     },
@@ -4991,6 +5015,10 @@
             {
                 "name": "geoportal ESDM ID",
                 "url": "https://geoportal.esdm.go.id/"
+            },
+            {
+                "name": "nemesis ID",
+                "url": "https://nemesis.assai.id/"
             }
         ]
     },
@@ -6323,6 +6351,10 @@
             {
                 "name": "awesome-bluesky",
                 "url": "https://github.com/fishttp/awesome-bluesky"
+            },
+            {
+                "name": "bskyviewer",
+                "url": "https://bskyviewer.github.io/"
             }
         ]
     },
@@ -6652,6 +6684,10 @@
             {
                 "name": "Better Reddit Search",
                 "url": "https://betterredditsearch.web.app/"
+            },
+            {
+                "name": "redlib viewer online",
+                "url": "https://redlib.catsarch.com/"
             }
         ]
     },
@@ -6757,6 +6793,14 @@
             {
                 "name": "ytlarge",
                 "url": "https://ytlarge.com/"
+            },
+            {
+                "name": "yewtu YT Viewer",
+                "url": "https://yewtu.be/"
+            },
+            {
+                "name": "invidious YT Viewer Available Instances",
+                "url": "https://docs.invidious.io/instances/"
             }
         ]
     },
@@ -7063,6 +7107,18 @@
             {
                 "name": "Wayback Twitter",
                 "url": "https://waybacktweets.streamlit.app/"
+            },
+            {
+                "name": "xcancel like nitter",
+                "url": "https://xcancel.com/"
+            },
+            {
+                "name": "Nitter Instances available lists",
+                "url": "https://github.com/zedeus/nitter/wiki/Instances"
+            },
+            {
+                "name": "twitterwebviewer",
+                "url": "https://twitterwebviewer.com/"
             }
         ]
     },
@@ -7771,6 +7827,14 @@
             {
                 "name": "Blackbird",
                 "url": "https://github.com/p1ngul1n0/blackbird"
+            },
+            {
+                "name": "OsintCat",
+                "url": "https://www.osintcat.net/"
+            },
+            {
+                "name": "ychecker gmail email checker validate",
+                "url": "https://ychecker.com/bulk-email-checker"
             }
         ]
     },
@@ -9217,6 +9281,10 @@
             {
                 "name": "smartdeblur",
                 "url": "http://smartdeblur.net/"
+            },
+            {
+                "name": "geoseeer AI Geo find",
+                "url": "https://geoseeer.com/"
             }
         ]
     },
@@ -10416,6 +10484,10 @@
             {
                 "name": "Google Earth Engine: A Quick Guide for Beginners",
                 "url": "https://gisgeography.com/google-earth-engine/"
+            },
+            {
+                "name": "geoseeer AI Geo find",
+                "url": "https://geoseeer.com/"
             }
         ]
     },
@@ -11955,6 +12027,22 @@
             {
                 "name": "nord",
                 "url": "https://nordvpn.com/"
+            },
+            {
+                "name": "Temp email gmail 2",
+                "url": "https://smailpro.com/temporary-email"
+            },
+            {
+                "name": "Temp email gmail 3",
+                "url": "https://boomlify.com/en/gmail-temp-mail"
+            },
+            {
+                "name": "Temp email gmail 4",
+                "url": "https://www.temporary-mail.net/"
+            },
+            {
+                "name": "Temp email gmail 5",
+                "url": "https://www.mailticking.com/"
             }
         ]
     },
@@ -12225,6 +12313,14 @@
             {
                 "name": "flightradar24 gps jamming",
                 "url": "https://www.flightradar24.com/data/gps-jamming?date=2025-06-19"
+            },
+            {
+                "name": "findpiclocation",
+                "url": "https://findpiclocation.com/"
+            },
+            {
+                "name": "geoseeer AI Geo find",
+                "url": "https://geoseeer.com/"
             }
         ]
     },
@@ -12274,6 +12370,14 @@
             {
                 "name": "Discord Bots",
                 "url": "https://discordbotlist.com/"
+            },
+            {
+                "name": "OsintCat",
+                "url": "https://www.osintcat.net/"
+            },
+            {
+                "name": "dclookup Discord Lookup",
+                "url": "https://www.dclookup.id/"
             }
         ]
     },
@@ -15266,6 +15370,10 @@
             {
                 "name": "Claude Adjusment and Usage Policy for Cyber Use Case",
                 "url": "https://claude.com/form/cyber-use-case"
+            },
+            {
+                "name": "Best OSINT AI Prompts",
+                "url": "https://docsbot.ai/prompts/tags?tag=OSINT"
             }
         ]
     },
@@ -16939,6 +17047,42 @@
             {
                 "name": "Linux hardening checklist - CSA LAB",
                 "url": "https://csalab-id.github.io/documents/compliance/CIS_Benchmark_Ubuntu_24_04.pdf"
+            },
+            {
+                "name": "breachbase",
+                "url": "https://breachbase.com/search"
+            },
+            {
+                "name": "Hudson Rock Cybercrime Intelligence Free Tools",
+                "url": "https://www.hudsonrock.com/threat-intelligence-cybercrime-tools"
+            },
+            {
+                "name": "dehashed",
+                "url": "https://dehashed.com/"
+            },
+            {
+                "name": "breach house",
+                "url": "https://breach.house/all_stealers"
+            },
+            {
+                "name": "OsintCat",
+                "url": "https://www.osintcat.net/"
+            },
+            {
+                "name": "idleakcheck",
+                "url": "https://idleakcheck.com/"
+            },
+            {
+                "name": "oathnet",
+                "url": "https://oathnet.org/"
+            },
+            {
+                "name": "breach VIP",
+                "url": "https://breach.vip/"
+            },
+            {
+                "name": "infodra",
+                "url": "https://infodra.com/"
             }
         ]
     },
@@ -18284,6 +18428,10 @@
             {
                 "name": "SPSE inaproc ID",
                 "url": "https://spse.inaproc.id/"
+            },
+            {
+                "name": "nemesis ID",
+                "url": "https://nemesis.assai.id/"
             }
         ]
     },
@@ -20718,6 +20866,10 @@
             {
                 "name": "SPSE inaproc ID",
                 "url": "https://spse.inaproc.id/"
+            },
+            {
+                "name": "nemesis ID",
+                "url": "https://nemesis.assai.id/"
             }
         ]
     },
@@ -20772,6 +20924,10 @@
             {
                 "name": "Cek Id Game",
                 "url": "https://tools.bagusok.dev/cek-id-game"
+            },
+            {
+                "name": "OsintCat",
+                "url": "https://www.osintcat.net/"
             }
         ]
     },
@@ -21852,6 +22008,134 @@
             {
                 "name": "Who OSINT Used",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Who-OSINT-Used"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
+            },
+            {
+                "name": "Please reload this page",
+                "url": "https://github.com"
             }
         ]
     }
