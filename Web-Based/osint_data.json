@@ -6542,10 +6542,6 @@
                 "url": "https://socialblade.com/"
             },
             {
-                "name": "InsE - Instagram email finder & exporter extension browser",
-                "url": "https://chromewebstore.google.com/detail/inse-instagram-email-find/hboikjnbkhkjmllgdcflmbcojbpklcca"
-            },
-            {
                 "name": "Find ID Insta Acc",
                 "url": "https://skweezer.net/find-instagram-user-id"
             },
@@ -6607,10 +6603,6 @@
             {
                 "name": "Pinterest Downloader",
                 "url": "https://www.expertsphp.com/pinterest-photo-downloader.html"
-            },
-            {
-                "name": "Pinterset Guest",
-                "url": "https://addons.mozilla.org/en-US/firefox/addon/pinterest-guest/"
             },
             {
                 "name": "Pinterest search",
@@ -7424,10 +7416,6 @@
                 "url": "https://vsudo.net/tools/geotag"
             },
             {
-                "name": "PhotOSINT Browser Extension",
-                "url": "https://chrome.google.com/webstore/detail/photosint/gonhdjmkgfkokhkflfhkbiagbmoolhcd/related?hl=nl"
-            },
-            {
                 "name": "Python exif extractor",
                 "url": "https://github.com/davidbombal/red-python-scripts/blob/main/exif.py"
             }
@@ -7871,10 +7859,6 @@
     {
         "category": "Capturing Information",
         "items": [
-            {
-                "name": "Exif Viewer",
-                "url": "https://addons.mozilla.org/en-US/firefox/addon/exif-viewer/"
-            },
             {
                 "name": "HTTrack",
                 "url": "https://www.httrack.com/"
@@ -9720,10 +9704,6 @@
             {
                 "name": "QGIS",
                 "url": "http://qgis.org"
-            },
-            {
-                "name": "QuickMaps",
-                "url": "https://chrome.google.com/webstore/detail/quick-maps/bgbojmobaekecckmomemopckmeipecij"
             },
             {
                 "name": "Scribble Maps",
@@ -13569,16 +13549,8 @@
                 "url": "https://privacybadger.org/"
             },
             {
-                "name": "U block origin",
-                "url": "https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en"
-            },
-            {
                 "name": "https-everywhere",
                 "url": "https://www.eff.org/https-everywhere"
-            },
-            {
-                "name": "Blur IMG Extension",
-                "url": "https://chromewebstore.google.com/detail/blur-the-image-and-video/aikjogmpaoaookmacnkbenekcnkjlkmi?hl=en-US&authuser=0"
             },
             {
                 "name": "Apple Kuncitara",

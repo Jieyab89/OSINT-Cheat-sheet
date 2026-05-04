@@ -1991,7 +1991,6 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [Stalkiana](https://github.com/RuiBorgesDev/Stalkiana) Run on your VM or cloud machine
 - [ignorant](https://github.com/megadose/ignorant)
 - [socialblade](https://socialblade.com/)
-- [InsE - Instagram email finder & exporter extension browser](https://chromewebstore.google.com/detail/inse-instagram-email-find/hboikjnbkhkjmllgdcflmbcojbpklcca)
 - [Find ID Insta Acc](https://skweezer.net/find-instagram-user-id)
 - [dolphinradar](https://www.dolphinradar.com/web-viewer-for-instagram)
 - [boostfluence](https://www.boostfluence.com/)
@@ -2013,7 +2012,6 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 
 - [Pingroupie](http://pingroupie.com)
 - [Pinterest Downloader](https://www.expertsphp.com/pinterest-photo-downloader.html)
-- [Pinterset Guest](https://addons.mozilla.org/en-US/firefox/addon/pinterest-guest/)
 - [Pinterest search](https://sourcinglab.io/search/pinterest)
 
 # Reddit 
@@ -2383,7 +2381,6 @@ Google queries for MySpace
 
 # Capturing Information
 
-- [Exif Viewer](https://addons.mozilla.org/en-US/firefox/addon/exif-viewer/)
 - [HTTrack](https://www.httrack.com/)
 - [Wayback Machine](https://archive.org/web/)
 - [cachedview](https://cachedview.com/)
@@ -2878,7 +2875,6 @@ Scribd viewer
 - [Perry Castaneda Library](https://www.lib.utexas.edu/maps)
 - [Open Street Map](http://www.openstreetmap.org)
 - [QGIS](http://qgis.org)
-- [QuickMaps](https://chrome.google.com/webstore/detail/quick-maps/bgbojmobaekecckmomemopckmeipecij)
 - [Scribble Maps](http://scribblemaps.com)
 - [Terrapattern](http://www.terrapattern.com)
 - [Tableau](http://www.tableausoftware.com)
@@ -3985,7 +3981,6 @@ You can analysis of hash, header, signature, evtx, ip, byte, file format, memory
 - [Phone Burner](https://www.phoneburner.com/)
 - [Hushed](https://hushed.com/)
 - [Privacy Badger](https://privacybadger.org/)
-- [U block origin](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
 - [https-everywhere](https://www.eff.org/https-everywhere)
 - [Apple Kuncitara](https://support.apple.com/id-id/guide/iphone/iph049680987/ios)
 - [Apple Focus Mode](https://support.apple.com/id-id/guide/iphone/iphd6288a67f/17.0/ios/17.0)
