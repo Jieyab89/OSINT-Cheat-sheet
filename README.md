@@ -2265,7 +2265,6 @@ Google queries for MySpace
 - [imago-forensics](https://github.com/redaelli/imago-forensics)
 - [Renrot Exif](https://github.com/andy-shev/RenRot)
 - [Geotag](https://vsudo.net/tools/geotag)
-- [PhotOSINT Browser Extension](https://chrome.google.com/webstore/detail/photosint/gonhdjmkgfkokhkflfhkbiagbmoolhcd/related?hl=nl)
 - [Python exif extractor](https://github.com/davidbombal/red-python-scripts/blob/main/exif.py)
 
 # Email Tracking
@@ -3988,7 +3987,6 @@ You can analysis of hash, header, signature, evtx, ip, byte, file format, memory
 - [Privacy Badger](https://privacybadger.org/)
 - [U block origin](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en)
 - [https-everywhere](https://www.eff.org/https-everywhere)
-- [Blur IMG Extension](https://chromewebstore.google.com/detail/blur-the-image-and-video/aikjogmpaoaookmacnkbenekcnkjlkmi?hl=en-US&authuser=0)
 - [Apple Kuncitara](https://support.apple.com/id-id/guide/iphone/iph049680987/ios)
 - [Apple Focus Mode](https://support.apple.com/id-id/guide/iphone/iphd6288a67f/17.0/ios/17.0)
 - [nordvpn](https://nordvpn.com/)
