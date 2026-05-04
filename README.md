@@ -1347,6 +1347,7 @@ Politic and Geopolitic Archive
 - [Hudson Rock Cybercrime Intelligence Free Tools](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools)
 - [dehashed](https://dehashed.com/)
 - [breach house](https://breach.house/all_stealers)
+- [OsintCat](https://www.osintcat.net/) Look up emails, usernames, and phone numbers in breach databases — clean results, no noise
 
 # Crack Jurnals
 
