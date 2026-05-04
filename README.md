@@ -45,6 +45,7 @@ Contains information about OSINT tips, write up usage resouces and more tips abo
 - [OSINT ‐ Inside About Data Breach](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/inside-about-data-breach-in-osint)
 - [All About HUMINT](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/all-about-humint#whats-is-humint)
 - [All About Darkweb Tips Darkweb OSINT Assessments](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/all-about-darkweb-tips-darkweb-osint-assessments)
+- [All About Stealer Log and Cyber Threat](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-stealer-log-and-cyber-threat)
 
 # These Resources Are Recommend For 
 
@@ -2017,6 +2018,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 
 # Reddit 
 
+- [redlib viewer online](https://redlib.catsarch.com/)
 - [Reddit Account Extractor](https://www.reddit.com/user/<USERNAME-HERE>/about.json)
 - [reddit post analyser](https://www.osintcombine.com/free-osint-tools/reddit-post-analyser)
 - [Archive Reddit](https://www.redditarchive.com/)
