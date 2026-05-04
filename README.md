@@ -551,7 +551,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [Websecreenshoot](https://github.com/maaaaz/webscreenshot)
 - [Leakos](https://github.com/carlospolop/Leakos)
 - [Pastos](https://github.com/carlospolop/Pastos)
-- [SNYK](snyk.io)
+- [SNYK](https://snyk.io)
 - [Similar Sites](https://www.similarsites.com/)
 - [Similar Web](https://www.similarweb.com/)
 - [smallseotools compare web similar](https://smallseotools.com/similar-sites/)
@@ -561,9 +561,9 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [CloudFail](https://github.com/m0rtem/CloudFail.git)
 - [Real IP Discover](https://github.com/elefr3n/real_ip_discover.git)
 - [Mend Io](https://www.mend.io/vulnerability-database)
-- [whois request](whoisrequest.com)
-- [completedns](completedns.com)
-- [dnsdumper](dnsdumpster.com)
+- [whois request](https://whoisrequest.com)
+- [completedns](https://completedns.com)
+- [dnsdumper](https://dnsdumpster.com)
 - [A href Backlink Checker](https://ahrefs.com/backlink-checker)
 - [Neil Patel Backlink](https://neilpatel.com/backlinks/)
 - [Semrush Backlink](https://www.semrush.com/analytics/backlinks/)
@@ -1890,13 +1890,13 @@ or you can use dork for spesific example
 - [Adult Finder](https://www.scrapersnbots.com/webtools/plenty-of-fish-username-search.php?sitetosearch=adultfriendfinder#gsc.tab=0)
 - [singlemanforum](https://singlemanforum.com/)
 - [Reddit](https://www.reddit.com/) You must to dork
-- [mega](https://mega.io/id/)
-- [mediafire](https://www.mediafire.com/)
+- [mega](https://mega.io/id/) You must to dork 
+- [mediafire](https://www.mediafire.com/) You must to dork 
 - [sexvid](https://www.sexvid.pro/reset-password/)
 - [xnxx](https://www.xnxx.com/account/checkemail)
 - [xvideos](https://www.xvideos.com/account/checkemail)
-- [archiveofsins Archives](https://archiveofsins.com/)
-- [deviantart](https://www.deviantart.com/)
+- [archiveofsins Archives](https://archiveofsins.com/) You must to dork 
+- [deviantart](https://www.deviantart.com/) You must to dork 
 
 Pro Tips 
 
