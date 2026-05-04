@@ -1348,6 +1348,11 @@ Politic and Geopolitic Archive
 - [dehashed](https://dehashed.com/)
 - [breach house](https://breach.house/all_stealers)
 - [OsintCat](https://www.osintcat.net/) Look up emails, usernames, and phone numbers in breach databases — clean results, no noise
+- [idleakcheck](https://idleakcheck.com/)
+- [oathnet](https://oathnet.org/)
+- [breach VIP](https://breach.vip/)
+- [infodra](https://infodra.com/)
+- [breachbase](https://breachbase.com/search)
 
 # Crack Jurnals
 
@@ -1936,6 +1941,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [bluesky insights](https://bluesky-insights.dwagentai.com/)
 - [bluesky-crossposter](https://github.com/Linus2punkt0/bluesky-crossposter)
 - [awesome-bluesky](https://github.com/fishttp/awesome-bluesky)
+- [bskyviewer](https://bskyviewer.github.io/)
 
 # Instagram
 
@@ -2030,6 +2036,8 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 
 # Youtube 
 
+- [yewtu YT Viewer](https://yewtu.be/)
+- [invidious YT Viewer Available Instances](https://docs.invidious.io/instances/)
 - [Youtube Comments Finder and Downloader](https://ytbcomments.com/)
 - [citizenevidence](https://citizenevidence.amnestyusa.org/)
 - [watchframebyframe](http://www.watchframebyframe.com/)
@@ -2128,6 +2136,9 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [Tweet Map](https://www.heavy.ai/demos/tweetmap)
 - [drone emprit](https://pers.droneemprit.id/)
 - [nitter](https://nitter.net/)
+- [xcancel like nitter](https://xcancel.com/)
+- [Nitter Instances available lists](https://github.com/zedeus/nitter/wiki/Instances)
+- [twitterwebviewer](https://twitterwebviewer.com/)
 
 Twitter Search Engine 
 
@@ -2356,6 +2367,7 @@ Google queries for MySpace
 - [user-scanner](https://github.com/kaifcodec/user-scanner/releases/tag/v1.1.0)
 - [Blackbird](https://github.com/p1ngul1n0/blackbird)
 - [OsintCat](https://www.osintcat.net/) Look up emails, usernames, and phone numbers in breach databases — clean results, no noise
+- [ychecker gmail email checker validate](https://ychecker.com/bulk-email-checker)
 
 # PGP or GPG Keybase 
 
@@ -2678,6 +2690,7 @@ Scribd viewer
 
 # Image Analysis
 
+- [geoseeer AI Geo find](https://geoseeer.com/)
 - [facerec face compare aka face reccon](https://facerec.gjung.com/ComparingFaces)
 - [ExifTool](https://exiftool.org/)
 - [Exif Search](http://www.exif-search.com)
@@ -2818,6 +2831,7 @@ Scribd viewer
 
 # Geospatial Research and Mapping Tools
 
+- [geoseeer AI Geo find](https://geoseeer.com/)
 - [plonkit guide for geospatial](https://www.plonkit.net/guide)
 - [Apple Maps](https://beta.maps.apple.com/)
 - [Atlasify](http://www.atlasify.com)
@@ -3462,6 +3476,9 @@ Build your sockpuppet account and proctect your privacy
 - [Temp Mail 8 w custom](https://emailfake.com/)
 - [Temp email gmail](https://www.emailnator.com/mailbox)
 - [Temp email gmail 2](https://smailpro.com/temporary-email)
+- [Temp email gmail 3](https://boomlify.com/en/gmail-temp-mail)
+- [Temp email gmail 4](https://www.temporary-mail.net/)
+- [Temp email gmail 5](https://www.mailticking.com/)
 - [Cryptocurrency Payment Monero](https://www.getmonero.org/)
 - [Cryptocurrency Payment Bitcoin](https://bitcoin.org/en/)
 - [Openpgp](https://www.openpgp.org/)
@@ -3596,6 +3613,8 @@ Social Network and blogging
 
 # Locations Data Mapping
 
+- [findpiclocation](https://findpiclocation.com/)
+- [geoseeer AI Geo find](https://geoseeer.com/)
 - [Google maps](https://www.google.co.id/maps)
 - [Social geo lens](https://www.osintcombine.com/social-geo-lens)
 - [Open street map](https://www.openstreetmap.org/)
@@ -3651,6 +3670,7 @@ Social Network and blogging
 - [search Discord Bots](https://top.gg/)
 - [Discord Bots](https://discordbotlist.com/)
 - [OsintCat](https://www.osintcat.net/) Look up emails, usernames, and phone numbers in breach databases — clean results, no noise
+- [dclookup Discord Lookup](https://www.dclookup.id/)
 
 # Darkweb Search Engines
 
@@ -4477,6 +4497,7 @@ Adding skill on AI agent
 Misc
 
 - [Claude Adjusment and Usage Policy for Cyber Use Case](https://claude.com/form/cyber-use-case)
+- [Best OSINT AI Prompts](https://docsbot.ai/prompts/tags?tag=OSINT)
 
 # OSINT for Red Team 
 
@@ -4774,6 +4795,13 @@ Credential Dumping
 
 Credentials Leak
 
+- [breachbase](https://breachbase.com/search)
+- [Hudson Rock Cybercrime Intelligence Free Tools](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools)
+- [dehashed](https://dehashed.com/)
+- [breach house](https://breach.house/all_stealers)
+- [OsintCat](https://www.osintcat.net/) Look up emails, usernames, and phone numbers in breach databases — clean results, no noise
+- [idleakcheck](https://idleakcheck.com/)
+- [oathnet](https://oathnet.org/)
 - [Have I Been Pwned](https://haveibeenpwned.com/)
 - [Dehashed](https://www.dehashed.com/)
 - [Leak-Lookup](https://leak-lookup.com/)
@@ -4784,6 +4812,8 @@ Credentials Leak
 - [Intel Techniques Breach Tool](https://inteltechniques.com/tools/Breaches.html)
 - [Search password](https://psbdmp.ws/api/search/<password>)
 - [projectdiscovery credential monitor](https://cloud.projectdiscovery.io/leaks)
+- [breach VIP](https://breach.vip/)
+- [infodra](https://infodra.com/)
 
 Password crack 
 
