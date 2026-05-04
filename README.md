@@ -1433,6 +1433,7 @@ Crack medium article
 
 # Company Reconnaissance Sites (Passive)
 
+- [nemesis ID](https://nemesis.assai.id/)
 - [whois](http://www.whois.net)
 - [whois by hostinger](https://www.hostinger.co.id/whois)
 - [Netcraft](http://www.netcraft.com)
@@ -3460,6 +3461,7 @@ Build your sockpuppet account and proctect your privacy
 - [Temp Mail 7](https://tempmailto.online/)
 - [Temp Mail 8 w custom](https://emailfake.com/)
 - [Temp email gmail](https://www.emailnator.com/mailbox)
+- [Temp email gmail 2](https://smailpro.com/temporary-email)
 - [Cryptocurrency Payment Monero](https://www.getmonero.org/)
 - [Cryptocurrency Payment Bitcoin](https://bitcoin.org/en/)
 - [Openpgp](https://www.openpgp.org/)
@@ -5333,6 +5335,7 @@ Resources and collection for your make tool OSINT
 
 # OSINT Branding & Verify 
 
+- [nemesis ID](https://nemesis.assai.id/)
 - [keyhole](https://keyhole.co/)
 - [Trus Pilot](https://www.trustpilot.com/)
 - [Google Alert](https://www.google.com/alerts)
@@ -6089,6 +6092,7 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 
 # OSINT Financial (FININT)
 
+- [nemesis ID](https://nemesis.assai.id/)
 - [CC Checker](https://dnschecker.org/credit-card-validator.php)
 - [EU financial sanctions list](https://data.europa.eu/data/datasets/consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions?locale=en)
 - [OCCRP Organized Crime and Corruption Reporting Project](https://www.occrp.org/en)
