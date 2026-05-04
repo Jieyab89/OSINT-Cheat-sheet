@@ -1466,7 +1466,7 @@
             },
             {
                 "name": "SNYK",
-                "url": "snyk.io"
+                "url": "https://snyk.io"
             },
             {
                 "name": "Similar Sites",
@@ -1506,15 +1506,15 @@
             },
             {
                 "name": "whois request",
-                "url": "whoisrequest.com"
+                "url": "https://whoisrequest.com"
             },
             {
                 "name": "completedns",
-                "url": "completedns.com"
+                "url": "https://completedns.com"
             },
             {
                 "name": "dnsdumper",
-                "url": "dnsdumpster.com"
+                "url": "https://dnsdumpster.com"
             },
             {
                 "name": "A href Backlink Checker",
