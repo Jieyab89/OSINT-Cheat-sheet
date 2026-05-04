@@ -2354,6 +2354,7 @@ Google queries for MySpace
 - [API protnon mail check creation date](https://api.protonmail.ch/pks/lookup?op=index&search=<changeemaiiladdr>)
 - [user-scanner](https://github.com/kaifcodec/user-scanner/releases/tag/v1.1.0)
 - [Blackbird](https://github.com/p1ngul1n0/blackbird)
+- [OsintCat](https://www.osintcat.net/) Look up emails, usernames, and phone numbers in breach databases — clean results, no noise
 
 # PGP or GPG Keybase 
 
@@ -3647,6 +3648,7 @@ Social Network and blogging
 - [discadia finding Discord Servers](https://discadia.com/)
 - [search Discord Bots](https://top.gg/)
 - [Discord Bots](https://discordbotlist.com/)
+- [OsintCat](https://www.osintcat.net/) Look up emails, usernames, and phone numbers in breach databases — clean results, no noise
 
 # Darkweb Search Engines
 
@@ -6145,6 +6147,7 @@ Search person in game
 - [steamidfinder](https://www.steamidfinder.com/)
 - [steamcommunity](https://steamcommunity.com/search/users/)
 - [Cek Id Game](https://tools.bagusok.dev/cek-id-game)
+- [OsintCat](https://www.osintcat.net/) Look up emails, usernames, and phone numbers in breach databases — clean results, no noise
 
 # OSINT Device for Device 
 
