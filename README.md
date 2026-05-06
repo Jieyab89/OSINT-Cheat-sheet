@@ -4791,6 +4791,7 @@ Credential Dumping
 - [Rubeus](https://github.com/GhostPack/Rubeus)
 - [Responder](https://github.com/SpiderLabs/Responder)
 - [SecretsDump](https://wadcoms.github.io/wadcoms/Impacket-SecretsDump/)
+- [BloodHound](https://github.com/BloodHoundAD/BloodHound)
 
 Credentials Leak
 
@@ -4827,6 +4828,8 @@ Password crack
 - [Medusa](https://www.kali.org/tools/medusa/) A tool brute and crack password hash
 - [crackmapexec](https://www.kali.org/tools/crackmapexec/)  Automates gathering information, executing advanced password attacks, and performing post-exploitation activities like lateral movement.
 - [mattw](https://mattw.io/hashID/types) Hash identifier and hashcat mode cheat sheet 
+- [netexec](https://www.netexec.wiki/)
+- [impacket](https://github.com/fortra/impacket/)
 
 Wordlists for all
 
