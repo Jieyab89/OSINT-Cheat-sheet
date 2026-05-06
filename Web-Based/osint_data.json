@@ -107,6 +107,10 @@
             {
                 "name": "Darkweb academy",
                 "url": "https://www.darkwebacademy.com/labs/"
+            },
+            {
+                "name": "Jieyab89 Gitbook",
+                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips"
             }
         ]
     },
@@ -751,10 +755,6 @@
             {
                 "name": "Sophia Santos",
                 "url": "https://gralhix.com/"
-            },
-            {
-                "name": "goosint",
-                "url": "https://goosint.com/"
             },
             {
                 "name": "Bellingcat Volunteer",
@@ -6229,6 +6229,22 @@
             {
                 "name": "deviantart",
                 "url": "https://www.deviantart.com/"
+            },
+            {
+                "name": "tripadvisor",
+                "url": "https://www.tripadvisor.com/"
+            },
+            {
+                "name": "wikisexguide",
+                "url": "https://forum.wikisexguide.com/"
+            },
+            {
+                "name": "semprot forums",
+                "url": "https://www.semprot.com/"
+            },
+            {
+                "name": "tiktok",
+                "url": "https://www.tiktok.com/id-ID/"
             }
         ]
     },
@@ -21360,6 +21376,26 @@
             {
                 "name": "ctftime",
                 "url": "https://ctftime.org/"
+            },
+            {
+                "name": "Facebook",
+                "url": "https://www.facebook.com/"
+            },
+            {
+                "name": "x",
+                "url": "https://x.com/"
+            },
+            {
+                "name": "telegram",
+                "url": "https://telegram.org/k/"
+            },
+            {
+                "name": "stackoverflow",
+                "url": "https://stackoverflow.com/"
+            },
+            {
+                "name": "substack",
+                "url": "https://substack.com/"
             }
         ]
     },
