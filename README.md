@@ -22,7 +22,7 @@ Tips:
 - Beware about attachments such as docx, xlsm or macro documents (Check macros don't immediately press enable, check properties file to do strict mode)
 - Beware about malicious script like programm lang always check will you run it e.g review, code and community usage (like plugin, library, github source code, extension browser, extension code editor or other things) beware with code with obfuscate (dont trust it)
 - Do a active on each platform example like post, follow, following to avoid bot detection or blocked by user (target)
-- If tools are paid try on with demo trial version with sock (fake) account, many on this resouces there is a paid so i suggest to try demo firstIf there is a payment such as using crypto, try to track the transaction using Arkham or similar. If it is non-crypto, make sure there is a clear contact us, support, and email. Do not rush to pay. If you want to pay and are forced to, find the cheapest version and pay using a virtual account or third-party service to make the transaction  
+- If tools are paid try on with demo trial version with sock (fake) account, many on this resouces there is a paid so i suggest to try demo first. If there is a payment such as using crypto, try to track the transaction using Arkham or similar. If it is non-crypto, make sure there is a clear contact us, support, and email. Do not rush to pay. If you want to pay and are forced to, find the cheapest version and pay using a virtual account or third-party service to make the transaction  
 
 # See Jieyab Wiki pages 
 
@@ -83,6 +83,7 @@ You can build it with VM or Live USB make sure you have sandbox machine
 
 # OSINT Academy
 
+- [Jieyab89 Gitbook](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips)
 - [Maltego academy](https://academy.maltego.com/)
 - [Darkweb academy](https://www.darkwebacademy.com/labs/)
 
@@ -339,7 +340,6 @@ Site and forums OSINT community arround world
 - [osintteam](https://osintteam.blog/)
 - [KASE OSINT Scenario](https://kasescenarios.com/)
 - [Sophia Santos](https://gralhix.com/)
-- [goosint](https://goosint.com/)
 - [Bellingcat Volunteer](https://sites.google.com/bellingcat.com/bellingcat-volunteer-community/projects-opportunities)
 - [benjaminstrick](https://benjaminstrick.com/blog/)
 - [osinord](https://www.osinord.com/)
@@ -398,7 +398,7 @@ Try search on forum like programmer forums, web framework forums, social media a
 
 List endpoint Github for search code 
 
-Endpoint list Github 
+Endpoint list Github (Better login with your account for best results)
 
 - https://github.com/search?q=<value>
 - https://github.com/search?type=code&q=<value>
@@ -490,7 +490,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 
 # Web Intelligence
 
-- [GAU getallurls ](https://github.com/lc/gau)
+- [GAU getallurls](https://github.com/lc/gau)
 - [Abuse IP DB](https://www.abuseipdb.com/)
 - [similartech](https://similartech.com/)
 - [web-check](https://web-check.as93.net/)
@@ -646,7 +646,7 @@ https[:]//www[.]google[.]com/search?q=cache:<url of interest>
 
 There is a resouces to investigae malicious link and bypass url shortlink 
 
-- [GAU getallurls ](https://github.com/lc/gau)
+- [GAU getallurls](https://github.com/lc/gau)
 - [trendmicro](https://global.sitesafety.trendmicro.com/)
 - [zscaler](https://zulu.zscaler.com/)
 - [drweb](https://vms.drweb.com/online/)
@@ -1897,6 +1897,10 @@ or you can use dork for spesific example
 - [xvideos](https://www.xvideos.com/account/checkemail)
 - [archiveofsins Archives](https://archiveofsins.com/) You must to dork 
 - [deviantart](https://www.deviantart.com/) You must to dork 
+- [tripadvisor](https://www.tripadvisor.com/) You must to dork
+- [wikisexguide](https://forum.wikisexguide.com/) You must to dork
+- [semprot forums](https://www.semprot.com/) You must to dork
+- [tiktok](https://www.tiktok.com/id-ID/) You must to dork
 
 Pro Tips 
 
@@ -6336,6 +6340,15 @@ You can search nickname, hacker team and hacker archive like web defacement data
 - [defacer net](https://defacer.net/)
 - [z-x archived site](https://web.archive.org/web/*/z-x.my.id*) *you can use dork and cache for Google index search hacker nickname 
 - [ctftime](https://ctftime.org/)
+- [Facebook](https://www.facebook.com/) You must to dork and join the group
+- [x](https://x.com/) You must to dork and join the group
+- [telegram](https://telegram.org/k/) You must to dork and join the group
+- [stackoverflow](https://stackoverflow.com/) You must to dork and join the group
+- [substack](https://substack.com/) You must to dork and join the group
+
+Pro Tips 
+
+All of the items listed above are just the surface level. For further research, join and explore information on underground sites, communities in each country, public forums, and other approaches to gather additional information. Use search queries, web scraping, and social engineering techniques to find more information.
 
 # MISC
 
