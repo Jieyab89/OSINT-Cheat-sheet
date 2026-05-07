@@ -1764,6 +1764,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [usersearch](https://usersearch.com/)
 - [blackbird (mostly Indonesia)](https://blackbird.mom/)
 - [user-scanner](https://github.com/kaifcodec/user-scanner/releases/tag/v1.1.0)
+- [maigret 2 made by Rust](https://github.com/krishpranav/maigret/blob/master/data.json)
 
 # Social Networks
 
