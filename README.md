@@ -32,7 +32,9 @@ Contains information about OSINT tips, OSINT branches and knowledge about intell
 
 # See Jieyab Gitbook  
 
-Contains information about OSINT tips, write up usage resouces and more tips about OSINT and OSINT branch
+Contains information about OSINT tips, write up usage resouces and more tips about OSINT and OSINT branch 
+
+Notes: "I recommend always using the hot reload function (CTRL + F5 OR Ctrl + Shift + R) to view updated content and clear the cache. I use DeepL to assist with creating articles in English, and my writing style tends to be a mix of informal and formal language, adhering to EYD (Enhanced Spelling) standards. Narrative"
 
 - [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
 - [All About Doxing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing)
@@ -743,7 +745,6 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [AnyRun](https://app.any.run/)
 - [Hybrid Analysis](https://www.hybrid-analysis.com/)
 - [VMRay Sandbox](https://www.vmray.com/)
-- [Browser Sandbox](https://www.browserling.com/)
 - [locabrowser sandbox](https://www.locabrowser.com/)
 - [Fillter Bypass](https://www.filterbypass.me/id)
 - [Abuse IP DB](https://www.abuseipdb.com/)
@@ -842,6 +843,12 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [breach house](https://breach.house/all_stealers)
 - [kleenscan](https://kleenscan.biz/)
 - [malapi](https://malapi.io/) 
+
+Browser Sandbox 
+
+- [Browser Sandbox](https://www.browserling.com/)
+- [cybercheck360](https://cybercheck360.com/url-sandbox/)
+- [browser lol](https://browser.lol/en/create)
 
 # IoT Search Engines
 
@@ -3584,6 +3591,12 @@ Social Network and blogging
 - Quora 
 - Reddit
 - Other community on internet 
+
+Browser Sandbox 
+
+- [Browser Sandbox](https://www.browserling.com/)
+- [cybercheck360](https://cybercheck360.com/url-sandbox/)
+- [browser lol](https://browser.lol/en/create)
 
 # Enhance Image Quality
 
