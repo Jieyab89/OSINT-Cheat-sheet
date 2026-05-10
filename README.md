@@ -5623,6 +5623,9 @@ Terrorism & Radical
 - [ID Pejabat rekam jejak](https://rekamjejak.net/direktori?query=&category=&party=&page=1&limit=9)
 - [mappingmilitants](https://mappingmilitants.org/)
 - [trackingterrorism](https://trackingterrorism.org/)
+- [visionofhumanity GTI](https://www.visionofhumanity.org/maps/global-terrorism-index/#/)
+- [economicsandpeace](https://www.economicsandpeace.org/global-terrorism-index/)
+- [databoks katadata](https://databoks.katadata.co.id/)
 
 # Maltego Transform List 
 
