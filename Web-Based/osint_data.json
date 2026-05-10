@@ -61,6 +61,10 @@
             {
                 "name": "All About Stealer Log and Cyber Threat",
                 "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-stealer-log-and-cyber-threat"
+            },
+            {
+                "name": "All About Penetration Testing",
+                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-penetration-testing"
             }
         ]
     },
@@ -945,6 +949,10 @@
             {
                 "name": "dnslytics",
                 "url": "https://search.dnslytics.com/"
+            },
+            {
+                "name": "srclog",
+                "url": "https://srclog.com/"
             }
         ]
     },
@@ -2573,6 +2581,30 @@
             {
                 "name": "malapi",
                 "url": "https://malapi.io/"
+            },
+            {
+                "name": "lots-project",
+                "url": "https://lots-project.com/"
+            },
+            {
+                "name": "hijacklibs",
+                "url": "https://hijacklibs.net/"
+            },
+            {
+                "name": "wtfbins",
+                "url": "https://wtfbins.wtf/"
+            },
+            {
+                "name": "Filesec",
+                "url": "https://filesec.io/"
+            },
+            {
+                "name": "cybercheck360",
+                "url": "https://cybercheck360.com/url-sandbox/"
+            },
+            {
+                "name": "browser lol",
+                "url": "https://browser.lol/en/create"
             }
         ]
     },
@@ -3547,6 +3579,14 @@
             {
                 "name": "gitdorks_go",
                 "url": "https://github.com/damit5/gitdorks_go"
+            },
+            {
+                "name": "gitleaks",
+                "url": "https://github.com/gitleaks/gitleaks"
+            },
+            {
+                "name": "srclog",
+                "url": "https://srclog.com/"
             }
         ]
     },
@@ -5908,6 +5948,10 @@
             {
                 "name": "user-scanner",
                 "url": "https://github.com/kaifcodec/user-scanner/releases/tag/v1.1.0"
+            },
+            {
+                "name": "maigret 2 made by Rust",
+                "url": "https://github.com/krishpranav/maigret/blob/master/data.json"
             }
         ]
     },
@@ -6288,6 +6332,10 @@
             {
                 "name": "o365chk",
                 "url": "https://github.com/nixintel/o365chk"
+            },
+            {
+                "name": "AD o365recon",
+                "url": "https://github.com/nyxgeek/o365recon"
             }
         ]
     },
@@ -12039,6 +12087,18 @@
             {
                 "name": "Temp email gmail 5",
                 "url": "https://www.mailticking.com/"
+            },
+            {
+                "name": "Browser Sandbox",
+                "url": "https://www.browserling.com/"
+            },
+            {
+                "name": "cybercheck360",
+                "url": "https://cybercheck360.com/url-sandbox/"
+            },
+            {
+                "name": "browser lol",
+                "url": "https://browser.lol/en/create"
             }
         ]
     },
@@ -14541,6 +14601,10 @@
             {
                 "name": "accountkiller",
                 "url": "https://www.accountkiller.com/en/all-sites"
+            },
+            {
+                "name": "joindeleteme",
+                "url": "https://joindeleteme.com/"
             }
         ]
     },
@@ -15362,6 +15426,10 @@
             {
                 "name": "Best OSINT AI Prompts",
                 "url": "https://docsbot.ai/prompts/tags?tag=OSINT"
+            },
+            {
+                "name": "CAI",
+                "url": "https://github.com/aliasrobotics/CAI"
             }
         ]
     },
@@ -17071,6 +17139,26 @@
             {
                 "name": "infodra",
                 "url": "https://infodra.com/"
+            },
+            {
+                "name": "S3Scanner",
+                "url": "https://github.com/sa7mon/S3Scanner"
+            },
+            {
+                "name": "gitleaks",
+                "url": "https://github.com/gitleaks/gitleaks"
+            },
+            {
+                "name": "lots-project",
+                "url": "https://lots-project.com/"
+            },
+            {
+                "name": "C2concealer",
+                "url": "https://github.com/RedSiege/C2concealer"
+            },
+            {
+                "name": "frp",
+                "url": "https://github.com/fatedier/frp"
             }
         ]
     },
@@ -18420,6 +18508,10 @@
             {
                 "name": "nemesis ID",
                 "url": "https://nemesis.assai.id/"
+            },
+            {
+                "name": "smartcustomer",
+                "url": "https://www.smartcustomer.com/"
             }
         ]
     },
@@ -20530,6 +20622,30 @@
             {
                 "name": "simpleoptout",
                 "url": "https://github.com/troy/simpleoptout"
+            },
+            {
+                "name": "spokeo",
+                "url": "https://www.spokeo.com/"
+            },
+            {
+                "name": "whitepages",
+                "url": "https://www.whitepages.com/"
+            },
+            {
+                "name": "beenverified",
+                "url": "https://www.beenverified.com/"
+            },
+            {
+                "name": "doxbin",
+                "url": "https://doxbin.com/home"
+            },
+            {
+                "name": "intelius",
+                "url": "https://www.intelius.com/"
+            },
+            {
+                "name": "rocketreach",
+                "url": "https://rocketreach.co/"
             }
         ]
     },
