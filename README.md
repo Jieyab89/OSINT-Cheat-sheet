@@ -706,6 +706,10 @@ There is a resouces to investigae malicious link and bypass url shortlink
 
 # Researching Cyber Threats
 
+- [lots-project](https://lots-project.com/)
+- [hijacklibs](https://hijacklibs.net/)
+- [wtfbins](https://wtfbins.wtf/)
+- [Filesec](https://filesec.io/)
 - [OPEN SOURCE MALWARE A community database, API and collaboration platform to help identify and protect against open-source malware](https://opensourcemalware.com/)
 - [URL Haus](https://urlhaus.abuse.ch/)
 - [watchguard ransomtracker](https://www.watchguard.com/wgrd-security-hub/ransomware-tracker)
@@ -1091,6 +1095,7 @@ You can find the file hash or other threat indicator
 
 # Github 
 
+- [gitleaks](https://github.com/gitleaks/gitleaks) Find secrets with Gitleaks
 - [ecosyste](https://ecosyste.ms/)
 - [srclog](https://srclog.com/)
 - [trendshift github trend repo](https://trendshift.io/github-trending-repositories)
@@ -1932,6 +1937,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 
 - [Oh365UserFinder](https://github.com/dievus/Oh365UserFinder)
 - [o365chk](https://github.com/nixintel/o365chk)
+- [AD o365recon](https://github.com/nyxgeek/o365recon)
 
 # Keybase 
 
@@ -4268,6 +4274,7 @@ Strict and disable bot crawl search engine index account
 - [Get Contact Unlisting](https://getcontact.com/en/manage) Request for remove your data from this site
 - [Interpol int](https://www.interpol.int/en/How-we-work/Notices/Yellow-Notices/View-Yellow-Notices) View and search public Yellow Notices for missing persons
 - [accountkiller](https://www.accountkiller.com/en/all-sites) A guide for deleting your account on the site or social media platform
+- [joindeleteme](https://joindeleteme.com/) A company focus in data privacy and delete your data in data broker 
 
 *NB : Please read carefully and check the ToS or privacy statment. Its taking to long, you need to patiently. For this point, your data is not guaranteed to be lost 100% on the internet, but this is to minimize the spread of your data and data breaches
 
@@ -4435,6 +4442,8 @@ Public Transport
 
 # GPT OSINT (AI)
 
+AI and LLM for penetration testing, security assesment, your research, geolocation and other
+
 - [claude](https://claude.ai/login)
 - [claude cli](https://code.claude.com/docs/en/overview)
 - [deepseek](https://www.deepseek.com/)
@@ -4462,6 +4471,8 @@ Public Transport
 - [suna](https://www.suna.so/)
 - [mistral](https://mistral.ai/)
 - [hexstrike](https://www.hexstrike.com/)
+- [garak](https://github.com/NVIDIA/garak)
+- [CAI](https://github.com/aliasrobotics/CAI)
 - [codex CLI](https://developers.openai.com/codex/cli/)
 - [grok](https://grok.com/)
 - [antigravity](https://antigravity.google/)
@@ -4517,6 +4528,8 @@ Misc
 
 # OSINT for Red Team 
 
+- [S3Scanner](https://github.com/sa7mon/S3Scanner) Scan for misconfigured S3 buckets across S3-compatible APIs!
+- [gitleaks](https://github.com/gitleaks/gitleaks) Find secrets with Gitleaks
 - [AutoRecon](https://github.com/AutoRecon/AutoRecon) AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services. And recommend for OSCP
 - [web-check](https://web-check.as93.net/) Awesome web tool for enumerate web and information gathering
 - [PayloadsAllThePDFs](https://github.com/luigigubello/PayloadsAllThePDFs) A list of crafted malicious PDF files to test the security of PDF readers and tools
@@ -4937,6 +4950,8 @@ Privilage Escalation Cheat and check
 - [Windows Privilage Escalation](https://github.com/Ignitetechnologies/Windows-Privilege-Escalation?tab=readme-ov-file) Methods of escalating privilege on Windows-based machines and CTFs with examples
 - [gtfoargs](https://gtfoargs.github.io/) GTFOArgs is a curated list of Unix binaries that can be manipulated for argument injection, possibly resulting in security vulnerabilities
 - [loobins](https://www.loobins.io/binaries/) Detailed information on various built-in macOS binaries and how they can be used by threat actors for malicious purposes
+- [loldrivers](https://www.loldrivers.io/) Open-source project that brings together vulnerable, malicious, and known malicious Windows drivers
+- [lots-project](https://lots-project.com/) Attackers are using popular legitimate domains when conducting phishing, C&C, exfiltration and downloading tools to evade detection
 
 Hacking Playground 
 
@@ -4989,6 +5004,7 @@ C2 & C4
 - [AdaptixC2](https://github.com/Adaptix-Framework/AdaptixC2)
 - [exploitpack](https://exploitpack.com/index.html)
 - [phpsploit](https://github.com/nil0x42/phpsploit)
+- [C2concealer](https://github.com/RedSiege/C2concealer)
 
 *Notes
 
@@ -5034,6 +5050,7 @@ If cannot connected with target check the port and the software version, you can
 - [NGROK](https://swisskyrepo.github.io/InternalAllTheThings/redteam/pivoting/network-pivoting-techniques/#ngrok)
 - [pivotnacci](https://github.com/blackarrowsec/pivotnacci)
 - [SSH Pivoting](https://cyberkhalid.github.io/posts/ssh-pivot/)
+- [frp](https://github.com/fatedier/frp)
 
 Linux Hardening 
 
@@ -5384,6 +5401,7 @@ Resources and collection for your make tool OSINT
 
 # OSINT Branding & Verify 
 
+- [smartcustomer](https://www.smartcustomer.com/)
 - [nemesis ID](https://nemesis.assai.id/)
 - [keyhole](https://keyhole.co/)
 - [Trus Pilot](https://www.trustpilot.com/)
@@ -6083,6 +6101,16 @@ This is list data broker, you can search or delete form data broker list on here
 - [glamrock data-brokers](https://github.com/glamrock/data-brokers)
 - [privacyrights](https://privacyrights.org/data-brokers)
 - [simpleoptout](https://github.com/troy/simpleoptout)
+- [spokeo](https://www.spokeo.com/)
+- [whitepages](https://www.whitepages.com/)
+- [beenverified](https://www.beenverified.com/)
+- [doxbin](https://doxbin.com/home)
+- [intelius](https://www.intelius.com/)
+- [rocketreach](https://rocketreach.co/)
+
+Notes 
+
+While some companies and data brokers may accept the deletion of your data from their databases, this doesn't mean your data is completely gone from the internet. Data stored online is very difficult to delete permanently.
 
 # OSINT Software 
 
