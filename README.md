@@ -34,7 +34,7 @@ Contains information about OSINT tips, OSINT branches and knowledge about intell
 
 Contains information about OSINT tips, write up usage resouces and more tips about OSINT and OSINT branch 
 
-Notes: "I recommend always using the hot reload function (CTRL + F5 OR Ctrl + Shift + R) to view updated content and clear the cache. I use DeepL to assist with creating articles in English, and my writing style tends to be a mix of informal and formal language, adhering to EYD (Enhanced Spelling) standards. Narrative"
+Notes: "I recommend always using the hot reload function (CTRL + F5 OR Ctrl + Shift + R) to view updated content and clear the cache. I use DeepL to assist with creating articles in English also AI LLM, and my writing style tends to be a mix of informal and formal language, adhering to EYD (Enhanced Spelling) standards. Narrative"
 
 - [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
 - [All About Doxing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing)
@@ -48,6 +48,7 @@ Notes: "I recommend always using the hot reload function (CTRL + F5 OR Ctrl + Sh
 - [All About HUMINT](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/all-about-humint#whats-is-humint)
 - [All About Darkweb Tips Darkweb OSINT Assessments](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/all-about-darkweb-tips-darkweb-osint-assessments)
 - [All About Stealer Log and Cyber Threat](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-stealer-log-and-cyber-threat)
+- [All About Penetration Testing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-penetration-testing)
 
 # These Resources Are Recommend For 
 
@@ -358,6 +359,7 @@ Site and forums OSINT community arround world
 # Code Search
 
 - [code google](https://code.google.com)
+- [srclog](https://srclog.com/)
 - [Chromium Code Search](https://source.chromium.org/chromium)
 - [Code Finder](http://codefinder.dev/)
 - [codefinder org](https://codefinder.org/)
@@ -1090,6 +1092,7 @@ You can find the file hash or other threat indicator
 # Github 
 
 - [ecosyste](https://ecosyste.ms/)
+- [srclog](https://srclog.com/)
 - [trendshift github trend repo](https://trendshift.io/github-trending-repositories)
 - [GROT](https://github.com/montysecurity/GROT)
 - [Github search name and find ID](https://caius.github.io/github_id/)
