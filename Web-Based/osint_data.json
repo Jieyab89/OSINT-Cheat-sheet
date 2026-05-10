@@ -19115,6 +19115,18 @@
             {
                 "name": "trackingterrorism",
                 "url": "https://trackingterrorism.org/"
+            },
+            {
+                "name": "visionofhumanity GTI",
+                "url": "https://www.visionofhumanity.org/maps/global-terrorism-index/#/"
+            },
+            {
+                "name": "economicsandpeace",
+                "url": "https://www.economicsandpeace.org/global-terrorism-index/"
+            },
+            {
+                "name": "databoks katadata",
+                "url": "https://databoks.katadata.co.id/"
             }
         ]
     },
