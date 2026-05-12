@@ -55,6 +55,7 @@ Info
 - [All About Darkweb Tips Darkweb OSINT Assessments](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/all-about-darkweb-tips-darkweb-osint-assessments)
 - [All About Stealer Log and Cyber Threat](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-stealer-log-and-cyber-threat)
 - [All About Penetration Testing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-penetration-testing)
+- [All About Scammer](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-scammer)
 
 # These Resources Are Recommend For 
 
