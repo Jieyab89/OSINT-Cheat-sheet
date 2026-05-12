@@ -36,6 +36,12 @@ Contains information about OSINT tips, write up usage resouces and more tips abo
 
 Notes: "I recommend always using the hot reload function (CTRL + F5 OR Ctrl + Shift + R) to view updated content and clear the cache. I use DeepL to assist with creating articles in English also AI LLM, and my writing style tends to be a mix of informal and formal language, adhering to EYD (Enhanced Spelling) standards. Narrative"
 
+Info 
+
+| Date | Remarks |
+|------------|---------|
+| 13 May 2026 | Update the article and relase new article in Gitbook  |
+
 - [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
 - [All About Doxing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing)
 - [All About OSINT Matters Things in OSINT](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-osint-thing-in-osint)
