@@ -366,6 +366,7 @@ Site and forums OSINT community arround world
 
 # Code Search
 
+- [gitdb](https://gitdb.net/)
 - [code google](https://code.google.com)
 - [srclog](https://srclog.com/)
 - [Chromium Code Search](https://source.chromium.org/chromium)
@@ -715,6 +716,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 
 # Researching Cyber Threats
 
+- [haveibeenransom](https://haveibeenransom.com/)
 - [vecert](https://analyzer.vecert.io/)
 - [lots-project](https://lots-project.com/)
 - [hijacklibs](https://hijacklibs.net/)
@@ -866,6 +868,7 @@ Browser Sandbox
 - [Browser Sandbox](https://www.browserling.com/)
 - [cybercheck360](https://cybercheck360.com/url-sandbox/)
 - [browser lol](https://browser.lol/en/create)
+- [browserling TOR](https://www..com/tor-testing)
 
 # IoT Search Engines
 
@@ -1108,6 +1111,7 @@ You can find the file hash or other threat indicator
 
 # Github 
 
+- [gitdb](https://gitdb.net/)
 - [gitleaks](https://github.com/gitleaks/gitleaks) Find secrets with Gitleaks
 - [ecosyste](https://ecosyste.ms/)
 - [srclog](https://srclog.com/)
@@ -1276,6 +1280,8 @@ Example
 - [Wayback Geospatial](https://livingatlas.arcgis.com/wayback)
 - [archive today](https://archive.today)
 - [webcitation](https://www.webcitation.org/query)
+- [web page archive (ONION SITES)](http://archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion/)
+- [Archive.ch (ONION SITES)](http://arhivachqqqvwqcotafhk4ks2he56seuwcshpayrm5myeq45vlff44yd.onion/)
 
 Web Defacement Archive 
 
@@ -1383,6 +1389,8 @@ Politic and Geopolitic Archive
 - [breach VIP](https://breach.vip/)
 - [infodra](https://infodra.com/)
 - [breachbase](https://breachbase.com/search)
+- [antipublic](https://antipublic.net/)
+- [haveibeenransom](https://haveibeenransom.com/)
 
 # Crack Jurnals
 
@@ -2594,6 +2602,7 @@ Telegram tips. Change the hash value, username, phone number on the endpoint or 
 
 # Document and Slides Search OSINT
 
+- [filephish](https://greylensresearch.github.io/filephish/)
 - [Find-pdf-doc](http://www.findpdfdoc.com)
 - [Free Full PDF](http://www.freefullpdf.com)
 - [SlideShare](http://www.slideshare.net)
@@ -3816,6 +3825,12 @@ Browser Sandbox
 - [TORCH Search (ONION SITE)](http://torchdeedp3i2jigzjdmfpn5ttjhthh5wbmda2rr3jvqjg5p77c54dqd.onion/)
 - [onion search server (ONION SITE)](http://3fzh7yuupdfyjhwt3ugzqqof6ulbcl27ecev33knxe3u7goi3vfn2qqd.onion/oss/)
 - [Top onion lists (ONION SITE)](http://toponiibv4eo4pctlszgavni5ajzg7uvkd7e2xslkjmtcfqesjlsqpid.onion/)
+- [Danex io (ONION SITE)](http://danexio627wiswvlpt6ejyhpxl5gla5nt2tgvgm2apj2ofrgm44vbeyd.onion/)
+- [Torgol (ONION SITE)](http://torgolnpeouim56dykfob6jh5r2ps2j73enc42s2um4ufob3ny4fcdyd.onion/)
+- [Tornet (ONION SITE)](http://tornetupfu7gcgidt33ftnungxzyfq2pygui5qdoyss34xbgx2qruzid.onion/)
+- [Find tor (ONION SITE)](http://findtorroveq5wdnipkaojfpqulxnkhblymc7aramjzajcvpptd4rjqd.onion/)
+- [Yahoo search (ONION SITE)](http://yahooirqvmmzwowaybsbtqcba2jyzwys7rb66zo7adrql4lq4wzwteqd.onion/)
+- [TOR 777 search (ONION SITE)](http://777topalcjomgpfmxbgtnpodgkkifm4qoqjzbc7thpmtq3k4sksmj3yd.onion/)
 
 # Darkweb Intelligence
 
@@ -3906,11 +3921,24 @@ Browser Sandbox
 - [Darkzone list (ONION SITES)](http://darkobds5j7xpsncsexzwhzaotyc4sshuiby3wtxslq5jy2mhrulnzad.onion/)
 - [Onion DIR (ONION SITES)](http://znpvfwnk2fi3j3anu6ysbbzrey645rcvmj5eegdv4qyfk5frlz6kzqqd.onion/c)
 - [Ransomware group lists (ONION SITES)](http://ransomwr3tsydeii4q43vazm7wofla5ujdajquitomtd47cxjtfgwyyd.onion/)
+- [GO GO ONION (ONION SITES)](http://ylf6u5gurfisvhgheevy4rxzcw36gyp4r55crqlmiydmzwi2xkvmhcad.onion/)
+- [The deep search (ONION SITES)](http://searchgf7gdtauh7bhnbyed4ivxqmuoat3nm6zfrg3ymkq6mtnpye3ad.onion/)
+- [Tor links (ONION SITES)](http://torbei4xgybpkdgbsjuq7js64afj5ifqjdd5bbzntqai3xopzv2qptyd.onion/)
+- [Deeplinks dump (ONION SITES)](http://deepqelxz6iddqi5obzla2bbwh5ssyqqobxin27uzkr624wtubhto3ad.onion/)
+- [Tor network status (ONION SITES)](http://t3qi4hdmvqo752lhyglhyb5ysoutggsdocmkxhuojfn62ntpcyydwmqd.onion/)
+- [Pirate bay (ONION SITES)](http://pirate6bonck35tq7yvbzy3q6z2ubwb2bcveb2ofaoffrcvuscenqcad.onion/)
+- [Onion god nota (ONION SITES)](http://godnotawwdd5ttzwnfsfe7p5iimukt4p6mdxrlvzjv6v7nlqdihzygyd.onion/)
+- [Darknet home (ONION SITES)](http://darkniyuntw3ykh2fk63fg2pvnace37hcorhn76ashjyueebg25bxyqd.onion/)
+- [Trust wiki (ONION SITES)](http://trustilg6savttwibzy7yidqgjpombxdnptutqxex6n7tsjb3rzjgjid.onion/index#search-engines-)
+- [Lowernet dir (ONION SITES)](http://loweruw2vupx3izp4hkmaotner6gjo4ooz6d4kdzqjbfkxqa2nlvjcyd.onion/)
+- [deepweeblink lists (ONION SITES)](http://darkwev6xtagl7742tqu24v2j4namr5ocfsfpha74a5nh4bwyp27a3ad.onion/)
+- [hidden links 2 (ONION SITES)](http://hiddenl3nnlkhu2lz3exwpuiflna2in5uxetcjlflaunva6ls6nyzyad.onion/)
 
 # Darkweb Forums 
 
 Onion site forums 
 
+- [ru tor](http://rutordark63xripv2a3skfrgjonvr3rqawcdpj2zcbw3sigkn6l3xpad.onion/)
 - [Ramble](http://rambleeeqrhty6s5jgefdfdtc6tfgg4jj6svr4jpgk4wjtg3qshwbaad.onion/) 
 - [Tor Forums](http://torbuyxpe6auueywlctu4wz6ur3o5n2meybt6tyi4rmeudtjsysayqyd.onion/forum/)
 - [Deep Answers](http://deeptyspkdq3nfvqvyzbkgwhtok4qoyhypsyiuo24wux4jnb6e3nyiqd.onion/)
@@ -3924,9 +3952,12 @@ Onion site forums
 - [librarian](http://librarian.g4c3eya4clenolymqbpgwz3q3tawoxw56yhzk4vugqrl6dtu3ejvhjid.onion/$/popculture)
 - [V3 Paste like pastebin but in onion](http://v3pastedc5jeqahtq77gvu3vz222bcqhlfubfunzjzqedg6jdqqlvgqd.onion/index.php)
 - [Stronghold Paste like pastebin but in onion](http://strongerw2ise74v3duebgsvug4mehyhlpa7f6kfwnas7zofs3kov7yd.onion/)
-- [WSS Chat](http://wsssspmmqsmqarsjxe643rkfafirnxxx3gffcygyxz3k57h6beudstad.onion/chat?username=adminaaaa123&session=396a10ceb73eff3b72f524514c7c0ce2)
+- [WSS Chat](http://wsssspmmqsmqarsjxe643rkfafirnxxx3gffcygyxz3k57h6beudstad.onion/)
 - [pfpmd](http://pfpmd7dd5ijt4add2sfi4djsaij4u3ebvnwvyvuj6aeipe2f5llptkid.onion/)
 - [Endchan](http://enxx3byspwsdo446jujc52ucy2pf5urdbhqw3kbsfhlfjwmbpj5smdad.onion/)
+- [Reddit](https://www.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion/)
+- [Exploit.in](https://exploitivzcm5dawzhe6c32bbylyggbjvh5dyvsvb5lkuz5ptmunkmqd.onion/)
+- [PASTE BOX Paste like pastebin but in onion](http://pasteboxx44wtzbm3ldjkcncls6uggi7mipmdwef5zza6wjqrqrtxdid.onion/)
 
 Guide 
 
@@ -4056,6 +4087,7 @@ You can analysis of hash, header, signature, evtx, ip, byte, file format, memory
 - [Temp Mail 2](https://temp-mail.org/en/)
 - [Temp Mail 3](https://tempmailo.com/)
 - [dnmx email](https://dnmx.su/)
+- [dnmx email (ONION SITES)](http://dnmxjaitaiafwmss2lx7tbs5bv66l7vjdmb5mtb3yqpxqhk3it5zivad.onion/)
 - [Phone Burner](https://www.phoneburner.com/)
 - [Hushed](https://hushed.com/)
 - [Privacy Badger](https://privacybadger.org/)
@@ -4880,6 +4912,7 @@ Credential Dumping
 
 Credentials Leak
 
+- [antipublic](https://antipublic.net/)
 - [breachbase](https://breachbase.com/search)
 - [Hudson Rock Cybercrime Intelligence Free Tools](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools)
 - [dehashed](https://dehashed.com/)
@@ -6370,45 +6403,6 @@ Find the list and history about house property, price and etc
 - [CSE-UTOPIA LISTS](https://start.me/p/EL84Km/cse-utopia)
 - [40 Custom Search Engines](https://booleanstrings.com/all-the-40-forty-custom-search-engines/)
 - [Find Pasted Text](https://cse.google.com/cse?cx=013991603413798772546:nxs552dhq8k)
-
-# OSINT Technique Tips 
-
-This is path for you learn OSINT
-
-- [Awesome guide attack vector OSINT](https://github.com/sinwindie/OSINT)
-- [Bellingcat Guides Tools and Handbook](https://bellingcat.gitbook.io/toolkit/resources/guides-and-handbooks)
-- [osintcombine](https://www.osintcombine.com/post/dark-web-searching)
-- [overtoperator](https://www.overtoperator.com/s/daily-intel-brief)
-- [maltego](https://www.maltego.com/blog/top-osint-infosec-resources-for-you-and-your-team/)
-- [skopenow image int](https://www.skopenow.com/resource-center/image-based-osint-investigations-tips-techniques)
-- [Telegram OSINT](https://github.com/Ginsberg5150/Discord-and-Telegram-OSINT-references)
-- [OSINT Handbook](https://i-intelligence.eu/uploads/public-documents/OSINT_Handbook_2020.pdf)
-- [The Threat Intelligence Lifecycle](https://www.recordedfuture.com/threat-intelligence-lifecycle)
-- [Five Phashes of the Threat Intelligence Lifecycle](https://flashpoint.io/blog/threat-intelligence-lifecycle/)
-- [Threat Intelligence Lifecycle Phases & Best Practices Explained](https://snyk.io/learn/threat-intelligence/threat-intelligence-lifecycle/)
-- [Open-Source Intelligence (OSINT) Cycle](https://securityorb.com/featured/the-open-source-intelligence-osint-cycle/)
-- [Learn and training OSINT free](https://sites.google.com/view/tpdprivacy/home?authuser=0)
-- [Bellingcat Resouces Guide](https://www.bellingcat.com/category/resources/)
-- [Guide for verification and SOCMINT](https://datajournalism.com/read/handbook/verification-3)
-- [Youtube OSINT Tutorial](https://www.youtube.com/playlist?list=PLrFPX1Vfqk3ehZKSFeb9pVIHqxqrNW8Sy)
-- [Ethical and about more OSINT](https://stanleycenter.org/publications/osint-applied-ethics-workbook/)
-- [Exposing the Invisible - The Kit](https://kit.exposingtheinvisible.org/en/index.html)
-- [The Atypical OSINT Guide](https://github.com/OffcierCia/non-typical-OSINT-guide?tab=readme-ov-file#introduction-civil-osint)
-- [cheatsheet - awesome list checklist OSINT and OSINT Branch](https://cheatsheet.haax.fr/open-source-intelligence-osint/)
-- [osintnewsletter](https://osintnewsletter.com/)
-
-Browser List 
-
-- [browser-use](https://github.com/browser-use/browser-use)
-- [Brave](https://brave.com/)
-- [I2P](https://geti2p.net/en/) 
-- [TOR](https://www.torproject.org)
-- [Whonix](https://www.whonix.org/)
-- [Zeronet](https://zeronet.io/)
-
-Bookmark OSINT tools list 
-
-- [myosint](https://www.myosint.training/pages/free-resources)
 
 # OSINT Astronomy
 
