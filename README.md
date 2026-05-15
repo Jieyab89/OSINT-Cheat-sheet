@@ -321,6 +321,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [World’s single largest Internet domains dataset](https://github.com/tb0hdan/domains)
 - [7 darkweb market forum datasets, with usernames obfuscated](https://github.com/gayanku/darkweb_clearweb_darktopics?tab=readme-ov-file)
 - [DOTA Dataset for Object Detection in Aerial Images](https://captain-whu.github.io/DOTA/)
+- [TOR Archive Github list node tor](https://tor-archive.github.io/)
 
 # Forums & Sites
 
@@ -644,6 +645,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [rapiddns](https://rapiddns.io/)
 - [atsameip](https://atsameip.com/)
 - [dnslytics](https://search.dnslytics.com/)
+- [blacklistchecker](https://blacklistchecker.com/)
 
 *Tips web cache 
 
@@ -713,6 +715,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 
 # Researching Cyber Threats
 
+- [vecert](https://analyzer.vecert.io/)
 - [lots-project](https://lots-project.com/)
 - [hijacklibs](https://hijacklibs.net/)
 - [wtfbins](https://wtfbins.wtf/)
@@ -856,6 +859,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [breach house](https://breach.house/all_stealers)
 - [kleenscan](https://kleenscan.biz/)
 - [malapi](https://malapi.io/) 
+- [ransomlook](https://www.ransomlook.io/browse)
 
 Browser Sandbox 
 
@@ -959,6 +963,8 @@ Tips
 
 You can find the file hash or other threat indicator
 
+- [vecert](https://analyzer.vecert.io/)
+- [ransomlook](https://www.ransomlook.io/browse)
 - [OPEN SOURCE MALWARE A community database, API and collaboration platform to help identify and protect against open-source malware](https://opensourcemalware.com/)
 - [attack MITRE TTP](https://attack.mitre.org/techniques/mobile/)
 - [breach house](https://breach.house/all_stealers)
@@ -1292,6 +1298,7 @@ Politic and Geopolitic Archive
 
 # Data Breached OSINT
 
+- [xposedornot](https://xposedornot.com/)
 - [telegra.ph](https://telegra.ph/) You can use dork for search data
 - [leakix](https://leakix.net/)
 - [leakScraper](https://github.com/Acceis/leakScraper)
@@ -3808,6 +3815,7 @@ Browser Sandbox
 - [Tor Node (ONION SITE)](http://tornode3tnrtzgqwd3vmxdumucddqfd6zk7icu4wzdwxo5c3zn2xqfqd.onion/)
 - [TORCH Search (ONION SITE)](http://torchdeedp3i2jigzjdmfpn5ttjhthh5wbmda2rr3jvqjg5p77c54dqd.onion/)
 - [onion search server (ONION SITE)](http://3fzh7yuupdfyjhwt3ugzqqof6ulbcl27ecev33knxe3u7goi3vfn2qqd.onion/oss/)
+- [Top onion lists (ONION SITE)](http://toponiibv4eo4pctlszgavni5ajzg7uvkd7e2xslkjmtcfqesjlsqpid.onion/)
 
 # Darkweb Intelligence
 
@@ -3886,6 +3894,39 @@ Browser Sandbox
 - [search aleph - Darkweb](https://open-search.aleph-networks.eu/en)
 - [darkdump](https://github.com/josh0xA/darkdump)
 - [breach house](https://breach.house/all_stealers)
+- [TOR Archive Github list node tor](https://tor-archive.github.io/)
+- [onion-lookup](https://onion.ail-project.org/)
+- [Onion lists (ONION SITES)](http://onion4euorfs4g6qqv6uwxokda7p5hemzcwbfycbhkkjcq7bh64cqkyd.onion/)
+- [tor lib (ONION SITES)](http://torlib7fmhyvfv2k7s77xigdds3rosio6k6bxnn256xmtzlbgyizduqd.onion/)
+- [Onionranks (ONION SITES)](http://rankspeslx4jwbalykpdrn4zsdfuqq25wiioy3ibvjlbgshfph7jtqad.onion/)
+- [tor yellow pages (ONION SITES)](http://iujeaomgpfd2jarvmdg2vdvlrlizvim35gcmtvhotsoglqfghcascpqd.onion/)
+- [Check down onion site (ONION SITES)](http://checkitzh2q35xf42lrtxc6a4o2aqpvvu5dpdophhl44rnqla7ffpkid.onion/)
+- [Hidden Links onion link (ONION SITES)](http://hiddenl3nnlkhu2lz3exwpuiflna2in5uxetcjlflaunva6ls6nyzyad.onion/)
+- [Yellowdir (ONION SITES)](http://yellowzmczcdzthabken7fekjtwxdaquoxgytjo2rv4pj6of653hajqd.onion/)
+- [Darkzone list (ONION SITES)](http://darkobds5j7xpsncsexzwhzaotyc4sshuiby3wtxslq5jy2mhrulnzad.onion/)
+- [Onion DIR (ONION SITES)](http://znpvfwnk2fi3j3anu6ysbbzrey645rcvmj5eegdv4qyfk5frlz6kzqqd.onion/c)
+- [Ransomware group lists (ONION SITES)](http://ransomwr3tsydeii4q43vazm7wofla5ujdajquitomtd47cxjtfgwyyd.onion/)
+
+# Darkweb Forums 
+
+Onion site forums 
+
+- [Ramble](http://rambleeeqrhty6s5jgefdfdtc6tfgg4jj6svr4jpgk4wjtg3qshwbaad.onion/) 
+- [Tor Forums](http://torbuyxpe6auueywlctu4wz6ur3o5n2meybt6tyi4rmeudtjsysayqyd.onion/forum/)
+- [Deep Answers](http://deeptyspkdq3nfvqvyzbkgwhtok4qoyhypsyiuo24wux4jnb6e3nyiqd.onion/)
+- [Best carding list](http://bestteermb42clir6ux7xm76d4jjodh3fpahjqgbddbmfrgp4skg2wqd.onion/)
+- [Pitch forums](https://pitchprash4aqilfr7sbmuwve3pnkpylqwxjbj2q5o4szcfeea6d27yd.onion/)
+- [Dread Forums](https://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion/)
+- [Hidden Answers](http://lp2fkbyfmiefvscyawqvssyh7rnwfjsifdhebp5me5xizte3s47yusqd.onion/)
+- [Darknet army](http://darknet4dtjdwfvcjspvqq274u5xkvsfjv65aq2b42vyev5soh7fhgqd.onion/)
+- [Deepweb qna](http://b7ehf7dabxevdsm5szkn2jecnliwzoxlsn4lijxqxikrlykbbsfrqfad.onion/)
+- [Shadow Forums](http://w4ljqtyjnxinknz4hszn4bsof7zhfy5z2h4srfss4vvkoikiwz36o3id.onion/)
+- [librarian](http://librarian.g4c3eya4clenolymqbpgwz3q3tawoxw56yhzk4vugqrl6dtu3ejvhjid.onion/$/popculture)
+- [V3 Paste like pastebin but in onion](http://v3pastedc5jeqahtq77gvu3vz222bcqhlfubfunzjzqedg6jdqqlvgqd.onion/index.php)
+- [Stronghold Paste like pastebin but in onion](http://strongerw2ise74v3duebgsvug4mehyhlpa7f6kfwnas7zofs3kov7yd.onion/)
+- [WSS Chat](http://wsssspmmqsmqarsjxe643rkfafirnxxx3gffcygyxz3k57h6beudstad.onion/chat?username=adminaaaa123&session=396a10ceb73eff3b72f524514c7c0ce2)
+- [pfpmd](http://pfpmd7dd5ijt4add2sfi4djsaij4u3ebvnwvyvuj6aeipe2f5llptkid.onion/)
+- [Endchan](http://enxx3byspwsdo446jujc52ucy2pf5urdbhqw3kbsfhlfjwmbpj5smdad.onion/)
 
 Guide 
 
@@ -3893,6 +3934,7 @@ Guide
 
 # Digital Forensics
 
+- [Binwalk](https://github.com/ReFirmLabs/binwalk)
 - [intezer](https://analyze.intezer.com/scan)
 - [AnyRun](https://any.run/)
 - [Yggdrasil](https://github.com/Jarl-Bjoern/Yggdrasil/)
@@ -4772,6 +4814,8 @@ Social Engineering (Social E)
 - [same web cloner](https://same.dev/)
 - [anonymailer email sender](https://www.anonymailer.net/m-demo.asp)
 - [letsencrypt for free ssl](https://letsencrypt.org/id/)
+- [AdvPhishing](https://github.com/Ignitetch/AdvPhishing)
+- [QRLJacking](https://github.com/OWASP/QRLJacking)
 
 Active Directory
 
@@ -4869,8 +4913,9 @@ Password crack
 - [Medusa](https://www.kali.org/tools/medusa/) A tool brute and crack password hash
 - [crackmapexec](https://www.kali.org/tools/crackmapexec/)  Automates gathering information, executing advanced password attacks, and performing post-exploitation activities like lateral movement.
 - [mattw](https://mattw.io/hashID/types) Hash identifier and hashcat mode cheat sheet 
-- [netexec](https://www.netexec.wiki/)
-- [impacket](https://github.com/fortra/impacket/)
+- [netexec](https://www.netexec.wiki/) NetExec (AKA nxc) is a network service exploitation tool that helps automate assessing the security of large networks.
+- [impacket](https://github.com/fortra/impacket/) Impacket is a collection of Python classes for working with network protocol
+- [haiti](https://github.com/noraj/haiti) Hash type identifier (CLI & lib)
 
 Wordlists for all
 
@@ -4980,6 +5025,7 @@ Hacking Playground
 - [Damn-Vulnerable-RESTaurant-API-Game](https://github.com/theowni/Damn-Vulnerable-RESTaurant-API-Game)
 - [MBTL](https://github.com/bayufedra/MBPTL)
 - [Awesome vulnerable](https://github.com/kaiiyer/awesome-vulnerable)
+- [Pretexta social engineering simulation ](https://github.com/dalpan/Pretexta)
 
 Awesome Burpsuite Extension
 
@@ -5455,6 +5501,7 @@ Resources and collection for your make tool OSINT
 - [ID INAPROC daftar hitam penyedia](https://daftar-hitam.inaproc.id/)
 - [WIPO INT](https://branddb.wipo.int/)
 - [SPSE inaproc ID](https://spse.inaproc.id/)
+- [URL Haus](https://urlhaus.abuse.ch/)
 
 # NEWS OSINT
 
@@ -5987,6 +6034,7 @@ Guide Journalist
 - [aivoicedetector](https://aivoicedetector.com/)
 - [thehive](https://docs.thehive.ai/)
 - [Mever](https://mever.iti.gr/forensics/)
+- [fakeimagedetector](https://www.fakeimagedetector.com/)
 
 # OSINT Similarity (Plagiarism)
 
@@ -6186,6 +6234,7 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 
 # OSINT Financial (FININT)
 
+- [bincheck Bank Identification Number](https://bincheck.io/)
 - [nemesis ID](https://nemesis.assai.id/)
 - [CC Checker](https://dnschecker.org/credit-card-validator.php)
 - [EU financial sanctions list](https://data.europa.eu/data/datasets/consolidated-list-of-persons-groups-and-entities-subject-to-eu-financial-sanctions?locale=en)
