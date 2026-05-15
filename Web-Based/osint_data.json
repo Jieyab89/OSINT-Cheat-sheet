@@ -65,6 +65,10 @@
             {
                 "name": "All About Penetration Testing",
                 "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-penetration-testing"
+            },
+            {
+                "name": "All About Scammer",
+                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-scammer"
             }
         ]
     },
@@ -658,6 +662,10 @@
             {
                 "name": "DOTA Dataset for Object Detection in Aerial Images",
                 "url": "https://captain-whu.github.io/DOTA/"
+            },
+            {
+                "name": "TOR Archive Github list node tor",
+                "url": "https://tor-archive.github.io/"
             }
         ]
     },
@@ -953,6 +961,10 @@
             {
                 "name": "srclog",
                 "url": "https://srclog.com/"
+            },
+            {
+                "name": "gitdb",
+                "url": "https://gitdb.net/"
             }
         ]
     },
@@ -1799,6 +1811,10 @@
             {
                 "name": "dnslytics",
                 "url": "https://search.dnslytics.com/"
+            },
+            {
+                "name": "blacklistchecker",
+                "url": "https://blacklistchecker.com/"
             }
         ]
     },
@@ -2605,6 +2621,22 @@
             {
                 "name": "browser lol",
                 "url": "https://browser.lol/en/create"
+            },
+            {
+                "name": "haveibeenransom",
+                "url": "https://haveibeenransom.com/"
+            },
+            {
+                "name": "vecert",
+                "url": "https://analyzer.vecert.io/"
+            },
+            {
+                "name": "ransomlook",
+                "url": "https://www.ransomlook.io/browse"
+            },
+            {
+                "name": "browserling TOR",
+                "url": "https://www..com/tor-testing"
             }
         ]
     },
@@ -3397,6 +3429,14 @@
             {
                 "name": "Google threat intelligence",
                 "url": "https://cloud.google.com/security/products/threat-intelligence#threat-intelligence-and-advanced-hunting"
+            },
+            {
+                "name": "vecert",
+                "url": "https://analyzer.vecert.io/"
+            },
+            {
+                "name": "ransomlook",
+                "url": "https://www.ransomlook.io/browse"
             }
         ]
     },
@@ -3587,6 +3627,10 @@
             {
                 "name": "srclog",
                 "url": "https://srclog.com/"
+            },
+            {
+                "name": "gitdb",
+                "url": "https://gitdb.net/"
             }
         ]
     },
@@ -4077,6 +4121,14 @@
             {
                 "name": "PolitiTweet Archive",
                 "url": "https://polititweet.org/"
+            },
+            {
+                "name": "web page archive (ONION SITES)",
+                "url": "http://archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion/"
+            },
+            {
+                "name": "Archive.ch (ONION SITES)",
+                "url": "http://arhivachqqqvwqcotafhk4ks2he56seuwcshpayrm5myeq45vlff44yd.onion/"
             }
         ]
     },
@@ -4414,6 +4466,18 @@
             {
                 "name": "breachbase",
                 "url": "https://breachbase.com/search"
+            },
+            {
+                "name": "xposedornot",
+                "url": "https://xposedornot.com/"
+            },
+            {
+                "name": "antipublic",
+                "url": "https://antipublic.net/"
+            },
+            {
+                "name": "haveibeenransom",
+                "url": "https://haveibeenransom.com/"
             }
         ]
     },
@@ -4479,6 +4543,10 @@
             {
                 "name": "freedium (mirror)",
                 "url": "https://freedium-mirror.cfd/"
+            },
+            {
+                "name": "annas-archive",
+                "url": "https://annas-archive.pk/"
             }
         ]
     },
@@ -4644,6 +4712,10 @@
             {
                 "name": "Z Librrary [ONION SITE]",
                 "url": "http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/"
+            },
+            {
+                "name": "annas-archive",
+                "url": "https://annas-archive.pk/"
             }
         ]
     },
@@ -8714,6 +8786,10 @@
             {
                 "name": "How to view scribd",
                 "url": "https://www.scribd.com/embeds/<HANGEID>/content?start_page=1&view_mode=scroll&access_key=key-fFexxf7r1bzEfWu3HKwf"
+            },
+            {
+                "name": "filephish",
+                "url": "https://greylensresearch.github.io/filephish/"
             }
         ]
     },
@@ -12843,6 +12919,30 @@
             {
                 "name": "onion search server (ONION SITE)",
                 "url": "http://3fzh7yuupdfyjhwt3ugzqqof6ulbcl27ecev33knxe3u7goi3vfn2qqd.onion/oss/"
+            },
+            {
+                "name": "Top onion lists (ONION SITE)",
+                "url": "http://toponiibv4eo4pctlszgavni5ajzg7uvkd7e2xslkjmtcfqesjlsqpid.onion/"
+            },
+            {
+                "name": "Torgol (ONION SITE)",
+                "url": "http://torgolnpeouim56dykfob6jh5r2ps2j73enc42s2um4ufob3ny4fcdyd.onion/"
+            },
+            {
+                "name": "Tornet (ONION SITE)",
+                "url": "http://tornetupfu7gcgidt33ftnungxzyfq2pygui5qdoyss34xbgx2qruzid.onion/"
+            },
+            {
+                "name": "Find tor (ONION SITE)",
+                "url": "http://findtorroveq5wdnipkaojfpqulxnkhblymc7aramjzajcvpptd4rjqd.onion/"
+            },
+            {
+                "name": "Yahoo search (ONION SITE)",
+                "url": "http://yahooirqvmmzwowaybsbtqcba2jyzwys7rb66zo7adrql4lq4wzwteqd.onion/"
+            },
+            {
+                "name": "TOR 777 search (ONION SITE)",
+                "url": "http://777topalcjomgpfmxbgtnpodgkkifm4qoqjzbc7thpmtq3k4sksmj3yd.onion/"
             }
         ]
     },
@@ -13152,6 +13252,102 @@
             {
                 "name": "Darkweb labs settup",
                 "url": "https://hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf"
+            },
+            {
+                "name": "TOR Archive Github list node tor",
+                "url": "https://tor-archive.github.io/"
+            },
+            {
+                "name": "onion-lookup",
+                "url": "https://onion.ail-project.org/"
+            },
+            {
+                "name": "Onion lists (ONION SITES)",
+                "url": "http://onion4euorfs4g6qqv6uwxokda7p5hemzcwbfycbhkkjcq7bh64cqkyd.onion/"
+            },
+            {
+                "name": "tor lib (ONION SITES)",
+                "url": "http://torlib7fmhyvfv2k7s77xigdds3rosio6k6bxnn256xmtzlbgyizduqd.onion/"
+            },
+            {
+                "name": "Onionranks (ONION SITES)",
+                "url": "http://rankspeslx4jwbalykpdrn4zsdfuqq25wiioy3ibvjlbgshfph7jtqad.onion/"
+            },
+            {
+                "name": "tor yellow pages (ONION SITES)",
+                "url": "http://iujeaomgpfd2jarvmdg2vdvlrlizvim35gcmtvhotsoglqfghcascpqd.onion/"
+            },
+            {
+                "name": "Check down onion site (ONION SITES)",
+                "url": "http://checkitzh2q35xf42lrtxc6a4o2aqpvvu5dpdophhl44rnqla7ffpkid.onion/"
+            },
+            {
+                "name": "Hidden Links onion link (ONION SITES)",
+                "url": "http://hiddenl3nnlkhu2lz3exwpuiflna2in5uxetcjlflaunva6ls6nyzyad.onion/"
+            },
+            {
+                "name": "Yellowdir (ONION SITES)",
+                "url": "http://yellowzmczcdzthabken7fekjtwxdaquoxgytjo2rv4pj6of653hajqd.onion/"
+            },
+            {
+                "name": "Darkzone list (ONION SITES)",
+                "url": "http://darkobds5j7xpsncsexzwhzaotyc4sshuiby3wtxslq5jy2mhrulnzad.onion/"
+            },
+            {
+                "name": "Onion DIR (ONION SITES)",
+                "url": "http://znpvfwnk2fi3j3anu6ysbbzrey645rcvmj5eegdv4qyfk5frlz6kzqqd.onion/c"
+            },
+            {
+                "name": "Ransomware group lists (ONION SITES)",
+                "url": "http://ransomwr3tsydeii4q43vazm7wofla5ujdajquitomtd47cxjtfgwyyd.onion/"
+            },
+            {
+                "name": "GO GO ONION (ONION SITES)",
+                "url": "http://ylf6u5gurfisvhgheevy4rxzcw36gyp4r55crqlmiydmzwi2xkvmhcad.onion/"
+            },
+            {
+                "name": "The deep search (ONION SITES)",
+                "url": "http://searchgf7gdtauh7bhnbyed4ivxqmuoat3nm6zfrg3ymkq6mtnpye3ad.onion/"
+            },
+            {
+                "name": "Tor links (ONION SITES)",
+                "url": "http://torbei4xgybpkdgbsjuq7js64afj5ifqjdd5bbzntqai3xopzv2qptyd.onion/"
+            },
+            {
+                "name": "Deeplinks dump (ONION SITES)",
+                "url": "http://deepqelxz6iddqi5obzla2bbwh5ssyqqobxin27uzkr624wtubhto3ad.onion/"
+            },
+            {
+                "name": "Tor network status (ONION SITES)",
+                "url": "http://t3qi4hdmvqo752lhyglhyb5ysoutggsdocmkxhuojfn62ntpcyydwmqd.onion/"
+            },
+            {
+                "name": "Pirate bay (ONION SITES)",
+                "url": "http://pirate6bonck35tq7yvbzy3q6z2ubwb2bcveb2ofaoffrcvuscenqcad.onion/"
+            },
+            {
+                "name": "Onion god nota (ONION SITES)",
+                "url": "http://godnotawwdd5ttzwnfsfe7p5iimukt4p6mdxrlvzjv6v7nlqdihzygyd.onion/"
+            },
+            {
+                "name": "Darknet home (ONION SITES)",
+                "url": "http://darkniyuntw3ykh2fk63fg2pvnace37hcorhn76ashjyueebg25bxyqd.onion/"
+            },
+            {
+                "name": "Trust wiki (ONION SITES)",
+                "url": "http://trustilg6savttwibzy7yidqgjpombxdnptutqxex6n7tsjb3rzjgjid.onion/index#search-engines-"
+            },
+            {
+                "name": "Lowernet dir (ONION SITES)",
+                "url": "http://loweruw2vupx3izp4hkmaotner6gjo4ooz6d4kdzqjbfkxqa2nlvjcyd.onion/"
+            },
+            {
+                "name": "deepweeblink lists (ONION SITES)",
+                "url": "http://darkwev6xtagl7742tqu24v2j4namr5ocfsfpha74a5nh4bwyp27a3ad.onion/"
+            },
+            {
+                "name": "hidden links 2 (ONION SITES)",
+                "url": "http://hiddenl3nnlkhu2lz3exwpuiflna2in5uxetcjlflaunva6ls6nyzyad.onion/"
             }
         ]
     },
@@ -13525,6 +13721,10 @@
             {
                 "name": "IPED",
                 "url": "https://github.com/sepinf-inc/IPED"
+            },
+            {
+                "name": "Binwalk",
+                "url": "https://github.com/ReFirmLabs/binwalk"
             }
         ]
     },
@@ -13695,6 +13895,10 @@
             {
                 "name": "Soxoj - Counter-OSINT & privacy guide",
                 "url": "https://github.com/soxoj/counter-osint-guide-en"
+            },
+            {
+                "name": "dnmx email (ONION SITES)",
+                "url": "http://dnmxjaitaiafwmss2lx7tbs5bv66l7vjdmb5mtb3yqpxqhk3it5zivad.onion/"
             }
         ]
     },
@@ -13768,6 +13972,10 @@
             {
                 "name": "chainabuse - wallet scam search",
                 "url": "https://www.chainabuse.com/"
+            },
+            {
+                "name": "blacklistseller TH",
+                "url": "https://blacklistseller.com/"
             }
         ]
     },
@@ -15430,6 +15638,10 @@
             {
                 "name": "CAI",
                 "url": "https://github.com/aliasrobotics/CAI"
+            },
+            {
+                "name": "Hermes agent",
+                "url": "https://github.com/nousresearch/hermes-agent"
             }
         ]
     },
@@ -17159,6 +17371,26 @@
             {
                 "name": "frp",
                 "url": "https://github.com/fatedier/frp"
+            },
+            {
+                "name": "AdvPhishing",
+                "url": "https://github.com/Ignitetch/AdvPhishing"
+            },
+            {
+                "name": "QRLJacking",
+                "url": "https://github.com/OWASP/QRLJacking"
+            },
+            {
+                "name": "antipublic",
+                "url": "https://antipublic.net/"
+            },
+            {
+                "name": "haiti",
+                "url": "https://github.com/noraj/haiti"
+            },
+            {
+                "name": "Pretexta social engineering simulation",
+                "url": "https://github.com/dalpan/Pretexta"
             }
         ]
     },
@@ -18512,6 +18744,10 @@
             {
                 "name": "smartcustomer",
                 "url": "https://www.smartcustomer.com/"
+            },
+            {
+                "name": "URL Haus",
+                "url": "https://urlhaus.abuse.ch/"
             }
         ]
     },
@@ -20072,6 +20308,18 @@
             {
                 "name": "knowyourmeme",
                 "url": "https://knowyourmeme.com/"
+            },
+            {
+                "name": "kemendikdasmen ID",
+                "url": "https://kbji.kemendikdasmen.go.id/.well-known/"
+            },
+            {
+                "name": "educalingo",
+                "url": "https://educalingo.com/"
+            },
+            {
+                "name": "educalingo",
+                "url": "https://educalingo.com/"
             }
         ]
     },
@@ -20263,6 +20511,10 @@
             {
                 "name": "Mever",
                 "url": "https://mever.iti.gr/forensics/"
+            },
+            {
+                "name": "fakeimagedetector",
+                "url": "https://www.fakeimagedetector.com/"
             }
         ]
     },
@@ -20986,6 +21238,10 @@
             {
                 "name": "nemesis ID",
                 "url": "https://nemesis.assai.id/"
+            },
+            {
+                "name": "bincheck Bank Identification Number",
+                "url": "https://bincheck.io/"
             }
         ]
     },
@@ -22144,6 +22400,95 @@
             {
                 "name": "Who OSINT Used",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Who-OSINT-Used"
+            }
+        ]
+    },
+    {
+        "category": "Darkweb Forums",
+        "items": [
+            {
+                "name": "ru tor",
+                "url": "http://rutordark63xripv2a3skfrgjonvr3rqawcdpj2zcbw3sigkn6l3xpad.onion/"
+            },
+            {
+                "name": "Ramble",
+                "url": "http://rambleeeqrhty6s5jgefdfdtc6tfgg4jj6svr4jpgk4wjtg3qshwbaad.onion/"
+            },
+            {
+                "name": "Tor Forums",
+                "url": "http://torbuyxpe6auueywlctu4wz6ur3o5n2meybt6tyi4rmeudtjsysayqyd.onion/forum/"
+            },
+            {
+                "name": "Deep Answers",
+                "url": "http://deeptyspkdq3nfvqvyzbkgwhtok4qoyhypsyiuo24wux4jnb6e3nyiqd.onion/"
+            },
+            {
+                "name": "Best carding list",
+                "url": "http://bestteermb42clir6ux7xm76d4jjodh3fpahjqgbddbmfrgp4skg2wqd.onion/"
+            },
+            {
+                "name": "Pitch forums",
+                "url": "https://pitchprash4aqilfr7sbmuwve3pnkpylqwxjbj2q5o4szcfeea6d27yd.onion/"
+            },
+            {
+                "name": "Dread Forums",
+                "url": "https://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion/"
+            },
+            {
+                "name": "Hidden Answers",
+                "url": "http://lp2fkbyfmiefvscyawqvssyh7rnwfjsifdhebp5me5xizte3s47yusqd.onion/"
+            },
+            {
+                "name": "Darknet army",
+                "url": "http://darknet4dtjdwfvcjspvqq274u5xkvsfjv65aq2b42vyev5soh7fhgqd.onion/"
+            },
+            {
+                "name": "Deepweb qna",
+                "url": "http://b7ehf7dabxevdsm5szkn2jecnliwzoxlsn4lijxqxikrlykbbsfrqfad.onion/"
+            },
+            {
+                "name": "Shadow Forums",
+                "url": "http://w4ljqtyjnxinknz4hszn4bsof7zhfy5z2h4srfss4vvkoikiwz36o3id.onion/"
+            },
+            {
+                "name": "librarian",
+                "url": "http://librarian.g4c3eya4clenolymqbpgwz3q3tawoxw56yhzk4vugqrl6dtu3ejvhjid.onion/$/popculture"
+            },
+            {
+                "name": "V3 Paste like pastebin but in onion",
+                "url": "http://v3pastedc5jeqahtq77gvu3vz222bcqhlfubfunzjzqedg6jdqqlvgqd.onion/index.php"
+            },
+            {
+                "name": "Stronghold Paste like pastebin but in onion",
+                "url": "http://strongerw2ise74v3duebgsvug4mehyhlpa7f6kfwnas7zofs3kov7yd.onion/"
+            },
+            {
+                "name": "WSS Chat",
+                "url": "http://wsssspmmqsmqarsjxe643rkfafirnxxx3gffcygyxz3k57h6beudstad.onion/"
+            },
+            {
+                "name": "pfpmd",
+                "url": "http://pfpmd7dd5ijt4add2sfi4djsaij4u3ebvnwvyvuj6aeipe2f5llptkid.onion/"
+            },
+            {
+                "name": "Endchan",
+                "url": "http://enxx3byspwsdo446jujc52ucy2pf5urdbhqw3kbsfhlfjwmbpj5smdad.onion/"
+            },
+            {
+                "name": "Reddit",
+                "url": "https://www.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion/"
+            },
+            {
+                "name": "Exploit.in",
+                "url": "https://exploitivzcm5dawzhe6c32bbylyggbjvh5dyvsvb5lkuz5ptmunkmqd.onion/"
+            },
+            {
+                "name": "PASTE BOX Paste like pastebin but in onion",
+                "url": "http://pasteboxx44wtzbm3ldjkcncls6uggi7mipmdwef5zza6wjqrqrtxdid.onion/"
+            },
+            {
+                "name": "Darkweb labs settup",
+                "url": "https://hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf"
             }
         ]
     }
