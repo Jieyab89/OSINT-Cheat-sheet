@@ -1379,6 +1379,7 @@ Politic and Geopolitic Archive
 
 # Crack Jurnals
 
+- [annas-archive](https://annas-archive.pk/)
 - [SCI HUB](https://sci-hub.hkvisa.net/) This domain will always change, check the mirror [SCI HUB Mirror](https://www.sci-hub.se/mirrors) 
 - [SCI HUB TELE BOT](https://sci-hub.41610.org/sci-hub-telegram-bot)
 - [SCI HUB TELE BOT 2](https://scihub.help/nexus-search-project)
@@ -1400,6 +1401,7 @@ Crack medium article
 
 # Search Jurnals
 
+- [annas-archive](https://annas-archive.pk/)
 - [Libgen](https://libgen.is/)
 - [Ieee](https://ieeexplore.ieee.org/Xplore/home.jsp)
 - [Sciencedirect](https://www.sciencedirect.com/)
@@ -4452,6 +4454,7 @@ Public Transport
 
 AI and LLM for penetration testing, security assesment, your research, geolocation and other
 
+- [Hermes agent](https://github.com/nousresearch/hermes-agent)
 - [claude](https://claude.ai/login)
 - [claude cli](https://code.claude.com/docs/en/overview)
 - [deepseek](https://www.deepseek.com/)
@@ -5894,6 +5897,8 @@ You can use for study academic literature, search book, people name, old archive
 
 # OSINT Language 
 
+- [kemendikdasmen ID](https://kbji.kemendikdasmen.go.id/.well-known/)
+- [educalingo](https://educalingo.com/)
 - [KBBI Kemendikbud - ID](https://kbbi.kemdikbud.go.id/)
 - [grammarly](https://www.grammarly.com/)
 - [quillbot](https://quillbot.com/translate)
@@ -5915,6 +5920,7 @@ You can use for study academic literature, search book, people name, old archive
 
 Slang Language
 
+- [educalingo](https://educalingo.com/)
 - [urbandictionary - contain slang](https://www.urbandictionary.com/)
 - [greensdictofslang](https://greensdictofslang.com/)
 - [youglish](https://youglish.com/)
