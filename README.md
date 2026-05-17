@@ -40,7 +40,7 @@ Info
 
 | Date | Remarks |
 |------------|---------|
-| 13 May 2026 | Update the article and relase new article in Gitbook  |
+| 17 May 2026 | Update the article and typo. Soon i will added more resousec also wiki  |
 
 - [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
 - [All About Doxing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing)
