@@ -40,7 +40,7 @@ Info
 
 | Date | Remarks |
 |------------|---------|
-| 17 May 2026 | Update the article and typo. Soon i will added more resousec also wiki  |
+| 19 May 2026 | Update the article about pentesting, deepfake, intel base and knowledge base. Soon i will added more resousec also wiki new article about device farm, linguistic and other  |
 
 - [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
 - [All About Doxing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing)
