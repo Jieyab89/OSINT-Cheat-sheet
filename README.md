@@ -2159,6 +2159,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [Twitter Archive](https://github.com/humandecoded/twayback)
 - [History Twitter](https://memory.lol/app/)
 - [Wayback Twitter](https://waybacktweets.streamlit.app/)
+- [PeekVault](https://peekvault.com/) Search public X/Twitter captures from the Internet Archive CDX index, preview archived snapshots, and export results.
 - [Twitter BOT](https://botometer.osome.iu.edu/)
 - [botometer Twitter dataset](https://botometer.osome.iu.edu/bot-repository/datasets.html)
 - [Treverse](https://github.com/paulgb/Treeverse/blob/master/README.md?utm_content=buffer33d48&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer#readme)
