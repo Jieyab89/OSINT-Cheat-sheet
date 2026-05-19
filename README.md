@@ -3938,8 +3938,11 @@ Browser Sandbox
 
 # Darkweb Forums 
 
-Onion site forums 
+Onion and surface site forums 
 
+- [BHF FORUMS](http://bhf2b5nb3lb2kxpaoyqz7cuk2dkgej5n2refuffxzyhldwt4d7de4zqd.onion/)
+- [CRYPTBB](http://cryptbbtg65gibadeeo2awe3j7s6evg7eklserehqr4w4e2bis5tebid.onion)
+- [altenens](https://altenens.is/threads/darkweb-2025-onion-links-new.2619050/)
 - [ru tor](http://rutordark63xripv2a3skfrgjonvr3rqawcdpj2zcbw3sigkn6l3xpad.onion/)
 - [Ramble](http://rambleeeqrhty6s5jgefdfdtc6tfgg4jj6svr4jpgk4wjtg3qshwbaad.onion/) 
 - [Tor Forums](http://torbuyxpe6auueywlctu4wz6ur3o5n2meybt6tyi4rmeudtjsysayqyd.onion/forum/)
