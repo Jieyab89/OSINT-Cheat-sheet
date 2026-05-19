@@ -868,7 +868,9 @@ Browser Sandbox
 - [Browser Sandbox](https://www.browserling.com/)
 - [cybercheck360](https://cybercheck360.com/url-sandbox/)
 - [browser lol](https://browser.lol/en/create)
-- [browserling TOR](https://www..com/tor-testing)
+- [browserling TOR](https://www.browserling.com/tor-testing)
+- [Wanna Browser Sandbox](https://www.wannabrowser.net/)
+- [locabrowser sandbox](https://www.locabrowser.com/)
 
 # IoT Search Engines
 
