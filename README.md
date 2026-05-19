@@ -404,6 +404,7 @@ Site and forums OSINT community arround world
 - [bevigil](https://bevigil.com/osint-api)
 - [codeberg](https://codeberg.org/)
 - [dnslytics](https://search.dnslytics.com/)
+- [zerobin](https://zerobin.net/)
 
 Pro Tips 
 
@@ -503,6 +504,8 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 
 # Web Intelligence
 
+- [reverse google analytics](https://osint.sh/analytics/)
+- [reverse google adsense](https://osint.sh/adsense/)
 - [GAU getallurls](https://github.com/lc/gau)
 - [Abuse IP DB](https://www.abuseipdb.com/)
 - [similartech](https://similartech.com/)
@@ -934,6 +937,7 @@ This tools can show your ip address isp provider and geo location
 
 # Wireless Network
 
+- [3wifi](https://3wifi.dev/map.html)
 - [Wigle](https://www.wigle.net/)
 Maps and database of 802.11 wireless networks, with statistics, submitted by wardrivers, netstumblers, and net huggers
 - [Fing Net Scan](https://www.fing.com/)
@@ -1306,6 +1310,7 @@ Politic and Geopolitic Archive
 
 # Data Breached OSINT
 
+- [zerobin](https://zerobin.net/)
 - [xposedornot](https://xposedornot.com/)
 - [telegra.ph](https://telegra.ph/) You can use dork for search data
 - [leakix](https://leakix.net/)
@@ -1482,6 +1487,7 @@ You can also use Google dork to search blogger profile
 
 # Company Reconnaissance Sites (Passive)
 
+- [dnb](https://www.dnb.com/en-us/)
 - [nemesis ID](https://nemesis.assai.id/)
 - [whois](http://www.whois.net)
 - [whois by hostinger](https://www.hostinger.co.id/whois)
@@ -1914,6 +1920,8 @@ or you can use dork for spesific example
 
 # OSINT Adult or Porn (18+)
 
+For this case u must know the context also dorking for better results 
+
 - [justpaste](https://justpaste.it/) You must to dork 
 - [terabox](https://www.terabox.com/) You must to dork 
 - [erome](https://www.erome.com/) You must to dork 
@@ -1945,6 +1953,8 @@ or you can use dork for spesific example
 - [wikisexguide](https://forum.wikisexguide.com/) You must to dork
 - [semprot forums](https://www.semprot.com/) You must to dork
 - [tiktok](https://www.tiktok.com/id-ID/) You must to dork
+- [zerobin](https://zerobin.net/) You must to dork
+- [telegra.ph](https://telegra.ph/) You must to dork
 
 Pro Tips 
 
@@ -2316,6 +2326,7 @@ Google queries for MySpace
 
 # Email Tracking
 
+- [osintcabal](https://osintcabal.org/livecenter/blackbird.html)
 - [braingainsoft find github email](https://braingainsoft.com/)
 - [behindtheemail](https://behindtheemail.com/)
 - [dmeta](https://dmeta.me/)
@@ -3086,6 +3097,7 @@ Geojson viewer
 
 3D Map & Building 
 
+- [tubvsig-so2sat-vm1.srv.mwn](https://tubvsig-so2sat-vm1.srv.mwn.de/)
 - [osm-3d globe](https://osm-3d.org/screenshots.en.htm)
 - [OSM 3D Map Lists Awesome](https://wiki.openstreetmap.org/wiki/3D)
 - [streets gl](https://streets.gl/)
@@ -3378,6 +3390,7 @@ Guide
 # Cell Investigation
 
 - [wigle](https://wigle.net/)
+- [3wifi](https://3wifi.dev/map.html)
 - [Opencellid](https://opencellid.org/)
 - [CellTower Locator - Cell2gps](http://www.cell2gps.com/)
 - [Cell-id Query](https://www.cell-id.info/?lang=en)
@@ -3437,6 +3450,7 @@ Guide
 - [IMSI Catcher](https://sls.eff.org/technologies/cell-site-simulators-imsi-catchers)
 - [bscoords](https://github.com/kolonist/bscoords)
 - [TraceFind](https://tracefind.info)
+- [wayp international yellow pages](https://www.wayp.com/)
 
 Pro Tips 
 
@@ -3722,6 +3736,7 @@ Browser Sandbox
 - [Discord Bots](https://discordbotlist.com/)
 - [OsintCat](https://www.osintcat.net/) Look up emails, usernames, and phone numbers in breach databases — clean results, no noise
 - [dclookup Discord Lookup](https://www.dclookup.id/)
+- [gatecord](https://gatecord.com/)
 
 # Darkweb Search Engines
 
@@ -4146,6 +4161,7 @@ Guide for Surveillance
 - [Telegram Scammer list ACC Database](https://apk.ibnux.com/data/)
 - [chainabuse - wallet scam search](https://www.chainabuse.com/)
 - [blacklistseller TH](https://blacklistseller.com/)
+- [nemesis ID](https://nemesis.assai.id/)
 
 # Content Removal & Strict Media Content
 
@@ -4437,6 +4453,8 @@ Public Transport
 
 # Aircraft Tracking
 
+- [aerobasegroup](https://aerobasegroup.com/)
+- [flightmapper](https://flightmapper.net/)
 - [flightradar24](https://www.flightradar24.com/)
 - [flightaware](https://www.flightaware.com/)
 - [radarbox](https://www.radarbox.com/)
@@ -4921,6 +4939,7 @@ Credential Dumping
 
 Credentials Leak
 
+- [ispyconnect Default Camera Passwords](https://www.ispyconnect.com/)
 - [antipublic](https://antipublic.net/)
 - [breachbase](https://breachbase.com/search)
 - [Hudson Rock Cybercrime Intelligence Free Tools](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools)
