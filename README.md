@@ -4121,6 +4121,8 @@ Guide for Surveillance
 
 # Fraud Checker
 
+- [prescam](https://www.prescam.com/)
+- [scamwarners forums](https://www.scamwarners.com/forum/)
 - [scamsearch](https://www.scamsearch.io/) Global Scam Database Search by Profile Picture, Email, Username, Pseudo Name, Phone Number, crypto address or website.
 - [ScamDB](https://scamdb.net/)- Report and Search Scam Accounts
 - [Cek Rekening](https://cekrekening.id/home) - Indonesian By Kominfo
@@ -5353,8 +5355,7 @@ Tactical learn and some firearms knowledge
 
 - [FalconLaw](https://www.youtube.com/@falconclaw_)
 - [GarandThumb](https://www.youtube.com/@GarandThumb)
-- [The FieldCraft Survival Channel
-](https://www.youtube.com/@fieldcraftsurvival)
+- [The FieldCraft Survival Channel](https://www.youtube.com/@fieldcraftsurvival)
 - [ID LycmaMilTech](https://www.youtube.com/@LycmaMilTech)
 - [GarandThumb](https://www.youtube.com/@GarandThumb)
 - [wiki firearm brands](https://en.wikipedia.org/wiki/List_of_firearm_brands)
@@ -5491,6 +5492,7 @@ Resources and collection for your make tool OSINT
 
 # OSINT Branding & Verify 
 
+- [prescam](https://www.prescam.com/)
 - [smartcustomer](https://www.smartcustomer.com/)
 - [nemesis ID](https://nemesis.assai.id/)
 - [keyhole](https://keyhole.co/)
