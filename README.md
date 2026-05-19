@@ -40,7 +40,7 @@ Info
 
 | Date | Remarks |
 |------------|---------|
-| 19 May 2026 | Update the article about pentesting, deepfake, intel base and knowledge base. Soon i will added more resousec also wiki new article about device farm, linguistic and other  |
+| 19 May 2026 | Update the article about pentesting, deepfake, intel base and knowledge base, all about darkweb. Soon i will added more resousec also wiki new article about device farm, linguistic and other  |
 
 - [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
 - [All About Doxing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing)
@@ -93,7 +93,7 @@ You can build it with VM or Live USB make sure you have sandbox machine
 
 # OSINT Academy
 
-- [Jieyab89 Gitbook](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips)
+- [Jieyab89 Gitbook (free and no ads)](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips)
 - [Maltego academy](https://academy.maltego.com/)
 - [Darkweb academy](https://www.darkwebacademy.com/labs/)
 
@@ -405,7 +405,7 @@ Site and forums OSINT community arround world
 - [codeberg](https://codeberg.org/)
 - [dnslytics](https://search.dnslytics.com/)
 
-*Pro Tips 
+Pro Tips 
 
 Try search on forum like programmer forums, web framework forums, social media and other things. Use a google dork to easy way find information with site target 
 
@@ -1462,7 +1462,9 @@ Crack medium article
 
 - [Google Blog](https://www.searchblogspot.com/blogger-profiles)
 
-*You can also use Google dork to search blogger profile
+Pro Tips 
+
+You can also use Google dork to search blogger profile
 
 # Tracking Website Changes
 
@@ -2649,20 +2651,14 @@ Scribd viewer
 
 # Real-Time Search, Social Media Search, and General Social Media Tools
 
-- [Hashtatit](http://www.hashatit.com)
 - [Rival IQ](https://www.rivaliq.com)
-- [SocialBakers](http://www.socialbakers.com)
 - [SociaBlade](http://socialblade.com)
 - [Social Searcher](http://www.social-searcher.com)
-- [Mail.Ru Social Network Search](https://go.mail.ru/search_social)
-- [WATools](https://watools.io/)
 - [Profil3r](https://github.com/Rog3rSm1th/Profil3r)
 - [Oblivion](https://github.com/loseys/Oblivion)
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
 - [Snsscrape](https://github.com/JustAnotherArchivist/snscrape)
 - [stratosphere](https://github.com/elehcimd/stratosphere)
-- [OSINT compass](https://osint-compass-portal.onrender.com/)
-- [Sherlock Eye](https://sherlockeye.io/)
 - [ShadowDragon](https://shadowdragon.io/)
 - [sociallinks](https://sociallinks.io/)
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
@@ -3296,6 +3292,10 @@ Desktop NET debugger and assembly editor
 - [0day database](https://www.zero-day.cz/database/)
 - [zerodayinitiative](https://www.zerodayinitiative.com/advisories/published/) You can also check their Twitter for latest update
 - [PWN2OWN](https://www.secwest.net/)
+- [0day in the wild](https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit?gid=1331951416#gid=1331951416)
+- [attackerkb](https://attackerkb.com/)
+- [crowdfense](https://www.crowdfense.com/)
+- [exploit db](https://www.exploit-db.com/)
 
 # Cryptocurrency Investigation
 
@@ -4059,7 +4059,7 @@ Guide
 - [List file signature](https://filesig.search.org/)
 - [IPED](https://github.com/sepinf-inc/IPED)
 
-*Pro Tips 
+Pro Tips 
 
 You can analysis of hash, header, signature, evtx, ip, byte, file format, memory dumping, network, system process, start up apps, background apps 
 
@@ -4615,6 +4615,8 @@ Misc
 
 # OSINT for Red Team 
 
+- [maldevacademy database](https://search.maldevacademy.com/) A list about malware technique and evasion
+- [ThreatCheck](https://github.com/rasta-mouse/ThreatCheck) Analysis your malware for malware development
 - [S3Scanner](https://github.com/sa7mon/S3Scanner) Scan for misconfigured S3 buckets across S3-compatible APIs!
 - [gitleaks](https://github.com/gitleaks/gitleaks) Find secrets with Gitleaks
 - [AutoRecon](https://github.com/AutoRecon/AutoRecon) AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services. And recommend for OSCP
@@ -5132,7 +5134,7 @@ Hardware Pentesting
 
 Lateral Movement & Pivoting 
 
-*Pro tips 
+Pro tips 
 
 If cannot connected with target check the port and the software version, you can change it 
 
@@ -5363,7 +5365,7 @@ Tactical learn and some firearms knowledge
 - [Armament Research Services (ARES) Official Site](https://armamentresearch.com/)
 - [smallarmssurvey](https://www.smallarmssurvey.org/databases)
 
-*Pro Tips 
+Pro Tips 
 
 If you want to analyze the military for your research, you can learn about SALW, UXO, EO, Geopolitics, geospatial, signal intelligence, CSINT, security protocols on SALW, tools of war, geography, history, IT security and some programming and some research
 
@@ -5407,7 +5409,7 @@ Analysis for IMINT and find the geolocation, azimuth and etc
 - [Web Archive](https://web.archive.org/)
 - [Z Librrary [ONION SITE]](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/)
 
-*Pro Tips
+Pro Tips
 
 Check on category search jurnals 
 
@@ -6183,7 +6185,9 @@ Fixing grub or recovery grub missing
 - [bit.ly](https://bitly.com/)
 - [tiny url](https://tinyurl.com/)
 
-*Pro tips : You can use it with the social engineering and creating own tools 
+Pro tips  
+
+You can use it with the social engineering and creating own tools 
 
 # OSINT Jobs 
 
