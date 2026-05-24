@@ -2483,6 +2483,7 @@ Mostly general for searching data like web enumerate, attack surface, email, per
 - [lolarchiver](https://osint.lolarchiver.com/#)
 - [cybdetective public tool](https://cybdetective.com/)
 - [OSINT indsutries](https://www.osint.industries/)
+- [Phantom Tide](https://phantom.labs.jamessawyer.co.uk/) - cross-domain OSINT dashboard for maritime and airspace analysis
 - [bbot](https://github.com/blacklanternsecurity/bbot)
 - [Meta OSINT](https://metaosint.github.io/)
 - [Shrelock](https://github.com/sherlock-project/sherlock)
