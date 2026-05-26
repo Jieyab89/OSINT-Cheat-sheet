@@ -88,6 +88,7 @@
 - [How Reverse Phone Lookups Work [with OSINT Industries]](https://www.osint.industries/post/how-reverse-phone-lookups-work-with-osint-industries)
 - [OSINT Basics: Reverse Email Lookup](https://www.osint.industries/post/reverse-email-lookup-the-basics)
 - [OPEN SOURCE INTELLIGENCE TOOLS AND RESOURCES HANDBOOK](https://drive.google.com/viewerng/viewer?url=https://i-intelligence.eu/uploads/public-documents/OSINT_Handbook_June-2018_Final.pdf)
+- [Forensic and check image AI generate or not](https://www.science.org/content/article/deepfakes-are-everywhere-godfather-digital-forensics-fighting-back)
 
 # Vehicles
 
@@ -146,3 +147,4 @@ This is path for you learn OSINT
 - [The Atypical OSINT Guide](https://github.com/OffcierCia/non-typical-OSINT-guide?tab=readme-ov-file#introduction-civil-osint)
 - [cheatsheet - awesome list checklist OSINT and OSINT Branch](https://cheatsheet.haax.fr/open-source-intelligence-osint/)
 - [osintnewsletter](https://osintnewsletter.com/)
+- [Millitary OSINT](https://drive.google.com/drive/folders/1S6f4Qgt9p9x6h9fnfMWTp18WY6rRstjU)
