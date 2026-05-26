@@ -4537,6 +4537,7 @@ Public Transport
 - [balticshipping](https://www.balticshipping.com/)
 - [shipfinder](https://www.shipfinder.com/)
 - [boatinfoworld](https://www.boatinfoworld.com/)
+- [Phantom Tide](https://phantom.labs.jamessawyer.co.uk/) - cross-domain OSINT dashboard for maritime and airspace analysis
 
 # Railways
 
