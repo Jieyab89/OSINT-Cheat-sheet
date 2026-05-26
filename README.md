@@ -40,7 +40,7 @@ Info
 
 | Date | Remarks |
 |------------|---------|
-| 26 May 2026 | Update the article about pentesting, deepfake, intel base and knowledge base. Added mor glosary also technique for your analysis and reccon, validate the deepfake and other things |
+| 27 May 2026 | Update the article about pentesting, deepfake, intel base and knowledge base, email tracking and investigation. Added more glosary also technique for your analysis and reccon, validate the deepfake and other things |
 
 - [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
 - [All About Doxing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing)
