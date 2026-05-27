@@ -10,6 +10,7 @@ Sitemap: https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/
 
 # Block unnecessary paths
 Disallow: /Script
+Disallow: /mail
 
 # AI / LLM discovery
 Allow: /llms.txt
