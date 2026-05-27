@@ -40,7 +40,7 @@ Info
 
 | Date | Remarks |
 |------------|---------|
-| 28 May 2026 | Update the article about pentesting, All about stealer log and CTI. Intel base and knowledge base. Added more glosary also technique for your analysis and reccon, how apt works, stealer malware and common attacks |
+| 28 May 2026 | Update the article about pentesting, All about stealer log and CTI. Intel base and knowledge base. Added more glosary also technique for your analysis and reccon, how apt works, stealer malware and common attacks, also new article about All About Narcotics or Drugs |
 
 - [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
 - [All About Doxing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing)
@@ -56,6 +56,7 @@ Info
 - [All About Stealer Log and Cyber Threat](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-stealer-log-and-cyber-threat)
 - [All About Penetration Testing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-penetration-testing)
 - [All About Scammer](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-scammer)
+- [All About Narcotics or Drugs](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-narcotics-or-drugs#intermezo)
 
 # These Resources Are Recommend For 
 
