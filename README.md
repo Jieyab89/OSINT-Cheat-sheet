@@ -2745,6 +2745,8 @@ Scribd viewer
 - [Google cse flickr image search](https://cse.google.com/cse?cx=011444696387487602669:nl3ze53kw8g#gsc.tab=0&gsc.q=yogyakarta&gsc.page=8)
 - [reversely](https://www.reversely.ai/)
 - [surfface](https://surfface.com/)
+- [dailymotion](https://www.dailymotion.com/)
+- [giphy](https://giphy.com/)
 
 # Image Analysis
 
@@ -2886,6 +2888,8 @@ Scribd viewer
 - [invid-project](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)
 - [asciinema](https://asciinema.org/)
 - [videosearch](https://videosearch.io/)
+- [dailymotion](https://www.dailymotion.com/)
+- [rumble](https://rumble.com/)
 
 # Geospatial Research and Mapping Tools
 
@@ -3086,6 +3090,7 @@ Scribd viewer
 - [worldmonitor map](https://worldmonitor.app/)
 - [GeoSentinel](https://github.com/h9zdev/GeoSentinel)
 - [irwatch](https://irwatch.org/)
+- [saucenao](https://saucenao.com/)
 
 Conveter tool 
 
@@ -6043,6 +6048,7 @@ Slang Language
 - [digitalcultures](https://digitalcultures.net/)
 - [merriam slang dictionary](https://www.merriam-webster.com/)
 - [knowyourmeme](https://knowyourmeme.com/)
+- [giphy](https://giphy.com/)
 
 # OSINT OPSEC 
 
