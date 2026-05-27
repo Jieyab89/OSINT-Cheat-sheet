@@ -40,7 +40,7 @@ Info
 
 | Date | Remarks |
 |------------|---------|
-| 27 May 2026 | Update the article about pentesting, deepfake, intel base and knowledge base, email tracking and investigation. Added more glosary also technique for your analysis and reccon, validate the deepfake and other things |
+| 27 May 2026 | Update the article about pentesting, all about deepfake, intel base and knowledge base, email tracking and investigation. Added more glosary also technique for your analysis and reccon, validate the deepfake and other things |
 
 - [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
 - [All About Doxing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing)
@@ -1923,6 +1923,7 @@ or you can use dork for spesific example
 
 For this case u must know the context also dorking for better results 
 
+- [samsguide forums](https://samsguide.living/) You must to dork 
 - [justpaste](https://justpaste.it/) You must to dork 
 - [terabox](https://www.terabox.com/) You must to dork 
 - [erome](https://www.erome.com/) You must to dork 
@@ -1956,10 +1957,11 @@ For this case u must know the context also dorking for better results
 - [tiktok](https://www.tiktok.com/id-ID/) You must to dork
 - [zerobin](https://zerobin.net/) You must to dork
 - [telegra.ph](https://telegra.ph/) You must to dork
+- [maybe SG dating](https://maybe.sg/collections/female-personalities)
 
 Pro Tips 
 
-Note is for investigator like search scandal, deepfake porn or blackmail, red distric review, women and porn actress. Searching for scandal or blackmail or deepfake porn doesn't have to be on the listed sites, there are many perpetrators uploading on several platforms You need to do massive scrapping to collect this information, but there are times when they do it on platforms such as telegram, X or adult sites, you can search using dork, regex and linguistic like slang, abbreviation of word and other things
+Note is for investigator like search scandal, deepfake porn or blackmail, red distric review, women, dating platform and porn actress. Searching for scandal or blackmail or deepfake porn doesn't have to be on the listed sites, there are many perpetrators uploading on several platforms You need to do massive scrapping to collect this information, but there are times when they do it on platforms such as telegram, X or adult sites, you can search using dork, regex and linguistic like slang, abbreviation of word and other things
 
 # Steam 
 
