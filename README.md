@@ -40,7 +40,7 @@ Info
 
 | Date | Remarks |
 |------------|---------|
-| 27 May 2026 | Update the article about pentesting, all about deepfake, intel base and knowledge base, email tracking and investigation. Added more glosary also technique for your analysis and reccon, validate the deepfake and other things |
+| 28 May 2026 | Update the article about pentesting, All about stealer log and CTI. Intel base and knowledge base. Added more glosary also technique for your analysis and reccon, how apt works, stealer malware and common attacks |
 
 - [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
 - [All About Doxing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing)
@@ -4178,7 +4178,7 @@ Guide for Surveillance
 
 Search people missing and abuse, strict content, removing, takedown and minimize your data on the internet
 
-- [Interpol Yellow Notice](https://www.interpol.int/How-we-work/Notices/Yellow-Notices/View-Yellow-Notices#)
+- [Interpol Yellow Notice](https://www.interpol.int/How-we-work/Notices/Yellow-Notices/View-Yellow-Notices#) Searching people public Yellow Notices for missing persons
 - [Google image removal](https://support.google.com/websearch/answer/4628134)
 Remove your image from Google
 - [Delete Me](https://joindeleteme.com/) Remove your personal information in internet and data broker (scrapper)
@@ -4464,6 +4464,7 @@ Public Transport
 
 # Aircraft Tracking
 
+- [Phantom Tide](https://phantom.labs.jamessawyer.co.uk/) - cross-domain OSINT dashboard for maritime and airspace analysis
 - [aerobasegroup](https://aerobasegroup.com/)
 - [flightmapper](https://flightmapper.net/)
 - [flightradar24](https://www.flightradar24.com/)
@@ -5263,6 +5264,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 
 # OSINT Military
 
+- [Phantom Tide](https://phantom.labs.jamessawyer.co.uk/) - cross-domain OSINT dashboard for maritime and airspace analysis
 - [List of aircraft carriers](https://en.wikipedia.org/wiki/List_of_aircraft_carriers)
 - [globalsecurity military](https://www.globalsecurity.org/military/index.html)
 - [3D Rendered Synthetic Data](https://vframe.io/3d-rendered-data/)
