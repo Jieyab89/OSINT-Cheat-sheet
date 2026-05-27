@@ -1,0 +1,43 @@
+User-agent: *
+Allow: /
+
+# Optional crawl delay
+Crawl-delay: 5
+
+# Sitemap
+Sitemap: https://jieyab89.github.io/OSINT-Cheat-sheet/sitemap.xml
+Sitemap: https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/sitemap-pages.xml
+
+# Block unnecessary paths
+Disallow: /Script
+
+# AI / LLM discovery
+Allow: /llms.txt
+
+# Block archive crawlers
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: archivebot
+Disallow: /
+
+User-agent: wayback
+Disallow: /
+
+User-agent: waybackbot
+Disallow: /
+
+User-agent: archive-is
+Disallow: /
+
+User-agent: archive.today_bot
+Disallow: /
+
+User-agent: archive.ph
+Disallow: /
+
+User-agent: saveweb2zip
+Disallow: /
