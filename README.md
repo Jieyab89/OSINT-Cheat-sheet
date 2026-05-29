@@ -10,6 +10,8 @@ Please take a notes. Due to the large number of supply chain attacks, refer to O
 
 Tips: 
 
+- Beware fake captcha, many site have fake captcha to run malicious script. If you found weird captcha just leave it
+- User your fake account or temp email, phone and other. You can bypass using temp email Gmail also dnmx email
 - Use virtual machine, fake host or docker machine, or cloud machine try on your vps 
 - Use private network e.g vpn, tor, p2p 
 - Use second account (not you real account)
@@ -609,12 +611,14 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [whoisfreaks Whois History](https://whoisfreaks.com/)
 - [domaintools Whois History](https://research.domaintools.com/research/whois-history/)
 - [whoisxmlapi Whois History](https://whois-history.whoisxmlapi.com/)
+- [iqwhois Whois History](https://iqwhois.com/whois-domain-history)
 - [fofa](https://en.fofa.info/)
 - [nerdydata](https://www.nerdydata.com/reports/new)
 - [urlquery](https://urlquery.net/)
 - [transparencyreport Google](https://transparencyreport.google.com/safe-browsing/search)
 - [stat ripe](https://stat.ripe.net/)
 - [favicon-hash](https://favicon-hash.kmsec.uk/)
+- [faviconhasher search ico](https://faviconhasher.codejavu.tech/)
 - [FavFreak](https://github.com/devanshbatham/FavFreak)
 - [LeakIX](https://leakix.net)
 - [vstat](https://vstat.info/)
@@ -646,12 +650,12 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [Whois XML API - Lookup](https://reverse-whois.whoisxmlapi.com/lookup)
 - [Public WWW](https://publicwww.com/syntax.html)
 - [whatcms](https://whatcms.org/)
-- [dehashed](https://dehashed.com/)
 - [dnsdumpster](https://dnsdumpster.com/)
 - [rapiddns](https://rapiddns.io/)
 - [atsameip](https://atsameip.com/)
 - [dnslytics](https://search.dnslytics.com/)
 - [blacklistchecker](https://blacklistchecker.com/)
+- [cookieserve find and check cookie](https://www.cookieserve.com/)
 
 *Tips web cache 
 
@@ -721,6 +725,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 
 # Researching Cyber Threats
 
+- [tweetfeed - IOC collected in Twitter](https://tweetfeed.live/)
 - [theZoo](https://github.com/ytisf/theZoo/tree/master/malware/Source)
 - [haveibeenransom](https://haveibeenransom.com/)
 - [vecert](https://analyzer.vecert.io/)
@@ -929,6 +934,8 @@ Browser Sandbox
 - [insecam](http://www.insecam.org/)
 - [Campod - IP CAM (MOST INDONESIAN ID)](https://campod.my.id/)
 - [BloodCat](https://github.com/MartinxMax/BloodCat)
+- [opentopia find online cam](https://www.opentopia.com/)
+- [skylinewebcams find online cam](https://www.skylinewebcams.com/)
 
 # IP Addresses
 
@@ -1142,6 +1149,7 @@ You can find the file hash or other threat indicator
 - [gitsearchai](https://www.gitsearchai.com/)
 - [gitdiagram](https://gitdiagram.com/)
 - [braingainsoft find github email](https://braingainsoft.com/)
+- [github-tools-collection](https://glc.st/posts/github-tools-collection//)
 
 Github Dork
 
@@ -1249,7 +1257,6 @@ Example
 - [sogou CN](https://www.sogou.com/)
 - [chronos Wayback Machine OSINT Framework](https://github.com/mhmdiaa/chronos)
 - [censys](https://search.censys.io/)
-- [dehashed](https://dehashed.com/)
 - [verifyhalal](https://verifyhalal.com/) Discover Over 1,000,000 Halal Products and Services Today
 - [Google cse search general](https://cse.google.com/cse?cx=013991603413798772546:jyvyp2ppxma#gsc.tab=0)
 - [webcrawler](https://www.webcrawler.com/)
@@ -1259,6 +1266,7 @@ Example
 
 # Internet Archive
 
+- [Wayback Twitter](https://waybacktweets.streamlit.app/)
 - [thebarchive](https://thebarchive.com/_/articles/faq/)
 - [nationalarchives](https://www.nationalarchives.gov.uk/)
 - [DMCA Lumen DB](https://lumendatabase.org/)
@@ -1293,6 +1301,8 @@ Example
 - [web page archive (ONION SITES)](http://archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion/)
 - [Archive.ch (ONION SITES)](http://arhivachqqqvwqcotafhk4ks2he56seuwcshpayrm5myeq45vlff44yd.onion/)
 - [PeekVault](https://peekvault.com/) Search public X/Twitter captures from the Internet Archive CDX index, preview archived snapshots, and export results
+- [archive md](https://archive.md/)
+- [swap.stanford.edu](https://swap.stanford.edu/)
 
 Web Defacement Archive 
 
@@ -1367,7 +1377,6 @@ Malware Database Archive
 - [trufflehog](https://trufflesecurity.com/trufflehog)
 - [9ghz](https://9ghz.com/)
 - [leakpeek](https://leakpeek.com/)
-- [weleakinfo](https://weleakinfo.io/)
 - [leakradar](https://leakradar.io/)
 - [leakedpassword](https://leakedpassword.com/)
 - [scatteredsecrets](https://scatteredsecrets.com/)
@@ -1496,6 +1505,7 @@ You can also use Google dork to search blogger profile
 - [wayback machine](https://archive.org/web/) search history archive on site 
 - [Archive Fo](https://archive.fo/)
 - [webarchiveviewer](https://cybdetective.com/webarchiveviewer/)
+- [w3snoop](https://w3snoop.com/)
 
 # Company Reconnaissance Sites (Passive)
 
@@ -1969,6 +1979,14 @@ For this case u must know the context also dorking for better results
 - [zerobin](https://zerobin.net/) You must to dork
 - [telegra.ph](https://telegra.ph/) You must to dork
 - [maybe SG dating](https://maybe.sg/collections/female-personalities)
+- [adultfriendfinder](https://adultfriendfinder.com/)
+- [fansmetrics](https://fansmetrics.com/)
+- [onlysearch](https://onlysearch.co/)
+- [onlyfinder](https://onlyfinder.com/)
+- [onlyfans search](https://hubite.com/en/onlyfans-search/)
+- [fansearch](https://www.fansearch.com/)
+- [xmodelfinder](https://www.xmodelfinder.com/)
+- [sotugas onlyfans search username](https://sotugas.com/onlyfans/)
 
 Pro Tips 
 
@@ -2136,6 +2154,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - [Seal](https://github.com/JunkFood02/Seal)
 - [ytlarge](https://ytlarge.com/)
+- [youtube-lookup vidio](https://youtube-lookup.vercel.app/)
 
 # Mastodon 
 
@@ -2555,6 +2574,7 @@ Mostly general for searching data like web enumerate, attack surface, email, per
 
 Search channel, username, bot and anymore
 
+- [CSE Search comment](https://cse.google.com/cse?cx=006368593537057042503:ig4r3rz35qi#gsc.tab=0)
 - [telemetr.me RU Lang](https://telemetr.me/all_posts/)
 - [tgdb BOT](https://www.tgdb.org/bot) *Need Tele account 
 - [directorytg](https://directorytg.com/)
@@ -2902,6 +2922,8 @@ Scribd viewer
 - [videosearch](https://videosearch.io/)
 - [dailymotion](https://www.dailymotion.com/)
 - [rumble](https://rumble.com/)
+- [unlistedvideos](https://unlistedvideos.com/)
+- [huggingface scene Edit Detection](https://huggingface.co/spaces/fffiloni/scene-edit-detection)
 
 # Geospatial Research and Mapping Tools
 
@@ -3103,6 +3125,7 @@ Scribd viewer
 - [GeoSentinel](https://github.com/h9zdev/GeoSentinel)
 - [irwatch](https://irwatch.org/)
 - [saucenao](https://saucenao.com/)
+- [whatiswhere like osm](https://www.whatiswhere.com/)
 
 Conveter tool 
 
@@ -4522,9 +4545,11 @@ Public Transport
 - [airnavradar](https://www.airnavradar.com/data/flights)
 - [aireon](https://aireon.com/)
 - [IATA check airlines code](https://www.iata.org/en/publications/directories/code-search/)
+- [rzjets](https://rzjets.net/aircraft/)
 
 # Ship Tracking & Maritim
 
+- [theshippingdatabase](https://theshippingdatabase.com/)
 - [shiptracker](https://shiptracker.live/)
 - [marinetraffic](https://www.marinetraffic.com/)
 - [vesselfinder](https://www.vesselfinder.com/)
@@ -4663,6 +4688,7 @@ Misc
 
 # OSINT for Red Team 
 
+- [securitytrails](https://securitytrails.com/) Search and enumerate web application and attack surface 
 - [maldevacademy database](https://search.maldevacademy.com/) A list about malware technique and evasion
 - [ThreatCheck](https://github.com/rasta-mouse/ThreatCheck) Analysis your malware for malware development
 - [S3Scanner](https://github.com/sa7mon/S3Scanner) Scan for misconfigured S3 buckets across S3-compatible APIs!
@@ -5338,7 +5364,6 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [sipri](https://www.sipri.org/databases)
 - [Online Identification of Explosive Ordnance: Resources](https://docs.google.com/spreadsheets/d/19xNmsQpcz7UwHOPy1Zrwud-2jVdctulT5W3_0fUNn8k/edit?gid=0#gid=0)
 - [skyvector](https://skyvector.com/)
-- [US Millitary Base](https://worldbeyondwar.org/no-bases/)
 - [airspace](https://www.airspace-review.com/)
 - [worldview NASA](https://worldview.earthdata.nasa.gov/)
 - [Ukraine Cyber Operation](https://github.com/curated-intel/Ukraine-Cyber-Operations)
@@ -5391,6 +5416,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [warpowerindonesia](https://www.warpowerindonesia.com/) There are many other country
 - [vantor](https://vantor.com/)
 - [maps tochnyi mostly Ukraine war](https://maps.tochnyi.info/humansafari/)
+- [understandingwar](https://understandingwar.org/)
 
 Simulator and Game 
 
@@ -5741,7 +5767,7 @@ OSINT politics and geopolitics, risk crisis
 - [splcenter](https://www.splcenter.org/hate-map)
 - [safeairspace](https://safeairspace.net/)
 - [globaldetentionproject](https://www.globaldetentionproject.org/detention-centres/map-view)
-- [tasteatlas](https://www.tasteatlas.com/)
+- [tasteatlas - find culture and food](https://www.tasteatlas.com/)
 - [global terrorism database](https://www.start.umd.edu/gtd/)
 - [datasets global terrorism database Kaggle](https://www.kaggle.com/datasets/START-UMD/gtd)
 - [search-uk-sanctions](https://search-uk-sanctions-list.service.gov.uk/)
@@ -5799,6 +5825,7 @@ Terrorism & Radical
 
 # OSINT Satellite
 
+- [soaratlas](https://soaratlas.com/discover?q=jakarta)
 - [NASA Earth Data](https://search.earthdata.nasa.gov/search)
 - [SOAR Earth](https://soar.earth/maps?)
 - [apollomapping](https://apollomapping.com/)
@@ -5884,6 +5911,7 @@ Terrorism & Radical
 - [vantor](https://vantor.com/)
 - [NASA visibleearth catalog](https://visibleearth.nasa.gov/)
 - [Copy over live data sat](https://copy-over.com/feeds?tab=satellites)
+- [openaerialmap search and find sat image](https://map.openaerialmap.org/)
 
 *Aditional Information coverage sat 
 
@@ -6066,6 +6094,7 @@ Slang Language
 
 # OSINT OPSEC 
 
+- [Sunder Survilance Cam](https://sunders.uber.space/?lat=-2.4833826&lon=117.8902853&zoom=11) Find surveillance cam
 - [thgtoa](https://github.com/Anon-Planet/thgtoa) The comprehensive guide for online anonymity and OpSec
 - [HiddenVM](https://github.com/aforensics/HiddenVM) HiddenVM — Use any desktop OS without leaving a trace.
 - [OPSEC Roadmap](https://github.com/OffcierCia/Crypto-OpSec-SelfGuard-RoadMap) The best DeFi, Blockchain and crypto-related OpSec researches and data terminals
