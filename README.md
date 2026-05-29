@@ -191,6 +191,7 @@ Automated tool by David Bombal
 
 # SOCMINT  
 
+- [fingerprint](https://fingerprint.to/)
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
 - [webvetted](https://webvetted.com/)
 - [InstagramPrivSniffer](https://github.com/obitouka/InstagramPrivSniffer)
@@ -811,6 +812,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [C2-Tracker](https://github.com/montysecurity/C2-Tracker)
 - [malpedia](https://malpedia.caad.fkie.fraunhofer.de/)
 - [vx-underground](https://vx-underground.org/)
+- [churchofmalware](https://churchofmalware.org/#about)
 - [shellpub](https://n.shellpub.com/en)
 - [qianxin](https://ti.qianxin.com/en)
 - [CAPA MANDIANT](https://github.com/mandiant/capa)
@@ -1309,6 +1311,11 @@ Politic and Geopolitic Archive
 - [propublica Trump twitter archive](https://projects.propublica.org/politwoops/search?q=trump)
 - [trumpstruth](https://trumpstruth.org/)
 - [PolitiTweet Archive](https://polititweet.org/)
+
+Malware Database Archive 
+
+- [vx-underground](https://vx-underground.org/)
+- [churchofmalware](https://churchofmalware.org/#about)
 
 # Data Breached OSINT
 
@@ -2460,6 +2467,7 @@ Google queries for MySpace
 
 Mostly general for searching data like web enumerate, attack surface, email, person and etc with hosted and manual installation (local install)
 
+- [fingerprint](https://fingerprint.to/)
 - [shadowdragon free tools](https://shadowdragon.io/blog/category/free-osint-tools/)
 - [hackertarget](https://hackertarget.com/)
 - [bosint](https://app.bosint.gg/)
