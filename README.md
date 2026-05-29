@@ -721,6 +721,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 
 # Researching Cyber Threats
 
+- [theZoo](https://github.com/ytisf/theZoo/tree/master/malware/Source)
 - [haveibeenransom](https://haveibeenransom.com/)
 - [vecert](https://analyzer.vecert.io/)
 - [lots-project](https://lots-project.com/)
@@ -1317,6 +1318,7 @@ Malware Database Archive
 
 - [vx-underground](https://vx-underground.org/)
 - [churchofmalware](https://churchofmalware.org/#about)
+- [theZoo](https://github.com/ytisf/theZoo/tree/master/malware/Source)
 
 # Data Breached OSINT
 
