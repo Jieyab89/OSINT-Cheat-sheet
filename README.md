@@ -6,15 +6,14 @@ Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and othe
 
 # Tips & Trick Safe Guide Using Resources 
 
-Please take a notes. Due to the large number of supply chain attacks, refer to OWASP TOP 10 2025. My advice is to use a sandbox machine that does not contain your personal data and office. With the rise of malware stealers, crypto miners, and other threats, to reduce this risk, you can use fake accounts on social media, email, phone numbers, and your sandbox machine, as well as turn on your AV (Anti Virus) and firewall.
+Please take a notes. Due to the large number of supply chain attacks, refer to OWASP TOP 10 2025  also the TA campaign like fake captcha, injected script, obfuscate script and other. My advice is to use a sandbox machine that does not contain your personal data and office. With the rise of malware stealers, crypto miners, and other threats, to reduce this risk, you can use fake accounts on social media, email, phone numbers, and your sandbox machine, as well as turn on your AV (Anti Virus) and firewall. For malicious activiy also untracked resouces Jieyab will remove it 
 
 Tips: 
 
-- Beware fake captcha, many site have fake captcha to run malicious script. If you found weird captcha just leave it
+- Beware fake captcha, many site have fake captcha to run malicious script. If you found weird captcha just leave it and report in issue or discussion 
 - User your fake account or temp email, phone and other. You can bypass using temp email Gmail also dnmx email
 - Use virtual machine, fake host or docker machine, or cloud machine try on your vps 
 - Use private network e.g vpn, tor, p2p 
-- Use second account (not you real account)
 - Read ToS the resouces 
 - Enable your firewall, AV and IDS on your host or machine
 - Strict your browser with the privacy extension disable js, ads and more
@@ -23,7 +22,7 @@ Tips:
 - Encrypt your network traffic, message and disk
 - Beware about attachments such as docx, xlsm or macro documents (Check macros don't immediately press enable, check properties file to do strict mode)
 - Beware about malicious script like programm lang always check will you run it e.g review, code and community usage (like plugin, library, github source code, extension browser, extension code editor or other things) beware with code with obfuscate (dont trust it)
-- Do a active on each platform example like post, follow, following to avoid bot detection or blocked by user (target)
+- Do a active on each platform example like post, follow, following to avoid bot account detection or blocked by user (target) presistence your OPSEC
 - If tools are paid try on with demo trial version with sock (fake) account, many on this resouces there is a paid so i suggest to try demo first. If there is a payment such as using crypto, try to track the transaction using Arkham or similar. If it is non-crypto, make sure there is a clear contact us, support, and email. Do not rush to pay. If you want to pay and are forced to, find the cheapest version and pay using a virtual account or third-party service to make the transaction  
 
 # See Jieyab Wiki pages 
@@ -1128,6 +1127,7 @@ You can find the file hash or other threat indicator
 
 # Github 
 
+- [gitleak find info in Github](https://gitleak.io/)
 - [gitdb](https://gitdb.net/)
 - [gitleaks](https://github.com/gitleaks/gitleaks) Find secrets with Gitleaks
 - [ecosyste](https://ecosyste.ms/)
@@ -1419,6 +1419,7 @@ Malware Database Archive
 - [breachbase](https://breachbase.com/search)
 - [antipublic](https://antipublic.net/)
 - [haveibeenransom](https://haveibeenransom.com/)
+- [cabalbreach HIBP check](https://osintcabal.org/livecenter/cabalbreach-chiasmodon.html)
 
 # Crack Jurnals
 
@@ -1506,6 +1507,11 @@ You can also use Google dork to search blogger profile
 - [Archive Fo](https://archive.fo/)
 - [webarchiveviewer](https://cybdetective.com/webarchiveviewer/)
 - [w3snoop](https://w3snoop.com/)
+
+# Global Censorship 
+
+- [voidly Censorship](https://voidly.ai/censorship-index)
+- [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
 
 # Company Reconnaissance Sites (Passive)
 
@@ -2035,6 +2041,10 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [awesome-bluesky](https://github.com/fishttp/awesome-bluesky)
 - [bskyviewer](https://bskyviewer.github.io/)
 
+# Patreon
+
+- [graphtreon](https://graphtreon.com/)
+
 # Instagram
 
 - [imginn anonymous instagram story viewer](https://imginn.com/)
@@ -2360,7 +2370,9 @@ Google queries for MySpace
 
 # Email Tracking
 
-- [osintcabal](https://osintcabal.org/livecenter/blackbird.html)
+- [osintcabal mailsleuth](https://osintcabal.org/livecenter/mailsleuth.html)
+- [osintcabal blackbird](https://osintcabal.org/livecenter/blackbird.html)
+- [osintcabal holehe](https://osintcabal.org/livecenter/holehe.html)
 - [braingainsoft find github email](https://braingainsoft.com/)
 - [behindtheemail](https://behindtheemail.com/)
 - [dmeta](https://dmeta.me/)
@@ -6152,6 +6164,7 @@ Guide Journalist
 - [thehive](https://docs.thehive.ai/)
 - [Mever](https://mever.iti.gr/forensics/)
 - [fakeimagedetector](https://www.fakeimagedetector.com/)
+- [imagewhisperer](https://imagewhisperer.org/)
 
 # OSINT Similarity (Plagiarism)
 
