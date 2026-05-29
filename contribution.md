@@ -4,9 +4,9 @@ Thank you very much for those of you who contributed. You can contribute with me
 
 # Please Take a Notes 
 
-If you want to contribute when making a PR (Pull Request), please check first whether the tools you have created are working. Documentation and instructions on how to use your tools or procedures should be provided so that the owner can check in more detail and ensure that there are no malicious or dangerous scripts in them
+If you wish to contribute by creating a PR (Pull Request), please first verify that the tool you’ve created works properly. Documentation and instructions for using the tool or procedure must be included so that the repository owner can review them in more detail. If an account is required—such as for login or a paid service—please include a dummy account for testing (Jieyab89) However, if you object, that’s fine, as long as the user (Jieyab89) can sign up and get a trial, and the owner or developer ensures there are no harmful or malicious scripts in it for security purposes and to prevent data theft
 
-For all users, please use a different environment. Do not use your main environment when testing tools 
+For all users, please use a different environment. Do not use your main environment when testing tools also account if needed 
 
 # OSINT Resouces 
 
