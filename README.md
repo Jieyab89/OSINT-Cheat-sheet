@@ -1303,6 +1303,7 @@ Web Defacement Archive
 - [hack db](https://hack-db.org//)
 - [defacer net](https://defacer.net/)
 - [z-x archived site](https://web.archive.org/web/*/z-x.my.id*) *you can use dork and cache for Google index search hacker nickname 
+- [attrition](https://attrition.org/mirror/attrition/)
 
 Politic and Geopolitic Archive 
 
@@ -6499,6 +6500,7 @@ Find the list and history about house property, price and etc
 
 You can search nickname, hacker team and hacker archive like web defacement data, programmer and other 
 
+- [attrition](https://attrition.org/mirror/attrition/)
 - [Zone H](https://www.zone-h.org/archive?hz=1)
 - [defacer ID](https://defacer.id/)
 - [zone xsec](https://zone-xsec.com/)
