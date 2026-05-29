@@ -6497,7 +6497,7 @@ Find the list and history about house property, price and etc
 
 # OSINT Search Hacker Nickname 
 
-You can search nickname, hacker team and hacker archive like web defacement data and other 
+You can search nickname, hacker team and hacker archive like web defacement data, programmer and other 
 
 - [Zone H](https://www.zone-h.org/archive?hz=1)
 - [defacer ID](https://defacer.id/)
@@ -6513,6 +6513,14 @@ You can search nickname, hacker team and hacker archive like web defacement data
 - [telegram](https://telegram.org/k/) You must to dork and join the group
 - [stackoverflow](https://stackoverflow.com/) You must to dork and join the group
 - [substack](https://substack.com/) You must to dork and join the group
+- [hackerone](https://hackerone.com/leaderboard?year=2026&quarter=2&owasp=a1&country=US&assetType=WEB_APP&tab=bbp&userTypeTab=individual)
+- [intigriti](https://app.intigriti.com/leaderboard?ninetydays=true&severity=1)
+- [bugcrowd](https://bugcrowd.com/leaderboard/p1top4/international/past-month)
+- [yeswehack](https://yeswehack.com/ranking)
+- [hackerrank](https://www.hackerrank.com/contests/interncup/leaderboard)
+- [codewars](https://www.codewars.com/users/leaderboard)
+- [codeforces](https://codeforces.com/ratings)
+- [topcoder](https://www.topcoder.com/marathon-match-tournament/leaderboard)
 
 Pro Tips 
 
