@@ -186,7 +186,7 @@
 	<url>
 	<loc>https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-open-source-data</loc>
 	<priority>0.84</priority>
-	<lastmod>2026-05-27T19:51:25.280Z</lastmod>
+	<lastmod>2026-05-29T20:46:12.634Z</lastmod>
 	</url>
 	<url>
 	<loc>https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/scripting-for-osint/home</loc>
@@ -215,6 +215,11 @@
 	<loc>https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/scripting-for-osint/ios-mobile-application-for-osint</loc>
 	<priority>0.84</priority>
 	<lastmod>2026-02-01T15:45:03.762Z</lastmod>
+	</url>
+	<url>
+	<loc>https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/scripting-for-osint/enumerate-and-attack-surface-w-github</loc>
+	<priority>0.84</priority>
+	<lastmod>2026-05-29T20:55:25.316Z</lastmod>
 	</url>
 	<url>
 	<loc>https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/home</loc>
