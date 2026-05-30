@@ -41,7 +41,7 @@ Info
 
 | Date | Remarks |
 |------------|---------|
-| 28 May 2026 | Update the article about pentesting, All about stealer log and CTI. Intel base and knowledge base. Added more glosary also technique for your analysis and reccon, how apt works, stealer malware and common attacks, also new article about All About Narcotics or Drugs |
+| 30 May 2026 | New article for Github enumerate also attack surface in Github. Update the article about pentesting, All about stealer log and CTI. Intel base and knowledge base. Added more glosary also technique for your analysis and reccon, how apt works, stealer malware and common attacks, also new article about All About Narcotics or Drugs |
 
 - [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
 - [All About Doxing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing)
