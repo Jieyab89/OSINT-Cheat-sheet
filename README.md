@@ -2099,6 +2099,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [storiesig picuki viewer](https://storiesig.info/en/picuki/)
 - [hostagram](https://github.com/banaxou/hostagram)
 - [instasploit](https://gitlab.com/anezatra-katedram/instasploit)
+- [IGDetective](https://www.igdetective.com) Track public Instagram accounts without login — recent follows/unfollows in chronological order, top interactions, and anonymous story viewing
 
 # Threads
 
