@@ -944,6 +944,7 @@ This tools can show your ip address isp provider
 - [Ip 2 location](https://www.ip2location.com/)
 This tools can show your ip address isp provider and geo location  
 - [unwiredlabs](https://unwiredlabs.com/products) Dataset about IP around world 
+- [IPASIS](https://ipasis.com/) Real-time bot detection and fraud prevention API with IP reputation, VPN/proxy/Tor detection, and email validation in a single call
 
 # Wireless Network
 
