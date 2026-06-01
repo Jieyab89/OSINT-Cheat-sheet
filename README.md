@@ -857,7 +857,6 @@ Browser Sandbox
 - [Calculator IPVM](https://calculator.ipvm.com/)
 - [webcamtaxi](https://www.webcamtaxi.com/en/)
 - [weatherbug](https://www.weatherbug.com/traffic-cam/)
-- [CCTV location tracking](https://github.com/IvanGlinkin/CCTV)
 - [Rusia pub CCTV](https://www.geocam.ru/en/)
 - [lIVE CAM beach Australia](https://www.livebeaches.com/australia/)
 - [webcamcse cipher387](https://cipher387.github.io/webcamcse/)
@@ -876,7 +875,6 @@ Browser Sandbox
 - [worldcams](https://worldcams.tv/)
 - [webcamcse CSE](https://cipher387.github.io/webcamcse/)
 - [CSE Webcam search](https://cse.google.com/cse?cx=013991603413798772546:gjcdtyiytey#gsc.tab=0&gsc.sort=)
-- [zoomeye mcp](https://github.com/zoomeye-ai/mcp_zoomeye)
 - [livetraffic](https://livetraffic.eu/)
 - [ShodanSpider](https://github.com/shubhamrooter/ShodanSpider)
 - [iplivecams](https://www.iplivecams.com/)
@@ -892,11 +890,9 @@ Browser Sandbox
 
 # IP Addresses
 
-- [atsameip](https://atsameip.com/)
-- [Whats my ip](https://whatismyipaddress.com/)
-This tools can show your ip address isp provider
-- [Ip 2 location](https://www.ip2location.com/)
-This tools can show your ip address isp provider and geo location  
+- [atsameip](https://atsameip.com/) Rerverse IP, domain and etc
+- [Whats my ip](https://whatismyipaddress.com/) This tools can show your ip address isp provider
+- [Ip 2 location](https://www.ip2location.com/) This tools can show your ip address isp provider and geo location  
 - [unwiredlabs](https://unwiredlabs.com/products) Dataset about IP around world 
 - [IPASIS](https://ipasis.com/) Real-time bot detection and fraud prevention API. Returns risk score (0-100), VPN/proxy/Tor/residential proxy flags, IP reputation, email validation (disposable/free/domain age), and fraud signals — all from a single API call with IP + email input. Sub-20ms response. Free tier: 100 req/day
 
@@ -910,24 +906,19 @@ Maps and database of 802.11 wireless networks, with statistics, submitted by war
 - [Angry Ip](https://angryip.org/)
 - [Advanced ip scanner](https://www.advanced-ip-scanner.com/)
 - [Wifimap](https://www.wifimap.io/)
-- [Fon](https://fon.com/maps/)
 - [SolarWInds](https://www.solarwinds.com/network-performance-monitor/use-cases/wifi-monitor)
 - [wifispc](https://wifispc.com/)
 - [wificafespots](https://www.wificafespots.com/wifi/)
-- [openwifimap](https://openwifimap.ne)
 - [unwiredlabs](https://unwiredlabs.com/products)
 - [cellphonetrackers wifi tracker](https://cellphonetrackers.org/gsm/wifi-tracker.php)
 - [mylnikov BSSID Public API](https://www.mylnikov.org/archives/1170)
 - [wifidb](https://wifidb.net/wifidb/)
-- [combain](https://combain.com/)
 - [freifunk](https://www.freifunk-karte.de/)
-- [GONZOsint- geowifi](https://github.com/GONZOsint/geowifi)
 - [bgp](https://bgp.tools/)
 - [macaddress](https://macaddress.io/)
 - [macaddresslookup](https://www.macaddresslookup.org/)
 - [macvendorlookup](https://www.macvendorlookup.com/)
 - [macvendors](https://macvendors.com/)
-- [whoisxmlapi](https://mac-address.whoisxmlapi.com/api)
 - [netlas.io](https://app.netlas.io/host/)
 - [KISMET](https://www.kismetwireless.net/)
 
@@ -1057,27 +1048,19 @@ You can find the file hash or other threat indicator
 
 # Automation Dorking 
 
-- [Dorklab](https://github.com/rtwillett/DorkLab)
-- [Ominis-Osint](https://github.com/AnonCatalyst/Ominis-Osint)
 - [Go Dork](https://github.com/dwisiswant0/go-dork)
 - [Dorkish](https://github.com/yousseflahouifi/dorkish)
-- [Dork Collection](https://github.com/cipher387/Dorks-collections-list?tab=readme-ov-file)
-- [Fast Dork Scan](https://github.com/IvanGlinkin/Fast-Google-Dorks-Scan.git)
 - [Shodan Quries](https://github.com/jakejarvis/awesome-shodan-queries)
 - [List Dork](https://github.com/BullsEye0/google_dork_list/blob/master/google_Dorks.txt)
 - [CENSYS Queries](https://github.com/thehappydinoa/awesome-censys-queries)
 - [Google Dork Simplified](https://github.com/dheerajydv19/Google-Dorks-Simplified)
 - [Gdorks](https://github.com/Ishanoshada/GDorks)
-- [cybdetective pastebin](https://cybdetective.com/pastebin.html)
 - [NAMINT](https://seintpl.github.io/NAMINT/)
 - [BullsEye0 dorks](https://github.com/BullsEye0/dorks-eye)
-- [dorkgpt](https://www.dorkgpt.com/)
-- [dorksearch](https://dorksearch.com/)
 - [lullar.com](https://com.lullar.com/)
 - [recruitin](https://recruitin.net/)
 - [Dorking webcamcse](https://cipher387.github.io/webcamcse/)
 - [DEEP DORK](https://guilherme-moraiss.github.io/Deep-Dork-Web/)
-- [filephish](https://greylensresearch.github.io/filephish/)
 - [securitytoolkits - list dorking](https://securitytoolkits.com/bug-hunting)
 
 # Github 
@@ -1092,7 +1075,6 @@ You can find the file hash or other threat indicator
 - [Github search name and find ID](https://caius.github.io/github_id/)
 - [Github Archive](https://www.gharchive.org/)
 - [Github Dork](https://github.com/techgaun/github-dorks)
-- [Fdupes](https://github.com/adrianlopezroche/fdupes)
 - [Github API (view owner repo and etc)](https://docs.github.com/en/rest/activity/events?apiVersion=2022-11-28)
 - [Github advisories DB](https://github.com/advisories)
 - [sn0int github profil extractor](https://sn0int.com/r/kpcyrd/github)
@@ -1163,7 +1145,6 @@ Example
 - [odcrawler](https://odcrawler.xyz/)
 - [Etools](http://www.etools.ch)
 - [criminalip](https://www.criminalip.io/) 
-- [us.searchboth.net](http://us.searchboth.net)
 - [Archive.org](http://www.arhive.org)
 - [Yandex](https://yandex.com)
 - [Pastebin](http://www.pastebin.com) Check other domain extension like .ca, .fr you can search domain simillarity
@@ -1217,7 +1198,7 @@ Example
 - [webcrawler](https://www.webcrawler.com/)
 - [usersearch](https://usersearch.ai/)
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
-- [wikimedia](https://commons.wikimedia.org/wiki/Main_Page)
+- [wikimedia search place and other](https://commons.wikimedia.org/wiki/Main_Page)
 
 # Internet Archive
 
@@ -1303,25 +1284,18 @@ Malware Database Archive
 - [breachforums](https://breachforums.cz/index.php)
 - [Stealthmole](https://www.stealthmole.com/products/darkweb-tracker)
 - [Doxbin](https://doxbin.com/)
-- [Search0t](https://search.0t.rocks/)
-- [Search0t MAP](https://search.0t.rocks/map)
-- [What Breach](https://github.com/Ekultek/WhatBreach)
 - [Breach Directory](https://breachdirectory.org/)
 - [Snusbase](https://snusbase.com/)
 - [Flare](https://flare.io/)
 - [Leaklookup](https://leak-lookup.com/)
 - [Pastos](https://github.com/carlospolop/Pastos)
-- [Blackkite](https://blackkite.com/community/)
 - [Facebook Data Breach Cheker](https://haveibeenzuckered.com/)
-- [pwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot)
 - [Intel471](https://intel471.com/)
 - [Maltego Transform ShadowDragon](https://www.maltego.com/transform-hub/socialnet/)
 - [offshoreleaks](https://offshoreleaks.icij.org/)
 - [proxynova password breach](https://proxynova.com/tools/comb/)
 - [WhiteIntel](https://whiteintel.io/)
 - [Leaked Domain](https://leaked.domains/)
-- [cybdetective pastebin](https://cybdetective.com/pastebin.html)
-- [emploleaks](https://github.com/infobyte/emploleaks)
 - [databreaches](https://databreaches.net/)
 - [lolarchiver](https://osint.lolarchiver.com/#)
 - [Leakcheck](https://leakcheck.io/)
@@ -1342,18 +1316,13 @@ Malware Database Archive
 - [osintleak](https://osintleak.com/)
 - [Hawker](https://github.com/RetrO-M/Hawker)
 - [deepfind](https://www.deepfind.me/tools)
-- [psbdmp](https://psbdmp.ws/)
 - [profiler](https://search.profiler.me/)
 - [breachguard](https://breachguard.profiler.me/)
 - [intelbase](https://intelbase.is/)
 - [mozilla monitor](https://monitor.mozilla.org/)
 - [google darkweb security checkup](https://myactivity.google.com/dark-web-report/setup-profile)
 - [open-search aleph](https://open-search.aleph-networks.eu/)
-- [WhatBreac](https://github.com/Ekultek/WhatBreach.git)
 - [Scribd](http://www.scribd.com)
-- [Scribd docdownloader](https://docdownloader.com/)
-- [Scribd Downloader 2](https://scribd.vdownloaders.com/)
-- [Scrib Downloader 3](https://scribdownloader.com/)
 - [documentcloud](https://www.documentcloud.org/)
 - [Leak Finder [ONION SITE]](http://leakfindrg5s2zcwwdmxlvz6oefz6hdwlkckh4eir4huqcpjsefxkead.onion/Market)
 - [hacked email com [archived site]](https://web.archive.org/web/*/http://hacked-emails.com/*)
@@ -1395,8 +1364,8 @@ Malware Database Archive
 
 Crack medium article 
 
-- [freedium](https://freedium.cfd/) Open at firefox and change DNS
-- [freedium (mirror)](https://freedium-mirror.cfd/)
+- [freedium medium unpaywall](https://freedium.cfd/) Open at firefox and change DNS
+- [freedium (mirror) unpaywall](https://freedium-mirror.cfd/)
 
 # Search Jurnals
 
@@ -1450,6 +1419,11 @@ Pro Tips
 
 You can also use Google dork to search blogger profile
 
+# Medium OSINT
+
+- [freedium medium unpaywall](https://freedium.cfd/) Open at firefox and change DNS
+- [freedium (mirror) unpaywall](https://freedium-mirror.cfd/)
+
 # Tracking Website Changes
 
 - [Changedetection](http://www.changedetection.com)
@@ -1460,7 +1434,6 @@ You can also use Google dork to search blogger profile
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
 - [wayback machine](https://archive.org/web/) search history archive on site 
 - [Archive Fo](https://archive.fo/)
-- [webarchiveviewer](https://cybdetective.com/webarchiveviewer/)
 - [w3snoop](https://w3snoop.com/)
 
 # Global Censorship 
@@ -2322,6 +2295,7 @@ Google queries for MySpace
 
 # Email Tracking
 
+- [IPASIS](https://ipasis.com/) Real-time bot detection and fraud prevention API. Returns risk score (0-100), VPN/proxy/Tor/residential proxy flags, IP reputation, email validation (disposable/free/domain age), and fraud signals — all from a single API call with IP + email input. Sub-20ms response. Free tier: 100 req/day
 - [osintcabal mailsleuth](https://osintcabal.org/livecenter/mailsleuth.html)
 - [osintcabal blackbird](https://osintcabal.org/livecenter/blackbird.html)
 - [osintcabal holehe](https://osintcabal.org/livecenter/holehe.html)
@@ -2638,7 +2612,6 @@ Telegram tips. Change the hash value, username, phone number on the endpoint or 
 - [foca](https://github.com/ElevenPaths/FOCA)
 - [Psbdmp](https://psbdmp.ws/)
 - [ArchivEye](https://github.com/eastrd/ArchivEye)
-- [Fdupes](https://github.com/adrianlopezroche/fdupes)
 - [kaseware search query](https://www.kaseware.com/search-query)
 - [CV REesume Search](https://booleanstrings.com/hidden-resumes/#gsc.tab=0&gsc.q=)
 - [booleanstrings document search](https://booleanstrings.com/doc-finder-storage/#gsc.tab=0&gsc.q=)
@@ -4066,7 +4039,6 @@ Guide
 - [Forensically](https://29a.ch/photo-forensics/)
 - [GCK'S FILE SIGNATURES TABLE](https://www.garykessler.net/library/file_sigs.html)
 - [stylesuxx Steganography Online](https://stylesuxx.github.io/steganography/)
-- [fdupes](https://github.com/adrianlopezroche/fdupes)
 - [georgeom](https://georgeom.net/StegOnline/upload)
 - [fotoforensics](https://fotoforensics.com/)
 - [List and guides about tools forensic](https://ericzimmerman.github.io/#!index.md)
@@ -4169,6 +4141,7 @@ Guide for Surveillance
 - [chainabuse - wallet scam search](https://www.chainabuse.com/)
 - [blacklistseller TH](https://blacklistseller.com/)
 - [nemesis ID](https://nemesis.assai.id/)
+- [IPASIS](https://ipasis.com/) Real-time bot detection and fraud prevention API. Returns risk score (0-100), VPN/proxy/Tor/residential proxy flags, IP reputation, email validation (disposable/free/domain age), and fraud signals — all from a single API call with IP + email input. Sub-20ms response. Free tier: 100 req/day
 
 # Content Removal & Strict Media Content
 
