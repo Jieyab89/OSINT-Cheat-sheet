@@ -1,4 +1,4 @@
-# How to contribution 
+# How to Contribution 
 
 Thank you very much for those of you who contributed. You can contribute with me in the following format
 
