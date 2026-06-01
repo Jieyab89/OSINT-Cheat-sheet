@@ -1,8 +1,18 @@
 # Notes from all dev and contributor 
 
-Please provide information regarding issues such as resources or domains that are inactive, expired, compromised by hackers, defaced, or otherwise dangerous, as well as information related to the supply chain, data harvesting, and so on.  Frankly, Jieyab needs the community’s help with this audit, and Jieyab will always review it weekly, monthly, and annually; however, regardless of that, Jieyab needs your help to make the process faster and more efficient.
+Please provide information regarding issues such as resources or domains that are inactive, expired, compromised by hackers, defaced, or otherwise dangerous, as well as information related to the supply chain, data harvesting, and so on. Frankly, Jieyab needs the community’s help with this audit, and Jieyab will always review it weekly, monthly, and annually; however, regardless of that, Jieyab needs your help to make the process faster and more efficient.
 
 Here is a list of resources that need to be updated and checked by developers and contributors, as well as those listed in the Github Issues section
+
+# How hacker takeover and hacked u site
+
+1. Attack surface 
+2. Takeover domain 
+3. Defacement and blackhat SEO 
+4. Public or known CVE 
+5. Supply chain 
+6. Obfuscated code 
+7. Social engineering 
 
 ## Issue about resouces list Jieyab. domain, ssl, dns, expired and not accessible 
 
@@ -11,7 +21,6 @@ Need to check after developer answer
 - https://www.xmodelfinder.com/
 - https://scamdb.net/
 - https://devportal.redhuntlabs.com/home
-- https://reeltime-ai.com/ (502)
 - search.synthient.com
 
 ## Issue about resouces list Jieyab. Supply chain, malware campaign, malicious   
