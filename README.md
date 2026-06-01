@@ -220,7 +220,6 @@ Automated tool by David Bombal
 - [Social-Exractror](https://github.com/soxoj/socid-extractor) Extract accounts info from personal pages on various sites
 - [socialscan](https://github.com/iojw/socialscan)
 - [CSE Social media search](https://cse.google.com/cse?cx=016621447308871563343:0p9cd3f8p-k#gsc.tab=0&gsc.sort=)
-- [Profile Scout](https://profile-scout-16ba7f56.base44.app/)
 
 # Collection Dataset
 
@@ -1443,11 +1442,7 @@ You can also use Google dork to search blogger profile
 
 # Company Reconnaissance Sites (Passive)
 
-- [dnb](https://www.dnb.com/en-us/)
 - [nemesis ID](https://nemesis.assai.id/)
-- [whois](http://www.whois.net)
-- [whois by hostinger](https://www.hostinger.co.id/whois)
-- [Netcraft](http://www.netcraft.com)
 - [Hunter](https://hunter.io/)
 - [SignalHire](https://www.signalhire.com/)
 - [Spiderfoot](https://www.spiderfoot.net/) 
@@ -1527,12 +1522,10 @@ You can also use Google dork to search blogger profile
 - [ID TKDN Kemenperin](https://tkdn.kemenperin.go.id/search.php?where=perush&what=)
 - [WIPO INT](https://branddb.wipo.int/)
 - [urlvoid](https://www.urlvoid.com/)
-- [littlesis](https://littlesis.org/)
 - [chinaconnects](https://chinaconnects.iiss.org/)
 - [libraryofleaks](https://search.libraryofleaks.org/)
 - [open-search aleph](https://open-search.aleph-networks.eu/)
 - [usersearch](https://usersearch.com/)
-- [pappers FR](https://www.pappers.fr/)
 - [geoportal ESDM ID](https://geoportal.esdm.go.id/)
 
 # People Searching
@@ -1615,7 +1608,6 @@ You can also use Google dork to search blogger profile
 - [ALEPT OCCRP](https://aleph.occrp.org/)
 - [freepeoplesearchtool](https://freepeoplesearchtool.com/)
 - [fastpeoplesearch](https://fastpeoplesearch.io/)
-- [Profile Scout](https://profile-scout-16ba7f56.base44.app/)
 - [famousbirthdays](https://www.famousbirthdays.com/)
 - [webvetted](https://webvetted.com/)
 
@@ -6307,7 +6299,6 @@ Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or s
 - [ID opentender](https://opentender.net/)
 - [ID Pengadaan Tender](https://tender.pengadaan.com/tender)
 - [AS SAM gov](https://sam.gov/search/)
-- [littlesis](https://littlesis.org/)
 - [ID Kemenkeu](https://www.kemenkeu.go.id/home)
 - [ID Kejaksaan](https://www.kejaksaan.go.id/)
 - [ID Badan Pengawasan Keuangan dan Pembangunan](https://www.bpkp.go.id/)
