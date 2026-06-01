@@ -325,6 +325,8 @@ Be carefull using this tool use 2nd account because your account got banned
 - [7 darkweb market forum datasets, with usernames obfuscated](https://github.com/gayanku/darkweb_clearweb_darktopics?tab=readme-ov-file)
 - [DOTA Dataset for Object Detection in Aerial Images](https://captain-whu.github.io/DOTA/)
 - [TOR Archive Github list node tor](https://tor-archive.github.io/)
+- [worldpopulationreview dataset information POI and other around world](https://worldpopulationreview.com/)
+- [zenodo all collection datasset](https://zenodo.org/)
 
 # Forums & Sites
 
@@ -2153,7 +2155,6 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [Savesubs](https://savesubs.com/)
 - [hadzy - YT Comment](https://hadzy.com/)
 - [Filmot](https://filmot.com/)
-- [ReelTime AI](https://reeltime-ai.com/)
 - [appsgolem](https://appsgolem.com/en/download-most-replayed-moment-youtube-video)
 - [Get account ID YT](https://commentpicker.com/)
 - [Youtube Subscribe History](https://xxluke.de/subscription-history/)
