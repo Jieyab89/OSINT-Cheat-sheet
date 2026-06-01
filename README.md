@@ -175,7 +175,8 @@ you can add multiple tag and multiple file
 > example : exiftool -all="" file
 >
 
-#Usage : man exiftool or read documentation exiftool.org
+> Usage : man exiftool or read documentation exiftool.org
+>
 
 > Not there are tag no writetable, make sure tagname can write
 >
@@ -184,7 +185,7 @@ Automated tool by David Bombal
 
 - [Exif python script remover](https://github.com/davidbombal/red-python-scripts/blob/main/remove_exif.py)
 
-## !Note
+## Note
 
 > Use fresh file, if your file has been compressed or edit metadata you got a default metadata
 > You can use xmp format for edit, write and delete metadata
@@ -197,10 +198,7 @@ Automated tool by David Bombal
 - [webvetted](https://webvetted.com/)
 - [InstagramPrivSniffer](https://github.com/obitouka/InstagramPrivSniffer)
 - [socialblade](https://socialblade.com/)
-- [Instagram](https://github.com/Datalux/Osintgram)
-Be carefull using this tool use 2nd account because your account got banned
 - [Tinfoleak](https://github.com/vaguileradiaz/tinfoleak)
-- [Graph Search](http://socmint.tools/graph.htm)
 - [Alfred](https://github.com/Alfredredbird/alfred)
 - [Blackbird](https://github.com/p1ngul1n0/blackbird)
 - [sociallinks](https://sociallinks.io/products/sl-crimewall)
@@ -210,27 +208,19 @@ Be carefull using this tool use 2nd account because your account got banned
 - [SNSSCRAPE](https://github.com/JustAnotherArchivist/snscrape)
 - [TOOKIE OSINT](https://github.com/Alfredredbird/tookie-osint)
 - [Hoaxy](https://hoaxy.osome.iu.edu/)
-- [Offensive OSINT](https://www.os-surveillance.io/#choose-plan)
-- [botsentinel](https://botsentinel.com/dashboard)
-- [keyhole](https://keyhole.co/)
 - [skopenow](https://www.skopenow.com/)
 - [pipl](https://pipl.com/)
-- [Get account & gather info](https://commentpicker.com/)
-- [SociaBlade](http://socialblade.com)
 - [Open Measures](https://openmeasures.io/)
 - [UBIKRON](https://www.osint-tool.com/unravel-help/)
 - [CSE SOCMINT search data like vidio](https://cse.google.com/cse?cx=004121198361051842949:uqqcf2re4ts)
 - [CSE SOCMINT INSTA](https://cse.google.com/cse?cx=d69e08526637c468d#gsc.tab=0&gsc.sort=)
 - [CSE SOCMINT tools search](https://cse.google.com/cse?cx=029ffbc44aa3946cb#gsc.tab=0&gsc.sort=&gsc.ref=more%3Afb)
 - [CSE Search comment](https://cse.google.com/cse?cx=006368593537057042503:ig4r3rz35qi#gsc.tab=0)
-- [voilanorbert](https://www.voilanorbert.com/)
 - [freepeoplesearchtool](https://freepeoplesearchtool.com/)
 - [Social-Exractror](https://github.com/soxoj/socid-extractor) Extract accounts info from personal pages on various sites
 - [socialscan](https://github.com/iojw/socialscan)
 - [CSE Social media search](https://cse.google.com/cse?cx=016621447308871563343:0p9cd3f8p-k#gsc.tab=0&gsc.sort=)
-- [DetectDee](https://github.com/piaolin/DetectDee)
 - [Profile Scout](https://profile-scout-16ba7f56.base44.app/)
-- [hostagram](https://github.com/banaxou/hostagram)
 
 # Collection Dataset
 
@@ -253,7 +243,7 @@ Be carefull using this tool use 2nd account because your account got banned
 - [Google Public Data](https://www.google.com/publicdata/directory)
 - [paperswithcode](https://paperswithcode.com/)
 - [ID BPS](https://www.bps.go.id/id)
-- [ID data Kementrian & Lembaha Dataset](https://data.go.id/home)
+- [ID data Kementrian & Lembaga Dataset](https://data.go.id/home)
 - [datasetlist](https://www.datasetlist.com/)
 - [roboflow](https://roboflow.com/)
 - [databoks katadata ID](https://databoks.katadata.co.id/)
@@ -344,9 +334,6 @@ Site and forums OSINT community arround world
 - [boardreader](https://boardreader.com/)
 - [maltego](https://www.maltego.com/categories/osint/)
 - [offensiveosint](https://www.offensiveosint.io/)
-- [sizeof](https://sizeof.cat/archive/)
-- [onniforums](https://onniforums.com/)
-- [intelligencewithsteve](https://www.intelligencewithsteve.com/blog/categories/osint)
 - [SANS](https://www.sans.org/blog/-must-have-free-resources-for-open-source-intelligence-osint-/)
 - [cybdetective](https://cybdetective.com/)
 - [secjuice](https://www.secjuice.com/)
@@ -365,7 +352,6 @@ Site and forums OSINT community arround world
 
 - [100SearchEngines](https://www.100searchengines.com)
 - [Bing vs. Google](http://bvsg.org)
-- [DADgogo](http://dadgogo.com)
 - [Etools](http://www.etools.ch)
 - [WebCrawler](http://www.webcrawler.com)
 
@@ -377,14 +363,11 @@ Site and forums OSINT community arround world
 - [Chromium Code Search](https://source.chromium.org/chromium)
 - [codefinder org](https://codefinder.org/)
 - [Android Code Search](https://cs.android.com)
-- [CodeSeek](https://www.codeseek.co)
 - [Debian Code Search](http://codesearch.debian.net)
-- [Scala](https://www.programcreek.com/scala)
 - [SearchCode](https://searchcode.com)
 - [SourceCodeOnline](http://www.sourcecodeonline.com)
 - [Woboq](https://code.woboq.org)
 - [publicwww](https://publicwww.com/)
-- [DevsecOps Secure Code](https://devsecopsguides.com/docs/rules)
 - [awesomeopensource](https://awesomeopensource.com/)
 - [nerdydata](https://www.nerdydata.com/reports/new)
 - [Github code search](https://github.com/search?type=code)
@@ -487,7 +470,6 @@ Guide Github search code by Jieyab89 : https://github.com/Jieyab89/OSINT-Cheat-s
 
 Hastag and keyword analysis in search engine, social media or other platform (Text Intel)
 
-- [keyhole](https://keyhole.co/)
 - [brandmentions](https://app.brandmentions.com/)
 - [wordtracker](https://www.wordtracker.com/)
 - [keywordtool](https://keywordtool.io/)
@@ -1779,7 +1761,6 @@ You can also use Google dork to search blogger profile
 - [Phunter](https://github.com/N0rz3/Phunter)
 - [numlookup](https://www.numlookup.com/)
 - [haveibeenzuckered](https://haveibeenzuckered.com/)
-- [DetectDee](https://github.com/piaolin/DetectDee)
 - [espysys](https://espysys.com/)
 - [infobel](https://www.infobel.com/fr/world)
 - [email2phonenumber](https://github.com/martinvigo/email2phonenumber)
@@ -1931,7 +1912,6 @@ or you can use dork for spesific example
 - [F**ck Facebook Github](https://github.com/Ph4nToM00/FuckFacebook)
 - [Facebook search photo](https://cse.google.com/cse?cx=013991603413798772546:jyvyp2ppxma#gsc.tab=0)
 - [Facebook custom search](https://cse.google.com/cse?cx=95ae46262a5f2958e)
-- [Get account ID Facebook](https://commentpicker.com/)
 - [Intelx Facebook](https://intelx.io/tools?tab=facebook)
 - [Check email and phone num on facebook](https://web.facebook.com/login/identify?ctx=recover&_rdc=1&_rdr#)
 - [META Scan](https://github.com/HackUnderway/meta_scan)
@@ -2099,7 +2079,6 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [boostfluence](https://www.boostfluence.com/)
 - [indown](https://indown.io/)
 - [storiesig picuki viewer](https://storiesig.info/en/picuki/)
-- [hostagram](https://github.com/banaxou/hostagram)
 - [instasploit](https://gitlab.com/anezatra-katedram/instasploit)
 - [IGDetective](https://www.igdetective.com) Track public Instagram accounts without login — recent follows/unfollows in chronological order, top interactions, and anonymous story viewing
 
@@ -2520,7 +2499,6 @@ Mostly general for searching data like web enumerate, attack surface, email, per
 - [Twinangulate](https://www.twiangulate.com/search/)
 - [Geosocial](http://geosocialfootprint.com/)
 - [Hash tracking](https://www.hashtracking.com/)
-- [Socmint tool](http://socmint.tools/)
 - [OSINT Combine](https://www.osintcombine.com/tools)
 - [Device Info](https://www.deviceinfo.me/)
 - [GRABIFY IP](https://grabify.link/)
@@ -3098,7 +3076,6 @@ Scribd viewer
 - [alltrails](https://www.alltrails.com/)
 - [pastvu map](https://pastvu.com/)
 - [Latest change OSM](https://rene78.github.io/latest-changes/#5/-3.448/115.532)
-- [Offensive OSINT](https://www.os-surveillance.io/#choose-plan)
 - [OSM - Taginfo](https://taginfo.openstreetmap.org/keys)
 - [Bellingcat Google Maps review Filename Chrome Extension](https://www.bellingcat.com/resources/2024/10/15/google-maps-image-filename-finder-tool/)
 - [SOAR Earth](https://soar.earth/maps?)
@@ -5587,7 +5564,6 @@ Resources and collection for your make tool OSINT
 - [prescam](https://www.prescam.com/)
 - [smartcustomer](https://www.smartcustomer.com/)
 - [nemesis ID](https://nemesis.assai.id/)
-- [keyhole](https://keyhole.co/)
 - [Trus Pilot](https://www.trustpilot.com/)
 - [Google Alert](https://www.google.com/alerts)
 - [White Pages](https://www.whitepages.com/)
