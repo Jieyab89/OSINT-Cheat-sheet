@@ -361,7 +361,6 @@ Site and forums OSINT community arround world
 - [code google](https://code.google.com)
 - [srclog](https://srclog.com/)
 - [Chromium Code Search](https://source.chromium.org/chromium)
-- [codefinder org](https://codefinder.org/)
 - [Android Code Search](https://cs.android.com)
 - [Debian Code Search](http://codesearch.debian.net)
 - [SearchCode](https://searchcode.com)
@@ -417,30 +416,16 @@ Guide Github search code by Jieyab89 : https://github.com/Jieyab89/OSINT-Cheat-s
 - [Code chef](https://www.codechef.com/)
 - [Code war](https://www.codewars.com/)
 
-# File & FTP
-
-- [4shared](https://www.4shared.com)
-- [FileSearching](http://www.filesearching.com)
-- [File chef](https://www.filechef.com)
-- [Global File Search](http://globalfilesearch.com)
-- [Search Shared](https://www.searchshared.info)
-- [MMNT](http://www.mmnt.ru)
-
 # Social Media Search and Monitoring
 
-- [Awario](https://awario.com)
-- [Brand24](https://brand24.com)
-- [Samdesk](https://www.samdesk.io)
 - [Maltego social links](https://www.maltego.com/transform-hub/social-links-ce/)
 - [Maltego Social Links Pro](https://www.maltego.com/transform-hub/social-links-pro/)
 - [Social Searcher](https://www.social-searcher.com/)
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
 - [SNSCRAPE - Scraper](https://github.com/JustAnotherArchivist/snscrape)
 - [OSINT compass](https://osint-compass-portal.onrender.com/)
-- [Phantom Buster Scraper](https://phantombuster.com/phantombuster)
 - [Open measure](https://public.openmeasures.io/)
 - [huntintel](https://www.huntintel.io/)
-- [Sherlock Eye](https://sherlockeye.io/)
 - [clauneck](https://github.com/serpapi/clauneck)
 - [ShadowDragon](https://shadowdragon.io/)
 - [sociallinks](https://sociallinks.io/)
@@ -448,7 +433,6 @@ Guide Github search code by Jieyab89 : https://github.com/Jieyab89/OSINT-Cheat-s
 - [socialscan](https://pypi.org/project/socialscan/)
 - [drone emprit](https://pers.droneemprit.id/)
 - [brandmentions](https://brandmentions.com/)
-- [meltwater](https://www.meltwater.com/en)
 
 # Social Media Management and Content Discovery
 

@@ -23,6 +23,7 @@ Need to check after developer answer
 - https://devportal.redhuntlabs.com/home
 - search.synthient.com
 - https://tiktok.einzzcookie.org/ (need answer from dev)
+- filechef.com (expired domain)
 
 ## Issue about resouces list Jieyab. Supply chain, malware campaign, malicious   
 
