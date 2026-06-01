@@ -436,14 +436,9 @@ Guide Github search code by Jieyab89 : https://github.com/Jieyab89/OSINT-Cheat-s
 
 # Social Media Management and Content Discovery
 
-- [Buffer](https://buffer.com)
-- [Coosto](https://www.coosto.com)
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
 - [SNSCRAPE - Scraper](https://github.com/JustAnotherArchivist/snscrape)
-- [Phantom Buster](https://phantombuster.com/phantombuster)
 - [huntintel](https://www.huntintel.io/)
-- [Sherlock Eye](https://sherlockeye.io/)
-- [clauneck](https://github.com/serpapi/clauneck)
 - [ShadowDragon](https://shadowdragon.io/)
 - [sociallinks](https://sociallinks.io/)
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
@@ -470,7 +465,6 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [twtdata](https://www.twtdata.com/)
 - [gephi](https://gephi.org/)
 - [Tweetdeck](https://pro.twitter.com/)
-- [tagdef](https://tagdef.com/en/)
 
 # Web Intelligence
 
@@ -493,7 +487,6 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [Website informer](https://website.informer.com/)
 - [anubis](https://github.com/jonluca/anubis)
 - [robtex](https://www.robtex.com/)
-- [aware-online](https://www.aware-online.com/en/osint-tools/website-search-tool/)
 - [subdomainfinder search history subdomain](https://subdomainfinder.c99.nl/)
 - [awseye - search AWS](https://awseye.com/)
 - [cloudflare radar](https://radar.cloudflare.com/)
@@ -761,15 +754,10 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [Spiderfoot HX](https://www.spiderfoot.net/open-source-vs-hx/) You must have account 
 - [Flare](https://flare.io/)
 - [Malwareworld](https://malwareworld.com/)
-- [DNS TWIST](https://github.com/elceef/dnstwist)
-- [URL CRAZY - Phishing detector](https://github.com/urbanadventurer/urlcrazy)
-- [Phishing catcher](https://github.com/x0rz/phishing_catcher)
-- [Blackite](https://blackkite.com/community/)
 - [Open Phish](https://openphish.com/phishing_feeds.html)
 - [Phish Talk](https://www.phishtank.com/phish_archive.php)
 - [Threat Feeds](https://threatfeeds.io/)
 - [Threat Miner](https://www.threatminer.org/)
-- [Intel OWL](https://github.com/intelowlproject/IntelOwl/)
 - [RiskIQ](https://community.riskiq.com/)
 - [LOKI](https://github.com/Neo23x0/Loki)
 - [Mandiant](https://www.mandiant.com/advantage/threat-intelligence)
@@ -801,7 +789,6 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [urlquery](https://urlquery.net/)
 - [transparencyreport google](https://transparencyreport.google.com/safe-browsing/search)
 - [Malware Bazaar](https://bazaar.abuse.ch/browse/)
-- [tria](https://tria.ge)
 - [safeweb norton](https://safeweb.norton.com/)
 - [threatbook](https://threatbook.io/)
 - [pulsedive](https://pulsedive.com/dashboard/)
