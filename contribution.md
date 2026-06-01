@@ -8,6 +8,8 @@ If you wish to contribute by creating a PR (Pull Request), please first verify t
 
 For all users, please use a different environment. Do not use your main environment when testing tools also account if needed 
 
+Please dont do git push origin --force or --f please read the doc Github OK
+
 # OSINT Resouces 
 
 ## Format 

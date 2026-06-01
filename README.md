@@ -1086,6 +1086,7 @@ You can find the file hash or other threat indicator
 - [gitdiagram](https://gitdiagram.com/)
 - [braingainsoft find github email](https://braingainsoft.com/)
 - [github-tools-collection](https://glc.st/posts/github-tools-collection//)
+- [trufflehog](https://trufflesecurity.com/trufflehog)
 
 Github Dork
 
@@ -1298,11 +1299,6 @@ Malware Database Archive
 - [databreaches](https://databreaches.net/)
 - [lolarchiver](https://osint.lolarchiver.com/#)
 - [Leakcheck](https://leakcheck.io/)
-- [exposed](https://exposed.lol/)
-- [oathnet](https://oathnet.ru/)
-- [sn0int pwndb-domains](https://sn0int.com/r/kpcyrd/pwndb-domains)
-- [sn0int pwndb-emails](https://sn0int.com/r/kpcyrd/pwndb-emails)
-- [trufflehog](https://trufflesecurity.com/trufflehog)
 - [9ghz](https://9ghz.com/)
 - [leakpeek](https://leakpeek.com/)
 - [leakradar](https://leakradar.io/)
@@ -1708,7 +1704,6 @@ If you has found the person phone number you can check at data breach, e wallet,
 
 # Finding Usernames
 
-- [dmeta](https://dmeta.me/)
 - [360username](https://360username.com/)
 - [TraceFind](https://tracefind.info)
 - [Snusbase](https://snusbase.com/)
@@ -1914,8 +1909,6 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 
 - [Bluesky api doc](https://docs.bsky.app/)
 - [hoaxy](https://hoaxy.osome.iu.edu/)
-- [osintcombine](https://www.osintcombine.com/platform)
-- [bcounter](https://bcounter.nat.vg/)
 - [vqv](https://vqv.app/)
 - [realtime bluesky](https://realtime.blue/)
 - [bluesky label](https://www.bluesky-labelers.io/)
@@ -1943,21 +1936,13 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [Hashtagify](http://hashtagify.me)
 - [Iconosquare](http://iconosquare.com)
 - [Picodash](https://www.picodash.com)
-- [Toutatis](https://github.com/megadose/toutatis)
-- [SearchMyBio](https://www.searchmy.bio/)
 - [Dumpor](https://dumpor.com/)
-- [Hookgram](https://hookgram.com/)
 - [Inflact](https://inflact.com/)
 - [Greatfon](https://greatfon.com/)
 - [Save Free](https://www.save-free.com/)
 - [Insta Location Search](https://github.com/bellingcat/instagram-location-search)
-- [Insta story visual maps](https://github.com/Jasawn/python-instagram-story-visualiser)
-- [Snap Insta](https://snapinsta.app/)
 - [Insta Profiler](https://imginn.io/)
-- [Insta Loader](https://github.com/instaloader/instaloader)
 - [Storistalker](https://storistalker.com/#back)
-- [instahunt](https://instahunt.co/)
-- [Sterraxcyl IG Profiler](https://github.com/novitae/sterraxcyl)
 - [exportcomments](https://exportcomments.com/)
 - [Blastup - Insta Downloader](https://blastup.com/instagram-downloader)
 - [Insta Stories View](https://storiesdown.com/)
@@ -1968,12 +1953,10 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [pathsocial](https://www.pathsocial.com/id/)
 - [export comment Insta](https://exportgram.net/)
 - [Get account ID instagram](https://commentpicker.com/instagram-user-id.php)
-- [dumpor](https://dumpor.io/)
+- [dumpor.io](https://dumpor.io/)
 - [greatfon](https://greatfon.io/)
 - [instaclip](https://instaclip.app/)
 - [fameswap](https://fameswap.com/tool-instagram-user-id)
-- [instahunt](https://instahunt.huntintel.io/)
-- [Stalkiana](https://github.com/RuiBorgesDev/Stalkiana) Run on your VM or cloud machine
 - [ignorant](https://github.com/megadose/ignorant)
 - [socialblade](https://socialblade.com/)
 - [Find ID Insta Acc](https://skweezer.net/find-instagram-user-id)
@@ -2003,7 +1986,6 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 
 - [redlib viewer online](https://redlib.catsarch.com/)
 - [Reddit Account Extractor](https://www.reddit.com/user/<USERNAME-HERE>/about.json)
-- [reddit post analyser](https://www.osintcombine.com/free-osint-tools/reddit-post-analyser)
 - [Archive Reddit](https://www.redditarchive.com/)
 - [Reddit Search](https://redditcommentsearch.com/)
 - [Vizit](https://redditstuff.github.io/sna/vizit/)
@@ -2032,7 +2014,6 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [youtubecommentsdownloader](https://youtubecommentsdownloader.com/)
 - [ytcomment](https://ytcomment.kmcat.uk/)
 - [exportcomments](https://exportcomments.com/)
-- [yark YT archiving](https://github.com/Owez/yark)
 - [Downsub](https://downsub.com/)
 - [Savesubs](https://savesubs.com/)
 - [hadzy - YT Comment](https://hadzy.com/)
@@ -2044,16 +2025,12 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [Youtube search operator](https://seosly.com/blog/youtube-search-operators/)
 - [socialblade](https://socialblade.com/)
 - [channelcrawler](https://app.channelcrawler.com/)
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- [Seal](https://github.com/JunkFood02/Seal)
 - [ytlarge](https://ytlarge.com/)
 - [youtube-lookup vidio](https://youtube-lookup.vercel.app/)
 
 # Mastodon 
 
-- [Masto](https://github.com/C3n7ral051nt4g3ncy/Masto)
 - [imagstodon](https://seintpl.github.io/imagstodon/)
-- [bluesky-crossposter](https://github.com/Linus2punkt0/bluesky-crossposter)
 
 # Twitter
 
@@ -2099,7 +2076,6 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [Twitter Archive](https://github.com/humandecoded/twayback)
 - [History Twitter](https://memory.lol/app/)
 - [Wayback Twitter](https://waybacktweets.streamlit.app/)
-- [PeekVault](https://peekvault.com/) Search public X/Twitter captures from the Internet Archive CDX index, preview archived snapshots, and export results
 - [Twitter BOT](https://botometer.osome.iu.edu/)
 - [botometer Twitter dataset](https://botometer.osome.iu.edu/bot-repository/datasets.html)
 - [Treverse](https://github.com/paulgb/Treeverse/blob/master/README.md?utm_content=buffer33d48&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer#readme)
@@ -2108,7 +2084,6 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [birdhunt](https://birdhunt.co/)
 - [exportcomments](https://exportcomments.com/)
 - [followeraudit](https://www.followeraudit.com/)
-- [stweet](https://github.com/markowanga/stweet)
 - [tweepy](https://www.tweepy.org/)
 - [twtdata](https://www.twtdata.com/)
 - [botsentinel](https://botsentinel.com/dashboard)
@@ -2128,19 +2103,17 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 
 Twitter Search Engine 
 
-- [inteltechniques](http://inteltechniques.com/osint/twitter.html)
 - [twitter lolarchiver](https://twitter.lolarchiver.com/)
 - [Geoint CSE search](https://cse.google.com/cse?cx=015328649639895072395:sbv3zyxzmji#gsc.tab=0&gsc.sort=)
 - [Twitter Cache](https://cache.digitaldigging.org/) View cache and archive and delete post in Twitter
 - [Twitter image search google cse](https://cse.google.com/cse?cx=006205189065513216365:vltpvp4_gyo#gsc.tab=1&gsc.sort=)
 - [Twitter image search google cse 2](https://cse.google.com/cse?cx=006290531980334157382:_ltcjq0robu#gsc.tab=0&gsc.sort=&gsc.q=)
 - [Wayback Twitter](https://waybacktweets.streamlit.app/) Retrieves archived tweets
+- [PeekVault](https://peekvault.com/) Search public X/Twitter captures from the Internet Archive CDX index, preview archived snapshots, and export results
 
 # Snapchat 
 
 - [Snapchat MAP](https://map.snapchat.com/)
-- [Snapchat Map scrapping](https://github.com/nemec/snapchat-map-scraper)
-- [SnapIntel](https://github.com/Kr0wZ/SnapIntel)
 - [ignorant](https://github.com/megadose/ignorant)
 
 # LinkedIn
@@ -2154,20 +2127,14 @@ Google queries for LinkedIn
 >  
 
 - [LinkedInDumper](https://github.com/l4rm4nd/LinkedInDumper)
-- [Weakestlink](https://github.com/shellfarmer/WeakestLink)
-- [GatherContacts](https://github.com/clr2of8/GatherContacts)
 - [Rocket reach](https://rocketreach.co/person)
-- [Phantom Buster](https://phantombuster.com/phantombuster)
 - [reversecontact](https://www.reversecontact.com/)
 - [Linkedin CSE - Search OSINT](https://cse.google.com/cse?cx=daaf18e804f81bed0)
 - [Linkedin Google Search Custom](https://cse.google.com/cse?cx=002879889969213338875:ykfcyju2xe8)
 - [Linkedin Google Search Custom 2](https://cse.google.com/cse?cx=012951739560700154499:8rl_7tkzjgq#gsc.tab=0)
 - [coresignal](https://coresignal.com/)
 - [Linkedin Attack Vector](https://www.osintdojo.com/diagrams/linkedin)
-- [CrossLinked](https://github.com/m8sec/CrossLinked)
 - [intelx Linkedin](https://intelx.io/tools?tab=linkedin)
-- [Linkdin Viewer](https://nubela.co/proxycurl/demo/linkedin-profile-viewer)
-- [LinkdTime](https://github.com/Lucksi/LinkdTime)
 
 # MySpace
 
@@ -2192,10 +2159,8 @@ Google queries for MySpace
 
 - [Picuki](https://www.picuki.com/)
 - [tiktok-hashtag-analysis](https://github.com/bellingcat/tiktok-hashtag-analysis)
-- [tiktok-downloader](https://github.com/Gimenz/tiktok-downloader)
 - [tiktok API](https://pypi.org/project/TikTokApi/)
 - [tiktok date extract](https://bellingcat.github.io/tiktok-timestamp/)
-- [Gimenz tiktok downloader](https://github.com/Gimenz/tiktok-downloader)
 - [exportcomments](https://exportcomments.com/)
 - [Google CSE Tiktok](https://cse.google.com/cse?cx=013991603413798772546:igv4fyrnnfu#gsc.tab=0)
 - [Tktok username lookup and viewer](https://omar-thing.nekoweb.org/)
@@ -2234,6 +2199,7 @@ Google queries for MySpace
 - [canarytokens](https://canarytokens.org/nest/)
 - [Intel471](https://intel471.com/)
 - [CSE Google alert](https://cse.google.com/cse?cx=013991603413798772546:rs7bbm8kdsg#gsc.tab=0)
+- [shadowdragon](https://shadowdragon.io/)
 
 # EXIF Analysis
 
@@ -2246,10 +2212,7 @@ Google queries for MySpace
 - [jimpl](https://jimpl.com/)
 - [pic2map](https://www.pic2map.com/)
 - [labs.tib.eu](https://labs.tib.eu/geoestimation/)
-- [imago-forensics](https://github.com/redaelli/imago-forensics)
-- [Renrot Exif](https://github.com/andy-shev/RenRot)
 - [Geotag](https://vsudo.net/tools/geotag)
-- [Python exif extractor](https://github.com/davidbombal/red-python-scripts/blob/main/exif.py)
 
 # Email Tracking
 
@@ -2259,8 +2222,6 @@ Google queries for MySpace
 - [osintcabal holehe](https://osintcabal.org/livecenter/holehe.html)
 - [braingainsoft find github email](https://braingainsoft.com/)
 - [behindtheemail](https://behindtheemail.com/)
-- [dmeta](https://dmeta.me/)
-- [mosint](https://github.com/alpkeskin/mosint)
 - [TraceFind](https://tracefind.info)
 - [intelbase](https://intelbase.is/)
 - [minervaosint](https://minervaosint.com/)
@@ -2282,18 +2243,13 @@ Google queries for MySpace
 - [getnotify](http://www.getnotify.com)
 - [epieos](https://epieos.com/)
 - [seon](https://seon.io/resources/the-ultimate-guide-to-free-email-lookup-and-reverse-email-lookup-tools/)
-- [Eye](https://github.com/N0rz3/Eyes)
 - [Thatsthem](https://thatsthem.com/)
 - [Freepeoplesearch](https://freepeoplesearch.com/)
-- [Headmail](https://github.com/umair9747/headmail)
-- [Poastal](https://github.com/jakecreps/poastal)
 - [anymailfinder](https://anymailfinder.com/)
 - [getprospect](https://getprospect.com/)
 - [Email Hippo](https://tools.emailhippo.com/)
-- [Buster](https://github.com/sham00n/buster)
 - [Gravatar Email Cheker](https://gravatar.com/site/check/) You can brute the hash with md5 to find the email address
 - [EmailRep](https://emailrep.io/)
-- [pwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot)
 - [Email-Analytics](https://emailanalytics.com/email-headers/)
 - [Email Header Analisis Toolbox](https://toolbox.googleapps.com/apps/messageheader/)
 - [Sherlock Eye](https://sherlockeye.io/)
@@ -2305,7 +2261,6 @@ Google queries for MySpace
 - [lolarchiver](https://osint.lolarchiver.com/#)
 - [Proxynova](https://www.proxynova.com/tools/comb/)
 - [Leakcheck](https://leakcheck.io/)
-- [exposed](https://exposed.lol/)
 - [findemail](https://findemail.io/)
 - [skymem](https://www.skymem.info/)
 - [idcrawl](https://www.idcrawl.com/email-lookup)
@@ -2323,14 +2278,12 @@ Google queries for MySpace
 - [ipkzone email generator](https://ipkzone.my.id/gmail/)
 - [snov.io](https://snov.io/email-finder)
 - [experte](https://www.experte.com/email-finder)
-- [Josue87 EmailFinder](https://github.com/Josue87/EmailFinder)
 - [infoga](https://www.infoga.io/)
 - [findemail](https://findemail.io/)
 - [minelead](https://minelead.io/)
 - [espysys](https://espysys.com/)
 - [hackcheck](https://hackcheck.io/)
 - [h8mail](https://github.com/khast3x/h8mail)
-- [lampyre](https://lampyre.io/)
 - [email2phonenumber](https://github.com/martinvigo/email2phonenumber)
 - [lullar like a dork](https://com.lullar.com/)
 - [clatscope](https://github.com/clats97/clatscope)
@@ -2423,7 +2376,6 @@ Mostly general for searching data like web enumerate, attack surface, email, per
 - [Recon-Ng](https://github.com/lanmaster53/recon-ng)
 - [tinfoleak](https://github.com/vaguileradiaz/tinfoleak)
 - [maigret](https://github.com/soxoj/maigret)
-- [mosint](https://github.com/alpkeskin/mosint)
 - [osint_stuff_tool_collection](https://github.com/cipher387/osint_stuff_tool_collection)
 - [instaloctrack](https://github.com/bernsteining/instaloctrack)
 - [SpyScrap](https://github.com/RuthGnz/SpyScrap)
@@ -2437,7 +2389,6 @@ Mostly general for searching data like web enumerate, attack surface, email, per
 - [Moriarty-Project](https://github.com/AzizKpln/Moriarty-Project)
 - [Mr.Holmes](https://github.com/Lucksi/Mr.Holmes)
 - [octosuite Advanced Github OSINT Framework](https://github.com/rly0nheart/octosuite.git)  
-- [Toutatis](https://github.com/megadose/toutatis)  
 - [A tool for OSINT based threat hunting](https://github.com/ninoseki/mihari)
 - [K𝚊𝚛𝚖𝚊 𝚟𝟸 is a Passive Open Source Intelligence](https://github.com/Dheerajmadhukar/karma_v2)  
 - [Secure ELF parsing/loading library for forensics reconstruction of malware, and robust reverse engineering tools](https://github.com/elfmaster/libelfmaster)  
