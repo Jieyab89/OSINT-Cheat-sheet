@@ -22,12 +22,13 @@ Need to check after developer answer
 - https://scamdb.net/
 - https://devportal.redhuntlabs.com/home
 - search.synthient.com
+- https://tiktok.einzzcookie.org/ (need answer from dev)
 
 ## Issue about resouces list Jieyab. Supply chain, malware campaign, malicious   
 
 Resources like this will be taken down immediately without any response from the developer; they contain malware, obfuscated scripts, and other harmful elements.
 
-- 
+- https://codefinder.org/ (takeober by hacker defacement and online gambling campagin)
 
 ## Issue about resouces list Jieyab. The tools are error and not work and stop development  
 
