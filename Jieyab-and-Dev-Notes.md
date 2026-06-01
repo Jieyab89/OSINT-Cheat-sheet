@@ -30,3 +30,7 @@ Need to check after developer answer
 
 You can submit a report—whether you’re a developer or not—by creating an issue or discussion as described below. Be sure to use labels to keep things organized and clear. Jieyab, as the owner, needs the community’s help with troubleshooting. Please provide detailed information about the issue so Jieyab can investigate it. Don’t worry—Jieyab will continue to review and respond to your report within about one day
 
+You can mention Jieyab to keep things organized, or contact me via email. If a developer does not respond within a week, I will remove the issue. Please always be respectful, use polite language, and treat each other with respect. I will monitor my repository and the articles I create
+
+Thank you for your support  
+
