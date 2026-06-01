@@ -1631,18 +1631,13 @@ You can also use Google dork to search blogger profile
 - [Whatsapp profile picture checker and other](https://whatsapp.checkleaked.cc/)
 - [whocalld](https://whocalld.com/)
 - [predictasearch](https://www.predictasearch.com/)
-- [argali](http://www.argali.com)
-- [ciddb](http://www.ciddb.com/index.php)
 - [cellrevealer](http://www.cellrevealer.com)
 - [spydialer](http://www.spydialer.com)
 - [Twilio](https://www.twilio.com/lookup)
 - [Reverse lookup](https://www.reversephonelookup.com/)
-- [PhoneInfoga](https://github.com/sundowndev/PhoneInfoga)
 - [Sync](https://sync.me/)
 - [National cell](https://www.nationalcellulardirectory.com/)
 - [Getcontact](https://www.getcontact.com/id/)
-- [Moriarty-Project](https://github.com/AzizKpln/Moriarty-Project)
-- [Get Contact](https://www.getcontact.com/en/)
 - [True Caller](https://www.truecaller.com/)
 - [Cell Id Lookup](https://www.reskrim.com/cek.php)
 - [Device Info](https://www.deviceinfo.me/)
@@ -1652,7 +1647,6 @@ You can also use Google dork to search blogger profile
 - [nationalcellulardirectory](https://www.nationalcellulardirectory.com/)
 - [phonebooks](https://www.phonebooks.com/)
 - [International Phone Directories](https://www.thisnumber.com/)
-- [PhoneInfoga](https://demo.phoneinfoga.crvx.fr/#/)
 - [Spy Dialer](https://spydialer.com/)
 - [Phone Validator](https://www.phonevalidator.com/)
 - [Fone finder](https://www.fonefinder.net/)
@@ -1677,7 +1671,6 @@ You can also use Google dork to search blogger profile
 - [getprospect](https://getprospect.com/)
 - [ZoomInfo](https://www.zoominfo.com/)
 - [Spam Calls](https://spamcalls.net/en/)
-- [inteltechniques](https://inteltechniques.com/tools/Telephone.html)
 - [pipl](https://pipl.com/)
 - [phonebook](https://phonebook.cz/)
 - [CALL APP](https://callapp.com/app-features)
@@ -1692,14 +1685,9 @@ You can also use Google dork to search blogger profile
 - [Indosat HLR](https://panduanbs.com/kode-area-wilayah-hlr-nomor-indosat-ooredo/)
 - [idcrawl](https://www.idcrawl.com/phone)
 - [SMS PING APK](https://f-droid.org/id/packages/com.itds.sms.ping/)
-- [Ghunt online tools](https://app.osint.industries/)
-- [numpi](https://numpi.com/)
-- [Phunter](https://github.com/N0rz3/Phunter)
 - [numlookup](https://www.numlookup.com/)
 - [haveibeenzuckered](https://haveibeenzuckered.com/)
 - [espysys](https://espysys.com/)
-- [infobel](https://www.infobel.com/fr/world)
-- [email2phonenumber](https://github.com/martinvigo/email2phonenumber)
 - [truepeoplesearch](https://www.truepeoplesearch.com/)
 - [spokeo](https://www.spokeo.com/)
 - [TrueCaller Tele Bot](https://t.me/TrueCaller_Z_Bot)
@@ -1715,7 +1703,6 @@ If you has found the person phone number you can check at data breach, e wallet,
 # Public Records
 
 - [Public Record](http://publicrecords.searchsystems.net)
-- [Fam Watchdog](http://Familywatchdog.us)
 - [Crime Reports](http://www.crimereports.com)
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
 
@@ -1728,22 +1715,17 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [Username Checker](https://analyzeid.com/username/)
 - [leakpeek](https://leakpeek.com/)
 - [OSINT rock](https://osint.rocks/)
-- [clatscope](https://github.com/clats97/clatscope)
 - [OSINT indsutries](https://www.osint.industries/)
 - [lullar](https://lullar-com-3.appspot.com/en)
 - [namecheckr](https://www.namecheckr.com/)
 - [Namechk](http://www.namechk.com)
 - [Knowem](http://www.knowem.com)
-- [Nexfil](https://github.com/thewhiteh4t/nexfil)
-- [Sherlock](https://github.com/sherlock-project/sherlock)
 - [Instantusername](https://instantusername.com/#/)
 - [Snitch](http://snitch.name/)
 - [Checkusernames](https://checkusernames.com/)
 - [Maigret](https://github.com/soxoj/maigret)
 - [Picuki](https://www.picuki.com/)
 - [ZoomInfo](https://www.zoominfo.com/)
-- [Alfred](https://github.com/Alfredredbird/alfred)
-- [Blackbird](https://github.com/p1ngul1n0/blackbird)
 - [Bellingcat Username](https://bellingcat.github.io/name-variant-search/#gsc.tab=0)
 - [whatsmyname](https://whatsmyname.app/)
 - [holehe](https://github.com/megadose/holehe)
@@ -1761,20 +1743,6 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [blackbird (mostly Indonesia)](https://blackbird.mom/)
 - [user-scanner](https://github.com/kaifcodec/user-scanner/releases/tag/v1.1.0)
 - [maigret 2 made by Rust](https://github.com/krishpranav/maigret/blob/master/data.json)
-
-# Social Networks
-
-- [Facebook](https://facebook.com/livemap)
-- [Facebook lookup id](https://lookup-id.com/#)
-- [Sherlock](https://github.com/sherlock-project/sherlock)
-- [Socialsearcher Users](https://www.social-searcher.com/)
-- [Nexfil](https://github.com/thewhiteh4t/nexfil)
-- [Googlesocialsearch](https://www.social-searcher.com/google-social-search/)
-- [Google Social Network Transforms](https://www.maltego.com/transform-hub/google-programmable-search-engine-transforms/)
-- [FullContact](https://www.maltego.com/transform-hub/full-contact/)
-- [maigret](https://github.com/soxoj/maigret)
-- [Blackbird](https://github.com/p1ngul1n0/blackbird)
-- [lampyre](https://lampyre.io/)
 
 # Google Queries for Facebook
 
@@ -1829,7 +1797,6 @@ or you can use dork for spesific example
 # The Ultimate Facebook Investigation Tool
 
 - [socialblade](https://socialblade.com/)
-- [Intel Technique](https://inteltechniques.com/osint/facebook.html)
 - [Facebook Search](http://search.fb.com/)
 - [Fb-sleep-stats](https://github.com/sqren/fb-sleep-stats)
 - [Lookup-ID.com](https://lookup-id.com)
@@ -1852,7 +1819,6 @@ or you can use dork for spesific example
 - [Check email and phone num on facebook](https://web.facebook.com/login/identify?ctx=recover&_rdc=1&_rdr#)
 - [META Scan](https://github.com/HackUnderway/meta_scan)
 - [Facebook lookup id](https://lookup-id.com/#)
-- [Facebook scrapper](https://github.com/0xSojalSec/facebook-scraper)
 
 # OnlyFans
 
