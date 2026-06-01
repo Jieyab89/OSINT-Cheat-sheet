@@ -1701,6 +1701,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [Public Record](http://publicrecords.searchsystems.net)
 - [Crime Reports](http://www.crimereports.com)
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
+- [Harvester](https://github.com/laramies/theHarvester)
 
 # Finding Usernames
 
@@ -2299,7 +2300,6 @@ Google queries for MySpace
 - [emailable](https://emailable.com/)
 - [leak lookup](https://leak-lookup.com/)
 - [reconspider](https://github.com/bhavsec/reconspider)
-- [psbdmp](https://psbdmp.ws/api/search/<email>)
 - [castrickclues](https://castrickclues.com/)
 - [usersearch](https://usersearch.com/)
 - [Personal data leak check](https://cybernews.com/personal-data-leak-check/)
@@ -2334,7 +2334,7 @@ Google queries for MySpace
 - [Googl earth pro](https://earth.google.com/web)
 - [Wayback Twitter](https://waybacktweets.streamlit.app/)
 
-# OSINT Online Tool  
+# OSINT Online Tool [will check again] 
 
 Mostly general for searching data like web enumerate, attack surface, email, person and etc with hosted and manual installation (local install)
 
@@ -2344,16 +2344,9 @@ Mostly general for searching data like web enumerate, attack surface, email, per
 - [bosint](https://app.bosint.gg/)
 - [whatsmyname](https://whatsmyname.app/)
 - [OSINT rocks](https://osint.rocks/)
-- [InstagramPrivSniffer](https://github.com/obitouka/InstagramPrivSniffer)
 - [scrapersnbots - available support more site for scrapper](https://www.scrapersnbots.com/webtools/)
-- [Echosec](https://www.echosec.net/)
 - [Labs TIB](https://labs.tib.eu/info/en/)
-- [Foller](https://foller.me/)
 - [Tweet Deck](https://tweetdeck.twitter.com/)
-- [Tweet Trips](https://www.tweetedtrips.com/)
-- [Tweet Tonomy](http://www.twitonomy.com/)
-- [Twinangulate](https://www.twiangulate.com/search/)
-- [Geosocial](http://geosocialfootprint.com/)
 - [Hash tracking](https://www.hashtracking.com/)
 - [OSINT Combine](https://www.osintcombine.com/tools)
 - [Device Info](https://www.deviceinfo.me/)
@@ -2362,59 +2355,17 @@ Mostly general for searching data like web enumerate, attack surface, email, per
 - [Thatsthem](https://thatsthem.com/)
 - [IntelligenceX](https://intelx.io/tools)
 - [lolarchiver](https://osint.lolarchiver.com/#)
-- [cybdetective public tool](https://cybdetective.com/)
 - [OSINT indsutries](https://www.osint.industries/)
 - [Phantom Tide](https://phantom.labs.jamessawyer.co.uk/) - cross-domain OSINT dashboard for maritime and airspace analysis
-- [bbot](https://github.com/blacklanternsecurity/bbot)
 - [Meta OSINT](https://metaosint.github.io/)
-- [Shrelock](https://github.com/sherlock-project/sherlock)
 - [Maltego](https://www.maltego.com/)
-- [OSINT Framework](https://osintframework.com/)
-- [OSINT Framework 2](https://knowlesys.com/osint_framework.html)
 - [Twint](https://forum.seccodeid.com/d/twint-twitter-intelligence-tool)
 - [Telegram OSINT](https://forum.seccodeid.com/d/telegram-nearby-map)
-- [Recon-Ng](https://github.com/lanmaster53/recon-ng)
-- [tinfoleak](https://github.com/vaguileradiaz/tinfoleak)
-- [maigret](https://github.com/soxoj/maigret)
-- [osint_stuff_tool_collection](https://github.com/cipher387/osint_stuff_tool_collection)
-- [instaloctrack](https://github.com/bernsteining/instaloctrack)
-- [SpyScrap](https://github.com/RuthGnz/SpyScrap)
-- [osintteye](https://github.com/rlyonheart/osinteye)
-- [metagoofil](https://github.com/kurobeats/metagoofil)
-- [Harvester](https://github.com/laramies/theHarvester)
-- [Geo creepy](http://www.geocreepy.com/)
-- [trape](https://github.com/jofpin/trape)
-- [ReconDog](https://github.com/s0md3v/ReconDog)
-- [iKy](https://github.com/kennbroorg/iKy)
-- [Moriarty-Project](https://github.com/AzizKpln/Moriarty-Project)
-- [Mr.Holmes](https://github.com/Lucksi/Mr.Holmes)
-- [octosuite Advanced Github OSINT Framework](https://github.com/rly0nheart/octosuite.git)  
-- [A tool for OSINT based threat hunting](https://github.com/ninoseki/mihari)
-- [K𝚊𝚛𝚖𝚊 𝚟𝟸 is a Passive Open Source Intelligence](https://github.com/Dheerajmadhukar/karma_v2)  
-- [Secure ELF parsing/loading library for forensics reconstruction of malware, and robust reverse engineering tools](https://github.com/elfmaster/libelfmaster)  
-- [OSINT tool that allows you to find a person's accounts and emails + breached email](https://github.com/Greyjedix/Profil3r)  
-- [A tool to search Aviation-related intelligence from public sources](https://github.com/n0skill/AVOSINT)
-- [PoC OSINT Discord user and guild information harvester](https://github.com/V3ntus/darvester)  
-- [Automate downloading archived deleted Tweets](https://github.com/Mennaruuk/twayback)
-- [Discover the location of nearby Telegram users](https://github.com/tejado/telegram-nearby-map)
-- [OSINT Tool on Twitter and Instagram](https://github.com/xadhrit/terra)  
-- [The World's simplest facial recognition api for python and the command line](https://github.com/ageitgey/face_recognition)
-- [Automation and automation of digital forensic tools](https://github.com/google/turbinia)  
-- [E4GL30S1NT](https://github.com/C0MPL3XDEV/E4GL30S1NT)
-- [Commit stream finding Github repositories by extracting commit](https://github.com/x1sec/commit-stream)
-- [SingleFile copy of an entire web page in a single HTML file](https://github.com/gildas-lormeau/SingleFile)
-- [Photon Incredibly fast crawler designed for OSINT](https://github.com/s0md3v/Photon)
-- [infoooze](https://github.com/devXprite/infoooze)
-- [Eye](https://github.com/N0rz3/Eyes)
-- [find osint-tool](https://find.osint-tool.com/)
-- [More](https://forum.seccodeid.com/?q=osint)
 - [UBIKRON](https://www.osint-tool.com/unravel-help/)
 - [netlas.io](https://app.netlas.io/host/)
-- [sn0int doc](https://sn0int.readthedocs.io/en/stable/)
-- [deepfind](https://www.deepfind.me/tools)
-- [synapsint](https://synapsint.com/)
 - [usersearch](https://usersearch.ai/)
 - [donwloader - available support other site](https://cobalt.tools/)
+- [securitytrails](https://securitytrails.com/)
 
 # Telegram Tool
 
@@ -2438,16 +2389,11 @@ Search channel, username, bot and anymore
 - [Lyzem Search](https://lyzem.com/)
 - [Discover The Best Telegram Channels](https://telegramchannels.me/)
 - [Tele Channel Overiview](https://telemetr.io/)
-- [Telepathy](https://github.com/proseltd/Telepathy)
 - [Telemetr](https://telemetr.io/)
-- [Telegramtrac](https://github.com/claromes/telegramtrac)
 - [TGDev](https://tgdev.io/)
 - [IntelX Telegram](https://intelx.io/tools?tab=telegram)
-- [Tele Geo Int](https://github.com/Alb-310/Geogramint)
 - [Tele Phone Number Checker - Bellingcat](https://github.com/bellingcat/telegram-phone-number-checker)
-- [Telegram Geogramint](https://github.com/Alb-310/Geogramint)
 - [Telegram-Trilateration](https://github.com/jkctech/Telegram-Trilateration)
-- [TeleTracker by Tsale](https://github.com/tsale/TeleTracker)
 - [Teletehon](https://docs.telethon.dev/en/stable/basic/installation.html)
 - [Bellingcat Telegram Joiner](https://bellingcat.github.io/telegram-group-joiner/)
 - [Awesome-Telegram-OSINT](https://github.com/ItIsMeCall911/Awesome-Telegram-OSINT)
@@ -2461,8 +2407,6 @@ Search channel, username, bot and anymore
 - [telegram-store](https://telegram-store.com/)
 - [tosint](https://github.com/drego85/tosint)
 - [Telegram Scammer list ACC Database](https://apk.ibnux.com/data/)
-- [matkap hunt down malicious Telegram bots](https://github.com/0x6rss/matkap)
-- [matkap hunt down malicious Telegram bots  web based](https://matkap.cti.monster/)
 - [OSINT Industries](https://app.osint.industries/)
 - [xtea](https://xtea.io/ts_en.html)
 - [AllInOneLeaksBOT](https://t.me/AllInOneLeaksBOT)
@@ -2471,9 +2415,7 @@ Search channel, username, bot and anymore
 - [Tele search CSE](https://cse.google.com/cse?cx=004805129374225513871%3Ap8lhfo0g3hg)
 - [A Telegram Mass Surveillance Bot in Python](https://github.com/paulpierre/informer)
 - [TGRAM](https://tgram.io/)
-- [Telethon](https://github.com/LonamiWebs/Telethon)
 - [TeleGraphite telehgram scrapper](https://github.com/hamodywe/telegram-scraper-TeleGraphite)
-- [tele userinfobot](https://github.com/nadam/userinfobot)
 - [userinfobot - telegram](https://telegram.me/userinfobot)
 - [GetTheirIDBot](https://t.me/GetTheirIDBot)
 - [PasswordSearchBot](https://t.me/PasswordSearchBot)
@@ -2505,9 +2447,6 @@ Telegram tips. Change the hash value, username, phone number on the endpoint or 
 - [Free Full PDF](http://www.freefullpdf.com)
 - [SlideShare](http://www.slideshare.net)
 - [Scribd](http://www.scribd.com)
-- [Scribd docdownloader](https://docdownloader.com/)
-- [Scribd Downloader 2](https://scribd.vdownloaders.com/)
-- [Scrib Downloader 3](https://scribdownloader.com/)
 - [Doclibra.com](https://doclibra.com/)
 - [FilePursuit](https://filepursuit.com/)
 - [NAPALM FTP Indexer](https://www.searchftps.net/)
@@ -2518,10 +2457,7 @@ Telegram tips. Change the hash value, username, phone number on the endpoint or 
 - [Tools pdf24](https://tools.pdf24.org/en/extract-images)
 - [ArchivEye](https://github.com/eastrd/ArchivEye)
 - [Metashield Analyzer](https://metashieldanalyzer.elevenpaths.com/)
-- [foca](https://github.com/ElevenPaths/FOCA)
-- [Psbdmp](https://psbdmp.ws/)
 - [ArchivEye](https://github.com/eastrd/ArchivEye)
-- [kaseware search query](https://www.kaseware.com/search-query)
 - [CV REesume Search](https://booleanstrings.com/hidden-resumes/#gsc.tab=0&gsc.q=)
 - [booleanstrings document search](https://booleanstrings.com/doc-finder-storage/#gsc.tab=0&gsc.q=)
 - [wikileaks](https://search.wikileaks.org/)
@@ -2539,10 +2475,17 @@ Telegram tips. Change the hash value, username, phone number on the endpoint or 
 - [terabox](https://www.terabox.com/)
 - [mediafire](https://www.mediafire.com/)
 - [justpaste](https://justpaste.it/)
+- [Harvester](https://github.com/laramies/theHarvester)
 
 Scribd viewer 
 
 - [How to view scribd](https://www.scribd.com/embeds/<HANGEID>/content?start_page=1&view_mode=scroll&access_key=key-fFexxf7r1bzEfWu3HKwf)
+
+Scribd downloader
+
+- [Scribd docdownloader](https://docdownloader.com/)
+- [Scribd Downloader 2](https://scribd.vdownloaders.com/)
+- [Scrib Downloader 3](https://scribdownloader.com/)
 
 # Real-Time Search, Social Media Search, and General Social Media Tools
 
@@ -2560,7 +2503,7 @@ Scribd viewer
 - [socialscan](https://pypi.org/project/socialscan/)
 - [inspektur](https://github.com/bgwastu/inspektur)
 
-# Image Search
+# Image Search [will check again]
 
 - [7Photos](http://7photos.net)
 - [Baidu Images](http://image.baidu.com)
@@ -2625,7 +2568,7 @@ Scribd viewer
 - [dailymotion](https://www.dailymotion.com/)
 - [giphy](https://giphy.com/)
 
-# Image Analysis
+# Image Analysis [Will check again]
 
 - [geoseeer AI Geo find](https://geoseeer.com/)
 - [facerec face compare aka face reccon](https://facerec.gjung.com/ComparingFaces)
@@ -2756,7 +2699,6 @@ Scribd viewer
 - [Azure vidio indexer](https://vi.microsoft.com/en-us)
 - [Bilibili scraper](https://github.com/yixiangyin/bilibili-scraper)
 - [Webcams](https://github.com/pbkompasz/webcams)
-- [Kamerka](https://github.com/woj-ciech/Kamerka-GUI)
 - [airportwebcams](https://airportwebcams.net/)
 - [Earthcam](https://www.earthcam.com/#google_vignette)
 - [tvway](http://tvway.ru/)
@@ -2879,7 +2821,6 @@ Scribd viewer
 - [Earth Exploer](https://earthexplorer.usgs.gov/)
 - [Sky Watch Earth Cache](https://skywatch.com/earthcache/)
 - [Skylens](https://app.skylens.io/)
-- [garmin](https://www.garmin.co.id/products/outdoor/gpsmap64s-sea/)
 - [Corona Atlsa](https://corona.cast.uark.edu/)
 - [BMKG RI](https://www.bmkg.go.id/)
 - [GIS INA](https://tanahair.indonesia.go.id/portal-web/)
@@ -2932,7 +2873,6 @@ Scribd viewer
 - [OSM - Taginfo](https://taginfo.openstreetmap.org/keys)
 - [Bellingcat Google Maps review Filename Chrome Extension](https://www.bellingcat.com/resources/2024/10/15/google-maps-image-filename-finder-tool/)
 - [SOAR Earth](https://soar.earth/maps?)
-- [Kamerka](https://github.com/woj-ciech/Kamerka-GUI)
 - [dual maps](https://data.mashedworld.com/dualmaps/map.htm)
 - [instantstreetview](https://www.instantstreetview.com/)
 - [skyscrapercenter Buildings](https://www.skyscrapercenter.com/buildings)
@@ -2970,6 +2910,7 @@ Scribd viewer
 - [irwatch](https://irwatch.org/)
 - [saucenao](https://saucenao.com/)
 - [whatiswhere like osm](https://www.whatiswhere.com/)
+- [Kamerka](https://github.com/woj-ciech/Kamerka-GUI)
 
 Conveter tool 
 
@@ -3359,13 +3300,8 @@ If you has found the person phone number you can check at data breach, e wallet,
 WhatsApp
 
 - [Analyze your WhatsApp Chat](https://whatsanalyze-80665.web.app/)
-- [Chat Visualizer](https://chatvisualizer.com/)
 - [WhatsApp Group Links](https://whatsgrouplink.com/)
 - [Download WhatsApp Profile Picture](https://watools.io/download-profile-picture)
-- [Wa tools](https://watools.io/)
-- [whatsanalyze](https://whatsanalyze.com/)
-- [chatvisualizer](https://chatvisualizer.com/)
-- [WaGpScraper](https://github.com/riz4d/WaGpScraper)
 - [realgrouplinks](https://realgrouplinks.com/)
 - [whatsapp Law Enforcement Online Requests](https://www.whatsapp.com/records/login)
 - [Whatsapp profile picture checker and other](https://whatsapp.checkleaked.cc/)
@@ -3375,24 +3311,17 @@ Telegram
 
 - [Telegram viewer](https://xn--r1a.website/#)
 - [TelegramDB](http://www.telegramdb.org/)
-- [tosint](https://github.com/drego85/tosint)
 - [Telegram Search Engine](https://xtea.io/)
-- [Telegram Database: channels, groups and users](https://t.me/s/privatelinks)
 - [Telegram channels and groups catalog](https://tgstat.com/)
 - [Social Finder](https://socialfinder.app/list/Telegram)
 - [Telegago](https://cse.google.com/cse?q=+&cx=006368593537057042503:efxu7xprihg#gsc.tab=0&gsc.q=%20&gsc.page=1)
 - [Lyzem Search](https://lyzem.com/)
 - [Discover The Best Telegram Channels](https://telegramchannels.me/)
 - [Tele Channel Overiview](https://telemetr.io/)
-- [Telegramtrac](https://github.com/claromes/telegramtrac)
 - [TGDev](https://tgdev.io/)
-- [Telegram Geogramint](https://github.com/Alb-310/Geogramint)
-- [Telegram-Trilateration](https://github.com/jkctech/Telegram-Trilateration)
-- [TeleTracker by Tsale](https://github.com/tsale/TeleTracker)
 - [Teletehon](https://docs.telethon.dev/en/stable/basic/installation.html)
 - [Telegram Search CSE](https://cse.google.com/cse?cx=004805129374225513871:p8lhfo0g3hg&q=)
 - [Bellingcat Telegram Joiner](https://bellingcat.github.io/telegram-group-joiner/)
-- [matkap hunt down malicious Telegram bots  web based](https://matkap.cti.monster/)
 - [instagram spoiler Decode hidden text from Telegram](https://spoiler.soxoj.com/)
 
 # Build Sockpuppet Accounts
@@ -3547,8 +3476,6 @@ Browser Sandbox
 - [Adobe](https://www.adobe.com/express/feature/image/enhance)
 - [Picwish](https://picwish.com/unblur-image-portrait)
 - [Fotor](https://www.fotor.com/features/unblur-image/)
-- [SIUN](https://github.com/minyuanye/SIUN)
-- [DPED](https://github.com/aiff22/DPED)
 - [neural-enhance](https://dockship.io/model/neural-enhance/5de4333901afe15d4ec10393)
 - [neural-enhance](https://github.com/alexjc/neural-enhance)
 - [Reminiai](https://remini.ai/)
@@ -3846,7 +3773,7 @@ Onion and surface site forums
 
 - [BHF FORUMS](http://bhf2b5nb3lb2kxpaoyqz7cuk2dkgej5n2refuffxzyhldwt4d7de4zqd.onion/)
 - [CRYPTBB](http://cryptbbtg65gibadeeo2awe3j7s6evg7eklserehqr4w4e2bis5tebid.onion)
-- [altenens](https://altenens.is/threads/darkweb-2025-onion-links-new.2619050/)
+- [altenens surface web](https://altenens.is/threads/darkweb-2025-onion-links-new.2619050/)
 - [ru tor](http://rutordark63xripv2a3skfrgjonvr3rqawcdpj2zcbw3sigkn6l3xpad.onion/)
 - [Ramble](http://rambleeeqrhty6s5jgefdfdtc6tfgg4jj6svr4jpgk4wjtg3qshwbaad.onion/) 
 - [Tor Forums](http://torbuyxpe6auueywlctu4wz6ur3o5n2meybt6tyi4rmeudtjsysayqyd.onion/forum/)
@@ -3971,13 +3898,6 @@ Pro Tips
 
 You can analysis of hash, header, signature, evtx, ip, byte, file format, memory dumping, network, system process, start up apps, background apps 
 
-# Write Your Investigation
-
-- [Yoga](https://github.com/WebBreacher/yoga)
-- [storymap js](https://storymap.knightlab.com/)
-- [Malteo CaseFile](https://docs.maltego.com/support/solutions/articles/15000018948-what-is-maltego-casefile-)
-- [osintracker](https://www.osintracker.com/)
-
 # Securing Your Privacy
 
 - [Eraser](https://eraser.heidi.ie/)
@@ -4007,6 +3927,8 @@ You can analysis of hash, header, signature, evtx, ip, byte, file format, memory
 - [cloudflare 0 trust](https://www.cloudflare.com/zero-trust/solutions/vpn-replacement/)
 
 Payment
+
+You can also use third party payment and broker
 
 - [Bitcoin](https://bitcoin.org/id/)
 - [Monero](https://www.getmonero.org/)
@@ -4448,7 +4370,6 @@ AI and LLM for penetration testing, security assesment, your research, geolocati
 
 - [Hermes agent](https://github.com/nousresearch/hermes-agent)
 - [claude](https://claude.ai/login)
-- [claude cli](https://code.claude.com/docs/en/overview)
 - [deepseek](https://www.deepseek.com/)
 - [cursor](https://www.cursor.com/features)
 - [ollama uncensored](https://ollama.com/library/llama2-uncensored)
@@ -4467,7 +4388,6 @@ AI and LLM for penetration testing, security assesment, your research, geolocati
 - [gihtub copilot](https://github.com/features/copilot)
 - [firecrawl](https://www.firecrawl.dev/)
 - [kling AI - Generate media and vidio](https://www.klingai.com/)
-- [canva AI](https://www.canva.com/)
 - [geoguessr GPT](https://chatgpt.com/g/g-brlHi7t2R-geoguessr-gpt)
 - [gemini](https://gemini.google.com/)
 - [2short](https://2short.ai/)
@@ -4480,7 +4400,6 @@ AI and LLM for penetration testing, security assesment, your research, geolocati
 - [grok](https://grok.com/)
 - [antigravity](https://antigravity.google/)
 - [Microsoft Copilot](https://copilot.microsoft.com/)
-- [SORA AI](https://sora.chatgpt.com/explore)
 
 System and User Prompt AI Model Lists 
 
@@ -4491,6 +4410,7 @@ Tips Prompt Injection (LLM Injection)
 
 - [imprompter](https://imprompter.ai/#pii-exfiltration)
 - [imprompter Github](https://github.com/Reapor-Yurnero/imprompter)
+- [owasp prompt injection](https://owasp.org/www-community/attacks/PromptInjection)
 
 Hardware and server 
 
@@ -4850,7 +4770,6 @@ Credentials Leak
 - [crackstation.net](https://crackstation.net/)
 - [breachdirectory.org](https://breachdirectory.org/)
 - [Intel Techniques Breach Tool](https://inteltechniques.com/tools/Breaches.html)
-- [Search password](https://psbdmp.ws/api/search/<password>)
 - [projectdiscovery credential monitor](https://cloud.projectdiscovery.io/leaks)
 - [breach VIP](https://breach.vip/)
 - [infodra](https://infodra.com/)
@@ -5163,7 +5082,6 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [Copernicus](https://atmosphere.copernicus.eu/charts/packages/cams/?facets=%7B%22Family%22%3A%5B%22Fires%22%5D%7D)
 - [Ej Atlas](https://ejatlas.org/)
 - [Intro OSINT Military](https://www.linkedin.com/pulse/mastering-military-osint-comprehensive-guide-modern-niels-groeneveld)
-- [Telegram Geogramint](https://github.com/Alb-310/Geogramint)
 - [Skylens](https://app.skylens.io/)
 - [Kamerka](https://github.com/woj-ciech/Kamerka-GUI)
 - [onemilliontweetmap](https://onemilliontweetmap.com/)
@@ -5268,7 +5186,6 @@ Simulator and Game
 - [Microsoft Flight Simulator](https://www.flightsimulator.com/)
 - [Airsoft Gun](https://en.wikipedia.org/wiki/Airsoft_gun)
 - [Arma Reforger](https://store.steampowered.com/app/1874880/Arma_Reforger/)
-- [Pure Sniper](https://store.steampowered.com/app/1612020/Pure_Sniper/)
 - [Sniper Ghost Warrior Contracts 2](https://store.steampowered.com/app/1338770/Sniper_Ghost_Warrior_Contracts_2/)
 - [Ready or Not](https://store.steampowered.com/app/1144200/Ready_or_Not/)
 
@@ -5375,10 +5292,7 @@ Resources and collection for your make tool OSINT
 # Data Visualization
 
 - [Maltego](https://www.maltego.com/)
-- [osintbuddy Node graphs](https://github.com/jerlendds/osintbuddy)
-- [Mgrs Mapper](https://mgrs-mapper.com/app)
 - [Neo4j](https://neo4j.com/)
-- [Kepler Mapping](https://kepler.gl/demo/) 
 - [Google Chart](https://developers.google.com/chart)
 - [Chart JS](https://www.chartjs.org/)
 - [fiugis](https://fiugis.maps.arcgis.com/home/index.html)
@@ -5398,10 +5312,12 @@ Resources and collection for your make tool OSINT
 - [leafletjs](https://leafletjs.com/)
 - [QGIS](https://www.qgis.org/)
 - [Flowchart maker](https://app.diagrams.net/)
-- [osintracker](https://app.osintracker.com/)
 - [babylonjs web 3D maker](https://www.babylonjs.com/)
 - [animejs](https://animejs.com/)
 - [echarts](https://echarts.apache.org/en/index.html)
+- [Yoga](https://github.com/WebBreacher/yoga)
+- [storymap js](https://storymap.knightlab.com/)
+- [osintracker](https://www.osintracker.com/)
 
 # Emoji Investigation
 
@@ -6165,7 +6081,7 @@ This is for you searching software and searching alternative software
 - [Barcode online reader](https://online-barcode-reader.inliteresearch.com/)
 - [Apple Barcode](https://support.apple.com/id-id/102680)
 
-# OSINT Measurement
+# MASINT 
 
 Analyzing for MASINT e.g your image, vidio, building, maps, simulation, sat or sensor and other things (mapping location) 
 
