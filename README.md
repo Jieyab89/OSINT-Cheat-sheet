@@ -2052,7 +2052,6 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [Hashtags.org](http://www.hashtags.org)
 - [MyTweetAlerts](https://www.mytweetalerts.com/) A tool to create custom email alerts based on Twitter search.
 - [OneMillionTweetMap](http://onemilliontweetmap.com)
-- [Social Bearing](http://www.socialbearing.com)
 - [Social Rank First Follower](http://socialrank.com/firstfollower)
 - [Spoonbill](http://spoonbill.io)
 - [Tagdef](https://tagdef.com)
@@ -5510,6 +5509,7 @@ Social Media Analytics
 - [CSI DB](https://www.csidb.net/)
 - [altenen](https://altenens.is)
 - [Groups MITRE](https://attack.mitre.org/groups/)
+- [threatactorusernames](https://threatactorusernames.com/)
 
 Guides 
 
@@ -6291,6 +6291,7 @@ Find the list and history about house property, price and etc
 
 You can search nickname, hacker team and hacker archive like web defacement data, programmer and other 
 
+- [threatactorusernames](https://threatactorusernames.com/)
 - [attrition](https://attrition.org/mirror/attrition/)
 - [Zone H](https://www.zone-h.org/archive?hz=1)
 - [defacer ID](https://defacer.id/)
