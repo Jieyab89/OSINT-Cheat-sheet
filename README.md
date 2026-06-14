@@ -42,6 +42,7 @@ Info
 | Date | Remarks |
 |------------|---------|
 | 1 Jun 2026 | New article for Github enumerate also attack surface in Github. Update the article about pentesting, All about stealer log and CTI. Intel base and knowledge base. Added more glosary also technique for your analysis and reccon, how apt works, stealer malware and common attacks, also new article about All About Narcotics or Drugs |
+| 14 Jun 2026 | New slide presentation talk about detail fundamental OSINT, OPSEC also method and darkweb intel, make your own tools also key in OSINT, DARKWEB, SOCMINT and other | 
 
 - [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
 - [All About Doxing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing)
@@ -1087,6 +1088,10 @@ You can find the file hash or other threat indicator
 - [braingainsoft find github email](https://braingainsoft.com/)
 - [github-tools-collection](https://glc.st/posts/github-tools-collection//)
 - [trufflehog](https://trufflesecurity.com/trufflehog)
+- [github-release-stats](https://tooomm.github.io/github-release-stats/)
+- [ossinsight github repo and username stats](https://ossinsight.io/)
+- [Github star repo analyzer](https://www.star-history.com/)
+- [gitcolombo find email github and commit](https://gitcolombo.soxoj.com/)
 
 Github Dork
 
