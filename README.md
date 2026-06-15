@@ -4932,6 +4932,7 @@ C2 & C4
 - [exploitpack](https://exploitpack.com/index.html)
 - [phpsploit](https://github.com/nil0x42/phpsploit)
 - [C2concealer](https://github.com/RedSiege/C2concealer)
+- [obalt Strike Community Kit](https://cobalt-strike.github.io/)
 
 *Notes
 
