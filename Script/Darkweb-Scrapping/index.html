@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jieyab Example Darkweb Onion Site Directory Scrapper</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    padding:30px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+}
+
+h1{
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.search-box{
+    margin-bottom:20px;
+}
+
+.search-box input{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.card{
+    background:white;
+    padding:15px;
+    border-radius:8px;
+    margin-bottom:10px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    margin-bottom:8px;
+    color:#333;
+}
+
+.card a{
+    color:#0066cc;
+    text-decoration:none;
+    word-break:break-all;
+}
+
+.card small{
+    display:block;
+    margin-top:8px;
+    color:#666;
+}
+
+.no-result{
+    text-align:center;
+    color:#888;
+    margin-top:20px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Jieyab Example Darkweb Onion Site Directory Scrapper</h1>
+
+    <div class="search-box">
+        <input type="text" id="search" placeholder="Search title, link, source...">
+    </div>
+
+    <div id="results"></div>
+</div>
+
+<script>
+let allData = [];
+
+async function loadData() {
+    const response = await fetch("output.json");
+    allData = await response.json();
+    renderData(allData);
+}
+
+function renderData(data) {
+    const results = document.getElementById("results");
+
+    if (data.length === 0) {
+        results.innerHTML = '<div class="no-result">No results found</div>';
+        return;
+    }
+
+    results.innerHTML = data.map(item => `
+        <div class="card">
+            <h3>${item.title}</h3>
+
+            <a href="${item.link}" target="_blank">
+                ${item.link}
+            </a>
+
+            <small>
+                Source: ${item.source}<br>
+                Stored: ${item.stored_date}
+            </small>
+        </div>
+    `).join('');
+}
+
+document.getElementById("search").addEventListener("input", function() {
+    const keyword = this.value.toLowerCase();
+
+    const filtered = allData.filter(item =>
+        item.title.toLowerCase().includes(keyword) ||
+        item.link.toLowerCase().includes(keyword) ||
+        item.source.toLowerCase().includes(keyword)
+    );
+
+    renderData(filtered);
+});
+
+loadData();
+</script>
+
+</body>
+</html>
