@@ -18,12 +18,7 @@ Here is a list of resources that need to be updated and checked by developers an
 
 Need to check after developer answer 
 
-- https://www.xmodelfinder.com/
-- https://scamdb.net/
-- https://devportal.redhuntlabs.com/home
-- search.synthient.com
-- https://tiktok.einzzcookie.org/ (need answer from dev)
-- filechef.com (expired domain)
+- 
 
 ## Issue about resouces list Jieyab. Supply chain, malware campaign, malicious   
 

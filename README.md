@@ -504,7 +504,6 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [DNS Spy](https://dnsspy.io)
 - [DNS Checker](https://dnschecker.org)
 - [HackerTarget](https://hackertarget.com/ip-tools)
-- [RedHunt Labs Attack Surface Recon API](https://devportal.redhuntlabs.com/home)
 - [Shodan](https://www.shodan.io)
 - [Wappalyzer](https://www.wappalyzer.com/)
 - [Sudomy](https://github.com/screetsec/Sudomy)
@@ -821,7 +820,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [malware-traffic-analysis](https://www.malware-traffic-analysis.net/2025/index.html)
 - [threatbook](https://i.threatbook.io/) Mostly IoC APT CN and RU
 - [huntress](https://www.huntress.com/)
-- [synthient](https://search.synthient.com/)
+- [synthient](https://synthient.com/)
 - [opensourcemalware](https://opensourcemalware.com/)
 - [breach house](https://breach.house/all_stealers)
 - [kleenscan](https://kleenscan.biz/)
@@ -1828,7 +1827,6 @@ or you can use dork for spesific example
 - [onlyfinder](https://onlyfinder.com/)
 - [onlyfans search](https://hubite.com/en/onlyfans-search/)
 - [fansearch](https://www.fansearch.com/)
-- [xmodelfinder](https://www.xmodelfinder.com/)
 - [sotugas onlyfans search username](https://sotugas.com/onlyfans/)
 
 # OSINT Adult or Porn (18+)
@@ -3174,6 +3172,7 @@ Desktop NET debugger and assembly editor
 - [GraphSense-Maltego-transform](https://github.com/INTERPOL-Innovation-Centre/GraphSense-Maltego-transform)
 - [chainalysis](https://www.chainalysis.com/blockchain-intelligence/)
 - [breadcrumbs](https://www.breadcrumbs.app/)
+- [cryptoscamdb crypto scam](https://cryptoscamdb.org/)
 
 # Crypto Market & Analysis  
 
@@ -3182,6 +3181,7 @@ Desktop NET debugger and assembly editor
 - [binance](https://www.binance.com/en/markets)
 - [geckoterminal](https://www.geckoterminal.com/)
 - [dexscreener](https://dexscreener.com/)
+- [cryptoscamdb crypto scam](https://cryptoscamdb.org/)
 
 Transaction Analysis
 
@@ -3956,10 +3956,12 @@ Guide for Surveillance
 
 # Fraud Checker
 
+- [darkseclabs](https://darkseclabs.com/)
+- [scamdb](https://www.scamdb.net/)
+- [cryptoscamdb crypto scam](https://cryptoscamdb.org/)
 - [prescam](https://www.prescam.com/)
 - [scamwarners forums](https://www.scamwarners.com/forum/)
 - [scamsearch](https://www.scamsearch.io/) Global Scam Database Search by Profile Picture, Email, Username, Pseudo Name, Phone Number, crypto address or website.
-- [ScamDB](https://scamdb.net/)- Report and Search Scam Accounts
 - [Cek Rekening](https://cekrekening.id/home) - Indonesian By Kominfo
 - [Kredibel](https://www.kredibel.com/) - Indonesian
 - [Verihub](https://verihubs.com/) - Indonesian
@@ -5515,6 +5517,9 @@ Social Media Analytics
 - [altenen](https://altenens.is)
 - [Groups MITRE](https://attack.mitre.org/groups/)
 - [threatactorusernames](https://threatactorusernames.com/)
+- [darkseclabs](https://darkseclabs.com/)
+- [scamdb](https://www.scamdb.net/)
+- [cryptoscamdb crypto scam](https://cryptoscamdb.org/)
 
 Guides 
 
