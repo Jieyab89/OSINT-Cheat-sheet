@@ -2,12 +2,21 @@ import requests
 import json
 import os
 from bs4 import BeautifulSoup
+import time
 
 # Arr URLs
 urls = {
     "readme": "https://raw.githubusercontent.com/Jieyab89/OSINT-Cheat-sheet/refs/heads/main/README.md",
     "wiki": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki",
     "articles": "https://raw.githubusercontent.com/Jieyab89/OSINT-Cheat-sheet/main/awesome-article.md"
+}
+
+headers = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/138.0 Safari/537.36"
+    )
 }
 
 json_file = os.path.join(os.pardir, "osint_data.json")
@@ -26,7 +35,12 @@ new_categories = {}
 current_category = None
 
 def parse_markdown_md(url):
-    response = requests.get(url)
+    time.sleep(6)
+    response = requests.get(url, headers=headers, timeout=30)    
+    # response = requests.get(url)
+    time.sleep(6)
+    response = requests.get(url, headers=headers, timeout=30)
+    
     if response.status_code != 200:
         print(f"[-] Failed to fetch: {url}")
         return {}
@@ -52,7 +66,14 @@ def parse_markdown_md(url):
 
 def parse_github_wiki(url):
     wiki_items = []
-    response = requests.get(url)
+
+    time.sleep(6)
+    response = requests.get(url, headers=headers, timeout=30)
+    wiki_items = []
+    # response = requests.get(url)
+    time.sleep(6)
+    response = requests.get(url, headers=headers, timeout=30)
+
     if response.status_code != 200:
         print(f"[-] Failed to fetch: {url}")
         return {}
