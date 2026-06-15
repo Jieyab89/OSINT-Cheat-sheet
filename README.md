@@ -317,6 +317,7 @@ Automated tool by David Bombal
 - [TOR Archive Github list node tor](https://tor-archive.github.io/)
 - [worldpopulationreview dataset information POI and other around world](https://worldpopulationreview.com/)
 - [zenodo all collection datasset](https://zenodo.org/)
+- [deepdarkCTI many information dataset for hunting cyber threat](https://github.com/fastfire/deepdarkCTI)
 
 # Forums & Sites
 
@@ -690,7 +691,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [lots-project](https://lots-project.com/)
 - [hijacklibs](https://hijacklibs.net/)
 - [wtfbins](https://wtfbins.wtf/)
-- [Filesec](https://filesec.io/)
+- [Filesec - check the extension also ttp attacker](https://filesec.io/)
 - [OPEN SOURCE MALWARE A community database, API and collaboration platform to help identify and protect against open-source malware](https://opensourcemalware.com/)
 - [URL Haus](https://urlhaus.abuse.ch/)
 - [watchguard ransomtracker](https://www.watchguard.com/wgrd-security-hub/ransomware-tracker)
@@ -851,7 +852,6 @@ Browser Sandbox
 - [tvway](http://tvway.ru/)
 - [Cameraftp](https://www.cameraftp.com/cameraftp/publish/publishedcameras.aspx)
 - [Insecam](http://Insecam.org)
-- [Webcams](https://github.com/pbkompasz/webcams)
 - [Molecool CCTV and Nearby](https://www.molecool.id/)
 - [Calculator IPVM](https://calculator.ipvm.com/)
 - [webcamtaxi](https://www.webcamtaxi.com/en/)
@@ -1246,6 +1246,7 @@ Example
 
 Web Defacement Archive 
 
+- [Wayback Machine](https://web.archive.org/)
 - [Zone H](https://www.zone-h.org/archive?hz=1)
 - [defacer ID](https://defacer.id/)
 - [zone xsec](https://zone-xsec.com/)
@@ -1421,7 +1422,7 @@ You can also use Google dork to search blogger profile
 # Medium OSINT
 
 - [freedium medium unpaywall](https://freedium.cfd/) Open at firefox and change DNS
-- [freedium (mirror) unpaywall](https://freedium-mirror.cfd/)
+- [freedium (mirror) unpaywall](https://freedium-mirror.cfd/) Open at firefox and change DNS
 
 # Tracking Website Changes
 
@@ -1879,7 +1880,7 @@ For this case u must know the context also dorking for better results
 
 Pro Tips 
 
-Note is for investigator like search scandal, deepfake porn or blackmail, red distric review, women, dating platform and porn actress. Searching for scandal or blackmail or deepfake porn doesn't have to be on the listed sites, there are many perpetrators uploading on several platforms You need to do massive scrapping to collect this information, but there are times when they do it on platforms such as telegram, X or adult sites, you can search using dork, regex and linguistic like slang, abbreviation of word and other things
+Note is for investigator like search scandal, deepfake porn or blackmail, red district review, women, dating platform and porn actress. Searching for scandal or blackmail or deepfake porn doesn't have to be on the listed sites, there are many perpetrators uploading on several platforms You need to do massive scrapping to collect this information, but there are times when they do it on platforms such as telegram, X or adult sites, you can search using dork, regex and linguistic like slang, abbreviation of word and other things
 
 # Steam 
 
@@ -2202,8 +2203,8 @@ Google queries for MySpace
 - [flashpoint](https://flashpoint.io/)
 - [canarytokens](https://canarytokens.org/nest/)
 - [Intel471](https://intel471.com/)
-- [CSE Google alert](https://cse.google.com/cse?cx=013991603413798772546:rs7bbm8kdsg#gsc.tab=0)
 - [shadowdragon](https://shadowdragon.io/)
+- [IGDetective](https://www.igdetective.com/) Track public Instagram accounts without login — recent follows/unfollows in chronological order, top interactions, and anonymous story viewing
 
 # EXIF Analysis
 
@@ -2336,10 +2337,11 @@ Google queries for MySpace
 - [flameshot](https://flameshot.org/)
 - [Googl earth pro](https://earth.google.com/web)
 - [Wayback Twitter](https://waybacktweets.streamlit.app/)
+- [OBS](https://obsproject.com/)
 
-# OSINT Online Tool [will check again] 
+# OSINT Online Tool
 
-Mostly general for searching data like web enumerate, attack surface, email, person and etc with hosted and manual installation (local install)
+Mostly general for searching data like web enumerate, attack surface, email, person and etc with hosted and manual installation (local install) in your machine
 
 - [fingerprint](https://fingerprint.to/)
 - [shadowdragon free tools](https://shadowdragon.io/blog/category/free-osint-tools/)
@@ -2367,7 +2369,6 @@ Mostly general for searching data like web enumerate, attack surface, email, per
 - [UBIKRON](https://www.osint-tool.com/unravel-help/)
 - [netlas.io](https://app.netlas.io/host/)
 - [usersearch](https://usersearch.ai/)
-- [donwloader - available support other site](https://cobalt.tools/)
 - [securitytrails](https://securitytrails.com/)
 
 # Telegram Tool
@@ -2426,6 +2427,7 @@ Search channel, username, bot and anymore
 - [Discover the location of nearby Telegram users](https://github.com/tejado/telegram-nearby-map)
 - [waybien search telegram chat, grup and other](https://waybien.com/en)
 - [tdirectory](https://tdirectory.me/)
+- [deepdarkCTI telegram dataset](https://github.com/fastfire/deepdarkCTI)
 
 Telegram Tips 
 
@@ -2506,7 +2508,7 @@ Scribd downloader
 - [socialscan](https://pypi.org/project/socialscan/)
 - [inspektur](https://github.com/bgwastu/inspektur)
 
-# Image Search [will check again]
+# Image Search
 
 - [7Photos](http://7photos.net)
 - [Baidu Images](http://image.baidu.com)
@@ -2538,7 +2540,6 @@ Scribd downloader
 - [Face++](https://www.faceplusplus.com/)
 - [AWS-Recon](https://aws.amazon.com/rekognition/)
 - [Azure vidio indexer](https://vi.microsoft.com/en-us)
-- [Webcams](https://github.com/pbkompasz/webcams)
 - [InVID Verification](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)
 - [Google Lens](https://lens.google.com/)
 - [Robots Verify](https://www.robots.ox.ac.uk/~vgg/software/vff/)
@@ -2556,7 +2557,6 @@ Scribd downloader
 - [alamy](https://www.alamy.com/)
 - [rootabout](https://rootabout.com/)
 - [copyseeker](https://copyseeker.net/)
-- [infringement image search](https://infringement.report/api/raider-reverse-image-search/)
 - [Face Similarity Test Online](https://facecomparison.toolpie.com/)
 - [huggingface Face-Search-Online](https://huggingface.co/spaces/FaceOnLive/Face-Search-Online)
 - [faceseek](https://faceseek.online/)
@@ -2571,22 +2571,16 @@ Scribd downloader
 - [dailymotion](https://www.dailymotion.com/)
 - [giphy](https://giphy.com/)
 
-# Image Analysis [Will check again]
+# Image Analysis
 
 - [geoseeer AI Geo find](https://geoseeer.com/)
 - [facerec face compare aka face reccon](https://facerec.gjung.com/ComparingFaces)
 - [ExifTool](https://exiftool.org/)
 - [Exif Search](http://www.exif-search.com)
 - [FotoForensics](http://www.fotoforensics.com)
-- [Gbimg.org](http://gbimg.org)
-- [Ghiro](http://www.getghiro.org)
-- [ImpulseAdventure](http://www.impulseadventure.com/photo/jpeg-snoop.html)
-- [Jeffreys Image Metadata Viewer](http://exif.regex.info/)
 - [JPEGsnoop](https://sourceforge.net/projects/jpegsnoop)
-- [Metapicz](http://metapicz.com/)
 - [Forensically](https://29a.ch/photo-forensics/)
 - [DiffChecker](https://www.diffchecker.com/image-diff/)
-- [ImgOps](https://imgops.com/)
 - [Pimeyes](https://pimeyes.com/en)
 - [Reminiai](https://remini.ai/)
 - [Search4face](https://search4faces.com/en/)
@@ -2599,7 +2593,6 @@ Scribd downloader
 - [Pelock](https://www.pelock.com/products/steganography-online-codec)
 - [OCR Image](https://www.newocr.com/)
 - [labs.tib.eu](https://labs.tib.eu/geoestimation/)
-- [Webcams](https://github.com/pbkompasz/webcams)
 - [imago-forensics](https://github.com/redaelli/imago-forensics)
 - [Face recon](https://github.com/ageitgey/face_recognition)
 - [Cleanup pictures](https://cleanup.pictures/)
@@ -2607,11 +2600,8 @@ Scribd downloader
 - [InVID Verification](https://www.invid-project.eu/tools-and-services/invid-verification-plugin/)
 - [Google Lens](https://lens.google.com/)
 - [Exif Purge](https://www.exifpurge.com/)
-- [VGG Image Classification](https://www.robots.ox.ac.uk/~vgg/software/vic/)
-- [VGG Image Search Engine (VISE)](https://robots.ox.ac.uk/~vgg/software/vise/)
 - [Fake face detector](https://seintpl.github.io/AmIReal/)
 - [GeoSpy](https://geospy.web.app/)
-- [gvision](https://github.com/GONZOsint/gvision)
 - [DiffChecker](https://www.diffchecker.com/image-diff/)
 - [ImgOps](https://imgops.com/)
 - [Telegram Face Match Bot](https://t.me/facematch_bot)
@@ -2701,7 +2691,6 @@ Scribd downloader
 - [Video Stabilization Methods](https://github.com/yaochih/awesome-video-stabilization)
 - [Azure vidio indexer](https://vi.microsoft.com/en-us)
 - [Bilibili scraper](https://github.com/yixiangyin/bilibili-scraper)
-- [Webcams](https://github.com/pbkompasz/webcams)
 - [airportwebcams](https://airportwebcams.net/)
 - [Earthcam](https://www.earthcam.com/#google_vignette)
 - [tvway](http://tvway.ru/)
@@ -3812,7 +3801,7 @@ Guide
 - [Yggdrasil](https://github.com/Jarl-Bjoern/Yggdrasil/)
 - [MISP](https://www.misp-project.org/)
 - [Maltego](https://www.maltego.com/)
-- [Filesec](https://filesec.io/)
+- [Filesec - check the extension also ttp attacker](https://filesec.io/)
 - [Logstash kibana](https://www.elastic.co/logstash/)
 - [Kibana](https://www.elastic.co/kibana/)
 - [Extundelete Ext3 or ext4 partition recovery](https://extundelete.sourceforge.net/)
