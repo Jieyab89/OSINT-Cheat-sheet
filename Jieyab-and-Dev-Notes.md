@@ -25,6 +25,7 @@ Need to check after developer answer
 Resources like this will be taken down immediately without any response from the developer; they contain malware, obfuscated scripts, and other harmful elements.
 
 - https://codefinder.org/ (takeober by hacker defacement and online gambling campagin)
+- https://faceagle.com/ (takeober by hacker defacement and online gambling campagin)
 
 ## Issue about resouces list Jieyab. The tools are error and not work and stop development  
 
