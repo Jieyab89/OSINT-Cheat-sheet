@@ -1064,6 +1064,7 @@ You can find the file hash or other threat indicator
 
 # Github 
 
+- [profile-summary-for-github.com](https://profile-summary-for-github.com/search)
 - [gitleak find info in Github](https://gitleak.io/)
 - [gitdb](https://gitdb.net/)
 - [gitleaks](https://github.com/gitleaks/gitleaks) Find secrets with Gitleaks
@@ -4503,6 +4504,7 @@ Secure Email Gateway (SEG) for phishing email header (escape detection)
 - [Advanced SQL Injection](https://github.com/kleiton0x00/Advanced-SQL-Injection-Cheatsheet) A cheat sheet that contains advanced queries for SQL Injection of all types.
 - [Payload all the things](https://github.com/swisskyrepo/PayloadsAllTheThings) A list of useful payloads and bypass for Web Application Security and Pentest/CTF 
 - [Hack Tricks](https://book.hacktricks.xyz/) The great sites for pentesting and recon cheat sheet
+- [pentest-book](https://github.com/six2dez/pentest-book) he great sites for pentesting and recon cheat sheet
 - [GAP-Burp-Extension](https://github.com/xnl-h4ck3r/GAP-Burp-Extension) Burp Extension to find potential endpoints, parameters, and generate a custom target wordlist
 - [Cloundflare](https://github.com/greycatz/CloudUnflare) Reconnaissance Real IP address for Cloudflare Bypass
 - [Cloudmare](https://github.com/MrH0wl/Cloudmare) Cloudflare, Sucuri, Incapsula real IP tracker.
@@ -4669,6 +4671,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [vulners](https://vulners.com/) Search CVE and common vulnerability
 - [Guadian CLI](https://github.com/zakirkun/guardian-cli) Guardian is a production-ready AI-powered penetration testing automation CLI tool that leverages Google Gemini and LangChain to orchestrate intelligent, step-by-step penetration testing workflows while maintaining ethical hacking standards.
 - [malapi](https://malapi.io/) Reference for Windows APIs that are commonly abused by malware or frequently used in cyber security contexts. It serves as a "cheat sheet" for malware analysts
+- [rlwrap](https://pkg.kali.org/pkg/rlwrap) Listener like netcat (nc) for reverse shell
 
 Social Engineering (Social E)
 
@@ -6011,6 +6014,7 @@ Social Media
 
 # Linux Distribution Package Search 
 
+- [pkgs Kali Linux](https://pkg.kali.org/)
 - [Redhat Linux](https://access.redhat.com/search/?q=packages&documentKind=Solution%26Article)
 - [Debian Linux](https://packages.debian.org/index)
 - [Arch Linux](https://archlinux.org/packages/)
