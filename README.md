@@ -3663,8 +3663,9 @@ Browser Sandbox
 
 # Darkweb Intelligence
 
+- [DeepLink Onion Directory (ONION SITES)](http://deepxfmkjlils3vd7bru5rrxy3x3lchjgmv3wsgycjfynktmuwgm64qd.onion/)
+- [Wiki Pages (ONION SITES)](http://uquroyobsaquslaunwkz6bmc3wutpzvwe7mv62xeq64645a57bugnsyd.onion/)
 - [ail-framework](https://github.com/ail-project/ail-framework)
-- [breaking bad forums (ONION SITE)](http://bbzzzsvqcrqtki6umym6itiixfhni37ybtt7mkbjyxn2pgllzxf2qgyd.onion/)
 - [onion scan](https://onionscan.org/)
 - [onionite](https://github.com/lukechilds/onionite?tab=readme-ov-file)
 - [WhiteIntel](https://whiteintel.io/)
@@ -3762,11 +3763,13 @@ Browser Sandbox
 - [Lowernet dir (ONION SITES)](http://loweruw2vupx3izp4hkmaotner6gjo4ooz6d4kdzqjbfkxqa2nlvjcyd.onion/)
 - [deepweeblink lists (ONION SITES)](http://darkwev6xtagl7742tqu24v2j4namr5ocfsfpha74a5nh4bwyp27a3ad.onion/)
 - [hidden links 2 (ONION SITES)](http://hiddenl3nnlkhu2lz3exwpuiflna2in5uxetcjlflaunva6ls6nyzyad.onion/)
+- [grams (ONION SITES)](http://grams64rarzrk7rzdaz2fpb7lehcyi7zrrf5kd6w2uoamp7jw2aq6vyd.onion/)
 
 # Darkweb Forums 
 
 Onion and surface site forums 
 
+- [breaking bad forums (ONION SITE)](http://bbzzzsvqcrqtki6umym6itiixfhni37ybtt7mkbjyxn2pgllzxf2qgyd.onion/)
 - [BHF FORUMS](http://bhf2b5nb3lb2kxpaoyqz7cuk2dkgej5n2refuffxzyhldwt4d7de4zqd.onion/)
 - [CRYPTBB](http://cryptbbtg65gibadeeo2awe3j7s6evg7eklserehqr4w4e2bis5tebid.onion)
 - [altenens surface web](https://altenens.is/threads/darkweb-2025-onion-links-new.2619050/)
