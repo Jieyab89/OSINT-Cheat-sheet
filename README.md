@@ -41,7 +41,7 @@ Info
 
 | Date | Remarks |
 |------------|---------|
-| 1 Jun 2026 | New article for Github enumerate also attack surface in Github. Update the article about pentesting, All about stealer log and CTI. Intel base and knowledge base. Added more glosary also technique for your analysis and reccon, how apt works, stealer malware and common attacks, also new article about All About Narcotics or Drugs |
+| 15 Jun 2026 | Update the article about darkweb intel for osint and scrapping |
 | 14 Jun 2026 | New slide presentation talk about detail fundamental OSINT, OPSEC also method and darkweb intel, make your own tools also key in OSINT, DARKWEB, SOCMINT and other | 
 
 - [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
@@ -1989,6 +1989,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 
 # Reddit 
 
+- [rosint](https://www.rosint.dev/)
 - [redlib viewer online](https://redlib.catsarch.com/)
 - [Reddit Account Extractor](https://www.reddit.com/user/<USERNAME-HERE>/about.json)
 - [Archive Reddit](https://www.redditarchive.com/)
@@ -4932,7 +4933,7 @@ C2 & C4
 - [exploitpack](https://exploitpack.com/index.html)
 - [phpsploit](https://github.com/nil0x42/phpsploit)
 - [C2concealer](https://github.com/RedSiege/C2concealer)
-- [obalt Strike Community Kit](https://cobalt-strike.github.io/)
+- [cobalt Strike Community Kit](https://cobalt-strike.github.io/)
 
 *Notes
 
