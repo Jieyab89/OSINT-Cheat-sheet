@@ -2173,7 +2173,6 @@ Google queries for MySpace
 - [Tktok username lookup and viewer](https://omar-thing.nekoweb.org/)
 - [socialblade](https://socialblade.com/)
 - [Tiktok Legal Guidelance for law enforcement](https://www.tiktok.com/legal/page/global/law-enforcement/en)
-- [TikTok User Finder](https://omar-thing.site/)
 - [mavekite tiktok analytics](https://mavekite.com/)
 - [urlebird tiktok viewer](https://urlebird.com/)
 - [tikface TikTok Viewer](https://www.tikface.com/)
