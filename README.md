@@ -1277,6 +1277,7 @@ Malware Database Archive
 - [zerobin](https://zerobin.net/)
 - [xposedornot](https://xposedornot.com/)
 - [telegra.ph](https://telegra.ph/) You can use dork for search data
+- [linktr](https://linktr.ee/) You can use dork for search data
 - [leakix](https://leakix.net/)
 - [leakScraper](https://github.com/Acceis/leakScraper)
 - [clatscope](https://github.com/clats97/clatscope)
