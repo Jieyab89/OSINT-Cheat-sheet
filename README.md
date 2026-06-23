@@ -1274,6 +1274,7 @@ Malware Database Archive
 
 # Data Breached OSINT
 
+- [mediafire](https://www.mediafire.com/) You must to dork 
 - [zerobin](https://zerobin.net/)
 - [xposedornot](https://xposedornot.com/)
 - [telegra.ph](https://telegra.ph/) You can use dork for search data
@@ -5482,6 +5483,7 @@ Social Media Analytics
 
 # Threat Actor & Criminal Search 
 
+- [BF Database Search](https://bf.based.re/)
 - [infostealers](https://www.infostealers.com/)
 - [eumostwanted EU](https://eumostwanted.eu/)
 - [nationalcrimeagency UK](https://www.nationalcrimeagency.gov.uk/most-wanted)
@@ -5509,7 +5511,6 @@ Social Media Analytics
 - [Pitch darkweb (ONION SITE)](https://pitchprash4aqilfr7sbmuwve3pnkpylqwxjbj2q5o4szcfeea6d27yd.onion/)
 - [Dread darkweb (ONION SITE)](https://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion)
 - [CSI DB](https://www.csidb.net/)
-- [altenen](https://altenens.is)
 - [Groups MITRE](https://attack.mitre.org/groups/)
 - [threatactorusernames](https://threatactorusernames.com/)
 - [darkseclabs](https://darkseclabs.com/)
