@@ -566,6 +566,7 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 - [view DNS](https://viewdns.info/)
 - [visualping](https://visualping.io/)
 - [jam dev browser extension](https://jam.dev/)
+- [VirusTotal Whois History](https://www.virustotal.com/gui/home/upload)
 - [Whoxy Whois History](https://www.whoxy.com/whois-history/)
 - [whoisfreaks Whois History](https://whoisfreaks.com/)
 - [domaintools Whois History](https://research.domaintools.com/research/whois-history/)
@@ -1274,8 +1275,9 @@ Malware Database Archive
 
 # Data Breached OSINT
 
+- [justpaste](https://justpaste.it/) You must to dork 
 - [mediafire](https://www.mediafire.com/) You must to dork 
-- [zerobin](https://zerobin.net/)
+- [zerobin](https://zerobin.net/) You must to dork 
 - [xposedornot](https://xposedornot.com/)
 - [telegra.ph](https://telegra.ph/) You can use dork for search data
 - [linktr](https://linktr.ee/) You can use dork for search data
@@ -2449,6 +2451,7 @@ Telegram tips. Change the hash value, username, phone number on the endpoint or 
 
 # Document and Slides Search OSINT
 
+- [linktr](https://linktr.ee/) You can use dork for search data
 - [filephish](https://greylensresearch.github.io/filephish/)
 - [Find-pdf-doc](http://www.findpdfdoc.com)
 - [Free Full PDF](http://www.freefullpdf.com)
