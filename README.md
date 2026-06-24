@@ -3769,6 +3769,12 @@ Browser Sandbox
 
 Onion and surface site forums 
 
+- [Dread forum (ONION SITE)](http://dreadyj7l26jqvyk3xycgljkkagc32x2y5urlcse3qocylzn53oj2byd.onion/)
+- [dreadforum surface web](https://dreadforum.io/)
+- [breached surface web](https://breached.su/)
+- [darknetarmy surface web](https://darknetarmy.io/)
+- [cracked surface web](https://cracked.st/)
+- [spear surface web](https://spear.cx/)
 - [breaking bad forums (ONION SITE)](http://bbzzzsvqcrqtki6umym6itiixfhni37ybtt7mkbjyxn2pgllzxf2qgyd.onion/)
 - [BHF FORUMS (ONION SITE)](http://bhf2b5nb3lb2kxpaoyqz7cuk2dkgej5n2refuffxzyhldwt4d7de4zqd.onion/)
 - [CRYPTBB](http://cryptbbtg65gibadeeo2awe3j7s6evg7eklserehqr4w4e2bis5tebid.onion)
@@ -3793,6 +3799,8 @@ Onion and surface site forums
 - [Reddit (ONION SITE)](https://www.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion/)
 - [Exploit.in (ONION SITE)](https://exploitivzcm5dawzhe6c32bbylyggbjvh5dyvsvb5lkuz5ptmunkmqd.onion/)
 - [PASTE BOX Paste like pastebin but in onion (ONION SITE)](http://pasteboxx44wtzbm3ldjkcncls6uggi7mipmdwef5zza6wjqrqrtxdid.onion/)
+- [Breach forums (ONION SITE)](http://darkfoxaqhfpxkrbt7vxns2z2u2k72sgmqbzeorupaiottw3ecm2wgyd.onion/)
+- [Breach forums 2 (ONION SITE)](http://breach3cupt44pnca4fn4npav6huarn3etzbjsusfqmcepff47qwnxqd.onion/member)
 
 Guide 
 
