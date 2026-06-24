@@ -477,7 +477,8 @@ def main():
     )
     
     print()
-    print("===========TABLE VIEW==============")
+    print("TABLE VIEW")
+    print()
     print_table(results, use_color=not args.no_color)
     print()
     output_data = {
