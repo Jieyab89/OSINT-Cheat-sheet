@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jieyab89 Domain Enum TLD Viewer</title>
+<style>
+  :root {
+    --bg: #0a0e14;
+    --panel: #11161f;
+    --panel-2: #151b26;
+    --border: #1c2433;
+    --text: #e8ecf2;
+    --muted: #6b7686;
+    --muted-2: #8b96a8;
+    --green: #3ddc84;
+    --green-dim: #1f5e3d;
+    --red: #ff5c5c;
+    --red-dim: #5e2222;
+    --yellow: #e0c068;
+    --accent: #5b8cff;
+    --mono: "JetBrains Mono", "IBM Plex Mono", "SF Mono", Consolas, monospace;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 13px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ---- top bar ---- */
+  .topbar {
+    border-bottom: 1px solid var(--border);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--panel);
+  }
+  .topbar .brand {
+    color: var(--green);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .topbar .brand::before {
+    content: "❯ ";
+    color: var(--muted);
+  }
+  .topbar .meta {
+    color: var(--muted);
+    font-size: 12px;
+  }
+
+  .wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 24px 20px 60px;
+  }
+
+  /* ---- loader ---- */
+  .loader {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: var(--panel);
+    border: 1px dashed var(--border);
+    padding: 14px 16px;
+    margin-bottom: 20px;
+  }
+  .file-btn {
+    background: var(--panel-2);
+    border: 1px solid var(--border);
+    color: var(--green);
+    padding: 8px 16px;
+    font-size: 12px;
+    font-family: var(--mono);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: border-color .12s, background .12s;
+  }
+  .file-btn:hover {
+    border-color: var(--green);
+    background: rgba(61, 220, 132, 0.06);
+  }
+  .loader-hint {
+    color: var(--muted);
+    font-size: 12px;
+  }
+  .loader-hint.ok { color: var(--green); }
+  .loader-hint.err { color: var(--red); }
+
+  /* ---- stats ---- */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    margin-bottom: 20px;
+  }
+  .stat {
+    background: var(--panel);
+    padding: 14px 16px;
+  }
+  .stat .num {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text);
+  }
+  .stat .label {
+    color: var(--muted);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    margin-top: 4px;
+  }
+  .stat.resolved .num { color: var(--green); }
+  .stat.status200 .num { color: var(--accent); }
+
+  /* ---- search ---- */
+  .search-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    padding: 12px 16px;
+    margin-bottom: 14px;
+  }
+  .search-box .prompt {
+    color: var(--green);
+    font-weight: 700;
+  }
+  .search-box input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 14px;
+    caret-color: var(--green);
+  }
+  .search-box input::placeholder { color: var(--muted); }
+  .search-box .count {
+    color: var(--muted);
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  /* ---- filters ---- */
+  .filters {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+  }
+  .chip {
+    border: 1px solid var(--border);
+    background: var(--panel);
+    color: var(--muted-2);
+    padding: 6px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    user-select: none;
+    transition: border-color .12s, color .12s;
+  }
+  .chip:hover { border-color: var(--muted); color: var(--text); }
+  .chip.active {
+    border-color: var(--green);
+    color: var(--green);
+    background: rgba(61, 220, 132, 0.08);
+  }
+  .chip.active[data-filter="down"] {
+    border-color: var(--red);
+    color: var(--red);
+    background: rgba(255, 92, 92, 0.08);
+  }
+
+  /* ---- table ---- */
+  .table-wrap {
+    border: 1px solid var(--border);
+    overflow-x: auto;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 980px;
+  }
+  thead th {
+    text-align: left;
+    background: var(--panel-2);
+    color: var(--muted-2);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    white-space: nowrap;
+  }
+  tbody td {
+    padding: 9px 14px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  tbody tr { background: var(--panel); }
+  tbody tr:hover { background: var(--panel-2); }
+  tbody tr.no-match { display: none; }
+
+  .domain-cell { color: var(--text); font-weight: 600; }
+  .domain-cell mark, td mark {
+    background: var(--green);
+    color: #061109;
+    padding: 0 2px;
+  }
+  .tld-tag {
+    color: var(--accent);
+  }
+  .badge {
+    display: inline-block;
+    padding: 1px 7px;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: 700;
+  }
+  .badge.up { background: rgba(61,220,132,0.12); color: var(--green); }
+  .badge.down { background: rgba(255,92,92,0.10); color: var(--red); }
+  .code-200 { color: var(--green); font-weight: 700; }
+  .code-other { color: var(--yellow); }
+  .code-err { color: var(--muted); }
+  .title-cell { color: var(--muted-2); }
+  .empty-dash { color: var(--muted); }
+
+  .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--muted);
+  }
+  .empty-state .glyph {
+    font-size: 28px;
+    color: var(--border);
+    margin-bottom: 10px;
+  }
+
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 11px;
+    margin-top: 18px;
+  }
+
+  ::-webkit-scrollbar { height: 8px; width: 8px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--border); }
+
+  @media (max-width: 700px) {
+    .stats { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <span class="brand">Jieyab89 Domain TLD Reccon</span>
+  <span class="meta" id="targetMeta">target: -</span>
+</div>
+
+<div class="wrap">
+
+  <div class="loader" id="loaderBox">
+    <label class="file-btn" for="fileInput">📂 load JSON output</label>
+    <input type="file" id="fileInput" accept=".json" hidden>
+    <span class="loader-hint" id="loaderHint">no file loaded — choose Results-tld-domain.json</span>
+  </div>
+
+  <div class="stats" id="statsRow"></div>
+
+  <div class="search-box">
+    <span class="prompt">grep&gt;</span>
+    <input id="searchInput" type="text" placeholder="search domain, tld, title, ip, server, ns..." autofocus>
+    <span class="count" id="resultCount">0 / 0</span>
+  </div>
+
+  <div class="filters" id="filterRow">
+    <span class="chip active" data-filter="all">all</span>
+    <span class="chip" data-filter="up">dns: up</span>
+    <span class="chip" data-filter="down">dns: down</span>
+    <span class="chip" data-filter="200">http 200</span>
+  </div>
+
+  <div class="table-wrap">
+    <table id="resultTable">
+      <thead>
+        <tr>
+          <th>domain</th>
+          <th>tld</th>
+          <th>dns</th>
+          <th>ip</th>
+          <th>http/https</th>
+          <th>title</th>
+          <th>server</th>
+          <th>ns</th>
+        </tr>
+      </thead>
+      <tbody id="resultBody"></tbody>
+    </table>
+    <div class="empty-state" id="emptyState" style="display:none;">
+      <div class="glyph">∅</div>
+      no_match_found
+    </div>
+  </div>
+
+  <footer id="footerInfo"></footer>
+
+</div>
+
+<script>
+let DATA = { target_name: "-", total_checked: 0, total_resolved: 0, total_status_200: 0, common_tlds_checked: 0, brute_force_checked: 0, elapsed_seconds: 0, results: [] };
+
+function getCombinedStatus(r) {
+  const parts = [];
+  for (const scheme of ["https", "http"]) {
+    const info = r[scheme];
+    if (!info) continue;
+    if (info.status_code !== undefined) parts.push(`${scheme[0].toUpperCase()}:${info.status_code}`);
+    else if (info.error) parts.push(`${scheme[0].toUpperCase()}:ERR`);
+  }
+  return parts.length ? parts.join(", ") : "-";
+}
+function getCombinedTitle(r) {
+  for (const scheme of ["https", "http"]) {
+    const info = r[scheme];
+    if (info && info.title) return info.title;
+  }
+  return null;
+}
+function getCombinedServer(r) {
+  for (const scheme of ["https", "http"]) {
+    const info = r[scheme];
+    if (info && info.server) return info.server;
+  }
+  return null;
+}
+function hasStatus200(r) {
+  for (const scheme of ["https", "http"]) {
+    const info = r[scheme];
+    if (info && info.status_code === 200) return true;
+  }
+  return false;
+}
+function escapeHtml(str) {
+  if (str === null || str === undefined) return "";
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+function highlight(text, query) {
+  const safe = escapeHtml(text);
+  if (!query) return safe;
+  try {
+    const re = new RegExp("(" + query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "ig");
+    return safe.replace(re, "<mark>$1</mark>");
+  } catch (e) {
+    return safe;
+  }
+}
+
+let results = [];
+let rowEls = [];
+let activeFilter = "all";
+
+function renderStats() {
+  const stats = [
+    { label: "target", value: DATA.target_name, plain: true },
+    { label: "checked", value: DATA.total_checked },
+    { label: "resolved", value: DATA.total_resolved, cls: "resolved" },
+    { label: "http 200", value: DATA.total_status_200, cls: "status200" },
+    { label: "elapsed", value: DATA.elapsed_seconds + "s" }
+  ];
+  document.getElementById("statsRow").innerHTML = stats.map(s => `
+    <div class="stat ${s.cls || ""}">
+      <div class="num">${escapeHtml(s.value)}</div>
+      <div class="label">${s.label}</div>
+    </div>
+  `).join("");
+  document.getElementById("targetMeta").textContent = `target: ${DATA.target_name} · ${DATA.total_checked} tld checked`;
+  document.getElementById("footerInfo").textContent =
+    `${results.length} entries loaded · common_tlds: ${DATA.common_tlds_checked} · brute_force: ${DATA.brute_force_checked}`;
+}
+
+function rowMatchesFilter(r) {
+  if (activeFilter === "all") return true;
+  if (activeFilter === "up") return !!r.resolved;
+  if (activeFilter === "down") return !r.resolved;
+  if (activeFilter === "200") return hasStatus200(r);
+  return true;
+}
+
+function rowMatchesSearch(r, q) {
+  if (!q) return true;
+  const haystack = [
+    r.domain,
+    r.tld,
+    getCombinedTitle(r),
+    getCombinedServer(r),
+    ...(r.ip || []),
+    ...(r.ns || [])
+  ].filter(Boolean).join(" ").toLowerCase();
+  return haystack.includes(q.toLowerCase());
+}
+
+function buildRow(r) {
+  const tr = document.createElement("tr");
+  tr.dataset.domain = r.domain.toLowerCase();
+  tr.dataset.tld = r.tld.toLowerCase();
+  tr.dataset.title = (getCombinedTitle(r) || "").toLowerCase();
+  tr.dataset.server = (getCombinedServer(r) || "").toLowerCase();
+  tr.dataset.ip = (r.ip || []).join(" ").toLowerCase();
+  tr.dataset.ns = (r.ns || []).join(" ").toLowerCase();
+  tr.dataset.resolved = r.resolved ? "1" : "0";
+  tr.dataset.s200 = hasStatus200(r) ? "1" : "0";
+
+  const status = getCombinedStatus(r);
+  const statusCls = hasStatus200(r) ? "code-200" : (status === "-" ? "code-err" : "code-other");
+  const title = getCombinedTitle(r);
+  const server = getCombinedServer(r);
+  const ip = (r.ip || []).join(", ");
+  const ns = (r.ns || []).join(", ");
+  const dnsBadge = r.resolved
+    ? `<span class="badge up">UP</span>`
+    : `<span class="badge down">DOWN</span>`;
+
+  tr.innerHTML = `
+    <td class="domain-cell" data-field="domain">${escapeHtml(r.domain)}</td>
+    <td class="tld-tag" data-field="tld">${escapeHtml(r.tld)}</td>
+    <td data-field="dns">${dnsBadge}</td>
+    <td data-field="ip">${ip ? escapeHtml(ip) : '<span class="empty-dash">-</span>'}</td>
+    <td class="${statusCls}" data-field="status">${escapeHtml(status)}</td>
+    <td class="title-cell" data-field="title">${title ? escapeHtml(title) : '<span class="empty-dash">-</span>'}</td>
+    <td data-field="server">${server ? escapeHtml(server) : '<span class="empty-dash">-</span>'}</td>
+    <td data-field="ns">${ns ? escapeHtml(ns) : '<span class="empty-dash">-</span>'}</td>
+  `;
+  return tr;
+}
+
+const tbody = document.getElementById("resultBody");
+
+function renderTable() {
+  tbody.innerHTML = "";
+  rowEls = results.map(r => {
+    const el = buildRow(r);
+    tbody.appendChild(el);
+    return { el, r };
+  });
+}
+
+function applyFilters() {
+  const q = document.getElementById("searchInput").value.trim();
+  let visibleCount = 0;
+
+  rowEls.forEach(({ el, r }) => {
+    const matches = rowMatchesFilter(r) && rowMatchesSearch(r, q);
+    el.classList.toggle("no-match", !matches);
+    if (matches) {
+      visibleCount++;
+      // re-render highlighted cells
+      el.querySelector('[data-field="domain"]').innerHTML = highlight(r.domain, q);
+      el.querySelector('[data-field="tld"]').innerHTML = highlight(r.tld, q);
+      const titleVal = getCombinedTitle(r);
+      el.querySelector('[data-field="title"]').innerHTML = titleVal ? highlight(titleVal, q) : '<span class="empty-dash">-</span>';
+      const serverVal = getCombinedServer(r);
+      el.querySelector('[data-field="server"]').innerHTML = serverVal ? highlight(serverVal, q) : '<span class="empty-dash">-</span>';
+      const ipVal = (r.ip || []).join(", ");
+      el.querySelector('[data-field="ip"]').innerHTML = ipVal ? highlight(ipVal, q) : '<span class="empty-dash">-</span>';
+      const nsVal = (r.ns || []).join(", ");
+      el.querySelector('[data-field="ns"]').innerHTML = nsVal ? highlight(nsVal, q) : '<span class="empty-dash">-</span>';
+    }
+  });
+
+  document.getElementById("resultCount").textContent = `${visibleCount} / ${results.length}`;
+  document.getElementById("emptyState").style.display = visibleCount === 0 ? "block" : "none";
+  document.getElementById("resultTable").style.display = visibleCount === 0 ? "none" : "table";
+}
+
+function loadJsonFile(file) {
+  const hint = document.getElementById("loaderHint");
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    let parsed;
+    try {
+      parsed = JSON.parse(e.target.result);
+    } catch (err) {
+      hint.textContent = `failed to parse JSON: ${err.message}`;
+      hint.className = "loader-hint err";
+      return;
+    }
+    if (!parsed || !Array.isArray(parsed.results)) {
+      hint.textContent = `invalid format — field "results" (array) not found`;
+      hint.className = "loader-hint err";
+      return;
+    }
+    DATA = parsed;
+    results = DATA.results;
+    hint.textContent = `loaded: ${file.name} (${results.length} entries)`;
+    hint.className = "loader-hint ok";
+    renderStats();
+    renderTable();
+    applyFilters();
+  };
+  reader.onerror = () => {
+    hint.textContent = "failed to read file";
+    hint.className = "loader-hint err";
+  };
+  reader.readAsText(file);
+}
+
+document.getElementById("fileInput").addEventListener("change", (e) => {
+  const file = e.target.files[0];
+  if (file) loadJsonFile(file);
+});
+
+// drag & drop support
+const loaderBox = document.getElementById("loaderBox");
+["dragover", "dragenter"].forEach(evt =>
+  loaderBox.addEventListener(evt, (e) => { e.preventDefault(); loaderBox.style.borderColor = "var(--green)"; })
+);
+["dragleave", "drop"].forEach(evt =>
+  loaderBox.addEventListener(evt, (e) => { e.preventDefault(); loaderBox.style.borderColor = "var(--border)"; })
+);
+loaderBox.addEventListener("drop", (e) => {
+  const file = e.dataTransfer.files[0];
+  if (file) loadJsonFile(file);
+});
+
+document.getElementById("searchInput").addEventListener("input", applyFilters);
+
+document.getElementById("filterRow").addEventListener("click", (e) => {
+  const chip = e.target.closest(".chip");
+  if (!chip) return;
+  document.querySelectorAll(".chip").forEach(c => c.classList.remove("active"));
+  chip.classList.add("active");
+  activeFilter = chip.dataset.filter;
+  applyFilters();
+});
+
+renderStats();
+renderTable();
+applyFilters();
+</script>
+
+</body>
+</html>
