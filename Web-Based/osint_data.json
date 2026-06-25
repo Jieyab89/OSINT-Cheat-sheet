@@ -1492,6 +1492,10 @@
                 "url": "https://jam.dev/"
             },
             {
+                "name": "VirusTotal Whois History",
+                "url": "https://www.virustotal.com/gui/home/upload"
+            },
+            {
                 "name": "Whoxy Whois History",
                 "url": "https://www.whoxy.com/whois-history/"
             },
@@ -3356,6 +3360,10 @@
         "category": "Github",
         "items": [
             {
+                "name": "profile-summary-for-github.com",
+                "url": "https://profile-summary-for-github.com/search"
+            },
+            {
                 "name": "gitleak find info in Github",
                 "url": "https://gitleak.io/"
             },
@@ -4007,6 +4015,14 @@
         "category": "Data Breached OSINT",
         "items": [
             {
+                "name": "justpaste",
+                "url": "https://justpaste.it/"
+            },
+            {
+                "name": "mediafire",
+                "url": "https://www.mediafire.com/"
+            },
+            {
                 "name": "zerobin",
                 "url": "https://zerobin.net/"
             },
@@ -4017,6 +4033,10 @@
             {
                 "name": "telegra.ph",
                 "url": "https://telegra.ph/"
+            },
+            {
+                "name": "linktr",
+                "url": "https://linktr.ee/"
             },
             {
                 "name": "leakix",
@@ -4237,10 +4257,6 @@
             {
                 "name": "databreach",
                 "url": "https://databreach.com/"
-            },
-            {
-                "name": "leaking forum",
-                "url": "https://leaking.cc/"
             },
             {
                 "name": "Hudson Rock Cybercrime Intelligence Free Tools",
@@ -6431,6 +6447,10 @@
         "category": "Reddit",
         "items": [
             {
+                "name": "rosint",
+                "url": "https://www.rosint.dev/"
+            },
+            {
                 "name": "redlib viewer online",
                 "url": "https://redlib.catsarch.com/"
             },
@@ -6987,6 +7007,10 @@
             {
                 "name": "Google CSE Tiktok",
                 "url": "https://cse.google.com/cse?cx=013991603413798772546:igv4fyrnnfu#gsc.tab=0"
+            },
+            {
+                "name": "Tktok username lookup and viewer",
+                "url": "https://omar-thing.nekoweb.org/"
             },
             {
                 "name": "socialblade",
@@ -7968,6 +7992,10 @@
     {
         "category": "Document and Slides Search OSINT",
         "items": [
+            {
+                "name": "linktr",
+                "url": "https://linktr.ee/"
+            },
             {
                 "name": "filephish",
                 "url": "https://greylensresearch.github.io/filephish/"
@@ -12211,12 +12239,16 @@
         "category": "Darkweb Intelligence",
         "items": [
             {
-                "name": "ail-framework",
-                "url": "https://github.com/ail-project/ail-framework"
+                "name": "DeepLink Onion Directory (ONION SITES)",
+                "url": "http://deepxfmkjlils3vd7bru5rrxy3x3lchjgmv3wsgycjfynktmuwgm64qd.onion/"
             },
             {
-                "name": "breaking bad forums (ONION SITE)",
-                "url": "http://bbzzzsvqcrqtki6umym6itiixfhni37ybtt7mkbjyxn2pgllzxf2qgyd.onion/"
+                "name": "Wiki Pages (ONION SITES)",
+                "url": "http://uquroyobsaquslaunwkz6bmc3wutpzvwe7mv62xeq64645a57bugnsyd.onion/"
+            },
+            {
+                "name": "ail-framework",
+                "url": "https://github.com/ail-project/ail-framework"
             },
             {
                 "name": "onion scan",
@@ -12605,6 +12637,10 @@
             {
                 "name": "hidden links 2 (ONION SITES)",
                 "url": "http://hiddenl3nnlkhu2lz3exwpuiflna2in5uxetcjlflaunva6ls6nyzyad.onion/"
+            },
+            {
+                "name": "grams (ONION SITES)",
+                "url": "http://grams64rarzrk7rzdaz2fpb7lehcyi7zrrf5kd6w2uoamp7jw2aq6vyd.onion/"
             }
         ]
     },
@@ -12612,7 +12648,39 @@
         "category": "Darkweb Forums",
         "items": [
             {
-                "name": "BHF FORUMS",
+                "name": "PWN forums (ONION SITE)",
+                "url": "http://pwnfrm7rbf6kyerigxi677lcz5ifmoagdbqqknwdu2by27wfdst5qmqd.onion/"
+            },
+            {
+                "name": "Dread forum (ONION SITE)",
+                "url": "http://dreadyj7l26jqvyk3xycgljkkagc32x2y5urlcse3qocylzn53oj2byd.onion/"
+            },
+            {
+                "name": "dreadforum surface web",
+                "url": "https://dreadforum.io/"
+            },
+            {
+                "name": "breached surface web",
+                "url": "https://breached.su/"
+            },
+            {
+                "name": "darknetarmy surface web",
+                "url": "https://darknetarmy.io/"
+            },
+            {
+                "name": "cracked surface web",
+                "url": "https://cracked.st/"
+            },
+            {
+                "name": "spear surface web",
+                "url": "https://spear.cx/"
+            },
+            {
+                "name": "breaking bad forums (ONION SITE)",
+                "url": "http://bbzzzsvqcrqtki6umym6itiixfhni37ybtt7mkbjyxn2pgllzxf2qgyd.onion/"
+            },
+            {
+                "name": "BHF FORUMS (ONION SITE)",
                 "url": "http://bhf2b5nb3lb2kxpaoyqz7cuk2dkgej5n2refuffxzyhldwt4d7de4zqd.onion/"
             },
             {
@@ -12624,84 +12692,92 @@
                 "url": "https://altenens.is/threads/darkweb-2025-onion-links-new.2619050/"
             },
             {
-                "name": "ru tor",
+                "name": "ru tor (ONION SITE)",
                 "url": "http://rutordark63xripv2a3skfrgjonvr3rqawcdpj2zcbw3sigkn6l3xpad.onion/"
             },
             {
-                "name": "Ramble",
+                "name": "Ramble (ONION SITE)",
                 "url": "http://rambleeeqrhty6s5jgefdfdtc6tfgg4jj6svr4jpgk4wjtg3qshwbaad.onion/"
             },
             {
-                "name": "Tor Forums",
+                "name": "Tor Forums (ONION SITE)",
                 "url": "http://torbuyxpe6auueywlctu4wz6ur3o5n2meybt6tyi4rmeudtjsysayqyd.onion/forum/"
             },
             {
-                "name": "Deep Answers",
+                "name": "Deep Answers (ONION SITE)",
                 "url": "http://deeptyspkdq3nfvqvyzbkgwhtok4qoyhypsyiuo24wux4jnb6e3nyiqd.onion/"
             },
             {
-                "name": "Best carding list",
+                "name": "Best carding list (ONION SITE)",
                 "url": "http://bestteermb42clir6ux7xm76d4jjodh3fpahjqgbddbmfrgp4skg2wqd.onion/"
             },
             {
-                "name": "Pitch forums",
+                "name": "Pitch forums (ONION SITE)",
                 "url": "https://pitchprash4aqilfr7sbmuwve3pnkpylqwxjbj2q5o4szcfeea6d27yd.onion/"
             },
             {
-                "name": "Dread Forums",
+                "name": "Dread Forums (ONION SITE)",
                 "url": "https://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion/"
             },
             {
-                "name": "Hidden Answers",
+                "name": "Hidden Answers (ONION SITE)",
                 "url": "http://lp2fkbyfmiefvscyawqvssyh7rnwfjsifdhebp5me5xizte3s47yusqd.onion/"
             },
             {
-                "name": "Darknet army",
+                "name": "Darknet army (ONION SITE)",
                 "url": "http://darknet4dtjdwfvcjspvqq274u5xkvsfjv65aq2b42vyev5soh7fhgqd.onion/"
             },
             {
-                "name": "Deepweb qna",
+                "name": "Deepweb qna (ONION SITE)",
                 "url": "http://b7ehf7dabxevdsm5szkn2jecnliwzoxlsn4lijxqxikrlykbbsfrqfad.onion/"
             },
             {
-                "name": "Shadow Forums",
+                "name": "Shadow Forums (ONION SITE)",
                 "url": "http://w4ljqtyjnxinknz4hszn4bsof7zhfy5z2h4srfss4vvkoikiwz36o3id.onion/"
             },
             {
-                "name": "librarian",
+                "name": "librarian (ONION SITE)",
                 "url": "http://librarian.g4c3eya4clenolymqbpgwz3q3tawoxw56yhzk4vugqrl6dtu3ejvhjid.onion/$/popculture"
             },
             {
-                "name": "V3 Paste like pastebin but in onion",
+                "name": "V3 Paste like pastebin but in onion (ONION SITE)",
                 "url": "http://v3pastedc5jeqahtq77gvu3vz222bcqhlfubfunzjzqedg6jdqqlvgqd.onion/index.php"
             },
             {
-                "name": "Stronghold Paste like pastebin but in onion",
+                "name": "Stronghold Paste like pastebin but in onion (ONION SITE)",
                 "url": "http://strongerw2ise74v3duebgsvug4mehyhlpa7f6kfwnas7zofs3kov7yd.onion/"
             },
             {
-                "name": "WSS Chat",
+                "name": "WSS Chat (ONION SITE)",
                 "url": "http://wsssspmmqsmqarsjxe643rkfafirnxxx3gffcygyxz3k57h6beudstad.onion/"
             },
             {
-                "name": "pfpmd",
+                "name": "pfpmd (ONION SITE)",
                 "url": "http://pfpmd7dd5ijt4add2sfi4djsaij4u3ebvnwvyvuj6aeipe2f5llptkid.onion/"
             },
             {
-                "name": "Endchan",
+                "name": "Endchan (ONION SITE)",
                 "url": "http://enxx3byspwsdo446jujc52ucy2pf5urdbhqw3kbsfhlfjwmbpj5smdad.onion/"
             },
             {
-                "name": "Reddit",
+                "name": "Reddit (ONION SITE)",
                 "url": "https://www.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion/"
             },
             {
-                "name": "Exploit.in",
+                "name": "Exploit.in (ONION SITE)",
                 "url": "https://exploitivzcm5dawzhe6c32bbylyggbjvh5dyvsvb5lkuz5ptmunkmqd.onion/"
             },
             {
-                "name": "PASTE BOX Paste like pastebin but in onion",
+                "name": "PASTE BOX Paste like pastebin but in onion (ONION SITE)",
                 "url": "http://pasteboxx44wtzbm3ldjkcncls6uggi7mipmdwef5zza6wjqrqrtxdid.onion/"
+            },
+            {
+                "name": "Breach forums (ONION SITE)",
+                "url": "http://darkfoxaqhfpxkrbt7vxns2z2u2k72sgmqbzeorupaiottw3ecm2wgyd.onion/"
+            },
+            {
+                "name": "Breach forums 2 (ONION SITE)",
+                "url": "http://breach3cupt44pnca4fn4npav6huarn3etzbjsusfqmcepff47qwnxqd.onion/member"
             },
             {
                 "name": "Darkweb labs settup",
@@ -15238,6 +15314,10 @@
                 "url": "https://book.hacktricks.xyz/"
             },
             {
+                "name": "pentest-book",
+                "url": "https://github.com/six2dez/pentest-book"
+            },
+            {
                 "name": "GAP-Burp-Extension",
                 "url": "https://github.com/xnl-h4ck3r/GAP-Burp-Extension"
             },
@@ -15896,6 +15976,10 @@
             {
                 "name": "malapi",
                 "url": "https://malapi.io/"
+            },
+            {
+                "name": "rlwrap",
+                "url": "https://pkg.kali.org/pkg/rlwrap"
             },
             {
                 "name": "social engineering",
@@ -16676,6 +16760,10 @@
             {
                 "name": "C2concealer",
                 "url": "https://github.com/RedSiege/C2concealer"
+            },
+            {
+                "name": "cobalt Strike Community Kit",
+                "url": "https://cobalt-strike.github.io/"
             },
             {
                 "name": "Kali Linnux",
@@ -18324,10 +18412,6 @@
                 "url": "https://search.worldcat.org/"
             },
             {
-                "name": "ID MPN SIDAK kominfo",
-                "url": "https://mpn.kominfo.go.id/arsip/"
-            },
-            {
                 "name": "monash edu",
                 "url": "https://repository.monash.edu/items/browse"
             },
@@ -18505,6 +18589,10 @@
         "category": "Threat Actor & Criminal Search",
         "items": [
             {
+                "name": "BF Database Search",
+                "url": "https://bf.based.re/"
+            },
+            {
                 "name": "infostealers",
                 "url": "https://www.infostealers.com/"
             },
@@ -18611,10 +18699,6 @@
             {
                 "name": "CSI DB",
                 "url": "https://www.csidb.net/"
-            },
-            {
-                "name": "altenen",
-                "url": "https://altenens.is"
             },
             {
                 "name": "Groups MITRE",
@@ -19464,10 +19548,6 @@
                 "url": "https://search.worldcat.org/"
             },
             {
-                "name": "ID MPN SIDAK Kominfo",
-                "url": "https://mpn.kominfo.go.id/arsip/"
-            },
-            {
                 "name": "ID Komdigi MPN Library",
                 "url": "https://mpn.komdigi.go.id/perpus/index.php"
             },
@@ -20248,6 +20328,10 @@
     {
         "category": "Linux Distribution Package Search",
         "items": [
+            {
+                "name": "pkgs Kali Linux",
+                "url": "https://pkg.kali.org/"
+            },
             {
                 "name": "Redhat Linux",
                 "url": "https://access.redhat.com/search/?q=packages&documentKind=Solution%26Article"
@@ -21631,6 +21715,99 @@
         "category": "OSINT Technique Tips",
         "items": [
             {
+                "name": "Awesome guide attack vector OSINT",
+                "url": "https://github.com/sinwindie/OSINT"
+            },
+            {
+                "name": "Bellingcat Guides Tools and Handbook",
+                "url": "https://bellingcat.gitbook.io/toolkit/resources/guides-and-handbooks"
+            },
+            {
+                "name": "osintcombine",
+                "url": "https://www.osintcombine.com/post/dark-web-searching"
+            },
+            {
+                "name": "overtoperator",
+                "url": "https://www.overtoperator.com/s/daily-intel-brief"
+            },
+            {
+                "name": "maltego",
+                "url": "https://www.maltego.com/blog/top-osint-infosec-resources-for-you-and-your-team/"
+            },
+            {
+                "name": "skopenow image int",
+                "url": "https://www.skopenow.com/resource-center/image-based-osint-investigations-tips-techniques"
+            },
+            {
+                "name": "Telegram OSINT",
+                "url": "https://github.com/Ginsberg5150/Discord-and-Telegram-OSINT-references"
+            },
+            {
+                "name": "OSINT Handbook",
+                "url": "https://i-intelligence.eu/uploads/public-documents/OSINT_Handbook_2020.pdf"
+            },
+            {
+                "name": "The Threat Intelligence Lifecycle",
+                "url": "https://www.recordedfuture.com/threat-intelligence-lifecycle"
+            },
+            {
+                "name": "Five Phashes of the Threat Intelligence Lifecycle",
+                "url": "https://flashpoint.io/blog/threat-intelligence-lifecycle/"
+            },
+            {
+                "name": "Threat Intelligence Lifecycle Phases & Best Practices Explained",
+                "url": "https://snyk.io/learn/threat-intelligence/threat-intelligence-lifecycle/"
+            },
+            {
+                "name": "Open-Source Intelligence (OSINT) Cycle",
+                "url": "https://securityorb.com/featured/the-open-source-intelligence-osint-cycle/"
+            },
+            {
+                "name": "Learn and training OSINT free",
+                "url": "https://sites.google.com/view/tpdprivacy/home?authuser=0"
+            },
+            {
+                "name": "Bellingcat Resouces Guide",
+                "url": "https://www.bellingcat.com/category/resources/"
+            },
+            {
+                "name": "Guide for verification and SOCMINT",
+                "url": "https://datajournalism.com/read/handbook/verification-3"
+            },
+            {
+                "name": "Youtube OSINT Tutorial",
+                "url": "https://www.youtube.com/playlist?list=PLrFPX1Vfqk3ehZKSFeb9pVIHqxqrNW8Sy"
+            },
+            {
+                "name": "Ethical and about more OSINT",
+                "url": "https://stanleycenter.org/publications/osint-applied-ethics-workbook/"
+            },
+            {
+                "name": "Exposing the Invisible - The Kit",
+                "url": "https://kit.exposingtheinvisible.org/en/index.html"
+            },
+            {
+                "name": "The Atypical OSINT Guide",
+                "url": "https://github.com/OffcierCia/non-typical-OSINT-guide?tab=readme-ov-file#introduction-civil-osint"
+            },
+            {
+                "name": "cheatsheet - awesome list checklist OSINT and OSINT Branch",
+                "url": "https://cheatsheet.haax.fr/open-source-intelligence-osint/"
+            },
+            {
+                "name": "osintnewsletter",
+                "url": "https://osintnewsletter.com/"
+            },
+            {
+                "name": "Millitary OSINT",
+                "url": "https://drive.google.com/drive/folders/1S6f4Qgt9p9x6h9fnfMWTp18WY6rRstjU"
+            }
+        ]
+    },
+    {
+        "category": "Jieyab89 Wiki Pages",
+        "items": [
+               {
                 "name": "Awesome guide attack vector OSINT",
                 "url": "https://github.com/sinwindie/OSINT"
             },
