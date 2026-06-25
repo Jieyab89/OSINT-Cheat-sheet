@@ -3772,6 +3772,7 @@ Browser Sandbox
 
 Onion and surface site forums 
 
+- [PWN forums (ONION SITE)](http://pwnfrm7rbf6kyerigxi677lcz5ifmoagdbqqknwdu2by27wfdst5qmqd.onion/)
 - [Dread forum (ONION SITE)](http://dreadyj7l26jqvyk3xycgljkkagc32x2y5urlcse3qocylzn53oj2byd.onion/)
 - [dreadforum surface web](https://dreadforum.io/)
 - [breached surface web](https://breached.su/)
