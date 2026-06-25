@@ -12,7 +12,9 @@ import argparse
 import concurrent.futures
 import itertools
 import json
+import os
 import re
+import signal
 import socket
 import string
 import sys
@@ -39,6 +41,28 @@ def green(text):
     return f"{Colors.GREEN}{text}{Colors.RESET}"
 # Wordlist (TLD + ccTLD + gTLD + vanity)
 COMMON_TLDS = [
+    
+    # All region
+    "gov","mil","go.id","mil.id","gov.au","gov.br",
+    "gov.cn","gov.hk","gov.in","gov.ir","gov.my","gov.pk",
+    "gov.pl","gov.ro","gov.ru","gov.sg","gov.tr","gov.uk",
+    "gob.ar","gob.bo","gob.cl","gob.ec","gob.es","gob.gt",
+    "gob.hn","gob.mx","gob.ni","gob.pa","gob.pe","gob.sv",
+    "gob.ve","govt.nz","gouv.fr","gc.ca","admin.ch","bund.de",
+    "go.jp","go.kr","go.th","gov.ph","gov.vn","gov.za","gov.ng",
+    "gov.eg","gov.il","gov.sa","gov.ae","gov.qa","gov.kw",
+    "gov.om","gov.bh","gov.lk","gov.bd","gov.np","gov.mm",
+    "gov.kh","gov.la","gov.tw","gov.mo","gov.fj","gov.ws",
+    "gov.pg","gov.sb","gov.to","gov.vu","gov.mt","gov.cy",
+    "gov.gr","gov.pt","gov.ie","gov.is","gov.no","gov.se",
+    "gov.fi","gov.dk","gov.ee","gov.lv","gov.lt","gov.cz",
+    "gov.sk","gov.hu","gov.si","gov.hr","gov.ba","gov.rs",
+    "gov.me","gov.mk","gov.al","gov.bg","gov.md","gov.ua",
+    "gov.by","gov.kz","gov.uz","gov.tm","gov.kg","gov.tj",
+    "gov.mn","gov.ge","gov.am","gov.az",
+    
+    # int or secret 
+    "int",
     
     # Core
     "com","net","org","info","biz","name","pro",
@@ -69,21 +93,37 @@ COMMON_TLDS = [
     
     # Indonesia
     "id","co.id","web.id","or.id",
-    "ac.id","sch.id","go.id","my.id",
+    "ac.id","sch.id","my.id",
     
-    # Asia
-    "sg","my","th","vn","ph","in",
-    "jp","kr","cn","tw","hk",
-    
+    # Southeast Asia
+    "sg","my","th","vn","ph",
+    "bn","kh","la","mm","cn",
+
+    # East Asia 
+    "jp","kr","tw","hk","mo",
+
+    # South Asia
+    "in","pk","bd","lk","np",
+
     # Europe
     "uk","co.uk","de","fr","nl",
     "it","es","pt","pl","ru",
     "se","no","fi","dk","ch",
     "at","be","cz","ro","hu",
-    "sk","si","bg","ua",
+    "sk","si","bg","ua","ie",
+    "ee","lv","lt","lu","mt",
+    "hr","rs","ba","al","mk",
+    "gr","cy",
     
     # Americas
     "us","ca","mx","br","ar",
+    
+    # Millitary
+    "mil","mil.id","mil.kr","mil.pk","mil.ru","mil.ng",
+    "mil.za","mil.nz","mil.ph","mil.bd","mil.lk","mil.my",
+    "mil.br","mil.ar","mil.pe","mil.bo","mil.py","mil.uy",
+    "mil.ve","mil.ec","mil.co","mil.gt","mil.hn","mil.ni",
+    "mil.sv","mil.pa","mil.do","mil.cu","mil.mx","mil.cl",
     
     # Oceania
     "au","nz",
@@ -99,16 +139,46 @@ COMMON_TLDS = [
     "top","vip","icu","monster",
     "buzz","click","link","win",
     "fun","quest","su","st","cx",
-    "ax","gd","im","li","as","bz",
+    "ax","gd","im","as","pet","town",
     "sc","tk","ml","ga","cf","gq",
-    "nu","so","ms","re","wf","tf",
-    "pm","yt","nf","hn",
+    "nu","cool","re","wf","tf",
+    "pm","yt","nf","hn","moe","sx",
+    "bf","co","pw","work","club",
+    "one","ltd","sec","download",
+    "rs","host","lol","ng","wtf","xxx",
+    "ee","party","bot","ooo","cat","tx",
+    "ovh","codes","trade","cfd","men","do",
+    "best","ninja","pp.ua","ie","city",
+    "rocks","bar","dog","run","red","ink",
+    "service","services","family","works","work",
+    "gay","buz","buzz","coffe","bio","toys",
+    "money","cafe","love","fyi","pub","cash",
+    "ne","page","domains","directory","tet",
+    "tel","local","university","cheap","chruch",
+    "inc","pizza","blue","legal","rentals","review",
+    "taxi","casa","md","ma","rip","tours","capital",
+    "recipes","audio","help","land","coach","guide",
+    "foundation","er","watch","delivery","fund","gold",
+    "cyou","computer","express","institute","reviews",
+    "ventures","date","press","loan","ci","casino","band",
+    "hg","ag","bet","ing","racing","game","kim","rest","vet",
+    "af","tips","tax","wine","cv","cards","pink","earth","sex",
+    "pics","cam","parts","part","fail","ge","ski","fe","mom",
+    "eco","law","gy","baby","porn","vg","sucks","mc","duns",
+    "srt","sbs","atas","zip","surf",
+    
+    # China
+    "ren","shouji","tushu","wanggou","weibo","xihuan","xin",
     
     # Additional modern gTLD
     "team", "global", "care", "social",
     "video", "chat", "academy", "training",
     "events", "marketing", "exchange",
-    "international", "technology",
+    "international", "technology","rock","art",
+    "stream","games","sciene","ac","mobi","guru",
+    "com.au","bid","travel","plus","systems","edu",
+    "co.in","domain","photography","expert","tube",
+    "arpa","abc",
     
 ]
 def generate_brute_tlds(max_len=3, min_len=1):
@@ -288,45 +358,77 @@ def colorize_status(code_str, has_200):
     if has_200:
         return green(code_str)
     return code_str
-def print_table(results, use_color=True):
-    
-    headers = ["ID", "DOMAIN", "TLD", "HTTP/HTTPS CODE", "TITLE", "NS", "DNS", "HTTPS", "LENGTH"]
-    widths = [4, 28, 8, 18, 26, 22, 8, 14, 8]
-    def fmt_row(cells, colors=None):
-        out = []
-        for i, (c, w) in enumerate(zip(cells, widths)):
-            text = truncate(c, w).ljust(w)
-            if colors and colors.get(i):
-                # pad dulu baru kasih warna, supaya alignment tetap rapi
-                text = colors[i](truncate(c, w)) + " " * (w - len(truncate(c, w)))
-            out.append(text)
-        return " | ".join(out)
+def print_table_header(widths):
+    headers = ["DOMAIN", "TLD", "HTTP/HTTPS CODE", "TITLE", "NS", "DNS", "HTTPS", "LENGTH"]
+    def fmt_row(cells):
+        return " | ".join(truncate(c, w).ljust(w) for c, w in zip(cells, widths))
     sep = "-+-".join("-" * w for w in widths)
     print(fmt_row(headers))
     print(sep)
-    for idx, r in enumerate(results, start=1):
-        domain = r["domain"]
-        tld = r["tld"]
-        code = get_combined_status(r)
-        title = get_combined_title(r)
-        ns_list = r.get("ns")
-        ns_str = ns_list[0] if ns_list else "-"
-        if ns_list and len(ns_list) > 1:
-            ns_str += f" (+{len(ns_list)-1})"
-        is_up = r.get("resolved")
-        dns_status = "UP" if is_up else "down"
-        https_status = get_https_service(r)
-        length = get_combined_length(r)
-        has_200 = has_status_200(r)
+TABLE_WIDTHS = [28, 8, 18, 26, 22, 8, 14, 8]
+def format_table_row(r, widths=TABLE_WIDTHS, use_color=True):
+    domain = r["domain"]
+    tld = r["tld"]
+    code = get_combined_status(r)
+    title = get_combined_title(r)
+    ns_list = r.get("ns")
+    ns_str = ns_list[0] if ns_list else "-"
+    if ns_list and len(ns_list) > 1:
+        ns_str += f" (+{len(ns_list)-1})"
+    is_up = r.get("resolved")
+    dns_status = "UP" if is_up else "down"
+    https_status = get_https_service(r)
+    length = get_combined_length(r)
+    has_200 = has_status_200(r)
+    cells = [domain, tld, code, title, ns_str, dns_status, https_status, length]
+    out = []
+    for i, (c, w) in enumerate(zip(cells, widths)):
+        text = truncate(c, w).ljust(w)
         if use_color:
-            colors = {}
-            if has_200:
-                colors[3] = green  # HTTP/HTTPS CODE
-            if is_up:
-                colors[6] = green  # DNS
-            print(fmt_row([str(idx), domain, tld, code, title, ns_str, dns_status, https_status, length], colors))
-        else:
-            print(fmt_row([str(idx), domain, tld, code, title, ns_str, dns_status, https_status, length]))
+            if i == 2 and has_200:  # HTTP/HTTPS CODE
+                text = green(truncate(c, w)) + " " * (w - len(truncate(c, w)))
+            elif i == 5 and is_up:  # DNS
+                text = green(truncate(c, w)) + " " * (w - len(truncate(c, w)))
+        out.append(text)
+    return " | ".join(out)
+def print_table(results, use_color=True):
+    print_table_header(TABLE_WIDTHS)
+    for r in results:
+        print(format_table_row(r, use_color=use_color))
+def state_path_for(output_path):
+    base, _ = os.path.splitext(output_path)
+    return f"{base}.state.json"
+def load_state(state_file, name, planned_tlds):
+    """Load checkpoint kalau cocok target_name dan TLD plan-nya sama. Return (results, done_tlds_set) atau (None, None) kalau tidak valid/tidak ada."""
+    if not os.path.isfile(state_file):
+        return None, None
+    try:
+        with open(state_file, "r", encoding="utf-8") as f:
+            state = json.load(f)
+    except Exception:
+        return None, None
+    if state.get("target_name") != name:
+        return None, None
+    if state.get("planned_tlds") != planned_tlds:
+        return None, None
+    results = state.get("results", [])
+    done_tlds = {r["tld"] for r in results}
+    return results, done_tlds
+def save_state(state_file, name, planned_tlds, results):
+    state = {
+        "target_name": name,
+        "planned_tlds": planned_tlds,
+        "results": results,
+    }
+    tmp_file = f"{state_file}.tmp"
+    with open(tmp_file, "w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False)
+    os.replace(tmp_file, state_file)
+def clear_state(state_file):
+    try:
+        os.remove(state_file)
+    except FileNotFoundError:
+        pass
 def main():
     parser = argparse.ArgumentParser(
         description="Enumerate domain availability and metadata across multiple TLDs"
@@ -411,6 +513,7 @@ def main():
         f"(common: {n_common}, brute-force: {max(n_brute, 0)})"
     )
     print(f"[*] Worker threads: {args.threads}")
+    print()
     if args.brute:
         print(
             f"[*] Brute-force TLD length range: "
@@ -427,39 +530,68 @@ def main():
         tlds,
         key=lambda t: (t not in common_set, tlds.index(t))
     )
-    with concurrent.futures.ThreadPoolExecutor(
-        max_workers=args.threads
-    ) as executor:
-        futures = {
-            executor.submit(enumerate_one, args.name, tld): tld
-            for tld in ordered_tlds
-        }
-        done_count = 0
-        for future in concurrent.futures.as_completed(futures):
-            tld = futures[future]
-            try:
-                res = future.result()
-            except Exception as e:
-                res = {
-                    "domain": f"{args.name}.{tld}",
-                    "tld": tld,
-                    "resolved": False,
-                    "error": str(e),
+    state_file = state_path_for(args.output)
+    prev_results, done_tlds = load_state(state_file, args.name, ordered_tlds)
+    if prev_results:
+        results = prev_results
+        remaining_tlds = [t for t in ordered_tlds if t not in done_tlds]
+        print(f"[*] Resuming from checkpoint: {len(done_tlds)} already checked, {len(remaining_tlds)} remaining")
+        print()
+    else:
+        remaining_tlds = ordered_tlds
+    print_table_header(TABLE_WIDTHS)
+    for r in results:
+        print(format_table_row(r, use_color=not args.no_color))
+    pause_requested = {"flag": False}
+    def handle_sigint(signum, frame):
+        pause_requested["flag"] = True
+    old_handler = signal.signal(signal.SIGINT, handle_sigint)
+    aborted = False
+    if remaining_tlds:
+        try:
+            with concurrent.futures.ThreadPoolExecutor(
+                max_workers=args.threads
+            ) as executor:
+                futures = {
+                    executor.submit(enumerate_one, args.name, tld): tld
+                    for tld in remaining_tlds
                 }
-            done_count += 1
-            if res.get("resolved"):
-                tag = green("RESOLVED")
-                if has_status_200(res):
-                    tag = green("RESOLVED + HTTP 200")
-            else:
-                tag = "NO RESOLUTION"
-            origin = "common" if tld in common_set else "brute"
-            print(
-                f"[{done_count}/{len(tlds)}] "
-                f"({origin:6}) "
-                f"{res['domain']:<32} {tag}"
-            )
-            results.append(res)
+                for future in concurrent.futures.as_completed(futures):
+                    tld = futures[future]
+                    try:
+                        res = future.result()
+                    except Exception as e:
+                        res = {
+                            "domain": f"{args.name}.{tld}",
+                            "tld": tld,
+                            "resolved": False,
+                            "error": str(e),
+                        }
+                    results.append(res)
+                    print(format_table_row(res, use_color=not args.no_color))
+                    if pause_requested["flag"]:
+                        pause_requested["flag"] = False
+                        signal.signal(signal.SIGINT, old_handler)
+                        save_state(state_file, args.name, ordered_tlds, results)
+                        choice = input(
+                            f"\n[!] Paused. {len(results)}/{len(tlds)} checked, progress saved to {state_file}.\n"
+                            f"    [c]ontinue / [a]bort: "
+                        ).strip().lower()
+                        if choice == "a":
+                            aborted = True
+                            for f in futures:
+                                f.cancel()
+                            break
+                        signal.signal(signal.SIGINT, handle_sigint)
+        except KeyboardInterrupt:
+            save_state(state_file, args.name, ordered_tlds, results)
+            aborted = True
+            print(f"\n[!] Interrupted. {len(results)}/{len(tlds)} checked, progress saved to {state_file}.")
+    signal.signal(signal.SIGINT, old_handler)
+    if aborted:
+        print(f"[*] Aborted. Resume later with the same --output to continue from {len(results)}/{len(tlds)}.")
+        return
+    clear_state(state_file)
     if args.only_resolved:
         results = [r for r in results if r.get("resolved")]
     if args.only_200:
@@ -476,10 +608,6 @@ def main():
         )
     )
     
-    print()
-    print("TABLE VIEW")
-    print()
-    print_table(results, use_color=not args.no_color)
     print()
     output_data = {
         "target_name": args.name,
