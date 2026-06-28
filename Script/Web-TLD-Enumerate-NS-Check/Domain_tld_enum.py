@@ -50,6 +50,7 @@ class Colors:
         Colors.GREEN = Colors.RED = Colors.YELLOW = Colors.BOLD = Colors.RESET = ""
 def green(text):
     return f"{Colors.GREEN}{text}{Colors.RESET}"
+
 # Wordlist (TLD + ccTLD + gTLD + vanity)
 COMMON_TLDS = [
     
@@ -106,6 +107,9 @@ COMMON_TLDS = [
     "id","co.id","web.id","or.id",
     "ac.id","sch.id","my.id",
     
+    # Malaysia 
+    "com.my","org.my","edu.my","net.my",
+
     # Southeast Asia
     "sg","my","th","vn","ph",
     "bn","kh","la","mm","cn",
