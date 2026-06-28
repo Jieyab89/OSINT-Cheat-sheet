@@ -7,6 +7,17 @@ Example:
     python3 domain_tld_enum.py --name contohbrand --tlds com,id,su,st,cx
     python3 domain_tld_enum.py --name contohbrand --brute --brute-max-len 3
     python3 domain_tld_enum.py --name contohbrand --brute --no-common --brute-max-len 2
+
+    # Brute-force the SECOND extension behind a fixed first suffix
+    # e.g. --brute2-suffix1 co -> abc.co.aa, abc.co.ab, ... abc.co.zz
+    python3 domain_tld_enum.py --name contohbrand --brute2 --brute2-suffix1 co
+
+    # Multiple first suffixes at once, each gets its own brute-forced second extension
+    # e.g. abc.co.aa..zz, abc.go.aa..zz, abc.web.aa..zz
+    python3 domain_tld_enum.py --name contohbrand --brute2 --brute2-suffix1 co,go,web
+
+    # Longer second extension (2-3 chars), combined with common TLDs
+    python3 domain_tld_enum.py --name contohbrand --brute2 --brute2-suffix1 co --brute2-max-len 3
 """
 import argparse
 import concurrent.futures
@@ -42,7 +53,7 @@ def green(text):
 # Wordlist (TLD + ccTLD + gTLD + vanity)
 COMMON_TLDS = [
     
-    # All region
+    # All region goverment 
     "gov","mil","go.id","mil.id","gov.au","gov.br",
     "gov.cn","gov.hk","gov.in","gov.ir","gov.my","gov.pk",
     "gov.pl","gov.ro","gov.ru","gov.sg","gov.tr","gov.uk",
@@ -61,7 +72,7 @@ COMMON_TLDS = [
     "gov.by","gov.kz","gov.uz","gov.tm","gov.kg","gov.tj",
     "gov.mn","gov.ge","gov.am","gov.az",
     
-    # int or secret 
+    # int (international) or secret service
     "int",
     
     # Core
@@ -165,7 +176,7 @@ COMMON_TLDS = [
     "af","tips","tax","wine","cv","cards","pink","earth","sex",
     "pics","cam","parts","part","fail","ge","ski","fe","mom",
     "eco","law","gy","baby","porn","vg","sucks","mc","duns",
-    "srt","sbs","atas","zip","surf",
+    "srt","sbs","atas","zip","surf","llc",
     
     # China
     "ren","shouji","tushu","wanggou","weibo","xihuan","xin",
@@ -198,6 +209,21 @@ def generate_brute_tlds(max_len=3, min_len=1):
     for length in range(min_len, max_len + 1):
         for combo in itertools.product(letters, repeat=length):
             yield "".join(combo)
+def generate_brute_tlds_2level(suffixes, max_len=2, min_len=1):
+    """
+    Brute-force the SECOND extension only, behind a fixed first suffix.
+    `suffixes` is the list of first-level suffixes the user provides (e.g. ["co"]).
+    Result example with suffixes=["co"]: co.aa, co.ab, co.ac, ... co.zz
+    Combined with --name later as {name}.{suffix}.{brute} -> abc.co.aa, abc.co.ab, ...
+    """
+    letters = string.ascii_lowercase
+    for suffix in suffixes:
+        suffix = suffix.strip().lstrip(".")
+        if not suffix:
+            continue
+        for length in range(min_len, max_len + 1):
+            for combo in itertools.product(letters, repeat=length):
+                yield f"{suffix}.{''.join(combo)}"
 def build_tld_list(args):
     """
     Build the TLD list according to the following priority order:
@@ -216,6 +242,12 @@ def build_tld_list(args):
     if args.brute:
         brute_list = list(generate_brute_tlds(max_len=args.brute_max_len, min_len=args.brute_min_len))
         tlds.extend(brute_list)
+    if args.brute2:
+        suffixes = [s.strip() for s in args.brute2_suffix1.split(",") if s.strip()]
+        brute2_list = list(generate_brute_tlds_2level(
+            suffixes, max_len=args.brute2_max_len, min_len=args.brute2_min_len
+        ))
+        tlds.extend(brute2_list)
     # dedupe, keep order (common tetap di depan, brute di belakang)
     seen = set()
     final = []
@@ -470,6 +502,39 @@ def main():
         ),
     )
     parser.add_argument(
+        "--brute2",
+        action="store_true",
+        help=(
+            "Enable brute-force for the SECOND extension, behind a fixed first "
+            "suffix given via --brute2-suffix1 (e.g. --brute2-suffix1 co -> "
+            "abc.co.aa, abc.co.ab, ... abc.co.zz)"
+        )
+    )
+    parser.add_argument(
+        "--brute2-suffix1",
+        help=(
+            "Required if --brute2 is set. First-level suffix(es), comma-separated "
+            "(e.g. co or co,go,web). The second extension is brute-forced a-z "
+            "behind each one: --brute2-suffix1 co -> abc.co.aa, abc.co.ab, ..."
+        ),
+    )
+    parser.add_argument(
+        "--brute2-min-len",
+        type=int,
+        default=1,
+        help="Minimum length of the brute-forced second extension for --brute2 (default: 1)"
+    )
+    parser.add_argument(
+        "--brute2-max-len",
+        type=int,
+        default=2,
+        help=(
+            "Maximum length of the brute-forced second extension for --brute2 (default: 2). "
+            "WARNING: grows as 26^n * number of --brute2-suffix1 entries. "
+            "Recommended maximum: 2-3."
+        ),
+    )
+    parser.add_argument(
         "--threads",
         type=int,
         default=30,
@@ -498,6 +563,12 @@ def main():
     args = parser.parse_args()
     if args.no_color:
         Colors.disable()
+    if args.brute2 and not args.brute2_suffix1:
+        print(
+            "[!] --brute2 requires --brute2-suffix1 (e.g. --brute2-suffix1 co "
+            "or --brute2-suffix1 co,go,web)."
+        )
+        sys.exit(1)
     tlds = build_tld_list(args)
     if not tlds:
         print(
@@ -506,7 +577,8 @@ def main():
         sys.exit(1)
     # Calculate how many TLDs come from the common list vs brute force
     n_common = 0 if args.no_common else len(COMMON_TLDS)
-    n_brute = len(tlds) - n_common - (len(args.tlds.split(",")) if args.tlds else 0)
+    n_custom = len(args.tlds.split(",")) if args.tlds else 0
+    n_brute = len(tlds) - n_common - n_custom
     print(f"[*] Target name: {args.name}")
     print(
         f"[*] Total TLDs to check: {len(tlds)} "
@@ -518,6 +590,11 @@ def main():
         print(
             f"[*] Brute-force TLD length range: "
             f"{args.brute_min_len}-{args.brute_max_len} characters"
+        )
+    if args.brute2:
+        print(
+            f"[*] Brute-force 2nd extension behind suffix(es) [{args.brute2_suffix1}], "
+            f"length range: {args.brute2_min_len}-{args.brute2_max_len} characters"
         )
     results = []
     start = time.time()
@@ -552,12 +629,15 @@ def main():
             with concurrent.futures.ThreadPoolExecutor(
                 max_workers=args.threads
             ) as executor:
-                futures = {
-                    executor.submit(enumerate_one, args.name, tld): tld
+                # Submit all jobs up-front so lookups still run in parallel,
+                # but iterate in submit order (a-z) instead of as_completed(),
+                # so results print/save strictly in the original sequence.
+                ordered_futures = [
+                    (tld, executor.submit(enumerate_one, args.name, tld))
                     for tld in remaining_tlds
-                }
-                for future in concurrent.futures.as_completed(futures):
-                    tld = futures[future]
+                ]
+                futures = {f: tld for tld, f in ordered_futures}
+                for tld, future in ordered_futures:
                     try:
                         res = future.result()
                     except Exception as e:
@@ -588,51 +668,50 @@ def main():
             aborted = True
             print(f"\n[!] Interrupted. {len(results)}/{len(tlds)} checked, progress saved to {state_file}.")
     signal.signal(signal.SIGINT, old_handler)
+
+    def write_output(results_to_write, partial=False):
+        if args.only_resolved:
+            results_to_write = [r for r in results_to_write if r.get("resolved")]
+        if args.only_200:
+            results_to_write = [r for r in results_to_write if has_status_200(r)]
+        results_to_write = sorted(
+            results_to_write,
+            key=lambda r: (
+                not has_status_200(r),
+                not r.get("resolved"),
+                r["tld"]
+            )
+        )
+        data = {
+            "target_name": args.name,
+            "partial": partial,
+            "total_planned": len(tlds),
+            "total_checked": len(results),
+            "total_resolved": sum(1 for r in results_to_write if r.get("resolved")),
+            "total_status_200": sum(1 for r in results_to_write if has_status_200(r)),
+            "common_tlds_checked": n_common,
+            "brute_force_checked": max(n_brute, 0),
+            "elapsed_seconds": round(time.time() - start, 2),
+            "results": results_to_write,
+        }
+        with open(args.output, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        return data
+
     if aborted:
-        print(f"[*] Aborted. Resume later with the same --output to continue from {len(results)}/{len(tlds)}.")
+        partial_data = write_output(results, partial=True)
+        print(
+            f"[*] Aborted. {len(results)}/{len(tlds)} checked so far — "
+            f"partial results saved to: {args.output}"
+        )
+        print(
+            f"[*] Checkpoint saved to: {state_file} "
+            f"(resume later with the same --output to continue)"
+        )
         return
     clear_state(state_file)
-    if args.only_resolved:
-        results = [r for r in results if r.get("resolved")]
-    if args.only_200:
-        results = [r for r in results if has_status_200(r)]
-    # Sort results:
-    # 1. HTTP 200 domains first
-    # 2. Resolved domains before unresolved ones
-    # 3. Alphabetical by TLD
-    results.sort(
-        key=lambda r: (
-            not has_status_200(r),
-            not r.get("resolved"),
-            r["tld"]
-        )
-    )
-    
     print()
-    output_data = {
-        "target_name": args.name,
-        "total_checked": len(tlds),
-        "total_resolved": sum(
-            1 for r in results if r.get("resolved")
-        ),
-        "total_status_200": sum(
-            1 for r in results if has_status_200(r)
-        ),
-        "common_tlds_checked": n_common,
-        "brute_force_checked": max(n_brute, 0),
-        "elapsed_seconds": round(
-            time.time() - start,
-            2
-        ),
-        "results": results,
-    }
-    with open(args.output, "w", encoding="utf-8") as f:
-        json.dump(
-            output_data,
-            f,
-            indent=2,
-            ensure_ascii=False
-        )
+    output_data = write_output(results, partial=False)
     print(
         f"\n[+] Completed in "
         f"{output_data['elapsed_seconds']}s"
