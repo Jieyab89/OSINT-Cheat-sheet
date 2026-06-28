@@ -469,6 +469,11 @@ Hastag and keyword analysis in search engine, social media or other platform (Te
 
 # Web Intelligence
 
+Notes this is for surface web or clearnet site
+
+- [Jieyab89 TLD and NS checker domain](https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Web-TLD-Enumerate-NS-Check)
+- [Check availabe domain tld list](https://tld-list.com/)
+- [check available domain](https://instantdomainsearch.com/)
 - [reverse google analytics](https://osint.sh/analytics/)
 - [reverse google adsense](https://osint.sh/adsense/)
 - [GAU getallurls](https://github.com/lc/gau)
@@ -3666,6 +3671,7 @@ Browser Sandbox
 
 # Darkweb Intelligence
 
+- [Jieyab89 darkweb scrapping link](https://github.com/Jieyab89/OSINT-Cheat-sheet/blob/main/Script/Darkweb-Scrapping/onion-site-directory-scrapper.py)
 - [DeepLink Onion Directory (ONION SITES)](http://deepxfmkjlils3vd7bru5rrxy3x3lchjgmv3wsgycjfynktmuwgm64qd.onion/)
 - [Wiki Pages (ONION SITES)](http://uquroyobsaquslaunwkz6bmc3wutpzvwe7mv62xeq64645a57bugnsyd.onion/)
 - [ail-framework](https://github.com/ail-project/ail-framework)
