@@ -81,7 +81,7 @@ COMMON_TLDS = [
     
     # Startup
     "io","ai","app","dev","tech","cloud",
-    "software","systems","digital","network",
+    "software","digital","network",
     "security","email","tools",
     
     # Business
@@ -112,7 +112,7 @@ COMMON_TLDS = [
 
     # Southeast Asia
     "sg","my","th","vn","ph",
-    "bn","kh","la","mm","cn",
+    "bn","kh","mm","cn",
 
     # East Asia 
     "jp","kr","tw","hk","mo",
@@ -154,7 +154,7 @@ COMMON_TLDS = [
     "top","vip","icu","monster",
     "buzz","click","link","win",
     "fun","quest","su","st","cx",
-    "ax","gd","im","as","pet","town",
+    "ax","mu","im","as","pet","town",
     "sc","tk","ml","ga","cf","gq",
     "nu","cool","re","wf","tf",
     "pm","yt","nf","hn","moe","sx",
@@ -163,7 +163,7 @@ COMMON_TLDS = [
     "rs","host","lol","ng","wtf","xxx",
     "ee","party","bot","ooo","cat","tx",
     "ovh","codes","trade","cfd","men","do",
-    "best","ninja","pp.ua","ie","city",
+    "best","ninja","pp.ua","city",
     "rocks","bar","dog","run","red","ink",
     "service","services","family","works","work",
     "gay","buz","buzz","coffe","bio","toys",
@@ -175,25 +175,48 @@ COMMON_TLDS = [
     "recipes","audio","help","land","coach","guide",
     "foundation","er","watch","delivery","fund","gold",
     "cyou","computer","express","institute","reviews",
-    "ventures","date","press","loan","ci","casino","band",
+    "ventures","date","loan","ci","casino","band",
     "hg","ag","bet","ing","racing","game","kim","rest","vet",
     "af","tips","tax","wine","cv","cards","pink","earth","sex",
     "pics","cam","parts","part","fail","ge","ski","fe","mom",
     "eco","law","gy","baby","porn","vg","sucks","mc","duns",
-    "srt","sbs","atas","zip","surf","llc",
+    "srt","sbs","atas","zip","surf","llc","ao","black","moda",
+    "sexy","gratis","claims","voyage","ke","gl","camp","exposed",
+    "diamonds","ht","je","lc","wang","meme","box","moi","spot",
     
     # China
     "ren","shouji","tushu","wanggou","weibo","xihuan","xin",
+
+    # Israel
+    "il"
     
     # Additional modern gTLD
     "team", "global", "care", "social",
     "video", "chat", "academy", "training",
     "events", "marketing", "exchange",
     "international", "technology","rock","art",
-    "stream","games","sciene","ac","mobi","guru",
+    "stream","games","sciene","mobi","guru",
     "com.au","bid","travel","plus","systems","edu",
     "co.in","domain","photography","expert","tube",
-    "arpa","abc",
+    "arpa","abc","asia","domains","boats","bike",
+    "faith","fish","bingo","irish","homes","solar",
+    "flights","industries","fan","gmbh","rich","hiv",
+    "nexus","mex.com","lotto","co.gg","rsvp","whoswho",
+    "info.ec","google","co.ve","kiwi.nz","idv.tw",
+    "law.pro","reit","jur.pro","bar.pro","zuerich",
+    "acct.pro","nom.pe","waw.pl","pro.ec","web.ve",
+
+    # JP
+    "みんな","jpn.com",
+
+    # Hongkong
+    "网络",
+
+    # TEST ASIA  
+    "ac","az","bh","bn","bt",
+    "iq","ir","jo","kg","kp",
+    "kw","kz","lb","mn","mv","om",
+    "ps","sy","tj","tl","tm","uz","ye",
     
 ]
 def generate_brute_tlds(max_len=3, min_len=1):
