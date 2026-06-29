@@ -5936,6 +5936,7 @@ Guide Journalist
 - [Mever](https://mever.iti.gr/forensics/)
 - [fakeimagedetector](https://www.fakeimagedetector.com/)
 - [imagewhisperer](https://imagewhisperer.org/)
+- [deepai](https://deepai.org/)
 
 # OSINT Similarity (Plagiarism)
 
@@ -5978,6 +5979,7 @@ Image and Vidio Analyzer
 - [Face Similarity Test Online](https://facecomparison.toolpie.com/)
 - [reversely](https://www.reversely.ai/)
 - [google image search](https://www.google.com/imghp?hl=EN)
+- [yandex](https://yandex.com/images/search)
 
 Website 
 
