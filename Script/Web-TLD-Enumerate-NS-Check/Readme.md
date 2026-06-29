@@ -4,11 +4,13 @@
 
 Tips surface web tld domain enumeration:
 
-If you have tried dorking but cannot find the target on the web, try a brute-force approach—similar to an email permutator, but applied to domain TLDs. What can you do? You can use the script below to parse domain extensions and perform a brute-force search. If that fails, try combining it with other search parameters—such as country of origin, language, username, or other indicators that could serve as clues—and then attempt to brute-force the extensions again, testing them either as double or single domain extension. It is possible that the site is not indexed and the developer has implemented strict controls for indexing bots, making it difficult to find. Try using a brute-force approach and adjust your search parameters or context
+First. If you have tried dorking but cannot find the target on the web, try a brute-force approach—similar to an email permutator, but applied to domain TLDs. What can you do? You can use the script below to parse domain extensions and perform a brute-force search. If that fails, try combining it with other search parameters—such as country of origin, language, username, or other indicators that could serve as clues—and then attempt to brute-force the extensions again, testing them either as double or single domain extension. It is possible that the site is not indexed and the developer has implemented strict controls for indexing bots, making it difficult to find. Try using a brute-force approach and adjust your search parameters or context
 
 A second method is to perform a reverse IP lookup, provided you have identified the domains or IP addresses you wish to investigate. Check to see if there are any similarities to your target; if you are looking for new leads, try performing a reverse IP lookup
 
 Third. After identifying a domain or IP address, try enumerating it using data aggregators like Censys, Shodan, or VirusTotal. Check the asset information and WHOIS history; you might uncover new information
+
+Fourth, do not forget to check web archiving platforms—such as the Wayback Machine, Archive.today, or other services that store snapshots of web pages and URLs. This allows you to search for additional information in case anything was missed
 
 ## Reccon tld common domain 
 
