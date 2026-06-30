@@ -5937,6 +5937,9 @@ Guide Journalist
 - [fakeimagedetector](https://www.fakeimagedetector.com/)
 - [imagewhisperer](https://imagewhisperer.org/)
 - [deepai](https://deepai.org/)
+- [decopy](https://decopy.ai/)
+- [zerogpt](https://www.zerogpt.com/)
+- [isgen](https://isgen.ai/)
 
 # OSINT Similarity (Plagiarism)
 
@@ -5963,6 +5966,7 @@ Text Analyzer
 - [ithenticate](https://www.ithenticate.com/)
 - [DiffChecker](https://www.diffchecker.com/image-diff/)
 - [text compare](https://text-compare.com/)
+- [zerogpt](https://www.zerogpt.com/)
 
 Audio Analyzer 
 
