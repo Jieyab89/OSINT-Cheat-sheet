@@ -121,14 +121,14 @@ COMMON_TLDS = [
     "in","pk","bd","lk","np",
 
     # Europe
-    "uk","co.uk","de","fr","nl",
+    "uk","co.uk","de","fr",
     "it","es","pt","pl","ru",
     "se","no","fi","dk","ch",
     "at","be","cz","ro","hu",
     "sk","si","bg","ua","ie",
-    "ee","lv","lt","lu","mt",
-    "hr","rs","ba","al","mk",
-    "gr","cy",
+    "lv","lt","lu","mt","hr",
+    "rs","ba","al","mk",
+    "gr","cy","nl",
     
     # Americas
     "us","ca","mx","br","ar",
@@ -154,7 +154,7 @@ COMMON_TLDS = [
     "top","vip","icu","monster",
     "buzz","click","link","win",
     "fun","quest","su","st","cx",
-    "ax","mu","im","as","pet","town",
+    "ax","mu","as","pet","town",
     "sc","tk","ml","ga","cf","gq",
     "nu","cool","re","wf","tf",
     "pm","yt","nf","hn","moe","sx",
@@ -166,7 +166,7 @@ COMMON_TLDS = [
     "best","ninja","pp.ua","city",
     "rocks","bar","dog","run","red","ink",
     "service","services","family","works","work",
-    "gay","buz","buzz","coffe","bio","toys",
+    "gay","buz","coffe","bio","toys",
     "money","cafe","love","fyi","pub","cash",
     "ne","page","domains","directory","tet",
     "tel","local","university","cheap","chruch",
@@ -205,6 +205,7 @@ COMMON_TLDS = [
     "info.ec","google","co.ve","kiwi.nz","idv.tw",
     "law.pro","reit","jur.pro","bar.pro","zuerich",
     "acct.pro","nom.pe","waw.pl","pro.ec","web.ve",
+    "arte","clinique","luxe",
 
     # JP
     "みんな","jpn.com",
