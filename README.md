@@ -5083,6 +5083,8 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [PUB MED](https://pubmed.ncbi.nlm.nih.gov/)
 - [worldwidescience](https://worldwidescience.org/index.html)
 - [ICRC International Committee of the Red Cross](https://www.icrc.org/en)
+- [ID Kemenkes satusehat Check legality](https://satusehat.kemkes.go.id/platform/healthcare-list)
+- [ID KKI Check Medical Personnel](https://kki.go.id/ceknamednakes/form)
 
 # OSINT Military
 
