@@ -72,7 +72,7 @@ def tor_session():
                 "http":  f"socks5h://127.0.0.1:{port}",  
                 "https": f"socks5h://127.0.0.1:{port}",
             }
-            s.headers["User-Agent"] = "Mozilla/5.0 (Tor; OnionDirectoryIndexer)" # u can custom the user agent here
+            s.headers["User-Agent"] = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36" # u can custom the user agent here
             print(f"[INFO] Trying Tor port {port}...")
             s.get("http://check.torproject.org", timeout=10)
             print(f"[+] Tor connected via port {port}")
@@ -150,10 +150,25 @@ def extract_onions(html, source):
         })
         print(f"  [DEBUG] [{source}] Format2 OK - {title[:40]} => {url}")
 
+    # FORMAT 3: Deepdark-CTI
+    md_matches = re.findall(r'\[([^\]]+)\]\((https?://[^\s\)]+\.onion[^\s\)]*)\)', html)
+    print(f"  [DEBUG] [{source}] Format3 markdown matches: {len(md_matches)}")
+
+    for title, raw_url in md_matches:
+        url = normalize_onion(raw_url)
+        if not url or url in seen:
+            continue
+
+        seen.add(url)
+        results.append({
+            "title": title.strip()[:120],
+            "link": url,
+            "source": source
+        })
+        print(f"  [DEBUG] [{source}] Format3 OK - {title.strip()[:40]} => {url}")
+
     print(f"  [DEBUG] [{source}] Total extracted: {len(results)} onions")
     return results
-
-    # FORMAT 3 ..... SOON 
 
 # ==================================================================
 # COLLECTORS JIEYAB LOGEN.INT DARKWEB TRANSOFRM AND DATA SOURCE 
@@ -195,6 +210,16 @@ COLLECTORS = {
     "4get":             "http://4getwebfrq5zr4sxugk6htxvawqehxtdgjrbcn2oslllcol2vepa23yd.onion",
     "deeplink":         "http://deepxfmkjlils3vd7bru5rrxy3x3lchjgmv3wsgycjfynktmuwgm64qd.onion",
     "breaking-bad-forums": "http://bbzzzsvqcrqtki6umym6itiixfhni37ybtt7mkbjyxn2pgllzxf2qgyd.onion",
+
+    # LOGEN.INT GITHUB DATA SOURCES 
+    "deepdarkcti-others":         "https://raw.githubusercontent.com/fastfire/deepdarkCTI/refs/heads/main/others.md",
+    "deepdarkcti-ransomware":     "https://raw.githubusercontent.com/fastfire/deepdarkCTI/refs/heads/main/ransomware_gang.md",
+    "deepdarkcti-rat":            "https://raw.githubusercontent.com/fastfire/deepdarkCTI/refs/heads/main/rat.md",
+    "deepdarkcti-search-engines": "https://raw.githubusercontent.com/fastfire/deepdarkCTI/refs/heads/main/search_engines.md",
+    "deepdarkcti-counterfeit":    "https://raw.githubusercontent.com/fastfire/deepdarkCTI/refs/heads/main/counterfeit_goods.md",
+    "deepdarkcti-forum":          "https://raw.githubusercontent.com/fastfire/deepdarkCTI/refs/heads/main/forum.md",
+    "deepdarkcti-maas":           "https://raw.githubusercontent.com/fastfire/deepdarkCTI/refs/heads/main/maas.md",
+    "deepdarkcti-markets":        "https://raw.githubusercontent.com/fastfire/deepdarkCTI/refs/heads/main/markets.md",
 
     # Clearnet trackers (onion link lists)
     "darkwebdaily.net": "https://darkwebdaily.net/",
@@ -259,12 +284,17 @@ def main():
                             continue
 
                         if domain in index_map:
+                            # sudah ada, cuma update timestamp, gak perlu write ulang ke json
                             index_map[domain]["updated_date"] = now()
                         else:
                             item["stored_date"]   = now()
                             item["updated_date"]  = item["stored_date"]
                             index_map[domain]     = item
                             added += 1
+
+                            # LANGSUNG SAVE begitu ketemu domain baru & unik
+                            save_index(list(index_map.values()))
+                            print(f"  [SAVE] +1 new unique domain saved => {domain} (total {len(index_map)})")        
 
                 except requests.exceptions.Timeout:
                     print(f"[!] TIMEOUT [{source}]")
@@ -274,11 +304,10 @@ def main():
                     print(f"[!] ERROR [{source}]: {type(e).__name__}: {e}")
 
             if added > 0:
-                save_index(list(index_map.values()))
-                print(f"\n[+] Finished: +{added} new domains (total {len(index_map)})")
+                print(f"\n[+] Finished: +{added} new domains this cycle (total {len(index_map)})")
                 added = 0
             else:
-                print("\n[INFO] No new domains found")
+                print("\n[INFO] No new domains found")    
 
             print(f"[INFO] Sleeping {INTERVAL//60} minutes...")
             for _ in range(INTERVAL):
