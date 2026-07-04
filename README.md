@@ -4248,6 +4248,7 @@ Strict and disable bot crawl search engine index account
 - [auto-info.gratis](https://auto-info.gratis/)
 - [mail.e-data.com.ua](https://mail.e-data.com.ua/)
 - [platetracker](https://www.stopice.net/platetracker/index.cgi)
+- [US autocheck](https://www.autocheck.com/)
 
 VIN Checker 
 
@@ -4332,9 +4333,13 @@ Public Transport
 
 # Ship Tracking & Maritim
 
+- [ferrytracker](https://www.ferrytracker.net/)
+- [marinetraffic.org](https://www.marinetraffic.org/)
+- [cruisingearth](https://www.cruisingearth.com/)
+- [sealight resouces and database](https://www.sealight.live/resources)
 - [theshippingdatabase](https://theshippingdatabase.com/)
 - [shiptracker](https://shiptracker.live/)
-- [marinetraffic](https://www.marinetraffic.com/)
+- [marinetraffic.com](https://www.marinetraffic.com/)
 - [vesselfinder](https://www.vesselfinder.com/)
 - [gisis](https://gisis.imo.org/Public/Default.aspx)
 - [WindWard](https://windward.ai/)
@@ -4937,6 +4942,7 @@ Awesome Burpsuite Extension
 - [403 Bypasser](https://portswigger.net/bappstore/444407b96d9c4de0adb7aed89e826122)
 - [BURP MCP SERVER](https://github.com/PortSwigger/mcp-server)
 - [IP Rotate](https://portswigger.net/bappstore/2eb2b1cb1cf34cc79cda36f0f9019874) Need AWS account and insert your creds and config on AWS dashboard
+- [Param Miner](https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943)
 
 C2 & C4 
 
