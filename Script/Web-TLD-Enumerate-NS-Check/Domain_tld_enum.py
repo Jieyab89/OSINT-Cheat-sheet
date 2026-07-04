@@ -37,7 +37,7 @@ try:
 except ImportError:
     get_terminal_size = None
 requests.packages.urllib3.disable_warnings()
-DEFAULT_TIMEOUT = 6
+DEFAULT_TIMEOUT = 10
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"
 class Colors:
     GREEN = "\033[92m"
@@ -189,7 +189,7 @@ COMMON_TLDS = [
     "ren","shouji","tushu","wanggou","weibo","xihuan","xin",
 
     # Israel
-    "il"
+    "il","ac.il","co.il","org.il","idf.il","muni.il","net.il","k12.il",
     
     # Additional modern gTLD
     "team", "global", "care", "social",
@@ -207,7 +207,7 @@ COMMON_TLDS = [
     "law.pro","reit","jur.pro","bar.pro","zuerich",
     "acct.pro","nom.pe","waw.pl","pro.ec","web.ve",
     "arte","clinique","luxe","able","co.zm","com.zm",
-    "org.zm","co.za","net.za","org.za","web.za","zippo"
+    "org.zm","co.za","net.za","org.za","web.za","zippo",
 
     # JP
     "みんな","jpn.com",
@@ -240,7 +240,7 @@ COMMON_TLDS = [
     "booking","bosch","bostik","boston","bot","boutique","box","br","bradesco","bridgestone","broadway","broker","brother",
     "brussels","bs","bt","build","builders","business","buy","buzz","bv","bw","by","bz","bzh","ca","cab","cafe","cal","call",
     "calvinklein","cam","camera","camp","canon","capetown","capital","capitalone","car","caravan","cards","care","career","careers",
-    "cars","casa","case","cash","casino","cat","catering","catholic","cba","cbn","cbre","cc","cd","center","ceo","cern","cf","cfa","cfd",
+    "cars","casa","case","cash","casino","cat","catering","catholic","cba","cbn","cbre","cd","center","ceo","cern","cf","cfa","cfd",
     "cg","ch","chanel","channel","charity","chase","chat","cheap","chintai","christmas","chrome","church","ci","cipriani","circle","cisco",
     "citadel","citi","citic","city","ck","cl","claims","cleaning","click","clinic","clinique","clothing","cloud","club","clubmed","cm","cn","co",
     "coach","codes","coffee","college","cologne","com","commbank","community","company","compare","computer","comsec","condos","construction",
@@ -289,7 +289,7 @@ COMMON_TLDS = [
     "recipes","redumbrella","rehab","reise","reisen","reit","reliance","ren","rent","rentals","repair","report","republican","rest",
     "restaurant","review","reviews","rexroth","rich","richardli","ricoh","ril","rio","rip","rodeo","rogers","room",
     "rs","rsvp","ru","rugby","ruhr","run","rw","rwe","ryukyu","sa","saarland","safe","safety","sakura","sale","salon","samsclub",
-    "samsung","sandvik","sandvikcoromant","sanofi","sap","sarl","sas","save","saxo","sb","sbi","sbs","sc","scb","schaeffler",
+    "samsung","sandvik","sandvikcoromant","sanofi","sap","sarl","sas","save","saxo","sb","sbi","sc","scb","schaeffler",
     "schmidt","scholarships","school","schule","schwarz","science","scot","sd","se","search","seat","secure","security","seek",
     "select","sener","services","seven","sew","sex","sexy","sfr","sg","sh","shangrila","sharp","shell","shia","shiksha","shoes",
     "shop","shopping","shouji","show","si","silk","sina","singles","site","sj","sk","ski","skin","sky","skype","sl","sling","sm","smart",
@@ -297,7 +297,7 @@ COMMON_TLDS = [
     "spot","sr","srl","ss","st","stada","staples","star","statebank","statefarm","stc","stcgroup","stockholm","storage","store","stream",
     "studio","study","style","su","sucks","supplies","supply","support","surf","surgery","suzuki","sv","swatch","swiss","sx","sy","sydney","systems",
     "sz","tab","taipei","talk","taobao","target","tatamotors","tatar","tattoo","tax","taxi","tc","tci","td","tdk","team","tech","technology",
-    "tel","temasek","tennis","teva","tf","tg","th","thd","theater","theatre","tiaa","tickets","tienda","tips","tires","tirol","tj","tjmaxx",
+    "tel","temasek","tennis","teva","tg","th","thd","theater","theatre","tiaa","tickets","tienda","tips","tires","tirol","tj","tjmaxx",
     "tjx","tk","tkmaxx","tl","tm","tmall","tn","to","today","tokyo","tools","top","toray","toshiba","total","tours","town","toyota","toys",
     "tr","trade","trading","training","travel","travelers","travelersinsurance","trust","trv","tt","tube","tui","tunes","tushu","tv","tvs",
     "tw","tz","ua","ubank","ubs","ug","uk","unicom","university","uno","uol","ups","us","uy","uz","va","vacations","vana","vanguard",
@@ -305,7 +305,7 @@ COMMON_TLDS = [
     "vision","viva","vivo","vlaanderen","vn","vodka","volvo","vote","voting","voto","voyage","vu","wales","walmart","walter","wang","wanggou",
     "watch","watches","weather","weatherchannel","webcam","weber","website","wed","wedding","weibo","weir","wf","whoswho","wien",
     "wiki","williamhill","win","windows","wine","winners","wme","woodside","work","works","world","wow","ws","wtc","wtf","xbox",
-    "xerox","xihuan","xin","xn--11b4c3d","xn--1ck2e1b","xn--1qqw23a","xn--2scrj9c","xn--30rr7y","xn--3bst00m","xn--3ds443g",
+    "xerox","xihuan","xn--11b4c3d","xn--1ck2e1b","xn--1qqw23a","xn--2scrj9c","xn--30rr7y","xn--3bst00m","xn--3ds443g",
     "xn--3e0b707e","xn--3hcrj9c","xn--3pxu8k","xn--42c2d9a","xn--45br5cyl","xn--45brj9c","xn--45q11c","xn--4dbrk0ce","xn--4gbrim",
     "xn--54b7fta0cc","xn--55qw42g","xn--55qx5d","xn--5su34j936bgsg","xn--5tzm5g","xn--6frz82g","xn--6qq986b3xl","xn--80adxhks",
     "xn--80ao21a","xn--80aqecdr1a","xn--80asehdb","xn--80aswg","xn--8y0a063a","xn--90a3ac","xn--90ae","xn--90ais","xn--9dbq2a",

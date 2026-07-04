@@ -182,6 +182,18 @@
     color: var(--red);
     background: rgba(255, 92, 92, 0.08);
   }
+  .chip.active[data-filter="403"],
+  .chip.active[data-filter="500"],
+  .chip.active[data-filter="503"] {
+    border-color: var(--red);
+    color: var(--red);
+    background: rgba(255, 92, 92, 0.08);
+  }
+  .chip.active[data-filter="301"] {
+    border-color: var(--yellow);
+    color: var(--yellow);
+    background: rgba(224, 192, 104, 0.08);
+  }
 
   /* ---- table ---- */
   .table-wrap {
@@ -294,6 +306,12 @@
     <span class="chip" data-filter="up">dns: up</span>
     <span class="chip" data-filter="down">dns: down</span>
     <span class="chip" data-filter="200">http 200</span>
+    <span class="chip" data-filter="301">http 301</span>
+    <span class="chip" data-filter="403">http 403</span>
+    <span class="chip" data-filter="500">http 500</span>
+    <span class="chip" data-filter="503">http 503</span>
+    <span class="chip" data-filter="has_ns">has ns</span>
+    <span class="chip" data-filter="has_title">has title</span>
   </div>
 
   <div class="table-wrap">
@@ -350,11 +368,20 @@ function getCombinedServer(r) {
   return null;
 }
 function hasStatus200(r) {
+  return hasStatusCode(r, 200);
+}
+function hasStatusCode(r, code) {
   for (const scheme of ["https", "http"]) {
     const info = r[scheme];
-    if (info && info.status_code === 200) return true;
+    if (info && info.status_code === code) return true;
   }
   return false;
+}
+function hasNS(r) {
+  return Array.isArray(r.ns) && r.ns.length > 0;
+}
+function hasTitle(r) {
+  return !!getCombinedTitle(r);
 }
 function escapeHtml(str) {
   if (str === null || str === undefined) return "";
@@ -399,11 +426,19 @@ function renderStats() {
 }
 
 function rowMatchesFilter(r) {
-  if (activeFilter === "all") return true;
-  if (activeFilter === "up") return !!r.resolved;
-  if (activeFilter === "down") return !r.resolved;
-  if (activeFilter === "200") return hasStatus200(r);
-  return true;
+  switch (activeFilter) {
+    case "all": return true;
+    case "up": return !!r.resolved;
+    case "down": return !r.resolved;
+    case "200": return hasStatusCode(r, 200);
+    case "301": return hasStatusCode(r, 301);
+    case "403": return hasStatusCode(r, 403);
+    case "500": return hasStatusCode(r, 500);
+    case "503": return hasStatusCode(r, 503);
+    case "has_ns": return hasNS(r);
+    case "has_title": return hasTitle(r);
+    default: return true;
+  }
 }
 
 function rowMatchesSearch(r, q) {
