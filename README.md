@@ -41,8 +41,8 @@ Info
 
 | Date | Remarks |
 |------------|---------|
-| 15 Jun 2026 | Update the article about darkweb intel for osint and scrapping |
-| 14 Jun 2026 | New slide presentation talk about detail fundamental OSINT, OPSEC also method and darkweb intel, make your own tools also key in OSINT, DARKWEB, SOCMINT and other | 
+| 5 Jul 2026 | Update the article about Darkweb scrapping and All About OSINT Matters Things in OSINT also Intelligence Base & Knowledge Base at Gitbook and Wiki Github pages |
+| 5 Jul 2026 | Add license MIT | 
 
 - [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
 - [All About Doxing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing)
