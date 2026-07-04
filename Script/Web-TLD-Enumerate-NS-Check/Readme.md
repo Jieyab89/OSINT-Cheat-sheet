@@ -21,7 +21,13 @@ python reccon-domain-tld.py --name <targetname>
 ## Reccon tld domain brute 
 
 ```
-python reccon-domain-tld.py --name pornhub --brute --brute-max-len 3
+python reccon-domain-tld.py --name <targetname> --brute --brute-max-len 3
+```
+
+## Reccon tld domain with tor network 
+
+```
+proxychains4 -q python reccon-domain-tld.py --name <targetname>
 ```
 
 # Results 

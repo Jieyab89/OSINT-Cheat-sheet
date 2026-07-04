@@ -1253,6 +1253,7 @@ Example
 
 Web Defacement Archive 
 
+- [mirror h archived](https://web.archive.org/web/*/https://mirror-h.org/*)
 - [Wayback Machine](https://web.archive.org/)
 - [Zone H](https://www.zone-h.org/archive?hz=1)
 - [defacer ID](https://defacer.id/)
@@ -5536,6 +5537,7 @@ Social Media Analytics
 - [darkseclabs](https://darkseclabs.com/)
 - [scamdb](https://www.scamdb.net/)
 - [cryptoscamdb crypto scam](https://cryptoscamdb.org/)
+- [mirror h archived](https://web.archive.org/web/*/https://mirror-h.org/*)
 
 Guides 
 
@@ -6323,6 +6325,7 @@ Find the list and history about house property, price and etc
 
 You can search nickname, hacker team and hacker archive like web defacement data, programmer and other 
 
+- [mirror h archived](https://web.archive.org/web/*/https://mirror-h.org/*)
 - [threatactorusernames](https://threatactorusernames.com/)
 - [attrition](https://attrition.org/mirror/attrition/)
 - [Zone H](https://www.zone-h.org/archive?hz=1)
