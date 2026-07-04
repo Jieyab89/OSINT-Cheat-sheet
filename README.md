@@ -2401,8 +2401,6 @@ Search channel, username, bot and anymore
 - [tgstat RU](https://tgstat.ru/)
 - [Social Finder](https://socialfinder.app/list/Telegram)
 - [Lyzem Search](https://lyzem.com/)
-- [Discover The Best Telegram Channels](https://telegramchannels.me/)
-- [Tele Channel Overiview](https://telemetr.io/)
 - [Telemetr](https://telemetr.io/)
 - [TGDev](https://tgdev.io/)
 - [IntelX Telegram](https://intelx.io/tools?tab=telegram)
