@@ -202,6 +202,7 @@ Automated tool by David Bombal
 - [Tinfoleak](https://github.com/vaguileradiaz/tinfoleak)
 - [Alfred](https://github.com/Alfredredbird/alfred)
 - [Blackbird](https://github.com/p1ngul1n0/blackbird)
+- [Xquik](https://xquik.com/) X/Twitter OSINT platform for tweet search, profile export, media download, monitoring, webhooks, REST API, and MCP access
 - [sociallinks](https://sociallinks.io/products/sl-crimewall)
 - [maigret](https://github.com/soxoj/maigret)
 - [social searcher](https://www.social-searcher.com/)
