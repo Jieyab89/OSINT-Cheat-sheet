@@ -198,6 +198,7 @@ Automated tool by David Bombal
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
 - [webvetted](https://webvetted.com/)
 - [InstagramPrivSniffer](https://github.com/obitouka/InstagramPrivSniffer)
+- [InstagramOSINT](https://github.com/usualdork/InstagramOSINT) - AI-powered Instagram OSINT toolkit with profile analysis, engagement metrics, social graph mapping, media download, data export, and natural language AI queries
 - [socialblade](https://socialblade.com/)
 - [Tinfoleak](https://github.com/vaguileradiaz/tinfoleak)
 - [Alfred](https://github.com/Alfredredbird/alfred)
@@ -1942,6 +1943,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [imginn anonymous instagram story viewer](https://imginn.com/)
 - [pixnoy insta viewer](https://www.pixnoy.com/)
 - [InstagramPrivSniffer](https://github.com/obitouka/InstagramPrivSniffer)
+- [InstagramOSINT](https://github.com/usualdork/InstagramOSINT) - AI-powered Instagram OSINT toolkit with profile analysis, engagement metrics, social graph mapping, media download, data export, and natural language AI queries
 - [instrack](https://instrack.app/)
 - [mollygram](https://mollygram.com/)
 - [indownloader](https://indownloader.app/)
