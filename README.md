@@ -392,6 +392,8 @@ Site and forums OSINT community arround world
 - [codeberg](https://codeberg.org/)
 - [dnslytics](https://search.dnslytics.com/)
 - [zerobin](https://zerobin.net/)
+- [ID p-store](https://p-store.net/)
+- [ID sharecode](https://sharecode.id/)
 
 Pro Tips 
 
@@ -416,6 +418,7 @@ Guide Github search code by Jieyab89 : https://github.com/Jieyab89/OSINT-Cheat-s
 - [Hackerrank](https://www.hackerrank.com/)
 - [Code chef](https://www.codechef.com/)
 - [Code war](https://www.codewars.com/)
+- [leetcode](https://leetcode.com/)
 
 # Social Media Search and Monitoring
 
@@ -904,8 +907,7 @@ Browser Sandbox
 # Wireless Network
 
 - [3wifi](https://3wifi.dev/map.html)
-- [Wigle](https://www.wigle.net/)
-Maps and database of 802.11 wireless networks, with statistics, submitted by wardrivers, netstumblers, and net huggers
+- [Wigle](https://www.wigle.net/) Maps and database of 802.11 wireless networks, with statistics, submitted by wardrivers, netstumblers, and net huggers
 - [Fing Net Scan](https://www.fing.com/)
 - [Wifianalyzer](https://www.wifianalyzer.info/)
 - [Angry Ip](https://angryip.org/)
@@ -1262,8 +1264,12 @@ Web Defacement Archive
 - [ownzyou](https://ownzyou.com/)
 - [hack db](https://hack-db.org//)
 - [defacer net](https://defacer.net/)
-- [z-x archived site](https://web.archive.org/web/*/z-x.my.id*) *you can use dork and cache for Google index search hacker nickname 
+- [z-x archived site](https://web.archive.org/web/*/z-x.my.id*) 
 - [attrition](https://attrition.org/mirror/attrition/)
+
+Tips 
+
+You can use dork and cache for Google index search hacker nickname also try search into archiver data broker like wayback, archive today and etc 
 
 Politic and Geopolitic Archive 
 
@@ -1278,6 +1284,11 @@ Malware Database Archive
 - [vx-underground](https://vx-underground.org/)
 - [churchofmalware](https://churchofmalware.org/#about)
 - [theZoo](https://github.com/ytisf/theZoo/tree/master/malware/Source)
+- [malware bazaar](https://bazaar.abuse.ch/)
+- [LJ9859 Malware Database](https://github.com/LJ9859/Malware-Database)
+- [malshare](https://malshare.com/)
+- [urlhaus](https://urlhaus.abuse.ch/)
+- [virustotal](https://www.virustotal.com/gui/home/upload)
 
 # Data Breached OSINT
 
@@ -1354,6 +1365,7 @@ Malware Database Archive
 - [antipublic](https://antipublic.net/)
 - [haveibeenransom](https://haveibeenransom.com/)
 - [cabalbreach HIBP check](https://osintcabal.org/livecenter/cabalbreach-chiasmodon.html)
+- [mega](https://mega.io/) Need to dorking and knowing the contexts
 
 # Crack Jurnals
 
@@ -2886,7 +2898,6 @@ Scribd downloader
 - [mapcreator](https://mapcreator.io/)
 - [google initiative news - Basic GEE](https://newsinitiative.withgoogle.com/resources/trainings/introduction-to-google-earth-engine/)
 - [shadowbreakintl](https://www.shadowbreakintl.com/#products)
-- [earthkit](https://agent.earthkit.app/)
 - [Mapquest](https://www.mapquest.com/)
 - [solara-maxar](https://github.com/opengeos/solara-maxar)
 - [qgis](https://qgis.org/)
@@ -3775,8 +3786,10 @@ Browser Sandbox
 
 # Darkweb Forums 
 
-Onion and surface site forums 
+Onion and surface site forums also undeground 
 
+- [leak surface web](https://leak.sx/)
+- [leakforum surface web](https://leakforum.io/)
 - [PWN forums (ONION SITE)](http://pwnfrm7rbf6kyerigxi677lcz5ifmoagdbqqknwdu2by27wfdst5qmqd.onion/)
 - [Dread forum (ONION SITE)](http://dreadyj7l26jqvyk3xycgljkkagc32x2y5urlcse3qocylzn53oj2byd.onion/)
 - [dreadforum surface web](https://dreadforum.io/)
@@ -4002,8 +4015,7 @@ Remove your image from Google
 - [Delete Me](https://joindeleteme.com/) Remove your personal information in internet and data broker (scrapper)
 - [backgroundchecks](https://backgroundchecks.org/justdeleteme/#go) A guide directory of direct links to delete your account from web services
 - [ATII](https://followmoneyfightslavery.org/) The Anti-Human Trafficking Intelligence Initiative human trafficking, child exploitation, and child sexual abuse material (CSAM) through the advancement of prevention, detection, investigation, and reporting mechanisms
-- [Stopncii](https://stopncii.org)
-Free tool designed to support victims of Non-Consensual Intimate Image (NCII) abuse
+- [Stopncii](https://stopncii.org) Free tool designed to support victims of Non-Consensual Intimate Image (NCII) abuse
 - [Bing content removal](www.bing.com/webmasters/tools/contentremoval)
 Chech the detail on [here](https://www.bing.com/webmasters/help/bing-content-removal-tool-cb6c294d)
 - [Google content removal](https://search.google.com/search-console/remove-outdated-content)
@@ -5093,6 +5105,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 
 # OSINT Military
 
+- [intelrepository governments and militaries of various nations](https://intelrepository.com/)
 - [Phantom Tide](https://phantom.labs.jamessawyer.co.uk/) - cross-domain OSINT dashboard for maritime and airspace analysis
 - [List of aircraft carriers](https://en.wikipedia.org/wiki/List_of_aircraft_carriers)
 - [globalsecurity military](https://www.globalsecurity.org/military/index.html)
@@ -6329,6 +6342,7 @@ Find the list and history about house property, price and etc
 
 You can search nickname, hacker team and hacker archive like web defacement data, programmer and other 
 
+- [breach-hq](https://breach-hq.com/threat-actors)
 - [mirror h archived](https://web.archive.org/web/*/https://mirror-h.org/*)
 - [threatactorusernames](https://threatactorusernames.com/)
 - [attrition](https://attrition.org/mirror/attrition/)
