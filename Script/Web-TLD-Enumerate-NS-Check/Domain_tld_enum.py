@@ -128,7 +128,10 @@ COMMON_TLDS = [
     "sk","si","bg","ua","ie",
     "lv","lt","lu","mt","hr",
     "rs","ba","al","mk",
-    "gr","cy","nl",
+    "gr","cy","nl","org.uk",
+    "ac.uk","com.es","nom.es",
+    "org.es","com.tr","net.tr",
+    "org.tr",
     
     # Americas
     "us","ca","mx","br","ar",
@@ -192,10 +195,10 @@ COMMON_TLDS = [
     "il","ac.il","co.il","org.il","idf.il","muni.il","net.il","k12.il",
     
     # Additional modern gTLD
-    "team", "global", "care", "social",
-    "video", "chat", "academy", "training",
-    "events", "marketing", "exchange",
-    "international", "technology","rock","art",
+    "team","global","care","social",
+    "video","chat","academy","training",
+    "events","marketing","exchange",
+    "international","technology","rock","art",
     "stream","games","sciene","mobi","guru",
     "com.au","bid","travel","plus","systems","edu",
     "co.in","domain","photography","expert","tube",
@@ -220,6 +223,7 @@ COMMON_TLDS = [
     "iq","ir","jo","kg","kp",
     "kw","kz","lb","mn","mv","om",
     "ps","sy","tj","tl","tm","uz","ye",
+    "per.sg",
 
     # IANA
     # https://www.icann.org/en/contracted-parties/registry-operators/resources/listings
@@ -232,7 +236,7 @@ COMMON_TLDS = [
     "android","anquan","anz","ao","aol","apartments","app","apple","aq","aquarelle","ar",
     "arab","aramco","archi","army","arpa","art","arte","as","asda","asia","associates","at",
     "athleta","attorney","au","auction","audi","audible","audio","auspost","author","auto","autos",
-    "aw","aws","ax","axa","az","azure","ba","baby","baidu","banamex","band","bank","bar","barcelona",
+    "aw","aws","ax","axa","azure","ba","baby","baidu","banamex","band","bank","bar","barcelona",
     "barclaycard","barclays","barefoot","bargains","baseball","basketball","bauhaus","bayern","bb","bbc",
     "bbt","bbva","bcg","bcn","bd","be","beats","beauty","beer","berlin","best","bestbuy","bet","bf","bg","bh",
     "bharti","bi","bible","bid","bike","bing","bingo","bio","biz","bj","black","blackfriday","blockbuster","blog",
@@ -280,7 +284,7 @@ COMMON_TLDS = [
     "mortgage","moscow","moto","motorcycles","mov","movie","mp","mq","mr","ms","msd","mt","mtn","mtr","mu","museum","music","mv","mw","mx","my",
     "mz","na","nab","nagoya","name","navy","nba","nc","ne","nec","net","netbank","netflix","network","neustar","new","news","next","nextdirect","nexus",
     "nf","nfl","ng","ngo","nhk","ni","nico","nike","nikon","ninja","nissan","nissay","nl","no","nokia","norton","now","nowruz","nowtv","np","nr","nra",
-    "nrw","ntt","nu","nyc","nz","obi","observer","office","okinawa","olayan","olayangroup","ollo","om","omega","one","ong","onl","online","ooo","open",
+    "nrw","ntt","nu","nyc","obi","observer","office","okinawa","olayan","olayangroup","ollo","om","omega","one","ong","onl","online","ooo","open",
     "oracle","orange","org","organic","origins","osaka","otsuka","ott","ovh","pa","page","panasonic","paris","pars","partners","parts","party","pay",
     "pccw","pe","pet","pf","pfizer","pg","ph","pharmacy","phd","philips","phone","photo","photography","photos","physio","pics","pictet","pictures",
     "pid","pin","ping","pink","pioneer","pizza","pk","pl","place","play","playstation","plumbing","plus","pm","pn","pnc","pohl","poker","politie",
@@ -326,6 +330,7 @@ COMMON_TLDS = [
     "zappos","zara","zero","zm","zone","zuerich","zw",
     
 ]
+
 def generate_brute_tlds(max_len=3, min_len=1):
     """
     Generate a-z string combinations with lengths ranging from min_len to max_len.
