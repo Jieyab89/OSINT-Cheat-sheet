@@ -1220,6 +1220,7 @@ Example
 
 # Internet Archive
 
+- [Wiki Leaks](https://wikileaks.org/)
 - [Wayback Twitter](https://waybacktweets.streamlit.app/)
 - [thebarchive](https://thebarchive.com/_/articles/faq/)
 - [nationalarchives](https://www.nationalarchives.gov.uk/)
@@ -5517,6 +5518,7 @@ Search News Journalist and Documentary Sites
 - [doublethinklab](https://doublethinklab.org/)
 - [Wiki Leaks](https://wikileaks.org/)
 - [CIA - Factbook](https://www.cia.gov/library/publications/the-world-factbook/)
+- [Wiki Leaks](https://wikileaks.org/)
 
 Social Media Analytics
 
