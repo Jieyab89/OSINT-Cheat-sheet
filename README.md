@@ -1213,6 +1213,9 @@ Example
 - [usersearch](https://usersearch.ai/)
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
 - [wikimedia search place and other](https://commons.wikimedia.org/wiki/Main_Page)
+- [lukol](https://www.lukol.com/)
+- [Wikimapia](http://wikimapia.org)
+- [search Yahoo](https://search.yahoo.com/)
 
 # Internet Archive
 
@@ -2029,6 +2032,9 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [Reddit Viewer uforio](http://web.uforio.com/#search)
 - [realsrikar Reddit search and viewer](https://realsrikar.github.io/)
 - [Better Reddit Search](https://betterredditsearch.web.app/)
+- [undelete Unddit Reddit search and viewer](https://undelete.pullpush.io/)
+- [undelete Unddit Reddit search and viewer - Github code](https://github.com/gurnec/removeddit)
+- [Xquik](https://xquik.com/) 
 
 # Youtube 
 
@@ -2128,6 +2134,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 - [xcancel like nitter](https://xcancel.com/)
 - [Nitter Instances available lists](https://github.com/zedeus/nitter/wiki/Instances)
 - [twitterwebviewer](https://twitterwebviewer.com/)
+- [Xquik](https://xquik.com/) X/Twitter OSINT platform for tweet search, profile export, media download, monitoring, webhooks, REST API, and MCP access
 
 Twitter Search Engine 
 
