@@ -261,6 +261,10 @@
             {
                 "name": "CSE Social media search",
                 "url": "https://cse.google.com/cse?cx=016621447308871563343:0p9cd3f8p-k#gsc.tab=0&gsc.sort="
+            },
+            {
+                "name": "Xquik",
+                "url": "https://xquik.com/"
             }
         ]
     },
@@ -909,6 +913,14 @@
             {
                 "name": "zerobin",
                 "url": "https://zerobin.net/"
+            },
+            {
+                "name": "ID p-store",
+                "url": "https://p-store.net/"
+            },
+            {
+                "name": "ID sharecode",
+                "url": "https://sharecode.id/"
             }
         ]
     },
@@ -926,6 +938,10 @@
             {
                 "name": "Code war",
                 "url": "https://www.codewars.com/"
+            },
+            {
+                "name": "leetcode",
+                "url": "https://leetcode.com/"
             }
         ]
     },
@@ -1690,6 +1706,26 @@
             {
                 "name": "cookieserve find and check cookie",
                 "url": "https://www.cookieserve.com/"
+            },
+            {
+                "name": "Jieyab89 TLD and NS checker domain",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Web-TLD-Enumerate-NS-Check"
+            },
+            {
+                "name": "Check availabe domain tld list",
+                "url": "https://tld-list.com/"
+            },
+            {
+                "name": "check available domain",
+                "url": "https://instantdomainsearch.com/"
+            },
+            {
+                "name": "tomba",
+                "url": "https://tomba.io/"
+            },
+            {
+                "name": "bevigil web enum",
+                "url": "https://bevigil.com/osint-api"
             }
         ]
     },
@@ -3783,6 +3819,18 @@
             {
                 "name": "wikimedia search place and other",
                 "url": "https://commons.wikimedia.org/wiki/Main_Page"
+            },
+            {
+                "name": "lukol",
+                "url": "https://www.lukol.com/"
+            },
+            {
+                "name": "Wikimapia",
+                "url": "http://wikimapia.org"
+            },
+            {
+                "name": "search Yahoo",
+                "url": "https://search.yahoo.com/"
             }
         ]
     },
@@ -4008,6 +4056,34 @@
             {
                 "name": "theZoo",
                 "url": "https://github.com/ytisf/theZoo/tree/master/malware/Source"
+            },
+            {
+                "name": "Wiki Leaks",
+                "url": "https://wikileaks.org/"
+            },
+            {
+                "name": "mirror h archived",
+                "url": "https://web.archive.org/web/*/https://mirror-h.org/*"
+            },
+            {
+                "name": "malware bazaar",
+                "url": "https://bazaar.abuse.ch/"
+            },
+            {
+                "name": "LJ9859 Malware Database",
+                "url": "https://github.com/LJ9859/Malware-Database"
+            },
+            {
+                "name": "malshare",
+                "url": "https://malshare.com/"
+            },
+            {
+                "name": "urlhaus",
+                "url": "https://urlhaus.abuse.ch/"
+            },
+            {
+                "name": "virustotal",
+                "url": "https://www.virustotal.com/gui/home/upload"
             }
         ]
     },
@@ -4305,6 +4381,10 @@
             {
                 "name": "cabalbreach HIBP check",
                 "url": "https://osintcabal.org/livecenter/cabalbreach-chiasmodon.html"
+            },
+            {
+                "name": "mega",
+                "url": "https://mega.io/"
             }
         ]
     },
@@ -6513,6 +6593,18 @@
             {
                 "name": "Better Reddit Search",
                 "url": "https://betterredditsearch.web.app/"
+            },
+            {
+                "name": "undelete Unddit Reddit search and viewer",
+                "url": "https://undelete.pullpush.io/"
+            },
+            {
+                "name": "undelete Unddit Reddit search and viewer - Github code",
+                "url": "https://github.com/gurnec/removeddit"
+            },
+            {
+                "name": "Xquik",
+                "url": "https://xquik.com/"
             }
         ]
     },
@@ -6916,6 +7008,10 @@
             {
                 "name": "PeekVault",
                 "url": "https://peekvault.com/"
+            },
+            {
+                "name": "Xquik",
+                "url": "https://xquik.com/"
             }
         ]
     },
@@ -7552,6 +7648,14 @@
             {
                 "name": "ychecker gmail email checker validate",
                 "url": "https://ychecker.com/bulk-email-checker"
+            },
+            {
+                "name": "windvane",
+                "url": "https://windvane.lichoin.com/"
+            },
+            {
+                "name": "tomba",
+                "url": "https://tomba.io/"
             }
         ]
     },
@@ -10152,6 +10256,10 @@
             {
                 "name": "rapiddns",
                 "url": "https://rapiddns.io/"
+            },
+            {
+                "name": "windvane",
+                "url": "https://windvane.lichoin.com/"
             }
         ]
     },
@@ -12641,6 +12749,10 @@
             {
                 "name": "grams (ONION SITES)",
                 "url": "http://grams64rarzrk7rzdaz2fpb7lehcyi7zrrf5kd6w2uoamp7jw2aq6vyd.onion/"
+            },
+            {
+                "name": "Jieyab89 darkweb scrapping link",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/blob/main/Script/Darkweb-Scrapping/onion-site-directory-scrapper.py"
             }
         ]
     },
@@ -12782,6 +12894,14 @@
             {
                 "name": "Darkweb labs settup",
                 "url": "https://hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf"
+            },
+            {
+                "name": "leak surface web",
+                "url": "https://leak.sx/"
+            },
+            {
+                "name": "leakforum surface web",
+                "url": "https://leakforum.io/"
             }
         ]
     },
@@ -14479,6 +14599,10 @@
             {
                 "name": "Palembang ID Pub Transport",
                 "url": "https://geoportal.palembang.go.id/pencarian?kategori=Transportasi"
+            },
+            {
+                "name": "US autocheck",
+                "url": "https://www.autocheck.com/"
             }
         ]
     },
@@ -14817,6 +14941,26 @@
             {
                 "name": "Phantom Tide",
                 "url": "https://phantom.labs.jamessawyer.co.uk/"
+            },
+            {
+                "name": "ferrytracker",
+                "url": "https://www.ferrytracker.net/"
+            },
+            {
+                "name": "marinetraffic.org",
+                "url": "https://www.marinetraffic.org/"
+            },
+            {
+                "name": "cruisingearth",
+                "url": "https://www.cruisingearth.com/"
+            },
+            {
+                "name": "sealight resouces and database",
+                "url": "https://www.sealight.live/resources"
+            },
+            {
+                "name": "marinetraffic.com",
+                "url": "https://www.marinetraffic.com/"
             }
         ]
     },
@@ -16884,6 +17028,10 @@
             {
                 "name": "Linux hardening checklist - CSA LAB",
                 "url": "https://csalab-id.github.io/documents/compliance/CIS_Benchmark_Ubuntu_24_04.pdf"
+            },
+            {
+                "name": "Param Miner",
+                "url": "https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943"
             }
         ]
     },
@@ -17110,6 +17258,10 @@
             {
                 "name": "ipwhois",
                 "url": "https://ipwhois.io/"
+            },
+            {
+                "name": "netlas",
+                "url": "https://app.netlas.io/host/"
             }
         ]
     },
@@ -17131,6 +17283,14 @@
             {
                 "name": "ICRC International Committee of the Red Cross",
                 "url": "https://www.icrc.org/en"
+            },
+            {
+                "name": "ID Kemenkes satusehat Check legality",
+                "url": "https://satusehat.kemkes.go.id/platform/healthcare-list"
+            },
+            {
+                "name": "ID KKI Check Medical Personnel",
+                "url": "https://kki.go.id/ceknamednakes/form"
             }
         ]
     },
@@ -17656,6 +17816,10 @@
             {
                 "name": "smallarmssurvey",
                 "url": "https://www.smallarmssurvey.org/databases"
+            },
+            {
+                "name": "intelrepository governments and militaries of various nations",
+                "url": "https://intelrepository.com/"
             }
         ]
     },
@@ -18723,6 +18887,10 @@
             {
                 "name": "Interpol Int",
                 "url": "https://www-interpol-int.translate.goog/How-we-work/Databases?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=tc"
+            },
+            {
+                "name": "mirror h archived",
+                "url": "https://web.archive.org/web/*/https://mirror-h.org/*"
             }
         ]
     },
@@ -20036,6 +20204,22 @@
             {
                 "name": "imagewhisperer",
                 "url": "https://imagewhisperer.org/"
+            },
+            {
+                "name": "deepai",
+                "url": "https://deepai.org/"
+            },
+            {
+                "name": "decopy",
+                "url": "https://decopy.ai/"
+            },
+            {
+                "name": "zerogpt",
+                "url": "https://www.zerogpt.com/"
+            },
+            {
+                "name": "isgen",
+                "url": "https://isgen.ai/"
             }
         ]
     },
@@ -20277,6 +20461,18 @@
             {
                 "name": "socialblade similarity",
                 "url": "https://socialblade.com/"
+            },
+            {
+                "name": "zerogpt",
+                "url": "https://www.zerogpt.com/"
+            },
+            {
+                "name": "decopy",
+                "url": "https://decopy.ai/"
+            },
+            {
+                "name": "yandex",
+                "url": "https://yandex.com/images/search"
             }
         ]
     },
@@ -21241,6 +21437,14 @@
             {
                 "name": "topcoder",
                 "url": "https://www.topcoder.com/marathon-match-tournament/leaderboard"
+            },
+            {
+                "name": "breach-hq",
+                "url": "https://breach-hq.com/threat-actors"
+            },
+            {
+                "name": "mirror h archived",
+                "url": "https://web.archive.org/web/*/https://mirror-h.org/*"
             }
         ]
     },
@@ -21715,99 +21919,6 @@
         "category": "OSINT Technique Tips",
         "items": [
             {
-                "name": "Awesome guide attack vector OSINT",
-                "url": "https://github.com/sinwindie/OSINT"
-            },
-            {
-                "name": "Bellingcat Guides Tools and Handbook",
-                "url": "https://bellingcat.gitbook.io/toolkit/resources/guides-and-handbooks"
-            },
-            {
-                "name": "osintcombine",
-                "url": "https://www.osintcombine.com/post/dark-web-searching"
-            },
-            {
-                "name": "overtoperator",
-                "url": "https://www.overtoperator.com/s/daily-intel-brief"
-            },
-            {
-                "name": "maltego",
-                "url": "https://www.maltego.com/blog/top-osint-infosec-resources-for-you-and-your-team/"
-            },
-            {
-                "name": "skopenow image int",
-                "url": "https://www.skopenow.com/resource-center/image-based-osint-investigations-tips-techniques"
-            },
-            {
-                "name": "Telegram OSINT",
-                "url": "https://github.com/Ginsberg5150/Discord-and-Telegram-OSINT-references"
-            },
-            {
-                "name": "OSINT Handbook",
-                "url": "https://i-intelligence.eu/uploads/public-documents/OSINT_Handbook_2020.pdf"
-            },
-            {
-                "name": "The Threat Intelligence Lifecycle",
-                "url": "https://www.recordedfuture.com/threat-intelligence-lifecycle"
-            },
-            {
-                "name": "Five Phashes of the Threat Intelligence Lifecycle",
-                "url": "https://flashpoint.io/blog/threat-intelligence-lifecycle/"
-            },
-            {
-                "name": "Threat Intelligence Lifecycle Phases & Best Practices Explained",
-                "url": "https://snyk.io/learn/threat-intelligence/threat-intelligence-lifecycle/"
-            },
-            {
-                "name": "Open-Source Intelligence (OSINT) Cycle",
-                "url": "https://securityorb.com/featured/the-open-source-intelligence-osint-cycle/"
-            },
-            {
-                "name": "Learn and training OSINT free",
-                "url": "https://sites.google.com/view/tpdprivacy/home?authuser=0"
-            },
-            {
-                "name": "Bellingcat Resouces Guide",
-                "url": "https://www.bellingcat.com/category/resources/"
-            },
-            {
-                "name": "Guide for verification and SOCMINT",
-                "url": "https://datajournalism.com/read/handbook/verification-3"
-            },
-            {
-                "name": "Youtube OSINT Tutorial",
-                "url": "https://www.youtube.com/playlist?list=PLrFPX1Vfqk3ehZKSFeb9pVIHqxqrNW8Sy"
-            },
-            {
-                "name": "Ethical and about more OSINT",
-                "url": "https://stanleycenter.org/publications/osint-applied-ethics-workbook/"
-            },
-            {
-                "name": "Exposing the Invisible - The Kit",
-                "url": "https://kit.exposingtheinvisible.org/en/index.html"
-            },
-            {
-                "name": "The Atypical OSINT Guide",
-                "url": "https://github.com/OffcierCia/non-typical-OSINT-guide?tab=readme-ov-file#introduction-civil-osint"
-            },
-            {
-                "name": "cheatsheet - awesome list checklist OSINT and OSINT Branch",
-                "url": "https://cheatsheet.haax.fr/open-source-intelligence-osint/"
-            },
-            {
-                "name": "osintnewsletter",
-                "url": "https://osintnewsletter.com/"
-            },
-            {
-                "name": "Millitary OSINT",
-                "url": "https://drive.google.com/drive/folders/1S6f4Qgt9p9x6h9fnfMWTp18WY6rRstjU"
-            }
-        ]
-    },
-    {
-        "category": "Jieyab89 Wiki Pages",
-        "items": [
-               {
                 "name": "Awesome guide attack vector OSINT",
                 "url": "https://github.com/sinwindie/OSINT"
             },
