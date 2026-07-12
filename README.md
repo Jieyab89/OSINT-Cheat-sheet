@@ -41,8 +41,7 @@ Info
 
 | Date | Remarks |
 |------------|---------|
-| 5 Jul 2026 | Update the article about Darkweb scrapping and All About OSINT Matters Things in OSINT also Intelligence Base & Knowledge Base at Gitbook and Wiki Github pages |
-| 5 Jul 2026 | Add license MIT | 
+| 13 Jul 2026 | Update the article about Intelligence Base & Knowledge Base and All About Doxing also All About Pentesting at Gitbook and Wiki Github pages |
 
 - [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
 - [All About Doxing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing)
@@ -625,6 +624,8 @@ Notes this is for surface web or clearnet site
 - [dnslytics](https://search.dnslytics.com/)
 - [blacklistchecker](https://blacklistchecker.com/)
 - [cookieserve find and check cookie](https://www.cookieserve.com/)
+- [tomba](https://tomba.io/)
+- [bevigil web enum](https://bevigil.com/osint-api)
 
 *Tips web cache 
 
@@ -2344,6 +2345,8 @@ Google queries for MySpace
 - [Blackbird](https://github.com/p1ngul1n0/blackbird)
 - [OsintCat](https://www.osintcat.net/) Look up emails, usernames, and phone numbers in breach databases — clean results, no noise
 - [ychecker gmail email checker validate](https://ychecker.com/bulk-email-checker)
+- [windvane](https://windvane.lichoin.com/)
+- [tomba](https://tomba.io/)
 
 # PGP or GPG Keybase 
 
@@ -2397,7 +2400,6 @@ Mostly general for searching data like web enumerate, attack surface, email, per
 - [Twint](https://forum.seccodeid.com/d/twint-twitter-intelligence-tool)
 - [Telegram OSINT](https://forum.seccodeid.com/d/telegram-nearby-map)
 - [UBIKRON](https://www.osint-tool.com/unravel-help/)
-- [netlas.io](https://app.netlas.io/host/)
 - [usersearch](https://usersearch.ai/)
 - [securitytrails](https://securitytrails.com/)
 
@@ -3036,6 +3038,7 @@ Guide
 
 # Server Information Gathering Also Web
 
+- [windvane](https://windvane.lichoin.com/)
 - [viewdns - IP history](https://viewdns.info/iphistory/?domain)
 - [cloudflare radar](https://radar.cloudflare.com/)
 - [fullhunt](https://fullhunt.io/)
@@ -5101,6 +5104,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [ip2location](https://www.ip2location.io/)
 - [IP2Whois - whois information lookup](https://www.ip2whois.com/)
 - [ipwhois](https://ipwhois.io/)
+- [netlas](https://app.netlas.io/host/)
 
 # Medical OSINT 
 
@@ -5996,6 +6000,7 @@ Text Analyzer
 - [DiffChecker](https://www.diffchecker.com/image-diff/)
 - [text compare](https://text-compare.com/)
 - [zerogpt](https://www.zerogpt.com/)
+- [decopy](https://decopy.ai/)
 
 Audio Analyzer 
 
