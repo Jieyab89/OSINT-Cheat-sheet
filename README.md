@@ -41,7 +41,7 @@ Info
 
 | Date | Remarks |
 |------------|---------|
-| 13 Jul 2026 | Update the article about Intelligence Base & Knowledge Base and All About Doxing also All About Pentesting at Gitbook and Wiki Github pages |
+| 16 Jul 2026 | Update the article about Intelligence Base & Knowledge Base at Gitbook and Wiki Github pages |
 
 - [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
 - [All About Doxing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing)
@@ -4396,6 +4396,7 @@ Public Transport
 - [shipfinder](https://www.shipfinder.com/)
 - [boatinfoworld](https://www.boatinfoworld.com/)
 - [Phantom Tide](https://phantom.labs.jamessawyer.co.uk/) - cross-domain OSINT dashboard for maritime and airspace analysis
+- [ESA oceandatalab](https://ovl.oceandatalab.com/)
 
 # Railways
 
@@ -5233,6 +5234,8 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [vantor](https://vantor.com/)
 - [maps tochnyi mostly Ukraine war](https://maps.tochnyi.info/humansafari/)
 - [understandingwar](https://understandingwar.org/)
+- [Global Wildfire Information System](https://gwis.jrc.ec.europa.eu/apps/gwis_current_situation/index.html)
+- [hunger map](https://hungermap.wfp.org/)
 
 Simulator and Game 
 
@@ -5631,6 +5634,8 @@ Terrorism & Radical
 
 # OSINT Wildlife 
 
+- [climatecentral map](https://coastal.climatecentral.org/)
+- [map of life](https://mol.org/)
 - [SIKU](https://siku.org/project-management)
 - [globalforestwatch](https://www.globalforestwatch.org/map/)
 - [oxpeckers](https://oxpeckers.org/tools/)
@@ -5641,6 +5646,8 @@ Terrorism & Radical
 - [greenpeace](https://www.greenpeace.org/indonesia/)
 - [river-runner-global](https://river-runner-global.samlearner.com/)
 - [dinosaurpictures](https://dinosaurpictures.org/)
+- [Global Wildfire Information System](https://gwis.jrc.ec.europa.eu/apps/gwis_current_situation/index.html)
+- [ESA oceandatalab](https://ovl.oceandatalab.com/)
 
 # OSINT Satellite
 
