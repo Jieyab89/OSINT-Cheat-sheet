@@ -41,7 +41,7 @@ Info
 
 | Date | Remarks |
 |------------|---------|
-| 16 Jul 2026 | Update the article about Intelligence Base & Knowledge Base at Gitbook and Wiki Github pages |
+| 17 Jul 2026 | Update the article about Intelligence Base & Knowledge Base, new content All About Reporting, update All About Pentesting at Gitbook and Wiki Github pages |
 
 - [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
 - [All About Doxing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing)
@@ -58,6 +58,7 @@ Info
 - [All About Penetration Testing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-penetration-testing)
 - [All About Scammer](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-scammer)
 - [All About Narcotics or Drugs](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-narcotics-or-drugs#intermezo)
+- [All About Reporting](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/all-about-reporting)
 
 # These Resources Are Recommend For 
 
