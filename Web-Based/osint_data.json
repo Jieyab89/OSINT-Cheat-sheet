@@ -5691,10 +5691,6 @@
             {
                 "name": "usersearch",
                 "url": "https://usersearch.com/"
-            },
-            {
-                "name": "blackbird (mostly Indonesia)",
-                "url": "https://blackbird.mom/"
             }
         ]
     },
@@ -5845,10 +5841,6 @@
             {
                 "name": "usersearch",
                 "url": "https://usersearch.com/"
-            },
-            {
-                "name": "blackbird (mostly Indonesia)",
-                "url": "https://blackbird.mom/"
             },
             {
                 "name": "user-scanner",
@@ -7624,10 +7616,6 @@
             {
                 "name": "bosint",
                 "url": "https://app.bosint.gg/"
-            },
-            {
-                "name": "blackbird (mostly Indonesia)",
-                "url": "https://blackbird.mom/"
             },
             {
                 "name": "API protnon mail check creation date",
@@ -16104,10 +16092,6 @@
             {
                 "name": "netexec",
                 "url": "https://www.kali.org/tools/netexec/"
-            },
-            {
-                "name": "guardian-cli",
-                "url": "https://github.com/zakirkun/guardian-cli"
             },
             {
                 "name": "vulners",
