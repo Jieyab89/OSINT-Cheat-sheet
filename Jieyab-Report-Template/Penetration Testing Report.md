@@ -3,6 +3,7 @@
 A penetration testing report is the primary deliverable of a security assessment and serves as a formal record of the testing activities, findings, and recommendations. Beyond documenting technical vulnerabilities, the report should provide clear, structured, and actionable information that can be understood by both technical teams and management. A well-prepared report not only demonstrates the results of the assessment but also helps organizations prioritize remediation efforts, improve their security posture, and support compliance or audit requirements.
 
 The following sections describe the key elements that should be included in a professional penetration testing report, along with their purpose and importance throughout the reporting process.
+
 # Title
 
 The report title is the first element readers will see and should clearly describe the purpose and scope of the document. A well-defined title helps distinguish the report from other technical documents while immediately communicating the type of security assessment that was performed. The title should be concise, professional, and consistent with the organization's reporting standards.
@@ -314,6 +315,6 @@ The issuance of this report confirms that the authorized parties listed below ha
 - Electronic or digital signatures may be accepted where permitted by the organization's policies and applicable regulations.
 - Any modification to this report after approval must be documented and re-approved by the relevant authorized parties.
 
-# Read full here 
+# Read full here for detail also template docx
 
 https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/all-about-reporting
