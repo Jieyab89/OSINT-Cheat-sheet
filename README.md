@@ -1904,6 +1904,9 @@ For this case u must know the context also dorking for better results
 - [fansearch](https://www.fansearch.com/)
 - [xmodelfinder](https://www.xmodelfinder.com/)
 - [sotugas onlyfans search username](https://sotugas.com/onlyfans/)
+- [trakteer](https://new.trakteer.id/) You must to dork
+- [patreon](https://www.patreon.com/) You must to dork
+- [weibo](https://weibo.com/) You must to dork
 
 Pro Tips 
 
