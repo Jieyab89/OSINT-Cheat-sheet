@@ -523,6 +523,7 @@ Notes this is for surface web or clearnet site
 - [VirusTotal](https://www.virustotal.com/gui/)
 - [virustotal mcp](https://github.com/BurtTheCoder/mcp-virustotal)
 - [Nessus](https://www.tenable.com/products/nessus)
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, with proof of exploitation and a local privacy gateway.
 - [Nikto](https://cirt.net/Nikto2)
 - [Webshag](https://github.com/wereallfeds/webshag)
 - [wayback machine](https://archive.org/web/)
