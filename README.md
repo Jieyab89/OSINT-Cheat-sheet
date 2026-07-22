@@ -1724,7 +1724,6 @@ You can also use Google dork to search blogger profile
 - [OSINT rock](https://osint.rocks/)
 - [castrickclues](https://castrickclues.com/)
 - [usersearch](https://usersearch.com/)
-- [blackbird (mostly Indonesia)](https://blackbird.mom/)
 
 Pro Tips
 
@@ -1770,7 +1769,6 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [Leakcheck](https://leakcheck.io/)
 - [castrickclues](https://castrickclues.com/)
 - [usersearch](https://usersearch.com/)
-- [blackbird (mostly Indonesia)](https://blackbird.mom/)
 - [user-scanner](https://github.com/kaifcodec/user-scanner/releases/tag/v1.1.0)
 - [maigret 2 made by Rust](https://github.com/krishpranav/maigret/blob/master/data.json)
 
@@ -2341,7 +2339,6 @@ Google queries for MySpace
 - [usersearch](https://usersearch.com/)
 - [Personal data leak check](https://cybernews.com/personal-data-leak-check/)
 - [bosint](https://app.bosint.gg/)
-- [blackbird (mostly Indonesia)](https://blackbird.mom/)
 - [API protnon mail check creation date](https://api.protonmail.ch/pks/lookup?op=index&search=<changeemaiiladdr>)
 - [user-scanner](https://github.com/kaifcodec/user-scanner/releases/tag/v1.1.0)
 - [Blackbird](https://github.com/p1ngul1n0/blackbird)
@@ -4718,7 +4715,6 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [Sudomy](https://github.com/screetsec/Sudomy) Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance
 - [Url Scan](https://urlscan.io/) Enumerate a web finding a endpoint and assets 
 - [netexec](https://www.kali.org/tools/netexec/) Spray password on service like CrackMapExec
-- [guardian-cli](https://github.com/zakirkun/guardian-cli) AI-driven penetration testing automation CLI tool that leverages Google Gemini and LangChain to orchestrate intelligent, step-by-step penetration testing workflows while maintaining ethical hacking standards
 - [vulners](https://vulners.com/) Search CVE and common vulnerability
 - [Guadian CLI](https://github.com/zakirkun/guardian-cli) Guardian is a production-ready AI-powered penetration testing automation CLI tool that leverages Google Gemini and LangChain to orchestrate intelligent, step-by-step penetration testing workflows while maintaining ethical hacking standards.
 - [malapi](https://malapi.io/) Reference for Windows APIs that are commonly abused by malware or frequently used in cyber security contexts. It serves as a "cheat sheet" for malware analysts
