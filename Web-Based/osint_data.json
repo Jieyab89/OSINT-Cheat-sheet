@@ -73,6 +73,10 @@
             {
                 "name": "All About Narcotics or Drugs",
                 "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-narcotics-or-drugs#intermezo"
+            },
+            {
+                "name": "All About Reporting",
+                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/all-about-reporting"
             }
         ]
     },
@@ -187,6 +191,10 @@
                 "url": "https://github.com/p1ngul1n0/blackbird"
             },
             {
+                "name": "Xquik",
+                "url": "https://xquik.com/"
+            },
+            {
                 "name": "sociallinks",
                 "url": "https://sociallinks.io/products/sl-crimewall"
             },
@@ -261,10 +269,6 @@
             {
                 "name": "CSE Social media search",
                 "url": "https://cse.google.com/cse?cx=016621447308871563343:0p9cd3f8p-k#gsc.tab=0&gsc.sort="
-            },
-            {
-                "name": "Xquik",
-                "url": "https://xquik.com/"
             }
         ]
     },
@@ -1120,6 +1124,18 @@
         "category": "Web Intelligence",
         "items": [
             {
+                "name": "Jieyab89 TLD and NS checker domain",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Web-TLD-Enumerate-NS-Check"
+            },
+            {
+                "name": "Check availabe domain tld list",
+                "url": "https://tld-list.com/"
+            },
+            {
+                "name": "check available domain",
+                "url": "https://instantdomainsearch.com/"
+            },
+            {
                 "name": "reverse google analytics",
                 "url": "https://osint.sh/analytics/"
             },
@@ -1298,6 +1314,10 @@
             {
                 "name": "Nessus",
                 "url": "https://www.tenable.com/products/nessus"
+            },
+            {
+                "name": "Darkmoon",
+                "url": "https://github.com/ASCIT31/Dark-Moon"
             },
             {
                 "name": "Nikto",
@@ -1706,18 +1726,6 @@
             {
                 "name": "cookieserve find and check cookie",
                 "url": "https://www.cookieserve.com/"
-            },
-            {
-                "name": "Jieyab89 TLD and NS checker domain",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Web-TLD-Enumerate-NS-Check"
-            },
-            {
-                "name": "Check availabe domain tld list",
-                "url": "https://tld-list.com/"
-            },
-            {
-                "name": "check available domain",
-                "url": "https://instantdomainsearch.com/"
             },
             {
                 "name": "tomba",
@@ -3838,6 +3846,10 @@
         "category": "Internet Archive",
         "items": [
             {
+                "name": "Wiki Leaks",
+                "url": "https://wikileaks.org/"
+            },
+            {
                 "name": "Wayback Twitter",
                 "url": "https://waybacktweets.streamlit.app/"
             },
@@ -3986,6 +3998,10 @@
                 "url": "https://swap.stanford.edu/"
             },
             {
+                "name": "mirror h archived",
+                "url": "https://web.archive.org/web/*/https://mirror-h.org/*"
+            },
+            {
                 "name": "Wayback Machine",
                 "url": "https://web.archive.org/"
             },
@@ -4056,14 +4072,6 @@
             {
                 "name": "theZoo",
                 "url": "https://github.com/ytisf/theZoo/tree/master/malware/Source"
-            },
-            {
-                "name": "Wiki Leaks",
-                "url": "https://wikileaks.org/"
-            },
-            {
-                "name": "mirror h archived",
-                "url": "https://web.archive.org/web/*/https://mirror-h.org/*"
             },
             {
                 "name": "malware bazaar",
@@ -6169,6 +6177,22 @@
             {
                 "name": "sotugas onlyfans search username",
                 "url": "https://sotugas.com/onlyfans/"
+            },
+            {
+                "name": "trakteer",
+                "url": "https://new.trakteer.id/"
+            },
+            {
+                "name": "patreon",
+                "url": "https://www.patreon.com/"
+            },
+            {
+                "name": "weibo",
+                "url": "https://weibo.com/"
+            },
+            {
+                "name": "linktr",
+                "url": "https://linktr.ee/"
             }
         ]
     },
@@ -6974,6 +6998,10 @@
                 "url": "https://twitterwebviewer.com/"
             },
             {
+                "name": "Xquik",
+                "url": "https://xquik.com/"
+            },
+            {
                 "name": "twitter lolarchiver",
                 "url": "https://twitter.lolarchiver.com/"
             },
@@ -7000,10 +7028,6 @@
             {
                 "name": "PeekVault",
                 "url": "https://peekvault.com/"
-            },
-            {
-                "name": "Xquik",
-                "url": "https://xquik.com/"
             }
         ]
     },
@@ -7822,10 +7846,6 @@
                 "url": "https://www.osint-tool.com/unravel-help/"
             },
             {
-                "name": "netlas.io",
-                "url": "https://app.netlas.io/host/"
-            },
-            {
                 "name": "usersearch",
                 "url": "https://usersearch.ai/"
             },
@@ -7901,14 +7921,6 @@
             {
                 "name": "Lyzem Search",
                 "url": "https://lyzem.com/"
-            },
-            {
-                "name": "Discover The Best Telegram Channels",
-                "url": "https://telegramchannels.me/"
-            },
-            {
-                "name": "Tele Channel Overiview",
-                "url": "https://telemetr.io/"
             },
             {
                 "name": "Telemetr",
@@ -9743,10 +9755,6 @@
                 "url": "https://www.shadowbreakintl.com/#products"
             },
             {
-                "name": "earthkit",
-                "url": "https://agent.earthkit.app/"
-            },
-            {
                 "name": "Mapquest",
                 "url": "https://www.mapquest.com/"
             },
@@ -10162,6 +10170,10 @@
         "category": "Server Information Gathering Also Web",
         "items": [
             {
+                "name": "windvane",
+                "url": "https://windvane.lichoin.com/"
+            },
+            {
                 "name": "viewdns - IP history",
                 "url": "https://viewdns.info/iphistory/?domain"
             },
@@ -10244,10 +10256,6 @@
             {
                 "name": "rapiddns",
                 "url": "https://rapiddns.io/"
-            },
-            {
-                "name": "windvane",
-                "url": "https://windvane.lichoin.com/"
             }
         ]
     },
@@ -12335,6 +12343,10 @@
         "category": "Darkweb Intelligence",
         "items": [
             {
+                "name": "Jieyab89 darkweb scrapping link",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/blob/main/Script/Darkweb-Scrapping/onion-site-directory-scrapper.py"
+            },
+            {
                 "name": "DeepLink Onion Directory (ONION SITES)",
                 "url": "http://deepxfmkjlils3vd7bru5rrxy3x3lchjgmv3wsgycjfynktmuwgm64qd.onion/"
             },
@@ -12737,16 +12749,20 @@
             {
                 "name": "grams (ONION SITES)",
                 "url": "http://grams64rarzrk7rzdaz2fpb7lehcyi7zrrf5kd6w2uoamp7jw2aq6vyd.onion/"
-            },
-            {
-                "name": "Jieyab89 darkweb scrapping link",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/blob/main/Script/Darkweb-Scrapping/onion-site-directory-scrapper.py"
             }
         ]
     },
     {
         "category": "Darkweb Forums",
         "items": [
+            {
+                "name": "leak surface web",
+                "url": "https://leak.sx/"
+            },
+            {
+                "name": "leakforum surface web",
+                "url": "https://leakforum.io/"
+            },
             {
                 "name": "PWN forums (ONION SITE)",
                 "url": "http://pwnfrm7rbf6kyerigxi677lcz5ifmoagdbqqknwdu2by27wfdst5qmqd.onion/"
@@ -12882,14 +12898,6 @@
             {
                 "name": "Darkweb labs settup",
                 "url": "https://hunch.ly/resources/Hunchly-Dark-Web-Setup.pdf"
-            },
-            {
-                "name": "leak surface web",
-                "url": "https://leak.sx/"
-            },
-            {
-                "name": "leakforum surface web",
-                "url": "https://leakforum.io/"
             }
         ]
     },
@@ -14489,6 +14497,10 @@
                 "url": "https://www.stopice.net/platetracker/index.cgi"
             },
             {
+                "name": "US autocheck",
+                "url": "https://www.autocheck.com/"
+            },
+            {
                 "name": "faxvin",
                 "url": "https://www.faxvin.com/"
             },
@@ -14587,10 +14599,6 @@
             {
                 "name": "Palembang ID Pub Transport",
                 "url": "https://geoportal.palembang.go.id/pencarian?kategori=Transportasi"
-            },
-            {
-                "name": "US autocheck",
-                "url": "https://www.autocheck.com/"
             }
         ]
     },
@@ -14791,6 +14799,22 @@
         "category": "Ship Tracking & Maritim",
         "items": [
             {
+                "name": "ferrytracker",
+                "url": "https://www.ferrytracker.net/"
+            },
+            {
+                "name": "marinetraffic.org",
+                "url": "https://www.marinetraffic.org/"
+            },
+            {
+                "name": "cruisingearth",
+                "url": "https://www.cruisingearth.com/"
+            },
+            {
+                "name": "sealight resouces and database",
+                "url": "https://www.sealight.live/resources"
+            },
+            {
                 "name": "theshippingdatabase",
                 "url": "https://theshippingdatabase.com/"
             },
@@ -14799,7 +14823,7 @@
                 "url": "https://shiptracker.live/"
             },
             {
-                "name": "marinetraffic",
+                "name": "marinetraffic.com",
                 "url": "https://www.marinetraffic.com/"
             },
             {
@@ -14931,24 +14955,12 @@
                 "url": "https://phantom.labs.jamessawyer.co.uk/"
             },
             {
-                "name": "ferrytracker",
-                "url": "https://www.ferrytracker.net/"
+                "name": "ESA oceandatalab",
+                "url": "https://ovl.oceandatalab.com/"
             },
             {
-                "name": "marinetraffic.org",
-                "url": "https://www.marinetraffic.org/"
-            },
-            {
-                "name": "cruisingearth",
-                "url": "https://www.cruisingearth.com/"
-            },
-            {
-                "name": "sealight resouces and database",
-                "url": "https://www.sealight.live/resources"
-            },
-            {
-                "name": "marinetraffic.com",
-                "url": "https://www.marinetraffic.com/"
+                "name": "kapalaku forums ID",
+                "url": "https://www.kapalaku.com/index.php"
             }
         ]
     },
@@ -16826,6 +16838,10 @@
                 "url": "https://portswigger.net/bappstore/2eb2b1cb1cf34cc79cda36f0f9019874"
             },
             {
+                "name": "Param Miner",
+                "url": "https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943"
+            },
+            {
                 "name": "cobaltstrike",
                 "url": "https://www.cobaltstrike.com/"
             },
@@ -17012,10 +17028,6 @@
             {
                 "name": "Linux hardening checklist - CSA LAB",
                 "url": "https://csalab-id.github.io/documents/compliance/CIS_Benchmark_Ubuntu_24_04.pdf"
-            },
-            {
-                "name": "Param Miner",
-                "url": "https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943"
             }
         ]
     },
@@ -17281,6 +17293,10 @@
     {
         "category": "OSINT Military",
         "items": [
+            {
+                "name": "intelrepository governments and militaries of various nations",
+                "url": "https://intelrepository.com/"
+            },
             {
                 "name": "Phantom Tide",
                 "url": "https://phantom.labs.jamessawyer.co.uk/"
@@ -17738,6 +17754,14 @@
                 "url": "https://understandingwar.org/"
             },
             {
+                "name": "Global Wildfire Information System",
+                "url": "https://gwis.jrc.ec.europa.eu/apps/gwis_current_situation/index.html"
+            },
+            {
+                "name": "hunger map",
+                "url": "https://hungermap.wfp.org/"
+            },
+            {
                 "name": "War Thunder",
                 "url": "https://warthunder.com/en"
             },
@@ -17800,10 +17824,6 @@
             {
                 "name": "smallarmssurvey",
                 "url": "https://www.smallarmssurvey.org/databases"
-            },
-            {
-                "name": "intelrepository governments and militaries of various nations",
-                "url": "https://intelrepository.com/"
             }
         ]
     },
@@ -18730,6 +18750,10 @@
             {
                 "name": "CIA - Factbook",
                 "url": "https://www.cia.gov/library/publications/the-world-factbook/"
+            },
+            {
+                "name": "Wiki Leaks",
+                "url": "https://wikileaks.org/"
             }
         ]
     },
@@ -18869,12 +18893,12 @@
                 "url": "https://cryptoscamdb.org/"
             },
             {
-                "name": "Interpol Int",
-                "url": "https://www-interpol-int.translate.goog/How-we-work/Databases?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=tc"
-            },
-            {
                 "name": "mirror h archived",
                 "url": "https://web.archive.org/web/*/https://mirror-h.org/*"
+            },
+            {
+                "name": "Interpol Int",
+                "url": "https://www-interpol-int.translate.goog/How-we-work/Databases?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=tc"
             }
         ]
     },
@@ -19068,6 +19092,14 @@
         "category": "OSINT Wildlife",
         "items": [
             {
+                "name": "climatecentral map",
+                "url": "https://coastal.climatecentral.org/"
+            },
+            {
+                "name": "map of life",
+                "url": "https://mol.org/"
+            },
+            {
                 "name": "SIKU",
                 "url": "https://siku.org/project-management"
             },
@@ -19106,6 +19138,14 @@
             {
                 "name": "dinosaurpictures",
                 "url": "https://dinosaurpictures.org/"
+            },
+            {
+                "name": "Global Wildfire Information System",
+                "url": "https://gwis.jrc.ec.europa.eu/apps/gwis_current_situation/index.html"
+            },
+            {
+                "name": "ESA oceandatalab",
+                "url": "https://ovl.oceandatalab.com/"
             }
         ]
     },
@@ -20287,6 +20327,14 @@
                 "url": "https://text-compare.com/"
             },
             {
+                "name": "zerogpt",
+                "url": "https://www.zerogpt.com/"
+            },
+            {
+                "name": "decopy",
+                "url": "https://decopy.ai/"
+            },
+            {
                 "name": "hivemoderation",
                 "url": "https://hivemoderation.com/ai-generated-content-detection"
             },
@@ -20325,6 +20373,10 @@
             {
                 "name": "google image search",
                 "url": "https://www.google.com/imghp?hl=EN"
+            },
+            {
+                "name": "yandex",
+                "url": "https://yandex.com/images/search"
             },
             {
                 "name": "similarweb",
@@ -20445,18 +20497,6 @@
             {
                 "name": "socialblade similarity",
                 "url": "https://socialblade.com/"
-            },
-            {
-                "name": "zerogpt",
-                "url": "https://www.zerogpt.com/"
-            },
-            {
-                "name": "decopy",
-                "url": "https://decopy.ai/"
-            },
-            {
-                "name": "yandex",
-                "url": "https://yandex.com/images/search"
             }
         ]
     },
@@ -21327,6 +21367,14 @@
         "category": "OSINT Search Hacker Nickname",
         "items": [
             {
+                "name": "breach-hq",
+                "url": "https://breach-hq.com/threat-actors"
+            },
+            {
+                "name": "mirror h archived",
+                "url": "https://web.archive.org/web/*/https://mirror-h.org/*"
+            },
+            {
                 "name": "threatactorusernames",
                 "url": "https://threatactorusernames.com/"
             },
@@ -21421,14 +21469,6 @@
             {
                 "name": "topcoder",
                 "url": "https://www.topcoder.com/marathon-match-tournament/leaderboard"
-            },
-            {
-                "name": "breach-hq",
-                "url": "https://breach-hq.com/threat-actors"
-            },
-            {
-                "name": "mirror h archived",
-                "url": "https://web.archive.org/web/*/https://mirror-h.org/*"
             }
         ]
     },
@@ -22024,6 +22064,10 @@
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/1-Jieyab-Wiki-Backlink"
             },
             {
+                "name": "All About Darkweb",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-Darkweb"
+            },
+            {
                 "name": "All About Doxing",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-Doxing"
             },
@@ -22032,16 +22076,44 @@
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-HUMINT"
             },
             {
+                "name": "All About Narcotics or Drugs",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-Narcotics-or-Drugs"
+            },
+            {
                 "name": "All About OSINT Matters Things in OSINT",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-OSINT-Matters-Things-in-OSINT"
+            },
+            {
+                "name": "All About Penetration Testing",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-Penetration-Testing"
+            },
+            {
+                "name": "All About Reporting",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-Reporting"
+            },
+            {
+                "name": "All About Scammer",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-Scammer"
             },
             {
                 "name": "All About SIGINT Signal Intelligence",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-SIGINT-Signal-Intelligence"
             },
             {
+                "name": "Android Mobile Application for OSINT",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Android-Mobile-Application-for-OSINT"
+            },
+            {
+                "name": "Basic Programming Language",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Basic-Programming-Language"
+            },
+            {
                 "name": "Cell Investigations",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Cell-Investigations"
+            },
+            {
+                "name": "Enumerate and Attack Surface w Github",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Enumerate-and-Attack-Surface-w-Github"
             },
             {
                 "name": "Geospatial Intelligence",
@@ -22072,8 +22144,16 @@
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Jieyab89-Script-for-OSINT"
             },
             {
+                "name": "Levaraging AI Agent (LLM) for OSINT",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Levaraging-AI-Agent-(LLM)-for-OSINT"
+            },
+            {
                 "name": "OSINT for Academic Literature",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Academic-Literature"
+            },
+            {
+                "name": "OSINT for Blockchain",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Blockchain"
             },
             {
                 "name": "OSINT for Email Lookup Tips",
@@ -22086,6 +22166,14 @@
             {
                 "name": "OSINT for Journalism",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Journalism"
+            },
+            {
+                "name": "OSINT for Journalist and Activist",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Journalist-and-Activist"
+            },
+            {
+                "name": "OSINT for Military",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Military"
             },
             {
                 "name": "OSINT for OPSEC (Operational security)",
@@ -22144,64 +22232,16 @@
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/What-is-Propaganda"
             },
             {
+                "name": "What is Social Engineering",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/What-is-Social-Engineering"
+            },
+            {
                 "name": "What is Sock Puppets Account",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/What-is-Sock-Puppets-Account"
             },
             {
                 "name": "Who OSINT Used",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Who-OSINT-Used"
-            },
-            {
-                "name": "Enumerate and Attack Surface w Github",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Enumerate-and-Attack-Surface-w-Github"
-            },
-            {
-                "name": "2 Notes Jieyab Wiki and Gitbook",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/2-Notes-Jieyab-Wiki-and-Gitbook"
-            },
-            {
-                "name": "All About Darkweb",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-Darkweb"
-            },
-            {
-                "name": "All About Narcotics or Drugs",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-Narcotics-or-Drugs"
-            },
-            {
-                "name": "All About Penetration Testing",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-Penetration-Testing"
-            },
-            {
-                "name": "All About Scammer",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-Scammer"
-            },
-            {
-                "name": "Android Mobile Application for OSINT",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Android-Mobile-Application-for-OSINT"
-            },
-            {
-                "name": "Basic Programming Language",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Basic-Programming-Language"
-            },
-            {
-                "name": "Levaraging AI Agent (LLM) for OSINT",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Levaraging-AI-Agent-(LLM)-for-OSINT"
-            },
-            {
-                "name": "OSINT for Blockchain",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Blockchain"
-            },
-            {
-                "name": "OSINT for Journalist and Activist",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Journalist-and-Activist"
-            },
-            {
-                "name": "OSINT for Military",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Military"
-            },
-            {
-                "name": "What is Social Engineering",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/What-is-Social-Engineering"
             }
         ]
     }
