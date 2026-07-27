@@ -1907,6 +1907,7 @@ For this case u must know the context also dorking for better results
 - [trakteer](https://new.trakteer.id/) You must to dork
 - [patreon](https://www.patreon.com/) You must to dork
 - [weibo](https://weibo.com/) You must to dork
+- [linktr](https://linktr.ee/) You must to dork
 
 Pro Tips 
 
@@ -4398,6 +4399,7 @@ Public Transport
 - [boatinfoworld](https://www.boatinfoworld.com/)
 - [Phantom Tide](https://phantom.labs.jamessawyer.co.uk/) - cross-domain OSINT dashboard for maritime and airspace analysis
 - [ESA oceandatalab](https://ovl.oceandatalab.com/)
+- [kapalaku forums ID](https://www.kapalaku.com/index.php)
 
 # Railways
 
