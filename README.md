@@ -41,7 +41,7 @@ Info
 
 | Date | Remarks |
 |------------|---------|
-| 17 Jul 2026 | Update the article about Intelligence Base & Knowledge Base, new content All About Reporting, update All About Pentesting at Gitbook and Wiki Github pages |
+| 30 Jul 2026 | Update the article All about doxing at Gitbook and Wiki Github pages |
 
 - [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
 - [All About Doxing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing)
