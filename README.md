@@ -1961,6 +1961,10 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 
 # Instagram
 
+- [picuki](https://picuki.site/)
+- [viewsocials](https://www.viewsocials.com/)
+- [anonstories](https://anonstories.org/)
+- [InstaStoriesViewer](https://insta-stories-viewer.com/opposite6890.recon/)
 - [imginn anonymous instagram story viewer](https://imginn.com/)
 - [pixnoy insta viewer](https://www.pixnoy.com/)
 - [InstagramPrivSniffer](https://github.com/obitouka/InstagramPrivSniffer)
@@ -3442,6 +3446,7 @@ Build your own deepfake
 - [deevid](https://deevid.ai/)
 - [Gemini VEO 3](https://gemini.google/subscriptions)
 - [klingai](https://app.klingai.com/)
+- [Google Flow](https://labs.google/fx/tools/flow)
 
 Virtual Camera or Camera Replacement
 
@@ -3497,6 +3502,7 @@ Browser Sandbox
 
 # Enhance Image Quality
 
+- [Google Flow](https://labs.google/fx/tools/flow)
 - [Upscale Media Image Enhancer](https://www.upscale.media/upload)
 - [Letsenhance](https://letsenhance.io/)
 - [Cutout](https://www.cutout.pro/photo-enhancer-sharpener-upscaler)
@@ -6400,6 +6406,7 @@ All of the items listed above are just the surface level. For further research, 
 
 # MISC
 
+- [Ubikron - Advanced Enrichment](https://github.com/ubikron/Advanced-Enrichments#emoji-in-enrichments-descriptions)
 - [Awesome Telegram](https://github.com/ebertti/awesome-telegram) Collection great groups, channels, bots and libraries for Telegram 
 - [osintrack](https://osintrack.com/) The list of OSINT sources and data sources is similar to Jieyab89
 - [pasal ID](https://pasal.id/) Search for articles, sections, and laws in Indonesia 
