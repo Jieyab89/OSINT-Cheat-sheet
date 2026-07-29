@@ -6497,6 +6497,22 @@
             {
                 "name": "IGDetective",
                 "url": "https://www.igdetective.com"
+            },
+            {
+                "name": "picuki",
+                "url": "https://picuki.site/"
+            },
+            {
+                "name": "viewsocials",
+                "url": "https://www.viewsocials.com/"
+            },
+            {
+                "name": "anonstories",
+                "url": "https://anonstories.org/"
+            },
+            {
+                "name": "InstaStoriesViewer",
+                "url": "https://insta-stories-viewer.com/opposite6890.recon/"
             }
         ]
     },
@@ -11568,6 +11584,10 @@
             {
                 "name": "browser lol",
                 "url": "https://browser.lol/en/create"
+            },
+            {
+                "name": "Google Flow",
+                "url": "https://labs.google/fx/tools/flow"
             }
         ]
     },
@@ -11665,6 +11685,10 @@
             {
                 "name": "myheritage hoto-enhancer",
                 "url": "https://www.myheritage.nl/photo-enhancer"
+            },
+            {
+                "name": "Google Flow",
+                "url": "https://labs.google/fx/tools/flow"
             }
         ]
     },
@@ -21538,6 +21562,10 @@
             {
                 "name": "OSINT of India",
                 "url": "https://unishka.substack.com/p/osint-of-india"
+            },
+            {
+                "name": "Ubikron - Advanced Enrichment",
+                "url": "https://github.com/ubikron/Advanced-Enrichments#emoji-in-enrichments-descriptions"
             }
         ]
     },
@@ -22242,6 +22270,10 @@
             {
                 "name": "Who OSINT Used",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Who-OSINT-Used"
+            },
+            {
+                "name": "2 Notes Jieyab Wiki and Gitbook",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/2-Notes-Jieyab-Wiki-and-Gitbook"
             }
         ]
     }
