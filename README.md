@@ -357,6 +357,43 @@ Site and forums OSINT community arround world
 - [Etools](http://www.etools.ch)
 - [WebCrawler](http://www.webcrawler.com)
 
+# SIGINT 
+
+List for learn SIGINT. There is a hardware also the software  
+
+Hardware 
+
+- [osmocom](https://osmocom.org/projects/baseband/wiki/Hardware)
+- [Motorola](https://osmocom.org/projects/baseband/wiki/MobistelEL570)
+- [Hackrf](https://greatscottgadgets.com/hackrf/)
+- [bladerf](https://www.nuand.com/bladerf-1/)
+- [rtl sdr](https://www.rtl-sdr.com/)
+- [Tenda](https://www.tendacn.com/material/show/2002565)
+- [Wifi Pineaple HAK5](https://shop.hak5.org/products/wifi-pineapple)
+- [tp link](https://www.tp-link.com/id/)
+- [Walkie-talkie](https://en.wikipedia.org/wiki/Walkie-talkie)
+- [flipper](https://flipper.net/)
+
+Software 
+
+- [wireshark](https://www.wireshark.org/) 
+- [kismetwireless](https://www.kismetwireless.net/) 
+- [aircrack](https://www.aircrack-ng.org/)
+- [nmap](https://nmap.org/)
+- [netmonster](https://play.google.com/store/apps/details?id=cz.mroczis.netmonster)
+- [wigle](https://wigle.net/)
+- [angryip](https://angryip.org/)
+- [advanced-ip-scanner](https://www.advanced-ip-scanner.com/id/)
+
+Visualization
+
+U can integrate with commercial satellite platform like Sentinel, Planet labs and etc 
+
+- [G Maps APIs](https://mapsplatform.google.com/lp/maps-apis/)
+- [leafletjs](https://leafletjs.com/)
+- [arcgis](https://www.arcgis.com/apps/mapviewer/index.html)
+- [d3js](https://d3js.org/)
+
 # Code Search
 
 - [gitdb](https://gitdb.net/)
