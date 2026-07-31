@@ -6157,7 +6157,6 @@ This is for you searching software and searching alternative software
 - [DAPK APK SEARCH](https://github.com/m4ll0k/BBTz/blob/master/dapk.py)
 - [apkeep](https://github.com/EFForg/apkeep?tab=readme-ov-file)
 - [cyberarsenal](https://cyberarsenal.org/)
-- [XSS](https://xss.is/)
 - [apkcombo](https://apkcombo.com/)
 - [sourceforge](https://sourceforge.net)
 
