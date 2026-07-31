@@ -1,0 +1,14 @@
+[xquik]
+
+api_key = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+base_url = https://xquik.com/api/v1/extractions 
+
+[twitter_cookies]
+
+auth_token = xxxxxxxxxxxxxxxxxx
+ct0 = xxxxxxxxxxxx
+
+[server]
+host = 127.0.0.1
+port = 5000
+debug = true
