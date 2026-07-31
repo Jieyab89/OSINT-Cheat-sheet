@@ -478,6 +478,7 @@ Notes this is for surface web or clearnet site
 - [Jieyab89 TLD and NS checker domain](https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Web-TLD-Enumerate-NS-Check)
 - [Check availabe domain tld list](https://tld-list.com/)
 - [check available domain](https://instantdomainsearch.com/)
+- [DomScan](https://domscan.net/tools/security) Domain intelligence for DNS, WHOIS/RDAP, TLS, subdomains, reputation, redirects, and typosquatting
 - [reverse google analytics](https://osint.sh/analytics/)
 - [reverse google adsense](https://osint.sh/adsense/)
 - [GAU getallurls](https://github.com/lc/gau)
