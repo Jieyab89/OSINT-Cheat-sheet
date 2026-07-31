@@ -1734,6 +1734,10 @@
             {
                 "name": "bevigil web enum",
                 "url": "https://bevigil.com/osint-api"
+            },
+            {
+                "name": "DomScan",
+                "url": "https://domscan.net/tools/security"
             }
         ]
     },
@@ -3336,6 +3340,10 @@
             {
                 "name": "Google threat intelligence",
                 "url": "https://cloud.google.com/security/products/threat-intelligence#threat-intelligence-and-advanced-hunting"
+            },
+            {
+                "name": "DomScan",
+                "url": "https://domscan.net/tools/security"
             }
         ]
     },
