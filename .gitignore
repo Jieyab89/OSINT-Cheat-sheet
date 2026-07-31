@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+*.ini
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.vscode/
+.idea/
+*.swp

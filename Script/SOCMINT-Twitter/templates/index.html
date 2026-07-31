@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jieyab89 SOCMINT Twitter / X</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --border: #2a2d3a;
+    --text: #e8eaf0;
+    --muted: #8890a4;
+    --accent: #5865f2;
+    --accent-bg: #1e2240;
+    --success: #22c55e;
+    --danger: #ef4444;
+    --warn: #f59e0b;
+    --cookie: #8b5cf6;
+    --cookie-bg: #1e1535;
+    --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 14px;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  header {
+    padding: 14px 24px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--surface);
+  }
+  header h1 { font-size: 14px; font-weight: 600; letter-spacing: 0.02em; }
+  header .sep { color: var(--border); }
+  header .sub { color: var(--muted); font-size: 12px; }
+
+  .layout {
+    display: grid;
+    grid-template-columns: 290px 1fr;
+    min-height: calc(100vh - 49px);
+  }
+  @media (max-width: 720px) { .layout { grid-template-columns: 1fr; } }
+
+  .panel {
+    padding: 18px;
+    border-right: 1px solid var(--border);
+    background: var(--surface);
+  }
+  .field { margin-bottom: 13px; }
+  label {
+    display: block;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--muted);
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  select, input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 8px 10px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 13px;
+    border-radius: 6px;
+    transition: border-color 0.15s;
+    appearance: none;
+  }
+  select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='%238890a4'%3E%3Cpath d='M0 0l5 6 5-6z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 28px;
+  }
+  select:focus, input:focus { outline: none; border-color: var(--accent); }
+  .tool-hint { font-size: 11px; color: var(--muted); margin-top: 4px; }
+
+  /* Mode toggle */
+  .mode-toggle {
+    display: flex;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .mode-toggle button {
+    flex: 1;
+    padding: 7px;
+    background: transparent;
+    color: var(--muted);
+    border: none;
+    cursor: pointer;
+    font-family: var(--font);
+    font-size: 12px;
+    transition: all 0.15s;
+  }
+  .mode-toggle button[data-mode="api"].active  { background: var(--accent-bg); color: #818cf8; font-weight: 500; }
+  .mode-toggle button[data-mode="cookie"].active { background: var(--cookie-bg); color: #a78bfa; font-weight: 500; }
+  .mode-hint { font-size: 11px; color: var(--muted); margin-top: 5px; }
+
+  .divider { border: none; border-top: 1px solid var(--border); margin: 14px 0; }
+
+  .btn-run {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-family: var(--font);
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .btn-run:disabled { opacity: 0.45; cursor: wait; }
+  .btn-run:not(:disabled):hover { opacity: 0.88; }
+
+  /* Output */
+  .output { padding: 18px; overflow: auto; }
+
+  .output-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+
+  .badge {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    flex-shrink: 0;
+  }
+  .badge.ok      { color: var(--success); border-color: #14532d; background: #052011; }
+  .badge.err     { color: var(--danger);  border-color: #7f1d1d; background: #1c0505; }
+  .badge.running { color: var(--warn);    border-color: #78350f; background: #1c0e02; }
+
+  .search-bar {
+    flex: 1;
+    min-width: 160px;
+    padding: 6px 10px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 13px;
+    border-radius: 6px;
+    transition: border-color 0.15s;
+  }
+  .search-bar:focus { outline: none; border-color: var(--accent); }
+  .search-bar::placeholder { color: var(--muted); }
+
+  .result-count { font-size: 12px; color: var(--muted); flex-shrink: 0; }
+
+  /* Cards */
+  .cards-grid { display: grid; gap: 8px; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+    transition: border-color 0.15s;
+  }
+  .card:hover { border-color: #3a3d50; }
+
+  .card-row {
+    display: flex;
+    gap: 10px;
+    padding: 4px 0;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(42,45,58,0.6);
+  }
+  .card-row:last-child  { border-bottom: none; padding-bottom: 0; }
+  .card-row:first-child { padding-top: 0; }
+
+  .card-key {
+    color: var(--muted);
+    min-width: 100px;
+    flex-shrink: 0;
+    font-size: 11px;
+    padding-top: 2px;
+    font-weight: 500;
+  }
+  .card-val { color: var(--text); word-break: break-word; flex: 1; }
+  .card-val.clamp {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  .empty-state {
+    color: var(--muted);
+    font-size: 13px;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  /* Media (gambar / video) */
+  .card-media {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(42,45,58,0.6);
+  }
+  .media-item { position: relative; display: inline-block; }
+  .media-thumb {
+    display: block;
+    width: 130px;
+    height: 86px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid var(--border);
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .media-thumb:hover { opacity: 0.82; }
+  .media-badge {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    background: rgba(0,0,0,0.72);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 3px;
+    pointer-events: none;
+    letter-spacing: 0.04em;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Jieyab89 SOCMINT X</h1>
+  <span class="sep">|</span>
+  <span class="sub">Retrieve data using Xquik API or Cookie</span>
+</header>
+
+<div class="layout">
+  <div class="panel">
+
+    <div class="field">
+      <label>Tool</label>
+      <select id="toolType">
+        <option value="tweet_search_extractor">tweet search extractor</option>
+        <option value="follower_explorer">follower explorer</option>
+        <option value="post_extractor">post extractor</option>
+        <option value="article_extractor">article extractor</option>
+        <option value="community_post_extractor">community post extractor</option>
+      </select>
+      <div id="toolHint" class="tool-hint"></div>
+    </div>
+
+    <hr class="divider">
+
+    <div id="dynamicFields"></div>
+
+    <button class="btn-run" id="runBtn">Run</button>
+  </div>
+
+  <div class="output">
+    <div class="output-top">
+      <div id="statusBadge" class="badge">idle</div>
+      <input type="text" class="search-bar" id="searchInput" placeholder="Search......" style="display:none">
+      <div class="result-count" id="resultCount"></div>
+    </div>
+    <div id="resultBox">
+      <div class="empty-state">Nothing found :(</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const toolType    = document.getElementById('toolType');
+const dynFields   = document.getElementById('dynamicFields');
+const runBtn      = document.getElementById('runBtn');
+const statusBadge = document.getElementById('statusBadge');
+const resultBox   = document.getElementById('resultBox');
+const searchInput = document.getElementById('searchInput');
+const resultCount = document.getElementById('resultCount');
+const toolHint    = document.getElementById('toolHint');
+
+let currentMode = 'api';
+let currentData = null;
+
+const HINTS = {
+  tweet_search_extractor:   'Search for tweets by keyword',
+  follower_explorer:        'List followers of an account',
+  post_extractor:           'Tweet timeline from an account',
+  article_extractor:        'Content of an X article from its tweet URL',
+  community_post_extractor: 'Posts from an X Community',
+};
+
+const HAS_COUNT = new Set([
+  'tweet_search_extractor',
+  'follower_explorer',
+  'post_extractor',
+  'community_post_extractor',
+]);
+
+function modeHintText() {
+  return currentMode === 'cookie'
+    ? 'Fetches directly from X.com using your cookie session — no xquik quota used.'
+    : 'Uses your xquik API key quota.';
+}
+
+function renderFields() {
+  const t = toolType.value;
+  toolHint.textContent = HINTS[t] || '';
+
+  // Mode toggle — shown for every tool
+  let html = `
+    <div class="field">
+      <label>Mode</label>
+      <div class="mode-toggle" id="modeToggle">
+        <button type="button" data-mode="api" class="${currentMode === 'api' ? 'active' : ''}">xquik API</button>
+        <button type="button" data-mode="cookie" class="${currentMode === 'cookie' ? 'active' : ''}">Cookie</button>
+      </div>
+      <div class="mode-hint" id="modeHint">${modeHintText()}</div>
+    </div>
+  `;
+
+  // Tool-specific input fields
+  if (t === 'tweet_search_extractor') {
+    html += field('searchQuery', 'Search query', 'bitcoin');
+  } else if (t === 'follower_explorer') {
+    html += field('targetUsername', 'Target username', 'elonmusk');
+  } else if (t === 'article_extractor') {
+    html += field('targetTweetId', 'Tweet ID', '1234567890');
+  } else if (t === 'community_post_extractor') {
+    html += field('targetCommunityId', 'Community ID', '1234567890');
+  } else if (t === 'post_extractor') {
+    html += field('targetUsername', 'Target username', 'elonmusk');
+  }
+
+  // Count — only for tools that support it, visible in cookie mode only
+  if (HAS_COUNT.has(t)) {
+    html += `
+      <div class="field" id="countWrap" style="${currentMode === 'cookie' ? '' : 'display:none'}">
+        <label>Result count (max 200)</label>
+        <input id="countInput" type="number" value="20" min="1" max="200">
+      </div>
+    `;
+  }
+
+  dynFields.innerHTML = html;
+  attachModeListeners();
+}
+
+function field(id, lbl, ph) {
+  return `<div class="field"><label>${lbl}</label><input id="${id}" type="text" placeholder="${ph}"></div>`;
+}
+
+function attachModeListeners() {
+  dynFields.querySelectorAll('#modeToggle button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      dynFields.querySelectorAll('#modeToggle button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentMode = btn.dataset.mode;
+
+      const hint = document.getElementById('modeHint');
+      if (hint) hint.textContent = modeHintText();
+
+      const countWrap = document.getElementById('countWrap');
+      if (countWrap) countWrap.style.display = currentMode === 'cookie' ? '' : 'none';
+    });
+  });
+}
+
+toolType.addEventListener('change', renderFields);
+renderFields();
+
+// ── Search / filter results ───────────────────────────────────────────────────
+
+searchInput.addEventListener('input', () => renderCards(currentData, searchInput.value));
+
+function flatText(obj) {
+  if (obj === null || obj === undefined) return '';
+  if (typeof obj !== 'object') return String(obj);
+  return Object.values(obj).map(flatText).join(' ');
+}
+
+const PRIORITY = ['name','username','screen_name','text','full_text','content','title','description','bio','article_text','created_at'];
+const SKIP     = ['profile_image_url','profile_banner_url','entities','extended_entities','urls','media','indices'];
+const CLAMP    = new Set(['text','full_text','content','description','bio','article_text']);
+
+// ── Media helpers ─────────────────────────────────────────────────────────────
+
+function extractMedia(item) {
+  // Cookie mode: item.media = [{type, thumb, url}]
+  if (Array.isArray(item.media) && item.media.length) {
+    const first = item.media[0];
+    if (first && typeof first === 'object' && ('thumb' in first || 'url' in first)) {
+      return item.media;
+    }
+  }
+  // API mode: item.extended_entities.media[] or item.entities.media[]
+  const src = (item.extended_entities && item.extended_entities.media)
+    || (item.entities && item.entities.media);
+  if (!Array.isArray(src)) return [];
+  return src.map(m => {
+    const mtype = m.type || 'photo';
+    const thumb = m.media_url_https || m.media_url || '';
+    let url = thumb;
+    if (mtype === 'video' || mtype === 'animated_gif') {
+      const variants = (m.video_info && m.video_info.variants) || [];
+      const mp4s = variants.filter(v => v.content_type === 'video/mp4');
+      if (mp4s.length) url = mp4s.reduce((b, v) => (v.bitrate||0) > (b.bitrate||0) ? v : b).url;
+    }
+    return { type: mtype, thumb, url };
+  }).filter(m => m.thumb);
+}
+
+function renderMedia(mediaList) {
+  if (!mediaList || !mediaList.length) return '';
+  const html = mediaList.map(m => {
+    const badge = m.type === 'video' ? '▶ VIDEO'
+                : m.type === 'animated_gif' ? '▶ GIF' : '';
+    const inner = m.thumb
+      ? `<img src="${esc(m.thumb)}" class="media-thumb" alt="media" loading="lazy">`
+      : '';
+    const badgeHtml = badge ? `<span class="media-badge">${badge}</span>` : '';
+    // photo: opens full-res; video/gif: opens MP4 directly
+    return `<a href="${esc(m.url)}" target="_blank" rel="noopener" class="media-item">${inner}${badgeHtml}</a>`;
+  }).join('');
+  return `<div class="card-media">${html}</div>`;
+}
+
+function renderCards(data, query = '') {
+  if (!data) {
+    resultBox.innerHTML = '<div class="empty-state">No results yet.</div>';
+    return;
+  }
+  const items    = Array.isArray(data) ? data : [data];
+  const q        = query.toLowerCase().trim();
+  const filtered = q ? items.filter(i => flatText(i).toLowerCase().includes(q)) : items;
+
+  resultCount.textContent = filtered.length + (q ? ' found' : ' results');
+
+  if (!filtered.length) {
+    resultBox.innerHTML = '<div class="empty-state">No matching results.</div>';
+    return;
+  }
+  resultBox.innerHTML = '<div class="cards-grid">' + filtered.map(buildCard).join('') + '</div>';
+}
+
+function buildCard(item) {
+  if (typeof item !== 'object' || item === null) {
+    return `<div class="card"><div class="card-row"><div class="card-val">${esc(String(item))}</div></div></div>`;
+  }
+  const entries = Object.entries(item);
+  const pri     = entries.filter(([k]) => PRIORITY.includes(k));
+  const rest    = entries.filter(([k]) => !PRIORITY.includes(k) && !SKIP.includes(k));
+  const rows    = [...pri, ...rest].slice(0, 14).map(([k, v]) => {
+    let display;
+    if (v === null || v === undefined) {
+      display = `<span style="color:var(--muted)">—</span>`;
+    } else if (typeof v === 'object') {
+      const s = JSON.stringify(v);
+      display = `<span style="color:var(--muted);font-size:11px">${esc(s.length > 90 ? s.slice(0,90)+'…' : s)}</span>`;
+    } else {
+      const cls = CLAMP.has(k) ? ' clamp' : '';
+      display = `<span class="${cls}">${esc(String(v))}</span>`;
+    }
+    return `<div class="card-row"><div class="card-key">${esc(k)}</div><div class="card-val">${display}</div></div>`;
+  }).join('');
+  const media = extractMedia(item);
+  return `<div class="card">${rows}${renderMedia(media)}</div>`;
+}
+
+// ── Run ───────────────────────────────────────────────────────────────────────
+
+runBtn.addEventListener('click', async () => {
+  const t     = toolType.value;
+  const count = parseInt(val('countInput') || '20', 10);
+
+  const payload = { toolType: t, mode: currentMode, count };
+
+  if (t === 'tweet_search_extractor')   payload.searchQuery       = val('searchQuery');
+  if (t === 'follower_explorer')        payload.targetUsername    = val('targetUsername');
+  if (t === 'article_extractor')        payload.targetTweetId     = val('targetTweetId');
+  if (t === 'community_post_extractor') payload.targetCommunityId = val('targetCommunityId');
+  if (t === 'post_extractor')           payload.targetUsername    = val('targetUsername');
+
+  runBtn.disabled           = true;
+  runBtn.textContent        = 'Running…';
+  statusBadge.textContent   = 'running';
+  statusBadge.className     = 'badge running';
+  searchInput.style.display = 'none';
+  resultCount.textContent   = '';
+  currentData               = null;
+  resultBox.innerHTML       = '<div class="empty-state">Fetching data…</div>';
+
+  try {
+    const res  = await fetch('/api/run', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    const json = await res.json();
+
+    if (json.ok) {
+      statusBadge.textContent   = 'done';
+      statusBadge.className     = 'badge ok';
+      currentData               = json.data;
+      const isMany              = Array.isArray(json.data) && json.data.length > 1;
+      searchInput.style.display = isMany ? '' : 'none';
+      renderCards(currentData);
+    } else {
+      statusBadge.textContent = 'error';
+      statusBadge.className   = 'badge err';
+      resultBox.innerHTML     = `<div class="card"><div class="card-row"><div class="card-key">error</div><div class="card-val" style="color:#f87171">${esc(json.error)}</div></div></div>`;
+    }
+  } catch (e) {
+    statusBadge.textContent = 'error';
+    statusBadge.className   = 'badge err';
+    resultBox.innerHTML     = `<div class="card"><div class="card-row"><div class="card-key">exception</div><div class="card-val" style="color:#f87171">${esc(String(e))}</div></div></div>`;
+  } finally {
+    runBtn.disabled    = false;
+    runBtn.textContent = 'Run';
+  }
+});
+
+function val(id) { const el = document.getElementById(id); return el ? el.value.trim() : ''; }
+function esc(s)  { return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[m]); }
+</script>
+
+</body>
+</html>
