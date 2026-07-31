@@ -1057,6 +1057,7 @@ You can find the file hash or other threat indicator
 - [cyfirma](https://www.cyfirma.com/)
 - [opensourcemalware](https://opensourcemalware.com/)
 - [Google threat intelligence ](https://cloud.google.com/security/products/threat-intelligence#threat-intelligence-and-advanced-hunting)
+- [DomScan](https://domscan.net/tools/security) Domain intelligence for DNS, WHOIS/RDAP, TLS, subdomains, reputation, redirects, and typosquatting
 
 # Automation Dorking 
 
