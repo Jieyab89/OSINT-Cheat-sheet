@@ -10,3 +10,5 @@ venv/
 .vscode/
 .idea/
 *.swp
+*.log
+flask_session/

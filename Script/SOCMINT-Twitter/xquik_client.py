@@ -46,8 +46,6 @@ class XquikClient:
         except ValueError as e:
             raise XquikError(f"Response bukan JSON valid: {resp.text[:300]}") from e
 
-    # --- 5 tool type sesuai docs ---
-
     def tweet_search(self, search_query: str) -> dict:
         return self._post({"toolType": "tweet_search_extractor", "searchQuery": search_query})
 
