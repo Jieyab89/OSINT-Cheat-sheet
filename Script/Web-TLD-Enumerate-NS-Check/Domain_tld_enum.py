@@ -53,6 +53,7 @@ def green(text):
 
 # Wordlist (TLD + ccTLD + gTLD + vanity)
 COMMON_TLDS = [
+    # Arr extentions tld domain lists 
     
     # All region goverment 
     "gov","mil","go.id","mil.id","gov.au","gov.br",
@@ -327,8 +328,7 @@ COMMON_TLDS = [
     "xn--t60b56a","xn--tckwe","xn--tiq49xqyj","xn--unup4y","xn--vermgensberater-ctb","xn--vermgensberatung-pwb","xn--vhquv","xn--vuq861b",
     "xn--w4r85el8fhu5dnra","xn--w4rs40l","xn--wgbh1c","xn--wgbl6a","xn--xhq521b","xn--xkc2al3hye2a","xn--xkc2dl3a5ee0h","xn--y9a3aq","xn--yfro4i67o",
     "xn--ygbi2ammx","xn--zfr164b","xxx","xyz","yachts","yahoo","yamaxun","yandex","ye","yodobashi","yoga","yokohama","you","youtube","yun","za",
-    "zappos","zara","zero","zm","zone","zuerich","zw",
-    
+    "zappos","zara","zero","zm","zone","zuerich","zw",    
 ]
 
 def generate_brute_tlds(max_len=3, min_len=1):

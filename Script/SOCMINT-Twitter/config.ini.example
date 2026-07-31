@@ -1,10 +1,8 @@
 [xquik]
-
 api_key = xxxxxxxxxxxxxxxxxxxxxxxxxxx
 base_url = https://xquik.com/api/v1/extractions 
 
 [twitter_cookies]
-
 auth_token = xxxxxxxxxxxxxxxxxx
 ct0 = xxxxxxxxxxxx
 

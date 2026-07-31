@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://jsdelivr.net">
+<title>Jieyab89 SOCMINT X — Graph</title>
+<style>
+  :root {
+    --bg:        #0f1117;
+    --surface:   #1a1d27;
+    --surface2:  #21253a;
+    --border:    #2a2d3a;
+    --text:      #e8eaf0;
+    --muted:     #8890a4;
+    --accent:    #5865f2;
+    --accent-bg: #1e2240;
+    --success:   #22c55e;
+    --danger:    #ef4444;
+    --warn:      #f59e0b;
+    --purple:    #8b5cf6;
+    --purple-bg: #1e1535;
+    --font:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    height: 100%;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 14px;
+    overflow: hidden;
+  }
+  body { display: flex; flex-direction: column; }
+
+  /* ── Header ── */
+  header {
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    position: relative;
+  }
+  header h1 { font-size: 14px; font-weight: 600; }
+  header .sep { color: var(--border); }
+  header .sub { color: var(--muted); font-size: 12px; flex: 1; }
+  .hamburger-btn {
+    margin-left: auto;
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    color: var(--muted);
+    cursor: pointer;
+    padding: 5px 9px;
+    font-size: 16px;
+    line-height: 1;
+    transition: all 0.15s;
+  }
+  .hamburger-btn:hover { color: var(--text); border-color: var(--accent); }
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    right: 12px;
+    margin-top: 6px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    padding: 5px;
+    min-width: 175px;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.5);
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .nav-menu.hidden { display: none; }
+  .nav-menu a {
+    padding: 7px 12px;
+    border-radius: 5px;
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 13px;
+    transition: all 0.12s;
+    display: block;
+  }
+  .nav-menu a:hover { color: var(--text); background: var(--accent-bg); }
+  .nav-menu a.current { color: var(--accent); background: var(--accent-bg); }
+  .nav-divider { border: none; border-top: 1px solid var(--border); margin: 3px 0; }
+
+  /* ── Toolbar ── */
+  #toolbar {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 7px 16px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
+    flex-wrap: wrap;
+  }
+  #toolbar select, #toolbar input[type="text"], #toolbar input[type="number"] {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-size: 12px;
+    font-family: var(--font);
+    line-height: 1.4;
+  }
+  #toolbar select:focus, #toolbar input:focus { outline: none; border-color: var(--accent); }
+  #queryInput { flex: 1; min-width: 200px; }
+  #countInput { width: 68px; }
+
+  /* ── Buttons ── */
+  .btn {
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: 1px solid var(--border);
+    font-size: 12px;
+    font-family: var(--font);
+    cursor: pointer;
+    transition: all 0.15s;
+    white-space: nowrap;
+    line-height: 1.4;
+  }
+  .btn-primary  { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .btn-primary:hover:not(:disabled) { background: #4752c4; }
+  .btn-ghost    { background: transparent; color: var(--muted); }
+  .btn-ghost:hover:not(:disabled) { color: var(--text); border-color: var(--accent); background: var(--accent-bg); }
+  .btn-success  { background: transparent; color: var(--success); border-color: #1a4d2e; }
+  .btn-success:hover:not(:disabled) { background: rgba(34,197,94,0.1); border-color: var(--success); }
+  .btn-danger   { background: transparent; color: var(--danger); border-color: #4d1a1a; }
+  .btn-danger:hover:not(:disabled)  { background: rgba(239,68,68,0.1); border-color: var(--danger); }
+  .btn:disabled { opacity: 0.38; cursor: not-allowed; }
+
+  /* ── Main area ── */
+  #main {
+    flex: 1;
+    display: flex;
+    min-height: 0;
+    position: relative;
+  }
+
+  /* ── Cytoscape canvas ── */
+  #cy {
+    flex: 1;
+    min-width: 0;
+    background: var(--bg);
+  }
+
+  /* ── Info panel ── */
+  #infoPanel {
+    width: 310px;
+    border-left: 1px solid var(--border);
+    background: var(--surface);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    overflow: hidden;
+    transition: width 0.2s ease;
+  }
+  #infoPanel.hidden { width: 0; border-left: none; }
+
+  #infoHeader {
+    padding: 9px 12px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    gap: 8px;
+  }
+  #infoTitle {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  #btnClosePanel {
+    background: none;
+    border: none;
+    color: var(--muted);
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+    padding: 0 2px;
+    flex-shrink: 0;
+  }
+  #btnClosePanel:hover { color: var(--text); }
+
+  #infoContent {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px 12px;
+    font-size: 12px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+  .info-row {
+    display: flex;
+    gap: 8px;
+    padding: 5px 0;
+    border-bottom: 1px solid var(--border);
+    align-items: flex-start;
+  }
+  .info-key {
+    color: var(--muted);
+    font-size: 10px;
+    min-width: 95px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    flex-shrink: 0;
+    padding-top: 1px;
+    line-height: 1.5;
+  }
+  .info-val {
+    color: var(--text);
+    flex: 1;
+    word-break: break-word;
+    line-height: 1.5;
+  }
+  .info-val a { color: var(--accent); text-decoration: none; }
+  .info-val a:hover { text-decoration: underline; }
+  .info-media {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border);
+  }
+  .info-media a img {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    display: block;
+  }
+  .info-media a.video-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 60px;
+    background: var(--surface2);
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 10px;
+    text-decoration: none;
+  }
+  .info-media a.video-link:hover { border-color: var(--accent); color: var(--accent); }
+
+  #infoActions {
+    padding: 10px 12px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-shrink: 0;
+  }
+  #infoActions .btn { width: 100%; text-align: center; justify-content: center; }
+  #infoActions a.btn { text-decoration: none; display: block; }
+
+  /* ── Legend ── */
+  #legend {
+    position: absolute;
+    bottom: 14px;
+    left: 14px;
+    background: rgba(26,29,39,0.93);
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    padding: 9px 13px;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    pointer-events: none;
+    z-index: 10;
+  }
+  .leg-row { display: flex; align-items: center; gap: 8px; color: var(--muted); }
+  .leg-icon {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    border: 2px solid;
+  }
+  .leg-icon.search   { background: var(--accent); border-color: var(--accent); transform: rotate(45deg); border-radius: 1px; }
+  .leg-icon.tweet    { background: var(--accent-bg); border-color: var(--accent); border-radius: 2px; }
+  .leg-icon.reply    { background: rgba(34,197,94,0.12); border-color: var(--success); border-radius: 2px; }
+  .leg-icon.user     { background: var(--purple-bg); border-color: var(--purple); border-radius: 50%; }
+
+  /* ── Status bar ── */
+  #statusBar {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(26,29,39,0.94);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 4px 16px;
+    font-size: 12px;
+    color: var(--muted);
+    pointer-events: none;
+    z-index: 20;
+    transition: opacity 0.3s;
+    max-width: 420px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  #statusBar.error { color: var(--danger); border-color: #4d1a1a; }
+  #statusBar.hidden { opacity: 0; }
+
+  /* ── Node count badge ── */
+  #nodeCount {
+    font-size: 11px;
+    color: var(--muted);
+    padding: 3px 9px;
+    background: var(--bg);
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    white-space: nowrap;
+  }
+
+  /* ── Spinner ── */
+  .spin {
+    display: inline-block;
+    animation: spin 1s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── Empty state hint ── */
+  #emptyHint {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--border);
+    font-size: 13px;
+    pointer-events: none;
+    text-align: center;
+    line-height: 2;
+    z-index: 5;
+  }
+  #emptyHint.hidden { display: none; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Jieyab89 SOCMINT X</h1>
+  <span class="sep">|</span>
+  <span class="sub">Graph Visualization</span>
+  <button id="navToggle" class="hamburger-btn" aria-label="Navigation menu">&#9776;</button>
+  <nav id="navMenu" class="nav-menu hidden">
+    <a href="/">Home</a>
+    <a href="/graph" class="current">Graph</a>
+    <hr class="nav-divider">
+    <a href="/archives">Archives</a>
+  </nav>
+</header>
+
+<div id="toolbar">
+  <select id="toolSelect">
+    <option value="tweet_search_extractor">Tweet Search</option>
+    <option value="follower_explorer">Follower Explorer</option>
+    <option value="post_extractor">Post Extractor</option>
+    <option value="article_extractor">Article Extractor</option>
+    <option value="community_post_extractor">Community Posts</option>
+    <option value="tweet_replies_extractor">Tweet Replies [Cookie]</option>
+    <option value="tweet_retweeters_extractor">Tweet Retweeters [Cookie]</option>
+    <option value="geo_post_extractor">Geo Post Search [Cookie]</option>
+  </select>
+  <select id="modeSelect">
+    <option value="cookie">Cookie</option>
+    <option value="api">API</option>
+  </select>
+  <input id="queryInput" type="text" placeholder="Search query…" spellcheck="false" autocomplete="off">
+  <input id="countInput" type="number" value="20" min="1" max="200" title="Result count">
+  <span id="nodeCount">0 nodes</span>
+  <button id="btnSearch"     class="btn btn-primary">Search</button>
+  <button id="btnArchiveAll" class="btn btn-ghost">Archive All</button>
+  <button id="btnDump"       class="btn btn-ghost">Dump JSON</button>
+  <button id="btnClear"      class="btn btn-danger">Clear</button>
+</div>
+
+<div id="main">
+  <div id="cy"></div>
+
+  <!-- Right info panel -->
+  <div id="infoPanel" class="hidden">
+    <div id="infoHeader">
+      <span id="infoTitle">Node Details</span>
+      <button id="btnClosePanel" title="Close">×</button>
+    </div>
+    <div id="infoContent"></div>
+    <div id="infoActions">
+      <button id="btnExpandReplies"   class="btn btn-ghost"    style="display:none">↩ Expand Replies</button>
+      <button id="btnExpandRetweets"  class="btn btn-ghost"    style="display:none">↗ Expand Retweets</button>
+      <a      id="btnOpenTweet"       class="btn btn-success"  style="display:none"
+              href="#" target="_blank" rel="noopener noreferrer">Open Tweet ↗</a>
+    </div>
+  </div>
+
+  <!-- Status bar (floats over cy) -->
+  <div id="statusBar" class="hidden">Ready</div>
+
+  <!-- Empty state -->
+  <div id="emptyHint">
+    Use the toolbar to search<br>
+    Click any node to inspect · Click tweet nodes to expand replies / retweets
+  </div>
+</div>
+
+<!-- Legend (floats over cy, bottom-left) -->
+<div id="legend">
+  <div class="leg-row"><div class="leg-icon search"></div>  Search root</div>
+  <div class="leg-row"><div class="leg-icon tweet"></div>   Tweet</div>
+  <div class="leg-row"><div class="leg-icon reply"></div>   Reply</div>
+  <div class="leg-row"><div class="leg-icon user"></div>    User / Retweeter</div>
+</div>
+
+<script src="https://unpkg.com/cytoscape@3.28.1/dist/cytoscape.min.js" crossorigin="anonymous"></script>
+<script nonce="{{ g.csp_nonce }}">
+(function () {
+'use strict';
+
+// ── State ─────────────────────────────────────────────────────────────────────
+const allItems = [];   // { type, item }
+let selectedNode = null;
+let cy;
+
+// ── Cytoscape styles ──────────────────────────────────────────────────────────
+const CY_STYLE = [
+  { selector: 'node[type="search"]', style: {
+      shape: 'diamond',
+      'background-color': '#5865f2',
+      label: 'data(label)',
+      color: '#e8eaf0',
+      'font-size': '11px',
+      'text-valign': 'bottom',
+      'text-halign': 'center',
+      'text-margin-y': '9px',
+      width: '46px',
+      height: '46px',
+      'font-family': '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+  }},
+  { selector: 'node[type="tweet"]', style: {
+      shape: 'roundrectangle',
+      'background-color': '#1e2240',
+      'border-color': '#5865f2',
+      'border-width': '2px',
+      label: 'data(label)',
+      color: '#e8eaf0',
+      'font-size': '9px',
+      'text-valign': 'center',
+      'text-halign': 'center',
+      'text-wrap': 'wrap',
+      'text-max-width': '138px',
+      width: '158px',
+      height: '62px',
+      'font-family': '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+  }},
+  { selector: 'node[type="reply"]', style: {
+      shape: 'roundrectangle',
+      'background-color': '#0d2018',
+      'border-color': '#22c55e',
+      'border-width': '2px',
+      label: 'data(label)',
+      color: '#e8eaf0',
+      'font-size': '9px',
+      'text-valign': 'center',
+      'text-halign': 'center',
+      'text-wrap': 'wrap',
+      'text-max-width': '138px',
+      width: '158px',
+      height: '62px',
+      'font-family': '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+  }},
+  { selector: 'node[type="retweeter"]', style: {
+      shape: 'ellipse',
+      'background-color': '#1e1535',
+      'border-color': '#8b5cf6',
+      'border-width': '2px',
+      label: 'data(label)',
+      color: '#e8eaf0',
+      'font-size': '10px',
+      'text-valign': 'bottom',
+      'text-halign': 'center',
+      'text-margin-y': '7px',
+      width: '74px',
+      height: '74px',
+      'font-family': '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+  }},
+  { selector: 'node[type="user"]', style: {
+      shape: 'ellipse',
+      'background-color': '#1e1535',
+      'border-color': '#8b5cf6',
+      'border-width': '2px',
+      label: 'data(label)',
+      color: '#e8eaf0',
+      'font-size': '10px',
+      'text-valign': 'bottom',
+      'text-halign': 'center',
+      'text-margin-y': '7px',
+      width: '74px',
+      height: '74px',
+      'font-family': '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+  }},
+  { selector: 'node:selected', style: {
+      'border-color': '#f59e0b',
+      'border-width': '3px',
+      'background-color': '#2a2510',
+  }},
+  { selector: 'edge', style: {
+      'line-color': '#FFFFFF',
+      'line-style': 'dashed',
+      width: '1.5px',
+      'target-arrow-color': '#FFFFFF',
+      'target-arrow-shape': 'triangle',
+      'curve-style': 'bezier',
+      'arrow-scale': 1.0,
+  }},
+];
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+function init() {
+  cy = cytoscape({
+    container: document.getElementById('cy'),
+    style: CY_STYLE,
+    layout: { name: 'preset' },
+    minZoom: 0.08,
+    maxZoom: 4,
+    wheelSensitivity: 0.25,
+    boxSelectionEnabled: false,
+  });
+
+  cy.on('tap', 'node', function (evt) {
+    selectedNode = evt.target;
+    showPanel(selectedNode.data());
+  });
+
+  cy.on('tap', function (evt) {
+    if (evt.target === cy) hidePanel();
+  });
+
+  // Hamburger nav
+  var navBtn  = document.getElementById('navToggle');
+  var navMenu = document.getElementById('navMenu');
+  navBtn.addEventListener('click', function(e) {
+    e.stopPropagation();
+    navMenu.classList.toggle('hidden');
+  });
+  document.addEventListener('click', function() { navMenu.classList.add('hidden'); });
+  navMenu.addEventListener('click', function(e) { e.stopPropagation(); });
+
+  document.getElementById('btnSearch').addEventListener('click', runSearch);
+  document.getElementById('queryInput').addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') runSearch();
+  });
+  document.getElementById('toolSelect').addEventListener('change', updatePlaceholder);
+  document.getElementById('btnArchiveAll').addEventListener('click', archiveAll);
+  document.getElementById('btnDump').addEventListener('click', dumpJSON);
+  document.getElementById('btnClear').addEventListener('click', clearGraph);
+  document.getElementById('btnClosePanel').addEventListener('click', hidePanel);
+  document.getElementById('btnExpandReplies').addEventListener('click', function () {
+    expandNode('tweet_replies_extractor');
+  });
+  document.getElementById('btnExpandRetweets').addEventListener('click', function () {
+    expandNode('tweet_retweeters_extractor');
+  });
+
+  updatePlaceholder();
+}
+
+// ── Placeholder by tool type ──────────────────────────────────────────────────
+function updatePlaceholder() {
+  var map = {
+    tweet_search_extractor:     'Search query…',
+    follower_explorer:          'Username or user ID…',
+    post_extractor:             'Username or user ID…',
+    article_extractor:          'Tweet ID…',
+    community_post_extractor:   'Community ID…',
+    tweet_replies_extractor:    'Tweet ID…',
+    tweet_retweeters_extractor: 'Tweet ID…',
+    geo_post_extractor:         'Keyword (geocodes profile location)…',
+  };
+  var tool = document.getElementById('toolSelect').value;
+  document.getElementById('queryInput').placeholder = map[tool] || 'Query…';
+}
+
+// ── Status bar ────────────────────────────────────────────────────────────────
+var _statusTimer = null;
+
+function setStatus(msg, isError, persist) {
+  var bar = document.getElementById('statusBar');
+  bar.textContent = msg;
+  bar.classList.toggle('error', !!isError);
+  bar.classList.remove('hidden');
+  if (_statusTimer) clearTimeout(_statusTimer);
+  if (!persist) {
+    _statusTimer = setTimeout(function () { bar.classList.add('hidden'); }, 4500);
+  }
+}
+
+function updateNodeCount() {
+  var n = cy.nodes().length;
+  document.getElementById('nodeCount').textContent = n + ' node' + (n !== 1 ? 's' : '');
+  document.getElementById('emptyHint').classList.toggle('hidden', n > 0);
+}
+
+// ── API helpers ───────────────────────────────────────────────────────────────
+function buildBody(tool, query, count, mode) {
+  var body = { toolType: tool, mode: mode, count: count };
+  if (tool === 'tweet_search_extractor' || tool === 'geo_post_extractor') {
+    body.searchQuery = query;
+  } else if (tool === 'follower_explorer' || tool === 'post_extractor') {
+    body.targetUsername = query;
+  } else if (
+    tool === 'article_extractor' ||
+    tool === 'tweet_replies_extractor' ||
+    tool === 'tweet_retweeters_extractor'
+  ) {
+    body.targetTweetId = query;
+  } else if (tool === 'community_post_extractor') {
+    body.targetCommunityId = query;
+  }
+  return body;
+}
+
+async function apiFetch(body) {
+  var res = await fetch('/api/run', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  var json = await res.json();
+  if (!json.ok) throw new Error(json.error || 'API error');
+  return json.data;
+}
+
+// ── Label builder ─────────────────────────────────────────────────────────────
+function makeLabel(item, type) {
+  if (type === 'user' || type === 'retweeter') {
+    var handle = item.screen_name || item.user || '';
+    return handle ? '@' + handle : 'Unknown';
+  }
+  var text = (item.text || item.retweeted_text || '').replace(/\s+/g, ' ').trim();
+  return text.length > 60 ? text.substring(0, 60) + '…' : (text || ('Tweet ' + (item.id || '?')));
+}
+
+// ── Graph operations ──────────────────────────────────────────────────────────
+function addNodes(items, nodeType, parentId) {
+  var added = 0;
+  items.forEach(function (item, i) {
+    var tweetId = String(item.id || '');
+    var cyId    = tweetId ? 'n_' + tweetId : 'n_' + Date.now() + '_' + i;
+
+    if (cy.getElementById(cyId).length) {
+      if (parentId) addEdge(parentId, cyId);
+      return;
+    }
+
+    cy.add({
+      data: {
+        id:      cyId,
+        type:    nodeType,
+        label:   makeLabel(item, nodeType),
+        tweetId: tweetId,
+        raw:     item,
+      }
+    });
+
+    if (parentId) addEdge(parentId, cyId);
+    allItems.push({ type: nodeType, item: item });
+    added++;
+  });
+  return added;
+}
+
+function addEdge(src, tgt) {
+  var eId = 'e_' + src + '_' + tgt;
+  if (!cy.getElementById(eId).length) {
+    cy.add({ data: { id: eId, source: src, target: tgt } });
+  }
+}
+
+function runLayout(fit, randomize) {
+  cy.layout({
+    name: 'cose',
+    animate: true,
+    animationDuration: 450,
+    randomize: !!randomize,
+    fit: !!fit,
+    nodeRepulsion: 10000,
+    idealEdgeLength: 130,
+    gravity: 0.35,
+    numIter: 1000,
+    padding: 40,
+  }).run();
+}
+
+// ── Search ────────────────────────────────────────────────────────────────────
+async function runSearch() {
+  var tool  = document.getElementById('toolSelect').value;
+  var query = document.getElementById('queryInput').value.trim();
+  var count = Math.max(1, Math.min(200, parseInt(document.getElementById('countInput').value, 10) || 20));
+  var mode  = document.getElementById('modeSelect').value;
+
+  if (!query) { setStatus('Enter a query first', true); return; }
+
+  document.getElementById('btnSearch').disabled = true;
+  setStatus('Searching…', false, true);
+
+  try {
+    var data  = await apiFetch(buildBody(tool, query, count, mode));
+    var items = Array.isArray(data) ? data : [data];
+
+    // Central search node
+    var searchId = 'search_' + Date.now();
+    var shortQ   = query.length > 40 ? query.substring(0, 40) + '…' : query;
+    cy.add({ data: { id: searchId, type: 'search', label: shortQ, tweetId: '', raw: { query: query } } });
+
+    // Node type by tool
+    var nodeType = 'tweet';
+    if (tool === 'follower_explorer') nodeType = 'user';
+    else if (tool === 'tweet_retweeters_extractor') nodeType = 'retweeter';
+
+    var added = addNodes(items, nodeType, searchId);
+    runLayout(true, true);
+    updateNodeCount();
+    setStatus('Done — ' + items.length + ' result(s) (' + added + ' new nodes)');
+  } catch (e) {
+    setStatus('Error: ' + e.message, true);
+  } finally {
+    document.getElementById('btnSearch').disabled = false;
+  }
+}
+
+// ── Expand replies / retweets from selected node ──────────────────────────────
+async function expandNode(expandTool) {
+  if (!selectedNode) return;
+  var data    = selectedNode.data();
+  var tweetId = data.tweetId;
+  if (!tweetId) { setStatus('Node has no tweet ID', true); return; }
+
+  var count    = Math.max(1, Math.min(200, parseInt(document.getElementById('countInput').value, 10) || 50));
+  var parentId = selectedNode.id();
+
+  document.getElementById('btnExpandReplies').disabled  = true;
+  document.getElementById('btnExpandRetweets').disabled = true;
+  setStatus('Expanding…', false, true);
+
+  try {
+    var fetched  = await apiFetch({ toolType: expandTool, mode: 'cookie', count: count, targetTweetId: tweetId });
+    var items    = Array.isArray(fetched) ? fetched : [fetched];
+    var nodeType = expandTool === 'tweet_replies_extractor' ? 'reply' : 'retweeter';
+
+    var added = addNodes(items, nodeType, parentId);
+    runLayout(false, false);
+    updateNodeCount();
+    setStatus('Expanded — ' + items.length + ' result(s) (' + added + ' new nodes)');
+  } catch (e) {
+    setStatus('Error: ' + e.message, true);
+  } finally {
+    document.getElementById('btnExpandReplies').disabled  = false;
+    document.getElementById('btnExpandRetweets').disabled = false;
+  }
+}
+
+// ── Info panel ────────────────────────────────────────────────────────────────
+function esc(s) {
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+var PRIORITY_KEYS = [
+  'user', 'screen_name', 'name', 'text', 'created_at',
+  'retweeted_by_user', 'retweeted_by_name', 'retweeted_text', 'retweeted_by_bio',
+  'reply_count', 'retweet_count', 'favorite_count', 'view_count',
+  'followers_count', 'following_count', 'tweet_count',
+  'description', 'user_location', 'in_reply_to_tweet_id',
+  'retweeted_tweet_id', 'retweeted_at', 'verified', 'is_blue_verified',
+];
+
+var SKIP_KEYS = new Set(['id', 'media', 'card', 'user_id', 'retweeted_by_user_id']);
+
+function showPanel(data) {
+  var raw  = data.raw || {};
+  var type = data.type;
+
+  var titles = { search: 'Search Node', tweet: 'Tweet', reply: 'Reply', user: 'User', retweeter: 'Retweeter' };
+  document.getElementById('infoTitle').textContent = titles[type] || 'Node';
+
+  // Build key list (priority first, then remaining)
+  var allKeys = Object.keys(raw);
+  var ordered = PRIORITY_KEYS.concat(allKeys.filter(function (k) { return PRIORITY_KEYS.indexOf(k) === -1; }));
+  var keys    = ordered.filter(function (k) {
+    return !SKIP_KEYS.has(k) && raw[k] !== null && raw[k] !== undefined && raw[k] !== '';
+  });
+
+  var rows = keys.map(function (k) {
+    var v   = raw[k];
+    var val = esc(String(v));
+
+    // Format tweet ID fields as links
+    if ((k === 'retweeted_tweet_id' || k === 'in_reply_to_tweet_id') && /^\d+$/.test(String(v))) {
+      var handle = raw.retweeted_by_user || raw.user || '';
+      if (handle) {
+        val = '<a href="https://x.com/' + encodeURIComponent(handle) + '/status/' + encodeURIComponent(String(v)) +
+              '" target="_blank" rel="noopener noreferrer">' + esc(String(v)) + ' ↗</a>';
+      }
+    }
+
+    var label = esc(k.replace(/_/g, ' '));
+    return '<div class="info-row"><div class="info-key">' + label + '</div><div class="info-val">' + val + '</div></div>';
+  }).join('');
+
+  // Media thumbnails
+  var media = Array.isArray(raw.media) ? raw.media : [];
+  if (media.length) {
+    var mediaParts = ['<div class="info-media">'];
+    media.forEach(function (m) {
+      var thumb = m.thumb || '';
+      var url   = m.url || thumb;
+      var mtype = m.type || 'photo';
+      if (!thumb) return;
+      if (mtype === 'photo') {
+        mediaParts.push(
+          '<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' +
+          '<img src="' + esc(thumb) + '" loading="lazy" alt="media"></a>'
+        );
+      } else {
+        mediaParts.push(
+          '<a href="/api/video?url=' + encodeURIComponent(url) + '" target="_blank" rel="noopener noreferrer" class="video-link">▶ ' + esc(mtype) + '</a>'
+        );
+      }
+    });
+    mediaParts.push('</div>');
+    rows += mediaParts.join('');
+  }
+
+  document.getElementById('infoContent').innerHTML = rows;
+
+  // Action buttons
+  var isTweet  = type === 'tweet' || type === 'reply';
+  var tweetId  = data.tweetId;
+  var user     = raw.user || raw.screen_name || '';
+
+  document.getElementById('btnExpandReplies').style.display  = isTweet ? '' : 'none';
+  document.getElementById('btnExpandRetweets').style.display = isTweet ? '' : 'none';
+
+  var openBtn = document.getElementById('btnOpenTweet');
+  if (isTweet && tweetId && user) {
+    openBtn.href         = 'https://x.com/' + encodeURIComponent(user) + '/status/' + encodeURIComponent(tweetId);
+    openBtn.style.display = '';
+  } else {
+    openBtn.style.display = 'none';
+  }
+
+  document.getElementById('infoPanel').classList.remove('hidden');
+}
+
+function hidePanel() {
+  document.getElementById('infoPanel').classList.add('hidden');
+  selectedNode = null;
+  cy.elements().unselect();
+}
+
+// ── Archive All ───────────────────────────────────────────────────────────────
+async function archiveAll() {
+  if (!allItems.length) { setStatus('Nothing to archive yet', true); return; }
+  var query = document.getElementById('queryInput').value.trim();
+  var tool  = document.getElementById('toolSelect').value;
+
+  setStatus('Archiving…', false, true);
+  try {
+    var res = await fetch('/api/archive', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        toolType:  'graph_' + tool,
+        data:      allItems.map(function (d) { return d.item; }),
+        queryInfo: { query: query, source: 'graph', nodes: cy.nodes().length },
+      }),
+    });
+    var json = await res.json();
+    if (!json.ok) throw new Error(json.error);
+    setStatus('Archived — ID: ' + json.archiveId);
+  } catch (e) {
+    setStatus('Archive error: ' + e.message, true);
+  }
+}
+
+// ── Dump JSON ─────────────────────────────────────────────────────────────────
+function dumpJSON() {
+  if (!allItems.length) { setStatus('Nothing to export yet', true); return; }
+  var payload = {
+    exported_at: new Date().toISOString(),
+    query:       document.getElementById('queryInput').value.trim(),
+    tool:        document.getElementById('toolSelect').value,
+    node_count:  cy.nodes().length,
+    items:       allItems,
+  };
+  var blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+  var url  = URL.createObjectURL(blob);
+  var a    = document.createElement('a');
+  a.href     = url;
+  a.download = 'graph_export_' + Date.now() + '.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  setStatus('Exported ' + allItems.length + ' item(s)');
+}
+
+// ── Clear ─────────────────────────────────────────────────────────────────────
+function clearGraph() {
+  cy.elements().remove();
+  allItems.length = 0;
+  hidePanel();
+  updateNodeCount();
+  setStatus('Graph cleared');
+}
+
+// ── Boot ──────────────────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', init);
+
+})();
+</script>
+</body>
+</html>

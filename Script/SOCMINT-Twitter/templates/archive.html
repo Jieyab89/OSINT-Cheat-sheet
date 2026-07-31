@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Link Bootstrap Icons CDN -->
+<link rel="stylesheet" href="https://jsdelivr.net">
+<title>Jieyab89 SOCMINT X — Archives</title>
+<style>
+  :root {
+    --bg:         #0f1117;
+    --surface:    #1a1d27;
+    --surface2:   #21253a;
+    --border:     #2a2d3a;
+    --text:       #e8eaf0;
+    --muted:      #8890a4;
+    --accent:     #5865f2;
+    --accent-bg:  #1e2240;
+    --success:    #22c55e;
+    --danger:     #ef4444;
+    --font:       -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: var(--font); font-size: 14px; line-height: 1.6; min-height: 100vh; }
+
+  /* ── Header ── */
+  header {
+    padding: 14px 24px;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+  }
+  header h1 { font-size: 14px; font-weight: 600; }
+  header .sep { color: var(--border); }
+  header .sub { color: var(--muted); font-size: 12px; flex: 1; }
+  .hamburger-btn {
+    margin-left: auto;
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    color: var(--muted);
+    cursor: pointer;
+    padding: 5px 9px;
+    font-size: 16px;
+    line-height: 1;
+    transition: all 0.15s;
+  }
+  .hamburger-btn:hover { color: var(--text); border-color: var(--accent); }
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    right: 12px;
+    margin-top: 6px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    padding: 5px;
+    min-width: 175px;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.5);
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .nav-menu.hidden { display: none; }
+  .nav-menu a {
+    padding: 7px 12px;
+    border-radius: 5px;
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 13px;
+    transition: all 0.12s;
+    display: block;
+  }
+  .nav-menu a:hover { color: var(--text); background: var(--accent-bg); }
+  .nav-menu a.current { color: var(--accent); background: var(--accent-bg); }
+  .nav-divider { border: none; border-top: 1px solid var(--border); margin: 3px 0; }
+
+  /* ── Layout ── */
+  .layout { display: grid; grid-template-columns: 270px 1fr; min-height: calc(100vh - 49px); }
+  @media (max-width: 760px) { .layout { grid-template-columns: 1fr; } }
+
+  /* ── Sidebar ── */
+  .sidebar {
+    border-right: 1px solid var(--border);
+    background: var(--surface);
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar-head {
+    padding: 14px 16px 10px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .sidebar-title { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+  .sidebar-count { font-size: 11px; color: var(--muted); background: var(--bg); padding: 2px 7px; border-radius: 10px; }
+  .archive-list { overflow-y: auto; flex: 1; padding: 8px; }
+  .archive-entry {
+    padding: 10px 12px;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.12s;
+    margin-bottom: 4px;
+  }
+  .archive-entry:hover { background: var(--surface2); border-color: var(--border); }
+  .archive-entry.active { background: var(--accent-bg); border-color: var(--accent); }
+  .ae-tool {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .ae-tool .tool-pill {
+    display: inline-block;
+    font-size: 10px;
+    padding: 1px 6px;
+    border-radius: 3px;
+    background: var(--accent-bg);
+    color: #818cf8;
+    margin-right: 4px;
+    font-weight: 500;
+  }
+  .ae-meta { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .ae-stats { font-size: 11px; color: var(--muted); display: flex; gap: 8px; margin-top: 3px; }
+  .ae-stat { display: flex; align-items: center; gap: 3px; }
+  .no-archives {
+    padding: 40px 16px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+  }
+
+  /* ── Viewer ── */
+  .viewer { display: flex; flex-direction: column; overflow: hidden; }
+  .viewer-top {
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .viewer-meta { flex: 1; }
+  .viewer-meta-title { font-size: 13px; font-weight: 600; }
+  .viewer-meta-sub   { font-size: 11px; color: var(--muted); margin-top: 1px; }
+  .search-bar {
+    padding: 6px 10px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 13px;
+    border-radius: 6px;
+    width: 220px;
+    transition: border-color 0.15s;
+  }
+  .search-bar:focus { outline: none; border-color: var(--accent); }
+  .search-bar::placeholder { color: var(--muted); }
+  .result-count { font-size: 12px; color: var(--muted); white-space: nowrap; }
+  .btn-delete {
+    padding: 5px 12px;
+    background: transparent;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-family: var(--font);
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.15s;
+    white-space: nowrap;
+  }
+  .btn-delete:hover { color: var(--danger); border-color: var(--danger); }
+
+  .cards-area { padding: 16px 18px; overflow-y: auto; flex: 1; }
+  .cards-grid  { display: grid; gap: 8px; }
+
+  /* ── Cards ── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+    transition: border-color 0.12s;
+  }
+  .card:hover { border-color: #3a3d50; }
+  .card-row {
+    display: flex;
+    gap: 10px;
+    padding: 4px 0;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(42,45,58,0.6);
+  }
+  .card-row:last-child  { border-bottom: none; padding-bottom: 0; }
+  .card-row:first-child { padding-top: 0; }
+  .card-key {
+    color: var(--muted);
+    min-width: 100px;
+    flex-shrink: 0;
+    font-size: 11px;
+    padding-top: 2px;
+    font-weight: 500;
+  }
+  .card-val { color: var(--text); word-break: break-word; flex: 1; }
+  .card-val.clamp {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  .card-link { color: var(--accent); text-decoration: none; font-size: 12px; }
+  .card-link:hover { text-decoration: underline; }
+
+  /* ── Media ── */
+  .card-media {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(42,45,58,0.6);
+  }
+  .media-item { position: relative; display: inline-block; }
+  .media-thumb {
+    display: block;
+    width: 130px;
+    height: 86px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid var(--border);
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .media-thumb:hover { opacity: 0.82; }
+  .media-video {
+    display: block;
+    width: 220px;
+    height: 140px;
+    border-radius: 5px;
+    border: 1px solid var(--border);
+    background: #000;
+  }
+  .media-badge {
+    position: absolute;
+    bottom: 5px; left: 5px;
+    background: rgba(0,0,0,0.72);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 3px;
+    pointer-events: none;
+  }
+
+  /* ── Empty / loading states ── */
+  .empty-state {
+    color: var(--muted);
+    font-size: 13px;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .spinner {
+    display: inline-block;
+    width: 14px; height: 14px;
+    border: 2px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+    vertical-align: middle;
+    margin-right: 6px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Jieyab89 SOCMINT X</h1>
+  <span class="sep">|</span>
+  <span class="sub">Saved Archives</span>
+  <button id="navToggle" class="hamburger-btn" aria-label="Navigation menu">&#9776;</button>
+  <nav id="navMenu" class="nav-menu hidden">
+    <a href="/">Home</a>
+    <a href="/graph">Graph</a>
+    <hr class="nav-divider">
+    <a href="/archives" class="current">Archives</a>
+  </nav>
+</header>
+
+<div class="layout">
+
+  <!-- Sidebar: archive list -->
+  <div class="sidebar">
+    <div class="sidebar-head">
+      <span class="sidebar-title">Archives</span>
+      <span class="sidebar-count" id="archiveCount">—</span>
+    </div>
+    <div class="archive-list" id="archiveList">
+      <div class="no-archives"><span class="spinner"></span> Loading…</div>
+    </div>
+  </div>
+
+  <!-- Main viewer -->
+  <div class="viewer">
+    <div class="viewer-top" id="viewerTop" style="display:none">
+      <div class="viewer-meta">
+        <div class="viewer-meta-title" id="viewerTitle">—</div>
+        <div class="viewer-meta-sub"   id="viewerSub">—</div>
+      </div>
+      <input type="text" class="search-bar" id="searchInput" placeholder="Search in archive…">
+      <span class="result-count" id="resultCount"></span>
+      <button class="btn-delete" id="deleteBtn">Delete</button>
+    </div>
+
+    <div class="cards-area">
+      <div id="cardsBox">
+        <div class="empty-state">Select an archive from the sidebar to view its contents.</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script nonce="{{ g.csp_nonce }}">
+// Hamburger nav
+(function() {
+  var btn  = document.getElementById('navToggle');
+  var menu = document.getElementById('navMenu');
+  btn.addEventListener('click', function(e) {
+    e.stopPropagation();
+    menu.classList.toggle('hidden');
+  });
+  document.addEventListener('click', function() { menu.classList.add('hidden'); });
+  menu.addEventListener('click', function(e) { e.stopPropagation(); });
+}());
+
+let allItems      = [];
+let activeId      = null;
+
+const archiveList  = document.getElementById('archiveList');
+const archiveCount = document.getElementById('archiveCount');
+const viewerTop    = document.getElementById('viewerTop');
+const viewerTitle  = document.getElementById('viewerTitle');
+const viewerSub    = document.getElementById('viewerSub');
+const searchInput  = document.getElementById('searchInput');
+const resultCount  = document.getElementById('resultCount');
+const deleteBtn    = document.getElementById('deleteBtn');
+const cardsBox     = document.getElementById('cardsBox');
+
+// ── Sidebar ───────────────────────────────────────────────────────────────────
+
+async function loadSidebar() {
+  const res  = await fetch('/api/archive/list');
+  const json = await res.json();
+
+  if (!json.ok || !json.archives.length) {
+    archiveList.innerHTML  = '<div class="no-archives">No archives yet.<br>Enable Auto Archive in the tool and run a search.</div>';
+    archiveCount.textContent = '0';
+    return;
+  }
+
+  archiveCount.textContent = json.archives.length;
+  archiveList.innerHTML    = json.archives.map(a => entryHtml(a)).join('');
+
+  archiveList.querySelectorAll('.archive-entry').forEach(el => {
+    el.addEventListener('click', () => loadArchive(el.dataset.id));
+  });
+
+  // Auto-open the newest one
+  loadArchive(json.archives[0].id);
+}
+
+function entryHtml(a) {
+  const tool  = (a.tool || 'unknown').replace(/_/g, ' ');
+  const date  = a.archived_at ? a.archived_at.replace('T', ' ') : '—';
+  const query = queryLabel(a.query || {});
+  return `
+    <div class="archive-entry" data-id="${esc(a.id)}">
+      <div class="ae-tool">${esc(tool)}</div>
+      ${query ? `<div class="ae-meta">${esc(query)}</div>` : ''}
+      <div class="ae-stats">
+        <span class="ae-stat">· ${a.total_items || 0} items</span>
+        <span class="ae-stat">· ${a.media_count || 0} media</span>
+      </div>
+    </div>`;
+}
+
+function queryLabel(q) {
+  return q.searchQuery || q.targetUsername || q.targetTweetId || q.targetCommunityId || '';
+}
+
+// ── Viewer ────────────────────────────────────────────────────────────────────
+
+async function loadArchive(id) {
+  activeId = id;
+
+  // Highlight sidebar entry
+  archiveList.querySelectorAll('.archive-entry').forEach(el => {
+    el.classList.toggle('active', el.dataset.id === id);
+  });
+
+  cardsBox.innerHTML = '<div class="empty-state"><span class="spinner"></span> Loading…</div>';
+  viewerTop.style.display = 'none';
+  searchInput.value = '';
+
+  const res  = await fetch(`/api/archive/${id}/results`);
+  const json = await res.json();
+  if (!json.ok) {
+    cardsBox.innerHTML = `<div class="empty-state" style="color:var(--danger)">${esc(json.error)}</div>`;
+    return;
+  }
+
+  allItems = json.results || [];
+  const meta = json.meta || {};
+
+  const tool  = (meta.tool || 'unknown').replace(/_/g, ' ');
+  const query = queryLabel(meta.query || {});
+  viewerTitle.textContent = tool + (query ? ` — "${query}"` : '');
+  viewerSub.textContent   = [
+    meta.archived_at ? meta.archived_at.replace('T', ' ') : '',
+    `${allItems.length} items`,
+    meta.media_count ? `${meta.media_count} media files` : '',
+  ].filter(Boolean).join(' · ');
+
+  viewerTop.style.display = '';
+  renderCards(allItems, '');
+}
+
+// ── Search ────────────────────────────────────────────────────────────────────
+
+searchInput.addEventListener('input', () => renderCards(allItems, searchInput.value));
+
+function flatText(obj) {
+  if (!obj || typeof obj !== 'object') return String(obj ?? '');
+  return Object.values(obj).map(flatText).join(' ');
+}
+
+// ── Cards ─────────────────────────────────────────────────────────────────────
+
+const PRIORITY = ['user','user_id','text','full_text','article_text','created_at','tweet_url'];
+const SKIP     = ['archived_media'];
+const CLAMP    = new Set(['text','full_text','article_text','description']);
+
+function renderCards(items, query) {
+  const q        = query.toLowerCase().trim();
+  const filtered = q ? items.filter(i => flatText(i).toLowerCase().includes(q)) : items;
+
+  resultCount.textContent = filtered.length + (q ? ' found' : ' results');
+
+  if (!filtered.length) {
+    cardsBox.innerHTML = '<div class="empty-state">No matching results.</div>';
+    return;
+  }
+  cardsBox.innerHTML = '<div class="cards-grid">' + filtered.map(buildCard).join('') + '</div>';
+}
+
+function buildCard(item) {
+  if (typeof item !== 'object' || !item) return '';
+
+  const entries = Object.entries(item);
+  const pri  = entries.filter(([k]) => PRIORITY.includes(k));
+  const rest = entries.filter(([k]) => !PRIORITY.includes(k) && !SKIP.includes(k));
+
+  const rows = [...pri, ...rest].slice(0, 14).map(([k, v]) => {
+    let display;
+    if (v === null || v === undefined) {
+      display = `<span style="color:var(--muted)">—</span>`;
+    } else if (k === 'tweet_url') {
+      display = `<a href="${esc(String(v))}" target="_blank" rel="noopener" class="card-link">${esc(String(v))}</a>`;
+    } else if (typeof v === 'object') {
+      const s = JSON.stringify(v);
+      display = `<span style="color:var(--muted);font-size:11px">${esc(s.length > 100 ? s.slice(0,100)+'…' : s)}</span>`;
+    } else {
+      const cls = CLAMP.has(k) ? ' clamp' : '';
+      display = `<span class="${cls}">${esc(String(v))}</span>`;
+    }
+    return `<div class="card-row"><div class="card-key">${esc(k)}</div><div class="card-val">${display}</div></div>`;
+  }).join('');
+
+  const media = buildMedia(item);
+  return `<div class="card">${rows}${media}</div>`;
+}
+
+function buildMedia(item) {
+  const paths = item.archived_media;
+  if (!Array.isArray(paths) || !paths.length) return '';
+
+  const archiveId = activeId;
+  const html = paths.map(p => {
+    // p = "media/filename.ext"
+    const filename = p.replace(/^media\//, '');
+    const src      = `/api/archive/${encodeURIComponent(archiveId)}/media/${encodeURIComponent(filename)}`;
+    const isVideo  = filename.endsWith('.mp4');
+    const isGif    = filename.includes('animated_gif');
+
+    if (isVideo || isGif) {
+      const loop  = isGif ? 'loop muted' : '';
+      const label = isGif ? '<span class="media-badge">GIF</span>' : '';
+      return `<div class="media-item">
+        <video class="media-video" controls ${loop} preload="none">
+          <source src="${src}" type="video/mp4">
+        </video>${label}
+      </div>`;
+    }
+    return `<a href="${src}" target="_blank" rel="noopener" class="media-item">
+      <img src="${src}" class="media-thumb" alt="media" loading="lazy">
+    </a>`;
+  }).join('');
+
+  return `<div class="card-media">${html}</div>`;
+}
+
+// ── Delete ────────────────────────────────────────────────────────────────────
+
+deleteBtn.addEventListener('click', async () => {
+  if (!activeId) return;
+  if (!confirm('Delete this archive? This will permanently remove all saved files and media.')) return;
+
+  const res  = await fetch(`/api/archive/${activeId}`, { method: 'DELETE' });
+  const json = await res.json();
+  if (!json.ok) { alert('Delete failed: ' + json.error); return; }
+
+  activeId  = null;
+  allItems  = [];
+  cardsBox.innerHTML       = '<div class="empty-state">Archive deleted. Select another from the sidebar.</div>';
+  viewerTop.style.display  = 'none';
+  loadSidebar();
+});
+
+// ── Utilities ─────────────────────────────────────────────────────────────────
+
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[m]);
+}
+
+// ── Boot ──────────────────────────────────────────────────────────────────────
+
+loadSidebar();
+</script>
+
+</body>
+</html>

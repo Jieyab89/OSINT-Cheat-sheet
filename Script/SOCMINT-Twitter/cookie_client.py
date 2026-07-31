@@ -1,19 +1,3 @@
-"""
-cookie_client.py
-Cookie-based wrapper for all five xquik tools, hitting X.com directly via
-twikit/twifork — no xquik API quota consumed.
-
-Install: pip install twifork
-  (NOT the upstream `twikit` package — it is broken since X changed ondemand.s.js.
-   twifork is a drop-in replacement; imports remain `from twikit import Client`.)
-
-How to obtain cookies:
-  1. Log in to x.com in your browser.
-  2. Open DevTools > Application > Cookies > https://x.com
-  3. Copy the values of `auth_token` and `ct0`.
-  4. Paste them into config.ini under [twitter_cookies].
-"""
-
 import asyncio
 import configparser
 import os
@@ -82,16 +66,25 @@ def _extract_media(t: object) -> list:
     return result
 
 
+def _id_str(val) -> str | None:
+    """Return ID as string, or None. Prevents 64-bit integer precision loss in JSON/JS."""
+    return str(val) if val is not None else None
+
+
 def _tweet_to_dict(t: object) -> dict:
+    user_obj = getattr(t, "user", None)
     d = {
-        "id":             getattr(t, "id", None),
+        "id":             _id_str(getattr(t, "id", None)),
         "created_at":     getattr(t, "created_at", None),
         "text":           getattr(t, "text", None),
-        "user":           getattr(t.user, "screen_name", None) if getattr(t, "user", None) else None,
-        "reply_count":    getattr(t, "reply_count", None),
-        "retweet_count":  getattr(t, "retweet_count", None),
-        "favorite_count": getattr(t, "favorite_count", None),
-        "view_count":     getattr(t, "view_count", None),
+        "user":           getattr(user_obj, "screen_name", None) if user_obj else None,
+        "user_id":        _id_str(getattr(user_obj, "id", None)) if user_obj else None,
+        "user_location":  getattr(user_obj, "location", None) if user_obj else None,
+        "reply_count":          getattr(t, "reply_count", None),
+        "retweet_count":        getattr(t, "retweet_count", None),
+        "favorite_count":       getattr(t, "favorite_count", None),
+        "view_count":           getattr(t, "view_count", None),
+        "in_reply_to_tweet_id": getattr(t, "in_reply_to", None),  # returns id_str directly
     }
     media = _extract_media(t)
     if media:
@@ -101,7 +94,7 @@ def _tweet_to_dict(t: object) -> dict:
 
 def _user_to_dict(u: object) -> dict:
     return {
-        "id":               getattr(u, "id", None),
+        "id":               _id_str(getattr(u, "id", None)),
         "name":             getattr(u, "name", None),
         "screen_name":      getattr(u, "screen_name", None),
         "description":      getattr(u, "description", None),
@@ -116,6 +109,14 @@ def _user_to_dict(u: object) -> dict:
 
 # ── Async implementations ─────────────────────────────────────────────────────
 
+async def _resolve_user(client, identifier: str):
+    """Accept either a screen_name or a numeric user ID string."""
+    clean = identifier.lstrip("@").strip()
+    if clean.isdigit():
+        return await client.get_user_by_id(clean)
+    return await client.get_user_by_screen_name(clean)
+
+
 async def _tweet_search_async(query: str, auth_token: str, ct0: str, count: int) -> list:
     client  = await _make_client(auth_token, ct0)
     results = await client.search_tweet(query, "Latest", count=count)
@@ -124,14 +125,14 @@ async def _tweet_search_async(query: str, auth_token: str, ct0: str, count: int)
 
 async def _follower_explorer_async(username: str, auth_token: str, ct0: str, count: int) -> list:
     client    = await _make_client(auth_token, ct0)
-    user      = await client.get_user_by_screen_name(username)
+    user      = await _resolve_user(client, username)
     followers = await user.get_followers(count=count)
     return [_user_to_dict(u) for u in followers]
 
 
 async def _post_extractor_async(username: str, auth_token: str, ct0: str, count: int) -> list:
     client = await _make_client(auth_token, ct0)
-    user   = await client.get_user_by_screen_name(username)
+    user   = await _resolve_user(client, username)
     tweets = await user.get_tweets("Tweets", count=count)
     return [_tweet_to_dict(t) for t in tweets]
 
@@ -153,6 +154,80 @@ async def _community_posts_async(community_id: str, auth_token: str, ct0: str, c
     client = await _make_client(auth_token, ct0)
     posts  = await client.get_community_tweets(community_id, "Latest", count=count)
     return [_tweet_to_dict(t) for t in posts]
+
+
+async def _tweet_replies_async(tweet_id: str, auth_token: str, ct0: str, count: int) -> list:
+    client = await _make_client(auth_token, ct0)
+
+    # Walk up the in_reply_to chain to find the conversation root.
+    # tweet.in_reply_to → _legacy['in_reply_to_status_id_str'] (parent tweet ID string).
+    # There is no conversation_id attribute on twikit Tweet objects — the only way
+    # to reach the root is to follow the chain until in_reply_to is None.
+    conversation_id = tweet_id
+    current_id      = tweet_id
+
+    for _ in range(6):   # guard: max 6 hops up the thread
+        try:
+            node      = await client.get_tweet_by_id(current_id)
+            parent_id = getattr(node, "in_reply_to", None)
+            if not parent_id:
+                conversation_id = current_id   # reached root
+                break
+            current_id      = str(parent_id)
+            conversation_id = current_id
+        except Exception:
+            break
+
+    # Fetch all tweets in the conversation thread
+    results = await client.search_tweet(
+        f"conversation_id:{conversation_id}", "Latest", count=count
+    )
+
+    tweets = [_tweet_to_dict(t) for t in results]
+
+    # If the user clicked on a non-root reply, filter to that reply's direct children
+    if conversation_id != tweet_id:
+        direct = [d for d in tweets if d.get("in_reply_to_tweet_id") == tweet_id]
+        return direct if direct else tweets   # fallback: full thread
+
+    return tweets
+
+
+async def _tweet_retweeters_async(tweet_id: str, auth_token: str, ct0: str, count: int) -> list:
+    client = await _make_client(auth_token, ct0)
+
+    # Fetch the original tweet once so every retweeter card shows what was retweeted
+    rt_info: dict = {}
+    try:
+        orig      = await client.get_tweet_by_id(tweet_id)
+        orig_user = getattr(orig, "user", None)
+        rt_info = {
+            "retweeted_text":        getattr(orig, "text", None),
+            "retweeted_by_user":     getattr(orig_user, "screen_name", None) if orig_user else None,
+            "retweeted_by_name":     getattr(orig_user, "name", None) if orig_user else None,
+            "retweeted_by_bio":      getattr(orig_user, "description", None) if orig_user else None,
+            "retweeted_at":          getattr(orig, "created_at", None),
+            "retweeted_tweet_id":    _id_str(getattr(orig, "id", None)),
+        }
+    except Exception:
+        pass
+
+    retweeters = await client.get_retweeters(tweet_id, count=count)
+
+    result = []
+    for u in retweeters:
+        # retweeted content first → shows prominently in the card
+        d = {**rt_info, **_user_to_dict(u)}
+        result.append(d)
+    return result
+
+
+async def _geo_search_async(keyword: str, auth_token: str, ct0: str, count: int) -> list:
+    """Keyword search; user_location (profile location string) is included in every
+    result so the frontend can geocode and plot it on a map."""
+    client  = await _make_client(auth_token, ct0)
+    results = await client.search_tweet(keyword, "Latest", count=count)
+    return [_tweet_to_dict(t) for t in results]
 
 
 # ── Public sync wrappers ──────────────────────────────────────────────────────
@@ -187,6 +262,26 @@ def cookie_community_post_extractor(
     cfg = config or load_config()
     auth, ct0 = _get_creds(cfg)
     return asyncio.run(_community_posts_async(community_id, auth, ct0, count))
+
+
+def cookie_tweet_replies(tweet_id: str, count: int = 50, config: configparser.ConfigParser = None) -> list:
+    cfg = config or load_config()
+    auth, ct0 = _get_creds(cfg)
+    return asyncio.run(_tweet_replies_async(tweet_id, auth, ct0, count))
+
+
+def cookie_tweet_retweeters(tweet_id: str, count: int = 50, config: configparser.ConfigParser = None) -> list:
+    cfg = config or load_config()
+    auth, ct0 = _get_creds(cfg)
+    return asyncio.run(_tweet_retweeters_async(tweet_id, auth, ct0, count))
+
+
+def cookie_geo_search(
+    keyword: str, count: int = 20, config: configparser.ConfigParser = None,
+) -> list:
+    cfg = config or load_config()
+    auth, ct0 = _get_creds(cfg)
+    return asyncio.run(_geo_search_async(keyword, auth, ct0, count))
 
 
 # Legacy alias — kept for any external scripts that import this name directly
