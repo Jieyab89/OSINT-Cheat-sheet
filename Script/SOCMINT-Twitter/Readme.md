@@ -1,5 +1,7 @@
 # Jieyab ft Xquik 
 
+<img width="2553" height="1218" alt="Image" src="https://github.com/user-attachments/assets/eb01c1ca-c577-432d-a266-5533b5b71ce0" />
+
 ## Data Source 
 
 1. Xquik API 
