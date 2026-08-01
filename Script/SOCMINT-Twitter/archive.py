@@ -64,7 +64,8 @@ def _pick_fields(item: dict) -> dict:
     keys = ["id", "text", "full_text", "article_text", "user", "user_id",
             "created_at", "reply_count", "retweet_count", "favorite_count",
             "view_count", "in_reply_to_tweet_id", "name", "screen_name",
-            "description", "followers_count", "following_count",
+            "verified", "is_blue_verified",
+            "description", "followers_count", "following_count", "tweet_count",
             "lat", "lon", "place",
             "retweeted_text", "retweeted_by_user", "retweeted_by_name",
             "retweeted_by_bio", "retweeted_at", "retweeted_tweet_id",
@@ -107,21 +108,39 @@ def _run(archive_id: str, tool_type: str, data, query_info: dict) -> None:
             fname = f"{item.get('id', 'unknown')}_{mtype}_{midx}.{ext}"
             dest  = media_dir / fname
             local_media.append(f"media/{fname}")
-            media_queue.append((url, dest))
+            # Skip re-downloading media that's already on disk — matters for
+            # checkpoint updates, which re-run this on a growing dataset that
+            # mostly overlaps with what was already archived.
+            if not dest.exists():
+                media_queue.append((url, dest))
 
         if local_media:
             record["archived_media"] = local_media
         enriched.append(record)
 
+    # Preserve the original archived_at across checkpoint updates (re-runs
+    # of this on an archive_id that already exists) rather than overwriting it.
+    meta_path     = archive_dir / "meta.json"
+    existing_meta = {}
+    if meta_path.exists():
+        try:
+            existing_meta = json.loads(meta_path.read_text())
+        except Exception:
+            existing_meta = {}
+
+    now_iso     = datetime.now().isoformat(timespec="seconds")
+    total_media = sum(len(r.get("archived_media", [])) for r in enriched if isinstance(r, dict))
+
     # Write metadata + results immediately (no waiting on media)
     meta = {
         "tool":        tool_type,
         "query":       query_info,
-        "archived_at": datetime.now().isoformat(timespec="seconds"),
+        "archived_at": existing_meta.get("archived_at", now_iso),
+        "updated_at":  now_iso,
         "total_items": len(items),
-        "media_count": len(media_queue),
+        "media_count": total_media,
     }
-    (archive_dir / "meta.json").write_text(
+    meta_path.write_text(
         json.dumps(meta, indent=2, ensure_ascii=False)
     )
     (archive_dir / "results.json").write_text(
@@ -160,6 +179,28 @@ def start(tool_type: str, data, query_info: dict) -> str:
     return archive_id
 
 
+def update(archive_id: str, tool_type: str, data, query_info: dict) -> bool:
+    """Re-run the archive pipeline against an EXISTING archive_id — the
+    "save checkpoint" flow, used once scroll/expand-load-more has fetched
+    more data than what was first archived. Overwrites results.json/meta.json
+    with the current (larger) dataset; media already on disk is skipped
+    rather than re-downloaded. Returns False if archive_id doesn't exist."""
+    archive_dir = ARCHIVE_ROOT / archive_id
+    if not archive_dir.exists():
+        return False
+
+    with _lock:
+        _registry[archive_id] = {"status": "saving", "progress": 0, "total": 0, "path": None}
+
+    t = threading.Thread(
+        target=_run,
+        args=(archive_id, tool_type, data, query_info),
+        daemon=True,
+    )
+    t.start()
+    return True
+
+
 def status(archive_id: str) -> dict | None:
     with _lock:
         entry = _registry.get(archive_id)
@@ -167,11 +208,16 @@ def status(archive_id: str) -> dict | None:
 
 
 def list_all() -> list[dict]:
-    """Read meta.json from every archive folder, newest first."""
+    """Read meta.json from every archive folder, newest first — sorted by the
+    archive's own archived_at/updated_at timestamp, not folder name. Folder
+    names are prefixed by tool_type (e.g. "graph_tweet_search_..." vs
+    "tweet_search_..."), so sorting by name doesn't actually sort
+    chronologically once more than one tool has been archived. A checkpoint
+    update bumps updated_at, so it resurfaces near the top too."""
     if not ARCHIVE_ROOT.exists():
         return []
     results = []
-    for d in sorted(ARCHIVE_ROOT.iterdir(), key=lambda p: p.name, reverse=True):
+    for d in ARCHIVE_ROOT.iterdir():
         meta_file = d / "meta.json"
         if not meta_file.exists():
             continue
@@ -181,4 +227,5 @@ def list_all() -> list[dict]:
             results.append(meta)
         except Exception:
             pass
+    results.sort(key=lambda m: m.get("updated_at") or m.get("archived_at") or "", reverse=True)
     return results

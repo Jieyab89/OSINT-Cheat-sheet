@@ -80,6 +80,11 @@ def _tweet_to_dict(t: object) -> dict:
         "user":           getattr(user_obj, "screen_name", None) if user_obj else None,
         "user_id":        _id_str(getattr(user_obj, "id", None)) if user_obj else None,
         "user_location":  getattr(user_obj, "location", None) if user_obj else None,
+        # Display name + verification badge — Twitter's own reply UI shows both
+        # next to the handle; twikit already exposes them on the tweet's user.
+        "name":                 getattr(user_obj, "name", None) if user_obj else None,
+        "verified":             getattr(user_obj, "verified", None) if user_obj else None,
+        "is_blue_verified":     getattr(user_obj, "is_blue_verified", None) if user_obj else None,
         "reply_count":          getattr(t, "reply_count", None),
         "retweet_count":        getattr(t, "retweet_count", None),
         "favorite_count":       getattr(t, "favorite_count", None),
@@ -117,24 +122,35 @@ async def _resolve_user(client, identifier: str):
     return await client.get_user_by_screen_name(clean)
 
 
-async def _tweet_search_async(query: str, auth_token: str, ct0: str, count: int) -> list:
+def _next_cursor(result) -> str | None:
+    """A zero-item page always means "exhausted," regardless of what cursor
+    value twikit hands back — avoids chasing a stale/looping cursor."""
+    if not len(result):
+        return None
+    return getattr(result, "next_cursor", None) or None
+
+
+async def _tweet_search_async(query: str, auth_token: str, ct0: str, count: int, cursor: str | None) -> tuple[list, str | None]:
     client  = await _make_client(auth_token, ct0)
-    results = await client.search_tweet(query, "Latest", count=count)
-    return [_tweet_to_dict(t) for t in results]
+    results = await client.search_tweet(query, "Latest", count=count, cursor=cursor)
+    return [_tweet_to_dict(t) for t in results], _next_cursor(results)
 
 
-async def _follower_explorer_async(username: str, auth_token: str, ct0: str, count: int) -> list:
+async def _follower_explorer_async(username: str, auth_token: str, ct0: str, count: int, cursor: str | None) -> tuple[list, str | None]:
     client    = await _make_client(auth_token, ct0)
     user      = await _resolve_user(client, username)
-    followers = await user.get_followers(count=count)
-    return [_user_to_dict(u) for u in followers]
+    # Bypass the User.get_followers() convenience wrapper — it doesn't accept
+    # a cursor at all, so it can't be resumed across requests.
+    followers = await client.get_user_followers(str(user.id), count=count, cursor=cursor)
+    return [_user_to_dict(u) for u in followers], _next_cursor(followers)
 
 
-async def _post_extractor_async(username: str, auth_token: str, ct0: str, count: int) -> list:
+async def _post_extractor_async(username: str, auth_token: str, ct0: str, count: int, cursor: str | None) -> tuple[list, str | None]:
     client = await _make_client(auth_token, ct0)
     user   = await _resolve_user(client, username)
-    tweets = await user.get_tweets("Tweets", count=count)
-    return [_tweet_to_dict(t) for t in tweets]
+    # Bypass User.get_tweets() for the same reason as followers above.
+    tweets = await client.get_user_tweets(str(user.id), "Tweets", count=count, cursor=cursor)
+    return [_tweet_to_dict(t) for t in tweets], _next_cursor(tweets)
 
 
 async def _article_extractor_async(tweet_id: str, auth_token: str, ct0: str) -> dict:
@@ -150,50 +166,52 @@ async def _article_extractor_async(tweet_id: str, auth_token: str, ct0: str) -> 
     return result
 
 
-async def _community_posts_async(community_id: str, auth_token: str, ct0: str, count: int) -> list:
+async def _community_posts_async(community_id: str, auth_token: str, ct0: str, count: int, cursor: str | None) -> tuple[list, str | None]:
     client = await _make_client(auth_token, ct0)
-    posts  = await client.get_community_tweets(community_id, "Latest", count=count)
-    return [_tweet_to_dict(t) for t in posts]
+    posts  = await client.get_community_tweets(community_id, "Latest", count=count, cursor=cursor)
+    return [_tweet_to_dict(t) for t in posts], _next_cursor(posts)
 
 
-async def _tweet_replies_async(tweet_id: str, auth_token: str, ct0: str, count: int) -> list:
+async def _tweet_replies_async(tweet_id: str, auth_token: str, ct0: str, count: int, cursor: str | None) -> tuple[list, str | None]:
+    """Direct top-level replies to `tweet_id`, fetched via the same GraphQL
+    TweetDetail call that powers Twitter's own UI reply view — not a keyword
+    search. `search_tweet(f"conversation_id:...")` was tried first, but it
+    caps out around ~20 raw results with no way to page further regardless
+    of the requested count, and mixes in replies-to-replies from anywhere in
+    the thread (a 29-reply post returned 20 raw items with only 3 actually
+    replying to the target). TweetDetail already separates "direct replies to
+    this exact tweet" cleanly and supports proper cursor pagination.
+
+    `count` is advisory only here — `get_tweet_by_id` has no page-size knob,
+    X's TweetDetail backend decides how many replies come back per page. We
+    return the page whole rather than slicing to `count`: once the cursor is
+    handed back to the caller for real cross-request resumption, slicing
+    would permanently strand whatever got cut (the cursor already points
+    past those rows). Getting the rest is what the next paginated request
+    (scroll / expand-again) is for, not a bigger `count`.
+
+    Continuation pages need a different call than the first page: X's
+    TweetDetail response for a cursor-based request does NOT include the
+    root tweet's own entry (only reply entries + a trailing cursor), but
+    `get_tweet_by_id` unconditionally requires finding that entry — passing
+    it a cursor beyond page 1 raises `AttributeError: 'NoneType' object has
+    no attribute 'replies'` (confirmed empirically). `Client._get_more_replies`
+    is twikit's own handler for exactly this response shape — it's what
+    `Result.next()` calls internally — so we call it directly for page 2+.
+    It's a private method (fragile to twikit internals changing), but
+    there's no public equivalent for resuming pagination across a fresh
+    request/session rather than an in-memory `Result` object.
+    """
     client = await _make_client(auth_token, ct0)
-
-    # Walk up the in_reply_to chain to find the conversation root.
-    # tweet.in_reply_to → _legacy['in_reply_to_status_id_str'] (parent tweet ID string).
-    # There is no conversation_id attribute on twikit Tweet objects — the only way
-    # to reach the root is to follow the chain until in_reply_to is None.
-    conversation_id = tweet_id
-    current_id      = tweet_id
-
-    for _ in range(6):   # guard: max 6 hops up the thread
-        try:
-            node      = await client.get_tweet_by_id(current_id)
-            parent_id = getattr(node, "in_reply_to", None)
-            if not parent_id:
-                conversation_id = current_id   # reached root
-                break
-            current_id      = str(parent_id)
-            conversation_id = current_id
-        except Exception:
-            break
-
-    # Fetch all tweets in the conversation thread
-    results = await client.search_tweet(
-        f"conversation_id:{conversation_id}", "Latest", count=count
-    )
-
-    tweets = [_tweet_to_dict(t) for t in results]
-
-    # If the user clicked on a non-root reply, filter to that reply's direct children
-    if conversation_id != tweet_id:
-        direct = [d for d in tweets if d.get("in_reply_to_tweet_id") == tweet_id]
-        return direct if direct else tweets   # fallback: full thread
-
-    return tweets
+    if cursor:
+        replies = await client._get_more_replies(tweet_id, cursor)
+    else:
+        tweet   = await client.get_tweet_by_id(tweet_id)
+        replies = tweet.replies
+    return [_tweet_to_dict(t) for t in replies], _next_cursor(replies)
 
 
-async def _tweet_retweeters_async(tweet_id: str, auth_token: str, ct0: str, count: int) -> list:
+async def _tweet_retweeters_async(tweet_id: str, auth_token: str, ct0: str, count: int, cursor: str | None) -> tuple[list, str | None]:
     client = await _make_client(auth_token, ct0)
 
     # Fetch the original tweet once so every retweeter card shows what was retweeted
@@ -212,42 +230,45 @@ async def _tweet_retweeters_async(tweet_id: str, auth_token: str, ct0: str, coun
     except Exception:
         pass
 
-    retweeters = await client.get_retweeters(tweet_id, count=count)
+    retweeters = await client.get_retweeters(tweet_id, count=count, cursor=cursor)
 
     result = []
     for u in retweeters:
         # retweeted content first → shows prominently in the card
         d = {**rt_info, **_user_to_dict(u)}
         result.append(d)
-    return result
+    return result, _next_cursor(retweeters)
 
 
-async def _geo_search_async(keyword: str, auth_token: str, ct0: str, count: int) -> list:
+async def _geo_search_async(keyword: str, auth_token: str, ct0: str, count: int, cursor: str | None) -> tuple[list, str | None]:
     """Keyword search; user_location (profile location string) is included in every
     result so the frontend can geocode and plot it on a map."""
     client  = await _make_client(auth_token, ct0)
-    results = await client.search_tweet(keyword, "Latest", count=count)
-    return [_tweet_to_dict(t) for t in results]
+    results = await client.search_tweet(keyword, "Latest", count=count, cursor=cursor)
+    return [_tweet_to_dict(t) for t in results], _next_cursor(results)
 
 
 # ── Public sync wrappers ──────────────────────────────────────────────────────
+# Each pagination-capable wrapper returns (items, next_cursor). Pass the
+# previous response's next_cursor back in as `cursor` to fetch the next page;
+# `next_cursor` is None once there's nothing more to load.
 
-def cookie_tweet_search(query: str, count: int = 20, config: configparser.ConfigParser = None) -> list:
+def cookie_tweet_search(query: str, count: int = 20, config: configparser.ConfigParser = None, cursor: str | None = None) -> tuple[list, str | None]:
     cfg = config or load_config()
     auth, ct0 = _get_creds(cfg)
-    return asyncio.run(_tweet_search_async(query, auth, ct0, count))
+    return asyncio.run(_tweet_search_async(query, auth, ct0, count, cursor))
 
 
-def cookie_follower_explorer(username: str, count: int = 20, config: configparser.ConfigParser = None) -> list:
+def cookie_follower_explorer(username: str, count: int = 20, config: configparser.ConfigParser = None, cursor: str | None = None) -> tuple[list, str | None]:
     cfg = config or load_config()
     auth, ct0 = _get_creds(cfg)
-    return asyncio.run(_follower_explorer_async(username, auth, ct0, count))
+    return asyncio.run(_follower_explorer_async(username, auth, ct0, count, cursor))
 
 
-def cookie_post_extractor(username: str, count: int = 20, config: configparser.ConfigParser = None) -> list:
+def cookie_post_extractor(username: str, count: int = 20, config: configparser.ConfigParser = None, cursor: str | None = None) -> tuple[list, str | None]:
     cfg = config or load_config()
     auth, ct0 = _get_creds(cfg)
-    return asyncio.run(_post_extractor_async(username, auth, ct0, count))
+    return asyncio.run(_post_extractor_async(username, auth, ct0, count, cursor))
 
 
 def cookie_article_extractor(tweet_id: str, config: configparser.ConfigParser = None) -> dict:
@@ -257,31 +278,31 @@ def cookie_article_extractor(tweet_id: str, config: configparser.ConfigParser = 
 
 
 def cookie_community_post_extractor(
-    community_id: str, count: int = 20, config: configparser.ConfigParser = None
-) -> list:
+    community_id: str, count: int = 20, config: configparser.ConfigParser = None, cursor: str | None = None
+) -> tuple[list, str | None]:
     cfg = config or load_config()
     auth, ct0 = _get_creds(cfg)
-    return asyncio.run(_community_posts_async(community_id, auth, ct0, count))
+    return asyncio.run(_community_posts_async(community_id, auth, ct0, count, cursor))
 
 
-def cookie_tweet_replies(tweet_id: str, count: int = 50, config: configparser.ConfigParser = None) -> list:
+def cookie_tweet_replies(tweet_id: str, count: int = 50, config: configparser.ConfigParser = None, cursor: str | None = None) -> tuple[list, str | None]:
     cfg = config or load_config()
     auth, ct0 = _get_creds(cfg)
-    return asyncio.run(_tweet_replies_async(tweet_id, auth, ct0, count))
+    return asyncio.run(_tweet_replies_async(tweet_id, auth, ct0, count, cursor))
 
 
-def cookie_tweet_retweeters(tweet_id: str, count: int = 50, config: configparser.ConfigParser = None) -> list:
+def cookie_tweet_retweeters(tweet_id: str, count: int = 50, config: configparser.ConfigParser = None, cursor: str | None = None) -> tuple[list, str | None]:
     cfg = config or load_config()
     auth, ct0 = _get_creds(cfg)
-    return asyncio.run(_tweet_retweeters_async(tweet_id, auth, ct0, count))
+    return asyncio.run(_tweet_retweeters_async(tweet_id, auth, ct0, count, cursor))
 
 
 def cookie_geo_search(
-    keyword: str, count: int = 20, config: configparser.ConfigParser = None,
-) -> list:
+    keyword: str, count: int = 20, config: configparser.ConfigParser = None, cursor: str | None = None,
+) -> tuple[list, str | None]:
     cfg = config or load_config()
     auth, ct0 = _get_creds(cfg)
-    return asyncio.run(_geo_search_async(keyword, auth, ct0, count))
+    return asyncio.run(_geo_search_async(keyword, auth, ct0, count, cursor))
 
 
 # Legacy alias — kept for any external scripts that import this name directly
@@ -316,15 +337,15 @@ if __name__ == "__main__":
     args = parser.parse_args()
     try:
         if args.cmd == "tweet_search":
-            out = cookie_tweet_search(args.query)
+            out, _ = cookie_tweet_search(args.query)
         elif args.cmd == "follower_explorer":
-            out = cookie_follower_explorer(args.username, count=args.count)
+            out, _ = cookie_follower_explorer(args.username, count=args.count)
         elif args.cmd == "post_extractor":
-            out = cookie_post_extractor(args.username, count=args.count)
+            out, _ = cookie_post_extractor(args.username, count=args.count)
         elif args.cmd == "article_extractor":
             out = cookie_article_extractor(args.tweet_id)
         elif args.cmd == "community_post_extractor":
-            out = cookie_community_post_extractor(args.community_id, count=args.count)
+            out, _ = cookie_community_post_extractor(args.community_id, count=args.count)
         print(json.dumps(out, indent=2, ensure_ascii=False))
     except CookieClientError as e:
         print(f"[ERROR] {e}")

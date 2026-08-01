@@ -168,6 +168,19 @@
   }
   .sidebar-title { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
   .sidebar-count { font-size: 11px; color: var(--muted); background: var(--bg); padding: 2px 7px; border-radius: 10px; }
+  .sidebar-search {
+    width: 100%;
+    padding: 6px 10px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 12px;
+    border-radius: 6px;
+    transition: border-color 0.15s;
+  }
+  .sidebar-search:focus { outline: none; border-color: var(--accent); }
+  .sidebar-search::placeholder { color: var(--muted); }
   .archive-list { overflow-y: auto; flex: 1; padding: 8px; }
   .archive-entry {
     padding: 10px 12px;
@@ -289,6 +302,16 @@
   .card-link { color: var(--accent); text-decoration: none; font-size: 12px; }
   .card-link:hover { text-decoration: underline; }
 
+  /* Drill-down links on reply / retweet counts — same as the live search page */
+  .drill-link {
+    color: var(--accent);
+    font-family: var(--font);
+    font-size: 13px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .drill-link:hover { color: #818cf8; }
+
   .source-badge {
     display: inline-block;
     font-size: 11px;
@@ -373,6 +396,7 @@
   }
   @keyframes spin { to { transform: rotate(360deg); } }
 </style>
+<script src="{{ url_for('static', filename='js/card_constants.js') }}" nonce="{{ g.csp_nonce }}"></script>
 </head>
 <body>
 
@@ -417,6 +441,9 @@
     <div class="sidebar-head">
       <span class="sidebar-title">Archives</span>
       <span class="sidebar-count" id="archiveCount">—</span>
+    </div>
+    <div style="padding:8px 12px 0">
+      <input type="text" class="sidebar-search" id="archiveSearch" placeholder="Search archives…">
     </div>
     <div class="archive-list" id="archiveList">
       <div class="no-archives"><span class="spinner"></span> Loading…</div>
@@ -471,9 +498,11 @@
 
 let allItems      = [];
 let activeId      = null;
+let allArchives   = [];   // full list from the server; archiveSearch filters this client-side
 
-const archiveList  = document.getElementById('archiveList');
-const archiveCount = document.getElementById('archiveCount');
+const archiveList   = document.getElementById('archiveList');
+const archiveCount  = document.getElementById('archiveCount');
+const archiveSearch = document.getElementById('archiveSearch');
 const viewerTop    = document.getElementById('viewerTop');
 const viewerTitle  = document.getElementById('viewerTitle');
 const viewerSub    = document.getElementById('viewerSub');
@@ -483,27 +512,51 @@ const deleteBtn    = document.getElementById('deleteBtn');
 const cardsBox     = document.getElementById('cardsBox');
 
 // ── Sidebar ───────────────────────────────────────────────────────────────────
+// The server already returns archives newest-first (by archived_at/updated_at,
+// not folder name — folder names are prefixed by tool_type so sorting by name
+// doesn't actually sort chronologically once more than one tool's been used).
 
 async function loadSidebar() {
   const res  = await fetch('/api/archive/list');
   const json = await res.json();
 
   if (!json.ok || !json.archives.length) {
+    allArchives = [];
     archiveList.innerHTML  = '<div class="no-archives">No archives yet.<br>Enable Auto Archive in the tool and run a search.</div>';
     archiveCount.textContent = '0';
     return;
   }
 
-  archiveCount.textContent = json.archives.length;
-  archiveList.innerHTML    = json.archives.map(a => entryHtml(a)).join('');
-
-  archiveList.querySelectorAll('.archive-entry').forEach(el => {
-    el.addEventListener('click', () => loadArchive(el.dataset.id));
-  });
+  allArchives = json.archives;
+  renderArchiveList(archiveSearch.value);
 
   // Auto-open the newest one
-  loadArchive(json.archives[0].id);
+  loadArchive(allArchives[0].id);
 }
+
+function archiveMatchText(a) {
+  return [a.tool || '', queryLabel(a.query || {}), a.id || ''].join(' ').toLowerCase();
+}
+
+function renderArchiveList(filterText = '') {
+  const q        = filterText.toLowerCase().trim();
+  const filtered = q ? allArchives.filter(a => archiveMatchText(a).includes(q)) : allArchives;
+
+  archiveCount.textContent = q ? `${filtered.length} / ${allArchives.length}` : allArchives.length;
+
+  if (!filtered.length) {
+    archiveList.innerHTML = '<div class="no-archives">No archives match your search.</div>';
+    return;
+  }
+
+  archiveList.innerHTML = filtered.map(a => entryHtml(a)).join('');
+  archiveList.querySelectorAll('.archive-entry').forEach(el => {
+    el.classList.toggle('active', el.dataset.id === activeId);
+    el.addEventListener('click', () => loadArchive(el.dataset.id));
+  });
+}
+
+archiveSearch.addEventListener('input', () => renderArchiveList(archiveSearch.value));
 
 function entryHtml(a) {
   const tool  = (a.tool || 'unknown').replace(/_/g, ' ');
@@ -572,10 +625,10 @@ function flatText(obj) {
 
 // ── Cards ─────────────────────────────────────────────────────────────────────
 
-const PRIORITY = ['source','account_age_flag','account_age','account_created','user','user_id','text','full_text','article_text','post_title','post_text','created_at','tweet_url','archive_url','preview_image','iso_date','original','statuscode'];
+// PRIORITY / DRILLABLE / SOURCE_CLASS / AGE_LABELS come from
+// static/js/card_constants.js, loaded above — shared with index.html.
 const SKIP     = ['archived_media'];
 const CLAMP    = new Set(['text','full_text','article_text','description','post_text']);
-const SOURCE_CLASS = { 'Twitter Cookie': 'src-cookie', 'Xquik API': 'src-xquik', 'Wayback Machine': 'src-wayback' };
 
 function renderCards(items, query) {
   const q        = query.toLowerCase().trim();
@@ -593,13 +646,24 @@ function renderCards(items, query) {
 function buildCard(item) {
   if (typeof item !== 'object' || !item) return '';
 
+  const tweetId = item.id ? String(item.id) : null;
   const entries = Object.entries(item);
-  const pri  = entries.filter(([k]) => PRIORITY.includes(k));
-  const rest = entries.filter(([k]) => !PRIORITY.includes(k) && !SKIP.includes(k));
+  // Same rule as the live search page: order follows PRIORITY's own sequence,
+  // and nothing gets capped off — a saved archive should show exactly the
+  // same fields, in the same order, as when it was first fetched.
+  const priKeys = new Set(entries.map(([k]) => k).filter(k => PRIORITY.includes(k)));
+  const pri     = PRIORITY.filter(k => priKeys.has(k)).map(k => [k, item[k]]);
+  const rest    = entries.filter(([k]) => !PRIORITY.includes(k) && !SKIP.includes(k));
 
-  const rows = [...pri, ...rest].slice(0, 14).map(([k, v]) => {
+  const rows = [...pri, ...rest].map(([k, v]) => {
     let display;
-    if (v === null || v === undefined) {
+    // Drillable check first — reply_count / retweet_count on an archived
+    // tweet still link out to a fresh live extraction, same as a live result.
+    if (DRILLABLE[k] && tweetId) {
+      const _p  = new URLSearchParams({ tool: DRILLABLE[k], id: tweetId, autorun: '1' });
+      const lbl = (v !== null && v !== undefined) ? esc(String(v)) : '—';
+      display = `<a class="drill-link" href="/?${_p}" target="_blank" rel="noopener noreferrer">${lbl} ↗</a>`;
+    } else if (v === null || v === undefined) {
       display = `<span style="color:var(--muted)">—</span>`;
     } else if (k === 'tweet_url' || k === 'archive_url' || k === 'preview_image') {
       display = `<a href="${esc(String(v))}" target="_blank" rel="noopener" class="card-link">${esc(String(v))}</a>`;
@@ -607,8 +671,7 @@ function buildCard(item) {
       const cls = SOURCE_CLASS[v] || '';
       display = `<span class="source-badge ${cls}">${esc(String(v))}</span>`;
     } else if (k === 'account_age_flag') {
-      const label = { new: 'New account', recent: 'Recent account', established: 'Established account' }[v] || v;
-      display = `<span class="age-badge age-${esc(String(v))}">${esc(label)}</span>`;
+      display = `<span class="age-badge age-${esc(String(v))}">${esc(AGE_LABELS[v] || v)}</span>`;
     } else if (typeof v === 'object') {
       const s = JSON.stringify(v);
       display = `<span style="color:var(--muted);font-size:11px">${esc(s.length > 100 ? s.slice(0,100)+'…' : s)}</span>`;

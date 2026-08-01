@@ -3,6 +3,7 @@ import re
 import secrets
 import shutil
 import threading
+import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 import requests as _req
@@ -31,6 +32,36 @@ MAX_CONCURRENT_REQUESTS = 3   # parallel execution slots
 ACQUIRE_TIMEOUT         = 15  # seconds to wait before returning 429
 
 _sem = threading.Semaphore(MAX_CONCURRENT_REQUESTS)
+
+# ── Rate-limit protection for paginated load-more requests ─────────────────
+# Separate from the concurrency semaphore above, which limits how many
+# requests run *at once* — this limits how *often* the same external
+# account/service gets hit, regardless of which tab/tool triggered it. All
+# cookie-mode calls hit the same logged-in X account, so they share one
+# clock (a fresh search 2s after a scroll-load-more should still wait);
+# Wayback calls hit archive.org, unrelated to X's ban risk, so they get
+# their own independent clock.
+_THROTTLE_SECONDS = 5.0
+_throttle_lock     = threading.Lock()
+_last_call_at: dict = {"cookie": 0.0, "wayback": 0.0}
+
+_COOKIE_TOOLS = {
+    "tweet_search_extractor", "follower_explorer", "post_extractor",
+    "community_post_extractor", "tweet_replies_extractor",
+    "tweet_retweeters_extractor", "geo_post_extractor",
+}
+
+
+def _check_throttle(source: str):
+    """None if the call may proceed (and starts the next cooldown window);
+    otherwise the number of seconds still left to wait."""
+    now = time.monotonic()
+    with _throttle_lock:
+        elapsed = now - _last_call_at[source]
+        if elapsed < _THROTTLE_SECONDS:
+            return round(_THROTTLE_SECONDS - elapsed, 1)
+        _last_call_at[source] = now
+        return None
 
 # ── Cookie & session security ─────────────────────────────────────────────────
 
@@ -202,11 +233,13 @@ def _filter_by_date(items: list, from_date: str, to_date: str) -> list:
 
 
 def _multi_source_search(query: str, count: int, from_date: str = "", to_date: str = "") -> list:
+    # Pagination isn't wired up for multi-source search yet (cookie + wayback
+    # only, per current scope) — grab just the items, discard the cursor.
     twitter_query = _apply_date_operators(query, from_date, to_date)
     jobs = {
-        "cookie":  lambda: cookie_tweet_search(twitter_query, count=count, config=config),
+        "cookie":  lambda: cookie_tweet_search(twitter_query, count=count, config=config)[0],
         "xquik":   lambda: XquikClient(config).tweet_search(twitter_query),
-        "wayback": lambda: wayback_search(query, count=count, from_date=from_date, to_date=to_date),
+        "wayback": lambda: wayback_search(query, count=count, from_date=from_date, to_date=to_date)[0],
     }
     with ThreadPoolExecutor(max_workers=len(jobs)) as pool:
         futures = {key: pool.submit(fn) for key, fn in jobs.items()}
@@ -254,6 +287,24 @@ def run_tool():
     tool_type = body.get("toolType")
     mode      = body.get("mode", "api")   # "api" | "cookie"
     count     = max(1, min(int(body.get("count", 20)), 200))
+    cursor    = body.get("cursor") or None   # opaque page token from a previous response's nextCursor
+
+    # Cookie/Wayback calls are throttled to one per 5s per source — checked
+    # up front, before taking a concurrency slot, so a request that's about
+    # to be rejected doesn't waste one.
+    throttle_source = None
+    if mode == "cookie" and tool_type in _COOKIE_TOOLS:
+        throttle_source = "cookie"
+    elif tool_type == "wayback_archive_search":
+        throttle_source = "wayback"
+    if throttle_source:
+        wait = _check_throttle(throttle_source)
+        if wait is not None:
+            return jsonify({
+                "ok": False,
+                "error": f"Please wait {wait}s before the next {throttle_source} request — this protects the account from rate limiting.",
+                "retryAfter": wait,
+            }), 429
 
     if not _sem.acquire(blocking=True, timeout=ACQUIRE_TIMEOUT):
         return jsonify({
@@ -261,18 +312,20 @@ def run_tool():
             "error": "Server is busy — max concurrent requests reached. Please try again shortly.",
         }), 429
 
+    next_cursor = None   # stays None for tools/modes that don't paginate
+
     try:
         if tool_type == "tweet_search_extractor":
             query = body.get("searchQuery", "")
             if mode == "cookie":
-                data = cookie_tweet_search(query, count=count, config=config)
+                data, next_cursor = cookie_tweet_search(query, count=count, config=config, cursor=cursor)
             else:
                 data = XquikClient(config).tweet_search(query)
 
         elif tool_type == "follower_explorer":
             username = body.get("targetUsername", "")
             if mode == "cookie":
-                data = cookie_follower_explorer(username, count=count, config=config)
+                data, next_cursor = cookie_follower_explorer(username, count=count, config=config, cursor=cursor)
             else:
                 data = XquikClient(config).follower_explorer(username)
 
@@ -286,14 +339,14 @@ def run_tool():
         elif tool_type == "community_post_extractor":
             community_id = body.get("targetCommunityId", "")
             if mode == "cookie":
-                data = cookie_community_post_extractor(community_id, count=count, config=config)
+                data, next_cursor = cookie_community_post_extractor(community_id, count=count, config=config, cursor=cursor)
             else:
                 data = XquikClient(config).community_post_extractor(community_id)
 
         elif tool_type == "post_extractor":
             username = body.get("targetUsername", "")
             if mode == "cookie":
-                data = cookie_post_extractor(username, count=count, config=config)
+                data, next_cursor = cookie_post_extractor(username, count=count, config=config, cursor=cursor)
             else:
                 data = XquikClient(config).post_extractor(username)
 
@@ -301,19 +354,19 @@ def run_tool():
             tweet_id = body.get("targetTweetId", "")
             if mode != "cookie":
                 return jsonify({"ok": False, "error": "tweet_replies_extractor requires cookie mode"}), 400
-            data = cookie_tweet_replies(tweet_id, count=count, config=config)
+            data, next_cursor = cookie_tweet_replies(tweet_id, count=count, config=config, cursor=cursor)
 
         elif tool_type == "tweet_retweeters_extractor":
             tweet_id = body.get("targetTweetId", "")
             if mode != "cookie":
                 return jsonify({"ok": False, "error": "tweet_retweeters_extractor requires cookie mode"}), 400
-            data = cookie_tweet_retweeters(tweet_id, count=count, config=config)
+            data, next_cursor = cookie_tweet_retweeters(tweet_id, count=count, config=config, cursor=cursor)
 
         elif tool_type == "geo_post_extractor":
             keyword = body.get("searchQuery", "")
             if mode != "cookie":
                 return jsonify({"ok": False, "error": "geo_post_extractor requires cookie mode"}), 400
-            data = cookie_geo_search(keyword, count=count, config=config)
+            data, next_cursor = cookie_geo_search(keyword, count=count, config=config, cursor=cursor)
 
         elif tool_type == "wayback_archive_search":
             target    = body.get("searchQuery", "")
@@ -322,7 +375,7 @@ def run_tool():
             for label, val in (("waybackFrom", from_date), ("waybackTo", to_date)):
                 if val and not _valid_date8(val):
                     return jsonify({"ok": False, "error": f"{label} must be an 8-digit date (YYYYMMDD)"}), 400
-            data = wayback_search(target, count=count, from_date=from_date, to_date=to_date)
+            data, next_cursor = wayback_search(target, count=count, from_date=from_date, to_date=to_date, cursor=cursor)
 
         elif tool_type == "multi_source_search":
             query     = body.get("searchQuery", "")
@@ -342,7 +395,7 @@ def run_tool():
         # in archive.py's _pick_fields).
         data = enrich_account_age(data)
 
-        return jsonify({"ok": True, "data": data})
+        return jsonify({"ok": True, "data": data, "nextCursor": next_cursor})
 
     except (XquikError, CookieClientError, WaybackError) as e:
         return jsonify({"ok": False, "error": str(e)}), 400
@@ -395,12 +448,19 @@ def archive_delete(archive_id):
 
 @app.route("/api/archive", methods=["POST"])
 def archive_start():
-    body       = request.get_json(silent=True) or {}
-    tool_type  = body.get("toolType", "unknown")
-    data       = body.get("data")
-    query_info = body.get("queryInfo", {})
+    body        = request.get_json(silent=True) or {}
+    tool_type   = body.get("toolType", "unknown")
+    data        = body.get("data")
+    query_info  = body.get("queryInfo", {})
+    existing_id = body.get("archiveId")   # present -> checkpoint update, not a new archive
     if not data:
         return jsonify({"ok": False, "error": "No data provided"}), 400
+
+    if existing_id:
+        if not _archive.update(existing_id, tool_type, data, query_info):
+            return jsonify({"ok": False, "error": "Archive not found"}), 404
+        return jsonify({"ok": True, "archiveId": existing_id})
+
     archive_id = _archive.start(tool_type, data, query_info)
     return jsonify({"ok": True, "archiveId": archive_id})
 

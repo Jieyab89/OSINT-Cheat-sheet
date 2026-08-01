@@ -20,24 +20,34 @@
 <div class="param-row"><code class="param-key">is_blue_verified</code> Paid X Premium checkmark</div>
 
 <div class="param-heading">Threading &amp; retweets</div>
-<div class="param-row"><code class="param-key">in_reply_to_tweet_id</code> Parent tweet this replies to</div>
-<div class="param-row"><code class="param-key">retweeted_*</code> Details of the original tweet being retweeted</div>
+<div class="param-row"><code class="param-key">in_reply_to_tweet_id</code> Parent tweet this replies to — also the drill-down anchor that fetches its replies</div>
+<div class="param-row"><code class="param-key">retweeted_text / retweeted_by_user / retweeted_by_name / retweeted_by_bio</code> Content and author of the original tweet being retweeted</div>
+<div class="param-row"><code class="param-key">retweeted_at / retweeted_tweet_id</code> When the original was posted, and its own ID</div>
 
 <div class="param-heading">Location</div>
-<div class="param-row"><code class="param-key">lat / lon / place / user_location</code> Geodata — geo search only</div>
+<div class="param-row"><code class="param-key">lat / lon / place</code> Coordinates plotted on the map view (Geo Post Search)</div>
+<div class="param-row"><code class="param-key">user_location</code> Free-text profile location string, geocoded client-side to produce lat/lon</div>
 
 <div class="param-heading">Account age (forensics)</div>
-<div class="param-row"><code class="param-key">account_created / account_age</code> Derived from the account's numeric ID, not the API — see badges above</div>
-<div class="param-row"><code class="param-key">account_age_flag</code> New / Recent / Established bucket</div>
-<div class="param-row"><code class="param-key">account_age_precision</code> exact / estimated / unknown — how much to trust the date</div>
+<div class="param-row"><code class="param-key">account_created / account_age</code> Derived from the account's numeric ID, not the API — see the Account age badges above</div>
+<div class="param-row"><code class="param-key">account_age_flag</code> New / Recent / Established bucket, drives the badge color</div>
+<div class="param-row"><code class="param-key">account_age_precision</code> exact (true Snowflake decode) / estimated (pre-Snowflake id, interpolated) / unknown</div>
 
 <div class="param-heading">Archive &amp; Wayback</div>
 <div class="param-row"><code class="param-key">archive_url</code> Link to the Wayback Machine snapshot</div>
 <div class="param-row"><code class="param-key">iso_date</code> When that snapshot was captured</div>
 <div class="param-row"><code class="param-key">original</code> The original URL that was archived</div>
-<div class="param-row"><code class="param-key">statuscode / mimetype / length</code> HTTP status / type / size of the snapshot</div>
-<div class="param-row"><code class="param-key">post_title / post_text / preview_image</code> Scraped from the archived page's meta tags</div>
-<div class="param-row"><code class="param-key">tweet_url</code> Direct link to the live tweet</div>
+<div class="param-row"><code class="param-key">statuscode / mimetype / length</code> HTTP status / content type / size of the snapshot</div>
+<div class="param-row"><code class="param-key">post_title / post_text / preview_image</code> Scraped from the archived page's own meta tags (og:/twitter: tags, or &lt;title&gt;/&lt;meta name="description"&gt; on older captures)</div>
+<div class="param-row"><code class="param-key">tweet_url</code> Direct link to the live tweet, built from user + id</div>
 
 <div class="param-heading">Source</div>
-<div class="param-row"><code class="param-key">source</code> Which of the 3 data sources this result came from (multi-source search only)</div>
+<div class="param-row"><code class="param-key">source</code> Which of the 3 data sources this result came from — Twitter Cookie / Xquik API / Wayback Machine (Multi-Source Search only)</div>
+
+<div class="param-heading">Graph node types (graph page only)</div>
+<div class="param-row"><code class="param-key">Search root</code> The diamond node — the query you ran</div>
+<div class="param-row"><code class="param-key">Tweet</code> A tweet/post returned by search or by expanding a node</div>
+<div class="param-row"><code class="param-key">Reply</code> A tweet fetched via Expand Replies on a tweet node</div>
+<div class="param-row"><code class="param-key">User / Retweeter</code> A person — from Follower Explorer, or via Expand Retweets on a tweet node</div>
+<div class="param-row"><code class="param-key">Wayback snapshot</code> An archived-page result, from Wayback Archive Search or the Wayback portion of Multi-Source Search</div>
+<div class="param-row"><code class="param-key">Viewed</code> Turns a node solid white once you've clicked it — a visual "already looked at this" marker, not part of the underlying data</div>
