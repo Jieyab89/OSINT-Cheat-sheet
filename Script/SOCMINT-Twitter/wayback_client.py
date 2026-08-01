@@ -13,6 +13,7 @@ the live site is a JS shell.
 """
 
 import html
+import json
 import re
 from concurrent.futures import ThreadPoolExecutor
 
@@ -51,13 +52,14 @@ def _normalize_target(raw: str) -> str:
 
 
 def _fetch_cdx(url: str, limit: int, from_date: str = "", to_date: str = "",
-                match_type: str | None = None) -> list[dict]:
+                match_type: str | None = None, resume_key: str | None = None) -> tuple[list[dict], str | None]:
     params = {
-        "url":      url,
-        "output":   "json",
-        "fl":       "timestamp,original,statuscode,mimetype,length",
-        "collapse": "digest",
-        "limit":    str(limit),
+        "url":           url,
+        "output":        "json",
+        "fl":            "timestamp,original,statuscode,mimetype,length",
+        "collapse":      "digest",
+        "limit":         str(limit),
+        "showResumeKey": "true",
     }
     if match_type:
         params["matchType"] = match_type
@@ -65,11 +67,13 @@ def _fetch_cdx(url: str, limit: int, from_date: str = "", to_date: str = "",
         params["from"] = from_date
     if to_date:
         params["to"] = to_date
+    if resume_key:
+        params["resumeKey"] = resume_key
 
     try:
         r = requests.get(
             WAYBACK_CDX_URL, params=params, timeout=REQUEST_TIMEOUT,
-            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"},
+            headers={"User-Agent": "Mozilla/5.0"},
         )
         r.raise_for_status()
     except requests.RequestException as e:
@@ -78,12 +82,20 @@ def _fetch_cdx(url: str, limit: int, from_date: str = "", to_date: str = "",
     try:
         rows = r.json()
     except ValueError:
-        return []
+        return [], None
     if not rows or len(rows) < 2:
-        return []
+        return [], None
+
+    # With showResumeKey=true, a truncated page ends with an empty-array
+    # sentinel followed by a one-element array holding the opaque resume
+    # key: [header, row..., [], ["<key>"]]. A full/last page has neither.
+    next_resume = None
+    if len(rows) >= 2 and rows[-2] == [] and isinstance(rows[-1], list) and len(rows[-1]) == 1:
+        next_resume = rows[-1][0]
+        rows = rows[:-2]
 
     header, *data_rows = rows
-    return [dict(zip(header, row)) for row in data_rows]
+    return [dict(zip(header, row)) for row in data_rows], next_resume
 
 
 def _row_to_record(row: dict) -> dict:
@@ -187,38 +199,74 @@ def _enrich_records(records: list[dict]) -> None:
 
 # ── Public API ───────────────────────────────────────────────────────────────
 
-def wayback_search(raw_target: str, count: int = 50, from_date: str = "", to_date: str = "") -> list[dict]:
+def wayback_search(raw_target: str, count: int = 50, from_date: str = "", to_date: str = "",
+                    cursor: str | None = None) -> tuple[list[dict], str | None]:
+    """Returns (records, next_cursor). `cursor` is an opaque JSON string from
+    a previous call's next_cursor — pass it back to fetch the next page.
+    None once there's nothing more to load."""
     _validate_date("from_date", from_date)
     _validate_date("to_date", to_date)
     target       = _normalize_target(raw_target)
     is_permalink = "/status/" in target
 
+    try:
+        incoming_cursor = json.loads(cursor) if cursor else {}
+        if not isinstance(incoming_cursor, dict):
+            incoming_cursor = {}
+    except ValueError:
+        incoming_cursor = {}
+
     rows: list[dict] = []
+    outgoing_cursor: dict[str, str] = {}
+    multi_domain = False
 
     if is_permalink:
-        rows = _fetch_cdx(target, count, from_date, to_date)
+        page_rows, next_resume = _fetch_cdx(target, count, from_date, to_date,
+                                             resume_key=incoming_cursor.get("main"))
+        rows = page_rows
+        if next_resume:
+            outgoing_cursor["main"] = next_resume
     else:
         domain, _, path = target.partition("/")
-        candidates = [target]
+        candidates = [("x" if domain == "x.com" else "tw", target)]
         alt_domain = "twitter.com" if domain == "x.com" else ("x.com" if domain == "twitter.com" else None)
         if alt_domain:
-            candidates.append(f"{alt_domain}/{path}")
+            candidates.append(("tw" if alt_domain == "twitter.com" else "x", f"{alt_domain}/{path}"))
+
+        # Page 1 (no incoming cursor): query every candidate domain. Later
+        # pages: only re-query a domain that still had a resume key on the
+        # previous page — a domain missing from incoming_cursor already ran
+        # dry, so skip it rather than restarting it from scratch.
+        active = [(key, url) for key, url in candidates if not incoming_cursor or key in incoming_cursor]
+        multi_domain = len(active) > 1
 
         seen = set()
-        for cand in candidates:
-            for row in _fetch_cdx(cand, count, from_date, to_date, match_type="prefix"):
-                key = (row.get("timestamp"), row.get("original"))
-                if key in seen:
+        for key, cand in active:
+            page_rows, next_resume = _fetch_cdx(cand, count, from_date, to_date,
+                                                 match_type="prefix", resume_key=incoming_cursor.get(key))
+            for row in page_rows:
+                dedupe_key = (row.get("timestamp"), row.get("original"))
+                if dedupe_key in seen:
                     continue
-                seen.add(key)
+                seen.add(dedupe_key)
                 rows.append(row)
+            if next_resume:
+                outgoing_cursor[key] = next_resume
 
     records = [_row_to_record(r) for r in rows]
     records.sort(key=lambda r: r["timestamp"], reverse=True)
-    records = records[:count]
+    # Slicing to `count` is only safe when exactly one source was queried
+    # this page — its own resume key already accounts for exactly its own
+    # raw fetch. Slicing a page that merged >1 domain would silently strand
+    # whatever got cut, since each domain's cursor has already moved past
+    # everything it returned this round.
+    if not multi_domain:
+        records = records[:count]
 
     _enrich_records(records)
 
     for r in records:
         r.pop("timestamp", None)
-    return records
+
+    next_cursor = json.dumps(outgoing_cursor) if outgoing_cursor else None
+    return records, next_cursor

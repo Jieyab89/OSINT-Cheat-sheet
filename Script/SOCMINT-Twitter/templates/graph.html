@@ -137,6 +137,29 @@
   .btn-danger:hover:not(:disabled)  { background: rgba(239,68,68,0.1); border-color: var(--danger); }
   .btn:disabled { opacity: 0.38; cursor: not-allowed; }
 
+  /* ── Archive progress bar — same look as the non-graph search page ── */
+  .archive-bar {
+    padding: 6px 16px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    font-size: 12px;
+    color: var(--muted);
+    flex-shrink: 0;
+  }
+  .archive-bar-fill-wrap {
+    height: 3px;
+    background: var(--border);
+    border-radius: 2px;
+    margin-top: 6px;
+    overflow: hidden;
+  }
+  .archive-bar-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 2px;
+    transition: width 0.3s;
+  }
+
   /* ── Main area ── */
   #main {
     flex: 1;
@@ -245,20 +268,14 @@
     border: 1px solid var(--border);
     display: block;
   }
-  .info-media a.video-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80px;
-    height: 60px;
-    background: var(--surface2);
+  .info-media video.info-video {
+    display: block;
+    width: 100%;
+    max-width: 260px;
     border-radius: 4px;
     border: 1px solid var(--border);
-    color: var(--muted);
-    font-size: 10px;
-    text-decoration: none;
+    background: #000;
   }
-  .info-media a.video-link:hover { border-color: var(--accent); color: var(--accent); }
 
   #infoActions {
     padding: 10px 12px;
@@ -478,6 +495,8 @@
   <button id="btnDump"       class="btn btn-ghost">Dump JSON</button>
   <button id="btnClear"      class="btn btn-danger">Clear</button>
 </div>
+
+<div id="archiveBar" class="archive-bar" style="display:none"></div>
 
 <div id="main">
   <div id="cy"></div>
@@ -793,8 +812,28 @@ async function apiFetch(body) {
     body: JSON.stringify(body),
   });
   var json = await res.json();
-  if (!json.ok) throw new Error(json.error || 'API error');
-  return json.data;
+  if (!json.ok) {
+    var err = new Error(json.error || 'API error');
+    if (res.status === 429 && json.retryAfter) err.retryAfter = json.retryAfter;
+    throw err;
+  }
+  return { items: json.data, nextCursor: json.nextCursor || null };
+}
+
+// ── Cookie/Wayback cooldown (mirrors the server's 5s-per-source throttle) ──
+var cooldownUntil = { cookie: 0, wayback: 0 };
+var cooldownTimer = null;
+
+function throttleSourceFor(tool, mode) {
+  if (tool === 'wayback_archive_search') return 'wayback';
+  var COOKIE_TOOLS = ['tweet_search_extractor', 'follower_explorer', 'post_extractor',
+    'community_post_extractor', 'tweet_replies_extractor', 'tweet_retweeters_extractor', 'geo_post_extractor'];
+  if (mode === 'cookie' && COOKIE_TOOLS.indexOf(tool) !== -1) return 'cookie';
+  return null;
+}
+
+function stampCooldown(source) {
+  if (source) cooldownUntil[source] = Date.now() + 5000;
 }
 
 // ── Label builder ─────────────────────────────────────────────────────────────
@@ -887,8 +926,13 @@ async function runSearch() {
   setStatus('Searching…', false, true);
 
   try {
-    var data  = await apiFetch(buildBody(tool, query, count, mode));
-    var items = Array.isArray(data) ? data : [data];
+    var result = await apiFetch(buildBody(tool, query, count, mode));
+    var items  = Array.isArray(result.items) ? result.items : [result.items];
+    stampCooldown(throttleSourceFor(tool, mode));
+    // Root-search pagination (continuing this same search past one page) is
+    // not wired up in the graph UI yet — only reply/retweet node-expand
+    // supports "load more" this round. result.nextCursor is intentionally
+    // unused here.
 
     // Central search node
     var searchId = 'search_' + Date.now();
@@ -907,34 +951,75 @@ async function runSearch() {
 }
 
 // ── Expand replies / retweets from selected node ──────────────────────────────
+// First click on a node = fresh fetch. If more is available, the button
+// relabels itself and a second click continues from the stored cursor —
+// same cursor/cooldown mechanism as the non-graph page's scroll load-more.
+var CURSOR_KEY    = { tweet_replies_extractor: 'repliesCursor',   tweet_retweeters_extractor: 'retweetersCursor' };
+var EXHAUSTED_KEY = { tweet_replies_extractor: 'repliesExhausted', tweet_retweeters_extractor: 'retweetersExhausted' };
+
 async function expandNode(expandTool) {
   if (!selectedNode) return;
   var data    = selectedNode.data();
   var tweetId = data.tweetId;
   if (!tweetId) { setStatus('Node has no tweet ID', true); return; }
 
+  var source = throttleSourceFor(expandTool, 'cookie');   // always 'cookie' — both expand tools are cookie-only
+  var remaining = cooldownUntil[source] - Date.now();
+  if (remaining > 0) {
+    armExpandCountdown(remaining);
+    return;
+  }
+
   var count    = Math.max(1, Math.min(200, parseInt(document.getElementById('countInput').value, 10) || 50));
   var parentId = selectedNode.id();
+  var cursor   = selectedNode.data(CURSOR_KEY[expandTool]) || null;
 
   document.getElementById('btnExpandReplies').disabled  = true;
   document.getElementById('btnExpandRetweets').disabled = true;
-  setStatus('Expanding…', false, true);
+  setStatus(cursor ? 'Loading more…' : 'Expanding…', false, true);
 
   try {
-    var fetched  = await apiFetch({ toolType: expandTool, mode: 'cookie', count: count, targetTweetId: tweetId });
-    var items    = Array.isArray(fetched) ? fetched : [fetched];
+    var body = { toolType: expandTool, mode: 'cookie', count: count, targetTweetId: tweetId };
+    if (cursor) body.cursor = cursor;
+    var result   = await apiFetch(body);
+    stampCooldown(source);
+    var items    = Array.isArray(result.items) ? result.items : [result.items];
     var nodeType = expandTool === 'tweet_replies_extractor' ? 'reply' : 'retweeter';
 
     var added = addNodes(items, nodeType, parentId);
     runLayout(false, false);
     updateNodeCount();
     setStatus('Expanded — ' + items.length + ' result(s) (' + added + ' new nodes)');
+
+    selectedNode.data(CURSOR_KEY[expandTool], result.nextCursor || null);
+    selectedNode.data(EXHAUSTED_KEY[expandTool], !result.nextCursor);
+    showPanel(selectedNode.data());   // refresh button labels/disabled state (e.g. "all loaded")
   } catch (e) {
-    setStatus('Error: ' + e.message, true);
-  } finally {
+    if (e.retryAfter) {
+      // Keep both buttons disabled for the cooldown window — armExpandCountdown
+      // re-enables them itself once it elapses, so don't touch them here.
+      armExpandCountdown(e.retryAfter * 1000);
+    } else {
+      setStatus('Error: ' + e.message, true);
+      document.getElementById('btnExpandReplies').disabled  = false;
+      document.getElementById('btnExpandRetweets').disabled = false;
+    }
+  }
+}
+
+function armExpandCountdown(msRemaining) {
+  var secs = Math.max(1, Math.ceil(msRemaining / 1000));
+  setStatus('Rate-limit cooldown — retry in ' + secs + 's…', false, true);
+  // Both Expand buttons share one underlying X-account clock, so both wait together.
+  document.getElementById('btnExpandReplies').disabled  = true;
+  document.getElementById('btnExpandRetweets').disabled = true;
+  if (cooldownTimer) clearTimeout(cooldownTimer);
+  cooldownTimer = setTimeout(function () {
+    cooldownTimer = null;
     document.getElementById('btnExpandReplies').disabled  = false;
     document.getElementById('btnExpandRetweets').disabled = false;
-  }
+    setStatus('Ready — click Expand again', false, false);
+  }, msRemaining);
 }
 
 // ── Info panel ────────────────────────────────────────────────────────────────
@@ -960,6 +1045,32 @@ var PRIORITY_KEYS = [
 var SKIP_KEYS = new Set(['id', 'media', 'card', 'user_id', 'retweeted_by_user_id']);
 
 var SOURCE_CLASS = { 'Twitter Cookie': 'src-cookie', 'Xquik API': 'src-xquik', 'Wayback Machine': 'src-wayback' };
+
+// ── Media helpers — same normalization as the non-graph search page ───────────
+function extractMedia(item) {
+  // Cookie mode: item.media = [{type, thumb, url}]
+  if (Array.isArray(item.media) && item.media.length) {
+    var first = item.media[0];
+    if (first && typeof first === 'object' && ('thumb' in first || 'url' in first)) {
+      return item.media;
+    }
+  }
+  // API mode: item.extended_entities.media[] or item.entities.media[]
+  var src = (item.extended_entities && item.extended_entities.media)
+    || (item.entities && item.entities.media);
+  if (!Array.isArray(src)) return [];
+  return src.map(function (m) {
+    var mtype = m.type || 'photo';
+    var thumb = m.media_url_https || m.media_url || '';
+    var url   = thumb;
+    if (mtype === 'video' || mtype === 'animated_gif') {
+      var variants = (m.video_info && m.video_info.variants) || [];
+      var mp4s = variants.filter(function (v) { return v.content_type === 'video/mp4'; });
+      if (mp4s.length) url = mp4s.reduce(function (b, v) { return (v.bitrate || 0) > (b.bitrate || 0) ? v : b; }).url;
+    }
+    return { type: mtype, thumb: thumb, url: url };
+  }).filter(function (m) { return m.thumb; });
+}
 
 function showPanel(data) {
   var raw  = data.raw || {};
@@ -1000,23 +1111,24 @@ function showPanel(data) {
     return '<div class="info-row"><div class="info-key">' + label + '</div><div class="info-val">' + val + '</div></div>';
   }).join('');
 
-  // Media thumbnails
-  var media = Array.isArray(raw.media) ? raw.media : [];
+  // Media thumbnails — normalized cookie/API shape; videos play inline via
+  // the backend proxy instead of just linking out to the raw stream.
+  var media = extractMedia(raw);
   if (media.length) {
     var mediaParts = ['<div class="info-media">'];
     media.forEach(function (m) {
-      var thumb = m.thumb || '';
-      var url   = m.url || thumb;
-      var mtype = m.type || 'photo';
-      if (!thumb) return;
-      if (mtype === 'photo') {
+      if (!m.thumb) return;
+      if (m.type === 'video' || m.type === 'animated_gif') {
+        var proxied = '/api/video?url=' + encodeURIComponent(m.url);
+        var loop    = m.type === 'animated_gif' ? 'loop muted' : '';
         mediaParts.push(
-          '<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' +
-          '<img src="' + esc(thumb) + '" loading="lazy" alt="media"></a>'
+          '<video class="info-video" controls ' + loop + ' poster="' + esc(m.thumb) + '" preload="none">' +
+          '<source src="' + proxied + '" type="video/mp4"></video>'
         );
       } else {
         mediaParts.push(
-          '<a href="/api/video?url=' + encodeURIComponent(url) + '" target="_blank" rel="noopener noreferrer" class="video-link">▶ ' + esc(mtype) + '</a>'
+          '<a href="' + esc(m.url) + '" target="_blank" rel="noopener noreferrer">' +
+          '<img src="' + esc(m.thumb) + '" loading="lazy" alt="media"></a>'
         );
       }
     });
@@ -1032,8 +1144,21 @@ function showPanel(data) {
   var tweetId   = data.tweetId;
   var user      = raw.user || raw.screen_name || '';
 
-  document.getElementById('btnExpandReplies').style.display  = isTweet ? '' : 'none';
-  document.getElementById('btnExpandRetweets').style.display = isTweet ? '' : 'none';
+  var repliesBtn    = document.getElementById('btnExpandReplies');
+  var retweetersBtn = document.getElementById('btnExpandRetweets');
+  repliesBtn.style.display    = isTweet ? '' : 'none';
+  retweetersBtn.style.display = isTweet ? '' : 'none';
+  if (isTweet) {
+    // Label reflects whether this node's already been expanded and whether
+    // more is available — neither twikit nor the Wayback CDX API expose a
+    // total count, only presence/absence of a next page, so no item count.
+    repliesBtn.textContent = data.repliesExhausted ? '↩ Expand Replies (all loaded)'
+      : data.repliesCursor ? '↩ Expand Replies (more available)' : '↩ Expand Replies';
+    repliesBtn.disabled = !!data.repliesExhausted;
+    retweetersBtn.textContent = data.retweetersExhausted ? '↗ Expand Retweets (all loaded)'
+      : data.retweetersCursor ? '↗ Expand Retweets (more available)' : '↗ Expand Retweets';
+    retweetersBtn.disabled = !!data.retweetersExhausted;
+  }
 
   var openBtn = document.getElementById('btnOpenTweet');
   if (isTweet && tweetId && user) {
@@ -1058,28 +1183,67 @@ function hidePanel() {
 }
 
 // ── Archive All ───────────────────────────────────────────────────────────────
+// First click creates a new archive; once that succeeds, graphArchivedId is
+// set and subsequent clicks (e.g. after expanding more reply/retweet nodes)
+// UPDATE that same archive in place instead of creating a new one each time
+// — same checkpoint behavior as the non-graph search page.
+var graphArchivedId = null;
+
 async function archiveAll() {
   if (!allItems.length) { setStatus('Nothing to archive yet', true); return; }
   var query = document.getElementById('queryInput').value.trim();
   var tool  = document.getElementById('toolSelect').value;
 
-  setStatus('Archiving…', false, true);
+  var archiveBar = document.getElementById('archiveBar');
+  archiveBar.style.display = '';
+  var label = graphArchivedId ? 'Saving checkpoint…' : 'Archiving…';
+  archiveBar.innerHTML = '<span>' + label + '</span><div class="archive-bar-fill-wrap"><div class="archive-bar-fill" style="width:0%"></div></div>';
+
   try {
+    var body = {
+      toolType:  'graph_' + tool,
+      data:      allItems.map(function (d) { return d.item; }),
+      queryInfo: { query: query, source: 'graph', nodes: cy.nodes().length },
+    };
+    if (graphArchivedId) body.archiveId = graphArchivedId;
+
     var res = await fetch('/api/archive', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        toolType:  'graph_' + tool,
-        data:      allItems.map(function (d) { return d.item; }),
-        queryInfo: { query: query, source: 'graph', nodes: cy.nodes().length },
-      }),
+      body: JSON.stringify(body),
     });
     var json = await res.json();
     if (!json.ok) throw new Error(json.error);
-    setStatus('Archived — ID: ' + json.archiveId);
+    graphArchivedId = json.archiveId;
+    document.getElementById('btnArchiveAll').textContent = 'Update Archive';
+    pollGraphArchive(json.archiveId);
   } catch (e) {
-    setStatus('Archive error: ' + e.message, true);
+    archiveBar.innerHTML = '<span style="color:var(--danger)">Archive error: ' + esc(e.message) + '</span>';
   }
+}
+
+function pollGraphArchive(archiveId) {
+  var archiveBar = document.getElementById('archiveBar');
+  var interval = setInterval(async function () {
+    var res  = await fetch('/api/archive/' + archiveId + '/status');
+    var json = await res.json();
+    if (!json.ok) { clearInterval(interval); return; }
+
+    var status = json.status, progress = json.progress, total = json.total;
+    var fill = archiveBar.querySelector('.archive-bar-fill');
+
+    if (status === 'saving') {
+      archiveBar.querySelector('span').textContent = 'Saving results…';
+    } else if (status === 'downloading') {
+      var pct = total > 0 ? Math.round((progress / total) * 100) : 0;
+      archiveBar.querySelector('span').textContent = 'Downloading media ' + progress + '/' + total;
+      if (fill) fill.style.width = pct + '%';
+    } else if (status === 'done') {
+      clearInterval(interval);
+      if (fill) fill.style.width = '100%';
+      archiveBar.querySelector('span').textContent = 'Archived ✓ (' + total + ' media files saved) — ID: ' + archiveId;
+    }
+  }, 1200);
 }
 
 // ── Dump JSON ─────────────────────────────────────────────────────────────────
@@ -1110,6 +1274,9 @@ function clearGraph() {
   allItems.length = 0;
   hidePanel();
   updateNodeCount();
+  graphArchivedId = null;
+  document.getElementById('btnArchiveAll').textContent = 'Archive All';
+  document.getElementById('archiveBar').style.display = 'none';
   setStatus('Graph cleared');
 }
 

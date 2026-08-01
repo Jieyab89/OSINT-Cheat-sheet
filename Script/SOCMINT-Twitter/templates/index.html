@@ -447,6 +447,24 @@
     text-align: center;
   }
 
+  .load-more-status {
+    text-align: center;
+    font-size: 12px;
+    color: var(--muted);
+    padding: 14px 0 20px;
+    display: none;
+  }
+  .load-more-status.visible { display: block; }
+  .load-more-status .spin-dot {
+    display: inline-block;
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    margin-right: 6px;
+    animation: lm-pulse 1s ease-in-out infinite;
+  }
+  @keyframes lm-pulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+
   /* Media (gambar / video) */
   .card-media {
     display: flex;
@@ -556,6 +574,7 @@
   .leaflet-control-attribution { background: rgba(26,29,39,0.8) !important; color: var(--muted) !important; font-size: 9px; }
 </style>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="anonymous"></script>
+<script src="{{ url_for('static', filename='js/card_constants.js') }}" nonce="{{ g.csp_nonce }}"></script>
 </head>
 <body>
 
@@ -627,6 +646,9 @@
       <span class="toggle-label">Auto Archive</span>
     </div>
     <div id="archiveBar" class="archive-bar" style="display:none"></div>
+    <button id="checkpointBtn" class="btn-download" style="display:none;width:100%;margin-top:8px">
+      Save Checkpoint... Saved latest data 
+    </button>
 
     <!-- Recent archives -->
     <div class="archives-section" id="archivesSection" style="display:none">
@@ -649,6 +671,8 @@
     <div id="resultBox">
       <div class="empty-state">Nothing found :(</div>
     </div>
+    <div id="loadMoreSentinel" style="height:1px"></div>
+    <div id="loadMoreStatus" class="load-more-status"></div>
     <div id="mapStatus" style="display:none;font-size:12px;color:var(--muted);padding:6px 2px"></div>
     <div id="mapContainer"></div>
   </div>
@@ -693,11 +717,37 @@ const toggleTrack    = document.getElementById('toggleTrack');
 const archiveBar     = document.getElementById('archiveBar');
 const archivesSection= document.getElementById('archivesSection');
 const archivesList   = document.getElementById('archivesList');
+const loadMoreSentinel = document.getElementById('loadMoreSentinel');
+const loadMoreStatus   = document.getElementById('loadMoreStatus');
+const checkpointBtn    = document.getElementById('checkpointBtn');
 
 let currentMode    = 'api';
 let currentData    = null;
 let autoArchive    = false;
 let currentPayload = null;   // last run payload (for archive queryInfo)
+let archivedId     = null;   // archive id for the current run, once auto-archived — lets later load-more pages update it in place instead of creating a new archive
+
+// ── Scroll-triggered load-more (Cookie mode + Wayback only) ────────────────
+// Tools/modes the backend actually paginates — everything else (xquik/API
+// mode, multi-source search) just gets a single page, same as before.
+const PAGINATED_TOOLS = new Set([
+  'tweet_search_extractor', 'follower_explorer', 'post_extractor',
+  'community_post_extractor', 'tweet_replies_extractor',
+  'tweet_retweeters_extractor', 'geo_post_extractor',
+  'wayback_archive_search',
+]);
+const THROTTLE_SECONDS = 5;
+
+let nextCursor    = null;
+let loadingMore    = false;
+let cooldownUntil  = { cookie: 0, wayback: 0 };   // Date.now()-based timestamps
+let cooldownTimer  = null;
+
+function throttleSourceFor(tool, mode) {
+  if (tool === 'wayback_archive_search') return 'wayback';
+  if (mode === 'cookie' && PAGINATED_TOOLS.has(tool)) return 'cookie';
+  return null;
+}
 
 const HINTS = {
   tweet_search_extractor:    'Search for tweets by keyword',
@@ -850,16 +900,10 @@ function flatText(obj) {
   return Object.values(obj).map(flatText).join(' ');
 }
 
-const PRIORITY  = ['source','account_age_flag','account_age','account_created','retweeted_by_user','retweeted_by_name','retweeted_text','retweeted_by_bio','name','username','screen_name','user','user_id','text','full_text','content','title','description','bio','article_text','post_title','post_text','created_at','in_reply_to_tweet_id','archive_url','preview_image','iso_date','original','statuscode'];
+// PRIORITY / DRILLABLE / SOURCE_CLASS / AGE_LABELS come from
+// static/js/card_constants.js, loaded above — shared with archive.html.
 const SKIP      = ['profile_image_url','profile_banner_url','entities','extended_entities','urls','media','indices'];
 const CLAMP     = new Set(['text','full_text','content','description','bio','article_text','retweeted_text','retweeted_by_bio','post_text']);
-const SOURCE_CLASS = { 'Twitter Cookie': 'src-cookie', 'Xquik API': 'src-xquik', 'Wayback Machine': 'src-wayback' };
-// Keys that link out to a drill-down tool (key → target toolType)
-const DRILLABLE = {
-  reply_count:          'tweet_replies_extractor',
-  retweet_count:        'tweet_retweeters_extractor',
-  in_reply_to_tweet_id: 'tweet_replies_extractor',   // follow thread upward
-};
 
 // ── Media helpers ─────────────────────────────────────────────────────────────
 
@@ -935,9 +979,17 @@ function buildCard(item) {
   }
   const tweetId = item.id ? String(item.id) : null;
   const entries = Object.entries(item);
-  const pri     = entries.filter(([k]) => PRIORITY.includes(k));
+  // Order follows PRIORITY's own sequence (not object insertion order), so
+  // field position is deterministic and consistent across every tool/record
+  // shape. No cap on row count — this is an OSINT/analysis tool, so more
+  // extracted metadata is the point, not something to hide past a limit
+  // (this is what silently dropped the reply_count/retweet_count drill-down
+  // anchors once enough other fields — account age, verification, etc. —
+  // were present on a record).
+  const priKeys = new Set(entries.map(([k]) => k).filter(k => PRIORITY.includes(k)));
+  const pri     = PRIORITY.filter(k => priKeys.has(k)).map(k => [k, item[k]]);
   const rest    = entries.filter(([k]) => !PRIORITY.includes(k) && !SKIP.includes(k));
-  const rows    = [...pri, ...rest].slice(0, 14).map(([k, v]) => {
+  const rows    = [...pri, ...rest].map(([k, v]) => {
     let display;
     // Drillable check runs FIRST — reply_count / retweet_count always get a link
     // when we have a tweet ID, even if the count is 0 or null (twikit often under-reports)
@@ -953,8 +1005,7 @@ function buildCard(item) {
       const cls = SOURCE_CLASS[v] || '';
       display = `<span class="source-badge ${cls}">${esc(String(v))}</span>`;
     } else if (k === 'account_age_flag' && v) {
-      const label = { new: 'New account', recent: 'Recent account', established: 'Established account' }[v] || v;
-      display = `<span class="age-badge age-${esc(String(v))}">${esc(label)}</span>`;
+      display = `<span class="age-badge age-${esc(String(v))}">${esc(AGE_LABELS[v] || v)}</span>`;
     } else if (v === null || v === undefined) {
       display = `<span style="color:var(--muted)">—</span>`;
     } else if (typeof v === 'object') {
@@ -970,6 +1021,129 @@ function buildCard(item) {
   const media = extractMedia(item);
   return `<div class="card">${rows}${renderMedia(media)}</div>`;
 }
+
+// ── Load more (scroll-triggered pagination) ─────────────────────────────────
+// The sentinel lives as a SIBLING of #resultBox, not inside it — renderCards()
+// replaces #resultBox.innerHTML wholesale on every run and every keystroke in
+// the search box, which would destroy an in-box sentinel and its observer tie.
+
+function appendCards(newItems, query = '') {
+  const q = query.toLowerCase().trim();
+  const toShow = q ? newItems.filter(i => flatText(i).toLowerCase().includes(q)) : newItems;
+  const grid = resultBox.querySelector('.cards-grid');
+  if (grid && toShow.length) {
+    grid.insertAdjacentHTML('beforeend', toShow.map(buildCard).join(''));
+  }
+  const totalShown = resultBox.querySelectorAll('.card').length;
+  resultCount.textContent = totalShown + (q ? ' found' : ' results');
+}
+
+function resetPagination() {
+  nextCursor   = null;
+  loadingMore  = false;
+  archivedId   = null;
+  if (cooldownTimer) { clearTimeout(cooldownTimer); cooldownTimer = null; }
+  loadMoreStatus.classList.remove('visible');
+  loadMoreStatus.textContent = '';
+  checkpointBtn.style.display = 'none';
+}
+
+function buildQueryInfo() {
+  const queryInfo = { ...currentPayload };
+  delete queryInfo.toolType;
+  delete queryInfo.mode;
+  delete queryInfo.count;
+  return queryInfo;
+}
+
+function stampCooldown(source) {
+  if (!source) return;
+  cooldownUntil[source] = Date.now() + THROTTLE_SECONDS * 1000;
+}
+
+function maybeLoadMore() {
+  if (!nextCursor || loadingMore || !currentPayload) return;
+  const source = throttleSourceFor(currentPayload.toolType, currentPayload.mode);
+  if (!source) return;   // shouldn't happen if nextCursor is set, but be safe
+
+  const remaining = cooldownUntil[source] - Date.now();
+  if (remaining > 0) {
+    armCountdown(remaining);
+    return;
+  }
+  doLoadMore(source);
+}
+
+function armCountdown(msRemaining) {
+  if (cooldownTimer) return;   // already counting down
+  const secs = Math.max(1, Math.ceil(msRemaining / 1000));
+  loadMoreStatus.classList.add('visible');
+  loadMoreStatus.innerHTML = `<span class="spin-dot"></span>Loading more in ${secs}s…`;
+  cooldownTimer = setTimeout(() => {
+    cooldownTimer = null;
+    maybeLoadMore();   // re-check: fires the load once the cooldown has cleared
+  }, msRemaining);
+}
+
+async function doLoadMore(source) {
+  loadingMore = true;
+  loadMoreStatus.classList.add('visible');
+  loadMoreStatus.innerHTML = `<span class="spin-dot"></span>Loading more…`;
+
+  try {
+    const res  = await fetch('/api/run', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ...currentPayload, cursor: nextCursor }),
+    });
+    const json = await res.json();
+    stampCooldown(source);
+
+    if (!json.ok) {
+      if (res.status === 429 && json.retryAfter) {
+        loadingMore = false;
+        armCountdown(json.retryAfter * 1000);
+        return;
+      }
+      loadMoreStatus.textContent = `Load more failed: ${json.error}`;
+      nextCursor = null;
+      return;
+    }
+
+    const newItems = Array.isArray(json.data) ? json.data : [json.data];
+    currentData = (Array.isArray(currentData) ? currentData : [currentData]).concat(newItems);
+    appendCards(newItems, searchInput.value);
+    nextCursor = json.nextCursor || null;
+    loadMoreStatus.classList.remove('visible');
+
+    // Auto-archive only covered whatever was loaded at the initial Run — new
+    // pages from scroll need their own save. Once we've reached the end
+    // (no more pages), save automatically; otherwise surface a manual
+    // checkpoint button so the user can save without waiting to hit the end.
+    if (autoArchive && archivedId) {
+      if (!nextCursor) {
+        checkpointBtn.style.display = 'none';
+        triggerArchive(currentData, currentPayload.toolType, buildQueryInfo(), archivedId);
+      } else {
+        checkpointBtn.style.display = '';
+      }
+    }
+  } catch (e) {
+    loadMoreStatus.textContent = `Load more failed: ${e}`;
+  } finally {
+    loadingMore = false;
+  }
+}
+
+// root: null (the browser viewport) — .output has `overflow: auto` but is
+// never actually height-constrained (body/.layout only set min-height), so
+// it never becomes a real scroll container; the page/viewport is what
+// actually scrolls. Pointing the observer at .output meant it could never
+// detect the sentinel entering view.
+const loadMoreObserver = new IntersectionObserver((entries) => {
+  if (entries.some(e => e.isIntersecting)) maybeLoadMore();
+}, { root: null, rootMargin: '200px' });
+loadMoreObserver.observe(loadMoreSentinel);
 
 // ── Run ───────────────────────────────────────────────────────────────────────
 
@@ -998,6 +1172,7 @@ runBtn.addEventListener('click', async () => {
   }
 
   currentPayload = payload;
+  resetPagination();
 
   runBtn.disabled            = true;
   runBtn.textContent         = 'Running…';
@@ -1018,9 +1193,15 @@ runBtn.addEventListener('click', async () => {
     const json = await res.json();
 
     if (json.ok) {
+      // Keep the client's cooldown clock in sync even if the user never
+      // scrolls to trigger a load-more — a fast scroll right after Run
+      // should still wait out the same 5s window the server just started.
+      stampCooldown(throttleSourceFor(t, currentMode));
+
       statusBadge.textContent    = 'done';
       statusBadge.className      = 'badge ok';
       currentData                = json.data;
+      nextCursor                 = json.nextCursor || null;
       const isMany               = Array.isArray(json.data) && json.data.length > 1;
       downloadBtn.style.display  = '';
 
@@ -1041,11 +1222,7 @@ runBtn.addEventListener('click', async () => {
       renderCards(currentData);
 
       if (autoArchive) {
-        const queryInfo = { ...currentPayload };
-        delete queryInfo.toolType;
-        delete queryInfo.mode;
-        delete queryInfo.count;
-        triggerArchive(json.data, t, queryInfo);
+        triggerArchive(json.data, t, buildQueryInfo());
       } else {
         archiveBar.style.display = 'none';
       }
@@ -1072,20 +1249,31 @@ archiveToggle.addEventListener('click', () => {
   if (autoArchive) loadRecentArchives();
 });
 
-async function triggerArchive(data, toolType, queryInfo) {
+async function triggerArchive(data, toolType, queryInfo, existingId) {
   archiveBar.style.display = '';
-  archiveBar.innerHTML     = '<span>Archiving…</span><div class="archive-bar-fill-wrap"><div class="archive-bar-fill" style="width:0%"></div></div>';
+  const label = existingId ? 'Saving checkpoint…' : 'Archiving…';
+  archiveBar.innerHTML = `<span>${label}</span><div class="archive-bar-fill-wrap"><div class="archive-bar-fill" style="width:0%"></div></div>`;
+
+  const body = { data, toolType, queryInfo };
+  if (existingId) body.archiveId = existingId;
 
   const res  = await fetch('/api/archive', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ data, toolType, queryInfo }),
+    body: JSON.stringify(body),
   });
   const json = await res.json();
   if (!json.ok) { archiveBar.innerHTML = `<span style="color:var(--danger)">Archive failed: ${esc(json.error)}</span>`; return; }
 
+  archivedId = json.archiveId;
   pollArchive(json.archiveId);
 }
+
+checkpointBtn.addEventListener('click', () => {
+  if (!archivedId || !currentPayload) return;
+  checkpointBtn.style.display = 'none';
+  triggerArchive(currentData, currentPayload.toolType, buildQueryInfo(), archivedId);
+});
 
 function pollArchive(archiveId) {
   const interval = setInterval(async () => {
@@ -1188,6 +1376,9 @@ function setView(v) {
   const mapContainer = document.getElementById('mapContainer');
   const mapStatus    = document.getElementById('mapStatus');
   const searchInput  = document.getElementById('searchInput');
+
+  // No "bottom of the list" concept on a Leaflet map — suspend load-more there.
+  loadMoreSentinel.style.display = isCards ? '' : 'none';
 
   if (isCards) {
     mapContainer.style.display = 'none';

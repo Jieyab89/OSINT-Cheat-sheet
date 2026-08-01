@@ -5,8 +5,16 @@
 1. Xquik API 
 2. Cookie (your account cookie session) 
 3. Wayback Machine (Cdx API)
+
+## Update Note
+
+1. Update infinity scroll and load new data 
+2. Update data corelation 
+3. Fix business logic flow 
 4. Monitoring (Soon)
 5. MCP (Soon)
+6. Add more parameter for enrichment 
+7. Add no rate limit (throttle)
 
 ## Setup
 
@@ -65,3 +73,7 @@ Xquik API DOC
 Offc doc: https://docs.xquik.com/api-reference/overview
 
 Soon i will check more detail about Twitter or X mechanism and business logic also endpoint API was listed in Mobile and Web 
+
+Wayback archive data source 
+
+The server connection to the Wayback Machine archive is often down, so try bumping the thread and don't set the throttle too high, and try checking the connection manually using curl.
