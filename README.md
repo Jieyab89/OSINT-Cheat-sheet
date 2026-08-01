@@ -2118,6 +2118,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 
 # Twitter
 
+- [Jieyab ft Xquik Twitter Scrappe and MCP and monitoring](https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/SOCMINT-Twitter)
 - [instalker - x viewer](https://www.instalker.org/)
 - [Hoaxy](https://hoaxy.osome.iu.edu/)
 - [Twitter API](https://developer.x.com/en/docs/twitter-api/getting-started/about-twitter-api)
