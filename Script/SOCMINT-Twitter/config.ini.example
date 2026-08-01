@@ -1,6 +1,13 @@
 [xquik]
 api_key = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+; Soon there is a array for base_url and endpoint are listed in offc docs 
+; Docs https://docs.xquik.com/
+; arr endpoint
+
 base_url = https://xquik.com/api/v1/extractions 
+
+;end arr endpoint
 
 [twitter_cookies]
 auth_token = xxxxxxxxxxxxxxxxxx
