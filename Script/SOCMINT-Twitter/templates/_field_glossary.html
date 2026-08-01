@@ -1,0 +1,43 @@
+<!---- SKELETON SECTION DATA -->
+
+<div class="param-heading">Identity</div>
+<div class="param-row"><code class="param-key">id / user_id</code> Twitter's internal numeric ID for the tweet / account</div>
+<div class="param-row"><code class="param-key">user / screen_name</code> The @handle</div>
+<div class="param-row"><code class="param-key">name</code> Display name</div>
+
+<div class="param-heading">Content</div>
+<div class="param-row"><code class="param-key">text / full_text / article_text</code> The post's own text</div>
+<div class="param-row"><code class="param-key">description</code> Profile bio</div>
+
+<div class="param-heading">Engagement</div>
+<div class="param-row"><code class="param-key">reply_count / retweet_count / favorite_count / view_count</code> Counts reported by Twitter (can under-report)</div>
+
+<div class="param-heading">Profile stats</div>
+<div class="param-row"><code class="param-key">followers_count / following_count / tweet_count</code> Account stats at fetch time</div>
+
+<div class="param-heading">Verification</div>
+<div class="param-row"><code class="param-key">verified</code> Legacy blue checkmark (pre-2023)</div>
+<div class="param-row"><code class="param-key">is_blue_verified</code> Paid X Premium checkmark</div>
+
+<div class="param-heading">Threading &amp; retweets</div>
+<div class="param-row"><code class="param-key">in_reply_to_tweet_id</code> Parent tweet this replies to</div>
+<div class="param-row"><code class="param-key">retweeted_*</code> Details of the original tweet being retweeted</div>
+
+<div class="param-heading">Location</div>
+<div class="param-row"><code class="param-key">lat / lon / place / user_location</code> Geodata — geo search only</div>
+
+<div class="param-heading">Account age (forensics)</div>
+<div class="param-row"><code class="param-key">account_created / account_age</code> Derived from the account's numeric ID, not the API — see badges above</div>
+<div class="param-row"><code class="param-key">account_age_flag</code> New / Recent / Established bucket</div>
+<div class="param-row"><code class="param-key">account_age_precision</code> exact / estimated / unknown — how much to trust the date</div>
+
+<div class="param-heading">Archive &amp; Wayback</div>
+<div class="param-row"><code class="param-key">archive_url</code> Link to the Wayback Machine snapshot</div>
+<div class="param-row"><code class="param-key">iso_date</code> When that snapshot was captured</div>
+<div class="param-row"><code class="param-key">original</code> The original URL that was archived</div>
+<div class="param-row"><code class="param-key">statuscode / mimetype / length</code> HTTP status / type / size of the snapshot</div>
+<div class="param-row"><code class="param-key">post_title / post_text / preview_image</code> Scraped from the archived page's meta tags</div>
+<div class="param-row"><code class="param-key">tweet_url</code> Direct link to the live tweet</div>
+
+<div class="param-heading">Source</div>
+<div class="param-row"><code class="param-key">source</code> Which of the 3 data sources this result came from (multi-source search only)</div>

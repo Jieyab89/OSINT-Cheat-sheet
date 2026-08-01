@@ -79,6 +79,75 @@
   .nav-menu a.current { color: var(--accent); background: var(--accent-bg); }
   .nav-divider { border: none; border-top: 1px solid var(--border); margin: 3px 0; }
 
+  /* Help popup — fixed bottom-left, same icon/colors as the graph page's legend toggle */
+  .help-toggle {
+    position: fixed;
+    bottom: 14px;
+    left: 14px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 251;
+    transition: all 0.15s;
+  }
+  .help-toggle:hover { color: var(--text); border-color: var(--accent); }
+  .help-popup {
+    position: fixed;
+    bottom: 50px;
+    left: 14px;
+    background: rgba(26,29,39,0.96);
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    padding: 10px 14px;
+    width: 300px;
+    max-height: 70vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+    font-size: 12px;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.5);
+    z-index: 250;
+  }
+  .help-popup.hidden { display: none; }
+  .help-popup h4 {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    margin: 10px 0 6px;
+  }
+  .help-popup h4:first-child { margin-top: 0; }
+  .help-row { display: flex; align-items: center; gap: 8px; margin: 5px 0; color: var(--text); line-height: 1.4; }
+  .help-row .age-badge, .help-row .source-badge { flex-shrink: 0; }
+  .help-note { color: var(--muted); margin-top: 8px; line-height: 1.5; }
+  .param-heading {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    margin: 8px 0 3px;
+    padding-top: 6px;
+    border-top: 1px solid var(--border);
+  }
+  .param-heading:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+  .param-row { color: var(--muted); font-size: 10.5px; line-height: 1.5; margin: 2px 0; }
+  .param-key {
+    display: inline-block;
+    color: var(--accent);
+    background: var(--accent-bg);
+    font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+    font-size: 10px;
+    padding: 1px 5px;
+    border-radius: 4px;
+    margin-right: 4px;
+  }
+
   /* ── Layout ── */
   .layout { display: grid; grid-template-columns: 270px 1fr; min-height: calc(100vh - 49px); }
   @media (max-width: 760px) { .layout { grid-template-columns: 1fr; } }
@@ -219,6 +288,30 @@
   .card-link { color: var(--accent); text-decoration: none; font-size: 12px; }
   .card-link:hover { text-decoration: underline; }
 
+  .source-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 2px 9px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+  }
+  .source-badge.src-cookie  { color: #a78bfa; border-color: #4c3a8f; background: #1e1535; }
+  .source-badge.src-xquik   { color: #8891f7; border-color: #34348a; background: var(--accent-bg); }
+  .source-badge.src-wayback { color: #f59e0b; border-color: #78350f; background: #1c0e02; }
+
+  .age-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 2px 9px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+  }
+  .age-badge.age-new         { color: var(--danger);  border-color: #7f1d1d; background: #1c0505; }
+  .age-badge.age-recent      { color: #f59e0b;         border-color: #78350f; background: #1c0e02; }
+  .age-badge.age-established { color: var(--success); border-color: #14532d; background: #052011; }
+
   /* ── Media ── */
   .card-media {
     display: flex;
@@ -295,6 +388,27 @@
   </nav>
 </header>
 
+<!-- Legend / help popup (floats over the page, bottom-left) -->
+<button id="helpToggle" class="help-toggle" aria-label="Legend / help" title="Legend / help">?</button>
+<div id="helpPopup" class="help-popup hidden">
+  <h4>Source</h4>
+  <div class="help-row"><span class="source-badge src-cookie">Twitter Cookie</span> Live via your cookie session</div>
+  <div class="help-row"><span class="source-badge src-xquik">Xquik API</span> Live via the xquik API</div>
+  <div class="help-row"><span class="source-badge src-wayback">Wayback Machine</span> Archived snapshot</div>
+  <h4>Account age</h4>
+  <div class="help-row"><span class="age-badge age-new">New account</span> Created &lt; 30 days ago</div>
+  <div class="help-row"><span class="age-badge age-recent">Recent account</span> Created &lt; 1 year ago</div>
+  <div class="help-row"><span class="age-badge age-established">Established account</span> Created 1+ year ago</div>
+  <div class="help-note">
+    Derived straight from the account's numeric ID — no external lookup.
+    A tilde (~) means the id predates X's Snowflake ID scheme, so the date
+    is an estimate, not an exact decode. "Unknown" means the id falls in a
+    gap we have no reliable way to date at all.
+  </div>
+  <h4>What each parameter means</h4>
+  {% include "_field_glossary.html" %}
+</div>
+
 <div class="layout">
 
   <!-- Sidebar: archive list -->
@@ -340,6 +454,18 @@
   });
   document.addEventListener('click', function() { menu.classList.add('hidden'); });
   menu.addEventListener('click', function(e) { e.stopPropagation(); });
+}());
+
+// Help popup
+(function() {
+  var btn   = document.getElementById('helpToggle');
+  var popup = document.getElementById('helpPopup');
+  btn.addEventListener('click', function(e) {
+    e.stopPropagation();
+    popup.classList.toggle('hidden');
+  });
+  document.addEventListener('click', function() { popup.classList.add('hidden'); });
+  popup.addEventListener('click', function(e) { e.stopPropagation(); });
 }());
 
 let allItems      = [];
@@ -394,7 +520,7 @@ function entryHtml(a) {
 }
 
 function queryLabel(q) {
-  return q.searchQuery || q.targetUsername || q.targetTweetId || q.targetCommunityId || '';
+  return q.searchQuery || q.targetUsername || q.targetTweetId || q.targetCommunityId || q.query || '';
 }
 
 // ── Viewer ────────────────────────────────────────────────────────────────────
@@ -445,9 +571,10 @@ function flatText(obj) {
 
 // ── Cards ─────────────────────────────────────────────────────────────────────
 
-const PRIORITY = ['user','user_id','text','full_text','article_text','created_at','tweet_url'];
+const PRIORITY = ['source','account_age_flag','account_age','account_created','user','user_id','text','full_text','article_text','post_title','post_text','created_at','tweet_url','archive_url','preview_image','iso_date','original','statuscode'];
 const SKIP     = ['archived_media'];
-const CLAMP    = new Set(['text','full_text','article_text','description']);
+const CLAMP    = new Set(['text','full_text','article_text','description','post_text']);
+const SOURCE_CLASS = { 'Twitter Cookie': 'src-cookie', 'Xquik API': 'src-xquik', 'Wayback Machine': 'src-wayback' };
 
 function renderCards(items, query) {
   const q        = query.toLowerCase().trim();
@@ -473,8 +600,14 @@ function buildCard(item) {
     let display;
     if (v === null || v === undefined) {
       display = `<span style="color:var(--muted)">—</span>`;
-    } else if (k === 'tweet_url') {
+    } else if (k === 'tweet_url' || k === 'archive_url' || k === 'preview_image') {
       display = `<a href="${esc(String(v))}" target="_blank" rel="noopener" class="card-link">${esc(String(v))}</a>`;
+    } else if (k === 'source') {
+      const cls = SOURCE_CLASS[v] || '';
+      display = `<span class="source-badge ${cls}">${esc(String(v))}</span>`;
+    } else if (k === 'account_age_flag') {
+      const label = { new: 'New account', recent: 'Recent account', established: 'Established account' }[v] || v;
+      display = `<span class="age-badge age-${esc(String(v))}">${esc(label)}</span>`;
     } else if (typeof v === 'object') {
       const s = JSON.stringify(v);
       display = `<span style="color:var(--muted);font-size:11px">${esc(s.length > 100 ? s.slice(0,100)+'…' : s)}</span>`;
