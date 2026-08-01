@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Jieyab89 SOCMINT Twitter / X</title>
+<link rel="stylesheet" href="https://jsdelivr.net">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <style>
   :root {
     --bg: #0f1117;
@@ -37,10 +39,122 @@
     align-items: center;
     gap: 10px;
     background: var(--surface);
+    position: relative;
   }
   header h1 { font-size: 14px; font-weight: 600; letter-spacing: 0.02em; }
   header .sep { color: var(--border); }
   header .sub { color: var(--muted); font-size: 12px; }
+  .hamburger-btn {
+    margin-left: auto;
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    color: var(--muted);
+    cursor: pointer;
+    padding: 5px 9px;
+    font-size: 16px;
+    line-height: 1;
+    transition: all 0.15s;
+  }
+  .hamburger-btn:hover { color: var(--text); border-color: var(--accent); }
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    right: 12px;
+    margin-top: 6px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    padding: 5px;
+    min-width: 175px;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.5);
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .nav-menu.hidden { display: none; }
+  .nav-menu a {
+    padding: 7px 12px;
+    border-radius: 5px;
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 13px;
+    transition: all 0.12s;
+    display: block;
+  }
+  .nav-menu a:hover { color: var(--text); background: var(--accent-bg); }
+  .nav-menu a.current { color: var(--accent); background: var(--accent-bg); }
+  .nav-divider { border: none; border-top: 1px solid var(--border); margin: 3px 0; }
+
+  /* Help popup — fixed bottom-left, same icon/colors as the graph page's legend toggle */
+  .help-toggle {
+    position: fixed;
+    bottom: 14px;
+    left: 14px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 251;
+    transition: all 0.15s;
+  }
+  .help-toggle:hover { color: var(--text); border-color: var(--accent); }
+  .help-popup {
+    position: fixed;
+    bottom: 50px;
+    left: 14px;
+    background: rgba(26,29,39,0.96);
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    padding: 10px 14px;
+    width: 300px;
+    max-height: 70vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+    font-size: 12px;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.5);
+    z-index: 250;
+  }
+  .help-popup.hidden { display: none; }
+  .help-popup h4 {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    margin: 10px 0 6px;
+  }
+  .help-popup h4:first-child { margin-top: 0; }
+  .help-row { display: flex; align-items: center; gap: 8px; margin: 5px 0; color: var(--text); line-height: 1.4; }
+  .help-row .age-badge, .help-row .source-badge { flex-shrink: 0; }
+  .help-note { color: var(--muted); margin-top: 8px; line-height: 1.5; }
+  .param-heading {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    margin: 8px 0 3px;
+    padding-top: 6px;
+    border-top: 1px solid var(--border);
+  }
+  .param-heading:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+  .param-row { color: var(--muted); font-size: 10.5px; line-height: 1.5; margin: 2px 0; }
+  .param-key {
+    display: inline-block;
+    color: var(--accent);
+    background: var(--accent-bg);
+    font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+    font-size: 10px;
+    padding: 1px 5px;
+    border-radius: 4px;
+    margin-right: 4px;
+  }
 
   .layout {
     display: grid;
@@ -151,6 +265,30 @@
   .badge.err     { color: var(--danger);  border-color: #7f1d1d; background: #1c0505; }
   .badge.running { color: var(--warn);    border-color: #78350f; background: #1c0e02; }
 
+  .source-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 2px 9px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+  }
+  .source-badge.src-cookie  { color: #a78bfa; border-color: #4c3a8f; background: var(--cookie-bg); }
+  .source-badge.src-xquik   { color: #8891f7; border-color: #34348a; background: var(--accent-bg); }
+  .source-badge.src-wayback { color: var(--warn); border-color: #78350f; background: #1c0e02; }
+
+  .age-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 2px 9px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+  }
+  .age-badge.age-new         { color: var(--danger);  border-color: #7f1d1d; background: #1c0505; }
+  .age-badge.age-recent      { color: var(--warn);    border-color: #78350f; background: #1c0e02; }
+  .age-badge.age-established { color: var(--success); border-color: #14532d; background: #052011; }
+
   .search-bar {
     flex: 1;
     min-width: 160px;
@@ -167,6 +305,101 @@
   .search-bar::placeholder { color: var(--muted); }
 
   .result-count { font-size: 12px; color: var(--muted); flex-shrink: 0; }
+
+  .btn-download {
+    padding: 5px 12px;
+    background: transparent;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-family: var(--font);
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: all 0.15s;
+  }
+  .btn-download:hover { color: var(--text); border-color: var(--accent); }
+
+  /* Auto Archive toggle */
+  .archive-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid var(--border);
+    cursor: pointer;
+    user-select: none;
+  }
+  .toggle-track {
+    width: 32px;
+    height: 18px;
+    border-radius: 9px;
+    background: var(--border);
+    position: relative;
+    transition: background 0.2s;
+    flex-shrink: 0;
+  }
+  .toggle-track.on { background: var(--accent); }
+  .toggle-knob {
+    position: absolute;
+    top: 2px; left: 2px;
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    background: #fff;
+    transition: left 0.2s;
+  }
+  .toggle-track.on .toggle-knob { left: 16px; }
+  .toggle-label { font-size: 12px; color: var(--muted); }
+
+  /* Archive progress bar */
+  .archive-bar {
+    margin-top: 8px;
+    padding: 8px 10px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+  .archive-bar-fill-wrap {
+    height: 3px;
+    background: var(--border);
+    border-radius: 2px;
+    margin-top: 6px;
+    overflow: hidden;
+  }
+  .archive-bar-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 2px;
+    transition: width 0.3s;
+  }
+
+  /* Recent archives list */
+  .archives-section {
+    margin-top: 14px;
+    padding-top: 10px;
+    border-top: 1px solid var(--border);
+  }
+  .archives-label {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 6px;
+  }
+  .archive-item {
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: 1px solid var(--border);
+    margin-bottom: 5px;
+    font-size: 11px;
+  }
+  .archive-item-tool { color: var(--accent); font-weight: 500; }
+  .archive-item-meta { color: var(--muted); margin-top: 1px; }
 
   /* Cards */
   .cards-grid { display: grid; gap: 8px; }
@@ -247,7 +480,81 @@
     pointer-events: none;
     letter-spacing: 0.04em;
   }
+  .media-video {
+    display: block;
+    width: 220px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 1px solid var(--border);
+    background: #000;
+  }
+
+  /* Retweeted-content rows — subtle highlight */
+  .card-row.rt-origin .card-key  { color: var(--accent); }
+  .card-row.rt-origin .card-val  { color: #c7d2fe; }
+
+  /* Drill-down links on reply / retweet counts */
+  .drill-link {
+    color: var(--accent);
+    font-family: var(--font);
+    font-size: 13px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .drill-link:hover { color: #818cf8; }
+
+  /* View toggle (Cards / Map) */
+  .view-toggle {
+    display: flex;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .view-btn {
+    padding: 5px 14px;
+    background: transparent;
+    color: var(--muted);
+    border: none;
+    cursor: pointer;
+    font-family: var(--font);
+    font-size: 12px;
+    transition: all 0.15s;
+  }
+  .view-btn.active { background: var(--accent-bg); color: #818cf8; font-weight: 500; }
+
+  /* Leaflet map */
+  #mapContainer {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    height: calc(100vh - 130px);
+    display: none;
+  }
+  .leaflet-container { background: #1a1d27; font-family: var(--font); }
+  .leaflet-popup-content-wrapper {
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.45);
+  }
+  .leaflet-popup-tip { background: var(--surface); }
+  .leaflet-popup-content { font-family: var(--font); font-size: 12px; line-height: 1.5; margin: 10px 12px; }
+  .leaflet-control-layers,
+  .leaflet-control-zoom { background: var(--surface) !important; border: 1px solid var(--border) !important; }
+  .leaflet-control-layers-list { color: var(--text); font-size: 12px; padding: 2px 6px; }
+  .leaflet-bar a {
+    background: var(--surface) !important;
+    color: var(--text) !important;
+    border-color: var(--border) !important;
+  }
+  .leaflet-bar a:hover { background: var(--accent-bg) !important; color: #818cf8 !important; }
+  .leaflet-control-attribution { background: rgba(26,29,39,0.8) !important; color: var(--muted) !important; font-size: 9px; }
 </style>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -255,7 +562,35 @@
   <h1>Jieyab89 SOCMINT X</h1>
   <span class="sep">|</span>
   <span class="sub">Retrieve data using Xquik API or Cookie</span>
+  <button id="navToggle" class="hamburger-btn" aria-label="Navigation menu">&#9776;</button>
+  <nav id="navMenu" class="nav-menu hidden">
+    <a href="/" class="current">Home</a>
+    <a href="/graph">Graph</a>
+    <hr class="nav-divider">
+    <a href="/archives">Archives</a>
+  </nav>
 </header>
+
+<!-- Legend / help popup (floats over the page, bottom-left) -->
+<button id="helpToggle" class="help-toggle" aria-label="Legend / help" title="Legend / help">?</button>
+<div id="helpPopup" class="help-popup hidden">
+  <h4>Source</h4>
+  <div class="help-row"><span class="source-badge src-cookie">Twitter Cookie</span> Live via your cookie session</div>
+  <div class="help-row"><span class="source-badge src-xquik">Xquik API</span> Live via the xquik API</div>
+  <div class="help-row"><span class="source-badge src-wayback">Wayback Machine</span> Archived snapshot</div>
+  <h4>Account age</h4>
+  <div class="help-row"><span class="age-badge age-new">New account</span> Created &lt; 30 days ago</div>
+  <div class="help-row"><span class="age-badge age-recent">Recent account</span> Created &lt; 1 year ago</div>
+  <div class="help-row"><span class="age-badge age-established">Established account</span> Created 1+ year ago</div>
+  <div class="help-note">
+    Derived straight from the account's numeric ID — no external lookup.
+    A tilde (~) means the id predates X's Snowflake ID scheme, so the date
+    is an estimate, not an exact decode. "Unknown" means the id falls in a
+    gap we have no reliable way to date at all.
+  </div>
+  <h4>What each parameter means</h4>
+  {% include "_field_glossary.html" %}
+</div>
 
 <div class="layout">
   <div class="panel">
@@ -263,11 +598,16 @@
     <div class="field">
       <label>Tool</label>
       <select id="toolType">
-        <option value="tweet_search_extractor">tweet search extractor</option>
-        <option value="follower_explorer">follower explorer</option>
-        <option value="post_extractor">post extractor</option>
-        <option value="article_extractor">article extractor</option>
-        <option value="community_post_extractor">community post extractor</option>
+        <option value="tweet_search_extractor">Tweet Search Extractor</option>
+        <option value="follower_explorer">Follower Explorer</option>
+        <option value="post_extractor">Post Extractor</option>
+        <option value="article_extractor">Article Extractor</option>
+        <option value="community_post_extractor">community Post Extractor</option>
+        <option value="tweet_replies_extractor">Tweet Replies Extractor [Cookie]</option>
+        <option value="tweet_retweeters_extractor">Tweet Retweeters Extractor [Cookie]</option>
+        <option value="geo_post_extractor">Geo Post Extractor [Cookie]</option>
+        <option value="wayback_archive_search">Wayback Archive Search</option>
+        <option value="multi_source_search">Multi Source Search [All]</option>
       </select>
       <div id="toolHint" class="tool-hint"></div>
     </div>
@@ -277,46 +617,124 @@
     <div id="dynamicFields"></div>
 
     <button class="btn-run" id="runBtn">Run</button>
+
+    <!-- Auto Archive toggle -->
+    <div class="archive-toggle" id="archiveToggle">
+      <div class="toggle-track" id="toggleTrack">
+        <div class="toggle-knob"></div>
+      </div>
+      <span class="toggle-label">Auto Archive</span>
+    </div>
+    <div id="archiveBar" class="archive-bar" style="display:none"></div>
+
+    <!-- Recent archives -->
+    <div class="archives-section" id="archivesSection" style="display:none">
+      <div class="archives-label">Recent Archives</div>
+      <div id="archivesList"></div>
+    </div>
   </div>
 
   <div class="output">
     <div class="output-top">
       <div id="statusBadge" class="badge">idle</div>
-      <input type="text" class="search-bar" id="searchInput" placeholder="Search......" style="display:none">
+      <input type="text" class="search-bar" id="searchInput" placeholder="Search results..." style="display:none">
       <div class="result-count" id="resultCount"></div>
+      <div id="viewToggle" class="view-toggle" style="display:none">
+        <button class="view-btn active" data-view="cards">Cards</button>
+        <button class="view-btn" data-view="map">Map</button>
+      </div>
+      <button class="btn-download" id="downloadBtn" style="display:none">↓ JSON</button>
     </div>
     <div id="resultBox">
       <div class="empty-state">Nothing found :(</div>
     </div>
+    <div id="mapStatus" style="display:none;font-size:12px;color:var(--muted);padding:6px 2px"></div>
+    <div id="mapContainer"></div>
   </div>
 </div>
 
-<script>
-const toolType    = document.getElementById('toolType');
-const dynFields   = document.getElementById('dynamicFields');
-const runBtn      = document.getElementById('runBtn');
-const statusBadge = document.getElementById('statusBadge');
-const resultBox   = document.getElementById('resultBox');
-const searchInput = document.getElementById('searchInput');
-const resultCount = document.getElementById('resultCount');
-const toolHint    = document.getElementById('toolHint');
+<script nonce="{{ g.csp_nonce }}">
+// Hamburger nav
+(function() {
+  var btn  = document.getElementById('navToggle');
+  var menu = document.getElementById('navMenu');
+  btn.addEventListener('click', function(e) {
+    e.stopPropagation();
+    menu.classList.toggle('hidden');
+  });
+  document.addEventListener('click', function() { menu.classList.add('hidden'); });
+  menu.addEventListener('click', function(e) { e.stopPropagation(); });
+}());
 
-let currentMode = 'api';
-let currentData = null;
+// Help popup
+(function() {
+  var btn   = document.getElementById('helpToggle');
+  var popup = document.getElementById('helpPopup');
+  btn.addEventListener('click', function(e) {
+    e.stopPropagation();
+    popup.classList.toggle('hidden');
+  });
+  document.addEventListener('click', function() { popup.classList.add('hidden'); });
+  popup.addEventListener('click', function(e) { e.stopPropagation(); });
+}());
+
+const toolType       = document.getElementById('toolType');
+const dynFields      = document.getElementById('dynamicFields');
+const runBtn         = document.getElementById('runBtn');
+const statusBadge    = document.getElementById('statusBadge');
+const resultBox      = document.getElementById('resultBox');
+const searchInput    = document.getElementById('searchInput');
+const resultCount    = document.getElementById('resultCount');
+const toolHint       = document.getElementById('toolHint');
+const downloadBtn    = document.getElementById('downloadBtn');
+const archiveToggle  = document.getElementById('archiveToggle');
+const toggleTrack    = document.getElementById('toggleTrack');
+const archiveBar     = document.getElementById('archiveBar');
+const archivesSection= document.getElementById('archivesSection');
+const archivesList   = document.getElementById('archivesList');
+
+let currentMode    = 'api';
+let currentData    = null;
+let autoArchive    = false;
+let currentPayload = null;   // last run payload (for archive queryInfo)
 
 const HINTS = {
-  tweet_search_extractor:   'Search for tweets by keyword',
-  follower_explorer:        'List followers of an account',
-  post_extractor:           'Tweet timeline from an account',
-  article_extractor:        'Content of an X article from its tweet URL',
-  community_post_extractor: 'Posts from an X Community',
+  tweet_search_extractor:    'Search for tweets by keyword',
+  follower_explorer:         'List followers of an account',
+  post_extractor:            'Tweet timeline from an account',
+  article_extractor:         'Content of an X article from its tweet URL',
+  community_post_extractor:  'Posts from an X Community',
+  tweet_replies_extractor:   'Replies / comments on a tweet — cookie only',
+  tweet_retweeters_extractor:'Users who retweeted a tweet — cookie only',
+  geo_post_extractor:        'Search tweets by keyword, then plot each author\'s profile location on a map — cookie only',
+  wayback_archive_search:    'Find archived snapshots of an X/Twitter profile or tweet via the Wayback Machine — great for recovering deleted content',
+  multi_source_search:       'Searches Cookie, Xquik API and the Wayback Machine at once and merges the results — each card is labeled with its source. Accepts a keyword, mention, username, or a full URL. Wayback matches a handle or URL directly; Cookie/Xquik treat it as search text (e.g. paste a link to find who\'s tweeted it). Date range below is optional.',
 };
+
+// These tools only work via cookie; API mode is disabled for them
+const COOKIE_ONLY = new Set([
+  'tweet_replies_extractor',
+  'tweet_retweeters_extractor',
+  'geo_post_extractor',
+]);
+
+// These tools don't use the single Mode toggle: wayback needs no auth at all,
+// multi_source_search always fans out across every mode simultaneously.
+const NO_AUTH = new Set([
+  'wayback_archive_search',
+  'multi_source_search',
+]);
 
 const HAS_COUNT = new Set([
   'tweet_search_extractor',
   'follower_explorer',
   'post_extractor',
   'community_post_extractor',
+  'tweet_replies_extractor',
+  'tweet_retweeters_extractor',
+  'geo_post_extractor',
+  'wayback_archive_search',
+  'multi_source_search',
 ]);
 
 function modeHintText() {
@@ -329,37 +747,62 @@ function renderFields() {
   const t = toolType.value;
   toolHint.textContent = HINTS[t] || '';
 
-  // Mode toggle — shown for every tool
-  let html = `
-    <div class="field">
-      <label>Mode</label>
-      <div class="mode-toggle" id="modeToggle">
-        <button type="button" data-mode="api" class="${currentMode === 'api' ? 'active' : ''}">xquik API</button>
-        <button type="button" data-mode="cookie" class="${currentMode === 'cookie' ? 'active' : ''}">Cookie</button>
+  // Cookie-only tools always run in cookie mode
+  if (COOKIE_ONLY.has(t) && currentMode !== 'cookie') currentMode = 'cookie';
+
+  const apiDisabled = COOKIE_ONLY.has(t) ? 'disabled style="opacity:0.35;cursor:not-allowed"' : '';
+
+  // Mode toggle — shown for every tool except the ones needing no auth at all
+  let html = '';
+  if (!NO_AUTH.has(t)) {
+    html += `
+      <div class="field">
+        <label>Mode</label>
+        <div class="mode-toggle" id="modeToggle">
+          <button type="button" data-mode="api" class="${currentMode === 'api' ? 'active' : ''}" ${apiDisabled}>xquik API</button>
+          <button type="button" data-mode="cookie" class="${currentMode === 'cookie' ? 'active' : ''}">Cookie</button>
+        </div>
+        <div class="mode-hint" id="modeHint">${modeHintText()}</div>
       </div>
-      <div class="mode-hint" id="modeHint">${modeHintText()}</div>
-    </div>
-  `;
+    `;
+  }
 
   // Tool-specific input fields
   if (t === 'tweet_search_extractor') {
     html += field('searchQuery', 'Search query', 'bitcoin');
   } else if (t === 'follower_explorer') {
-    html += field('targetUsername', 'Target username', 'elonmusk');
+    html += field('targetUsername', 'Username or User ID', 'elonmusk or 44196397');
   } else if (t === 'article_extractor') {
     html += field('targetTweetId', 'Tweet ID', '1234567890');
   } else if (t === 'community_post_extractor') {
     html += field('targetCommunityId', 'Community ID', '1234567890');
   } else if (t === 'post_extractor') {
-    html += field('targetUsername', 'Target username', 'elonmusk');
+    html += field('targetUsername', 'Username or User ID', 'elonmusk or 44196397');
+  } else if (t === 'tweet_replies_extractor' || t === 'tweet_retweeters_extractor') {
+    html += field('targetTweetId', 'Tweet ID', '1234567890');
+  } else if (t === 'geo_post_extractor') {
+    html += field('searchQuery', 'Search query', 'kopi jakarta');
+  } else if (t === 'wayback_archive_search') {
+    html += field('searchQuery', 'Username or tweet URL', 'elonmusk or https://x.com/user/status/123');
+    html += field('waybackFrom', 'From date (YYYYMMDD, optional)', '20200101');
+    html += field('waybackTo',   'To date (YYYYMMDD, optional)', '20231231');
+  } else if (t === 'multi_source_search') {
+    html += field('searchQuery', 'Keyword, mention, username or URL', 'elonmusk');
+    html += field('dateFrom', 'From date (YYYYMMDD, optional)', '20200101');
+    html += field('dateTo',   'To date (YYYYMMDD, optional)', '20231231');
   }
 
-  // Count — only for tools that support it, visible in cookie mode only
+  // Count — for tools that support it, visible in cookie mode (or for no-auth tools)
   if (HAS_COUNT.has(t)) {
+    const showCount   = NO_AUTH.has(t) || currentMode === 'cookie';
+    const countLabels = {
+      wayback_archive_search: 'Max snapshots',
+      multi_source_search:    'Result count per source (max 200)',
+    };
     html += `
-      <div class="field" id="countWrap" style="${currentMode === 'cookie' ? '' : 'display:none'}">
-        <label>Result count (max 200)</label>
-        <input id="countInput" type="number" value="20" min="1" max="200">
+      <div class="field" id="countWrap" style="${showCount ? '' : 'display:none'}">
+        <label>${countLabels[t] || 'Result count (max 200)'}</label>
+        <input id="countInput" type="number" value="${NO_AUTH.has(t) ? 50 : 20}" min="1" max="200">
       </div>
     `;
   }
@@ -391,6 +834,11 @@ function attachModeListeners() {
 toolType.addEventListener('change', renderFields);
 renderFields();
 
+document.getElementById('viewToggle').addEventListener('click', e => {
+  const btn = e.target.closest('[data-view]');
+  if (btn) setView(btn.dataset.view);
+});
+
 // ── Search / filter results ───────────────────────────────────────────────────
 
 searchInput.addEventListener('input', () => renderCards(currentData, searchInput.value));
@@ -401,9 +849,16 @@ function flatText(obj) {
   return Object.values(obj).map(flatText).join(' ');
 }
 
-const PRIORITY = ['name','username','screen_name','text','full_text','content','title','description','bio','article_text','created_at'];
-const SKIP     = ['profile_image_url','profile_banner_url','entities','extended_entities','urls','media','indices'];
-const CLAMP    = new Set(['text','full_text','content','description','bio','article_text']);
+const PRIORITY  = ['source','account_age_flag','account_age','account_created','retweeted_by_user','retweeted_by_name','retweeted_text','retweeted_by_bio','name','username','screen_name','user','user_id','text','full_text','content','title','description','bio','article_text','post_title','post_text','created_at','in_reply_to_tweet_id','archive_url','preview_image','iso_date','original','statuscode'];
+const SKIP      = ['profile_image_url','profile_banner_url','entities','extended_entities','urls','media','indices'];
+const CLAMP     = new Set(['text','full_text','content','description','bio','article_text','retweeted_text','retweeted_by_bio','post_text']);
+const SOURCE_CLASS = { 'Twitter Cookie': 'src-cookie', 'Xquik API': 'src-xquik', 'Wayback Machine': 'src-wayback' };
+// Keys that link out to a drill-down tool (key → target toolType)
+const DRILLABLE = {
+  reply_count:          'tweet_replies_extractor',
+  retweet_count:        'tweet_retweeters_extractor',
+  in_reply_to_tweet_id: 'tweet_replies_extractor',   // follow thread upward
+};
 
 // ── Media helpers ─────────────────────────────────────────────────────────────
 
@@ -435,14 +890,22 @@ function extractMedia(item) {
 function renderMedia(mediaList) {
   if (!mediaList || !mediaList.length) return '';
   const html = mediaList.map(m => {
-    const badge = m.type === 'video' ? '▶ VIDEO'
-                : m.type === 'animated_gif' ? '▶ GIF' : '';
-    const inner = m.thumb
-      ? `<img src="${esc(m.thumb)}" class="media-thumb" alt="media" loading="lazy">`
-      : '';
-    const badgeHtml = badge ? `<span class="media-badge">${badge}</span>` : '';
-    // photo: opens full-res; video/gif: opens MP4 directly
-    return `<a href="${esc(m.url)}" target="_blank" rel="noopener" class="media-item">${inner}${badgeHtml}</a>`;
+    if (m.type === 'video' || m.type === 'animated_gif') {
+      // Route through the backend proxy to avoid Twitter CDN CORS restrictions
+      const proxied = `/api/video?url=${encodeURIComponent(m.url)}`;
+      const loop    = m.type === 'animated_gif' ? 'loop muted' : '';
+      const poster  = m.thumb ? `poster="${esc(m.thumb)}"` : '';
+      const label   = m.type === 'animated_gif' ? '<span class="media-badge">GIF</span>' : '';
+      return `<div class="media-item">
+        <video class="media-video" controls ${loop} ${poster} preload="none">
+          <source src="${proxied}" type="video/mp4">
+        </video>${label}
+      </div>`;
+    }
+    // photo — click to open full-res in new tab
+    return `<a href="${esc(m.url)}" target="_blank" rel="noopener" class="media-item">
+      <img src="${esc(m.thumb)}" class="media-thumb" alt="media" loading="lazy">
+    </a>`;
   }).join('');
   return `<div class="card-media">${html}</div>`;
 }
@@ -469,12 +932,29 @@ function buildCard(item) {
   if (typeof item !== 'object' || item === null) {
     return `<div class="card"><div class="card-row"><div class="card-val">${esc(String(item))}</div></div></div>`;
   }
+  const tweetId = item.id ? String(item.id) : null;
   const entries = Object.entries(item);
   const pri     = entries.filter(([k]) => PRIORITY.includes(k));
   const rest    = entries.filter(([k]) => !PRIORITY.includes(k) && !SKIP.includes(k));
   const rows    = [...pri, ...rest].slice(0, 14).map(([k, v]) => {
     let display;
-    if (v === null || v === undefined) {
+    // Drillable check runs FIRST — reply_count / retweet_count always get a link
+    // when we have a tweet ID, even if the count is 0 or null (twikit often under-reports)
+    if (DRILLABLE[k] && tweetId) {
+      const _p  = new URLSearchParams({ tool: DRILLABLE[k], id: tweetId, autorun: '1' });
+      const lbl = (v !== null && v !== undefined) ? esc(String(v)) : '—';
+      display = `<a class="drill-link" href="/?${_p}" target="_blank" rel="noopener noreferrer">${lbl} ↗</a>`;
+    } else if (k === 'archive_url' && v) {
+      display = `<a class="drill-link" href="${esc(String(v))}" target="_blank" rel="noopener noreferrer">Open snapshot ↗</a>`;
+    } else if (k === 'preview_image' && v) {
+      display = `<a class="drill-link" href="${esc(String(v))}" target="_blank" rel="noopener noreferrer">Preview image ↗</a>`;
+    } else if (k === 'source' && v) {
+      const cls = SOURCE_CLASS[v] || '';
+      display = `<span class="source-badge ${cls}">${esc(String(v))}</span>`;
+    } else if (k === 'account_age_flag' && v) {
+      const label = { new: 'New account', recent: 'Recent account', established: 'Established account' }[v] || v;
+      display = `<span class="age-badge age-${esc(String(v))}">${esc(label)}</span>`;
+    } else if (v === null || v === undefined) {
       display = `<span style="color:var(--muted)">—</span>`;
     } else if (typeof v === 'object') {
       const s = JSON.stringify(v);
@@ -483,7 +963,8 @@ function buildCard(item) {
       const cls = CLAMP.has(k) ? ' clamp' : '';
       display = `<span class="${cls}">${esc(String(v))}</span>`;
     }
-    return `<div class="card-row"><div class="card-key">${esc(k)}</div><div class="card-val">${display}</div></div>`;
+    const rtCls = k.startsWith('retweeted_') ? ' rt-origin' : '';
+    return `<div class="card-row${rtCls}"><div class="card-key">${esc(k)}</div><div class="card-val">${display}</div></div>`;
   }).join('');
   const media = extractMedia(item);
   return `<div class="card">${rows}${renderMedia(media)}</div>`;
@@ -497,20 +978,35 @@ runBtn.addEventListener('click', async () => {
 
   const payload = { toolType: t, mode: currentMode, count };
 
-  if (t === 'tweet_search_extractor')   payload.searchQuery       = val('searchQuery');
-  if (t === 'follower_explorer')        payload.targetUsername    = val('targetUsername');
-  if (t === 'article_extractor')        payload.targetTweetId     = val('targetTweetId');
-  if (t === 'community_post_extractor') payload.targetCommunityId = val('targetCommunityId');
-  if (t === 'post_extractor')           payload.targetUsername    = val('targetUsername');
+  if (t === 'tweet_search_extractor')                             payload.searchQuery       = val('searchQuery');
+  if (t === 'follower_explorer' || t === 'post_extractor')        payload.targetUsername    = val('targetUsername');
+  if (t === 'community_post_extractor')                           payload.targetCommunityId = val('targetCommunityId');
+  if (t === 'article_extractor' ||
+      t === 'tweet_replies_extractor' ||
+      t === 'tweet_retweeters_extractor')                         payload.targetTweetId     = val('targetTweetId');
+  if (t === 'geo_post_extractor')                                  payload.searchQuery       = val('searchQuery');
+  if (t === 'wayback_archive_search') {
+    payload.searchQuery = val('searchQuery');
+    payload.waybackFrom = val('waybackFrom');
+    payload.waybackTo   = val('waybackTo');
+  }
+  if (t === 'multi_source_search') {
+    payload.searchQuery = val('searchQuery');
+    payload.dateFrom    = val('dateFrom');
+    payload.dateTo      = val('dateTo');
+  }
 
-  runBtn.disabled           = true;
-  runBtn.textContent        = 'Running…';
-  statusBadge.textContent   = 'running';
-  statusBadge.className     = 'badge running';
-  searchInput.style.display = 'none';
-  resultCount.textContent   = '';
-  currentData               = null;
-  resultBox.innerHTML       = '<div class="empty-state">Fetching data…</div>';
+  currentPayload = payload;
+
+  runBtn.disabled            = true;
+  runBtn.textContent         = 'Running…';
+  statusBadge.textContent    = 'running';
+  statusBadge.className      = 'badge running';
+  searchInput.style.display  = 'none';
+  downloadBtn.style.display  = 'none';
+  resultCount.textContent    = '';
+  currentData                = null;
+  resultBox.innerHTML        = '<div class="empty-state">Fetching data…</div>';
 
   try {
     const res  = await fetch('/api/run', {
@@ -521,12 +1017,37 @@ runBtn.addEventListener('click', async () => {
     const json = await res.json();
 
     if (json.ok) {
-      statusBadge.textContent   = 'done';
-      statusBadge.className     = 'badge ok';
-      currentData               = json.data;
-      const isMany              = Array.isArray(json.data) && json.data.length > 1;
-      searchInput.style.display = isMany ? '' : 'none';
+      statusBadge.textContent    = 'done';
+      statusBadge.className      = 'badge ok';
+      currentData                = json.data;
+      const isMany               = Array.isArray(json.data) && json.data.length > 1;
+      downloadBtn.style.display  = '';
+
+      // Show map toggle only for geo results; reset to card view on each run
+      const isGeo = (t === 'geo_post_extractor');
+      const viewToggle = document.getElementById('viewToggle');
+      viewToggle.style.display = isGeo ? '' : 'none';
+      if (isGeo) {
+        // Reset: always start in cards view, invalidate any existing map
+        setView('cards');
+        if (leafletMap) { leafletMap.remove(); leafletMap = null; markerLayer = null; }
+      } else {
+        document.getElementById('mapContainer').style.display = 'none';
+        document.getElementById('resultBox').style.display = '';
+      }
+
+      searchInput.style.display = (isMany && !isGeo) ? '' : 'none';
       renderCards(currentData);
+
+      if (autoArchive) {
+        const queryInfo = { ...currentPayload };
+        delete queryInfo.toolType;
+        delete queryInfo.mode;
+        delete queryInfo.count;
+        triggerArchive(json.data, t, queryInfo);
+      } else {
+        archiveBar.style.display = 'none';
+      }
     } else {
       statusBadge.textContent = 'error';
       statusBadge.className   = 'badge err';
@@ -542,8 +1063,280 @@ runBtn.addEventListener('click', async () => {
   }
 });
 
+// ── Auto Archive ─────────────────────────────────────────────────────────────
+
+archiveToggle.addEventListener('click', () => {
+  autoArchive = !autoArchive;
+  toggleTrack.classList.toggle('on', autoArchive);
+  if (autoArchive) loadRecentArchives();
+});
+
+async function triggerArchive(data, toolType, queryInfo) {
+  archiveBar.style.display = '';
+  archiveBar.innerHTML     = '<span>Archiving…</span><div class="archive-bar-fill-wrap"><div class="archive-bar-fill" style="width:0%"></div></div>';
+
+  const res  = await fetch('/api/archive', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ data, toolType, queryInfo }),
+  });
+  const json = await res.json();
+  if (!json.ok) { archiveBar.innerHTML = `<span style="color:var(--danger)">Archive failed: ${esc(json.error)}</span>`; return; }
+
+  pollArchive(json.archiveId);
+}
+
+function pollArchive(archiveId) {
+  const interval = setInterval(async () => {
+    const res  = await fetch(`/api/archive/${archiveId}/status`);
+    const json = await res.json();
+    if (!json.ok) { clearInterval(interval); return; }
+
+    const { status, progress, total } = json;
+    const fill = document.querySelector('.archive-bar-fill');
+
+    if (status === 'saving') {
+      archiveBar.querySelector('span').textContent = 'Saving results…';
+    } else if (status === 'downloading') {
+      const pct = total > 0 ? Math.round((progress / total) * 100) : 0;
+      archiveBar.querySelector('span').textContent = `Downloading media ${progress}/${total}`;
+      if (fill) fill.style.width = pct + '%';
+    } else if (status === 'done') {
+      clearInterval(interval);
+      if (fill) fill.style.width = '100%';
+      archiveBar.querySelector('span').textContent = `Archived ✓  (${total} media files saved)`;
+      loadRecentArchives();
+    }
+  }, 1200);
+}
+
+async function loadRecentArchives() {
+  const res  = await fetch('/api/archive/list');
+  const json = await res.json();
+  if (!json.ok || !json.archives.length) { archivesSection.style.display = 'none'; return; }
+
+  archivesSection.style.display = '';
+  archivesList.innerHTML = json.archives.slice(0, 6).map(a => `
+    <div class="archive-item">
+      <div class="archive-item-tool">${esc(a.tool || '?')}</div>
+      <div class="archive-item-meta">${esc(a.archived_at || '')} · ${a.total_items || 0} items · ${a.media_count || 0} media</div>
+    </div>
+  `).join('');
+}
+
+// ── Download JSON ─────────────────────────────────────────────────────────────
+
+downloadBtn.addEventListener('click', () => {
+  if (!currentData) return;
+  const tool      = toolType.value;
+  const timestamp = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
+  const filename  = `${tool}_${timestamp}.json`;
+  const blob      = new Blob([JSON.stringify(currentData, null, 2)], { type: 'application/json' });
+  const url       = URL.createObjectURL(blob);
+  const a         = document.createElement('a');
+  a.href          = url;
+  a.download      = filename;
+  a.click();
+  URL.revokeObjectURL(url);
+});
+
 function val(id) { const el = document.getElementById(id); return el ? el.value.trim() : ''; }
 function esc(s)  { return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[m]); }
+
+// ── Map view (Leaflet) ────────────────────────────────────────────────────────
+
+let leafletMap  = null;
+let markerLayer = null;
+
+// Nominatim geocoding cache + rate-limiter (max 1 req/s per ToS)
+const geoCache          = new Map();
+let   lastGeoReqTime    = 0;
+
+async function geocodeLocation(locStr) {
+  const key = locStr.toLowerCase().trim();
+  if (geoCache.has(key)) return geoCache.get(key);
+
+  const wait = Math.max(0, 1100 - (Date.now() - lastGeoReqTime));
+  if (wait > 0) await new Promise(r => setTimeout(r, wait));
+  lastGeoReqTime = Date.now();
+
+  try {
+    const res  = await fetch(
+      `https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(locStr)}&format=json&limit=1`,
+      { headers: { 'Accept-Language': 'en' } },
+    );
+    const json = await res.json();
+    const result = (json && json[0])
+      ? { lat: parseFloat(json[0].lat), lon: parseFloat(json[0].lon) }
+      : null;
+    geoCache.set(key, result);
+    return result;
+  } catch (_) {
+    geoCache.set(key, null);
+    return null;
+  }
+}
+
+function setView(v) {
+  const btns    = document.querySelectorAll('#viewToggle .view-btn');
+  const isCards = (v === 'cards');
+  btns[0].classList.toggle('active', isCards);
+  btns[1].classList.toggle('active', !isCards);
+
+  const resultBox    = document.getElementById('resultBox');
+  const mapContainer = document.getElementById('mapContainer');
+  const mapStatus    = document.getElementById('mapStatus');
+  const searchInput  = document.getElementById('searchInput');
+
+  if (isCards) {
+    mapContainer.style.display = 'none';
+    mapStatus.style.display    = 'none';
+    resultBox.style.display    = '';
+    const isMany = Array.isArray(currentData) && currentData.length > 1;
+    searchInput.style.display  = isMany ? '' : 'none';
+  } else {
+    resultBox.style.display    = 'none';
+    searchInput.style.display  = 'none';
+    mapContainer.style.display = '';
+    mapStatus.style.display    = '';
+    initMap();
+    updateMap();
+  }
+}
+
+function initMap() {
+  if (leafletMap) { leafletMap.invalidateSize(); return; }
+
+  const mapContainer = document.getElementById('mapContainer');
+  leafletMap = L.map(mapContainer, { preferCanvas: true });
+
+  const standard  = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 19,
+  });
+  const satellite = L.tileLayer(
+    'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, USGS, NOAA',
+    maxZoom: 19,
+  });
+  const terrain = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+    attribution: '© <a href="https://opentopomap.org">OpenTopoMap</a> contributors',
+    maxZoom: 17,
+  });
+
+  standard.addTo(leafletMap);
+  L.control.layers({ Standard: standard, Satellite: satellite, Terrain: terrain }).addTo(leafletMap);
+  markerLayer = L.layerGroup().addTo(leafletMap);
+}
+
+async function updateMap() {
+  if (!leafletMap) return;
+  markerLayer.clearLayers();
+
+  const mapStatus = document.getElementById('mapStatus');
+  const items     = Array.isArray(currentData) ? currentData : (currentData ? [currentData] : []);
+
+  // Collect tweets that have a non-empty profile location
+  const withLoc = items.filter(i => i.user_location && i.user_location.trim());
+  if (!withLoc.length) {
+    mapStatus.textContent = 'No profile locations found in results — users may not have set a location.';
+    leafletMap.setView([20, 10], 2);
+    return;
+  }
+
+  // Deduplicate locations to minimise Nominatim calls
+  const uniqueLocs = [...new Set(withLoc.map(i => i.user_location.trim()))];
+  mapStatus.textContent = `Geocoding 0 / ${uniqueLocs.length} locations…`;
+
+  let done = 0;
+  for (const loc of uniqueLocs) {
+    await geocodeLocation(loc);
+    done++;
+    mapStatus.textContent = `Geocoding ${done} / ${uniqueLocs.length} locations…`;
+  }
+
+  // Place a marker for every tweet whose location resolved
+  let placed = 0;
+  for (const item of withLoc) {
+    const loc    = item.user_location.trim();
+    const coords = geoCache.get(loc.toLowerCase().trim());
+    if (!coords) continue;
+
+    // Small random jitter so stacked markers from the same city are visible
+    const jitter = () => (Math.random() - 0.5) * 0.018;
+    const lat = coords.lat + jitter();
+    const lon = coords.lon + jitter();
+
+    const user     = esc(item.user || '?');
+    const text     = esc((item.text || item.full_text || '').slice(0, 220));
+    const date     = esc(item.created_at || '');
+    const locLabel = esc(loc);
+    const tweetUrl = (item.id && item.user)
+      ? `https://x.com/${item.user}/status/${item.id}` : null;
+
+    const popup = `<div style="max-width:260px">
+      <div style="font-weight:600;margin-bottom:4px">@${user}</div>
+      <div style="font-size:11px;color:#8890a4;margin-bottom:5px">&#128205; ${locLabel}</div>
+      <div style="line-height:1.45;margin-bottom:6px">${text}</div>
+      <div style="font-size:10px;color:#8890a4">${date}</div>
+      ${tweetUrl
+        ? `<a href="${esc(tweetUrl)}" target="_blank" rel="noopener"
+             style="color:#818cf8;font-size:11px;display:block;margin-top:5px">Open tweet &#8599;</a>`
+        : ''}
+    </div>`;
+
+    L.circleMarker([lat, lon], {
+      radius: 8, fillColor: '#5865f2',
+      color: '#fff', weight: 1.5, fillOpacity: 0.88,
+    }).bindPopup(popup, { maxWidth: 280 }).addTo(markerLayer);
+    placed++;
+  }
+
+  // Summary
+  const skipped = withLoc.length - placed;
+  mapStatus.textContent = placed > 0
+    ? `${placed} tweet${placed !== 1 ? 's' : ''} mapped across ${uniqueLocs.length} location${uniqueLocs.length !== 1 ? 's' : ''}` +
+      (skipped ? ` · ${skipped} could not be geocoded` : '')
+    : 'None of the profile locations could be geocoded.';
+
+  // Fit map to placed markers
+  const pts = [];
+  markerLayer.eachLayer(m => { if (m.getLatLng) pts.push(m.getLatLng()); });
+  if (pts.length > 1)      leafletMap.fitBounds(pts, { padding: [48, 48] });
+  else if (pts.length === 1) leafletMap.setView(pts[0], 9);
+  else                       leafletMap.setView([20, 10], 2);
+}
+
+// ── Auto-run from URL params (drill-down new-tab entry point) ─────────────────
+
+(function () {
+  const p    = new URLSearchParams(location.search);
+  if (p.get('autorun') !== '1') return;
+
+  const tool = p.get('tool');
+  const id   = p.get('id');
+  if (!tool || !id) return;
+
+  // Select tool and re-render fields (also locks mode to cookie for cookie-only tools)
+  toolType.value = tool;
+  renderFields();
+
+  const idInput = document.getElementById('targetTweetId');
+  if (idInput) idInput.value = id;
+
+  // Restore auto-archive state if the parent tab had it on
+  if (p.get('archive') === '1') {
+    autoArchive = true;
+    toggleTrack.classList.add('on');
+    loadRecentArchives();
+  }
+
+  // Kick off the run automatically
+  runBtn.click();
+
+  // Clean up the URL so it doesn't confuse on reload
+  history.replaceState(null, '', location.pathname);
+})();
 </script>
 
 </body>

@@ -4,7 +4,9 @@
 
 1. Xquik API 
 2. Cookie (your account cookie session) 
-3. Wayback Machine 
+3. Wayback Machine (Cdx API)
+4. Monitoring (Soon)
+5. MCP (Soon)
 
 ## Setup
 
@@ -52,8 +54,14 @@ Dir Output
 
 # Help 
 
-About snowflake ID -> Twitter userid : https://en.wikipedia.org/wiki/Snowflake_ID
+About SnowflakeID -> Twitter userid : https://en.wikipedia.org/wiki/Snowflake_ID
 
 About paramater was provided in data and dump with json file type 
 
 <img width="2555" height="1105" alt="image" src="https://github.com/user-attachments/assets/0646b1e8-c46e-49d5-a29f-f511cea9ee47" />
+
+Xquik API DOC
+
+Offc doc: https://docs.xquik.com/api-reference/overview
+
+Soon i will check more detail about Twitter or X mechanism and business logic also endpoint API was listed in Mobile and Web 

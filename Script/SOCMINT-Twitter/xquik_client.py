@@ -11,7 +11,7 @@ class XquikError(Exception):
 
 def load_config(path: str = CONFIG_PATH) -> configparser.ConfigParser:
     if not os.path.exists(path):
-        raise XquikError(f"Config tidak ditemukan: {path}")
+        raise XquikError(f"Config are not set: {path}")
     cfg = configparser.ConfigParser()
     cfg.read(path)
     return cfg
@@ -26,7 +26,7 @@ class XquikClient:
         ).strip()
 
         if not self.api_key or self.api_key == "xq_YOUR_KEY":
-            raise XquikError("api_key belum diisi di config.ini [xquik]")
+            raise XquikError("No API key provided. Please check config.ini")
 
     def _post(self, payload: dict) -> dict:
         headers = {
@@ -36,7 +36,7 @@ class XquikClient:
         try:
             resp = requests.post(self.base_url, headers=headers, json=payload, timeout=30)
         except requests.RequestException as e:
-            raise XquikError(f"Request gagal: {e}") from e
+            raise XquikError(f"Request Failed: {e}") from e
 
         if resp.status_code >= 400:
             raise XquikError(f"xquik API error {resp.status_code}: {resp.text}")
@@ -44,7 +44,7 @@ class XquikClient:
         try:
             return resp.json()
         except ValueError as e:
-            raise XquikError(f"Response bukan JSON valid: {resp.text[:300]}") from e
+            raise XquikError(f"Response are not json: {resp.text[:300]}") from e
 
     def tweet_search(self, search_query: str) -> dict:
         return self._post({"toolType": "tweet_search_extractor", "searchQuery": search_query})
@@ -61,7 +61,7 @@ class XquikClient:
         )
 
     def post_extractor(self, target_username: str) -> dict:
-        """User timeline lewat xquik (pakai kuota API)."""
+        """User timeline via Xquik"""
         return self._post({"toolType": "post_extractor", "targetUsername": target_username})
 
 

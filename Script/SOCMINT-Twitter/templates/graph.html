@@ -271,22 +271,45 @@
   #infoActions .btn { width: 100%; text-align: center; justify-content: center; }
   #infoActions a.btn { text-decoration: none; display: block; }
 
-  /* ── Legend ── */
-  #legend {
+  /* ── Legend / Help popup ── */
+  #legendToggle {
     position: absolute;
     bottom: 14px;
     left: 14px;
-    background: rgba(26,29,39,0.93);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 11;
+    transition: all 0.15s;
+  }
+  #legendToggle:hover { color: var(--text); border-color: var(--accent); }
+  #legend {
+    position: absolute;
+    bottom: 50px;
+    left: 14px;
+    background: rgba(26,29,39,0.96);
     border: 1px solid var(--border);
     border-radius: 7px;
-    padding: 9px 13px;
+    padding: 10px 14px;
     font-size: 11px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    pointer-events: none;
+    gap: 6px;
     z-index: 10;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.5);
+    width: 260px;
+    max-height: 70vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
   }
+  #legend.hidden { display: none; }
   .leg-row { display: flex; align-items: center; gap: 8px; color: var(--muted); }
   .leg-icon {
     width: 14px;
@@ -298,6 +321,62 @@
   .leg-icon.tweet    { background: var(--accent-bg); border-color: var(--accent); border-radius: 2px; }
   .leg-icon.reply    { background: rgba(34,197,94,0.12); border-color: var(--success); border-radius: 2px; }
   .leg-icon.user     { background: var(--purple-bg); border-color: var(--purple); border-radius: 50%; }
+  .leg-icon.wayback  { background: #2a1f08; border-color: var(--warn); border-radius: 2px; }
+  .leg-icon.viewed   { background: #ffffff; border-color: #c7c7c7; border-radius: 2px; }
+  .leg-heading {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    margin: 6px 0 0;
+  }
+  .leg-note { color: var(--muted); font-size: 10px; line-height: 1.5; max-width: 220px; margin-top: 4px; }
+  .param-heading {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    margin: 8px 0 3px;
+    padding-top: 6px;
+    border-top: 1px solid var(--border);
+  }
+  .param-heading:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+  .param-row { color: var(--muted); font-size: 10.5px; line-height: 1.5; margin: 2px 0; }
+  .param-key {
+    display: inline-block;
+    color: var(--accent);
+    background: var(--accent-bg);
+    font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+    font-size: 10px;
+    padding: 1px 5px;
+    border-radius: 4px;
+    margin-right: 4px;
+  }
+
+  /* ── Source badges (info panel) ── */
+  .source-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+  }
+  .source-badge.src-cookie  { color: #a78bfa; border-color: #4c3a8f; background: var(--purple-bg); }
+  .source-badge.src-xquik   { color: #8891f7; border-color: #34348a; background: var(--accent-bg); }
+  .source-badge.src-wayback { color: var(--warn); border-color: #78350f; background: #1c0e02; }
+
+  .age-badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+  }
+  .age-badge.age-new         { color: var(--danger);  border-color: #7f1d1d; background: #1c0505; }
+  .age-badge.age-recent      { color: var(--warn);    border-color: #78350f; background: #1c0e02; }
+  .age-badge.age-established { color: var(--success); border-color: #14532d; background: #052011; }
 
   /* ── Status bar ── */
   #statusBar {
@@ -382,12 +461,16 @@
     <option value="tweet_replies_extractor">Tweet Replies [Cookie]</option>
     <option value="tweet_retweeters_extractor">Tweet Retweeters [Cookie]</option>
     <option value="geo_post_extractor">Geo Post Search [Cookie]</option>
+    <option value="wayback_archive_search">Wayback Archive Search</option>
+    <option value="multi_source_search">Multi Source Search [All]</option>
   </select>
   <select id="modeSelect">
     <option value="cookie">Cookie</option>
     <option value="api">API</option>
   </select>
   <input id="queryInput" type="text" placeholder="Search query…" spellcheck="false" autocomplete="off">
+  <input id="dateFromInput" type="text" placeholder="From YYYYMMDD" title="Optional start date" maxlength="8" style="width:100px;display:none">
+  <input id="dateToInput"   type="text" placeholder="To YYYYMMDD"   title="Optional end date"   maxlength="8" style="width:100px;display:none">
   <input id="countInput" type="number" value="20" min="1" max="200" title="Result count">
   <span id="nodeCount">0 nodes</span>
   <button id="btnSearch"     class="btn btn-primary">Search</button>
@@ -424,12 +507,29 @@
   </div>
 </div>
 
-<!-- Legend (floats over cy, bottom-left) -->
-<div id="legend">
+<!-- Legend / help popup (floats over cy, bottom-left) -->
+<button id="legendToggle" aria-label="Legend / help" title="Legend / help">?</button>
+<div id="legend" class="hidden">
   <div class="leg-row"><div class="leg-icon search"></div>  Search root</div>
   <div class="leg-row"><div class="leg-icon tweet"></div>   Tweet</div>
   <div class="leg-row"><div class="leg-icon reply"></div>   Reply</div>
   <div class="leg-row"><div class="leg-icon user"></div>    User / Retweeter</div>
+  <div class="leg-row"><div class="leg-icon wayback"></div> Wayback snapshot</div>
+  <div class="leg-row"><div class="leg-icon viewed"></div>  Viewed (clicked)</div>
+
+  <div class="leg-heading">Source (info panel)</div>
+  <div class="leg-row"><span class="source-badge src-cookie">Cookie</span></div>
+  <div class="leg-row"><span class="source-badge src-xquik">Xquik API</span></div>
+  <div class="leg-row"><span class="source-badge src-wayback">Wayback Machine</span></div>
+
+  <div class="leg-heading">Account age (info panel)</div>
+  <div class="leg-row"><span class="age-badge age-new">New</span> &lt; 30 days</div>
+  <div class="leg-row"><span class="age-badge age-recent">Recent</span> &lt; 1 year</div>
+  <div class="leg-row"><span class="age-badge age-established">Established</span> 1+ year</div>
+  <div class="leg-note">Decoded from the account's numeric ID. "~" = estimated (pre-Snowflake id); "Unknown" = id in an undatable gap.</div>
+
+  <div class="leg-heading">What each parameter means</div>
+  {% include "_field_glossary.html" %}
 </div>
 
 <script src="https://unpkg.com/cytoscape@3.28.1/dist/cytoscape.min.js" crossorigin="anonymous"></script>
@@ -450,6 +550,7 @@ const CY_STYLE = [
       label: 'data(label)',
       color: '#e8eaf0',
       'font-size': '11px',
+      'min-zoomed-font-size': 7,
       'text-valign': 'bottom',
       'text-halign': 'center',
       'text-margin-y': '9px',
@@ -457,81 +558,79 @@ const CY_STYLE = [
       height: '46px',
       'font-family': '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
   }},
-  { selector: 'node[type="tweet"]', style: {
+  // Tweet/reply/wayback cards: fixed, compact footprint regardless of content —
+  // text-wrap 'ellipsis' truncates long post text to fit instead of growing the
+  // box or overflowing it, which keeps dense graphs (100s of nodes) readable.
+  // Full untruncated text is always available in the side panel on click.
+  { selector: 'node[type="tweet"], node[type="reply"], node[type="wayback"]', style: {
       shape: 'roundrectangle',
+      label: 'data(label)',
+      color: '#e8eaf0',
+      'font-size': '9px',
+      'min-zoomed-font-size': 7,
+      'text-valign': 'center',
+      'text-halign': 'center',
+      'text-wrap': 'ellipsis',
+      'text-max-width': '128px',
+      'border-width': '2px',
+      width: '148px',
+      height: '52px',
+      'font-family': '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+  }},
+  { selector: 'node[type="tweet"]', style: {
       'background-color': '#1e2240',
       'border-color': '#5865f2',
-      'border-width': '2px',
-      label: 'data(label)',
-      color: '#e8eaf0',
-      'font-size': '9px',
-      'text-valign': 'center',
-      'text-halign': 'center',
-      'text-wrap': 'wrap',
-      'text-max-width': '138px',
-      width: '158px',
-      height: '62px',
-      'font-family': '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
   }},
   { selector: 'node[type="reply"]', style: {
-      shape: 'roundrectangle',
       'background-color': '#0d2018',
       'border-color': '#22c55e',
-      'border-width': '2px',
-      label: 'data(label)',
-      color: '#e8eaf0',
-      'font-size': '9px',
-      'text-valign': 'center',
-      'text-halign': 'center',
-      'text-wrap': 'wrap',
-      'text-max-width': '138px',
-      width: '158px',
-      height: '62px',
-      'font-family': '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
   }},
-  { selector: 'node[type="retweeter"]', style: {
-      shape: 'ellipse',
-      'background-color': '#1e1535',
-      'border-color': '#8b5cf6',
-      'border-width': '2px',
-      label: 'data(label)',
-      color: '#e8eaf0',
-      'font-size': '10px',
-      'text-valign': 'bottom',
-      'text-halign': 'center',
-      'text-margin-y': '7px',
-      width: '74px',
-      height: '74px',
-      'font-family': '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-  }},
-  { selector: 'node[type="user"]', style: {
-      shape: 'ellipse',
-      'background-color': '#1e1535',
-      'border-color': '#8b5cf6',
-      'border-width': '2px',
-      label: 'data(label)',
-      color: '#e8eaf0',
-      'font-size': '10px',
-      'text-valign': 'bottom',
-      'text-halign': 'center',
-      'text-margin-y': '7px',
-      width: '74px',
-      height: '74px',
-      'font-family': '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
-  }},
-  { selector: 'node:selected', style: {
+  { selector: 'node[type="wayback"]', style: {
+      'background-color': '#2a1f08',
       'border-color': '#f59e0b',
-      'border-width': '3px',
-      'background-color': '#2a2510',
   }},
+  { selector: 'node[type="retweeter"], node[type="user"]', style: {
+      shape: 'ellipse',
+      'background-color': '#1e1535',
+      'border-color': '#8b5cf6',
+      'border-width': '2px',
+      label: 'data(label)',
+      color: '#e8eaf0',
+      'font-size': '10px',
+      'min-zoomed-font-size': 7,
+      'text-valign': 'bottom',
+      'text-halign': 'center',
+      'text-margin-y': '7px',
+      'text-wrap': 'ellipsis',
+      'text-max-width': '90px',
+      width: '68px',
+      height: '68px',
+      'font-family': '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+  }},
+  // Viewed marker — set once a node has been clicked/inspected. Deliberately
+  // plain white with no other color coding so it reads as one thing: "seen".
+  // Placed after the type selectors so it always wins on background/border.
+  { selector: 'node[?viewed][type="tweet"], node[?viewed][type="reply"], node[?viewed][type="wayback"]', style: {
+      'background-color': '#ffffff',
+      'border-color': '#c7c7c7',
+      color: '#0f1117',
+  }},
+  { selector: 'node[?viewed][type="search"], node[?viewed][type="user"], node[?viewed][type="retweeter"]', style: {
+      'background-color': '#ffffff',
+      'border-color': '#c7c7c7',
+  }},
+  // Softer, thinner and semi-transparent — a hub with many edges (a popular
+  // tweet's replies, a big multi-source search) stays legible instead of
+  // turning into a bright white tangle.
   { selector: 'edge', style: {
       'line-color': '#FFFFFF',
       'line-style': 'dashed',
-      width: '1.5px',
+      'line-opacity': 1.0,
+      width: '1.1px',
       'target-arrow-color': '#FFFFFF',
       'target-arrow-shape': 'triangle',
-      'curve-style': 'bezier',
       'arrow-scale': 1.0,
+      'curve-style': 'bezier',
   }},
 ];
 
@@ -545,10 +644,15 @@ function init() {
     maxZoom: 4,
     wheelSensitivity: 0.25,
     boxSelectionEnabled: false,
+    // Keep panning/zooming smooth once a graph has hundreds of nodes/edges —
+    // edges & a rasterized texture stand in for the full render mid-gesture.
+    hideEdgesOnViewport: true,
+    textureOnViewport: true,
   });
 
   cy.on('tap', 'node', function (evt) {
     selectedNode = evt.target;
+    selectedNode.data('viewed', true);
     showPanel(selectedNode.data());
   });
 
@@ -566,11 +670,24 @@ function init() {
   document.addEventListener('click', function() { navMenu.classList.add('hidden'); });
   navMenu.addEventListener('click', function(e) { e.stopPropagation(); });
 
+  // Legend / help popup
+  var legendBtn   = document.getElementById('legendToggle');
+  var legendPopup = document.getElementById('legend');
+  legendBtn.addEventListener('click', function (e) {
+    e.stopPropagation();
+    legendPopup.classList.toggle('hidden');
+  });
+  document.addEventListener('click', function () { legendPopup.classList.add('hidden'); });
+  legendPopup.addEventListener('click', function (e) { e.stopPropagation(); });
+
   document.getElementById('btnSearch').addEventListener('click', runSearch);
   document.getElementById('queryInput').addEventListener('keydown', function (e) {
     if (e.key === 'Enter') runSearch();
   });
-  document.getElementById('toolSelect').addEventListener('change', updatePlaceholder);
+  document.getElementById('toolSelect').addEventListener('change', function () {
+    updatePlaceholder();
+    updateModeVisibility();
+  });
   document.getElementById('btnArchiveAll').addEventListener('click', archiveAll);
   document.getElementById('btnDump').addEventListener('click', dumpJSON);
   document.getElementById('btnClear').addEventListener('click', clearGraph);
@@ -583,6 +700,7 @@ function init() {
   });
 
   updatePlaceholder();
+  updateModeVisibility();
 }
 
 // ── Placeholder by tool type ──────────────────────────────────────────────────
@@ -596,9 +714,24 @@ function updatePlaceholder() {
     tweet_replies_extractor:    'Tweet ID…',
     tweet_retweeters_extractor: 'Tweet ID…',
     geo_post_extractor:         'Keyword (geocodes profile location)…',
+    wayback_archive_search:     'Username or tweet URL…',
+    multi_source_search:        'Keyword, mention, username or URL…',
   };
   var tool = document.getElementById('toolSelect').value;
   document.getElementById('queryInput').placeholder = map[tool] || 'Query…';
+}
+
+// These tools don't use the Cookie/API mode select: wayback needs no auth at
+// all, multi_source_search always fans out across every mode simultaneously.
+// Both also accept an optional YYYYMMDD date range to narrow results.
+var NO_AUTH_TOOLS = ['wayback_archive_search', 'multi_source_search'];
+
+function updateModeVisibility() {
+  var tool = document.getElementById('toolSelect').value;
+  var show = NO_AUTH_TOOLS.indexOf(tool) !== -1;
+  document.getElementById('modeSelect').style.display    = show ? 'none' : '';
+  document.getElementById('dateFromInput').style.display = show ? '' : 'none';
+  document.getElementById('dateToInput').style.display    = show ? '' : 'none';
 }
 
 // ── Status bar ────────────────────────────────────────────────────────────────
@@ -624,7 +757,8 @@ function updateNodeCount() {
 // ── API helpers ───────────────────────────────────────────────────────────────
 function buildBody(tool, query, count, mode) {
   var body = { toolType: tool, mode: mode, count: count };
-  if (tool === 'tweet_search_extractor' || tool === 'geo_post_extractor') {
+  if (tool === 'tweet_search_extractor' || tool === 'geo_post_extractor' ||
+      tool === 'wayback_archive_search' || tool === 'multi_source_search') {
     body.searchQuery = query;
   } else if (tool === 'follower_explorer' || tool === 'post_extractor') {
     body.targetUsername = query;
@@ -636,6 +770,18 @@ function buildBody(tool, query, count, mode) {
     body.targetTweetId = query;
   } else if (tool === 'community_post_extractor') {
     body.targetCommunityId = query;
+  }
+
+  if (tool === 'wayback_archive_search' || tool === 'multi_source_search') {
+    var from = document.getElementById('dateFromInput').value.trim();
+    var to   = document.getElementById('dateToInput').value.trim();
+    if (tool === 'wayback_archive_search') {
+      if (from) body.waybackFrom = from;
+      if (to)   body.waybackTo   = to;
+    } else {
+      if (from) body.dateFrom = from;
+      if (to)   body.dateTo   = to;
+    }
   }
   return body;
 }
@@ -657,16 +803,32 @@ function makeLabel(item, type) {
     var handle = item.screen_name || item.user || '';
     return handle ? '@' + handle : 'Unknown';
   }
+  if (type === 'wayback') {
+    var snap = (item.post_title || item.post_text || item.original || 'Snapshot').replace(/\s+/g, ' ').trim();
+    return snap.length > 60 ? snap.substring(0, 60) + '…' : snap;
+  }
   var text = (item.text || item.retweeted_text || '').replace(/\s+/g, ' ').trim();
   return text.length > 60 ? text.substring(0, 60) + '…' : (text || ('Tweet ' + (item.id || '?')));
 }
 
+// Per-item node type — multi_source_search mixes live tweets with Wayback
+// snapshots in one result set, so the type has to be resolved per item rather
+// than fixed for the whole tool/search.
+function resolveNodeType(tool, item) {
+  if (tool === 'follower_explorer') return 'user';
+  if (tool === 'tweet_retweeters_extractor') return 'retweeter';
+  if (tool === 'wayback_archive_search') return 'wayback';
+  if (tool === 'multi_source_search') return item.source === 'Wayback Machine' ? 'wayback' : 'tweet';
+  return 'tweet';
+}
+
 // ── Graph operations ──────────────────────────────────────────────────────────
-function addNodes(items, nodeType, parentId) {
+function addNodes(items, nodeTypeOrFn, parentId) {
   var added = 0;
   items.forEach(function (item, i) {
-    var tweetId = String(item.id || '');
-    var cyId    = tweetId ? 'n_' + tweetId : 'n_' + Date.now() + '_' + i;
+    var nodeType = typeof nodeTypeOrFn === 'function' ? nodeTypeOrFn(item) : nodeTypeOrFn;
+    var tweetId  = String(item.id || '');
+    var cyId     = tweetId ? 'n_' + tweetId : 'n_' + Date.now() + '_' + i;
 
     if (cy.getElementById(cyId).length) {
       if (parentId) addEdge(parentId, cyId);
@@ -733,12 +895,7 @@ async function runSearch() {
     var shortQ   = query.length > 40 ? query.substring(0, 40) + '…' : query;
     cy.add({ data: { id: searchId, type: 'search', label: shortQ, tweetId: '', raw: { query: query } } });
 
-    // Node type by tool
-    var nodeType = 'tweet';
-    if (tool === 'follower_explorer') nodeType = 'user';
-    else if (tool === 'tweet_retweeters_extractor') nodeType = 'retweeter';
-
-    var added = addNodes(items, nodeType, searchId);
+    var added = addNodes(items, function (item) { return resolveNodeType(tool, item); }, searchId);
     runLayout(true, true);
     updateNodeCount();
     setStatus('Done — ' + items.length + ' result(s) (' + added + ' new nodes)');
@@ -790,15 +947,19 @@ function esc(s) {
 }
 
 var PRIORITY_KEYS = [
-  'user', 'screen_name', 'name', 'text', 'created_at',
+  'source', 'account_age_flag', 'account_age', 'account_created',
+  'user', 'screen_name', 'name', 'text', 'post_title', 'post_text', 'created_at',
   'retweeted_by_user', 'retweeted_by_name', 'retweeted_text', 'retweeted_by_bio',
   'reply_count', 'retweet_count', 'favorite_count', 'view_count',
   'followers_count', 'following_count', 'tweet_count',
   'description', 'user_location', 'in_reply_to_tweet_id',
   'retweeted_tweet_id', 'retweeted_at', 'verified', 'is_blue_verified',
+  'archive_url', 'preview_image', 'iso_date', 'original', 'statuscode',
 ];
 
 var SKIP_KEYS = new Set(['id', 'media', 'card', 'user_id', 'retweeted_by_user_id']);
+
+var SOURCE_CLASS = { 'Twitter Cookie': 'src-cookie', 'Xquik API': 'src-xquik', 'Wayback Machine': 'src-wayback' };
 
 function showPanel(data) {
   var raw  = data.raw || {};
@@ -825,6 +986,14 @@ function showPanel(data) {
         val = '<a href="https://x.com/' + encodeURIComponent(handle) + '/status/' + encodeURIComponent(String(v)) +
               '" target="_blank" rel="noopener noreferrer">' + esc(String(v)) + ' ↗</a>';
       }
+    } else if (k === 'archive_url' || k === 'preview_image') {
+      val = '<a href="' + esc(String(v)) + '" target="_blank" rel="noopener noreferrer">' +
+            (k === 'archive_url' ? 'Open snapshot ↗' : 'Preview image ↗') + '</a>';
+    } else if (k === 'source') {
+      val = '<span class="source-badge ' + (SOURCE_CLASS[v] || '') + '">' + esc(String(v)) + '</span>';
+    } else if (k === 'account_age_flag') {
+      var ageLabels = { new: 'New account', recent: 'Recent account', established: 'Established account' };
+      val = '<span class="age-badge age-' + esc(String(v)) + '">' + esc(ageLabels[v] || String(v)) + '</span>';
     }
 
     var label = esc(k.replace(/_/g, ' '));
@@ -858,16 +1027,22 @@ function showPanel(data) {
   document.getElementById('infoContent').innerHTML = rows;
 
   // Action buttons
-  var isTweet  = type === 'tweet' || type === 'reply';
-  var tweetId  = data.tweetId;
-  var user     = raw.user || raw.screen_name || '';
+  var isTweet   = type === 'tweet' || type === 'reply';
+  var isWayback = type === 'wayback';
+  var tweetId   = data.tweetId;
+  var user      = raw.user || raw.screen_name || '';
 
   document.getElementById('btnExpandReplies').style.display  = isTweet ? '' : 'none';
   document.getElementById('btnExpandRetweets').style.display = isTweet ? '' : 'none';
 
   var openBtn = document.getElementById('btnOpenTweet');
   if (isTweet && tweetId && user) {
-    openBtn.href         = 'https://x.com/' + encodeURIComponent(user) + '/status/' + encodeURIComponent(tweetId);
+    openBtn.href          = 'https://x.com/' + encodeURIComponent(user) + '/status/' + encodeURIComponent(tweetId);
+    openBtn.textContent   = 'Open Tweet ↗';
+    openBtn.style.display = '';
+  } else if (isWayback && raw.archive_url) {
+    openBtn.href          = raw.archive_url;
+    openBtn.textContent   = 'Open Archived Snapshot ↗';
     openBtn.style.display = '';
   } else {
     openBtn.style.display = 'none';

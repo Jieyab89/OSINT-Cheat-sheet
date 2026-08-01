@@ -67,7 +67,11 @@ def _pick_fields(item: dict) -> dict:
             "description", "followers_count", "following_count",
             "lat", "lon", "place",
             "retweeted_text", "retweeted_by_user", "retweeted_by_name",
-            "retweeted_by_bio", "retweeted_at", "retweeted_tweet_id"]
+            "retweeted_by_bio", "retweeted_at", "retweeted_tweet_id",
+            "iso_date", "original", "statuscode", "mimetype", "length",
+            "archive_url", "post_title", "post_text", "preview_image",
+            "source", "account_created", "account_age", "account_age_flag",
+            "account_age_precision"]
     return {k: item[k] for k in keys if k in item and item[k] is not None}
 
 
