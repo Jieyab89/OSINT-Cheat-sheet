@@ -339,6 +339,7 @@
   .leg-icon.reply    { background: rgba(34,197,94,0.12); border-color: var(--success); border-radius: 2px; }
   .leg-icon.user     { background: var(--purple-bg); border-color: var(--purple); border-radius: 50%; }
   .leg-icon.wayback  { background: #2a1f08; border-color: var(--warn); border-radius: 2px; }
+  .leg-icon.cse      { background: #2a0d0d; border-color: #ef4444; border-radius: 2px; }
   .leg-icon.viewed   { background: #ffffff; border-color: #c7c7c7; border-radius: 2px; }
   .leg-heading {
     font-size: 10px;
@@ -382,6 +383,7 @@
   .source-badge.src-cookie  { color: #a78bfa; border-color: #4c3a8f; background: var(--purple-bg); }
   .source-badge.src-xquik   { color: #8891f7; border-color: #34348a; background: var(--accent-bg); }
   .source-badge.src-wayback { color: var(--warn); border-color: #78350f; background: #1c0e02; }
+  .source-badge.src-cse     { color: #f87171; border-color: #7f1d1d; background: #2a0d0d; }
 
   .age-badge {
     display: inline-block;
@@ -534,12 +536,14 @@
   <div class="leg-row"><div class="leg-icon reply"></div>   Reply</div>
   <div class="leg-row"><div class="leg-icon user"></div>    User / Retweeter</div>
   <div class="leg-row"><div class="leg-icon wayback"></div> Wayback snapshot</div>
+  <div class="leg-row"><div class="leg-icon cse"></div>     Google CSE web result</div>
   <div class="leg-row"><div class="leg-icon viewed"></div>  Viewed (clicked)</div>
 
   <div class="leg-heading">Source (info panel)</div>
   <div class="leg-row"><span class="source-badge src-cookie">Cookie</span></div>
   <div class="leg-row"><span class="source-badge src-xquik">Xquik API</span></div>
   <div class="leg-row"><span class="source-badge src-wayback">Wayback Machine</span></div>
+  <div class="leg-row"><span class="source-badge src-cse">Google CSE</span></div>
 
   <div class="leg-heading">Account age (info panel)</div>
   <div class="leg-row"><span class="age-badge age-new">New</span> &lt; 30 days</div>
@@ -581,7 +585,7 @@ const CY_STYLE = [
   // text-wrap 'ellipsis' truncates long post text to fit instead of growing the
   // box or overflowing it, which keeps dense graphs (100s of nodes) readable.
   // Full untruncated text is always available in the side panel on click.
-  { selector: 'node[type="tweet"], node[type="reply"], node[type="wayback"]', style: {
+  { selector: 'node[type="tweet"], node[type="reply"], node[type="wayback"], node[type="cse"]', style: {
       shape: 'roundrectangle',
       label: 'data(label)',
       color: '#e8eaf0',
@@ -608,6 +612,10 @@ const CY_STYLE = [
       'background-color': '#2a1f08',
       'border-color': '#f59e0b',
   }},
+  { selector: 'node[type="cse"]', style: {
+      'background-color': '#2a0d0d',
+      'border-color': '#ef4444',
+  }},
   { selector: 'node[type="retweeter"], node[type="user"]', style: {
       shape: 'ellipse',
       'background-color': '#1e1535',
@@ -629,7 +637,7 @@ const CY_STYLE = [
   // Viewed marker — set once a node has been clicked/inspected. Deliberately
   // plain white with no other color coding so it reads as one thing: "seen".
   // Placed after the type selectors so it always wins on background/border.
-  { selector: 'node[?viewed][type="tweet"], node[?viewed][type="reply"], node[?viewed][type="wayback"]', style: {
+  { selector: 'node[?viewed][type="tweet"], node[?viewed][type="reply"], node[?viewed][type="wayback"], node[?viewed][type="cse"]', style: {
       'background-color': '#ffffff',
       'border-color': '#c7c7c7',
       color: '#0f1117',
@@ -846,18 +854,26 @@ function makeLabel(item, type) {
     var snap = (item.post_title || item.post_text || item.original || 'Snapshot').replace(/\s+/g, ' ').trim();
     return snap.length > 60 ? snap.substring(0, 60) + '…' : snap;
   }
+  if (type === 'cse') {
+    var web = (item.post_title || item.post_text || item.display_link || 'Web result').replace(/\s+/g, ' ').trim();
+    return web.length > 60 ? web.substring(0, 60) + '…' : web;
+  }
   var text = (item.text || item.retweeted_text || '').replace(/\s+/g, ' ').trim();
   return text.length > 60 ? text.substring(0, 60) + '…' : (text || ('Tweet ' + (item.id || '?')));
 }
 
 // Per-item node type — multi_source_search mixes live tweets with Wayback
-// snapshots in one result set, so the type has to be resolved per item rather
-// than fixed for the whole tool/search.
+// snapshots and Google CSE web results in one result set, so the type has to
+// be resolved per item rather than fixed for the whole tool/search.
 function resolveNodeType(tool, item) {
   if (tool === 'follower_explorer') return 'user';
   if (tool === 'tweet_retweeters_extractor') return 'retweeter';
   if (tool === 'wayback_archive_search') return 'wayback';
-  if (tool === 'multi_source_search') return item.source === 'Wayback Machine' ? 'wayback' : 'tweet';
+  if (tool === 'multi_source_search') {
+    if (item.source === 'Wayback Machine') return 'wayback';
+    if (item.source === 'Google CSE') return 'cse';
+    return 'tweet';
+  }
   return 'tweet';
 }
 
@@ -1031,20 +1047,22 @@ function esc(s) {
     .replace(/"/g, '&quot;');
 }
 
+// LIST ARR PARAMS 
+
 var PRIORITY_KEYS = [
   'source', 'account_age_flag', 'account_age', 'account_created',
-  'user', 'screen_name', 'name', 'text', 'post_title', 'post_text', 'created_at',
+  'user', 'screen_name', 'name', 'text', 'post_title', 'post_text', 'created_at', 'fetched_at',
   'retweeted_by_user', 'retweeted_by_name', 'retweeted_text', 'retweeted_by_bio',
   'reply_count', 'retweet_count', 'favorite_count', 'view_count',
   'followers_count', 'following_count', 'tweet_count',
   'description', 'user_location', 'in_reply_to_tweet_id',
   'retweeted_tweet_id', 'retweeted_at', 'verified', 'is_blue_verified',
-  'archive_url', 'preview_image', 'iso_date', 'original', 'statuscode',
+  'archive_url', 'result_url', 'preview_image', 'display_link', 'iso_date', 'original', 'statuscode',
 ];
 
 var SKIP_KEYS = new Set(['id', 'media', 'card', 'user_id', 'retweeted_by_user_id']);
 
-var SOURCE_CLASS = { 'Twitter Cookie': 'src-cookie', 'Xquik API': 'src-xquik', 'Wayback Machine': 'src-wayback' };
+var SOURCE_CLASS = { 'Twitter Cookie': 'src-cookie', 'Xquik API': 'src-xquik', 'Wayback Machine': 'src-wayback', 'Google CSE': 'src-cse' };
 
 // ── Media helpers — same normalization as the non-graph search page ───────────
 function extractMedia(item) {
@@ -1076,7 +1094,7 @@ function showPanel(data) {
   var raw  = data.raw || {};
   var type = data.type;
 
-  var titles = { search: 'Search Node', tweet: 'Tweet', reply: 'Reply', user: 'User', retweeter: 'Retweeter' };
+  var titles = { search: 'Search Node', tweet: 'Tweet', reply: 'Reply', user: 'User', retweeter: 'Retweeter', wayback: 'Wayback Snapshot', cse: 'Web Result' };
   document.getElementById('infoTitle').textContent = titles[type] || 'Node';
 
   // Build key list (priority first, then remaining)
@@ -1097,9 +1115,10 @@ function showPanel(data) {
         val = '<a href="https://x.com/' + encodeURIComponent(handle) + '/status/' + encodeURIComponent(String(v)) +
               '" target="_blank" rel="noopener noreferrer">' + esc(String(v)) + ' ↗</a>';
       }
-    } else if (k === 'archive_url' || k === 'preview_image') {
-      val = '<a href="' + esc(String(v)) + '" target="_blank" rel="noopener noreferrer">' +
-            (k === 'archive_url' ? 'Open snapshot ↗' : 'Preview image ↗') + '</a>';
+    } else if (k === 'tweet_url' || k === 'archive_url' || k === 'result_url' || k === 'preview_image') {
+      // Full raw URL as the link text itself, not hidden behind a generic
+      // label — same treatment as the live search page and archive.html.
+      val = '<a href="' + esc(String(v)) + '" target="_blank" rel="noopener noreferrer">' + esc(String(v)) + '</a>';
     } else if (k === 'source') {
       val = '<span class="source-badge ' + (SOURCE_CLASS[v] || '') + '">' + esc(String(v)) + '</span>';
     } else if (k === 'account_age_flag') {
@@ -1168,6 +1187,10 @@ function showPanel(data) {
   } else if (isWayback && raw.archive_url) {
     openBtn.href          = raw.archive_url;
     openBtn.textContent   = 'Open Archived Snapshot ↗';
+    openBtn.style.display = '';
+  } else if (type === 'cse' && raw.result_url) {
+    openBtn.href          = raw.result_url;
+    openBtn.textContent   = 'Open Page ↗';
     openBtn.style.display = '';
   } else {
     openBtn.style.display = 'none';

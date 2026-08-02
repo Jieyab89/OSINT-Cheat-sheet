@@ -276,6 +276,7 @@
   .source-badge.src-cookie  { color: #a78bfa; border-color: #4c3a8f; background: var(--cookie-bg); }
   .source-badge.src-xquik   { color: #8891f7; border-color: #34348a; background: var(--accent-bg); }
   .source-badge.src-wayback { color: var(--warn); border-color: #78350f; background: #1c0e02; }
+  .source-badge.src-cse     { color: #f87171; border-color: #7f1d1d; background: #2a0d0d; }
 
   .age-badge {
     display: inline-block;
@@ -598,6 +599,7 @@
   <div class="help-row"><span class="source-badge src-cookie">Twitter Cookie</span> Live via your cookie session</div>
   <div class="help-row"><span class="source-badge src-xquik">Xquik API</span> Live via the xquik API</div>
   <div class="help-row"><span class="source-badge src-wayback">Wayback Machine</span> Archived snapshot</div>
+  <div class="help-row"><span class="source-badge src-cse">Google CSE</span> Live web result via Google Custom Search</div>
   <h4>Account age</h4>
   <div class="help-row"><span class="age-badge age-new">New account</span> Created &lt; 30 days ago</div>
   <div class="help-row"><span class="age-badge age-recent">Recent account</span> Created &lt; 1 year ago</div>
@@ -759,7 +761,7 @@ const HINTS = {
   tweet_retweeters_extractor:'Users who retweeted a tweet — cookie only',
   geo_post_extractor:        'Search tweets by keyword, then plot each author\'s profile location on a map — cookie only',
   wayback_archive_search:    'Find archived snapshots of an X/Twitter profile or tweet via the Wayback Machine — great for recovering deleted content',
-  multi_source_search:       'Searches Cookie, Xquik API and the Wayback Machine at once and merges the results — each card is labeled with its source. Accepts a keyword, mention, username, or a full URL. Wayback matches a handle or URL directly; Cookie/Xquik treat it as search text (e.g. paste a link to find who\'s tweeted it). Date range below is optional.',
+  multi_source_search:       'Searches Cookie, Xquik API, the Wayback Machine and Google CSE at once and merges the results — each card is labeled with its source. Accepts a keyword, mention, username, or a full URL. Wayback matches a handle or URL directly; Cookie/Xquik treat it as search text; Google CSE runs it as a plain web search (results depend on how the Custom Search Engine itself is scoped). Date range below is optional and only narrows Cookie/Xquik/Wayback — Google CSE has no date-range query syntax.',
 };
 
 // These tools only work via cookie; API mode is disabled for them
@@ -997,10 +999,11 @@ function buildCard(item) {
       const _p  = new URLSearchParams({ tool: DRILLABLE[k], id: tweetId, autorun: '1' });
       const lbl = (v !== null && v !== undefined) ? esc(String(v)) : '—';
       display = `<a class="drill-link" href="/?${_p}" target="_blank" rel="noopener noreferrer">${lbl} ↗</a>`;
-    } else if (k === 'archive_url' && v) {
-      display = `<a class="drill-link" href="${esc(String(v))}" target="_blank" rel="noopener noreferrer">Open snapshot ↗</a>`;
-    } else if (k === 'preview_image' && v) {
-      display = `<a class="drill-link" href="${esc(String(v))}" target="_blank" rel="noopener noreferrer">Preview image ↗</a>`;
+    } else if ((k === 'tweet_url' || k === 'archive_url' || k === 'result_url' || k === 'preview_image') && v) {
+      // Full raw URL shown as the link text itself (not hidden behind a generic
+      // label) — text-intel use needs the actual address visible/copyable, same
+      // treatment archive.html already gives every link field, kept consistent here.
+      display = `<a class="drill-link" href="${esc(String(v))}" target="_blank" rel="noopener noreferrer">${esc(String(v))}</a>`;
     } else if (k === 'source' && v) {
       const cls = SOURCE_CLASS[v] || '';
       display = `<span class="source-badge ${cls}">${esc(String(v))}</span>`;
