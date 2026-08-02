@@ -4,6 +4,9 @@
 // same data. (Previously included via Jinja {% include %} directly inside a
 // <script> block — moved to a real .js file so editor/JS tooling can lint it
 // normally instead of flagging the Jinja syntax as invalid JavaScript.)
+
+// Arr params 
+
 const PRIORITY = [
   'source', 'account_age_flag', 'account_age', 'account_created',
   'user', 'screen_name', 'name', 'user_id', 'username',
@@ -11,10 +14,10 @@ const PRIORITY = [
   'text', 'full_text', 'article_text', 'post_title', 'post_text', 'content', 'title', 'description', 'bio',
   'reply_count', 'retweet_count', 'favorite_count', 'view_count',
   'followers_count', 'following_count', 'tweet_count',
-  'created_at', 'in_reply_to_tweet_id',
+  'created_at', 'fetched_at', 'in_reply_to_tweet_id',
   'retweeted_by_user', 'retweeted_by_name', 'retweeted_text', 'retweeted_by_bio', 'retweeted_at', 'retweeted_tweet_id',
   'lat', 'lon', 'place', 'user_location',
-  'tweet_url', 'archive_url', 'preview_image',
+  'tweet_url', 'archive_url', 'result_url', 'preview_image', 'display_link',
   'iso_date', 'original', 'statuscode', 'mimetype', 'length',
 ];
 
@@ -26,5 +29,5 @@ const DRILLABLE = {
   in_reply_to_tweet_id: 'tweet_replies_extractor',
 };
 
-const SOURCE_CLASS = { 'Twitter Cookie': 'src-cookie', 'Xquik API': 'src-xquik', 'Wayback Machine': 'src-wayback' };
+const SOURCE_CLASS = { 'Twitter Cookie': 'src-cookie', 'Xquik API': 'src-xquik', 'Wayback Machine': 'src-wayback', 'Google CSE': 'src-cse' };
 const AGE_LABELS   = { new: 'New account', recent: 'Recent account', established: 'Established account' };

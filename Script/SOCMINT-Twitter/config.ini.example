@@ -1,4 +1,6 @@
 [xquik]
+; check dasboard Xquik to put the api key 
+
 api_key = xxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ; Soon there is a array for base_url and endpoint are listed in offc docs 
@@ -9,11 +11,25 @@ base_url = https://xquik.com/api/v1/extractions
 
 ;end arr endpoint
 
+[google_cse]
+; put the api key in google console api https://console.cloud.google.com/ also dont forget check the security config
+
+api_key = AIzaSxxxxxxxxx
+
+; put the cx key in https://programmablesearchengine.google.com/ google cse and sett the site want to crawll check the readme.md
+
+cx = cxxxxxxxxxx
+
 [twitter_cookies]
+; Inspect element then check the tab application then click the cookie in storage or u can use burpsuite 
+
 auth_token = xxxxxxxxxxxxxxxxxx
 ct0 = xxxxxxxxxxxx
 
 [server]
+
+; config flask 
+
 host = 127.0.0.1
 port = 5000
 debug = true

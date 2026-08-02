@@ -23,12 +23,55 @@ def _make_id(tool_type: str) -> str:
     return f"{tool_type}_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
 
 
-def _tweet_url(item: dict) -> str | None:
+def build_tweet_url(item: dict) -> str | None:
+    """Not prefixed private — app.py reuses this so a live result and its
+    later archive always compute the identical tweet_url, instead of two
+    separate copies of the same logic drifting apart."""
     tid  = str(item.get("id", "")).strip()
     user = str(item.get("user", "")).strip()
     if tid and user:
         return f"https://x.com/{user}/status/{tid}"
     return None
+
+
+def _extract_media(item: dict) -> list[dict]:
+    """Same normalization the frontend's extractMedia() applies for card
+    display. Cookie mode already returns [{type, thumb, url}] under `media`.
+    xquik/API mode instead carries raw Twitter API shape under
+    entities.media / extended_entities.media, which needs unpacking first —
+    otherwise xquik-sourced photos/videos never enter the download queue below."""
+    media = item.get("media")
+    if isinstance(media, list) and media and isinstance(media[0], dict) \
+            and ("thumb" in media[0] or "url" in media[0]):
+        return media
+
+    src = None
+    ext_ent = item.get("extended_entities")
+    if isinstance(ext_ent, dict):
+        src = ext_ent.get("media")
+    if not isinstance(src, list):
+        ent = item.get("entities")
+        if isinstance(ent, dict):
+            src = ent.get("media")
+    if not isinstance(src, list):
+        return []
+
+    result = []
+    for m in src:
+        if not isinstance(m, dict):
+            continue
+        mtype = m.get("type", "photo")
+        thumb = m.get("media_url_https") or m.get("media_url") or ""
+        if not thumb:
+            continue
+        url = thumb
+        if mtype in ("video", "animated_gif"):
+            variants = ((m.get("video_info") or {}).get("variants")) or []
+            mp4s = [v for v in variants if isinstance(v, dict) and v.get("content_type") == "video/mp4"]
+            if mp4s:
+                url = max(mp4s, key=lambda v: v.get("bitrate", 0) or 0).get("url", thumb)
+        result.append({"type": mtype, "thumb": thumb, "url": url})
+    return result
 
 
 def _media_ext(url: str, mtype: str) -> str:
@@ -46,7 +89,7 @@ def _download_file(url: str, dest: Path) -> bool:
         r = requests.get(
             url,
             timeout=REQUEST_TIMEOUT,
-            headers={"Referer": "https://x.com/", "User-Agent": "Mozilla/5.0"},
+            headers={"Referer": "https://x.com/", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"},
             stream=True,
         )
         r.raise_for_status()
@@ -71,6 +114,7 @@ def _pick_fields(item: dict) -> dict:
             "retweeted_by_bio", "retweeted_at", "retweeted_tweet_id",
             "iso_date", "original", "statuscode", "mimetype", "length",
             "archive_url", "post_title", "post_text", "preview_image",
+            "result_url", "display_link", "fetched_at",
             "source", "account_created", "account_age", "account_age_flag",
             "account_age_precision"]
     return {k: item[k] for k in keys if k in item and item[k] is not None}
@@ -96,10 +140,10 @@ def _run(archive_id: str, tool_type: str, data, query_info: dict) -> None:
             continue
 
         record              = _pick_fields(item)
-        record["tweet_url"] = _tweet_url(item)
+        record["tweet_url"] = item.get("tweet_url") or build_tweet_url(item)
         local_media         = []
 
-        for midx, m in enumerate(item.get("media", [])):
+        for midx, m in enumerate(_extract_media(item)):
             url  = m.get("url") or m.get("thumb", "")
             if not url:
                 continue

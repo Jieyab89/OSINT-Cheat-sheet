@@ -2,21 +2,45 @@
 
 <img width="2553" height="1218" alt="Image" src="https://github.com/user-attachments/assets/eb01c1ca-c577-432d-a266-5533b5b71ce0" />
 
+# Sett up 
+
+1. Config your Google api console here, enable and manage API Custom Search by Google  
+
+<img width="2536" height="1210" alt="enable" src="https://github.com/user-attachments/assets/17aca5db-9869-40f0-8a9b-58eae51dce6c" />
+
+2. Sett the api key in web console Google 
+
+<img width="891" height="1354" alt="g-api" src="https://github.com/user-attachments/assets/1df5201e-9d8d-4450-9c46-cc83cb35eaba" />
+
+Check the result in the table 
+
+<img width="2121" height="1218" alt="g - api result" src="https://github.com/user-attachments/assets/1763dc2f-2382-4c94-8973-90f98678d477" />
+
+3. Settings CSE Google to put the cx key 
+
+<img width="2533" height="1254" alt="cx key" src="https://github.com/user-attachments/assets/b8d04387-2ac9-4302-8b04-2ea1873e610a" />
+
+4. Add site want to crawll e.g twitter.com and x.com 
+
+<img width="868" height="886" alt="add host and domain twitter" src="https://github.com/user-attachments/assets/caecb9d5-85c7-4fdb-8e38-e4acfc55630e" />
+
 ## Data Source 
 
-1. Xquik API 
-2. Cookie (your account cookie session) 
+1. Xquik API (subs there is a price)
+2. Cookie (your account cookie session)  
 3. Wayback Machine (Cdx API)
+4. Goole CSE API (free quota 100 per day u can increase u limit with buy the service)
 
 ## Update Note
 
-1. Update infinity scroll and load new data 
+1. Update infinity scroll and load new data for twitter reply and retweets  
 2. Update data corelation 
 3. Fix business logic flow 
 4. Monitoring (Soon)
 5. MCP (Soon)
 6. Add more parameter for enrichment 
 7. Add no rate limit (throttle)
+8. Add Google CSE data source 
 
 ## Setup
 

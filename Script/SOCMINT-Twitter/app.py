@@ -12,6 +12,7 @@ from flask import Flask, g, jsonify, render_template, request, Response, stream_
 import archive as _archive
 from xquik_client import XquikClient, XquikError, load_config
 from wayback_client import wayback_search, WaybackError
+from google_cse_client import google_cse_search, GoogleCSEError
 from id_forensics import enrich_account_age
 from cookie_client import (
     cookie_tweet_search,
@@ -142,6 +143,7 @@ SOURCE_LABELS = {
     "cookie":  "Twitter Cookie",
     "xquik":   "Xquik API",
     "wayback": "Wayback Machine",
+    "cse":     "Google CSE",
 }
 
 
@@ -149,6 +151,39 @@ def _tag_source(items, label):
     if not isinstance(items, list):
         items = [items]
     return [{**it, "source": label} if isinstance(it, dict) else it for it in items]
+
+
+def _stamp_fetched_at(data):
+    """Mutates every dict in `data` (list or single dict) in place, adding
+    fetched_at — when *this app* pulled the record, as opposed to created_at
+    (a tweet's own post time) or iso_date (a Wayback snapshot's capture time).
+    Applied uniformly across every source so results are comparable no
+    matter which tool/source produced them."""
+    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    items = data if isinstance(data, list) else [data]
+    for item in items:
+        if isinstance(item, dict):
+            item["fetched_at"] = now
+    return data
+
+
+def _stamp_tweet_url(data):
+    """Mutates every dict in `data` (list or single dict) in place, adding
+    tweet_url wherever id+user identify an actual tweet — the citable-link
+    field Wayback (archive_url/original) and Google CSE (result_url) already
+    carry directly in their own data. Cookie/xquik never set this on the raw
+    tweet dict themselves — previously it only got built at archive time, so a
+    live card, a JSON dump, and an archive of the same search could each show
+    a different answer for "what's the URL." Building it once here means all
+    three read the identical value. archive.py's build_tweet_url() reuses this
+    same logic rather than recomputing it separately."""
+    items = data if isinstance(data, list) else [data]
+    for item in items:
+        if isinstance(item, dict) and not item.get("tweet_url"):
+            url = _archive.build_tweet_url(item)
+            if url:
+                item["tweet_url"] = url
+    return data
 
 
 # ── Optional date-range narrowing ───────────────────────────────────────────
@@ -240,11 +275,15 @@ def _multi_source_search(query: str, count: int, from_date: str = "", to_date: s
         "cookie":  lambda: cookie_tweet_search(twitter_query, count=count, config=config)[0],
         "xquik":   lambda: XquikClient(config).tweet_search(twitter_query),
         "wayback": lambda: wayback_search(query, count=count, from_date=from_date, to_date=to_date)[0],
+        # Google has no since:/until: query syntax like Twitter/Wayback do, so
+        # this lane runs unbounded by date — _filter_by_date below keeps
+        # results whose own timestamp it can't verify rather than dropping them.
+        "cse":     lambda: google_cse_search(query, count=count, config=config)[0],
     }
     with ThreadPoolExecutor(max_workers=len(jobs)) as pool:
         futures = {key: pool.submit(fn) for key, fn in jobs.items()}
         results = []
-        for key in ("cookie", "xquik", "wayback"):   # deterministic display order
+        for key in ("cookie", "xquik", "wayback", "cse"):   # deterministic display order
             try:
                 data = futures[key].result()
             except Exception:
@@ -267,7 +306,7 @@ def video_proxy():
             url,
             stream=True,
             timeout=20,
-            headers={"Referer": "https://x.com/", "User-Agent": "Mozilla/5.0"},
+            headers={"Referer": "https://x.com/", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"},
         )
         headers = {"Content-Type": upstream.headers.get("Content-Type", "video/mp4")}
         if "Content-Length" in upstream.headers:
@@ -390,14 +429,16 @@ def run_tool():
             return jsonify({"ok": False, "error": f"Unknown toolType: {tool_type}"}), 400
 
         # Single choke point: every tool's output passes through here, so the
-        # account-age label shows up everywhere downstream for free — cards,
-        # graph nodes, JSON dump, and archives (once the fields are whitelisted
-        # in archive.py's _pick_fields).
+        # account-age label, fetch timestamp, and tweet_url all show up
+        # everywhere downstream for free — cards, graph nodes, JSON dump, and
+        # archives (once the fields are whitelisted in archive.py's _pick_fields).
         data = enrich_account_age(data)
+        data = _stamp_fetched_at(data)
+        data = _stamp_tweet_url(data)
 
         return jsonify({"ok": True, "data": data, "nextCursor": next_cursor})
 
-    except (XquikError, CookieClientError, WaybackError) as e:
+    except (XquikError, CookieClientError, WaybackError, GoogleCSEError) as e:
         return jsonify({"ok": False, "error": str(e)}), 400
     except Exception as e:  # noqa: BLE001
         return jsonify({"ok": False, "error": f"Unexpected error: {e}"}), 500

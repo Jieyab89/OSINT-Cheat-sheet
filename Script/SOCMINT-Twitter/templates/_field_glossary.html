@@ -8,6 +8,8 @@
 <div class="param-heading">Content</div>
 <div class="param-row"><code class="param-key">text / full_text / article_text</code> The post's own text</div>
 <div class="param-row"><code class="param-key">description</code> Profile bio</div>
+<div class="param-row"><code class="param-key">created_at</code> When the <em>post itself</em> was actually made. Same field, every source: Cookie/Xquik get it straight from the API; Wayback and Google CSE decode it from the tweet id's Snowflake bits whenever the result links to a tweet permalink (absent otherwise — e.g. a profile page or a non-X result, where there's no post id to decode)</div>
+<div class="param-row"><code class="param-key">fetched_at</code> When <em>this tool</em> pulled the record — same field, every source (Cookie, Xquik, Wayback, Google CSE), so results are comparable side by side. Not to be confused with <code class="param-key">created_at</code> (the post's own creation time) or <code class="param-key">iso_date</code> (a Wayback snapshot's capture time)</div>
 
 <div class="param-heading">Engagement</div>
 <div class="param-row"><code class="param-key">reply_count / retweet_count / favorite_count / view_count</code> Counts reported by Twitter (can under-report)</div>
@@ -24,6 +26,11 @@
 <div class="param-row"><code class="param-key">retweeted_text / retweeted_by_user / retweeted_by_name / retweeted_by_bio</code> Content and author of the original tweet being retweeted</div>
 <div class="param-row"><code class="param-key">retweeted_at / retweeted_tweet_id</code> When the original was posted, and its own ID</div>
 
+<div class="param-heading">Media &amp; links (every source)</div>
+<div class="param-row"><code class="param-key">media</code> Photo/video attachments — normalized to <code class="param-key">[{type, thumb, url}]</code> regardless of whether the source was Cookie or Xquik/API (the two use different raw shapes internally, unified before display/archive)</div>
+<div class="param-row"><code class="param-key">archived_media</code> Local file paths once a result's media has actually been downloaded into an archive — archive view only</div>
+<div class="param-row"><code class="param-key">tweet_url</code> Cookie/Xquik: direct link to the tweet, built from user + id. Populated the moment a result is fetched — the same value on the live card, in a JSON dump, and in an archive of it, not built separately each time. Wayback and Google CSE carry their own equivalent instead — see <code class="param-key">archive_url</code>/<code class="param-key">original</code> and <code class="param-key">result_url</code> below</div>
+
 <div class="param-heading">Location</div>
 <div class="param-row"><code class="param-key">lat / lon / place</code> Coordinates plotted on the map view (Geo Post Search)</div>
 <div class="param-row"><code class="param-key">user_location</code> Free-text profile location string, geocoded client-side to produce lat/lon</div>
@@ -39,10 +46,16 @@
 <div class="param-row"><code class="param-key">original</code> The original URL that was archived</div>
 <div class="param-row"><code class="param-key">statuscode / mimetype / length</code> HTTP status / content type / size of the snapshot</div>
 <div class="param-row"><code class="param-key">post_title / post_text / preview_image</code> Scraped from the archived page's own meta tags (og:/twitter: tags, or &lt;title&gt;/&lt;meta name="description"&gt; on older captures)</div>
-<div class="param-row"><code class="param-key">tweet_url</code> Direct link to the live tweet, built from user + id</div>
+
+<div class="param-heading">Google CSE</div>
+<div class="param-row"><code class="param-key">post_title</code> Result title from Google</div>
+<div class="param-row"><code class="param-key">post_text</code> The page's own og:/twitter:/meta description, fetched live from <code class="param-key">result_url</code> — not Google's own SERP snippet, which is usually clipped mid-sentence. Falls back to Google's snippet only if that live fetch fails</div>
+<div class="param-row"><code class="param-key">result_url</code> The live page Google indexed, shown as its full raw address</div>
+<div class="param-row"><code class="param-key">display_link</code> The result's domain, as shown in Google's own results</div>
+<div class="param-row"><code class="param-key">preview_image</code> Thumbnail — from Google's own indexed metadata, or the live page's og:/twitter:image when Google didn't have one</div>
 
 <div class="param-heading">Source</div>
-<div class="param-row"><code class="param-key">source</code> Which of the 3 data sources this result came from — Twitter Cookie / Xquik API / Wayback Machine (Multi-Source Search only)</div>
+<div class="param-row"><code class="param-key">source</code> Which of the 4 data sources this result came from — Twitter Cookie / Xquik API / Wayback Machine / Google CSE (Multi-Source Search only)</div>
 
 <div class="param-heading">Graph node types (graph page only)</div>
 <div class="param-row"><code class="param-key">Search root</code> The diamond node — the query you ran</div>
@@ -50,4 +63,5 @@
 <div class="param-row"><code class="param-key">Reply</code> A tweet fetched via Expand Replies on a tweet node</div>
 <div class="param-row"><code class="param-key">User / Retweeter</code> A person — from Follower Explorer, or via Expand Retweets on a tweet node</div>
 <div class="param-row"><code class="param-key">Wayback snapshot</code> An archived-page result, from Wayback Archive Search or the Wayback portion of Multi-Source Search</div>
+<div class="param-row"><code class="param-key">Web result</code> A Google CSE result, from the Google CSE portion of Multi-Source Search</div>
 <div class="param-row"><code class="param-key">Viewed</code> Turns a node solid white once you've clicked it — a visual "already looked at this" marker, not part of the underlying data</div>

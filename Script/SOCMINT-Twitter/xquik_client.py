@@ -22,11 +22,12 @@ class XquikClient:
         self.config = config or load_config()
         self.api_key = self.config.get("xquik", "api_key", fallback="").strip()
         self.base_url = self.config.get(
+            # Endpoint list arr soon 
             "xquik", "base_url", fallback="https://xquik.com/api/v1/extractions"
         ).strip()
 
         if not self.api_key or self.api_key == "xq_YOUR_KEY":
-            raise XquikError("api_key belum diisi di config.ini [xquik]")
+            raise XquikError("api_key Xquik are not set")
 
     def _post(self, payload: dict) -> dict:
         headers = {
@@ -36,7 +37,7 @@ class XquikClient:
         try:
             resp = requests.post(self.base_url, headers=headers, json=payload, timeout=30)
         except requests.RequestException as e:
-            raise XquikError(f"Request gagal: {e}") from e
+            raise XquikError(f"Request failed: {e}") from e
 
         if resp.status_code >= 400:
             raise XquikError(f"xquik API error {resp.status_code}: {resp.text}")
@@ -44,7 +45,10 @@ class XquikClient:
         try:
             return resp.json()
         except ValueError as e:
-            raise XquikError(f"Response bukan JSON valid: {resp.text[:300]}") from e
+            raise XquikError(f"Response are not json: {resp.text[:300]}") from e
+    
+    # PARAMS IN Xquik docs 
+    # https://docs.xquik.com/
 
     def tweet_search(self, search_query: str) -> dict:
         return self._post({"toolType": "tweet_search_extractor", "searchQuery": search_query})
@@ -61,13 +65,16 @@ class XquikClient:
         )
 
     def post_extractor(self, target_username: str) -> dict:
-        """User timeline lewat xquik (pakai kuota API)."""
+        """User timeline via Xquik"""
         return self._post({"toolType": "post_extractor", "targetUsername": target_username})
 
 
 if __name__ == "__main__":
     import argparse
     import json
+
+    # PARAMS IN Xquik docs 
+    # https://docs.xquik.com/
 
     parser = argparse.ArgumentParser(description="xquik.com extraction CLI")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -89,6 +96,9 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     client = XquikClient()
+
+    # PARAMS IN Xquik docs 
+    # https://docs.xquik.com/
 
     try:
         if args.command == "tweet_search":

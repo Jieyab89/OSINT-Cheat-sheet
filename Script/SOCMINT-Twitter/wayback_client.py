@@ -19,6 +19,8 @@ from concurrent.futures import ThreadPoolExecutor
 
 import requests
 
+from id_forensics import decode_snowflake
+
 WAYBACK_CDX_URL  = "https://web.archive.org/cdx/search/cdx"
 REQUEST_TIMEOUT  = 30
 SNAPSHOT_TIMEOUT = 10   # per-snapshot content fetch, run in parallel
@@ -30,8 +32,9 @@ class WaybackError(Exception):
     pass
 
 
-_DATE8_RE   = re.compile(r"^\d{8}$")
+_DATE8_RE    = re.compile(r"^\d{8}$")
 _SAFE_URL_RE = re.compile(r"^https?://", re.IGNORECASE)
+_TWEET_ID_RE = re.compile(r"/status/(\d+)")
 
 
 def _validate_date(label: str, value: str) -> None:
@@ -73,7 +76,7 @@ def _fetch_cdx(url: str, limit: int, from_date: str = "", to_date: str = "",
     try:
         r = requests.get(
             WAYBACK_CDX_URL, params=params, timeout=REQUEST_TIMEOUT,
-            headers={"User-Agent": "Mozilla/5.0"},
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"},
         )
         r.raise_for_status()
     except requests.RequestException as e:
@@ -98,21 +101,41 @@ def _fetch_cdx(url: str, limit: int, from_date: str = "", to_date: str = "",
     return [dict(zip(header, row)) for row in data_rows], next_resume
 
 
+def _tweet_created_at(url: str) -> str | None:
+    """When `url` is a tweet permalink (…/status/<id>), decode the actual
+    post-creation time straight out of the id's Snowflake bits — independent
+    of when Wayback happened to crawl it. Same field name/format cookie and
+    xquik already populate (`created_at`, Twitter's own classic timestamp
+    string), so date-range filtering and card rendering treat every source
+    the same way. None for non-tweet URLs or ids too old to be Snowflake."""
+    m = _TWEET_ID_RE.search(url or "")
+    if not m:
+        return None
+    dt = decode_snowflake(m.group(1))
+    if not dt:
+        return None
+    return dt.strftime("%a %b %d %H:%M:%S +0000 %Y")
+
+
 def _row_to_record(row: dict) -> dict:
     ts       = row.get("timestamp", "") or ""
     original = row.get("original", "") or ""
     iso_date = None
     if len(ts) >= 14:
         iso_date = f"{ts[0:4]}-{ts[4:6]}-{ts[6:8]} {ts[8:10]}:{ts[10:12]}:{ts[12:14]}"
-    return {
+    record = {
         "timestamp":   ts,   # internal only — stripped before returning to caller
-        "iso_date":    iso_date,
+        "iso_date":    iso_date,   # when Wayback captured this snapshot
         "original":    original,
         "statuscode":  row.get("statuscode"),
         "mimetype":    row.get("mimetype"),
         "length":      row.get("length"),
         "archive_url": f"https://web.archive.org/web/{ts}/{original}" if ts and original else None,
     }
+    created_at = _tweet_created_at(original)
+    if created_at:
+        record["created_at"] = created_at   # when the post itself was actually made
+    return record
 
 
 # ── Content enrichment ──────────────────────────────────────────────────────
@@ -153,7 +176,7 @@ def _fetch_snapshot_meta(timestamp: str, original: str) -> dict:
     try:
         r = requests.get(
             snap_url, timeout=SNAPSHOT_TIMEOUT,
-            headers={"User-Agent": "Mozilla/5.0"},
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240"},
         )
         if r.status_code != 200 or not r.text:
             return {}

@@ -323,6 +323,7 @@
   .source-badge.src-cookie  { color: #a78bfa; border-color: #4c3a8f; background: #1e1535; }
   .source-badge.src-xquik   { color: #8891f7; border-color: #34348a; background: var(--accent-bg); }
   .source-badge.src-wayback { color: #f59e0b; border-color: #78350f; background: #1c0e02; }
+  .source-badge.src-cse     { color: #f87171; border-color: #7f1d1d; background: #2a0d0d; }
 
   .age-badge {
     display: inline-block;
@@ -420,6 +421,7 @@
   <div class="help-row"><span class="source-badge src-cookie">Twitter Cookie</span> Live via your cookie session</div>
   <div class="help-row"><span class="source-badge src-xquik">Xquik API</span> Live via the xquik API</div>
   <div class="help-row"><span class="source-badge src-wayback">Wayback Machine</span> Archived snapshot</div>
+  <div class="help-row"><span class="source-badge src-cse">Google CSE</span> Live web result via Google Custom Search</div>
   <h4>Account age</h4>
   <div class="help-row"><span class="age-badge age-new">New account</span> Created &lt; 30 days ago</div>
   <div class="help-row"><span class="age-badge age-recent">Recent account</span> Created &lt; 1 year ago</div>
@@ -665,7 +667,7 @@ function buildCard(item) {
       display = `<a class="drill-link" href="/?${_p}" target="_blank" rel="noopener noreferrer">${lbl} ↗</a>`;
     } else if (v === null || v === undefined) {
       display = `<span style="color:var(--muted)">—</span>`;
-    } else if (k === 'tweet_url' || k === 'archive_url' || k === 'preview_image') {
+    } else if (k === 'tweet_url' || k === 'archive_url' || k === 'result_url' || k === 'preview_image') {
       display = `<a href="${esc(String(v))}" target="_blank" rel="noopener" class="card-link">${esc(String(v))}</a>`;
     } else if (k === 'source') {
       const cls = SOURCE_CLASS[v] || '';
