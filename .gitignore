@@ -1,5 +1,5 @@
-.env
-.env.*
+*.env
+*.env.*
 !.env.example
 *.ini
 __pycache__/
@@ -11,6 +11,8 @@ venv/
 .idea/
 *.swp
 *.log
-*flask_session/
-*.sessions 
-*.cookie 
+*.logs 
+Flask sessions / cookies
+flask_session/
+*.sessions
+*.cookie
