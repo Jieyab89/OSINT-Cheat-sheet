@@ -33,32 +33,13 @@ Contains information about OSINT tips, OSINT branches and knowledge about intell
 
 # See Jieyab Gitbook  
 
-Contains information about OSINT tips, write up usage resouces and more tips about OSINT and OSINT branch 
-
-Notes: "I recommend always using the hot reload function (CTRL + F5 OR Ctrl + Shift + R) to view updated content and clear the cache. I use DeepL to assist with creating articles in English also AI LLM, and my writing style tends to be a mix of informal and formal language, adhering to EYD (Enhanced Spelling) standards. Narrative"
+Contains information about OSINT tips, write up usage resouces, use case, my research also other Intelligence base
 
 Info 
 
 | Date | Remarks |
 |------------|---------|
-| 30 Jul 2026 | Update the article All about doxing at Gitbook and Wiki Github pages |
-
-- [Intelligence Base & Knowledge Base](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base)
-- [All About Doxing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing)
-- [All About OSINT Matters Things in OSINT](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-osint-thing-in-osint)
-- [All About SIGINT Signal Intelligence](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-sigint-signal-intelligence)
-- [Cell Investigations](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-cell-phone)
-- [Geospatial Intelligence](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/geospatial-intelligence)
-- [What is Data Enrichment & Pivoting](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/what-is-data-enrichment-and-pivoting)
-- [How to Spot a Deepfake](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/how-to-spot-a-deepfake)
-- [OSINT ‐ Inside About Data Breach](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/inside-about-data-breach-in-osint)
-- [All About HUMINT](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/all-about-humint#whats-is-humint)
-- [All About Darkweb Tips Darkweb OSINT Assessments](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/all-about-darkweb-tips-darkweb-osint-assessments)
-- [All About Stealer Log and Cyber Threat](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-stealer-log-and-cyber-threat)
-- [All About Penetration Testing](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-penetration-testing)
-- [All About Scammer](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-scammer)
-- [All About Narcotics or Drugs](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-narcotics-or-drugs#intermezo)
-- [All About Reporting](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/all-about-reporting)
+| 8 Aug 2026 | Sorry. Update, all the Gitbook and Github Wiki are not public. This site has been made private. If want to read latest update and the change you can chat me in Email "julisandipratam<@_at>gmail.com" you can also using my pub GPG key to send a message Lang used is English and Bahasa Indonesia. Is free no payment and donation |
 
 # These Resources Are Recommend For 
 
@@ -96,7 +77,6 @@ You can build it with VM or Live USB make sure you have sandbox machine
 
 # OSINT Academy
 
-- [Jieyab89 Gitbook (free and no ads)](https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips)
 - [Maltego academy](https://academy.maltego.com/)
 - [Darkweb academy](https://www.darkwebacademy.com/labs/)
 
