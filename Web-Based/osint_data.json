@@ -15,68 +15,8 @@
         "category": "See Jieyab Gitbook",
         "items": [
             {
-                "name": "Intelligence Base & Knowledge Base",
-                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-base-and-knowledge-base"
-            },
-            {
-                "name": "All About Doxing",
-                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-doxing"
-            },
-            {
-                "name": "All About OSINT Matters Things in OSINT",
-                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-osint-thing-in-osint"
-            },
-            {
-                "name": "All About SIGINT Signal Intelligence",
-                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-sigint-signal-intelligence"
-            },
-            {
-                "name": "Cell Investigations",
-                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/intelligence-cell-phone"
-            },
-            {
-                "name": "Geospatial Intelligence",
-                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/geospatial-intelligence"
-            },
-            {
-                "name": "What is Data Enrichment & Pivoting",
-                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/what-is-data-enrichment-and-pivoting"
-            },
-            {
-                "name": "How to Spot a Deepfake",
-                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/how-to-spot-a-deepfake"
-            },
-            {
-                "name": "OSINT ‐ Inside About Data Breach",
-                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/inside-about-data-breach-in-osint"
-            },
-            {
-                "name": "All About HUMINT",
-                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/all-about-humint#whats-is-humint"
-            },
-            {
-                "name": "All About Darkweb Tips Darkweb OSINT Assessments",
-                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/all-about-darkweb-tips-darkweb-osint-assessments"
-            },
-            {
-                "name": "All About Stealer Log and Cyber Threat",
-                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-stealer-log-and-cyber-threat"
-            },
-            {
-                "name": "All About Penetration Testing",
-                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-penetration-testing"
-            },
-            {
-                "name": "All About Scammer",
-                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-scammer"
-            },
-            {
-                "name": "All About Narcotics or Drugs",
-                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/intelligence-base/all-about-narcotics-or-drugs#intermezo"
-            },
-            {
-                "name": "All About Reporting",
-                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips/osint-tool-resouces-usage/all-about-reporting"
+                "name": "Priavte Resources",
+                "url": ""
             }
         ]
     },
@@ -116,10 +56,6 @@
     {
         "category": "OSINT Academy",
         "items": [
-            {
-                "name": "Jieyab89 Gitbook (free and no ads)",
-                "url": "https://jieyab89-osint.gitbook.io/jieyab89-osint-cheat-sheet-wiki-tips"
-            },
             {
                 "name": "Maltego academy",
                 "url": "https://academy.maltego.com/"
