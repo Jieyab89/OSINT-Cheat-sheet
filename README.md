@@ -129,6 +129,7 @@ More : man exiftool (Run on your terminal)
 Site :
 
 - [Exiftool](https://exiftool.org/)
+- [Metadata Remover](https://metadataremover.ai/metadata-viewer) — Browser-local viewer for EXIF, GPS, XMP, IPTC, and supported AI metadata; no uploads or account required.
 - [List tagname](https://exiftool.org/TagNames/)
 - [List tagnme 2](https://metacpan.org/dist/Image-ExifTool/view/lib/Image/ExifTool/TagNames.pod)
 - [List tagname 3](https://manpages.org/imageexiftooltagnames/3)
