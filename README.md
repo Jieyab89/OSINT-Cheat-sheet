@@ -355,6 +355,7 @@ Hardware
 - [tp link](https://www.tp-link.com/id/)
 - [Walkie-talkie](https://en.wikipedia.org/wiki/Walkie-talkie)
 - [flipper](https://flipper.net/)
+- [raspberrypi](https://www.raspberrypi.com/)
 
 Software 
 
@@ -366,6 +367,8 @@ Software
 - [wigle](https://wigle.net/)
 - [angryip](https://angryip.org/)
 - [advanced-ip-scanner](https://www.advanced-ip-scanner.com/id/)
+- [pysim](https://github.com/osmocom/pysim)
+- [osmocom](https://osmocom.org/projects/baseband)
 
 Visualization
 
