@@ -77,6 +77,7 @@ You can build it with VM or Live USB make sure you have sandbox machine
 
 # OSINT Academy
 
+- [Jieyab Gitbook OSIN and other bracnh Intel](https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/1-Notes-Jieyab-Wiki-and-Gitbook)
 - [Maltego academy](https://academy.maltego.com/)
 - [Darkweb academy](https://www.darkwebacademy.com/labs/)
 
@@ -129,7 +130,6 @@ More : man exiftool (Run on your terminal)
 Site :
 
 - [Exiftool](https://exiftool.org/)
-- [Metadata Remover](https://metadataremover.ai/metadata-viewer) — Browser-local viewer for EXIF, GPS, XMP, IPTC, and supported AI metadata; no uploads or account required.
 - [List tagname](https://exiftool.org/TagNames/)
 - [List tagnme 2](https://metacpan.org/dist/Image-ExifTool/view/lib/Image/ExifTool/TagNames.pod)
 - [List tagname 3](https://manpages.org/imageexiftooltagnames/3)
@@ -166,6 +166,7 @@ you can add multiple tag and multiple file
 Automated tool by David Bombal
 
 - [Exif python script remover](https://github.com/davidbombal/red-python-scripts/blob/main/remove_exif.py)
+- [Metadata Remover](https://metadataremover.ai/metadata-viewer) — Browser-local viewer for EXIF, GPS, XMP, IPTC, and supported AI metadata no uploads or account required.
 
 ## Note
 
@@ -2101,6 +2102,7 @@ Note is for investigator like search scandal, deepfake porn or blackmail, red di
 
 - [Jieyab ft Xquik Twitter Scrappe and MCP and monitoring](https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/SOCMINT-Twitter)
 - [instalker - x viewer](https://www.instalker.org/)
+- [trends24 whats trend in X arround world](https://trends24.in/indonesia/)
 - [Hoaxy](https://hoaxy.osome.iu.edu/)
 - [Twitter API](https://developer.x.com/en/docs/twitter-api/getting-started/about-twitter-api)
 - [search.twitter.com](https://twitter.com/search-home)
