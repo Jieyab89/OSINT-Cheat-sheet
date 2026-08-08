@@ -4698,6 +4698,9 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [Fiddler](https://www.telerik.com/fiddler) Uncover software bugs when HTTP communication is involved. The Fiddler set of tools helps you promptly identify errors to effectively fix them. Easily (like burp)
 - [privacyspace](https://github.com/Xposed-Modules-Repo/cn.geektang.privacyspace) For Android mobile pentest. This is an Xposed module. The function of this module is to "hide" the apps, which can achieve the "Second space" function of MIUI
 - [Dopamine](https://github.com/opa334/Dopamine) Dopamine is a semi-untethered jailbreak for iOS 15 and 16
+- [checkra1n](https://checkra.in/) Jailbreak for iPhone 5s through iPhone X, iOS 12.0 and up
+- [roothide](https://github.com/roothide/Bootstrap) Jailbreaking for iOS 15.0-17.0 A8-A17Pro & M1+M2
+- [palera1n](https://palera.in/) Jailbreak for iPhone, iPad, Macbooks, and AppleTV's for versions 15 and higher
 - [SSL bypass check](https://github.com/0xCD4/SSL-bypass) A comprehensive Frida script for bypassing root detection, SSL certificate pinning, and Frida detection mechanisms in Android applications.
 - [PSPY Linux](https://github.com/DominicBreuker/pspy) Enumeration host or monitor linux processes without root permissions
 - [MT.CN](https://mt2.cn/guide/) Android to rebuild apk and modified apk 
@@ -4758,6 +4761,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [Guadian CLI](https://github.com/zakirkun/guardian-cli) Guardian is a production-ready AI-powered penetration testing automation CLI tool that leverages Google Gemini and LangChain to orchestrate intelligent, step-by-step penetration testing workflows while maintaining ethical hacking standards.
 - [malapi](https://malapi.io/) Reference for Windows APIs that are commonly abused by malware or frequently used in cyber security contexts. It serves as a "cheat sheet" for malware analysts
 - [rlwrap](https://pkg.kali.org/pkg/rlwrap) Listener like netcat (nc) for reverse shell
+- [topazdump](https://t.me/topazdump) Android Xiaomi Root Kernel list dump
 
 Social Engineering (Social E)
 
