@@ -9,6 +9,7 @@ urls = {
     "readme": "https://raw.githubusercontent.com/Jieyab89/OSINT-Cheat-sheet/refs/heads/main/README.md",
     "wiki": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki",
     "articles": "https://raw.githubusercontent.com/Jieyab89/OSINT-Cheat-sheet/main/awesome-article.md"
+    #"scripts": "https://github.com/Jieyab89/OSINT-Cheat-sheet/blob/main/Script/README.md" soon
 }
 
 headers = {

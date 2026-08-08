@@ -46,6 +46,14 @@ _META_TAG_RE  = re.compile(r"<meta\b[^>]*>", re.IGNORECASE)
 _ATTR_RE      = re.compile(r'''([\w:-]+)\s*=\s*"([^"]*)"|([\w:-]+)\s*=\s*'([^']*)\'''')
 _TITLE_TAG_RE = re.compile(r"<title[^>]*>(.*?)</title>", re.IGNORECASE | re.DOTALL)
 _TWEET_ID_RE  = re.compile(r"/status/(\d+)")
+_X_HOST_RE    = re.compile(r"^https?://(?:www\.)?(?:x|twitter)\.com(?:/|$)", re.IGNORECASE)
+_PROFILE_RE   = re.compile(r"^https?://(?:www\.)?(?:x|twitter)\.com/([^/?#]+)/?(?:\?.*)?$", re.IGNORECASE)
+# Path segments that look like a profile URL shape but aren't a person/org
+# account — X's own site-nav pages live at this same depth.
+_NON_PROFILE_PATHS = {
+    "home", "explore", "notifications", "messages", "i", "search", "settings",
+    "compose", "login", "logout", "signup", "tos", "privacy", "about",
+}
 
 
 def _tweet_created_at(url: str) -> str | None:
@@ -62,6 +70,26 @@ def _tweet_created_at(url: str) -> str | None:
     if not dt:
         return None
     return dt.strftime("%a %b %d %H:%M:%S +0000 %Y")
+
+
+def _classify_url(url: str) -> str:
+    """A search result linking to x.com/someone with no other context reads
+    as "a Twitter profile" whether it's actually a specific tweet, a bare
+    profile page, or some other X page entirely — this is a real user report:
+    a result was shown for a keyword match with no way to tell that it was
+    (or wasn't) an actual tweet permalink. Purely a label derived from the
+    URL's own shape; never touches the URL/title/snippet themselves.
+    Returns 'tweet' | 'profile' | 'twitter_other' | 'other'."""
+    if not url:
+        return "other"
+    if _TWEET_ID_RE.search(url):
+        return "tweet"
+    if not _X_HOST_RE.match(url):
+        return "other"
+    m = _PROFILE_RE.match(url)
+    if m and m.group(1).lower() not in _NON_PROFILE_PATHS:
+        return "profile"
+    return "twitter_other"
 
 
 class GoogleCSEError(Exception):
@@ -95,13 +123,27 @@ def _row_to_record(item: dict) -> dict:
     record = {}
     title = item.get("title")
     if title:
-        record["post_title"] = html.unescape(title).strip()
+        # Kept as serp_title even after _enrich_records below potentially
+        # overwrites post_title with a live re-fetch — X serves bots a
+        # generic/gated page for most URLs, so a live fetch of an X link
+        # often returns less specific content than Google's own SERP/cache
+        # already had. Without this, that overwrite silently threw away the
+        # more useful value with no way to get it back.
+        record["serp_title"] = html.unescape(title).strip()
+        record["post_title"] = record["serp_title"]
     snippet = item.get("snippet")
     if snippet:
-        record["post_text"] = html.unescape(snippet).strip()
+        # Google truncates this itself (ends in "…" mid-sentence) — that's
+        # the SERP snippet as Google's own API hands it back, not something
+        # this scraper cuts short. Named `description` (not `serp_snippet`)
+        # to read clearly as "what this page is about" next to post_text
+        # (the live-fetched og:description, which may or may not agree).
+        record["description"] = html.unescape(snippet).strip()
+        record["post_text"]   = record["description"]
     link = item.get("link")
     if link and _SAFE_URL_RE.match(link):
-        record["result_url"] = link
+        record["result_url"]   = link
+        record["content_type"] = _classify_url(link)
         created_at = _tweet_created_at(link)
         if created_at:
             record["created_at"] = created_at   # when the post itself was actually made
@@ -173,8 +215,13 @@ def _fetch_live_meta(url: str) -> dict:
 
 
 def _enrich_records(records: list[dict]) -> None:
-    """Mutates each record in place. Runs in parallel — one slow/dead site
-    shouldn't hold up the rest of the result set."""
+    """Mutates each record in place — post_title/post_text become "best known
+    value," preferring a fresh live fetch over Google's SERP snapshot when
+    one succeeds. serp_title/description (set in _row_to_record, before this
+    runs) are never touched here, so Google's original values always survive
+    even when this overwrites post_title/post_text with something less
+    useful (X routinely serves bots a generic/gated page). Runs in parallel —
+    one slow/dead site shouldn't hold up the rest of the result set."""
     candidates = [r for r in records if r.get("result_url")]
     if not candidates:
         return

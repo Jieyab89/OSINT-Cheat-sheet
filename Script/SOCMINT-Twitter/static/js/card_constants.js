@@ -8,7 +8,7 @@
 // Arr params 
 
 const PRIORITY = [
-  'source', 'account_age_flag', 'account_age', 'account_created',
+  'source', 'content_type', 'account_age_flag', 'account_age', 'account_created',
   'user', 'screen_name', 'name', 'user_id', 'username',
   'verified', 'is_blue_verified',
   'text', 'full_text', 'article_text', 'post_title', 'post_text', 'content', 'title', 'description', 'bio',
@@ -18,8 +18,22 @@ const PRIORITY = [
   'retweeted_by_user', 'retweeted_by_name', 'retweeted_text', 'retweeted_by_bio', 'retweeted_at', 'retweeted_tweet_id',
   'lat', 'lon', 'place', 'user_location',
   'tweet_url', 'archive_url', 'result_url', 'preview_image', 'display_link',
+  'serp_title',
   'iso_date', 'original', 'statuscode', 'mimetype', 'length',
 ];
+
+// content_type: what kind of X/Twitter page a Google CSE / Wayback result
+// actually is — a search hit for a keyword could be a specific tweet, a
+// bare profile page, some other X page, or (Google CSE only) a site off X
+// entirely. Cookie/Xquik records don't carry this field at all (a tweet
+// search result there is unambiguously always a tweet), so it only ever
+// shows up for the two sources it's meant to disambiguate.
+const CONTENT_TYPE_LABELS = {
+  tweet:         'Tweet',
+  profile:       'Profile page',
+  twitter_other: 'Other X/Twitter page',
+  other:         'External page (non-X)',
+};
 
 // Which fields link out to a fresh extraction for that tweet — same anchor
 // behavior whether you're looking at a live result or a saved archive.

@@ -227,6 +227,56 @@
     scrollbar-width: thin;
     scrollbar-color: var(--border) transparent;
   }
+  .panel-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 12px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  .panel-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--border);
+    flex-shrink: 0;
+    background: var(--bg);
+  }
+  .panel-avatar-fallback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--muted);
+  }
+  .panel-identity { min-width: 0; }
+  .panel-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .panel-handle { font-size: 11px; color: var(--muted); }
+  /* Compact variant for tweet/reply nodes — the node's own text is a row
+     below, so this stays a small identity line rather than a full profile
+     block (that treatment is reserved for user/retweeter nodes). */
+  .panel-byline { padding-bottom: 10px; }
+  .panel-byline .panel-avatar { width: 28px; height: 28px; }
+  .panel-byline .panel-identity { display: flex; align-items: baseline; gap: 6px; }
+  .panel-bio {
+    font-size: 11px;
+    color: var(--text);
+    opacity: 0.85;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid var(--border);
+  }
   .info-row {
     display: flex;
     gap: 8px;
@@ -252,6 +302,14 @@
   }
   .info-val a { color: var(--accent); text-decoration: none; }
   .info-val a:hover { text-decoration: underline; }
+  /* "Replying to @x @y" — x.com trims these from the visible tweet body and
+     shows them as their own line instead; matches that here. Display-only,
+     the underlying text value (Dump JSON / Archive All) is untouched. */
+  .reply-context {
+    font-size: 10px;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
   .info-media {
     display: flex;
     flex-wrap: wrap;
@@ -341,6 +399,8 @@
   .leg-icon.wayback  { background: #2a1f08; border-color: var(--warn); border-radius: 2px; }
   .leg-icon.cse      { background: #2a0d0d; border-color: #ef4444; border-radius: 2px; }
   .leg-icon.viewed   { background: #ffffff; border-color: #c7c7c7; border-radius: 2px; }
+  .leg-line { width: 20px; height: 0; flex-shrink: 0; border-top: 2px solid; }
+  .leg-line-correlation { border-top-color: #facc15; }
   .leg-heading {
     font-size: 10px;
     text-transform: uppercase;
@@ -396,6 +456,23 @@
   .age-badge.age-new         { color: var(--danger);  border-color: #7f1d1d; background: #1c0505; }
   .age-badge.age-recent      { color: var(--warn);    border-color: #78350f; background: #1c0e02; }
   .age-badge.age-established { color: var(--success); border-color: #14532d; background: #052011; }
+
+  /* What kind of X/Twitter page a Google CSE / Wayback result actually is —
+     a keyword match linking to x.com/someone reads as "just a profile" with
+     no way to tell a tweet permalink apart from a bare profile page or an
+     unrelated page otherwise. */
+  .content-type-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 2px 9px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+  }
+  .content-type-badge.ct-tweet         { color: var(--success); border-color: #14532d; background: #052011; }
+  .content-type-badge.ct-profile       { color: #a78bfa;        border-color: #4c3a8f; background: var(--purple-bg); }
+  .content-type-badge.ct-twitter_other { color: var(--warn);    border-color: #78350f; background: #1c0e02; }
+  .content-type-badge.ct-other         { color: var(--muted);   border-color: var(--border); background: var(--bg); }
 
   /* ── Status bar ── */
   #statusBar {
@@ -467,6 +544,7 @@
     <a href="/graph" class="current">Graph</a>
     <hr class="nav-divider">
     <a href="/archives">Archives</a>
+    <a href="/analytics">Analytics</a>
   </nav>
 </header>
 
@@ -474,6 +552,7 @@
   <select id="toolSelect">
     <option value="tweet_search_extractor">Tweet Search</option>
     <option value="follower_explorer">Follower Explorer</option>
+    <option value="following_explorer">Following Explorer [Cookie]</option>
     <option value="post_extractor">Post Extractor</option>
     <option value="article_extractor">Article Extractor</option>
     <option value="community_post_extractor">Community Posts</option>
@@ -490,7 +569,7 @@
   <input id="queryInput" type="text" placeholder="Search query…" spellcheck="false" autocomplete="off">
   <input id="dateFromInput" type="text" placeholder="From YYYYMMDD" title="Optional start date" maxlength="8" style="width:100px;display:none">
   <input id="dateToInput"   type="text" placeholder="To YYYYMMDD"   title="Optional end date"   maxlength="8" style="width:100px;display:none">
-  <input id="countInput" type="number" value="20" min="1" max="200" title="Result count">
+  <input id="countInput" type="number" value="20" min="1" max="2000" title="Result count">
   <span id="nodeCount">0 nodes</span>
   <button id="btnSearch"     class="btn btn-primary">Search</button>
   <button id="btnArchiveAll" class="btn btn-ghost">Archive All</button>
@@ -513,6 +592,11 @@
     <div id="infoActions">
       <button id="btnExpandReplies"   class="btn btn-ghost"    style="display:none">↩ Expand Replies</button>
       <button id="btnExpandRetweets"  class="btn btn-ghost"    style="display:none">↗ Expand Retweets</button>
+      <button id="btnViewAuthor"      class="btn btn-ghost"    style="display:none">View Author Profile</button>
+      <button id="btnExpandPosts"     class="btn btn-ghost"    style="display:none">Expand Posts</button>
+      <button id="btnExpandFollowers" class="btn btn-ghost"    style="display:none">Expand Followers</button>
+      <button id="btnExpandFollowing" class="btn btn-ghost"    style="display:none">Expand Following</button>
+      <button id="btnLoadMoreSearch"  class="btn btn-ghost"    style="display:none">⤓ Load More Results</button>
       <a      id="btnOpenTweet"       class="btn btn-success"  style="display:none"
               href="#" target="_blank" rel="noopener noreferrer">Open Tweet ↗</a>
     </div>
@@ -524,26 +608,44 @@
   <!-- Empty state -->
   <div id="emptyHint">
     Use the toolbar to search<br>
-    Click any node to inspect · Click tweet nodes to expand replies / retweets
+    Click any node to inspect · Click tweet nodes to expand replies / retweets<br>
+    Shift/Alt/Ctrl+drag to box-select multiple nodes, then drag any one to move them together
   </div>
 </div>
 
 <!-- Legend / help popup (floats over cy, bottom-left) -->
 <button id="legendToggle" aria-label="Legend / help" title="Legend / help">?</button>
 <div id="legend" class="hidden">
+  <div class="leg-heading">Controls</div>
+  <div class="leg-note">Drag background to pan · Scroll to zoom · Click a node to inspect it<br>Shift/Alt/Ctrl+drag to box-select multiple nodes, then drag any one to move the whole selection together</div>
+
   <div class="leg-row"><div class="leg-icon search"></div>  Search root</div>
   <div class="leg-row"><div class="leg-icon tweet"></div>   Tweet</div>
   <div class="leg-row"><div class="leg-icon reply"></div>   Reply</div>
-  <div class="leg-row"><div class="leg-icon user"></div>    User / Retweeter</div>
+  <div class="leg-row"><div class="leg-icon user"></div>    User / Retweeter / Follower / Following</div>
   <div class="leg-row"><div class="leg-icon wayback"></div> Wayback snapshot</div>
   <div class="leg-row"><div class="leg-icon cse"></div>     Google CSE web result</div>
   <div class="leg-row"><div class="leg-icon viewed"></div>  Viewed (clicked)</div>
+  <div class="leg-note">Double border = this tweet/reply has replies of its own — click it, then Expand Replies to go a level deeper. Works on reply nodes too, so a thread nests as deep as it actually goes.</div>
+  <div class="leg-note">A user/retweeter node's photo is their real avatar when one was captured (cookie mode) — the plain purple circle is the fallback when it wasn't.</div>
+
+  <div class="leg-heading">Expanding a node further</div>
+  <div class="leg-note">Tweet/Reply — Expand Replies, Expand Retweets, or View Author Profile (pulls the author out as its own node, free — no request, the data's already on the tweet).<br>User/Retweeter — Expand Posts, Expand Followers, or Expand Following. Works on a "View Author" node too, so a reply's author can be looked up in full: posts, followers, following.</div>
+  <div class="leg-note">Edge labels show how two nodes relate once expanded: <em>replied by</em>, <em>retweeted by</em>, <em>posted</em>, <em>followed by</em>, <em>follows</em>, <em>authored by</em>. A plain unlabeled edge just means "matched the search."</div>
+  <div class="leg-row"><div class="leg-line leg-line-correlation"></div> Correlation — this connects to a node already reached some other way (e.g. a reply's author who also turns up as a follower). Marks where two separate paths through the graph converge on the same account/tweet.</div>
 
   <div class="leg-heading">Source (info panel)</div>
   <div class="leg-row"><span class="source-badge src-cookie">Cookie</span></div>
   <div class="leg-row"><span class="source-badge src-xquik">Xquik API</span></div>
   <div class="leg-row"><span class="source-badge src-wayback">Wayback Machine</span></div>
   <div class="leg-row"><span class="source-badge src-cse">Google CSE</span></div>
+
+  <div class="leg-heading">Content type — Google CSE / Wayback only (info panel)</div>
+  <div class="leg-row"><span class="content-type-badge ct-tweet">Tweet</span></div>
+  <div class="leg-row"><span class="content-type-badge ct-profile">Profile page</span></div>
+  <div class="leg-row"><span class="content-type-badge ct-twitter_other">Other X/Twitter page</span></div>
+  <div class="leg-row"><span class="content-type-badge ct-other">External page (non-X)</span></div>
+  <div class="leg-note">What kind of page a keyword match actually landed on — a search hit isn't always a specific tweet.</div>
 
   <div class="leg-heading">Account age (info panel)</div>
   <div class="leg-row"><span class="age-badge age-new">New</span> &lt; 30 days</div>
@@ -646,6 +748,33 @@ const CY_STYLE = [
       'background-color': '#ffffff',
       'border-color': '#c7c7c7',
   }},
+  // Avatar texture — replaces the flat fill with the person's actual profile
+  // photo when one was captured (cookie mode only; xquik/API-mode records
+  // don't carry it). The colored ring from the selectors above stays as a
+  // type indicator; only the fill becomes a photo. Declared after the
+  // "viewed" block so the photo wins regardless of viewed state.
+  { selector: 'node[type="user"][?hasAvatar], node[type="retweeter"][?hasAvatar]', style: {
+      'background-image': 'data(avatarUrl)',
+      'background-fit': 'cover',
+      'background-clip': 'node',
+  }},
+  // Nested-reply indicator — a slightly thicker, double-lined border marks a
+  // tweet/reply node that has further replies of its own to expand into,
+  // glanceable on the canvas without opening the info panel.
+  { selector: 'node[?hasReplies]', style: {
+      'border-width': '3px',
+      'border-style': 'double',
+  }},
+  // Multi-select highlight (Maltego-style box select) — wins over every
+  // type's own border-color above since it's declared last in this array
+  // (Cytoscape applies matching selectors in declaration order, last wins).
+  { selector: 'node:selected', style: {
+      'border-width': '3px',
+      'border-color': '#5865f2',
+      'overlay-color': '#5865f2',
+      'overlay-opacity': 0.22,
+      'overlay-padding': '6px',
+  }},
   // Softer, thinner and semi-transparent — a hub with many edges (a popular
   // tweet's replies, a big multi-source search) stays legible instead of
   // turning into a bright white tangle.
@@ -658,6 +787,30 @@ const CY_STYLE = [
       'target-arrow-shape': 'triangle',
       'arrow-scale': 1.0,
       'curve-style': 'bezier',
+      // Empty for a plain "matched the search" edge (addEdge's label
+      // defaults to ''), so most edges in a fresh search still draw with no
+      // visible text — this only shows up on the relationship-specific
+      // edges node-expand actions create (replied by / retweeted by /
+      // posted / followed by / follows / authored by).
+      label: 'data(label)',
+      'font-size': '8px',
+      color: '#c7c7c7',
+      'text-rotation': 'autorotate',
+      'text-background-color': '#0f1117',
+      'text-background-opacity': 0.85,
+      'text-background-padding': '2px',
+  }},
+  // Correlation — this edge connects to a node that already existed via
+  // some OTHER path (a different search, a different expand, ...) rather
+  // than one just discovered. Declared after the base 'edge' selector so it
+  // wins on line/arrow color; solid + thicker on top of the color change so
+  // it's still readable once a dense graph desaturates everything else.
+  { selector: 'edge[?correlation]', style: {
+      'line-color': '#facc15',
+      'line-style': 'solid',
+      width: '1.8px',
+      'target-arrow-color': '#facc15',
+      color: '#facc15',
   }},
 ];
 
@@ -670,7 +823,14 @@ function init() {
     minZoom: 0.08,
     maxZoom: 4,
     wheelSensitivity: 0.25,
-    boxSelectionEnabled: false,
+    // Maltego-style multi-select: hold shift/alt/ctrl/cmd and drag on empty
+    // canvas to rubber-band select several nodes at once, then drag any one
+    // of them to move the whole selection together — this is native
+    // Cytoscape drag behavior once elements are selected, no extra code
+    // needed. Plain drag-on-background still pans (Cytoscape requires a
+    // modifier key for box select whenever panning is also enabled, so the
+    // two gestures never conflict).
+    boxSelectionEnabled: true,
     // Keep panning/zooming smooth once a graph has hundreds of nodes/edges —
     // edges & a rasterized texture stand in for the full render mid-gesture.
     hideEdgesOnViewport: true,
@@ -685,6 +845,18 @@ function init() {
 
   cy.on('tap', function (evt) {
     if (evt.target === cy) hidePanel();
+  });
+
+  // Multi-select bookkeeping — the single-node info panel only makes sense
+  // for exactly one selected node, so a box-select of several hides it
+  // (without touching the selection itself, unlike hidePanel()) and the
+  // node-count badge picks up the slack to show what's selected.
+  cy.on('select unselect', 'node', function () {
+    updateNodeCount();
+    if (cy.nodes(':selected').length > 1) {
+      document.getElementById('infoPanel').classList.add('hidden');
+      selectedNode = null;
+    }
   });
 
   // Hamburger nav
@@ -725,6 +897,17 @@ function init() {
   document.getElementById('btnExpandRetweets').addEventListener('click', function () {
     expandNode('tweet_retweeters_extractor');
   });
+  document.getElementById('btnViewAuthor').addEventListener('click', viewAuthor);
+  document.getElementById('btnExpandPosts').addEventListener('click', function () {
+    expandNode('post_extractor');
+  });
+  document.getElementById('btnExpandFollowers').addEventListener('click', function () {
+    expandNode('follower_explorer');
+  });
+  document.getElementById('btnExpandFollowing').addEventListener('click', function () {
+    expandNode('following_explorer');
+  });
+  document.getElementById('btnLoadMoreSearch').addEventListener('click', expandSearch);
 
   updatePlaceholder();
   updateModeVisibility();
@@ -735,6 +918,7 @@ function updatePlaceholder() {
   var map = {
     tweet_search_extractor:     'Search query…',
     follower_explorer:          'Username or user ID…',
+    following_explorer:         'Username or user ID…',
     post_extractor:             'Username or user ID…',
     article_extractor:          'Tweet ID…',
     community_post_extractor:   'Community ID…',
@@ -776,8 +960,11 @@ function setStatus(msg, isError, persist) {
 }
 
 function updateNodeCount() {
-  var n = cy.nodes().length;
-  document.getElementById('nodeCount').textContent = n + ' node' + (n !== 1 ? 's' : '');
+  var n     = cy.nodes().length;
+  var selN  = cy.nodes(':selected').length;
+  var label = n + ' node' + (n !== 1 ? 's' : '');
+  if (selN > 1) label += ' · ' + selN + ' selected';
+  document.getElementById('nodeCount').textContent = label;
   document.getElementById('emptyHint').classList.toggle('hidden', n > 0);
 }
 
@@ -787,7 +974,7 @@ function buildBody(tool, query, count, mode) {
   if (tool === 'tweet_search_extractor' || tool === 'geo_post_extractor' ||
       tool === 'wayback_archive_search' || tool === 'multi_source_search') {
     body.searchQuery = query;
-  } else if (tool === 'follower_explorer' || tool === 'post_extractor') {
+  } else if (tool === 'follower_explorer' || tool === 'following_explorer' || tool === 'post_extractor') {
     body.targetUsername = query;
   } else if (
     tool === 'article_extractor' ||
@@ -832,19 +1019,50 @@ async function apiFetch(body) {
 var cooldownUntil = { cookie: 0, wayback: 0 };
 var cooldownTimer = null;
 
+// Returns the list of rate-limit clocks a request against this tool/mode
+// touches. multi_source_search fans out to both cookie and wayback
+// internally, so continuing it has to wait out (and then restart) both
+// cooldowns at once, not just one.
 function throttleSourceFor(tool, mode) {
-  if (tool === 'wayback_archive_search') return 'wayback';
-  var COOKIE_TOOLS = ['tweet_search_extractor', 'follower_explorer', 'post_extractor',
+  if (tool === 'wayback_archive_search') return ['wayback'];
+  if (tool === 'multi_source_search') return ['cookie', 'wayback'];
+  var COOKIE_TOOLS = ['tweet_search_extractor', 'follower_explorer', 'following_explorer', 'post_extractor',
     'community_post_extractor', 'tweet_replies_extractor', 'tweet_retweeters_extractor', 'geo_post_extractor'];
-  if (mode === 'cookie' && COOKIE_TOOLS.indexOf(tool) !== -1) return 'cookie';
-  return null;
+  if (mode === 'cookie' && COOKIE_TOOLS.indexOf(tool) !== -1) return ['cookie'];
+  return [];
 }
 
-function stampCooldown(source) {
-  if (source) cooldownUntil[source] = Date.now() + 5000;
+function stampCooldown(sources) {
+  (sources || []).forEach(function (source) { cooldownUntil[source] = Date.now() + 5000; });
 }
+
+// Tools whose root search (not just node-expand) supports cursor pagination
+// — everything except article_extractor, which only ever returns one item.
+var ROOT_PAGINATED_TOOLS = ['tweet_search_extractor', 'follower_explorer', 'following_explorer', 'post_extractor',
+  'community_post_extractor', 'tweet_replies_extractor', 'tweet_retweeters_extractor',
+  'geo_post_extractor', 'wayback_archive_search', 'multi_source_search'];
 
 // ── Label builder ─────────────────────────────────────────────────────────────
+// Tapping "Reply" on X auto-prefixes the compose box with every account the
+// reply-chain already has tagged, and that prefix is genuinely part of the
+// reply's own raw text — but x.com's own UI never shows it inline, trimming
+// it into a separate "Replying to @x @y" line instead. `reply_to_mentions`
+// (from cookie_client.py's _leading_reply_mentions) lists exactly which
+// leading @mentions those are; this only touches how text RENDERS — the
+// node's own raw data (and what Dump JSON / Archive All send) is untouched.
+function stripLeadingMentions(text, mentions) {
+  if (!text || !mentions || !mentions.length) return text;
+  var rest = text;
+  for (var i = 0; i < mentions.length; i++) {
+    var re = new RegExp('^\\s*@' + String(mentions[i]).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b');
+    var match = rest.match(re);
+    if (!match) break;
+    rest = rest.slice(match[0].length);
+  }
+  rest = rest.replace(/^\s+/, '');
+  return rest || text;
+}
+
 function makeLabel(item, type) {
   if (type === 'user' || type === 'retweeter') {
     var handle = item.screen_name || item.user || '';
@@ -858,7 +1076,8 @@ function makeLabel(item, type) {
     var web = (item.post_title || item.post_text || item.display_link || 'Web result').replace(/\s+/g, ' ').trim();
     return web.length > 60 ? web.substring(0, 60) + '…' : web;
   }
-  var text = (item.text || item.retweeted_text || '').replace(/\s+/g, ' ').trim();
+  var rawText = item.text ? stripLeadingMentions(item.text, item.reply_to_mentions) : item.text;
+  var text = (rawText || item.retweeted_text || '').replace(/\s+/g, ' ').trim();
   return text.length > 60 ? text.substring(0, 60) + '…' : (text || ('Tweet ' + (item.id || '?')));
 }
 
@@ -866,7 +1085,7 @@ function makeLabel(item, type) {
 // snapshots and Google CSE web results in one result set, so the type has to
 // be resolved per item rather than fixed for the whole tool/search.
 function resolveNodeType(tool, item) {
-  if (tool === 'follower_explorer') return 'user';
+  if (tool === 'follower_explorer' || tool === 'following_explorer') return 'user';
   if (tool === 'tweet_retweeters_extractor') return 'retweeter';
   if (tool === 'wayback_archive_search') return 'wayback';
   if (tool === 'multi_source_search') {
@@ -877,8 +1096,21 @@ function resolveNodeType(tool, item) {
   return 'tweet';
 }
 
+// Only a plain https URL is ever handed to Cytoscape's background-image —
+// it ends up as a CSS url() token internally, so the same reasoning as
+// index.html's isSafeImageUrl applies: reject anything but a clean https
+// URL rather than trying to escape one value for two contexts.
+function isSafeImageUrl(u) {
+  return typeof u === 'string' && /^https:\/\/[^\s'"<>()]+$/.test(u);
+}
+
 // ── Graph operations ──────────────────────────────────────────────────────────
-function addNodes(items, nodeTypeOrFn, parentId) {
+// edgeLabel is optional — omitted for a plain "this matched the search"
+// connection (search root → result, continued-search pagination); every
+// node-expand action (replies/retweets/posts/followers/following/author)
+// passes one, since with 6+ relationship types now a bare arrow stopped
+// being enough to tell what an edge actually means.
+function addNodes(items, nodeTypeOrFn, parentId, edgeLabel) {
   var added = 0;
   items.forEach(function (item, i) {
     var nodeType = typeof nodeTypeOrFn === 'function' ? nodeTypeOrFn(item) : nodeTypeOrFn;
@@ -886,31 +1118,48 @@ function addNodes(items, nodeTypeOrFn, parentId) {
     var cyId     = tweetId ? 'n_' + tweetId : 'n_' + Date.now() + '_' + i;
 
     if (cy.getElementById(cyId).length) {
-      if (parentId) addEdge(parentId, cyId);
+      // The node this would-be edge points to already exists — reached via
+      // some OTHER path already (a different search, a different expand, a
+      // reply's author who also turned up as a follower, ...). That's a
+      // genuine correlation between two otherwise-separate parts of the
+      // graph, worth calling out on its own rather than blending in with
+      // every other edge once the graph gets big.
+      if (parentId) addEdge(parentId, cyId, edgeLabel, true);
       return;
     }
 
+    var avatarUrl = item.avatar || item.user_avatar || '';
+    if (!isSafeImageUrl(avatarUrl)) avatarUrl = '';
+
     cy.add({
       data: {
-        id:      cyId,
-        type:    nodeType,
-        label:   makeLabel(item, nodeType),
-        tweetId: tweetId,
-        raw:     item,
+        id:         cyId,
+        type:       nodeType,
+        label:      makeLabel(item, nodeType),
+        tweetId:    tweetId,
+        raw:        item,
+        hasReplies: (nodeType === 'tweet' || nodeType === 'reply') && Number(item.reply_count) > 0,
+        hasAvatar:  (nodeType === 'user' || nodeType === 'retweeter') && !!avatarUrl,
+        avatarUrl:  avatarUrl,
       }
     });
 
-    if (parentId) addEdge(parentId, cyId);
+    if (parentId) addEdge(parentId, cyId, edgeLabel, false);
     allItems.push({ type: nodeType, item: item });
     added++;
   });
   return added;
 }
 
-function addEdge(src, tgt) {
+// A node pair can only ever have one edge between them (id is derived purely
+// from src+tgt) — if a second expand action connects the same two nodes with
+// a different label (e.g. someone who's both a follower and a retweeter),
+// the first label/correlation state that got there wins rather than being
+// silently replaced.
+function addEdge(src, tgt, label, isCorrelation) {
   var eId = 'e_' + src + '_' + tgt;
   if (!cy.getElementById(eId).length) {
-    cy.add({ data: { id: eId, source: src, target: tgt } });
+    cy.add({ data: { id: eId, source: src, target: tgt, label: label || '', correlation: !!isCorrelation } });
   }
 }
 
@@ -933,7 +1182,7 @@ function runLayout(fit, randomize) {
 async function runSearch() {
   var tool  = document.getElementById('toolSelect').value;
   var query = document.getElementById('queryInput').value.trim();
-  var count = Math.max(1, Math.min(200, parseInt(document.getElementById('countInput').value, 10) || 20));
+  var count = Math.max(1, Math.min(2000, parseInt(document.getElementById('countInput').value, 10) || 20));
   var mode  = document.getElementById('modeSelect').value;
 
   if (!query) { setStatus('Enter a query first', true); return; }
@@ -945,15 +1194,20 @@ async function runSearch() {
     var result = await apiFetch(buildBody(tool, query, count, mode));
     var items  = Array.isArray(result.items) ? result.items : [result.items];
     stampCooldown(throttleSourceFor(tool, mode));
-    // Root-search pagination (continuing this same search past one page) is
-    // not wired up in the graph UI yet — only reply/retweet node-expand
-    // supports "load more" this round. result.nextCursor is intentionally
-    // unused here.
 
-    // Central search node
+    // Central search node — carries everything expandSearch() needs to fetch
+    // the next page later (tool/query/mode/count fixed at the time of this
+    // search, cursor updated after every page).
     var searchId = 'search_' + Date.now();
     var shortQ   = query.length > 40 ? query.substring(0, 40) + '…' : query;
-    cy.add({ data: { id: searchId, type: 'search', label: shortQ, tweetId: '', raw: { query: query } } });
+    cy.add({
+      data: {
+        id: searchId, type: 'search', label: shortQ, tweetId: '', raw: { query: query },
+        tool: tool, query: query, mode: mode, count: count,
+        searchCursor:    result.nextCursor || null,
+        searchExhausted: !result.nextCursor,
+      }
+    });
 
     var added = addNodes(items, function (item) { return resolveNodeType(tool, item); }, searchId);
     runLayout(true, true);
@@ -966,75 +1220,194 @@ async function runSearch() {
   }
 }
 
-// ── Expand replies / retweets from selected node ──────────────────────────────
+// ── Expand a node further (replies/retweets/posts/followers/following) ────────
 // First click on a node = fresh fetch. If more is available, the button
 // relabels itself and a second click continues from the stored cursor —
 // same cursor/cooldown mechanism as the non-graph page's scroll load-more.
-var CURSOR_KEY    = { tweet_replies_extractor: 'repliesCursor',   tweet_retweeters_extractor: 'retweetersCursor' };
-var EXHAUSTED_KEY = { tweet_replies_extractor: 'repliesExhausted', tweet_retweeters_extractor: 'retweetersExhausted' };
+// targetKind picks which id the API call needs: a tweet node sends its own
+// tweetId as targetTweetId; a user/retweeter node sends the account's own
+// id (preferred) or handle as targetUsername.
+var EXPAND_TOOLS = {
+  tweet_replies_extractor:    { targetKind: 'tweet', nodeType: 'reply',     button: 'btnExpandReplies',    cursorKey: 'repliesCursor',    exhaustedKey: 'repliesExhausted',    label: 'Replies',   edgeLabel: 'replied by',   icon: '↩ ', countField: 'reply_count' },
+  tweet_retweeters_extractor: { targetKind: 'tweet', nodeType: 'retweeter', button: 'btnExpandRetweets',   cursorKey: 'retweetersCursor', exhaustedKey: 'retweetersExhausted', label: 'Retweets',  edgeLabel: 'retweeted by', icon: '↗ ', countField: 'retweet_count' },
+  post_extractor:             { targetKind: 'user',  nodeType: 'tweet',    button: 'btnExpandPosts',      cursorKey: 'postsCursor',      exhaustedKey: 'postsExhausted',      label: 'Posts',     edgeLabel: 'posted',       icon: '',   countField: 'tweet_count' },
+  follower_explorer:          { targetKind: 'user',  nodeType: 'user',     button: 'btnExpandFollowers',  cursorKey: 'followersCursor',  exhaustedKey: 'followersExhausted',  label: 'Followers', edgeLabel: 'followed by',  icon: '',   countField: 'followers_count' },
+  following_explorer:         { targetKind: 'user',  nodeType: 'user',     button: 'btnExpandFollowing',  cursorKey: 'followingCursor',  exhaustedKey: 'followingExhausted',  label: 'Following', edgeLabel: 'follows',      icon: '',   countField: 'following_count' },
+};
+
+// Shared by every Expand button in the panel — label reflects whether this
+// node's already been expanded and whether more is available; before the
+// first click, falls back to the account/tweet's own self-reported count
+// (reply_count, followers_count, ...) so it's never a blind "Expand".
+function updateExpandButtonLabel(btn, data, cfg, raw) {
+  if (data[cfg.exhaustedKey]) {
+    btn.textContent = cfg.icon + 'Expand ' + cfg.label + ' (all loaded)';
+  } else if (data[cfg.cursorKey]) {
+    btn.textContent = cfg.icon + 'Expand ' + cfg.label + ' (more available)';
+  } else {
+    var n = Number(raw[cfg.countField]) || 0;
+    btn.textContent = n > 0 ? cfg.icon + 'Expand ~' + n + ' ' + cfg.label : cfg.icon + 'Expand ' + cfg.label;
+  }
+  btn.disabled = !!data[cfg.exhaustedKey];
+}
+
+function targetIdFor(cfg, data) {
+  if (cfg.targetKind === 'tweet') return data.tweetId || null;
+  var raw = data.raw || {};
+  // user_id is unambiguous (survives a screen_name change); screen_name/user
+  // are the fallback for any record shape that never captured a numeric id.
+  return raw.user_id || raw.id || raw.screen_name || raw.user || null;
+}
 
 async function expandNode(expandTool) {
   if (!selectedNode) return;
-  var data    = selectedNode.data();
-  var tweetId = data.tweetId;
-  if (!tweetId) { setStatus('Node has no tweet ID', true); return; }
+  var cfg  = EXPAND_TOOLS[expandTool];
+  var data = selectedNode.data();
+  var targetId = targetIdFor(cfg, data);
+  if (!targetId) { setStatus('Node has no ' + (cfg.targetKind === 'tweet' ? 'tweet ID' : 'user ID/handle'), true); return; }
 
-  var source = throttleSourceFor(expandTool, 'cookie');   // always 'cookie' — both expand tools are cookie-only
-  var remaining = cooldownUntil[source] - Date.now();
+  var sources   = throttleSourceFor(expandTool, 'cookie');   // always 'cookie' — every expand tool here is cookie-only
+  var btn       = document.getElementById(cfg.button);
+  var remaining = Math.max(0, ...sources.map(function (s) { return cooldownUntil[s] - Date.now(); }));
   if (remaining > 0) {
-    armExpandCountdown(remaining);
+    armCooldownButtons(remaining, [btn], 'Ready — click Expand ' + cfg.label + ' again');
     return;
   }
 
-  var count    = Math.max(1, Math.min(200, parseInt(document.getElementById('countInput').value, 10) || 50));
+  var count    = Math.max(1, Math.min(2000, parseInt(document.getElementById('countInput').value, 10) || 50));
   var parentId = selectedNode.id();
-  var cursor   = selectedNode.data(CURSOR_KEY[expandTool]) || null;
+  var cursor   = selectedNode.data(cfg.cursorKey) || null;
 
-  document.getElementById('btnExpandReplies').disabled  = true;
-  document.getElementById('btnExpandRetweets').disabled = true;
+  var body = { toolType: expandTool, mode: 'cookie', count: count };
+  if (cfg.targetKind === 'tweet') body.targetTweetId = targetId;
+  else body.targetUsername = targetId;
+  if (cursor) body.cursor = cursor;
+
+  btn.disabled = true;
   setStatus(cursor ? 'Loading more…' : 'Expanding…', false, true);
 
   try {
-    var body = { toolType: expandTool, mode: 'cookie', count: count, targetTweetId: tweetId };
-    if (cursor) body.cursor = cursor;
-    var result   = await apiFetch(body);
-    stampCooldown(source);
-    var items    = Array.isArray(result.items) ? result.items : [result.items];
-    var nodeType = expandTool === 'tweet_replies_extractor' ? 'reply' : 'retweeter';
+    var result = await apiFetch(body);
+    stampCooldown(sources);
+    var items  = Array.isArray(result.items) ? result.items : [result.items];
 
-    var added = addNodes(items, nodeType, parentId);
+    var added = addNodes(items, cfg.nodeType, parentId, cfg.edgeLabel);
     runLayout(false, false);
     updateNodeCount();
     setStatus('Expanded — ' + items.length + ' result(s) (' + added + ' new nodes)');
 
-    selectedNode.data(CURSOR_KEY[expandTool], result.nextCursor || null);
-    selectedNode.data(EXHAUSTED_KEY[expandTool], !result.nextCursor);
+    selectedNode.data(cfg.cursorKey, result.nextCursor || null);
+    selectedNode.data(cfg.exhaustedKey, !result.nextCursor);
     showPanel(selectedNode.data());   // refresh button labels/disabled state (e.g. "all loaded")
   } catch (e) {
     if (e.retryAfter) {
-      // Keep both buttons disabled for the cooldown window — armExpandCountdown
-      // re-enables them itself once it elapses, so don't touch them here.
-      armExpandCountdown(e.retryAfter * 1000);
+      // Keep the button disabled for the cooldown window — armCooldownButtons
+      // re-enables it itself once it elapses, so don't touch it here.
+      armCooldownButtons(e.retryAfter * 1000, [btn], 'Ready — click Expand ' + cfg.label + ' again');
     } else {
       setStatus('Error: ' + e.message, true);
-      document.getElementById('btnExpandReplies').disabled  = false;
-      document.getElementById('btnExpandRetweets').disabled = false;
+      btn.disabled = false;
     }
   }
 }
 
-function armExpandCountdown(msRemaining) {
+// ── View a tweet/reply node's author as its own node ───────────────────────
+// A reply, retweet, or search-result tweet already carries its author's
+// avatar/bio/account-age info (cookie_client.py's _tweet_to_dict embeds it
+// on every tweet) — this never hits the network, it just re-shapes that
+// already-fetched data into a standalone user node with the same field
+// names cookie_client.py's _user_to_dict itself produces, so the node
+// renders identically to a real follower/following result. The synthesized
+// node's id is the author's own user_id, so an author who's already on
+// canvas some other way (e.g. also appears as a follower elsewhere) merges
+// into that same node instead of duplicating it — this is exactly what
+// makes a reply's author "look-up-able": select them afterward and Expand
+// Posts/Followers/Following works on them like any other user node.
+var AUTHOR_REMAP = { user_avatar: 'avatar', user_banner: 'banner', user_bio: 'description' };
+var AUTHOR_PASSTHROUGH = ['name', 'verified', 'is_blue_verified', 'user_location',
+  'account_created', 'account_age', 'account_age_flag', 'account_age_precision',
+  'source', 'fetched_at'];
+
+function authorFromRaw(raw) {
+  if (!raw || (!raw.user_id && !raw.user)) return null;
+  var out = { id: raw.user_id || null, screen_name: raw.user || null };
+  Object.keys(raw).forEach(function (k) {
+    if (AUTHOR_REMAP[k] && raw[k] != null) out[AUTHOR_REMAP[k]] = raw[k];
+  });
+  AUTHOR_PASSTHROUGH.forEach(function (k) {
+    if (raw[k] != null) out[k] = raw[k];
+  });
+  return out;
+}
+
+function viewAuthor() {
+  if (!selectedNode) return;
+  var raw    = selectedNode.data('raw') || {};
+  var author = authorFromRaw(raw);
+  if (!author) { setStatus('No author info on this node', true); return; }
+
+  var added = addNodes([author], 'user', selectedNode.id(), 'authored by');
+  runLayout(false, false);
+  updateNodeCount();
+  setStatus(added ? 'Author profile added — select it to Expand Posts/Followers/Following'
+                   : 'Author already on canvas — linked');
+}
+
+// ── Load more results for the root search node ─────────────────────────────
+// Mirrors expandNode() above — same click+cursor+cooldown mechanism, applied
+// to the search node itself instead of a tweet node, so any tool (not just
+// replies/retweets) can page past its first result set.
+async function expandSearch() {
+  if (!selectedNode) return;
+  var data = selectedNode.data();
+  if (data.type !== 'search' || !data.tool) return;
+
+  var sources = throttleSourceFor(data.tool, data.mode);
+  var btn     = document.getElementById('btnLoadMoreSearch');
+  var remaining = Math.max(0, ...sources.map(function (s) { return cooldownUntil[s] - Date.now(); }));
+  if (remaining > 0) {
+    armCooldownButtons(remaining, [btn], 'Ready — click Load More again');
+    return;
+  }
+
+  var cursor = selectedNode.data('searchCursor') || null;
+  btn.disabled = true;
+  setStatus('Loading more…', false, true);
+
+  try {
+    var body = buildBody(data.tool, data.query, data.count, data.mode);
+    if (cursor) body.cursor = cursor;
+    var result = await apiFetch(body);
+    stampCooldown(sources);
+    var items  = Array.isArray(result.items) ? result.items : [result.items];
+
+    var added = addNodes(items, function (item) { return resolveNodeType(data.tool, item); }, selectedNode.id());
+    runLayout(false, false);
+    updateNodeCount();
+    setStatus('Loaded more — ' + items.length + ' result(s) (' + added + ' new nodes)');
+
+    selectedNode.data('searchCursor', result.nextCursor || null);
+    selectedNode.data('searchExhausted', !result.nextCursor);
+    showPanel(selectedNode.data());
+  } catch (e) {
+    if (e.retryAfter) {
+      armCooldownButtons(e.retryAfter * 1000, [btn], 'Ready — click Load More again');
+    } else {
+      setStatus('Error: ' + e.message, true);
+      btn.disabled = false;
+    }
+  }
+}
+
+function armCooldownButtons(msRemaining, buttons, readyMessage) {
   var secs = Math.max(1, Math.ceil(msRemaining / 1000));
   setStatus('Rate-limit cooldown — retry in ' + secs + 's…', false, true);
-  // Both Expand buttons share one underlying X-account clock, so both wait together.
-  document.getElementById('btnExpandReplies').disabled  = true;
-  document.getElementById('btnExpandRetweets').disabled = true;
+  buttons.forEach(function (b) { b.disabled = true; });
   if (cooldownTimer) clearTimeout(cooldownTimer);
   cooldownTimer = setTimeout(function () {
     cooldownTimer = null;
-    document.getElementById('btnExpandReplies').disabled  = false;
-    document.getElementById('btnExpandRetweets').disabled = false;
-    setStatus('Ready — click Expand again', false, false);
+    buttons.forEach(function (b) { b.disabled = false; });
+    setStatus(readyMessage, false, false);
   }, msRemaining);
 }
 
@@ -1050,17 +1423,31 @@ function esc(s) {
 // LIST ARR PARAMS 
 
 var PRIORITY_KEYS = [
-  'source', 'account_age_flag', 'account_age', 'account_created',
+  'source', 'content_type', 'account_age_flag', 'account_age', 'account_created',
   'user', 'screen_name', 'name', 'text', 'post_title', 'post_text', 'created_at', 'fetched_at',
   'retweeted_by_user', 'retweeted_by_name', 'retweeted_text', 'retweeted_by_bio',
   'reply_count', 'retweet_count', 'favorite_count', 'view_count',
   'followers_count', 'following_count', 'tweet_count',
   'description', 'user_location', 'in_reply_to_tweet_id',
   'retweeted_tweet_id', 'retweeted_at', 'verified', 'is_blue_verified',
-  'archive_url', 'result_url', 'preview_image', 'display_link', 'iso_date', 'original', 'statuscode',
+  'archive_url', 'result_url', 'preview_image', 'display_link', 'serp_title',
+  'iso_date', 'original', 'statuscode',
 ];
 
-var SKIP_KEYS = new Set(['id', 'media', 'card', 'user_id', 'retweeted_by_user_id']);
+// Same labels/reasoning as card_constants.js's CONTENT_TYPE_LABELS — kept as
+// a separate copy here since graph.html doesn't load that shared file (its
+// PRIORITY_KEYS/SKIP_KEYS are already their own independent copy, not the
+// index.html/archive.html shared ones).
+var CONTENT_TYPE_LABELS = {
+  tweet:         'Tweet',
+  profile:       'Profile page',
+  twitter_other: 'Other X/Twitter page',
+  other:         'External page (non-X)',
+};
+
+// avatar/banner URLs are rendered as an actual image in the panel header
+// below instead of a raw-link row.
+var SKIP_KEYS = new Set(['id', 'media', 'card', 'user_id', 'retweeted_by_user_id', 'avatar', 'banner', 'user_avatar', 'user_banner']);
 
 var SOURCE_CLASS = { 'Twitter Cookie': 'src-cookie', 'Xquik API': 'src-xquik', 'Wayback Machine': 'src-wayback', 'Google CSE': 'src-cse' };
 
@@ -1088,6 +1475,44 @@ function extractMedia(item) {
     }
     return { type: mtype, thumb: thumb, url: url };
   }).filter(function (m) { return m.thumb; });
+}
+
+// Same header treatment index.html's cards give a user — avatar, name,
+// handle, bio — but for the info panel, which every node type funnels
+// through (search root, tweet, reply, user, retweeter, ...).
+function buildPanelHeader(raw) {
+  var avatarRaw = raw.avatar || raw.user_avatar || '';
+  var avatar    = isSafeImageUrl(avatarRaw) ? avatarRaw : '';
+  var name      = raw.name || '';
+  var handle    = raw.screen_name || raw.user || '';
+
+  if (!avatar && !name && !handle) return '';
+
+  var avatarHtml = avatar
+    ? '<img class="panel-avatar" src="' + esc(avatar) + '" alt="" loading="lazy" referrerpolicy="no-referrer">'
+    : (name || handle)
+      ? '<div class="panel-avatar panel-avatar-fallback">' + esc((name || handle).charAt(0).toUpperCase()) + '</div>'
+      : '';
+  var identityHtml = (name || handle)
+    ? '<div class="panel-identity">' +
+        (name ? '<div class="panel-name">' + esc(name) + '</div>' : '') +
+        (handle ? '<div class="panel-handle">@' + esc(handle) + '</div>' : '') +
+      '</div>'
+    : '';
+
+  // A tweet/reply node's own text already shows a few rows down — leading
+  // with the author's full bio here would bury it the same way it did on
+  // index.html's cards. Bio only makes sense when the node itself IS a
+  // user (follower/retweeter), not a tweet someone happened to write.
+  var isTweetLike = raw.text !== undefined || raw.full_text !== undefined || raw.article_text !== undefined;
+  if (isTweetLike) {
+    return '<div class="panel-header panel-byline">' + avatarHtml + identityHtml + '</div>';
+  }
+
+  var bio     = raw.description || raw.user_bio || '';
+  var bioHtml = bio ? '<div class="panel-bio">' + esc(bio) + '</div>' : '';
+
+  return '<div class="panel-header">' + avatarHtml + identityHtml + '</div>' + bioHtml;
 }
 
 function showPanel(data) {
@@ -1124,6 +1549,12 @@ function showPanel(data) {
     } else if (k === 'account_age_flag') {
       var ageLabels = { new: 'New account', recent: 'Recent account', established: 'Established account' };
       val = '<span class="age-badge age-' + esc(String(v)) + '">' + esc(ageLabels[v] || String(v)) + '</span>';
+    } else if (k === 'content_type') {
+      val = '<span class="content-type-badge ct-' + esc(String(v)) + '">' + esc(CONTENT_TYPE_LABELS[v] || String(v)) + '</span>';
+    } else if (k === 'text' && raw.reply_to_mentions && raw.reply_to_mentions.length) {
+      var mentionBadge = '<div class="reply-context">↩ Replying to ' +
+        raw.reply_to_mentions.map(function (m) { return '@' + esc(m); }).join(', ') + '</div>';
+      val = mentionBadge + esc(stripLeadingMentions(String(v), raw.reply_to_mentions));
     }
 
     var label = esc(k.replace(/_/g, ' '));
@@ -1155,28 +1586,51 @@ function showPanel(data) {
     rows += mediaParts.join('');
   }
 
-  document.getElementById('infoContent').innerHTML = rows;
+  document.getElementById('infoContent').innerHTML = buildPanelHeader(raw) + rows;
 
   // Action buttons
-  var isTweet   = type === 'tweet' || type === 'reply';
-  var isWayback = type === 'wayback';
-  var tweetId   = data.tweetId;
-  var user      = raw.user || raw.screen_name || '';
+  var isTweet    = type === 'tweet' || type === 'reply';
+  var isUserNode = type === 'user' || type === 'retweeter';
+  var isWayback  = type === 'wayback';
+  var tweetId    = data.tweetId;
+  var user       = raw.user || raw.screen_name || '';
 
   var repliesBtn    = document.getElementById('btnExpandReplies');
   var retweetersBtn = document.getElementById('btnExpandRetweets');
+  var authorBtn     = document.getElementById('btnViewAuthor');
+  var postsBtn      = document.getElementById('btnExpandPosts');
+  var followersBtn  = document.getElementById('btnExpandFollowers');
+  var followingBtn  = document.getElementById('btnExpandFollowing');
+  var loadMoreBtn   = document.getElementById('btnLoadMoreSearch');
+
   repliesBtn.style.display    = isTweet ? '' : 'none';
   retweetersBtn.style.display = isTweet ? '' : 'none';
+  // A synthesized "view author" pivot only makes sense when there's
+  // somewhere to pivot TO — a tweet/reply always embeds its author's
+  // user_id/screen_name (cookie_client.py's _tweet_to_dict), but a bare
+  // xquik/API-mode record might not have captured either.
+  authorBtn.style.display = (isTweet && (raw.user_id || raw.user)) ? '' : 'none';
+
+  postsBtn.style.display     = isUserNode ? '' : 'none';
+  followersBtn.style.display = isUserNode ? '' : 'none';
+  followingBtn.style.display = isUserNode ? '' : 'none';
+
+  var isPaginableSearch = type === 'search' && ROOT_PAGINATED_TOOLS.indexOf(data.tool) !== -1;
+  loadMoreBtn.style.display = isPaginableSearch ? '' : 'none';
+  if (isPaginableSearch) {
+    loadMoreBtn.textContent = data.searchExhausted ? '⤓ Load More Results (all loaded)'
+      : data.searchCursor ? '⤓ Load More Results (more available)' : '⤓ Load More Results';
+    loadMoreBtn.disabled = !!data.searchExhausted;
+  }
+
   if (isTweet) {
-    // Label reflects whether this node's already been expanded and whether
-    // more is available — neither twikit nor the Wayback CDX API expose a
-    // total count, only presence/absence of a next page, so no item count.
-    repliesBtn.textContent = data.repliesExhausted ? '↩ Expand Replies (all loaded)'
-      : data.repliesCursor ? '↩ Expand Replies (more available)' : '↩ Expand Replies';
-    repliesBtn.disabled = !!data.repliesExhausted;
-    retweetersBtn.textContent = data.retweetersExhausted ? '↗ Expand Retweets (all loaded)'
-      : data.retweetersCursor ? '↗ Expand Retweets (more available)' : '↗ Expand Retweets';
-    retweetersBtn.disabled = !!data.retweetersExhausted;
+    updateExpandButtonLabel(repliesBtn,    data, EXPAND_TOOLS.tweet_replies_extractor,    raw);
+    updateExpandButtonLabel(retweetersBtn, data, EXPAND_TOOLS.tweet_retweeters_extractor, raw);
+  }
+  if (isUserNode) {
+    updateExpandButtonLabel(postsBtn,      data, EXPAND_TOOLS.post_extractor,      raw);
+    updateExpandButtonLabel(followersBtn,  data, EXPAND_TOOLS.follower_explorer,   raw);
+    updateExpandButtonLabel(followingBtn,  data, EXPAND_TOOLS.following_explorer,  raw);
   }
 
   var openBtn = document.getElementById('btnOpenTweet');

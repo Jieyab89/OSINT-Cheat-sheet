@@ -71,12 +71,78 @@ def _id_str(val) -> str | None:
     return str(val) if val is not None else None
 
 
+def _full_text(t: object) -> str | None:
+    """twikit's `.text` is Twitter's own legacy `full_text` field — despite the
+    name, X still truncates *that* mid-sentence into a t.co link for anything
+    past the classic length limit (long-form "Note" tweets, e.g. Premium/Blue
+    posts). twikit's `.full_text` PROPERTY (a different thing from the legacy
+    field of the same name) checks the tweet's note_tweet payload first and
+    returns the real complete text when one exists, falling back to `.text`
+    itself otherwise — so it's always at least as complete, strictly more so
+    for long tweets. Swallows a malformed note_tweet shape rather than letting
+    one tweet's data take down the whole batch."""
+    try:
+        return getattr(t, "full_text", None)
+    except Exception:
+        return None
+
+
+def _hashtags(t: object) -> list | None:
+    """Same note_tweet-aware source as _full_text — a long-form tweet's
+    hashtags live in the note_tweet entity set, not the legacy entities twikit
+    falls back to otherwise."""
+    try:
+        tags = getattr(t, "hashtags", None)
+        return tags or None
+    except Exception:
+        return None
+
+
+def _leading_reply_mentions(t: object) -> list | None:
+    """Tapping "Reply" on X auto-prefixes the compose box with every account
+    the reply-chain already has tagged — not just the tweet being replied to
+    — and that prefix is genuinely stored as the literal start of the
+    reply's own full_text. X's own web/app UI never shows it inline though:
+    it reads `display_text_range` (the slice of full_text actually meant to
+    be *shown*) and renders anything before that start index as a separate
+    "Replying to @x @y" line instead. Skipping this meant our raw `text`
+    looked like the replier had typed those @mentions themselves — e.g. a
+    reply that only ever says "Proyek kepentingan, bukan untuk rakyat..."
+    displayed as if it opened with "@regar_op0sisi @prabowo ...", which is
+    exactly what looked wrong compared to the tweet on x.com. This only
+    covers the un-extended legacy text/entities — a long-form Note tweet's
+    entity indices belong to its own separate note_tweet string, which this
+    intentionally does not touch rather than risk slicing the wrong string.
+    Reads twikit's private `_legacy`/`_note_tweet_results` (no public
+    equivalent exists) — same trade-off already made for `_get_more_replies`
+    elsewhere in this file. Returns None rather than raising on any
+    unexpected shape, since this is purely a display aid, never the record
+    of truth `text` already is."""
+    try:
+        if t._note_tweet_results:
+            return None
+        legacy = t._legacy
+        start  = (legacy.get("display_text_range") or [0])[0]
+        if not start:
+            return None
+        names = []
+        for m in (legacy.get("entities") or {}).get("user_mentions", []) or []:
+            idx = m.get("indices") or [None, None]
+            if idx[0] is not None and idx[1] is not None and idx[1] <= start:
+                sn = m.get("screen_name")
+                if sn:
+                    names.append(sn)
+        return names or None
+    except Exception:
+        return None
+
+
 def _tweet_to_dict(t: object) -> dict:
     user_obj = getattr(t, "user", None)
     d = {
         "id":             _id_str(getattr(t, "id", None)),
         "created_at":     getattr(t, "created_at", None),
-        "text":           getattr(t, "text", None),
+        "text":           _full_text(t) or getattr(t, "text", None),
         "user":           getattr(user_obj, "screen_name", None) if user_obj else None,
         "user_id":        _id_str(getattr(user_obj, "id", None)) if user_obj else None,
         "user_location":  getattr(user_obj, "location", None) if user_obj else None,
@@ -85,6 +151,11 @@ def _tweet_to_dict(t: object) -> dict:
         "name":                 getattr(user_obj, "name", None) if user_obj else None,
         "verified":             getattr(user_obj, "verified", None) if user_obj else None,
         "is_blue_verified":     getattr(user_obj, "is_blue_verified", None) if user_obj else None,
+        # Author's avatar/cover/bio — twikit's embedded user object on a tweet
+        # already carries these, no extra lookup needed.
+        "user_avatar":          getattr(user_obj, "profile_image_url", None) if user_obj else None,
+        "user_banner":          getattr(user_obj, "profile_banner_url", None) if user_obj else None,
+        "user_bio":             getattr(user_obj, "description", None) if user_obj else None,
         "reply_count":          getattr(t, "reply_count", None),
         "retweet_count":        getattr(t, "retweet_count", None),
         "favorite_count":       getattr(t, "favorite_count", None),
@@ -94,6 +165,12 @@ def _tweet_to_dict(t: object) -> dict:
     media = _extract_media(t)
     if media:
         d["media"] = media
+    tags = _hashtags(t)
+    if tags:
+        d["hashtags"] = tags
+    mentions = _leading_reply_mentions(t)
+    if mentions:
+        d["reply_to_mentions"] = mentions
     return d
 
 
@@ -103,6 +180,8 @@ def _user_to_dict(u: object) -> dict:
         "name":             getattr(u, "name", None),
         "screen_name":      getattr(u, "screen_name", None),
         "description":      getattr(u, "description", None),
+        "avatar":           getattr(u, "profile_image_url", None),
+        "banner":           getattr(u, "profile_banner_url", None),
         "followers_count":  getattr(u, "followers_count", None),
         "following_count":  getattr(u, "following_count", None),
         "tweet_count":      getattr(u, "statuses_count", None),
@@ -143,6 +222,16 @@ async def _follower_explorer_async(username: str, auth_token: str, ct0: str, cou
     # a cursor at all, so it can't be resumed across requests.
     followers = await client.get_user_followers(str(user.id), count=count, cursor=cursor)
     return [_user_to_dict(u) for u in followers], _next_cursor(followers)
+
+
+async def _following_explorer_async(username: str, auth_token: str, ct0: str, count: int, cursor: str | None) -> tuple[list, str | None]:
+    """Who `username` follows — the other half of follower_explorer. twikit
+    exposes this as Client.get_user_following, same shape/cursor contract as
+    get_user_followers, so this mirrors _follower_explorer_async exactly."""
+    client    = await _make_client(auth_token, ct0)
+    user      = await _resolve_user(client, username)
+    following = await client.get_user_following(str(user.id), count=count, cursor=cursor)
+    return [_user_to_dict(u) for u in following], _next_cursor(following)
 
 
 async def _post_extractor_async(username: str, auth_token: str, ct0: str, count: int, cursor: str | None) -> tuple[list, str | None]:
@@ -263,6 +352,12 @@ def cookie_follower_explorer(username: str, count: int = 20, config: configparse
     cfg = config or load_config()
     auth, ct0 = _get_creds(cfg)
     return asyncio.run(_follower_explorer_async(username, auth, ct0, count, cursor))
+
+
+def cookie_following_explorer(username: str, count: int = 20, config: configparser.ConfigParser = None, cursor: str | None = None) -> tuple[list, str | None]:
+    cfg = config or load_config()
+    auth, ct0 = _get_creds(cfg)
+    return asyncio.run(_following_explorer_async(username, auth, ct0, count, cursor))
 
 
 def cookie_post_extractor(username: str, count: int = 20, config: configparser.ConfigParser = None, cursor: str | None = None) -> tuple[list, str | None]:

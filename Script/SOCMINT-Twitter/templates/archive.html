@@ -31,7 +31,9 @@
     display: flex;
     align-items: center;
     gap: 12px;
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
   header h1 { font-size: 14px; font-weight: 600; }
   header .sep { color: var(--border); }
@@ -96,6 +98,27 @@
     z-index: 251;
     transition: all 0.15s;
   }
+  .back-to-top {
+    position: fixed;
+    bottom: 14px;
+    right: 14px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: #FFFFFF;
+    font-size: 17px;
+    cursor: pointer;
+    z-index: 251;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.4);
+    transition: all 0.15s;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .back-to-top:hover { border-color: var(--accent); }
+  .back-to-top.visible { display: flex; }
   .help-toggle:hover { color: var(--text); border-color: var(--accent); }
   .help-popup {
     position: fixed;
@@ -211,6 +234,7 @@
     font-weight: 500;
   }
   .ae-meta { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .ae-date { font-size: 10.5px; color: var(--muted); opacity: 0.75; margin-top: 2px; }
   .ae-stats { font-size: 11px; color: var(--muted); display: flex; gap: 8px; margin-top: 3px; }
   .ae-stat { display: flex; align-items: center; gap: 3px; }
   .no-archives {
@@ -337,6 +361,23 @@
   .age-badge.age-recent      { color: #f59e0b;         border-color: #78350f; background: #1c0e02; }
   .age-badge.age-established { color: var(--success); border-color: #14532d; background: #052011; }
 
+  /* What kind of X/Twitter page a Google CSE / Wayback result actually is —
+     a keyword match linking to x.com/someone reads as "just a profile" with
+     no way to tell a tweet permalink apart from a bare profile page or an
+     unrelated page otherwise. */
+  .content-type-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 2px 9px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+  }
+  .content-type-badge.ct-tweet         { color: var(--success); border-color: #14532d; background: #052011; }
+  .content-type-badge.ct-profile       { color: #a78bfa;        border-color: #4c3a8f; background: #1e1535; }
+  .content-type-badge.ct-twitter_other { color: #f59e0b;        border-color: #78350f; background: #1c0e02; }
+  .content-type-badge.ct-other         { color: var(--muted);   border-color: var(--border); background: var(--bg); }
+
   /* ── Media ── */
   .card-media {
     display: flex;
@@ -411,17 +452,24 @@
     <a href="/graph">Graph</a>
     <hr class="nav-divider">
     <a href="/archives" class="current">Archives</a>
+    <a href="/analytics">Analytics</a>
   </nav>
 </header>
 
 <!-- Legend / help popup (floats over the page, bottom-left) -->
 <button id="helpToggle" class="help-toggle" aria-label="Legend / help" title="Legend / help">?</button>
+<button id="backToTop" class="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
 <div id="helpPopup" class="help-popup hidden">
   <h4>Source</h4>
   <div class="help-row"><span class="source-badge src-cookie">Twitter Cookie</span> Live via your cookie session</div>
   <div class="help-row"><span class="source-badge src-xquik">Xquik API</span> Live via the xquik API</div>
   <div class="help-row"><span class="source-badge src-wayback">Wayback Machine</span> Archived snapshot</div>
   <div class="help-row"><span class="source-badge src-cse">Google CSE</span> Live web result via Google Custom Search</div>
+  <h4>Content type — Google CSE / Wayback only</h4>
+  <div class="help-row"><span class="content-type-badge ct-tweet">Tweet</span> A specific tweet permalink</div>
+  <div class="help-row"><span class="content-type-badge ct-profile">Profile page</span> A bare account profile, not a specific post</div>
+  <div class="help-row"><span class="content-type-badge ct-twitter_other">Other X/Twitter page</span> Some other X page</div>
+  <div class="help-row"><span class="content-type-badge ct-other">External page (non-X)</span> A site off X entirely (Google CSE only)</div>
   <h4>Account age</h4>
   <div class="help-row"><span class="age-badge age-new">New account</span> Created &lt; 30 days ago</div>
   <div class="help-row"><span class="age-badge age-recent">Recent account</span> Created &lt; 1 year ago</div>
@@ -498,6 +546,18 @@
   popup.addEventListener('click', function(e) { e.stopPropagation(); });
 }());
 
+// Back to top — the page itself is what scrolls (the sidebar/viewer split
+// is a grid column layout, not a fixed-height scroll pane).
+(function() {
+  var btn = document.getElementById('backToTop');
+  window.addEventListener('scroll', function() {
+    btn.classList.toggle('visible', window.scrollY > 400);
+  });
+  btn.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}());
+
 let allItems      = [];
 let activeId      = null;
 let allArchives   = [];   // full list from the server; archiveSearch filters this client-side
@@ -567,6 +627,7 @@ function entryHtml(a) {
   return `
     <div class="archive-entry" data-id="${esc(a.id)}">
       <div class="ae-tool">${esc(tool)}</div>
+      <div class="ae-date">${esc(date)}</div>
       ${query ? `<div class="ae-meta">${esc(query)}</div>` : ''}
       <div class="ae-stats">
         <span class="ae-stat">· ${a.total_items || 0} items</span>
@@ -674,6 +735,8 @@ function buildCard(item) {
       display = `<span class="source-badge ${cls}">${esc(String(v))}</span>`;
     } else if (k === 'account_age_flag') {
       display = `<span class="age-badge age-${esc(String(v))}">${esc(AGE_LABELS[v] || v)}</span>`;
+    } else if (k === 'content_type') {
+      display = `<span class="content-type-badge ct-${esc(String(v))}">${esc(CONTENT_TYPE_LABELS[v] || String(v))}</span>`;
     } else if (typeof v === 'object') {
       const s = JSON.stringify(v);
       display = `<span style="color:var(--muted);font-size:11px">${esc(s.length > 100 ? s.slice(0,100)+'…' : s)}</span>`;

@@ -10,6 +10,7 @@ import requests as _req
 from flask import Flask, g, jsonify, render_template, request, Response, stream_with_context, send_from_directory
 
 import archive as _archive
+import sentiment as _sentiment
 from xquik_client import XquikClient, XquikError, load_config
 from wayback_client import wayback_search, WaybackError
 from google_cse_client import google_cse_search, GoogleCSEError
@@ -17,6 +18,7 @@ from id_forensics import enrich_account_age
 from cookie_client import (
     cookie_tweet_search,
     cookie_follower_explorer,
+    cookie_following_explorer,
     cookie_post_extractor,
     cookie_article_extractor,
     cookie_community_post_extractor,
@@ -31,6 +33,7 @@ config = load_config()
 
 MAX_CONCURRENT_REQUESTS = 3   # parallel execution slots
 ACQUIRE_TIMEOUT         = 15  # seconds to wait before returning 429
+MAX_COUNT               = 2000  # upper bound on a single page's requested item count
 
 _sem = threading.Semaphore(MAX_CONCURRENT_REQUESTS)
 
@@ -47,21 +50,33 @@ _throttle_lock     = threading.Lock()
 _last_call_at: dict = {"cookie": 0.0, "wayback": 0.0}
 
 _COOKIE_TOOLS = {
-    "tweet_search_extractor", "follower_explorer", "post_extractor",
+    "tweet_search_extractor", "follower_explorer", "following_explorer", "post_extractor",
     "community_post_extractor", "tweet_replies_extractor",
     "tweet_retweeters_extractor", "geo_post_extractor",
 }
 
 
-def _check_throttle(source: str):
-    """None if the call may proceed (and starts the next cooldown window);
-    otherwise the number of seconds still left to wait."""
+def _check_throttle(sources):
+    """None if the call may proceed (and starts the next cooldown window for
+    every source in `sources`); otherwise the number of seconds still left to
+    wait. Checking is atomic across all requested sources — if any one of
+    them is still cooling down, none of the clocks are touched, so a
+    rejected multi-source call (e.g. multi_source_search, which hits both
+    the cookie and wayback clocks) never partially starts a window for the
+    sources that *did* have room."""
+    if isinstance(sources, str):
+        sources = (sources,)
     now = time.monotonic()
     with _throttle_lock:
-        elapsed = now - _last_call_at[source]
-        if elapsed < _THROTTLE_SECONDS:
-            return round(_THROTTLE_SECONDS - elapsed, 1)
-        _last_call_at[source] = now
+        wait = 0.0
+        for source in sources:
+            elapsed = now - _last_call_at[source]
+            if elapsed < _THROTTLE_SECONDS:
+                wait = max(wait, _THROTTLE_SECONDS - elapsed)
+        if wait:
+            return round(wait, 1)
+        for source in sources:
+            _last_call_at[source] = now
         return None
 
 # ── Cookie & session security ─────────────────────────────────────────────────
@@ -267,30 +282,61 @@ def _filter_by_date(items: list, from_date: str, to_date: str) -> list:
     return kept
 
 
-def _multi_source_search(query: str, count: int, from_date: str = "", to_date: str = "") -> list:
-    # Pagination isn't wired up for multi-source search yet (cookie + wayback
-    # only, per current scope) — grab just the items, discard the cursor.
+def _multi_source_search(
+    query: str, count: int, from_date: str = "", to_date: str = "", cursor: str | None = None,
+) -> tuple[list, str | None]:
+    """Fans out across every source in parallel. cursor (if given) is an
+    opaque JSON object of {source: source_cursor} built from a previous
+    call's returned cursor — each key present in it is a source that still
+    had more to give, so only those get re-queried. xquik has no pagination
+    at all (no cursor concept), so it's only ever queried on the first page
+    (cursor=None); every load-more page after that is cookie/wayback/cse only.
+    A cursor value that doesn't parse as a JSON object is treated as "no
+    cursor" (first page) rather than raising — same tolerant-of-garbage-input
+    posture as the rest of this file's client-supplied-field handling."""
     twitter_query = _apply_date_operators(query, from_date, to_date)
-    jobs = {
-        "cookie":  lambda: cookie_tweet_search(twitter_query, count=count, config=config)[0],
-        "xquik":   lambda: XquikClient(config).tweet_search(twitter_query),
-        "wayback": lambda: wayback_search(query, count=count, from_date=from_date, to_date=to_date)[0],
+
+    try:
+        incoming = json.loads(cursor) if cursor else {}
+        if not isinstance(incoming, dict):
+            incoming = {}
+    except (TypeError, ValueError):
+        incoming = {}
+    first_page = not incoming
+
+    jobs = {}
+    if first_page or "cookie" in incoming:
+        c = incoming.get("cookie")
+        jobs["cookie"] = lambda c=c: cookie_tweet_search(twitter_query, count=count, config=config, cursor=c)
+    if first_page:
+        jobs["xquik"] = lambda: (XquikClient(config).tweet_search(twitter_query), None)
+    if first_page or "wayback" in incoming:
+        c = incoming.get("wayback")
+        jobs["wayback"] = lambda c=c: wayback_search(query, count=count, from_date=from_date, to_date=to_date, cursor=c)
+    if first_page or "cse" in incoming:
+        c = incoming.get("cse")
         # Google has no since:/until: query syntax like Twitter/Wayback do, so
         # this lane runs unbounded by date — _filter_by_date below keeps
         # results whose own timestamp it can't verify rather than dropping them.
-        "cse":     lambda: google_cse_search(query, count=count, config=config)[0],
-    }
+        jobs["cse"] = lambda c=c: google_cse_search(query, count=count, config=config, cursor=c)
+
+    results          = []
+    next_cursor_parts = {}
     with ThreadPoolExecutor(max_workers=len(jobs)) as pool:
         futures = {key: pool.submit(fn) for key, fn in jobs.items()}
-        results = []
         for key in ("cookie", "xquik", "wayback", "cse"):   # deterministic display order
+            if key not in futures:
+                continue
             try:
-                data = futures[key].result()
+                data, next_c = futures[key].result()
             except Exception:
                 continue   # a source failing (missing creds, network, ...) shouldn't sink the others
             results.extend(_tag_source(data, SOURCE_LABELS[key]))
+            if next_c:
+                next_cursor_parts[key] = next_c
 
-    return _filter_by_date(results, from_date, to_date)
+    next_cursor = json.dumps(next_cursor_parts) if next_cursor_parts else None
+    return _filter_by_date(results, from_date, to_date), next_cursor
 
 
 # Whitelist: only proxy Twitter's video CDN to prevent SSRF
@@ -325,23 +371,27 @@ def run_tool():
     body      = request.get_json(silent=True) or {}
     tool_type = body.get("toolType")
     mode      = body.get("mode", "api")   # "api" | "cookie"
-    count     = max(1, min(int(body.get("count", 20)), 200))
+    count     = max(1, min(int(body.get("count", 20)), MAX_COUNT))
     cursor    = body.get("cursor") or None   # opaque page token from a previous response's nextCursor
 
     # Cookie/Wayback calls are throttled to one per 5s per source — checked
     # up front, before taking a concurrency slot, so a request that's about
-    # to be rejected doesn't waste one.
-    throttle_source = None
+    # to be rejected doesn't waste one. multi_source_search fans out to both
+    # cookie and wayback internally, so it's checked (and, once it proceeds,
+    # starts the cooldown) against both clocks at once.
+    throttle_sources = []
     if mode == "cookie" and tool_type in _COOKIE_TOOLS:
-        throttle_source = "cookie"
+        throttle_sources = ["cookie"]
     elif tool_type == "wayback_archive_search":
-        throttle_source = "wayback"
-    if throttle_source:
-        wait = _check_throttle(throttle_source)
+        throttle_sources = ["wayback"]
+    elif tool_type == "multi_source_search":
+        throttle_sources = ["cookie", "wayback"]
+    if throttle_sources:
+        wait = _check_throttle(throttle_sources)
         if wait is not None:
             return jsonify({
                 "ok": False,
-                "error": f"Please wait {wait}s before the next {throttle_source} request — this protects the account from rate limiting.",
+                "error": f"Please wait {wait}s before the next {'/'.join(throttle_sources)} request — this protects the account from rate limiting.",
                 "retryAfter": wait,
             }), 429
 
@@ -367,6 +417,12 @@ def run_tool():
                 data, next_cursor = cookie_follower_explorer(username, count=count, config=config, cursor=cursor)
             else:
                 data = XquikClient(config).follower_explorer(username)
+
+        elif tool_type == "following_explorer":
+            username = body.get("targetUsername", "")
+            if mode != "cookie":
+                return jsonify({"ok": False, "error": "following_explorer requires cookie mode"}), 400
+            data, next_cursor = cookie_following_explorer(username, count=count, config=config, cursor=cursor)
 
         elif tool_type == "article_extractor":
             tweet_id = body.get("targetTweetId", "")
@@ -423,7 +479,7 @@ def run_tool():
             for label, val in (("dateFrom", from_date), ("dateTo", to_date)):
                 if val and not _valid_date8(val):
                     return jsonify({"ok": False, "error": f"{label} must be an 8-digit date (YYYYMMDD)"}), 400
-            data = _multi_source_search(query, count=count, from_date=from_date, to_date=to_date)
+            data, next_cursor = _multi_source_search(query, count=count, from_date=from_date, to_date=to_date, cursor=cursor)
 
         else:
             return jsonify({"ok": False, "error": f"Unknown toolType: {tool_type}"}), 400
@@ -431,7 +487,7 @@ def run_tool():
         # Single choke point: every tool's output passes through here, so the
         # account-age label, fetch timestamp, and tweet_url all show up
         # everywhere downstream for free — cards, graph nodes, JSON dump, and
-        # archives (once the fields are whitelisted in archive.py's _pick_fields).
+        # archives (which now store the item's full raw shape verbatim).
         data = enrich_account_age(data)
         data = _stamp_fetched_at(data)
         data = _stamp_tweet_url(data)
@@ -517,6 +573,22 @@ def archive_status(archive_id):
 @app.route("/api/archive/list")
 def archive_list():
     return jsonify({"ok": True, "archives": _archive.list_all()})
+
+
+# ── Analytics (sentiment / clustering) ──────────────────────────────────────
+
+@app.route("/analytics")
+def analytics_viewer():
+    return render_template("analytics.html")
+
+
+@app.route("/api/analytics/<archive_id>")
+def analytics_run(archive_id):
+    results_file = _archive.ARCHIVE_ROOT / archive_id / "results.json"
+    if not results_file.exists():
+        return jsonify({"ok": False, "error": "Archive not found"}), 404
+    items = json.loads(results_file.read_text())
+    return jsonify({"ok": True, **_sentiment.analyze(items)})
 
 
 if __name__ == "__main__":

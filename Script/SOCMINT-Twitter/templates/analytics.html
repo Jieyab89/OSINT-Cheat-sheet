@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jieyab89 SOCMINT X — Analytics</title>
+<style>
+  :root {
+    --bg:         #0f1117;
+    --surface:    #1a1d27;
+    --surface2:   #21253a;
+    --border:     #2a2d3a;
+    --text:       #e8eaf0;
+    --muted:      #8890a4;
+    --accent:     #5865f2;
+    --accent-bg:  #1e2240;
+    --success:    #22c55e;
+    --success-bg: #052011;
+    --danger:     #ef4444;
+    --danger-bg:  #1c0505;
+    --font:       -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: var(--font); font-size: 14px; line-height: 1.6; min-height: 100vh; }
+
+  /* ── Header (same shell as the other 3 pages) ── */
+  header {
+    padding: 14px 24px;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  header h1 { font-size: 14px; font-weight: 600; }
+  header .sep { color: var(--border); }
+  header .sub { color: var(--muted); font-size: 12px; flex: 1; }
+  .hamburger-btn {
+    margin-left: auto;
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    color: var(--muted);
+    cursor: pointer;
+    padding: 5px 9px;
+    font-size: 16px;
+    line-height: 1;
+    transition: all 0.15s;
+  }
+  .hamburger-btn:hover { color: var(--text); border-color: var(--accent); }
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    right: 12px;
+    margin-top: 6px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    padding: 5px;
+    min-width: 175px;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.5);
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .nav-menu.hidden { display: none; }
+  .nav-menu a {
+    padding: 7px 12px;
+    border-radius: 5px;
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 13px;
+    transition: all 0.12s;
+    display: block;
+  }
+  .nav-menu a:hover { color: var(--text); background: var(--accent-bg); }
+  .nav-menu a.current { color: var(--accent); background: var(--accent-bg); }
+  .nav-divider { border: none; border-top: 1px solid var(--border); margin: 3px 0; }
+
+  .back-to-top {
+    position: fixed;
+    bottom: 14px;
+    right: 14px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: #FFFFFF;
+    font-size: 17px;
+    cursor: pointer;
+    z-index: 251;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.4);
+    transition: all 0.15s;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .back-to-top:hover { border-color: var(--accent); }
+  .back-to-top.visible { display: flex; }
+
+  /* ── Layout ── */
+  .layout { display: grid; grid-template-columns: 270px 1fr; min-height: calc(100vh - 49px); }
+  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
+
+  /* ── Sidebar (archive picker) ── */
+  .sidebar { border-right: 1px solid var(--border); background: var(--surface); display: flex; flex-direction: column; }
+  .sidebar-head { padding: 14px 16px 10px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+  .sidebar-title { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+  .sidebar-count { font-size: 11px; color: var(--muted); background: var(--bg); padding: 2px 7px; border-radius: 10px; }
+  .sidebar-search {
+    width: calc(100% - 32px); margin: 10px 16px 6px; padding: 6px 10px;
+    background: var(--bg); border: 1px solid var(--border); color: var(--text);
+    font-family: var(--font); font-size: 12px; border-radius: 6px; transition: border-color 0.15s;
+  }
+  .sidebar-search:focus { outline: none; border-color: var(--accent); }
+  .sidebar-search::placeholder { color: var(--muted); }
+  .archive-list { overflow-y: auto; flex: 1; padding: 8px; }
+  .archive-entry { padding: 10px 12px; border-radius: 7px; border: 1px solid transparent; cursor: pointer; transition: all 0.12s; margin-bottom: 4px; }
+  .archive-entry:hover { background: var(--surface2); border-color: var(--border); }
+  .archive-entry.active { background: var(--accent-bg); border-color: var(--accent); }
+  .ae-tool { font-size: 12px; font-weight: 600; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .ae-meta { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .ae-date { font-size: 10.5px; color: var(--muted); opacity: 0.75; margin-top: 2px; }
+  .ae-stats { font-size: 11px; color: var(--muted); margin-top: 3px; }
+  .no-archives { padding: 40px 16px; text-align: center; color: var(--muted); font-size: 13px; }
+
+  /* ── Main viewer ── */
+  .viewer { overflow-y: auto; padding: 20px 22px 60px; }
+  .empty-state { color: var(--muted); font-size: 13px; padding: 80px 20px; text-align: center; }
+  .section { margin-bottom: 26px; }
+  .section-title {
+    font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin-bottom: 10px; display: flex; align-items: center; gap: 8px;
+  }
+  .section-note { font-size: 11px; color: var(--muted); font-weight: 400; text-transform: none; letter-spacing: 0; }
+  .btn-toolbar {
+    margin-left: auto;
+    padding: 5px 12px;
+    background: transparent;
+    color: var(--muted);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-family: var(--font);
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: 0;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .btn-toolbar:hover { color: var(--text); border-color: var(--accent); }
+
+  /* ── Sentiment breakdown ── */
+  .sentiment-bar {
+    display: flex; height: 34px; border-radius: 8px; overflow: hidden;
+    border: 1px solid var(--border); margin-bottom: 12px;
+  }
+  .sentiment-seg { display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 600; color: var(--bg); transition: filter 0.15s; }
+  .sentiment-seg:hover { filter: brightness(1.12); }
+  .sentiment-seg.seg-pro     { background: var(--success); }
+  .sentiment-seg.seg-neutral { background: var(--muted); }
+  .sentiment-seg.seg-con     { background: var(--danger); }
+  .sentiment-seg.empty       { color: transparent; }
+  .sentiment-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; }
+  .stile {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 12px 14px; cursor: pointer; transition: all 0.12s;
+  }
+  .stile:hover { border-color: #3a3d50; }
+  .stile.active { border-color: var(--accent); background: var(--accent-bg); }
+  .stile-label { font-size: 11px; font-weight: 600; display: flex; align-items: center; gap: 6px; }
+  .stile-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+  .stile-dot.dot-pro     { background: var(--success); }
+  .stile-dot.dot-neutral { background: var(--muted); }
+  .stile-dot.dot-con     { background: var(--danger); }
+  .stile-value { font-size: 22px; font-weight: 700; margin-top: 4px; }
+  .stile-pct   { font-size: 11px; color: var(--muted); margin-top: 1px; }
+
+  /* ── Cards grid (top users / top engagement) ── */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 900px) { .grid-2 { grid-template-columns: 1fr; } }
+
+  .user-list { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+  .user-row { display: flex; align-items: center; gap: 10px; padding: 9px 12px; border-bottom: 1px solid rgba(42,45,58,0.6); }
+  .user-row:last-child { border-bottom: none; }
+  .user-rank { font-size: 11px; color: var(--muted); width: 18px; flex-shrink: 0; text-align: right; }
+  .user-avatar {
+    width: 30px; height: 30px; border-radius: 50%; object-fit: cover; flex-shrink: 0;
+    border: 1px solid var(--border); background: var(--bg);
+  }
+  .user-avatar-fallback { display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; color: var(--muted); }
+  .user-identity { flex: 1; min-width: 0; }
+  .user-name { font-size: 12.5px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .user-handle { font-size: 11px; color: var(--muted); }
+  .user-count { font-size: 12px; color: var(--accent); font-weight: 600; flex-shrink: 0; }
+
+  .engagement-list { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+  .eng-row { padding: 10px 12px; border-bottom: 1px solid rgba(42,45,58,0.6); }
+  .eng-row:last-child { border-bottom: none; }
+  .eng-top { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+  .eng-handle { font-size: 12px; font-weight: 600; color: var(--text); }
+  .eng-score { font-size: 11px; color: var(--accent); font-weight: 600; margin-left: auto; white-space: nowrap; }
+  .eng-text { font-size: 12px; color: var(--text); opacity: 0.9; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+
+  /* ── Word cloud ── */
+  .wordcloud {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 18px 20px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 14px;
+  }
+  .wc-word { color: var(--text); font-weight: 600; line-height: 1; white-space: nowrap; cursor: default; transition: color 0.12s; }
+  .wc-word:hover { color: var(--accent); }
+
+  /* ── Sentiment badge (shared by tiles/list) ── */
+  .sent-badge {
+    display: inline-block; font-size: 10px; font-weight: 700; padding: 2px 8px;
+    border-radius: 20px; border: 1px solid; text-transform: uppercase; letter-spacing: 0.03em; flex-shrink: 0;
+  }
+  .sent-badge.sent-pro     { color: var(--success); border-color: #14532d; background: var(--success-bg); }
+  .sent-badge.sent-neutral { color: var(--muted);   border-color: var(--border); background: var(--bg); }
+  .sent-badge.sent-con     { color: var(--danger);  border-color: #7f1d1d; background: var(--danger-bg); }
+
+  /* ── Item browser ── */
+  .item-toolbar { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
+  .item-search {
+    padding: 6px 10px; background: var(--surface); border: 1px solid var(--border); color: var(--text);
+    font-family: var(--font); font-size: 12px; border-radius: 6px; width: 220px;
+  }
+  .item-search:focus { outline: none; border-color: var(--accent); }
+  .item-count { font-size: 11px; color: var(--muted); }
+  .item-list { display: flex; flex-direction: column; gap: 8px; }
+  .item-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
+  .item-card-top { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }
+  .item-author { font-size: 12px; font-weight: 600; color: var(--text); }
+  .item-score { font-size: 11px; color: var(--muted); margin-left: auto; }
+  .item-text { font-size: 13px; color: var(--text); word-break: break-word; white-space: pre-wrap; }
+  .item-matches { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 5px; }
+  .match-chip {
+    font-size: 10px; padding: 1px 7px; border-radius: 10px; border: 1px solid;
+  }
+  .match-chip.mc-pro     { color: var(--success); border-color: #14532d; background: var(--success-bg); }
+  .match-chip.mc-con { color: var(--danger);  border-color: #7f1d1d; background: var(--danger-bg); }
+
+  .spinner {
+    display: inline-block; width: 13px; height: 13px; border: 2px solid var(--border);
+    border-top-color: var(--accent); border-radius: 50%; animation: spin 0.7s linear infinite; vertical-align: -2px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .method-note {
+    font-size: 11px; color: var(--muted); line-height: 1.6; background: var(--surface);
+    border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; margin-bottom: 22px;
+  }
+
+  /* ── Social network graph ── */
+  .sna-legend {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 11px;
+    color: var(--muted);
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  .sna-legend-item { display: flex; align-items: center; gap: 5px; }
+  .sna-legend-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+  .sna-legend-dot.dot-pro     { background: var(--success); }
+  .sna-legend-dot.dot-neutral { background: var(--muted); }
+  .sna-legend-dot.dot-con     { background: var(--danger); }
+  .sna-wrap {
+    display: none;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--surface);
+  }
+  .sna-wrap.visible { display: block; }
+  .sna-graph {
+    width: 100%;
+    height: 480px;
+    background: var(--bg);
+  }
+  .sna-node-info {
+    display: none;
+    padding: 12px 16px;
+    border-top: 1px solid var(--border);
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .sna-node-info.visible { display: flex; }
+  .sna-node-identity { min-width: 140px; }
+  .sna-node-name { font-size: 13px; font-weight: 600; color: var(--text); }
+  .sna-node-handle { font-size: 11px; color: var(--muted); }
+  .sna-node-stats { display: flex; gap: 6px; flex-wrap: wrap; }
+  .sna-node-total { font-size: 11px; color: var(--muted); margin-left: auto; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Jieyab89 SOCMINT X</h1>
+  <span class="sep">/</span>
+  <span class="sub">Analytics — sentiment clustering, top actors, word frequency</span>
+  <button class="hamburger-btn" id="navToggle" aria-label="Menu">☰</button>
+  <nav id="navMenu" class="nav-menu hidden">
+    <a href="/">Home</a>
+    <a href="/graph">Graph</a>
+    <a href="/archives">Archives</a>
+    <hr class="nav-divider">
+    <a href="/analytics" class="current">Analytics</a>
+  </nav>
+</header>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+
+<div class="layout">
+  <aside class="sidebar">
+    <div class="sidebar-head">
+      <span class="sidebar-title">Archives</span>
+      <span class="sidebar-count" id="archiveCount">0</span>
+    </div>
+    <input type="text" class="sidebar-search" id="archiveSearch" placeholder="Filter archives...">
+    <div class="archive-list" id="archiveList">
+      <div class="no-archives">Loading…</div>
+    </div>
+  </aside>
+
+  <main class="viewer" id="viewer">
+    <div class="empty-state">Pick an archive on the left to run sentiment clustering, top-actor, and word-frequency analysis on its raw data.</div>
+  </main>
+</div>
+
+<script src="https://unpkg.com/cytoscape@3.28.1/dist/cytoscape.min.js" crossorigin="anonymous"></script>
+<script nonce="{{ g.csp_nonce }}">
+(function () {
+'use strict';
+
+function esc(s) { return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[m]); }
+
+// Same allowlist index.html/graph.html apply to avatar/banner URLs — https
+// only, no quote/angle-bracket/whitespace/paren characters. Not strictly
+// required for a plain <img src> (no second CSS-parsing pass involved the
+// way a background-image url() has), but kept consistent with the other
+// two pages rather than being the one spot that skips it.
+function isSafeImageUrl(u) {
+  return typeof u === 'string' && /^https:\/\/[^\s'"<>()]+$/.test(u);
+}
+
+// Hamburger nav
+(function () {
+  const btn  = document.getElementById('navToggle');
+  const menu = document.getElementById('navMenu');
+  btn.addEventListener('click', e => { e.stopPropagation(); menu.classList.toggle('hidden'); });
+  document.addEventListener('click', () => menu.classList.add('hidden'));
+  menu.addEventListener('click', e => e.stopPropagation());
+})();
+
+// Back to top — the page itself is what scrolls (the sidebar/viewer split
+// is a grid column layout, not a fixed-height scroll pane).
+(function () {
+  const btn = document.getElementById('backToTop');
+  window.addEventListener('scroll', () => {
+    btn.classList.toggle('visible', window.scrollY > 400);
+  });
+  btn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+})();
+
+const archiveList   = document.getElementById('archiveList');
+const archiveCount  = document.getElementById('archiveCount');
+const archiveSearch = document.getElementById('archiveSearch');
+const viewer        = document.getElementById('viewer');
+
+let allArchives = [];
+let activeId    = null;
+let activeData  = null;      // last /api/analytics/<id> payload
+let activeFilter = null;     // 'pro' | 'neutral' | 'con' | null (item browser filter)
+
+// ── Sidebar ──────────────────────────────────────────────────────────────────
+
+async function loadSidebar() {
+  const res  = await fetch('/api/archive/list');
+  const json = await res.json();
+
+  if (!json.ok || !json.archives.length) {
+    allArchives = [];
+    archiveList.innerHTML = '<div class="no-archives">No archives yet.<br>Save one from the search page, graph, or geo search first.</div>';
+    archiveCount.textContent = '0';
+    return;
+  }
+
+  allArchives = json.archives;
+  renderArchiveList(archiveSearch.value);
+}
+
+function queryLabel(q) {
+  return (q && (q.searchQuery || q.targetUsername || q.targetTweetId || q.targetCommunityId || q.query)) || '';
+}
+
+function archiveMatchText(a) {
+  return [a.tool || '', queryLabel(a.query || {}), a.id || ''].join(' ').toLowerCase();
+}
+
+function renderArchiveList(filterText = '') {
+  const q        = filterText.toLowerCase().trim();
+  const filtered = q ? allArchives.filter(a => archiveMatchText(a).includes(q)) : allArchives;
+
+  archiveCount.textContent = q ? `${filtered.length} / ${allArchives.length}` : String(allArchives.length);
+
+  if (!filtered.length) {
+    archiveList.innerHTML = '<div class="no-archives">No archives match your search.</div>';
+    return;
+  }
+
+  archiveList.innerHTML = filtered.map(entryHtml).join('');
+  archiveList.querySelectorAll('.archive-entry').forEach(el => {
+    el.classList.toggle('active', el.dataset.id === activeId);
+    el.addEventListener('click', () => loadAnalytics(el.dataset.id));
+  });
+}
+
+archiveSearch.addEventListener('input', () => renderArchiveList(archiveSearch.value));
+
+function entryHtml(a) {
+  const tool  = (a.tool || 'unknown').replace(/_/g, ' ');
+  const date  = a.archived_at ? a.archived_at.replace('T', ' ') : '—';
+  const query = queryLabel(a.query || {});
+  return `
+    <div class="archive-entry" data-id="${esc(a.id)}">
+      <div class="ae-tool">${esc(tool)}</div>
+      <div class="ae-date">${esc(date)}</div>
+      ${query ? `<div class="ae-meta">${esc(query)}</div>` : ''}
+      <div class="ae-stats">${a.total_items || 0} items</div>
+    </div>`;
+}
+
+// ── Analysis ──────────────────────────────────────────────────────────────────
+
+async function loadAnalytics(id) {
+  activeId      = id;
+  activeFilter  = null;
+  archiveList.querySelectorAll('.archive-entry').forEach(el => el.classList.toggle('active', el.dataset.id === id));
+
+  viewer.innerHTML = '<div class="empty-state"><span class="spinner"></span> Analyzing…</div>';
+
+  try {
+    const res  = await fetch('/api/analytics/' + encodeURIComponent(id));
+    const json = await res.json();
+    if (!json.ok) { viewer.innerHTML = `<div class="empty-state">${esc(json.error || 'Analysis failed')}</div>`; return; }
+    activeData = json;
+    renderDashboard();
+  } catch (e) {
+    viewer.innerHTML = `<div class="empty-state">${esc(String(e))}</div>`;
+  }
+}
+
+const SENT_LABELS = { pro: 'Pro', neutral: 'Neutral', con: 'Con' };
+let snaCy = null;   // lazily built the first time "View as Graph" is clicked
+
+function renderDashboard() {
+  // A previous archive's graph instance (if any) is about to lose its
+  // container to the innerHTML rewrite below — destroy it cleanly first
+  // rather than leaving a detached Cytoscape instance running.
+  if (snaCy) { snaCy.destroy(); snaCy = null; }
+
+  const d = activeData;
+  if (!d.total_scored) {
+    viewer.innerHTML = '<div class="empty-state">This archive has no text content to analyze (e.g. a pure follower/following list, or Wayback/CSE-only records with nothing scraped).</div>';
+    return;
+  }
+
+  viewer.innerHTML = `
+    <div class="method-note">
+      ${d.method === 'ml'
+        ? 'Sentiment is scored by a multilingual model (XLM-RoBERTa, fine-tuned on tweets across 8 languages and reasonably capable well beyond those) — works on non-Indonesian text, not just the lexicon fallback below. Still a heuristic, not ground truth: short text, sarcasm and irony all still degrade accuracy. Click a tile below to see which items landed in it and the model\'s confidence per item.'
+        : 'Sentiment is scored against an Indonesian positive/negative word lexicon with negation handling (e.g. "tidak bagus" flips to con) — a transparent rule-based heuristic, Indonesian-only. Install torch+transformers (see requirements.txt) for multilingual ML-based scoring instead. Click a tile below to see exactly which items landed in it and which words drove each score.'}
+      ${d.total_items - d.total_scored > 0 ? `${d.total_items - d.total_scored} of ${d.total_items} record(s) had no text to score (bare follower/following/user entries) and are excluded below.` : ''}
+    </div>
+
+    <div class="section">
+      <div class="section-title">Sentiment clustering <span class="section-note">${d.total_scored} scored</span></div>
+      ${sentimentBarHtml(d)}
+      <div class="sentiment-tiles">
+        ${sentimentTileHtml('pro', d)}
+        ${sentimentTileHtml('neutral', d)}
+        ${sentimentTileHtml('con', d)}
+      </div>
+    </div>
+
+    <div class="grid-2 section">
+      <div>
+        <div class="section-title">Most active accounts <span class="section-note">by items in this archive</span></div>
+        ${topUsersHtml(d.top_users)}
+      </div>
+      <div>
+        <div class="section-title">Most engagement <span class="section-note">replies + retweets + likes</span></div>
+        ${topEngagementHtml(d.top_engagement)}
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">
+        Social network graph <span class="section-note">accounts, sized by activity, colored by sentiment mix</span>
+        <button type="button" id="btnSnaGraph" class="btn-toolbar">View as Graph</button>
+      </div>
+      <div class="sna-legend">
+        <span class="sna-legend-item"><span class="sna-legend-dot dot-pro"></span>Pro</span>
+        <span class="sna-legend-item"><span class="sna-legend-dot dot-neutral"></span>Neutral</span>
+        <span class="sna-legend-item"><span class="sna-legend-dot dot-con"></span>Con</span>
+        <span class="sna-legend-item">Node size = post volume · edges = reply relationships found within this archive · click a node for details</span>
+      </div>
+      <div class="sna-wrap" id="snaWrap">
+        <div class="sna-graph" id="snaGraph"></div>
+        <div class="sna-node-info" id="snaNodeInfo"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Word frequency</div>
+      ${wordCloudHtml(d.word_freq)}
+    </div>
+
+    <div class="section">
+      <div class="item-toolbar">
+        <div class="section-title" style="margin-bottom:0">Items <span class="item-count" id="itemCount"></span></div>
+        <input type="text" class="item-search" id="itemSearch" placeholder="Search text or author...">
+      </div>
+      <div class="item-list" id="itemList"></div>
+    </div>
+  `;
+
+  document.querySelectorAll('.stile').forEach(el => {
+    el.addEventListener('click', () => {
+      const label = el.dataset.label;
+      activeFilter = activeFilter === label ? null : label;
+      document.querySelectorAll('.stile').forEach(t => t.classList.toggle('active', t.dataset.label === activeFilter));
+      renderItemList();
+    });
+  });
+  document.getElementById('itemSearch').addEventListener('input', renderItemList);
+  renderItemList();
+
+  document.getElementById('btnSnaGraph').addEventListener('click', toggleSnaGraph);
+}
+
+// ── Social network graph ─────────────────────────────────────────────────────
+// Accounts as nodes — each one's fill is a native Cytoscape pie split by its
+// own pro/neutral/con proportions (a Maltego-style at-a-glance indicator:
+// mostly-green vs mostly-red vs mixed is readable across the whole graph at
+// once, not just one account at a time), sized by how many items in this
+// archive that account produced. Edges are reply relationships derived
+// entirely from data already loaded in scored_items — no extra request:
+// when an item's in_reply_to_tweet_id matches another item's own id within
+// this same archive, that's a real reply link between the two authors.
+function toggleSnaGraph() {
+  const wrap = document.getElementById('snaWrap');
+  const btn  = document.getElementById('btnSnaGraph');
+  const showing = wrap.classList.toggle('visible');
+  btn.textContent = showing ? 'Hide Graph' : 'View as Graph';
+  if (showing && !snaCy) buildSnaGraph();
+}
+
+function buildSnaGraph() {
+  const d = activeData;
+  const accounts = {};   // handle -> { pro, neutral, con, total, name, avatar }
+  const idToAuthor = {}; // raw item id -> handle, for resolving reply edges
+
+  d.scored_items.forEach(it => {
+    const raw    = it.item || {};
+    const handle = it.author || raw.screen_name || raw.user;
+    if (!handle) return;
+    if (!accounts[handle]) {
+      accounts[handle] = {
+        pro: 0, neutral: 0, con: 0, total: 0,
+        name: raw.name || '', avatar: raw.avatar || raw.user_avatar || '',
+      };
+    }
+    accounts[handle][it.label]++;
+    accounts[handle].total++;
+    if (raw.id != null) idToAuthor[String(raw.id)] = handle;
+  });
+
+  const handles = Object.keys(accounts);
+  const graphEl = document.getElementById('snaGraph');
+  if (!handles.length) {
+    graphEl.innerHTML = '<div class="empty-state" style="padding:24px">No identifiable accounts to graph.</div>';
+    return;
+  }
+
+  const seenEdge = new Set();
+  const edges = [];
+  d.scored_items.forEach(it => {
+    const raw       = it.item || {};
+    const replyTo   = raw.in_reply_to_tweet_id;
+    const fromHandle = it.author || raw.screen_name || raw.user;
+    if (!replyTo || !fromHandle) return;
+    const toHandle = idToAuthor[String(replyTo)];
+    if (!toHandle || toHandle === fromHandle) return;
+    const key = fromHandle + '→' + toHandle;
+    if (seenEdge.has(key)) return;
+    seenEdge.add(key);
+    edges.push({ data: { id: 'e_' + edges.length, source: fromHandle, target: toHandle, label: 'replied to' } });
+  });
+
+  const counts   = handles.map(h => accounts[h].total);
+  const maxCount = Math.max(...counts);
+  const minCount = Math.min(...counts);
+  const sameSize = maxCount === minCount;
+
+  const nodes = handles.map(h => {
+    const a   = accounts[h];
+    const pct = n => a.total ? Math.round((n / a.total) * 100) : 0;
+    return {
+      data: {
+        id: h,
+        label: '@' + h + ' (' + a.total + ')',
+        name: a.name, avatar: a.avatar,
+        pro: a.pro, neutral: a.neutral, con: a.con, total: a.total,
+        proPct: pct(a.pro), neutralPct: pct(a.neutral), conPct: pct(a.con),
+      },
+    };
+  });
+
+  const sizeStyle = sameSize
+    ? { width: 42, height: 42 }
+    : { width: `mapData(total, ${minCount}, ${maxCount}, 26, 74)`, height: `mapData(total, ${minCount}, ${maxCount}, 26, 74)` };
+
+  snaCy = cytoscape({
+    container: graphEl,
+    elements: { nodes, edges },
+    minZoom: 0.15,
+    maxZoom: 3,
+    style: [
+      { selector: 'node', style: Object.assign({
+          shape: 'ellipse',
+          label: 'data(label)',
+          color: '#e8eaf0',
+          'font-size': '9px',
+          'min-zoomed-font-size': 6,
+          'text-valign': 'bottom',
+          'text-margin-y': '6px',
+          'text-wrap': 'ellipsis',
+          'text-max-width': '90px',
+          'border-width': 2,
+          'border-color': '#2a2d3a',
+          'pie-size': '100%',
+          'pie-1-background-color': '#22c55e',
+          'pie-1-background-size': 'data(proPct)',
+          'pie-2-background-color': '#8890a4',
+          'pie-2-background-size': 'data(neutralPct)',
+          'pie-3-background-color': '#ef4444',
+          'pie-3-background-size': 'data(conPct)',
+      }, sizeStyle) },
+      { selector: 'edge', style: {
+          'line-color': '#FFFFFF',
+          'line-opacity': 0.45,
+          width: 1,
+          'target-arrow-color': '#FFFFFF',
+          'target-arrow-shape': 'triangle',
+          'arrow-scale': 0.8,
+          'curve-style': 'bezier',
+          label: 'data(label)',
+          'font-size': '7px',
+          color: '#8890a4',
+          'text-background-color': '#0f1117',
+          'text-background-opacity': 0.85,
+          'text-background-padding': '2px',
+      }},
+      { selector: 'node:selected', style: {
+          'border-width': 3,
+          'border-color': '#5865f2',
+      }},
+    ],
+    layout: {
+      name: 'cose', animate: true, animationDuration: 450,
+      nodeRepulsion: 9000, idealEdgeLength: 90, gravity: 0.4, numIter: 1000, fit: true, padding: 30,
+    },
+  });
+
+  snaCy.on('tap', 'node', evt => showSnaNodeInfo(evt.target.data()));
+}
+
+function showSnaNodeInfo(nd) {
+  const panel = document.getElementById('snaNodeInfo');
+  panel.classList.add('visible');
+  panel.innerHTML = `
+    <div class="sna-node-identity">
+      <div class="sna-node-name">${esc(nd.name || nd.id)}</div>
+      <div class="sna-node-handle">@${esc(nd.id)}</div>
+    </div>
+    <div class="sna-node-stats">
+      <span class="sent-badge sent-pro">Pro ${nd.pro}</span>
+      <span class="sent-badge sent-neutral">Neutral ${nd.neutral}</span>
+      <span class="sent-badge sent-con">Con ${nd.con}</span>
+    </div>
+    <div class="sna-node-total">${nd.total} item(s) total</div>
+  `;
+}
+
+function sentimentBarHtml(d) {
+  const total = d.total_scored || 1;
+  const segs = ['pro', 'neutral', 'con'].map(label => {
+    const pct = d.sentiment_pct[label] || 0;
+    if (!pct) return '';
+    return `<div class="sentiment-seg seg-${label}" style="flex:${d.sentiment_counts[label]}" title="${SENT_LABELS[label]}: ${pct}%">${pct >= 8 ? pct + '%' : ''}</div>`;
+  }).join('');
+  return `<div class="sentiment-bar">${segs}</div>`;
+}
+
+function sentimentTileHtml(label, d) {
+  return `
+    <div class="stile" data-label="${label}">
+      <div class="stile-label"><span class="stile-dot dot-${label}"></span>${SENT_LABELS[label]}</div>
+      <div class="stile-value">${d.sentiment_counts[label] || 0}</div>
+      <div class="stile-pct">${d.sentiment_pct[label] || 0}% of scored items</div>
+    </div>`;
+}
+
+function topUsersHtml(users) {
+  if (!users || !users.length) return '<div class="empty-state" style="padding:24px">No identifiable authors in this archive.</div>';
+  return '<div class="user-list">' + users.map((u, i) => {
+    const avatarUrl = isSafeImageUrl(u.avatar) ? u.avatar : '';
+    const avatar = avatarUrl
+      ? `<img class="user-avatar" src="${esc(avatarUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
+      : `<div class="user-avatar user-avatar-fallback">${esc(((u.name || u.screen_name || '?').charAt(0)).toUpperCase())}</div>`;
+    return `
+      <div class="user-row">
+        <span class="user-rank">${i + 1}</span>
+        ${avatar}
+        <div class="user-identity">
+          <div class="user-name">${esc(u.name || u.screen_name)}</div>
+          <div class="user-handle">@${esc(u.screen_name)}</div>
+        </div>
+        <span class="user-count">${u.count}×</span>
+      </div>`;
+  }).join('') + '</div>';
+}
+
+function topEngagementHtml(items) {
+  if (!items || !items.length) return '<div class="empty-state" style="padding:24px">No engagement data (reply/retweet/favorite counts) in this archive.</div>';
+  return '<div class="engagement-list">' + items.map(e => {
+    const it = e.item;
+    const handle = it.screen_name || it.user || it.name || 'unknown';
+    const text = (it.text || it.full_text || it.post_title || it.post_text || it.description || '').trim();
+    return `
+      <div class="eng-row">
+        <div class="eng-top">
+          <span class="eng-handle">@${esc(handle)}</span>
+          <span class="eng-score">${e.engagement.toLocaleString()} interactions</span>
+        </div>
+        <div class="eng-text">${esc(text)}</div>
+      </div>`;
+  }).join('') + '</div>';
+}
+
+function wordCloudHtml(words) {
+  if (!words || !words.length) return '<div class="empty-state" style="padding:24px">Not enough text to build a word list.</div>';
+  const max = Math.max(...words.map(w => w.count));
+  const min = Math.min(...words.map(w => w.count));
+  const span = Math.max(1, max - min);
+  return '<div class="wordcloud">' + words.map(w => {
+    // Font size scaled by frequency (13px..38px) — size is the encoding here,
+    // not color, so this stays legible without inventing a new color ramp.
+    const t = (w.count - min) / span;
+    const size = Math.round(13 + t * 25);
+    const opacity = (0.55 + t * 0.45).toFixed(2);
+    return `<span class="wc-word" style="font-size:${size}px;opacity:${opacity}" title="${w.count}×">${esc(w.word)}</span>`;
+  }).join('') + '</div>';
+}
+
+// ── Item browser ─────────────────────────────────────────────────────────────
+
+function renderItemList() {
+  const d = activeData;
+  const q = (document.getElementById('itemSearch').value || '').toLowerCase().trim();
+
+  let items = d.scored_items;
+  if (activeFilter) items = items.filter(it => it.label === activeFilter);
+  if (q) items = items.filter(it => (it.text || '').toLowerCase().includes(q) || (it.author || '').toLowerCase().includes(q));
+
+  document.getElementById('itemCount').textContent = `${items.length} / ${d.scored_items.length}`;
+
+  const list = document.getElementById('itemList');
+  if (!items.length) { list.innerHTML = '<div class="empty-state" style="padding:24px">No items match.</div>'; return; }
+
+  list.innerHTML = items.map(it => {
+    const matches = (it.matches || []).map(m =>
+      `<span class="match-chip mc-${m.polarity}">${esc(m.word)}</span>`
+    ).join('');
+    const scoreLabel = typeof it.confidence === 'number'
+      ? `${Math.round(it.confidence * 100)}% confidence`
+      : `score ${it.score > 0 ? '+' : ''}${it.score}`;
+    return `
+      <div class="item-card">
+        <div class="item-card-top">
+          <span class="item-author">${it.author ? '@' + esc(it.author) : 'Unknown'}</span>
+          <span class="sent-badge sent-${it.label}">${SENT_LABELS[it.label]}</span>
+          <span class="item-score">${scoreLabel}</span>
+        </div>
+        <div class="item-text">${esc(it.text)}</div>
+        ${matches ? `<div class="item-matches">${matches}</div>` : ''}
+      </div>`;
+  }).join('');
+}
+
+loadSidebar();
+})();
+</script>
+</body>
+</html>
