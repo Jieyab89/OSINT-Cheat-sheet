@@ -570,6 +570,7 @@
   <input id="dateFromInput" type="text" placeholder="From YYYYMMDD" title="Optional start date" maxlength="8" style="width:100px;display:none">
   <input id="dateToInput"   type="text" placeholder="To YYYYMMDD"   title="Optional end date"   maxlength="8" style="width:100px;display:none">
   <input id="countInput" type="number" value="20" min="1" max="2000" title="Result count">
+  <input id="graphFilterInput" type="text" placeholder="Filter graph…" spellcheck="false" autocomplete="off" style="display:none;width:160px" title="Show only nodes whose data matches this text">
   <span id="nodeCount">0 nodes</span>
   <button id="btnSearch"     class="btn btn-primary">Search</button>
   <button id="btnArchiveAll" class="btn btn-ghost">Archive All</button>
@@ -908,6 +909,9 @@ function init() {
     expandNode('following_explorer');
   });
   document.getElementById('btnLoadMoreSearch').addEventListener('click', expandSearch);
+  document.getElementById('graphFilterInput').addEventListener('input', function (e) {
+    filterGraph(e.target.value);
+  });
 
   updatePlaceholder();
   updateModeVisibility();
@@ -959,13 +963,59 @@ function setStatus(msg, isError, persist) {
   }
 }
 
+// ── Graph filter ─────────────────────────────────────────────────────────────
+// Same idea as the "Search results…" box on the Search page, applied to the
+// canvas instead of a card list: typing narrows the graph down to only the
+// nodes whose data actually matches, so a big graph doesn't have to be
+// visually scanned node-by-node to find one account or keyword.
+var graphFilterQuery = '';
+
+function flatText(obj) {
+  if (obj == null) return '';
+  if (typeof obj !== 'object') return String(obj);
+  return Object.values(obj).map(flatText).join(' ');
+}
+
+// Root search nodes are graph structure, not a result themselves — always
+// kept visible so a filter narrowing the results underneath one doesn't also
+// disconnect that whole subtree from view.
+function applyGraphFilter() {
+  var q = graphFilterQuery.toLowerCase().trim();
+  cy.batch(function () {
+    if (!q) {
+      cy.elements().show();
+      return;
+    }
+    cy.nodes().forEach(function (node) {
+      var data    = node.data();
+      var matches = data.type === 'search'
+        || (data.label || '').toLowerCase().includes(q)
+        || flatText(data.raw).toLowerCase().includes(q);
+      if (matches) node.show(); else node.hide();
+    });
+    cy.edges().forEach(function (edge) {
+      if (edge.source().visible() && edge.target().visible()) edge.show(); else edge.hide();
+    });
+  });
+}
+
+function filterGraph(query) {
+  graphFilterQuery = query;
+  updateNodeCount();
+}
+
 function updateNodeCount() {
+  applyGraphFilter();   // re-applied here too, so newly added nodes honor an already-active filter
   var n     = cy.nodes().length;
+  var visN  = cy.nodes(':visible').length;
   var selN  = cy.nodes(':selected').length;
-  var label = n + ' node' + (n !== 1 ? 's' : '');
+  var label = (graphFilterQuery.trim() && visN !== n)
+    ? (visN + ' of ' + n + ' node' + (n !== 1 ? 's' : ''))
+    : (n + ' node' + (n !== 1 ? 's' : ''));
   if (selN > 1) label += ' · ' + selN + ' selected';
   document.getElementById('nodeCount').textContent = label;
   document.getElementById('emptyHint').classList.toggle('hidden', n > 0);
+  document.getElementById('graphFilterInput').style.display = n > 0 ? '' : 'none';
 }
 
 // ── API helpers ───────────────────────────────────────────────────────────────
@@ -1012,7 +1062,20 @@ async function apiFetch(body) {
     if (res.status === 429 && json.retryAfter) err.retryAfter = json.retryAfter;
     throw err;
   }
-  return { items: json.data, nextCursor: json.nextCursor || null };
+  return { items: json.data, nextCursor: json.nextCursor || null, sourceErrors: json.sourceErrors || null };
+}
+
+var SOURCE_LABEL_MAP = { cookie: 'Twitter Cookie', xquik: 'Xquik API', wayback: 'Wayback Machine', cse: 'Google CSE' };
+
+// multi_source_search only — a lane running dry (no more matches) and a lane
+// failing (network blip, quota hit) both just look like "fewer new nodes"
+// otherwise, so this spells out which lane and why rather than leaving it silent.
+function sourceErrorNote(sourceErrors) {
+  if (!sourceErrors || !Object.keys(sourceErrors).length) return '';
+  var parts = Object.keys(sourceErrors).map(function (key) {
+    return (SOURCE_LABEL_MAP[key] || key) + ': ' + sourceErrors[key];
+  });
+  return ' — ' + parts.join(' · ');
 }
 
 // ── Cookie/Wayback cooldown (mirrors the server's 5s-per-source throttle) ──
@@ -1212,7 +1275,7 @@ async function runSearch() {
     var added = addNodes(items, function (item) { return resolveNodeType(tool, item); }, searchId);
     runLayout(true, true);
     updateNodeCount();
-    setStatus('Done — ' + items.length + ' result(s) (' + added + ' new nodes)');
+    setStatus('Done — ' + items.length + ' result(s) (' + added + ' new nodes)' + sourceErrorNote(result.sourceErrors), false, !!result.sourceErrors);
   } catch (e) {
     setStatus('Error: ' + e.message, true);
   } finally {
@@ -1384,7 +1447,7 @@ async function expandSearch() {
     var added = addNodes(items, function (item) { return resolveNodeType(data.tool, item); }, selectedNode.id());
     runLayout(false, false);
     updateNodeCount();
-    setStatus('Loaded more — ' + items.length + ' result(s) (' + added + ' new nodes)');
+    setStatus('Loaded more — ' + items.length + ' result(s) (' + added + ' new nodes)' + sourceErrorNote(result.sourceErrors), false, !!result.sourceErrors);
 
     selectedNode.data('searchCursor', result.nextCursor || null);
     selectedNode.data('searchExhausted', !result.nextCursor);
@@ -1750,6 +1813,8 @@ function clearGraph() {
   cy.elements().remove();
   allItems.length = 0;
   hidePanel();
+  graphFilterQuery = '';
+  document.getElementById('graphFilterInput').value = '';
   updateNodeCount();
   graphArchivedId = null;
   document.getElementById('btnArchiveAll').textContent = 'Archive All';

@@ -284,7 +284,7 @@ def _filter_by_date(items: list, from_date: str, to_date: str) -> list:
 
 def _multi_source_search(
     query: str, count: int, from_date: str = "", to_date: str = "", cursor: str | None = None,
-) -> tuple[list, str | None]:
+) -> tuple[list, str | None, dict]:
     """Fans out across every source in parallel. cursor (if given) is an
     opaque JSON object of {source: source_cursor} built from a previous
     call's returned cursor — each key present in it is a source that still
@@ -293,7 +293,15 @@ def _multi_source_search(
     (cursor=None); every load-more page after that is cookie/wayback/cse only.
     A cursor value that doesn't parse as a JSON object is treated as "no
     cursor" (first page) rather than raising — same tolerant-of-garbage-input
-    posture as the rest of this file's client-supplied-field handling."""
+    posture as the rest of this file's client-supplied-field handling.
+
+    Third return value is {source: error_message} for any source that failed
+    this round (missing creds, network blip, quota hit, ...) — a source
+    failing shouldn't sink the others, but silently dropping it also leaves
+    the caller unable to tell "this source ran dry" apart from "this source
+    is broken right now," which matters most on a load-more page where the
+    UI would otherwise just look like that source stopped contributing for
+    no reason."""
     twitter_query = _apply_date_operators(query, from_date, to_date)
 
     try:
@@ -322,6 +330,7 @@ def _multi_source_search(
 
     results          = []
     next_cursor_parts = {}
+    source_errors     = {}
     with ThreadPoolExecutor(max_workers=len(jobs)) as pool:
         futures = {key: pool.submit(fn) for key, fn in jobs.items()}
         for key in ("cookie", "xquik", "wayback", "cse"):   # deterministic display order
@@ -329,14 +338,15 @@ def _multi_source_search(
                 continue
             try:
                 data, next_c = futures[key].result()
-            except Exception:
+            except Exception as e:
+                source_errors[key] = str(e)
                 continue   # a source failing (missing creds, network, ...) shouldn't sink the others
             results.extend(_tag_source(data, SOURCE_LABELS[key]))
             if next_c:
                 next_cursor_parts[key] = next_c
 
     next_cursor = json.dumps(next_cursor_parts) if next_cursor_parts else None
-    return _filter_by_date(results, from_date, to_date), next_cursor
+    return _filter_by_date(results, from_date, to_date), next_cursor, source_errors
 
 
 # Whitelist: only proxy Twitter's video CDN to prevent SSRF
@@ -401,7 +411,8 @@ def run_tool():
             "error": "Server is busy — max concurrent requests reached. Please try again shortly.",
         }), 429
 
-    next_cursor = None   # stays None for tools/modes that don't paginate
+    next_cursor   = None   # stays None for tools/modes that don't paginate
+    source_errors = None   # multi_source_search only — {source: error} for lanes that failed this page
 
     try:
         if tool_type == "tweet_search_extractor":
@@ -479,7 +490,7 @@ def run_tool():
             for label, val in (("dateFrom", from_date), ("dateTo", to_date)):
                 if val and not _valid_date8(val):
                     return jsonify({"ok": False, "error": f"{label} must be an 8-digit date (YYYYMMDD)"}), 400
-            data, next_cursor = _multi_source_search(query, count=count, from_date=from_date, to_date=to_date, cursor=cursor)
+            data, next_cursor, source_errors = _multi_source_search(query, count=count, from_date=from_date, to_date=to_date, cursor=cursor)
 
         else:
             return jsonify({"ok": False, "error": f"Unknown toolType: {tool_type}"}), 400
@@ -492,7 +503,10 @@ def run_tool():
         data = _stamp_fetched_at(data)
         data = _stamp_tweet_url(data)
 
-        return jsonify({"ok": True, "data": data, "nextCursor": next_cursor})
+        resp = {"ok": True, "data": data, "nextCursor": next_cursor}
+        if source_errors:
+            resp["sourceErrors"] = source_errors
+        return jsonify(resp)
 
     except (XquikError, CookieClientError, WaybackError, GoogleCSEError) as e:
         return jsonify({"ok": False, "error": str(e)}), 400
