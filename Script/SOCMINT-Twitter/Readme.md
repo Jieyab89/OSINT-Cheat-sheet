@@ -12,10 +12,12 @@
 6. Add more parameter for enrichment 
 7. Add no rate limit (throttle) 
 8. Add Google CSE data source 
-9. Expand data user profile post, follower and following, reply post, retweet post in graph — 
-10. Add sentiment analysis for clustering data, pro, neutral, con based on archive data and dump data 
+9. Expand data user profile post, follower and following, reply post, retweet post in graph 
+10. Add sentiment analysis for clustering data, pro, neutral, con. Based on archive data and dump data 
 11. Add more data source and other parameter (soon) still research
 12. Add more detail data source for the context 
+13. Auto repair broken archive and sentiment analysis data dump
+14. Update rendering data in sentiment analysis 
 
 ## Features
 
@@ -232,6 +234,8 @@ text, sarcasm, and irony degrade accuracy either way. Treat results as a
 starting point for investigation, not a verdict.
 
 # Results 
+
+[![Watch the video](https://vumbnail.com/1216677900.jpg)](https://vimeo.com/1216677900)
 
 Xquik Dashboard 
 

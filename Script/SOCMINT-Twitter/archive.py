@@ -83,6 +83,30 @@ def _media_ext(url: str, mtype: str) -> str:
     return "jpg"
 
 
+def _atomic_write_json(path: Path, data) -> None:
+    """Write JSON to `path` without ever leaving a reader able to observe a
+    half-written file. Path.write_text() opens, writes, and closes in place —
+    a GET landing on archive_results() mid-write (most likely during a
+    checkpoint update() re-run, which can take a while on a large dataset)
+    could read a truncated/malformed file and hand the browser invalid JSON,
+    which is exactly what surfaces client-side as a raw
+    "SyntaxError: JSON.parse: unexpected character..." instead of a clean
+    error. Writing to a sibling temp file first and os.replace()-ing it into
+    place is atomic on both POSIX and Windows: a concurrent reader always
+    sees either the complete old file or the complete new one, never
+    something in between."""
+    # pid + thread id: os.getpid() alone collides if two checkpoint updates
+    # for the same archive_id race inside this one (threaded=True) process —
+    # e.g. a fast double-click on "Update Archive," or the browser retrying a
+    # save right as the first one is still writing. Each writer then gets
+    # its own temp file, so the two writes can't corrupt each other; the
+    # last os.replace() to run simply wins, same as a normal last-write-wins
+    # race would, but never with a torn/partial file in between.
+    tmp = path.with_suffix(path.suffix + f".tmp{os.getpid()}_{threading.get_ident()}")
+    tmp.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+    os.replace(tmp, path)
+
+
 def _download_file(url: str, dest: Path) -> bool:
     """Download a single file. Returns True on success."""
     try:
@@ -169,12 +193,8 @@ def _run(archive_id: str, tool_type: str, data, query_info: dict) -> None:
         "total_items": len(items),
         "media_count": total_media,
     }
-    meta_path.write_text(
-        json.dumps(meta, indent=2, ensure_ascii=False)
-    )
-    (archive_dir / "results.json").write_text(
-        json.dumps(enriched, indent=2, ensure_ascii=False)
-    )
+    _atomic_write_json(meta_path, meta)
+    _atomic_write_json(archive_dir / "results.json", enriched)
 
     with _lock:
         _registry[archive_id].update({"status": "downloading", "total": len(media_queue)})
