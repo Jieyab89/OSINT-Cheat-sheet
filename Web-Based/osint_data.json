@@ -63,6 +63,10 @@
             {
                 "name": "Darkweb academy",
                 "url": "https://www.darkwebacademy.com/labs/"
+            },
+            {
+                "name": "Jieyab Gitbook OSINT and other bracnh Intel",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/1-Notes-Jieyab-Wiki-and-Gitbook"
             }
         ]
     },
@@ -88,6 +92,10 @@
             {
                 "name": "Exif python script remover",
                 "url": "https://github.com/davidbombal/red-python-scripts/blob/main/remove_exif.py"
+            },
+            {
+                "name": "Metadata Remover",
+                "url": "https://metadataremover.ai/metadata-viewer"
             }
         ]
     },
@@ -1674,6 +1682,10 @@
             {
                 "name": "DomScan",
                 "url": "https://domscan.net/tools/security"
+            },
+            {
+                "name": "CC.LA",
+                "url": "https://cc.la"
             }
         ]
     },
@@ -6988,6 +7000,14 @@
             {
                 "name": "PeekVault",
                 "url": "https://peekvault.com/"
+            },
+            {
+                "name": "Jieyab ft Xquik Twitter Scrappe and MCP and monitoring",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/SOCMINT-Twitter"
+            },
+            {
+                "name": "trends24 whats trend in X arround world",
+                "url": "https://trends24.in/indonesia/"
             }
         ]
     },
@@ -22218,6 +22238,172 @@
             {
                 "name": "2 Notes Jieyab Wiki and Gitbook",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/2-Notes-Jieyab-Wiki-and-Gitbook"
+            },
+            {
+                "name": "Update",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki#update"
+            },
+            {
+                "name": "1 Notes Jieyab Wiki and Gitbook",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/1-Notes-Jieyab-Wiki-and-Gitbook"
+            }
+        ]
+    },
+    {
+        "category": "SIGINT",
+        "items": [
+            {
+                "name": "osmocom",
+                "url": "https://osmocom.org/projects/baseband/wiki/Hardware"
+            },
+            {
+                "name": "Motorola",
+                "url": "https://osmocom.org/projects/baseband/wiki/MobistelEL570"
+            },
+            {
+                "name": "Hackrf",
+                "url": "https://greatscottgadgets.com/hackrf/"
+            },
+            {
+                "name": "bladerf",
+                "url": "https://www.nuand.com/bladerf-1/"
+            },
+            {
+                "name": "rtl sdr",
+                "url": "https://www.rtl-sdr.com/"
+            },
+            {
+                "name": "Tenda",
+                "url": "https://www.tendacn.com/material/show/2002565"
+            },
+            {
+                "name": "Wifi Pineaple HAK5",
+                "url": "https://shop.hak5.org/products/wifi-pineapple"
+            },
+            {
+                "name": "tp link",
+                "url": "https://www.tp-link.com/id/"
+            },
+            {
+                "name": "Walkie-talkie",
+                "url": "https://en.wikipedia.org/wiki/Walkie-talkie"
+            },
+            {
+                "name": "flipper",
+                "url": "https://flipper.net/"
+            },
+            {
+                "name": "raspberrypi",
+                "url": "https://www.raspberrypi.com/"
+            },
+            {
+                "name": "wireshark",
+                "url": "https://www.wireshark.org/"
+            },
+            {
+                "name": "kismetwireless",
+                "url": "https://www.kismetwireless.net/"
+            },
+            {
+                "name": "aircrack",
+                "url": "https://www.aircrack-ng.org/"
+            },
+            {
+                "name": "nmap",
+                "url": "https://nmap.org/"
+            },
+            {
+                "name": "netmonster",
+                "url": "https://play.google.com/store/apps/details?id=cz.mroczis.netmonster"
+            },
+            {
+                "name": "wigle",
+                "url": "https://wigle.net/"
+            },
+            {
+                "name": "angryip",
+                "url": "https://angryip.org/"
+            },
+            {
+                "name": "advanced-ip-scanner",
+                "url": "https://www.advanced-ip-scanner.com/id/"
+            },
+            {
+                "name": "pysim",
+                "url": "https://github.com/osmocom/pysim"
+            },
+            {
+                "name": "osmocom",
+                "url": "https://osmocom.org/projects/baseband"
+            },
+            {
+                "name": "G Maps APIs",
+                "url": "https://mapsplatform.google.com/lp/maps-apis/"
+            },
+            {
+                "name": "leafletjs",
+                "url": "https://leafletjs.com/"
+            },
+            {
+                "name": "arcgis",
+                "url": "https://www.arcgis.com/apps/mapviewer/index.html"
+            },
+            {
+                "name": "d3js",
+                "url": "https://d3js.org/"
+            }
+        ]
+    },
+    {
+        "category": "Query & Script List",
+        "items": []
+    },
+    {
+        "category": "Report",
+        "items": []
+    },
+    {
+        "category": "Jieyab89 Scripts",
+        "items": [
+            {
+                "name": "CNN-News-Scrapping-and-Archive",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/CNN-News-Scrapping-and-Archive"
+            },
+            {
+                "name": "Darkweb-Scrapping",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Darkweb-Scrapping"
+            },
+            {
+                "name": "Dorking",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Dorking"
+            },
+            {
+                "name": "Github-Search",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Github-Search"
+            },
+            {
+                "name": "Linkedin-Script",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Linkedin-Script"
+            },
+            {
+                "name": "OSM-QUERY-LIST",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/OSM-QUERY-LIST"
+            },
+            {
+                "name": "Red-Team",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Red-Team"
+            },
+            {
+                "name": "SENTINEL-SAT-SCRIPT-LIST",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/SENTINEL-SAT-SCRIPT-LIST"
+            },
+            {
+                "name": "SOCMINT-Twitter",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/SOCMINT-Twitter"
+            },
+            {
+                "name": "Web-TLD-Enumerate-NS-Check",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Web-TLD-Enumerate-NS-Check"
             }
         ]
     }

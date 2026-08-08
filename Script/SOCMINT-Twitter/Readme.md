@@ -2,6 +2,21 @@
 
 <img width="2552" height="1237" alt="Image" src="https://github.com/user-attachments/assets/20465836-89f0-453b-a0d5-fa2700b8ace1" />
 
+# Update Note
+
+1. Update infinity scroll and load new data for each search also in graph 
+2. Update data corelation 
+3. Fix business logic flow 
+4. Monitoring (Soon)
+5. MCP (Soon)
+6. Add more parameter for enrichment 
+7. Add no rate limit (throttle) 
+8. Add Google CSE data source 
+9. Expand data user profile post, follower and following, reply post, retweet post in graph — 
+10. Add sentiment analysis for clustering data, pro, neutral, con based on archive data and dump data 
+11. Add more data source and other parameter (soon) still research
+12. Add more detail data source for the context 
+
 ## Features
 
 - **Multi-source search** — one query fans out to Cookie, Xquik API,
@@ -152,21 +167,6 @@ The `/api/analytics/<archive_id>` response always reports which backend
 banner reflects it. Neither backend is a ground-truth classifier — short
 text, sarcasm, and irony degrade accuracy either way. Treat results as a
 starting point for investigation, not a verdict.
-
-## Update Note
-
-1. Update infinity scroll and load new data for each search also in graph 
-2. Update data corelation 
-3. Fix business logic flow 
-4. Monitoring (Soon)
-5. MCP (Soon)
-6. Add more parameter for enrichment 
-7. Add no rate limit (throttle) 
-8. Add Google CSE data source 
-9. Expand data user profile post, follower and following, reply post, retweet post in graph — 
-10. Add sentiment analysis for clustering data, pro, neutral, con based on archive data and dump data 
-11. Add more data source and other parameter (soon) still research
-12. Add more detail data source for the context 
 
 ## Settup
 

@@ -77,7 +77,7 @@ You can build it with VM or Live USB make sure you have sandbox machine
 
 # OSINT Academy
 
-- [Jieyab Gitbook OSIN and other bracnh Intel](https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/1-Notes-Jieyab-Wiki-and-Gitbook)
+- [Jieyab Gitbook OSINT and other bracnh Intel](https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/1-Notes-Jieyab-Wiki-and-Gitbook)
 - [Maltego academy](https://academy.maltego.com/)
 - [Darkweb academy](https://www.darkwebacademy.com/labs/)
 
