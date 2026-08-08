@@ -39,7 +39,9 @@
     align-items: center;
     gap: 10px;
     background: var(--surface);
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
   header h1 { font-size: 14px; font-weight: 600; letter-spacing: 0.02em; }
   header .sep { color: var(--border); }
@@ -104,6 +106,27 @@
     z-index: 251;
     transition: all 0.15s;
   }
+  .back-to-top {
+    position: fixed;
+    bottom: 14px;
+    right: 14px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: #FFFFFF;
+    font-size: 17px;
+    cursor: pointer;
+    z-index: 251;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.4);
+    transition: all 0.15s;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .back-to-top:hover { border-color: var(--accent); }
+  .back-to-top.visible { display: flex; }
   .help-toggle:hover { color: var(--text); border-color: var(--accent); }
   .help-popup {
     position: fixed;
@@ -290,6 +313,23 @@
   .age-badge.age-recent      { color: var(--warn);    border-color: #78350f; background: #1c0e02; }
   .age-badge.age-established { color: var(--success); border-color: #14532d; background: #052011; }
 
+  /* What kind of X/Twitter page a Google CSE / Wayback result actually is —
+     a keyword match linking to x.com/someone reads as "just a profile" with
+     no way to tell a tweet permalink apart from a bare profile page or an
+     unrelated page otherwise. */
+  .content-type-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 2px 9px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+  }
+  .content-type-badge.ct-tweet         { color: var(--success); border-color: #14532d; background: #052011; }
+  .content-type-badge.ct-profile       { color: #a78bfa;        border-color: #4c3a8f; background: var(--cookie-bg); }
+  .content-type-badge.ct-twitter_other { color: var(--warn);    border-color: #78350f; background: #1c0e02; }
+  .content-type-badge.ct-other         { color: var(--muted);   border-color: var(--border); background: var(--bg); }
+
   .search-bar {
     flex: 1;
     min-width: 160px;
@@ -321,38 +361,6 @@
     transition: all 0.15s;
   }
   .btn-download:hover { color: var(--text); border-color: var(--accent); }
-
-  /* Auto Archive toggle */
-  .archive-toggle {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-top: 10px;
-    padding-top: 10px;
-    border-top: 1px solid var(--border);
-    cursor: pointer;
-    user-select: none;
-  }
-  .toggle-track {
-    width: 32px;
-    height: 18px;
-    border-radius: 9px;
-    background: var(--border);
-    position: relative;
-    transition: background 0.2s;
-    flex-shrink: 0;
-  }
-  .toggle-track.on { background: var(--accent); }
-  .toggle-knob {
-    position: absolute;
-    top: 2px; left: 2px;
-    width: 14px; height: 14px;
-    border-radius: 50%;
-    background: #fff;
-    transition: left 0.2s;
-  }
-  .toggle-track.on .toggle-knob { left: 16px; }
-  .toggle-label { font-size: 12px; color: var(--muted); }
 
   /* Archive progress bar */
   .archive-bar {
@@ -411,8 +419,90 @@
     border-radius: 8px;
     padding: 12px 14px;
     transition: border-color 0.15s;
+    overflow: hidden;
   }
   .card:hover { border-color: #3a3d50; }
+
+  /* Profile header — cover photo, avatar, name/handle, bio. Only rendered
+     when the item actually carries any of that (a tweet's embedded author,
+     a bare user/follower/retweeter record); everything else keeps the plain
+     row list it always had. */
+  .card-header { margin-bottom: 10px; }
+  .card-header.has-banner {
+    margin: -12px -14px 10px;
+  }
+  .card-banner {
+    height: 64px;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--bg);
+  }
+  .card-header-row {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+  }
+  .card-header.has-banner .card-header-row {
+    padding: 0 14px;
+    margin-top: -26px;
+  }
+  .card-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--surface);
+    background: var(--bg);
+    flex-shrink: 0;
+  }
+  .card-avatar-fallback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--muted);
+  }
+  .card-identity { min-width: 0; padding-bottom: 3px; }
+  .card-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .card-handle { font-size: 12px; color: var(--muted); }
+  .card-bio {
+    margin-top: 8px;
+    font-size: 12px;
+    color: var(--text);
+    opacity: 0.85;
+    line-height: 1.45;
+  }
+  .card-header.has-banner .card-bio { padding: 0 14px; }
+
+  /* Compact byline — tweets/replies (already lead with their own text a few
+     rows down) get just this instead of the full banner+bio header above,
+     which is reserved for records that ARE a user rather than a tweet
+     someone wrote. */
+  .card-byline {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .card-byline .card-avatar { width: 26px; height: 26px; border-width: 1px; }
+  .card-byline .card-avatar-fallback { font-size: 11px; }
+  .card-byline .card-identity {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    padding-bottom: 0;
+    min-width: 0;
+  }
+  .card-byline .card-name { font-size: 13px; max-width: 55%; }
+  .card-byline .card-handle { flex-shrink: 0; }
 
   .card-row {
     display: flex;
@@ -514,6 +604,16 @@
   .card-row.rt-origin .card-key  { color: var(--accent); }
   .card-row.rt-origin .card-val  { color: #c7d2fe; }
 
+  /* "Replying to @x @y" — x.com trims these from the visible tweet body and
+     shows them as their own line instead; matches that here so the reply
+     text itself isn't misread as having been written with those mentions
+     inline. Underlying text value is untouched, this is display-only. */
+  .reply-context {
+    font-size: 11px;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+
   /* Drill-down links on reply / retweet counts */
   .drill-link {
     color: var(--accent);
@@ -523,6 +623,49 @@
     text-underline-offset: 2px;
   }
   .drill-link:hover { color: #818cf8; }
+
+  /* Inline nested-reply threads — expand a reply's own replies in place,
+     recursively, instead of only linking out to a new tab. */
+  .reply-expand-btn {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--accent);
+    font-family: var(--font);
+    font-size: 11px;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .reply-expand-btn:hover:not(:disabled) { border-color: var(--accent); }
+  .reply-expand-btn:disabled { opacity: 0.5; cursor: wait; }
+
+  .reply-thread {
+    margin: 10px 0 2px 16px;
+    padding-left: 14px;
+    border-left: 2px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .reply-thread.hidden { display: none; }
+
+  .reply-load-more-btn {
+    align-self: flex-start;
+    background: none;
+    border: none;
+    color: var(--accent);
+    font-family: var(--font);
+    font-size: 11px;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    padding: 2px 0;
+  }
+  .reply-load-more-btn:disabled { opacity: 0.5; cursor: wait; text-decoration: none; }
 
   /* View toggle (Cards / Map) */
   .view-toggle {
@@ -582,24 +725,31 @@
 <header>
   <h1>Jieyab89 SOCMINT X</h1>
   <span class="sep">|</span>
-  <span class="sub">Retrieve data using Xquik API or Cookie</span>
+  <span class="sub">Retrieve Twitter Data With Many Data Source and Sentiment Analysis</span>
   <button id="navToggle" class="hamburger-btn" aria-label="Navigation menu">&#9776;</button>
   <nav id="navMenu" class="nav-menu hidden">
     <a href="/" class="current">Home</a>
     <a href="/graph">Graph</a>
     <hr class="nav-divider">
     <a href="/archives">Archives</a>
+    <a href="/analytics">Analytics</a>
   </nav>
 </header>
 
 <!-- Legend / help popup (floats over the page, bottom-left) -->
 <button id="helpToggle" class="help-toggle" aria-label="Legend / help" title="Legend / help">?</button>
+<button id="backToTop" class="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
 <div id="helpPopup" class="help-popup hidden">
   <h4>Source</h4>
   <div class="help-row"><span class="source-badge src-cookie">Twitter Cookie</span> Live via your cookie session</div>
   <div class="help-row"><span class="source-badge src-xquik">Xquik API</span> Live via the xquik API</div>
   <div class="help-row"><span class="source-badge src-wayback">Wayback Machine</span> Archived snapshot</div>
   <div class="help-row"><span class="source-badge src-cse">Google CSE</span> Live web result via Google Custom Search</div>
+  <h4>Content type — Google CSE / Wayback only</h4>
+  <div class="help-row"><span class="content-type-badge ct-tweet">Tweet</span> A specific tweet permalink</div>
+  <div class="help-row"><span class="content-type-badge ct-profile">Profile page</span> A bare account profile, not a specific post</div>
+  <div class="help-row"><span class="content-type-badge ct-twitter_other">Other X/Twitter page</span> Some other X page</div>
+  <div class="help-row"><span class="content-type-badge ct-other">External page (non-X)</span> A site off X entirely (Google CSE only)</div>
   <h4>Account age</h4>
   <div class="help-row"><span class="age-badge age-new">New account</span> Created &lt; 30 days ago</div>
   <div class="help-row"><span class="age-badge age-recent">Recent account</span> Created &lt; 1 year ago</div>
@@ -622,6 +772,7 @@
       <select id="toolType">
         <option value="tweet_search_extractor">Tweet Search Extractor</option>
         <option value="follower_explorer">Follower Explorer</option>
+        <option value="following_explorer">Following Explorer [Cookie]</option>
         <option value="post_extractor">Post Extractor</option>
         <option value="article_extractor">Article Extractor</option>
         <option value="community_post_extractor">community Post Extractor</option>
@@ -640,17 +791,7 @@
 
     <button class="btn-run" id="runBtn">Run</button>
 
-    <!-- Auto Archive toggle -->
-    <div class="archive-toggle" id="archiveToggle">
-      <div class="toggle-track" id="toggleTrack">
-        <div class="toggle-knob"></div>
-      </div>
-      <span class="toggle-label">Auto Archive</span>
-    </div>
     <div id="archiveBar" class="archive-bar" style="display:none"></div>
-    <button id="checkpointBtn" class="btn-download" style="display:none;width:100%;margin-top:8px">
-      Save Checkpoint... Saved latest data 
-    </button>
 
     <!-- Recent archives -->
     <div class="archives-section" id="archivesSection" style="display:none">
@@ -668,6 +809,7 @@
         <button class="view-btn active" data-view="cards">Cards</button>
         <button class="view-btn" data-view="map">Map</button>
       </div>
+      <button class="btn-download" id="archiveBtn" style="display:none">Archive</button>
       <button class="btn-download" id="downloadBtn" style="display:none">↓ JSON</button>
     </div>
     <div id="resultBox">
@@ -705,6 +847,18 @@
   popup.addEventListener('click', function(e) { e.stopPropagation(); });
 }());
 
+// Back to top — the page (not an inner pane) is what actually scrolls here,
+// same as the load-more sentinel further down relies on.
+(function() {
+  var btn = document.getElementById('backToTop');
+  window.addEventListener('scroll', function() {
+    btn.classList.toggle('visible', window.scrollY > 400);
+  });
+  btn.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}());
+
 const toolType       = document.getElementById('toolType');
 const dynFields      = document.getElementById('dynamicFields');
 const runBtn         = document.getElementById('runBtn');
@@ -714,29 +868,31 @@ const searchInput    = document.getElementById('searchInput');
 const resultCount    = document.getElementById('resultCount');
 const toolHint       = document.getElementById('toolHint');
 const downloadBtn    = document.getElementById('downloadBtn');
-const archiveToggle  = document.getElementById('archiveToggle');
-const toggleTrack    = document.getElementById('toggleTrack');
+const archiveBtn     = document.getElementById('archiveBtn');
 const archiveBar     = document.getElementById('archiveBar');
 const archivesSection= document.getElementById('archivesSection');
 const archivesList   = document.getElementById('archivesList');
 const loadMoreSentinel = document.getElementById('loadMoreSentinel');
 const loadMoreStatus   = document.getElementById('loadMoreStatus');
-const checkpointBtn    = document.getElementById('checkpointBtn');
 
 let currentMode    = 'api';
 let currentData    = null;
-let autoArchive    = false;
 let currentPayload = null;   // last run payload (for archive queryInfo)
-let archivedId     = null;   // archive id for the current run, once auto-archived — lets later load-more pages update it in place instead of creating a new archive
+// Archive id for the CURRENT run's data — same model as graph.html's
+// graphArchivedId: null until the Archive button is clicked once (creates),
+// then every later click (after scrolling/expanding loads more) checkpoints
+// that same archive in place instead of creating a new one each time. Reset
+// on every new Run, same as graph.html's clearGraph() resets its own.
+let archivedId = null;
 
-// ── Scroll-triggered load-more (Cookie mode + Wayback only) ────────────────
-// Tools/modes the backend actually paginates — everything else (xquik/API
-// mode, multi-source search) just gets a single page, same as before.
+// ── Scroll-triggered load-more ──────────────────────────────────────────────
+// Tools/modes the backend actually paginates — everything else (plain xquik/API
+// mode calls, article_extractor) just gets a single page.
 const PAGINATED_TOOLS = new Set([
-  'tweet_search_extractor', 'follower_explorer', 'post_extractor',
+  'tweet_search_extractor', 'follower_explorer', 'following_explorer', 'post_extractor',
   'community_post_extractor', 'tweet_replies_extractor',
   'tweet_retweeters_extractor', 'geo_post_extractor',
-  'wayback_archive_search',
+  'wayback_archive_search', 'multi_source_search',
 ]);
 const THROTTLE_SECONDS = 5;
 
@@ -745,15 +901,21 @@ let loadingMore    = false;
 let cooldownUntil  = { cookie: 0, wayback: 0 };   // Date.now()-based timestamps
 let cooldownTimer  = null;
 
+// Returns the list of rate-limit clocks a request against this tool/mode
+// touches. multi_source_search fans out to both cookie and wayback
+// internally, so a load-more page for it has to wait out (and then restart)
+// both cooldowns at once, not just one.
 function throttleSourceFor(tool, mode) {
-  if (tool === 'wayback_archive_search') return 'wayback';
-  if (mode === 'cookie' && PAGINATED_TOOLS.has(tool)) return 'cookie';
-  return null;
+  if (tool === 'wayback_archive_search') return ['wayback'];
+  if (tool === 'multi_source_search') return ['cookie', 'wayback'];
+  if (mode === 'cookie' && PAGINATED_TOOLS.has(tool)) return ['cookie'];
+  return [];
 }
 
 const HINTS = {
   tweet_search_extractor:    'Search for tweets by keyword',
   follower_explorer:         'List followers of an account',
+  following_explorer:        'List accounts a user follows — cookie only',
   post_extractor:            'Tweet timeline from an account',
   article_extractor:         'Content of an X article from its tweet URL',
   community_post_extractor:  'Posts from an X Community',
@@ -769,6 +931,7 @@ const COOKIE_ONLY = new Set([
   'tweet_replies_extractor',
   'tweet_retweeters_extractor',
   'geo_post_extractor',
+  'following_explorer',
 ]);
 
 // These tools don't use the single Mode toggle: wayback needs no auth at all,
@@ -781,6 +944,7 @@ const NO_AUTH = new Set([
 const HAS_COUNT = new Set([
   'tweet_search_extractor',
   'follower_explorer',
+  'following_explorer',
   'post_extractor',
   'community_post_extractor',
   'tweet_replies_extractor',
@@ -823,7 +987,7 @@ function renderFields() {
   // Tool-specific input fields
   if (t === 'tweet_search_extractor') {
     html += field('searchQuery', 'Search query', 'bitcoin');
-  } else if (t === 'follower_explorer') {
+  } else if (t === 'follower_explorer' || t === 'following_explorer') {
     html += field('targetUsername', 'Username or User ID', 'elonmusk or 44196397');
   } else if (t === 'article_extractor') {
     html += field('targetTweetId', 'Tweet ID', '1234567890');
@@ -850,12 +1014,12 @@ function renderFields() {
     const showCount   = NO_AUTH.has(t) || currentMode === 'cookie';
     const countLabels = {
       wayback_archive_search: 'Max snapshots',
-      multi_source_search:    'Result count per source (max 200)',
+      multi_source_search:    'Result count per source (max 2000)',
     };
     html += `
       <div class="field" id="countWrap" style="${showCount ? '' : 'display:none'}">
-        <label>${countLabels[t] || 'Result count (max 200)'}</label>
-        <input id="countInput" type="number" value="${NO_AUTH.has(t) ? 50 : 20}" min="1" max="200">
+        <label>${countLabels[t] || 'Result count (max 2000)'}</label>
+        <input id="countInput" type="number" value="${NO_AUTH.has(t) ? 50 : 20}" min="1" max="2000">
       </div>
     `;
   }
@@ -886,6 +1050,7 @@ function attachModeListeners() {
 
 toolType.addEventListener('change', renderFields);
 renderFields();
+loadRecentArchives();
 
 document.getElementById('viewToggle').addEventListener('click', e => {
   const btn = e.target.closest('[data-view]');
@@ -975,12 +1140,109 @@ function renderCards(data, query = '') {
   resultBox.innerHTML = '<div class="cards-grid">' + filtered.map(buildCard).join('') + '</div>';
 }
 
-function buildCard(item) {
+// Only a plain https URL (no quotes/angle-brackets/whitespace/parens) is
+// ever interpolated into the CSS url('...') below — background-image goes
+// through a second parsing pass CSS-side, so HTML-attribute escaping alone
+// isn't sufficient there the way it is for a plain <img src>. Rejecting
+// anything but a clean https URL up front closes that off rather than
+// trying to escape a value for two contexts (HTML attribute + CSS token)
+// wedged into one string.
+function isSafeImageUrl(u) {
+  return typeof u === 'string' && /^https:\/\/[^\s'"<>()]+$/.test(u);
+}
+
+// Tapping "Reply" on X auto-prefixes the compose box with every account the
+// reply-chain already has tagged, and that prefix is genuinely part of the
+// reply's own raw text — but x.com's own UI never shows it inline, trimming
+// it into a separate "Replying to @x @y" line instead. `reply_to_mentions`
+// (from cookie_client.py's _leading_reply_mentions) lists exactly which
+// leading @mentions those are; this only touches how the text RENDERS here,
+// never item.text itself, so JSON download / archive still get the
+// complete raw string untouched. mentions.length is walked in order and
+// stops at the first one that doesn't match — a data mismatch just leaves
+// the rest of the prefix visible instead of risking mangled text.
+function stripLeadingMentions(text, mentions) {
+  if (!text || !mentions || !mentions.length) return text;
+  let rest = text;
+  for (const m of mentions) {
+    const re = new RegExp('^\\s*@' + String(m).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b');
+    const match = rest.match(re);
+    if (!match) break;
+    rest = rest.slice(match[0].length);
+  }
+  rest = rest.replace(/^\s+/, '');
+  return rest || text;
+}
+
+// Returns { html, usedFields } instead of just a string — buildCard() below
+// needs to know exactly which raw keys actually ended up rendered in the
+// header so it can drop only THOSE from the generic row list. A static
+// "always hide these field names" list doesn't work here: CSE/Wayback
+// records also have a `description` field (Google's own snippet, renamed
+// from serp_snippet) that this header never touches (no avatar/name/handle
+// on those records, so it returns empty) — hiding it unconditionally would
+// have silently deleted the one thing the user asked to see more clearly.
+function buildCardHeader(item) {
+  const avatarRaw = item.avatar || item.user_avatar || '';
+  const avatar    = isSafeImageUrl(avatarRaw) ? avatarRaw : '';
+  const name      = item.name || '';
+  const handle    = item.screen_name || item.user || item.username || '';
+
+  if (!avatar && !name && !handle) return { html: '', usedFields: [] };
+
+  const usedFields = [];
+  if (avatar) usedFields.push(item.avatar ? 'avatar' : 'user_avatar');
+  if (name) usedFields.push('name');
+  if (handle) usedFields.push(item.screen_name ? 'screen_name' : item.user ? 'user' : 'username');
+
+  const avatarHtml = avatar
+    ? `<img class="card-avatar" src="${esc(avatar)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
+    : (name || handle)
+      ? `<div class="card-avatar card-avatar-fallback">${esc((name || handle).charAt(0).toUpperCase())}</div>`
+      : '';
+  const identityHtml = (name || handle)
+    ? `<div class="card-identity">
+        ${name ? `<div class="card-name">${esc(name)}</div>` : ''}
+        ${handle ? `<div class="card-handle">@${esc(handle)}</div>` : ''}
+      </div>`
+    : '';
+
+  // A tweet or reply already leads with its own text a few rows down — a
+  // full cover-photo-plus-bio header buries that under the *author's*
+  // profile instead of the actual reply content (this is what made a reply
+  // thread look like it was rendering "just the user"). Those get a small
+  // inline byline only; the full profile-card treatment (banner + bio) is
+  // reserved for records that ARE a user — follower/retweeter results, not
+  // tweets a user happened to write.
+  const isTweetLike = item.text !== undefined || item.full_text !== undefined || item.article_text !== undefined;
+  if (isTweetLike) {
+    return { html: `<div class="card-byline">${avatarHtml}${identityHtml}</div>`, usedFields };
+  }
+
+  const bannerRaw = item.banner || item.user_banner || '';
+  const banner    = isSafeImageUrl(bannerRaw) ? bannerRaw : '';
+  const bio       = item.description || item.user_bio || '';
+  if (banner) usedFields.push(item.banner ? 'banner' : 'user_banner');
+  if (bio) usedFields.push(item.description ? 'description' : 'user_bio');
+
+  const bioHtml = bio ? `<div class="card-bio">${esc(bio)}</div>` : '';
+  const bannerHtml = banner
+    ? `<div class="card-banner" style="background-image:url('${esc(banner)}')"></div>`
+    : '';
+
+  return {
+    html: `<div class="card-header${banner ? ' has-banner' : ''}">${bannerHtml}<div class="card-header-row">${avatarHtml}${identityHtml}</div>${bioHtml}</div>`,
+    usedFields,
+  };
+}
+
+function buildCard(item, nested = false) {
   if (typeof item !== 'object' || item === null) {
     return `<div class="card"><div class="card-row"><div class="card-val">${esc(String(item))}</div></div></div>`;
   }
   const tweetId = item.id ? String(item.id) : null;
   const entries = Object.entries(item);
+  const { html: header, usedFields: headerFields } = buildCardHeader(item);
   // Order follows PRIORITY's own sequence (not object insertion order), so
   // field position is deterministic and consistent across every tool/record
   // shape. No cap on row count — this is an OSINT/analysis tool, so more
@@ -989,8 +1251,8 @@ function buildCard(item) {
   // anchors once enough other fields — account age, verification, etc. —
   // were present on a record).
   const priKeys = new Set(entries.map(([k]) => k).filter(k => PRIORITY.includes(k)));
-  const pri     = PRIORITY.filter(k => priKeys.has(k)).map(k => [k, item[k]]);
-  const rest    = entries.filter(([k]) => !PRIORITY.includes(k) && !SKIP.includes(k));
+  const pri     = PRIORITY.filter(k => priKeys.has(k) && !headerFields.includes(k)).map(k => [k, item[k]]);
+  const rest    = entries.filter(([k]) => !PRIORITY.includes(k) && !SKIP.includes(k) && !headerFields.includes(k));
   const rows    = [...pri, ...rest].map(([k, v]) => {
     let display;
     // Drillable check runs FIRST — reply_count / retweet_count always get a link
@@ -1009,6 +1271,12 @@ function buildCard(item) {
       display = `<span class="source-badge ${cls}">${esc(String(v))}</span>`;
     } else if (k === 'account_age_flag' && v) {
       display = `<span class="age-badge age-${esc(String(v))}">${esc(AGE_LABELS[v] || v)}</span>`;
+    } else if (k === 'content_type' && v) {
+      display = `<span class="content-type-badge ct-${esc(String(v))}">${esc(CONTENT_TYPE_LABELS[v] || String(v))}</span>`;
+    } else if (k === 'text' && item.reply_to_mentions && item.reply_to_mentions.length) {
+      const badge = `<div class="reply-context">↩ Replying to ${item.reply_to_mentions.map(m => '@' + esc(m)).join(', ')}</div>`;
+      const clean = stripLeadingMentions(String(v), item.reply_to_mentions);
+      display = `${badge}<span class="clamp">${esc(clean)}</span>`;
     } else if (v === null || v === undefined) {
       display = `<span style="color:var(--muted)">—</span>`;
     } else if (typeof v === 'object') {
@@ -1022,7 +1290,24 @@ function buildCard(item) {
     return `<div class="card-row${rtCls}"><div class="card-key">${esc(k)}</div><div class="card-val">${display}</div></div>`;
   }).join('');
   const media = extractMedia(item);
-  return `<div class="card">${rows}${renderMedia(media)}</div>`;
+
+  // Any tweet-shaped item with replies of its own can be expanded in place —
+  // same tweet_replies_extractor call graph.html's node-expand uses, applies
+  // uniformly across every tool's cards (search results, timeline, replies
+  // themselves, ...) since it only keys off id + reply_count, not the tool
+  // that produced the card. A reply rendered here recursively gets its own
+  // Expand button too, since it's built by this same function.
+  const replyCount        = Number(item.reply_count);
+  const canExpandReplies  = tweetId && Number.isFinite(replyCount) && replyCount > 0;
+  const expandBtn         = canExpandReplies
+    ? `<button type="button" class="reply-expand-btn" data-tweet-id="${esc(tweetId)}" data-count="${replyCount}">↩ Expand ${replyCount} repl${replyCount === 1 ? 'y' : 'ies'}</button>`
+    : '';
+
+  const cardCls = nested ? 'card reply-card' : 'card';
+  const card    = `<div class="${cardCls}">${header}${rows}${renderMedia(media)}${expandBtn}</div>`;
+  if (!canExpandReplies) return card;
+
+  return `<div class="card-thread-wrap">${card}<div class="reply-thread hidden" data-tweet-id="${esc(tweetId)}"></div></div>`;
 }
 
 // ── Load more (scroll-triggered pagination) ─────────────────────────────────
@@ -1037,18 +1322,167 @@ function appendCards(newItems, query = '') {
   if (grid && toShow.length) {
     grid.insertAdjacentHTML('beforeend', toShow.map(buildCard).join(''));
   }
-  const totalShown = resultBox.querySelectorAll('.card').length;
+  // Excludes .reply-card — nested replies rendered inline via expand threads
+  // aren't part of "the results," same reasoning renderCards' own count
+  // (items.length, never a DOM query) already never counted them either.
+  const totalShown = resultBox.querySelectorAll('.card:not(.reply-card)').length;
   resultCount.textContent = totalShown + (q ? ' found' : ' results');
 }
 
+// ── Inline nested-reply threads ─────────────────────────────────────────────
+// Delegated once at the container level — buildCard() renders replies
+// recursively via itself, so an expand button can appear at any nesting
+// depth; delegation catches all of them without per-card listener wiring.
+resultBox.addEventListener('click', (e) => {
+  const expandBtn = e.target.closest('.reply-expand-btn');
+  if (expandBtn) { toggleReplyThread(expandBtn); return; }
+  const moreBtn = e.target.closest('.reply-load-more-btn');
+  if (moreBtn) { loadMoreReplies(moreBtn); }
+});
+
+function replyBtnLabel(count) {
+  return `↩ Expand ${count} repl${count === 1 ? 'y' : 'ies'}`;
+}
+
+async function toggleReplyThread(btn) {
+  const wrap   = btn.closest('.card-thread-wrap');
+  const thread = wrap.querySelector(':scope > .reply-thread');
+
+  // Already fetched once — just show/hide, no new request.
+  if (thread.dataset.loaded === '1') {
+    const nowHidden = thread.classList.toggle('hidden');
+    btn.textContent = nowHidden ? replyBtnLabel(Number(btn.dataset.count)) : '▲ Hide replies';
+    return;
+  }
+
+  const tweetId   = btn.dataset.tweetId;
+  const remaining = cooldownUntil.cookie - Date.now();
+  if (remaining > 0) {
+    armReplyCountdown(btn, remaining, () => replyBtnLabel(Number(btn.dataset.count)));
+    return;
+  }
+
+  btn.disabled     = true;
+  btn.textContent  = 'Loading…';
+
+  try {
+    const res  = await fetch('/api/run', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ toolType: 'tweet_replies_extractor', mode: 'cookie', count: 20, targetTweetId: tweetId }),
+    });
+    const json = await res.json();
+    stampCooldown(['cookie']);
+
+    if (!json.ok) {
+      if (res.status === 429 && json.retryAfter) {
+        armReplyCountdown(btn, json.retryAfter * 1000, () => replyBtnLabel(Number(btn.dataset.count)));
+        return;
+      }
+      btn.disabled    = false;
+      btn.textContent = 'Failed — retry';
+      return;
+    }
+
+    const items = Array.isArray(json.data) ? json.data : [json.data];
+    thread.innerHTML     = items.map(it => buildCard(it, true)).join('');
+    thread.dataset.loaded = '1';
+    if (json.nextCursor) {
+      thread.dataset.cursor = json.nextCursor;
+      thread.insertAdjacentHTML('beforeend',
+        `<button type="button" class="reply-load-more-btn" data-tweet-id="${esc(tweetId)}">Load more replies…</button>`);
+    }
+    thread.classList.remove('hidden');
+    btn.disabled = !items.length;
+    btn.textContent = items.length ? '▲ Hide replies' : 'No replies found';
+
+    // Fold newly-discovered replies into the same dataset the JSON download
+    // and Archive button both read from — otherwise data pulled via inline
+    // expand would silently be excluded from both.
+    if (items.length) {
+      currentData = (Array.isArray(currentData) ? currentData : [currentData]).concat(items);
+    }
+  } catch (err) {
+    btn.disabled    = false;
+    btn.textContent = 'Failed — retry';
+  }
+}
+
+async function loadMoreReplies(moreBtn) {
+  const thread  = moreBtn.closest('.reply-thread');
+  const tweetId = moreBtn.dataset.tweetId;
+  const cursor  = thread.dataset.cursor;
+  if (!cursor) { moreBtn.remove(); return; }
+
+  const remaining = cooldownUntil.cookie - Date.now();
+  if (remaining > 0) {
+    armReplyCountdown(moreBtn, remaining, () => 'Load more replies…');
+    return;
+  }
+
+  moreBtn.disabled    = true;
+  moreBtn.textContent = 'Loading…';
+
+  try {
+    const res  = await fetch('/api/run', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ toolType: 'tweet_replies_extractor', mode: 'cookie', count: 20, targetTweetId: tweetId, cursor }),
+    });
+    const json = await res.json();
+    stampCooldown(['cookie']);
+
+    if (!json.ok) {
+      if (res.status === 429 && json.retryAfter) {
+        armReplyCountdown(moreBtn, json.retryAfter * 1000, () => 'Load more replies…');
+        return;
+      }
+      moreBtn.disabled    = false;
+      moreBtn.textContent = 'Failed — retry';
+      return;
+    }
+
+    const items = Array.isArray(json.data) ? json.data : [json.data];
+    moreBtn.insertAdjacentHTML('beforebegin', items.map(it => buildCard(it, true)).join(''));
+    if (json.nextCursor) {
+      thread.dataset.cursor = json.nextCursor;
+      moreBtn.disabled       = false;
+      moreBtn.textContent    = 'Load more replies…';
+    } else {
+      moreBtn.remove();
+    }
+
+    if (items.length) {
+      currentData = (Array.isArray(currentData) ? currentData : [currentData]).concat(items);
+    }
+  } catch (err) {
+    moreBtn.disabled    = false;
+    moreBtn.textContent = 'Failed — retry';
+  }
+}
+
+// Shared by both reply-expand entry points above — mirrors armCountdown()
+// but scoped to a single button instead of the page-wide loadMoreStatus bar,
+// since several threads can be mid-cooldown independently of each other.
+function armReplyCountdown(btn, msRemaining, resetLabel) {
+  const secs = Math.max(1, Math.ceil(msRemaining / 1000));
+  btn.disabled    = true;
+  btn.textContent = `Wait ${secs}s…`;
+  setTimeout(() => {
+    btn.disabled    = false;
+    btn.textContent = resetLabel();
+  }, msRemaining);
+}
+
 function resetPagination() {
-  nextCursor   = null;
-  loadingMore  = false;
-  archivedId   = null;
+  nextCursor      = null;
+  loadingMore     = false;
+  archivedId      = null;
+  archiveBtn.textContent = 'Archive';
+  archiveBar.style.display = 'none';
   if (cooldownTimer) { clearTimeout(cooldownTimer); cooldownTimer = null; }
   loadMoreStatus.classList.remove('visible');
   loadMoreStatus.textContent = '';
-  checkpointBtn.style.display = 'none';
 }
 
 function buildQueryInfo() {
@@ -1059,39 +1493,63 @@ function buildQueryInfo() {
   return queryInfo;
 }
 
-function stampCooldown(source) {
-  if (!source) return;
-  cooldownUntil[source] = Date.now() + THROTTLE_SECONDS * 1000;
+function stampCooldown(sources) {
+  (sources || []).forEach(source => {
+    cooldownUntil[source] = Date.now() + THROTTLE_SECONDS * 1000;
+  });
+}
+
+function currentItemCount() {
+  return Array.isArray(currentData) ? currentData.length : (currentData ? 1 : 0);
+}
+
+// count is "how many items I want," not just a per-page size hint — X's own
+// API caps how many it actually returns per page regardless of what's
+// requested (count=200 still only returns ~20 on the first page), so
+// reaching the requested count used to mean manually scrolling the sentinel
+// into view over and over. This chains load-more calls automatically (still
+// gated by the exact same per-source throttle everything else respects)
+// until either the requested count is reached or the source runs dry —
+// scrolling further past that point still works via the IntersectionObserver
+// below, for open-ended browsing beyond the original ask.
+function maybeAutoContinue() {
+  if (!currentPayload || !currentPayload.count) return;
+  if (currentItemCount() >= currentPayload.count) return;
+  maybeLoadMore();
+}
+
+function progressSuffix() {
+  return (currentPayload && currentPayload.count) ? ` (${currentItemCount()}/${currentPayload.count})` : '';
 }
 
 function maybeLoadMore() {
   if (!nextCursor || loadingMore || !currentPayload) return;
-  const source = throttleSourceFor(currentPayload.toolType, currentPayload.mode);
-  if (!source) return;   // shouldn't happen if nextCursor is set, but be safe
+  const sources = throttleSourceFor(currentPayload.toolType, currentPayload.mode);
+  if (!sources.length) return;   // shouldn't happen if nextCursor is set, but be safe
 
-  const remaining = cooldownUntil[source] - Date.now();
+  const remaining = Math.max(0, ...sources.map(s => cooldownUntil[s] - Date.now()));
   if (remaining > 0) {
     armCountdown(remaining);
     return;
   }
-  doLoadMore(source);
+  doLoadMore(sources);
 }
 
 function armCountdown(msRemaining) {
   if (cooldownTimer) return;   // already counting down
   const secs = Math.max(1, Math.ceil(msRemaining / 1000));
   loadMoreStatus.classList.add('visible');
-  loadMoreStatus.innerHTML = `<span class="spin-dot"></span>Loading more in ${secs}s…`;
+  loadMoreStatus.innerHTML = `<span class="spin-dot"></span>Loading more in ${secs}s…${progressSuffix()}`;
   cooldownTimer = setTimeout(() => {
     cooldownTimer = null;
     maybeLoadMore();   // re-check: fires the load once the cooldown has cleared
   }, msRemaining);
 }
 
-async function doLoadMore(source) {
+async function doLoadMore(sources) {
   loadingMore = true;
   loadMoreStatus.classList.add('visible');
-  loadMoreStatus.innerHTML = `<span class="spin-dot"></span>Loading more…`;
+  loadMoreStatus.innerHTML = `<span class="spin-dot"></span>Loading more…${progressSuffix()}`;
 
   try {
     const res  = await fetch('/api/run', {
@@ -1100,7 +1558,7 @@ async function doLoadMore(source) {
       body: JSON.stringify({ ...currentPayload, cursor: nextCursor }),
     });
     const json = await res.json();
-    stampCooldown(source);
+    stampCooldown(sources);
 
     if (!json.ok) {
       if (res.status === 429 && json.retryAfter) {
@@ -1118,23 +1576,11 @@ async function doLoadMore(source) {
     appendCards(newItems, searchInput.value);
     nextCursor = json.nextCursor || null;
     loadMoreStatus.classList.remove('visible');
-
-    // Auto-archive only covered whatever was loaded at the initial Run — new
-    // pages from scroll need their own save. Once we've reached the end
-    // (no more pages), save automatically; otherwise surface a manual
-    // checkpoint button so the user can save without waiting to hit the end.
-    if (autoArchive && archivedId) {
-      if (!nextCursor) {
-        checkpointBtn.style.display = 'none';
-        triggerArchive(currentData, currentPayload.toolType, buildQueryInfo(), archivedId);
-      } else {
-        checkpointBtn.style.display = '';
-      }
-    }
   } catch (e) {
     loadMoreStatus.textContent = `Load more failed: ${e}`;
   } finally {
     loadingMore = false;
+    maybeAutoContinue();
   }
 }
 
@@ -1157,7 +1603,7 @@ runBtn.addEventListener('click', async () => {
   const payload = { toolType: t, mode: currentMode, count };
 
   if (t === 'tweet_search_extractor')                             payload.searchQuery       = val('searchQuery');
-  if (t === 'follower_explorer' || t === 'post_extractor')        payload.targetUsername    = val('targetUsername');
+  if (t === 'follower_explorer' || t === 'following_explorer' || t === 'post_extractor') payload.targetUsername = val('targetUsername');
   if (t === 'community_post_extractor')                           payload.targetCommunityId = val('targetCommunityId');
   if (t === 'article_extractor' ||
       t === 'tweet_replies_extractor' ||
@@ -1183,6 +1629,7 @@ runBtn.addEventListener('click', async () => {
   statusBadge.className      = 'badge running';
   searchInput.style.display  = 'none';
   downloadBtn.style.display  = 'none';
+  archiveBtn.style.display   = 'none';
   resultCount.textContent    = '';
   currentData                = null;
   resultBox.innerHTML        = '<div class="empty-state">Fetching data…</div>';
@@ -1207,6 +1654,7 @@ runBtn.addEventListener('click', async () => {
       nextCursor                 = json.nextCursor || null;
       const isMany               = Array.isArray(json.data) && json.data.length > 1;
       downloadBtn.style.display  = '';
+      archiveBtn.style.display   = '';
 
       // Show map toggle only for geo results; reset to card view on each run
       const isGeo = (t === 'geo_post_extractor');
@@ -1223,12 +1671,7 @@ runBtn.addEventListener('click', async () => {
 
       searchInput.style.display = (isMany && !isGeo) ? '' : 'none';
       renderCards(currentData);
-
-      if (autoArchive) {
-        triggerArchive(json.data, t, buildQueryInfo());
-      } else {
-        archiveBar.style.display = 'none';
-      }
+      maybeAutoContinue();
     } else {
       statusBadge.textContent = 'error';
       statusBadge.className   = 'badge err';
@@ -1244,39 +1687,48 @@ runBtn.addEventListener('click', async () => {
   }
 });
 
-// ── Auto Archive ─────────────────────────────────────────────────────────────
+// ── Archive ───────────────────────────────────────────────────────────────────
+// Manual, on demand — same model as graph.html's "Archive All" button rather
+// than the old auto-checkpoint-on-every-scroll system (which had a real race:
+// a fast scroll landing between the archive-creation call setting its
+// in-flight flag and that call's fetch actually resolving could silently
+// drop that checkpoint for good). Click Archive whenever you want to save
+// exactly what's currently loaded; click it again after scrolling/expanding
+// loads more and it checkpoints the SAME archive in place instead of creating a
+// new one each time — identical behavior to graph.html's graphArchivedId.
 
-archiveToggle.addEventListener('click', () => {
-  autoArchive = !autoArchive;
-  toggleTrack.classList.toggle('on', autoArchive);
-  if (autoArchive) loadRecentArchives();
-});
+archiveBtn.addEventListener('click', archiveResults);
 
-async function triggerArchive(data, toolType, queryInfo, existingId) {
+async function archiveResults() {
+  if (!currentData || !currentPayload) return;
+
   archiveBar.style.display = '';
-  const label = existingId ? 'Saving checkpoint…' : 'Archiving…';
+  const label = archivedId ? 'Saving checkpoint…' : 'Archiving…';
   archiveBar.innerHTML = `<span>${label}</span><div class="archive-bar-fill-wrap"><div class="archive-bar-fill" style="width:0%"></div></div>`;
 
-  const body = { data, toolType, queryInfo };
-  if (existingId) body.archiveId = existingId;
+  try {
+    const body = {
+      toolType:  currentPayload.toolType,
+      data:      Array.isArray(currentData) ? currentData : [currentData],
+      queryInfo: buildQueryInfo(),
+    };
+    if (archivedId) body.archiveId = archivedId;
 
-  const res  = await fetch('/api/archive', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(body),
-  });
-  const json = await res.json();
-  if (!json.ok) { archiveBar.innerHTML = `<span style="color:var(--danger)">Archive failed: ${esc(json.error)}</span>`; return; }
+    const res  = await fetch('/api/archive', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    });
+    const json = await res.json();
+    if (!json.ok) throw new Error(json.error);
 
-  archivedId = json.archiveId;
-  pollArchive(json.archiveId);
+    archivedId = json.archiveId;
+    archiveBtn.textContent = 'Update Archive';
+    pollArchive(json.archiveId);
+  } catch (e) {
+    archiveBar.innerHTML = `<span style="color:var(--danger)">Archive failed: ${esc(e.message)}</span>`;
+  }
 }
-
-checkpointBtn.addEventListener('click', () => {
-  if (!archivedId || !currentPayload) return;
-  checkpointBtn.style.display = 'none';
-  triggerArchive(currentData, currentPayload.toolType, buildQueryInfo(), archivedId);
-});
 
 function pollArchive(archiveId) {
   const interval = setInterval(async () => {
@@ -1518,13 +1970,6 @@ async function updateMap() {
 
   const idInput = document.getElementById('targetTweetId');
   if (idInput) idInput.value = id;
-
-  // Restore auto-archive state if the parent tab had it on
-  if (p.get('archive') === '1') {
-    autoArchive = true;
-    toggleTrack.classList.add('on');
-    loadRecentArchives();
-  }
 
   // Kick off the run automatically
   runBtn.click();

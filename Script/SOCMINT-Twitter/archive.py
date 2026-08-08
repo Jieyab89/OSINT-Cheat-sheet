@@ -102,24 +102,6 @@ def _download_file(url: str, dest: Path) -> bool:
         return False
 
 
-def _pick_fields(item: dict) -> dict:
-    """Keep only the fields we want to archive."""
-    keys = ["id", "text", "full_text", "article_text", "user", "user_id",
-            "created_at", "reply_count", "retweet_count", "favorite_count",
-            "view_count", "in_reply_to_tweet_id", "name", "screen_name",
-            "verified", "is_blue_verified",
-            "description", "followers_count", "following_count", "tweet_count",
-            "lat", "lon", "place",
-            "retweeted_text", "retweeted_by_user", "retweeted_by_name",
-            "retweeted_by_bio", "retweeted_at", "retweeted_tweet_id",
-            "iso_date", "original", "statuscode", "mimetype", "length",
-            "archive_url", "post_title", "post_text", "preview_image",
-            "result_url", "display_link", "fetched_at",
-            "source", "account_created", "account_age", "account_age_flag",
-            "account_age_precision"]
-    return {k: item[k] for k in keys if k in item and item[k] is not None}
-
-
 # ── Core archive runner (runs in background thread) ───────────────────────────
 
 def _run(archive_id: str, tool_type: str, data, query_info: dict) -> None:
@@ -139,7 +121,10 @@ def _run(archive_id: str, tool_type: str, data, query_info: dict) -> None:
             enriched.append(item)
             continue
 
-        record              = _pick_fields(item)
+        # Archive the item's full raw shape (every field the source API gave
+        # us), not a whitelisted subset — downstream sentiment analysis needs
+        # the raw record, not just the fields the card UI happens to display.
+        record              = dict(item)
         record["tweet_url"] = item.get("tweet_url") or build_tweet_url(item)
         local_media         = []
 

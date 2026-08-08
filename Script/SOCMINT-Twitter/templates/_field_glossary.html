@@ -4,10 +4,13 @@
 <div class="param-row"><code class="param-key">id / user_id</code> Twitter's internal numeric ID for the tweet / account</div>
 <div class="param-row"><code class="param-key">user / screen_name</code> The @handle</div>
 <div class="param-row"><code class="param-key">name</code> Display name</div>
+<div class="param-row"><code class="param-key">avatar / banner</code> Profile photo / cover photo — direct CDN links, cookie mode only. On a tweet/reply record these are the <em>author's</em> photos, named <code class="param-key">user_avatar</code>/<code class="param-key">user_banner</code> instead so they don't collide with the tweet's own fields</div>
 
 <div class="param-heading">Content</div>
-<div class="param-row"><code class="param-key">text / full_text / article_text</code> The post's own text</div>
-<div class="param-row"><code class="param-key">description</code> Profile bio</div>
+<div class="param-row"><code class="param-key">text / full_text / article_text</code> The post's own complete text — cookie mode always resolves the real full text even for long-form "Note" tweets that X itself truncates in its legacy API field</div>
+<div class="param-row"><code class="param-key">reply_to_mentions</code> The @handles X auto-prepended to a reply's text when it was composed (everyone already tagged in that conversation) — x.com's own UI hides these from the visible tweet body and shows them as a separate "Replying to" line instead, which is exactly what every card/panel here does with this field too. The raw <code class="param-key">text</code> itself still contains them untouched</div>
+<div class="param-row"><code class="param-key">hashtags</code> Hashtags used in the post</div>
+<div class="param-row"><code class="param-key">description</code> Profile bio (a user/follower/following record), or Google's own SERP snippet for that result (a CSE record) — which one depends on whether the record is a person or a web result</div>
 <div class="param-row"><code class="param-key">created_at</code> When the <em>post itself</em> was actually made. Same field, every source: Cookie/Xquik get it straight from the API; Wayback and Google CSE decode it from the tweet id's Snowflake bits whenever the result links to a tweet permalink (absent otherwise — e.g. a profile page or a non-X result, where there's no post id to decode)</div>
 <div class="param-row"><code class="param-key">fetched_at</code> When <em>this tool</em> pulled the record — same field, every source (Cookie, Xquik, Wayback, Google CSE), so results are comparable side by side. Not to be confused with <code class="param-key">created_at</code> (the post's own creation time) or <code class="param-key">iso_date</code> (a Wayback snapshot's capture time)</div>
 
@@ -47,9 +50,11 @@
 <div class="param-row"><code class="param-key">statuscode / mimetype / length</code> HTTP status / content type / size of the snapshot</div>
 <div class="param-row"><code class="param-key">post_title / post_text / preview_image</code> Scraped from the archived page's own meta tags (og:/twitter: tags, or &lt;title&gt;/&lt;meta name="description"&gt; on older captures)</div>
 
-<div class="param-heading">Google CSE</div>
-<div class="param-row"><code class="param-key">post_title</code> Result title from Google</div>
-<div class="param-row"><code class="param-key">post_text</code> The page's own og:/twitter:/meta description, fetched live from <code class="param-key">result_url</code> — not Google's own SERP snippet, which is usually clipped mid-sentence. Falls back to Google's snippet only if that live fetch fails</div>
+<div class="param-heading">Google CSE / Wayback</div>
+<div class="param-row"><code class="param-key">content_type</code> What kind of X/Twitter page a result actually is — <code class="param-key">tweet</code> (a specific permalink) / <code class="param-key">profile</code> (a bare profile page) / <code class="param-key">twitter_other</code> (some other X page) / <code class="param-key">other</code> (a non-X site, Google CSE only). Derived purely from the result URL's own shape — a keyword match isn't always a specific tweet, and this is how to tell without opening the link</div>
+<div class="param-row"><code class="param-key">serp_title</code> Google's own SERP result title — always kept as-is, even if <code class="param-key">post_title</code> below gets replaced by a fresher live fetch</div>
+<div class="param-row"><code class="param-key">description</code> Google's own SERP snippet for this result — Google truncates this itself (ends mid-sentence in "…"), that's not this tool cutting it short. Kept untouched alongside <code class="param-key">post_text</code> below since a live re-fetch of an X link often gets a less specific, bot-facing page instead</div>
+<div class="param-row"><code class="param-key">post_title / post_text</code> "Best known" title/description — starts as Google's own SERP values, replaced by a live fetch of the page's own og:/twitter:/meta tags when one succeeds. See <code class="param-key">serp_title</code>/<code class="param-key">description</code> above for what Google originally had, in case the live fetch made things worse rather than better</div>
 <div class="param-row"><code class="param-key">result_url</code> The live page Google indexed, shown as its full raw address</div>
 <div class="param-row"><code class="param-key">display_link</code> The result's domain, as shown in Google's own results</div>
 <div class="param-row"><code class="param-key">preview_image</code> Thumbnail — from Google's own indexed metadata, or the live page's og:/twitter:image when Google didn't have one</div>
@@ -59,9 +64,9 @@
 
 <div class="param-heading">Graph node types (graph page only)</div>
 <div class="param-row"><code class="param-key">Search root</code> The diamond node — the query you ran</div>
-<div class="param-row"><code class="param-key">Tweet</code> A tweet/post returned by search or by expanding a node</div>
+<div class="param-row"><code class="param-key">Tweet</code> A tweet/post returned by search, by Expand Posts on a user node, or by expanding another node</div>
 <div class="param-row"><code class="param-key">Reply</code> A tweet fetched via Expand Replies on a tweet node</div>
-<div class="param-row"><code class="param-key">User / Retweeter</code> A person — from Follower Explorer, or via Expand Retweets on a tweet node</div>
+<div class="param-row"><code class="param-key">User / Retweeter</code> A person — from Follower/Following Explorer, via Expand Retweets/Followers/Following on a node, or via View Author Profile on a tweet/reply (pulled from that tweet's already-fetched author info, no extra request). Once on canvas, select it and Expand Posts/Followers/Following works the same regardless of how it got there</div>
 <div class="param-row"><code class="param-key">Wayback snapshot</code> An archived-page result, from Wayback Archive Search or the Wayback portion of Multi-Source Search</div>
 <div class="param-row"><code class="param-key">Web result</code> A Google CSE result, from the Google CSE portion of Multi-Source Search</div>
 <div class="param-row"><code class="param-key">Viewed</code> Turns a node solid white once you've clicked it — a visual "already looked at this" marker, not part of the underlying data</div>

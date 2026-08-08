@@ -35,6 +35,34 @@ class WaybackError(Exception):
 _DATE8_RE    = re.compile(r"^\d{8}$")
 _SAFE_URL_RE = re.compile(r"^https?://", re.IGNORECASE)
 _TWEET_ID_RE = re.compile(r"/status/(\d+)")
+# Wayback crawled every historical subdomain variant (mobile./m./www./bare),
+# unlike a live search result which is always the canonical domain — hence
+# the looser (?:[\w-]+\.)? host prefix here vs google_cse_client's (?:www\.)?.
+_X_HOST_RE   = re.compile(r"^https?://(?:[\w-]+\.)?(?:x|twitter)\.com(?:/|$)", re.IGNORECASE)
+_PROFILE_RE  = re.compile(r"^https?://(?:[\w-]+\.)?(?:x|twitter)\.com/([^/?#]+)/?(?:\?.*)?$", re.IGNORECASE)
+_NON_PROFILE_PATHS = {
+    "home", "explore", "notifications", "messages", "i", "search", "settings",
+    "compose", "login", "logout", "signup", "tos", "privacy", "about", "hashtag",
+}
+
+
+def _classify_url(url: str) -> str:
+    """Same reasoning as google_cse_client's copy of this — an archived
+    snapshot of x.com/someone reads as "a Twitter profile" whether it's
+    actually a tweet permalink, a bare profile page, or some other X page
+    entirely. Purely a label derived from the URL's own shape; never touches
+    original/archive_url themselves. Returns
+    'tweet' | 'profile' | 'twitter_other' | 'other'."""
+    if not url:
+        return "other"
+    if _TWEET_ID_RE.search(url):
+        return "tweet"
+    if not _X_HOST_RE.match(url):
+        return "other"
+    m = _PROFILE_RE.match(url)
+    if m and m.group(1).lower() not in _NON_PROFILE_PATHS:
+        return "profile"
+    return "twitter_other"
 
 
 def _validate_date(label: str, value: str) -> None:
@@ -124,13 +152,14 @@ def _row_to_record(row: dict) -> dict:
     if len(ts) >= 14:
         iso_date = f"{ts[0:4]}-{ts[4:6]}-{ts[6:8]} {ts[8:10]}:{ts[10:12]}:{ts[12:14]}"
     record = {
-        "timestamp":   ts,   # internal only — stripped before returning to caller
-        "iso_date":    iso_date,   # when Wayback captured this snapshot
-        "original":    original,
-        "statuscode":  row.get("statuscode"),
-        "mimetype":    row.get("mimetype"),
-        "length":      row.get("length"),
-        "archive_url": f"https://web.archive.org/web/{ts}/{original}" if ts and original else None,
+        "timestamp":    ts,   # internal only — stripped before returning to caller
+        "iso_date":     iso_date,   # when Wayback captured this snapshot
+        "original":     original,
+        "content_type": _classify_url(original),
+        "statuscode":   row.get("statuscode"),
+        "mimetype":     row.get("mimetype"),
+        "length":       row.get("length"),
+        "archive_url":  f"https://web.archive.org/web/{ts}/{original}" if ts and original else None,
     }
     created_at = _tweet_created_at(original)
     if created_at:
