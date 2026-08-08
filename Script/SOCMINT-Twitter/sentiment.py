@@ -103,7 +103,9 @@ NEGATIVE_WORDS = {
     "menyengsarakan", "represif", "represi", "diskriminasi",
     "mendiskriminasi", "rasis", "rasisme", "intoleran", "intoleransi",
     "penjilat", "gila", "kontol", "memek", "paok", "stress", "goblog",
-    "kepala batu", "oon",
+    "kepala batu", "oon", "bacot", "asu", "gijil", "jembut", "kanjut",
+    "ngentot", "puki", "meki", "jembot", "pukimak", "kimak", "tembelek", 
+    "tai", 
 }
 
 # Flips the polarity of a sentiment word found within NEGATION_WINDOW tokens

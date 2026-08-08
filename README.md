@@ -5943,6 +5943,7 @@ You can use for study academic literature, search book, people name, old archive
 
 Slang Language
 
+- [glosbe](https://id.glosbe.com/)
 - [educalingo](https://educalingo.com/)
 - [urbandictionary - contain slang](https://www.urbandictionary.com/)
 - [greensdictofslang](https://greensdictofslang.com/)

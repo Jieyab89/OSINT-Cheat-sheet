@@ -251,6 +251,12 @@ Graph
 
 <img width="2556" height="1215" alt="Image" src="https://github.com/user-attachments/assets/98253ea7-2db4-4425-bc43-21be28b99596" />
 
+Search in Graph 
+
+<img width="2550" height="1235" alt="image" src="https://github.com/user-attachments/assets/9de67226-5b12-4237-8057-690a4103a375" />
+
+<img width="2550" height="1236" alt="image" src="https://github.com/user-attachments/assets/d585bb6b-910f-4079-abc8-c4e6c97a6df9" />
+
 Vidio 
 
 <img width="2553" height="1300" alt="Image" src="https://github.com/user-attachments/assets/2bb138ac-1605-4c98-a38e-7e0716d9f4d1" />
