@@ -1141,17 +1141,6 @@ function renderCards(data, query = '') {
   resultBox.innerHTML = '<div class="cards-grid">' + filtered.map(buildCard).join('') + '</div>';
 }
 
-// Only a plain https URL (no quotes/angle-brackets/whitespace/parens) is
-// ever interpolated into the CSS url('...') below — background-image goes
-// through a second parsing pass CSS-side, so HTML-attribute escaping alone
-// isn't sufficient there the way it is for a plain <img src>. Rejecting
-// anything but a clean https URL up front closes that off rather than
-// trying to escape a value for two contexts (HTML attribute + CSS token)
-// wedged into one string.
-function isSafeImageUrl(u) {
-  return typeof u === 'string' && /^https:\/\/[^\s'"<>()]+$/.test(u);
-}
-
 // Tapping "Reply" on X auto-prefixes the compose box with every account the
 // reply-chain already has tagged, and that prefix is genuinely part of the
 // reply's own raw text — but x.com's own UI never shows it inline, trimming
@@ -1175,68 +1164,9 @@ function stripLeadingMentions(text, mentions) {
   return rest || text;
 }
 
-// Returns { html, usedFields } instead of just a string — buildCard() below
-// needs to know exactly which raw keys actually ended up rendered in the
-// header so it can drop only THOSE from the generic row list. A static
-// "always hide these field names" list doesn't work here: CSE/Wayback
-// records also have a `description` field (Google's own snippet, renamed
-// from serp_snippet) that this header never touches (no avatar/name/handle
-// on those records, so it returns empty) — hiding it unconditionally would
-// have silently deleted the one thing the user asked to see more clearly.
-function buildCardHeader(item) {
-  const avatarRaw = item.avatar || item.user_avatar || '';
-  const avatar    = isSafeImageUrl(avatarRaw) ? avatarRaw : '';
-  const name      = item.name || '';
-  const handle    = item.screen_name || item.user || item.username || '';
-
-  if (!avatar && !name && !handle) return { html: '', usedFields: [] };
-
-  const usedFields = [];
-  if (avatar) usedFields.push(item.avatar ? 'avatar' : 'user_avatar');
-  if (name) usedFields.push('name');
-  if (handle) usedFields.push(item.screen_name ? 'screen_name' : item.user ? 'user' : 'username');
-
-  const avatarHtml = avatar
-    ? `<img class="card-avatar" src="${esc(avatar)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
-    : (name || handle)
-      ? `<div class="card-avatar card-avatar-fallback">${esc((name || handle).charAt(0).toUpperCase())}</div>`
-      : '';
-  const identityHtml = (name || handle)
-    ? `<div class="card-identity">
-        ${name ? `<div class="card-name">${esc(name)}</div>` : ''}
-        ${handle ? `<div class="card-handle">@${esc(handle)}</div>` : ''}
-      </div>`
-    : '';
-
-  // A tweet or reply already leads with its own text a few rows down — a
-  // full cover-photo-plus-bio header buries that under the *author's*
-  // profile instead of the actual reply content (this is what made a reply
-  // thread look like it was rendering "just the user"). Those get a small
-  // inline byline only; the full profile-card treatment (banner + bio) is
-  // reserved for records that ARE a user — follower/retweeter results, not
-  // tweets a user happened to write.
-  const isTweetLike = item.text !== undefined || item.full_text !== undefined || item.article_text !== undefined;
-  if (isTweetLike) {
-    return { html: `<div class="card-byline">${avatarHtml}${identityHtml}</div>`, usedFields };
-  }
-
-  const bannerRaw = item.banner || item.user_banner || '';
-  const banner    = isSafeImageUrl(bannerRaw) ? bannerRaw : '';
-  const bio       = item.description || item.user_bio || '';
-  if (banner) usedFields.push(item.banner ? 'banner' : 'user_banner');
-  if (bio) usedFields.push(item.description ? 'description' : 'user_bio');
-
-  const bioHtml = bio ? `<div class="card-bio">${esc(bio)}</div>` : '';
-  const bannerHtml = banner
-    ? `<div class="card-banner" style="background-image:url('${esc(banner)}')"></div>`
-    : '';
-
-  return {
-    html: `<div class="card-header${banner ? ' has-banner' : ''}">${bannerHtml}<div class="card-header-row">${avatarHtml}${identityHtml}</div>${bioHtml}</div>`,
-    usedFields,
-  };
-}
-
+// buildCardHeader() / isSafeImageUrl() come from static/js/card_constants.js
+// — shared with archive.html so avatar/name/handle/banner/bio render
+// identically whether you're looking at a live result or a saved archive.
 function buildCard(item, nested = false) {
   if (typeof item !== 'object' || item === null) {
     return `<div class="card"><div class="card-row"><div class="card-val">${esc(String(item))}</div></div></div>`;

@@ -38,6 +38,21 @@ from collections import Counter
 # Indonesian words skew political/social-discourse (matches the kind of
 # content this tool actually pulls — keyword searches on public affairs,
 # government programs, public figures) as well as general register.
+#
+# Lexicon-parity note: an earlier version of this list ran ~130 positive vs.
+# ~220 negative entries. That gap isn't neutral — with score_text() summing
+# one point per matched word, a lexicon with substantially more negative
+# coverage (more synonyms per concept: bohong/kebohongan/hoax/menipu/penipu/
+# penipuan/tipu for one idea, "lying," vs. jujur/kejujuran for its opposite)
+# structurally nudges mixed/ambiguous text toward "con" independent of the
+# text's actual sentiment, simply because there's more negative surface area
+# to match against. The additions below restore rough parity for the same
+# governance/social-discourse register the negative list already covers
+# (accountability, honesty, inclusion, rule of law) rather than padding with
+# unrelated filler — pair each new word against the negative concept it
+# offsets in a review. This is still a heuristic, not a bias-free scorer:
+# see analyze()'s docstring and the module docstring above for the standing
+# caveat that neither backend is ground truth.
 
 # Arr data words 
 # Need to feedback and research to sett the all parameter for each words 
@@ -65,6 +80,18 @@ POSITIVE_WORDS = {
     "efektif", "transparan", "transparansi", "akuntabel", "akuntabilitas",
     "merakyat", "membela rakyat", "pro rakyat", "berpihak pada rakyat",
     "terpuji", "membanggakan", "gemilang", "cemerlang", "berkah", "istimewa",
+    # Governance/social-discourse counterparts added for lexicon parity
+    # (offsetting korupsi/nepotisme/kkn, otoriter/diktator/fasis/represif,
+    # rasis/intoleran, bohong/hoax/menipu, and pelanggaran/ilegal below).
+    "bersih", "antikorupsi", "berintegritas", "integritas", "kredibel",
+    "kredibilitas", "terpercaya", "dapat dipercaya", "netral", "imparsial",
+    "objektif", "demokratis", "reformasi", "reformis", "inklusif",
+    "inklusi", "toleran", "toleransi", "egaliter", "partisipatif",
+    "aspiratif", "taat hukum", "patuh hukum", "sesuai aturan", "legal",
+    "sah", "melindungi", "perlindungan", "membangun", "pembangunan",
+    "sinergi", "berkolaborasi", "kolaboratif", "harmonis", "kondusif",
+    "stabil", "stabilitas", "humanis", "empati", "berempati", "rendah hati",
+    "dermawan",
 }
 
 NEGATIVE_WORDS = {
@@ -102,10 +129,10 @@ NEGATIVE_WORDS = {
     "kurang ajar", "tidak becus", "amburadul", "berantakan", "semrawut",
     "menyengsarakan", "represif", "represi", "diskriminasi",
     "mendiskriminasi", "rasis", "rasisme", "intoleran", "intoleransi",
-    "penjilat", "gila", "kontol", "memek", "paok", "stress", "goblog",
+    "penjilat", "kontol", "memek", "paok", "stress", "goblog", "kontlo",
     "kepala batu", "oon", "bacot", "asu", "gijil", "jembut", "kanjut",
     "ngentot", "puki", "meki", "jembot", "pukimak", "kimak", "tembelek", 
-    "tai", 
+    "tai", "bacod", "telaso",
 }
 
 # Flips the polarity of a sentiment word found within NEGATION_WINDOW tokens
@@ -192,10 +219,24 @@ def score_text(text: str) -> dict:
 def _item_text(item: dict) -> str:
     """The text worth scoring/tokenizing for a given archived record —
     varies by which tool produced it (a tweet's own text vs. a Wayback/CSE
-    page's scraped title+description vs. a bare user's bio)."""
+    page's scraped title+description).
+
+    `description` is deliberately NOT pulled from a bare user record (a
+    follower/following/retweeter entry — cookie_client.py's _user_to_dict
+    always sets `followers_count`, even to None, which no tweet/CSE/Wayback
+    record ever carries, so that key's mere presence identifies the shape
+    reliably). For a CSE result, `description` is Google's own snippet of
+    the matched page — genuinely relevant text. For a user record it's the
+    account's own bio, which says nothing about the search topic; scoring
+    "suka kucing dan kopi ☕" as pro/con toward whatever was searched would
+    just be noise. Those accounts are still kept for clustering/leaderboard
+    purposes (top_users() below runs over every item regardless of text) —
+    they're just excluded from sentiment/word-cloud scoring specifically."""
+    is_bare_user_record = "followers_count" in item
     parts = [
         item.get("text"), item.get("full_text"), item.get("article_text"),
-        item.get("post_title"), item.get("post_text"), item.get("description"),
+        item.get("post_title"), item.get("post_text"),
+        None if is_bare_user_record else item.get("description"),
     ]
     return " ".join(p for p in parts if p)
 
@@ -293,31 +334,81 @@ def _get_ml_pipeline():
     return _ml_pipeline
 
 
-def _score_texts_ml(texts: list[str]) -> list[dict] | None:
-    """Batch-scores every text in one call (far faster on CPU than one
-    pipeline call per item). Returns None if the model isn't available, so
-    the caller falls back to the lexicon scorer instead. `score` is signed
-    (positive for pro, negative for con, 0 for neutral) to match the
-    lexicon backend's convention; `confidence` carries the model's own
-    unsigned probability for the label it picked."""
+def warm_up_ml() -> None:
+    """Loads the ML pipeline right now instead of waiting for the first real
+    analytics request to trigger it lazily. Measured at ~15-20s the first
+    time any process calls _get_ml_pipeline() (importing transformers,
+    constructing the pipeline, reading the cached weights off disk) — vs.
+    ~11-12ms/item for actual scoring once loaded. Without this, that whole
+    one-time cost lands inside the FIRST user's analytics job, during which
+    the progress bar has nothing to report yet (on_progress only fires once
+    scoring itself starts) and just sits at 0/0 looking stuck. Meant to be
+    called from a background thread at server startup (see app.py) — still
+    completely safe to skip calling this at all, or to have the first real
+    request race it, since _get_ml_pipeline() is lock-protected and
+    idempotent either way; this is purely a warm-up, not a dependency."""
+    _get_ml_pipeline()
+
+
+_ML_PROGRESS_CHUNK = 64   # texts per pipeline call — see _score_texts_ml docstring
+
+
+def _score_texts_ml(texts: list[str], on_progress=None) -> list[dict] | None:
+    """Scores every text, chunked (rather than one giant pipeline call), so
+    a caller running this in a background thread can report real progress —
+    on a CPU this measures ~11-12ms/item (~1000 items ≈ 12s, ~5000 ≈ ~1min),
+    linear with volume, so a large archive genuinely takes a while and a
+    caller polling for status needs something better to show than a blind
+    spinner. _ML_PROGRESS_CHUNK=64 batches (each itself pipelined
+    batch_size=16 internally by HF) keeps ticks frequent enough to feel
+    live (~0.7-0.8s apart) without paying per-call overhead for every
+    single item. Returns None if the model isn't available, so the caller
+    falls back to the lexicon scorer instead. `score` is signed (positive
+    for pro, negative for con, 0 for neutral) to match the lexicon
+    backend's convention; `confidence` carries the model's own unsigned
+    probability for the label it picked."""
     clf = _get_ml_pipeline()
     if clf is None:
         return None
-    raw = clf(texts, truncation=True, batch_size=16)
+
     results = []
-    for r in raw:
-        label      = _ML_LABEL_MAP.get(str(r.get("label", "")).lower(), "neutral")
-        confidence = float(r.get("score", 0.0))
-        signed     = confidence if label == "pro" else -confidence if label == "con" else 0.0
-        results.append({
-            "label": label, "score": round(signed, 3),
-            "confidence": round(confidence, 3), "matches": [],
-        })
+    for start in range(0, len(texts), _ML_PROGRESS_CHUNK):
+        chunk = texts[start:start + _ML_PROGRESS_CHUNK]
+        # truncation=True alone is NOT enough here: it truncates to the
+        # tokenizer's own model_max_length, which for this tokenizer's
+        # shipped config is left at HF's "unset" sentinel (~1e30, i.e.
+        # effectively no limit) rather than the model's real 512-token
+        # capacity. A single long post (a fact-check thread, an
+        # article-length tweet — anything past ~512 tokens once
+        # subword-tokenized) then sails through "truncation" untruncated,
+        # overflows the model's position-embedding table, and crashes the
+        # whole batch with a raw RuntimeError ("index 514 is out of bounds
+        # for dimension 1 with size 514" — 514 = 512 + the 2-position
+        # offset RoBERTa-style embeddings use). max_length=512 forces the
+        # real limit regardless of what the tokenizer config claims.
+        raw = clf(chunk, truncation=True, max_length=512, batch_size=16)
+        for r in raw:
+            label      = _ML_LABEL_MAP.get(str(r.get("label", "")).lower(), "neutral")
+            confidence = float(r.get("score", 0.0))
+            signed     = confidence if label == "pro" else -confidence if label == "con" else 0.0
+            results.append({
+                "label": label, "score": round(signed, 3),
+                "confidence": round(confidence, 3), "matches": [],
+            })
+        if on_progress:
+            on_progress(len(results), len(texts))
     return results
 
 
-def analyze(items: list[dict]) -> dict:
-    """Full analytics payload for one archive's worth of raw items."""
+def analyze(items: list[dict], on_progress=None) -> dict:
+    """Full analytics payload for one archive's worth of raw items.
+    on_progress, if given, is called as on_progress(scored_count,
+    total_to_score) — zero or more times during ML scoring (chunked, see
+    _score_texts_ml), and always at least once at the very end regardless
+    of which backend actually ran, so a caller polling for status always
+    sees a final 100%-done tick even on the lexicon path (fast enough that
+    per-chunk progress wouldn't mean anything, but a job registry watching
+    for "did this reach total" still needs that terminal call)."""
     if not isinstance(items, list):
         items = [items]
     # archive.py's own _run() passes non-dict entries through as-is rather
@@ -334,10 +425,12 @@ def analyze(items: list[dict]) -> dict:
             text_items.append(item)
             texts.append(text)
 
-    ml_results = _score_texts_ml(texts) if texts else None
+    ml_results = _score_texts_ml(texts, on_progress=on_progress) if texts else None
     method     = "ml" if ml_results is not None else "lexicon"
     if ml_results is None:
         ml_results = [score_text(t) for t in texts]
+        if on_progress:
+            on_progress(len(texts), len(texts))
 
     sentiment_counts = {"pro": 0, "neutral": 0, "con": 0}
     scored_items = []

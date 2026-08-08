@@ -223,6 +223,33 @@
   .sent-badge.sent-pro     { color: var(--success); border-color: #14532d; background: var(--success-bg); }
   .sent-badge.sent-neutral { color: var(--muted);   border-color: var(--border); background: var(--bg); }
   .sent-badge.sent-con     { color: var(--danger);  border-color: #7f1d1d; background: var(--danger-bg); }
+  .sent-badge.sent-mixed   { color: var(--accent);  border-color: #34348a; background: var(--accent-bg); }
+
+  /* ── Account sentiment breakdown — who's pro/con/neutral, as accounts, not
+     just individual posts ── */
+  .account-sent-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+  .asg-head { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .asg-count { font-size: 11px; color: var(--muted); }
+  .user-row.clickable { cursor: pointer; }
+  .user-row.clickable:hover { background: var(--surface2); }
+  .user-breakdown { font-size: 10px; color: var(--muted); flex-shrink: 0; white-space: nowrap; }
+
+  /* Auto-scroll — same idea as index.html's scroll-triggered load-more, just
+     scoped to each small box instead of the whole page: a fixed-height
+     panel that scrolls internally, revealing more rows as you scroll near
+     its bottom instead of dumping everything (or a hard cutoff) at once. */
+  .user-list.scrollable {
+    max-height: 320px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+  .load-more-note {
+    font-size: 11px;
+    color: var(--muted);
+    text-align: center;
+    padding: 10px 0 2px;
+  }
 
   /* ── Item browser ── */
   .item-toolbar { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
@@ -250,6 +277,12 @@
     border-top-color: var(--accent); border-radius: 50%; animation: spin 0.7s linear infinite; vertical-align: -2px;
   }
   @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* Sentiment-analysis progress bar — same visual language as the archive
+     media-download bar on index.html/graph.html/archive.html, so a
+     long-running background job looks the same wherever one shows up. */
+  .archive-bar-fill-wrap { height: 3px; background: var(--border); border-radius: 2px; margin-top: 8px; overflow: hidden; }
+  .archive-bar-fill { height: 100%; background: var(--accent); border-radius: 2px; transition: width 0.3s; }
 
   .method-note {
     font-size: 11px; color: var(--muted); line-height: 1.6; background: var(--surface);
@@ -372,6 +405,24 @@ function isSafeImageUrl(u) {
   });
 })();
 
+// Click an account row (top-actors list or the pro/con/neutral/mixed
+// breakdown) to filter the Items browser down to just that account — bound
+// once here on the persistent #viewer container (delegated), rather than
+// re-bound inside renderDashboard() every time an archive is opened, which
+// would stack a duplicate listener on every switch.
+document.getElementById('viewer').addEventListener('click', (e) => {
+  const row = e.target.closest('.user-row.clickable');
+  if (!row || !activeData) return;
+  const handle = row.dataset.handle;
+  const search = document.getElementById('itemSearch');
+  if (!search) return;
+  search.value = handle;
+  activeFilter = null;
+  document.querySelectorAll('.stile').forEach(t => t.classList.remove('active'));
+  renderItemList();
+  document.getElementById('itemList').scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
+
 const archiveList   = document.getElementById('archiveList');
 const archiveCount  = document.getElementById('archiveCount');
 const archiveSearch = document.getElementById('archiveSearch');
@@ -382,15 +433,45 @@ let activeId    = null;
 let activeData  = null;      // last /api/analytics/<id> payload
 let activeFilter = null;     // 'pro' | 'neutral' | 'con' | null (item browser filter)
 
+// ── Resilient fetch — auto-retry transient failures ─────────────────────────
+// res.json() throws a raw SyntaxError ("unexpected character at line 1
+// column 1...") whenever a response body isn't valid JSON — a dropped/
+// truncated connection can do this even when the server itself is fine.
+// Retries a few times with a short backoff (self-heals a one-off network
+// blip automatically) before surfacing a real, readable error. A
+// well-formed {ok:false,...} response is NOT retried — that's the server
+// correctly answering "not found" / "corrupted," retrying wouldn't change it.
+async function fetchJsonRetry(url, opts, attempts = 3) {
+  let lastErr;
+  for (let i = 0; i < attempts; i++) {
+    try {
+      const res = await fetch(url, opts);
+      return await res.json();
+    } catch (e) {
+      lastErr = e;
+      if (i < attempts - 1) await new Promise(r => setTimeout(r, 500 * (i + 1)));
+    }
+  }
+  throw lastErr;
+}
+
 // ── Sidebar ──────────────────────────────────────────────────────────────────
 
 async function loadSidebar() {
-  const res  = await fetch('/api/archive/list');
-  const json = await res.json();
+  let json;
+  try {
+    json = await fetchJsonRetry('/api/archive/list');
+  } catch (e) {
+    archiveList.innerHTML = `<div class="no-archives" style="color:var(--danger)">Couldn't load archives — ${esc(e.message || String(e))}<br><button type="button" class="btn-toolbar" id="retrySidebarBtn" style="margin-top:8px">Retry</button></div>`;
+    document.getElementById('retrySidebarBtn').addEventListener('click', loadSidebar);
+    return;
+  }
 
   if (!json.ok || !json.archives.length) {
     allArchives = [];
-    archiveList.innerHTML = '<div class="no-archives">No archives yet.<br>Save one from the search page, graph, or geo search first.</div>';
+    archiveList.innerHTML = json.ok
+      ? '<div class="no-archives">No archives yet.<br>Save one from the search page, graph, or geo search first.</div>'
+      : `<div class="no-archives" style="color:var(--danger)">${esc(json.error)}</div>`;
     archiveCount.textContent = '0';
     return;
   }
@@ -441,26 +522,80 @@ function entryHtml(a) {
 }
 
 // ── Analysis ──────────────────────────────────────────────────────────────────
+// ML sentiment scoring runs locally on CPU at ~11-12ms/item (measured) — a
+// large archive (thousands of items) can genuinely take a minute-plus, so
+// this starts the job on the server (background thread, see app.py's
+// analytics_start/_run_analytics) and polls for progress instead of
+// blocking on one long request with nothing to show but a static spinner.
 
 async function loadAnalytics(id) {
   activeId      = id;
   activeFilter  = null;
   archiveList.querySelectorAll('.archive-entry').forEach(el => el.classList.toggle('active', el.dataset.id === id));
 
-  viewer.innerHTML = '<div class="empty-state"><span class="spinner"></span> Analyzing…</div>';
+  viewer.innerHTML = `
+    <div class="empty-state">
+      <div style="max-width:340px;margin:0 auto;text-align:left">
+        <div><span class="spinner"></span> <span id="analyzeStatusText">Starting analysis…</span></div>
+        <div class="archive-bar-fill-wrap"><div class="archive-bar-fill" id="analyzeBarFill" style="width:0%"></div></div>
+      </div>
+    </div>`;
 
   try {
-    const res  = await fetch('/api/analytics/' + encodeURIComponent(id));
-    const json = await res.json();
-    if (!json.ok) { viewer.innerHTML = `<div class="empty-state">${esc(json.error || 'Analysis failed')}</div>`; return; }
-    activeData = json;
-    renderDashboard();
+    const startJson = await fetchJsonRetry('/api/analytics/' + encodeURIComponent(id) + '/start', { method: 'POST' });
+    if (activeId !== id) return;   // user already clicked a different archive
+    if (!startJson.ok) { showAnalyticsError(id, startJson.error || 'Analysis failed to start'); return; }
+    pollAnalytics(id);
   } catch (e) {
-    viewer.innerHTML = `<div class="empty-state">${esc(String(e))}</div>`;
+    showAnalyticsError(id, e.message || String(e));
   }
 }
 
-const SENT_LABELS = { pro: 'Pro', neutral: 'Neutral', con: 'Con' };
+function showAnalyticsError(id, message) {
+  if (activeId !== id) return;   // a later archive click already replaced this view
+  viewer.innerHTML = `<div class="empty-state">Couldn't analyze this archive — ${esc(message)}<br><button type="button" class="btn-toolbar" id="retryAnalyticsBtn" style="margin-top:8px">Retry</button></div>`;
+  document.getElementById('retryAnalyticsBtn').addEventListener('click', () => loadAnalytics(id));
+}
+
+function pollAnalytics(id) {
+  const interval = setInterval(async () => {
+    // Stop polling for an archive the user has since clicked away from —
+    // otherwise a slow poll response landing late could clobber whatever
+    // (possibly already-finished) view is on screen now.
+    if (activeId !== id) { clearInterval(interval); return; }
+
+    let json;
+    try {
+      json = await fetchJsonRetry('/api/analytics/' + encodeURIComponent(id) + '/status');
+    } catch (e) {
+      clearInterval(interval);
+      showAnalyticsError(id, e.message || String(e));
+      return;
+    }
+    if (activeId !== id) { clearInterval(interval); return; }
+
+    if (!json.ok) {
+      clearInterval(interval);
+      showAnalyticsError(id, json.error || 'Analysis failed');
+      return;
+    }
+    if (json.status === 'done') {
+      clearInterval(interval);
+      activeData = json;
+      renderDashboard();
+      return;
+    }
+    // status === 'scoring' — update the bar and keep polling
+    const total = json.total || 0;
+    const pct   = total > 0 ? Math.round((json.progress / total) * 100) : 0;
+    const statusText = document.getElementById('analyzeStatusText');
+    const fill        = document.getElementById('analyzeBarFill');
+    if (statusText) statusText.textContent = total > 0 ? `Scoring ${json.progress} / ${total} items…` : 'Preparing…';
+    if (fill) fill.style.width = pct + '%';
+  }, 700);
+}
+
+const SENT_LABELS = { pro: 'Pro', neutral: 'Neutral', con: 'Con', mixed: 'Mixed' };
 let snaCy = null;   // lazily built the first time "View as Graph" is clicked
 
 function renderDashboard() {
@@ -493,10 +628,15 @@ function renderDashboard() {
       </div>
     </div>
 
+    <div class="section">
+      <div class="section-title">Account sentiment breakdown <span class="section-note">accounts grouped by their own pro/con/neutral lean, not just individual posts — click an account to filter Items below</span></div>
+      ${accountSentimentHtml(d)}
+    </div>
+
     <div class="grid-2 section">
       <div>
         <div class="section-title">Most active accounts <span class="section-note">by items in this archive</span></div>
-        ${topUsersHtml(d.top_users)}
+        ${topUsersHtml(d.top_users, accountSentiment(d))}
       </div>
       <div>
         <div class="section-title">Most engagement <span class="section-note">replies + retweets + likes</span></div>
@@ -532,6 +672,8 @@ function renderDashboard() {
         <input type="text" class="item-search" id="itemSearch" placeholder="Search text or author...">
       </div>
       <div class="item-list" id="itemList"></div>
+      <div id="itemListSentinel" style="height:1px"></div>
+      <div class="load-more-note" id="itemListStatus" style="display:none"></div>
     </div>
   `;
 
@@ -543,8 +685,25 @@ function renderDashboard() {
       renderItemList();
     });
   });
-  document.getElementById('itemSearch').addEventListener('input', renderItemList);
+  // Debounced — on a large archive (thousands of scored items) re-filtering
+  // and re-rendering the whole list on every single keystroke makes typing
+  // itself feel laggy; 180ms is short enough to still feel instant once
+  // typing pauses, long enough to collapse a fast typist's keystrokes into
+  // one render instead of one per character.
+  let itemSearchDebounce = null;
+  document.getElementById('itemSearch').addEventListener('input', () => {
+    clearTimeout(itemSearchDebounce);
+    itemSearchDebounce = setTimeout(renderItemList, 180);
+  });
   renderItemList();
+
+  // Re-bind both scroll-observers to this render's freshly built sentinel
+  // nodes (see the comments above itemListObserver / rebindAccountScrollObservers
+  // for why re-binding is needed on every archive switch).
+  itemListObserver.disconnect();
+  const itemSentinel = document.getElementById('itemListSentinel');
+  if (itemSentinel) itemListObserver.observe(itemSentinel);
+  rebindAccountScrollObservers();
 
   document.getElementById('btnSnaGraph').addEventListener('click', toggleSnaGraph);
 }
@@ -568,22 +727,13 @@ function toggleSnaGraph() {
 
 function buildSnaGraph() {
   const d = activeData;
-  const accounts = {};   // handle -> { pro, neutral, con, total, name, avatar }
+  const accounts = accountSentiment(d);   // handle -> { pro, neutral, con, total, name, avatar }
   const idToAuthor = {}; // raw item id -> handle, for resolving reply edges
 
   d.scored_items.forEach(it => {
     const raw    = it.item || {};
     const handle = it.author || raw.screen_name || raw.user;
-    if (!handle) return;
-    if (!accounts[handle]) {
-      accounts[handle] = {
-        pro: 0, neutral: 0, con: 0, total: 0,
-        name: raw.name || '', avatar: raw.avatar || raw.user_avatar || '',
-      };
-    }
-    accounts[handle][it.label]++;
-    accounts[handle].total++;
-    if (raw.id != null) idToAuthor[String(raw.id)] = handle;
+    if (handle && raw.id != null) idToAuthor[String(raw.id)] = handle;
   });
 
   const handles = Object.keys(accounts);
@@ -722,24 +872,163 @@ function sentimentTileHtml(label, d) {
     </div>`;
 }
 
-function topUsersHtml(users) {
+// ── Account-level sentiment (not just per-post) ─────────────────────────────
+// Groups scored_items by author so "who's pro/con/neutral" can be answered
+// about ACCOUNTS, the same way top_users answers "who's most active" —
+// sentiment.py's own scoring stays per-item (a person can write both a pro
+// and a con post), this just aggregates what's already in the payload.
+// Memoized per activeData object since buildSnaGraph(), topUsersHtml() and
+// accountSentimentHtml() all need the identical aggregation for the same
+// archive and it's wasteful (and a drift risk) to recompute it three ways.
+let _acctSentCache = null;
+let _acctSentCacheFor = null;
+function accountSentiment(d) {
+  if (_acctSentCacheFor === d) return _acctSentCache;
+  const accounts = {};   // handle -> { pro, neutral, con, total, name, avatar }
+  d.scored_items.forEach(it => {
+    const raw    = it.item || {};
+    const handle = it.author || raw.screen_name || raw.user;
+    if (!handle) return;
+    if (!accounts[handle]) {
+      accounts[handle] = {
+        pro: 0, neutral: 0, con: 0, total: 0,
+        name: raw.name || '', avatar: raw.avatar || raw.user_avatar || '',
+      };
+    }
+    accounts[handle][it.label]++;
+    accounts[handle].total++;
+  });
+  _acctSentCache = accounts;
+  _acctSentCacheFor = d;
+  return accounts;
+}
+
+// An account's overall lean — majority label among ITS OWN scored items. A
+// tie between pro and con (the case that matters most: an account posting
+// equally strongly on both sides of a hot-button topic) is deliberately NOT
+// broken toward either side — arbitrarily crowning one would bake a
+// directional bias into exactly the accounts where the evidence is split
+// down the middle. Those land in "mixed", kept distinct from "neutral"
+// (which means mostly neutral-toned posts, i.e. never really took a side —
+// a different thing than "took both sides equally").
+function dominantLabel(a) {
+  const max = Math.max(a.pro, a.neutral, a.con);
+  if (max === 0) return null;
+  const winners = ['pro', 'neutral', 'con'].filter(k => a[k] === max);
+  return winners.length === 1 ? winners[0] : 'mixed';
+}
+
+function userRowHtml(handle, u, opts = {}) {
+  const avatarUrl = isSafeImageUrl(u.avatar) ? u.avatar : '';
+  const avatar = avatarUrl
+    ? `<img class="user-avatar" src="${esc(avatarUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
+    : `<div class="user-avatar user-avatar-fallback">${esc(((u.name || handle || '?').charAt(0)).toUpperCase())}</div>`;
+  const rank  = opts.rank != null ? `<span class="user-rank">${opts.rank}</span>` : '';
+  const right = opts.right || '';
+  return `
+    <div class="user-row clickable" data-handle="${esc(handle)}">
+      ${rank}
+      ${avatar}
+      <div class="user-identity">
+        <div class="user-name">${esc(u.name || handle)}</div>
+        <div class="user-handle">@${esc(handle)}</div>
+      </div>
+      ${right}
+    </div>`;
+}
+
+function topUsersHtml(users, sentByHandle) {
   if (!users || !users.length) return '<div class="empty-state" style="padding:24px">No identifiable authors in this archive.</div>';
   return '<div class="user-list">' + users.map((u, i) => {
-    const avatarUrl = isSafeImageUrl(u.avatar) ? u.avatar : '';
-    const avatar = avatarUrl
-      ? `<img class="user-avatar" src="${esc(avatarUrl)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
-      : `<div class="user-avatar user-avatar-fallback">${esc(((u.name || u.screen_name || '?').charAt(0)).toUpperCase())}</div>`;
-    return `
-      <div class="user-row">
-        <span class="user-rank">${i + 1}</span>
-        ${avatar}
-        <div class="user-identity">
-          <div class="user-name">${esc(u.name || u.screen_name)}</div>
-          <div class="user-handle">@${esc(u.screen_name)}</div>
-        </div>
-        <span class="user-count">${u.count}×</span>
-      </div>`;
+    const s     = sentByHandle && sentByHandle[u.screen_name];
+    const label = s ? dominantLabel(s) : null;
+    const badge = label ? `<span class="sent-badge sent-${label}" style="margin-right:6px">${SENT_LABELS[label]}</span>` : '';
+    return userRowHtml(u.screen_name, u, { rank: i + 1, right: `${badge}<span class="user-count">${u.count}×</span>` });
   }).join('') + '</div>';
+}
+
+// Explicit "which accounts are pro / con / neutral / mixed" listing — the
+// SNA graph already encodes this visually (pie-per-node), but that's a
+// click-to-open, hover-to-read view; this is the plain-text equivalent
+// requested directly: a scannable list per bucket, sorted by how many
+// scored items back that lean up (not just alphabetical).
+//
+// Auto-scroll rather than a hard cutoff: an archive with thousands of items
+// can have thousands of unique accounts per bucket, so all four lists start
+// at ACCOUNT_BATCH rows and grow by ACCOUNT_BATCH more each time you scroll
+// near the bottom of that bucket's own little scroll box (same idea as
+// index.html's page-level scroll-to-load-more, just scoped per box since
+// four buckets share one screen). The full sorted arrays stay in
+// `acctBuckets` in memory — nothing here ever throws data away, it just
+// paces how much gets built into HTML at once.
+const ACCOUNT_BATCH = 20;
+let acctBuckets = { pro: [], con: [], neutral: [], mixed: [] };   // full sorted [handle, data] arrays
+let acctShown   = { pro: 0, con: 0, neutral: 0, mixed: 0 };
+const acctObservers = {};
+
+function acctRowsHtml(key, from, to) {
+  const slice = acctBuckets[key].slice(from, to);
+  if (!slice.length) return from === 0 ? '<div class="empty-state" style="padding:16px;font-size:12px">None</div>' : '';
+  return slice.map(([handle, a]) => userRowHtml(handle, a, {
+    right: `<span class="user-breakdown">${a.pro}p · ${a.neutral}n · ${a.con}c</span>`,
+  })).join('');
+}
+
+function loadMoreAccounts(key) {
+  const list = acctBuckets[key];
+  if (acctShown[key] >= list.length) return;
+  const prev = acctShown[key];
+  acctShown[key] = Math.min(acctShown[key] + ACCOUNT_BATCH, list.length);
+  const sentinel = document.getElementById('asgSentinel-' + key);
+  if (sentinel) sentinel.insertAdjacentHTML('beforebegin', acctRowsHtml(key, prev, acctShown[key]));
+}
+
+function accountSentimentHtml(d) {
+  const accounts = accountSentiment(d);
+  const buckets  = { pro: [], neutral: [], con: [], mixed: [] };
+  Object.keys(accounts).forEach(handle => {
+    const a     = accounts[handle];
+    const label = dominantLabel(a);
+    if (label) buckets[label].push([handle, a]);
+  });
+  Object.values(buckets).forEach(list => list.sort((x, y) => y[1].total - x[1].total));
+  acctBuckets = buckets;
+  acctShown   = { pro: 0, con: 0, neutral: 0, mixed: 0 };
+
+  const sections = [
+    ['pro', 'Pro'], ['con', 'Con'], ['neutral', 'Neutral'], ['mixed', 'Mixed'],
+  ].map(([key, title]) => {
+    const list = buckets[key];
+    acctShown[key] = Math.min(ACCOUNT_BATCH, list.length);
+    return `
+      <div>
+        <div class="asg-head"><span class="sent-badge sent-${key}">${title}</span><span class="asg-count">${list.length} account${list.length === 1 ? '' : 's'}</span></div>
+        <div class="user-list scrollable" id="asgList-${key}">
+          ${acctRowsHtml(key, 0, acctShown[key])}
+          <div class="asg-sentinel" id="asgSentinel-${key}" style="height:1px"></div>
+        </div>
+      </div>`;
+  }).join('');
+
+  return `<div class="account-sent-grid">${sections}</div>`;
+}
+
+// Re-bound after every render — the scroll box + sentinel for each bucket
+// are rebuilt fresh whenever an archive is opened (they're part of the
+// dashboard's innerHTML), so the previous archive's observer would be
+// watching a detached node. `root` is the scroll box itself (not the page),
+// since these are small internally-scrolling panels, not page-level scroll.
+function rebindAccountScrollObservers() {
+  ['pro', 'con', 'neutral', 'mixed'].forEach(key => {
+    if (acctObservers[key]) acctObservers[key].disconnect();
+    const root     = document.getElementById('asgList-' + key);
+    const sentinel = document.getElementById('asgSentinel-' + key);
+    if (!root || !sentinel) return;
+    acctObservers[key] = new IntersectionObserver((entries) => {
+      if (entries.some(e => e.isIntersecting)) loadMoreAccounts(key);
+    }, { root, rootMargin: '80px' });
+    acctObservers[key].observe(sentinel);
+  });
 }
 
 function topEngagementHtml(items) {
@@ -775,6 +1064,58 @@ function wordCloudHtml(words) {
 }
 
 // ── Item browser ─────────────────────────────────────────────────────────────
+// Auto-scroll, same mechanism index.html uses for live search results
+// (IntersectionObserver watching a sentinel below the list) — but here
+// there's no server round-trip to paginate: every scored item is already in
+// memory, so "loading more" just means building more HTML for data that's
+// already there. ITEM_BATCH still matters even so — building a few thousand
+// .item-card divs in one go is real DOM-write cost, so this paces it out in
+// chunks as you scroll instead of paying for all of it up front.
+const ITEM_BATCH = 150;
+let filteredItems   = [];
+let itemRenderCount = 0;
+
+function itemCardHtml(it) {
+  const matches = (it.matches || []).map(m =>
+    `<span class="match-chip mc-${m.polarity}">${esc(m.word)}</span>`
+  ).join('');
+  const scoreLabel = typeof it.confidence === 'number'
+    ? `${Math.round(it.confidence * 100)}% confidence`
+    : `score ${it.score > 0 ? '+' : ''}${it.score}`;
+  return `
+    <div class="item-card">
+      <div class="item-card-top">
+        <span class="item-author">${it.author ? '@' + esc(it.author) : 'Unknown'}</span>
+        <span class="sent-badge sent-${it.label}">${SENT_LABELS[it.label]}</span>
+        <span class="item-score">${scoreLabel}</span>
+      </div>
+      <div class="item-text">${esc(it.text)}</div>
+      ${matches ? `<div class="item-matches">${matches}</div>` : ''}
+    </div>`;
+}
+
+function updateItemListStatus() {
+  const status = document.getElementById('itemListStatus');
+  if (!status) return;
+  const remaining = filteredItems.length - itemRenderCount;
+  if (remaining > 0) {
+    status.style.display = '';
+    status.textContent = `Showing ${itemRenderCount} of ${filteredItems.length} — scroll for more…`;
+  } else {
+    status.style.display = 'none';
+  }
+}
+
+function loadMoreItems() {
+  if (itemRenderCount >= filteredItems.length) return;
+  const prev = itemRenderCount;
+  itemRenderCount = Math.min(itemRenderCount + ITEM_BATCH, filteredItems.length);
+  document.getElementById('itemList').insertAdjacentHTML(
+    'beforeend',
+    filteredItems.slice(prev, itemRenderCount).map(itemCardHtml).join(''),
+  );
+  updateItemListStatus();
+}
 
 function renderItemList() {
   const d = activeData;
@@ -786,28 +1127,28 @@ function renderItemList() {
 
   document.getElementById('itemCount').textContent = `${items.length} / ${d.scored_items.length}`;
 
-  const list = document.getElementById('itemList');
-  if (!items.length) { list.innerHTML = '<div class="empty-state" style="padding:24px">No items match.</div>'; return; }
+  filteredItems   = items;
+  itemRenderCount = Math.min(ITEM_BATCH, items.length);
 
-  list.innerHTML = items.map(it => {
-    const matches = (it.matches || []).map(m =>
-      `<span class="match-chip mc-${m.polarity}">${esc(m.word)}</span>`
-    ).join('');
-    const scoreLabel = typeof it.confidence === 'number'
-      ? `${Math.round(it.confidence * 100)}% confidence`
-      : `score ${it.score > 0 ? '+' : ''}${it.score}`;
-    return `
-      <div class="item-card">
-        <div class="item-card-top">
-          <span class="item-author">${it.author ? '@' + esc(it.author) : 'Unknown'}</span>
-          <span class="sent-badge sent-${it.label}">${SENT_LABELS[it.label]}</span>
-          <span class="item-score">${scoreLabel}</span>
-        </div>
-        <div class="item-text">${esc(it.text)}</div>
-        ${matches ? `<div class="item-matches">${matches}</div>` : ''}
-      </div>`;
-  }).join('');
+  const list = document.getElementById('itemList');
+  if (!items.length) {
+    list.innerHTML = '<div class="empty-state" style="padding:24px">No items match.</div>';
+    updateItemListStatus();
+    return;
+  }
+
+  list.innerHTML = items.slice(0, itemRenderCount).map(itemCardHtml).join('');
+  updateItemListStatus();
 }
+
+// root: null (page viewport) — same reasoning as index.html's own load-more
+// observer: the item list is never height-constrained itself, the page is
+// what actually scrolls. Re-observed (not just created once) after every
+// render since #itemListSentinel is rebuilt along with the rest of the
+// dashboard each time a different archive is opened.
+const itemListObserver = new IntersectionObserver((entries) => {
+  if (entries.some(e => e.isIntersecting)) loadMoreItems();
+}, { root: null, rootMargin: '300px' });
 
 loadSidebar();
 })();

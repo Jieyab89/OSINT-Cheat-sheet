@@ -288,6 +288,12 @@
 
   .cards-area { padding: 16px 18px; overflow-y: auto; flex: 1; }
   .cards-grid  { display: grid; gap: 8px; }
+  .load-more-note {
+    font-size: 11px;
+    color: var(--muted);
+    text-align: center;
+    padding: 14px 0 2px;
+  }
 
   /* ── Cards ── */
   .card {
@@ -298,6 +304,124 @@
     transition: border-color 0.12s;
   }
   .card:hover { border-color: #3a3d50; }
+
+  /* Profile header — cover photo, avatar, name/handle, bio. Same rules as
+     the live search page: only rendered when the item actually carries any
+     of that (a tweet's embedded author, a bare user/follower/retweeter
+     record); everything else keeps the plain row list it always had. */
+  .card-header { margin-bottom: 10px; }
+  .card-header.has-banner { margin: -12px -14px 10px; }
+  .card-banner {
+    height: 64px;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--bg);
+  }
+  .card-header-row { display: flex; align-items: flex-end; gap: 10px; }
+  .card-header.has-banner .card-header-row { padding: 0 14px; margin-top: -26px; }
+  .card-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--surface);
+    background: var(--bg);
+    flex-shrink: 0;
+  }
+  .card-avatar-fallback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--muted);
+  }
+  .card-identity { min-width: 0; padding-bottom: 3px; }
+  .card-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .card-handle { font-size: 12px; color: var(--muted); }
+  .card-bio { margin-top: 8px; font-size: 12px; color: var(--text); opacity: 0.85; line-height: 1.45; }
+  .card-header.has-banner .card-bio { padding: 0 14px; }
+
+  /* Compact byline — tweets/replies get just this instead of the full
+     banner+bio header above, which is reserved for records that ARE a user
+     rather than a tweet someone wrote. */
+  .card-byline { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .card-byline .card-avatar { width: 26px; height: 26px; border-width: 1px; }
+  .card-byline .card-avatar-fallback { font-size: 11px; }
+  .card-byline .card-identity { display: flex; align-items: baseline; gap: 6px; padding-bottom: 0; min-width: 0; }
+  .card-byline .card-name { font-size: 13px; max-width: 55%; }
+  .card-byline .card-handle { flex-shrink: 0; }
+
+  /* Retweeted-content rows — subtle highlight, same as the live search page */
+  .card-row.rt-origin .card-key { color: var(--accent); }
+  .card-row.rt-origin .card-val { color: #c7d2fe; }
+
+  .reply-context { font-size: 11px; color: var(--muted); margin-bottom: 4px; }
+
+  /* Inline expand-and-save — replies/retweets fetched here get folded into
+     this archive's own item list and checkpointed back to disk immediately,
+     same as the live pages but persisted right away since there's no
+     separate "Archive" button on this read view. */
+  .reply-expand-btn, .retweet-expand-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    margin-right: 6px;
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--accent);
+    font-family: var(--font);
+    font-size: 11px;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .retweet-expand-btn { color: #f59e0b; }
+  .reply-expand-btn:hover:not(:disabled), .retweet-expand-btn:hover:not(:disabled) { border-color: currentColor; }
+  .reply-expand-btn:disabled, .retweet-expand-btn:disabled { opacity: 0.5; cursor: wait; }
+
+  .reply-thread, .retweet-thread {
+    margin: 10px 0 2px 16px;
+    padding-left: 14px;
+    border-left: 2px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .reply-thread.hidden, .retweet-thread.hidden { display: none; }
+
+  .reply-load-more-btn {
+    align-self: flex-start;
+    background: none;
+    border: none;
+    color: var(--accent);
+    font-family: var(--font);
+    font-size: 11px;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    padding: 2px 0;
+  }
+  .reply-load-more-btn:disabled { opacity: 0.5; cursor: wait; text-decoration: none; }
+
+  .save-indicator {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .save-indicator.ok   { color: var(--success); }
+  .save-indicator.err  { color: var(--danger); }
+
   .card-row {
     display: flex;
     gap: 10px;
@@ -516,6 +640,8 @@
       <div id="cardsBox">
         <div class="empty-state">Select an archive from the sidebar to view its contents.</div>
       </div>
+      <div id="cardsSentinel" style="height:1px"></div>
+      <div class="load-more-note" id="cardsLoadStatus" style="display:none"></div>
     </div>
   </div>
 
@@ -560,7 +686,19 @@
 
 let allItems      = [];
 let activeId      = null;
+let activeMeta    = {};   // meta.json for the open archive — tool/query, needed to checkpoint-save expansions back to it
 let allArchives   = [];   // full list from the server; archiveSearch filters this client-side
+
+// ── Reply/retweet expand-and-save cooldown ──────────────────────────────────
+// Mirrors index.html's throttle handling — every expand here is a cookie-mode
+// call, sharing the backend's single 5s-per-source cookie clock with every
+// other tool, so a fast double-click here still respects it.
+const THROTTLE_SECONDS = 5;
+let cooldownUntil = { cookie: 0 };
+
+function stampCooldown(sources) {
+  (sources || []).forEach(source => { cooldownUntil[source] = Date.now() + THROTTLE_SECONDS * 1000; });
+}
 
 const archiveList   = document.getElementById('archiveList');
 const archiveCount  = document.getElementById('archiveCount');
@@ -573,18 +711,53 @@ const resultCount  = document.getElementById('resultCount');
 const deleteBtn    = document.getElementById('deleteBtn');
 const cardsBox     = document.getElementById('cardsBox');
 
+// ── Resilient fetch — auto-retry transient failures ─────────────────────────
+// `res.json()` throws a raw SyntaxError ("unexpected character at line 1
+// column 1...") whenever the response body isn't valid JSON — a dropped/
+// truncated connection (flaky wifi, the device sleeping mid-request) or a
+// server-side hiccup can both do this, and previously nothing here caught
+// it: the promise just rejected, the "Loading…" spinner never went away,
+// and the failure showed up nowhere the user could see WHY. This retries a
+// few times with a short backoff (self-heals a one-off network blip
+// automatically — no user action needed) before surfacing a real,
+// human-readable error. A well-formed {ok:false,...} response is NOT
+// retried here — that's the server correctly telling you something (e.g.
+// "Archive not found"), retrying wouldn't change the answer; only fetch/
+// parse failures (the connection or the body itself was the problem) do.
+async function fetchJsonRetry(url, opts, attempts = 3) {
+  let lastErr;
+  for (let i = 0; i < attempts; i++) {
+    try {
+      const res = await fetch(url, opts);
+      return await res.json();
+    } catch (e) {
+      lastErr = e;
+      if (i < attempts - 1) await new Promise(r => setTimeout(r, 500 * (i + 1)));
+    }
+  }
+  throw lastErr;
+}
+
 // ── Sidebar ───────────────────────────────────────────────────────────────────
 // The server already returns archives newest-first (by archived_at/updated_at,
 // not folder name — folder names are prefixed by tool_type so sorting by name
 // doesn't actually sort chronologically once more than one tool's been used).
 
 async function loadSidebar() {
-  const res  = await fetch('/api/archive/list');
-  const json = await res.json();
+  let json;
+  try {
+    json = await fetchJsonRetry('/api/archive/list');
+  } catch (e) {
+    archiveList.innerHTML = `<div class="no-archives" style="color:var(--danger)">Couldn't load archives — ${esc(e.message || String(e))}<br><button type="button" class="reply-expand-btn" id="retrySidebarBtn" style="margin-top:8px">Retry</button></div>`;
+    document.getElementById('retrySidebarBtn').addEventListener('click', loadSidebar);
+    return;
+  }
 
   if (!json.ok || !json.archives.length) {
     allArchives = [];
-    archiveList.innerHTML  = '<div class="no-archives">No archives yet.<br>Enable Auto Archive in the tool and run a search.</div>';
+    archiveList.innerHTML  = json.ok
+      ? '<div class="no-archives">No archives yet.<br>Enable Auto Archive in the tool and run a search.</div>'
+      : `<div class="no-archives" style="color:var(--danger)">${esc(json.error)}</div>`;
     archiveCount.textContent = '0';
     return;
   }
@@ -654,23 +827,29 @@ async function loadArchive(id) {
   viewerTop.style.display = 'none';
   searchInput.value = '';
 
-  const res  = await fetch(`/api/archive/${id}/results`);
-  const json = await res.json();
+  let json;
+  try {
+    json = await fetchJsonRetry(`/api/archive/${id}/results`);
+  } catch (e) {
+    cardsBox.innerHTML = `<div class="empty-state" style="color:var(--danger)">Couldn't load this archive — ${esc(e.message || String(e))}<br><button type="button" class="reply-expand-btn" id="retryArchiveBtn" style="margin-top:8px">Retry</button></div>`;
+    document.getElementById('retryArchiveBtn').addEventListener('click', () => loadArchive(id));
+    return;
+  }
   if (!json.ok) {
     cardsBox.innerHTML = `<div class="empty-state" style="color:var(--danger)">${esc(json.error)}</div>`;
     return;
   }
 
-  allItems = json.results || [];
-  const meta = json.meta || {};
+  allItems  = json.results || [];
+  activeMeta = json.meta || {};
 
-  const tool  = (meta.tool || 'unknown').replace(/_/g, ' ');
-  const query = queryLabel(meta.query || {});
+  const tool  = (activeMeta.tool || 'unknown').replace(/_/g, ' ');
+  const query = queryLabel(activeMeta.query || {});
   viewerTitle.textContent = tool + (query ? ` — "${query}"` : '');
   viewerSub.textContent   = [
-    meta.archived_at ? meta.archived_at.replace('T', ' ') : '',
+    activeMeta.archived_at ? activeMeta.archived_at.replace('T', ' ') : '',
     `${allItems.length} items`,
-    meta.media_count ? `${meta.media_count} media files` : '',
+    activeMeta.media_count ? `${activeMeta.media_count} media files` : '',
   ].filter(Boolean).join(' · ');
 
   viewerTop.style.display = '';
@@ -678,8 +857,14 @@ async function loadArchive(id) {
 }
 
 // ── Search ────────────────────────────────────────────────────────────────────
-
-searchInput.addEventListener('input', () => renderCards(allItems, searchInput.value));
+// Debounced — same reasoning as analytics.html's item search: re-filtering
+// and re-rendering the full card list (avatars, media, everything) on every
+// single keystroke gets janky once an archive has hundreds/thousands of items.
+let cardSearchDebounce = null;
+searchInput.addEventListener('input', () => {
+  clearTimeout(cardSearchDebounce);
+  cardSearchDebounce = setTimeout(() => renderCards(allItems, searchInput.value), 180);
+});
 
 function flatText(obj) {
   if (!obj || typeof obj !== 'object') return String(obj ?? '');
@@ -688,10 +873,49 @@ function flatText(obj) {
 
 // ── Cards ─────────────────────────────────────────────────────────────────────
 
-// PRIORITY / DRILLABLE / SOURCE_CLASS / AGE_LABELS come from
-// static/js/card_constants.js, loaded above — shared with index.html.
-const SKIP     = ['archived_media'];
-const CLAMP    = new Set(['text','full_text','article_text','description','post_text']);
+// PRIORITY / DRILLABLE / SOURCE_CLASS / AGE_LABELS / buildCardHeader come
+// from static/js/card_constants.js, loaded above — shared with index.html,
+// so a record's avatar/name/handle/banner/bio render identically whether
+// you're looking at a live result or a saved archive.
+const SKIP  = ['archived_media', 'profile_image_url', 'profile_banner_url', 'entities', 'extended_entities', 'urls', 'media', 'indices'];
+const CLAMP = new Set(['text','full_text','content','description','bio','article_text','retweeted_text','retweeted_by_bio','post_text']);
+
+// ── Auto-scroll — same mechanism index.html's live search results use
+// (IntersectionObserver watching a sentinel, root: null since — per this
+// page's own back-to-top comment above — the PAGE is what actually scrolls
+// here, .cards-area's overflow:auto never gets a bounded height to actually
+// clip against). Building the card HTML itself is cheap (measured well
+// under 20ms for 200+ cards) — what actually made a big first batch feel
+// slow is every card's <img> avatar firing its own request to Twitter's CDN
+// at once; 50 of those landing simultaneously is what dragged out the
+// initial paint, not the rendering logic. 10 keeps that burst small; the
+// tighter rootMargin below (vs. what analytics.html's plain-text item list
+// uses) matters just as much — a bigger margin pre-triggers the NEXT
+// image-heavy batch before you've actually scrolled toward it.
+const CARD_BATCH = 10;
+let filteredCardItems = [];
+let cardRenderCount   = 0;
+
+function updateCardsLoadStatus() {
+  const status = document.getElementById('cardsLoadStatus');
+  const remaining = filteredCardItems.length - cardRenderCount;
+  if (remaining > 0) {
+    status.style.display = '';
+    status.textContent = `Showing ${cardRenderCount} of ${filteredCardItems.length} — scroll for more…`;
+  } else {
+    status.style.display = 'none';
+  }
+}
+
+function loadMoreCards() {
+  if (cardRenderCount >= filteredCardItems.length) return;
+  const prev = cardRenderCount;
+  cardRenderCount = Math.min(cardRenderCount + CARD_BATCH, filteredCardItems.length);
+  const grid = cardsBox.querySelector('.cards-grid');
+  if (!grid) return;
+  grid.insertAdjacentHTML('beforeend', filteredCardItems.slice(prev, cardRenderCount).map(it => buildCard(it)).join(''));
+  updateCardsLoadStatus();
+}
 
 function renderCards(items, query) {
   const q        = query.toLowerCase().trim();
@@ -699,24 +923,60 @@ function renderCards(items, query) {
 
   resultCount.textContent = filtered.length + (q ? ' found' : ' results');
 
+  filteredCardItems = filtered;
+  cardRenderCount    = Math.min(CARD_BATCH, filtered.length);
+
   if (!filtered.length) {
     cardsBox.innerHTML = '<div class="empty-state">No matching results.</div>';
+    updateCardsLoadStatus();
     return;
   }
-  cardsBox.innerHTML = '<div class="cards-grid">' + filtered.map(buildCard).join('') + '</div>';
+  cardsBox.innerHTML = '<div class="cards-grid">' + filtered.slice(0, cardRenderCount).map(it => buildCard(it)).join('') + '</div>';
+  updateCardsLoadStatus();
 }
 
-function buildCard(item) {
+// #cardsSentinel and .cards-area are static page elements (only #cardsBox's
+// innerHTML gets replaced on every render), so — unlike analytics.html's
+// dashboard, which gets rebuilt from scratch per archive — this observer is
+// bound exactly once, right here, and just keeps working across archive
+// switches and searches.
+const cardsObserver = new IntersectionObserver((entries) => {
+  if (entries.some(e => e.isIntersecting)) loadMoreCards();
+}, { root: null, rootMargin: '100px' });
+cardsObserver.observe(document.getElementById('cardsSentinel'));
+
+// Same "Replying to @x @y" trim index.html's cards apply — reply_to_mentions
+// (from cookie_client.py) lists exactly which leading @mentions x.com itself
+// hides from the rendered tweet body. Display-only: item.text in the
+// archived JSON is untouched.
+function stripLeadingMentions(text, mentions) {
+  if (!text || !mentions || !mentions.length) return text;
+  let rest = text;
+  for (const m of mentions) {
+    const re = new RegExp('^\\s*@' + String(m).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b');
+    const match = rest.match(re);
+    if (!match) break;
+    rest = rest.slice(match[0].length);
+  }
+  rest = rest.replace(/^\s+/, '');
+  return rest || text;
+}
+
+// nested=true for a reply/retweet rendered inside another card's expanded
+// thread — same recursive shape index.html's buildCard() uses, so a reply
+// that itself has replies still gets its own Expand button.
+function buildCard(item, nested = false) {
   if (typeof item !== 'object' || !item) return '';
 
   const tweetId = item.id ? String(item.id) : null;
   const entries = Object.entries(item);
+  const { html: header, usedFields: headerFields } = buildCardHeader(item);
   // Same rule as the live search page: order follows PRIORITY's own sequence,
   // and nothing gets capped off — a saved archive should show exactly the
   // same fields, in the same order, as when it was first fetched.
   const priKeys = new Set(entries.map(([k]) => k).filter(k => PRIORITY.includes(k)));
-  const pri     = PRIORITY.filter(k => priKeys.has(k)).map(k => [k, item[k]]);
-  const rest    = entries.filter(([k]) => !PRIORITY.includes(k) && !SKIP.includes(k));
+  const pri     = PRIORITY.filter(k => priKeys.has(k) && !headerFields.includes(k)).map(k => [k, item[k]]);
+  const rest    = entries.filter(([k]) => !PRIORITY.includes(k) && !SKIP.includes(k) && !headerFields.includes(k));
 
   const rows = [...pri, ...rest].map(([k, v]) => {
     let display;
@@ -737,6 +997,10 @@ function buildCard(item) {
       display = `<span class="age-badge age-${esc(String(v))}">${esc(AGE_LABELS[v] || v)}</span>`;
     } else if (k === 'content_type') {
       display = `<span class="content-type-badge ct-${esc(String(v))}">${esc(CONTENT_TYPE_LABELS[v] || String(v))}</span>`;
+    } else if (k === 'text' && item.reply_to_mentions && item.reply_to_mentions.length) {
+      const badge = `<div class="reply-context">↩ Replying to ${item.reply_to_mentions.map(m => '@' + esc(m)).join(', ')}</div>`;
+      const clean = stripLeadingMentions(String(v), item.reply_to_mentions);
+      display = `${badge}<span class="clamp">${esc(clean)}</span>`;
     } else if (typeof v === 'object') {
       const s = JSON.stringify(v);
       display = `<span style="color:var(--muted);font-size:11px">${esc(s.length > 100 ? s.slice(0,100)+'…' : s)}</span>`;
@@ -744,40 +1008,319 @@ function buildCard(item) {
       const cls = CLAMP.has(k) ? ' clamp' : '';
       display = `<span class="${cls}">${esc(String(v))}</span>`;
     }
-    return `<div class="card-row"><div class="card-key">${esc(k)}</div><div class="card-val">${display}</div></div>`;
+    const rtCls = k.startsWith('retweeted_') ? ' rt-origin' : '';
+    return `<div class="card-row${rtCls}"><div class="card-key">${esc(k)}</div><div class="card-val">${display}</div></div>`;
   }).join('');
 
   const media = buildMedia(item);
-  return `<div class="card">${rows}${media}</div>`;
+
+  // Expand-in-place — same trigger rule as index.html (id + a positive
+  // count), but the fetched result here also gets folded into this
+  // archive's saved results.json as soon as it lands (see saveExpansion()),
+  // since this view has no separate "Archive" button to click afterward.
+  const replyCount   = Number(item.reply_count);
+  const canReplies   = tweetId && Number.isFinite(replyCount) && replyCount > 0;
+  const rtCount      = Number(item.retweet_count);
+  const canRetweets  = tweetId && Number.isFinite(rtCount) && rtCount > 0;
+
+  const replyBtn = canReplies
+    ? `<button type="button" class="reply-expand-btn" data-tweet-id="${esc(tweetId)}" data-count="${replyCount}">↩ Expand ${replyCount} repl${replyCount === 1 ? 'y' : 'ies'}</button>`
+    : '';
+  const retweetBtn = canRetweets
+    ? `<button type="button" class="retweet-expand-btn" data-tweet-id="${esc(tweetId)}" data-count="${rtCount}">↗ Expand ${rtCount} retweet${rtCount === 1 ? '' : 's'}</button>`
+    : '';
+
+  const cardCls = nested ? 'card reply-card' : 'card';
+  const card    = `<div class="${cardCls}">${header}${rows}${media}${replyBtn}${retweetBtn}<span class="save-indicator" data-role="save-indicator"></span></div>`;
+  if (!canReplies && !canRetweets) return card;
+
+  const threads = [
+    canReplies   ? `<div class="reply-thread hidden" data-kind="reply" data-tweet-id="${esc(tweetId)}"></div>`   : '',
+    canRetweets  ? `<div class="retweet-thread hidden" data-kind="retweet" data-tweet-id="${esc(tweetId)}"></div>` : '',
+  ].join('');
+  return `<div class="card-thread-wrap">${card}${threads}</div>`;
+}
+
+// Cookie mode: item.media = [{type, thumb, url}]. API mode: raw Twitter
+// shape under extended_entities.media / entities.media. Same normalization
+// index.html's extractMedia() applies — needed here for items fetched
+// through an inline expand, which haven't been through archive.py's
+// download pipeline yet (no archived_media of their own until the
+// checkpoint save that follows lands).
+function extractMedia(item) {
+  if (Array.isArray(item.media) && item.media.length) {
+    const first = item.media[0];
+    if (first && typeof first === 'object' && ('thumb' in first || 'url' in first)) {
+      return item.media;
+    }
+  }
+  const src = (item.extended_entities && item.extended_entities.media)
+    || (item.entities && item.entities.media);
+  if (!Array.isArray(src)) return [];
+  return src.map(m => {
+    const mtype = m.type || 'photo';
+    const thumb = m.media_url_https || m.media_url || '';
+    let url = thumb;
+    if (mtype === 'video' || mtype === 'animated_gif') {
+      const variants = (m.video_info && m.video_info.variants) || [];
+      const mp4s = variants.filter(v => v.content_type === 'video/mp4');
+      if (mp4s.length) url = mp4s.reduce((b, v) => (v.bitrate||0) > (b.bitrate||0) ? v : b).url;
+    }
+    return { type: mtype, thumb, url };
+  }).filter(m => m.thumb);
 }
 
 function buildMedia(item) {
+  // Already-archived item: serve from local disk via the media route.
   const paths = item.archived_media;
-  if (!Array.isArray(paths) || !paths.length) return '';
+  if (Array.isArray(paths) && paths.length) {
+    const archiveId = activeId;
+    const html = paths.map(p => {
+      // p = "media/filename.ext"
+      const filename = p.replace(/^media\//, '');
+      const src      = `/api/archive/${encodeURIComponent(archiveId)}/media/${encodeURIComponent(filename)}`;
+      const isVideo  = filename.endsWith('.mp4');
+      const isGif    = filename.includes('animated_gif');
 
-  const archiveId = activeId;
-  const html = paths.map(p => {
-    // p = "media/filename.ext"
-    const filename = p.replace(/^media\//, '');
-    const src      = `/api/archive/${encodeURIComponent(archiveId)}/media/${encodeURIComponent(filename)}`;
-    const isVideo  = filename.endsWith('.mp4');
-    const isGif    = filename.includes('animated_gif');
+      if (isVideo || isGif) {
+        const loop  = isGif ? 'loop muted' : '';
+        const label = isGif ? '<span class="media-badge">GIF</span>' : '';
+        return `<div class="media-item">
+          <video class="media-video" controls ${loop} preload="none">
+            <source src="${src}" type="video/mp4">
+          </video>${label}
+        </div>`;
+      }
+      return `<a href="${src}" target="_blank" rel="noopener" class="media-item">
+        <img src="${src}" class="media-thumb" alt="media" loading="lazy">
+      </a>`;
+    }).join('');
+    return `<div class="card-media">${html}</div>`;
+  }
 
-    if (isVideo || isGif) {
-      const loop  = isGif ? 'loop muted' : '';
-      const label = isGif ? '<span class="media-badge">GIF</span>' : '';
+  // Freshly expanded item, not yet checkpointed to disk — render straight
+  // from the source (video routed through the same CDN proxy the live
+  // search page uses), same as index.html's renderMedia().
+  const mediaList = extractMedia(item);
+  if (!mediaList.length) return '';
+  const html = mediaList.map(m => {
+    if (m.type === 'video' || m.type === 'animated_gif') {
+      const proxied = `/api/video?url=${encodeURIComponent(m.url)}`;
+      const loop    = m.type === 'animated_gif' ? 'loop muted' : '';
+      const poster  = m.thumb ? `poster="${esc(m.thumb)}"` : '';
+      const label   = m.type === 'animated_gif' ? '<span class="media-badge">GIF</span>' : '';
       return `<div class="media-item">
-        <video class="media-video" controls ${loop} preload="none">
-          <source src="${src}" type="video/mp4">
+        <video class="media-video" controls ${loop} ${poster} preload="none">
+          <source src="${proxied}" type="video/mp4">
         </video>${label}
       </div>`;
     }
-    return `<a href="${src}" target="_blank" rel="noopener" class="media-item">
-      <img src="${src}" class="media-thumb" alt="media" loading="lazy">
+    return `<a href="${esc(m.url)}" target="_blank" rel="noopener" class="media-item">
+      <img src="${esc(m.thumb)}" class="media-thumb" alt="media" loading="lazy">
     </a>`;
   }).join('');
-
   return `<div class="card-media">${html}</div>`;
+}
+
+// ── Inline expand-and-save (replies / retweets) ─────────────────────────────
+// Same interaction as index.html's reply threads and graph.html's node
+// expand, adapted to this read-only view: there's no separate "Archive"
+// button here, so a successful expand immediately checkpoints the fetched
+// items back into THIS SAME archive's results.json via archive.py's
+// update() (which skips re-downloading any media already on disk) — that's
+// what makes an expanded comment/reply/retweet count as saved digital
+// evidence rather than something that only ever existed in the browser tab.
+
+const EXPAND_KIND = {
+  reply: {
+    toolType: 'tweet_replies_extractor', threadSel: '.reply-thread', btnSel: '.reply-expand-btn',
+    label: n => `↩ Expand ${n} repl${n === 1 ? 'y' : 'ies'}`, hideLabel: '▲ Hide replies',
+    loadMoreLabel: 'Load more replies…', noneLabel: 'No replies found',
+  },
+  retweet: {
+    toolType: 'tweet_retweeters_extractor', threadSel: '.retweet-thread', btnSel: '.retweet-expand-btn',
+    label: n => `↗ Expand ${n} retweet${n === 1 ? '' : 's'}`, hideLabel: '▲ Hide retweets',
+    loadMoreLabel: 'Load more retweets…', noneLabel: 'No retweeters found',
+  },
+};
+
+cardsBox.addEventListener('click', (e) => {
+  const replyBtn = e.target.closest('.reply-expand-btn');
+  if (replyBtn) { toggleThread(replyBtn, 'reply'); return; }
+  const rtBtn = e.target.closest('.retweet-expand-btn');
+  if (rtBtn) { toggleThread(rtBtn, 'retweet'); return; }
+  const moreBtn = e.target.closest('.reply-load-more-btn');
+  if (moreBtn) { loadMoreThread(moreBtn); }
+});
+
+function armCountdown(btn, msRemaining, resetLabel) {
+  const secs = Math.max(1, Math.ceil(msRemaining / 1000));
+  btn.disabled    = true;
+  btn.textContent = `Wait ${secs}s…`;
+  setTimeout(() => { btn.disabled = false; btn.textContent = resetLabel(); }, msRemaining);
+}
+
+async function toggleThread(btn, kind) {
+  const cfg    = EXPAND_KIND[kind];
+  const wrap   = btn.closest('.card-thread-wrap');
+  const thread = wrap.querySelector(`:scope > ${cfg.threadSel}`);
+
+  // Already fetched once — just show/hide, no new request (mirrors
+  // index.html's toggleReplyThread()).
+  if (thread.dataset.loaded === '1') {
+    const nowHidden = thread.classList.toggle('hidden');
+    btn.textContent = nowHidden ? cfg.label(Number(btn.dataset.count)) : cfg.hideLabel;
+    return;
+  }
+
+  const tweetId   = btn.dataset.tweetId;
+  const remaining = cooldownUntil.cookie - Date.now();
+  if (remaining > 0) {
+    armCountdown(btn, remaining, () => cfg.label(Number(btn.dataset.count)));
+    return;
+  }
+
+  btn.disabled    = true;
+  btn.textContent = 'Loading…';
+
+  try {
+    const res  = await fetch('/api/run', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ toolType: cfg.toolType, mode: 'cookie', count: 20, targetTweetId: tweetId }),
+    });
+    const json = await res.json();
+    stampCooldown(['cookie']);
+
+    if (!json.ok) {
+      if (res.status === 429 && json.retryAfter) {
+        armCountdown(btn, json.retryAfter * 1000, () => cfg.label(Number(btn.dataset.count)));
+        return;
+      }
+      btn.disabled    = false;
+      btn.textContent = 'Failed — retry';
+      return;
+    }
+
+    const items = Array.isArray(json.data) ? json.data : [json.data];
+    thread.innerHTML      = items.map(it => buildCard(it, true)).join('');
+    thread.dataset.loaded = '1';
+    if (json.nextCursor) {
+      thread.dataset.cursor = json.nextCursor;
+      thread.insertAdjacentHTML('beforeend',
+        `<button type="button" class="reply-load-more-btn" data-kind="${kind}" data-tweet-id="${esc(tweetId)}">${cfg.loadMoreLabel}</button>`);
+    }
+    thread.classList.remove('hidden');
+    btn.disabled    = !items.length;
+    btn.textContent = items.length ? cfg.hideLabel : cfg.noneLabel;
+
+    // Fold the newly-fetched items into this archive's own dataset and
+    // checkpoint-save immediately — this is the "counts as evidence" step.
+    if (items.length) {
+      allItems = allItems.concat(items);
+      saveExpansion(wrap.querySelector('[data-role="save-indicator"]'));
+    }
+  } catch (err) {
+    btn.disabled    = false;
+    btn.textContent = 'Failed — retry';
+  }
+}
+
+async function loadMoreThread(moreBtn) {
+  const kind    = moreBtn.dataset.kind;
+  const cfg     = EXPAND_KIND[kind];
+  const thread  = moreBtn.closest(cfg.threadSel);
+  const tweetId = moreBtn.dataset.tweetId;
+  const cursor  = thread.dataset.cursor;
+  if (!cursor) { moreBtn.remove(); return; }
+
+  const remaining = cooldownUntil.cookie - Date.now();
+  if (remaining > 0) {
+    armCountdown(moreBtn, remaining, () => cfg.loadMoreLabel);
+    return;
+  }
+
+  moreBtn.disabled    = true;
+  moreBtn.textContent = 'Loading…';
+
+  try {
+    const res  = await fetch('/api/run', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ toolType: cfg.toolType, mode: 'cookie', count: 20, targetTweetId: tweetId, cursor }),
+    });
+    const json = await res.json();
+    stampCooldown(['cookie']);
+
+    if (!json.ok) {
+      if (res.status === 429 && json.retryAfter) {
+        armCountdown(moreBtn, json.retryAfter * 1000, () => cfg.loadMoreLabel);
+        return;
+      }
+      moreBtn.disabled    = false;
+      moreBtn.textContent = 'Failed — retry';
+      return;
+    }
+
+    const items = Array.isArray(json.data) ? json.data : [json.data];
+    moreBtn.insertAdjacentHTML('beforebegin', items.map(it => buildCard(it, true)).join(''));
+    if (json.nextCursor) {
+      thread.dataset.cursor = json.nextCursor;
+      moreBtn.disabled       = false;
+      moreBtn.textContent    = cfg.loadMoreLabel;
+    } else {
+      moreBtn.remove();
+    }
+
+    if (items.length) {
+      allItems = allItems.concat(items);
+      const wrap = moreBtn.closest('.card-thread-wrap');
+      saveExpansion(wrap.querySelector('[data-role="save-indicator"]'));
+    }
+  } catch (err) {
+    moreBtn.disabled    = false;
+    moreBtn.textContent = 'Failed — retry';
+  }
+}
+
+// Checkpoints allItems (the archive's original contents plus everything
+// expanded so far) back into the SAME archive_id — archive.py's update()
+// overwrites results.json/meta.json in place and skips re-downloading any
+// media already on disk, so this is cheap enough to call after every expand.
+let savingCheckpoint = false;
+async function saveExpansion(indicatorEl) {
+  if (!activeId || savingCheckpoint) return;
+  savingCheckpoint = true;
+  if (indicatorEl) { indicatorEl.textContent = 'Saving to archive…'; indicatorEl.className = 'save-indicator'; }
+
+  try {
+    const res  = await fetch('/api/archive', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        toolType:  activeMeta.tool || 'unknown',
+        data:      allItems,
+        queryInfo: activeMeta.query || {},
+        archiveId: activeId,
+      }),
+    });
+    const json = await res.json();
+    if (!json.ok) throw new Error(json.error);
+    if (indicatorEl) { indicatorEl.textContent = '✓ Saved to archive'; indicatorEl.className = 'save-indicator ok'; }
+
+    // Keep the sidebar's item count in sync without a full re-fetch.
+    const entry = allArchives.find(a => a.id === activeId);
+    if (entry) { entry.total_items = allItems.length; renderArchiveList(archiveSearch.value); }
+    viewerSub.textContent = [
+      activeMeta.archived_at ? activeMeta.archived_at.replace('T', ' ') : '',
+      `${allItems.length} items`,
+      activeMeta.media_count ? `${activeMeta.media_count} media files` : '',
+    ].filter(Boolean).join(' · ');
+  } catch (e) {
+    if (indicatorEl) { indicatorEl.textContent = 'Save failed: ' + e.message; indicatorEl.className = 'save-indicator err'; }
+  } finally {
+    savingCheckpoint = false;
+  }
 }
 
 // ── Delete ────────────────────────────────────────────────────────────────────
@@ -790,8 +1333,9 @@ deleteBtn.addEventListener('click', async () => {
   const json = await res.json();
   if (!json.ok) { alert('Delete failed: ' + json.error); return; }
 
-  activeId  = null;
-  allItems  = [];
+  activeId   = null;
+  allItems   = [];
+  activeMeta = {};
   cardsBox.innerHTML       = '<div class="empty-state">Archive deleted. Select another from the sidebar.</div>';
   viewerTop.style.display  = 'none';
   loadSidebar();

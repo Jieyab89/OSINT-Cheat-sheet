@@ -1,4 +1,5 @@
 import json
+import os
 import re
 import secrets
 import shutil
@@ -535,11 +536,29 @@ def archive_results(archive_id):
     meta_file    = base / "meta.json"
     if not results_file.exists():
         return jsonify({"ok": False, "error": "Archive not found"}), 404
-    return jsonify({
-        "ok":      True,
-        "results": json.loads(results_file.read_text()),
-        "meta":    json.loads(meta_file.read_text()) if meta_file.exists() else {},
-    })
+
+    # json.loads() raising here used to fall through to Flask's default
+    # error handler, which returns an HTML error page — the browser's
+    # res.json() then fails with an opaque "SyntaxError: JSON.parse:
+    # unexpected character..." instead of the actual problem. archive.py now
+    # writes both files atomically (see _atomic_write_json), so a reader
+    # should never see a torn file mid-checkpoint-update; this is the
+    # backstop for any other cause (disk fault, a pre-existing archive
+    # written before that fix, manual editing) — always answer with clean
+    # JSON either way.
+    try:
+        results = json.loads(results_file.read_text())
+    except (json.JSONDecodeError, OSError) as e:
+        return jsonify({"ok": False, "error": f"Archive data is corrupted or unreadable ({e}). Try re-running the search and archiving again."}), 500
+
+    meta = {}
+    if meta_file.exists():
+        try:
+            meta = json.loads(meta_file.read_text())
+        except (json.JSONDecodeError, OSError):
+            pass   # meta is supplementary — a corrupt/missing meta shouldn't block viewing the results that DID load fine
+
+    return jsonify({"ok": True, "results": results, "meta": meta})
 
 
 @app.route("/api/archive/<archive_id>/media/<path:filename>")
@@ -590,23 +609,95 @@ def archive_list():
 
 
 # ── Analytics (sentiment / clustering) ──────────────────────────────────────
+# Same background-thread + polling shape archive.py's downloads already use
+# (start() kicks off a thread and returns immediately, status() reports
+# progress) — ML sentiment scoring runs locally on CPU at ~11-12ms/item
+# (measured), so a large archive (thousands of items) can take a minute-plus.
+# A blocking request for that long leaves the browser with nothing to show
+# but a static spinner and no way to tell "still working" from "stuck."
+
+_analytics_registry: dict[str, dict] = {}   # archive_id -> job status dict
+_analytics_lock = threading.Lock()
+
+
+def _run_analytics(archive_id: str, items: list) -> None:
+    def on_progress(done, total):
+        with _analytics_lock:
+            entry = _analytics_registry.get(archive_id)
+            if entry is not None:   # could've been cleared/overwritten by a re-run
+                entry.update({"progress": done, "total": total})
+
+    try:
+        result = _sentiment.analyze(items, on_progress=on_progress)
+        with _analytics_lock:
+            _analytics_registry[archive_id] = {
+                "status": "done", "progress": result.get("total_scored", 0),
+                "total": result.get("total_scored", 0), "result": result, "error": None,
+            }
+    except Exception as e:  # noqa: BLE001
+        with _analytics_lock:
+            _analytics_registry[archive_id] = {
+                "status": "error", "progress": 0, "total": 0, "result": None, "error": str(e),
+            }
+
 
 @app.route("/analytics")
 def analytics_viewer():
     return render_template("analytics.html")
 
 
-@app.route("/api/analytics/<archive_id>")
-def analytics_run(archive_id):
+@app.route("/api/analytics/<archive_id>/start", methods=["POST"])
+def analytics_start(archive_id):
     results_file = _archive.ARCHIVE_ROOT / archive_id / "results.json"
     if not results_file.exists():
         return jsonify({"ok": False, "error": "Archive not found"}), 404
-    items = json.loads(results_file.read_text())
-    return jsonify({"ok": True, **_sentiment.analyze(items)})
+    # Same reasoning as archive_results() above — never let a bad file turn
+    # into an HTML error page here either, or the browser's res.json() call
+    # fails with an opaque parse error instead of a readable message.
+    try:
+        items = json.loads(results_file.read_text())
+    except (json.JSONDecodeError, OSError) as e:
+        return jsonify({"ok": False, "error": f"Archive data is corrupted or unreadable ({e}). Try re-running the search and archiving again."}), 500
+
+    with _analytics_lock:
+        _analytics_registry[archive_id] = {
+            "status": "scoring", "progress": 0, "total": 0, "result": None, "error": None,
+        }
+    t = threading.Thread(target=_run_analytics, args=(archive_id, items), daemon=True)
+    t.start()
+    return jsonify({"ok": True})
+
+
+@app.route("/api/analytics/<archive_id>/status")
+def analytics_status(archive_id):
+    with _analytics_lock:
+        entry = _analytics_registry.get(archive_id)
+        entry = dict(entry) if entry else None
+    if entry is None:
+        return jsonify({"ok": False, "error": "No analysis running for this archive — call start first"}), 404
+    if entry["status"] == "error":
+        return jsonify({"ok": False, "error": entry["error"]}), 500
+
+    resp = {"ok": True, "status": entry["status"], "progress": entry["progress"], "total": entry["total"]}
+    if entry["status"] == "done":
+        resp.update(entry["result"])
+    return jsonify(resp)
 
 
 if __name__ == "__main__":
     host  = config.get("server", "host",  fallback="127.0.0.1")
     port  = config.getint("server", "port", fallback=5000)
     debug = config.getboolean("server", "debug", fallback=True)
+
+    # Warm up the ML sentiment model in the background so the FIRST
+    # analytics request doesn't pay its ~15-20s one-time load cost live —
+    # see sentiment.warm_up_ml()'s docstring. Skipped in the reloader's
+    # outer "monitor" process (debug mode re-execs a child process to
+    # actually serve requests, setting WERKZEUG_RUN_MAIN in that child
+    # only) — otherwise a process that never serves a single request would
+    # load ~1GB of model weights for nothing, repeating on every autoreload
+    # during dev.
+    if not debug or os.environ.get("WERKZEUG_RUN_MAIN") == "true":
+        threading.Thread(target=_sentiment.warm_up_ml, daemon=True).start()
+
     app.run(host=host, port=port, debug=debug, threaded=True)

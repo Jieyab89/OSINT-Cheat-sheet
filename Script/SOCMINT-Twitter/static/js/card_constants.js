@@ -45,3 +45,85 @@ const DRILLABLE = {
 
 const SOURCE_CLASS = { 'Twitter Cookie': 'src-cookie', 'Xquik API': 'src-xquik', 'Wayback Machine': 'src-wayback', 'Google CSE': 'src-cse' };
 const AGE_LABELS   = { new: 'New account', recent: 'Recent account', established: 'Established account' };
+
+// ── Shared profile header (avatar/name/handle/banner/bio) ──────────────────
+// Used by buildCard() in both index.html (live results) and archive.html
+// (saved archives) so a record's author identity renders byte-identically
+// whether you're looking at it live or after it's been archived — previously
+// archive.html had no equivalent at all, so a saved card silently dropped
+// the avatar/name/handle/bio/banner that the live card showed for the exact
+// same record. `esc()` is expected to already be defined as a global by the
+// time this actually runs (each page defines its own, loaded in a later
+// <script> block — this file only *calls* esc() inside functions, it never
+// runs at parse time, so load order is fine).
+
+// Only a plain https URL (no quotes/angle-brackets/whitespace/parens) is
+// ever interpolated into the CSS url('...') background-image — that goes
+// through a second parsing pass CSS-side, so HTML-attribute escaping alone
+// isn't sufficient there the way it is for a plain <img src>. Rejecting
+// anything but a clean https URL up front closes that off rather than
+// trying to escape a value for two contexts (HTML attribute + CSS token)
+// wedged into one string.
+function isSafeImageUrl(u) {
+  return typeof u === 'string' && /^https:\/\/[^\s'"<>()]+$/.test(u);
+}
+
+// Returns { html, usedFields } instead of just a string — buildCard() needs
+// to know exactly which raw keys actually ended up rendered in the header
+// so it can drop only THOSE from the generic row list. A static "always hide
+// these field names" list doesn't work here: CSE/Wayback records also have a
+// `description` field (Google's own snippet) that this header never touches
+// (no avatar/name/handle on those records, so it returns empty) — hiding it
+// unconditionally would silently delete the one thing the user asked to see.
+function buildCardHeader(item) {
+  const avatarRaw = item.avatar || item.user_avatar || '';
+  const avatar    = isSafeImageUrl(avatarRaw) ? avatarRaw : '';
+  const name      = item.name || '';
+  const handle    = item.screen_name || item.user || item.username || '';
+
+  if (!avatar && !name && !handle) return { html: '', usedFields: [] };
+
+  const usedFields = [];
+  if (avatar) usedFields.push(item.avatar ? 'avatar' : 'user_avatar');
+  if (name) usedFields.push('name');
+  if (handle) usedFields.push(item.screen_name ? 'screen_name' : item.user ? 'user' : 'username');
+
+  const avatarHtml = avatar
+    ? `<img class="card-avatar" src="${esc(avatar)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
+    : (name || handle)
+      ? `<div class="card-avatar card-avatar-fallback">${esc((name || handle).charAt(0).toUpperCase())}</div>`
+      : '';
+  const identityHtml = (name || handle)
+    ? `<div class="card-identity">
+        ${name ? `<div class="card-name">${esc(name)}</div>` : ''}
+        ${handle ? `<div class="card-handle">@${esc(handle)}</div>` : ''}
+      </div>`
+    : '';
+
+  // A tweet or reply already leads with its own text a few rows down — a
+  // full cover-photo-plus-bio header buries that under the *author's*
+  // profile instead of the actual reply content. Those get a small inline
+  // byline only; the full profile-card treatment (banner + bio) is reserved
+  // for records that ARE a user — follower/retweeter results, not tweets a
+  // user happened to write.
+  const isTweetLike = item.text !== undefined || item.full_text !== undefined || item.article_text !== undefined;
+  if (isTweetLike) {
+    return { html: `<div class="card-byline">${avatarHtml}${identityHtml}</div>`, usedFields };
+  }
+
+  const bannerRaw = item.banner || item.user_banner || '';
+  const banner    = isSafeImageUrl(bannerRaw) ? bannerRaw : '';
+  const bio       = item.description || item.user_bio || '';
+  if (banner) usedFields.push(item.banner ? 'banner' : 'user_banner');
+  if (bio) usedFields.push(item.description ? 'description' : 'user_bio');
+
+  const bioHtml = bio ? `<div class="card-bio">${esc(bio)}</div>` : '';
+  const bannerHtml = banner
+    ? `<div class="card-banner" style="background-image:url('${esc(banner)}')"></div>`
+    : '';
+
+  return {
+    html: `<div class="card-header${banner ? ' has-banner' : ''}">${bannerHtml}<div class="card-header-row">${avatarHtml}${identityHtml}</div>${bioHtml}</div>`,
+    usedFields,
+  };
+}
