@@ -8,8 +8,8 @@ import time
 urls = {
     "readme": "https://raw.githubusercontent.com/Jieyab89/OSINT-Cheat-sheet/refs/heads/main/README.md",
     "wiki": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki",
-    "articles": "https://raw.githubusercontent.com/Jieyab89/OSINT-Cheat-sheet/main/awesome-article.md"
-    #"scripts": "https://github.com/Jieyab89/OSINT-Cheat-sheet/blob/main/Script/README.md" soon
+    "articles": "https://raw.githubusercontent.com/Jieyab89/OSINT-Cheat-sheet/main/awesome-article.md",
+    "scripts": "https://raw.githubusercontent.com/Jieyab89/OSINT-Cheat-sheet/main/Script/README.md"
 }
 
 headers = {
@@ -37,11 +37,10 @@ current_category = None
 
 def parse_markdown_md(url):
     time.sleep(6)
-    response = requests.get(url, headers=headers, timeout=30)    
-    # response = requests.get(url)
+    response = requests.get(url, headers=headers, timeout=30)
     time.sleep(6)
     response = requests.get(url, headers=headers, timeout=30)
-    
+
     if response.status_code != 200:
         print(f"[-] Failed to fetch: {url}")
         return {}
@@ -66,12 +65,8 @@ def parse_markdown_md(url):
     return parsed
 
 def parse_github_wiki(url):
-    wiki_items = []
-
     time.sleep(6)
     response = requests.get(url, headers=headers, timeout=30)
-    wiki_items = []
-    # response = requests.get(url)
     time.sleep(6)
     response = requests.get(url, headers=headers, timeout=30)
 
@@ -79,6 +74,7 @@ def parse_github_wiki(url):
         print(f"[-] Failed to fetch: {url}")
         return {}
 
+    wiki_items = []
     soup = BeautifulSoup(response.text, "html.parser")
     for link in soup.select(".wiki-pages-box a"):
         title = link.text.strip()
@@ -91,6 +87,7 @@ def parse_github_wiki(url):
 
 new_categories.update(parse_markdown_md(urls["readme"]))
 new_categories.update(parse_markdown_md(urls["articles"]))
+new_categories.update(parse_markdown_md(urls["scripts"]))
 new_categories.update(parse_github_wiki(urls["wiki"]))
 
 for category, new_data in new_categories.items():
