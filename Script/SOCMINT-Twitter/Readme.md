@@ -267,6 +267,10 @@ Sentiment Analysis
 
 <img width="2553" height="1225" alt="Image" src="https://github.com/user-attachments/assets/0b10340a-1503-434a-9015-1719e169a664" />
 
+Follower and Following 
+
+<img width="2552" height="1226" alt="image" src="https://github.com/user-attachments/assets/d61d4b5d-f4eb-4b98-af59-7a77bf896f86" />
+
 # Help
 
 About SnowflakeID -> Twitter userid : https://en.wikipedia.org/wiki/Snowflake_ID

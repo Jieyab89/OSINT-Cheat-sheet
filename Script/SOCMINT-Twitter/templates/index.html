@@ -895,6 +895,7 @@ const PAGINATED_TOOLS = new Set([
   'wayback_archive_search', 'multi_source_search',
 ]);
 const THROTTLE_SECONDS = 5;
+const SOURCE_LABEL_MAP = { cookie: 'Twitter Cookie', xquik: 'Xquik API', wayback: 'Wayback Machine', cse: 'Google CSE' };
 
 let nextCursor    = null;
 let loadingMore    = false;
@@ -1575,13 +1576,38 @@ async function doLoadMore(sources) {
     currentData = (Array.isArray(currentData) ? currentData : [currentData]).concat(newItems);
     appendCards(newItems, searchInput.value);
     nextCursor = json.nextCursor || null;
-    loadMoreStatus.classList.remove('visible');
+
+    // multi_source_search: a source can legitimately run out (Wayback CDX
+    // has a finite match list, Google CSE is hard-capped well under the
+    // daily quota) or fail transiently (network blip, quota hit) on any
+    // given page — without this, that source just silently stops
+    // contributing and it looks like a bug rather than an explainable gap.
+    if (json.sourceErrors && Object.keys(json.sourceErrors).length) {
+      showSourceErrors(json.sourceErrors);
+    } else {
+      loadMoreStatus.classList.remove('visible');
+    }
   } catch (e) {
     loadMoreStatus.textContent = `Load more failed: ${e}`;
   } finally {
     loadingMore = false;
     maybeAutoContinue();
   }
+}
+
+// Shows which multi_source_search lanes didn't contribute this page and
+// why, for a few seconds, then clears — a source running dry (no more
+// matches) and a source failing (network/quota) look identical from the
+// item count alone, so both get spelled out rather than left silent.
+function showSourceErrors(errors) {
+  const lines = Object.entries(errors)
+    .map(([key, msg]) => `${esc(SOURCE_LABEL_MAP[key] || key)}: ${esc(msg)}`);
+  loadMoreStatus.classList.add('visible');
+  loadMoreStatus.innerHTML = `<span class="load-more-note">${lines.join(' · ')}</span>`;
+  clearTimeout(showSourceErrors._t);
+  showSourceErrors._t = setTimeout(() => {
+    loadMoreStatus.classList.remove('visible');
+  }, 6000);
 }
 
 // root: null (the browser viewport) — .output has `overflow: auto` but is
