@@ -40,9 +40,9 @@
   raw results, including downloaded media, browsable and re-searchable later
   independent of whether the source is still reachable.
 - **Analytics** (`/analytics`) — sentiment clustering (pro / neutral / con)
-  over a saved archive, plus who posts most, what's driving the most
-  engagement, and word frequency — see [Sentiment Analysis](#sentiment-analysis)
-  below.
+  over a saved archive, a Maltego-style social network graph, plus who posts
+  most, what's driving the most engagement, and word frequency — see
+  [Sentiment Analysis](#sentiment-analysis) below.
 - **Account-age forensics** — every result with a numeric X/Twitter ID gets
   its account creation date decoded straight from the ID's Snowflake bits
   (no extra API call), flagged New / Recent / Established.
@@ -52,34 +52,92 @@
   URL-scheme validation everywhere a scraped link is rendered as an image or
   embedded in CSS.
 
-# Sett up 
-
-1. Config your Google api console here, enable and manage API Custom Search by Google  
-
-<img width="2536" height="1210" alt="enable" src="https://github.com/user-attachments/assets/17aca5db-9869-40f0-8a9b-58eae51dce6c" />
-
-2. Sett the api key in web console Google 
-
-<img width="891" height="1354" alt="g-api" src="https://github.com/user-attachments/assets/1df5201e-9d8d-4450-9c46-cc83cb35eaba" />
-
-Check the result in the table 
-
-<img width="2121" height="1218" alt="g - api result" src="https://github.com/user-attachments/assets/1763dc2f-2382-4c94-8973-90f98678d477" />
-
-3. Settings CSE Google to put the cx key 
-
-<img width="2533" height="1254" alt="cx key" src="https://github.com/user-attachments/assets/b8d04387-2ac9-4302-8b04-2ea1873e610a" />
-
-4. Add site want to crawll e.g twitter.com and x.com 
-
-<img width="868" height="886" alt="add host and domain twitter" src="https://github.com/user-attachments/assets/caecb9d5-85c7-4fdb-8e38-e4acfc55630e" />
-
-## Data Source 
+## Data Source
 
 1. Xquik API (subs there is a price)
 2. Cookie (your account cookie session)  
 3. Wayback Machine (Cdx API)
 4. Goole CSE API (free quota 100 per day u can increase u limit with buy the service)
+
+## Setup
+
+**1. Create a virtual environment** (a private folder for this project's
+Python packages, kept separate from anything else on your machine — only
+needs doing once):
+
+```bash
+python3 -m venv .venv
+```
+
+**2. Activate it** (do this every time you come back to work on the
+project):
+
+- macOS / Linux: `source .venv/bin/activate`
+- Windows (Command Prompt): `.venv\Scripts\activate.bat`
+- Windows (PowerShell): `.venv\Scripts\Activate.ps1`
+
+Your terminal prompt should now start with `(.venv)`.
+
+**3. Install dependencies:**
+
+```bash
+pip install -r requirements.txt
+```
+
+This installs Flask, the scraping/API clients, and the multilingual
+sentiment model's packages (`torch`, `transformers`) in one go — see
+[Sentiment Analysis](#sentiment-analysis) for what that model does. If your
+machine has no NVIDIA GPU, torch's default download can be a few GB larger
+than it needs to be; keep it small by running this once first, then
+installing as above:
+
+```bash
+pip install --index-url https://download.pytorch.org/whl/cpu torch
+```
+
+Whenever the project's dependencies change (new features, updates), just
+re-run:
+
+```bash
+pip install -r requirements.txt --upgrade
+```
+
+**4. Configure the Google CSE data source** (optional — only needed if you
+want that source; everything else works without it):
+
+1. Enable "Custom Search API" in the Google API Console.
+
+<img width="2536" height="1210" alt="enable" src="https://github.com/user-attachments/assets/17aca5db-9869-40f0-8a9b-58eae51dce6c" />
+
+2. Get an API key.
+
+<img width="891" height="1354" alt="g-api" src="https://github.com/user-attachments/assets/1df5201e-9d8d-4450-9c46-cc83cb35eaba" />
+
+Check the result in the table.
+
+<img width="2121" height="1218" alt="g - api result" src="https://github.com/user-attachments/assets/1763dc2f-2382-4c94-8973-90f98678d477" />
+
+3. Set up a Programmable Search Engine to get a `cx` key.
+
+<img width="2533" height="1254" alt="cx key" src="https://github.com/user-attachments/assets/b8d04387-2ac9-4302-8b04-2ea1873e610a" />
+
+4. Add the sites to crawl, e.g. `twitter.com` and `x.com`.
+
+<img width="868" height="886" alt="add host and domain twitter" src="https://github.com/user-attachments/assets/caecb9d5-85c7-4fdb-8e38-e4acfc55630e" />
+
+**5. Copy `config.ini.example` to `config.ini`** and fill in your keys.
+
+**6. Run the app:**
+
+```bash
+python app.py
+```
+
+Open `http://127.0.0.1:5000`.
+
+The first time you open the Analytics page, it downloads the sentiment
+model (~1.1GB) from Hugging Face automatically — needs an internet
+connection once, then it's cached locally and loads instantly after that.
 
 ## Usage
 
@@ -134,6 +192,11 @@ aggregates over it:
 - **Sentiment clustering** — every item with text gets classified **pro** /
   **neutral** / **con**, shown as a diverging bar plus per-category tiles
   you can click to filter the item list below.
+- **Social network graph** — click **View as Graph** to see accounts as
+  nodes, sized by how many items they posted in this archive and colored by
+  their own pro/neutral/con mix, Maltego-style. Edges show reply
+  relationships found in the archive; click a node to see its per-account
+  sentiment breakdown.
 - **Most active accounts** — who shows up most often in that archive.
 - **Most engagement** — which items drove the most reply+retweet+like
   activity.
@@ -167,99 +230,6 @@ The `/api/analytics/<archive_id>` response always reports which backend
 banner reflects it. Neither backend is a ground-truth classifier — short
 text, sarcasm, and irony degrade accuracy either way. Treat results as a
 starting point for investigation, not a verdict.
-
-## Settup
-
-```bash
-pip install -r requirements.txt
-```
-
-Edit `config.ini.example` to config.ini 
-
-## Installing the ML sentiment model (optional, recommended)
-
-The Analytics page's sentiment scoring works two ways — see
-[Sentiment Analysis](#sentiment-analysis) above. Skipping everything on this
-page is completely fine: the app still runs and Analytics still works, just
-using the Indonesian-only lexicon instead of the multilingual model. This
-section is only for turning on the better (multilingual) one. **You don't
-need to know Python or be a developer to follow this — it's copy/paste.**
-
-**Why a "virtual environment" (venv)?** It's just a private, throwaway
-folder for this project's Python packages, kept separate from anything else
-Python-related already on your computer. The ML packages (`torch`,
-`transformers`) are large and can conflict with other unrelated tools if
-installed system-wide — a venv avoids that entirely, and if anything ever
-goes wrong, you just delete the `.venv` folder and start over, nothing else
-on your machine is touched.
-
-**1. Open a terminal in this project's folder** (the same folder as
-`app.py`).
-
-**2. Create the venv** (only needs to be done once):
-
-```bash
-python3 -m venv .venv
-```
-
-**3. Activate it** (needs to be done every time you open a new terminal to
-work on this project):
-
-- macOS / Linux:
-  ```bash
-  source .venv/bin/activate
-  ```
-- Windows (Command Prompt):
-  ```bat
-  .venv\Scripts\activate.bat
-  ```
-- Windows (PowerShell):
-  ```powershell
-  .venv\Scripts\Activate.ps1
-  ```
-
-Your terminal prompt should now start with `(.venv)` — that means it's
-active and every `pip install` from here on stays inside this project's
-private folder.
-
-**4. Install everything** (the base app + the ML packages), in this order:
-
-```bash
-pip install --upgrade pip
-pip install flask requests twifork
-pip install --index-url https://download.pytorch.org/whl/cpu torch
-pip install transformers sentencepiece protobuf
-```
-
-The third line is deliberately its own command — installing `torch` the
-plain way can pull down a multi-gigabyte GPU-enabled build depending on your
-system, when this app only ever needs the much smaller CPU version. Using
-that exact command is what keeps the download small.
-
-**5. Run the app as usual** (make sure `.venv` is still active — you'll see
-`(.venv)` in your prompt):
-
-```bash
-python app.py
-```
-
-The **first time** you use the Analytics page after this, it will download
-the sentiment model itself (~1.1GB) from Hugging Face automatically — this
-needs an internet connection and can take a few minutes depending on your
-connection, but only happens once. After that, it's cached on your computer
-and loads instantly.
-
-**Next time you come back to work on this project**, you only need step 3
-again (activate) before running the app — steps 1, 2, and 4 are one-time
-setup.
-
-## Run Local Web Server 
-
-```bash
-python app.py
-```
-
-Open `http://127.0.0.1:5000`
 
 # Results 
 
