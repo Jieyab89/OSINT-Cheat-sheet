@@ -413,6 +413,11 @@ Simulation and Labs
 - [SigPloit](https://github.com/SigPloiter/SigPloit)
 - [How to use the SS7 module](https://github.com/SigPloiter/SigPloit/wiki/3--How-to-use-the-SS7-module)
 
+Resources 
+
+- [awesome-telco](https://github.com/ravens/awesome-telco)
+- [5G-Repo](https://github.com/shotsan/5G-Repo)
+
 # Code Search
 
 - [gitdb](https://gitdb.net/)
