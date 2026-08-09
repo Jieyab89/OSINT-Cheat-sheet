@@ -356,6 +356,8 @@ Hardware
 - [Walkie-talkie](https://en.wikipedia.org/wiki/Walkie-talkie)
 - [flipper](https://flipper.net/)
 - [raspberrypi](https://www.raspberrypi.com/)
+- [limesdr](https://limemicro.com/boards/limesdr/)
+- [Faraday Bags Signal Blocking](https://www.amazon.com/Simket-Fireproof-Waterproof-Anti-Tracking-Shielding/dp/B0BZCFXN8X)
 
 Software 
 
@@ -382,7 +384,8 @@ U can integrate with commercial satellite platform like Sentinel, Planet labs an
 
 Simulation and Labs 
 
-Soon will aded 
+- [SigPloit](https://github.com/SigPloiter/SigPloit)
+- [How to use the SS7 module](https://github.com/SigPloiter/SigPloit/wiki/3--How-to-use-the-SS7-module)
 
 # Code Search
 
