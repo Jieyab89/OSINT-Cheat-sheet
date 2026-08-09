@@ -473,6 +473,7 @@
     text-overflow: ellipsis;
   }
   .card-handle { font-size: 12px; color: var(--muted); }
+  .verified-badge { color: var(--accent); font-weight: 700; font-size: 0.85em; margin-left: 3px; }
   .card-bio {
     margin-top: 8px;
     font-size: 12px;
@@ -899,6 +900,7 @@ const SOURCE_LABEL_MAP = { cookie: 'Twitter Cookie', xquik: 'Xquik API', wayback
 
 let nextCursor    = null;
 let loadingMore    = false;
+let lastLoadFailed = false;   // set by a failed load-more; only maybeAutoContinue() checks it — a manual scroll retry (maybeLoadMore) ignores it entirely
 let cooldownUntil  = { cookie: 0, wayback: 0 };   // Date.now()-based timestamps
 let cooldownTimer  = null;
 
@@ -1071,7 +1073,7 @@ function flatText(obj) {
 // PRIORITY / DRILLABLE / SOURCE_CLASS / AGE_LABELS come from
 // static/js/card_constants.js, loaded above — shared with archive.html.
 const SKIP      = ['profile_image_url','profile_banner_url','entities','extended_entities','urls','media','indices'];
-const CLAMP     = new Set(['text','full_text','content','description','bio','article_text','retweeted_text','retweeted_by_bio','post_text']);
+const CLAMP     = new Set(['text','full_text','content','description','bio','article_text','retweeted_text','retweeted_by_bio','post_text','quoted_text']);
 
 // ── Media helpers ─────────────────────────────────────────────────────────────
 
@@ -1217,7 +1219,7 @@ function buildCard(item, nested = false) {
       const cls = CLAMP.has(k) ? ' clamp' : '';
       display = `<span class="${cls}">${esc(String(v))}</span>`;
     }
-    const rtCls = k.startsWith('retweeted_') ? ' rt-origin' : '';
+    const rtCls = (k.startsWith('retweeted_') || k.startsWith('quoted_')) ? ' rt-origin' : '';
     return `<div class="card-row${rtCls}"><div class="card-key">${esc(k)}</div><div class="card-val">${display}</div></div>`;
   }).join('');
   const media = extractMedia(item);
@@ -1408,6 +1410,7 @@ function armReplyCountdown(btn, msRemaining, resetLabel) {
 function resetPagination() {
   nextCursor      = null;
   loadingMore     = false;
+  lastLoadFailed  = false;
   archivedId      = null;
   archiveBtn.textContent = 'Archive';
   archiveBar.style.display = 'none';
@@ -1446,6 +1449,14 @@ function currentItemCount() {
 function maybeAutoContinue() {
   if (!currentPayload || !currentPayload.count) return;
   if (currentItemCount() >= currentPayload.count) return;
+  // A failed page (see doLoadMore()'s !json.ok branch) does NOT stop
+  // pagination outright anymore — nextCursor stays put so a deliberate
+  // scroll back into the sentinel still retries with it. What stops here
+  // is only the automatic chain: without this check, a persistently broken
+  // request (an expired cookie, a source that's down) would retry itself
+  // forever every ~5s in the background. maybeLoadMore() itself doesn't
+  // check this flag, so a manual retry is never blocked by it.
+  if (lastLoadFailed) return;
   maybeLoadMore();
 }
 
@@ -1497,11 +1508,22 @@ async function doLoadMore(sources) {
         armCountdown(json.retryAfter * 1000);
         return;
       }
-      loadMoreStatus.textContent = `Load more failed: ${json.error}`;
-      nextCursor = null;
+      // A generic failure here used to null nextCursor outright, which
+      // permanently ended pagination even for a one-off transient blip —
+      // the only way forward was starting an entirely new search from
+      // scratch. Old data was never lost either way (currentData is never
+      // touched on failure), but being unable to keep exploring the SAME
+      // search past a momentary hiccup was the actual problem. nextCursor
+      // is left exactly as it was, so scrolling the sentinel back into view
+      // retries with it; maybeAutoContinue() is what stops the automatic
+      // chain (via lastLoadFailed) so a persistently broken request doesn't
+      // just retry itself forever in the background instead.
+      lastLoadFailed = true;
+      loadMoreStatus.textContent = `Load more failed: ${json.error} — scroll down to retry`;
       return;
     }
 
+    lastLoadFailed = false;
     const newItems = Array.isArray(json.data) ? json.data : [json.data];
     currentData = (Array.isArray(currentData) ? currentData : [currentData]).concat(newItems);
     appendCards(newItems, searchInput.value);
@@ -1518,7 +1540,8 @@ async function doLoadMore(sources) {
       loadMoreStatus.classList.remove('visible');
     }
   } catch (e) {
-    loadMoreStatus.textContent = `Load more failed: ${e}`;
+    lastLoadFailed = true;
+    loadMoreStatus.textContent = `Load more failed: ${e} — scroll down to retry`;
   } finally {
     loadingMore = false;
     maybeAutoContinue();

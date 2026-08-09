@@ -115,6 +115,34 @@
   #queryInput { flex: 1; min-width: 200px; }
   #countInput { width: 68px; }
 
+  /* ── Archive read-only mode — replaces the search controls when this page
+     was opened as "View as Graph" from a saved archive instead of a live
+     search. No query/tool/mode/count inputs, no Search/Archive All buttons:
+     nothing here can trigger a new fetch, only visualize what's already in
+     the archive's JSON. */
+  #archiveModeLabel {
+    display: none;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--muted);
+    flex: 1;
+    min-width: 200px;
+  }
+  #archiveModeLabel .amb-pill {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 2px 8px;
+    border-radius: 20px;
+    background: var(--accent-bg);
+    color: #818cf8;
+    border: 1px solid #34348a;
+    flex-shrink: 0;
+  }
+  #archiveModeText { color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
   /* ── Buttons ── */
   .btn {
     padding: 5px 12px;
@@ -262,6 +290,7 @@
     text-overflow: ellipsis;
   }
   .panel-handle { font-size: 11px; color: var(--muted); }
+  .verified-badge { color: var(--accent); font-weight: 700; font-size: 0.85em; margin-left: 3px; }
   /* Compact variant for tweet/reply nodes — the node's own text is a row
      below, so this stays a small identity line rather than a full profile
      block (that treatment is reserved for user/retweeter nodes). */
@@ -549,6 +578,7 @@
 </header>
 
 <div id="toolbar">
+  <span id="archiveModeLabel"><span class="amb-pill">Archive · read-only</span><span id="archiveModeText">—</span></span>
   <select id="toolSelect">
     <option value="tweet_search_extractor">Tweet Search</option>
     <option value="follower_explorer">Follower Explorer</option>
@@ -600,6 +630,7 @@
       <button id="btnLoadMoreSearch"  class="btn btn-ghost"    style="display:none">⤓ Load More Results</button>
       <a      id="btnOpenTweet"       class="btn btn-success"  style="display:none"
               href="#" target="_blank" rel="noopener noreferrer">Open Tweet ↗</a>
+      <button id="btnDeleteNode"      class="btn btn-danger"   style="display:none">Delete Node</button>
     </div>
   </div>
 
@@ -633,6 +664,7 @@
   <div class="leg-heading">Expanding a node further</div>
   <div class="leg-note">Tweet/Reply — Expand Replies, Expand Retweets, or View Author Profile (pulls the author out as its own node, free — no request, the data's already on the tweet).<br>User/Retweeter — Expand Posts, Expand Followers, or Expand Following. Works on a "View Author" node too, so a reply's author can be looked up in full: posts, followers, following.</div>
   <div class="leg-note">Edge labels show how two nodes relate once expanded: <em>replied by</em>, <em>retweeted by</em>, <em>posted</em>, <em>followed by</em>, <em>follows</em>, <em>authored by</em>. A plain unlabeled edge just means "matched the search."</div>
+  <div class="leg-note"><em>quoted</em> — a quote-tweet's edge to the tweet it quoted, drawn only when that original tweet already exists as its own node in this graph (no "expand quotes" action exists, so it's opportunistic like other correlations below).</div>
   <div class="leg-row"><div class="leg-line leg-line-correlation"></div> Correlation — this connects to a node already reached some other way (e.g. a reply's author who also turns up as a follower). Marks where two separate paths through the graph converge on the same account/tweet.</div>
 
   <div class="leg-heading">Source (info panel)</div>
@@ -667,6 +699,22 @@
 const allItems = [];   // { type, item }
 let selectedNode = null;
 let cy;
+
+// ── Archive read-only mode ("View as Graph" from a saved archive) ──────────
+// Set once, at boot, from ?archiveId=<id> in the URL — never toggled after.
+// Gates every code path that would otherwise fetch fresh live data (the
+// toolbar's own Search/Archive All, and the info panel's Expand Posts/
+// Followers/Following/Load More Results — Expand Replies/Retweets get a
+// LOCAL equivalent instead, see ARCHIVE_EXPAND_KINDS below, since a reply's
+// in_reply_to_tweet_id and a retweeter's retweeted_tweet_id are both
+// already sitting right there in the archive's own saved JSON, no live
+// fetch needed to find them), leaving pan/zoom/click/box-select/
+// local-filter/Dump JSON/Clear/delete-node fully working since none of
+// those touch the network — this view is purely a visualization of the
+// archive's already-saved JSON, matching what the plain card list on
+// archive.html itself shows for the exact same data.
+let READONLY_ARCHIVE_MODE = false;
+var archiveFullItems = null;   // set once in enterArchiveReadOnlyMode() — every record this archive has, whether revealed as a node yet or not
 
 // ── Cytoscape styles ──────────────────────────────────────────────────────────
 const CY_STYLE = [
@@ -892,11 +940,28 @@ function init() {
   document.getElementById('btnDump').addEventListener('click', dumpJSON);
   document.getElementById('btnClear').addEventListener('click', clearGraph);
   document.getElementById('btnClosePanel').addEventListener('click', hidePanel);
+  document.getElementById('btnDeleteNode').addEventListener('click', deleteSelectedNodes);
+
+  // Delete/Backspace removes whatever's currently selected — one node (the
+  // panel's own Delete button covers that too) or a whole box-selected
+  // group at once, standard graph-editor convention. Guarded against
+  // hijacking a real text edit: the toolbar's query/filter/date/count
+  // inputs are actual text fields, and Backspace there must keep editing
+  // text, not start deleting graph nodes just because a node happens to
+  // still be selected in the background.
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Delete' && e.key !== 'Backspace') return;
+    var tag = (document.activeElement && document.activeElement.tagName) || '';
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+    if (!cy.nodes(':selected').length && !selectedNode) return;
+    e.preventDefault();
+    deleteSelectedNodes();
+  });
   document.getElementById('btnExpandReplies').addEventListener('click', function () {
-    expandNode('tweet_replies_extractor');
+    if (READONLY_ARCHIVE_MODE) { expandArchiveNode('replies'); } else { expandNode('tweet_replies_extractor'); }
   });
   document.getElementById('btnExpandRetweets').addEventListener('click', function () {
-    expandNode('tweet_retweeters_extractor');
+    if (READONLY_ARCHIVE_MODE) { expandArchiveNode('retweets'); } else { expandNode('tweet_retweeters_extractor'); }
   });
   document.getElementById('btnViewAuthor').addEventListener('click', viewAuthor);
   document.getElementById('btnExpandPosts').addEventListener('click', function () {
@@ -908,13 +973,147 @@ function init() {
   document.getElementById('btnExpandFollowing').addEventListener('click', function () {
     expandNode('following_explorer');
   });
-  document.getElementById('btnLoadMoreSearch').addEventListener('click', expandSearch);
+  document.getElementById('btnLoadMoreSearch').addEventListener('click', function () {
+    // Archive-mode's search root carries its own archiveItems array (see
+    // enterArchiveReadOnlyMode/revealArchiveBatch) — "Load More" there means
+    // reveal more of what's already in memory, never a live fetch, so it's
+    // routed to a completely separate (network-free) handler.
+    if (selectedNode && selectedNode.data('archiveItems')) { expandArchiveSearch(); }
+    else { expandSearch(); }
+  });
+  // Debounced — applyGraphFilter() walks every node/edge in the graph, so
+  // on a big graph re-running it on every single keystroke (rather than
+  // once typing pauses) is what actually made the filter box feel laggy,
+  // not the walk itself (searchText caching above already made each pass
+  // cheap — this is about how OFTEN that pass runs).
+  var graphFilterDebounce = null;
   document.getElementById('graphFilterInput').addEventListener('input', function (e) {
-    filterGraph(e.target.value);
+    var val = e.target.value;
+    clearTimeout(graphFilterDebounce);
+    graphFilterDebounce = setTimeout(function () { filterGraph(val); }, 180);
   });
 
   updatePlaceholder();
   updateModeVisibility();
+
+  var archiveIdParam = new URLSearchParams(location.search).get('archiveId');
+  if (archiveIdParam) enterArchiveReadOnlyMode(archiveIdParam);
+}
+
+// ── Archive read-only bootstrap ─────────────────────────────────────────────
+// Entered via /graph?archiveId=<id> — archive.html's "View as Graph" button
+// links here. Swaps the toolbar's search controls for a plain label, then
+// loads that one archive's saved results.json through the exact same
+// addNodes()/resolveNodeType() pipeline runSearch() uses for a live result
+// set, so the visualization (node colors, correlation edges — including the
+// 'quoted' one — panel, everything) behaves identically; only the data
+// source differs, and there is no code path left that can fetch more.
+async function enterArchiveReadOnlyMode(archiveId) {
+  READONLY_ARCHIVE_MODE = true;
+
+  ['toolSelect', 'modeSelect', 'queryInput', 'dateFromInput', 'dateToInput', 'countInput', 'btnSearch', 'btnArchiveAll']
+    .forEach(function (id) { document.getElementById(id).style.display = 'none'; });
+  document.getElementById('archiveModeLabel').style.display = 'flex';
+
+  setStatus('Loading archive…', false, true);
+  try {
+    var res  = await fetch('/api/archive/' + encodeURIComponent(archiveId) + '/results');
+    var json = await res.json();
+    if (!json.ok) throw new Error(json.error || 'Archive not found');
+
+    var meta    = json.meta || {};
+    var toolRaw = meta.tool || 'unknown';
+    // archive.py names an archive by its tool_type verbatim — a "View as
+    // Graph"-created archive here in graph.html itself stores it as
+    // 'graph_<tool>' (archiveAll() below prefixes it deliberately, to tell
+    // apart "archived while viewing this in the graph" from "archived from
+    // the plain search page" in the archive list). resolveNodeType() below
+    // matches against the bare tool name ('follower_explorer', etc.), so
+    // that prefix has to come off before node-type resolution — otherwise
+    // every graph-sourced archive (a very common case) would silently fall
+    // through resolveNodeType's default and render every node as a plain
+    // tweet, even a follower list or retweeters list.
+    var tool  = toolRaw.replace(/^graph_/, '');
+    var q     = meta.query || {};
+    var query = q.searchQuery || q.targetUsername || q.targetTweetId || q.targetCommunityId || q.query || '';
+    var items = Array.isArray(json.results) ? json.results : [];
+    archiveFullItems = items;
+
+    document.getElementById('archiveModeText').textContent =
+      toolRaw.replace(/_/g, ' ') + (query ? ' — "' + query + '"' : '') + ' · ' + items.length + ' item(s)';
+
+    // A saved archive can hold thousands of records — a follower/following
+    // list that was never re-expanded down to a handful, a big multi-page
+    // tweet search, etc. Dumping all of them onto the canvas at once (even
+    // batched) still ends with a hairball nobody asked to see in full.
+    // Instead only the first ARCHIVE_GRAPH_REVEAL_BATCH items become nodes
+    // up front — click the root node (the diamond) and hit "Load More
+    // Results" to reveal the next batch, same button/label the live
+    // paginated search already uses, just pulling from this archive's own
+    // already-fetched `items` array (via archiveItems/archiveOffset on the
+    // root node's data) instead of a live API cursor. See expandArchiveSearch().
+    var searchId = 'search_archive_' + archiveId;
+    cy.add({
+      data: {
+        id: searchId, type: 'search', label: query || toolRaw.replace(/_/g, ' '), tweetId: '', raw: { query: query },
+        tool: tool, query: query, mode: 'archive', count: items.length,
+        archiveItems: items, archiveOffset: 0,
+        searchCursor: null, searchExhausted: false,
+      }
+    });
+
+    var added = revealArchiveBatch(searchId, ARCHIVE_GRAPH_REVEAL_BATCH);
+    runLayout(true, true);
+    updateNodeCount();
+    var shown = cy.getElementById(searchId).data('archiveOffset');
+    setStatus('Loaded from archive — showing ' + shown + ' of ' + items.length + ' item(s) (' + added + ' node(s)); click the root node, then Load More to reveal more', false, true);
+  } catch (e) {
+    setStatus('Error loading archive: ' + e.message, true, true);
+  }
+}
+
+// How many archive items become nodes per reveal — both the very first
+// batch shown on load and every subsequent "Load More Results" click.
+// Deliberately small: the point is to explore a big archive step by step
+// instead of it dumping a hairball of thousands of nodes on open.
+const ARCHIVE_GRAPH_REVEAL_BATCH = 5;
+
+// Adds the next ARCHIVE_GRAPH_REVEAL_BATCH-sized slice of a search-root
+// node's stored archiveItems as real nodes, advancing archiveOffset and
+// setting searchCursor/searchExhausted to the same sentinel values the live
+// paginated-search path uses — showPanel()'s Load More button label/disabled
+// logic already reads those two fields and doesn't need to know or care
+// whether "more" means another live API page or just more of this same
+// in-memory array.
+function revealArchiveBatch(nodeId, batchSize) {
+  var node   = cy.getElementById(nodeId);
+  var data   = node.data();
+  var items  = data.archiveItems || [];
+  var offset = data.archiveOffset || 0;
+  var batch  = items.slice(offset, offset + batchSize);
+  var added  = addNodes(batch, function (item) { return resolveNodeType(data.tool, item); }, nodeId);
+  var newOffset = offset + batch.length;
+  node.data('archiveOffset', newOffset);
+  node.data('searchExhausted', newOffset >= items.length);
+  node.data('searchCursor', newOffset < items.length ? 'more' : null);
+  return added;
+}
+
+// Local-only equivalent of expandSearch() — no network request, no
+// throttle/cooldown (nothing here touches the cookie/wayback rate limit),
+// just reveals the next slice of the archive's own already-fetched items.
+function expandArchiveSearch() {
+  if (!selectedNode) return;
+  var data = selectedNode.data();
+  if (data.type !== 'search' || !data.archiveItems) return;
+
+  var added = revealArchiveBatch(selectedNode.id(), ARCHIVE_GRAPH_REVEAL_BATCH);
+  runLayout(false, false);
+  updateNodeCount();
+
+  var refreshed = selectedNode.data();
+  setStatus('Revealed ' + added + ' more node(s) — ' + refreshed.archiveOffset + ' / ' + refreshed.archiveItems.length + ' shown', false);
+  showPanel(refreshed);   // refresh the Load More button's own label/disabled state
 }
 
 // ── Placeholder by tool type ──────────────────────────────────────────────────
@@ -990,7 +1189,7 @@ function applyGraphFilter() {
       var data    = node.data();
       var matches = data.type === 'search'
         || (data.label || '').toLowerCase().includes(q)
-        || flatText(data.raw).toLowerCase().includes(q);
+        || (data.searchText || '').includes(q);
       if (matches) node.show(); else node.hide();
     });
     cy.edges().forEach(function (edge) {
@@ -1050,7 +1249,22 @@ function buildBody(tool, query, count, mode) {
   return body;
 }
 
+// Single choke point every live fetch in this page goes through — runSearch(),
+// expandNode(), and expandSearch() all call this, never fetch('/api/run')
+// directly. Hiding the buttons that trigger those (done in showPanel()/
+// enterArchiveReadOnlyMode()) only stops the normal click path; it does
+// nothing against calling runSearch()/expandNode('...')/expandSearch()
+// straight from devtools, and the archive-mode search root node even carries
+// a real tool/query/mode (needed for its own local-only "Load More" —
+// see revealArchiveBatch()), which would otherwise be enough for a stray
+// expandSearch() call to build a genuine live request body. Guarding here
+// instead — the one place that actually reaches the network — closes that
+// off regardless of how it's invoked, which is the only place "read-only"
+// can be an actual guarantee rather than just a UI suggestion.
 async function apiFetch(body) {
+  if (READONLY_ARCHIVE_MODE) {
+    throw new Error('Read-only archive view — this graph only shows data already saved to the archive, no live requests are made here');
+  }
   var res = await fetch('/api/run', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -1129,7 +1343,11 @@ function stripLeadingMentions(text, mentions) {
 function makeLabel(item, type) {
   if (type === 'user' || type === 'retweeter') {
     var handle = item.screen_name || item.user || '';
-    return handle ? '@' + handle : 'Unknown';
+    // Cytoscape node labels are plain canvas text, no HTML/color available
+    // the way verifiedBadgeHtml() gets in the info panel — a plain ✓ prefix
+    // is the same signal without needing any of that.
+    var badge = (item.verified || item.is_blue_verified) ? '✓ ' : '';
+    return handle ? badge + '@' + handle : 'Unknown';
   }
   if (type === 'wayback') {
     var snap = (item.post_title || item.post_text || item.original || 'Snapshot').replace(/\s+/g, ' ').trim();
@@ -1168,6 +1386,24 @@ function isSafeImageUrl(u) {
 }
 
 // ── Graph operations ──────────────────────────────────────────────────────────
+
+// Retroactive quote-correlation index — quotedTweetId -> [quotingCyId, ...]
+// still waiting for that tweet to show up as its own node. The plain
+// forward check below (does the quoted tweet already exist right now) is
+// order-dependent: fine for a live search, where related tweets usually
+// land in the same page/batch, but archive mode's "Load More" reveals items
+// off a fixed offset into the archive's own array — a quote-tweet and the
+// tweet it quotes can easily end up several reveals apart, in either order.
+// Without this index, revealing literally every item in the archive would
+// still silently miss any pair where the quoted tweet happened to be added
+// AFTER the tweet quoting it — the opposite of "expanding everything gives
+// the same graph a one-shot load would have." This closes that gap: every
+// node addition checks BOTH directions (do I have a target already there to
+// link to; does anything already waiting have ME as its target), so by the
+// time both halves of a pair exist, the edge exists too, regardless of
+// which one arrived first. Reset by clearGraph() along with everything else.
+var pendingQuoteEdges = {};
+
 // edgeLabel is optional — omitted for a plain "this matched the search"
 // connection (search root → result, continued-search pagination); every
 // node-expand action (replies/retweets/posts/followers/following/author)
@@ -1201,17 +1437,76 @@ function addNodes(items, nodeTypeOrFn, parentId, edgeLabel) {
         label:      makeLabel(item, nodeType),
         tweetId:    tweetId,
         raw:        item,
+        // Precomputed once here rather than inside applyGraphFilter() —
+        // that function used to call flatText(data.raw) fresh on every
+        // single filter pass, for every node, meaning a big graph paid the
+        // full recursive-stringify cost of its raw record on every
+        // keystroke. Computing it once at add-time makes each filter pass
+        // a plain substring check instead.
+        searchText: flatText(item).toLowerCase(),
         hasReplies: (nodeType === 'tweet' || nodeType === 'reply') && Number(item.reply_count) > 0,
         hasAvatar:  (nodeType === 'user' || nodeType === 'retweeter') && !!avatarUrl,
         avatarUrl:  avatarUrl,
       }
     });
 
+    // Quote-tweet correlation — the ORIGINAL tweet being quoted isn't
+    // separately fetched the way a reply's parent is (there's no "expand
+    // quotes" action, X doesn't expose that as a list the way replies/
+    // retweets are), so this can only draw an edge once that original tweet
+    // is itself a node — via some other path (it also matched the same
+    // search, came from a different tool run, ...) or, in archive mode, a
+    // later "Load More" reveal. Forward: link now if the quoted tweet is
+    // already here. Otherwise queue it in pendingQuoteEdges so whichever
+    // node gets added later (this one or the quoted one) still closes the
+    // link — see the reverse check right after, which runs for every node
+    // added, not just quote-tweets, since any node can be the thing some
+    // earlier quote-tweet was waiting on.
+    if (item.quoted_tweet_id) {
+      var quotedNodeId = 'n_' + item.quoted_tweet_id;
+      if (cy.getElementById(quotedNodeId).length) {
+        addEdge(cyId, quotedNodeId, 'quoted', true);
+      } else {
+        (pendingQuoteEdges[item.quoted_tweet_id] = pendingQuoteEdges[item.quoted_tweet_id] || []).push(cyId);
+      }
+    }
+    if (tweetId && pendingQuoteEdges[tweetId]) {
+      pendingQuoteEdges[tweetId].forEach(function (quotingCyId) {
+        addEdge(quotingCyId, cyId, 'quoted', true);
+      });
+      delete pendingQuoteEdges[tweetId];
+    }
+
     if (parentId) addEdge(parentId, cyId, edgeLabel, false);
     allItems.push({ type: nodeType, item: item });
     added++;
   });
   return added;
+}
+
+// A single live search/expand response CAN be large (a follower/following
+// page, "count" set high in the toolbar, a busy retweeters list) — running
+// addNodes() over hundreds of items is itself fast, but doing it as one
+// long synchronous pass still means the tab can't paint or respond until
+// every last one is in, which reads as a freeze on a big response exactly
+// like an unbatched archive load used to (see ARCHIVE_GRAPH_REVEAL_BATCH).
+// This chunks the exact same addNodes() call across yields (setTimeout 0)
+// instead — same node/edge results, same resolveNodeType()/correlation
+// logic, nothing behaves differently, just spread out so the UI stays
+// responsive. A small response (the common case) finishes in one chunk
+// and behaves identically to calling addNodes() directly.
+const LIVE_NODE_ADD_CHUNK = 100;
+
+function addNodesChunked(items, nodeTypeOrFn, parentId, edgeLabel) {
+  return new Promise(function (resolve) {
+    var i = 0, added = 0;
+    (function step() {
+      added += addNodes(items.slice(i, i + LIVE_NODE_ADD_CHUNK), nodeTypeOrFn, parentId, edgeLabel);
+      i += LIVE_NODE_ADD_CHUNK;
+      if (i < items.length) setTimeout(step, 0);
+      else resolve(added);
+    })();
+  });
 }
 
 // A node pair can only ever have one edge between them (id is derived purely
@@ -1226,17 +1521,28 @@ function addEdge(src, tgt, label, isCorrelation) {
   }
 }
 
+// Force-directed (cose) layout cost scales roughly with node/edge count —
+// fine at the graph sizes a typical search produces, but re-running a full
+// 1000-iteration ANIMATED pass (every frame re-rendering the WHOLE canvas)
+// on every single node addition gets progressively slower once a graph has
+// already grown into the hundreds/thousands, exactly the point at which
+// staying responsive matters most. Past LAYOUT_BIG_THRESHOLD this falls
+// back to a faster, non-animated pass with fewer iterations instead — still
+// a real re-layout, just not one paying full animation cost on a big canvas.
+const LAYOUT_BIG_THRESHOLD = 300;
+
 function runLayout(fit, randomize) {
+  var big = cy.nodes().length > LAYOUT_BIG_THRESHOLD;
   cy.layout({
     name: 'cose',
-    animate: true,
+    animate: !big,
     animationDuration: 450,
     randomize: !!randomize,
     fit: !!fit,
     nodeRepulsion: 10000,
     idealEdgeLength: 130,
     gravity: 0.35,
-    numIter: 1000,
+    numIter: big ? 300 : 1000,
     padding: 40,
   }).run();
 }
@@ -1272,7 +1578,7 @@ async function runSearch() {
       }
     });
 
-    var added = addNodes(items, function (item) { return resolveNodeType(tool, item); }, searchId);
+    var added = await addNodesChunked(items, function (item) { return resolveNodeType(tool, item); }, searchId);
     runLayout(true, true);
     updateNodeCount();
     setStatus('Done — ' + items.length + ' result(s) (' + added + ' new nodes)' + sourceErrorNote(result.sourceErrors), false, !!result.sourceErrors);
@@ -1322,6 +1628,84 @@ function targetIdFor(cfg, data) {
   return raw.user_id || raw.id || raw.screen_name || raw.user || null;
 }
 
+// ── Archive-mode local equivalents of Expand Replies / Expand Retweets ─────
+// A reply's in_reply_to_tweet_id and a retweeter's retweeted_tweet_id both
+// point straight at another tweet's id — the exact same shape of lookup
+// EXPAND_TOOLS above satisfies with a live fetch, except the answer is
+// already sitting in archiveFullItems (this archive's own saved JSON), so
+// no request is needed to find it. Posts/Followers/Following have no such
+// self-contained same-archive relationship to derive this way (a follower
+// list IS its own archive, not a nested field on some other item), so those
+// three stay live-only and hidden in read-only mode — see showPanel().
+var ARCHIVE_EXPAND_KINDS = {
+  replies:  { matchField: 'in_reply_to_tweet_id', nodeType: 'reply',     edgeLabel: 'replied by',   button: 'btnExpandReplies',  offsetKey: 'archiveRepliesOffset',  cursorKey: 'archiveRepliesCursor',  exhaustedKey: 'archiveRepliesExhausted',  label: 'Replies',  icon: '↩ ' },
+  retweets: { matchField: 'retweeted_tweet_id',   nodeType: 'retweeter', edgeLabel: 'retweeted by', button: 'btnExpandRetweets', offsetKey: 'archiveRetweetsOffset', cursorKey: 'archiveRetweetsCursor', exhaustedKey: 'archiveRetweetsExhausted', label: 'Retweets', icon: '↗ ' },
+};
+
+// Linear scan over the archive's full item list — cheap enough for an
+// archive's scale (thousands, not millions, of records) and only run on
+// demand (opening a tweet's panel, clicking Expand), never per node-add.
+function archiveMatches(tweetId, matchField) {
+  if (!archiveFullItems || !tweetId) return [];
+  return archiveFullItems.filter(function (it) {
+    return it && String(it[matchField] || '') === tweetId;
+  });
+}
+
+// Label mirrors updateExpandButtonLabel()'s states (not-yet-expanded /
+// more available / all loaded) but the "not yet expanded" count is the
+// REAL number of matching records already in the archive, not a
+// self-reported reply_count/retweet_count that a live fetch might not
+// actually be able to back up in full — knowing the true count up front
+// is exactly what a static, already-saved dataset can offer that a live
+// estimate can't, so a genuine zero disables the button outright instead
+// of inviting a click that would find nothing.
+function updateArchiveExpandButtonLabel(btn, data, cfg) {
+  if (data[cfg.exhaustedKey]) {
+    btn.textContent = cfg.icon + 'Expand ' + cfg.label + ' (all loaded)';
+    btn.disabled = true;
+    return;
+  }
+  if (data[cfg.cursorKey]) {
+    btn.textContent = cfg.icon + 'Expand ' + cfg.label + ' (more available)';
+    btn.disabled = false;
+    return;
+  }
+  var n = archiveMatches(data.tweetId, cfg.matchField).length;
+  btn.textContent = n > 0
+    ? cfg.icon + 'Expand ' + n + ' ' + cfg.label + ' (from archive)'
+    : cfg.icon + 'No ' + cfg.label + ' saved in archive';
+  btn.disabled = n === 0;
+}
+
+function expandArchiveNode(kind) {
+  if (!selectedNode) return;
+  var cfg     = ARCHIVE_EXPAND_KINDS[kind];
+  var data    = selectedNode.data();
+  var tweetId = data.tweetId;
+  if (!tweetId) return;
+
+  var matches = archiveMatches(tweetId, cfg.matchField);
+  var offset  = data[cfg.offsetKey] || 0;
+  var batch   = matches.slice(offset, offset + ARCHIVE_GRAPH_REVEAL_BATCH);
+
+  var added = addNodes(batch, cfg.nodeType, selectedNode.id(), cfg.edgeLabel);
+  var newOffset = offset + batch.length;
+  selectedNode.data(cfg.offsetKey, newOffset);
+  selectedNode.data(cfg.cursorKey, newOffset < matches.length ? 'more' : null);
+  selectedNode.data(cfg.exhaustedKey, newOffset >= matches.length);
+
+  runLayout(false, false);
+  updateNodeCount();
+  setStatus(
+    matches.length
+      ? 'Revealed ' + added + ' ' + cfg.label.toLowerCase() + ' from the archive — ' + newOffset + ' / ' + matches.length
+      : 'No ' + cfg.label.toLowerCase() + ' saved in this archive',
+    matches.length === 0
+  );
+  showPanel(selectedNode.data());   // refresh this button's own label/disabled state
+}
+
 async function expandNode(expandTool) {
   if (!selectedNode) return;
   var cfg  = EXPAND_TOOLS[expandTool];
@@ -1354,7 +1738,7 @@ async function expandNode(expandTool) {
     stampCooldown(sources);
     var items  = Array.isArray(result.items) ? result.items : [result.items];
 
-    var added = addNodes(items, cfg.nodeType, parentId, cfg.edgeLabel);
+    var added = await addNodesChunked(items, cfg.nodeType, parentId, cfg.edgeLabel);
     runLayout(false, false);
     updateNodeCount();
     setStatus('Expanded — ' + items.length + ' result(s) (' + added + ' new nodes)');
@@ -1444,7 +1828,7 @@ async function expandSearch() {
     stampCooldown(sources);
     var items  = Array.isArray(result.items) ? result.items : [result.items];
 
-    var added = addNodes(items, function (item) { return resolveNodeType(data.tool, item); }, selectedNode.id());
+    var added = await addNodesChunked(items, function (item) { return resolveNodeType(data.tool, item); }, selectedNode.id());
     runLayout(false, false);
     updateNodeCount();
     setStatus('Loaded more — ' + items.length + ' result(s) (' + added + ' new nodes)' + sourceErrorNote(result.sourceErrors), false, !!result.sourceErrors);
@@ -1489,6 +1873,7 @@ var PRIORITY_KEYS = [
   'source', 'content_type', 'account_age_flag', 'account_age', 'account_created',
   'user', 'screen_name', 'name', 'text', 'post_title', 'post_text', 'created_at', 'fetched_at',
   'retweeted_by_user', 'retweeted_by_name', 'retweeted_text', 'retweeted_by_bio',
+  'quoted_user', 'quoted_name', 'quoted_text', 'quoted_at', 'quoted_tweet_id',
   'reply_count', 'retweet_count', 'favorite_count', 'view_count',
   'followers_count', 'following_count', 'tweet_count',
   'description', 'user_location', 'in_reply_to_tweet_id',
@@ -1540,6 +1925,17 @@ function extractMedia(item) {
   }).filter(function (m) { return m.thumb; });
 }
 
+// Same blue-checkmark treatment card_constants.js's verifiedBadgeHtml()
+// gives index.html/archive.html cards — graph.html keeps its own
+// independent copy of every other rendering constant/helper already (see
+// PRIORITY_KEYS's comment), so this is that page's own copy too rather than
+// loading a second, unrelated script just for one function.
+function verifiedBadgeHtml(raw) {
+  if (!raw || (!raw.verified && !raw.is_blue_verified)) return '';
+  var title = raw.is_blue_verified ? 'Blue verified (X Premium)' : 'Verified (legacy)';
+  return '<span class="verified-badge" title="' + esc(title) + '">✓</span>';
+}
+
 // Same header treatment index.html's cards give a user — avatar, name,
 // handle, bio — but for the info panel, which every node type funnels
 // through (search root, tweet, reply, user, retweeter, ...).
@@ -1558,7 +1954,7 @@ function buildPanelHeader(raw) {
       : '';
   var identityHtml = (name || handle)
     ? '<div class="panel-identity">' +
-        (name ? '<div class="panel-name">' + esc(name) + '</div>' : '') +
+        (name ? '<div class="panel-name">' + esc(name) + verifiedBadgeHtml(raw) + '</div>' : '') +
         (handle ? '<div class="panel-handle">@' + esc(handle) + '</div>' : '') +
       '</div>'
     : '';
@@ -1597,8 +1993,8 @@ function showPanel(data) {
     var val = esc(String(v));
 
     // Format tweet ID fields as links
-    if ((k === 'retweeted_tweet_id' || k === 'in_reply_to_tweet_id') && /^\d+$/.test(String(v))) {
-      var handle = raw.retweeted_by_user || raw.user || '';
+    if ((k === 'retweeted_tweet_id' || k === 'in_reply_to_tweet_id' || k === 'quoted_tweet_id') && /^\d+$/.test(String(v))) {
+      var handle = k === 'quoted_tweet_id' ? (raw.quoted_user || '') : (raw.retweeted_by_user || raw.user || '');
       if (handle) {
         val = '<a href="https://x.com/' + encodeURIComponent(handle) + '/status/' + encodeURIComponent(String(v)) +
               '" target="_blank" rel="noopener noreferrer">' + esc(String(v)) + ' ↗</a>';
@@ -1666,6 +2062,15 @@ function showPanel(data) {
   var followingBtn  = document.getElementById('btnExpandFollowing');
   var loadMoreBtn   = document.getElementById('btnLoadMoreSearch');
 
+  // Expand Posts/Followers/Following and Load More Results all fetch fresh
+  // live data via /api/run — those stay unavailable in archive read-only
+  // mode, along with View Author Profile (still shown regardless, see
+  // below — it's synthesized from data already on the node, no request)
+  // and Open Tweet (an outbound link, not a fetch). Expand Replies/Retweets
+  // are the exception: they have a local, network-free equivalent in
+  // archive mode (see ARCHIVE_EXPAND_KINDS/expandArchiveNode above), so
+  // they stay visible in both modes — only which handler/label logic runs
+  // differs, wired in init() and just below.
   repliesBtn.style.display    = isTweet ? '' : 'none';
   retweetersBtn.style.display = isTweet ? '' : 'none';
   // A synthesized "view author" pivot only makes sense when there's
@@ -1674,11 +2079,17 @@ function showPanel(data) {
   // xquik/API-mode record might not have captured either.
   authorBtn.style.display = (isTweet && (raw.user_id || raw.user)) ? '' : 'none';
 
-  postsBtn.style.display     = isUserNode ? '' : 'none';
-  followersBtn.style.display = isUserNode ? '' : 'none';
-  followingBtn.style.display = isUserNode ? '' : 'none';
+  postsBtn.style.display     = (isUserNode && !READONLY_ARCHIVE_MODE) ? '' : 'none';
+  followersBtn.style.display = (isUserNode && !READONLY_ARCHIVE_MODE) ? '' : 'none';
+  followingBtn.style.display = (isUserNode && !READONLY_ARCHIVE_MODE) ? '' : 'none';
 
-  var isPaginableSearch = type === 'search' && ROOT_PAGINATED_TOOLS.indexOf(data.tool) !== -1;
+  // Archive mode's own root node (data.archiveItems present) always counts
+  // as paginable — it's revealing more of an in-memory array, not a live
+  // API page, so it's exempt from the READONLY_ARCHIVE_MODE block that
+  // otherwise hides every fetch-driven button in this panel.
+  var isPaginableSearch = type === 'search' && (data.archiveItems
+    ? true
+    : (!READONLY_ARCHIVE_MODE && ROOT_PAGINATED_TOOLS.indexOf(data.tool) !== -1));
   loadMoreBtn.style.display = isPaginableSearch ? '' : 'none';
   if (isPaginableSearch) {
     loadMoreBtn.textContent = data.searchExhausted ? '⤓ Load More Results (all loaded)'
@@ -1687,8 +2098,13 @@ function showPanel(data) {
   }
 
   if (isTweet) {
-    updateExpandButtonLabel(repliesBtn,    data, EXPAND_TOOLS.tweet_replies_extractor,    raw);
-    updateExpandButtonLabel(retweetersBtn, data, EXPAND_TOOLS.tweet_retweeters_extractor, raw);
+    if (READONLY_ARCHIVE_MODE) {
+      updateArchiveExpandButtonLabel(repliesBtn,    data, ARCHIVE_EXPAND_KINDS.replies);
+      updateArchiveExpandButtonLabel(retweetersBtn, data, ARCHIVE_EXPAND_KINDS.retweets);
+    } else {
+      updateExpandButtonLabel(repliesBtn,    data, EXPAND_TOOLS.tweet_replies_extractor,    raw);
+      updateExpandButtonLabel(retweetersBtn, data, EXPAND_TOOLS.tweet_retweeters_extractor, raw);
+    }
   }
   if (isUserNode) {
     updateExpandButtonLabel(postsBtn,      data, EXPAND_TOOLS.post_extractor,      raw);
@@ -1713,6 +2129,14 @@ function showPanel(data) {
     openBtn.style.display = 'none';
   }
 
+  // Deletable regardless of node type or mode — removing a node from the
+  // canvas is purely a local graph edit, never a network call, so it's
+  // available in both live and archive read-only mode. The one exception is
+  // the search root itself (see deleteNode()'s own guard for why) — hidden
+  // here too so the panel doesn't offer an action that's just going to be
+  // refused.
+  document.getElementById('btnDeleteNode').style.display = (type === 'search') ? 'none' : '';
+
   document.getElementById('infoPanel').classList.remove('hidden');
 }
 
@@ -1720,6 +2144,71 @@ function hidePanel() {
   document.getElementById('infoPanel').classList.add('hidden');
   selectedNode = null;
   cy.elements().unselect();
+}
+
+// ── Delete node(s) ───────────────────────────────────────────────────────────
+// A single node removal purges anything that referenced it by cyId so later
+// code never trips over a dangling reference:
+//  - pendingQuoteEdges (see addNodes()) can hold this node's id as a
+//    quote-tweet still waiting on its target — if that target never
+//    arrives now, the entry would sit there forever pointing at nothing,
+//    and if it DID arrive later, addEdge() would try to link to a node
+//    that's no longer in the graph.
+//  - allItems (Dump JSON's own source list) is kept in sync so an export
+//    right after deleting doesn't still include what's no longer on screen.
+// node.remove() itself already takes care of any edges touching the node —
+// Cytoscape never leaves a dangling edge behind on its own.
+//
+// The search root (type: 'search', the diamond) is refused outright — it's
+// not just another result, it's the entry point that carries the state
+// needed to keep exploring from it: searchCursor/searchExhausted for a live
+// paginated search's own "Load More Results", and archiveItems/archiveOffset
+// for archive mode's local reveal (see revealArchiveBatch()). Deleting it
+// would silently strand every node still hanging off it and make "load the
+// rest of this archive" impossible — there'd be nothing left to click
+// Load More on. Returns whether the node was actually removed, so a
+// multi-select delete can tell how many it had to skip.
+function deleteNode(node) {
+  if (node.data('type') === 'search') return false;
+
+  var cyId = node.id();
+
+  Object.keys(pendingQuoteEdges).forEach(function (key) {
+    var idx = pendingQuoteEdges[key].indexOf(cyId);
+    if (idx !== -1) pendingQuoteEdges[key].splice(idx, 1);
+    if (!pendingQuoteEdges[key].length) delete pendingQuoteEdges[key];
+  });
+
+  var raw = node.data('raw');
+  if (raw) {
+    var itemIdx = allItems.findIndex(function (e) { return e.item === raw; });
+    if (itemIdx !== -1) allItems.splice(itemIdx, 1);
+  }
+
+  node.remove();
+  return true;
+}
+
+// Deletes whatever's currently selected — one node via the panel's Delete
+// button (selectedNode), or a whole box-selected group via the Delete/
+// Backspace key (see the keydown listener in init()). Either way the same
+// deleteNode() cleanup (and its search-root guard) runs per node.
+function deleteSelectedNodes() {
+  var selected = cy.nodes(':selected');
+  if (!selected.length && selectedNode) selected = selectedNode;
+  if (!selected.length) return;
+
+  var deleted = 0, skipped = 0;
+  selected.forEach(function (node) {
+    if (deleteNode(node)) deleted++; else skipped++;
+  });
+
+  hidePanel();
+  updateNodeCount();
+
+  var msg = deleted ? deleted + ' node' + (deleted === 1 ? '' : 's') + ' deleted' : '';
+  if (skipped) msg += (msg ? ' — ' : '') + skipped + ' search root node' + (skipped === 1 ? '' : 's') + ' can\'t be deleted';
+  setStatus(msg || 'Nothing to delete', !deleted && !!skipped);
 }
 
 // ── Archive All ───────────────────────────────────────────────────────────────
@@ -1730,6 +2219,11 @@ function hidePanel() {
 var graphArchivedId = null;
 
 async function archiveAll() {
+  // Same reasoning as apiFetch()'s guard: btnArchiveAll is hidden in
+  // read-only mode, but that alone doesn't stop archiveAll() from being
+  // called directly. This view already IS an already-saved archive — there
+  // is nothing here that should ever be written back.
+  if (READONLY_ARCHIVE_MODE) { setStatus('Read-only archive view — this graph already IS a saved archive, nothing to archive again', true); return; }
   if (!allItems.length) { setStatus('Nothing to archive yet', true); return; }
   var query = document.getElementById('queryInput').value.trim();
   var tool  = document.getElementById('toolSelect').value;
@@ -1812,6 +2306,7 @@ function dumpJSON() {
 function clearGraph() {
   cy.elements().remove();
   allItems.length = 0;
+  pendingQuoteEdges = {};
   hidePanel();
   graphFilterQuery = '';
   document.getElementById('graphFilterInput').value = '';

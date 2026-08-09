@@ -267,12 +267,21 @@ def word_frequencies(items: list[dict], top_n: int = 60) -> list[dict]:
     return [{"word": w, "count": c} for w, c in counts.most_common(top_n)]
 
 
-def top_users(items: list[dict], top_n: int = 20) -> list[dict]:
+def top_users(items: list[dict], top_n: int | None = None) -> list[dict]:
     """Who shows up most often across the archive — every record with an
     identifiable author counts once, regardless of whether it's a tweet, a
     reply, a retweeter entry, or a bare follower/following record. Carries
     along the most recently seen avatar/name for that handle so the
-    dashboard can show a face, not just a bare count."""
+    dashboard can show a face, not just a bare count.
+
+    top_n=None (the default) returns EVERY account, not just the busiest N
+    — this backs a digital-evidence archive, and silently dropping which
+    accounts even show up here isn't something an OSINT tool gets to do.
+    Counter.most_common(None) already returns everything sorted, so this
+    costs nothing when unset; the dashboard paces rendering via scroll
+    instead (see analytics.html's TOP_LIST_BATCH), not by the backend ever
+    truncating the data. Pass an explicit top_n only if some future caller
+    genuinely wants a fixed-size top list instead."""
     counts: Counter = Counter()
     display: dict[str, dict] = {}
     for item in items:
@@ -293,9 +302,14 @@ def top_users(items: list[dict], top_n: int = 20) -> list[dict]:
     return ranked
 
 
-def top_engagement(items: list[dict], top_n: int = 15) -> list[dict]:
+def top_engagement(items: list[dict], top_n: int | None = None) -> list[dict]:
     """Which posts drove the most reply+retweet+favorite activity — "paling
-    ramai" (busiest/most-discussed), not just most recent."""
+    ramai" (busiest/most-discussed), not just most recent.
+
+    top_n=None (the default) returns every scored item with positive
+    engagement, not just the busiest N — same reasoning as top_users()
+    above: this is digital evidence, the backend doesn't get to decide
+    which posts are worth showing. `scored[:None]` is the full list."""
     scored = [(_item_engagement(it), it) for it in items if _item_text(it)]
     scored.sort(key=lambda pair: pair[0], reverse=True)
     return [{"engagement": score, "item": it} for score, it in scored[:top_n] if score > 0]
