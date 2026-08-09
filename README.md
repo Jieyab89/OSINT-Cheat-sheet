@@ -341,6 +341,19 @@ Site and forums OSINT community arround world
 
 # SIGINT 
 
+All demonstrations in this repository are performed in isolated, self-hosted lab environments. Do not use any information here against real, third-party telecommunications infrastructure without explicit written authorization. The author(s) are not responsible for misuse.
+
+Legal Considerations
+
+| Jurisdiction | Regulator | Reference |
+|---|---|---|
+| 🇮🇩 Indonesia | Kominfo / Ditjen SDPPI | [UU No. 36 Tahun 1999 tentang Telekomunikasi](https://jdih.komdigi.go.id/produk_hukum/view/id/564/t/undangundang+nomor+36+tahun+1999) |
+| 🇺🇸 United States | FCC | [Communications Act of 1934, §301 (47 U.S.C. §301)](https://www.fcc.gov/consumers/guides/unauthorized-radio-operation) |
+| 🇪🇺 European Union | ETSI / national NRAs | [ETSI EN 301 893](https://www.etsi.org/) (spectrum access rules; check individual member-state telecom law) |
+| International | ITU-R | [ITU Radio Regulations](https://www.itu.int/en/ITU-R/terrestrial/Pages/default.aspx) |
+
+> Add your own country's regulator/law here as needed — this table is not exhaustive.
+
 List for learn SIGINT. There is a hardware also the software  
 
 Hardware 
