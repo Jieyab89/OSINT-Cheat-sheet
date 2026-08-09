@@ -85,23 +85,64 @@ Your terminal prompt should now start with `(.venv)`.
 
 **3. Install dependencies:**
 
+This installs Flask, the scraping/API clients, and the multilingual
+sentiment model's packages (`torch`, `transformers`) — see
+[Sentiment Analysis](#sentiment-analysis) for what that model runs. `torch`
+comes in two flavors (same package, same version — just a different build)
+and picking the right one matters: check which situation you're in first,
+then follow that path. Don't run both — pick one.
+
+First, check whether an NVIDIA GPU is actually reachable from where you're
+running this:
+
+```bash
+nvidia-smi
+```
+
+- Prints a table (driver + CUDA version) → your GPU is reachable → **Option A**.
+- `command not found` / no devices listed → **Option B**. This is also the
+  normal outcome inside most VMs (VMware, VirtualBox, ...) even when the
+  *host* machine has an NVIDIA GPU — a VM doesn't see the host's physical
+  GPU unless you've specifically set up GPU passthrough, which most setups
+  haven't. Docker Desktop on Windows (WSL2 backend) is the one common
+  exception — it *can* reach the host's GPU if the NVIDIA driver is
+  installed on Windows itself.
+
+**Option A — GPU reachable:**
+
 ```bash
 pip install -r requirements.txt
 ```
 
-This installs Flask, the scraping/API clients, and the multilingual
-sentiment model's packages (`torch`, `transformers`) in one go — see
-[Sentiment Analysis](#sentiment-analysis) for what that model does. If your
-machine has no NVIDIA GPU, torch's default download can be a few GB larger
-than it needs to be; keep it small by running this once first, then
-installing as above:
+That's it. `transformers`' `pipeline()` auto-detects a usable GPU at
+runtime (`torch.cuda.is_available()`) and uses it automatically — no code
+changes, no extra flags. Sentiment scoring runs noticeably faster than on
+CPU.
+
+**Option B — no GPU reachable (including inside a VM without passthrough):**
 
 ```bash
 pip install --index-url https://download.pytorch.org/whl/cpu torch
 ```
 
-Whenever the project's dependencies change (new features, updates), just
-re-run:
+then 
+
+```bash 
+pip install -r requirements.txt
+```
+
+Installing the CPU-only build first means the plain `torch` line in
+`requirements.txt` right after is already satisfied and won't pull the
+much larger GPU-enabled build behind your back. This is the right choice
+whenever `nvidia-smi` doesn't show a GPU — installing the GPU build there
+wouldn't make anything faster (there's no GPU for it to use), it would
+just download a few GB for nothing. The app runs fully functional either
+way; sentiment scoring just runs on CPU (~11-12ms/item, fine for normal
+archive sizes).
+
+Whenever the project's dependencies change (new features, updates),
+re-run whichever `pip install -r requirements.txt` command matches the
+option you picked above:
 
 ```bash
 pip install -r requirements.txt --upgrade
