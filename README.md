@@ -417,6 +417,9 @@ Resources
 
 - [awesome-telco](https://github.com/ravens/awesome-telco)
 - [5G-Repo](https://github.com/shotsan/5G-Repo)
+- [ID onnocenter](http://onnocenter.or.id/wiki/index.php?search=Telekomunikasi&title=Special%3ASearch&profile=default&fulltext=1)
+- [ID onnocenter OPENBTS](http://onnocenter.or.id/wiki/index.php/OpenBTS)
+- [ID & EN Rifky The Cyber](https://www.youtube.com/@RifkyTheCyber)
 
 # Code Search
 
