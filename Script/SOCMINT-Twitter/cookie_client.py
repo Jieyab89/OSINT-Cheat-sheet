@@ -137,6 +137,37 @@ def _leading_reply_mentions(t: object) -> list | None:
         return None
 
 
+def _quoted_tweet_fields(t: object) -> dict | None:
+    """When `t` is a quote-tweet (retweeted-with-comment), the ORIGINAL post
+    being quoted — the thing X's own UI renders as a nested card below the
+    quoting user's own commentary. `t.text`/`.full_text` on the outer dict is
+    already that commentary; this is what the commentary is ON. Distinct
+    from a plain retweet (no added text of its own, and not surfaced as a
+    separate quote card by X) and from `_tweet_retweeters_async`'s "who
+    retweeted this" feature below, which walks the opposite direction
+    (retweeters of one already-known tweet id, not quotes discovered while
+    listing tweets normally — search, timeline, replies, community, geo).
+    Swallows any twikit-shape surprise the same way _full_text/_hashtags do
+    — a missing quote is just no quote, never worth failing the whole
+    record over."""
+    try:
+        if not getattr(t, "is_quote_status", False):
+            return None
+        quoted = getattr(t, "quote", None)
+        if quoted is None:
+            return None
+        quoted_user = getattr(quoted, "user", None)
+        return {
+            "quoted_text":     _full_text(quoted) or getattr(quoted, "text", None),
+            "quoted_user":     getattr(quoted_user, "screen_name", None) if quoted_user else None,
+            "quoted_name":     getattr(quoted_user, "name", None) if quoted_user else None,
+            "quoted_at":       getattr(quoted, "created_at", None),
+            "quoted_tweet_id": _id_str(getattr(quoted, "id", None)),
+        }
+    except Exception:
+        return None
+
+
 def _tweet_to_dict(t: object) -> dict:
     user_obj = getattr(t, "user", None)
     d = {
@@ -171,6 +202,9 @@ def _tweet_to_dict(t: object) -> dict:
     mentions = _leading_reply_mentions(t)
     if mentions:
         d["reply_to_mentions"] = mentions
+    quote = _quoted_tweet_fields(t)
+    if quote:
+        d.update(quote)
     return d
 
 
@@ -316,6 +350,13 @@ async def _tweet_retweeters_async(tweet_id: str, auth_token: str, ct0: str, coun
             "retweeted_at":          getattr(orig, "created_at", None),
             "retweeted_tweet_id":    _id_str(getattr(orig, "id", None)),
         }
+        # The retweeted tweet can itself be a quote-tweet — surface what IT
+        # quoted too, same fields _tweet_to_dict adds for a quote found
+        # anywhere else, so a retweeters card is never missing context a
+        # search/timeline card for the same tweet would have shown.
+        quote = _quoted_tweet_fields(orig)
+        if quote:
+            rt_info.update(quote)
     except Exception:
         pass
 

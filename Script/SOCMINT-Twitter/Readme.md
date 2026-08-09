@@ -18,6 +18,9 @@
 12. Add more detail data source for the context 
 13. Auto repair broken archive and sentiment analysis data dump
 14. Update rendering data in sentiment analysis 
+15. Update view as graph in archive 
+16. Add date and timestamp pattern in sentiment analysis 
+17. Delete entry node in graph visualizer 
 
 ## Features
 

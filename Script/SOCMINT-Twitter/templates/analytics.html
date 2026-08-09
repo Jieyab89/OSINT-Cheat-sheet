@@ -198,6 +198,7 @@
   .user-name { font-size: 12.5px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .user-handle { font-size: 11px; color: var(--muted); }
   .user-count { font-size: 12px; color: var(--accent); font-weight: 600; flex-shrink: 0; }
+  .verified-badge { color: var(--accent); font-weight: 700; font-size: 0.85em; margin-left: 3px; }
 
   .engagement-list { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
   .eng-row { padding: 10px 12px; border-bottom: 1px solid rgba(42,45,58,0.6); }
@@ -214,6 +215,31 @@
   }
   .wc-word { color: var(--text); font-weight: 600; line-height: 1; white-space: nowrap; cursor: default; transition: color 0.12s; }
   .wc-word:hover { color: var(--accent); }
+
+  /* ── Volume calendar — GitHub-contributions-style heatmap of how many
+     scored items landed on each day, so a topic's activity spikes/clusters
+     over time are visible at a glance. Click a day to filter Items below. ── */
+  .cal-outer { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; }
+  .cal-scroll { overflow-x: auto; padding-bottom: 2px; }
+  .cal-months { display: flex; gap: 3px; height: 14px; margin-bottom: 4px; width: max-content; }
+  .cal-month-cell { width: 11px; flex: 0 0 auto; font-size: 10px; color: var(--muted); white-space: nowrap; overflow: visible; }
+  .cal-grid { display: flex; gap: 3px; width: max-content; }
+  .cal-week { display: flex; flex-direction: column; gap: 3px; }
+  .cal-cell { width: 11px; height: 11px; border-radius: 2px; background: var(--border); opacity: 0.4; }
+  .cal-cell[data-date] { cursor: pointer; }
+  .cal-cell.cal-has-data { background: var(--accent); }
+  .cal-cell.cal-level-1 { opacity: 0.28; }
+  .cal-cell.cal-level-2 { opacity: 0.5; }
+  .cal-cell.cal-level-3 { opacity: 0.75; }
+  .cal-cell.cal-level-4 { opacity: 1; }
+  .cal-cell.cal-active { outline: 2px solid var(--text); outline-offset: 1px; }
+  .cal-legend { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--muted); margin-top: 10px; flex-wrap: wrap; }
+  .cal-legend .cal-cell { cursor: default; width: 10px; height: 10px; }
+  .cal-filter-chip {
+    display: inline-flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text);
+    background: var(--accent-bg); border: 1px solid var(--accent); border-radius: 20px;
+    padding: 3px 10px; cursor: pointer; margin-left: 8px;
+  }
 
   /* ── Sentiment badge (shared by tiles/list) ── */
   .sent-badge {
@@ -238,7 +264,7 @@
      scoped to each small box instead of the whole page: a fixed-height
      panel that scrolls internally, revealing more rows as you scroll near
      its bottom instead of dumping everything (or a hard cutoff) at once. */
-  .user-list.scrollable {
+  .user-list.scrollable, .engagement-list.scrollable {
     max-height: 320px;
     overflow-y: auto;
     scrollbar-width: thin;
@@ -263,6 +289,7 @@
   .item-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
   .item-card-top { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }
   .item-author { font-size: 12px; font-weight: 600; color: var(--text); }
+  .item-date { font-size: 11px; color: var(--muted); }
   .item-score { font-size: 11px; color: var(--muted); margin-left: auto; }
   .item-text { font-size: 13px; color: var(--text); word-break: break-word; white-space: pre-wrap; }
   .item-matches { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 5px; }
@@ -375,6 +402,17 @@
 
 function esc(s) { return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[m]); }
 
+// Same blue-checkmark badge index.html/archive.html (card_constants.js) and
+// graph.html each render next to a name — this page doesn't load either of
+// those, so it gets its own copy rather than a shared file just for one
+// function. `u`/`item` can be either an accountSentiment() entry or a raw
+// scored-item's own `.item`, both carry the same two field names.
+function verifiedBadgeHtml(u) {
+  if (!u || (!u.verified && !u.is_blue_verified)) return '';
+  const title = u.is_blue_verified ? 'Blue verified (X Premium)' : 'Verified (legacy)';
+  return `<span class="verified-badge" title="${esc(title)}">✓</span>`;
+}
+
 // Same allowlist index.html/graph.html apply to avatar/banner URLs — https
 // only, no quote/angle-bracket/whitespace/paren characters. Not strictly
 // required for a plain <img src> (no second CSS-parsing pass involved the
@@ -423,6 +461,29 @@ document.getElementById('viewer').addEventListener('click', (e) => {
   document.getElementById('itemList').scrollIntoView({ behavior: 'smooth', block: 'start' });
 });
 
+// Calendar day click — filters Items to that day; clicking the same day (or
+// the "Filtered: …" chip) clears it. Delegated on #viewer like the account
+// click handler above, since #calendarSection is rebuilt on every archive
+// switch and every toggle.
+document.getElementById('viewer').addEventListener('click', (e) => {
+  if (!activeData) return;
+  const clear = e.target.closest('#calClearFilter');
+  const cell  = e.target.closest('.cal-cell[data-date]');
+  if (!clear && !cell) return;
+
+  if (clear || activeDateFilter === cell.dataset.date) {
+    activeDateFilter = null;
+  } else if (cell.classList.contains('cal-has-data')) {
+    activeDateFilter = cell.dataset.date;
+  } else {
+    return;   // clicked an empty (no-data) day — nothing to filter to
+  }
+
+  const calSection = document.getElementById('calendarSection');
+  if (calSection) calSection.innerHTML = calendarHtml(dailyVolume(activeData));
+  renderItemList();
+});
+
 const archiveList   = document.getElementById('archiveList');
 const archiveCount  = document.getElementById('archiveCount');
 const archiveSearch = document.getElementById('archiveSearch');
@@ -432,6 +493,7 @@ let allArchives = [];
 let activeId    = null;
 let activeData  = null;      // last /api/analytics/<id> payload
 let activeFilter = null;     // 'pro' | 'neutral' | 'con' | null (item browser filter)
+let activeDateFilter = null; // 'YYYY-MM-DD' | null (calendar-driven item browser filter)
 
 // ── Resilient fetch — auto-retry transient failures ─────────────────────────
 // res.json() throws a raw SyntaxError ("unexpected character at line 1
@@ -531,6 +593,7 @@ function entryHtml(a) {
 async function loadAnalytics(id) {
   activeId      = id;
   activeFilter  = null;
+  activeDateFilter = null;
   archiveList.querySelectorAll('.archive-entry').forEach(el => el.classList.toggle('active', el.dataset.id === id));
 
   viewer.innerHTML = `
@@ -629,17 +692,28 @@ function renderDashboard() {
     </div>
 
     <div class="section">
+      <div class="section-title">Volume over time <span class="section-note">items per day — click a day to filter Items below, click again to clear</span></div>
+      <div id="calendarSection">${calendarHtml(dailyVolume(d))}</div>
+    </div>
+
+    <div class="section">
       <div class="section-title">Account sentiment breakdown <span class="section-note">accounts grouped by their own pro/con/neutral lean, not just individual posts — click an account to filter Items below</span></div>
       ${accountSentimentHtml(d)}
     </div>
 
     <div class="grid-2 section">
       <div>
-        <div class="section-title">Most active accounts <span class="section-note">by items in this archive</span></div>
+        <div class="item-toolbar" style="margin-bottom:8px">
+          <div class="section-title" style="margin-bottom:0">Most active accounts <span class="item-count" id="topUsersCount">${(d.top_users || []).length}</span></div>
+          <input type="text" class="item-search" id="topUsersSearch" placeholder="Search accounts...">
+        </div>
         ${topUsersHtml(d.top_users, accountSentiment(d))}
       </div>
       <div>
-        <div class="section-title">Most engagement <span class="section-note">replies + retweets + likes</span></div>
+        <div class="item-toolbar" style="margin-bottom:8px">
+          <div class="section-title" style="margin-bottom:0">Most engagement <span class="item-count" id="topEngagementCount">${(d.top_engagement || []).length}</span></div>
+          <input type="text" class="item-search" id="engSearch" placeholder="Search text or author...">
+        </div>
         ${topEngagementHtml(d.top_engagement)}
       </div>
     </div>
@@ -653,7 +727,7 @@ function renderDashboard() {
         <span class="sna-legend-item"><span class="sna-legend-dot dot-pro"></span>Pro</span>
         <span class="sna-legend-item"><span class="sna-legend-dot dot-neutral"></span>Neutral</span>
         <span class="sna-legend-item"><span class="sna-legend-dot dot-con"></span>Con</span>
-        <span class="sna-legend-item">Node size = post volume · edges = reply relationships found within this archive · click a node for details</span>
+        <span class="sna-legend-item">Node size = post volume · edges = reply/quote relationships found within this archive · click a node for details</span>
       </div>
       <div class="sna-wrap" id="snaWrap">
         <div class="sna-graph" id="snaGraph"></div>
@@ -697,6 +771,30 @@ function renderDashboard() {
   });
   renderItemList();
 
+  // Same debounced-search pattern as itemSearch above, scoped to the Most
+  // active accounts / Most engagement boxes — their search inputs live in
+  // the section header now (see renderDashboard()'s own template above),
+  // so they're always present regardless of whether either box has data.
+  let topUsersSearchDebounce = null;
+  document.getElementById('topUsersSearch').addEventListener('input', (e) => {
+    const val = e.target.value;
+    clearTimeout(topUsersSearchDebounce);
+    topUsersSearchDebounce = setTimeout(() => {
+      topUsersQuery = val.toLowerCase().trim();
+      renderTopUsersBox();
+    }, 180);
+  });
+
+  let engSearchDebounce = null;
+  document.getElementById('engSearch').addEventListener('input', (e) => {
+    const val = e.target.value;
+    clearTimeout(engSearchDebounce);
+    engSearchDebounce = setTimeout(() => {
+      topEngagementQuery = val.toLowerCase().trim();
+      renderTopEngagementBox();
+    }, 180);
+  });
+
   // Re-bind both scroll-observers to this render's freshly built sentinel
   // nodes (see the comments above itemListObserver / rebindAccountScrollObservers
   // for why re-binding is needed on every archive switch).
@@ -704,6 +802,7 @@ function renderDashboard() {
   const itemSentinel = document.getElementById('itemListSentinel');
   if (itemSentinel) itemListObserver.observe(itemSentinel);
   rebindAccountScrollObservers();
+  rebindTopListObservers();
 
   document.getElementById('btnSnaGraph').addEventListener('click', toggleSnaGraph);
 }
@@ -758,6 +857,23 @@ function buildSnaGraph() {
     edges.push({ data: { id: 'e_' + edges.length, source: fromHandle, target: toHandle, label: 'replied to' } });
   });
 
+  // Quote-tweet edges — quoted_user is already denormalized straight onto
+  // the record (cookie_client.py's _tweet_to_dict), so unlike the reply
+  // edge above this needs no idToAuthor lookup — just confirm the quoted
+  // account is itself a node here (i.e. it authored something else in this
+  // same archive; if it never did, there's no node for the edge to point
+  // to and it's silently skipped, same rule idToAuthor enforces for replies).
+  d.scored_items.forEach(it => {
+    const raw        = it.item || {};
+    const quotedUser = raw.quoted_user;
+    const fromHandle  = it.author || raw.screen_name || raw.user;
+    if (!quotedUser || !fromHandle || quotedUser === fromHandle || !accounts[quotedUser]) return;
+    const key = fromHandle + '→' + quotedUser;
+    if (seenEdge.has(key)) return;
+    seenEdge.add(key);
+    edges.push({ data: { id: 'e_' + edges.length, source: fromHandle, target: quotedUser, label: 'quoted' } });
+  });
+
   const counts   = handles.map(h => accounts[h].total);
   const maxCount = Math.max(...counts);
   const minCount = Math.min(...counts);
@@ -771,6 +887,7 @@ function buildSnaGraph() {
         id: h,
         label: '@' + h + ' (' + a.total + ')',
         name: a.name, avatar: a.avatar,
+        verified: a.verified, is_blue_verified: a.is_blue_verified,
         pro: a.pro, neutral: a.neutral, con: a.con, total: a.total,
         proPct: pct(a.pro), neutralPct: pct(a.neutral), conPct: pct(a.con),
       },
@@ -841,7 +958,7 @@ function showSnaNodeInfo(nd) {
   panel.classList.add('visible');
   panel.innerHTML = `
     <div class="sna-node-identity">
-      <div class="sna-node-name">${esc(nd.name || nd.id)}</div>
+      <div class="sna-node-name">${esc(nd.name || nd.id)}${verifiedBadgeHtml(nd)}</div>
       <div class="sna-node-handle">@${esc(nd.id)}</div>
     </div>
     <div class="sna-node-stats">
@@ -872,6 +989,122 @@ function sentimentTileHtml(label, d) {
     </div>`;
 }
 
+// ── Item dates ────────────────────────────────────────────────────────────
+// created_at is set by cookie_client/xquik_client/wayback_client/google_cse_
+// client on the raw item (Twitter's classic date string, e.g. "Wed Oct 10
+// 20:19:24 +0000 2018" — a format the Date constructor parses natively).
+// retweeted_at/published_at/date cover the odd record shape that doesn't use
+// created_at. Returns null (not a bare user record, no text, or an
+// unparseable date) rather than throwing — dates are best-effort metadata,
+// not something scoring depends on.
+function itemDate(it) {
+  const raw = (it && it.item) || {};
+  const s = raw.created_at || raw.retweeted_at || raw.published_at || raw.date;
+  if (!s) return null;
+  const dt = new Date(s);
+  return isNaN(dt.getTime()) ? null : dt;
+}
+
+function dateKey(dt) {
+  // UTC calendar day, not local — keeps the calendar's bucketing stable
+  // regardless of which timezone the browser viewing it happens to be in.
+  return dt.toISOString().slice(0, 10);
+}
+
+function formatItemDate(dt) {
+  return dt.toLocaleString('en-US', {
+    day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'UTC',
+  });
+}
+
+// Memoized the same way accountSentiment() is — buildDashboard only needs
+// this computed once per archive, not once per re-render.
+let _dailyCache = null;
+let _dailyCacheFor = null;
+function dailyVolume(d) {
+  if (_dailyCacheFor === d) return _dailyCache;
+  const days = new Map();   // 'YYYY-MM-DD' -> { total, pro, neutral, con }
+  let undated = 0;
+  d.scored_items.forEach(it => {
+    const dt = itemDate(it);
+    if (!dt) { undated++; return; }
+    const key = dateKey(dt);
+    if (!days.has(key)) days.set(key, { total: 0, pro: 0, neutral: 0, con: 0 });
+    const bucket = days.get(key);
+    bucket.total++;
+    bucket[it.label]++;
+  });
+  const result = { days, undated };
+  _dailyCache = result;
+  _dailyCacheFor = d;
+  return result;
+}
+
+function monthLabelsHtml(weeks) {
+  let lastMonth = null;
+  return weeks.map(week => {
+    const month = week[0].key.slice(0, 7);
+    if (month === lastMonth) return '<div class="cal-month-cell"></div>';
+    lastMonth = month;
+    const label = new Date(week[0].key + 'T00:00:00Z').toLocaleString('en-US', { month: 'short', timeZone: 'UTC' });
+    return `<div class="cal-month-cell">${label}</div>`;
+  }).join('');
+}
+
+function calendarHtml(daily) {
+  const { days, undated } = daily;
+  if (!days.size) return '<div class="empty-state" style="padding:24px">No dated items to plot (raw records had no usable timestamp).</div>';
+
+  const keys = Array.from(days.keys()).sort();
+  const start = new Date(keys[0] + 'T00:00:00Z');
+  start.setUTCDate(start.getUTCDate() - start.getUTCDay());       // back up to Sunday
+  const end = new Date(keys[keys.length - 1] + 'T00:00:00Z');
+  end.setUTCDate(end.getUTCDate() + (6 - end.getUTCDay()));       // forward to Saturday
+  const maxCount = Math.max(...Array.from(days.values()).map(v => v.total));
+
+  const weeks = [];
+  for (let cur = new Date(start); cur <= end; ) {
+    const week = [];
+    for (let i = 0; i < 7; i++) {
+      const key = dateKey(cur);
+      week.push({ key, bucket: days.get(key) || null });
+      cur.setUTCDate(cur.getUTCDate() + 1);
+    }
+    weeks.push(week);
+  }
+
+  const weeksHtml = weeks.map(week => {
+    const cells = week.map(day => {
+      if (!day.bucket) {
+        return `<div class="cal-cell" data-date="${day.key}" title="${day.key}: 0 items"></div>`;
+      }
+      const level = Math.max(1, Math.ceil((day.bucket.total / maxCount) * 4));
+      const title = `${day.key}: ${day.bucket.total} item(s) · ${day.bucket.pro}p/${day.bucket.neutral}n/${day.bucket.con}c`;
+      return `<div class="cal-cell cal-has-data cal-level-${level}${day.key === activeDateFilter ? ' cal-active' : ''}" data-date="${day.key}" title="${esc(title)}"></div>`;
+    }).join('');
+    return `<div class="cal-week">${cells}</div>`;
+  }).join('');
+
+  return `
+    <div class="cal-outer">
+      <div class="cal-scroll">
+        <div class="cal-months">${monthLabelsHtml(weeks)}</div>
+        <div class="cal-grid">${weeksHtml}</div>
+      </div>
+      <div class="cal-legend">
+        Less
+        <span class="cal-cell"></span>
+        <span class="cal-cell cal-has-data cal-level-1"></span>
+        <span class="cal-cell cal-has-data cal-level-2"></span>
+        <span class="cal-cell cal-has-data cal-level-3"></span>
+        <span class="cal-cell cal-has-data cal-level-4"></span>
+        More
+        ${undated ? `· ${undated} item(s) with no usable date not shown` : ''}
+        ${activeDateFilter ? `<span class="cal-filter-chip" id="calClearFilter">Filtered: ${esc(activeDateFilter)} ×</span>` : ''}
+      </div>
+    </div>`;
+}
+
 // ── Account-level sentiment (not just per-post) ─────────────────────────────
 // Groups scored_items by author so "who's pro/con/neutral" can be answered
 // about ACCOUNTS, the same way top_users answers "who's most active" —
@@ -884,7 +1117,7 @@ let _acctSentCache = null;
 let _acctSentCacheFor = null;
 function accountSentiment(d) {
   if (_acctSentCacheFor === d) return _acctSentCache;
-  const accounts = {};   // handle -> { pro, neutral, con, total, name, avatar }
+  const accounts = {};   // handle -> { pro, neutral, con, total, name, avatar, verified, is_blue_verified }
   d.scored_items.forEach(it => {
     const raw    = it.item || {};
     const handle = it.author || raw.screen_name || raw.user;
@@ -893,8 +1126,14 @@ function accountSentiment(d) {
       accounts[handle] = {
         pro: 0, neutral: 0, con: 0, total: 0,
         name: raw.name || '', avatar: raw.avatar || raw.user_avatar || '',
+        verified: false, is_blue_verified: false,
       };
     }
+    // An account can show up on both a verified and (in principle, if the
+    // raw data ever disagreed across records) a non-verified item — once
+    // true, stays true, same as any other identity fact aggregated here.
+    if (raw.verified) accounts[handle].verified = true;
+    if (raw.is_blue_verified) accounts[handle].is_blue_verified = true;
     accounts[handle][it.label]++;
     accounts[handle].total++;
   });
@@ -930,21 +1169,92 @@ function userRowHtml(handle, u, opts = {}) {
       ${rank}
       ${avatar}
       <div class="user-identity">
-        <div class="user-name">${esc(u.name || handle)}</div>
+        <div class="user-name">${esc(u.name || handle)}${verifiedBadgeHtml(u)}</div>
         <div class="user-handle">@${esc(handle)}</div>
       </div>
       ${right}
     </div>`;
 }
 
+// Auto-scroll, same reasoning as the four pro/con/neutral/mixed buckets
+// below and the Items list further down — sentiment.py's top_users()/
+// top_engagement() now return EVERY account/post (no backend top-N cutoff
+// anymore, see sentiment.py), since this is an OSINT digital-evidence
+// archive and silently dropping who/what shows up here isn't acceptable.
+// Pacing how much gets built into HTML as you scroll is purely a rendering
+// concern — the full arrays (topUsersList/topEngagementList) stay in
+// memory the whole time, nothing is ever thrown away.
+const TOP_LIST_BATCH = 20;
+let topUsersFull        = [];   // every account sentiment.py returned, unfiltered
+let topUsersQuery       = '';
+let topUsersList        = [];   // topUsersFull, narrowed by topUsersQuery — what actually gets paginated
+let topUsersShown       = 0;
+let topUsersSentByHandle = null;
+let topEngagementList  = [];
+let topEngagementShown = 0;
+
+function topUserRowHtml(u, i) {
+  const s     = topUsersSentByHandle && topUsersSentByHandle[u.screen_name];
+  const label = s ? dominantLabel(s) : null;
+  const badge = label ? `<span class="sent-badge sent-${label}" style="margin-right:6px">${SENT_LABELS[label]}</span>` : '';
+  return userRowHtml(u.screen_name, u, { rank: i + 1, right: `${badge}<span class="user-count">${u.count}×</span>` });
+}
+
+function userMatchText(u) {
+  return [u.name || '', u.screen_name || ''].join(' ').toLowerCase();
+}
+
+function updateTopUsersStatus() {
+  const status = document.getElementById('topUsersStatus');
+  if (!status) return;
+  const remaining = topUsersList.length - topUsersShown;
+  if (remaining > 0) {
+    status.style.display = '';
+  } else {
+    status.style.display = 'none';
+  }
+}
+
+function loadMoreTopUsers() {
+  if (topUsersShown >= topUsersList.length) return;
+  const prev = topUsersShown;
+  topUsersShown = Math.min(topUsersShown + TOP_LIST_BATCH, topUsersList.length);
+  const sentinel = document.getElementById('topUsersSentinel');
+  if (sentinel) sentinel.insertAdjacentHTML('beforebegin', topUsersList.slice(prev, topUsersShown).map((u, idx) => topUserRowHtml(u, prev + idx)).join(''));
+  updateTopUsersStatus();
+}
+
+// Re-renders just #topUsersBox's own contents — called both on first
+// render (topUsersHtml, below) and again whenever the search box's query
+// changes (renderDashboard() wires that debounced listener), same split
+// renderTopEngagementBox() below uses for its own search box.
+function renderTopUsersBox() {
+  const box = document.getElementById('topUsersBox');
+  if (!box) return;
+  topUsersList  = topUsersQuery ? topUsersFull.filter(u => userMatchText(u).includes(topUsersQuery)) : topUsersFull;
+  topUsersShown = Math.min(TOP_LIST_BATCH, topUsersList.length);
+  box.innerHTML = topUsersList.length
+    ? topUsersList.slice(0, topUsersShown).map((u, i) => topUserRowHtml(u, i)).join('') + '<div id="topUsersSentinel" style="height:1px"></div>'
+    : '<div class="empty-state" style="padding:16px;font-size:12px">No matches.</div>';
+  const countEl = document.getElementById('topUsersCount');
+  if (countEl) countEl.textContent = topUsersQuery ? `${topUsersList.length} / ${topUsersFull.length}` : `${topUsersFull.length}`;
+  updateTopUsersStatus();
+  rebindTopUsersObserver();
+}
+
 function topUsersHtml(users, sentByHandle) {
-  if (!users || !users.length) return '<div class="empty-state" style="padding:24px">No identifiable authors in this archive.</div>';
-  return '<div class="user-list">' + users.map((u, i) => {
-    const s     = sentByHandle && sentByHandle[u.screen_name];
-    const label = s ? dominantLabel(s) : null;
-    const badge = label ? `<span class="sent-badge sent-${label}" style="margin-right:6px">${SENT_LABELS[label]}</span>` : '';
-    return userRowHtml(u.screen_name, u, { rank: i + 1, right: `${badge}<span class="user-count">${u.count}×</span>` });
-  }).join('') + '</div>';
+  topUsersFull         = users || [];
+  topUsersQuery        = '';
+  topUsersList         = topUsersFull;
+  topUsersSentByHandle = sentByHandle;
+  topUsersShown        = Math.min(TOP_LIST_BATCH, topUsersList.length);
+  if (!topUsersFull.length) return '<div class="empty-state" style="padding:24px">No identifiable authors in this archive.</div>';
+  return `
+    <div class="user-list scrollable" id="topUsersBox">
+      ${topUsersList.slice(0, topUsersShown).map((u, i) => topUserRowHtml(u, i)).join('')}
+      <div id="topUsersSentinel" style="height:1px"></div>
+    </div>
+    <div class="load-more-note" id="topUsersStatus" style="display:none"></div>`;
 }
 
 // Explicit "which accounts are pro / con / neutral / mixed" listing — the
@@ -1031,21 +1341,131 @@ function rebindAccountScrollObservers() {
   });
 }
 
+function topEngagementRowHtml(e) {
+  const it     = e.item;
+  const handle = it.screen_name || it.user || it.name || 'unknown';
+  const text   = (it.text || it.full_text || it.post_title || it.post_text || it.description || '').trim();
+  // Same itemDate()/formatItemDate() the Items list below uses — e's own
+  // shape ({engagement, item}) already matches what itemDate() expects
+  // (it reads `.item`), so this is the identical date, not a re-derived one.
+  const dt = itemDate(e);
+  const dateLabel = dt ? `<span class="item-date">${esc(formatItemDate(dt))}</span>` : '';
+  return `
+    <div class="eng-row">
+      <div class="eng-top">
+        <span class="eng-handle">@${esc(handle)}${verifiedBadgeHtml(it)}</span>
+        ${dateLabel}
+        <span class="eng-score">${e.engagement.toLocaleString()} interactions</span>
+      </div>
+      <div class="eng-text">${esc(text)}</div>
+    </div>`;
+}
+
+function updateTopEngagementStatus() {
+  const status = document.getElementById('topEngagementStatus');
+  if (!status) return;
+  const remaining = topEngagementList.length - topEngagementShown;
+  if (remaining > 0) {
+    status.style.display = '';
+  } else {
+    status.style.display = 'none';
+  }
+}
+
+function loadMoreTopEngagement() {
+  if (topEngagementShown >= topEngagementList.length) return;
+  const prev = topEngagementShown;
+  topEngagementShown = Math.min(topEngagementShown + TOP_LIST_BATCH, topEngagementList.length);
+  const sentinel = document.getElementById('topEngagementSentinel');
+  if (sentinel) sentinel.insertAdjacentHTML('beforebegin', topEngagementList.slice(prev, topEngagementShown).map(topEngagementRowHtml).join(''));
+  updateTopEngagementStatus();
+}
+
+// Re-bound after every render — same reasoning as rebindAccountScrollObservers()
+// just above: #topUsersBox/#topEngagementBox are rebuilt fresh whenever an
+// archive is opened, so a previous archive's observer would be watching a
+// detached node. `root` is each box itself (they scroll internally via
+// .scrollable), not the page.
+let topUsersObserver = null, topEngagementObserver = null;
+
+// Split out from rebindTopListObservers() below — renderTopUsersBox()/
+// renderTopEngagementBox() (each search box's own re-render, whenever its
+// query changes) need to re-bind just their own observer to the fresh
+// box/sentinel they just wrote, without touching the other one.
+function rebindTopUsersObserver() {
+  if (topUsersObserver) topUsersObserver.disconnect();
+  const uRoot = document.getElementById('topUsersBox');
+  const uSentinel = document.getElementById('topUsersSentinel');
+  if (uRoot && uSentinel) {
+    topUsersObserver = new IntersectionObserver(entries => {
+      if (entries.some(e => e.isIntersecting)) loadMoreTopUsers();
+    }, { root: uRoot, rootMargin: '80px' });
+    topUsersObserver.observe(uSentinel);
+  }
+}
+
+function rebindTopEngagementObserver() {
+  if (topEngagementObserver) topEngagementObserver.disconnect();
+  const eRoot = document.getElementById('topEngagementBox');
+  const eSentinel = document.getElementById('topEngagementSentinel');
+  if (eRoot && eSentinel) {
+    topEngagementObserver = new IntersectionObserver(entries => {
+      if (entries.some(e => e.isIntersecting)) loadMoreTopEngagement();
+    }, { root: eRoot, rootMargin: '80px' });
+    topEngagementObserver.observe(eSentinel);
+  }
+}
+
+function rebindTopListObservers() {
+  rebindTopUsersObserver();
+  updateTopUsersStatus();
+
+  rebindTopEngagementObserver();
+  updateTopEngagementStatus();
+}
+
+// topEngagementFull is every scored item sentiment.py returned (no backend
+// cap, see top_engagement()'s own docstring); topEngagementList is whatever
+// subset the search box below has currently narrowed that down to — the
+// same "full data stays in memory, only rendering is paced/filtered" split
+// the Items browser further down uses.
+let topEngagementFull  = [];
+let topEngagementQuery = '';
+
+function engagementMatchText(e) {
+  const it = e.item || {};
+  return [it.screen_name || it.user || it.name || '', it.text || it.full_text || it.post_title || it.post_text || it.description || '']
+    .join(' ').toLowerCase();
+}
+
+function renderTopEngagementBox() {
+  const box = document.getElementById('topEngagementBox');
+  if (!box) return;
+  topEngagementList  = topEngagementQuery
+    ? topEngagementFull.filter(e => engagementMatchText(e).includes(topEngagementQuery))
+    : topEngagementFull;
+  topEngagementShown  = Math.min(TOP_LIST_BATCH, topEngagementList.length);
+  box.innerHTML = topEngagementList.length
+    ? topEngagementList.slice(0, topEngagementShown).map(topEngagementRowHtml).join('') + '<div id="topEngagementSentinel" style="height:1px"></div>'
+    : '<div class="empty-state" style="padding:16px;font-size:12px">No matches.</div>';
+  const countEl = document.getElementById('topEngagementCount');
+  if (countEl) countEl.textContent = topEngagementQuery ? `${topEngagementList.length} / ${topEngagementFull.length}` : `${topEngagementFull.length}`;
+  updateTopEngagementStatus();
+  rebindTopEngagementObserver();
+}
+
 function topEngagementHtml(items) {
-  if (!items || !items.length) return '<div class="empty-state" style="padding:24px">No engagement data (reply/retweet/favorite counts) in this archive.</div>';
-  return '<div class="engagement-list">' + items.map(e => {
-    const it = e.item;
-    const handle = it.screen_name || it.user || it.name || 'unknown';
-    const text = (it.text || it.full_text || it.post_title || it.post_text || it.description || '').trim();
-    return `
-      <div class="eng-row">
-        <div class="eng-top">
-          <span class="eng-handle">@${esc(handle)}</span>
-          <span class="eng-score">${e.engagement.toLocaleString()} interactions</span>
-        </div>
-        <div class="eng-text">${esc(text)}</div>
-      </div>`;
-  }).join('') + '</div>';
+  topEngagementFull   = items || [];
+  topEngagementQuery  = '';
+  topEngagementList   = topEngagementFull;
+  topEngagementShown  = Math.min(TOP_LIST_BATCH, topEngagementList.length);
+  if (!topEngagementFull.length) return '<div class="empty-state" style="padding:24px">No engagement data (reply/retweet/favorite counts) in this archive.</div>';
+  return `
+    <div class="engagement-list scrollable" id="topEngagementBox">
+      ${topEngagementList.slice(0, topEngagementShown).map(topEngagementRowHtml).join('')}
+      <div id="topEngagementSentinel" style="height:1px"></div>
+    </div>
+    <div class="load-more-note" id="topEngagementStatus" style="display:none"></div>`;
 }
 
 function wordCloudHtml(words) {
@@ -1063,15 +1483,7 @@ function wordCloudHtml(words) {
   }).join('') + '</div>';
 }
 
-// ── Item browser ─────────────────────────────────────────────────────────────
-// Auto-scroll, same mechanism index.html uses for live search results
-// (IntersectionObserver watching a sentinel below the list) — but here
-// there's no server round-trip to paginate: every scored item is already in
-// memory, so "loading more" just means building more HTML for data that's
-// already there. ITEM_BATCH still matters even so — building a few thousand
-// .item-card divs in one go is real DOM-write cost, so this paces it out in
-// chunks as you scroll instead of paying for all of it up front.
-const ITEM_BATCH = 150;
+const ITEM_BATCH = 30;
 let filteredItems   = [];
 let itemRenderCount = 0;
 
@@ -1082,11 +1494,14 @@ function itemCardHtml(it) {
   const scoreLabel = typeof it.confidence === 'number'
     ? `${Math.round(it.confidence * 100)}% confidence`
     : `score ${it.score > 0 ? '+' : ''}${it.score}`;
+  const dt = itemDate(it);
+  const dateLabel = dt ? `<span class="item-date">${esc(formatItemDate(dt))}</span>` : '';
   return `
     <div class="item-card">
       <div class="item-card-top">
-        <span class="item-author">${it.author ? '@' + esc(it.author) : 'Unknown'}</span>
+        <span class="item-author">${it.author ? '@' + esc(it.author) : 'Unknown'}${verifiedBadgeHtml(it.item)}</span>
         <span class="sent-badge sent-${it.label}">${SENT_LABELS[it.label]}</span>
+        ${dateLabel}
         <span class="item-score">${scoreLabel}</span>
       </div>
       <div class="item-text">${esc(it.text)}</div>
@@ -1100,7 +1515,6 @@ function updateItemListStatus() {
   const remaining = filteredItems.length - itemRenderCount;
   if (remaining > 0) {
     status.style.display = '';
-    status.textContent = `Showing ${itemRenderCount} of ${filteredItems.length} — scroll for more…`;
   } else {
     status.style.display = 'none';
   }
@@ -1123,6 +1537,7 @@ function renderItemList() {
 
   let items = d.scored_items;
   if (activeFilter) items = items.filter(it => it.label === activeFilter);
+  if (activeDateFilter) items = items.filter(it => { const dt = itemDate(it); return dt && dateKey(dt) === activeDateFilter; });
   if (q) items = items.filter(it => (it.text || '').toLowerCase().includes(q) || (it.author || '').toLowerCase().includes(q));
 
   document.getElementById('itemCount').textContent = `${items.length} / ${d.scored_items.length}`;

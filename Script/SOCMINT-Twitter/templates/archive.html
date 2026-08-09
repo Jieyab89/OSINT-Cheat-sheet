@@ -346,6 +346,7 @@
     text-overflow: ellipsis;
   }
   .card-handle { font-size: 12px; color: var(--muted); }
+  .verified-badge { color: var(--accent); font-weight: 700; font-size: 0.85em; margin-left: 3px; }
   .card-bio { margin-top: 8px; font-size: 12px; color: var(--text); opacity: 0.85; line-height: 1.45; }
   .card-header.has-banner .card-bio { padding: 0 14px; }
 
@@ -633,6 +634,7 @@
       </div>
       <input type="text" class="search-bar" id="searchInput" placeholder="Search in archive…">
       <span class="result-count" id="resultCount"></span>
+      <a class="btn-delete" id="viewGraphBtn" href="#" target="_blank" rel="noopener noreferrer" style="text-decoration:none;display:inline-block">View as Graph ↗</a>
       <button class="btn-delete" id="deleteBtn">Delete</button>
     </div>
 
@@ -853,6 +855,7 @@ async function loadArchive(id) {
   ].filter(Boolean).join(' · ');
 
   viewerTop.style.display = '';
+  document.getElementById('viewGraphBtn').href = '/graph?archiveId=' + encodeURIComponent(id);
   renderCards(allItems, '');
 }
 
@@ -878,7 +881,7 @@ function flatText(obj) {
 // so a record's avatar/name/handle/banner/bio render identically whether
 // you're looking at a live result or a saved archive.
 const SKIP  = ['archived_media', 'profile_image_url', 'profile_banner_url', 'entities', 'extended_entities', 'urls', 'media', 'indices'];
-const CLAMP = new Set(['text','full_text','content','description','bio','article_text','retweeted_text','retweeted_by_bio','post_text']);
+const CLAMP = new Set(['text','full_text','content','description','bio','article_text','retweeted_text','retweeted_by_bio','post_text','quoted_text']);
 
 // ── Auto-scroll — same mechanism index.html's live search results use
 // (IntersectionObserver watching a sentinel, root: null since — per this
@@ -1008,7 +1011,7 @@ function buildCard(item, nested = false) {
       const cls = CLAMP.has(k) ? ' clamp' : '';
       display = `<span class="${cls}">${esc(String(v))}</span>`;
     }
-    const rtCls = k.startsWith('retweeted_') ? ' rt-origin' : '';
+    const rtCls = (k.startsWith('retweeted_') || k.startsWith('quoted_')) ? ' rt-origin' : '';
     return `<div class="card-row${rtCls}"><div class="card-key">${esc(k)}</div><div class="card-val">${display}</div></div>`;
   }).join('');
 

@@ -16,6 +16,7 @@ const PRIORITY = [
   'followers_count', 'following_count', 'tweet_count',
   'created_at', 'fetched_at', 'in_reply_to_tweet_id',
   'retweeted_by_user', 'retweeted_by_name', 'retweeted_text', 'retweeted_by_bio', 'retweeted_at', 'retweeted_tweet_id',
+  'quoted_user', 'quoted_name', 'quoted_text', 'quoted_at', 'quoted_tweet_id',
   'lat', 'lon', 'place', 'user_location',
   'tweet_url', 'archive_url', 'result_url', 'preview_image', 'display_link',
   'serp_title',
@@ -68,6 +69,17 @@ function isSafeImageUrl(u) {
   return typeof u === 'string' && /^https:\/\/[^\s'"<>()]+$/.test(u);
 }
 
+// Blue-checkmark badge — is_blue_verified (paid X Premium) and verified
+// (the legacy pre-2023 checkmark) are shown identically here since both are
+// "this account has X's blue checkmark," just from different eras; which
+// one it actually was is still visible as its own raw field further down
+// the card, this is only the at-a-glance version next to the name.
+function verifiedBadgeHtml(item) {
+  if (!item || (!item.verified && !item.is_blue_verified)) return '';
+  const title = item.is_blue_verified ? 'Blue verified (X Premium)' : 'Verified (legacy)';
+  return `<span class="verified-badge" title="${esc(title)}">✓</span>`;
+}
+
 // Returns { html, usedFields } instead of just a string — buildCard() needs
 // to know exactly which raw keys actually ended up rendered in the header
 // so it can drop only THOSE from the generic row list. A static "always hide
@@ -95,7 +107,7 @@ function buildCardHeader(item) {
       : '';
   const identityHtml = (name || handle)
     ? `<div class="card-identity">
-        ${name ? `<div class="card-name">${esc(name)}</div>` : ''}
+        ${name ? `<div class="card-name">${esc(name)}${verifiedBadgeHtml(item)}</div>` : ''}
         ${handle ? `<div class="card-handle">@${esc(handle)}</div>` : ''}
       </div>`
     : '';

@@ -28,6 +28,8 @@
 <div class="param-row"><code class="param-key">in_reply_to_tweet_id</code> Parent tweet this replies to — also the drill-down anchor that fetches its replies</div>
 <div class="param-row"><code class="param-key">retweeted_text / retweeted_by_user / retweeted_by_name / retweeted_by_bio</code> Content and author of the original tweet being retweeted</div>
 <div class="param-row"><code class="param-key">retweeted_at / retweeted_tweet_id</code> When the original was posted, and its own ID</div>
+<div class="param-row"><code class="param-key">quoted_text / quoted_user / quoted_name</code> Content and author of the tweet being quoted, when the record itself is a quote-tweet (retweet-with-comment) — the record's own <code class="param-key">text</code> is the quoting user's added commentary, this is what it's commentary <em>on</em></div>
+<div class="param-row"><code class="param-key">quoted_at / quoted_tweet_id</code> When the quoted tweet was posted, and its own ID</div>
 
 <div class="param-heading">Media &amp; links (every source)</div>
 <div class="param-row"><code class="param-key">media</code> Photo/video attachments — normalized to <code class="param-key">[{type, thumb, url}]</code> regardless of whether the source was Cookie or Xquik/API (the two use different raw shapes internally, unified before display/archive)</div>
