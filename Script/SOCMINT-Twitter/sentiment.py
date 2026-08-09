@@ -295,6 +295,21 @@ def top_users(items: list[dict], top_n: int | None = None) -> list[dict]:
             "avatar":      item.get("avatar") or item.get("user_avatar"),
             "verified":    item.get("verified"),
             "is_blue_verified": item.get("is_blue_verified"),
+            # Same account-age fields id_forensics.py's enrich_account_age()
+            # already stamps onto every raw item at the /api/run choke point
+            # (app.py) — index.html/archive.html/graph.html already surface
+            # these as a badge; the analytics dashboard just wasn't pulling
+            # them through to its own account list yet.
+            "account_created":       item.get("account_created"),
+            "account_age":           item.get("account_age"),
+            "account_age_flag":      item.get("account_age_flag"),
+            # account_age_flag is None whenever id_forensics.py's
+            # enrich_account_age() lands in its own "unknown" bucket (an id
+            # just outside the calibrated range — see that module's
+            # docstring) — account_age_precision is what tells the frontend
+            # "this account really is unresolvable," as opposed to just
+            # never having had an account id to enrich in the first place.
+            "account_age_precision": item.get("account_age_precision"),
         }
     ranked = []
     for handle, count in counts.most_common(top_n):
