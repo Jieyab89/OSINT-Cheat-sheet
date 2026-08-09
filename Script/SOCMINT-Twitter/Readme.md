@@ -274,11 +274,11 @@ Dir Output
 
 Sentiment Analysis 
 
-<img width="2553" height="1240" alt="Image" src="https://github.com/user-attachments/assets/c485f926-42a9-4e06-808d-4b80d2a8be55" />
+<img width="2556" height="1236" alt="image" src="https://github.com/user-attachments/assets/54f54f73-c739-4e1f-a0a0-431f2285f668" />
 
-<img width="2392" height="1241" alt="Image" src="https://github.com/user-attachments/assets/f56c034b-3449-49e7-a1c2-edb432f41b00" />
+<img width="2555" height="1231" alt="image" src="https://github.com/user-attachments/assets/8f1b9bd5-2020-46fa-975a-ba418360ed91" />
 
-<img width="2551" height="1233" alt="Image" src="https://github.com/user-attachments/assets/2c29f04d-796f-46e4-9767-740fe73bccac" />
+<img width="2547" height="1178" alt="image" src="https://github.com/user-attachments/assets/7c5b5c21-a632-4513-8b8e-57f8da396d2f" />
 
 Follower and Following 
 

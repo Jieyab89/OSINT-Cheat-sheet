@@ -200,6 +200,22 @@
   .user-count { font-size: 12px; color: var(--accent); font-weight: 600; flex-shrink: 0; }
   .verified-badge { color: var(--accent); font-weight: 700; font-size: 0.85em; margin-left: 3px; }
 
+  /* Same classes/colors as index.html/archive.html/graph.html's own
+     account_age_flag badge — new/recent accounts are a classic bot/
+     sockpuppet signal, worth being just as visible here as it already is
+     everywhere else this data shows up. */
+  .age-badge {
+    display: inline-block; font-size: 10px; font-weight: 500; padding: 1px 7px;
+    border-radius: 20px; border: 1px solid var(--border); margin-left: 6px; vertical-align: middle;
+  }
+  .age-badge.age-new         { color: var(--danger);  border-color: #7f1d1d; background: var(--danger-bg); }
+  .age-badge.age-recent      { color: #f59e0b;         border-color: #78350f; background: #1c0e02; }
+  .age-badge.age-established { color: var(--success); border-color: #14532d; background: var(--success-bg); }
+  /* No colored bucket, since there genuinely isn't one here (id_forensics.py
+     couldn't place this id in either range) — muted like sent-neutral,
+     not styled to look like a real new/recent/established verdict. */
+  .age-badge.age-unknown     { color: var(--muted);   border-color: var(--border); background: var(--bg); }
+
   .engagement-list { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
   .eng-row { padding: 10px 12px; border-bottom: 1px solid rgba(42,45,58,0.6); }
   .eng-row:last-child { border-bottom: none; }
@@ -411,6 +427,38 @@ function verifiedBadgeHtml(u) {
   if (!u || (!u.verified && !u.is_blue_verified)) return '';
   const title = u.is_blue_verified ? 'Blue verified (X Premium)' : 'Verified (legacy)';
   return `<span class="verified-badge" title="${esc(title)}">✓</span>`;
+}
+
+// Same account_age_flag badge index.html/archive.html/graph.html already
+// render as a plain field row — a new/recent account is a classic bot/
+// sockpuppet signal, worth surfacing here at a glance too, not just buried
+// in a raw field somewhere this dashboard doesn't even show. `u`/`item`
+// works the same as verifiedBadgeHtml() above: an accountSentiment() entry,
+// sentiment.py's top_users() entry, or a raw scored-item's `.item` all
+// carry the same field name.
+const AGE_LABELS = { new: 'New account', recent: 'Recent account', established: 'Established account' };
+function ageBadgeHtml(u) {
+  if (!u) return '';
+  if (u.account_age_flag) {
+    const label = AGE_LABELS[u.account_age_flag] || u.account_age_flag;
+    return `<span class="age-badge age-${esc(u.account_age_flag)}" title="${esc(u.account_age || '')}">${esc(label)}</span>`;
+  }
+  // account_age_flag is null in two different situations that look
+  // identical unless account_age_precision is checked too: no account id
+  // was ever available to enrich (nothing to show — most items, no badge
+  // at all is correct), vs. id_forensics.py's enrich_account_age() DID
+  // have an id but it fell into that module's own documented "unknown"
+  // gap (an id just past the calibrated range — see id_forensics.py's
+  // module docstring). The second case is still worth a visible marker:
+  // index.html/archive.html/graph.html all still show this account's own
+  // account_age text as a plain field row even here, and this dashboard
+  // has no equivalent raw-field fallback view, so silently showing
+  // nothing would make an intentionally-labeled "we don't know" look
+  // exactly like "there was never anything to know" instead.
+  if (u.account_age_precision === 'unknown') {
+    return `<span class="age-badge age-unknown" title="${esc(u.account_age || 'Account age could not be determined')}">Age unknown</span>`;
+  }
+  return '';
 }
 
 // Same allowlist index.html/graph.html apply to avatar/banner URLs — https
@@ -888,6 +936,8 @@ function buildSnaGraph() {
         label: '@' + h + ' (' + a.total + ')',
         name: a.name, avatar: a.avatar,
         verified: a.verified, is_blue_verified: a.is_blue_verified,
+        account_age_flag: a.account_age_flag, account_age: a.account_age,
+        account_age_precision: a.account_age_precision,
         pro: a.pro, neutral: a.neutral, con: a.con, total: a.total,
         proPct: pct(a.pro), neutralPct: pct(a.neutral), conPct: pct(a.con),
       },
@@ -959,7 +1009,7 @@ function showSnaNodeInfo(nd) {
   panel.innerHTML = `
     <div class="sna-node-identity">
       <div class="sna-node-name">${esc(nd.name || nd.id)}${verifiedBadgeHtml(nd)}</div>
-      <div class="sna-node-handle">@${esc(nd.id)}</div>
+      <div class="sna-node-handle">@${esc(nd.id)}${ageBadgeHtml(nd)}</div>
     </div>
     <div class="sna-node-stats">
       <span class="sent-badge sent-pro">Pro ${nd.pro}</span>
@@ -1117,7 +1167,7 @@ let _acctSentCache = null;
 let _acctSentCacheFor = null;
 function accountSentiment(d) {
   if (_acctSentCacheFor === d) return _acctSentCache;
-  const accounts = {};   // handle -> { pro, neutral, con, total, name, avatar, verified, is_blue_verified }
+  const accounts = {};   // handle -> { pro, neutral, con, total, name, avatar, verified, is_blue_verified, account_age_flag, account_age, account_created }
   d.scored_items.forEach(it => {
     const raw    = it.item || {};
     const handle = it.author || raw.screen_name || raw.user;
@@ -1127,6 +1177,13 @@ function accountSentiment(d) {
         pro: 0, neutral: 0, con: 0, total: 0,
         name: raw.name || '', avatar: raw.avatar || raw.user_avatar || '',
         verified: false, is_blue_verified: false,
+        // Set once at first sight, same as name/avatar above — an
+        // account's creation date doesn't change between records, so
+        // there's no "accumulate" logic needed the way verified has.
+        account_age_flag:      raw.account_age_flag || null,
+        account_age:           raw.account_age || null,
+        account_created:       raw.account_created || null,
+        account_age_precision: raw.account_age_precision || null,
       };
     }
     // An account can show up on both a verified and (in principle, if the
@@ -1170,7 +1227,7 @@ function userRowHtml(handle, u, opts = {}) {
       ${avatar}
       <div class="user-identity">
         <div class="user-name">${esc(u.name || handle)}${verifiedBadgeHtml(u)}</div>
-        <div class="user-handle">@${esc(handle)}</div>
+        <div class="user-handle">@${esc(handle)}${ageBadgeHtml(u)}</div>
       </div>
       ${right}
     </div>`;
@@ -1353,7 +1410,7 @@ function topEngagementRowHtml(e) {
   return `
     <div class="eng-row">
       <div class="eng-top">
-        <span class="eng-handle">@${esc(handle)}${verifiedBadgeHtml(it)}</span>
+        <span class="eng-handle">@${esc(handle)}${verifiedBadgeHtml(it)}${ageBadgeHtml(it)}</span>
         ${dateLabel}
         <span class="eng-score">${e.engagement.toLocaleString()} interactions</span>
       </div>
@@ -1499,7 +1556,7 @@ function itemCardHtml(it) {
   return `
     <div class="item-card">
       <div class="item-card-top">
-        <span class="item-author">${it.author ? '@' + esc(it.author) : 'Unknown'}${verifiedBadgeHtml(it.item)}</span>
+        <span class="item-author">${it.author ? '@' + esc(it.author) : 'Unknown'}${verifiedBadgeHtml(it.item)}${ageBadgeHtml(it.item)}</span>
         <span class="sent-badge sent-${it.label}">${SENT_LABELS[it.label]}</span>
         ${dateLabel}
         <span class="item-score">${scoreLabel}</span>
