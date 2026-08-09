@@ -176,6 +176,7 @@ Automated tool by David Bombal
 
 # SOCMINT  
 
+- [Jieyab89 SOCMINT-Twitter](https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/SOCMINT-Twitter)
 - [fingerprint](https://fingerprint.to/)
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
 - [webvetted](https://webvetted.com/)
@@ -341,15 +342,25 @@ Site and forums OSINT community arround world
 
 # SIGINT 
 
-All demonstrations in this repository are performed in isolated, self-hosted lab environments. Do not use any information here against real, third-party telecommunications infrastructure without explicit written authorization. The author(s) are not responsible for misuse.
+All demonstrations in this repository are performed in isolated, self-hosted lab environments. Do not use any information here against real, third-party infrastructure, devices, or networks without explicit written authorization. The author are not responsible for misuse.
 
 Legal Considerations
+
+SIGINT work spans multiple signal domains (cellular, WiFi, RFID/NFC, Sub-GHz radio, etc.), each governed by different areas of law depending on jurisdiction. Broadly:
+
+- **Spectrum / telecom licensing law** — governs *transmitting* on licensed frequencies (e.g. GSM/cellular bands). Running a fake BTS (OpenBTS, YateBTS) requires authorization from the national spectrum regulator, regardless of intent or shielding.
+- **Unauthorized access / computer misuse law** — governs accessing, disrupting, or manipulating a system/network you don't own or lack permission to test (e.g. WiFi deauth attacks, WPA cracking, rogue AP, cloning someone else's RFID/NFC credential, SIM card manipulation). This applies even on unlicensed spectrum (WiFi, Sub-GHz, NFC) where transmission itself is legal but the *action* against a third party's system is not.
+- **Interception / wiretap law** — governs passively capturing communications that aren't yours to see (e.g. sniffing cellular traffic, WiFi packets, or radio comms on a network you don't operate), even in receive-only mode.
+
+**Rule of thumb:** if a tool or technique in this repo can transmit, intercept, or interact with real third-party infrastructure, it needs either (a) your own isolated lab environment with no real target involved, or (b) explicit written authorization from the owner/operator, or (c) a license from the relevant regulator.
 
 | Jurisdiction | Regulator | Reference |
 |---|---|---|
 | 🇮🇩 Indonesia | Kominfo / Ditjen SDPPI | [UU No. 36 Tahun 1999 tentang Telekomunikasi](https://jdih.komdigi.go.id/produk_hukum/view/id/564/t/undangundang+nomor+36+tahun+1999) |
+| 🇮🇩 Indonesia | — | UU ITE (unauthorized access / computer misuse) |
 | 🇺🇸 United States | FCC | [Communications Act of 1934, §301 (47 U.S.C. §301)](https://www.fcc.gov/consumers/guides/unauthorized-radio-operation) |
-| 🇪🇺 European Union | ETSI / national NRAs | [ETSI EN 301 893](https://www.etsi.org/) (spectrum access rules; check individual member-state telecom law) |
+| 🇺🇸 United States | — | Computer Fraud and Abuse Act (CFAA) — unauthorized access |
+| 🇪🇺 European Union | ETSI / national NRAs | [ETSI EN 301 893](https://www.etsi.org/) (spectrum access rules; check individual member-state telecom & cybercrime law) |
 | International | ITU-R | [ITU Radio Regulations](https://www.itu.int/en/ITU-R/terrestrial/Pages/default.aspx) |
 
 > Add your own country's regulator/law here as needed — this table is not exhaustive.
