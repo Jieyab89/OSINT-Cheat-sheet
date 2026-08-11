@@ -127,12 +127,15 @@ NEGATIVE_WORDS = {
     "pengecut", "penakut", "plin-plan", "labil", "egois", "keegoisan",
     "sombong", "kesombongan", "angkuh", "arogan", "sok", "songong",
     "kurang ajar", "tidak becus", "amburadul", "berantakan", "semrawut",
-    "menyengsarakan", "represif", "represi", "diskriminasi",
+    "menyengsarakan", "represif", "represi", "diskriminasi", "ruwet",
     "mendiskriminasi", "rasis", "rasisme", "intoleran", "intoleransi",
     "penjilat", "kontol", "memek", "paok", "stress", "goblog", "kontlo",
     "kepala batu", "oon", "bacot", "asu", "gijil", "jembut", "kanjut",
     "ngentot", "puki", "meki", "jembot", "pukimak", "kimak", "tembelek", 
-    "tai", "bacod", "telaso",
+    "tai", "bacod", "telaso", "dongo", "pauk", "jemboot", "Komdongo", 
+    "komintod", "komintol", "cabul", "pencabulan", "omdo", "kunyuk",
+    "munyuk", "monyet", "nyet", "jawir", "j4wir", "j4w1r", "kentu",
+    "kenthu", 
 }
 
 # Flips the polarity of a sentiment word found within NEGATION_WINDOW tokens
