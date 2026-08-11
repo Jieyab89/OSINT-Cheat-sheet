@@ -22,3 +22,7 @@ Thanks
 - [SENTINEL-SAT-SCRIPT-LIST](https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/SENTINEL-SAT-SCRIPT-LIST)
 - [SOCMINT-Twitter](https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/SOCMINT-Twitter)
 - [Web-TLD-Enumerate-NS-Check](https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Web-TLD-Enumerate-NS-Check)
+
+# Report Bug and Error 
+
+If any error and bug also bussines process logic, please create an issue 

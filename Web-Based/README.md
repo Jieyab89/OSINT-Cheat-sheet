@@ -51,3 +51,7 @@ Here the result
 # Data Correlation
 
 <img width="2559" height="1342" alt="image" src="https://github.com/user-attachments/assets/4d942260-207d-4797-8e6d-792f3529d690" />
+
+# Report Bug and Error 
+
+If any error and bug also bussines process logic, please create an issue 

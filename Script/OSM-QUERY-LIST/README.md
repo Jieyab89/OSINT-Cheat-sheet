@@ -54,3 +54,7 @@ Example
 - [How to user overpass](https://publish.obsidian.md/dukera-gewel/How+to+Use+Overpass+Turbo)
 
 Check the doc OSM query 
+
+# Report Bug and Error 
+
+If any error and bug also bussines process logic, please create an issue 

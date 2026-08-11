@@ -294,6 +294,7 @@ Dasboard Home
 <img width="2423" height="1217" alt="Image" src="https://github.com/user-attachments/assets/6ba91a78-5845-4e17-87e2-8171da3cec19" />
 
 Load Case / Project 
+
 <img width="2532" height="1217" alt="image" src="https://github.com/user-attachments/assets/433d6f8a-a10f-4add-afeb-8935fc643e67" />
 
 Checkpoint or Save the Project
@@ -353,3 +354,7 @@ Soon i will check more detail about Twitter or X mechanism and business logic al
 Wayback archive data source 
 
 The server connection to the Wayback Machine archive is often down, so try bumping the thread and don't set the throttle too high, and try checking the connection manually using curl.
+
+# Report Bug and Error 
+
+If any error and bug also bussines process logic, please create an issue

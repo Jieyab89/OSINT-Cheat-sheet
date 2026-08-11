@@ -23,3 +23,7 @@ Upgrade libary with pip
 ```
 pip install -r requirements.txt --upgrade
 ```
+
+# Report Bug and Error 
+
+If any error and bug also bussines process logic, please create an issue 
