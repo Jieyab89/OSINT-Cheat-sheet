@@ -135,7 +135,10 @@ NEGATIVE_WORDS = {
     "tai", "bacod", "telaso", "dongo", "pauk", "jemboot", "Komdongo", 
     "komintod", "komintol", "cabul", "pencabulan", "omdo", "kunyuk",
     "munyuk", "monyet", "nyet", "jawir", "j4wir", "j4w1r", "kentu",
-    "kenthu", 
+    "kenthu", "komdonggo", "komdungu", "kolot", "wowok", "cok",  
+    "cokil", "jancok", "jiancuk", "jancook", "ancok", "ancook", 
+    "coli", "nyoli", "oten", "0ten", "ten oten", "kadrun", "drun",
+    "k4drun", 
 }
 
 # Flips the polarity of a sentiment word found within NEGATION_WINDOW tokens
