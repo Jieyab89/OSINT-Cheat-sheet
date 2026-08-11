@@ -441,13 +441,6 @@
     font-weight: 500;
   }
   .card-val { color: var(--text); word-break: break-word; flex: 1; }
-  .card-val.clamp {
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
-    -webkit-box-orient: vertical;
-  }
   .card-link { color: var(--accent); text-decoration: none; font-size: 12px; }
   .card-link:hover { text-decoration: underline; }
 
@@ -883,7 +876,7 @@ function flatText(obj) {
 // so a record's avatar/name/handle/banner/bio render identically whether
 // you're looking at a live result or a saved archive.
 const SKIP  = ['archived_media', 'profile_image_url', 'profile_banner_url', 'entities', 'extended_entities', 'urls', 'media', 'indices'];
-const CLAMP = new Set(['text','full_text','content','description','bio','article_text','retweeted_text','retweeted_by_bio','post_text','quoted_text']);
+const CLAMP = new Set();
 
 // ── Auto-scroll — same mechanism index.html's live search results use
 // (IntersectionObserver watching a sentinel, root: null since — per this
@@ -1005,10 +998,10 @@ function buildCard(item, nested = false) {
     } else if (k === 'text' && item.reply_to_mentions && item.reply_to_mentions.length) {
       const badge = `<div class="reply-context">↩ Replying to ${item.reply_to_mentions.map(m => '@' + esc(m)).join(', ')}</div>`;
       const clean = stripLeadingMentions(String(v), item.reply_to_mentions);
-      display = `${badge}<span class="clamp">${esc(clean)}</span>`;
+      display = `${badge}<span>${esc(clean)}</span>`;
     } else if (typeof v === 'object') {
-      const s = JSON.stringify(v);
-      display = `<span style="color:var(--muted);font-size:11px">${esc(s.length > 100 ? s.slice(0,100)+'…' : s)}</span>`;
+      const s = JSON.stringify(v, null, 2);
+      display = `<span style="color:var(--muted);font-size:11px;white-space:pre-wrap">${esc(s)}</span>`;
     } else {
       const cls = CLAMP.has(k) ? ' clamp' : '';
       display = `<span class="${cls}">${esc(String(v))}</span>`;
