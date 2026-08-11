@@ -7,6 +7,7 @@ import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
+from pathlib import Path
 import requests as _req
 from flask import Flask, g, jsonify, render_template, request, Response, stream_with_context, send_from_directory
 
@@ -416,12 +417,22 @@ def run_tool():
     source_errors = None   # multi_source_search only — {source: error} for lanes that failed this page
 
     try:
+        # Common date range — validated once; all tools except wayback (which uses its
+        # own waybackFrom/waybackTo keys) and article_extractor (single item, no date)
+        # can receive these to narrow results.
+        from_date = body.get("dateFrom", "").strip()
+        to_date   = body.get("dateTo",   "").strip()
+        for d_label, d_val in (("dateFrom", from_date), ("dateTo", to_date)):
+            if d_val and not _valid_date8(d_val):
+                return jsonify({"ok": False, "error": f"{d_label} must be YYYYMMDD"}), 400
+
         if tool_type == "tweet_search_extractor":
-            query = body.get("searchQuery", "")
+            query = _apply_date_operators(body.get("searchQuery", ""), from_date, to_date)
             if mode == "cookie":
                 data, next_cursor = cookie_tweet_search(query, count=count, config=config, cursor=cursor)
             else:
                 data = XquikClient(config).tweet_search(query)
+            data = _filter_by_date(data, from_date, to_date)
 
         elif tool_type == "follower_explorer":
             username = body.get("targetUsername", "")
@@ -429,12 +440,14 @@ def run_tool():
                 data, next_cursor = cookie_follower_explorer(username, count=count, config=config, cursor=cursor)
             else:
                 data = XquikClient(config).follower_explorer(username)
+            data = _filter_by_date(data, from_date, to_date)
 
         elif tool_type == "following_explorer":
             username = body.get("targetUsername", "")
             if mode != "cookie":
                 return jsonify({"ok": False, "error": "following_explorer requires cookie mode"}), 400
             data, next_cursor = cookie_following_explorer(username, count=count, config=config, cursor=cursor)
+            data = _filter_by_date(data, from_date, to_date)
 
         elif tool_type == "article_extractor":
             tweet_id = body.get("targetTweetId", "")
@@ -449,6 +462,7 @@ def run_tool():
                 data, next_cursor = cookie_community_post_extractor(community_id, count=count, config=config, cursor=cursor)
             else:
                 data = XquikClient(config).community_post_extractor(community_id)
+            data = _filter_by_date(data, from_date, to_date)
 
         elif tool_type == "post_extractor":
             username = body.get("targetUsername", "")
@@ -456,41 +470,40 @@ def run_tool():
                 data, next_cursor = cookie_post_extractor(username, count=count, config=config, cursor=cursor)
             else:
                 data = XquikClient(config).post_extractor(username)
+            data = _filter_by_date(data, from_date, to_date)
 
         elif tool_type == "tweet_replies_extractor":
             tweet_id = body.get("targetTweetId", "")
             if mode != "cookie":
                 return jsonify({"ok": False, "error": "tweet_replies_extractor requires cookie mode"}), 400
             data, next_cursor = cookie_tweet_replies(tweet_id, count=count, config=config, cursor=cursor)
+            data = _filter_by_date(data, from_date, to_date)
 
         elif tool_type == "tweet_retweeters_extractor":
             tweet_id = body.get("targetTweetId", "")
             if mode != "cookie":
                 return jsonify({"ok": False, "error": "tweet_retweeters_extractor requires cookie mode"}), 400
             data, next_cursor = cookie_tweet_retweeters(tweet_id, count=count, config=config, cursor=cursor)
+            data = _filter_by_date(data, from_date, to_date)
 
         elif tool_type == "geo_post_extractor":
-            keyword = body.get("searchQuery", "")
+            keyword = _apply_date_operators(body.get("searchQuery", ""), from_date, to_date)
             if mode != "cookie":
                 return jsonify({"ok": False, "error": "geo_post_extractor requires cookie mode"}), 400
             data, next_cursor = cookie_geo_search(keyword, count=count, config=config, cursor=cursor)
+            data = _filter_by_date(data, from_date, to_date)
 
         elif tool_type == "wayback_archive_search":
-            target    = body.get("searchQuery", "")
-            from_date = body.get("waybackFrom", "")
-            to_date   = body.get("waybackTo", "")
-            for label, val in (("waybackFrom", from_date), ("waybackTo", to_date)):
-                if val and not _valid_date8(val):
-                    return jsonify({"ok": False, "error": f"{label} must be an 8-digit date (YYYYMMDD)"}), 400
-            data, next_cursor = wayback_search(target, count=count, from_date=from_date, to_date=to_date, cursor=cursor)
+            target  = body.get("searchQuery", "")
+            wb_from = body.get("waybackFrom", "")
+            wb_to   = body.get("waybackTo", "")
+            for d_label, d_val in (("waybackFrom", wb_from), ("waybackTo", wb_to)):
+                if d_val and not _valid_date8(d_val):
+                    return jsonify({"ok": False, "error": f"{d_label} must be an 8-digit date (YYYYMMDD)"}), 400
+            data, next_cursor = wayback_search(target, count=count, from_date=wb_from, to_date=wb_to, cursor=cursor)
 
         elif tool_type == "multi_source_search":
-            query     = body.get("searchQuery", "")
-            from_date = body.get("dateFrom", "")
-            to_date   = body.get("dateTo", "")
-            for label, val in (("dateFrom", from_date), ("dateTo", to_date)):
-                if val and not _valid_date8(val):
-                    return jsonify({"ok": False, "error": f"{label} must be an 8-digit date (YYYYMMDD)"}), 400
+            query = body.get("searchQuery", "")
             data, next_cursor, source_errors = _multi_source_search(query, count=count, from_date=from_date, to_date=to_date, cursor=cursor)
 
         else:
@@ -606,6 +619,151 @@ def archive_status(archive_id):
 @app.route("/api/archive/list")
 def archive_list():
     return jsonify({"ok": True, "archives": _archive.list_all()})
+
+
+# ── Cases (save / resume investigation sessions) ──────────────────────────────
+
+CASES_ROOT   = Path(__file__).parent / "cases"
+_CASE_ID_RE  = re.compile(r"^case_\d{8}_\d{6}_[0-9a-f]{6}$")
+
+
+def _valid_case_id(cid: str) -> bool:
+    return bool(_CASE_ID_RE.match(cid))
+
+
+@app.route("/api/cases")
+def cases_list():
+    CASES_ROOT.mkdir(exist_ok=True)
+    out = []
+    for d in CASES_ROOT.iterdir():
+        if not d.is_dir():
+            continue
+        mf = d / "meta.json"
+        if not mf.exists():
+            continue
+        try:
+            out.append(json.loads(mf.read_text()))
+        except Exception:
+            continue
+    out.sort(key=lambda c: c.get("updated_at", ""), reverse=True)
+    return jsonify({"ok": True, "cases": out})
+
+
+@app.route("/api/cases", methods=["POST"])
+def cases_create():
+    body  = request.get_json(silent=True) or {}
+    name  = str(body.get("name", "Unnamed Case")).strip()[:120]
+    page  = str(body.get("page", "index"))[:16]
+    state = body.get("state")
+    if state is None:
+        return jsonify({"ok": False, "error": "No state provided"}), 400
+
+    now      = datetime.now()
+    case_id  = f"case_{now.strftime('%Y%m%d_%H%M%S')}_{secrets.token_hex(3)}"
+    case_dir = CASES_ROOT / case_id
+    case_dir.mkdir(parents=True, exist_ok=True)
+
+    tool = str(body.get("tool", ""))[:80].strip()
+    ts   = now.strftime("%Y-%m-%d %H:%M:%S")
+    meta = {"id": case_id, "name": name, "page": page, "tool": tool, "created_at": ts, "updated_at": ts}
+    (case_dir / "meta.json").write_text(json.dumps(meta, indent=2))
+    (case_dir / "state.json").write_text(json.dumps(state))
+    return jsonify({"ok": True, "caseId": case_id, "meta": meta})
+
+
+@app.route("/api/cases/<case_id>")
+def cases_get(case_id):
+    if not _valid_case_id(case_id):
+        return jsonify({"ok": False, "error": "Invalid case ID"}), 400
+    mf = CASES_ROOT / case_id / "meta.json"
+    sf = CASES_ROOT / case_id / "state.json"
+    if not mf.exists():
+        return jsonify({"ok": False, "error": "Case not found"}), 404
+    try:
+        meta  = json.loads(mf.read_text())
+        state = json.loads(sf.read_text())
+    except Exception as e:
+        return jsonify({"ok": False, "error": str(e)}), 500
+    return jsonify({"ok": True, "meta": meta, "state": state})
+
+
+@app.route("/api/cases/<case_id>", methods=["PUT"])
+def cases_update(case_id):
+    if not _valid_case_id(case_id):
+        return jsonify({"ok": False, "error": "Invalid case ID"}), 400
+    mf = CASES_ROOT / case_id / "meta.json"
+    if not mf.exists():
+        return jsonify({"ok": False, "error": "Case not found"}), 404
+    body = request.get_json(silent=True) or {}
+    try:
+        meta = json.loads(mf.read_text())
+    except Exception as e:
+        return jsonify({"ok": False, "error": str(e)}), 500
+    if "name" in body:
+        meta["name"] = str(body["name"]).strip()[:120]
+    if "tool" in body:
+        meta["tool"] = str(body["tool"]).strip()[:80]
+    meta["updated_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    if "state" in body:
+        (CASES_ROOT / case_id / "state.json").write_text(json.dumps(body["state"]))
+    mf.write_text(json.dumps(meta, indent=2))
+    return jsonify({"ok": True, "meta": meta})
+
+
+@app.route("/api/cases/<case_id>", methods=["DELETE"])
+def cases_delete(case_id):
+    if not _valid_case_id(case_id):
+        return jsonify({"ok": False, "error": "Invalid case ID"}), 400
+    case_dir = CASES_ROOT / case_id
+    if not case_dir.exists():
+        return jsonify({"ok": False, "error": "Case not found"}), 404
+    shutil.rmtree(case_dir)
+    return jsonify({"ok": True})
+
+
+@app.route("/api/cases/beacon", methods=["POST"])
+def cases_beacon():
+    """navigator.sendBeacon() target — called on beforeunload. Always 204; response is ignored."""
+    try:
+        body     = request.get_json(silent=True) or {}
+        state    = body.get("state")
+        if not state:
+            return "", 204
+        tool     = str(body.get("tool", ""))[:80].strip()
+        case_id  = str(body.get("caseId", "")).strip()
+        CASES_ROOT.mkdir(exist_ok=True)
+        if case_id and _valid_case_id(case_id):
+            mf = CASES_ROOT / case_id / "meta.json"
+            sf = CASES_ROOT / case_id / "state.json"
+            if mf.exists():
+                try:
+                    meta = json.loads(mf.read_text())
+                except Exception:
+                    meta = {}
+                if tool:
+                    meta["tool"] = tool
+                meta["updated_at"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                mf.write_text(json.dumps(meta, indent=2))
+                sf.write_text(json.dumps(state))
+        else:
+            name    = str(body.get("name", ""))[:120].strip() or "Auto-save"
+            page    = str(body.get("page", "index"))[:16]
+            now     = datetime.now()
+            cid     = f"case_{now.strftime('%Y%m%d_%H%M%S')}_{secrets.token_hex(3)}"
+            cdir    = CASES_ROOT / cid
+            cdir.mkdir(parents=True, exist_ok=True)
+            ts   = now.strftime("%Y-%m-%d %H:%M:%S")
+            meta = {"id": cid, "name": name, "page": page, "tool": tool, "created_at": ts, "updated_at": ts}
+            (cdir / "meta.json").write_text(json.dumps(meta, indent=2))
+            (cdir / "state.json").write_text(json.dumps(state))
+    except Exception:
+        pass
+    return "", 204
+
+
+@app.route("/cases")
+def cases_page():
+    return render_template("cases.html")
 
 
 # ── Analytics (sentiment / clustering) ──────────────────────────────────────

@@ -256,6 +256,15 @@
     background: var(--accent-bg); border: 1px solid var(--accent); border-radius: 20px;
     padding: 3px 10px; cursor: pointer; margin-left: 8px;
   }
+  .cal-date-stat {
+    margin-top: 8px;
+    padding: 7px 12px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 12px;
+    color: var(--text);
+  }
 
   /* ── Sentiment badge (shared by tiles/list) ── */
   .sent-badge {
@@ -389,6 +398,7 @@
     <a href="/archives">Archives</a>
     <hr class="nav-divider">
     <a href="/analytics" class="current">Analytics</a>
+    <a href="/cases">Cases</a>
   </nav>
 </header>
 
@@ -725,7 +735,7 @@ function renderDashboard() {
     <div class="method-note">
       ${d.method === 'ml'
         ? 'Sentiment is scored by a multilingual model (XLM-RoBERTa, fine-tuned on tweets across 8 languages and reasonably capable well beyond those) — works on non-Indonesian text, not just the lexicon fallback below. Still a heuristic, not ground truth: short text, sarcasm and irony all still degrade accuracy. Click a tile below to see which items landed in it and the model\'s confidence per item.'
-        : 'Sentiment is scored against an Indonesian positive/negative word lexicon with negation handling (e.g. "tidak bagus" flips to con) — a transparent rule-based heuristic, Indonesian-only. Install torch+transformers (see requirements.txt) for multilingual ML-based scoring instead. Click a tile below to see exactly which items landed in it and which words drove each score.'}
+        : 'Sentiment is scored con an Indonesian positive/negative word lexicon with negation handling (e.g. "tidak bagus" flips to con) — a transparent rule-based heuristic, Indonesian-only. Install torch+transformers (see requirements.txt) for multilingual ML-based scoring instead. Click a tile below to see exactly which items landed in it and which words drove each score.'}
       ${d.total_items - d.total_scored > 0 ? `${d.total_items - d.total_scored} of ${d.total_items} record(s) had no text to score (bare follower/following/user entries) and are excluded below.` : ''}
     </div>
 
@@ -1135,6 +1145,18 @@ function calendarHtml(daily) {
     return `<div class="cal-week">${cells}</div>`;
   }).join('');
 
+  const selDay = activeDateFilter ? days.get(activeDateFilter) : null;
+  const selStat = selDay
+    ? (() => {
+        const d = selDay;
+        const parts = [];
+        if (d.pro     > 0) parts.push(`${d.pro} positive`);
+        if (d.neutral > 0) parts.push(`${d.neutral} neutral`);
+        if (d.con     > 0) parts.push(`${d.con} con`);
+        return `${d.total} item${d.total !== 1 ? 's' : ''} collected${parts.length ? ' — ' + parts.join(' / ') : ''}`;
+      })()
+    : null;
+
   return `
     <div class="cal-outer">
       <div class="cal-scroll">
@@ -1150,8 +1172,9 @@ function calendarHtml(daily) {
         <span class="cal-cell cal-has-data cal-level-4"></span>
         More
         ${undated ? `· ${undated} item(s) with no usable date not shown` : ''}
-        ${activeDateFilter ? `<span class="cal-filter-chip" id="calClearFilter">Filtered: ${esc(activeDateFilter)} ×</span>` : ''}
+        ${activeDateFilter ? `<span class="cal-filter-chip" id="calClearFilter">${esc(activeDateFilter)} &times;</span>` : ''}
       </div>
+      ${selStat ? `<div class="cal-date-stat">${esc(activeDateFilter)}: ${esc(selStat)}</div>` : ''}
     </div>`;
 }
 

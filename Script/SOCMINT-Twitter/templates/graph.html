@@ -89,7 +89,6 @@
   .nav-menu a:hover { color: var(--text); background: var(--accent-bg); }
   .nav-menu a.current { color: var(--accent); background: var(--accent-bg); }
   .nav-divider { border: none; border-top: 1px solid var(--border); margin: 3px 0; }
-
   /* ── Toolbar ── */
   #toolbar {
     display: flex;
@@ -559,6 +558,53 @@
     z-index: 5;
   }
   #emptyHint.hidden { display: none; }
+
+  /* Active case indicator in toolbar */
+  .case-indicator {
+    display: none; align-items: center; gap: 6px;
+    padding: 3px 8px; border-radius: 5px;
+    background: var(--accent-bg); border: 1px solid var(--accent); font-size: 11px;
+  }
+  .case-indicator.visible { display: flex; }
+  .case-indicator-name {
+    max-width: 120px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    color: var(--accent); font-weight: 500; color: #fff;
+  }
+  .case-checkpoint-btn {
+    padding: 4px 10px; font-size: 12px; border-radius: 5px;
+    background: transparent; border: 1px solid var(--accent); color: var(--accent);
+    font-family: var(--font); cursor: pointer; transition: all 0.12s; flex-shrink: 0; color: #fff;
+  }
+  .case-checkpoint-btn:hover:not(:disabled) { background: var(--accent-bg); }
+  .case-checkpoint-btn:disabled { opacity: 0.5; cursor: wait; }
+  .case-save-bar {
+    background: var(--surface); border-bottom: 1px solid var(--border);
+    padding: 10px 16px; display: flex; flex-direction: column; gap: 8px;
+  }
+  .case-save-bar[hidden] { display: none; }
+  .case-save-label { font-size: 12px; color: var(--muted); font-weight: 500; }
+  .case-save-input {
+    width: 100%; padding: 7px 10px; box-sizing: border-box;
+    background: var(--bg); border: 1px solid var(--border); border-radius: 6px;
+    color: var(--text); font-family: var(--font); font-size: 13px;
+    transition: border-color 0.15s;
+  }
+  .case-save-input:focus { outline: none; border-color: var(--accent); }
+  .case-save-input::placeholder { color: var(--muted); }
+  .case-save-btns { display: flex; gap: 6px; }
+  .case-save-confirm {
+    padding: 6px 16px; font-size: 12px; border-radius: 5px; white-space: nowrap;
+    background: var(--accent); color: #fff; border: none;
+    font-family: var(--font); font-weight: 500; cursor: pointer; transition: opacity 0.15s;
+  }
+  .case-save-confirm:disabled { opacity: 0.45; cursor: wait; }
+  .case-save-confirm:not(:disabled):hover { opacity: 0.85; }
+  .case-save-cancel {
+    padding: 6px 10px; font-size: 12px; border-radius: 5px; white-space: nowrap;
+    background: transparent; color: var(--muted); border: 1px solid var(--border);
+    font-family: var(--font); cursor: pointer; transition: all 0.12s;
+  }
+  .case-save-cancel:hover { color: var(--text); border-color: var(--muted); }
 </style>
 </head>
 <body>
@@ -574,6 +620,8 @@
     <hr class="nav-divider">
     <a href="/archives">Archives</a>
     <a href="/analytics">Analytics</a>
+    <hr class="nav-divider">
+    <a href="/cases">Cases</a>
   </nav>
 </header>
 
@@ -602,6 +650,10 @@
   <input id="countInput" type="number" value="20" min="1" max="2000" title="Result count">
   <input id="graphFilterInput" type="text" placeholder="Filter graph…" spellcheck="false" autocomplete="off" style="display:none;width:160px" title="Show only nodes whose data matches this text">
   <span id="nodeCount">0 nodes</span>
+  <span id="caseIndicator" class="case-indicator">
+    <span class="case-indicator-name" id="caseIndicatorName"></span>
+  </span>
+  <button id="caseCheckpointBtn" class="case-checkpoint-btn">Save Case</button>
   <button id="btnSearch"     class="btn btn-primary">Search</button>
   <button id="btnArchiveAll" class="btn btn-ghost">Archive All</button>
   <button id="btnDump"       class="btn btn-ghost">Dump JSON</button>
@@ -609,6 +661,14 @@
 </div>
 
 <div id="archiveBar" class="archive-bar" style="display:none"></div>
+<div id="caseSaveForm" class="case-save-bar" hidden>
+  <span class="case-save-label">Case name</span>
+  <input id="caseSaveName" class="case-save-input" type="text" placeholder="Case name…" maxlength="120" autocomplete="off" spellcheck="false">
+  <div class="case-save-btns">
+    <button id="caseSaveConfirm" class="case-save-confirm">Save</button>
+    <button id="caseSaveCancel" class="case-save-cancel">Cancel</button>
+  </div>
+</div>
 
 <div id="main">
   <div id="cy"></div>
@@ -689,6 +749,7 @@
   <div class="leg-heading">What each parameter means</div>
   {% include "_field_glossary.html" %}
 </div>
+
 
 <script src="https://unpkg.com/cytoscape@3.28.1/dist/cytoscape.min.js" crossorigin="anonymous"></script>
 <script nonce="{{ g.csp_nonce }}">
@@ -998,6 +1059,18 @@ function init() {
 
   var archiveIdParam = new URLSearchParams(location.search).get('archiveId');
   if (archiveIdParam) enterArchiveReadOnlyMode(archiveIdParam);
+
+  var caseIdParam = new URLSearchParams(location.search).get('caseId');
+  if (caseIdParam && !archiveIdParam) {
+    history.replaceState(null, '', location.pathname);
+    fetch('/api/cases/' + encodeURIComponent(caseIdParam))
+      .then(function(r) { return r.json(); })
+      .then(function(json) {
+        if (!json.ok) throw new Error(json.error || 'Case not found');
+        cmGRestoreState(json.state, json.meta);
+      })
+      .catch(function(e) { setStatus('Error loading case: ' + e.message, true); });
+  }
 }
 
 // ── Archive read-only bootstrap ─────────────────────────────────────────────
@@ -1142,10 +1215,11 @@ var NO_AUTH_TOOLS = ['wayback_archive_search', 'multi_source_search'];
 
 function updateModeVisibility() {
   var tool = document.getElementById('toolSelect').value;
-  var show = NO_AUTH_TOOLS.indexOf(tool) !== -1;
-  document.getElementById('modeSelect').style.display    = show ? 'none' : '';
-  document.getElementById('dateFromInput').style.display = show ? '' : 'none';
-  document.getElementById('dateToInput').style.display    = show ? '' : 'none';
+  var noAuth = NO_AUTH_TOOLS.indexOf(tool) !== -1;
+  var noDate = (tool === 'article_extractor');
+  document.getElementById('modeSelect').style.display    = noAuth ? 'none' : '';
+  document.getElementById('dateFromInput').style.display = noDate ? 'none' : '';
+  document.getElementById('dateToInput').style.display   = noDate ? 'none' : '';
 }
 
 // ── Status bar ────────────────────────────────────────────────────────────────
@@ -1235,7 +1309,7 @@ function buildBody(tool, query, count, mode) {
     body.targetCommunityId = query;
   }
 
-  if (tool === 'wayback_archive_search' || tool === 'multi_source_search') {
+  if (tool !== 'article_extractor') {
     var from = document.getElementById('dateFromInput').value.trim();
     var to   = document.getElementById('dateToInput').value.trim();
     if (tool === 'wayback_archive_search') {
@@ -2250,6 +2324,7 @@ async function archiveAll() {
     if (!json.ok) throw new Error(json.error);
     graphArchivedId = json.archiveId;
     document.getElementById('btnArchiveAll').textContent = 'Update Archive';
+    autoCheckpoint();   // persist graphArchivedId into the case so progress survives a page loss
     pollGraphArchive(json.archiveId);
   } catch (e) {
     archiveBar.innerHTML = '<span style="color:var(--danger)">Archive error: ' + esc(e.message) + '</span>';
@@ -2300,6 +2375,212 @@ function dumpJSON() {
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
   setStatus('Exported ' + allItems.length + ' item(s)');
+  autoCheckpoint();   // checkpoint so archiveId is preserved if the page is lost after export
+}
+
+// ── Cases (save / resume investigation sessions) ─────────────────────────────
+
+var currentCaseId   = null;
+var currentCaseName = '';
+
+function updateCaseIndicator() {
+  var ind  = document.getElementById('caseIndicator');
+  var name = document.getElementById('caseIndicatorName');
+  var btn  = document.getElementById('caseCheckpointBtn');
+  if (currentCaseId) {
+    name.textContent = currentCaseName;
+    ind.classList.add('visible');
+    if (btn && btn.textContent !== 'Saving…' && btn.textContent !== 'Saved!' && btn.textContent !== 'Failed') btn.textContent = 'Checkpoint';
+  } else {
+    ind.classList.remove('visible');
+    if (btn && btn.textContent !== 'Saving…' && btn.textContent !== 'Saved!' && btn.textContent !== 'Failed') btn.textContent = 'Save Case';
+  }
+}
+
+function _graphToolName() {
+  var sel = document.getElementById('toolSelect');
+  return 'Graph · ' + sel.options[sel.selectedIndex].text;
+}
+
+document.getElementById('caseCheckpointBtn').addEventListener('click', async function() {
+  var toolName = _graphToolName();
+  if (currentCaseId) {
+    // update existing case directly
+    var state = cmGCaptureState();
+    if (!state) return;
+    this.disabled = true; this.textContent = 'Saving…';
+    try {
+      var res  = await fetch('/api/cases/' + currentCaseId, {
+        method: 'PUT', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ state: state, tool: toolName }),
+      });
+      var json = await res.json();
+      if (!json.ok) throw new Error(json.error);
+      this.textContent = 'Saved!';
+      setTimeout(function() { var b = document.getElementById('caseCheckpointBtn'); if (b) b.textContent = 'Checkpoint'; }, 1800);
+    } catch (e) {
+      this.textContent = 'Failed';
+      setTimeout(function() { var b = document.getElementById('caseCheckpointBtn'); if (b) b.textContent = 'Checkpoint'; }, 1800);
+    } finally {
+      this.disabled = false;
+    }
+    return;
+  }
+  // no active case → toggle save form
+  var state = cmGCaptureState();
+  var form  = document.getElementById('caseSaveForm');
+  if (!state) {
+    this.textContent = 'No data yet';
+    setTimeout(function() { var b = document.getElementById('caseCheckpointBtn'); if (b) b.textContent = 'Save Case'; }, 1500);
+    return;
+  }
+  if (form.hidden) {
+    var dateStr = new Date().toLocaleDateString('en-CA');
+    document.getElementById('caseSaveName').value = toolName + ' · ' + dateStr;
+    form.hidden = false;
+    requestAnimationFrame(function() {
+      var inp = document.getElementById('caseSaveName');
+      inp.focus(); inp.select();
+    });
+  } else {
+    form.hidden = true;
+  }
+});
+
+document.getElementById('caseSaveName').addEventListener('keydown', function(e) {
+  if (e.key === 'Enter') { e.preventDefault(); document.getElementById('caseSaveConfirm').click(); }
+});
+
+document.getElementById('caseSaveCancel').addEventListener('click', function() {
+  document.getElementById('caseSaveForm').hidden = true;
+});
+
+document.getElementById('caseSaveConfirm').addEventListener('click', async function() {
+  var nameEl   = document.getElementById('caseSaveName');
+  var name     = nameEl.value.trim() || 'Unnamed Case';
+  var state    = cmGCaptureState();
+  if (!state) return;
+  var toolName = _graphToolName();
+  this.disabled = true; this.textContent = 'Saving…';
+  try {
+    var res  = await fetch('/api/cases', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name: name, page: 'graph', tool: toolName, state: state }),
+    });
+    var json = await res.json();
+    if (!json.ok) throw new Error(json.error);
+    currentCaseId   = json.caseId;
+    currentCaseName = json.meta.name;
+    updateCaseIndicator();
+    document.getElementById('caseSaveForm').hidden = true;
+    nameEl.value = '';
+  } catch (e) {
+    // re-enable for retry
+  } finally {
+    this.disabled = false; this.textContent = 'Save';
+  }
+});
+
+// ── Auto-checkpoint (triggered by Archive All and Dump JSON) ─────────────────
+async function autoCheckpoint() {
+  var state    = cmGCaptureState();
+  if (!state) return;
+  var toolName = _graphToolName();
+  var dateStr  = new Date().toLocaleDateString('en-CA');
+  try {
+    if (currentCaseId) {
+      await fetch('/api/cases/' + currentCaseId, {
+        method: 'PUT', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ state: state, tool: toolName }),
+      });
+    } else {
+      var res  = await fetch('/api/cases', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name: 'Auto-save · ' + toolName + ' ' + dateStr, page: 'graph', tool: toolName, state: state }),
+      });
+      var json = await res.json();
+      if (json.ok) {
+        currentCaseId   = json.caseId;
+        currentCaseName = json.meta.name;
+        updateCaseIndicator();
+      }
+    }
+  } catch (e) { /* silent */ }
+}
+
+// ── Periodic auto-save (every 60 s) — guards against power loss / crash ───────
+setInterval(function() { autoCheckpoint(); }, 60000);
+
+// ── beforeunload beacon — fires on tab/browser close ─────────────────────────
+window.addEventListener('beforeunload', function() {
+  var state = cmGCaptureState();
+  if (!state) return;
+  var toolName = _graphToolName();
+  var dateStr  = new Date().toLocaleDateString('en-CA');
+  var payload  = currentCaseId
+    ? { caseId: currentCaseId, state: state, tool: toolName }
+    : { name: 'Auto-save · ' + toolName + ' ' + dateStr, page: 'graph', tool: toolName, state: state };
+  navigator.sendBeacon('/api/cases/beacon', new Blob([JSON.stringify(payload)], { type: 'application/json' }));
+});
+
+function cmGCaptureState() {
+  if (!cy || !cy.nodes().length) return null;
+  return {
+    elements: cy.elements().jsons(),
+    toolbar: {
+      tool:     document.getElementById('toolSelect').value,
+      mode:     document.getElementById('modeSelect').value,
+      query:    document.getElementById('queryInput').value.trim(),
+      count:    document.getElementById('countInput').value,
+      dateFrom: document.getElementById('dateFromInput').value.trim(),
+      dateTo:   document.getElementById('dateToInput').value.trim(),
+    },
+    graphArchivedId: graphArchivedId || null,
+  };
+}
+
+function cmGRestoreState(state, meta) {
+  if (!state || !meta) return;
+  clearGraph();
+
+  if (state.toolbar) {
+    var t = state.toolbar;
+    if (t.tool)     { document.getElementById('toolSelect').value = t.tool; updatePlaceholder(); updateModeVisibility(); }
+    if (t.mode)     document.getElementById('modeSelect').value   = t.mode;
+    if (t.query)    document.getElementById('queryInput').value   = t.query;
+    if (t.count)    document.getElementById('countInput').value   = t.count;
+    if (t.dateFrom) document.getElementById('dateFromInput').value = t.dateFrom;
+    if (t.dateTo)   document.getElementById('dateToInput').value   = t.dateTo;
+  }
+
+  if (Array.isArray(state.elements) && state.elements.length) {
+    try {
+      cy.add(state.elements);
+    } catch (e) {
+      setStatus('Error restoring graph: ' + e.message, true);
+      return;
+    }
+    // Rebuild allItems from node data (type + raw) without double-storing
+    cy.nodes().forEach(function(node) {
+      var raw  = node.data('raw');
+      var type = node.data('type');
+      if (raw && type) allItems.push({ type: type, item: raw });
+    });
+    cy.layout({ name: 'preset' }).run();
+    cy.fit(undefined, 60);
+    updateNodeCount();
+  }
+
+  currentCaseId   = meta.id;
+  currentCaseName = meta.name;
+  updateCaseIndicator();
+
+  if (state.graphArchivedId) {
+    graphArchivedId = state.graphArchivedId;
+    document.getElementById('btnArchiveAll').textContent = 'Update Archive';
+  }
+
+  setStatus('Case "' + esc(meta.name) + '" restored — ' + cy.nodes().length + ' node(s)');
 }
 
 // ── Clear ─────────────────────────────────────────────────────────────────────

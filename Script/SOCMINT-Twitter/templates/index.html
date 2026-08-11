@@ -717,6 +717,53 @@
   }
   .leaflet-bar a:hover { background: var(--accent-bg) !important; color: #818cf8 !important; }
   .leaflet-control-attribution { background: rgba(26,29,39,0.8) !important; color: var(--muted) !important; font-size: 9px; }
+
+  /* Active-case indicator (sidebar) */
+  .case-indicator {
+    margin-top: 7px; padding: 6px 10px;
+    background: var(--accent-bg); border: 1px solid var(--accent); border-radius: 6px;
+    font-size: 11px; color: var(--text); gap: 8px; align-items: center; display: none;
+  }
+  .case-indicator.visible { display: flex; }
+  .case-indicator-name {
+    flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    color: var(--accent); font-weight: 500; color: #fff;
+  }
+  .case-checkpoint-btn {
+    width: 100%; padding: 8px; margin-top: 7px;
+    background: transparent; color: var(--accent);
+    border: 1px solid var(--accent); border-radius: 6px;
+    font-family: var(--font); font-size: 12px; font-weight: 500;
+    cursor: pointer; transition: all 0.15s; color: #fff;
+  }
+  .case-checkpoint-btn:hover:not(:disabled) { background: var(--accent-bg); }
+  .case-checkpoint-btn:disabled { opacity: 0.5; cursor: wait; }
+  .case-save-form {
+    margin-top: 7px; padding: 10px;
+    background: var(--accent-bg); border: 1px solid var(--accent); border-radius: 6px;
+  }
+  .case-save-form[hidden] { display: none; }
+  .case-save-input {
+    width: 100%; padding: 6px 9px; margin-bottom: 8px;
+    background: var(--bg); border: 1px solid var(--border); border-radius: 5px;
+    color: var(--text); font-family: var(--font); font-size: 12px;
+  }
+  .case-save-input:focus { outline: none; border-color: var(--accent); }
+  .case-save-input::placeholder { color: var(--muted); }
+  .case-save-btns { display: flex; gap: 6px; }
+  .case-save-confirm {
+    flex: 1; padding: 5px 0; font-size: 12px; border-radius: 5px;
+    background: var(--accent); color: #fff; border: none;
+    font-family: var(--font); font-weight: 500; cursor: pointer; transition: opacity 0.15s;
+  }
+  .case-save-confirm:disabled { opacity: 0.45; cursor: wait; }
+  .case-save-confirm:not(:disabled):hover { opacity: 0.85; }
+  .case-save-cancel {
+    padding: 5px 10px; font-size: 12px; border-radius: 5px;
+    background: transparent; color: var(--muted); border: 1px solid var(--border);
+    font-family: var(--font); cursor: pointer; transition: all 0.12s;
+  }
+  .case-save-cancel:hover { color: var(--text); border-color: var(--muted); }
 </style>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin="anonymous"></script>
 <script src="{{ url_for('static', filename='js/card_constants.js') }}" nonce="{{ g.csp_nonce }}"></script>
@@ -734,6 +781,8 @@
     <hr class="nav-divider">
     <a href="/archives">Archives</a>
     <a href="/analytics">Analytics</a>
+    <hr class="nav-divider">
+    <a href="/cases">Cases</a>
   </nav>
 </header>
 
@@ -791,6 +840,17 @@
     <div id="dynamicFields"></div>
 
     <button class="btn-run" id="runBtn">Run</button>
+    <button id="caseCheckpointBtn" class="case-checkpoint-btn">Save Case</button>
+    <div id="caseSaveForm" class="case-save-form" hidden>
+      <input id="caseSaveName" class="case-save-input" type="text" placeholder="Case name…" maxlength="120" autocomplete="off" spellcheck="false">
+      <div class="case-save-btns">
+        <button id="caseSaveConfirm" class="case-save-confirm">Save</button>
+        <button id="caseSaveCancel" class="case-save-cancel">Cancel</button>
+      </div>
+    </div>
+    <div id="caseIndicator" class="case-indicator">
+      <span class="case-indicator-name" id="caseIndicatorName"></span>
+    </div>
 
     <div id="archiveBar" class="archive-bar" style="display:none"></div>
 
@@ -822,6 +882,7 @@
     <div id="mapContainer"></div>
   </div>
 </div>
+
 
 <script nonce="{{ g.csp_nonce }}">
 // Hamburger nav
@@ -885,6 +946,29 @@ let currentPayload = null;   // last run payload (for archive queryInfo)
 // that same archive in place instead of creating a new one each time. Reset
 // on every new Run, same as graph.html's clearGraph() resets its own.
 let archivedId = null;
+
+// ── Card render virtual scroll ───────────────────────────────────────────────
+const CARD_BATCH = 15;
+let _cardItems    = [];
+let _cardOffset   = 0;
+let _cardObserver = null;
+
+function _flushCardObserver() {
+  if (_cardObserver) { _cardObserver.disconnect(); _cardObserver = null; }
+}
+
+function _loadCardBatch() {
+  if (_cardOffset >= _cardItems.length) {
+    _flushCardObserver();
+    const s = resultBox.querySelector('#_crs');
+    if (s) s.remove();
+    return;
+  }
+  const batch = _cardItems.slice(_cardOffset, _cardOffset + CARD_BATCH);
+  _cardOffset += batch.length;
+  const grid = resultBox.querySelector('.cards-grid');
+  if (grid) grid.insertAdjacentHTML('beforeend', batch.map(buildCard).join(''));
+}
 
 // ── Scroll-triggered load-more ──────────────────────────────────────────────
 // Tools/modes the backend actually paginates — everything else (plain xquik/API
@@ -988,28 +1072,35 @@ function renderFields() {
   }
 
   // Tool-specific input fields
+  const DATE_FIELDS = () => field('dateFrom', 'From date (YYYYMMDD, optional)', '20200101') +
+                            field('dateTo',   'To date (YYYYMMDD, optional)',   '20231231');
   if (t === 'tweet_search_extractor') {
     html += field('searchQuery', 'Search query', 'bitcoin');
+    html += DATE_FIELDS();
   } else if (t === 'follower_explorer' || t === 'following_explorer') {
     html += field('targetUsername', 'Username or User ID', 'elonmusk or 44196397');
+    html += DATE_FIELDS();
   } else if (t === 'article_extractor') {
     html += field('targetTweetId', 'Tweet ID', '1234567890');
   } else if (t === 'community_post_extractor') {
     html += field('targetCommunityId', 'Community ID', '1234567890');
+    html += DATE_FIELDS();
   } else if (t === 'post_extractor') {
     html += field('targetUsername', 'Username or User ID', 'elonmusk or 44196397');
+    html += DATE_FIELDS();
   } else if (t === 'tweet_replies_extractor' || t === 'tweet_retweeters_extractor') {
     html += field('targetTweetId', 'Tweet ID', '1234567890');
+    html += DATE_FIELDS();
   } else if (t === 'geo_post_extractor') {
     html += field('searchQuery', 'Search query', 'kopi jakarta');
+    html += DATE_FIELDS();
   } else if (t === 'wayback_archive_search') {
     html += field('searchQuery', 'Username or tweet URL', 'elonmusk or https://x.com/user/status/123');
     html += field('waybackFrom', 'From date (YYYYMMDD, optional)', '20200101');
     html += field('waybackTo',   'To date (YYYYMMDD, optional)', '20231231');
   } else if (t === 'multi_source_search') {
     html += field('searchQuery', 'Keyword, mention, username or URL', 'elonmusk');
-    html += field('dateFrom', 'From date (YYYYMMDD, optional)', '20200101');
-    html += field('dateTo',   'To date (YYYYMMDD, optional)', '20231231');
+    html += DATE_FIELDS();
   }
 
   // Count — for tools that support it, visible in cookie mode (or for no-auth tools)
@@ -1062,12 +1153,21 @@ document.getElementById('viewToggle').addEventListener('click', e => {
 
 // ── Search / filter results ───────────────────────────────────────────────────
 
-searchInput.addEventListener('input', () => renderCards(currentData, searchInput.value));
+let _searchDebounce = null;
+searchInput.addEventListener('input', () => {
+  clearTimeout(_searchDebounce);
+  _searchDebounce = setTimeout(() => renderCards(currentData, searchInput.value), 180);
+});
 
+const _ftCache = new WeakMap();
 function flatText(obj) {
   if (obj === null || obj === undefined) return '';
   if (typeof obj !== 'object') return String(obj);
-  return Object.values(obj).map(flatText).join(' ');
+  let c = _ftCache.get(obj);
+  if (c !== undefined) return c;
+  c = Object.values(obj).map(flatText).join(' ');
+  _ftCache.set(obj, c);
+  return c;
 }
 
 // PRIORITY / DRILLABLE / SOURCE_CLASS / AGE_LABELS come from
@@ -1126,21 +1226,33 @@ function renderMedia(mediaList) {
 }
 
 function renderCards(data, query = '') {
+  _flushCardObserver();
   if (!data) {
     resultBox.innerHTML = '<div class="empty-state">No results yet.</div>';
     return;
   }
-  const items    = Array.isArray(data) ? data : [data];
-  const q        = query.toLowerCase().trim();
-  const filtered = q ? items.filter(i => flatText(i).toLowerCase().includes(q)) : items;
+  const items = Array.isArray(data) ? data : [data];
+  const q     = query.toLowerCase().trim();
+  _cardItems  = q ? items.filter(i => flatText(i).toLowerCase().includes(q)) : items;
+  _cardOffset = 0;
 
-  resultCount.textContent = filtered.length + (q ? ' found' : ' results');
+  resultCount.textContent = _cardItems.length + (q ? ' found' : ' results');
 
-  if (!filtered.length) {
+  if (!_cardItems.length) {
     resultBox.innerHTML = '<div class="empty-state">No matching results.</div>';
     return;
   }
-  resultBox.innerHTML = '<div class="cards-grid">' + filtered.map(buildCard).join('') + '</div>';
+
+  resultBox.innerHTML = '<div class="cards-grid"></div><div id="_crs" style="height:4px"></div>';
+  _loadCardBatch();
+
+  const sentinel = resultBox.querySelector('#_crs');
+  if (sentinel) {
+    _cardObserver = new IntersectionObserver(entries => {
+      if (entries[0].isIntersecting) _loadCardBatch();
+    }, { rootMargin: '300px' });
+    _cardObserver.observe(sentinel);
+  }
 }
 
 // Tapping "Reply" on X auto-prefixes the compose box with every account the
@@ -1244,9 +1356,9 @@ function buildCard(item, nested = false) {
 }
 
 // ── Load more (scroll-triggered pagination) ─────────────────────────────────
-// The sentinel lives as a SIBLING of #resultBox, not inside it — renderCards()
-// replaces #resultBox.innerHTML wholesale on every run and every keystroke in
-// the search box, which would destroy an in-box sentinel and its observer tie.
+// loadMoreSentinel lives as a SIBLING of #resultBox (API-pagination sentinel).
+// The card-render sentinel #_crs lives inside #resultBox and is intentionally
+// recreated on each renderCards() call after disconnecting the old observer.
 
 function appendCards(newItems, query = '') {
   const q = query.toLowerCase().trim();
@@ -1595,8 +1707,12 @@ runBtn.addEventListener('click', async () => {
   }
   if (t === 'multi_source_search') {
     payload.searchQuery = val('searchQuery');
-    payload.dateFrom    = val('dateFrom');
-    payload.dateTo      = val('dateTo');
+  }
+  // Date range — sent for all tools that expose the date fields (not wayback which uses its own keys, not article_extractor)
+  if (t !== 'wayback_archive_search' && t !== 'article_extractor') {
+    const df = val('dateFrom'); const dt = val('dateTo');
+    if (df) payload.dateFrom = df;
+    if (dt) payload.dateTo   = dt;
   }
 
   currentPayload = payload;
@@ -1703,6 +1819,7 @@ async function archiveResults() {
 
     archivedId = json.archiveId;
     archiveBtn.textContent = 'Update Archive';
+    autoCheckpoint();   // persist archiveId into the case so the user can resume if the page is lost
     pollArchive(json.archiveId);
   } catch (e) {
     archiveBar.innerHTML = `<span style="color:var(--danger)">Archive failed: ${esc(e.message)}</span>`;
@@ -1761,6 +1878,7 @@ downloadBtn.addEventListener('click', () => {
   a.download      = filename;
   a.click();
   URL.revokeObjectURL(url);
+  autoCheckpoint();   // checkpoint so the archiveId is preserved if the page is lost after export
 });
 
 function val(id) { const el = document.getElementById(id); return el ? el.value.trim() : ''; }
@@ -1932,6 +2050,216 @@ async function updateMap() {
   else if (pts.length === 1) leafletMap.setView(pts[0], 9);
   else                       leafletMap.setView([20, 10], 2);
 }
+
+// ── Cases (save / resume investigation sessions) ─────────────────────────────
+
+var currentCaseId   = null;
+var currentCaseName = '';
+
+function updateCaseIndicator() {
+  const ind  = document.getElementById('caseIndicator');
+  const name = document.getElementById('caseIndicatorName');
+  const btn  = document.getElementById('caseCheckpointBtn');
+  if (currentCaseId) {
+    name.textContent = currentCaseName;
+    ind.classList.add('visible');
+    if (btn && btn.textContent !== 'Saving…' && btn.textContent !== 'Saved!' && btn.textContent !== 'Failed') btn.textContent = 'Checkpoint';
+  } else {
+    ind.classList.remove('visible');
+    if (btn && btn.textContent !== 'Saving…' && btn.textContent !== 'Saved!' && btn.textContent !== 'Failed') btn.textContent = 'Save Case';
+  }
+}
+
+document.getElementById('caseCheckpointBtn').addEventListener('click', async function() {
+  if (currentCaseId) {
+    // update existing case directly — no form needed
+    const state = cmCaptureState();
+    if (!state) return;
+    const tool = toolType.options[toolType.selectedIndex].text;
+    this.disabled = true; this.textContent = 'Saving…';
+    try {
+      const res  = await fetch('/api/cases/' + currentCaseId, {
+        method: 'PUT', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ state, tool }),
+      });
+      const json = await res.json();
+      if (!json.ok) throw new Error(json.error);
+      this.textContent = 'Saved!';
+      setTimeout(() => { const b = document.getElementById('caseCheckpointBtn'); if (b) b.textContent = 'Checkpoint'; }, 1800);
+    } catch {
+      this.textContent = 'Failed';
+      setTimeout(() => { const b = document.getElementById('caseCheckpointBtn'); if (b) b.textContent = 'Checkpoint'; }, 1800);
+    } finally {
+      this.disabled = false;
+    }
+    return;
+  }
+  // no active case → toggle save form
+  const state = cmCaptureState();
+  const form  = document.getElementById('caseSaveForm');
+  if (!state) {
+    // flash the button briefly if nothing to save
+    this.textContent = 'No data yet';
+    setTimeout(() => { const b = document.getElementById('caseCheckpointBtn'); if (b) b.textContent = 'Save Case'; }, 1500);
+    return;
+  }
+  if (form.hidden) {
+    const dateStr = new Date().toLocaleDateString('en-CA');
+    document.getElementById('caseSaveName').value = toolType.options[toolType.selectedIndex].text + ' · ' + dateStr;
+    form.hidden = false;
+    const inp = document.getElementById('caseSaveName');
+    inp.focus(); inp.select();
+  } else {
+    form.hidden = true;
+  }
+});
+
+document.getElementById('caseSaveCancel').addEventListener('click', function() {
+  document.getElementById('caseSaveForm').hidden = true;
+});
+
+document.getElementById('caseSaveConfirm').addEventListener('click', async function() {
+  const nameEl = document.getElementById('caseSaveName');
+  const name   = nameEl.value.trim() || 'Unnamed Case';
+  const state  = cmCaptureState();
+  if (!state) return;
+  const tool   = toolType.options[toolType.selectedIndex].text;
+  this.disabled = true; this.textContent = 'Saving…';
+  try {
+    const res  = await fetch('/api/cases', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, page: 'index', tool, state }),
+    });
+    const json = await res.json();
+    if (!json.ok) throw new Error(json.error);
+    currentCaseId   = json.caseId;
+    currentCaseName = json.meta.name;
+    updateCaseIndicator();
+    document.getElementById('caseSaveForm').hidden = true;
+    nameEl.value = '';
+  } catch {
+    // re-enable so user can retry
+  } finally {
+    this.disabled = false; this.textContent = 'Save';
+  }
+});
+
+function cmCaptureState() {
+  if (!currentData && !currentPayload) return null;
+  return {
+    payload:    currentPayload || null,
+    data:       Array.isArray(currentData) ? currentData : (currentData ? [currentData] : []),
+    nextCursor: nextCursor  || null,
+    archiveId:  archivedId  || null,
+  };
+}
+
+function cmRestoreState(state, meta) {
+  if (!state || !meta) return;
+  currentCaseId   = meta.id;
+  currentCaseName = meta.name;
+  updateCaseIndicator();
+  resetPagination();
+  currentData    = null;
+  currentPayload = null;
+
+  if (state.payload) {
+    const p = state.payload;
+    if (p.toolType) toolType.value = p.toolType;
+    if (p.mode)     currentMode    = p.mode;
+    renderFields();
+    const fieldMap = {
+      searchQuery: p.searchQuery, targetUsername: p.targetUsername,
+      targetTweetId: p.targetTweetId, targetCommunityId: p.targetCommunityId,
+      waybackFrom: p.waybackFrom, waybackTo: p.waybackTo,
+      dateFrom: p.dateFrom, dateTo: p.dateTo,
+    };
+    Object.entries(fieldMap).forEach(([id, v]) => {
+      const el = document.getElementById(id);
+      if (el && v) el.value = v;
+    });
+    const cnt = document.getElementById('countInput');
+    if (cnt && p.count) cnt.value = p.count;
+    currentPayload = p;
+  }
+
+  if (Array.isArray(state.data) && state.data.length) {
+    currentData               = state.data;
+    nextCursor                = state.nextCursor || null;
+    statusBadge.textContent   = 'restored';
+    statusBadge.className     = 'badge ok';
+    searchInput.style.display = state.data.length > 1 ? '' : 'none';
+    downloadBtn.style.display = '';
+    archiveBtn.style.display  = '';
+    renderCards(currentData);
+    resultCount.textContent   = state.data.length + ' results';
+  }
+  if (state.archiveId) {
+    archivedId             = state.archiveId;
+    archiveBtn.textContent = 'Update Archive';
+  }
+}
+
+// ── Auto-checkpoint (triggered by Archive and JSON dump) ─────────────────────
+// Silently saves to the active case if one is loaded, or creates a new
+// auto-save case if not. Never blocks the calling flow — errors are swallowed.
+async function autoCheckpoint() {
+  const state   = cmCaptureState();
+  if (!state) return;
+  const tool    = toolType.options[toolType.selectedIndex].text;
+  const dateStr = new Date().toLocaleDateString('en-CA');
+  try {
+    if (currentCaseId) {
+      await fetch('/api/cases/' + currentCaseId, {
+        method: 'PUT', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ state, tool }),
+      });
+    } else {
+      const res  = await fetch('/api/cases', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name: 'Auto-save · ' + tool + ' ' + dateStr, page: 'index', tool, state }),
+      });
+      const json = await res.json();
+      if (json.ok) {
+        currentCaseId   = json.caseId;
+        currentCaseName = json.meta.name;
+        updateCaseIndicator();
+      }
+    }
+  } catch { /* silent — autosave must never interrupt the user's flow */ }
+}
+
+// ── Periodic auto-save (every 60 s) — guards against power loss / crash ───────
+setInterval(function() { autoCheckpoint(); }, 60000);
+
+// ── beforeunload beacon — fires on tab/browser close ─────────────────────────
+window.addEventListener('beforeunload', function() {
+  const state = cmCaptureState();
+  if (!state) return;
+  const tool    = toolType.options[toolType.selectedIndex].text;
+  const dateStr = new Date().toLocaleDateString('en-CA');
+  const payload = currentCaseId
+    ? { caseId: currentCaseId, state, tool }
+    : { name: 'Auto-save · ' + tool + ' ' + dateStr, page: 'index', tool, state };
+  navigator.sendBeacon('/api/cases/beacon', new Blob([JSON.stringify(payload)], { type: 'application/json' }));
+});
+
+// Load case from URL param (e.g. when graph page redirects here with ?caseId=)
+(async function() {
+  const caseId = new URLSearchParams(location.search).get('caseId');
+  if (!caseId) return;
+  history.replaceState(null, '', location.pathname);
+  try {
+    const res  = await fetch('/api/cases/' + encodeURIComponent(caseId));
+    const json = await res.json();
+    if (!json.ok) throw new Error(json.error);
+    cmRestoreState(json.state, json.meta);
+  } catch (e) {
+    statusBadge.textContent = 'error';
+    statusBadge.className   = 'badge err';
+    resultBox.innerHTML     = `<div class="card"><div class="card-row"><div class="card-key">case load error</div><div class="card-val" style="color:#f87171">${esc(e.message)}</div></div></div>`;
+  }
+})();
 
 // ── Auto-run from URL params (drill-down new-tab entry point) ─────────────────
 
