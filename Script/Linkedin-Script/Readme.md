@@ -31,3 +31,7 @@ window.open(url,"_self");
 ```
 
 Source by : https://github.com/sinwindie/OSINT/blob/master/LinkedIn/Bookmarklet%20Tools
+
+# Report Bug and Error 
+
+If any error and bug also bussines process logic, please create an issue 

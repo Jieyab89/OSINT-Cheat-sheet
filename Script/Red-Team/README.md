@@ -16,3 +16,7 @@ Welcome to path red teaming or pentesting for OSINT, on this path there are scri
 10. If you have successfully connected with target, swtich to powershell if the Windows, if Linux switch to fully tty shell 
 
 ## Soon will added (tamplate)
+
+# Report Bug and Error 
+
+If any error and bug also bussines process logic, please create an issue 

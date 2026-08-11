@@ -201,3 +201,9 @@ Endpoint list Github
 - https://github.com/search?type=issues&q=<value>
 - https://github.com/search?type=commits&q=<value>
 - https://github.com/search/advanced
+
+## Soon i will update analysis git history 
+
+# Report Bug and Error 
+
+If any error and bug also bussines process logic, please create an issue 
