@@ -147,7 +147,8 @@ NEGATIVE_WORDS = {
     "lud4h", "gblk", "zionis", "laknat", "provokasi", "provokator",
     "zionist", "bodo", "ludahi", "ludahin", "penjajah", "pajet", 
     "pajeet", "cemoohan", "cemooh", "rusuh", "barbar", "paj3t", 
-    "cuih", "ngibul", "boong", 
+    "cuih", "ngibul", "boong", "pekok", "pea", "pantek", "pantat",
+    "Anak haram",
 }
 
 # Flips the polarity of a sentiment word found within NEGATION_WINDOW tokens
