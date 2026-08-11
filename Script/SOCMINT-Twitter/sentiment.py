@@ -138,7 +138,16 @@ NEGATIVE_WORDS = {
     "kenthu", "komdonggo", "komdungu", "kolot", "wowok", "cok",  
     "cokil", "jancok", "jiancuk", "jancook", "ancok", "ancook", 
     "coli", "nyoli", "oten", "0ten", "ten oten", "kadrun", "drun",
-    "k4drun", 
+    "k4drun", "bgst", "bangset", "jingan", "bgsd", "antek2", "antek",
+    "carut marut", "parcok", "parjo", "BUZZER", "buzzer", "buzer", 
+    "kimbek", "bodat", "lapet", "muncung kau", "pukimai", "babi",
+    "setan", "khuontol", "khontol", "ngacau", "gemblung", "ancur",
+    "anjj", "anj", "wowi", "owi", "owok", "wok", "suram", "ecek2",
+    "ecek ecek", "anak abah", "najis", "bunted", "modar", "modyar",
+    "lud4h", "gblk", "zionis", "laknat", "provokasi", "provokator",
+    "zionist", "bodo", "ludahi", "ludahin", "penjajah", "pajet", 
+    "pajeet", "cemoohan", "cemooh", "rusuh", "barbar", "paj3t", 
+    "cuih", "ngibul", "boong", 
 }
 
 # Flips the polarity of a sentiment word found within NEGATION_WINDOW tokens
