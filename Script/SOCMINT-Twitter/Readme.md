@@ -21,6 +21,10 @@
 15. Update view as graph in archive 
 16. Add date and timestamp pattern in sentiment analysis 
 17. Delete entry node in graph visualizer 
+18. Add new features save project (load case or load new case)
+19. Checkpoint or save data 
+20. Auto resume archive and dump data with state (state data to checkpoint)
+21. Add date or timestamp paramater for all search module 
 
 ## Features
 
@@ -288,6 +292,13 @@ Xquik Dashboard
 Dasboard Home 
 
 <img width="2423" height="1217" alt="Image" src="https://github.com/user-attachments/assets/6ba91a78-5845-4e17-87e2-8171da3cec19" />
+
+Load Case / Project 
+<img width="2532" height="1217" alt="image" src="https://github.com/user-attachments/assets/433d6f8a-a10f-4add-afeb-8935fc643e67" />
+
+Checkpoint or Save the Project
+
+<img width="2557" height="1218" alt="image" src="https://github.com/user-attachments/assets/d2ef01d6-108c-4ba7-ac90-52bb1fd881ce" />
 
 Archive 
 

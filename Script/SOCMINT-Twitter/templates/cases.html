@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jieyab89 SOCMINT X — Cases</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --border: #2a2d3a;
+    --text: #e8eaf0;
+    --muted: #8890a4;
+    --accent: #5865f2;
+    --accent-bg: #1e2240;
+    --danger: #ef4444;
+    --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: var(--font); font-size: 14px; line-height: 1.6; min-height: 100vh; }
+
+  header {
+    padding: 14px 24px; border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; gap: 10px;
+    background: var(--surface); position: sticky; top: 0; z-index: 100;
+  }
+  header h1 { font-size: 14px; font-weight: 600; letter-spacing: 0.02em; }
+  header .sep { color: var(--border); }
+  header .sub { color: var(--muted); font-size: 12px; }
+  .hamburger-btn {
+    margin-left: auto; background: none; border: 1px solid var(--border);
+    border-radius: 5px; color: var(--muted); cursor: pointer;
+    padding: 5px 9px; font-size: 16px; line-height: 1; transition: all 0.15s;
+  }
+  .hamburger-btn:hover { color: var(--text); border-color: var(--accent); }
+  .nav-menu {
+    position: absolute; top: 100%; right: 12px; margin-top: 6px;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 7px; padding: 5px; min-width: 175px;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.5); z-index: 200;
+    display: flex; flex-direction: column; gap: 1px;
+  }
+  .nav-menu.hidden { display: none; }
+  .nav-menu a {
+    padding: 7px 12px; border-radius: 5px; color: var(--muted);
+    text-decoration: none; font-size: 13px; transition: all 0.12s; display: block;
+  }
+  .nav-menu a:hover { color: var(--text); background: var(--accent-bg); }
+  .nav-menu a.current { color: var(--accent); background: var(--accent-bg); }
+  .nav-divider { border: none; border-top: 1px solid var(--border); margin: 3px 0; }
+
+  .page { max-width: 900px; margin: 0 auto; padding: 28px 20px; }
+
+  .topbar { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+  .topbar h2 { font-size: 15px; font-weight: 600; flex: 1; }
+  .search-wrap { position: relative; }
+  .search-input {
+    padding: 7px 12px; background: var(--surface); border: 1px solid var(--border);
+    border-radius: 6px; color: var(--text); font-family: var(--font);
+    font-size: 13px; width: 240px; transition: border-color 0.15s;
+  }
+  .search-input:focus { outline: none; border-color: var(--accent); }
+  .search-input::placeholder { color: var(--muted); }
+
+  .cases-table-wrap { overflow-x: auto; border-radius: 8px; border: 1px solid var(--border); }
+  table { width: 100%; border-collapse: collapse; }
+  thead th {
+    padding: 10px 14px; text-align: left; font-size: 11px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted);
+    border-bottom: 1px solid var(--border); background: var(--surface); white-space: nowrap;
+  }
+  thead th.th-right { text-align: right; }
+  tbody tr { border-bottom: 1px solid var(--border); transition: background 0.1s; }
+  tbody tr:last-child { border-bottom: none; }
+  tbody tr:hover { background: rgba(88,101,242,0.04); }
+  tbody td { padding: 10px 14px; vertical-align: middle; font-size: 13px; }
+  .td-name { max-width: 280px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 500; }
+  .td-meta { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .td-actions { display: flex; gap: 6px; justify-content: flex-end; }
+
+  .page-badge {
+    display: inline-block; font-size: 10px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.04em;
+    padding: 2px 7px; border-radius: 3px; white-space: nowrap;
+  }
+  .pg-index { background: var(--accent-bg); color: #818cf8; border: 1px solid #34348a; }
+  .pg-graph { background: #1e1535; color: #a78bfa; border: 1px solid #4c3a8f; }
+
+  .btn-load {
+    padding: 4px 12px; font-size: 12px; border-radius: 5px;
+    background: transparent; border: 1px solid var(--accent); color: var(--accent);
+    font-family: var(--font); cursor: pointer; transition: all 0.12s; white-space: nowrap;
+  }
+  .btn-load:hover { background: var(--accent-bg); }
+  .btn-del {
+    padding: 4px 12px; font-size: 12px; border-radius: 5px;
+    background: transparent; border: 1px solid var(--border); color: var(--muted);
+    font-family: var(--font); cursor: pointer; transition: all 0.12s; white-space: nowrap;
+  }
+  .btn-del:hover { border-color: var(--danger); color: var(--danger); }
+
+  .empty-row td { padding: 48px 14px; text-align: center; color: var(--muted); font-size: 13px; }
+  .status-bar { font-size: 12px; color: var(--muted); margin-top: 10px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Jieyab89 SOCMINT X</h1>
+  <span class="sep">|</span>
+  <span class="sub">Cases</span>
+  <button id="navToggle" class="hamburger-btn" aria-label="Navigation menu">&#9776;</button>
+  <nav id="navMenu" class="nav-menu hidden">
+    <a href="/">Home</a>
+    <a href="/graph">Graph</a>
+    <hr class="nav-divider">
+    <a href="/archives">Archives</a>
+    <a href="/analytics">Analytics</a>
+    <hr class="nav-divider">
+    <a href="/cases" class="current">Cases</a>
+  </nav>
+</header>
+
+<div class="page">
+  <div class="topbar">
+    <h2>Saved Cases</h2>
+    <div class="search-wrap">
+      <input id="searchInput" class="search-input" type="text" placeholder="Search cases…" autocomplete="off" spellcheck="false">
+    </div>
+  </div>
+
+  <div class="cases-table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Last Saved</th>
+          <th class="th-right">Actions</th>
+        </tr>
+      </thead>
+      <tbody id="casesTbody">
+        <tr class="empty-row"><td colspan="4">Loading…</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div id="statusBar" class="status-bar"></div>
+</div>
+
+<script nonce="{{ g.csp_nonce }}">
+(function() {
+  var cases = [];
+
+  function esc(s) {
+    return String(s)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function fmtDate(iso) {
+    if (!iso) return '—';
+    try {
+      var d = new Date(iso);
+      return d.toLocaleDateString() + ' ' + d.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});
+    } catch(e) { return iso; }
+  }
+
+  function render(list) {
+    var tbody = document.getElementById('casesTbody');
+    if (!list.length) {
+      tbody.innerHTML = '<tr class="empty-row"><td colspan="4">No saved cases. Run a search on the Home or Graph page and click Checkpoint to save a case.</td></tr>';
+      return;
+    }
+    tbody.innerHTML = list.map(function(c) {
+      var typeLabel = c.tool || (c.page === 'graph' ? 'Graph' : 'Home');
+      var isGraph  = c.page === 'graph';
+      var badge    = '<span class="page-badge ' + (isGraph ? 'pg-graph' : 'pg-index') + '">' + esc(typeLabel) + '</span>';
+      var updated  = c.updated_at || c.created_at || '';
+      return '<tr data-id="' + esc(c.id) + '" data-page="' + esc(c.page || 'index') + '" data-name="' + esc(c.name) + '">' +
+        '<td class="td-name" title="' + esc(c.name) + '">' + esc(c.name) + '</td>' +
+        '<td>' + badge + '</td>' +
+        '<td class="td-meta">' + esc(fmtDate(updated)) + '</td>' +
+        '<td><div class="td-actions">' +
+          '<button class="btn-load" data-action="load">Load</button>' +
+          '<button class="btn-del"  data-action="del">Delete</button>' +
+        '</div></td>' +
+      '</tr>';
+    }).join('');
+  }
+
+  function applyFilter() {
+    var q = document.getElementById('searchInput').value.toLowerCase();
+    var filtered = q ? cases.filter(function(c) {
+      return c.name.toLowerCase().indexOf(q) !== -1 || (c.page || '').indexOf(q) !== -1;
+    }) : cases;
+    render(filtered);
+    document.getElementById('statusBar').textContent =
+      filtered.length + ' / ' + cases.length + ' case' + (cases.length !== 1 ? 's' : '');
+  }
+
+  async function loadCases() {
+    try {
+      var res  = await fetch('/api/cases');
+      var json = await res.json();
+      cases = (json.ok && Array.isArray(json.cases)) ? json.cases : [];
+      applyFilter();
+    } catch(e) {
+      document.getElementById('casesTbody').innerHTML =
+        '<tr class="empty-row"><td colspan="4">Failed to load cases: ' + esc(e.message) + '</td></tr>';
+    }
+  }
+
+  document.getElementById('searchInput').addEventListener('input', applyFilter);
+
+  document.getElementById('casesTbody').addEventListener('click', async function(e) {
+    var btn = e.target.closest('[data-action]');
+    if (!btn) return;
+    var row    = btn.closest('tr');
+    var caseId = row.dataset.id;
+    var page   = row.dataset.page;
+
+    if (btn.dataset.action === 'load') {
+      if (page === 'graph') {
+        window.location.href = '/graph?caseId=' + encodeURIComponent(caseId);
+      } else {
+        window.location.href = '/?caseId=' + encodeURIComponent(caseId);
+      }
+      return;
+    }
+
+    if (btn.dataset.action === 'del') {
+      var name = row.dataset.name;
+      if (!confirm('Delete case "' + name + '"?')) return;
+      btn.textContent = '…';
+      btn.disabled = true;
+      try {
+        var res  = await fetch('/api/cases/' + encodeURIComponent(caseId), { method: 'DELETE' });
+        var json = await res.json();
+        if (!json.ok) throw new Error(json.error || 'Delete failed');
+        cases = cases.filter(function(c) { return c.id !== caseId; });
+        applyFilter();
+      } catch(err) {
+        btn.textContent = 'Delete';
+        btn.disabled = false;
+        alert('Delete failed: ' + err.message);
+      }
+    }
+  });
+
+  var navToggle = document.getElementById('navToggle');
+  var navMenu   = document.getElementById('navMenu');
+  navToggle.addEventListener('click', function(e) { e.stopPropagation(); navMenu.classList.toggle('hidden'); });
+  document.addEventListener('click', function() { navMenu.classList.add('hidden'); });
+  navMenu.addEventListener('click', function(e) { e.stopPropagation(); });
+
+  loadCases();
+})();
+</script>
+</body>
+</html>
