@@ -524,13 +524,6 @@
     font-weight: 500;
   }
   .card-val { color: var(--text); word-break: break-word; flex: 1; }
-  .card-val.clamp {
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    line-clamp: 3;
-    -webkit-box-orient: vertical;
-  }
 
   .empty-state {
     color: var(--muted);
@@ -1173,7 +1166,7 @@ function flatText(obj) {
 // PRIORITY / DRILLABLE / SOURCE_CLASS / AGE_LABELS come from
 // static/js/card_constants.js, loaded above — shared with archive.html.
 const SKIP      = ['profile_image_url','profile_banner_url','entities','extended_entities','urls','media','indices'];
-const CLAMP     = new Set(['text','full_text','content','description','bio','article_text','retweeted_text','retweeted_by_bio','post_text','quoted_text']);
+const CLAMP     = new Set();
 
 // ── Media helpers ─────────────────────────────────────────────────────────────
 
@@ -1321,12 +1314,12 @@ function buildCard(item, nested = false) {
     } else if (k === 'text' && item.reply_to_mentions && item.reply_to_mentions.length) {
       const badge = `<div class="reply-context">↩ Replying to ${item.reply_to_mentions.map(m => '@' + esc(m)).join(', ')}</div>`;
       const clean = stripLeadingMentions(String(v), item.reply_to_mentions);
-      display = `${badge}<span class="clamp">${esc(clean)}</span>`;
+      display = `${badge}<span>${esc(clean)}</span>`;
     } else if (v === null || v === undefined) {
       display = `<span style="color:var(--muted)">—</span>`;
     } else if (typeof v === 'object') {
-      const s = JSON.stringify(v);
-      display = `<span style="color:var(--muted);font-size:11px">${esc(s.length > 90 ? s.slice(0,90)+'…' : s)}</span>`;
+      const s = JSON.stringify(v, null, 2);
+      display = `<span style="color:var(--muted);font-size:11px;white-space:pre-wrap">${esc(s)}</span>`;
     } else {
       const cls = CLAMP.has(k) ? ' clamp' : '';
       display = `<span class="${cls}">${esc(String(v))}</span>`;
