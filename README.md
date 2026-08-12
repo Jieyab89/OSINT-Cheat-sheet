@@ -1976,10 +1976,12 @@ For this case u must know the context also dorking for better results
 - [patreon](https://www.patreon.com/) You must to dork
 - [weibo](https://weibo.com/) You must to dork
 - [linktr](https://linktr.ee/) You must to dork
+- [jakartapartyclub](https://jakartapartyclub.com/)
+- [jakarta100bars](https://www.jakarta100bars.com/)
 
 Pro Tips 
 
-Note is for investigator like search scandal, deepfake porn or blackmail, red district review, women, dating platform and porn actress. Searching for scandal or blackmail or deepfake porn doesn't have to be on the listed sites, there are many perpetrators uploading on several platforms You need to do massive scrapping to collect this information, but there are times when they do it on platforms such as telegram, X or adult sites, you can search using dork, regex and linguistic like slang, abbreviation of word and other things
+Note is for investigator like search scandal, deepfake porn or blackmail, red district review, night life and club, women, dating platform and porn actress. Searching for scandal or blackmail or deepfake porn doesn't have to be on the listed sites, there are many perpetrators uploading on several platforms You need to do massive scrapping to collect this information, but there are times when they do it on platforms such as telegram, X or adult sites, you can search using dork, regex and linguistic like slang, abbreviation of word and other things
 
 # Steam 
 
