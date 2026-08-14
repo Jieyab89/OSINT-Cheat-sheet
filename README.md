@@ -694,7 +694,17 @@ Notes this is for surface web or clearnet site
 - [cookieserve find and check cookie](https://www.cookieserve.com/)
 - [tomba](https://tomba.io/)
 - [bevigil web enum](https://bevigil.com/osint-api)
-
+- [Pentest Tools - Website Vulnerability Scanner](https://pentest-tools.com/website-vulnerability-scanning/website-scanner)
+- [Mozilla - HTTP Observatory](https://developer.mozilla.org/en-US/observatory)
+- [HTTP Security Report](https://httpsecurityreport.com/)
+- [Hardenize](https://www.hardenize.com/)
+- [ImmuniWeb - Website Security Test](https://www.immuniweb.com/websec/)
+- [ScanTower - Free Website Security Checker](https://scantower.io/website-security-checker)
+- [Pentest Tools - Subdomain Finder](https://pentest-tools.com/information-gathering/find-subdomains-of-domain)
+- [ImmuniWeb - Email Security Test](https://www.immuniweb.com/email/)
+- [Qualys - SSL Labs](https://www.ssllabs.com/ssltest)
+- [ImmuniWeb - SSL Security Test](https://www.immuniweb.com/ssl/)
+- [Pentest Tools - SSL/TLS Scanner](https://pentest-tools.com/network-vulnerability-scanning/ssl-tls-scanner)
 *Tips web cache 
 
 Use this if google cache was gone (no index sites)
