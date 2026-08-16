@@ -4759,7 +4759,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [burpscan](https://github.com/sherlock-ohm/burpscan) Automate unauthenticated web application security testing with Burp Suite
 - [nowafpls](https://github.com/assetnote/nowafpls) Burp Plugin to Bypass WAFs through the insertion of Junk Data
 - [caido](https://caido.io/) Security testing tools intercepting request like burp
-- [proxifier](https://www.proxifier.com/) Security testing tools intercepting request like burp
+- [proxifier](https://www.proxifier.com/) Security testing tools intercepting request like burp can bypass kiosk and thick client
 - [mitmproxy](https://www.mitmproxy.org/) Security testing tools intercepting request like burp
 - [ProxyBridge](https://github.com/InterceptSuite/ProxyBridge) Security testing tools intercepting request like burp
 - [MobileApp-Pentest-Cheatsheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet) mapped OWASP Mobile Risk Top 10 for conducting pentest.
