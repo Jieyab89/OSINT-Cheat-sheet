@@ -357,4 +357,4 @@ The server connection to the Wayback Machine archive is often down, so try bumpi
 
 # Report Bug and Error 
 
-If any error and bug also bussines process logic, please create an issue
+If any error and bug also bussines process logic, please create an issue 
