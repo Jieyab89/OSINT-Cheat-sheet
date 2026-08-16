@@ -906,8 +906,9 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [kleenscan](https://kleenscan.biz/)
 - [malapi](https://malapi.io/) 
 - [ransomlook](https://www.ransomlook.io/browse)
+- [threatlocker](https://www.threatlocker.com/)
 
-Browser Sandbox 
+# OSINT Browser Sandbox 
 
 - [Browser Sandbox](https://www.browserling.com/)
 - [cybercheck360](https://cybercheck360.com/url-sandbox/)
@@ -1123,6 +1124,7 @@ You can find the file hash or other threat indicator
 - [opensourcemalware](https://opensourcemalware.com/)
 - [Google threat intelligence ](https://cloud.google.com/security/products/threat-intelligence#threat-intelligence-and-advanced-hunting)
 - [DomScan](https://domscan.net/tools/security) Domain intelligence for DNS, WHOIS/RDAP, TLS, subdomains, reputation, redirects, and typosquatting
+- [threatlocker](https://www.threatlocker.com/)
 
 # Automation Dorking 
 
@@ -3015,6 +3017,7 @@ Scribd downloader
 - [saucenao](https://saucenao.com/)
 - [whatiswhere like osm](https://www.whatiswhere.com/)
 - [Kamerka](https://github.com/woj-ciech/Kamerka-GUI)
+- [numbeo cost of living database arround world](https://www.numbeo.com/cost-of-living/)
 
 Conveter tool 
 
