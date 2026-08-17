@@ -67,13 +67,14 @@ Info
 
 # Linux Distribution For OSINT 
 
-You can build it with VM or Live USB make sure you have sandbox machine 
+You can build it with VM or Live USB, Docker, Deploy on VPS make sure you have sandbox machine! 
 
 - [tlosint-live](https://github.com/tracelabs/tlosint-live)
 - [tails](https://tails.net/) & [HiddenVM](https://github.com/aforensics/HiddenVM)
 - [qubes](https://www.qubes-os.org/doc/)
 - [parrot sec](https://www.parrotsec.org/)
 - [csi linux](https://csilinux.com/csi-linux-downloads/)
+- [kali](https://www.kali.org/)
 
 # OSINT Academy
 
@@ -2278,6 +2279,7 @@ Google queries for MySpace
 
 # Tiktok
 
+- [Find ads on TikTok offc](https://library.tiktok.com/ads)
 - [TikTokStalker](https://tiktok.einzzcookie.org)
 - [Picuki](https://www.picuki.com/)
 - [tiktok-hashtag-analysis](https://github.com/bellingcat/tiktok-hashtag-analysis)
@@ -5907,6 +5909,8 @@ Ex Guides:
 - [puppeteer](https://github.com/puppeteer/puppeteer) JavaScript API for Chrome and Firefox for scrapper
 - [SNSSCRAPE](https://github.com/JustAnotherArchivist/snscrape) Scrapper tool for Twitter or X
 - [Photon](https://github.com/s0md3v/Photon) Extract information and scrapping on site and url 
+- [twifork (twikit) - Twitter scrapper](https://github.com/PawiX25/twifork)
+- [TikTokApi](https://pypi.org/project/TikTokApi/)
 
 # OSINT IRC Chat
 
@@ -6046,6 +6050,7 @@ Guide Journalist
 
 # OSINT Detect Deepfake 
 
+- [DeepFake-O-Meter](https://zinc.cse.buffalo.edu/)
 - [aiornot](https://www.aiornot.com/)
 - [sensity.ai](https://sensity.ai/)
 - [AmIReal](https://seintpl.github.io/AmIReal/)
