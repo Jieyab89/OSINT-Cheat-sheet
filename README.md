@@ -40,6 +40,7 @@ Info
 | Date | Remarks |
 |------------|---------|
 | 8 Aug 2026 | Sorry. Update, all the Gitbook and Github Wiki are not public. This site has been made private. If want to read latest update and the change you can chat me in Email "julisandipratam<@_at>gmail.com" you can also using my pub GPG key to send a message Lang used is English and Bahasa Indonesia. Is free no payment and donation |
+| 17 Aug 2026 | Update Jieyab Gitbook content Intelligence Base & Knowledge Base, Cell Investigation, Talk About Data Breach |
 
 # These Resources Are Recommend For 
 
