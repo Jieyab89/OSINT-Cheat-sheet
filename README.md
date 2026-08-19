@@ -39,8 +39,9 @@ Info
 
 | Date | Remarks |
 |------------|---------|
-| 8 Aug 2026 | Sorry. Update, all the Gitbook and Github Wiki are not public. This site has been made private. If want to read latest update and the change you can chat me in Email "julisandipratam<@_at>gmail.com" you can also using my pub GPG key to send a message Lang used is English and Bahasa Indonesia. Is free no payment and donation |
-| 17 Aug 2026 | Update Jieyab Gitbook content Intelligence Base & Knowledge Base, Cell Investigation, Talk About Data Breach |
+| 8 Aug 2026 | Sorry. Update, all the Gitbook and Github Wiki are not public. This site has been made private. If want to read latest update and the change you can chat me in Email "julisandipratam<@_at>gmail.com" you can also using my pub GPG key to send a message Lang used is English and Bahasa Indonesia. Is free no payment and donation. If you want to read access access here : https://forms.gle/AV3MTvzy4ovjYT6Y6 |
+| 20 Aug 2026 | Update Jieyab exclusive content Intelligence Base & Knowledge Base, Cell Investigation, Talk About Data Breach, Signal Intel, all about open source data, all about darkweb |
+| 21 Aug 2026 | Update Jieyab wiki Github content add article all about android pentest, all about programming, darkweb scrapping, telegram dork also etc  |
 
 # These Resources Are Recommend For 
 
