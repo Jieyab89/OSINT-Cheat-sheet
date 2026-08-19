@@ -544,6 +544,8 @@ Notes this is for surface web or clearnet site
 
 - [Jieyab89 TLD and NS checker domain](https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Web-TLD-Enumerate-NS-Check)
 - [Check availabe domain tld list](https://tld-list.com/)
+- [Cerast Intelligence Search observed domains for exposed paths and misconfigurations.](https://search.cerast-intelligence.com/)
+- [insighturl](https://security-life.org/insighturl/)
 - [check available domain](https://instantdomainsearch.com/)
 - [DomScan](https://domscan.net/tools/security) Domain intelligence for DNS, WHOIS/RDAP, TLS, subdomains, reputation, redirects, and typosquatting
 - [CC.LA](https://cc.la) Free domain intelligence for WHOIS/RDAP, DNS records, IP WHOIS, SSL certificates, name server history, and network diagnostics. No sign-up required.
@@ -4816,6 +4818,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [malapi](https://malapi.io/) Reference for Windows APIs that are commonly abused by malware or frequently used in cyber security contexts. It serves as a "cheat sheet" for malware analysts
 - [rlwrap](https://pkg.kali.org/pkg/rlwrap) Listener like netcat (nc) for reverse shell
 - [topazdump](https://t.me/topazdump) Android Xiaomi Root Kernel list dump
+- [Cerast Intelligence Search observed domains for exposed paths and misconfigurations.](https://search.cerast-intelligence.com/)
 
 Social Engineering (Social E)
 
