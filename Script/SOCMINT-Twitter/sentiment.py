@@ -149,7 +149,7 @@ NEGATIVE_WORDS = {
     "pajeet", "cemoohan", "cemooh", "rusuh", "barbar", "paj3t", 
     "cuih", "ngibul", "boong", "pekok", "pea", "pantek", "pantat",
     "Anak haram", "asbun", "omon-omon", "omon2", "ndasmu", "Endasmu",
-    "Nyenyenye",
+    "Nyenyenye", "Buzzerrp", "komdongok", "ngentod", "dongok",
 }
 
 # Flips the polarity of a sentiment word found within NEGATION_WINDOW tokens
