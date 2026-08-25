@@ -1809,6 +1809,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [Public Record](http://publicrecords.searchsystems.net)
 - [Crime Reports](http://www.crimereports.com)
 - [Offendersearch](https://offendersearch.app/) Search all 58 US sex offender registries — every US state, DC and the territories — in one query
+- [US Search NSOPW](https://www.nsopw.gov/?home=) Search sex offender registries for all 50 states, the District of Columbia, U.S. Territories, and Indian Country
 - [OONI](https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false) Checking blocked site global
 - [Harvester](https://github.com/laramies/theHarvester)
 
@@ -5670,6 +5671,8 @@ Social Media Analytics
 - [scamdb](https://www.scamdb.net/)
 - [cryptoscamdb crypto scam](https://cryptoscamdb.org/)
 - [mirror h archived](https://web.archive.org/web/*/https://mirror-h.org/*)
+- [Offendersearch](https://offendersearch.app/) Search all 58 US sex offender registries — every US state, DC and the territories — in one query
+- [US Search NSOPW](https://www.nsopw.gov/?home=) Search sex offender registries for all 50 states, the District of Columbia, U.S. Territories, and Indian Country
 
 Guides 
 
