@@ -1844,7 +1844,8 @@ async function expandNode(expandTool) {
 // makes a reply's author "look-up-able": select them afterward and Expand
 // Posts/Followers/Following works on them like any other user node.
 var AUTHOR_REMAP = { user_avatar: 'avatar', user_banner: 'banner', user_bio: 'description' };
-var AUTHOR_PASSTHROUGH = ['name', 'verified', 'is_blue_verified', 'user_location',
+var AUTHOR_PASSTHROUGH = ['name', 'verified', 'is_blue_verified',
+  'account_based_in', 'connected_via', 'username_changes',
   'account_created', 'account_age', 'account_age_flag', 'account_age_precision',
   'source', 'fetched_at'];
 
@@ -1949,7 +1950,7 @@ var PRIORITY_KEYS = [
   'quoted_user', 'quoted_name', 'quoted_text', 'quoted_at', 'quoted_tweet_id',
   'reply_count', 'retweet_count', 'favorite_count', 'view_count',
   'followers_count', 'following_count', 'tweet_count',
-  'description', 'user_location', 'in_reply_to_tweet_id',
+  'description', 'account_based_in', 'connected_via', 'username_changes', 'in_reply_to_tweet_id',
   'retweeted_tweet_id', 'retweeted_at', 'verified', 'is_blue_verified',
   'archive_url', 'result_url', 'preview_image', 'display_link', 'serp_title',
   'iso_date', 'original', 'statuscode',

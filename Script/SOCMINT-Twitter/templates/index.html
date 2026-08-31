@@ -1973,16 +1973,16 @@ async function updateMap() {
   const mapStatus = document.getElementById('mapStatus');
   const items     = Array.isArray(currentData) ? currentData : (currentData ? [currentData] : []);
 
-  // Collect tweets that have a non-empty profile location
-  const withLoc = items.filter(i => i.user_location && i.user_location.trim());
+  const locOf  = i => (i.account_based_in || '').trim();
+  const withLoc = items.filter(i => locOf(i));
   if (!withLoc.length) {
-    mapStatus.textContent = 'No profile locations found in results — users may not have set a location.';
+    mapStatus.textContent = 'No location data found in results.';
     leafletMap.setView([20, 10], 2);
     return;
   }
 
   // Deduplicate locations to minimise Nominatim calls
-  const uniqueLocs = [...new Set(withLoc.map(i => i.user_location.trim()))];
+  const uniqueLocs = [...new Set(withLoc.map(i => locOf(i)))];
   mapStatus.textContent = `Geocoding 0 / ${uniqueLocs.length} locations…`;
 
   let done = 0;
@@ -1995,7 +1995,7 @@ async function updateMap() {
   // Place a marker for every tweet whose location resolved
   let placed = 0;
   for (const item of withLoc) {
-    const loc    = item.user_location.trim();
+    const loc    = locOf(item);
     const coords = geoCache.get(loc.toLowerCase().trim());
     if (!coords) continue;
 

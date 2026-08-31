@@ -38,7 +38,9 @@
 
 <div class="param-heading">Location</div>
 <div class="param-row"><code class="param-key">lat / lon / place</code> Coordinates plotted on the map view (Geo Post Search)</div>
-<div class="param-row"><code class="param-key">user_location</code> Free-text profile location string, geocoded client-side to produce lat/lon</div>
+<div class="param-row"><code class="param-key">account_based_in</code> X-inferred country/region where the account is operated from — determined by X from IP, phone number, and payment signals at registration and ongoing login. Can still be wrong if the user consistently uses a VPN or registered with a foreign SIM. Used as the signal for map geocoding</div>
+<div class="param-row"><code class="param-key">connected_via</code> Platform/store X detected as the account's primary connection source — e.g. "Indonesia App Store", "Southeast Asia Android App", "Web App". Sourced from X's <code class="param-key">AboutAccountQuery</code> endpoint, same data shown on x.com/username/about</div>
+<div class="param-row"><code class="param-key">username_changes</code> Number of times the account has changed its @handle — from X's <code class="param-key">AboutAccountQuery</code> endpoint. A high count can indicate identity-shifting behavior; 0 means the handle has never changed since account creation</div>
 
 <div class="param-heading">Account age (forensics)</div>
 <div class="param-row"><code class="param-key">account_created / account_age</code> Derived from the account's numeric ID, not the API — see the Account age badges above</div>

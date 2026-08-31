@@ -25,6 +25,8 @@
 19. Checkpoint or save data 
 20. Auto resume archive and dump data with state (state data to checkpoint)
 21. Add date or timestamp paramater for all search module 
+22. Update logic rate limit for X
+23. Update add more paramater about account e.g account base location, total change username and etc 
 
 ## Features
 

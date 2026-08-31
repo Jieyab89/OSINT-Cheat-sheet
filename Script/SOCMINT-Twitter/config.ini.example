@@ -27,7 +27,6 @@ auth_token = xxxxxxxxxxxxxxxxxx
 ct0 = xxxxxxxxxxxx
 
 [server]
-
 ; config flask 
 
 host = 127.0.0.1

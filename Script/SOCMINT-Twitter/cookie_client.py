@@ -176,7 +176,6 @@ def _tweet_to_dict(t: object) -> dict:
         "text":           _full_text(t) or getattr(t, "text", None),
         "user":           getattr(user_obj, "screen_name", None) if user_obj else None,
         "user_id":        _id_str(getattr(user_obj, "id", None)) if user_obj else None,
-        "user_location":  getattr(user_obj, "location", None) if user_obj else None,
         # Display name + verification badge — Twitter's own reply UI shows both
         # next to the handle; twikit already exposes them on the tweet's user.
         "name":                 getattr(user_obj, "name", None) if user_obj else None,
@@ -371,8 +370,7 @@ async def _tweet_retweeters_async(tweet_id: str, auth_token: str, ct0: str, coun
 
 
 async def _geo_search_async(keyword: str, auth_token: str, ct0: str, count: int, cursor: str | None) -> tuple[list, str | None]:
-    """Keyword search; user_location (profile location string) is included in every
-    result so the frontend can geocode and plot it on a map."""
+    """Keyword search results; account_based_in is added later by _enrich_about_profile for map geocoding."""
     client  = await _make_client(auth_token, ct0)
     results = await client.search_tweet(keyword, "Latest", count=count, cursor=cursor)
     return [_tweet_to_dict(t) for t in results], _next_cursor(results)
@@ -439,6 +437,33 @@ def cookie_geo_search(
     cfg = config or load_config()
     auth, ct0 = _get_creds(cfg)
     return asyncio.run(_geo_search_async(keyword, auth, ct0, count, cursor))
+
+
+_ABOUT_ACCOUNT_URL = "https://x.com/i/api/graphql/TzOG2twZEfhr9KmClvVVqA/AboutAccountQuery"
+
+
+async def _about_account_async(screen_name: str, auth_token: str, ct0: str) -> dict | None:
+    from twikit.errors import TooManyRequests
+    client = await _make_client(auth_token, ct0)
+    try:
+        resp, _ = await client.gql.gql_get(_ABOUT_ACCOUNT_URL, {"screenName": screen_name}, {})
+        return resp["data"]["user_result_by_screen_name"]["result"].get("about_profile")
+    except TooManyRequests:
+        raise  # let caller decide — do not cache as permanent None
+    except Exception:
+        return None
+
+
+def cookie_about_account(screen_name: str, config: configparser.ConfigParser = None) -> dict | None:
+    """Fetch X's 'Account based in' and 'Connected via' data for a user.
+
+    Returns a dict with keys: account_based_in, source, location_accurate,
+    created_country_accurate, username_changes (count), learn_more_url.
+    Returns None if the account has no about_profile or on error.
+    """
+    cfg = config or load_config()
+    auth, ct0 = _get_creds(cfg)
+    return asyncio.run(_about_account_async(screen_name, auth, ct0))
 
 
 # Legacy alias — kept for any external scripts that import this name directly

@@ -27,6 +27,7 @@ from cookie_client import (
     cookie_tweet_replies,
     cookie_tweet_retweeters,
     cookie_geo_search,
+    cookie_about_account,
     CookieClientError,
 )
 
@@ -516,6 +517,7 @@ def run_tool():
         data = enrich_account_age(data)
         data = _stamp_fetched_at(data)
         data = _stamp_tweet_url(data)
+        data = _enrich_about_profile(data)
 
         resp = {"ok": True, "data": data, "nextCursor": next_cursor}
         if source_errors:
@@ -774,6 +776,98 @@ def cases_page():
 # A blocking request for that long leaves the browser with nothing to show
 # but a static spinner and no way to tell "still working" from "stuck."
 
+_about_cache: dict[str, dict | None] = {}   # screen_name -> about_profile or None (never rate-limited entries)
+_about_lock  = threading.Lock()
+_ABOUT_CACHE_PATH = Path(__file__).parent / "about_cache.json"
+
+_MAX_ABOUT_ENRICH   = 20    # max unique users enriched per request
+_ABOUT_FETCH_DELAY  = 3.0   # seconds between sequential AboutAccountQuery calls / chnge this for evade rate limit X
+
+
+def _load_about_cache() -> None:
+    try:
+        if _ABOUT_CACHE_PATH.exists():
+            with open(_ABOUT_CACHE_PATH, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            with _about_lock:
+                _about_cache.update(data)
+    except Exception:
+        pass
+
+
+def _save_about_cache() -> None:
+    try:
+        with _about_lock:
+            snapshot = dict(_about_cache)
+        with open(_ABOUT_CACHE_PATH, "w", encoding="utf-8") as f:
+            json.dump(snapshot, f, ensure_ascii=False, separators=(",", ":"))
+    except Exception:
+        pass
+
+
+_load_about_cache()
+
+
+def _enrich_about_profile(items: list) -> list:
+    """Add account_based_in, connected_via, username_changes to each item via AboutAccountQuery.
+
+    Fetches sequentially (0.8s delay) to stay under rate limits. Results are cached
+    to about_cache.json across restarts. Rate-limited accounts are NOT cached and
+    will be retried on the next search."""
+    if not isinstance(items, list):
+        return items
+    try:
+        auth, ct0 = config.get("twitter_cookies", "auth_token", fallback="").strip(), \
+                    config.get("twitter_cookies", "ct0", fallback="").strip()
+        if not auth or not ct0:
+            return items
+    except Exception:
+        return items
+
+    needed: list[str] = []
+    with _about_lock:
+        for item in items:
+            if not isinstance(item, dict):
+                continue
+            sn = item.get("user") or item.get("screen_name")
+            if sn and sn not in _about_cache and sn not in needed:
+                needed.append(sn)
+                if len(needed) >= _MAX_ABOUT_ENRICH:
+                    break
+
+    for i, sn in enumerate(needed):
+        if i > 0:
+            time.sleep(_ABOUT_FETCH_DELAY)
+        try:
+            result = cookie_about_account(sn, config=config)
+            with _about_lock:
+                _about_cache[sn] = result
+        except Exception as e:
+            if "TooManyRequests" in type(e).__name__ or "429" in str(e):
+                pass  # rate limited — skip cache so it's retried next time
+            else:
+                with _about_lock:
+                    _about_cache[sn] = None
+
+    if needed:
+        _save_about_cache()
+
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        sn = item.get("user") or item.get("screen_name")
+        if not sn:
+            continue
+        with _about_lock:
+            about = _about_cache.get(sn)
+        if about:
+            item["account_based_in"]  = about.get("account_based_in")
+            item["connected_via"]     = about.get("source")
+            item["username_changes"]  = (about.get("username_changes") or {}).get("count")
+
+    return items
+
+
 _analytics_registry: dict[str, dict] = {}   # archive_id -> job status dict
 _analytics_lock = threading.Lock()
 
@@ -797,6 +891,26 @@ def _run_analytics(archive_id: str, items: list) -> None:
             _analytics_registry[archive_id] = {
                 "status": "error", "progress": 0, "total": 0, "result": None, "error": str(e),
             }
+
+
+@app.route("/api/about_account")
+def about_account():
+    screen_name = request.args.get("screen_name", "").strip()
+    if not screen_name:
+        return jsonify({"ok": False, "error": "screen_name required"}), 400
+    with _about_lock:
+        cached = _about_cache.get(screen_name, "MISS")
+    if cached != "MISS":
+        return jsonify({"ok": True, "about_profile": cached})
+    try:
+        result = cookie_about_account(screen_name, config=config)
+    except CookieClientError as e:
+        return jsonify({"ok": False, "error": str(e)}), 400
+    except Exception as e:
+        return jsonify({"ok": False, "error": str(e)}), 500
+    with _about_lock:
+        _about_cache[screen_name] = result
+    return jsonify({"ok": True, "about_profile": result})
 
 
 @app.route("/analytics")
