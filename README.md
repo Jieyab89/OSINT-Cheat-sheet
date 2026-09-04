@@ -5917,6 +5917,7 @@ Ex Guides:
 - [scrapy](https://www.scrapy.org/) Pyhton lib for scrapper
 - [puppeteer](https://github.com/puppeteer/puppeteer) JavaScript API for Chrome and Firefox for scrapper
 - [SNSSCRAPE](https://github.com/JustAnotherArchivist/snscrape) Scrapper tool for Twitter or X
+- [Scweet](https://github.com/Altimis/Scweet) Scrapper tool for Twitter or X, no API key needed
 - [Photon](https://github.com/s0md3v/Photon) Extract information and scrapping on site and url 
 - [twifork (twikit) - Twitter scrapper](https://github.com/PawiX25/twifork)
 - [TikTokApi](https://pypi.org/project/TikTokApi/)
