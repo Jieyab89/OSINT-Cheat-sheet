@@ -31,7 +31,8 @@ Resources like this will be taken down immediately without any response from the
 
 Need to check after developer answer 
 
-- 
+- https://github.com/JustAnotherArchivist/snscrape (import fails on Python 3.12, AttributeError FileFinder has no attribute find_module. Last release 0.7.0.20230622 June 2023, development stopped)
+- https://github.com/twintproject/twint (fails to build, cchardet needs a header CPython removed. Repo archived February 2023, development stopped)
 
 # How to Report 
 
