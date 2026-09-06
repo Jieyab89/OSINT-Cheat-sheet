@@ -1632,6 +1632,7 @@ You can also use Google dork to search blogger profile
 - [open-search aleph](https://open-search.aleph-networks.eu/)
 - [usersearch](https://usersearch.com/)
 - [geoportal ESDM ID](https://geoportal.esdm.go.id/)
+- [S&P 500 Earnings Announcement Times](https://github.com/quant500trading/sp500-earnings-announcement-times) 63,969 earnings announcements timestamped from SEC Form 8-K item 2.02 filings, 808 companies, 2003-2026, CC0, no account
 
 # People Searching
 
