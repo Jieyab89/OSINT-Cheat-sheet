@@ -5916,6 +5916,7 @@ Ex Guides:
 - [tailscale](https://tailscale.com/) Possible to bypass WAF 
 - [scrapy](https://www.scrapy.org/) Pyhton lib for scrapper
 - [puppeteer](https://github.com/puppeteer/puppeteer) JavaScript API for Chrome and Firefox for scrapper
+- [Scweet](https://github.com/Altimis/Scweet) Scrapper tool for Twitter or X, no API key needed
 - [SNSSCRAPE](https://github.com/JustAnotherArchivist/snscrape) **[Archived]** Scrapper tool for Twitter or X. Import fails on Python 3.12, no release since June 2023
 - [Photon](https://github.com/s0md3v/Photon) Extract information and scrapping on site and url 
 - [twifork (twikit) - Twitter scrapper](https://github.com/PawiX25/twifork)
