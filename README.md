@@ -193,7 +193,7 @@ Automated tool by David Bombal
 - [maigret](https://github.com/soxoj/maigret)
 - [social searcher](https://www.social-searcher.com/)
 - [inteltechniques](https://inteltechniques.com/tools/index.html)
-- [SNSSCRAPE](https://github.com/JustAnotherArchivist/snscrape)
+- [SNSSCRAPE](https://github.com/JustAnotherArchivist/snscrape) **[Archived]** import fails on Python 3.12, no release since June 2023
 - [TOOKIE OSINT](https://github.com/Alfredredbird/tookie-osint)
 - [Hoaxy](https://hoaxy.osome.iu.edu/)
 - [skopenow](https://www.skopenow.com/)
@@ -494,7 +494,7 @@ Guide Github search code by Jieyab89 : https://github.com/Jieyab89/OSINT-Cheat-s
 - [Maltego Social Links Pro](https://www.maltego.com/transform-hub/social-links-pro/)
 - [Social Searcher](https://www.social-searcher.com/)
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
-- [SNSCRAPE - Scraper](https://github.com/JustAnotherArchivist/snscrape)
+- [SNSCRAPE - Scraper](https://github.com/JustAnotherArchivist/snscrape) **[Archived]** import fails on Python 3.12, no release since June 2023
 - [OSINT compass](https://osint-compass-portal.onrender.com/)
 - [Open measure](https://public.openmeasures.io/)
 - [huntintel](https://www.huntintel.io/)
@@ -509,7 +509,7 @@ Guide Github search code by Jieyab89 : https://github.com/Jieyab89/OSINT-Cheat-s
 # Social Media Management and Content Discovery
 
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
-- [SNSCRAPE - Scraper](https://github.com/JustAnotherArchivist/snscrape)
+- [SNSCRAPE - Scraper](https://github.com/JustAnotherArchivist/snscrape) **[Archived]** import fails on Python 3.12, no release since June 2023
 - [huntintel](https://www.huntintel.io/)
 - [ShadowDragon](https://shadowdragon.io/)
 - [sociallinks](https://sociallinks.io/)
@@ -2196,7 +2196,7 @@ Note is for investigator like search scandal (Adult), deepfake porn or blackmail
 - [Twitter Audit](https://www.twitteraudit.com)
 - [Twitter Chat Schedule](http://tweetreports.com/twitter-chat-schedule)
 - [Twitter Search](http://search.twitter.com)
-- [Twint](https://github.com/twintproject/twint)
+- [Twint](https://github.com/twintproject/twint) **[Archived]** fails to build, repo archived February 2023
 - [Twitwork](https://github.com/atmoner/TwitWork)
 - [Twitter Account Profiler](https://www.sotwe.com/)
 - [Twitter Account Profiler](https://twstalker.com/)
@@ -2489,7 +2489,7 @@ Mostly general for searching data like web enumerate, attack surface, email, per
 - [Phantom Tide](https://phantom.labs.jamessawyer.co.uk/) - cross-domain OSINT dashboard for maritime and airspace analysis
 - [Meta OSINT](https://metaosint.github.io/)
 - [Maltego](https://www.maltego.com/)
-- [Twint](https://forum.seccodeid.com/d/twint-twitter-intelligence-tool)
+- [Twint](https://forum.seccodeid.com/d/twint-twitter-intelligence-tool) **[Archived]** fails to build, repo archived February 2023
 - [Telegram OSINT](https://forum.seccodeid.com/d/telegram-nearby-map)
 - [UBIKRON](https://www.osint-tool.com/unravel-help/)
 - [usersearch](https://usersearch.ai/)
@@ -2623,7 +2623,7 @@ Scribd downloader
 - [Profil3r](https://github.com/Rog3rSm1th/Profil3r)
 - [Oblivion](https://github.com/loseys/Oblivion)
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
-- [Snsscrape](https://github.com/JustAnotherArchivist/snscrape)
+- [Snsscrape](https://github.com/JustAnotherArchivist/snscrape) **[Archived]** import fails on Python 3.12, no release since June 2023
 - [stratosphere](https://github.com/elehcimd/stratosphere)
 - [ShadowDragon](https://shadowdragon.io/)
 - [sociallinks](https://sociallinks.io/)
@@ -5916,8 +5916,8 @@ Ex Guides:
 - [tailscale](https://tailscale.com/) Possible to bypass WAF 
 - [scrapy](https://www.scrapy.org/) Pyhton lib for scrapper
 - [puppeteer](https://github.com/puppeteer/puppeteer) JavaScript API for Chrome and Firefox for scrapper
-- [SNSSCRAPE](https://github.com/JustAnotherArchivist/snscrape) Scrapper tool for Twitter or X
 - [Scweet](https://github.com/Altimis/Scweet) Scrapper tool for Twitter or X, no API key needed
+- [SNSSCRAPE](https://github.com/JustAnotherArchivist/snscrape) **[Archived]** Scrapper tool for Twitter or X. Import fails on Python 3.12, no release since June 2023
 - [Photon](https://github.com/s0md3v/Photon) Extract information and scrapping on site and url 
 - [twifork (twikit) - Twitter scrapper](https://github.com/PawiX25/twifork)
 - [TikTokApi](https://pypi.org/project/TikTokApi/)
