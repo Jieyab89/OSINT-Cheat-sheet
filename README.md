@@ -2659,6 +2659,7 @@ Scribd downloader
 - [Search4face](https://search4faces.com/en/)
 - [Vkfacewatch](https://vk.watch/)
 - [Facecheck](https://facecheck.id/)
+- [Face2social](https://face2social.com/) - face search over public Instagram, Facebook, TikTok and X profile photos; social profiles only, not the open web. Free results preview without sign-up. US only.
 - [Findmyclone](https://www.findmyclone.com/)
 - [Face++](https://www.faceplusplus.com/)
 - [AWS-Recon](https://aws.amazon.com/rekognition/)
