@@ -6532,6 +6532,10 @@ Search and find drone and drone footage
 
 # OSINT ADS Tracker 
 
+Tracking ads or campaign total views, ads costs and more
+
 - [ADS Google Tracker](https://adstransparency.google.com/?authuser=0&region=ID)
 - [ADS Tiktok](https://ads.tiktok.com/business/creativecenter/inspiration/topads/pc/en?period=30&region=ID)
 - [facebook ads tracker](https://www.facebook.com/ads/library/report/)
+- [Linkedin ads tracker](https://www.linkedin.com/ad-library)
+- [X ads tracker](https://ads.twitter.com/ads-repository)
