@@ -1901,6 +1901,7 @@ or you can use dork for spesific example
 
 # The Ultimate Facebook Investigation Tool
 
+- [facebook ads tracker](https://www.facebook.com/ads/library/report/)
 - [socialblade](https://socialblade.com/)
 - [Facebook Search](http://search.fb.com/)
 - [Fb-sleep-stats](https://github.com/sqren/fb-sleep-stats)
@@ -6528,3 +6529,9 @@ List available data source OSINT for other country
 Search and find drone and drone footage 
 
 - [dronestagr](https://www.dronestagr.am/?s=indonesia)
+
+# OSINT ADS Tracker 
+
+- [ADS Google Tracker](https://adstransparency.google.com/?authuser=0&region=ID)
+- [ADS Tiktok](https://ads.tiktok.com/business/creativecenter/inspiration/topads/pc/en?period=30&region=ID)
+- [facebook ads tracker](https://www.facebook.com/ads/library/report/)
