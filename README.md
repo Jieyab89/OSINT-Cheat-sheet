@@ -2230,7 +2230,7 @@ Note is for investigator like search scandal (Adult), deepfake porn or blackmail
 - [xcancel like nitter](https://xcancel.com/)
 - [Nitter Instances available lists](https://github.com/zedeus/nitter/wiki/Instances)
 - [twitterwebviewer](https://twitterwebviewer.com/)
-- [Twitter viewer without login](https://twitee.co/) Twitee is a browser-based Twitter/X viewer for public profiles, posts, replies, threads and media without signing in, with public post search and image/video downloads for OSINT and SOCMINT research.
+- [Twitter viewer without login](https://twitee.co/) Twitee is a browser-based alternative to Nitter and XCancel for viewing public Twitter/X profiles, posts, replies, threads and media without signing in. It also provides public post search and image/video downloads for OSINT and SOCMINT research.
 - [Xquik](https://xquik.com/) X/Twitter OSINT platform for tweet search, profile export, media download, monitoring, webhooks, REST API, and MCP access
 
 Twitter Search Engine 
