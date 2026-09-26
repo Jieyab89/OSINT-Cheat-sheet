@@ -2345,6 +2345,7 @@ Google queries for MySpace
 - [pic2map](https://www.pic2map.com/)
 - [labs.tib.eu](https://labs.tib.eu/geoestimation/)
 - [Geotag](https://vsudo.net/tools/geotag)
+- [geotag.world](https://geotag.world/) Free browser tool: shows a photo's GPS location on a map, reads EXIF, and removes GPS, EXIF and C2PA content credentials. No account needed for removal.
 
 # Email Tracking
 
