@@ -2129,6 +2129,7 @@ Note is for investigator like search scandal (Adult), deepfake porn or blackmail
 - [undelete Unddit Reddit search and viewer](https://undelete.pullpush.io/)
 - [undelete Unddit Reddit search and viewer - Github code](https://github.com/gurnec/removeddit)
 - [Xquik](https://xquik.com/) 
+- [ThreadFox Lite](https://github.com/amflimited/threadfox-lite) read-only checks of a Reddit account's age, karma and removed/hidden posts, post status and subreddit rules (MCP server, runs in your own signed-in Chrome)
 
 # Youtube 
 
