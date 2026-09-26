@@ -6262,6 +6262,7 @@ This is for you searching software and searching alternative software
 
 - [Barcode online reader](https://online-barcode-reader.inliteresearch.com/)
 - [Apple Barcode](https://support.apple.com/id-id/102680)
+- [Barcodepedia](https://barcodepedia.com/) Look up a decoded EAN/UPC/GTIN number: product, brand owner, licensee and GS1 registrant, every fact cited. Free, no account
 
 # MASINT 
 
