@@ -2053,6 +2053,7 @@ Note is for investigator like search scandal (Adult), deepfake porn or blackmail
 - [pixnoy insta viewer](https://www.pixnoy.com/)
 - [InstagramPrivSniffer](https://github.com/obitouka/InstagramPrivSniffer)
 - [instrack](https://instrack.app/)
+- [igtrackr](https://igtrackr.com/) Track follower growth, recent follows/unfollows and engagement of any public Instagram account without login (free tier)
 - [mollygram](https://mollygram.com/)
 - [indownloader](https://indownloader.app/)
 - [instanavigation](https://instanavigation.net/)
