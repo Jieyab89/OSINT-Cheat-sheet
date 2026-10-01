@@ -462,6 +462,7 @@ Resources
 - [zerobin](https://zerobin.net/)
 - [ID p-store](https://p-store.net/)
 - [ID sharecode](https://sharecode.id/)
+- [PageSourceSearch](https://www.pagesourcesearch.com/) Search the raw HTML and first-party JavaScript that websites serve, by exact string or regex. Free, no account
 
 Pro Tips 
 
