@@ -184,6 +184,7 @@ Automated tool by David Bombal
 - [Social Analyzer](https://github.com/qeeqbox/social-analyzer)
 - [webvetted](https://webvetted.com/)
 - [InstagramPrivSniffer](https://github.com/obitouka/InstagramPrivSniffer)
+- [Jev Social](https://github.com/socai-io/jev-social) local-first social research agent for Instagram, TikTok, and LinkedIn using the user's Chrome session; streams captured evidence and a cited report
 - [socialblade](https://socialblade.com/)
 - [Tinfoleak](https://github.com/vaguileradiaz/tinfoleak)
 - [Alfred](https://github.com/Alfredredbird/alfred)
