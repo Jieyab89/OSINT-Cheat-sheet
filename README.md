@@ -6088,10 +6088,11 @@ Guide Journalist
 - [Mever](https://mever.iti.gr/forensics/)
 - [fakeimagedetector](https://www.fakeimagedetector.com/)
 - [imagewhisperer](https://imagewhisperer.org/)
-- [deepai](https://deepai.org/)
+- [deepai](https://deepai.org/ai-image-detector)
 - [decopy](https://decopy.ai/)
 - [zerogpt](https://www.zerogpt.com/)
 - [isgen](https://isgen.ai/)
+- [openai Verify OpenAI-generated content](https://openai.com/research/verify/)
 
 # OSINT Similarity (Plagiarism)
 
