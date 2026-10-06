@@ -6097,6 +6097,7 @@ Guide Journalist
 - [zerogpt](https://www.zerogpt.com/)
 - [isgen](https://isgen.ai/)
 - [openai Verify OpenAI-generated content](https://openai.com/research/verify/)
+- [isthisaigenerated.app image detector](https://isthisaigenerated.app/site/ai-image-detector/) Free warning-only image checker: per-file AI signal with the file's own provenance context, plus a published measured recall and false-positive rate. No account needed. Reports a warning signal only, never proof of origin or authorship
 
 # OSINT Similarity (Plagiarism)
 
