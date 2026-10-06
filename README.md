@@ -2158,6 +2158,7 @@ Note is for investigator like search scandal (Adult), deepfake porn or blackmail
 - [channelcrawler](https://app.channelcrawler.com/)
 - [ytlarge](https://ytlarge.com/)
 - [youtube-lookup vidio](https://youtube-lookup.vercel.app/)
+- [MonetizationKit](https://monetizationkit.com/) Check if a YouTube channel is in the Partner Program from public signals (Join button, merch shelf, ads on recent videos, subscriber tier), each shown next to the verdict. Free, no account
 
 # Mastodon 
 
