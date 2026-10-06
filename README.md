@@ -2555,6 +2555,7 @@ Search channel, username, bot and anymore
 - [waybien search telegram chat, grup and other](https://waybien.com/en)
 - [tdirectory](https://tdirectory.me/)
 - [deepdarkCTI telegram dataset](https://github.com/fastfire/deepdarkCTI)
+- [TGScope](https://tgscope.io/) - Search engine and catalog of 3M+ public Telegram channels by topic, language and size, with per-channel stats and event pages that collect posts mentioning places, companies and people
 
 Telegram Tips 
 
