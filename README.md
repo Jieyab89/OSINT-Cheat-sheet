@@ -2249,6 +2249,7 @@ Twitter Search Engine
 
 - [Snapchat MAP](https://map.snapchat.com/)
 - [ignorant](https://github.com/megadose/ignorant)
+- [SnapDataHub](https://snapdatahub.com/) Subscriber counts, Spotlight views and growth for public Snapchat creator profiles, plus a daily list of the fastest-growing creators. Free to browse without login (influencer search is paid)
 
 # LinkedIn
 
