@@ -221,6 +221,10 @@
             {
                 "name": "Jieyab89 SOCMINT-Twitter",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/SOCMINT-Twitter"
+            },
+            {
+                "name": "Jev Social",
+                "url": "https://github.com/socai-io/jev-social"
             }
         ]
     },
@@ -2536,6 +2540,10 @@
             {
                 "name": "threatlocker",
                 "url": "https://www.threatlocker.com/"
+            },
+            {
+                "name": "Orca AI Incident Archive",
+                "url": "https://www.orcarouter.ai/incident-archive"
             }
         ]
     },
@@ -5975,6 +5983,10 @@
             {
                 "name": "facebook ads tracker",
                 "url": "https://www.facebook.com/ads/library/report/"
+            },
+            {
+                "name": "MonetizationKit",
+                "url": "https://monetizationkit.com/facebook-monetization-checker/"
             }
         ]
     },
@@ -6537,6 +6549,10 @@
             {
                 "name": "InstaStoriesViewer",
                 "url": "https://insta-stories-viewer.com/opposite6890.recon/"
+            },
+            {
+                "name": "igtrackr",
+                "url": "https://igtrackr.com/"
             }
         ]
     },
@@ -6762,6 +6778,10 @@
             {
                 "name": "youtube-lookup vidio",
                 "url": "https://youtube-lookup.vercel.app/"
+            },
+            {
+                "name": "MonetizationKit",
+                "url": "https://monetizationkit.com/"
             }
         ]
     },
@@ -7089,6 +7109,14 @@
             {
                 "name": "ignorant",
                 "url": "https://github.com/megadose/ignorant"
+            },
+            {
+                "name": "OSINT Dojo Snapchat Attack Vector",
+                "url": "https://www.osintdojo.com/diagrams/snapchat"
+            },
+            {
+                "name": "SnapDataHub",
+                "url": "https://snapdatahub.com/"
             }
         ]
     },
@@ -7720,6 +7748,10 @@
             {
                 "name": "tomba",
                 "url": "https://tomba.io/"
+            },
+            {
+                "name": "emailosint",
+                "url": "https://emailosint.org/"
             }
         ]
     },
@@ -8129,6 +8161,22 @@
             {
                 "name": "t.me/s/<change username>",
                 "url": "https://t.me/s/PREVIEWCHANNEL"
+            },
+            {
+                "name": "TGScope",
+                "url": "https://tgscope.io/"
+            },
+            {
+                "name": "TGScope Channel Creation Date",
+                "url": "https://tgscope.io/tools/telegram-channel-creation-date"
+            },
+            {
+                "name": "TGScope Channel Audit",
+                "url": "https://tgscope.io/tools/telegram-channel-audit"
+            },
+            {
+                "name": "TGScope Channel Network Checker",
+                "url": "https://tgscope.io/tools/telegram-channel-network"
             }
         ]
     },
@@ -18991,6 +19039,10 @@
             {
                 "name": "US Search NSOPW",
                 "url": "https://www.nsopw.gov/?home="
+            },
+            {
+                "name": "Threat Actor Directory",
+                "url": "https://pranithjain.qzz.io/threatintel/actors/hub"
             }
         ]
     },
@@ -20352,6 +20404,14 @@
             {
                 "name": "DeepFake-O-Meter",
                 "url": "https://zinc.cse.buffalo.edu/"
+            },
+            {
+                "name": "openai Verify OpenAI-generated content",
+                "url": "https://openai.com/research/verify/"
+            },
+            {
+                "name": "isthisaigenerated.app image detector",
+                "url": "https://isthisaigenerated.app/site/ai-image-detector/"
             }
         ]
     },
@@ -22392,10 +22452,6 @@
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Surface-Web-TLD-Domain-Enumerate"
             },
             {
-                "name": "Please reload this page",
-                "url": "https://github.com"
-            },
-            {
                 "name": "Telegram Dork",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Telegram-Dork"
             }
@@ -22662,7 +22718,7 @@
         ]
     },
     {
-        "category": "Table Of Content",
+        "category": "Query & Script List",
         "items": [
             {
                 "name": "CNN-News-Scrapping-and-Archive",
