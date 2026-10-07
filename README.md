@@ -1639,6 +1639,7 @@ You can also use Google dork to search blogger profile
 
 # People Searching
 
+- [faceseek](https://faceseek.cc/)
 - [usersearch](https://usersearch.com/)
 - [castrickclues](https://castrickclues.com/)
 - [whatsmyname](https://whatsmyname.app/)
@@ -2449,6 +2450,7 @@ Google queries for MySpace
 - [ychecker gmail email checker validate](https://ychecker.com/bulk-email-checker)
 - [windvane](https://windvane.lichoin.com/)
 - [tomba](https://tomba.io/)
+- [emailosint](https://emailosint.org/)
 
 # PGP or GPG Keybase 
 
@@ -2707,6 +2709,7 @@ Scribd downloader
 - [surfface](https://surfface.com/)
 - [dailymotion](https://www.dailymotion.com/)
 - [giphy](https://giphy.com/)
+- [faceseek](https://faceseek.cc/)
 
 # Image Analysis
 
@@ -5687,6 +5690,7 @@ Social Media Analytics
 - [mirror h archived](https://web.archive.org/web/*/https://mirror-h.org/*)
 - [Offendersearch](https://offendersearch.app/) Search all 58 US sex offender registries — every US state, DC and the territories — in one query
 - [US Search NSOPW](https://www.nsopw.gov/?home=) Search sex offender registries for all 50 states, the District of Columbia, U.S. Territories, and Indian Country
+- [Threat Actor Directory](https://pranithjain.qzz.io/threatintel/actors/hub)
 
 Guides 
 
