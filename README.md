@@ -915,6 +915,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [malapi](https://malapi.io/) 
 - [ransomlook](https://www.ransomlook.io/browse)
 - [threatlocker](https://www.threatlocker.com/)
+- [Orca AI Incident Archive](https://www.orcarouter.ai/incident-archive) Search and filter real-world AI agent security events (incidents, vulnerabilities, research, policy) by type, severity and confirmed harm, free and no account. Open data on GitHub: Continuum-AI-Corp/Orca-AI-Incident-Archive
 
 # OSINT Browser Sandbox 
 
