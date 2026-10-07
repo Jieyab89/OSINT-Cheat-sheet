@@ -1929,6 +1929,7 @@ or you can use dork for spesific example
 - [Check email and phone num on facebook](https://web.facebook.com/login/identify?ctx=recover&_rdc=1&_rdr#)
 - [META Scan](https://github.com/HackUnderway/meta_scan)
 - [Facebook lookup id](https://lookup-id.com/#)
+- [MonetizationKit](https://monetizationkit.com/facebook-monetization-checker/) Check if a Facebook is in the Partner Program from public signals (Join button, merch shelf, ads on recent videos, subscriber tier), each shown next to the verdict. Free, no account
 
 # OnlyFans
 
@@ -2250,6 +2251,7 @@ Twitter Search Engine
 
 - [Snapchat MAP](https://map.snapchat.com/)
 - [ignorant](https://github.com/megadose/ignorant)
+- [OSINT Dojo Snapchat Attack Vector](https://www.osintdojo.com/diagrams/snapchat)
 - [SnapDataHub](https://snapdatahub.com/) Subscriber counts, Spotlight views and growth for public Snapchat creator profiles, plus a daily list of the fastest-growing creators. Free to browse without login (influencer search is paid)
 
 # LinkedIn
