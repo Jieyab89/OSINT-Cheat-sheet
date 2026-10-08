@@ -3487,6 +3487,7 @@ Build your sockpuppet account and proctect your privacy
 - [Temp Mail 6](https://tempmail.so/)
 - [Temp Mail 7](https://tempmailto.online/)
 - [Temp Mail 8 w custom](https://emailfake.com/)
+- [Temp Mail 9 w custom](https://tempmailg.com/)
 - [Temp email gmail](https://www.emailnator.com/mailbox)
 - [Temp email gmail 2](https://smailpro.com/temporary-email)
 - [Temp email gmail 3](https://boomlify.com/en/gmail-temp-mail)
