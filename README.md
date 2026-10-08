@@ -975,6 +975,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [BloodCat](https://github.com/MartinxMax/BloodCat)
 - [opentopia find online cam](https://www.opentopia.com/)
 - [skylinewebcams find online cam](https://www.skylinewebcams.com/)
+- [camhacker find online cam](https://camhacker.com/)
 
 # IP Addresses
 
@@ -2166,6 +2167,7 @@ Note is for investigator like search scandal (Adult), deepfake porn or blackmail
 # Mastodon 
 
 - [imagstodon](https://seintpl.github.io/imagstodon/)
+- [mastodon instances](https://instances.social/)
 
 # Twitter
 
@@ -4838,6 +4840,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [rlwrap](https://pkg.kali.org/pkg/rlwrap) Listener like netcat (nc) for reverse shell
 - [topazdump](https://t.me/topazdump) Android Xiaomi Root Kernel list dump
 - [Cerast Intelligence Search observed domains for exposed paths and misconfigurations.](https://search.cerast-intelligence.com/)
+- [CENSYS Queries](https://github.com/thehappydinoa/awesome-censys-queries)
 
 Social Engineering (Social E)
 
@@ -6136,6 +6139,8 @@ Text Analyzer
 - [text compare](https://text-compare.com/)
 - [zerogpt](https://www.zerogpt.com/)
 - [decopy](https://decopy.ai/)
+- [turnitindetector](https://www.turnitindetector.ai/)
+- [paraphraser](https://www.paraphraser.io/)
 
 Audio Analyzer 
 
