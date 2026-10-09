@@ -4840,8 +4840,9 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [malapi](https://malapi.io/) Reference for Windows APIs that are commonly abused by malware or frequently used in cyber security contexts. It serves as a "cheat sheet" for malware analysts
 - [rlwrap](https://pkg.kali.org/pkg/rlwrap) Listener like netcat (nc) for reverse shell
 - [topazdump](https://t.me/topazdump) Android Xiaomi Root Kernel list dump
-- [Cerast Intelligence Search observed domains for exposed paths and misconfigurations.](https://search.cerast-intelligence.com/)
-- [CENSYS Queries](https://github.com/thehappydinoa/awesome-censys-queries)
+- [Cerast Intelligence Search observed domains for exposed paths and misconfigurations.](https://search.cerast-intelligence.com/) Search web with missconfig
+- [CENSYS Queries](https://github.com/thehappydinoa/awesome-censys-queries) A list query for CENSYS
+- [MeowDump Integrity-Box](https://github.com/MeowDump/Integrity-Box) A toolkit for managing Play Integrity & System Environment, check the doc if doesnt work change the rom
 
 Social Engineering (Social E)
 
