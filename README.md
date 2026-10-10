@@ -1339,6 +1339,7 @@ Example
 - [PeekVault](https://peekvault.com/) Search public X/Twitter captures from the Internet Archive CDX index, preview archived snapshots, and export results
 - [archive md](https://archive.md/)
 - [swap.stanford.edu](https://swap.stanford.edu/)
+- [Wayback-Archive](https://github.com/GeiserX/Wayback-Archive) Download a whole archived website from the Wayback Machine and rebuild it as a folder you can open offline, with links rewritten and the Wayback toolbar removed
 
 Web Defacement Archive 
 
