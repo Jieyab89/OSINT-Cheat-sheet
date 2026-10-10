@@ -1854,6 +1854,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [usersearch](https://usersearch.com/)
 - [user-scanner](https://github.com/kaifcodec/user-scanner/releases/tag/v1.1.0)
 - [maigret 2 made by Rust](https://github.com/krishpranav/maigret/blob/master/data.json)
+- [Opsis](https://useopsis.com/) find accounts linked to an email, username or domain across 1000+ source modules (paid)
 
 # Google Queries for Facebook
 
