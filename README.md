@@ -1569,6 +1569,7 @@ You can also use Google dork to search blogger profile
 - [Jobstreet](https://www.jobstreet.com.ph/)
 - [BOTW](https://botw.org/)
 - [opencorporates](https://opencorporates.com/)
+- [Currawong USCI Checker](https://currawongweb.com/verify/china-usci-checker/) Free browser-based format and check-digit checker for China's 18-character Unified Social Credit Code (USCI/USCC). Does not verify company registration, creditworthiness, or payment safety.
 - [Data OCCRP](https://data.occrp.org/)
 - [OSINT Maps](https://cybdetective.com/osintmap/)
 - [Tripadvisor](https://www.tripadvisor.com/)
