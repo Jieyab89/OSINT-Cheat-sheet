@@ -2532,6 +2532,7 @@ Search channel, username, bot and anymore
 - [Social Finder](https://socialfinder.app/list/Telegram)
 - [Lyzem Search](https://lyzem.com/)
 - [Telemetr](https://telemetr.io/)
+- [Telemoon](https://telemoon.app/) Free Telegram channel statistics, mentions graph and full-text post search, no login
 - [TGDev](https://tgdev.io/)
 - [IntelX Telegram](https://intelx.io/tools?tab=telegram)
 - [Tele Phone Number Checker - Bellingcat](https://github.com/bellingcat/telegram-phone-number-checker)
