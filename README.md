@@ -2357,6 +2357,7 @@ Google queries for MySpace
 - [pic2map](https://www.pic2map.com/)
 - [labs.tib.eu](https://labs.tib.eu/geoestimation/)
 - [Geotag](https://vsudo.net/tools/geotag)
+- [EXIF Hound](https://github.com/minimallyexceptional/exif-hound) Free, open-source (MIT) desktop app for macOS, Windows and Linux to inspect EXIF metadata and map GPS-tagged photos. Local-first: no image uploads, no telemetry, no account
 
 # Email Tracking
 
