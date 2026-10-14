@@ -768,6 +768,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [Redirect Tracker](https://www.websiteplanet.com/webtools/redirected/)
 - [fortiguard](https://www.fortiguard.com/threatintel-search)
 - [Url Scan](https://urlscan.io/)
+- [ScanMalware](https://scanmalware.com/) Free URL scanner: runs each link through isolated analysis environments, records everything the page loads and runs, and checks it against YARA, antivirus and intrusion-detection rules, threat feeds and AI to give a phishing or malware verdict with the evidence. Every public scan is searchable by domain, IP, ASN, JARM or favicon hash. No account or API key needed
 
 # Researching Cyber Threats
 
