@@ -2510,6 +2510,7 @@ Mostly general for searching data like web enumerate, attack surface, email, per
 - [UBIKRON](https://www.osint-tool.com/unravel-help/)
 - [usersearch](https://usersearch.ai/)
 - [securitytrails](https://securitytrails.com/)
+- [PRISM](https://github.com/NovaCode37/Prism-platform) - self-hosted OSINT dashboard for domains, IPs, emails, phone numbers and usernames, with an entity graph, GeoIP map and HTML/PDF reports. Live demo at [getprism.su](https://getprism.su)
 
 # Telegram Tool
 
