@@ -3492,6 +3492,7 @@ Build your sockpuppet account and proctect your privacy
 - [Temp Mail 7](https://tempmailto.online/)
 - [Temp Mail 8 w custom](https://emailfake.com/)
 - [Temp Mail 9 w custom](https://tempmailg.com/)
+- [Temp Mail 10 w custom](https://sengare.art/)
 - [Temp email gmail](https://www.emailnator.com/mailbox)
 - [Temp email gmail 2](https://smailpro.com/temporary-email)
 - [Temp email gmail 3](https://boomlify.com/en/gmail-temp-mail)
@@ -3814,6 +3815,7 @@ Browser Sandbox
 - [Jieyab89 darkweb scrapping link](https://github.com/Jieyab89/OSINT-Cheat-sheet/blob/main/Script/Darkweb-Scrapping/onion-site-directory-scrapper.py)
 - [DeepLink Onion Directory (ONION SITES)](http://deepxfmkjlils3vd7bru5rrxy3x3lchjgmv3wsgycjfynktmuwgm64qd.onion/)
 - [Wiki Pages (ONION SITES)](http://uquroyobsaquslaunwkz6bmc3wutpzvwe7mv62xeq64645a57bugnsyd.onion/)
+- [darknyx](https://darknyx.com/)
 - [ail-framework](https://github.com/ail-project/ail-framework)
 - [onion scan](https://onionscan.org/)
 - [onionite](https://github.com/lukechilds/onionite?tab=readme-ov-file)
@@ -4422,6 +4424,7 @@ Public Transport
 - [transjakarta ID ROUTE](https://transjakarta.co.id/rute)
 - [Jaklingko ID MAP](https://www.jaklingkoindonesia.co.id/id/map)
 - [Palembang ID Pub Transport](https://geoportal.palembang.go.id/pencarian?kategori=Transportasi)
+- [Bus Jakarta Live](https://transit.oyenza.com/)
 
 # Aircraft Tracking
 
