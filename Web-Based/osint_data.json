@@ -13,12 +13,7 @@
     },
     {
         "category": "See Jieyab Gitbook",
-        "items": [
-            {
-                "name": "Priavte Resources",
-                "url": ""
-            }
-        ]
+        "items": []
     },
     {
         "category": "These Resources Are Recommend For",
@@ -61,16 +56,16 @@
         "category": "OSINT Academy",
         "items": [
             {
+                "name": "Jieyab Gitbook OSINT and other bracnh Intel",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/1-Notes-Jieyab-Wiki-and-Gitbook"
+            },
+            {
                 "name": "Maltego academy",
                 "url": "https://academy.maltego.com/"
             },
             {
                 "name": "Darkweb academy",
                 "url": "https://www.darkwebacademy.com/labs/"
-            },
-            {
-                "name": "Jieyab Gitbook OSINT and other bracnh Intel",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/1-Notes-Jieyab-Wiki-and-Gitbook"
             }
         ]
     },
@@ -107,6 +102,10 @@
         "category": "SOCMINT",
         "items": [
             {
+                "name": "Jieyab89 SOCMINT-Twitter",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/SOCMINT-Twitter"
+            },
+            {
                 "name": "fingerprint",
                 "url": "https://fingerprint.to/"
             },
@@ -121,6 +120,10 @@
             {
                 "name": "InstagramPrivSniffer",
                 "url": "https://github.com/obitouka/InstagramPrivSniffer"
+            },
+            {
+                "name": "Jev Social",
+                "url": "https://github.com/socai-io/jev-social"
             },
             {
                 "name": "socialblade",
@@ -217,14 +220,6 @@
             {
                 "name": "CSE Social media search",
                 "url": "https://cse.google.com/cse?cx=016621447308871563343:0p9cd3f8p-k#gsc.tab=0&gsc.sort="
-            },
-            {
-                "name": "Jieyab89 SOCMINT-Twitter",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/SOCMINT-Twitter"
-            },
-            {
-                "name": "Jev Social",
-                "url": "https://github.com/socai-io/jev-social"
             }
         ]
     },
@@ -736,6 +731,159 @@
         ]
     },
     {
+        "category": "SIGINT",
+        "items": [
+            {
+                "name": "osmocom",
+                "url": "https://osmocom.org/projects/baseband/wiki/Hardware"
+            },
+            {
+                "name": "Motorola",
+                "url": "https://osmocom.org/projects/baseband/wiki/MobistelEL570"
+            },
+            {
+                "name": "Hackrf",
+                "url": "https://greatscottgadgets.com/hackrf/"
+            },
+            {
+                "name": "bladerf",
+                "url": "https://www.nuand.com/bladerf-1/"
+            },
+            {
+                "name": "rtl sdr",
+                "url": "https://www.rtl-sdr.com/"
+            },
+            {
+                "name": "Tenda",
+                "url": "https://www.tendacn.com/material/show/2002565"
+            },
+            {
+                "name": "Wifi Pineaple HAK5",
+                "url": "https://shop.hak5.org/products/wifi-pineapple"
+            },
+            {
+                "name": "tp link",
+                "url": "https://www.tp-link.com/id/"
+            },
+            {
+                "name": "Walkie-talkie",
+                "url": "https://en.wikipedia.org/wiki/Walkie-talkie"
+            },
+            {
+                "name": "flipper",
+                "url": "https://flipper.net/"
+            },
+            {
+                "name": "raspberrypi",
+                "url": "https://www.raspberrypi.com/"
+            },
+            {
+                "name": "limesdr",
+                "url": "https://limemicro.com/boards/limesdr/"
+            },
+            {
+                "name": "Faraday Bags Signal Blocking",
+                "url": "https://www.amazon.com/Simket-Fireproof-Waterproof-Anti-Tracking-Shielding/dp/B0BZCFXN8X"
+            },
+            {
+                "name": "wireshark",
+                "url": "https://www.wireshark.org/"
+            },
+            {
+                "name": "kismetwireless",
+                "url": "https://www.kismetwireless.net/"
+            },
+            {
+                "name": "aircrack",
+                "url": "https://www.aircrack-ng.org/"
+            },
+            {
+                "name": "nmap",
+                "url": "https://nmap.org/"
+            },
+            {
+                "name": "netmonster",
+                "url": "https://play.google.com/store/apps/details?id=cz.mroczis.netmonster"
+            },
+            {
+                "name": "wigle",
+                "url": "https://wigle.net/"
+            },
+            {
+                "name": "angryip",
+                "url": "https://angryip.org/"
+            },
+            {
+                "name": "advanced-ip-scanner",
+                "url": "https://www.advanced-ip-scanner.com/id/"
+            },
+            {
+                "name": "pysim",
+                "url": "https://github.com/osmocom/pysim"
+            },
+            {
+                "name": "osmocom",
+                "url": "https://osmocom.org/projects/baseband"
+            },
+            {
+                "name": "unwiredlabs",
+                "url": "https://unwiredlabs.com/"
+            },
+            {
+                "name": "G Maps APIs",
+                "url": "https://mapsplatform.google.com/lp/maps-apis/"
+            },
+            {
+                "name": "leafletjs",
+                "url": "https://leafletjs.com/"
+            },
+            {
+                "name": "arcgis",
+                "url": "https://www.arcgis.com/apps/mapviewer/index.html"
+            },
+            {
+                "name": "d3js",
+                "url": "https://d3js.org/"
+            },
+            {
+                "name": "cytoscape",
+                "url": "https://cytoscape.org/"
+            },
+            {
+                "name": "openstreetmap",
+                "url": "https://www.openstreetmap.org/#map=5/-2.55/118.02"
+            },
+            {
+                "name": "SigPloit",
+                "url": "https://github.com/SigPloiter/SigPloit"
+            },
+            {
+                "name": "How to use the SS7 module",
+                "url": "https://github.com/SigPloiter/SigPloit/wiki/3--How-to-use-the-SS7-module"
+            },
+            {
+                "name": "awesome-telco",
+                "url": "https://github.com/ravens/awesome-telco"
+            },
+            {
+                "name": "5G-Repo",
+                "url": "https://github.com/shotsan/5G-Repo"
+            },
+            {
+                "name": "ID onnocenter",
+                "url": "http://onnocenter.or.id/wiki/index.php?search=Telekomunikasi&title=Special%3ASearch&profile=default&fulltext=1"
+            },
+            {
+                "name": "ID onnocenter OPENBTS",
+                "url": "http://onnocenter.or.id/wiki/index.php/OpenBTS"
+            },
+            {
+                "name": "ID & EN Rifky The Cyber",
+                "url": "https://www.youtube.com/@RifkyTheCyber"
+            }
+        ]
+    },
+    {
         "category": "Code Search",
         "items": [
             {
@@ -1088,8 +1236,24 @@
                 "url": "https://tld-list.com/"
             },
             {
+                "name": "Cerast Intelligence Search observed domains for exposed paths and misconfigurations.",
+                "url": "https://search.cerast-intelligence.com/"
+            },
+            {
+                "name": "insighturl",
+                "url": "https://security-life.org/insighturl/"
+            },
+            {
                 "name": "check available domain",
                 "url": "https://instantdomainsearch.com/"
+            },
+            {
+                "name": "DomScan",
+                "url": "https://domscan.net/tools/security"
+            },
+            {
+                "name": "CC.LA",
+                "url": "https://cc.la"
             },
             {
                 "name": "reverse google analytics",
@@ -1692,22 +1856,6 @@
                 "url": "https://bevigil.com/osint-api"
             },
             {
-                "name": "DomScan",
-                "url": "https://domscan.net/tools/security"
-            },
-            {
-                "name": "CC.LA",
-                "url": "https://cc.la"
-            },
-            {
-                "name": "Cerast Intelligence Search observed domains for exposed paths and misconfigurations.",
-                "url": "https://search.cerast-intelligence.com/"
-            },
-            {
-                "name": "insighturl",
-                "url": "https://security-life.org/insighturl/"
-            },
-            {
                 "name": "Pentest Tools",
                 "url": "https://pentest-tools.com/"
             },
@@ -1935,6 +2083,10 @@
             {
                 "name": "Url Scan",
                 "url": "https://urlscan.io/"
+            },
+            {
+                "name": "ScanMalware",
+                "url": "https://scanmalware.com/"
             }
         ]
     },
@@ -2514,6 +2666,19 @@
                 "url": "https://www.ransomlook.io/browse"
             },
             {
+                "name": "threatlocker",
+                "url": "https://www.threatlocker.com/"
+            },
+            {
+                "name": "Orca AI Incident Archive",
+                "url": "https://www.orcarouter.ai/incident-archive"
+            }
+        ]
+    },
+    {
+        "category": "OSINT Browser Sandbox",
+        "items": [
+            {
                 "name": "Browser Sandbox",
                 "url": "https://www.browserling.com/"
             },
@@ -2536,14 +2701,6 @@
             {
                 "name": "locabrowser sandbox",
                 "url": "https://www.locabrowser.com/"
-            },
-            {
-                "name": "threatlocker",
-                "url": "https://www.threatlocker.com/"
-            },
-            {
-                "name": "Orca AI Incident Archive",
-                "url": "https://www.orcarouter.ai/incident-archive"
             }
         ]
     },
@@ -2737,6 +2894,10 @@
             {
                 "name": "skylinewebcams find online cam",
                 "url": "https://www.skylinewebcams.com/"
+            },
+            {
+                "name": "camhacker find online cam",
+                "url": "https://camhacker.com/"
             }
         ]
     },
@@ -3998,6 +4159,10 @@
                 "url": "https://swap.stanford.edu/"
             },
             {
+                "name": "Wayback-Archive",
+                "url": "https://github.com/GeiserX/Wayback-Archive"
+            },
+            {
                 "name": "mirror h archived",
                 "url": "https://web.archive.org/web/*/https://mirror-h.org/*"
             },
@@ -5059,6 +5224,10 @@
         "category": "People Searching",
         "items": [
             {
+                "name": "faceseek",
+                "url": "https://faceseek.cc/"
+            },
+            {
                 "name": "usersearch",
                 "url": "https://usersearch.com/"
             },
@@ -5714,20 +5883,20 @@
                 "url": "http://www.crimereports.com"
             },
             {
-                "name": "OONI",
-                "url": "https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false"
-            },
-            {
-                "name": "Harvester",
-                "url": "https://github.com/laramies/theHarvester"
-            },
-            {
                 "name": "Offendersearch",
                 "url": "https://offendersearch.app/"
             },
             {
                 "name": "US Search NSOPW",
                 "url": "https://www.nsopw.gov/?home="
+            },
+            {
+                "name": "OONI",
+                "url": "https://explorer.ooni.org/search?since=2025-05-02&until=2025-06-02&failure=false"
+            },
+            {
+                "name": "Harvester",
+                "url": "https://github.com/laramies/theHarvester"
             }
         ]
     },
@@ -5889,6 +6058,10 @@
         "category": "The Ultimate Facebook Investigation Tool",
         "items": [
             {
+                "name": "facebook ads tracker",
+                "url": "https://www.facebook.com/ads/library/report/"
+            },
+            {
                 "name": "socialblade",
                 "url": "https://socialblade.com/"
             },
@@ -5979,10 +6152,6 @@
             {
                 "name": "Facebook lookup id",
                 "url": "https://lookup-id.com/#"
-            },
-            {
-                "name": "facebook ads tracker",
-                "url": "https://www.facebook.com/ads/library/report/"
             },
             {
                 "name": "MonetizationKit",
@@ -6191,6 +6360,10 @@
                 "url": "https://www.xmodelfinder.com/"
             },
             {
+                "name": "SauceMatch",
+                "url": "https://saucematch.com/"
+            },
+            {
                 "name": "sotugas onlyfans search username",
                 "url": "https://sotugas.com/onlyfans/"
             },
@@ -6367,6 +6540,22 @@
         "category": "Instagram",
         "items": [
             {
+                "name": "picuki",
+                "url": "https://picuki.site/"
+            },
+            {
+                "name": "viewsocials",
+                "url": "https://www.viewsocials.com/"
+            },
+            {
+                "name": "anonstories",
+                "url": "https://anonstories.org/"
+            },
+            {
+                "name": "InstaStoriesViewer",
+                "url": "https://insta-stories-viewer.com/opposite6890.recon/"
+            },
+            {
                 "name": "imginn anonymous instagram story viewer",
                 "url": "https://imginn.com/"
             },
@@ -6381,6 +6570,10 @@
             {
                 "name": "instrack",
                 "url": "https://instrack.app/"
+            },
+            {
+                "name": "igtrackr",
+                "url": "https://igtrackr.com/"
             },
             {
                 "name": "mollygram",
@@ -6533,26 +6726,6 @@
             {
                 "name": "IGDetective",
                 "url": "https://www.igdetective.com"
-            },
-            {
-                "name": "picuki",
-                "url": "https://picuki.site/"
-            },
-            {
-                "name": "viewsocials",
-                "url": "https://www.viewsocials.com/"
-            },
-            {
-                "name": "anonstories",
-                "url": "https://anonstories.org/"
-            },
-            {
-                "name": "InstaStoriesViewer",
-                "url": "https://insta-stories-viewer.com/opposite6890.recon/"
-            },
-            {
-                "name": "igtrackr",
-                "url": "https://igtrackr.com/"
             }
         ]
     },
@@ -6791,6 +6964,10 @@
             {
                 "name": "imagstodon",
                 "url": "https://seintpl.github.io/imagstodon/"
+            },
+            {
+                "name": "mastodon instances",
+                "url": "https://instances.social/"
             }
         ]
     },
@@ -6798,8 +6975,16 @@
         "category": "Twitter",
         "items": [
             {
+                "name": "Jieyab ft Xquik Twitter Scrappe and MCP and monitoring",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/SOCMINT-Twitter"
+            },
+            {
                 "name": "instalker - x viewer",
                 "url": "https://www.instalker.org/"
+            },
+            {
+                "name": "trends24 whats trend in X arround world",
+                "url": "https://trends24.in/indonesia/"
             },
             {
                 "name": "Hoaxy",
@@ -7088,14 +7273,6 @@
             {
                 "name": "PeekVault",
                 "url": "https://peekvault.com/"
-            },
-            {
-                "name": "Jieyab ft Xquik Twitter Scrappe and MCP and monitoring",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/SOCMINT-Twitter"
-            },
-            {
-                "name": "trends24 whats trend in X arround world",
-                "url": "https://trends24.in/indonesia/"
             }
         ]
     },
@@ -7169,6 +7346,10 @@
         "category": "Tiktok",
         "items": [
             {
+                "name": "Find ads on TikTok offc",
+                "url": "https://library.tiktok.com/ads"
+            },
+            {
                 "name": "TikTokStalker",
                 "url": "https://tiktok.einzzcookie.org"
             },
@@ -7227,10 +7408,6 @@
             {
                 "name": "CrotDalam - Collection & Reconnaissance Of TikTok — Discovery, Analysis, Logging, And Monitoring",
                 "url": "https://github.com/Masriyan/CrotDalam"
-            },
-            {
-                "name": "Find ads on TikTok offc",
-                "url": "https://library.tiktok.com/ads"
             }
         ]
     },
@@ -8011,6 +8188,10 @@
                 "url": "https://telemetr.io/"
             },
             {
+                "name": "Telemoon",
+                "url": "https://telemoon.app/"
+            },
+            {
                 "name": "TGDev",
                 "url": "https://tgdev.io/"
             },
@@ -8147,22 +8328,6 @@
                 "url": "https://github.com/fastfire/deepdarkCTI"
             },
             {
-                "name": "t.me/<change usernam>",
-                "url": "https://t.me/USERNAME"
-            },
-            {
-                "name": "t.me/joinchat/<VALUE>",
-                "url": "https://t.me/joinchat/HASHVALUE"
-            },
-            {
-                "name": "t.me/+<change phone num>",
-                "url": "https://t.me/+TELEPHONE-NUMBER"
-            },
-            {
-                "name": "t.me/s/<change username>",
-                "url": "https://t.me/s/PREVIEWCHANNEL"
-            },
-            {
                 "name": "TGScope",
                 "url": "https://tgscope.io/"
             },
@@ -8177,6 +8342,22 @@
             {
                 "name": "TGScope Channel Network Checker",
                 "url": "https://tgscope.io/tools/telegram-channel-network"
+            },
+            {
+                "name": "t.me/<change usernam>",
+                "url": "https://t.me/USERNAME"
+            },
+            {
+                "name": "t.me/joinchat/<VALUE>",
+                "url": "https://t.me/joinchat/HASHVALUE"
+            },
+            {
+                "name": "t.me/+<change phone num>",
+                "url": "https://t.me/+TELEPHONE-NUMBER"
+            },
+            {
+                "name": "t.me/s/<change username>",
+                "url": "https://t.me/s/PREVIEWCHANNEL"
             }
         ]
     },
@@ -8653,6 +8834,10 @@
             {
                 "name": "giphy",
                 "url": "https://giphy.com/"
+            },
+            {
+                "name": "faceseek",
+                "url": "https://faceseek.cc/"
             }
         ]
     },
@@ -9955,6 +10140,10 @@
                 "url": "https://github.com/woj-ciech/Kamerka-GUI"
             },
             {
+                "name": "numbeo cost of living database arround world",
+                "url": "https://www.numbeo.com/cost-of-living/"
+            },
+            {
                 "name": "SHP to KML Converrt",
                 "url": "https://mygeodata.cloud/converter/shp-to-kml"
             },
@@ -10113,10 +10302,6 @@
             {
                 "name": "Google Earth Engine: A Quick Guide for Beginners",
                 "url": "https://gisgeography.com/google-earth-engine/"
-            },
-            {
-                "name": "numbeo cost of living database arround world",
-                "url": "https://www.numbeo.com/cost-of-living/"
             }
         ]
     },
@@ -11338,6 +11523,14 @@
                 "url": "https://emailfake.com/"
             },
             {
+                "name": "Temp Mail 9 w custom",
+                "url": "https://tempmailg.com/"
+            },
+            {
+                "name": "Temp Mail 10 w custom",
+                "url": "https://sengare.art/"
+            },
+            {
                 "name": "Temp email gmail",
                 "url": "https://www.emailnator.com/mailbox"
             },
@@ -11570,6 +11763,14 @@
                 "url": "https://app.klingai.com/"
             },
             {
+                "name": "Google Flow",
+                "url": "https://labs.google/fx/tools/flow"
+            },
+            {
+                "name": "ReCam",
+                "url": "https://github.com/aimardcr/ReCam"
+            },
+            {
                 "name": "VCamera",
                 "url": "https://github.com/andvipgroup/VCamera"
             },
@@ -11591,7 +11792,7 @@
             },
             {
                 "name": "vcamare - CN",
-                "url": "https://vcames.xyz/"
+                "url": "https://vcamsx.pro/"
             },
             {
                 "name": "virtual camera moudle lsposed",
@@ -11672,16 +11873,16 @@
             {
                 "name": "browser lol",
                 "url": "https://browser.lol/en/create"
-            },
-            {
-                "name": "Google Flow",
-                "url": "https://labs.google/fx/tools/flow"
             }
         ]
     },
     {
         "category": "Enhance Image Quality",
         "items": [
+            {
+                "name": "Google Flow",
+                "url": "https://labs.google/fx/tools/flow"
+            },
             {
                 "name": "Upscale Media Image Enhancer",
                 "url": "https://www.upscale.media/upload"
@@ -11773,10 +11974,6 @@
             {
                 "name": "myheritage hoto-enhancer",
                 "url": "https://www.myheritage.nl/photo-enhancer"
-            },
-            {
-                "name": "Google Flow",
-                "url": "https://labs.google/fx/tools/flow"
             }
         ]
     },
@@ -12465,6 +12662,10 @@
             {
                 "name": "Wiki Pages (ONION SITES)",
                 "url": "http://uquroyobsaquslaunwkz6bmc3wutpzvwe7mv62xeq64645a57bugnsyd.onion/"
+            },
+            {
+                "name": "darknyx",
+                "url": "https://darknyx.com/"
             },
             {
                 "name": "ail-framework",
@@ -14711,6 +14912,10 @@
             {
                 "name": "Palembang ID Pub Transport",
                 "url": "https://geoportal.palembang.go.id/pencarian?kategori=Transportasi"
+            },
+            {
+                "name": "Bus Jakarta Live",
+                "url": "https://transit.oyenza.com/"
             }
         ]
     },
@@ -15994,6 +16199,18 @@
                 "url": "https://github.com/opa334/Dopamine"
             },
             {
+                "name": "checkra1n",
+                "url": "https://checkra.in/"
+            },
+            {
+                "name": "roothide",
+                "url": "https://github.com/roothide/Bootstrap"
+            },
+            {
+                "name": "palera1n",
+                "url": "https://palera.in/"
+            },
+            {
                 "name": "SSL bypass check",
                 "url": "https://github.com/0xCD4/SSL-bypass"
             },
@@ -16232,6 +16449,26 @@
             {
                 "name": "rlwrap",
                 "url": "https://pkg.kali.org/pkg/rlwrap"
+            },
+            {
+                "name": "topazdump",
+                "url": "https://t.me/topazdump"
+            },
+            {
+                "name": "Cerast Intelligence Search observed domains for exposed paths and misconfigurations.",
+                "url": "https://search.cerast-intelligence.com/"
+            },
+            {
+                "name": "CENSYS Queries",
+                "url": "https://github.com/thehappydinoa/awesome-censys-queries"
+            },
+            {
+                "name": "MeowDump Integrity-Box",
+                "url": "https://github.com/MeowDump/Integrity-Box"
+            },
+            {
+                "name": "ArtHook like frida",
+                "url": "https://github.com/aimardcr/ArtHook"
             },
             {
                 "name": "social engineering",
@@ -17140,26 +17377,6 @@
             {
                 "name": "Linux hardening checklist - CSA LAB",
                 "url": "https://csalab-id.github.io/documents/compliance/CIS_Benchmark_Ubuntu_24_04.pdf"
-            },
-            {
-                "name": "checkra1n",
-                "url": "https://checkra.in/"
-            },
-            {
-                "name": "roothide",
-                "url": "https://github.com/roothide/Bootstrap"
-            },
-            {
-                "name": "palera1n",
-                "url": "https://palera.in/"
-            },
-            {
-                "name": "topazdump",
-                "url": "https://t.me/topazdump"
-            },
-            {
-                "name": "Cerast Intelligence Search observed domains for exposed paths and misconfigurations.",
-                "url": "https://search.cerast-intelligence.com/"
             }
         ]
     },
@@ -19029,10 +19246,6 @@
                 "url": "https://web.archive.org/web/*/https://mirror-h.org/*"
             },
             {
-                "name": "Interpol Int",
-                "url": "https://www-interpol-int.translate.goog/How-we-work/Databases?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=tc"
-            },
-            {
                 "name": "Offendersearch",
                 "url": "https://offendersearch.app/"
             },
@@ -19043,6 +19256,10 @@
             {
                 "name": "Threat Actor Directory",
                 "url": "https://pranithjain.qzz.io/threatintel/actors/hub"
+            },
+            {
+                "name": "Interpol Int",
+                "url": "https://www-interpol-int.translate.goog/How-we-work/Databases?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=tc"
             }
         ]
     },
@@ -19822,16 +20039,16 @@
                 "url": "https://github.com/puppeteer/puppeteer"
             },
             {
+                "name": "Scweet",
+                "url": "https://github.com/Altimis/Scweet"
+            },
+            {
                 "name": "SNSSCRAPE",
                 "url": "https://github.com/JustAnotherArchivist/snscrape"
             },
             {
                 "name": "Photon",
                 "url": "https://github.com/s0md3v/Photon"
-            },
-            {
-                "name": "Scweet",
-                "url": "https://github.com/Altimis/Scweet"
             },
             {
                 "name": "twifork (twikit) - Twitter scrapper",
@@ -20147,6 +20364,10 @@
                 "url": "https://www.wiktionary.org/"
             },
             {
+                "name": "glosbe",
+                "url": "https://id.glosbe.com/"
+            },
+            {
                 "name": "educalingo",
                 "url": "https://educalingo.com/"
             },
@@ -20294,6 +20515,10 @@
         "category": "OSINT Detect Deepfake",
         "items": [
             {
+                "name": "DeepFake-O-Meter",
+                "url": "https://zinc.cse.buffalo.edu/"
+            },
+            {
                 "name": "aiornot",
                 "url": "https://www.aiornot.com/"
             },
@@ -20387,7 +20612,7 @@
             },
             {
                 "name": "deepai",
-                "url": "https://deepai.org/"
+                "url": "https://deepai.org/ai-image-detector"
             },
             {
                 "name": "decopy",
@@ -20400,10 +20625,6 @@
             {
                 "name": "isgen",
                 "url": "https://isgen.ai/"
-            },
-            {
-                "name": "DeepFake-O-Meter",
-                "url": "https://zinc.cse.buffalo.edu/"
             },
             {
                 "name": "openai Verify OpenAI-generated content",
@@ -20501,6 +20722,14 @@
             {
                 "name": "decopy",
                 "url": "https://decopy.ai/"
+            },
+            {
+                "name": "turnitindetector",
+                "url": "https://www.turnitindetector.ai/"
+            },
+            {
+                "name": "paraphraser",
+                "url": "https://www.paraphraser.io/"
             },
             {
                 "name": "hivemoderation",
@@ -20876,10 +21105,6 @@
             {
                 "name": "cyberarsenal",
                 "url": "https://cyberarsenal.org/"
-            },
-            {
-                "name": "XSS",
-                "url": "https://xss.is/"
             },
             {
                 "name": "apkcombo",
@@ -21656,6 +21881,10 @@
         "category": "MISC",
         "items": [
             {
+                "name": "Ubikron - Advanced Enrichment",
+                "url": "https://github.com/ubikron/Advanced-Enrichments#emoji-in-enrichments-descriptions"
+            },
+            {
                 "name": "Awesome Telegram",
                 "url": "https://github.com/ebertti/awesome-telegram"
             },
@@ -21718,10 +21947,6 @@
             {
                 "name": "OSINT of India",
                 "url": "https://unishka.substack.com/p/osint-of-india"
-            },
-            {
-                "name": "Ubikron - Advanced Enrichment",
-                "url": "https://github.com/ubikron/Advanced-Enrichments#emoji-in-enrichments-descriptions"
             }
         ]
     },
@@ -21731,6 +21956,31 @@
             {
                 "name": "dronestagr",
                 "url": "https://www.dronestagr.am/?s=indonesia"
+            }
+        ]
+    },
+    {
+        "category": "OSINT ADS Tracker",
+        "items": [
+            {
+                "name": "ADS Google Tracker",
+                "url": "https://adstransparency.google.com/?authuser=0&region=ID"
+            },
+            {
+                "name": "ADS Tiktok",
+                "url": "https://ads.tiktok.com/business/creativecenter/inspiration/topads/pc/en?period=30&region=ID"
+            },
+            {
+                "name": "facebook ads tracker",
+                "url": "https://www.facebook.com/ads/library/report/"
+            },
+            {
+                "name": "Linkedin ads tracker",
+                "url": "https://www.linkedin.com/ad-library"
+            },
+            {
+                "name": "X ads tracker",
+                "url": "https://ads.twitter.com/ads-repository"
             }
         ]
     },
@@ -22217,6 +22467,59 @@
         ]
     },
     {
+        "category": "Query & Script List",
+        "items": []
+    },
+    {
+        "category": "Table Of Content",
+        "items": [
+            {
+                "name": "CNN-News-Scrapping-and-Archive",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/CNN-News-Scrapping-and-Archive"
+            },
+            {
+                "name": "Darkweb-Scrapping",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Darkweb-Scrapping"
+            },
+            {
+                "name": "Dorking",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Dorking"
+            },
+            {
+                "name": "Github-Search",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Github-Search"
+            },
+            {
+                "name": "Linkedin-Script",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Linkedin-Script"
+            },
+            {
+                "name": "OSM-QUERY-LIST",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/OSM-QUERY-LIST"
+            },
+            {
+                "name": "Red-Team",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Red-Team"
+            },
+            {
+                "name": "SENTINEL-SAT-SCRIPT-LIST",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/SENTINEL-SAT-SCRIPT-LIST"
+            },
+            {
+                "name": "SOCMINT-Twitter",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/SOCMINT-Twitter"
+            },
+            {
+                "name": "Web-TLD-Enumerate-NS-Check",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Web-TLD-Enumerate-NS-Check"
+            }
+        ]
+    },
+    {
+        "category": "Report Bug and Error",
+        "items": []
+    },
+    {
         "category": "Jieyab89 Wiki Pages",
         "items": [
             {
@@ -22226,6 +22529,10 @@
             {
                 "name": "Welcome to Jieyabooo Xiè Jí'ān Jieyab 谢吉 - OSINT Cheat sheet wiki!",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki#welcome-to-jieyabooo-xiè-jíān-jieyab-谢吉---osint-cheat-sheet-wiki"
+            },
+            {
+                "name": "Update",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki#update"
             },
             {
                 "name": "Read Me",
@@ -22244,40 +22551,12 @@
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki#support-me"
             },
             {
-                "name": "1 Jieyab Wiki Backlink",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/1-Jieyab-Wiki-Backlink"
-            },
-            {
-                "name": "All About Darkweb",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-Darkweb"
-            },
-            {
-                "name": "All About Doxing",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-Doxing"
-            },
-            {
-                "name": "All About HUMINT",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-HUMINT"
-            },
-            {
-                "name": "All About Narcotics or Drugs",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-Narcotics-or-Drugs"
+                "name": "1 Notes Jieyab Wiki and Gitbook",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/1-Notes-Jieyab-Wiki-and-Gitbook"
             },
             {
                 "name": "All About OSINT Matters Things in OSINT",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-OSINT-Matters-Things-in-OSINT"
-            },
-            {
-                "name": "All About Penetration Testing",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-Penetration-Testing"
-            },
-            {
-                "name": "All About Reporting",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-Reporting"
-            },
-            {
-                "name": "All About Scammer",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/All-About-Scammer"
             },
             {
                 "name": "All About SIGINT Signal Intelligence",
@@ -22294,6 +22573,10 @@
             {
                 "name": "Cell Investigations",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Cell-Investigations"
+            },
+            {
+                "name": "Darkweb Onion Link Scrapper",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Darkweb-Onion-Link-Scrapper"
             },
             {
                 "name": "Enumerate and Attack Surface w Github",
@@ -22324,12 +22607,8 @@
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Intelligence-Base-&-Knowledge-Base"
             },
             {
-                "name": "Jieyab89 Script for OSINT",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Jieyab89-Script-for-OSINT"
-            },
-            {
-                "name": "Levaraging AI Agent (LLM) for OSINT",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Levaraging-AI-Agent-(LLM)-for-OSINT"
+                "name": "IOS Mobile Application for OSINT",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/IOS-Mobile-Application-for-OSINT"
             },
             {
                 "name": "OSINT for Academic Literature",
@@ -22340,24 +22619,12 @@
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Blockchain"
             },
             {
-                "name": "OSINT for Email Lookup Tips",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Email-Lookup-Tips"
-            },
-            {
                 "name": "OSINT for Historical",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Historical"
             },
             {
                 "name": "OSINT for Journalism",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Journalism"
-            },
-            {
-                "name": "OSINT for Journalist and Activist",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Journalist-and-Activist"
-            },
-            {
-                "name": "OSINT for Military",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-for-Military"
             },
             {
                 "name": "OSINT for OPSEC (Operational security)",
@@ -22376,10 +22643,6 @@
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-Where-OSINT-Data-From"
             },
             {
-                "name": "OSINT ‐ Inside About Data Breach",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-%E2%80%90-Inside-About-Data-Breach"
-            },
-            {
                 "name": "OSINT ‐ Tips Investigations & Analysis",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/OSINT-%E2%80%90-Tips-Investigations-&-Analysis"
             },
@@ -22390,6 +22653,14 @@
             {
                 "name": "SOCMINT ‐ Facebook",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/SOCMINT-%E2%80%90-Facebook"
+            },
+            {
+                "name": "Surface Web TLD Domain Enumerate",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Surface-Web-TLD-Domain-Enumerate"
+            },
+            {
+                "name": "Telegram Dork",
+                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Telegram-Dork"
             },
             {
                 "name": "Welcome to the OSINT‐Cheat‐sheet wiki!",
@@ -22426,339 +22697,6 @@
             {
                 "name": "Who OSINT Used",
                 "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Who-OSINT-Used"
-            },
-            {
-                "name": "2 Notes Jieyab Wiki and Gitbook",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/2-Notes-Jieyab-Wiki-and-Gitbook"
-            },
-            {
-                "name": "Update",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki#update"
-            },
-            {
-                "name": "1 Notes Jieyab Wiki and Gitbook",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/1-Notes-Jieyab-Wiki-and-Gitbook"
-            },
-            {
-                "name": "Darkweb Onion Link Scrapper",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Darkweb-Onion-Link-Scrapper"
-            },
-            {
-                "name": "IOS Mobile Application for OSINT",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/IOS-Mobile-Application-for-OSINT"
-            },
-            {
-                "name": "Surface Web TLD Domain Enumerate",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Surface-Web-TLD-Domain-Enumerate"
-            },
-            {
-                "name": "Telegram Dork",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/Telegram-Dork"
-            }
-        ]
-    },
-    {
-        "category": "SIGINT",
-        "items": [
-            {
-                "name": "osmocom",
-                "url": "https://osmocom.org/projects/baseband/wiki/Hardware"
-            },
-            {
-                "name": "Motorola",
-                "url": "https://osmocom.org/projects/baseband/wiki/MobistelEL570"
-            },
-            {
-                "name": "Hackrf",
-                "url": "https://greatscottgadgets.com/hackrf/"
-            },
-            {
-                "name": "bladerf",
-                "url": "https://www.nuand.com/bladerf-1/"
-            },
-            {
-                "name": "rtl sdr",
-                "url": "https://www.rtl-sdr.com/"
-            },
-            {
-                "name": "Tenda",
-                "url": "https://www.tendacn.com/material/show/2002565"
-            },
-            {
-                "name": "Wifi Pineaple HAK5",
-                "url": "https://shop.hak5.org/products/wifi-pineapple"
-            },
-            {
-                "name": "tp link",
-                "url": "https://www.tp-link.com/id/"
-            },
-            {
-                "name": "Walkie-talkie",
-                "url": "https://en.wikipedia.org/wiki/Walkie-talkie"
-            },
-            {
-                "name": "flipper",
-                "url": "https://flipper.net/"
-            },
-            {
-                "name": "raspberrypi",
-                "url": "https://www.raspberrypi.com/"
-            },
-            {
-                "name": "wireshark",
-                "url": "https://www.wireshark.org/"
-            },
-            {
-                "name": "kismetwireless",
-                "url": "https://www.kismetwireless.net/"
-            },
-            {
-                "name": "aircrack",
-                "url": "https://www.aircrack-ng.org/"
-            },
-            {
-                "name": "nmap",
-                "url": "https://nmap.org/"
-            },
-            {
-                "name": "netmonster",
-                "url": "https://play.google.com/store/apps/details?id=cz.mroczis.netmonster"
-            },
-            {
-                "name": "wigle",
-                "url": "https://wigle.net/"
-            },
-            {
-                "name": "angryip",
-                "url": "https://angryip.org/"
-            },
-            {
-                "name": "advanced-ip-scanner",
-                "url": "https://www.advanced-ip-scanner.com/id/"
-            },
-            {
-                "name": "pysim",
-                "url": "https://github.com/osmocom/pysim"
-            },
-            {
-                "name": "osmocom",
-                "url": "https://osmocom.org/projects/baseband"
-            },
-            {
-                "name": "G Maps APIs",
-                "url": "https://mapsplatform.google.com/lp/maps-apis/"
-            },
-            {
-                "name": "leafletjs",
-                "url": "https://leafletjs.com/"
-            },
-            {
-                "name": "arcgis",
-                "url": "https://www.arcgis.com/apps/mapviewer/index.html"
-            },
-            {
-                "name": "d3js",
-                "url": "https://d3js.org/"
-            },
-            {
-                "name": "limesdr",
-                "url": "https://limemicro.com/boards/limesdr/"
-            },
-            {
-                "name": "Faraday Bags Signal Blocking",
-                "url": "https://www.amazon.com/Simket-Fireproof-Waterproof-Anti-Tracking-Shielding/dp/B0BZCFXN8X"
-            },
-            {
-                "name": "unwiredlabs",
-                "url": "https://unwiredlabs.com/"
-            },
-            {
-                "name": "cytoscape",
-                "url": "https://cytoscape.org/"
-            },
-            {
-                "name": "openstreetmap",
-                "url": "https://www.openstreetmap.org/#map=5/-2.55/118.02"
-            },
-            {
-                "name": "SigPloit",
-                "url": "https://github.com/SigPloiter/SigPloit"
-            },
-            {
-                "name": "How to use the SS7 module",
-                "url": "https://github.com/SigPloiter/SigPloit/wiki/3--How-to-use-the-SS7-module"
-            },
-            {
-                "name": "awesome-telco",
-                "url": "https://github.com/ravens/awesome-telco"
-            },
-            {
-                "name": "5G-Repo",
-                "url": "https://github.com/shotsan/5G-Repo"
-            },
-            {
-                "name": "ID onnocenter",
-                "url": "http://onnocenter.or.id/wiki/index.php?search=Telekomunikasi&title=Special%3ASearch&profile=default&fulltext=1"
-            },
-            {
-                "name": "ID onnocenter OPENBTS",
-                "url": "http://onnocenter.or.id/wiki/index.php/OpenBTS"
-            },
-            {
-                "name": "ID & EN Rifky The Cyber",
-                "url": "https://www.youtube.com/@RifkyTheCyber"
-            }
-        ]
-    },
-    {
-        "category": "Query & Script List",
-        "items": []
-    },
-    {
-        "category": "Report",
-        "items": []
-    },
-    {
-        "category": "Jieyab89 Scripts",
-        "items": [
-            {
-                "name": "CNN-News-Scrapping-and-Archive",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/CNN-News-Scrapping-and-Archive"
-            },
-            {
-                "name": "Darkweb-Scrapping",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Darkweb-Scrapping"
-            },
-            {
-                "name": "Dorking",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Dorking"
-            },
-            {
-                "name": "Github-Search",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Github-Search"
-            },
-            {
-                "name": "Linkedin-Script",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Linkedin-Script"
-            },
-            {
-                "name": "OSM-QUERY-LIST",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/OSM-QUERY-LIST"
-            },
-            {
-                "name": "Red-Team",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Red-Team"
-            },
-            {
-                "name": "SENTINEL-SAT-SCRIPT-LIST",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/SENTINEL-SAT-SCRIPT-LIST"
-            },
-            {
-                "name": "SOCMINT-Twitter",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/SOCMINT-Twitter"
-            },
-            {
-                "name": "Web-TLD-Enumerate-NS-Check",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Web-TLD-Enumerate-NS-Check"
-            }
-        ]
-    },
-    {
-        "category": "OSINT Browser Sandbox",
-        "items": [
-            {
-                "name": "Browser Sandbox",
-                "url": "https://www.browserling.com/"
-            },
-            {
-                "name": "cybercheck360",
-                "url": "https://cybercheck360.com/url-sandbox/"
-            },
-            {
-                "name": "browser lol",
-                "url": "https://browser.lol/en/create"
-            },
-            {
-                "name": "browserling TOR",
-                "url": "https://www.browserling.com/tor-testing"
-            },
-            {
-                "name": "Wanna Browser Sandbox",
-                "url": "https://www.wannabrowser.net/"
-            },
-            {
-                "name": "locabrowser sandbox",
-                "url": "https://www.locabrowser.com/"
-            }
-        ]
-    },
-    {
-        "category": "OSINT ADS Tracker",
-        "items": [
-            {
-                "name": "ADS Google Tracker",
-                "url": "https://adstransparency.google.com/?authuser=0&region=ID"
-            },
-            {
-                "name": "ADS Tiktok",
-                "url": "https://ads.tiktok.com/business/creativecenter/inspiration/topads/pc/en?period=30&region=ID"
-            },
-            {
-                "name": "facebook ads tracker",
-                "url": "https://www.facebook.com/ads/library/report/"
-            },
-            {
-                "name": "Linkedin ads tracker",
-                "url": "https://www.linkedin.com/ad-library"
-            },
-            {
-                "name": "X ads tracker",
-                "url": "https://ads.twitter.com/ads-repository"
-            }
-        ]
-    },
-    {
-        "category": "Query & Script List",
-        "items": [
-            {
-                "name": "CNN-News-Scrapping-and-Archive",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/CNN-News-Scrapping-and-Archive"
-            },
-            {
-                "name": "Darkweb-Scrapping",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Darkweb-Scrapping"
-            },
-            {
-                "name": "Dorking",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Dorking"
-            },
-            {
-                "name": "Github-Search",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Github-Search"
-            },
-            {
-                "name": "Linkedin-Script",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Linkedin-Script"
-            },
-            {
-                "name": "OSM-QUERY-LIST",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/OSM-QUERY-LIST"
-            },
-            {
-                "name": "Red-Team",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Red-Team"
-            },
-            {
-                "name": "SENTINEL-SAT-SCRIPT-LIST",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/SENTINEL-SAT-SCRIPT-LIST"
-            },
-            {
-                "name": "SOCMINT-Twitter",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/SOCMINT-Twitter"
-            },
-            {
-                "name": "Web-TLD-Enumerate-NS-Check",
-                "url": "https://github.com/Jieyab89/OSINT-Cheat-sheet/tree/main/Script/Web-TLD-Enumerate-NS-Check"
             }
         ]
     }
