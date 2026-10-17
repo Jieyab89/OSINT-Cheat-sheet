@@ -3562,12 +3562,13 @@ Virtual Camera or Camera Replacement
 
 *Beware, make sure installed on  not primary device use device for research
 
+- [ReCam](https://github.com/aimardcr/ReCam) Android virtual camera for security testing. Injects frames into cameraserver so any app sees a video file, desktop stream, or webcam instead of the real camera.
 - [VCamera](https://github.com/andvipgroup/VCamera)
 - [OBS](https://obsproject.com/)
 - [splitcam](https://splitcam.com/)
 - [altercam](https://altercam.com/)
 - [Virtual cam apk mod](https://apkcombo.com/id/virtual-camera-live-assist/virtual.camera.app/download/apk)
-- [vcamare - CN](https://vcames.xyz/)
+- [vcamare - CN](https://vcamsx.pro/)
 - [virtual camera moudle lsposed](https://github.com/Xposed-Modules-Repo/com.example.vcam)
 - [android virtual cam - CN](https://github.com/w2016561536/android_virtual_cam)
 - [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam)
@@ -4850,6 +4851,7 @@ Noxer is a powerful Python script designed for automating Android penetration te
 - [Cerast Intelligence Search observed domains for exposed paths and misconfigurations.](https://search.cerast-intelligence.com/) Search web with missconfig
 - [CENSYS Queries](https://github.com/thehappydinoa/awesome-censys-queries) A list query for CENSYS
 - [MeowDump Integrity-Box](https://github.com/MeowDump/Integrity-Box) A toolkit for managing Play Integrity & System Environment, check the doc if doesnt work change the rom
+- [ArtHook like frida](https://github.com/aimardcr/ArtHook) Self-contained, dependency-free ART method hooking for Android 8–15. ArtMethod-level, lock-free.
 
 Social Engineering (Social E)
 
