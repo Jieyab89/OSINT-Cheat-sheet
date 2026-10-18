@@ -610,6 +610,7 @@ Notes this is for surface web or clearnet site
 - [hakrawler](https://github.com/hakluke/hakrawler)
 - [Dork Lab](https://github.com/rtwillett/DorkLab)
 - [Websecreenshoot](https://github.com/maaaaz/webscreenshot)
+- [CurlShot](https://curlshot.com/) Screenshot API: capture a full-page screenshot or PDF of a URL from a real browser (device presets, single element, ad and cookie banner blocking) to document a web page. Free tier of 100 captures a month
 - [Leakos](https://github.com/carlospolop/Leakos)
 - [Pastos](https://github.com/carlospolop/Pastos)
 - [SNYK](https://snyk.io)
