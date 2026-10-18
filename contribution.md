@@ -1,16 +1,22 @@
-# How to Contribution 
+# How to Contribute
 
 Thank you very much for those of you who contributed. You can contribute with me in the following format
 
-# Please Take a Notes 
+# Please Take Note
 
-If you wish to contribute by creating a PR (Pull Request), please first verify that the tool you’ve created works properly. Documentation and instructions for using the tool or procedure must be included so that the repository owner can review them in more detail. If an account is required—such as for login or a paid service—please include a dummy account for testing (Jieyab89) However, if you object, that’s fine, as long as the user (Jieyab89) can sign up and get a trial or there is a free tier to test, and the owner or developer ensures there are no harmful or malicious scripts in it for security purposes and to prevent data theft
+Before submitting a Pull Request (PR), please make sure your contribution meets the following requirements:
 
-For all users, please use a different environment. Do not use your main environment when testing tools also account if needed 
+1. Verify that the tool or resource works as intended. Include documentation and usage instructions so the repository owner can review it properly.
+2. Make sure the tool or resource is safe. It must not contain malicious code, backdoors, obfuscated scripts without explanation, or anything that harvests, collects, or sends user data without clear disclosure.
+3. If the tool requires an account or is a paid service, please provide a test account for review (contact Jieyab89).
+4. If you prefer not to share an account, that's fine, as long as Jieyab89 can register and test it using a free tier or trial.
+5. Submissions that cannot be verified as safe may be rejected or removed at any time.
 
-Please dont do git push origin --force or --f please read the doc Github OK
+For all users, always test tools in a separate environment (such as a VM or sandbox), not your main machine. If a tool requires login, use a secondary or dummy account, not your personal one.
 
-# OSINT Resouces 
+Please do not force push (git push --force or git push -f). Read the GitHub documentation if you are unsure.
+
+# OSINT Resources
 
 ## Format 
 
@@ -54,7 +60,7 @@ If you want change the repo for web based and create like node, data list, searc
 - Add your name or contact person like social media (Optional)
 - File extension .md check the example file on the folder 
 
-Jieyab Will added manual into wiki Github pages also Gitbook 
+Jieyab will manually add it to the GitHub Wiki and GitBook
 
 # Script 
 
@@ -73,7 +79,7 @@ Red Team - Python Scripts
 
 > Python 
 >
-> Script for scrapping Twitter 
+> Script for scraping Twitter 
 > 
 > You can also add tips for usage your script or hints 
 >
@@ -82,4 +88,4 @@ Red Team - Python Scripts
 
 or you can also create new folder on this script path 
 
-*Notes for script: To avoid AV detection and abusive access to your computer, you can publish your scripts via pastebin, hastebin, dogbin or others. Please dont add malicious script on this repo folder  
+*Notes for script: To avoid AV detection and abusive access to your computer, you can publish your scripts via pastebin, hastebin, dogbin or others. Please dont add malicious script on this repo folder
