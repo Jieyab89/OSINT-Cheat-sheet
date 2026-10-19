@@ -563,6 +563,7 @@ Notes this is for surface web or clearnet site
 - [ipvoid](https://www.ipvoid.com/)
 - [censys](https://censys.com/)
 - [Url Scan](https://urlscan.io/)
+- [Nutilz Redirect Checker](https://nutilz.com/redirect-checker) Trace URL redirect chains and unshorten links with per-hop status codes and destination analysis
 - [reconspider](https://github.com/bhavsec/reconspider)
 - [haveibeensquatted](https://www.haveibeensquatted.com/)
 - [sitereview](https://sitereview.bluecoat.com/)
