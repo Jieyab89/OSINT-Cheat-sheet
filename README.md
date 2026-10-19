@@ -2100,6 +2100,7 @@ Note is for investigator like search scandal (Adult), deepfake porn or blackmail
 - [storiesig picuki viewer](https://storiesig.info/en/picuki/)
 - [instasploit](https://gitlab.com/anezatra-katedram/instasploit)
 - [IGDetective](https://www.igdetective.com) Track public Instagram accounts without login — recent follows/unfollows in chronological order, top interactions, and anonymous story viewing
+- [IGDataHub](https://igdatahub.com/) Free report pages and side-by-side compare for tracked public Instagram accounts: follower history chart, engagement rate, top posts and hashtags, no login. Looking up any other public profile (followers, following, latest post) asks for an email first
 
 # Threads
 
