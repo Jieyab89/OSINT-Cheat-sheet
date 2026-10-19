@@ -1842,6 +1842,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [ZoomInfo](https://www.zoominfo.com/)
 - [Bellingcat Username](https://bellingcat.github.io/name-variant-search/#gsc.tab=0)
 - [whatsmyname](https://whatsmyname.app/)
+- [WhatsMyName Apps](https://whatsmynameapps.us/) - Free browser-based public username search; manually verify candidate profiles. Independent of the original WhatsMyName project. [Android app](https://play.google.com/store/apps/details?id=whatsmyname.app.us).
 - [holehe](https://github.com/megadose/holehe)
 - [peekyou](https://www.peekyou.com/)
 - [lolarchiver](https://osint.lolarchiver.com/#)
