@@ -5188,6 +5188,7 @@ Linux Hardening
 - [audacityteam](https://www.audacityteam.org/)
 - [vocalremover](https://vocalremover.org/)
 - [morsecode decoder audio](https://morsecode.world/international/decoder/audio-decoder-adaptive.html)
+- [Yap Audio to Text](https://yapapp.cc/audio-to-text) Free in-browser transcription of audio and video files to text and SRT/VTT subtitles. Files are processed locally and never uploaded, no account needed
 
 Audio enchange quality  
 
