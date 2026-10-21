@@ -3529,6 +3529,7 @@ Build your sockpuppet account and proctect your privacy
 - [Tuta Mail](https://app.tuta.com/)
 - [simplelogin email](https://app.simplelogin.io/)
 - [zoho](https://www.zoho.com/id/)
+- [Spoof Me - Browser identity for sockpuppets](https://spoof-me.com/) Switch user agent, language, timezone and screen size per profile, and see which fingerprinting signals a site reads
 
 Build your own deepfake 
 
