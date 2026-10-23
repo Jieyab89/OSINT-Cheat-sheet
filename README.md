@@ -5476,6 +5476,7 @@ Resources and collection for your make tool OSINT
 - [API Hudson rock](https://docs.hudsonrock.com/)
 - [API LeakRadar](https://api.leakradar.io/docs)
 - [jojapi like rapid api](https://jojapi.com/)
+- [NetAPI](https://netapi.com/help/api/) Domain lists per TLD with DNS, IP and WHOIS data, newly registered domains, free compromised domain and IP feeds and a free Top 1M websites list; JSON API and MCP server
 
 # Data Visualization
 
