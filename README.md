@@ -769,6 +769,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [fortiguard](https://www.fortiguard.com/threatintel-search)
 - [Url Scan](https://urlscan.io/)
 - [ScanMalware](https://scanmalware.com/) Free URL scanner: runs each link through isolated analysis environments, records everything the page loads and runs, and checks it against YARA, antivirus and intrusion-detection rules, threat feeds and AI to give a phishing or malware verdict with the evidence. Every public scan is searchable by domain, IP, ASN, JARM or favicon hash. No account or API key needed
+- [Peekray](https://peekray.com/) Free scam link checker: follows short links and redirects on its own server (up to 4 hops), checks OpenPhish, PhishTank and URLhaus, and gives a plain answer such as Safe, Check first or Scam. No account. Also a Chrome extension.
 
 # Researching Cyber Threats
 
