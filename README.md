@@ -977,6 +977,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [opentopia find online cam](https://www.opentopia.com/)
 - [skylinewebcams find online cam](https://www.skylinewebcams.com/)
 - [camhacker find online cam](https://camhacker.com/)
+- [cruisingearth ship cams](https://www.cruisingearth.com/ship-webcams/)
 
 # IP Addresses
 
@@ -1741,6 +1742,7 @@ You can also use Google dork to search blogger profile
 
 # Phone Numbers
 
+- [Holehe live tool](https://holehe.org/)
 - [Whatsapp profile picture checker and other](https://whatsapp.checkleaked.cc/)
 - [whocalld](https://whocalld.com/)
 - [predictasearch](https://www.predictasearch.com/)
@@ -1823,6 +1825,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 
 # Finding Usernames
 
+- [holehe live tool](https://holehe.org/)
 - [360username](https://360username.com/)
 - [TraceFind](https://tracefind.info)
 - [Snusbase](https://snusbase.com/)
@@ -2362,6 +2365,7 @@ Google queries for MySpace
 # Email Tracking
 
 - [IPASIS](https://ipasis.com/) Real-time bot detection and fraud prevention API. Returns risk score (0-100), VPN/proxy/Tor/residential proxy flags, IP reputation, email validation (disposable/free/domain age), and fraud signals — all from a single API call with IP + email input. Sub-20ms response. Free tier: 100 req/day
+- [holehe live tool](https://holehe.org/)
 - [osintcabal mailsleuth](https://osintcabal.org/livecenter/mailsleuth.html)
 - [osintcabal blackbird](https://osintcabal.org/livecenter/blackbird.html)
 - [osintcabal holehe](https://osintcabal.org/livecenter/holehe.html)
@@ -2406,7 +2410,6 @@ Google queries for MySpace
 - [lolarchiver](https://osint.lolarchiver.com/#)
 - [Proxynova](https://www.proxynova.com/tools/comb/)
 - [Leakcheck](https://leakcheck.io/)
-- [findemail](https://findemail.io/)
 - [skymem](https://www.skymem.info/)
 - [idcrawl](https://www.idcrawl.com/email-lookup)
 - [Ghunt online tools](https://app.osint.industries/)
@@ -2424,7 +2427,6 @@ Google queries for MySpace
 - [snov.io](https://snov.io/email-finder)
 - [experte](https://www.experte.com/email-finder)
 - [infoga](https://www.infoga.io/)
-- [findemail](https://findemail.io/)
 - [minelead](https://minelead.io/)
 - [espysys](https://espysys.com/)
 - [hackcheck](https://hackcheck.io/)
@@ -5249,6 +5251,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 
 # OSINT Military
 
+- [cruisingearth](https://www.cruisingearth.com/military-ship-tracker/)
 - [intelrepository governments and militaries of various nations](https://intelrepository.com/)
 - [Phantom Tide](https://phantom.labs.jamessawyer.co.uk/) - cross-domain OSINT dashboard for maritime and airspace analysis
 - [List of aircraft carriers](https://en.wikipedia.org/wiki/List_of_aircraft_carriers)
