@@ -2103,6 +2103,7 @@ Note is for investigator like search scandal (Adult), deepfake porn or blackmail
 - [storiesig picuki viewer](https://storiesig.info/en/picuki/)
 - [instasploit](https://gitlab.com/anezatra-katedram/instasploit)
 - [IGDetective](https://www.igdetective.com) Track public Instagram accounts without login — recent follows/unfollows in chronological order, top interactions, and anonymous story viewing
+- [PicMany](https://picmany.com/) Anonymous Instagram viewer: public profiles, posts, reels and story highlights without an account or login
 
 # Threads
 
