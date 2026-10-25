@@ -2100,6 +2100,7 @@ Note is for investigator like search scandal (Adult), deepfake porn or blackmail
 - [storiesig picuki viewer](https://storiesig.info/en/picuki/)
 - [instasploit](https://gitlab.com/anezatra-katedram/instasploit)
 - [IGDetective](https://www.igdetective.com) Track public Instagram accounts without login — recent follows/unfollows in chronological order, top interactions, and anonymous story viewing
+- [PicMany](https://picmany.com/) Free web viewer for public Instagram profiles, posts, reels, stories and highlights without an Instagram account or login. Videos, stories and highlights load from Instagram's CDN
 
 # Threads
 
@@ -2317,6 +2318,7 @@ Google queries for MySpace
 - [tikface TikTok Viewer](https://www.tikface.com/)
 - [snaptik tiktok downloader](https://snaptik.app/en2)
 - [CrotDalam - Collection & Reconnaissance Of TikTok — Discovery, Analysis, Logging, And Monitoring](https://github.com/Masriyan/CrotDalam)
+- [TTAnon](https://ttanon.com/) Free web viewer for public TikTok profiles, videos, photo posts and hashtags without a TikTok account or login. Pages are server-rendered, so TikTok's scripts don't load; videos still play from TikTok's CDN
 
 # 4chan 
 
