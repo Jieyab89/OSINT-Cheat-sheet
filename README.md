@@ -550,6 +550,7 @@ Notes this is for surface web or clearnet site
 - [check available domain](https://instantdomainsearch.com/)
 - [DomScan](https://domscan.net/tools/security) Domain intelligence for DNS, WHOIS/RDAP, TLS, subdomains, reputation, redirects, and typosquatting
 - [CC.LA](https://cc.la) Free domain intelligence for WHOIS/RDAP, DNS records, IP WHOIS, SSL certificates, name server history, and network diagnostics. No sign-up required.
+- [Karma.Domains WHOIS Lookup](https://karma.domains/en/whois-lookup/) Free WHOIS + RDAP lookup with readable registrar, dates, status, name server and contact tables, privacy redactions labeled, raw record included. No sign-up required.
 - [reverse google analytics](https://osint.sh/analytics/)
 - [reverse google adsense](https://osint.sh/adsense/)
 - [GAU getallurls](https://github.com/lc/gau)
