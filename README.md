@@ -917,6 +917,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [ransomlook](https://www.ransomlook.io/browse)
 - [threatlocker](https://www.threatlocker.com/)
 - [Orca AI Incident Archive](https://www.orcarouter.ai/incident-archive) Search and filter real-world AI agent security events (incidents, vulnerabilities, research, policy) by type, severity and confirmed harm, free and no account. Open data on GitHub: Continuum-AI-Corp/Orca-AI-Incident-Archive
+- [ICHI — Internet Cyber Health Index](https://ichi.global/) — Free, source-transparent daily barometer of internet cyber health; aggregates 28 public threat intel feeds (CISA KEV, EPSS, ransomware trackers, C2 infrastructure, DShield) into a composite hourly score. Outside-in directional signal, not an org-specific risk score.
 
 # OSINT Browser Sandbox 
 
