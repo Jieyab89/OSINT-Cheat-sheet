@@ -3312,6 +3312,7 @@ Desktop NET debugger and assembly editor
 - [chainalysis](https://www.chainalysis.com/blockchain-intelligence/)
 - [breadcrumbs](https://www.breadcrumbs.app/)
 - [cryptoscamdb crypto scam](https://cryptoscamdb.org/)
+- [Iris](https://iriscan.app/) Wallet, token and transaction investigation: who funded a wallet, its counterparties and where its money went, with a cited source for each label and tracing through privacy pools, bridges and instant swaps (Solana, EVM chains, Bitcoin, Tron)
 
 # Crypto Market & Analysis  
 
