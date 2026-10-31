@@ -2241,6 +2241,7 @@ Note is for investigator like search scandal (Adult), deepfake porn or blackmail
 - [birdhunt 2](https://birdhunt.huntintel.io/)
 - [twiangulate](https://twiangulate.com/)
 - [Get ID 2](https://twiteridfinder.com/)
+- [TweetAPI Twitter ID Finder](https://tweetapi.com/tools/twitter-id-finder) Find a user ID from a username or profile URL, or the current username from an ID. Free, no signup
 - [threadreaderapp](https://threadreaderapp.com/)
 - [Tweet Map](https://www.heavy.ai/demos/tweetmap)
 - [drone emprit](https://pers.droneemprit.id/)
@@ -2249,6 +2250,7 @@ Note is for investigator like search scandal (Adult), deepfake porn or blackmail
 - [Nitter Instances available lists](https://github.com/zedeus/nitter/wiki/Instances)
 - [twitterwebviewer](https://twitterwebviewer.com/)
 - [Xquik](https://xquik.com/) X/Twitter OSINT platform for tweet search, profile export, media download, monitoring, webhooks, REST API, and MCP access
+- [TweetAPI](https://tweetapi.com/) Twitter data API for search, profiles, followers, lists, communities and Spaces, with a hosted MCP server for AI agents. Paid, with 100 free requests to try
 
 Twitter Search Engine 
 
