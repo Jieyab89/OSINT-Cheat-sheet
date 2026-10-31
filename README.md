@@ -5720,6 +5720,7 @@ Social Media Analytics
 - [US Search NSOPW](https://www.nsopw.gov/?home=) Search sex offender registries for all 50 states, the District of Columbia, U.S. Territories, and Indian Country
 - [Threat Actor Directory](https://pranithjain.qzz.io/threatintel/actors/hub)
 - [rewardsforjustice rewards](https://rewardsforjustice.net/rewards/)
+- [opensanctions](https://www.opensanctions.org/)
 
 Guides 
 
@@ -5768,6 +5769,7 @@ Terrorism & Radical
 - [economicsandpeace](https://www.economicsandpeace.org/global-terrorism-index/)
 - [databoks katadata](https://databoks.katadata.co.id/)
 - [rewardsforjustice crime and terrorism](https://rewardsforjustice.net/index/?crime-category=1070)
+- [opensanctions](https://www.opensanctions.org/)
 
 # Maltego Transform List 
 
