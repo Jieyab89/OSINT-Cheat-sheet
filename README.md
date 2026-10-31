@@ -1538,6 +1538,7 @@ You can also use Google dork to search blogger profile
 
 - [freedium medium unpaywall](https://freedium.cfd/) Open at firefox and change DNS
 - [freedium (mirror) unpaywall](https://freedium-mirror.cfd/) Open at firefox and change DNS
+- [medium-unlocker](https://medium-unlocker.inulute.com/) a site mirror from freedium and other to bypass paywall
 
 # Tracking Website Changes
 
