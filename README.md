@@ -1843,6 +1843,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [Instantusername](https://instantusername.com/#/)
 - [Snitch](http://snitch.name/)
 - [Checkusernames](https://checkusernames.com/)
+- [Consensus OSINT](https://github.com/OSINT-Experts-Society/Consensus-OSINT) — Username discovery with reconciled source modules, enriched results and report exports.
 - [Maigret](https://github.com/soxoj/maigret)
 - [Picuki](https://www.picuki.com/)
 - [ZoomInfo](https://www.zoominfo.com/)
