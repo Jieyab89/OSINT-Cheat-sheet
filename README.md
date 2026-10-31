@@ -5719,6 +5719,7 @@ Social Media Analytics
 - [Offendersearch](https://offendersearch.app/) Search all 58 US sex offender registries — every US state, DC and the territories — in one query
 - [US Search NSOPW](https://www.nsopw.gov/?home=) Search sex offender registries for all 50 states, the District of Columbia, U.S. Territories, and Indian Country
 - [Threat Actor Directory](https://pranithjain.qzz.io/threatintel/actors/hub)
+- [rewardsforjustice rewards](https://rewardsforjustice.net/rewards/)
 
 Guides 
 
@@ -5766,6 +5767,7 @@ Terrorism & Radical
 - [visionofhumanity GTI](https://www.visionofhumanity.org/maps/global-terrorism-index/#/)
 - [economicsandpeace](https://www.economicsandpeace.org/global-terrorism-index/)
 - [databoks katadata](https://databoks.katadata.co.id/)
+- [rewardsforjustice crime and terrorism](https://rewardsforjustice.net/index/?crime-category=1070)
 
 # Maltego Transform List 
 
