@@ -1574,6 +1574,7 @@ You can also use Google dork to search blogger profile
 - [Jobstreet](https://www.jobstreet.com.ph/)
 - [BOTW](https://botw.org/)
 - [opencorporates](https://opencorporates.com/)
+- [auregistre FR](https://auregistre.fr/) Free timeline of French companies from BODACC and Sirene: officers, changes, insolvency proceedings, filed accounts; open JSON API and MCP server, no account
 - [Data OCCRP](https://data.occrp.org/)
 - [OSINT Maps](https://cybdetective.com/osintmap/)
 - [Tripadvisor](https://www.tripadvisor.com/)
