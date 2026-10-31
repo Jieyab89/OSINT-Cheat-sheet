@@ -1866,6 +1866,10 @@
             {
                 "name": "ImmuniWeb - Email Security Test",
                 "url": "https://www.immuniweb.com/email/"
+            },
+            {
+                "name": "CurlShot",
+                "url": "https://curlshot.com/"
             }
         ]
     },
@@ -2087,6 +2091,10 @@
             {
                 "name": "ScanMalware",
                 "url": "https://scanmalware.com/"
+            },
+            {
+                "name": "Peekray",
+                "url": "https://peekray.com/"
             }
         ]
     },
@@ -2672,6 +2680,10 @@
             {
                 "name": "Orca AI Incident Archive",
                 "url": "https://www.orcarouter.ai/incident-archive"
+            },
+            {
+                "name": "ICHI — Internet Cyber Health Index",
+                "url": "https://ichi.global/"
             }
         ]
     },
@@ -2898,6 +2910,10 @@
             {
                 "name": "camhacker find online cam",
                 "url": "https://camhacker.com/"
+            },
+            {
+                "name": "cruisingearth ship cams",
+                "url": "https://www.cruisingearth.com/ship-webcams/"
             }
         ]
     },
@@ -4818,6 +4834,10 @@
             {
                 "name": "freedium (mirror) unpaywall",
                 "url": "https://freedium-mirror.cfd/"
+            },
+            {
+                "name": "medium-unlocker",
+                "url": "https://medium-unlocker.inulute.com/"
             }
         ]
     },
@@ -5217,6 +5237,10 @@
             {
                 "name": "geoportal ESDM ID",
                 "url": "https://geoportal.esdm.go.id/"
+            },
+            {
+                "name": "auregistre FR",
+                "url": "https://auregistre.fr/"
             }
         ]
     },
@@ -5868,6 +5892,10 @@
             {
                 "name": "usersearch",
                 "url": "https://usersearch.com/"
+            },
+            {
+                "name": "Holehe live tool",
+                "url": "https://holehe.org/"
             }
         ]
     },
@@ -6034,6 +6062,14 @@
             {
                 "name": "maigret 2 made by Rust",
                 "url": "https://github.com/krishpranav/maigret/blob/master/data.json"
+            },
+            {
+                "name": "holehe live tool",
+                "url": "https://holehe.org/"
+            },
+            {
+                "name": "Consensus OSINT",
+                "url": "https://github.com/OSINT-Experts-Society/Consensus-OSINT"
             }
         ]
     },
@@ -7273,6 +7309,14 @@
             {
                 "name": "PeekVault",
                 "url": "https://peekvault.com/"
+            },
+            {
+                "name": "TweetAPI Twitter ID Finder",
+                "url": "https://tweetapi.com/tools/twitter-id-finder"
+            },
+            {
+                "name": "TweetAPI",
+                "url": "https://tweetapi.com/"
             }
         ]
     },
@@ -7544,6 +7588,10 @@
             {
                 "name": "Geotag",
                 "url": "https://vsudo.net/tools/geotag"
+            },
+            {
+                "name": "EXIF Hound",
+                "url": "https://github.com/minimallyexceptional/exif-hound"
             }
         ]
     },
@@ -7921,6 +7969,10 @@
             {
                 "name": "emailosint",
                 "url": "https://emailosint.org/"
+            },
+            {
+                "name": "holehe live tool",
+                "url": "https://holehe.org/"
             }
         ]
     },
@@ -10888,6 +10940,10 @@
             {
                 "name": "cryptoscamdb crypto scam",
                 "url": "https://cryptoscamdb.org/"
+            },
+            {
+                "name": "Iris",
+                "url": "https://iriscan.app/"
             }
         ]
     },
@@ -18165,6 +18221,10 @@
             {
                 "name": "smallarmssurvey",
                 "url": "https://www.smallarmssurvey.org/databases"
+            },
+            {
+                "name": "cruisingearth",
+                "url": "https://www.cruisingearth.com/military-ship-tracker/"
             }
         ]
     },
