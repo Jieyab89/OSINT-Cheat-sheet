@@ -2271,6 +2271,7 @@ Twitter Search Engine
 - [ignorant](https://github.com/megadose/ignorant)
 - [OSINT Dojo Snapchat Attack Vector](https://www.osintdojo.com/diagrams/snapchat)
 - [SnapDataHub](https://snapdatahub.com/) Subscriber counts, Spotlight views and growth for public Snapchat creator profiles, plus a daily list of the fastest-growing creators. Free to browse without login (influencer search is paid)
+- [LurkAPI Snapchat Story Viewer](https://lurkapi.com/free-tools/snapchat-story-viewer) Watch a public profile's current story, highlights and Spotlight videos without an account, so your name never shows in the viewers list. Free, 5 tries a day without signup
 
 # LinkedIn
 
@@ -2291,6 +2292,7 @@ Google queries for LinkedIn
 - [coresignal](https://coresignal.com/)
 - [Linkedin Attack Vector](https://www.osintdojo.com/diagrams/linkedin)
 - [intelx Linkedin](https://intelx.io/tools?tab=linkedin)
+- [LurkAPI LinkedIn Profile Viewer](https://lurkapi.com/free-tools/linkedin-profile-viewer) See what logged-out visitors see on a public profile (about, experience, education, posts) without signing in or showing up in their profile views. Free, 5 tries a day without signup
 
 # MySpace
 
@@ -2664,6 +2666,7 @@ Scribd downloader
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
 - [socialscan](https://pypi.org/project/socialscan/)
 - [inspektur](https://github.com/bgwastu/inspektur)
+- [LurkAPI](https://lurkapi.com) Social media data API: public posts, profiles, comments, video transcripts and ad library results from 16 platforms as JSON, also usable as a remote MCP server by AI agents. Paid, with 100 free credits to try, no card
 
 # Image Search
 
