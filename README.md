@@ -517,7 +517,8 @@ Guide Github search code by Jieyab89 : https://github.com/Jieyab89/OSINT-Cheat-s
 - [Crimewall](https://sociallinks.io/products/sl-crimewall)
 - [socialscan](https://pypi.org/project/socialscan/)
 - [socialcatfish](https://socialcatfish.com/)
-
+- [LurkAPI Snapchat Story Viewer](https://lurkapi.com/free-tools/snapchat-story-viewer) Watch a public profile's current story, highlights and Spotlight videos without an account, so your name never shows in the viewers list. Free, 5 tries a day without signup
+  
 # Hastag & Keyword Analysis 
 
 Hastag and keyword analysis in search engine, social media or other platform (Text Intel)
@@ -2271,7 +2272,6 @@ Twitter Search Engine
 - [ignorant](https://github.com/megadose/ignorant)
 - [OSINT Dojo Snapchat Attack Vector](https://www.osintdojo.com/diagrams/snapchat)
 - [SnapDataHub](https://snapdatahub.com/) Subscriber counts, Spotlight views and growth for public Snapchat creator profiles, plus a daily list of the fastest-growing creators. Free to browse without login (influencer search is paid)
-- [LurkAPI Snapchat Story Viewer](https://lurkapi.com/free-tools/snapchat-story-viewer) Watch a public profile's current story, highlights and Spotlight videos without an account, so your name never shows in the viewers list. Free, 5 tries a day without signup
 
 # LinkedIn
 
@@ -6598,3 +6598,4 @@ Tracking ads or campaign total views, ads costs and more
 - [facebook ads tracker](https://www.facebook.com/ads/library/report/)
 - [Linkedin ads tracker](https://www.linkedin.com/ad-library)
 - [X ads tracker](https://ads.twitter.com/ads-repository)
+- [LurkAPI Snapchat Story Viewer](https://lurkapi.com/free-tools/snapchat-story-viewer) Watch a public profile's current story, highlights and Spotlight videos without an account, so your name never shows in the viewers list. Free, 5 tries a day without signup
