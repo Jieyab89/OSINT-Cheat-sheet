@@ -1956,7 +1956,7 @@ or you can use dork for spesific example
 
 # OSINT Adult or Porn (18+)
 
-For this case u must know the context also dorking for better results 
+For this case u must know the context also dorking, scrapping and do HUMINT and active reccon for better results 
 
 - [samsguide forums](https://samsguide.living/) You must to dork 
 - [justpaste](https://justpaste.it/) You must to dork 
@@ -2012,6 +2012,9 @@ For this case u must know the context also dorking for better results
 - [thailandnightlife](https://thailandnightlife.net/)
 - [thailandinnercircle](https://www.thailandinnercircle.com/)
 - [michat apps](https://play.google.com/store/apps/details?id=com.michatapp.im&hl=en)
+- [nomads](https://nomads.com/)
+- [nomadtable: travel friends IOS](https://apps.apple.com/us/app/nomadtable-travel-friends/id6736921913)
+- [Meet Travelers Nearby - Nomax IOS](https://apps.apple.com/us/app/meet-travelers-nearby-nomax/id6757600229)
 
 Pro Tips 
 
@@ -2868,6 +2871,9 @@ Scribd downloader
 
 # Geospatial Research and Mapping Tools
 
+- [nomads](https://nomads.com/)
+- [nomadtable: travel friends IOS](https://apps.apple.com/us/app/nomadtable-travel-friends/id6736921913)
+- [Meet Travelers Nearby - Nomax IOS](https://apps.apple.com/us/app/meet-travelers-nearby-nomax/id6757600229)
 - [geoseeer AI Geo find](https://geoseeer.com/)
 - [plonkit guide for geospatial](https://www.plonkit.net/guide)
 - [Apple Maps](https://beta.maps.apple.com/)
@@ -3657,6 +3663,9 @@ Browser Sandbox
 
 # Locations Data Mapping
 
+- [nomads](https://nomads.com/)
+- [nomadtable: travel friends IOS](https://apps.apple.com/us/app/nomadtable-travel-friends/id6736921913)
+- [Meet Travelers Nearby - Nomax IOS](https://apps.apple.com/us/app/meet-travelers-nearby-nomax/id6757600229)
 - [findpiclocation](https://findpiclocation.com/)
 - [geoseeer AI Geo find](https://geoseeer.com/)
 - [Google maps](https://www.google.co.id/maps)
