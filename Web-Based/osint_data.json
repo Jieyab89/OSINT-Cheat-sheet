@@ -8914,6 +8914,10 @@
             {
                 "name": "faceseek",
                 "url": "https://faceseek.cc/"
+            },
+            {
+                "name": "Reverse Image Search Anywhere",
+                "url": "https://reverseimage.app/"
             }
         ]
     },
@@ -10896,10 +10900,6 @@
             {
                 "name": "Tatum",
                 "url": "https://tatum.io/"
-            },
-            {
-                "name": "bitquery",
-                "url": "https://www.bitquery.io/"
             },
             {
                 "name": "Bitcoin Abuse",
