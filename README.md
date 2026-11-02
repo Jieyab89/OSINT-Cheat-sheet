@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/6f1fbfe1-11a4-4c1b-b5fd-669107197ca2)
 
-Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and others. There are free and paid tools you can use and owner is not responsible (take your own risks), only for knowledge or educational purposes. Apologies if some of the resources are no longer available or contain errors, as the owner does not regularly check the status of these resources, If there is new information, the owner will add it to this repo along with the category. If you want to read about techniques and intelligence some have already been added to the Wiki page [Jieyaboo Wiki](https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki) The owner will add them back. If there are any errors let us know thank you.
+Contains a list of OSINT tools, OSINT tips, datasets, Maltego transform and others. There are free and paid tools you can use and owner is not responsible (take your own risks), only for knowledge or educational purposes. Apologies if some of the resources are no longer available or contain errors, as the owner does not regularly check the status of these resources, If there is new information, the owner will add it to this repo along with the category.
 
 # Tips & Trick Safe Guide Using Resources 
 
@@ -40,8 +40,8 @@ Info
 | Date | Remarks |
 |------------|---------|
 | 8 Aug 2026 | Sorry. Update, all the Gitbook and Github Wiki are not public. This site has been made private. If want to read latest update and the change you can chat me in Email "julisandipratam<@_at>gmail.com" you can also using my pub GPG key to send a message Lang used is English and Bahasa Indonesia. Is free no payment and donation. If you want to read access access here : https://forms.gle/AV3MTvzy4ovjYT6Y6 & read on this wiki page https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/1-Notes-Jieyab-Wiki-and-Gitbook |
-| 2 Nov 2026 | Update Jieyab exclusive content Intelligence Base & Knowledge Base, Cell Investigation, Talk About Data Breach, Signal Intel, all about open source data, all about darkweb |
-| 21 Aug 2026 | Update Jieyab wiki Github content add article all about android pentest, all about programming, darkweb scrapping, telegram dork also etc  |
+| 2 Nov 2026 | Update Jieyab exclusive content Intelligence Base & Knowledge Base, Cell Investigation, Talk About Data Breach, Signal Intel, all about open source data, all about darkweb, SOCMINT Challenge |
+| 2 Nov 2026 | Update Jieyab wiki Github content add article SOCMINT Challenge |
 
 # These Resources Are Recommend For 
 
