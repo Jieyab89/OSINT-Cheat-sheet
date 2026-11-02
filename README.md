@@ -3309,7 +3309,7 @@ Desktop NET debugger and assembly editor
 - [Flashpoint](https://flashpoint.io/resources/research/flashpoint-and-chainalysis-investigate-hydra-where-cryptocurrency-cybercrime-goes-dark/)
 - [Intel471](https://intel471.com/)
 - [Tatum](https://tatum.io/)
-- [bitquery](https://www.bitquery.io/)
+- [bitquery](https://explorer.bitquery.io/)
 - [Bitcoin Abuse](https://www.bitcoinabuse.com/)
 - [GraphSense](https://github.com/INTERPOL-Innovation-Centre/GraphSense-Maltego-transform)
 - [Blockhain Explorer](https://www.blockexplorer.com/l/en-US/)
