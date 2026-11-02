@@ -2689,7 +2689,7 @@ Scribd downloader
 - [PicTriev](http://www.pictriev.com)
 - [StolenCameraFinder](http://www.stolencamerafinder.co.uk)
 - [TinEye](https://tineye.com) - Reverse image search engine.
-- [Reverse Image Search Anywhere](https://reverseimage.app/) - Free browser extension and web tool for checking an image across Google Lens, Yandex, Bing and TinEye; supports region capture when an image URL is unusable.
+- [Reverse Image Search Anywhere](https://reverseimage.app/) - Free browser extension and web tool for checking an image across Google Lens, Yandex, Bing and TinEye supports region capture when an image URL is unusable.
 - [Worldcam](http://www.worldc.am)
 - [Yahoo Image Search](https://images.search.yahoo.com)
 - [Yandex Images](https://www.yandex.com/images)
