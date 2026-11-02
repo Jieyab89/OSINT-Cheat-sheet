@@ -40,8 +40,8 @@ Info
 | Date | Remarks |
 |------------|---------|
 | 8 Aug 2026 | Sorry. Update, all the Gitbook and Github Wiki are not public. This site has been made private. If want to read latest update and the change you can chat me in Email "julisandipratam<@_at>gmail.com" you can also using my pub GPG key to send a message Lang used is English and Bahasa Indonesia. Is free no payment and donation. If you want to read access access here : https://forms.gle/AV3MTvzy4ovjYT6Y6 & read on this wiki page https://github.com/Jieyab89/OSINT-Cheat-sheet/wiki/1-Notes-Jieyab-Wiki-and-Gitbook |
-| 2 Nov 2026 | Update Jieyab exclusive content Intelligence Base & Knowledge Base, Cell Investigation, Talk About Data Breach, Signal Intel, all about open source data, all about darkweb, SOCMINT Challenge |
-| 2 Nov 2026 | Update Jieyab wiki Github content add article SOCMINT Challenge |
+| 3 Nov 2026 | Update Jieyab exclusive content Intelligence Base & Knowledge Base, Cell Investigation, Talk About Data Breach, Signal Intel, all about open source data, all about darkweb, SOCMINT Challenge |
+| 3 Nov 2026 | Update Jieyab wiki Github content add article SOCMINT Challenge |
 
 # These Resources Are Recommend For 
 
@@ -3304,7 +3304,6 @@ Desktop NET debugger and assembly editor
 
 # Cryptocurrency Investigation
 
-- [bitquery](https://explorer.bitquery.io/)
 - [Blockchain](https://www.blockchain.com/)
 - [Flashpoint](https://flashpoint.io/resources/research/flashpoint-and-chainalysis-investigate-hydra-where-cryptocurrency-cybercrime-goes-dark/)
 - [Intel471](https://intel471.com/)
