@@ -1141,6 +1141,7 @@ You can find the file hash or other threat indicator
 - [Google threat intelligence ](https://cloud.google.com/security/products/threat-intelligence#threat-intelligence-and-advanced-hunting)
 - [DomScan](https://domscan.net/tools/security) Domain intelligence for DNS, WHOIS/RDAP, TLS, subdomains, reputation, redirects, and typosquatting
 - [threatlocker](https://www.threatlocker.com/)
+- [Max Intel IOC Extractor - pull IPs, domains, URLs, hashes and CVEs out of a report, refang them and export STIX 2.1](https://maxintel.org/ioc-extractor.html)
 
 # Automation Dorking 
 
