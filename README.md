@@ -2297,6 +2297,7 @@ Google queries for LinkedIn
 - [Linkedin Attack Vector](https://www.osintdojo.com/diagrams/linkedin)
 - [intelx Linkedin](https://intelx.io/tools?tab=linkedin)
 - [LurkAPI LinkedIn Profile Viewer](https://lurkapi.com/free-tools/linkedin-profile-viewer) See what logged-out visitors see on a public profile (about, experience, education, posts) without signing in or showing up in their profile views. Free, 5 tries a day without signup
+- [AlphaOSINT LinkedIn People Search API](https://alphaosint.com/sources/linkedin-people-search-api/) Unofficial API that searches public LinkedIn profiles by title, company, location and keywords and returns JSON; also works as a remote MCP tool. Paid per result, and a small search fits in Apify's free monthly credit
 
 # MySpace
 
