@@ -1866,6 +1866,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [usersearch](https://usersearch.com/)
 - [user-scanner](https://github.com/kaifcodec/user-scanner/releases/tag/v1.1.0)
 - [maigret 2 made by Rust](https://github.com/krishpranav/maigret/blob/master/data.json)
+- [ProfileTrace](https://www.profiletrace.ai/) Web app that checks one username across ~4,000 sites. First search free after sign-up, then pay-per-search credit packs from $2 (no subscription)
 
 # Google Queries for Facebook
 
