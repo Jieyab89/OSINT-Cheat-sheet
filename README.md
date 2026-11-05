@@ -1553,7 +1553,8 @@ You can also use Google dork to search blogger profile
 - [wayback machine](https://archive.org/web/) search history archive on site 
 - [Archive Fo](https://archive.fo/)
 - [w3snoop](https://w3snoop.com/)
-
+- [PendingDelete.net](https://pendingdelete.net/) Free daily lists of expiring and pending-delete domains with registry-confirmed drop times, plus WHOIS/RDAP lookups and free CSV/TXT/JSON downloads. No sign-up required.
+  
 # Global Censorship 
 
 - [voidly Censorship](https://voidly.ai/censorship-index)
