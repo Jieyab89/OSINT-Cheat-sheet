@@ -551,6 +551,7 @@ Notes this is for surface web or clearnet site
 - [check available domain](https://instantdomainsearch.com/)
 - [DomScan](https://domscan.net/tools/security) Domain intelligence for DNS, WHOIS/RDAP, TLS, subdomains, reputation, redirects, and typosquatting
 - [CC.LA](https://cc.la) Free domain intelligence for WHOIS/RDAP, DNS records, IP WHOIS, SSL certificates, name server history, and network diagnostics. No sign-up required.
+- [PendingDelete.net](https://pendingdelete.net/) Free daily lists of expiring and pending-delete domains with registry-confirmed drop times, plus WHOIS/RDAP lookups and free CSV/TXT/JSON downloads. No sign-up required.
 - [reverse google analytics](https://osint.sh/analytics/)
 - [reverse google adsense](https://osint.sh/adsense/)
 - [GAU getallurls](https://github.com/lc/gau)
@@ -1552,7 +1553,8 @@ You can also use Google dork to search blogger profile
 - [wayback machine](https://archive.org/web/) search history archive on site 
 - [Archive Fo](https://archive.fo/)
 - [w3snoop](https://w3snoop.com/)
-
+- [PendingDelete.net](https://pendingdelete.net/) Free daily lists of expiring and pending-delete domains with registry-confirmed drop times, plus WHOIS/RDAP lookups and free CSV/TXT/JSON downloads. No sign-up required.
+  
 # Global Censorship 
 
 - [voidly Censorship](https://voidly.ai/censorship-index)
