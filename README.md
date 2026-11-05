@@ -5590,6 +5590,7 @@ Resources and collection for your make tool OSINT
 - [WIPO INT](https://branddb.wipo.int/)
 - [SPSE inaproc ID](https://spse.inaproc.id/)
 - [URL Haus](https://urlhaus.abuse.ch/)
+- [TenderTracker UK](https://tendertracker.co.uk/) Search UK public contract notices and awards from Find a Tender and Contracts Finder, with buyer and supplier profiles; free account for full search, alerts and CSV export
 
 # NEWS OSINT
 
