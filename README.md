@@ -776,6 +776,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 
 # Researching Cyber Threats
 
+- [IoC search by SOCradar](https://ioc.socradar.io/)
 - [tweetfeed - IOC collected in Twitter](https://tweetfeed.live/)
 - [theZoo](https://github.com/ytisf/theZoo/tree/master/malware/Source)
 - [haveibeenransom](https://haveibeenransom.com/)
@@ -1023,6 +1024,7 @@ Tips
 
 You can find the file hash or other threat indicator
 
+- [IoC search by SOCradar](https://ioc.socradar.io/)
 - [vecert](https://analyzer.vecert.io/)
 - [ransomlook](https://www.ransomlook.io/browse)
 - [OPEN SOURCE MALWARE A community database, API and collaboration platform to help identify and protect against open-source malware](https://opensourcemalware.com/)
