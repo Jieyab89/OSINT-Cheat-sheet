@@ -2300,6 +2300,7 @@ Google queries for LinkedIn
 - [Linkedin Attack Vector](https://www.osintdojo.com/diagrams/linkedin)
 - [intelx Linkedin](https://intelx.io/tools?tab=linkedin)
 - [LurkAPI LinkedIn Profile Viewer](https://lurkapi.com/free-tools/linkedin-profile-viewer) See what logged-out visitors see on a public profile (about, experience, education, posts) without signing in or showing up in their profile views. Free, 5 tries a day without signup
+- [ProfileHunt](https://profilehunt.dev) API that returns the public view of a LinkedIn profile (experience, education, followers, recent posts and activity) as JSON from a profile URL, with no LinkedIn login. 100 free credits to test
 
 # MySpace
 
