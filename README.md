@@ -1463,6 +1463,7 @@ Malware Database Archive
 - [haveibeenransom](https://haveibeenransom.com/)
 - [cabalbreach HIBP check](https://osintcabal.org/livecenter/cabalbreach-chiasmodon.html)
 - [mega](https://mega.io/) Need to dorking and knowing the contexts
+- [gosearch](https://github.com/ibnaleem/gosearch)
 
 # Crack Jurnals
 
@@ -1871,6 +1872,7 @@ If you has found the person phone number you can check at data breach, e wallet,
 - [usersearch](https://usersearch.com/)
 - [user-scanner](https://github.com/kaifcodec/user-scanner/releases/tag/v1.1.0)
 - [maigret 2 made by Rust](https://github.com/krishpranav/maigret/blob/master/data.json)
+- [gosearch](https://github.com/ibnaleem/gosearch)
 
 # Google Queries for Facebook
 
@@ -2481,6 +2483,7 @@ Google queries for MySpace
 - [windvane](https://windvane.lichoin.com/)
 - [tomba](https://tomba.io/)
 - [emailosint](https://emailosint.org/)
+- [gosearch](https://github.com/ibnaleem/gosearch)
 
 # PGP or GPG Keybase 
 
@@ -4653,6 +4656,7 @@ Misc
 
 - [Claude Adjusment and Usage Policy for Cyber Use Case](https://claude.com/form/cyber-use-case)
 - [Best OSINT AI Prompts](https://docsbot.ai/prompts/tags?tag=OSINT)
+- [Felo AI - Generate Adult Content](https://felo.ai/en/agents/adult-ai-image-generator-free-2YaHxtqp57PwNz59RG6Hsv)
 
 # OSINT for Red Team 
 
@@ -5807,6 +5811,7 @@ Terrorism & Radical
 
 # OSINT Wildlife 
 
+- [sawitzerland ID](https://sawitzerland.id/#peta)
 - [climatecentral map](https://coastal.climatecentral.org/)
 - [map of life](https://mol.org/)
 - [SIKU](https://siku.org/project-management)
