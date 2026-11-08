@@ -3563,6 +3563,7 @@ Build your sockpuppet account and proctect your privacy
 - [Proton Mail](https://account.proton.me/mail)
 - [Tuta Mail](https://app.tuta.com/)
 - [simplelogin email](https://app.simplelogin.io/)
+- [anon.li](https://anon.li/alias) Email aliases that forward to your real inbox, with replies through the alias; open source (AGPL-3.0)
 - [zoho](https://www.zoho.com/id/)
 
 Build your own deepfake 
