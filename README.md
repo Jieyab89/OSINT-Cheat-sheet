@@ -552,6 +552,7 @@ Notes this is for surface web or clearnet site
 - [DomScan](https://domscan.net/tools/security) Domain intelligence for DNS, WHOIS/RDAP, TLS, subdomains, reputation, redirects, and typosquatting
 - [CC.LA](https://cc.la) Free domain intelligence for WHOIS/RDAP, DNS records, IP WHOIS, SSL certificates, name server history, and network diagnostics. No sign-up required.
 - [PendingDelete.net](https://pendingdelete.net/) Free daily lists of expiring and pending-delete domains with registry-confirmed drop times, plus WHOIS/RDAP lookups and free CSV/TXT/JSON downloads. No sign-up required.
+- [Profundis](https://profundis.io/) Search DNS records, hosts, TLS certificates and WHOIS to investigate domains and related infrastructure. Limited public preview; additional records require paid access.
 - [reverse google analytics](https://osint.sh/analytics/)
 - [reverse google adsense](https://osint.sh/adsense/)
 - [GAU getallurls](https://github.com/lc/gau)
