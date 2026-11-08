@@ -3342,6 +3342,7 @@ Desktop NET debugger and assembly editor
 - [breadcrumbs](https://www.breadcrumbs.app/)
 - [cryptoscamdb crypto scam](https://cryptoscamdb.org/)
 - [Iris](https://iriscan.app/) Wallet, token and transaction investigation: who funded a wallet, its counterparties and where its money went, with a cited source for each label and tracing through privacy pools, bridges and instant swaps (Solana, EVM chains, Bitcoin, Tron)
+- [ChainHint](https://chainhint.com/) Wallet and transaction investigation across 12 chains (EVM, Bitcoin, Solana, TON, Tron): sanctions and label check for any address with the source of each label, and a hop-by-hop trace of stolen funds to the exchange or service that received them
 
 # Crypto Market & Analysis  
 
