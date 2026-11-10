@@ -992,6 +992,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [Ip 2 location](https://www.ip2location.com/) This tools can show your ip address isp provider and geo location  
 - [unwiredlabs](https://unwiredlabs.com/products) Dataset about IP around world 
 - [IPASIS](https://ipasis.com/) Real-time bot detection and fraud prevention API. Returns risk score (0-100), VPN/proxy/Tor/residential proxy flags, IP reputation, email validation (disposable/free/domain age), and fraud signals — all from a single API call with IP + email input. Sub-20ms response. Free tier: 100 req/day
+- [Whatoblock](https://whatoblock.com/) IP lookup against honeypot data: scanners, botnet C2 servers, proxies and Tor exit nodes. Free tier available
 
 # Wireless Network
 
