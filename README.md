@@ -2403,6 +2403,7 @@ Google queries for MySpace
 - [socialscan](https://github.com/iojw/socialscan)
 - [Mailcat](https://github.com/sharsil/mailcat)
 - [OSINT indsutries](https://www.osint.industries/)
+- [OSINT.SX](https://osint.sx/email-lookup)
 - [lullar](https://lullar-com-3.appspot.com/en)
 - [ip-adress](http://www.ip-adress.com/trace_email/)
 - [whatismyipaddress](http://www.whatismyipaddress.com/trace-email)
