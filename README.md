@@ -3343,6 +3343,7 @@ Desktop NET debugger and assembly editor
 - [breadcrumbs](https://www.breadcrumbs.app/)
 - [cryptoscamdb crypto scam](https://cryptoscamdb.org/)
 - [Iris](https://iriscan.app/) Wallet, token and transaction investigation: who funded a wallet, its counterparties and where its money went, with a cited source for each label and tracing through privacy pools, bridges and instant swaps (Solana, EVM chains, Bitcoin, Tron)
+- [XMRList AML Check](https://xmrlist.com/tools/aml-check) Free address and transaction screening against OFAC sanctions and USDT/USDC issuer freezes (Bitcoin, Litecoin, Ethereum and other EVM chains, Tron), no account needed
 
 # Crypto Market & Analysis  
 
