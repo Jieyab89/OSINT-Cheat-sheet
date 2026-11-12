@@ -2485,6 +2485,7 @@ Google queries for MySpace
 - [tomba](https://tomba.io/)
 - [emailosint](https://emailosint.org/)
 - [gosearch](https://github.com/ibnaleem/gosearch)
+- [MailVeri](https://mailveri.com/) Email verification: checks whether an address exists and flags invalid, disposable, catch-all and role-based addresses. Web app, API and MCP server
 
 # PGP or GPG Keybase 
 
