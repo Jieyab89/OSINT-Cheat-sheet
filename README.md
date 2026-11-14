@@ -1951,6 +1951,7 @@ or you can use dork for spesific example
 - [META Scan](https://github.com/HackUnderway/meta_scan)
 - [Facebook lookup id](https://lookup-id.com/#)
 - [MonetizationKit](https://monetizationkit.com/facebook-monetization-checker/) Check if a Facebook is in the Partner Program from public signals (Join button, merch shelf, ads on recent videos, subscriber tier), each shown next to the verdict. Free, no account
+- [GetYouTubeTranscript](https://getyoutubetranscript.com/) Get a YouTube video's transcript with timestamps and export it as SRT, VTT, JSON, CSV, Markdown or TXT. Also has an API.
 
 # OnlyFans
 
