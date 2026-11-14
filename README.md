@@ -6168,6 +6168,7 @@ Guide Journalist
 - [isgen](https://isgen.ai/)
 - [openai Verify OpenAI-generated content](https://openai.com/research/verify/)
 - [isthisaigenerated.app image detector](https://isthisaigenerated.app/site/ai-image-detector/) Free warning-only image checker: per-file AI signal with the file's own provenance context, plus a published measured recall and false-positive rate. No account needed. Reports a warning signal only, never proof of origin or authorship
+- [AI Image Detection](https://aiimagedetection.app/) Checks whether an image was likely AI-generated. Reads Content Credentials (C2PA) and metadata first, then runs a detection model, and answers Likely AI, Likely real, Can't tell or Edited with AI with a likelihood range and the reasons. Upload, paste or link an image; 3 free checks a day, no account needed
 
 # OSINT Similarity (Plagiarism)
 
