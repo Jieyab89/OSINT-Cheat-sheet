@@ -1465,6 +1465,7 @@ Malware Database Archive
 - [cabalbreach HIBP check](https://osintcabal.org/livecenter/cabalbreach-chiasmodon.html)
 - [mega](https://mega.io/) Need to dorking and knowing the contexts
 - [gosearch](https://github.com/ibnaleem/gosearch)
+- [TraceFind](https://tracefind.info/data-breach-check)
 
 # Crack Jurnals
 
@@ -1737,6 +1738,7 @@ You can also use Google dork to search blogger profile
 - [fastpeoplesearch](https://fastpeoplesearch.io/)
 - [famousbirthdays](https://www.famousbirthdays.com/)
 - [webvetted](https://webvetted.com/)
+- [TraceFind](https://tracefind.info)
 
 # Family People Search 
 
@@ -1822,6 +1824,7 @@ You can also use Google dork to search blogger profile
 - [OSINT rock](https://osint.rocks/)
 - [castrickclues](https://castrickclues.com/)
 - [usersearch](https://usersearch.com/)
+- [TraceFind](https://tracefind.info/phone)
 
 Pro Tips
 
