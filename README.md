@@ -5276,6 +5276,7 @@ Detect a fake network, asn, ip geo, mobile carrier, whois ip, network traffic an
 - [IP2Whois - whois information lookup](https://www.ip2whois.com/)
 - [ipwhois](https://ipwhois.io/)
 - [netlas](https://app.netlas.io/host/)
+- [IPGeolocation.io](https://ipgeolocation.io/) IP lookup: geolocation, ASN, company, time zone, VPN, proxy, Tor and bot detection with a threat score, and abuse contact. Free web lookup without an account; free API tier of 1,000 credits a day (security and abuse data on paid API plans)
 
 # Medical OSINT 
 
