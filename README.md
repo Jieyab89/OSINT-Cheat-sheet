@@ -3536,6 +3536,7 @@ Build your sockpuppet account and proctect your privacy
 - [Temp email gmail 5](https://www.mailticking.com/)
 - [Temp email gmail 6](https://tempgbox.net/)
 - [Temp email gmail 7](https://dispose.lol/)
+- [Temp email gmail 8](https://temp.tf/)
 - [Cryptocurrency Payment Monero](https://www.getmonero.org/)
 - [Cryptocurrency Payment Bitcoin](https://bitcoin.org/en/)
 - [Openpgp](https://www.openpgp.org/)
