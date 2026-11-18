@@ -3081,6 +3081,7 @@ Scribd downloader
 - [worldmonitor map](https://worldmonitor.app/)
 - [GeoSentinel](https://github.com/h9zdev/GeoSentinel)
 - [irwatch](https://irwatch.org/)
+- [monitor the situation live world news map](https://monitor-the-situation.com/)
 - [saucenao](https://saucenao.com/)
 - [whatiswhere like osm](https://www.whatiswhere.com/)
 - [Kamerka](https://github.com/woj-ciech/Kamerka-GUI)
