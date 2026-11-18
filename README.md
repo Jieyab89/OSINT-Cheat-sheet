@@ -2684,6 +2684,8 @@ Scribd downloader
 - [socialscan](https://pypi.org/project/socialscan/)
 - [inspektur](https://github.com/bgwastu/inspektur)
 - [LurkAPI](https://lurkapi.com) Social media data API: public posts, profiles, comments, video transcripts and ad library results from 16 platforms as JSON, also usable as a remote MCP server by AI agents. Paid, with 100 free credits to try, no card
+- [Social Fetch](https://www.socialfetch.dev) Social media data API: public profiles, posts, comments and transcripts from TikTok, Instagram, YouTube, X, Reddit and LinkedIn as JSON, also usable through a hosted MCP server. Paid, with 100 free credits to try, no card
+
 
 # Image Search
 
