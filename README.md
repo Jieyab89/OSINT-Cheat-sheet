@@ -737,6 +737,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [Radar By Cloudflare](https://radar.cloudflare.com/)
 - [Is it Phishing](https://isitphishing.org/)
 - [dnstwist](https://dnstwist.it/)
+- [OpenBait Typosquat Check](https://openbait.com/tools/typosquat-check) Find registered typosquatting and lookalike domains of a brand and see which are live. Free, no signup
 - [Kaspersky](https://opentip.kaspersky.com/)
 - [PolySwarm](https://polyswarm.network/)
 - [Threat Miner](https://www.threatminer.org/)
