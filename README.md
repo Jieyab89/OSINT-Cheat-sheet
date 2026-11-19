@@ -1465,6 +1465,7 @@ Malware Database Archive
 - [cabalbreach HIBP check](https://osintcabal.org/livecenter/cabalbreach-chiasmodon.html)
 - [mega](https://mega.io/) Need to dorking and knowing the contexts
 - [gosearch](https://github.com/ibnaleem/gosearch)
+- [BreachDetect domain breach check](https://breachdetect.net/domain-breach-check) Free, no signup. Enter a company domain to see how many logins using it appear in stealer logs and breached databases, with a masked sample. Never shows passwords
 
 # Crack Jurnals
 
