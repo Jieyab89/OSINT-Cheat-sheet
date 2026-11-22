@@ -6629,3 +6629,4 @@ Tracking ads or campaign total views, ads costs and more
 - [Linkedin ads tracker](https://www.linkedin.com/ad-library)
 - [X ads tracker](https://ads.twitter.com/ads-repository)
 - [LurkAPI Snapchat Story Viewer](https://lurkapi.com/free-tools/snapchat-story-viewer) Watch a public profile's current story, highlights and Spotlight videos without an account, so your name never shows in the viewers list. Free, 5 tries a day without signup
+- [Social Fetch](https://www.socialfetch.dev) Social media data API: public profiles, posts, comments and transcripts from TikTok, Instagram, YouTube, X, Reddit and LinkedIn as JSON, also usable through a hosted MCP server. Paid, with 100 free credits to try, no card
