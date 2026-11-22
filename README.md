@@ -2191,6 +2191,7 @@ Note is for investigator like search scandal (Adult), deepfake porn or blackmail
 - [ytlarge](https://ytlarge.com/)
 - [youtube-lookup vidio](https://youtube-lookup.vercel.app/)
 - [MonetizationKit](https://monetizationkit.com/) Check if a YouTube channel is in the Partner Program from public signals (Join button, merch shelf, ads on recent videos, subscriber tier), each shown next to the verdict. Free, no account
+- [AlphaOSINT YouTube Transcripts API](https://alphaosint.com/sources/youtube-transcripts-api/) Unofficial API that pulls timestamped transcripts for a batch of YouTube videos or Shorts at once, with video metadata, as JSON; also works as a remote MCP tool. Paid per transcript
 
 # Mastodon 
 
