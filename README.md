@@ -993,6 +993,7 @@ There is a resouces to investigae malicious link and bypass url shortlink
 - [unwiredlabs](https://unwiredlabs.com/products) Dataset about IP around world 
 - [IPASIS](https://ipasis.com/) Real-time bot detection and fraud prevention API. Returns risk score (0-100), VPN/proxy/Tor/residential proxy flags, IP reputation, email validation (disposable/free/domain age), and fraud signals — all from a single API call with IP + email input. Sub-20ms response. Free tier: 100 req/day
 - [Whatoblock](https://whatoblock.com/) IP lookup against honeypot data scanners, botnet C2 servers, proxies and Tor exit nodes. Free tier available
+- [InboxShield](https://inbox-checker.appwrite.network) Passive email DNS and mail-infrastructure recon: recursively expands SPF include chains (RFC 7208 <=10 lookups), probes 24 DKIM selectors, checks DMARC, MTA-STS, BIMI, and 5 live DNSBL blocklists with zero signup (browser + zero-install `curl` CLI).
 
 # Wireless Network
 
